@@ -1,0 +1,54 @@
+name: Collect cache data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: worlds itrep-cache-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out data repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+      - name: Run normalizer tests
+        run: |
+          node tests/markets-normalizer.test.mjs
+          node tests/hazards-normalizer.test.mjs
+      - name: Collect current snapshots
+        run: |
+          node scripts/collect-markets.mjs
+          node scripts/collect-hazards.mjs
+      - name: Prune archives older than 90 days
+        shell: bash
+        run: |
+          find markets-data/archive hazards-data/archive -mindepth 3 -maxdepth 3 -type d -mtime +90 -prune -exec rm -rf {} + 2>/dev/null || true
+          find markets-data/archive hazards-data/archive -name "*.jsonl" -mtime +90 -delete 2>/dev/null || true
+      - name: Commit meaningful snapshot changes
+        shell: bash
+        run: |
+          if git diff --quiet -- markets-data/latest.json markets-data/archive hazards-data/latest.json hazards-data/archive; then
+            echo "No meaningful cache change; nothing to commit."
+            exit 0
+          fi
+          git add -- markets-data/latest.json markets-data/archive hazards-data/latest.json hazards-data/archive
+          if git diff --cached --quiet; then
+            echo "No staged cache change; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update cache snapshots"
+          git push
