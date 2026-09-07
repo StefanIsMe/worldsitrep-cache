@@ -103,7 +103,10 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
       catch (error) { console.error("hdx fixture: " + error.message); }
     }
   } else {
-    if (wantGdelt) {
+    // GDELT DOC is unreachable from GitHub Actions runners (connection fails;
+    // verified 2026-09-07 from two networks). Attempt it only when explicitly
+    // enabled so hourly runs stay fast: GDELT_ENABLED=1 node scripts/collect-events.mjs
+    if (wantGdelt && process.env.GDELT_ENABLED === "1") {
     for (const [theatre, query] of Object.entries(THEATER_QUERIES)) {
       try {
         const url = "https://api.gdeltproject.org/api/v2/doc/doc?query=" + encodeURIComponent(query)
@@ -117,6 +120,8 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
       } catch (error) { console.error("gdelt " + theatre + ": " + error.message); }
       await sleep(GDELT_DELAY_MS);
     }
+    } else if (wantGdelt) {
+      console.log("GDELT skipped (unreachable from this network; set GDELT_ENABLED=1 to attempt)");
     }
     if (wantHdx) {
     for (const [theatre, term] of Object.entries(THEATER_HDX_TERMS)) {
