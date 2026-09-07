@@ -53,4 +53,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: update cache snapshots"
+          git pull --rebase origin main
           git push
