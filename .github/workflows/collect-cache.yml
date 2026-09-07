@@ -27,23 +27,25 @@ jobs:
         run: |
           node tests/markets-normalizer.test.mjs
           node tests/hazards-normalizer.test.mjs
+          node tests/events-normalizer.test.mjs
       - name: Collect current snapshots
         run: |
           node scripts/collect-markets.mjs
           node scripts/collect-hazards.mjs
+          node scripts/collect-events.mjs
       - name: Prune archives older than 90 days
         shell: bash
         run: |
-          find markets-data/archive hazards-data/archive -mindepth 3 -maxdepth 3 -type d -mtime +90 -prune -exec rm -rf {} + 2>/dev/null || true
-          find markets-data/archive hazards-data/archive -name "*.jsonl" -mtime +90 -delete 2>/dev/null || true
+          find markets-data/archive hazards-data/archive events-data/archive -mindepth 3 -maxdepth 3 -type d -mtime +90 -prune -exec rm -rf {} + 2>/dev/null || true
+          find markets-data/archive hazards-data/archive events-data/archive -name "*.jsonl" -mtime +90 -delete 2>/dev/null || true
       - name: Commit meaningful snapshot changes
         shell: bash
         run: |
-          if git diff --quiet -- markets-data/latest.json markets-data/archive hazards-data/latest.json hazards-data/archive; then
+          if git diff --quiet -- markets-data/latest.json markets-data/archive hazards-data/latest.json hazards-data/archive events-data/latest.json events-data/archive; then
             echo "No meaningful cache change; nothing to commit."
             exit 0
           fi
-          git add -- markets-data/latest.json markets-data/archive hazards-data/latest.json hazards-data/archive
+          git add -- markets-data/latest.json markets-data/archive hazards-data/latest.json hazards-data/archive events-data/latest.json events-data/archive
           if git diff --cached --quiet; then
             echo "No staged cache change; nothing to commit."
             exit 0

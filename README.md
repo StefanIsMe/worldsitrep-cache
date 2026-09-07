@@ -8,6 +8,11 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   Source: `https://gamma-api.polymarket.com/events` (free, keyless).
 - `hazards-data/latest.json` — rolling USGS earthquake snapshot (M4.5+, past 24h).
   Source: `https://earthquake.usgs.gov/fdsnws/event/1/query` (free, keyless).
+- `events-data/latest.json` — rolling events snapshot: GDELT DOC artlist
+  derived metadata per theatre (title/url/publisher/date only, link-only —
+  never article bodies) + HDX CKAN package metadata (license respected).
+  Sources: `https://api.gdeltproject.org/api/v2/doc/doc`,
+  `https://data.humdata.org/api/3/action/package_search` (free, keyless).
 - `<name>-data/archive/YYYY/MM/DD.jsonl` — one full envelope per collected run.
 
 Raw feed URLs:

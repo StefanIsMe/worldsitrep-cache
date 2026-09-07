@@ -2,6 +2,7 @@
 
 export const MARKETS_SCHEMA_VERSION = 1;
 export const HAZARDS_SCHEMA_VERSION = 1;
+export const EVENTS_SCHEMA_VERSION = 1;
 
 /** Parse a 0..1 price into a 0..100 probability with one decimal. */
 export function toProbability(value) {
@@ -44,8 +45,7 @@ export function selectLiveMarkets(markets) {
 }
 
 /** Normalize one USGS GeoJSON feature. Throws on missing geometry. */
-export function normalizeUsgsFeature(feature) {
-  const coords = feature?.geometry?.coordinates;
+export function normalizeUsgsFeature(feature) {  const coords = feature?.geometry?.coordinates;
   if (!Array.isArray(coords) || !Number.isFinite(coords[0]) || !Number.isFinite(coords[1])) {
     throw new TypeError("USGS feature must have numeric Point coordinates");
   }
@@ -61,5 +61,38 @@ export function normalizeUsgsFeature(feature) {
     depthKm: Number.isFinite(Number(coords[2])) ? Number(coords[2]) : null,
     url: p.url != null ? String(p.url) : null,
     tsunami: p.tsunami === 1,
+  };
+}
+
+/**
+ * Normalize one GDELT DOC 2.0 artlist article (derived metadata only —
+ * never mirror body text; link back to the source URL).
+ */
+export function normalizeGdeltArticle(article, theatre) {
+  const url = article?.url;
+  if (!url) throw new TypeError("GDELT article must have a url");
+  return {
+    id: String(article.id || url),
+    theatre,
+    title: String(article.title || url),
+    url: String(url),
+    publisher: article.sourceCountry != null ? String(article.sourceCountry) : article.domain != null ? String(article.domain) : null,
+    publishedAt: article.seendate != null ? String(article.seendate) : article.date != null ? String(article.date) : null,
+    language: article.language != null ? String(article.language) : null,
+  };
+}
+
+/** Normalize one HDX CKAN package (metadata only — respect dataset license). */
+export function normalizeHdxPackage(pkg, theatre) {
+  const name = pkg?.name;
+  if (!name) throw new TypeError("HDX package must have a name");
+  return {
+    id: String(name),
+    theatre,
+    title: String(pkg.title || name),
+    url: "https://data.humdata.org/dataset/" + String(name),
+    organization: pkg.organization?.title != null ? String(pkg.organization.title) : null,
+    license: pkg.license_title != null ? String(pkg.license_title) : null,
+    updatedAt: pkg.metadata_modified != null ? String(pkg.metadata_modified) : null,
   };
 }
