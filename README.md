@@ -27,6 +27,14 @@ Raw feed URLs:
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/hazards-data/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/events-data/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/news-data/latest.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/taiwan-data/latest.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/arctic-data/latest.json
+
+Schedules: `.github/workflows/collect-cache.yml` runs hourly (minute 7);
+`.github/workflows/collect-daily.yml` runs daily (01:23 UTC) for Taiwan MND
+PLA activities (factual counts + attribution + link back) and NSIDC Arctic
+sea-ice image metadata (citation NSIDC/CIRES/NASA).
+Both run unit tests first and commit only meaningful changes.
 
 Schedule: `.github/workflows/collect-cache.yml` runs hourly (minute 7),
 runs unit tests first, collects, and commits only meaningful changes.
@@ -42,3 +50,5 @@ node scripts/collect-markets.mjs
 node scripts/collect-hazards.mjs
 node scripts/collect-events.mjs
 node scripts/collect-news.mjs
+node tests/daily-collectors.test.mjs
+node scripts/collect-daily.mjs

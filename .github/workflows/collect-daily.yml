@@ -1,0 +1,51 @@
+name: Collect daily data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 1 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: worlds itrep-cache-daily
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out data repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+      - name: Run daily tests
+        run: node tests/daily-collectors.test.mjs
+      - name: Collect daily snapshots
+        run: node scripts/collect-daily.mjs
+      - name: Prune archives older than 180 days
+        shell: bash
+        run: |
+          find taiwan-data/archive arctic-data/archive -mindepth 3 -maxdepth 3 -type d -mtime +180 -prune -exec rm -rf {} + 2>/dev/null || true
+          find taiwan-data/archive arctic-data/archive -name "*.jsonl" -mtime +180 -delete 2>/dev/null || true
+      - name: Commit meaningful snapshot changes
+        shell: bash
+        run: |
+          if git diff --quiet -- taiwan-data/latest.json taiwan-data/archive arctic-data/latest.json arctic-data/archive; then
+            echo "No meaningful daily change; nothing to commit."
+            exit 0
+          fi
+          git add -- taiwan-data/latest.json taiwan-data/archive arctic-data/latest.json arctic-data/archive
+          if git diff --cached --quiet; then
+            echo "No staged daily change; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update daily snapshots"
+          git pull --rebase origin main
+          git push
