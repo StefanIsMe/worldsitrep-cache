@@ -4,7 +4,16 @@ async function json(url) { const res = await fetch(url, { headers, signal: Abort
 async function save(dir, value) { await mkdir(dir, {recursive:true}); await writeFile(dir + '/latest.json', JSON.stringify(value)); }
 async function previous(dir) { try { return JSON.parse(await readFile(dir + '/latest.json','utf8')); } catch { return {}; } }
 const results = await Promise.allSettled([
-  (async () => { const data = await json('https://opensky-network.org/api/states/all'); if (!Array.isArray(data.states) || !Number.isFinite(data.time)) throw Error('Invalid OpenSky envelope'); await save('commercial-data', data); console.log('Commercial states:', data.states.length); })(),
+  (async () => { const data = await json('https://opensky-network.org/api/states/all'); if (!Array.isArray(data.states) || !Number.isFinite(data.time)) throw Error('Invalid OpenSky envelope'); const prev = await previous('commercial-data');
+    const tracks = {};
+    for (const s of data.states) {
+      if (!/^[0-9a-f]{6}$/i.test(s[0]) || !Number.isFinite(s[3]) || !Number.isFinite(s[5]) || !Number.isFinite(s[6]) || Math.abs(s[5]) > 180 || Math.abs(s[6]) > 90) continue;
+      const hex = s[0].toLowerCase(); const seen = new Set();
+      tracks[hex] = [...(prev.tracks?.[hex] || []), {lat:s[6], lng:s[5], observedAt:new Date(s[3]*1000).toISOString()}]
+        .filter(p => { const age = data.time*1000-Date.parse(p.observedAt); const key=p.observedAt+':'+p.lat+':'+p.lng; if (!Number.isFinite(age) || age < -60000 || age > 86400000 || seen.has(key)) return false; seen.add(key); return true; })
+        .sort((a,b)=>Date.parse(a.observedAt)-Date.parse(b.observedAt)).slice(-2000);
+    }
+    await save('commercial-data', {...data, tracks}); console.log('Commercial states:', data.states.length); })(),
   (async () => {
     const [locations, metadata, prev] = await Promise.all([json('https://meri.digitraffic.fi/api/ais/v1/locations'), json('https://meri.digitraffic.fi/api/ais/v1/vessels'), previous('maritime-data')]);
     if (!Array.isArray(locations.features) || !Array.isArray(metadata)) throw Error('Invalid Digitraffic envelope');
