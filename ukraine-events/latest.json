@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "ukraine",
-  "collectedAt": "2026-09-21T08:55:33.522Z",
+  "collectedAt": "2026-09-21T09:07:24.758Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 14
+      "count": 12
     },
     {
       "id": "kyiv-independent",
@@ -24,16 +24,14 @@
     {
       "id": "gnews-war",
       "url": "https://news.google.com/rss/search?q=Ukraine%20war&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-war request failed with HTTP 503"
+      "status": "ok",
+      "count": 15
     },
     {
       "id": "gnews-strikes",
       "url": "https://news.google.com/rss/search?q=Ukraine%20drones%20OR%20missiles%20OR%20Kyiv%20strike&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-strikes request failed with HTTP 503"
+      "status": "ok",
+      "count": 15
     },
     {
       "id": "isw-assessments",
@@ -58,11 +56,11 @@
   "deepstate": {
     "snapshotId": "1789884551",
     "featureCount": 525,
-    "fetchedAt": "2026-09-21T08:55:33.522Z",
+    "fetchedAt": "2026-09-21T09:07:24.758Z",
     "url": "https://deepstatemap.live/en",
     "note": "Status signal only: no DeepState geometry is stored or republished. Territory updates remain manual exports with attribution."
   },
-  "count": 107,
+  "count": 115,
   "events": [
     {
       "id": "news-181yqx0",
@@ -88,6 +86,25 @@
       "coordsNote": "Headline gazetteer match: \"Zaporizhzhia\" (city); verify via source article."
     },
     {
+      "id": "news-scay46",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T08:20:00.000Z",
+      "description": "Ukraine signs agreement with Polish energy giant Orlen (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrainska Pravda",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054409/"
+    },
+    {
       "id": "news-1dw13dq",
       "kind": "news",
       "date": "2026-09-21",
@@ -105,6 +122,25 @@
       "locationStr": "Kyiv Independent",
       "source": "Kyiv Independent",
       "sourceUrl": "https://kyivindependent.com/ukraines-top-negotiator-praises-witkoff-pushes-back-against-kyiv-independents-reporting/"
+    },
+    {
+      "id": "news-1oo002n",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T08:12:18.000Z",
+      "description": "Ukraine-Russia war latest: Kremlin vows response after massive Ukrainian drone strikes during Putin’s election - independent.co.uk (independent.co.uk, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "independent.co.uk",
+      "axis": "Other",
+      "tags": [
+        "independent.co.uk",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "independent.co.uk",
+      "source": "independent.co.uk",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYzU0Vk5aWjN3V2szYWU5UGZ5Vm9iMUsyRElESWJiMnV2LXVpckRBbGpGYzFuVWRaUXptUWZuTWxhdkM5bnhOYndiLXFwLXZWMVpUZGFweS1KNU1ySi1FTFFtS1JONFBGdlVCX3ByWUljZWpZcEY3S0hsLXJTSFBtMnNSdnFmRDFocW1aV0Y1bHpWSUYzUENabWZTNVhBS0M2RWtaYm8ydC1XYTVScEw2TjBzNWRCVWNQdlNVQQ?oc=5"
     },
     {
       "id": "news-scay2c",
@@ -128,6 +164,25 @@
       "lat": 48.46,
       "lng": 35.05,
       "coordsNote": "Headline gazetteer match: \"Dnipro\" (city); verify via source article."
+    },
+    {
+      "id": "news-1u1kn31",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T08:06:02.000Z",
+      "description": "Ukraine Launches Major Drone Attack as Russia Votes - globalpost.com (globalpost.com, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "globalpost.com",
+      "axis": "Other",
+      "tags": [
+        "globalpost.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "globalpost.com",
+      "source": "globalpost.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcUFqM0VfR2t2ZUEtUjFndTQ5c2lac18zVndiTFVOVjg3UlVuTkV3RGJlM05uY0l1TzRBdS05Nkl6bThVTUdiY0R1TTRHQ0RoSm5aM0ZhRng4RjJrckl2NkZFSVh5VWtBdUxmaFpKUnRKOHZpeDhZQzNRUjVDZmI2eFQ4cFdnNmtyWlhv?oc=5"
     },
     {
       "id": "news-scay1f",
@@ -363,6 +418,25 @@
       "coordsNote": "Headline gazetteer match: \"Kropyvnytskyi\" (city); verify via source article."
     },
     {
+      "id": "news-p26q05",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T05:00:00.000Z",
+      "description": "Ukraine veterans yearn for days of ‘meat grinder’ war - The Telegraph (The Telegraph, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Telegraph",
+      "axis": "Other",
+      "tags": [
+        "The Telegraph",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Telegraph",
+      "source": "The Telegraph",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUJtRm1QeTh4bDYwaC1keURqQmpyUVY2TnRPSDVPcEFLNGRHbzVZWUtzeEFZVGVOdkZSYTFjbHpTU2hLR0pLaEFIa2p1S1dmYjBmN0h2dHRmQVlrYWxhc2UxWl80S3pwaURvSVZQa3hDanptOTdrM3llTFVaSjJpYVA0cWlEdkF5Ry1vWV81blpFQlZzZWhIVk1IUDFYd0hl?oc=5"
+    },
+    {
       "id": "news-17d361g",
       "kind": "news",
       "date": "2026-09-21",
@@ -380,6 +454,25 @@
       "locationStr": "Kyiv Independent",
       "source": "Kyiv Independent",
       "sourceUrl": "https://kyivindependent.com/russia-launched-more-than-2-000-drones-at-ukraine-over-past-week-zelensky-says/"
+    },
+    {
+      "id": "news-etc57p",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T04:01:30.000Z",
+      "description": "Trump to meet with Zelensky as Russia-Ukraine attacks intensify - Axios (Axios, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeDZnel8zUVpOS0dxSm5UVWI0dE0zcFFUQXR2dVIyUzlTcmFqa1BuYmttdGdla1pES2VkMklxNXRLYkU4cGppX2Q1eF9vM3k1MFRGMVo3R3lyNThGVU1EN3pQRTM5dl9NcmlKamc4bC1vd1ZPZVBRXzFUNTU0SFBzY2pVQXY0UVk?oc=5"
     },
     {
       "id": "news-670plv",
@@ -456,6 +549,25 @@
       "locationStr": "Ukrainska Pravda",
       "source": "Ukrainska Pravda",
       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054382/"
+    },
+    {
+      "id": "news-1ni7shu",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T01:58:03.000Z",
+      "description": "Russian Offensive Campaign Assessment, September 20, 2026 - Institute for the Study of War (Institute for the Study of War, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Institute for the Study of War",
+      "axis": "Other",
+      "tags": [
+        "Institute for the Study of War",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Institute for the Study of War",
+      "source": "Institute for the Study of War",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2QzWlBaUzViWXlFYzRXZnEtNU5uSU9UeGZtMlZsOTRHUkhqWi1HVmhRbWY0dXpFcHhFbkhBb1BaSXBIc1VuQVZvbllvZHBuVkkzVmdaUkliVkNubEFxQnQ4R1JLUDZWczRBTU55R1NlTlpFeEtWZUZLRFhTSmk2dWxXUXlzdFY0VldfaGdzY3NZdkcyQVlwcnFwald6eG1aUjhzazlwakx1OWViWWc?oc=5"
     },
     {
       "id": "news-13cq7ax",
@@ -1410,6 +1522,29 @@
       "sourceUrl": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-september-20-2026/"
     },
     {
+      "id": "news-18xdeci",
+      "kind": "news",
+      "date": "2026-09-20",
+      "isoDate": "2026-09-20T21:09:29.000Z",
+      "description": "Hundreds of Drones Target Moscow on Final Day of Russian Elections - The New York Times (The New York Times, 2026-09-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jV2JMSDJISDhpMVZxNUlOd0tDbGRqRC1Vdk9HT2FfQ3U1cjdyMWIxUmxOOEtxNlhMWE5SaGhLQXdQazNWUXVXcFJKTDFpOGUxWVdsYjM1bXZBQ2NOYW1kV1hOZi1rXzhEY29GWHRkaU1uYTNBeUpuNzBGODU4Mjg?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
+    },
+    {
       "id": "news-l07pgq",
       "kind": "news",
       "date": "2026-09-20",
@@ -1429,25 +1564,6 @@
       "sourceUrl": "https://kyivindependent.com/zelensky-trump-to-meet-in-new-york-in-talks-that-could-change-a-lot/"
     },
     {
-      "id": "news-etc57p",
-      "kind": "news",
-      "date": "2026-09-20",
-      "isoDate": "2026-09-20T19:15:29.000Z",
-      "description": "Trump to meet with Zelensky as Russia-Ukraine attacks intensify - Axios (Axios, 2026-09-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeDZnel8zUVpOS0dxSm5UVWI0dE0zcFFUQXR2dVIyUzlTcmFqa1BuYmttdGdla1pES2VkMklxNXRLYkU4cGppX2Q1eF9vM3k1MFRGMVo3R3lyNThGVU1EN3pQRTM5dl9NcmlKamc4bC1vd1ZPZVBRXzFUNTU0SFBzY2pVQXY0UVk?oc=5"
-    },
-    {
       "id": "news-graala",
       "kind": "news",
       "date": "2026-09-20",
@@ -1465,6 +1581,25 @@
       "locationStr": "Kyiv Independent",
       "source": "Kyiv Independent",
       "sourceUrl": "https://kyivindependent.com/ukraine-war-latest-zelensky-approves-new-long-range-operations-in-response-to-russian-strikes/"
+    },
+    {
+      "id": "news-ufy511",
+      "kind": "news",
+      "date": "2026-09-20",
+      "isoDate": "2026-09-20T19:12:37.000Z",
+      "description": "Ukraine war latest: Zelensky approves 'new long-range operations' in response to Russian strikes - The Kyiv Independent (The Kyiv Independent, 2026-09-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "The Kyiv Independent",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Kyiv Independent",
+      "source": "The Kyiv Independent",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYTVPdENKR2ZrU0xBRFhmNDY0UTg0ZTVNUTNpZmpNc0dnZ3lCTjlLTkNSZ1RiYUQtQVdBMnA3Zlp0akpzcnRMRHR5dWQ3UTBjUDliZ2lsSkpVVlA0V3lBd0QyZUFGQUkzcGRiV1pOT2hhdll6WjB3WVR5cWFiZVBvMjVRVFZrY0tJVVhVNTdiSl9TRTlpMFJ1SlJjTWh1V2NBb3R5X0RiQUFjakFfZFBONUhlVUlBbUlLWTdCVGdDYw?oc=5"
     },
     {
       "id": "news-1urq7b1",
@@ -1592,6 +1727,29 @@
       "locationStr": "Moscow",
       "source": "Ukrainska Pravda",
       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/20/8054358/",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
+    },
+    {
+      "id": "news-1b6pfll",
+      "kind": "news",
+      "date": "2026-09-20",
+      "isoDate": "2026-09-20T16:44:18.000Z",
+      "description": "Russia: Ukrainian drone strike on Moscow kills 2 - DW.com (DW.com, 2026-09-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW.com",
+      "axis": "Other",
+      "tags": [
+        "DW.com",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
+      "source": "DW.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeTY0eHl2OGJlMWFaYldTLUxHSFJ5ZVgtS2ZxQm54T29PUmdpYVNxRnhoLTdrQ0swdTBmaEpRLVJZWWdOc3pzTFdTS3FoUWQ3N19GVnB3VHpOdUMtQmZETUI5NFpzZkFKVGMzWjdWM1c2R2VwY05iQnM2dlVkS2F3TWFUOExXQXfSAYcBQVVfeXFMTWt5eFRvcjZJUm1kS1BELUZwNGo5dDQ0VFUzTG00SWNuWmxkSGg3dFVvZ1ZFOGtib1NETHhaWEIwa0xqSHd4VWk4elkxZ244dzFRdEFrTVV5aUdnMWV6MlNIalF6cWp0NjdvNGV5T3AwT0VHMUozOUc5WHNDRFV1NFgtS0JVWlpN?oc=5",
       "lat": 55.76,
       "lng": 37.62,
       "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
@@ -1887,29 +2045,6 @@
       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/20/8054327/"
     },
     {
-      "id": "news-1b6pfll",
-      "kind": "news",
-      "date": "2026-09-20",
-      "isoDate": "2026-09-20T12:36:45.000Z",
-      "description": "Russia: Ukrainian drone strike on Moscow kills 2 - DW.com (DW.com, 2026-09-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DW.com",
-      "axis": "Other",
-      "tags": [
-        "DW.com",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Moscow",
-      "source": "DW.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeTY0eHl2OGJlMWFaYldTLUxHSFJ5ZVgtS2ZxQm54T29PUmdpYVNxRnhoLTdrQ0swdTBmaEpRLVJZWWdOc3pzTFdTS3FoUWQ3N19GVnB3VHpOdUMtQmZETUI5NFpzZkFKVGMzWjdWM1c2R2VwY05iQnM2dlVkS2F3TWFUOExXQXfSAYcBQVVfeXFMTWt5eFRvcjZJUm1kS1BELUZwNGo5dDQ0VFUzTG00SWNuWmxkSGg3dFVvZ1ZFOGtib1NETHhaWEIwa0xqSHd4VWk4elkxZ244dzFRdEFrTVV5aUdnMWV6MlNIalF6cWp0NjdvNGV5T3AwT0VHMUozOUc5WHNDRFV1NFgtS0JVWlpN?oc=5",
-      "lat": 55.76,
-      "lng": 37.62,
-      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
-    },
-    {
       "id": "news-lfn5x5",
       "kind": "news",
       "date": "2026-09-20",
@@ -1940,16 +2075,31 @@
       "axis": "Other",
       "tags": [
         "Fox News",
-        "headline",
-        "headline-geocoded"
+        "headline"
       ],
-      "coordsTier": "approximate",
-      "locationStr": "Moscow",
+      "coordsTier": "unplaced",
+      "locationStr": "Fox News",
       "source": "Fox News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcmZhbm8zdlF4ZjhWVFlhRUdQUzBBbkJmZEJRTW1ScDJVcnp2VXNuRUFEaTAyTS1YbUwwSGwzc3hMUUlQcFlQS3NJNGx6Y1pCaTlPek9QUU9MVmhVMzJzNHl5c1k1SkF1YTBzTlJuazVaOG9zX1RCbHpWcmNxdk1hdUJnNHpoWTVJM2FJRjVQLVhlNU43MllpckFwVnpsRU5peTZkQnlFX29YUdIBrwFBVV95cUxNdm1EdnQ4VzFqSFZKMHNUOVdtUm5iUEJMVFBQVG9kM3hzS3NzbWtYTDZ4YmkzWnlUZ1RiTmZ2SmxqSC1YdHZZcXNvdjhvNzE3eDZ2S2xPdmQzVUxMU2ZNTklEdG9uUTVtaEVJdDNFLTczVEt5UVp6RTY1Wk5ISndGU0dPdG9GS2cyeEFnOTJUVmRfbmRSMWZLQzJJUkl5MHA5NVVRVUFRSXlENVdBNUZN?oc=5",
-      "lat": 55.76,
-      "lng": 37.62,
-      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcmZhbm8zdlF4ZjhWVFlhRUdQUzBBbkJmZEJRTW1ScDJVcnp2VXNuRUFEaTAyTS1YbUwwSGwzc3hMUUlQcFlQS3NJNGx6Y1pCaTlPek9QUU9MVmhVMzJzNHl5c1k1SkF1YTBzTlJuazVaOG9zX1RCbHpWcmNxdk1hdUJnNHpoWTVJM2FJRjVQLVhlNU43MllpckFwVnpsRU5peTZkQnlFX29YUdIBrwFBVV95cUxNdm1EdnQ4VzFqSFZKMHNUOVdtUm5iUEJMVFBQVG9kM3hzS3NzbWtYTDZ4YmkzWnlUZ1RiTmZ2SmxqSC1YdHZZcXNvdjhvNzE3eDZ2S2xPdmQzVUxMU2ZNTklEdG9uUTVtaEVJdDNFLTczVEt5UVp6RTY1Wk5ISndGU0dPdG9GS2cyeEFnOTJUVmRfbmRSMWZLQzJJUkl5MHA5NVVRVUFRSXlENVdBNUZN?oc=5"
+    },
+    {
+      "id": "news-v647ao",
+      "kind": "news",
+      "date": "2026-09-20",
+      "isoDate": "2026-09-20T11:42:47.000Z",
+      "description": "Russia-Ukraine war creates new voting bloc in Israel as immigrants find their political voice - Ynetnews (Ynetnews, 2026-09-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ynetnews",
+      "axis": "Other",
+      "tags": [
+        "Ynetnews",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ynetnews",
+      "source": "Ynetnews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43Z05IOXg3cDd6dGhxMmRNWnVFSXhxbEJZaDZGc3R3YnprWjRYNzlfcV9NNzU4RUFaTG4wR1VtMTUwQVc1VGd1eXRISl80UjFCVzdSTlB3?oc=5"
     },
     {
       "id": "news-1e5icnp",
@@ -1982,16 +2132,12 @@
       "axis": "Other",
       "tags": [
         "CNBC",
-        "headline",
-        "headline-geocoded"
+        "headline"
       ],
-      "coordsTier": "approximate",
-      "locationStr": "Moscow",
+      "coordsTier": "unplaced",
+      "locationStr": "CNBC",
       "source": "CNBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNblpTUndRWEpUcUtqVjM2Y0ZpNWxiTmV3aHFLWEdhRmN6eFdYX01udDhzSEdjYThFa3o5THFmV2xQMzRnNzV6NGpYOTVaN0otQm8xMDBKUnctUzlGdTZLck1GZFE0Q29DSE1MNC1tRU04Uml0dUNRUTAzX25lVS0tcWJSVUd2R3Z0MnUtMmlCZ1lXeGFrSFl2NzFDNNIBoAFBVV95cUxNZkZNamhlODZUTDZMUXNmNWRPQzFjZ0xtbTZzaTlKRGlOdWcybzJyN1psYXhDaUNpeG5nb0R1NzBTYTBlbnFMNUdvd253dnVLMUR0R2FCLWYzQVFaWER5LVM0cDZjMm5jeWhDaWhuR1FZSnlMcVhkTUV6R0MzMWRkZm1vU08wSlhGLVpaRW1pT2NmUUtVa1FOMnFDZThjczFf?oc=5",
-      "lat": 55.76,
-      "lng": 37.62,
-      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNblpTUndRWEpUcUtqVjM2Y0ZpNWxiTmV3aHFLWEdhRmN6eFdYX01udDhzSEdjYThFa3o5THFmV2xQMzRnNzV6NGpYOTVaN0otQm8xMDBKUnctUzlGdTZLck1GZFE0Q29DSE1MNC1tRU04Uml0dUNRUTAzX25lVS0tcWJSVUd2R3Z0MnUtMmlCZ1lXeGFrSFl2NzFDNNIBoAFBVV95cUxNZkZNamhlODZUTDZMUXNmNWRPQzFjZ0xtbTZzaTlKRGlOdWcybzJyN1psYXhDaUNpeG5nb0R1NzBTYTBlbnFMNUdvd253dnVLMUR0R2FCLWYzQVFaWER5LVM0cDZjMm5jeWhDaWhuR1FZSnlMcVhkTUV6R0MzMWRkZm1vU08wSlhGLVpaRW1pT2NmUUtVa1FOMnFDZThjczFf?oc=5"
     },
     {
       "id": "news-syewh7",
@@ -2103,29 +2249,6 @@
       "lat": 48.02,
       "lng": 37.8,
       "coordsNote": "Headline gazetteer match: \"Donetsk\" (region); verify via source article."
-    },
-    {
-      "id": "news-18xdeci",
-      "kind": "news",
-      "date": "2026-09-20",
-      "isoDate": "2026-09-20T09:44:56.000Z",
-      "description": "Hundreds of Drones Target Moscow on Final Day of Russian Elections - nytimes.com (nytimes.com, 2026-09-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "nytimes.com",
-      "axis": "Other",
-      "tags": [
-        "nytimes.com",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Moscow",
-      "source": "nytimes.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jV2JMSDJISDhpMVZxNUlOd0tDbGRqRC1Vdk9HT2FfQ3U1cjdyMWIxUmxOOEtxNlhMWE5SaGhLQXdQazNWUXVXcFJKTDFpOGUxWVdsYjM1bXZBQ2NOYW1kV1hOZi1rXzhEY29GWHRkaU1uYTNBeUpuNzBGODU4Mjg?oc=5",
-      "lat": 55.76,
-      "lng": 37.62,
-      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-1no85yu",
@@ -2326,16 +2449,12 @@
       "axis": "Other",
       "tags": [
         "Kyiv Independent",
-        "headline",
-        "headline-geocoded"
+        "headline"
       ],
-      "coordsTier": "approximate",
-      "locationStr": "Moscow",
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Independent",
       "source": "Kyiv Independent",
-      "sourceUrl": "https://kyivindependent.com/russia-says-dozens-of-ukrainian-drones-targeted-moscow-as-broader-attack-hit-multiple-regions/",
-      "lat": 55.76,
-      "lng": 37.62,
-      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
+      "sourceUrl": "https://kyivindependent.com/russia-says-dozens-of-ukrainian-drones-targeted-moscow-as-broader-attack-hit-multiple-regions/"
     },
     {
       "id": "news-1c759t9",
@@ -2393,6 +2512,25 @@
       "locationStr": "Fortune",
       "source": "Fortune",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU25hUm84YTVMblVTRlA5Y3hzekhpSDZadkpvZTJhQ2FxeGl0Q09uZDJIbWNqSy1iejBCNXJqZ1pVaEs2alVhbnkzQTNUdG9YTzU0Y0x6ZWZwcjRYeGEwM29nRmtySGU4X1RLTUluQkNjcWVLSEFIS0tHcjQ2eXZoQjd0WjJfVFdSd24tbnFMcWltN0tROU1pUHFHTEt0VjBhNzE0?oc=5"
+    },
+    {
+      "id": "news-sk1fcn",
+      "kind": "news",
+      "date": "2026-09-19",
+      "isoDate": "2026-09-19T00:49:53.000Z",
+      "description": "Trump signs sweeping Russia sanctions over Ukraine war - Al Jazeera (Al Jazeera, 2026-09-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZW53Y3d4N25GZjVKRlJ4RkxiRkZ6Y1NKTVJoUGp3bHFzZTk3OGJvdG1qMm9ubDhqQmo0YVYtQnc4aWNRejUwd2VFX1NVRFRMM1h0QXhLX2VwRTlYM2psTFBWeC1BekxaVUFfQm54bXhpOGtUdTU3MkJKUVV5cHpTcFBpRlQyVXFMVFpFcEVoVnN1S1hxQ0VLaTY0a9IBoAFBVV95cUxQOTFZdG83ZU5IOUxvQ2RqMnhzRnZfY2pZOTIyTHF2YUVSR2pCeGJTV25IWTVCU2w3WEg1LWl3SkdvVXVhZGJONEFZTk5VNlh3VFRnaGphSTlmRGtTaDkyNjM4YVlaOW8wOWZmaWxRNHpQVS1KT1ZyaGVUaUNnTzdQX25HODFUN1ZhcmVuNVZRVnFwNmlrbG1OSmRnTzF6MWFI?oc=5"
     },
     {
       "id": "isw-158916",
