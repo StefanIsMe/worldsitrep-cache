@@ -355,6 +355,32 @@ for (const entry of UKRAINE_GAZETTEER.filter((e) => e.level === 'city')) {
   }
 }
 
+/**
+ * Clean text before place matching: drop parenthetical citations and outlet
+ * names ("Kyiv Independent's reporting" is a publication, not a place).
+ * Capital-as-actor is handled by the locative rule in geocodeText instead.
+ */
+export function stripForGeocode(text) {
+  return String(text || '')
+    .replace(/\s*\([^()]*\)\s*/g, ' ')
+    .replace(/\bKyiv\s+(Independent|Post)('s)?\b/gi, ' ')
+    .replace(/\bUkrainska\s+Pravda\b/gi, ' ');
+}
+
+// Capitals double as actor metonyms ("Moscow army", "Kyiv says"), so they
+// match ONLY in clearly locative context: after a preposition, as a struck
+// target, or before a passive target-verb. Every other place matches bare.
+const LOCATIVE_VERBS = 'target|targeting|targets|hit|hits|hitting|strike|strikes|striking|struck|attack|attacks|attacking|attacked|bomb|bombs|bombing|bombed|shelled|shelling|rock|rocks|rocked|rocking|shake|shakes|shaken|shaking';
+function capitalHasLocative(text, names) {
+  for (const n of names) {
+    const e = escapeRe(n);
+    if (new RegExp(`\\b(in|near|at|on|over|against|towards?|across)\\s+(the\\s+)?${e}\\b`, 'i').test(text)) return true;
+    if (new RegExp(`\\b${e}\\s+(was\\s+)?(hit|struck|attacked|targeted|bombed|shelled|rocked|shaken)\\b`, 'i').test(text)) return true;
+    if (new RegExp(`\\b(${LOCATIVE_VERBS})\\s+(the\\s+)?${e}\\b`, 'i').test(text)) return true;
+  }
+  return false;
+}
+
 /** Match a place in free text. Returns { lat, lng, name, level, label, method } or null. */
 export function geocodeText(text) {
   const t = String(text || '');
@@ -366,6 +392,7 @@ export function geocodeText(text) {
   }
   for (const { name, entry, re } of GEO_MATCHERS) {
     if (re.test(t)) {
+      if (entry.capital && !capitalHasLocative(t, entry.names)) continue;
       return { lat: entry.lat, lng: entry.lng, name, level: entry.level, label: entry.label, method: 'gazetteer' };
     }
   }
@@ -427,6 +454,17 @@ export function validateOsmResult(result) {
   return { lat: Math.round(lat * 1e5) / 1e5, lng: Math.round(lng * 1e5) / 1e5, display, country, method: 'osm' };
 }
 
+/** Remove a headline geocode honestly (matcher improved or guard added). */
+export function removeGeocode(item) {
+  const { lat, lng, coordsNote, ...rest } = item;
+  return {
+    ...rest,
+    coordsTier: 'unplaced',
+    locationStr: item.source || item.locationStr,
+    tags: (item.tags || []).filter((t) => t !== 'headline-geocoded'),
+  };
+}
+
 /** Attach a geo result to an item as approximate-tier with a recorded match. */
 export function applyGeocodeToItem(item, geo, matchedName) {
   if (!geo) return item;
@@ -440,6 +478,6 @@ export function applyGeocodeToItem(item, geo, matchedName) {
     coordsTier: 'approximate',
     coordsNote: note,
     locationStr: geo.method === 'osm' ? String(matchedName) : geo.label,
-    tags: [...(item.tags || []), 'headline-geocoded'],
+    tags: [...new Set([...(item.tags || []), 'headline-geocoded'])],
   };
 }

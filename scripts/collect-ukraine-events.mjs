@@ -15,7 +15,8 @@ import {
   UKRAINE_EVENTS_SCHEMA_VERSION, applyGeocodeToItem, deepstateStatusToMeta,
   extractOsmCandidates, gdeltExportUrl, gdeltRowToEvent, gdeltWindowDates,
   geocodeText, googleNewsSources, iswPostToEvent, mergeLiveEvents,
-  reliefwebDocToEvent, rssItemToEvent, extractZipSingleFile, validateOsmResult,
+  reliefwebDocToEvent, removeGeocode, rssItemToEvent, extractZipSingleFile,
+  stripForGeocode, validateOsmResult,
 } from './lib/ukraineEvents.mjs';
 import { parseRssItems } from './collect-news.mjs';
 
@@ -161,24 +162,28 @@ function cacheHas(cache, key) {
  * so previously collected items gain coords on later runs, not just fresh ones.
  */
 async function geocodeEvents(events, { cache, timeout, osmBudget, useOsm }) {
-  let gazetteerHits = 0, osmHits = 0, cacheHits = 0, queries = 0;
+  let gazetteerHits = 0, osmHits = 0, cacheHits = 0, queries = 0, revalidated = 0, unplaced = 0;
   const out = [];
   for (const e of events) {
-    if (e.lat != null && e.lng != null) {
+    const tagged = (e.tags || []).includes('headline-geocoded');
+    const wasGazetteer = tagged && (e.coordsNote || '').includes('gazetteer match');
+    if (e.lat != null && e.lng != null && !wasGazetteer) {
       out.push(e);
-      continue; // already located (GDELT, or geocoded on an earlier run)
+      continue; // located by GDELT/OSM — stable, never re-derived
     }
-    // Strip parenthetical citations AND outlet names in the headline body —
-    // "Kyiv Independent's reporting" is a publication, not a place called Kyiv.
-    const text = (e.description || '')
-      .replace(/\s*\([^()]*\)\s*/g, ' ')
-      .replace(/\bKyiv\s+(Independent|Post)('s)?\b/gi, ' ')
-      .replace(/\bUkrainska\s+Pravda\b/gi, ' ')
-      .trim();
+    const text = stripForGeocode(e.description || '');
     const g = geocodeText(text);
     if (g) {
       out.push(applyGeocodeToItem(e, g, g.name));
-      gazetteerHits++;
+      if (e.lat == null || e.lng == null) gazetteerHits++;
+      else revalidated++;
+      continue;
+    }
+    if (wasGazetteer) {
+      // A guard now rejects this match (e.g. a "Moscow army" actor-phrase):
+      // un-place honestly instead of leaving a wrong dot.
+      out.push(removeGeocode(e));
+      unplaced++;
       continue;
     }
     if (!useOsm) {
@@ -217,7 +222,7 @@ async function geocodeEvents(events, { cache, timeout, osmBudget, useOsm }) {
     }
     out.push(placed ? applyGeocodeToItem(e, placed.geo, placed.name) : e);
   }
-  return { events: out, stats: { gazetteerHits, osmHits, cacheHits, queries } };
+  return { events: out, stats: { gazetteerHits, osmHits, cacheHits, queries, revalidated, removed: unplaced } };
 }
 
 function statusOk(id, url, count) { return { id, url, status: 'ok', count }; }
@@ -454,7 +459,7 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
   const geo = await geocodeEvents(merged, { cache, timeout, osmBudget: OSM_BUDGET_PER_RUN, useOsm: !inputPath });
   const events = geo.events;
   const unplaced = events.filter((e) => e.lat == null || e.lng == null).length;
-  console.log(`geocode: ${geo.stats.gazetteerHits} gazetteer, ${geo.stats.osmHits} osm (+${geo.stats.cacheHits} cached), ${geo.stats.queries} queries, ${unplaced} still unplaced`);
+  console.log(`geocode: ${geo.stats.gazetteerHits} gazetteer, ${geo.stats.osmHits} osm (+${geo.stats.cacheHits} cached), ${geo.stats.queries} queries, ${geo.stats.revalidated} revalidated, ${geo.stats.removed} removed, ${unplaced} still unplaced`);
   if (!inputPath && cache.dirty) {
     await atomicJsonWrite(resolve(output, 'geocode-cache.json'), { _attribution: GEOCODE_CACHE_ATTRIBUTION, entries: cache.entries });
   }

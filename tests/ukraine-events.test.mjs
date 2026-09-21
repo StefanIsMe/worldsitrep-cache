@@ -1,13 +1,13 @@
 import assert from 'node:assert/strict';
 import { deflateRawSync } from 'node:zlib';
-import { mkdtempSync, readFileSync } from 'node:fs';
+import { mkdirSync, mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import {
   UKRAINE_EVENTS_SCHEMA_VERSION, applyGeocodeToItem, deepstateStatusToMeta, extractOsmCandidates,
   extractZipSingleFile, gdeltActorLabel, gdeltRowToEvent, gdeltTypeForRoot, gdeltExportUrl,
   gdeltWindowDates, geocodeText, googleNewsSources, iswPostToEvent, mergeLiveEvents,
-  reliefwebDocToEvent, rssItemToEvent, validateOsmResult,
+  reliefwebDocToEvent, removeGeocode, rssItemToEvent, stripForGeocode, validateOsmResult,
 } from '../scripts/lib/ukraineEvents.mjs';
 import { collect } from '../scripts/collect-ukraine-events.mjs';
 
@@ -221,6 +221,48 @@ assert.throws(() => deepstateStatusToMeta({ id: 1 }, '2026-09-21T00:00:00.000Z')
   assert.ok(!('lat' in outlet), 'outlet names in headlines are not places');
   const assessments = result.feed.events.filter((e) => e.kind === 'assessment');
   assert.ok(assessments.length > 0 && assessments.every((e) => e.coordsTier === 'unplaced'), 'theatre-wide assessments stay unplaced');
+}
+
+// --- Capital locative rule (capitals double as actor metonyms) ---
+{
+  assert.equal(geocodeText(stripForGeocode('The Moscow army captured most of the village')), null, 'Moscow army is an actor');
+  assert.equal(geocodeText(stripForGeocode('Moscow occupiers west of Toshkivka hold on')), null, 'Moscow occupiers are actors');
+  assert.equal(geocodeText(stripForGeocode("Moscow's occupying forces recorded near Svyatohirsk")).label, 'Sviatohirsk', 'actor ignored, real place wins');
+  assert.equal(geocodeText(stripForGeocode('Moscow says Kyiv did it')), null, 'bare capitals without locative context stay null');
+  assert.equal(geocodeText(stripForGeocode('Moscow warns of escalation')), null);
+  assert.equal(geocodeText(stripForGeocode("Kyiv's forces liberated the town")), null);
+  assert.equal(geocodeText(stripForGeocode('Moscow says Kharkiv was hit')).label, 'Kharkiv', 'real place still wins');
+  assert.equal(geocodeText(stripForGeocode('Kyiv says Kharkiv was hit')).label, 'Kharkiv');
+  assert.equal(geocodeText(stripForGeocode('Hundreds of drones target Moscow')).label, 'Moscow', 'verb-object target places');
+  assert.equal(geocodeText(stripForGeocode('Moscow hit with mass drone strikes')).label, 'Moscow', 'passive target places');
+  assert.equal(geocodeText(stripForGeocode('Explosions rock Kyiv overnight')).label, 'Kyiv', 'rock/shake verbs place');
+  assert.equal(geocodeText(stripForGeocode('Strikes on Kiev continue')).label, 'Kyiv', 'prepositional variant places');
+  assert.equal(geocodeText(stripForGeocode('Air defences work over Kyiv region')).label, 'Kyiv region', 'region phrases bypass the capital rule');
+}
+
+// --- removeGeocode + re-validation of carried-over items ---
+{
+  const bad = {
+    id: 'n9', kind: 'news', date: '2026-09-20', isoDate: '2026-09-20T00:00:00.000Z',
+    description: 'The Moscow army captured the village (Outlet, 2026-09-20. Headline + link only.)',
+    lat: 55.76, lng: 37.62, coordsTier: 'approximate', coordsNote: 'Headline gazetteer match: "Moscow" (city); verify via source article.',
+    locationStr: 'Moscow', source: 'Outlet', sourceUrl: 'https://example.com/n9', tags: ['Outlet', 'headline-geocoded'],
+  };
+  const fixed = removeGeocode(bad);
+  assert.equal(fixed.coordsTier, 'unplaced');
+  assert.ok(!('lat' in fixed) && !('coordsNote' in fixed));
+  assert.equal(fixed.locationStr, 'Outlet', 'publisher restored as location label');
+  assert.ok(!fixed.tags.includes('headline-geocoded'));
+
+  // End-to-end: a misplaced carried-over item is healed on the next run.
+  const tmp = mkdtempSync(join(tmpdir(), 'wsr-ukraine-heal-'));
+  const prevDir = join(tmp, 'ukraine-events');
+  mkdirSync(prevDir, { recursive: true });
+  writeFileSync(join(prevDir, 'latest.json'), JSON.stringify({ schemaVersion: 1, events: [bad] }));
+  const result = await collect({ inputPath: 'tests/fixtures/ukraine-events.fixture.json', output: prevDir, collectedAt: '2026-09-21T06:00:00.000Z' });
+  const healed = result.feed.events.find((e) => e.id === 'n9');
+  assert.equal(healed.coordsTier, 'unplaced', 'carried-over Moscow-army dot is removed');
+  assert.ok(!('lat' in healed));
 }
 
 console.log('ukraine events normalizer and collector tests passed');
