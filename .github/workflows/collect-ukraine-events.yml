@@ -1,0 +1,63 @@
+name: Collect Ukraine live-wire events
+
+# Hourly Ukraine event feed: GDELT 2.1 export CSV (geocoded conflict events),
+# RSS headlines (Kyiv Independent, Ukrainska Pravda EN, Google News x2),
+# ISW daily assessments (WordPress JSON API), ReliefWeb reports/disasters
+# (only when the RELIEFWEB_APPNAME secret is set), and a DeepState map
+# status signal (snapshot id + feature counts only — never geometry).
+# Runs in this public cache repo; the private site repo only reads latest.json.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ukraine-events-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out data repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+      - name: Run Ukraine events tests
+        run: |
+          node --check scripts/lib/ukraineEvents.mjs
+          node --check scripts/collect-ukraine-events.mjs
+          node tests/ukraine-events.test.mjs
+      - name: Collect Ukraine snapshot
+        run: node scripts/collect-ukraine-events.mjs
+        env:
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+      - name: Prune archives older than 90 days
+        shell: bash
+        run: |
+          find ukraine-events/archive -mindepth 3 -maxdepth 3 -type d -mtime +90 -prune -exec rm -rf {} + 2>/dev/null || true
+          find ukraine-events/archive -name "*.jsonl" -mtime +90 -delete 2>/dev/null || true
+      - name: Commit meaningful snapshot changes
+        shell: bash
+        run: |
+          if git diff --quiet -- ukraine-events/latest.json ukraine-events/archive; then
+            echo "No meaningful ukraine change; nothing to commit."
+            exit 0
+          fi
+          git add -- ukraine-events/latest.json ukraine-events/archive
+          if git diff --cached --quiet; then
+            echo "No staged ukraine change; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update ukraine live-wire snapshot"
+          git pull --rebase origin main
+          git push

@@ -19,7 +19,27 @@ No website source code lives here. Free-tier only: no API keys, no paid services
 - `news-data/latest.json` — rolling news snapshot: free RSS feeds, link-only
   (title/url/date/publisher, never bodies). Current: Yonhap English (Korea).
   Source: `https://en.yna.co.kr/RSS/news.xml`.
+- `ukraine-events/latest.json` — rolling Ukraine live-wire feed (72h events/news,
+  14d assessments/reports, cap 1500, newest first). Records match the site's
+  event schema: GDELT rows carry machine-geocoded coords (`approximate` tier);
+  headlines/assessments/reports are feed-only (`unplaced`, never invented
+  coords). Envelope also carries per-source statuses and a DeepState map
+  status signal (snapshot id + feature counts + link — never geometry).
+  Sources: GDELT 2.1 export CSV (`https://data.gdeltproject.org/gdeltv2/`,
+  ActionGeo UP + conflict QuadClass, derived metadata only), Kyiv Independent
+  RSS, Ukrainska Pravda English RSS, Google News RSS x2 (headlines + outlet +
+  links only), ISW assessments via their WordPress JSON API (title/link/date
+  only), ReliefWeb API v2 reports+disasters (only when the free
+  `RELIEFWEB_APPNAME` Actions secret is set — request one at
+  `https://apidoc.reliefweb.int/parameters#appname`).
 - `<name>-data/archive/YYYY/MM/DD.jsonl` — one full envelope per collected run.
+
+Source policy: ACLED is intentionally NOT collected (its EULA forbids
+redistribution). DeepState article/territory content is intentionally NOT
+scraped (no permission reply; site HTML is bot-walled and no bypass is
+attempted) — only the openly served map-endpoint status signal is recorded,
+with attribution and a link back. If DeepState asks us to stop polling the
+status endpoint, that source is removed the same day.
 
 Raw feed URLs:
 
@@ -29,12 +49,15 @@ Raw feed URLs:
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/news-data/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/taiwan-data/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/arctic-data/latest.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/ukraine-events/latest.json
 
 Schedules: `.github/workflows/collect-cache.yml` runs hourly (minute 7);
 `.github/workflows/collect-daily.yml` runs daily (01:23 UTC) for Taiwan MND
 PLA activities (factual counts + attribution + link back) and NSIDC Arctic
 sea-ice image metadata (citation NSIDC/CIRES/NASA).
-Both run unit tests first and commit only meaningful changes.
+`.github/workflows/collect-ukraine-events.yml` runs hourly (minute 37) for
+the Ukraine live-wire feed. All run unit tests first and commit only
+meaningful changes.
 
 Schedule: `.github/workflows/collect-cache.yml` runs hourly (minute 7),
 runs unit tests first, collects, and commits only meaningful changes.
@@ -52,3 +75,5 @@ node scripts/collect-events.mjs
 node scripts/collect-news.mjs
 node tests/daily-collectors.test.mjs
 node scripts/collect-daily.mjs
+node tests/ukraine-events.test.mjs
+node scripts/collect-ukraine-events.mjs
