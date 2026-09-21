@@ -49,7 +49,7 @@ jobs:
         run: |
           # NOTE: stage first — bare `git diff` ignores untracked files, so a
           # pre-add quiet check would silently skip the first-ever snapshot.
-          git add -- ukraine-events/latest.json ukraine-events/archive
+          git add -- ukraine-events/latest.json ukraine-events/archive ukraine-events/geocode-cache.json
           if git diff --cached --quiet; then
             echo "No meaningful ukraine change; nothing to commit."
             exit 0

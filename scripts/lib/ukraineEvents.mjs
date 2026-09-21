@@ -1,6 +1,7 @@
 // Pure normalizers for the Ukraine live-wire feed. No I/O, no network.
 // Never invent data: link-only headlines, derived GDELT metadata, no bodies.
 import { inflateRawSync } from 'node:zlib';
+import { UKRAINE_GAZETTEER } from './ukraineGazetteer.mjs';
 
 export const UKRAINE_EVENTS_SCHEMA_VERSION = 1;
 
@@ -326,4 +327,119 @@ export function simpleHash(value) {
   let h = 5381;
   for (let i = 0; i < value.length; i++) h = ((h << 5) + h + value.charCodeAt(i)) >>> 0;
   return h.toString(36);
+}
+
+// ---------------------------------------------------------------------------
+// Headline geocoding: gazetteer match first, OSM Nominatim candidates second.
+// Everything placed here is coordsTier 'approximate' with the match recorded
+// in coordsNote. Items with no relatable location stay unplaced — coordinates
+// are never invented.
+// ---------------------------------------------------------------------------
+
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+const GEO_MATCHERS = [];
+for (const entry of UKRAINE_GAZETTEER) {
+  for (const name of entry.names) {
+    GEO_MATCHERS.push({ name, entry, re: new RegExp('\\b' + escapeRe(name) + '\\b', 'i') });
+  }
+}
+// Longest name first: 'Nova Kakhovka' beats 'Kakhovka', multi-word beats short.
+GEO_MATCHERS.sort((a, b) => b.name.length - a.name.length);
+
+// "<Place> oblast|region" phrases resolve to the place's point at region level.
+const REGION_PHRASE_RES = [];
+for (const entry of UKRAINE_GAZETTEER.filter((e) => e.level === 'city')) {
+  for (const name of entry.names) {
+    REGION_PHRASE_RES.push({ entry, re: new RegExp('\\b' + escapeRe(name) + '\\s+(oblast|region)\\b', 'i') });
+  }
+}
+
+/** Match a place in free text. Returns { lat, lng, name, level, label, method } or null. */
+export function geocodeText(text) {
+  const t = String(text || '');
+  if (!t) return null;
+  for (const { entry, re } of REGION_PHRASE_RES) {
+    if (re.test(t)) {
+      return { lat: entry.lat, lng: entry.lng, name: entry.label, level: 'region', label: `${entry.label} region`, method: 'gazetteer' };
+    }
+  }
+  for (const { name, entry, re } of GEO_MATCHERS) {
+    if (re.test(t)) {
+      return { lat: entry.lat, lng: entry.lng, name, level: entry.level, label: entry.label, method: 'gazetteer' };
+    }
+  }
+  return null;
+}
+
+// Verb-triggered candidate extraction (ported from the site's geocode-unplaced
+// script, extended with headline verbs). Candidates feed OSM, never the map.
+const OSM_STOP = /^(russian|ukrainian|russia|ukraine|soviet|forces|troops|army|navy|war|the|this|it|they|more|than|after|amid|over|with|from|jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december|monday|tuesday|wednesday|thursday|friday|saturday|sunday)$/i;
+// Never query OSM for these: countries, alliances, and faraway capitals are
+// unmappable points on this theatre map (Nominatim would return embassies or
+// same-named villages instead — both observed live).
+const OSM_BLOCK = new Set(['russia', 'ukraine', 'soviet union', 'europe', 'nato', 'eu', 'un', 'usa', 'united states', 'america', 'west', 'east',
+  'hungary', 'poland', 'romania', 'moldova', 'belarus', 'minsk', 'slovakia', 'germany', 'france', 'britain', 'england', 'uk',
+  'turkey', 'greece', 'italy', 'spain', 'netherlands', 'sweden', 'norway', 'finland', 'denmark', 'czechia', 'austria',
+  'switzerland', 'belgium', 'ireland', 'portugal', 'croatia', 'serbia', 'bulgaria', 'albania', 'lithuania', 'latvia', 'estonia',
+  'georgia', 'armenia', 'azerbaijan', 'kazakhstan', 'uzbekistan', 'israel', 'iran', 'iraq', 'syria', 'lebanon', 'jordan',
+  'egypt', 'libya', 'saudi arabia', 'qatar', 'uae', 'china', 'japan', 'india', 'pakistan', 'south korea', 'north korea',
+  'australia', 'canada', 'brazil', 'new york', 'washington', 'london', 'paris', 'berlin', 'brussels', 'beijing', 'tokyo', 'delhi']);
+const OSM_VERB = /(?:occupied|liberated|captured|seized|retook|advanced (?:toward|towards|near|into)|attacked|struck|strikes? (?:on|in|near)|hit|hits|clashes (?:in|near)|fighting (?:in|near)|explosions? (?:in|near)|drones? (?:hit|struck|attack)|shelled|bombed|bombing (?:in|near|of)|battle (?:for|of|in)|offensive (?:in|near|toward)|in|near|toward|towards|across|inside)\s+([A-Z][A-Za-z\u2019'\-]+(?:\s+[A-Z][A-Za-z\u2019'\-]+)*)/g;
+
+/** Extract up to 3 capitalized place candidates after locative triggers. */
+export function extractOsmCandidates(text) {
+  const out = [];
+  const seen = new Set();
+  OSM_VERB.lastIndex = 0;
+  let m;
+  while ((m = OSM_VERB.exec(String(text || ''))) !== null) {
+    const name = m[1].replace(/[.,;:]+$/, '').replace(/\s+(and|the|region|oblast|direction|axis|front|area|near|with|after|over)$/i, '').trim();
+    if (name.length < 3 || name.length > 40 || OSM_STOP.test(name)) continue;
+    if (OSM_BLOCK.has(name.toLowerCase())) continue;
+    const key = name.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(name);
+  }
+  return out.slice(0, 3);
+}
+
+/**
+ * Validate one Nominatim search result (addressdetails=1). Accepts Ukraine and
+ * European-Russia settlements/regions only; rejects countries and anything
+ * east of 45E (never Siberia). Returns a normalized geo or null.
+ */
+export function validateOsmResult(result) {
+  if (!result || typeof result !== 'object') return null;
+  const lat = Number(result.lat);
+  const lng = Number(result.lon ?? result.lng);
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
+  if (Math.abs(lat) > 90 || Math.abs(lng) > 180) return null;
+  const country = String(result.address?.country_code || '').toLowerCase();
+  if (country !== 'ua' && country !== 'ru') return null;
+  const cls = String(result.class || '').toLowerCase();
+  if (cls !== 'place' && cls !== 'boundary') return null; // no embassies, shops, or roads
+  if (String(result.type || '').toLowerCase() === 'country') return null;
+  if (country === 'ru' && lng > 45) return null;
+  const display = String(result.display_name || '').split(',').slice(0, 3).join(',').trim();
+  if (!display) return null;
+  return { lat: Math.round(lat * 1e5) / 1e5, lng: Math.round(lng * 1e5) / 1e5, display, country, method: 'osm' };
+}
+
+/** Attach a geo result to an item as approximate-tier with a recorded match. */
+export function applyGeocodeToItem(item, geo, matchedName) {
+  if (!geo) return item;
+  const note = geo.method === 'osm'
+    ? `OSM geocode: matched "${matchedName}" → ${geo.display}; © OpenStreetMap contributors.`
+    : `Headline gazetteer match: "${matchedName}" (${geo.level}); verify via source article.`;
+  return {
+    ...item,
+    lat: geo.lat,
+    lng: geo.lng,
+    coordsTier: 'approximate',
+    coordsNote: note,
+    locationStr: geo.method === 'osm' ? String(matchedName) : geo.label,
+    tags: [...(item.tags || []), 'headline-geocoded'],
+  };
 }

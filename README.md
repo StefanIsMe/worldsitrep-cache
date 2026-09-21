@@ -32,6 +32,15 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   only), ReliefWeb API v2 reports+disasters (only when the free
   `RELIEFWEB_APPNAME` Actions secret is set — request one at
   `https://apidoc.reliefweb.int/parameters#appname`).
+  Headlines gain map coordinates in the Actions run itself: a curated
+  Ukraine-war gazetteer (`scripts/lib/ukraineGazetteer.mjs`, same points as
+  the site's curated archive) matches places first, then OSM Nominatim
+  resolves verb-triggered candidates for the residue (budgeted, cached in
+  `ukraine-events/geocode-cache.json`, Ukraine + European-Russia only —
+  never invented, never Siberia). Everything placed is `approximate` tier
+  with the match in `coordsNote`; placeless headlines and theatre-wide
+  assessments honestly stay `unplaced`. The stage runs over the merged set,
+  so previously collected items gain coords on later runs too.
 - `<name>-data/archive/YYYY/MM/DD.jsonl` — one full envelope per collected run.
 
 Source policy: ACLED is intentionally NOT collected (its EULA forbids

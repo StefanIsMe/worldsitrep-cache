@@ -4,9 +4,10 @@ import { mkdtempSync, readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import {
-  UKRAINE_EVENTS_SCHEMA_VERSION, deepstateStatusToMeta, extractZipSingleFile,
-  gdeltActorLabel, gdeltRowToEvent, gdeltTypeForRoot, gdeltExportUrl, gdeltWindowDates,
-  googleNewsSources, iswPostToEvent, mergeLiveEvents, reliefwebDocToEvent, rssItemToEvent,
+  UKRAINE_EVENTS_SCHEMA_VERSION, applyGeocodeToItem, deepstateStatusToMeta, extractOsmCandidates,
+  extractZipSingleFile, gdeltActorLabel, gdeltRowToEvent, gdeltTypeForRoot, gdeltExportUrl,
+  gdeltWindowDates, geocodeText, googleNewsSources, iswPostToEvent, mergeLiveEvents,
+  reliefwebDocToEvent, rssItemToEvent, validateOsmResult,
 } from '../scripts/lib/ukraineEvents.mjs';
 import { collect } from '../scripts/collect-ukraine-events.mjs';
 
@@ -138,6 +139,88 @@ assert.throws(() => deepstateStatusToMeta({ id: 1 }, '2026-09-21T00:00:00.000Z')
   }
   const again = await collect({ inputPath: 'tests/fixtures/ukraine-events.fixture.json', output: join(tmp, 'ukraine-events'), collectedAt: '2026-09-21T07:00:00.000Z' });
   assert.equal(again.changed, false, 'identical rerun writes nothing');
+}
+
+// --- Headline geocoding: gazetteer ---
+{
+  const kyiv = geocodeText('Russia launched drones at Kyiv overnight');
+  assert.equal(kyiv.label, 'Kyiv');
+  assert.ok(Math.abs(kyiv.lat - 50.45) < 1e-9 && Math.abs(kyiv.lng - 30.52) < 1e-9);
+  assert.equal(kyiv.level, 'city');
+  assert.equal(geocodeText('Strikes on Kiev continue').label, 'Kyiv', 'variant spelling resolves');
+  const region = geocodeText('Fighting across the Kharkiv region intensifies');
+  assert.equal(region.label, 'Kharkiv region');
+  assert.equal(region.level, 'region');
+  assert.equal(geocodeText('Nova Kakhovka dam update').label, 'Nova Kakhovka', 'longest name wins');
+  assert.equal(geocodeText('Offensive in the Donbas grinds on').level, 'region');
+  assert.equal(geocodeText('Moscow hit with mass drone strikes').label, 'Moscow');
+  assert.equal(geocodeText('People consume more news during war'), null, 'word boundaries guard substrings');
+  assert.equal(geocodeText('Mastercard for travelling, Visa for shopping'), null, 'placeless text stays null');
+  assert.equal(geocodeText('Russian Offensive Campaign Assessment, September 20, 2026'), null, 'assessments carry no place');
+  assert.equal(geocodeText(''), null);
+}
+
+// --- OSM candidate extraction ---
+{
+  assert.deepEqual(extractOsmCandidates('clashes near Pokrovsk continue'), ['Pokrovsk']);
+  assert.deepEqual(extractOsmCandidates('Explosions in Kryvyi Rih and strikes near Nikopol'), ['Kryvyi Rih', 'Nikopol']);
+  assert.deepEqual(extractOsmCandidates('Strikes in Russia draw condemnation'), [], 'countries are blocked');
+  assert.deepEqual(extractOsmCandidates('War in Ukraine enters a new phase'), [], 'countries are blocked');
+  assert.deepEqual(extractOsmCandidates('Drones hit the airfield'), [], 'lowercase nouns are not candidates');
+  assert.deepEqual(extractOsmCandidates('Build storage sites in Hungary amid fears'), [], 'countries are blocked');
+  assert.deepEqual(extractOsmCandidates('Leaders to meet in New York for talks'), [], 'faraway capitals are blocked');
+  assert.deepEqual(extractOsmCandidates('Man attacked on Sept 20 dies'), [], 'months are not candidates');
+}
+
+// --- OSM result validation ---
+{
+  const city = { lat: '49.0', lon: '37.8', class: 'place', type: 'town', address: { country_code: 'ua' }, display_name: 'Lyman, Donetsk Oblast, Ukraine' };
+  const ok = validateOsmResult(city);
+  assert.equal(ok.country, 'ua');
+  assert.ok(Math.abs(ok.lat - 49.0) < 1e-9);
+  assert.equal(validateOsmResult({ ...city, address: { country_code: 'ru' } }).country, 'ru');
+  assert.equal(validateOsmResult({ lat: '60.0', lon: '100.0', class: 'boundary', type: 'country', address: { country_code: 'ru' }, display_name: 'Russia' }), null, 'country centroids rejected');
+  assert.equal(validateOsmResult({ lat: '56.0', lon: '92.0', class: 'place', type: 'city', address: { country_code: 'ru' }, display_name: 'Krasnoyarsk, Russia' }), null, 'Siberia rejected');
+  assert.equal(validateOsmResult({ lat: '38.9', lon: '-77.0', class: 'place', type: 'city', address: { country_code: 'us' }, display_name: 'Washington, USA' }), null, 'non-theatre countries rejected');
+  assert.equal(validateOsmResult({ lat: '50.45', lon: '30.52', class: 'amenity', type: 'embassy', address: { country_code: 'ua' }, display_name: 'Embassy of Hungary Kyiv' }), null, 'embassies are not places');
+  assert.equal(validateOsmResult({ lat: 'x', lon: 'y', address: {} }), null);
+  assert.equal(validateOsmResult(null), null);
+}
+
+// --- applyGeocodeToItem ---
+{
+  const base = { id: 'n1', kind: 'news', description: 'x', tags: ['a'], coordsTier: 'unplaced', locationStr: 'Some Outlet', source: 'Some Outlet', sourceUrl: 'https://example.com/x' };
+  const placed = applyGeocodeToItem(base, { lat: 49.99, lng: 36.23, level: 'city', label: 'Kharkiv', method: 'gazetteer' }, 'Kharkiv');
+  assert.equal(placed.coordsTier, 'approximate');
+  assert.ok(placed.coordsNote.includes('Kharkiv'));
+  assert.equal(placed.locationStr, 'Kharkiv');
+  assert.ok(placed.tags.includes('headline-geocoded'));
+  const osm = applyGeocodeToItem(base, { lat: 49, lng: 37.8, display: 'Lyman, Donetsk Oblast', country: 'ua', method: 'osm' }, 'Lyman');
+  assert.ok(osm.coordsNote.includes('OpenStreetMap'));
+  assert.equal(applyGeocodeToItem(base, null, 'nowhere'), base, 'null geo returns the item untouched');
+}
+
+// --- Fixture end-to-end: geocoded news lands on the map, residue stays honest ---
+{
+  const tmp = mkdtempSync(join(tmpdir(), 'wsr-ukraine-geo-'));
+  const result = await collect({ inputPath: 'tests/fixtures/ukraine-events.fixture.json', output: join(tmp, 'ukraine-events'), collectedAt: '2026-09-21T06:00:00.000Z' });
+  const kharkiv = result.feed.events.find((e) => e.description.includes('Kharkiv overnight'));
+  assert.ok(kharkiv.lat && kharkiv.lng, 'gazetteer-matched headline gains coords');
+  assert.equal(kharkiv.coordsTier, 'approximate');
+  assert.equal(kharkiv.locationStr, 'Kharkiv');
+  const kherson = result.feed.events.find((e) => e.description.includes('winter aid in Kherson'));
+  assert.ok(kherson.lat && kherson.lng, 'reliefweb report with a city gains coords');
+  const sumy = result.feed.events.find((e) => e.description.includes('blasts reported in Sumy'));
+  assert.equal(sumy.locationStr, 'Sumy', 'headline place wins over the Kyiv Independent citation suffix');
+  assert.ok(Math.abs(sumy.lat - 50.91) < 1e-9);
+  const card = result.feed.events.find((e) => e.description.includes('Mastercard'));
+  assert.equal(card.coordsTier, 'unplaced');
+  assert.ok(!('lat' in card) && !('lng' in card), 'placeless headlines stay feed-only');
+  const outlet = result.feed.events.find((e) => e.description.includes("Kyiv Independent's reporting"));
+  assert.equal(outlet.coordsTier, 'unplaced');
+  assert.ok(!('lat' in outlet), 'outlet names in headlines are not places');
+  const assessments = result.feed.events.filter((e) => e.kind === 'assessment');
+  assert.ok(assessments.length > 0 && assessments.every((e) => e.coordsTier === 'unplaced'), 'theatre-wide assessments stay unplaced');
 }
 
 console.log('ukraine events normalizer and collector tests passed');

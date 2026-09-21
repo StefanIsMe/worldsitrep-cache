@@ -12,9 +12,10 @@ import { appendFile, mkdir, readFile, rename, unlink, writeFile } from 'node:fs/
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
-  UKRAINE_EVENTS_SCHEMA_VERSION, deepstateStatusToMeta, gdeltExportUrl, gdeltRowToEvent,
-  gdeltWindowDates, googleNewsSources, iswPostToEvent, mergeLiveEvents,
-  reliefwebDocToEvent, rssItemToEvent, extractZipSingleFile,
+  UKRAINE_EVENTS_SCHEMA_VERSION, applyGeocodeToItem, deepstateStatusToMeta,
+  extractOsmCandidates, gdeltExportUrl, gdeltRowToEvent, gdeltWindowDates,
+  geocodeText, googleNewsSources, iswPostToEvent, mergeLiveEvents,
+  reliefwebDocToEvent, rssItemToEvent, extractZipSingleFile, validateOsmResult,
 } from './lib/ukraineEvents.mjs';
 import { parseRssItems } from './collect-news.mjs';
 
@@ -24,6 +25,11 @@ const DEFAULT_TIMEOUT_MS = 25_000;
 const UA = 'WorldSITREP-cache-collector/1.0 (+https://worldsitrep.com)';
 const GDELT_WINDOWS = 5;
 const FEED_DELAY_MS = 2000;
+const OSM_BUDGET_PER_RUN = 25;
+const OSM_THROTTLE_MS = 1100; // Nominatim usage policy: max 1 req/s
+const NOMINATIM_UA = 'WorldSITREP-cache-collector/1.0 (contact: stefan@worldsitrep.com)';
+const GEOCODE_CACHE_ATTRIBUTION = 'Place lookups © OpenStreetMap contributors (ODbL). Cached to respect the Nominatim usage policy; delete entries to re-query.';
+const UNSAFE_CACHE_KEYS = new Set(['__proto__', 'constructor', 'prototype']);
 
 export const RSS_FEEDS = [
   { id: 'kyiv-independent', theatre: 'ukraine', name: 'Kyiv Independent', url: 'https://kyivindependent.com/news-archive/rss/' },
@@ -122,6 +128,97 @@ async function existingJson(path) {
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function osmLookup(name, timeoutMs) {
+  const url = 'https://nominatim.openstreetmap.org/search?format=json&limit=1&addressdetails=1&countrycodes=ua,ru&q=' + encodeURIComponent(name);
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, { signal: controller.signal, headers: { accept: 'application/json', 'user-agent': NOMINATIM_UA, 'accept-language': 'en' } });
+    if (!response.ok) throw new Error('Nominatim HTTP ' + response.status);
+    const arr = await response.json();
+    return validateOsmResult(Array.isArray(arr) ? arr[0] : null);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function loadGeocodeCache(output) {
+  try {
+    const raw = JSON.parse(await readFile(resolve(output, 'geocode-cache.json'), 'utf8'));
+    if (raw && typeof raw.entries === 'object' && raw.entries) return { entries: raw.entries, dirty: false };
+  } catch { /* missing or corrupt — start fresh */ }
+  return { entries: {}, dirty: false };
+}
+
+function cacheHas(cache, key) {
+  return !UNSAFE_CACHE_KEYS.has(key) && Object.prototype.hasOwnProperty.call(cache.entries, key);
+}
+
+/**
+ * Geocode stage: gazetteer for every unlocated item, then OSM candidates for
+ * the residue (live runs only, budgeted + cached). Runs over the MERGED set
+ * so previously collected items gain coords on later runs, not just fresh ones.
+ */
+async function geocodeEvents(events, { cache, timeout, osmBudget, useOsm }) {
+  let gazetteerHits = 0, osmHits = 0, cacheHits = 0, queries = 0;
+  const out = [];
+  for (const e of events) {
+    if (e.lat != null && e.lng != null) {
+      out.push(e);
+      continue; // already located (GDELT, or geocoded on an earlier run)
+    }
+    // Strip parenthetical citations AND outlet names in the headline body —
+    // "Kyiv Independent's reporting" is a publication, not a place called Kyiv.
+    const text = (e.description || '')
+      .replace(/\s*\([^()]*\)\s*/g, ' ')
+      .replace(/\bKyiv\s+(Independent|Post)('s)?\b/gi, ' ')
+      .replace(/\bUkrainska\s+Pravda\b/gi, ' ')
+      .trim();
+    const g = geocodeText(text);
+    if (g) {
+      out.push(applyGeocodeToItem(e, g, g.name));
+      gazetteerHits++;
+      continue;
+    }
+    if (!useOsm) {
+      out.push(e);
+      continue;
+    }
+    let placed = null;
+    for (const cand of extractOsmCandidates(text)) {
+      const key = cand.toLowerCase();
+      if (UNSAFE_CACHE_KEYS.has(key)) continue;
+      if (cacheHas(cache, key)) {
+        if (cache.entries[key]) {
+          placed = { geo: cache.entries[key], name: cand };
+          cacheHits++;
+          break;
+        }
+        continue; // known negative — try the next candidate
+      }
+      if (queries >= osmBudget) break;
+      queries++;
+      await sleep(OSM_THROTTLE_MS);
+      let hit = null;
+      try {
+        hit = await osmLookup(cand, timeout);
+      } catch (error) {
+        console.error(`osm "${cand}": ${error.message} (will retry next run)`);
+        break; // transient error: stop here, retry next run (nothing cached)
+      }
+      cache.entries[key] = hit; // null = resolved negative, never re-queried
+      cache.dirty = true;
+      if (hit) {
+        placed = { geo: hit, name: cand };
+        osmHits++;
+        break;
+      }
+    }
+    out.push(placed ? applyGeocodeToItem(e, placed.geo, placed.name) : e);
+  }
+  return { events: out, stats: { gazetteerHits, osmHits, cacheHits, queries } };
+}
 
 function statusOk(id, url, count) { return { id, url, status: 'ok', count }; }
 function statusFailed(id, url, error) { return { id, url, status: 'failed', count: 0, error: String(error?.message || error).slice(0, 200) }; }
@@ -350,7 +447,17 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
 
   const latest = resolve(output, 'latest.json');
   const previous = await existingJson(latest);
-  const events = mergeLiveEvents({ previous: previous?.events || [], fresh, now: collectionTime });
+  const merged = mergeLiveEvents({ previous: previous?.events || [], fresh, now: collectionTime });
+  // Geocode over the merged set so carried-over previous items gain coords
+  // on later runs, not just fresh ones. Fixture mode is gazetteer-only.
+  const cache = inputPath ? { entries: {}, dirty: false } : await loadGeocodeCache(output);
+  const geo = await geocodeEvents(merged, { cache, timeout, osmBudget: OSM_BUDGET_PER_RUN, useOsm: !inputPath });
+  const events = geo.events;
+  const unplaced = events.filter((e) => e.lat == null || e.lng == null).length;
+  console.log(`geocode: ${geo.stats.gazetteerHits} gazetteer, ${geo.stats.osmHits} osm (+${geo.stats.cacheHits} cached), ${geo.stats.queries} queries, ${unplaced} still unplaced`);
+  if (!inputPath && cache.dirty) {
+    await atomicJsonWrite(resolve(output, 'geocode-cache.json'), { _attribution: GEOCODE_CACHE_ATTRIBUTION, entries: cache.entries });
+  }
   if (events.length === 0) throw new Error('no ukraine events collected (all fetches failed or everything expired)');
 
   const feed = {
