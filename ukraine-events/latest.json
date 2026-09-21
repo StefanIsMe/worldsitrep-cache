@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "ukraine",
-  "collectedAt": "2026-09-21T05:23:51.822Z",
+  "collectedAt": "2026-09-21T08:55:33.522Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 10
+      "count": 14
     },
     {
       "id": "kyiv-independent",
@@ -24,14 +24,16 @@
     {
       "id": "gnews-war",
       "url": "https://news.google.com/rss/search?q=Ukraine%20war&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 15
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-war request failed with HTTP 503"
     },
     {
       "id": "gnews-strikes",
       "url": "https://news.google.com/rss/search?q=Ukraine%20drones%20OR%20missiles%20OR%20Kyiv%20strike&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 15
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-strikes request failed with HTTP 503"
     },
     {
       "id": "isw-assessments",
@@ -56,12 +58,310 @@
   "deepstate": {
     "snapshotId": "1789884551",
     "featureCount": 525,
-    "fetchedAt": "2026-09-21T05:23:51.822Z",
+    "fetchedAt": "2026-09-21T08:55:33.522Z",
     "url": "https://deepstatemap.live/en",
     "note": "Status signal only: no DeepState geometry is stored or republished. Territory updates remain manual exports with attribution."
   },
-  "count": 77,
+  "count": 107,
   "events": [
+    {
+      "id": "news-181yqx0",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T08:30:06.000Z",
+      "description": "Russian attacks kill at least 6, wound 38 across Ukraine, as overnight strike hit shopping mall in Zaporizhzhia (Kyiv Independent, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Independent",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Zaporizhzhia",
+      "source": "Kyiv Independent",
+      "sourceUrl": "https://kyivindependent.com/russian-attacks-kill-at-least-6-wound-38-across-ukraine-as-overnight-strike-hit-shopping-mall-in-zaporizhzhia/",
+      "lat": 47.84,
+      "lng": 35.14,
+      "coordsNote": "Headline gazetteer match: \"Zaporizhzhia\" (city); verify via source article."
+    },
+    {
+      "id": "news-1dw13dq",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T08:12:24.000Z",
+      "description": "Ukraine's top negotiator praises Witkoff, pushes back against Kyiv Independent's reporting (Kyiv Independent, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Independent",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Independent",
+      "source": "Kyiv Independent",
+      "sourceUrl": "https://kyivindependent.com/ukraines-top-negotiator-praises-witkoff-pushes-back-against-kyiv-independents-reporting/"
+    },
+    {
+      "id": "news-scay2c",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T08:08:00.000Z",
+      "description": "Man injured in Russian attack on Dnipro on 3 September dies in hospital (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Dnipro",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054407/",
+      "lat": 48.46,
+      "lng": 35.05,
+      "coordsNote": "Headline gazetteer match: \"Dnipro\" (city); verify via source article."
+    },
+    {
+      "id": "news-scay1f",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T07:57:00.000Z",
+      "description": "Russians attacked an agricultural company in Chernihiv Oblast (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Chernihiv region",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054406/",
+      "lat": 51.49,
+      "lng": 31.29,
+      "coordsNote": "Headline gazetteer match: \"Chernihiv\" (region); verify via source article."
+    },
+    {
+      "id": "news-scaxzl",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T07:31:00.000Z",
+      "description": "Russia begins stockpiling its most dangerous missiles for winter strikes – Bloomberg (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrainska Pravda",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054404/"
+    },
+    {
+      "id": "news-19weq30",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T07:30:43.000Z",
+      "description": "Ukraine's oil and gas giant to build storage sites in Hungary amid fears of Russian winter strikes (Kyiv Independent, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Independent",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Independent",
+      "source": "Kyiv Independent",
+      "sourceUrl": "https://kyivindependent.com/ukraines-oil-and-gas-giant-to-build-storage-sites-in-hungary-amid-fears-of-russian-winter-strikes/"
+    },
+    {
+      "id": "news-scady6",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T06:56:00.000Z",
+      "description": "Chechen leader Kadyrov fabricated victory in election again with result over 99% (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrainska Pravda",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054399/"
+    },
+    {
+      "id": "news-1g4ri0c",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T06:28:45.000Z",
+      "description": "General Staff: Russia has lost 1,519,650 troops in Ukraine since Feb. 24, 2022 (Kyiv Independent, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Independent",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Independent",
+      "source": "Kyiv Independent",
+      "sourceUrl": "https://kyivindependent.com/general-staff-russia-has-lost-1-519-650-troops-in-ukraine-since-feb-24-2022/"
+    },
+    {
+      "id": "news-scadui",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T06:27:00.000Z",
+      "description": "Woman killed and three people injured in Russian strike on Lozova – photos (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Lozova",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054395/",
+      "lat": 48.88424,
+      "lng": 36.31603,
+      "coordsNote": "OSM geocode: matched \"Lozova\" → Lozova, Лозівська міська громада, Lozova Raion; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-scadvf",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T06:27:00.000Z",
+      "description": "Russian forces destroy high-rise building in Sloviansk: person trapped under rubble (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Sloviansk",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054396/",
+      "lat": 48.85,
+      "lng": 37.6,
+      "coordsNote": "Headline gazetteer match: \"Sloviansk\" (city); verify via source article."
+    },
+    {
+      "id": "news-scadrr",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T06:07:00.000Z",
+      "description": "Russia attacks supermarket warehouses in Odesa Oblast overnight, sparking large fire – photos (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Odesa region",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054392/",
+      "lat": 46.48,
+      "lng": 30.73,
+      "coordsNote": "Headline gazetteer match: \"Odesa\" (region); verify via source article."
+    },
+    {
+      "id": "news-scadqu",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T05:38:00.000Z",
+      "description": "Battlefield sees 238 combat clashes, 24 of them on Kostiantynivka front – Ukraine's General Staff (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kostiantynivka",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054391/",
+      "lat": 48.53,
+      "lng": 37.7,
+      "coordsNote": "Headline gazetteer match: \"Kostiantynivka\" (city); verify via source article."
+    },
+    {
+      "id": "news-scad3x",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T05:09:00.000Z",
+      "description": "Russia attacks Ukraine with 172 drones: air defence downs 148 aerial assets (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrainska Pravda",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054389/"
+    },
+    {
+      "id": "news-scad30",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T05:04:00.000Z",
+      "description": "Russian forces attack business in Kropyvnytskyi district overnight: worker injured (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kropyvnytskyi",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054388/",
+      "lat": 48.51,
+      "lng": 32.26,
+      "coordsNote": "Headline gazetteer match: \"Kropyvnytskyi\" (city); verify via source article."
+    },
     {
       "id": "news-17d361g",
       "kind": "news",
@@ -139,6 +439,25 @@
       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054385/"
     },
     {
+      "id": "news-scacxi",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T03:27:00.000Z",
+      "description": "Russia loses 1,660 soldiers and more than 600 pieces of military equipment over past day (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrainska Pravda",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054382/"
+    },
+    {
       "id": "news-13cq7ax",
       "kind": "news",
       "date": "2026-09-21",
@@ -158,6 +477,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SV3BTZHBkUmF1SVV6TUpDSXg4TlZpeGFKZUVxcU4zdmxnYlNvOUlBMXlFTmxKTE5FMVE0MExEM1hWRDdKRW5UT3lXRGw5cENNeVlKSnJR?oc=5"
     },
     {
+      "id": "news-scac9o",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T01:30:00.000Z",
+      "description": "Head of Ukraine's foreign intelligence says he is satisfied with Witkoff's diplomatic work (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrainska Pravda",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054379/"
+    },
+    {
       "id": "news-qxhz7u",
       "kind": "news",
       "date": "2026-09-21",
@@ -169,12 +507,16 @@
       "axis": "Other",
       "tags": [
         "The Guardian",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Guardian",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQay1qMGdPTVg4TGs1T2xrR0VER2x1QjF0LUZVeFIwcmxVRTM1SGM5NERHdjROaHZGXzlVWkFZUTMtdVFweHljaG1HMXBRNG1aUzBURG5ZNkJpdnhzVE1tOXdHY1NQcV9xWGtCVnVrSmwtVGVzMjdMTUNreFh5cXZOOU85amMzUHFBZWNNMlpFXzJFWER6Y3NwQ1gzM3Y?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQay1qMGdPTVg4TGs1T2xrR0VER2x1QjF0LUZVeFIwcmxVRTM1SGM5NERHdjROaHZGXzlVWkFZUTMtdVFweHljaG1HMXBRNG1aUzBURG5ZNkJpdnhzVE1tOXdHY1NQcV9xWGtCVnVrSmwtVGVzMjdMTUNreFh5cXZOOU85amMzUHFBZWNNMlpFXzJFWER6Y3NwQ1gzM3Y?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-44t9vw",
@@ -194,6 +536,29 @@
       "locationStr": "Kyiv Independent",
       "source": "Kyiv Independent",
       "sourceUrl": "https://kyivindependent.com/merz-decries-disaster-as-far-right-afd-party-set-for-big-win-in-regional-german-elections/"
+    },
+    {
+      "id": "news-scac8r",
+      "kind": "news",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:13:00.000Z",
+      "description": "Large fires in Zaporizhzhia: Russians strike shopping centre and high-rise buildings, injuring six – photos, videos (Ukrainska Pravda, 2026-09-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Zaporizhzhia",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/21/8054378/",
+      "lat": 47.84,
+      "lng": 35.14,
+      "coordsNote": "Headline gazetteer match: \"Zaporizhzhia\" (city); verify via source article."
     },
     {
       "id": "gdelt-1324019205",
@@ -526,6 +891,468 @@
       }
     },
     {
+      "id": "gdelt-1324039414",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T07:45:00.000Z",
+      "description": "Fight — Newspaper → Russian forces near Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 49,
+      "lng": 32,
+      "action": "Fight (GDELT 190)",
+      "actor": "Newspaper",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.nola.com/opinions/letters/letters-iran-war-ukraine-oil-trump/article_06e7a10e-4af9-4cea-baf7-45d0e9512435.html",
+      "gdelt": {
+        "globalEventId": "1324039414",
+        "eventCode": "190",
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.93,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324039701",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T07:45:00.000Z",
+      "description": "Coercion — Russian forces → Unspecified near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hurriyetdailynews.com/putins-party-set-to-retain-two-thirds-duma-majority-227116",
+      "gdelt": {
+        "globalEventId": "1324039701",
+        "eventCode": "172",
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -2.68,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324041321",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T08:00:00.000Z",
+      "description": "Disapproval — The European Union → Unspecified near Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "The European Union",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thevermilion.com/putins-party-wins-the-elections-in-russia-by-a-landslide-a-story-of-announced-success-and-muzzled-opponents/article_20853/",
+      "gdelt": {
+        "globalEventId": "1324041321",
+        "eventCode": "111",
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.07,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324043179",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T08:15:00.000Z",
+      "description": "Disapproval — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Disapproval (GDELT 1123)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://canadianinquirer.net/2026/09/21/russia-says-it-downed-over-1000-ukrainian-drones-as-parliamentary-vote-ends/",
+      "gdelt": {
+        "globalEventId": "1324043179",
+        "eventCode": "1123",
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.16,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324043184",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T08:15:00.000Z",
+      "description": "Fight — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 193)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://canadianinquirer.net/2026/09/21/russia-says-it-downed-over-1000-ukrainian-drones-as-parliamentary-vote-ends/",
+      "gdelt": {
+        "globalEventId": "1324043184",
+        "eventCode": "193",
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.16,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324046009",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T08:45:00.000Z",
+      "description": "Disapproval — Migrant → Unspecified near Ukraine. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Migrant",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/europe-is-sliding-towards-nationalism",
+      "gdelt": {
+        "globalEventId": "1324046009",
+        "eventCode": "110",
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.62,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324046011",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T08:45:00.000Z",
+      "description": "Coercion — Settlement → Unspecified near Sumy, Sums'ka Oblast', Ukraine. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.9216,
+      "lng": 34.8003,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Settlement",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sumy, Sums'ka Oblast', Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/why-are-mobile-postal-workers-at-risk-in-ukraines-frontline-regions",
+      "gdelt": {
+        "globalEventId": "1324046011",
+        "eventCode": "172",
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -5.08,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324046570",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T08:45:00.000Z",
+      "description": "Disapproval — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.novinite.com/articles/240696/Putin%E2%80%99s+Party+Set+to+Retain+Majority+in+Russia%E2%80%99s+Wartime+Election",
+      "gdelt": {
+        "globalEventId": "1324046570",
+        "eventCode": "112",
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.04,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324046575",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T08:45:00.000Z",
+      "description": "Fight — Russian forces → Military near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.novinite.com/articles/240696/Putin%E2%80%99s+Party+Set+to+Retain+Majority+in+Russia%E2%80%99s+Wartime+Election",
+      "gdelt": {
+        "globalEventId": "1324046575",
+        "eventCode": "190",
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.04,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324046576",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T08:45:00.000Z",
+      "description": "Fight — Russian forces → Russian forces near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/why-was-moscows-major-oil-refinery-targeted-in-a-ukrainian-drone-strike",
+      "gdelt": {
+        "globalEventId": "1324046576",
+        "eventCode": "190",
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.2,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324046590",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T08:45:00.000Z",
+      "description": "Fight — Ukraine → Unspecified near Sumy, Sums'ka Oblast', Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.9216,
+      "lng": 34.8003,
+      "action": "Fight (GDELT 190)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sumy, Sums'ka Oblast', Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/why-are-mobile-postal-workers-at-risk-in-ukraines-frontline-regions",
+      "gdelt": {
+        "globalEventId": "1324046590",
+        "eventCode": "190",
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.08,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324046598",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T08:45:00.000Z",
+      "description": "Disapproval — Ukraine → Russian forces near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Disapproval (GDELT 113)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.novinite.com/articles/240696/Putin%E2%80%99s+Party+Set+to+Retain+Majority+in+Russia%E2%80%99s+Wartime+Election",
+      "gdelt": {
+        "globalEventId": "1324046598",
+        "eventCode": "113",
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.04,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324046599",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T08:45:00.000Z",
+      "description": "Disapproval — Ukraine → Russian forces near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Disapproval (GDELT 113)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.novinite.com/articles/240696/Putin%E2%80%99s+Party+Set+to+Retain+Majority+in+Russia%E2%80%99s+Wartime+Election",
+      "gdelt": {
+        "globalEventId": "1324046599",
+        "eventCode": "113",
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.04,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324046600",
+      "kind": "event",
+      "date": "2026-09-21",
+      "isoDate": "2026-09-21T00:00:00.000Z",
+      "observedAt": "2026-09-21T08:45:00.000Z",
+      "description": "Threat — Ukraine → Moscow near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Threat (GDELT 130)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/why-was-moscows-major-oil-refinery-targeted-in-a-ukrainian-drone-strike",
+      "gdelt": {
+        "globalEventId": "1324046600",
+        "eventCode": "130",
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -4.2,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-724tzc",
       "kind": "news",
       "date": "2026-09-20",
@@ -651,12 +1478,16 @@
       "axis": "Other",
       "tags": [
         "Bozeman Daily Chronicle",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "Bozeman Daily Chronicle",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "Bozeman Daily Chronicle",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOQUl5dlBtSGIxQ21xTVdvR0VaX09TZFB2cnFPclJuajgwNU9lam1Yd2I1VXN0UGgzQWtUcHZQcDh2ZFljNkZRUU8tWEVuNXI1djZ5emhiLS01a3N1VnpUS3lqSFdhZ2JCUXNMaUJtNFNaWFpiQWVwYnZBbHRkbjlkMzFfck5xdWwxTFpMU0pmNS12YjJiTWRCbzNCOXVyWjBnWWJDdGtpU1lSUHpxVi1aYWpDYnNUR2tPQXBqNWsyaUFuQzBlcEhSRFFMdUlxRGQ1MXp6WGJyQ1B4S0ltVnhIRHc4TXVkcjU1Tl9JT2xTdWN1bElfaG93azdvQ1NTYnJ5ZmQtOENMTXM2NUk?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOQUl5dlBtSGIxQ21xTVdvR0VaX09TZFB2cnFPclJuajgwNU9lam1Yd2I1VXN0UGgzQWtUcHZQcDh2ZFljNkZRUU8tWEVuNXI1djZ5emhiLS01a3N1VnpUS3lqSFdhZ2JCUXNMaUJtNFNaWFpiQWVwYnZBbHRkbjlkMzFfck5xdWwxTFpMU0pmNS12YjJiTWRCbzNCOXVyWjBnWWJDdGtpU1lSUHpxVi1aYWpDYnNUR2tPQXBqNWsyaUFuQzBlcEhSRFFMdUlxRGQ1MXp6WGJyQ1B4S0ltVnhIRHc4TXVkcjU1Tl9JT2xTdWN1bElfaG93azdvQ1NTYnJ5ZmQtOENMTXM2NUk?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-r7x3f9",
@@ -708,12 +1539,16 @@
       "axis": "Other",
       "tags": [
         "Kyiv Independent",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Independent",
+      "coordsTier": "approximate",
+      "locationStr": "Kyiv region",
       "source": "Kyiv Independent",
-      "sourceUrl": "https://kyivindependent.com/russian-drone-attack-damages-warehouses-businesses-across-kyiv-oblast/"
+      "sourceUrl": "https://kyivindependent.com/russian-drone-attack-damages-warehouses-businesses-across-kyiv-oblast/",
+      "lat": 50.45,
+      "lng": 30.52,
+      "coordsNote": "Headline gazetteer match: \"Kyiv\" (region); verify via source article."
     },
     {
       "id": "news-r7x1o0",
@@ -727,12 +1562,16 @@
       "axis": "Other",
       "tags": [
         "Ukrainska Pravda",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
+      "coordsTier": "approximate",
+      "locationStr": "Kyiv",
       "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/20/8054341/"
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/20/8054341/",
+      "lat": 50.45,
+      "lng": 30.52,
+      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
     },
     {
       "id": "news-r7x2oo",
@@ -746,12 +1585,16 @@
       "axis": "Other",
       "tags": [
         "Ukrainska Pravda",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/20/8054358/"
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/20/8054358/",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-r7x2k3",
@@ -784,12 +1627,16 @@
       "axis": "Other",
       "tags": [
         "Ukrainska Pravda",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
+      "coordsTier": "approximate",
+      "locationStr": "Dnipropetrovsk region",
       "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/20/8054352/"
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/20/8054352/",
+      "lat": 48.46,
+      "lng": 35.05,
+      "coordsNote": "Headline gazetteer match: \"Dnipropetrovsk\" (region); verify via source article."
     },
     {
       "id": "news-7mp6rw",
@@ -803,12 +1650,16 @@
       "axis": "Other",
       "tags": [
         "Al Jazeera",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "Al Jazeera",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "Al Jazeera",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdU85dHpnVFBSTjlYeHpjd1JHVGY1R2c3eHYyOWtrV20zUWJLcllqNURrblo0alZzR1BPNzA2eXp5NG14bFB0N2ZqNEgzam9MVGdkcVpMVDVucmVoNC1UMDhHRWFtaEw1QzM0OW53Wm93eGs0Y1BBdUFZa3NzNjJoWGNyWGRiaG5KZGpCTnZTQkZOajRFYTdESmpBeldqQ2pyVFHSAacBQVVfeXFMTzJTTWZxOVpzWWFRS3hjSXh6bFVBc1R1cmpXQ3MybkJHNjhPWk1FSG5iRmxsUi1uTDNfNVJDaFFaQmh5b2VQR1Y2SFFQYUtlcjYtS251T3lQMnp2YW9iQTBhM3I2RF9CUy1IUHhFQTFwbFFUclNSeEoyMlFfclJDSnlqOGRZekdDMmFVaDA1VlpjRDhMZGhjTFA1anpSNGRGVm9QT1JiOWc?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdU85dHpnVFBSTjlYeHpjd1JHVGY1R2c3eHYyOWtrV20zUWJLcllqNURrblo0alZzR1BPNzA2eXp5NG14bFB0N2ZqNEgzam9MVGdkcVpMVDVucmVoNC1UMDhHRWFtaEw1QzM0OW53Wm93eGs0Y1BBdUFZa3NzNjJoWGNyWGRiaG5KZGpCTnZTQkZOajRFYTdESmpBeldqQ2pyVFHSAacBQVVfeXFMTzJTTWZxOVpzWWFRS3hjSXh6bFVBc1R1cmpXQ3MybkJHNjhPWk1FSG5iRmxsUi1uTDNfNVJDaFFaQmh5b2VQR1Y2SFFQYUtlcjYtS251T3lQMnp2YW9iQTBhM3I2RF9CUy1IUHhFQTFwbFFUclNSeEoyMlFfclJDSnlqOGRZekdDMmFVaDA1VlpjRDhMZGhjTFA1anpSNGRGVm9QT1JiOWc?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-1ljrom8",
@@ -822,12 +1673,16 @@
       "axis": "Other",
       "tags": [
         "PBS",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "PBS",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUG4xdzdpSmtOVGxlTDNNQVJVOW8tVGsydzBiN1ZZc2ZfVTA1V25xX1Q1NDYzb3BETmF2Wkg3Zno2UTU5ZG41QW0tS3h1Xy1uZ2JoSDFlYkxDeEFPVEVkTmo0Z05fanZaS3FuWGNBYjgxQm1IdDNESWtBdFZqZ09rdlpaVGZvTWRWSXd0UW0tRWI4TU40bEhNd29oc1lnUnhpNXhmNG9CVE1IamE5aG1iZ1pzd2tmUdIBuwFBVV95cUxNR29JOXNnRGVGUmFVd1NhTGFpREJ0VXcyN1FLc0tCN1lseV9VdHI4Zmd6b1lHSEdRSmhFeU45YzQyaE9vTnA4d21YNk5JQTA3M2xLUFFUd2NlMl9JZzRZQlFxWTZRMGM5UTJRMHlvTVVoSDU2QjlEaWNET1JqSmo4NVRNNlpTa3BZMmRVNlAyeEozZGNyajZCUUc4Vkx1SlNnRkZSWnk3VTJkNU9ISWVQNENQc193dDNOcUVj?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUG4xdzdpSmtOVGxlTDNNQVJVOW8tVGsydzBiN1ZZc2ZfVTA1V25xX1Q1NDYzb3BETmF2Wkg3Zno2UTU5ZG41QW0tS3h1Xy1uZ2JoSDFlYkxDeEFPVEVkTmo0Z05fanZaS3FuWGNBYjgxQm1IdDNESWtBdFZqZ09rdlpaVGZvTWRWSXd0UW0tRWI4TU40bEhNd29oc1lnUnhpNXhmNG9CVE1IamE5aG1iZ1pzd2tmUdIBuwFBVV95cUxNR29JOXNnRGVGUmFVd1NhTGFpREJ0VXcyN1FLc0tCN1lseV9VdHI4Zmd6b1lHSEdRSmhFeU45YzQyaE9vTnA4d21YNk5JQTA3M2xLUFFUd2NlMl9JZzRZQlFxWTZRMGM5UTJRMHlvTVVoSDU2QjlEaWNET1JqSmo4NVRNNlpTa3BZMmRVNlAyeEozZGNyajZCUUc4Vkx1SlNnRkZSWnk3VTJkNU9ISWVQNENQc193dDNOcUVj?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-11rmtvj",
@@ -860,12 +1715,16 @@
       "axis": "Other",
       "tags": [
         "Ukrainska Pravda",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
+      "coordsTier": "approximate",
+      "locationStr": "Kyiv region",
       "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/20/8054348/"
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/20/8054348/",
+      "lat": 50.45,
+      "lng": 30.52,
+      "coordsNote": "Headline gazetteer match: \"Kyiv\" (region); verify via source article."
     },
     {
       "id": "news-gwwbcu",
@@ -898,12 +1757,16 @@
       "axis": "Other",
       "tags": [
         "NBC News",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdEFXU2pQVTB4SGx3MkFMb3hRMTV3dFZYMzd4SDBLSURMcUdNTGh1TGl4aVkyZmZiQ1k4YmFJYjdiVGRJQ0oyMFoycEtmTGhGRzhCMDVoUWYtWXdDSkEyWm42TjVQLXBLRVlXQjVfQjFkeHBTc1l0enJFY2VzSWM4cXJMeUFCU0RRbVU2b190ajlfT0kyQ0FDUnV0S0djSTFBaEtUZ001MVdJeEVQRlRv?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdEFXU2pQVTB4SGx3MkFMb3hRMTV3dFZYMzd4SDBLSURMcUdNTGh1TGl4aVkyZmZiQ1k4YmFJYjdiVGRJQ0oyMFoycEtmTGhGRzhCMDVoUWYtWXdDSkEyWm42TjVQLXBLRVlXQjVfQjFkeHBTc1l0enJFY2VzSWM4cXJMeUFCU0RRbVU2b190ajlfT0kyQ0FDUnV0S0djSTFBaEtUZ001MVdJeEVQRlRv?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-hl5tj4",
@@ -936,12 +1799,16 @@
       "axis": "Other",
       "tags": [
         "Ukrainska Pravda",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
+      "coordsTier": "approximate",
+      "locationStr": "Donetsk region",
       "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/20/8054335/"
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/20/8054335/",
+      "lat": 48.02,
+      "lng": 37.8,
+      "coordsNote": "Headline gazetteer match: \"Donetsk\" (region); verify via source article."
     },
     {
       "id": "news-r7x0vl",
@@ -1031,12 +1898,16 @@
       "axis": "Other",
       "tags": [
         "DW.com",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "DW.com",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "DW.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeTY0eHl2OGJlMWFaYldTLUxHSFJ5ZVgtS2ZxQm54T29PUmdpYVNxRnhoLTdrQ0swdTBmaEpRLVJZWWdOc3pzTFdTS3FoUWQ3N19GVnB3VHpOdUMtQmZETUI5NFpzZkFKVGMzWjdWM1c2R2VwY05iQnM2dlVkS2F3TWFUOExXQXfSAYcBQVVfeXFMTWt5eFRvcjZJUm1kS1BELUZwNGo5dDQ0VFUzTG00SWNuWmxkSGg3dFVvZ1ZFOGtib1NETHhaWEIwa0xqSHd4VWk4elkxZ244dzFRdEFrTVV5aUdnMWV6MlNIalF6cWp0NjdvNGV5T3AwT0VHMUozOUc5WHNDRFV1NFgtS0JVWlpN?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeTY0eHl2OGJlMWFaYldTLUxHSFJ5ZVgtS2ZxQm54T29PUmdpYVNxRnhoLTdrQ0swdTBmaEpRLVJZWWdOc3pzTFdTS3FoUWQ3N19GVnB3VHpOdUMtQmZETUI5NFpzZkFKVGMzWjdWM1c2R2VwY05iQnM2dlVkS2F3TWFUOExXQXfSAYcBQVVfeXFMTWt5eFRvcjZJUm1kS1BELUZwNGo5dDQ0VFUzTG00SWNuWmxkSGg3dFVvZ1ZFOGtib1NETHhaWEIwa0xqSHd4VWk4elkxZ244dzFRdEFrTVV5aUdnMWV6MlNIalF6cWp0NjdvNGV5T3AwT0VHMUozOUc5WHNDRFV1NFgtS0JVWlpN?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-lfn5x5",
@@ -1069,12 +1940,16 @@
       "axis": "Other",
       "tags": [
         "Fox News",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "Fox News",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "Fox News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcmZhbm8zdlF4ZjhWVFlhRUdQUzBBbkJmZEJRTW1ScDJVcnp2VXNuRUFEaTAyTS1YbUwwSGwzc3hMUUlQcFlQS3NJNGx6Y1pCaTlPek9QUU9MVmhVMzJzNHl5c1k1SkF1YTBzTlJuazVaOG9zX1RCbHpWcmNxdk1hdUJnNHpoWTVJM2FJRjVQLVhlNU43MllpckFwVnpsRU5peTZkQnlFX29YUdIBrwFBVV95cUxNdm1EdnQ4VzFqSFZKMHNUOVdtUm5iUEJMVFBQVG9kM3hzS3NzbWtYTDZ4YmkzWnlUZ1RiTmZ2SmxqSC1YdHZZcXNvdjhvNzE3eDZ2S2xPdmQzVUxMU2ZNTklEdG9uUTVtaEVJdDNFLTczVEt5UVp6RTY1Wk5ISndGU0dPdG9GS2cyeEFnOTJUVmRfbmRSMWZLQzJJUkl5MHA5NVVRVUFRSXlENVdBNUZN?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcmZhbm8zdlF4ZjhWVFlhRUdQUzBBbkJmZEJRTW1ScDJVcnp2VXNuRUFEaTAyTS1YbUwwSGwzc3hMUUlQcFlQS3NJNGx6Y1pCaTlPek9QUU9MVmhVMzJzNHl5c1k1SkF1YTBzTlJuazVaOG9zX1RCbHpWcmNxdk1hdUJnNHpoWTVJM2FJRjVQLVhlNU43MllpckFwVnpsRU5peTZkQnlFX29YUdIBrwFBVV95cUxNdm1EdnQ4VzFqSFZKMHNUOVdtUm5iUEJMVFBQVG9kM3hzS3NzbWtYTDZ4YmkzWnlUZ1RiTmZ2SmxqSC1YdHZZcXNvdjhvNzE3eDZ2S2xPdmQzVUxMU2ZNTklEdG9uUTVtaEVJdDNFLTczVEt5UVp6RTY1Wk5ISndGU0dPdG9GS2cyeEFnOTJUVmRfbmRSMWZLQzJJUkl5MHA5NVVRVUFRSXlENVdBNUZN?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-1e5icnp",
@@ -1107,12 +1982,16 @@
       "axis": "Other",
       "tags": [
         "CNBC",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "CNBC",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "CNBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNblpTUndRWEpUcUtqVjM2Y0ZpNWxiTmV3aHFLWEdhRmN6eFdYX01udDhzSEdjYThFa3o5THFmV2xQMzRnNzV6NGpYOTVaN0otQm8xMDBKUnctUzlGdTZLck1GZFE0Q29DSE1MNC1tRU04Uml0dUNRUTAzX25lVS0tcWJSVUd2R3Z0MnUtMmlCZ1lXeGFrSFl2NzFDNNIBoAFBVV95cUxNZkZNamhlODZUTDZMUXNmNWRPQzFjZ0xtbTZzaTlKRGlOdWcybzJyN1psYXhDaUNpeG5nb0R1NzBTYTBlbnFMNUdvd253dnVLMUR0R2FCLWYzQVFaWER5LVM0cDZjMm5jeWhDaWhuR1FZSnlMcVhkTUV6R0MzMWRkZm1vU08wSlhGLVpaRW1pT2NmUUtVa1FOMnFDZThjczFf?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNblpTUndRWEpUcUtqVjM2Y0ZpNWxiTmV3aHFLWEdhRmN6eFdYX01udDhzSEdjYThFa3o5THFmV2xQMzRnNzV6NGpYOTVaN0otQm8xMDBKUnctUzlGdTZLck1GZFE0Q29DSE1MNC1tRU04Uml0dUNRUTAzX25lVS0tcWJSVUd2R3Z0MnUtMmlCZ1lXeGFrSFl2NzFDNNIBoAFBVV95cUxNZkZNamhlODZUTDZMUXNmNWRPQzFjZ0xtbTZzaTlKRGlOdWcybzJyN1psYXhDaUNpeG5nb0R1NzBTYTBlbnFMNUdvd253dnVLMUR0R2FCLWYzQVFaWER5LVM0cDZjMm5jeWhDaWhuR1FZSnlMcVhkTUV6R0MzMWRkZm1vU08wSlhGLVpaRW1pT2NmUUtVa1FOMnFDZThjczFf?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-syewh7",
@@ -1126,12 +2005,16 @@
       "axis": "Other",
       "tags": [
         "cbsnews.com",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "cbsnews.com",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "cbsnews.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ldWhqMzBmbkwweC1YSzNhcnB4RGpYdk83WjZTQU1vaGRhbnVPZ3hZTU1aWFltZnMyYmRFQmFIS25UOTI2anZQbHE0dTdDalc4QllTSjEtTzVEdHBDSy1RTGUwejRtQVF5SlJrWGhlU21mZw?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ldWhqMzBmbkwweC1YSzNhcnB4RGpYdk83WjZTQU1vaGRhbnVPZ3hZTU1aWFltZnMyYmRFQmFIS25UOTI2anZQbHE0dTdDalc4QllTSjEtTzVEdHBDSy1RTGUwejRtQVF5SlJrWGhlU21mZw?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-12chkm9",
@@ -1164,12 +2047,16 @@
       "axis": "Other",
       "tags": [
         "ABC News - Breaking News, Latest News and Videos",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "ABC News - Breaking News, Latest News and Videos",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORGt0RWRlLUFoQ2xGYlVjY0x0bS1oU2VYaURwQlVrVEZtX2JYUkxCOGF1NmpmcWZkNmE3REtjd2d0bW1IV2JoTnpXcndfVTE4dVlCWXFfVVVCSjJRQUFWVlMzZS1iUDZkTHRhQ0l5MDEtcHgzSGM3dHpETVhxWWd2NXlvdUlqU2xlN1VtVHlINm5Wb09IWW1lazRvNmRsY1RabmtuTWhRNWpiZk1LSXVR0gG0AUFVX3lxTE5BRzJ5UkhlX1hUYWVGN2pQNVk2SURFZ3NTZy1Bc0MyN0QtcW9ySU15LTE1aU8zRm4yMXhCVHNINndqcjdsWmM5b1ZOd3pqRS1GZTkyUG8yRkktNFZhbjU0LTdBTTFXdlBBT0hNX1VIVEtwNFQtbDdxVGFDbzdNQ0Jhdmp6QXdua3N0R0V4RkFlbkRsRFdsQ1RpSm4wa3NhR3NBcWhldXhZd2lKYldnZHR6ZzZ6NA?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORGt0RWRlLUFoQ2xGYlVjY0x0bS1oU2VYaURwQlVrVEZtX2JYUkxCOGF1NmpmcWZkNmE3REtjd2d0bW1IV2JoTnpXcndfVTE4dVlCWXFfVVVCSjJRQUFWVlMzZS1iUDZkTHRhQ0l5MDEtcHgzSGM3dHpETVhxWWd2NXlvdUlqU2xlN1VtVHlINm5Wb09IWW1lazRvNmRsY1RabmtuTWhRNWpiZk1LSXVR0gG0AUFVX3lxTE5BRzJ5UkhlX1hUYWVGN2pQNVk2SURFZ3NTZy1Bc0MyN0QtcW9ySU15LTE1aU8zRm4yMXhCVHNINndqcjdsWmM5b1ZOd3pqRS1GZTkyUG8yRkktNFZhbjU0LTdBTTFXdlBBT0hNX1VIVEtwNFQtbDdxVGFDbzdNQ0Jhdmp6QXdua3N0R0V4RkFlbkRsRFdsQ1RpSm4wa3NhR3NBcWhldXhZd2lKYldnZHR6ZzZ6NA?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-a1qh16",
@@ -1183,12 +2070,16 @@
       "axis": "Other",
       "tags": [
         "BBC",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "BBC",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YLTYydnNDeFVheUM5N05KaFczQVRzVjdmY3owNW1oZDN0cS1kSWNUbW1KZ0NicGF0YXVfcU9ybjF3SzU4OU5nc3hjcXNGZzJnbFRPajZhYzhwMGc?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YLTYydnNDeFVheUM5N05KaFczQVRzVjdmY3owNW1oZDN0cS1kSWNUbW1KZ0NicGF0YXVfcU9ybjF3SzU4OU5nc3hjcXNGZzJnbFRPajZhYzhwMGc?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-19ktw91",
@@ -1202,12 +2093,16 @@
       "axis": "Other",
       "tags": [
         "Kyiv Independent",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Independent",
+      "coordsTier": "approximate",
+      "locationStr": "Donetsk region",
       "source": "Kyiv Independent",
-      "sourceUrl": "https://kyivindependent.com/ukraine-reveals-new-operation-vivaldi-gains-in-donetsk-oblast/"
+      "sourceUrl": "https://kyivindependent.com/ukraine-reveals-new-operation-vivaldi-gains-in-donetsk-oblast/",
+      "lat": 48.02,
+      "lng": 37.8,
+      "coordsNote": "Headline gazetteer match: \"Donetsk\" (region); verify via source article."
     },
     {
       "id": "news-18xdeci",
@@ -1221,12 +2116,16 @@
       "axis": "Other",
       "tags": [
         "nytimes.com",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "nytimes.com",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "nytimes.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jV2JMSDJISDhpMVZxNUlOd0tDbGRqRC1Vdk9HT2FfQ3U1cjdyMWIxUmxOOEtxNlhMWE5SaGhLQXdQazNWUXVXcFJKTDFpOGUxWVdsYjM1bXZBQ2NOYW1kV1hOZi1rXzhEY29GWHRkaU1uYTNBeUpuNzBGODU4Mjg?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jV2JMSDJISDhpMVZxNUlOd0tDbGRqRC1Vdk9HT2FfQ3U1cjdyMWIxUmxOOEtxNlhMWE5SaGhLQXdQazNWUXVXcFJKTDFpOGUxWVdsYjM1bXZBQ2NOYW1kV1hOZi1rXzhEY29GWHRkaU1uYTNBeUpuNzBGODU4Mjg?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-1no85yu",
@@ -1240,12 +2139,16 @@
       "axis": "Other",
       "tags": [
         "NPR",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "NPR",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR3dySGlFT3ljamJRcXZPaHhVcWxDaGpZTDVmU0VVOXprdUhFamhhMjFxWWdDb1BqVnJneE9EMkUxbTdqcE4xMW9EV0tRTzRkRGxMNmNESTJ4b2Nzbm5TeEF0b2hqSVdPXzlxQ3RFUGhRclZLOS1xYlp1VnRzSFRPU0FVSEdrWGRDQ3c?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR3dySGlFT3ljamJRcXZPaHhVcWxDaGpZTDVmU0VVOXprdUhFamhhMjFxWWdDb1BqVnJneE9EMkUxbTdqcE4xMW9EV0tRTzRkRGxMNmNESTJ4b2Nzbm5TeEF0b2hqSVdPXzlxQ3RFUGhRclZLOS1xYlp1VnRzSFRPU0FVSEdrWGRDQ3c?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-3pjfeq",
@@ -1259,12 +2162,16 @@
       "axis": "Other",
       "tags": [
         "CNN",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "CNN",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "CNN",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNDl5XzJ6ZzhKQkNRMmVreWFGU1laaDF4RVpqcmJESWdJZ3ZfNWFTXy1XZTFkOEFZSWRncEdVSGxFRU1rQ0hXUXhZM0xyaDhraVZ3dHZhQm16WURUZTl4SE5WWTZVZnQ1ZVJtZWJHQkE4TVdvZE9yMWpYZFJ6ZGpjTw?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNDl5XzJ6ZzhKQkNRMmVreWFGU1laaDF4RVpqcmJESWdJZ3ZfNWFTXy1XZTFkOEFZSWRncEdVSGxFRU1rQ0hXUXhZM0xyaDhraVZ3dHZhQm16WURUZTl4SE5WWTZVZnQ1ZVJtZWJHQkE4TVdvZE9yMWpYZFJ6ZGpjTw?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-1731yce",
@@ -1316,12 +2223,16 @@
       "axis": "Other",
       "tags": [
         "The Guardian",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Guardian",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaE1iYndrT041VmNqVEh2bEg5Vk1DaVpOeGUzNTBrWlNiRFFTMVoyUU5GdTRxMllGZHhrXzdNTjdlUTAtam9DazJ1Q3JRc1BadnNyNm44NURxc1BTYm9jTU5JQncxQ3RPMDNfM3FzM0ZBNjlubGt3NzNyZ3NVOGtwVUhDR3hSbDJpMTRCNzR1cDAzZm5FNklPS2tla3ZzZ3F3UEdxa1ZPSTBWSVJERzNDVTRmQnUwZ0V6X3ZKRnRSVnFCWnhBMTV6MkoybGd0VTg?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaE1iYndrT041VmNqVEh2bEg5Vk1DaVpOeGUzNTBrWlNiRFFTMVoyUU5GdTRxMllGZHhrXzdNTjdlUTAtam9DazJ1Q3JRc1BadnNyNm44NURxc1BTYm9jTU5JQncxQ3RPMDNfM3FzM0ZBNjlubGt3NzNyZ3NVOGtwVUhDR3hSbDJpMTRCNzR1cDAzZm5FNklPS2tla3ZzZ3F3UEdxa1ZPSTBWSVJERzNDVTRmQnUwZ0V6X3ZKRnRSVnFCWnhBMTV6MkoybGd0VTg?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-8b744l",
@@ -1354,12 +2265,16 @@
       "axis": "Other",
       "tags": [
         "Reuters",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWF9NeWpBYnEyU1JJdWppTldhbFJ1RDR0emoxZ1ZyNTE0WF8xTW1VTE5lb2dDYkFyUS1BVU9NdzRxYnpqdXNHVk1KWU42RTZvVy1uQXBoaDBNQ2pWQVJUY2xtTGtyMDdMMjhYdG1jbHVkYUhOaEhXcDVmYlo5Q2NWcVRfZHlmZnRKamd1YlRPOFN3VlE5OFlfWEVHbmFDenU3VzFZVWNGQVlhbkxXWjZmc25R?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWF9NeWpBYnEyU1JJdWppTldhbFJ1RDR0emoxZ1ZyNTE0WF8xTW1VTE5lb2dDYkFyUS1BVU9NdzRxYnpqdXNHVk1KWU42RTZvVy1uQXBoaDBNQ2pWQVJUY2xtTGtyMDdMMjhYdG1jbHVkYUhOaEhXcDVmYlo5Q2NWcVRfZHlmZnRKamd1YlRPOFN3VlE5OFlfWEVHbmFDenU3VzFZVWNGQVlhbkxXWjZmc25R?oc=5",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-821vw",
@@ -1411,12 +2326,16 @@
       "axis": "Other",
       "tags": [
         "Kyiv Independent",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Independent",
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
       "source": "Kyiv Independent",
-      "sourceUrl": "https://kyivindependent.com/russia-says-dozens-of-ukrainian-drones-targeted-moscow-as-broader-attack-hit-multiple-regions/"
+      "sourceUrl": "https://kyivindependent.com/russia-says-dozens-of-ukrainian-drones-targeted-moscow-as-broader-attack-hit-multiple-regions/",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
     },
     {
       "id": "news-1c759t9",
@@ -1512,25 +2431,6 @@
       "locationStr": "Sky News",
       "source": "Sky News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSUFXQzh3cGxCT1lhQmJEQkx6SzdQaGZkMzdyOGtjbGJkWGdUQ1BBQ0ltVXFKUUNVVHhQVFRnNnZqcmcydlQ5azE2YkdDSk5pekVPdFJmRUxLUklWazNwZmxMVGRwSDNpcU1rQjgxWDVuTWV2dzdfcU9iMlVXeHk1T2tySkxLRWxFbUhKZTB0dnkwYzVER3Q5VUNkek1kZTN0ci12RjNucUYtN0Mz?oc=5"
-    },
-    {
-      "id": "news-dvg7oq",
-      "kind": "news",
-      "date": "2026-09-18",
-      "isoDate": "2026-09-18T08:52:26.000Z",
-      "description": "Russia strikes Kyiv and other Ukrainian cities, Poland scrambles jets - Reuters (Reuters, 2026-09-18. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTWtudWtEM0RTMFRMMVBsX1dMZkJERGF3R0NueTVGaV9pTDAyLXJtS2dFWUdiM2dxdDRYYjJWTm1UeGxhYU1rSFI4V1BZcUM4Q1RoWDNfLUw0N2tjdVowRjF0T2JvMldXMlBHSGZWTkQyZHRuRTZCQ0E2WlVCM0o1NHd2Yjg0SkQwNVVVQTZOamhCT1NZSmlhUTk5eTNDcUNTVXZWbzJ5a25xQnpkdHFEYQ?oc=5"
     },
     {
       "id": "isw-158852",
