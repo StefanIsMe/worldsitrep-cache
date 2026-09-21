@@ -47,13 +47,11 @@ jobs:
       - name: Commit meaningful snapshot changes
         shell: bash
         run: |
-          if git diff --quiet -- ukraine-events/latest.json ukraine-events/archive; then
-            echo "No meaningful ukraine change; nothing to commit."
-            exit 0
-          fi
+          # NOTE: stage first — bare `git diff` ignores untracked files, so a
+          # pre-add quiet check would silently skip the first-ever snapshot.
           git add -- ukraine-events/latest.json ukraine-events/archive
           if git diff --cached --quiet; then
-            echo "No staged ukraine change; nothing to commit."
+            echo "No meaningful ukraine change; nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
