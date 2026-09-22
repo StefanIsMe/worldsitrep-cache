@@ -17,7 +17,9 @@ export const RSS_FEEDS = [
 ];
 
 const FEED_DELAY_MS = 2000;
-const MAX_ITEMS_PER_FEED = 15;
+// 50 gives catch-up headroom when scheduled runs are skipped and several
+// hours of headlines pile up between collections (notably Google News).
+const MAX_ITEMS_PER_FEED = 50;
 
 function option(name, fallback = null) {
   const prefix = "--" + name + "=";

@@ -312,6 +312,36 @@ export function gdeltWindowDates(now = new Date(), n = 5) {
   return Array.from({ length: n }, (_, i) => new Date(base - i * 15 * 60_000));
 }
 
+/**
+ * Gap-covering GDELT windows: every 15-min slot after sinceIso (the previous
+ * run's collectedAt) up to now, so a run that follows skipped schedules
+ * backfills the whole gap instead of re-reading only the freshest hour.
+ * Clamped to maxN (oldest dropped first - a gap past the clamp loses its
+ * oldest GDELT rows permanently); always keeps the freshest minN windows
+ * for overlap. Newest first. Pure (testable, no I/O).
+ */
+export function gdeltGapWindows(sinceIso, now = new Date(), minN = 5, maxN = 48) {
+  const slot = 15 * 60_000;
+  const floor = (ms) => Math.floor(ms / slot) * slot;
+  const endMs = floor(now.getTime());
+  const sinceMs = sinceIso ? Date.parse(sinceIso) : NaN;
+  const afterMs = Number.isFinite(sinceMs) ? floor(sinceMs) : endMs - minN * slot;
+  const seen = new Set();
+  const wins = [];
+  for (let t = endMs; t > afterMs && wins.length < maxN; t -= slot) {
+    seen.add(t);
+    wins.push(new Date(t));
+  }
+  for (let i = 0; i < minN && wins.length < maxN; i++) {
+    const t = endMs - i * slot;
+    if (!seen.has(t)) {
+      seen.add(t);
+      wins.push(new Date(t));
+    }
+  }
+  return wins.sort((a, b) => b.getTime() - a.getTime());
+}
+
 /** Format a GDELT 2.1 export.CSV.zip URL for a window date (UTC). */
 export function gdeltExportUrl(d) {
   const p = (v) => String(v).padStart(2, '0');

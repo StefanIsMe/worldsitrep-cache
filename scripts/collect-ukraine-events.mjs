@@ -13,7 +13,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   UKRAINE_EVENTS_SCHEMA_VERSION, applyGeocodeToItem, deepstateStatusToMeta,
-  extractOsmCandidates, gdeltExportUrl, gdeltRowToEvent, gdeltWindowDates,
+  extractOsmCandidates, gdeltExportUrl, gdeltGapWindows, gdeltRowToEvent,
   geocodeText, googleNewsSources, iswPostToEvent, mergeLiveEvents,
   reliefwebDocToEvent, removeGeocode, rssItemToEvent, extractZipSingleFile,
   stripForGeocode, validateOsmResult,
@@ -25,6 +25,7 @@ const DEFAULT_OUTPUT = resolve(ROOT, 'ukraine-events');
 const DEFAULT_TIMEOUT_MS = 25_000;
 const UA = 'WorldSITREP-cache-collector/1.0 (+https://worldsitrep.com)';
 const GDELT_WINDOWS = 5;
+const GDELT_MAX_WINDOWS = 48; // 12h gap backfill cap (see gdeltGapWindows)
 const FEED_DELAY_MS = 2000;
 const OSM_BUDGET_PER_RUN = 25;
 const OSM_THROTTLE_MS = 1100; // Nominatim usage policy: max 1 req/s
@@ -236,9 +237,11 @@ function sameDeepstate(a, b) {
     && a.status === b.status && a.error === b.error && a.url === b.url;
 }
 
-async function collectGdelt(timeout, collectedAt) {
-  // Hourly runs overlap the 15-min GDELT grid; mergeLiveEvents dedupes by event id.
-  const windows = gdeltWindowDates(new Date(collectedAt), GDELT_WINDOWS);
+async function collectGdelt(timeout, collectedAt, sinceIso = null) {
+  // Gap-covering lookback: after skipped schedules this backfills every slot
+  // since the previous run (capped); mergeLiveEvents dedupes by event id.
+  const windows = gdeltGapWindows(sinceIso, new Date(collectedAt), GDELT_WINDOWS, GDELT_MAX_WINDOWS);
+  console.log('gdelt: ' + windows.length + ' windows (' + gdeltExportUrl(windows[windows.length - 1]) + ' .. ' + gdeltExportUrl(windows[0]) + ')');
   const settled = await Promise.allSettled(windows.map(async (w) => {
     const url = gdeltExportUrl(w);
     const zip = await fetchBuffer(url, timeout, 'GDELT export', 'application/zip');
@@ -364,6 +367,8 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
   const fresh = [];
   const sources = [];
   let deepstate = null;
+  const latest = resolve(output, 'latest.json');
+  const previous = await existingJson(latest);
 
   if (inputPath) {
     const fixture = JSON.parse(await readFile(resolve(inputPath), 'utf8'));
@@ -424,7 +429,7 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
     }
   } else {
     if (want('gdelt')) {
-      const r = await collectGdelt(timeout, collectionTime);
+      const r = await collectGdelt(timeout, collectionTime, previous?.collectedAt ?? null);
       fresh.push(...r.events);
       sources.push(r.status);
     }
@@ -450,8 +455,6 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
     }
   }
 
-  const latest = resolve(output, 'latest.json');
-  const previous = await existingJson(latest);
   const merged = mergeLiveEvents({ previous: previous?.events || [], fresh, now: collectionTime });
   // Geocode over the merged set so carried-over previous items gain coords
   // on later runs, not just fresh ones. Fixture mode is gazetteer-only.
@@ -474,9 +477,21 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
     count: events.length,
     events,
   };
-  if (previous && JSON.stringify(previous.events) === JSON.stringify(feed.events)
+  const changed = !(previous && JSON.stringify(previous.events) === JSON.stringify(feed.events)
     && JSON.stringify(previous.sources) === JSON.stringify(feed.sources)
-    && sameDeepstate(previous.deepstate, feed.deepstate)) {
+    && sameDeepstate(previous.deepstate, feed.deepstate));
+  // Liveness record: rewritten on EVERY run (even quiet ones) so staleness
+  // monitors can tell "checked, no new items" apart from "never ran".
+  const effective = changed ? feed : previous;
+  await atomicJsonWrite(resolve(output, 'status.json'), {
+    schemaVersion: UKRAINE_EVENTS_SCHEMA_VERSION,
+    checkedAt: collectionTime,
+    collectedAt: effective.collectedAt,
+    count: effective.count ?? effective.events.length,
+    changed,
+    sources: sources.map((s) => ({ id: s.id, status: s.status, count: s.count })),
+  });
+  if (!changed) {
     return { latest, archive: null, feed: previous, changed: false };
   }
   await atomicJsonWrite(latest, feed);

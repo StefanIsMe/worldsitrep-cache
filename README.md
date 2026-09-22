@@ -59,17 +59,28 @@ Raw feed URLs:
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/taiwan-data/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/arctic-data/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/ukraine-events/latest.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/ukraine-events/status.json (run-liveness record: checkedAt + per-source health)
 
 Schedules: `.github/workflows/collect-cache.yml` runs hourly (minute 7);
 `.github/workflows/collect-daily.yml` runs daily (01:23 UTC) for Taiwan MND
 PLA activities (factual counts + attribution + link back) and NSIDC Arctic
 sea-ice image metadata (citation NSIDC/CIRES/NASA).
 `.github/workflows/collect-ukraine-events.yml` runs hourly (minute 37) for
-the Ukraine live-wire feed. All run unit tests first and commit only
-meaningful changes.
+the Ukraine live-wire feed.
+`.github/workflows/collect-traffic.yml` runs twice hourly (minutes 17, 47).
+`.github/workflows/check-freshness.yml` (watchdog) runs every 30 minutes and
+collects inline for whichever snapshot groups are stale. All run unit tests
+first and commit only meaningful snapshot changes.
 
-Schedule: `.github/workflows/collect-cache.yml` runs hourly (minute 7),
-runs unit tests first, collects, and commits only meaningful changes.
+GitHub treats schedules as best-effort: in September 2026 the hourly jobs
+here were observed running only every 3-6h. Three mitigations keep data
+fresh anyway: (1) the watchdog above, so the union of schedules heals gaps;
+(2) gap-covering lookbacks — the Ukraine collector re-reads every GDELT
+15-min slot since the previous run (capped at 48 windows / 12h) and RSS
+feeds keep 50 items of catch-up headroom, so any run backfills what skipped
+runs missed; (3) `ukraine-events/status.json` (raw URL below) is rewritten
+on every run with `checkedAt` even when nothing changed, so monitors can
+tell "checked, quiet" apart from "never ran".
 Retention: 90 days of daily archive files, then prune.
 
 ## Local verification
@@ -85,4 +96,5 @@ node scripts/collect-news.mjs
 node tests/daily-collectors.test.mjs
 node scripts/collect-daily.mjs
 node tests/ukraine-events.test.mjs
+node tests/freshness-gate.test.mjs
 node scripts/collect-ukraine-events.mjs

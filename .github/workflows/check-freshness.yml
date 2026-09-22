@@ -1,0 +1,107 @@
+name: Freshness watchdog
+
+# GitHub treats schedules as best-effort: the hourly collectors in this repo
+# were observed (Sep 2026) running only every 3-6h. This watchdog runs every
+# 30 minutes and collects INLINE (no dispatch, no PAT needed) for whichever
+# snapshot groups are stale, so the union of schedules keeps data fresh. Each
+# collector is idempotent and backfills gaps; quiet runs commit nothing except
+# the tiny ukraine status.json heartbeat.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: freshness-watchdog
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out data repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+      - name: Freshness gate
+        id: gate
+        run: |
+          node tests/freshness-gate.test.mjs
+          node scripts/check-freshness.mjs
+      - name: Collect Ukraine live-wire (stale)
+        if: steps.gate.outputs.stale_ukraine == 'true'
+        run: |
+          node --check scripts/lib/ukraineEvents.mjs
+          node --check scripts/collect-ukraine-events.mjs
+          node tests/ukraine-events.test.mjs
+          node scripts/collect-ukraine-events.mjs
+        env:
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+      - name: Collect cache snapshots (stale)
+        if: steps.gate.outputs.stale_cache == 'true'
+        run: |
+          node tests/markets-normalizer.test.mjs
+          node tests/hazards-normalizer.test.mjs
+          node tests/events-normalizer.test.mjs
+          node tests/news-rss.test.mjs
+          node scripts/collect-markets.mjs
+          node scripts/collect-hazards.mjs
+          node scripts/collect-events.mjs
+          node scripts/collect-news.mjs
+      - name: Collect daily snapshots (stale)
+        if: steps.gate.outputs.stale_daily == 'true'
+        run: |
+          node tests/daily-collectors.test.mjs
+          node scripts/collect-daily.mjs
+      - name: Collect traffic snapshots (stale)
+        id: traffic
+        if: steps.gate.outputs.stale_traffic == 'true'
+        continue-on-error: true
+        run: node scripts/collect-traffic.mjs
+      - name: Collect global AIS (stale traffic)
+        id: ais
+        if: steps.gate.outputs.stale_traffic == 'true'
+        continue-on-error: true
+        env:
+          AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
+        run: node scripts/collect-global-ais.mjs
+      - name: Prune archives older than 90 days
+        if: steps.gate.outputs.fresh != 'true'
+        shell: bash
+        run: |
+          for d in markets-data/archive hazards-data/archive events-data/archive news-data/archive ukraine-events/archive taiwan-data/archive arctic-data/archive; do
+            [ -d "$d" ] || continue
+            find "$d" -mindepth 3 -maxdepth 3 -type d -mtime +90 -prune -exec rm -rf {} + 2>/dev/null || true
+            find "$d" -name "*.jsonl" -mtime +90 -delete 2>/dev/null || true
+          done
+      - name: Commit watchdog refresh
+        if: steps.gate.outputs.fresh != 'true'
+        shell: bash
+        run: |
+          for f in markets-data/latest.json hazards-data/latest.json events-data/latest.json news-data/latest.json ukraine-events/latest.json ukraine-events/status.json ukraine-events/geocode-cache.json taiwan-data/latest.json arctic-data/latest.json commercial-data/latest.json maritime-data/latest.json global-vessel-data/latest.json; do
+            if [ -f "$f" ]; then git add -- "$f"; fi
+          done
+          for d in markets-data/archive hazards-data/archive events-data/archive news-data/archive ukraine-events/archive taiwan-data/archive arctic-data/archive; do
+            if [ -d "$d" ]; then git add -- "$d"; fi
+          done
+          if git diff --cached --quiet; then
+            echo "Watchdog: collectors ran, no file changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: watchdog freshness refresh"
+          ok=0
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            echo "Watchdog: push attempt $i failed; retrying in 10s"
+            sleep 10
+          done
+          if [ "$ok" = "0" ]; then echo "Watchdog: push failed after 3 attempts"; exit 1; fi

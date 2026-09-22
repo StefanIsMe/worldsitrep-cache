@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import {
   UKRAINE_EVENTS_SCHEMA_VERSION, applyGeocodeToItem, deepstateStatusToMeta, extractOsmCandidates,
-  extractZipSingleFile, gdeltActorLabel, gdeltRowToEvent, gdeltTypeForRoot, gdeltExportUrl,
+  extractZipSingleFile, gdeltActorLabel, gdeltRowToEvent, gdeltTypeForRoot, gdeltExportUrl, gdeltGapWindows,
   gdeltWindowDates, geocodeText, googleNewsSources, iswPostToEvent, mergeLiveEvents,
   reliefwebDocToEvent, removeGeocode, rssItemToEvent, stripForGeocode, validateOsmResult,
 } from '../scripts/lib/ukraineEvents.mjs';
@@ -111,6 +111,20 @@ assert.throws(() => deepstateStatusToMeta({ id: 1 }, '2026-09-21T00:00:00.000Z')
   assert.equal(gdeltExportUrl(wins[2]), 'https://data.gdeltproject.org/gdeltv2/20260921050000.export.CSV.zip');
 }
 
+// --- GDELT gap windows (self-healing lookback after skipped schedules) ---
+{
+  const gap = gdeltGapWindows('2026-09-22T00:15:06.206Z', new Date('2026-09-22T04:19:00.000Z'));
+  assert.equal(gap.length, 16, 'every slot after the previous run, newest first');
+  assert.equal(gdeltExportUrl(gap[0]), 'https://data.gdeltproject.org/gdeltv2/20260922041500.export.CSV.zip');
+  assert.equal(gdeltExportUrl(gap[gap.length - 1]), 'https://data.gdeltproject.org/gdeltv2/20260922003000.export.CSV.zip');
+  const clamped = gdeltGapWindows('2026-09-01T00:00:00.000Z', new Date('2026-09-22T04:19:00.000Z'));
+  assert.equal(clamped.length, 48, 'lookback clamps to 48 windows (12h)');
+  const fresh = gdeltGapWindows('2026-09-22T04:10:00.000Z', new Date('2026-09-22T04:19:00.000Z'));
+  assert.equal(fresh.length, 5, 'recent previous run keeps the 5-window overlap minimum');
+  assert.equal(gdeltGapWindows('garbage', new Date('2026-09-22T04:19:00.000Z')).length, 5, 'bad timestamp falls back to the overlap minimum');
+  assert.equal(gdeltGapWindows('2026-09-23T00:00:00.000Z', new Date('2026-09-22T04:19:00.000Z')).length, 5, 'future timestamp falls back to the overlap minimum');
+}
+
 // --- Merge: dedupe, retention, cap, sort ---
 {
   const old = { id: 'a', kind: 'event', isoDate: '2026-09-17T00:00:00.000Z' }; // 4d old -> expired (72h)
@@ -129,6 +143,10 @@ assert.throws(() => deepstateStatusToMeta({ id: 1 }, '2026-09-21T00:00:00.000Z')
   const result = await collect({ inputPath: 'tests/fixtures/ukraine-events.fixture.json', output: join(tmp, 'ukraine-events'), collectedAt: '2026-09-21T06:00:00.000Z' });
   assert.equal(result.changed, true);
   assert.equal(result.feed.schemaVersion, UKRAINE_EVENTS_SCHEMA_VERSION);
+  const status = JSON.parse(readFileSync(join(tmp, 'ukraine-events', 'status.json'), 'utf8'));
+  assert.equal(status.checkedAt, '2026-09-21T06:00:00.000Z', 'status.json records every run');
+  assert.equal(status.collectedAt, '2026-09-21T06:00:00.000Z');
+  assert.equal(status.changed, true);
   assert.equal(result.feed.theatre, 'ukraine');
   assert.ok(result.feed.count >= 6, `expected >=6 events, got ${result.feed.count}`);
   assert.ok(result.feed.deepstate.snapshotId === '1789884551');
