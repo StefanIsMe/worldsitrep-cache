@@ -147,6 +147,19 @@ assert.throws(() => deepstateStatusToMeta({ id: 1 }, '2026-09-21T00:00:00.000Z')
   assert.equal(status.checkedAt, '2026-09-21T06:00:00.000Z', 'status.json records every run');
   assert.equal(status.collectedAt, '2026-09-21T06:00:00.000Z');
   assert.equal(status.changed, true);
+  const dayIndex = JSON.parse(readFileSync(join(tmp, 'ukraine-events', 'index.json'), 'utf8'));
+  const dayNames = Object.keys(dayIndex.days);
+  assert.ok(dayNames.length >= 1, 'day-segment index is written');
+  let dayTotal = 0;
+  for (const day of dayNames) {
+    const parts = day.split('-');
+    const seg = JSON.parse(readFileSync(join(tmp, 'ukraine-events', 'days', parts[0], parts[1], parts[2] + '.json'), 'utf8'));
+    assert.ok(seg.events.every((e) => String(e.isoDate).startsWith(day)), 'day file ' + day + ' holds only that UTC date');
+    assert.equal(seg.count, seg.events.length);
+    assert.equal(dayIndex.days[day].count, seg.events.length);
+    dayTotal += seg.events.length;
+  }
+  assert.equal(dayTotal, result.feed.count, 'day segments partition the merged set');
   assert.equal(result.feed.theatre, 'ukraine');
   assert.ok(result.feed.count >= 6, `expected >=6 events, got ${result.feed.count}`);
   assert.ok(result.feed.deepstate.snapshotId === '1789884551');

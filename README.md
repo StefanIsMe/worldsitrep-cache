@@ -41,7 +41,19 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   with the match in `coordsNote`; placeless headlines and theatre-wide
   assessments honestly stay `unplaced`. The stage runs over the merged set,
   so previously collected items gain coords on later runs too.
-- `<name>-data/archive/YYYY/MM/DD.jsonl` — one full envelope per collected run.
+- Warehouse history (nothing is ever pruned):
+  - `ukraine-events/days/YYYY/MM/DD.json` — immutable day segments: every record
+    whose UTC date is that day (full records, deduped by id). Runs only ever
+    append new ids; `ukraine-events/index.json` lists day counts by kind.
+    The old `ukraine-events/archive/` full-envelope dumps are frozen legacy.
+  - `<name>-data/archive/YYYY/MM/DD.jsonl` (markets, hazards, events, news,
+    taiwan, arctic) — one full envelope per changed run, kept forever.
+  - `commercial-data/shards/<lat>-<lon>.json` + `global-vessel-data/shards/`
+    — regional shards on a fixed 4x4 macro grid (45d lat x 90d lon, cells
+    `0-0`..`3-3`) with per-dataset `index.json` (bbox + counts), so clients
+    fetch only the cells in view instead of the multi-MB global files (which
+    are still written for compatibility). `maritime-data` stays whole: it is
+    Baltic-only, a single region by construction.
 
 Source policy: ACLED is intentionally NOT collected (its EULA forbids
 redistribution). DeepState article/territory content is intentionally NOT
@@ -60,6 +72,10 @@ Raw feed URLs:
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/arctic-data/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/ukraine-events/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/ukraine-events/status.json (run-liveness record: checkedAt + per-source health)
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/ukraine-events/index.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/ukraine-events/days/2026/09/22.json (day segments: days/YYYY/MM/DD.json)
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/commercial-data/index.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/global-vessel-data/index.json (needs AISSTREAM_API_KEY; stale without it)
 
 Schedules: `.github/workflows/collect-cache.yml` runs hourly (minute 7);
 `.github/workflows/collect-daily.yml` runs daily (01:23 UTC) for Taiwan MND
@@ -81,7 +97,9 @@ feeds keep 50 items of catch-up headroom, so any run backfills what skipped
 runs missed; (3) `ukraine-events/status.json` (raw URL below) is rewritten
 on every run with `checkedAt` even when nothing changed, so monitors can
 tell "checked, quiet" apart from "never ran".
-Retention: 90 days of daily archive files, then prune.
+Retention: forever — the prune jobs were removed in September 2026. History
+is an asset for analysis and SEO; GitHub's practical limits (100MB per file,
+~5GB per repo) are nowhere in sight at current volumes.
 
 ## Local verification
 
@@ -97,4 +115,5 @@ node tests/daily-collectors.test.mjs
 node scripts/collect-daily.mjs
 node tests/ukraine-events.test.mjs
 node tests/freshness-gate.test.mjs
+node tests/geo-shard.test.mjs
 node scripts/collect-ukraine-events.mjs

@@ -27,11 +27,6 @@ jobs:
         run: node tests/daily-collectors.test.mjs
       - name: Collect daily snapshots
         run: node scripts/collect-daily.mjs
-      - name: Prune archives older than 180 days
-        shell: bash
-        run: |
-          find taiwan-data/archive arctic-data/archive -mindepth 3 -maxdepth 3 -type d -mtime +180 -prune -exec rm -rf {} + 2>/dev/null || true
-          find taiwan-data/archive arctic-data/archive -name "*.jsonl" -mtime +180 -delete 2>/dev/null || true
       - name: Commit meaningful snapshot changes
         shell: bash
         run: |

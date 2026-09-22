@@ -1,8 +1,21 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { ALL_CELLS, bboxFor, shardOpenSky } from './lib/geoShard.mjs';
 const headers = { accept: 'application/json', 'user-agent': 'WorldSITREP/1.0 (+https://worldsitrep.com)', 'Digitraffic-User': 'WorldSITREP/worldsitrep.com' };
 async function json(url) { const res = await fetch(url, { headers, signal: AbortSignal.timeout(30000) }); if (!res.ok) throw Error('HTTP ' + res.status); return res.json(); }
 async function save(dir, value) { await mkdir(dir, {recursive:true}); await writeFile(dir + '/latest.json', JSON.stringify(value)); }
 async function previous(dir) { try { return JSON.parse(await readFile(dir + '/latest.json','utf8')); } catch { return {}; } }
+async function writeShards(dir, time, cells, payload) {
+  await mkdir(dir + '/shards', { recursive: true });
+  const collectedAt = new Date().toISOString();
+  const index = { schemaVersion: 1, time, collectedAt, grid: { latBands: 4, lonBands: 4, cell: '45d lat x 90d lon' }, shards: {} };
+  for (const cell of ALL_CELLS) {
+    const body = cells.get(cell);
+    const count = body ? payload(body).count : 0;
+    if (body) await writeFile(dir + '/shards/' + cell + '.json', JSON.stringify({ time, collectedAt, cell, bbox: bboxFor(cell), ...payload(body) }));
+    index.shards[cell] = { bbox: bboxFor(cell), count };
+  }
+  await writeFile(dir + '/index.json', JSON.stringify(index));
+}
 const results = await Promise.allSettled([
   (async () => { const data = await json('https://opensky-network.org/api/states/all'); if (!Array.isArray(data.states) || !Number.isFinite(data.time)) throw Error('Invalid OpenSky envelope'); const prev = await previous('commercial-data');
     const tracks = {};
@@ -13,7 +26,7 @@ const results = await Promise.allSettled([
         .filter(p => { const age = data.time*1000-Date.parse(p.observedAt); const key=p.observedAt+':'+p.lat+':'+p.lng; if (!Number.isFinite(age) || age < -60000 || age > 86400000 || seen.has(key)) return false; seen.add(key); return true; })
         .sort((a,b)=>Date.parse(a.observedAt)-Date.parse(b.observedAt)).slice(-2000);
     }
-    await save('commercial-data', {...data, tracks}); console.log('Commercial states:', data.states.length); })(),
+    await save('commercial-data', {...data, tracks}); await writeShards('commercial-data', data.time, shardOpenSky(data.states, tracks), (s)=>({count:s.states.length,states:s.states,tracks:s.tracks})); console.log('Commercial states:', data.states.length); })(),
   (async () => {
     const [locations, metadata, prev] = await Promise.all([json('https://meri.digitraffic.fi/api/ais/v1/locations'), json('https://meri.digitraffic.fi/api/ais/v1/vessels'), previous('maritime-data')]);
     if (!Array.isArray(locations.features) || !Array.isArray(metadata)) throw Error('Invalid Digitraffic envelope');

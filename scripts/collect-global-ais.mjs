@@ -1,4 +1,5 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { ALL_CELLS, bboxFor, shardVessels } from './lib/geoShard.mjs';
 // Credentials remain in Actions secrets. Only normalized public broadcasts are published.
 const key = process.env.AISSTREAM_API_KEY;
 if (!key) { console.log('Global AIS not configured; retaining the dated snapshot.'); process.exit(0); }
@@ -33,4 +34,5 @@ await new Promise((resolve, reject) => {
 const current=[...vessels.values()].filter(v=>Number.isFinite(v.lat)&&Number.isFinite(v.lng)&&Date.now()-Date.parse(v.observedAt)<12*3600000);
 await mkdir('global-vessel-data',{recursive:true});
 await writeFile(path,JSON.stringify({schemaVersion:1,collectedAt:new Date().toISOString(),source:{id:'aisstream',name:'AISStream',url:'https://aisstream.io'},count:current.length,vessels:current,warnings:['Sampled broadcast coverage; silence does not indicate absence.']}));
+{ const cells = shardVessels(current); await mkdir('global-vessel-data/shards', { recursive: true }); const stamp = new Date().toISOString(); const index = { schemaVersion: 1, collectedAt: stamp, grid: { latBands: 4, lonBands: 4 }, shards: {} }; for (const cell of ALL_CELLS) { const list = cells.get(cell) || []; if (list.length) await writeFile('global-vessel-data/shards/' + cell + '.json', JSON.stringify({ collectedAt: stamp, cell, bbox: bboxFor(cell), count: list.length, vessels: list })); index.shards[cell] = { bbox: bboxFor(cell), count: list.length }; } await writeFile('global-vessel-data/index.json', JSON.stringify(index)); }
 console.log('Global AIS vessels:',current.length);

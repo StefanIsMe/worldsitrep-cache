@@ -72,23 +72,14 @@ jobs:
         env:
           AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
         run: node scripts/collect-global-ais.mjs
-      - name: Prune archives older than 90 days
-        if: steps.gate.outputs.fresh != 'true'
-        shell: bash
-        run: |
-          for d in markets-data/archive hazards-data/archive events-data/archive news-data/archive ukraine-events/archive taiwan-data/archive arctic-data/archive; do
-            [ -d "$d" ] || continue
-            find "$d" -mindepth 3 -maxdepth 3 -type d -mtime +90 -prune -exec rm -rf {} + 2>/dev/null || true
-            find "$d" -name "*.jsonl" -mtime +90 -delete 2>/dev/null || true
-          done
       - name: Commit watchdog refresh
         if: steps.gate.outputs.fresh != 'true'
         shell: bash
         run: |
-          for f in markets-data/latest.json hazards-data/latest.json events-data/latest.json news-data/latest.json ukraine-events/latest.json ukraine-events/status.json ukraine-events/geocode-cache.json taiwan-data/latest.json arctic-data/latest.json commercial-data/latest.json maritime-data/latest.json global-vessel-data/latest.json; do
+          for f in markets-data/latest.json hazards-data/latest.json events-data/latest.json news-data/latest.json ukraine-events/latest.json ukraine-events/status.json ukraine-events/index.json ukraine-events/geocode-cache.json taiwan-data/latest.json arctic-data/latest.json commercial-data/latest.json commercial-data/index.json maritime-data/latest.json global-vessel-data/latest.json global-vessel-data/index.json; do
             if [ -f "$f" ]; then git add -- "$f"; fi
           done
-          for d in markets-data/archive hazards-data/archive events-data/archive news-data/archive ukraine-events/archive taiwan-data/archive arctic-data/archive; do
+          for d in markets-data/archive hazards-data/archive events-data/archive news-data/archive ukraine-events/days taiwan-data/archive arctic-data/archive commercial-data/shards global-vessel-data/shards; do
             if [ -d "$d" ]; then git add -- "$d"; fi
           done
           if git diff --cached --quiet; then

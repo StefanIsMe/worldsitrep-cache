@@ -8,7 +8,7 @@
 //  5. DeepState map status signal ONLY (snapshot id + feature counts, never geometry)
 // Excluded by policy: ACLED (EULA forbids redistribution), DeepState article/geometry
 // scraping (no permission reply; HTML is bot-walled — no bypass attempted).
-import { appendFile, mkdir, readFile, rename, unlink, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, rename, unlink, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
@@ -111,13 +111,6 @@ async function atomicJsonWrite(path, value) {
     await unlink(temporary).catch(() => {});
     throw error;
   }
-}
-
-function archivePath(output, collectedAt) {
-  const date = new Date(collectedAt);
-  if (Number.isNaN(date.getTime())) throw new Error('--collected-at must be a valid ISO date');
-  const p = (v) => String(v).padStart(2, '0');
-  return resolve(output, 'archive', String(date.getUTCFullYear()), p(date.getUTCMonth() + 1), `${p(date.getUTCDate())}.jsonl`);
 }
 
 async function existingJson(path) {
@@ -360,6 +353,48 @@ async function collectDeepstateStatus(timeout, collectedAt) {
   }
 }
 
+// Warehouse day segments: partition the merged set by UTC date. Day files
+// only ever gain new ids (rewrites are content-identical when quiet, so git
+// stays clean); index.json recounts touched days. Old days are never pruned.
+async function writeDaySegments(output, events) {
+  const byDay = new Map();
+  for (const e of events) {
+    const day = String(e.isoDate || '').slice(0, 10);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(day)) continue;
+    if (!byDay.has(day)) byDay.set(day, []);
+    byDay.get(day).push(e);
+  }
+  const touched = [];
+  for (const [day, list] of byDay) {
+    const parts = day.split('-');
+    const dir = resolve(output, 'days', parts[0], parts[1]);
+    const file = resolve(dir, parts[2] + '.json');
+    await mkdir(dir, { recursive: true });
+    const prev = await existingJson(file);
+    const seen = new Map((prev?.events || []).map((e) => [e.id, e]));
+    for (const e of list) seen.set(e.id, e);
+    const mergedDay = [...seen.values()].sort((a, b) => (Date.parse(b.isoDate) - Date.parse(a.isoDate)) || (a.id < b.id ? -1 : 1));
+    const next = { schemaVersion: UKRAINE_EVENTS_SCHEMA_VERSION, date: day, count: mergedDay.length, events: mergedDay };
+    const prevCanon = prev ? { schemaVersion: prev.schemaVersion, date: day, count: (prev.events || []).length, events: prev.events || [] } : null;
+    if (JSON.stringify(next) !== JSON.stringify(prevCanon)) {
+      await atomicJsonWrite(file, next);
+    }
+    touched.push(day);
+  }
+  const indexPath = resolve(output, 'index.json');
+  const index = (await existingJson(indexPath)) || { schemaVersion: UKRAINE_EVENTS_SCHEMA_VERSION, updatedAt: null, days: {} };
+  for (const day of touched) {
+    const parts = day.split('-');
+    const file = await existingJson(resolve(output, 'days', parts[0], parts[1], parts[2] + '.json'));
+    const kinds = {};
+    for (const e of file.events) kinds[e.kind] = (kinds[e.kind] || 0) + 1;
+    index.days[day] = { count: file.events.length, kinds };
+  }
+  index.updatedAt = new Date().toISOString();
+  await atomicJsonWrite(indexPath, index);
+  return touched;
+}
+
 export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt, timeoutMs = DEFAULT_TIMEOUT_MS, only = null } = {}) {
   const collectionTime = collectedAt || new Date().toISOString();
   const timeout = parseTimeout(timeoutMs);
@@ -467,6 +502,7 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
     await atomicJsonWrite(resolve(output, 'geocode-cache.json'), { _attribution: GEOCODE_CACHE_ATTRIBUTION, entries: cache.entries });
   }
   if (events.length === 0) throw new Error('no ukraine events collected (all fetches failed or everything expired)');
+  const touchedDays = await writeDaySegments(output, events);
 
   const feed = {
     schemaVersion: UKRAINE_EVENTS_SCHEMA_VERSION,
@@ -492,13 +528,10 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
     sources: sources.map((s) => ({ id: s.id, status: s.status, count: s.count })),
   });
   if (!changed) {
-    return { latest, archive: null, feed: previous, changed: false };
+    return { latest, days: touchedDays, feed: previous, changed: false };
   }
   await atomicJsonWrite(latest, feed);
-  const archive = archivePath(output, feed.collectedAt);
-  await mkdir(dirname(archive), { recursive: true });
-  await appendFile(archive, JSON.stringify(feed) + '\n', 'utf8');
-  return { latest, archive, feed, changed: true };
+  return { latest, days: touchedDays, feed, changed: true };
 }
 
 if (process.argv[1] && resolve(process.argv[1]).toLowerCase() === fileURLToPath(import.meta.url).toLowerCase()) {
@@ -511,8 +544,8 @@ if (process.argv[1] && resolve(process.argv[1]).toLowerCase() === fileURLToPath(
       only: option('only'),
     });
     console.log(result.changed
-      ? `Collected ${result.feed.count} ukraine events; wrote ${result.latest} and ${result.archive}`
-      : 'No meaningful ukraine change; left latest/archive unchanged');
+      ? `Collected ${result.feed.count} ukraine events; latest.json + ${result.days.length} day segments current`
+      : 'No meaningful ukraine change; heartbeat in status.json');
   } catch (error) {
     console.error(error.message);
     process.exitCode = 1;

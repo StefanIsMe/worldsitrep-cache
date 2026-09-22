@@ -39,17 +39,12 @@ jobs:
         run: node scripts/collect-ukraine-events.mjs
         env:
           RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
-      - name: Prune archives older than 90 days
-        shell: bash
-        run: |
-          find ukraine-events/archive -mindepth 3 -maxdepth 3 -type d -mtime +90 -prune -exec rm -rf {} + 2>/dev/null || true
-          find ukraine-events/archive -name "*.jsonl" -mtime +90 -delete 2>/dev/null || true
       - name: Commit meaningful snapshot changes
         shell: bash
         run: |
           # NOTE: stage first — bare `git diff` ignores untracked files, so a
           # pre-add quiet check would silently skip the first-ever snapshot.
-          git add -- ukraine-events/latest.json ukraine-events/status.json ukraine-events/archive ukraine-events/geocode-cache.json
+          git add -- ukraine-events/latest.json ukraine-events/status.json ukraine-events/index.json ukraine-events/days ukraine-events/geocode-cache.json
           if git diff --cached --quiet; then
             echo "No ukraine file changes; nothing to commit."
             exit 0
