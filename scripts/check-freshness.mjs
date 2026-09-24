@@ -13,6 +13,14 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 // heals snapshots before visitors see a stale flag.
 export const GROUPS = {
   ukraine: { maxAgeMin: 75, snapshots: ['ukraine-events/latest.json'] },
+  theatres: {
+    maxAgeMin: 100,
+    snapshots: [
+      'taiwan-events/latest.json', 'gaza-events/latest.json', 'iran-events/latest.json',
+      'sahel-events/latest.json', 'korea-events/latest.json', 'arctic-events/latest.json',
+      'us-election-events/latest.json',
+    ],
+  },
   cache: { maxAgeMin: 100, snapshots: ['markets-data/latest.json', 'hazards-data/latest.json', 'events-data/latest.json', 'news-data/latest.json'] },
   traffic: { maxAgeMin: 75, snapshots: ['commercial-data/latest.json', 'maritime-data/latest.json'] },
   daily: { maxAgeMin: 30 * 60, snapshots: ['taiwan-data/latest.json', 'arctic-data/latest.json'] },

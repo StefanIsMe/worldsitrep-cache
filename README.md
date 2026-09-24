@@ -41,6 +41,26 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   with the match in `coordsNote`; placeless headlines and theatre-wide
   assessments honestly stay `unplaced`. The stage runs over the merged set,
   so previously collected items gain coords on later runs too.
+- `<theatre>-events/latest.json` — rolling live-wire feeds for the other 7
+  theatres (taiwan, gaza, iran, sahel, korea, arctic, us-election): same
+  envelope, retention (72h events/news, 14d reports, cap 1500, newest first),
+  per-source statuses, and warehouse layout (`latest/status/index/days/`)
+  as ukraine-events, driven by per-theatre configs
+  (`scripts/lib/theatreConfigs.mjs`). One shared GDELT 2.1 export download
+  per run is partitioned per theatre (FIPS sets; polar bbox for the Arctic;
+  political-conflict CAMEO roots 13–17 only for us-election so ordinary US
+  crime news stays out), plus native RSS (Taipei Times, BBC, Jerusalem
+  Post, AllAfrica x3, Yonhap x2, Korea Times, Eye on the Arctic,
+  Nunatsiaq, NPR, EAC) and query-scoped Google News feeds, plus gated
+  ReliefWeb reports (same `RELIEFWEB_APPNAME` secret; skipped for the
+  Arctic). General-news home papers (Taipei Times, JPost, Yonhap all-news,
+  Korea Times) pass a per-feed keyword relevance gate so sports, culture,
+  and world headlines never enter a theatre wire; Al Jazeera all-news and
+  UN News global were dropped for the same reason (Times of Israel is
+  403 bot-walled — no bypass attempted).
+  Headlines gain `approximate` coords from a per-theatre gazetteer first,
+  then budgeted/cached OSM Nominatim inside a per-theatre country+bbox
+  allowlist; placeless items honestly stay `unplaced`.
 - `territory-daily/latest.json` — rolling Ukraine territory-control snapshot:
   slim normalized status polygons (`detailedPolygons` in the site's
   `[lat,lng]` shape) in three classes, ALL automated (no hand-drawn lines):
@@ -83,7 +103,7 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   country centroid) and out-of-theatre pins (`outsideTheatreDropped` —
   e.g. "Moscow says …" datelines geocoded to Moscow).
 - Warehouse history (nothing is ever pruned):
-  - `ukraine-events/days/YYYY/MM/DD.json` — immutable day segments: every record
+  - `<theatre>-events/days/YYYY/MM/DD.json` (ukraine + the 7 theatre wires) — immutable day segments: every record
     whose UTC date is that day (full records, deduped by id). Runs only ever
     append new ids; `ukraine-events/index.json` lists day counts by kind.
     The old `ukraine-events/archive/` full-envelope dumps are frozen legacy.
@@ -127,6 +147,13 @@ Raw feed URLs:
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/ukraine-events/status.json (run-liveness record: checkedAt + per-source health)
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/ukraine-events/index.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/ukraine-events/days/2026/09/22.json (day segments: days/YYYY/MM/DD.json)
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/taiwan-events/latest.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/gaza-events/latest.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/iran-events/latest.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/sahel-events/latest.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/korea-events/latest.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/arctic-events/latest.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/us-election-events/latest.json (each theatre wire also has status.json, index.json, days/YYYY/MM/DD.json)
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/territory-daily/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/territory-daily/status.json (run-liveness record: checkedAt + snapshot id + per-class census)
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/territory-daily/index.json (timeline day list for the site scrubber)
@@ -140,6 +167,8 @@ PLA activities (factual counts + attribution + link back) and NSIDC Arctic
 sea-ice image metadata (citation NSIDC/CIRES/NASA).
 `.github/workflows/collect-ukraine-events.yml` runs hourly (minute 37) for
 the Ukraine live-wire feed.
+`.github/workflows/collect-theatre-events.yml` runs hourly (minute 52) for
+the other 7 theatre live-wire feeds (one shared GDELT download per run).
 `.github/workflows/collect-territory.yml` runs daily (04:13 UTC, after the mirror's ~03:00 UTC refresh) for the Ukraine territory snapshot; the watchdog also heals it inline when `territory-daily/latest.json` is older than 30h.
 `.github/workflows/collect-traffic.yml` runs twice hourly (minutes 17, 47).
 `.github/workflows/check-freshness.yml` (watchdog) runs every 30 minutes and
@@ -172,6 +201,8 @@ node scripts/collect-news.mjs
 node tests/daily-collectors.test.mjs
 node scripts/collect-daily.mjs
 node tests/ukraine-events.test.mjs
+node tests/theatre-events.test.mjs
+node scripts/collect-theatre-events.mjs --theatre=korea --input=tests/fixtures/theatre-events.fixture.json --root=$TMP/tw (offline replay; live: --all)
 node tests/freshness-gate.test.mjs
 node tests/geo-shard.test.mjs
 node scripts/collect-ukraine-events.mjs

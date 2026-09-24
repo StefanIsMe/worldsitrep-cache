@@ -1,0 +1,60 @@
+name: Collect theatre live-wire events
+
+# Hourly live-wire feeds for the 7 non-Ukraine theatres (taiwan, gaza, iran,
+# sahel, korea, arctic, us-election): one shared GDELT 2.1 export download
+# partitioned per theatre, plus per-theatre RSS headlines and gated ReliefWeb
+# reports. Same envelope + warehouse layout as ukraine-events. Runs in this
+# public cache repo; the private site repo only reads latest.json.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "52 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: theatre-events-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out data repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+      - name: Run theatre events tests
+        run: |
+          node --check scripts/lib/theatreEvents.mjs
+          node --check scripts/lib/theatreConfigs.mjs
+          node --check scripts/collect-theatre-events.mjs
+          node tests/theatre-events.test.mjs
+      - name: Collect theatre snapshots
+        run: node scripts/collect-theatre-events.mjs --all
+        env:
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+      - name: Commit meaningful snapshot changes
+        shell: bash
+        run: |
+          # NOTE: stage first — bare `git diff` ignores untracked files, so a
+          # pre-add quiet check would silently skip the first-ever snapshot.
+          git add -- taiwan-events/latest.json taiwan-events/status.json taiwan-events/index.json taiwan-events/days taiwan-events/geocode-cache.json gaza-events/latest.json gaza-events/status.json gaza-events/index.json gaza-events/days gaza-events/geocode-cache.json iran-events/latest.json iran-events/status.json iran-events/index.json iran-events/days iran-events/geocode-cache.json sahel-events/latest.json sahel-events/status.json sahel-events/index.json sahel-events/days sahel-events/geocode-cache.json korea-events/latest.json korea-events/status.json korea-events/index.json korea-events/days korea-events/geocode-cache.json arctic-events/latest.json arctic-events/status.json arctic-events/index.json arctic-events/days arctic-events/geocode-cache.json us-election-events/latest.json us-election-events/status.json us-election-events/index.json us-election-events/days us-election-events/geocode-cache.json
+          if git diff --cached --quiet; then
+            echo "No theatre file changes; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --cached --quiet -- taiwan-events/latest.json gaza-events/latest.json iran-events/latest.json sahel-events/latest.json korea-events/latest.json arctic-events/latest.json us-election-events/latest.json; then
+            git commit -m "chore: theatre collectors heartbeat (no new items)"
+          else
+            git commit -m "chore: update theatre live-wire snapshots"
+          fi
+          git pull --rebase origin main
+          git push

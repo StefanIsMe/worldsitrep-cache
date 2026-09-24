@@ -46,6 +46,16 @@ jobs:
           node scripts/build-zone-proposals.mjs
         env:
           RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+      - name: Collect theatre live-wires (stale)
+        if: steps.gate.outputs.stale_theatres == 'true'
+        run: |
+          node --check scripts/lib/theatreEvents.mjs
+          node --check scripts/lib/theatreConfigs.mjs
+          node --check scripts/collect-theatre-events.mjs
+          node tests/theatre-events.test.mjs
+          node scripts/collect-theatre-events.mjs --all
+        env:
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
       - name: Collect cache snapshots (stale)
         if: steps.gate.outputs.stale_cache == 'true'
         run: |
@@ -85,10 +95,10 @@ jobs:
         if: steps.gate.outputs.fresh != 'true'
         shell: bash
         run: |
-          for f in markets-data/latest.json hazards-data/latest.json events-data/latest.json news-data/latest.json ukraine-events/latest.json ukraine-events/status.json ukraine-events/index.json ukraine-events/geocode-cache.json taiwan-data/latest.json arctic-data/latest.json commercial-data/latest.json commercial-data/index.json maritime-data/latest.json global-vessel-data/latest.json global-vessel-data/index.json territory-daily/latest.json territory-daily/status.json territory-daily/index.json zone-proposals/latest.json data/territory/boundary-ukraine.geojson data/territory/boundary-meta.json; do
+          for f in markets-data/latest.json hazards-data/latest.json events-data/latest.json news-data/latest.json ukraine-events/latest.json ukraine-events/status.json ukraine-events/index.json ukraine-events/geocode-cache.json taiwan-events/latest.json taiwan-events/status.json taiwan-events/index.json taiwan-events/geocode-cache.json gaza-events/latest.json gaza-events/status.json gaza-events/index.json gaza-events/geocode-cache.json iran-events/latest.json iran-events/status.json iran-events/index.json iran-events/geocode-cache.json sahel-events/latest.json sahel-events/status.json sahel-events/index.json sahel-events/geocode-cache.json korea-events/latest.json korea-events/status.json korea-events/index.json korea-events/geocode-cache.json arctic-events/latest.json arctic-events/status.json arctic-events/index.json arctic-events/geocode-cache.json us-election-events/latest.json us-election-events/status.json us-election-events/index.json us-election-events/geocode-cache.json taiwan-data/latest.json arctic-data/latest.json commercial-data/latest.json commercial-data/index.json maritime-data/latest.json global-vessel-data/latest.json global-vessel-data/index.json territory-daily/latest.json territory-daily/status.json territory-daily/index.json zone-proposals/latest.json data/territory/boundary-ukraine.geojson data/territory/boundary-meta.json; do
             if [ -f "$f" ]; then git add -- "$f"; fi
           done
-          for d in markets-data/archive hazards-data/archive events-data/archive news-data/archive ukraine-events/days taiwan-data/archive arctic-data/archive commercial-data/shards global-vessel-data/shards territory-daily/days; do
+          for d in markets-data/archive hazards-data/archive events-data/archive news-data/archive ukraine-events/days taiwan-events/days gaza-events/days iran-events/days sahel-events/days korea-events/days arctic-events/days us-election-events/days taiwan-data/archive arctic-data/archive commercial-data/shards global-vessel-data/shards territory-daily/days; do
             if [ -d "$d" ]; then git add -- "$d"; fi
           done
           if git diff --cached --quiet; then
