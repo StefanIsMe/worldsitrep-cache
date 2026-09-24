@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "theatre": "sahel",
+  "collectedAt": "2026-09-24T11:30:38.200Z",
+  "sources": [
+    {
+      "id": "gdelt-2.1-export",
+      "url": "https://data.gdeltproject.org/gdeltv2/",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "id": "aa-mali",
+      "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
+      "status": "ok",
+      "count": 13,
+      "filtered": 0
+    },
+    {
+      "id": "aa-burkina",
+      "url": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
+      "status": "ok",
+      "count": 7,
+      "filtered": 0
+    },
+    {
+      "id": "aa-niger",
+      "url": "https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf",
+      "status": "ok",
+      "count": 28,
+      "filtered": 0
+    },
+    {
+      "id": "gnews-sahel",
+      "url": "https://news.google.com/rss/search?q=Sahel%20Mali%20Burkina%20Niger&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
+    },
+    {
+      "id": "reliefweb",
+      "url": "https://api.reliefweb.int/v2/",
+      "status": "skipped",
+      "count": 0,
+      "note": "RELIEFWEB_APPNAME not set"
+    }
+  ],
+  "count": 8,
+  "events": [
+    {
+      "id": "news-1iffr6o",
+      "kind": "news",
+      "date": "2026-09-24",
+      "isoDate": "2026-09-24T09:52:10.000Z",
+      "description": "From Cotton to Uniforms, Burkina Faso Boosts its Textile Industry (AllAfrica Burkina Faso, 2026-09-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AllAfrica Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "AllAfrica Burkina Faso",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AllAfrica Burkina Faso",
+      "source": "AllAfrica Burkina Faso",
+      "sourceUrl": "https://allafrica.com/stories/202609240100.html"
+    },
+    {
+      "id": "gdelt-1324656992",
+      "kind": "event",
+      "date": "2026-09-24",
+      "isoDate": "2026-09-24T00:00:00.000Z",
+      "observedAt": "2026-09-24T10:30:00.000Z",
+      "description": "Rejection — Burkina Faso → Government near Fada Ngourma, Region de l' Est, Burkina Faso. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.0622,
+      "lng": 0.35778,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Fada Ngourma, Region de l' Est, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202609240100.html",
+      "gdelt": {
+        "globalEventId": "1324656992",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -0.46,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324657332",
+      "kind": "event",
+      "date": "2026-09-24",
+      "isoDate": "2026-09-24T00:00:00.000Z",
+      "observedAt": "2026-09-24T10:30:00.000Z",
+      "description": "Rejection — Government → Unspecified near Fada Ngourma, Region de l' Est, Burkina Faso. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.0622,
+      "lng": 0.35778,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Fada Ngourma, Region de l' Est, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202609240100.html",
+      "gdelt": {
+        "globalEventId": "1324657332",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -0.46,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "news-1ate3lz",
+      "kind": "news",
+      "date": "2026-09-23",
+      "isoDate": "2026-09-23T07:44:54.000Z",
+      "description": "There's No Conspiracy in the Sahel - - There's a Gap, and Bamako Knows How to Use It (AllAfrica Niger, 2026-09-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AllAfrica Niger",
+      "axis": "Other",
+      "tags": [
+        "AllAfrica Niger",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AllAfrica Niger",
+      "source": "AllAfrica Niger",
+      "sourceUrl": "https://allafrica.com/stories/202609230063.html"
+    },
+    {
+      "id": "news-1rbdlfp",
+      "kind": "news",
+      "date": "2026-09-23",
+      "isoDate": "2026-09-23T02:44:16.000Z",
+      "description": "Flamingos in Perfect Run With 2-0 Victory Over Burkina Faso (AllAfrica Burkina Faso, 2026-09-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AllAfrica Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "AllAfrica Burkina Faso",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AllAfrica Burkina Faso",
+      "source": "AllAfrica Burkina Faso",
+      "sourceUrl": "https://allafrica.com/stories/202609230007.html"
+    },
+    {
+      "id": "news-1mgvoqv",
+      "kind": "news",
+      "date": "2026-09-22",
+      "isoDate": "2026-09-22T18:30:04.000Z",
+      "description": "Niger Thwarts Attempted Coup Amid Ongoing Threats to the Alliance of Sahel States - Black Agenda Report (Black Agenda Report, 2026-09-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Black Agenda Report",
+      "axis": "Other",
+      "tags": [
+        "Black Agenda Report",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Black Agenda Report",
+      "source": "Black Agenda Report",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdDdGeUdXOW1TQWNPTGtYMUZSNGxsSUxlakNTb1h6TmxGSGctSHBZVjJUQnhyS3JfdmdpSjFIUGxQT2lWb3RXdHEwTE5VWW40cGYybGhkdURVMHFwYTV5SFZHdUJpQlRZdzFFT3FTaGMwWThJVVRLdjl1QktnekczdmZCVlhBVFM4Y0hGSVBYbkJyNnZtV0lJSkxRdElmeEdWMFF4N0lQbmc?oc=5"
+    },
+    {
+      "id": "news-1jzav72",
+      "kind": "news",
+      "date": "2026-09-22",
+      "isoDate": "2026-09-22T17:38:39.000Z",
+      "description": "Junta Strips 5 More Exiled Critics of Nationality (AllAfrica Niger, 2026-09-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AllAfrica Niger",
+      "axis": "Other",
+      "tags": [
+        "AllAfrica Niger",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AllAfrica Niger",
+      "source": "AllAfrica Niger",
+      "sourceUrl": "https://allafrica.com/stories/202609220449.html"
+    },
+    {
+      "id": "news-y9wd9f",
+      "kind": "news",
+      "date": "2026-09-22",
+      "isoDate": "2026-09-22T14:09:14.000Z",
+      "description": "Flamingos Maintain Perfect Wafu-B U17 Run With 2-0 Win Over Burkina Faso (AllAfrica Burkina Faso, 2026-09-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AllAfrica Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "AllAfrica Burkina Faso",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AllAfrica Burkina Faso",
+      "source": "AllAfrica Burkina Faso",
+      "sourceUrl": "https://allafrica.com/stories/202609220330.html"
+    }
+  ]
+}
