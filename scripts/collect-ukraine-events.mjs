@@ -5,14 +5,14 @@
 //  2. RSS, link-only: Kyiv Independent, Ukrainska Pravda (English), Google News x2 queries
 //  3. ISW daily assessments via their WordPress JSON API (title/link/date only)
 //  4. ReliefWeb API v2 reports+disasters (only when RELIEFWEB_APPNAME is set)
-//  5. DeepState map status signal ONLY (snapshot id + feature counts, never geometry)
-// Excluded by policy: ACLED (EULA forbids redistribution), DeepState article/geometry
-// scraping (no permission reply; HTML is bot-walled — no bypass attempted).
+// Zero direct DeepStateMap.live calls: API access was denied (Sep 2026), so the
+// former status-signal poll is removed. Territory geometry comes from the public
+// cyterat mirror (see README source policy). Excluded: ACLED (EULA), all DeepState endpoints, all HTML scraping (bot-walled — no bypass attempted).
 import { mkdir, readFile, rename, unlink, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
-  UKRAINE_EVENTS_SCHEMA_VERSION, applyGeocodeToItem, deepstateStatusToMeta,
+  UKRAINE_EVENTS_SCHEMA_VERSION, applyGeocodeToItem,
   extractOsmCandidates, gdeltExportUrl, gdeltGapWindows, gdeltRowToEvent,
   geocodeText, googleNewsSources, iswPostToEvent, mergeLiveEvents,
   reliefwebDocToEvent, removeGeocode, rssItemToEvent, extractZipSingleFile,
@@ -41,7 +41,8 @@ export const RSS_FEEDS = [
 ];
 const ISW_POSTS_URL = 'https://understandingwar.org/wp-json/wp/v2/posts?search='
   + encodeURIComponent('russian offensive campaign assessment') + '&per_page=10&_fields=id,date,link,title';
-const DEEPSTATE_HISTORY_URL = 'https://deepstatemap.live/api/history/last';
+// No DeepStateMap endpoint constant: API access was denied, so this collector
+// makes zero direct DeepStateMap.live calls (see README source policy).
 
 function option(name, fallback = null) {
   const prefix = '--' + name + '=';
@@ -223,13 +224,6 @@ function statusOk(id, url, count) { return { id, url, status: 'ok', count }; }
 function statusFailed(id, url, error) { return { id, url, status: 'failed', count: 0, error: String(error?.message || error).slice(0, 200) }; }
 function statusSkipped(id, url, reason) { return { id, url, status: 'skipped', count: 0, note: reason }; }
 
-/** DeepState equality ignoring fetchedAt (a poll timestamp, not a data change). */
-function sameDeepstate(a, b) {
-  if (a == null || b == null) return a == null && b == null;
-  return a.snapshotId === b.snapshotId && a.featureCount === b.featureCount
-    && a.status === b.status && a.error === b.error && a.url === b.url;
-}
-
 async function collectGdelt(timeout, collectedAt, sinceIso = null) {
   // Gap-covering lookback: after skipped schedules this backfills every slot
   // since the previous run (capped); mergeLiveEvents dedupes by event id.
@@ -341,18 +335,6 @@ async function collectReliefweb(timeout) {
   return { events, status: statusOk('reliefweb', 'https://api.reliefweb.int/v2/', events.length) };
 }
 
-async function collectDeepstateStatus(timeout, collectedAt) {
-  try {
-    const json = await fetchJson(DEEPSTATE_HISTORY_URL, timeout, 'DeepState');
-    const meta = deepstateStatusToMeta(json, collectedAt);
-    console.log(`DeepState snapshot ${meta.snapshotId} (${meta.featureCount} features) — status only, no geometry stored`);
-    return { meta, status: statusOk('deepstate-status', 'https://deepstatemap.live/en', 1) };
-  } catch (error) {
-    console.error(`deepstate: ${error.message}`);
-    return { meta: { status: 'failed', error: String(error.message).slice(0, 200), fetchedAt: collectedAt, url: 'https://deepstatemap.live/en' }, status: statusFailed('deepstate-status', 'https://deepstatemap.live/en', error) };
-  }
-}
-
 // Warehouse day segments: partition the merged set by UTC date. Day files
 // only ever gain new ids (rewrites are content-identical when quiet, so git
 // stays clean); index.json recounts touched days. Old days are never pruned.
@@ -401,7 +383,7 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
   const want = (name) => !only || only === name;
   const fresh = [];
   const sources = [];
-  let deepstate = null;
+  // (deepstate status poll removed Sep 2026: API access denied — see README)
   const latest = resolve(output, 'latest.json');
   const previous = await existingJson(latest);
 
@@ -456,12 +438,6 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
       }
       sources.push(statusOk('reliefweb', 'fixture', count));
     }
-    if (want('deepstate')) {
-      if (fixture.deepstate) {
-        deepstate = deepstateStatusToMeta(fixture.deepstate, collectionTime);
-        sources.push(statusOk('deepstate-status', 'fixture', 1));
-      }
-    }
   } else {
     if (want('gdelt')) {
       const r = await collectGdelt(timeout, collectionTime, previous?.collectedAt ?? null);
@@ -481,11 +457,6 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
     if (want('reliefweb')) {
       const r = await collectReliefweb(timeout);
       fresh.push(...r.events);
-      sources.push(r.status);
-    }
-    if (want('deepstate')) {
-      const r = await collectDeepstateStatus(timeout, collectionTime);
-      deepstate = r.meta;
       sources.push(r.status);
     }
   }
@@ -509,13 +480,12 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
     theatre: 'ukraine',
     collectedAt: collectionTime,
     sources,
-    deepstate,
     count: events.length,
     events,
   };
   const changed = !(previous && JSON.stringify(previous.events) === JSON.stringify(feed.events)
-    && JSON.stringify(previous.sources) === JSON.stringify(feed.sources)
-    && sameDeepstate(previous.deepstate, feed.deepstate));
+    && JSON.stringify(previous.sources) === JSON.stringify(feed.sources));
+  // (no deepstate comparison: the status poll was removed Sep 2026)
   // Liveness record: rewritten on EVERY run (even quiet ones) so staleness
   // monitors can tell "checked, no new items" apart from "never ran".
   const effective = changed ? feed : previous;

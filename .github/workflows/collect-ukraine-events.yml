@@ -39,12 +39,18 @@ jobs:
         run: node scripts/collect-ukraine-events.mjs
         env:
           RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+      - name: Build zone proposals
+        run: |
+          node --check scripts/lib/ukraineOblasts.mjs
+          node --check scripts/build-zone-proposals.mjs
+          node tests/zone-proposals.test.mjs
+          node scripts/build-zone-proposals.mjs
       - name: Commit meaningful snapshot changes
         shell: bash
         run: |
           # NOTE: stage first — bare `git diff` ignores untracked files, so a
           # pre-add quiet check would silently skip the first-ever snapshot.
-          git add -- ukraine-events/latest.json ukraine-events/status.json ukraine-events/index.json ukraine-events/days ukraine-events/geocode-cache.json
+          git add -- ukraine-events/latest.json ukraine-events/status.json ukraine-events/index.json ukraine-events/days ukraine-events/geocode-cache.json zone-proposals/latest.json
           if git diff --cached --quiet; then
             echo "No ukraine file changes; nothing to commit."
             exit 0

@@ -16,6 +16,7 @@ export const GROUPS = {
   cache: { maxAgeMin: 100, snapshots: ['markets-data/latest.json', 'hazards-data/latest.json', 'events-data/latest.json', 'news-data/latest.json'] },
   traffic: { maxAgeMin: 75, snapshots: ['commercial-data/latest.json', 'maritime-data/latest.json'] },
   daily: { maxAgeMin: 30 * 60, snapshots: ['taiwan-data/latest.json', 'arctic-data/latest.json'] },
+  territory: { maxAgeMin: 30 * 60, snapshots: ['territory-daily/latest.json'] },
 };
 // NOTE: global-vessel-data is key-gated (AISSTREAM_API_KEY); its absence is
 // expected on keyless setups and never counts as stale. The traffic step

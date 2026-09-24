@@ -21,13 +21,15 @@ put('commercial-data/latest.json', ago(10));
 // maritime-data/latest.json missing -> traffic stale
 put('taiwan-data/latest.json', ago(60));
 put('arctic-data/latest.json', 'not-a-date'); // unparseable -> daily stale
+put('territory-daily/latest.json', ago(60));
 
 const r = await checkFreshness(tmp, NOW);
 assert.equal(r.ukraine.stale, true, 'ukraine past 75m is stale');
 assert.equal(r.cache.stale, false, 'cache within 100m is fresh');
 assert.equal(r.traffic.stale, true, 'missing snapshot counts as stale');
 assert.equal(r.daily.stale, true, 'unparseable collectedAt counts as stale');
-assert.deepEqual(Object.keys(GROUPS), ['ukraine', 'cache', 'traffic', 'daily']);
+assert.equal(r.territory.stale, false, 'territory within 30h is fresh');
+assert.deepEqual(Object.keys(GROUPS), ['ukraine', 'cache', 'traffic', 'daily', 'territory']);
 
 const boundary = mkdtempSync(join(tmpdir(), 'wsr-fresh-2-'));
 mkdirSync(join(boundary, 'ukraine-events'), { recursive: true });

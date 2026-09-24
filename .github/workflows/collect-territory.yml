@@ -1,0 +1,60 @@
+name: Collect territory snapshot
+
+# Daily Ukraine territory-control snapshot: OCCUPIED (assessed) from the PUBLIC
+# cyterat mirror's per-day GeoJSON (GitHub raw), FRIENDLY from the pinned open
+# Ukraine boundary (auto-refreshed), UNKNOWN from live-wire combat clusters.
+# Zero direct DeepStateMap calls: API access was denied (Sep 2026). Every
+# snapshot keeps per-polygon provenance + per-class census, and if DeepState
+# asks us to stop, the mirror leg is disabled the same day.
+# Runs ~04:13 UTC, after the mirror's ~03:00 UTC refresh. Runs in this public
+# cache repo; the private site repo only reads latest.json.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "13 4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: territory-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out data repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+      - name: Run territory tests
+        run: |
+          node --check scripts/lib/territory.mjs
+          node --check scripts/collect-territory.mjs
+          node tests/territory-normalizer.test.mjs
+      - name: Collect territory snapshot
+        run: node scripts/collect-territory.mjs
+      - name: Commit meaningful snapshot changes
+        shell: bash
+        run: |
+          # NOTE: stage first — bare `git diff` ignores untracked files, so a
+          # pre-add quiet check would silently skip the first-ever snapshot.
+          git add -- territory-daily/latest.json territory-daily/status.json territory-daily/index.json territory-daily/days data/territory/boundary-ukraine.geojson data/territory/boundary-meta.json
+          if git diff --cached --quiet; then
+            echo "No territory file changes; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --cached --quiet -- territory-daily/latest.json; then
+            git commit -m "chore: territory collector heartbeat (no new snapshot)"
+          else
+            git commit -m "chore: update territory snapshot"
+          fi
+          git pull --rebase origin main
+          git push

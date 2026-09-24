@@ -23,8 +23,8 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   14d assessments/reports, cap 1500, newest first). Records match the site's
   event schema: GDELT rows carry machine-geocoded coords (`approximate` tier);
   headlines/assessments/reports are feed-only (`unplaced`, never invented
-  coords). Envelope also carries per-source statuses and a DeepState map
-  status signal (snapshot id + feature counts + link — never geometry).
+  coords). Envelope also carries per-source statuses.
+  (No DeepState calls of any kind: API access denied Sep 2026 — see source policy.)
   Sources: GDELT 2.1 export CSV (`https://data.gdeltproject.org/gdeltv2/`,
   ActionGeo UP + conflict QuadClass, derived metadata only), Kyiv Independent
   RSS, Ukrainska Pravda English RSS, Google News RSS x2 (headlines + outlet +
@@ -41,6 +41,47 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   with the match in `coordsNote`; placeless headlines and theatre-wide
   assessments honestly stay `unplaced`. The stage runs over the merged set,
   so previously collected items gain coords on later runs too.
+- `territory-daily/latest.json` — rolling Ukraine territory-control snapshot:
+  slim normalized status polygons (`detailedPolygons` in the site's
+  `[lat,lng]` shape) in three classes, ALL automated (no hand-drawn lines):
+  Occupied (assessed, from the public mirror), Friendly (derived — the
+  pinned open Ukraine boundary as an underlay, so un-occupied ground reads
+  as Ukrainian-held), Unknown (derived — recent combat-reporting clusters
+  auto-surfaced as labelled-unverified circles near the contact line).
+  Every polygon carries `src` provenance (`mirror` / `boundary-derived` /
+  `news-derived`); the envelope carries `snapshotId` (yyyymmdd),
+  `snapshotDate`, `collectedAt`, `contentHash` (change detection — derived
+  legs refresh without moving the mirror id), per-class `census` (count +
+  as-of + source), mirror provenance (`source` + `sourceUrl`), upstream
+  attribution (`upstreamUrl`) and `licenseUrl` on every snapshot.
+  Day segments live at `territory-daily/days/YYYY/MM/DD.json` (day's
+  latest snapshot + `snapshots` id list, kept forever).
+  Sources: (1) the public cyterat mirror's per-day GeoJSON (GitHub raw,
+  ~04:13 UTC with a 3-day gap cascade — zero direct DeepStateMap calls;
+  API access denied); (2) `data/territory/boundary-ukraine.geojson`, the
+  pinned geoBoundaries Ukraine ADM0 boundary (OpenStreetMap contributors,
+  ODbL — attribution in `data/territory/boundary-meta.json`), refreshed
+  automatically when the pin is older than 180 days; (3) the live wire's
+  `zone-proposals/latest.json` for the Unknown class.
+  History before Sep 2026 is a weekly (Monday) occupied-only backfill from
+  the `cyterat` mirror (`scripts/backfill-territory.mjs`, one-shot,
+  committed Sep 2026): 114 Mondays from 2024-07-08, gaps 2024-08-19 +
+  2025-03-31 (mirror 404s), each file flagged `partial: true` with mirror
+  provenance.
+- `zone-proposals/latest.json` — zone proposals from recent placed live-wire
+  events (7d window) clustered by oblast (`scripts/lib/ukraineOblasts.mjs`
+  centers, ids matching the site's `zones.json`), zones with 3+ events,
+  kind breakdown + sample source links + per-zone `centroid`, `radiusKm`
+  (event spread, clamped 15–80 km), `combatCount`, `tierCounts` and
+  `newestIsoDate`. Two consumers: the site's "unverified" zone-popup line
+  (a human promotes these to curated zone history — nothing auto-morphs)
+  and the territory collector's Unknown class (proposals with 2+ combat /
+  strike signals within 120 km of the contact line auto-surface as
+  labelled-unverified circles; rear-area reporting is counted as gated,
+  not drawn). Clustering drops two noise classes, counted on the envelope:
+  country-level GDELT rows (`coarseGdeltDropped` — geoType 1 pins on the
+  country centroid) and out-of-theatre pins (`outsideTheatreDropped` —
+  e.g. "Moscow says …" datelines geocoded to Moscow).
 - Warehouse history (nothing is ever pruned):
   - `ukraine-events/days/YYYY/MM/DD.json` — immutable day segments: every record
     whose UTC date is that day (full records, deduped by id). Runs only ever
@@ -56,11 +97,23 @@ No website source code lives here. Free-tier only: no API keys, no paid services
     Baltic-only, a single region by construction.
 
 Source policy: ACLED is intentionally NOT collected (its EULA forbids
-redistribution). DeepState article/territory content is intentionally NOT
-scraped (no permission reply; site HTML is bot-walled and no bypass is
-attempted) — only the openly served map-endpoint status signal is recorded,
-with attribution and a link back. If DeepState asks us to stop polling the
-status endpoint, that source is removed the same day.
+redistribution). ZERO direct DeepStateMap.live calls of any kind: API access
+was denied (Sep 2026), so the former status-signal poll is removed and the
+territory collector reads only the public cyterat mirror (GitHub raw). No
+HTML scraping either (bot-walled — no bypass attempted). Every snapshot keeps
+mirror provenance + upstream attribution + the license link (`https://deepstatemap.live/license-en.html`), and if DeepState asks us to stop, the mirror-sourced collector is disabled the same day.
+
+Deliberately NOT ingested (researched Sep 2026, blocked on permission/keys):
+ISW's public ArcGIS feature services (assessed Russian control, advances,
+claimed counteroffensives — technically queryable as GeoJSON, but ISW's Fair
+Use & Attribution Policy requires prior written permission before their
+materials go into another mapping platform, so they stay out until that
+permission is granted — ask at understandingwar.org, then plug the layer
+queries into `scripts/collect-territory.mjs` as assessed Unknown/Friendly
+legs); NASA FIRMS fire points (would need a free FIRMS MAP_KEY Actions
+secret — a possible future sensor leg for the Unknown class). Neither gap
+needs hand-drawn lines: the derived legs above keep all three classes fresh
+without them.
 
 Raw feed URLs:
 
@@ -74,6 +127,10 @@ Raw feed URLs:
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/ukraine-events/status.json (run-liveness record: checkedAt + per-source health)
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/ukraine-events/index.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/ukraine-events/days/2026/09/22.json (day segments: days/YYYY/MM/DD.json)
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/territory-daily/latest.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/territory-daily/status.json (run-liveness record: checkedAt + snapshot id + per-class census)
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/territory-daily/index.json (timeline day list for the site scrubber)
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/zone-proposals/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/commercial-data/index.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/global-vessel-data/index.json (needs AISSTREAM_API_KEY; stale without it)
 
@@ -83,6 +140,7 @@ PLA activities (factual counts + attribution + link back) and NSIDC Arctic
 sea-ice image metadata (citation NSIDC/CIRES/NASA).
 `.github/workflows/collect-ukraine-events.yml` runs hourly (minute 37) for
 the Ukraine live-wire feed.
+`.github/workflows/collect-territory.yml` runs daily (04:13 UTC, after the mirror's ~03:00 UTC refresh) for the Ukraine territory snapshot; the watchdog also heals it inline when `territory-daily/latest.json` is older than 30h.
 `.github/workflows/collect-traffic.yml` runs twice hourly (minutes 17, 47).
 `.github/workflows/check-freshness.yml` (watchdog) runs every 30 minutes and
 collects inline for whichever snapshot groups are stale. All run unit tests
@@ -117,3 +175,8 @@ node tests/ukraine-events.test.mjs
 node tests/freshness-gate.test.mjs
 node tests/geo-shard.test.mjs
 node scripts/collect-ukraine-events.mjs
+node tests/territory-normalizer.test.mjs
+node scripts/collect-territory.mjs --output-dir=$TMP/terr (live mirror fetch; --input=file [--date=...] for offline replay)
+node tests/no-direct-deepstate.test.mjs
+node tests/zone-proposals.test.mjs
+node scripts/build-zone-proposals.mjs

@@ -124,6 +124,7 @@ export function gdeltRowToEvent(fields) {
     gdelt: {
       globalEventId: gid,
       eventCode: String(fields[c.EventCode] || ''),
+      geoType: Number(fields[c.ActionGeo_Type]) || null,
       quadClass: Number.isFinite(quad) ? quad : null,
       goldstein: Number.isFinite(goldstein) ? Math.round(goldstein * 100) / 100 : null,
       tone: Number.isFinite(tone) ? Math.round(tone * 100) / 100 : null,
@@ -241,25 +242,6 @@ export function reliefwebDocToEvent(doc, kind = 'report') {
     locationStr: org,
     source: org,
     sourceUrl: `https://reliefweb.int${alias}`,
-  };
-}
-
-/**
- * Reduce a DeepState /api/history/last payload to a status signal.
- * Geometry is NEVER stored — snapshot id + feature counts + a link back only.
- */
-export function deepstateStatusToMeta(json, fetchedAt) {
-  const id = json?.id;
-  const features = json?.map?.features;
-  if (!Number.isFinite(Number(id)) || !Array.isArray(features)) {
-    throw new TypeError('DeepState payload must have a numeric id and map.features array');
-  }
-  return {
-    snapshotId: String(id),
-    featureCount: features.length,
-    fetchedAt,
-    url: 'https://deepstatemap.live/en',
-    note: 'Status signal only: no DeepState geometry is stored or republished. Territory updates remain manual exports with attribution.',
   };
 }
 

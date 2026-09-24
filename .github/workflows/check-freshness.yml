@@ -42,6 +42,8 @@ jobs:
           node --check scripts/collect-ukraine-events.mjs
           node tests/ukraine-events.test.mjs
           node scripts/collect-ukraine-events.mjs
+          node tests/zone-proposals.test.mjs
+          node scripts/build-zone-proposals.mjs
         env:
           RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
       - name: Collect cache snapshots (stale)
@@ -60,6 +62,13 @@ jobs:
         run: |
           node tests/daily-collectors.test.mjs
           node scripts/collect-daily.mjs
+      - name: Collect territory snapshot (stale)
+        if: steps.gate.outputs.stale_territory == 'true'
+        run: |
+          node --check scripts/lib/territory.mjs
+          node --check scripts/collect-territory.mjs
+          node tests/territory-normalizer.test.mjs
+          node scripts/collect-territory.mjs
       - name: Collect traffic snapshots (stale)
         id: traffic
         if: steps.gate.outputs.stale_traffic == 'true'
@@ -76,10 +85,10 @@ jobs:
         if: steps.gate.outputs.fresh != 'true'
         shell: bash
         run: |
-          for f in markets-data/latest.json hazards-data/latest.json events-data/latest.json news-data/latest.json ukraine-events/latest.json ukraine-events/status.json ukraine-events/index.json ukraine-events/geocode-cache.json taiwan-data/latest.json arctic-data/latest.json commercial-data/latest.json commercial-data/index.json maritime-data/latest.json global-vessel-data/latest.json global-vessel-data/index.json; do
+          for f in markets-data/latest.json hazards-data/latest.json events-data/latest.json news-data/latest.json ukraine-events/latest.json ukraine-events/status.json ukraine-events/index.json ukraine-events/geocode-cache.json taiwan-data/latest.json arctic-data/latest.json commercial-data/latest.json commercial-data/index.json maritime-data/latest.json global-vessel-data/latest.json global-vessel-data/index.json territory-daily/latest.json territory-daily/status.json territory-daily/index.json zone-proposals/latest.json data/territory/boundary-ukraine.geojson data/territory/boundary-meta.json; do
             if [ -f "$f" ]; then git add -- "$f"; fi
           done
-          for d in markets-data/archive hazards-data/archive events-data/archive news-data/archive ukraine-events/days taiwan-data/archive arctic-data/archive commercial-data/shards global-vessel-data/shards; do
+          for d in markets-data/archive hazards-data/archive events-data/archive news-data/archive ukraine-events/days taiwan-data/archive arctic-data/archive commercial-data/shards global-vessel-data/shards territory-daily/days; do
             if [ -d "$d" ]; then git add -- "$d"; fi
           done
           if git diff --cached --quiet; then

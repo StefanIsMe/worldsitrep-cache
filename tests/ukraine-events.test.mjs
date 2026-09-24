@@ -4,7 +4,7 @@ import { mkdirSync, mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import {
-  UKRAINE_EVENTS_SCHEMA_VERSION, applyGeocodeToItem, deepstateStatusToMeta, extractOsmCandidates,
+  UKRAINE_EVENTS_SCHEMA_VERSION, applyGeocodeToItem, extractOsmCandidates,
   extractZipSingleFile, gdeltActorLabel, gdeltRowToEvent, gdeltTypeForRoot, gdeltExportUrl, gdeltGapWindows,
   gdeltWindowDates, geocodeText, googleNewsSources, iswPostToEvent, mergeLiveEvents,
   reliefwebDocToEvent, removeGeocode, rssItemToEvent, stripForGeocode, validateOsmResult,
@@ -76,13 +76,6 @@ assert.equal(rw.kind, 'report');
 assert.equal(rw.source, 'UNICEF');
 assert.equal(rw.sourceUrl, 'https://reliefweb.int/report/ukraine/fixture-report');
 assert.equal(reliefwebDocToEvent({ fields: { title: 'no alias', date: { created: '2026-09-01T00:00:00+00:00' } } }), null);
-
-// --- DeepState status (metadata only) ---
-const ds = deepstateStatusToMeta(fixture.deepstate, '2026-09-21T00:00:00.000Z');
-assert.equal(ds.snapshotId, '1789884551');
-assert.equal(ds.featureCount, 3);
-assert.ok(!('map' in ds) && !('features' in ds) && !('geometry' in ds), 'no DeepState geometry stored');
-assert.throws(() => deepstateStatusToMeta({ id: 1 }, '2026-09-21T00:00:00.000Z'), /features/);
 
 // --- ZIP extraction round-trip (hand-built local header + raw deflate) ---
 {
@@ -162,7 +155,7 @@ assert.throws(() => deepstateStatusToMeta({ id: 1 }, '2026-09-21T00:00:00.000Z')
   assert.equal(dayTotal, result.feed.count, 'day segments partition the merged set');
   assert.equal(result.feed.theatre, 'ukraine');
   assert.ok(result.feed.count >= 6, `expected >=6 events, got ${result.feed.count}`);
-  assert.ok(result.feed.deepstate.snapshotId === '1789884551');
+  assert.ok(!('deepstate' in result.feed), 'no DeepState status poll (API access denied)');
   assert.ok(result.feed.sources.every((s) => s.id && s.status));
   for (const e of result.feed.events) {
     assert.ok(e.id && e.isoDate && e.description && e.sourceUrl, 'live record carries id/date/description/source');
