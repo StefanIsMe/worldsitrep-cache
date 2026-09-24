@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-09-24T04:55:02.333Z",
+  "collectedAt": "2026-09-24T05:17:09.345Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 89,
-  "outsideTheatreDropped": 27,
+  "coarseGdeltDropped": 337,
+  "outsideTheatreDropped": 5,
   "proposals": [
     {
       "zoneId": "lib-kyiv",
@@ -15,162 +15,39 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 79,
+      "eventCount": 534,
       "kinds": {
-        "other": 49,
-        "combat": 22,
-        "strike": 8
+        "other": 343,
+        "combat": 161,
+        "strike": 30
       },
       "tierCounts": {
-        "approximate": 79
+        "approximate": 534
       },
-      "combatCount": 30,
-      "newestIsoDate": "2026-09-22T04:39:30.000Z",
+      "combatCount": 191,
+      "newestIsoDate": "2026-09-24T03:41:45.000Z",
       "samples": [
         {
-          "id": "news-1jqzfdt",
-          "isoDate": "2026-09-22T04:39:30.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcExQMVVnSmVNc043VjQwaWx0elE5TDdJOUZpdE1WTThONGJYWHZHcmg2Tkk3ejFCd1lMLVkxeWxOTGVJbUNIbnpLSkwyWEw0YlpwX0plSnE3ODA5czdFR09nZFBndUtQTWlvMU9YWDJlQzd5SFBCYm1VOEhHMkM0Y29WbUxGUHl1T1poa2RMTlF4VWhz?oc=5"
+          "id": "news-yrk2wr",
+          "isoDate": "2026-09-24T03:41:45.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1aNGV2T3lteVVzb3UzUlo2dnZlRTY1RkpKU1ZQb1VkZDJKMVZPTy05cGYyNGVCaHgzYWxhSktjUURWYjc2N1N3bkpvbw?oc=5"
         },
         {
-          "id": "news-1dsjhw6",
-          "isoDate": "2026-09-22T02:59:22.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82OFM2SFk4UG9BbzJTQkMtLXVUMnA1b3d5NXB0cG8taTRSeVNZaDljbHZ5a0RreDFVUXZwWTRzNl9RY05kZE94QzZiYmFWZnRjanpHdFRJSFdCTU1hWTctejBRR0tsX2FWLXlMaVp3?oc=5"
+          "id": "news-vphr09",
+          "isoDate": "2026-09-24T00:20:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/24/8054832/"
         },
         {
-          "id": "gdelt-1324169659",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://www.yourdemocracy.net.au/drupal/node/61121"
+          "id": "gdelt-1324578090",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://www.nbcnews.com/world/ukraine/russia-pounds-kyiv-drones-killing-2-wounding-41-zelenskyys-un-address-rcna599517"
         }
       ],
       "centroid": {
-        "lat": 50.4047,
-        "lng": 30.2886
+        "lat": 50.3303,
+        "lng": 30.1241
       },
-      "radiusKm": 31.6
-    },
-    {
-      "zoneId": "occ-donetsk",
-      "region": "Donetsk Oblast",
-      "center": {
-        "lat": 47.8,
-        "lng": 37.5
-      },
-      "eventCount": 17,
-      "kinds": {
-        "strike": 1,
-        "combat": 5,
-        "other": 11
-      },
-      "tierCounts": {
-        "approximate": 17
-      },
-      "combatCount": 6,
-      "newestIsoDate": "2026-09-22T00:00:00.000Z",
-      "samples": [
-        {
-          "id": "gdelt-1324174910",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/85062"
-        },
-        {
-          "id": "gdelt-1324184490",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://www.theguardian.com/world/2026/sep/22/ukraine-war-briefing-sanctions-must-continue-eus-top-diplomat-stresses-as-russian-attacks-kill-five"
-        },
-        {
-          "id": "gdelt-1324184491",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://www.theguardian.com/world/2026/sep/22/ukraine-war-briefing-sanctions-must-continue-eus-top-diplomat-stresses-as-russian-attacks-kill-five"
-        }
-      ],
-      "centroid": {
-        "lat": 48.43,
-        "lng": 37.3568
-      },
-      "radiusKm": 45.4
-    },
-    {
-      "zoneId": "occ-zaporizhzhia",
-      "region": "Zaporizhzhia Oblast",
-      "center": {
-        "lat": 47,
-        "lng": 35.5
-      },
-      "eventCount": 16,
-      "kinds": {
-        "other": 13,
-        "strike": 2,
-        "combat": 1
-      },
-      "tierCounts": {
-        "approximate": 16
-      },
-      "combatCount": 3,
-      "newestIsoDate": "2026-09-22T04:04:00.000Z",
-      "samples": [
-        {
-          "id": "news-tgozbr",
-          "isoDate": "2026-09-22T04:04:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/22/8054526/"
-        },
-        {
-          "id": "gdelt-1324174862",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/85062"
-        },
-        {
-          "id": "gdelt-1324185090",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://www.theguardian.com/world/2026/sep/22/ukraine-war-briefing-sanctions-must-continue-eus-top-diplomat-stresses-as-russian-attacks-kill-five"
-        }
-      ],
-      "centroid": {
-        "lat": 48.0779,
-        "lng": 35.1795
-      },
-      "radiusKm": 39.9
-    },
-    {
-      "zoneId": "occ-kharkiv",
-      "region": "Kharkiv Oblast",
-      "center": {
-        "lat": 49.8,
-        "lng": 37.6
-      },
-      "eventCount": 14,
-      "kinds": {
-        "other": 7,
-        "strike": 3,
-        "combat": 4
-      },
-      "tierCounts": {
-        "approximate": 14
-      },
-      "combatCount": 7,
-      "newestIsoDate": "2026-09-22T00:00:00.000Z",
-      "samples": [
-        {
-          "id": "gdelt-1324171653",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://www.the-sun.com/news/17036103/"
-        },
-        {
-          "id": "gdelt-1324174863",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/85062"
-        },
-        {
-          "id": "gdelt-1324184855",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://www.theguardian.com/world/2026/sep/22/ukraine-war-briefing-sanctions-must-continue-eus-top-diplomat-stresses-as-russian-attacks-kill-five"
-        }
-      ],
-      "centroid": {
-        "lat": 49.766,
-        "lng": 36.4458
-      },
-      "radiusKm": 50.3
+      "radiusKm": 56.8
     },
     {
       "zoneId": "occ-kherson",
@@ -179,38 +56,243 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 9,
+      "eventCount": 55,
       "kinds": {
-        "combat": 5,
-        "other": 4
+        "combat": 33,
+        "other": 19,
+        "strike": 3
       },
       "tierCounts": {
-        "approximate": 9
+        "approximate": 55
       },
-      "combatCount": 5,
-      "newestIsoDate": "2026-09-22T00:00:00.000Z",
+      "combatCount": 36,
+      "newestIsoDate": "2026-09-24T00:00:00.000Z",
       "samples": [
         {
-          "id": "gdelt-1324174924",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/85062"
+          "id": "gdelt-1324590572",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://consortiumnews.com/2026/09/23/what-lavrov-told-the-un-security-council/"
         },
         {
-          "id": "gdelt-1324174925",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/85062"
+          "id": "gdelt-1324591688",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://consortiumnews.com/2026/09/23/what-lavrov-told-the-un-security-council/"
         },
         {
-          "id": "news-tgozau",
-          "isoDate": "2026-09-21T23:36:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/22/8054525/"
+          "id": "gdelt-1324591700",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://consortiumnews.com/2026/09/23/what-lavrov-told-the-un-security-council/"
         }
       ],
       "centroid": {
-        "lat": 47.1413,
-        "lng": 32.6101
+        "lat": 46.6298,
+        "lng": 32.1562
       },
-      "radiusKm": 80
+      "radiusKm": 40.7
+    },
+    {
+      "zoneId": "lib-snake",
+      "region": "Snake Island",
+      "center": {
+        "lat": 45.2551,
+        "lng": 30.2033
+      },
+      "eventCount": 54,
+      "kinds": {
+        "other": 15,
+        "strike": 13,
+        "combat": 26
+      },
+      "tierCounts": {
+        "approximate": 54
+      },
+      "combatCount": 39,
+      "newestIsoDate": "2026-09-24T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1324600528",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://www.rte.ie/news/2026/0924/1592739-kyiv-strikes/"
+        },
+        {
+          "id": "gdelt-1324600532",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://www.rte.ie/news/2026/0924/1592739-kyiv-strikes/"
+        },
+        {
+          "id": "news-vphqzc",
+          "isoDate": "2026-09-23T23:40:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/24/8054831/"
+        }
+      ],
+      "centroid": {
+        "lat": 46.3548,
+        "lng": 30.1378
+      },
+      "radiusKm": 64.5
+    },
+    {
+      "zoneId": "occ-kharkiv",
+      "region": "Kharkiv Oblast",
+      "center": {
+        "lat": 49.8,
+        "lng": 37.6
+      },
+      "eventCount": 43,
+      "kinds": {
+        "other": 14,
+        "combat": 17,
+        "strike": 12
+      },
+      "tierCounts": {
+        "approximate": 43
+      },
+      "combatCount": 29,
+      "newestIsoDate": "2026-09-23T14:27:00.000Z",
+      "samples": [
+        {
+          "id": "news-ul3u1r",
+          "isoDate": "2026-09-23T14:27:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/23/8054767/"
+        },
+        {
+          "id": "gdelt-1324374944",
+          "isoDate": "2026-09-23T00:00:00.000Z",
+          "sourceUrl": "https://sana.sy/en/international/2345141/"
+        },
+        {
+          "id": "gdelt-1324405243",
+          "isoDate": "2026-09-23T00:00:00.000Z",
+          "sourceUrl": "https://www.newcastleherald.com.au/story/9355640/russia-kills-eight-as-strikes-continue-on-ukraine/"
+        }
+      ],
+      "centroid": {
+        "lat": 49.9745,
+        "lng": 36.862
+      },
+      "radiusKm": 54.5
+    },
+    {
+      "zoneId": "occ-zaporizhzhia",
+      "region": "Zaporizhzhia Oblast",
+      "center": {
+        "lat": 47,
+        "lng": 35.5
+      },
+      "eventCount": 40,
+      "kinds": {
+        "other": 26,
+        "combat": 11,
+        "strike": 3
+      },
+      "tierCounts": {
+        "approximate": 40
+      },
+      "combatCount": 14,
+      "newestIsoDate": "2026-09-23T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1324374925",
+          "isoDate": "2026-09-23T00:00:00.000Z",
+          "sourceUrl": "http://www.europesun.com/news/279324079/ukraine-attacks-radiation-monitor-at-europe-largest-nuclear-power-plant"
+        },
+        {
+          "id": "gdelt-1324376433",
+          "isoDate": "2026-09-23T00:00:00.000Z",
+          "sourceUrl": "https://www.eng.kavkaz-uzel.eu/articles/78795"
+        },
+        {
+          "id": "gdelt-1324377053",
+          "isoDate": "2026-09-23T00:00:00.000Z",
+          "sourceUrl": "https://www.eng.kavkaz-uzel.eu/articles/78795"
+        }
+      ],
+      "centroid": {
+        "lat": 47.901,
+        "lng": 35.1537
+      },
+      "radiusKm": 71.3
+    },
+    {
+      "zoneId": "occ-donetsk",
+      "region": "Donetsk Oblast",
+      "center": {
+        "lat": 47.8,
+        "lng": 37.5
+      },
+      "eventCount": 33,
+      "kinds": {
+        "combat": 13,
+        "other": 18,
+        "strike": 2
+      },
+      "tierCounts": {
+        "approximate": 33
+      },
+      "combatCount": 15,
+      "newestIsoDate": "2026-09-24T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1324609129",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/85271"
+        },
+        {
+          "id": "gdelt-1324609151",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/85271"
+        },
+        {
+          "id": "gdelt-1324609152",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/85271"
+        }
+      ],
+      "centroid": {
+        "lat": 48.5202,
+        "lng": 37.1677
+      },
+      "radiusKm": 51.4
+    },
+    {
+      "zoneId": "lib-chernihiv",
+      "region": "Chernihiv Oblast",
+      "center": {
+        "lat": 51.4982,
+        "lng": 31.2893
+      },
+      "eventCount": 28,
+      "kinds": {
+        "other": 12,
+        "combat": 16
+      },
+      "tierCounts": {
+        "approximate": 28
+      },
+      "combatCount": 16,
+      "newestIsoDate": "2026-09-24T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1324609216",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/85271"
+        },
+        {
+          "id": "gdelt-1324609223",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/85271"
+        },
+        {
+          "id": "gdelt-1324378322",
+          "isoDate": "2026-09-23T00:00:00.000Z",
+          "sourceUrl": "https://www.worthynews.com/117711-russia-ukraine-trade-deadly-strikes-ahead-of-trump-zelenskyy-talks"
+        }
+      ],
+      "centroid": {
+        "lat": 51.5055,
+        "lng": 31.2849
+      },
+      "radiusKm": 15
     },
     {
       "zoneId": "occ-luhansk",
@@ -219,39 +301,78 @@
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 9,
+      "eventCount": 19,
       "kinds": {
-        "combat": 2,
-        "other": 5,
-        "strike": 2
+        "other": 12,
+        "combat": 7
       },
       "tierCounts": {
-        "approximate": 9
+        "approximate": 19
       },
-      "combatCount": 4,
-      "newestIsoDate": "2026-09-21T00:00:00.000Z",
+      "combatCount": 7,
+      "newestIsoDate": "2026-09-24T00:00:00.000Z",
       "samples": [
         {
-          "id": "gdelt-1324109586",
-          "isoDate": "2026-09-21T00:00:00.000Z",
-          "sourceUrl": "https://euobserver.com/238701/what-ukraine-fired-at-moscow-on-sunday-in-its-largest-air-raid-since-the-war-began-ukraine-battlefield-update-day-1670/"
+          "id": "gdelt-1324583239",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://foxrochester.com/news/nation-world/zelenskyy-seeks-energy-ceasefire-as-trump-pushes-for-ukraine-peace-deal"
         },
         {
-          "id": "gdelt-1324109658",
-          "isoDate": "2026-09-21T00:00:00.000Z",
-          "sourceUrl": "https://euobserver.com/238701/what-ukraine-fired-at-moscow-on-sunday-in-its-largest-air-raid-since-the-war-began-ukraine-battlefield-update-day-1670/"
+          "id": "gdelt-1324583260",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://foxrochester.com/news/nation-world/zelenskyy-seeks-energy-ceasefire-as-trump-pushes-for-ukraine-peace-deal"
         },
         {
-          "id": "gdelt-1324109660",
-          "isoDate": "2026-09-21T00:00:00.000Z",
-          "sourceUrl": "https://euobserver.com/238701/what-ukraine-fired-at-moscow-on-sunday-in-its-largest-air-raid-since-the-war-began-ukraine-battlefield-update-day-1670/"
+          "id": "gdelt-1324591036",
+          "isoDate": "2026-09-24T00:00:00.000Z",
+          "sourceUrl": "https://consortiumnews.com/2026/09/23/what-lavrov-told-the-un-security-council/"
         }
       ],
       "centroid": {
-        "lat": 48.5223,
-        "lng": 38.7724
+        "lat": 48.5256,
+        "lng": 38.8844
       },
-      "radiusKm": 27
+      "radiusKm": 30
+    },
+    {
+      "zoneId": "lib-sumy",
+      "region": "Sumy Oblast",
+      "center": {
+        "lat": 50.9077,
+        "lng": 34.7981
+      },
+      "eventCount": 18,
+      "kinds": {
+        "other": 14,
+        "combat": 4
+      },
+      "tierCounts": {
+        "approximate": 18
+      },
+      "combatCount": 4,
+      "newestIsoDate": "2026-09-23T13:39:00.000Z",
+      "samples": [
+        {
+          "id": "news-ul3tvc",
+          "isoDate": "2026-09-23T13:39:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/23/8054760/"
+        },
+        {
+          "id": "news-ul33wc",
+          "isoDate": "2026-09-23T05:35:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/09/23/8054683/"
+        },
+        {
+          "id": "gdelt-1324457896",
+          "isoDate": "2026-09-23T00:00:00.000Z",
+          "sourceUrl": "http://www.russiaherald.com/news/279324083/russian-missiles-hit-ukraine-industrial-energy-facilities"
+        }
+      ],
+      "centroid": {
+        "lat": 50.7039,
+        "lng": 34.332
+      },
+      "radiusKm": 80
     },
     {
       "zoneId": "occ-crimea",
@@ -260,39 +381,39 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 7,
+      "eventCount": 15,
       "kinds": {
-        "strike": 2,
-        "combat": 4,
-        "other": 1
+        "other": 4,
+        "combat": 10,
+        "strike": 1
       },
       "tierCounts": {
-        "approximate": 7
+        "approximate": 15
       },
-      "combatCount": 6,
-      "newestIsoDate": "2026-09-22T00:00:00.000Z",
+      "combatCount": 11,
+      "newestIsoDate": "2026-09-23T00:00:00.000Z",
       "samples": [
         {
-          "id": "gdelt-1324186454",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://foreignpolicy.com/2026/09/21/greenland-security-trump-united-states-denmark-nato-ukraine-russia-pakistan-afghanistan-ethiopia/?tpcc=recirc_trending062921"
+          "id": "gdelt-1324378998",
+          "isoDate": "2026-09-23T00:00:00.000Z",
+          "sourceUrl": "https://www.worthynews.com/117711-russia-ukraine-trade-deadly-strikes-ahead-of-trump-zelenskyy-talks"
         },
         {
-          "id": "gdelt-1324186455",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://foreignpolicy.com/2026/09/21/greenland-security-trump-united-states-denmark-nato-ukraine-russia-pakistan-afghanistan-ethiopia/?tpcc=recirc_trending062921"
+          "id": "gdelt-1324379004",
+          "isoDate": "2026-09-23T00:00:00.000Z",
+          "sourceUrl": "https://www.worthynews.com/117711-russia-ukraine-trade-deadly-strikes-ahead-of-trump-zelenskyy-talks"
         },
         {
-          "id": "gdelt-1324186457",
-          "isoDate": "2026-09-22T00:00:00.000Z",
-          "sourceUrl": "https://foreignpolicy.com/2026/09/21/greenland-security-trump-united-states-denmark-nato-ukraine-russia-pakistan-afghanistan-ethiopia/?tpcc=recirc_trending062921"
+          "id": "gdelt-1324451392",
+          "isoDate": "2026-09-23T00:00:00.000Z",
+          "sourceUrl": "https://en.interfax.com.ua/news/general/1208587.html"
         }
       ],
       "centroid": {
-        "lat": 45.0481,
-        "lng": 34.254
+        "lat": 45.0805,
+        "lng": 34.4641
       },
-      "radiusKm": 31.7
+      "radiusKm": 47.3
     }
   ]
 }
