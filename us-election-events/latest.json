@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-09-25T19:35:16.578Z",
+  "collectedAt": "2026-09-25T21:16:46.854Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 365
+      "count": 343
     },
     {
       "id": "npr-politics",
@@ -47,6 +47,44 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-1xrr5tq",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T20:48:45.000Z",
+      "description": "With primaries over, some members of the GOP are breaking with President Trump (NPR, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/09/25/nx-s1-5980383/with-primaries-over-some-members-of-the-gop-are-breaking-with-president-trump"
+    },
+    {
+      "id": "news-1tprz8a",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T20:08:36.000Z",
+      "description": "What did we learn from the Trump-Xi summit? (NPR, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/09/25/nx-s1-5976948/what-did-we-learn-from-the-trump-xi-summit"
+    },
     {
       "id": "news-1kbvrt5",
       "kind": "news",
@@ -50871,74 +50909,6 @@
         "goldstein": -6.5,
         "tone": -1.47,
         "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1324869246",
-      "kind": "event",
-      "date": "2026-09-25",
-      "isoDate": "2026-09-25T00:00:00.000Z",
-      "observedAt": "2026-09-25T12:15:00.000Z",
-      "description": "Coercion — Unspecified → Citizen near San Francisco, California, United States. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 37.7749,
-      "lng": -122.419,
-      "action": "Coercion (GDELT 170)",
-      "actor": "Unspecified",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "San Francisco, California, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://lasvegassun.com/news/2026/sep/25/noncitizens-dont-sway-elections-even-in-a-pro-trum/",
-      "gdelt": {
-        "globalEventId": "1324869246",
-        "eventCode": "170",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -7,
-        "tone": -1.31,
-        "mentions": 3,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1324869247",
-      "kind": "event",
-      "date": "2026-09-25",
-      "isoDate": "2026-09-25T00:00:00.000Z",
-      "observedAt": "2026-09-25T12:15:00.000Z",
-      "description": "Coercion — Unspecified → Citizen near San Francisco, California, United States. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 37.7749,
-      "lng": -122.419,
-      "action": "Coercion (GDELT 170)",
-      "actor": "Unspecified",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "San Francisco, California, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://lasvegassun.com/news/2026/sep/25/noncitizens-dont-sway-elections-even-in-a-pro-trum/",
-      "gdelt": {
-        "globalEventId": "1324869247",
-        "eventCode": "170",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -7,
-        "tone": -1.31,
-        "mentions": 1,
         "sources": 1
       }
     }
