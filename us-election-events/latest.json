@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-09-25T15:35:13.867Z",
+  "collectedAt": "2026-09-25T17:49:58.702Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 349
+      "count": 393
     },
     {
       "id": "npr-politics",
@@ -47,6 +47,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-j741g7",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T15:40:57.000Z",
+      "description": "The Supreme Court revives a controversial data system for citizenship checks (NPR, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/09/25/nx-s1-5976804/supreme-court-trump-save-noncitizen-voting"
+    },
     {
       "id": "news-uzpssg",
       "kind": "news",
@@ -50931,40 +50950,6 @@
         "globalEventId": "1324869248",
         "eventCode": "170",
         "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -7,
-        "tone": -1.31,
-        "mentions": 3,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1324869249",
-      "kind": "event",
-      "date": "2026-09-25",
-      "isoDate": "2026-09-25T00:00:00.000Z",
-      "observedAt": "2026-09-25T12:15:00.000Z",
-      "description": "Coercion — Unspecified → Citizen near New Jersey, United States. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 40.314,
-      "lng": -74.5089,
-      "action": "Coercion (GDELT 170)",
-      "actor": "Unspecified",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "New Jersey, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://lasvegassun.com/news/2026/sep/25/noncitizens-dont-sway-elections-even-in-a-pro-trum/",
-      "gdelt": {
-        "globalEventId": "1324869249",
-        "eventCode": "170",
-        "geoType": 2,
         "quadClass": 4,
         "goldstein": -7,
         "tone": -1.31,
