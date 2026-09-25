@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-09-25T21:16:46.854Z",
+  "collectedAt": "2026-09-25T22:50:42.433Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 343
+      "count": 312
     },
     {
       "id": "npr-politics",
@@ -47,6 +47,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-nn64od",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T22:06:16.000Z",
+      "description": "Supreme Court blocks Trump-backed Missouri congressional map (NPR, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri"
+    },
     {
       "id": "news-1xrr5tq",
       "kind": "news",
@@ -103,6 +122,29 @@
       "locationStr": "NPR",
       "source": "NPR",
       "sourceUrl": "https://www.npr.org/2026/09/25/nx-s1-5981265/takeaways-trump-xi-state-visit-pageantry-pandas"
+    },
+    {
+      "id": "news-3s8ftw",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T16:34:36.000Z",
+      "description": "2028 Democratic Presidential Primary: Latest Polls - The New York Times (The New York Times, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSUg2TUVZbERhNXlwUVNleEdVNkg5Q1ZLeGlCdzFtREVyYk5LNTF1b3QyNmFkZ1hRVGttMWM0SGczeXFLRU5OMWFNZHU2eXNtdml4NzRza2Vtd1Q4YWw0aUlvOWdOdTJoalhyWmpPNm1ZOEhaRnVtaGlWclo2U3NleWxBVjJNY29ocHB5ZTJfWQ?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
       "id": "news-j741g7",
@@ -50841,74 +50883,6 @@
         "goldstein": -5,
         "tone": -9.65,
         "mentions": 7,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1324868036",
-      "kind": "event",
-      "date": "2026-09-25",
-      "isoDate": "2026-09-25T00:00:00.000Z",
-      "observedAt": "2026-09-25T12:00:00.000Z",
-      "description": "Coercion — New York → Government near New York, United States. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 42.1497,
-      "lng": -74.9384,
-      "action": "Coercion (GDELT 173)",
-      "actor": "New York",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "New York, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.thenassauguardian.com/news/davis-says-govt-is-making-strides-in-climate-change/article_a3890f7b-a9ec-4835-b984-7c0b61251348.html",
-      "gdelt": {
-        "globalEventId": "1324868036",
-        "eventCode": "173",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": 3.7,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1324869233",
-      "kind": "event",
-      "date": "2026-09-25",
-      "isoDate": "2026-09-25T00:00:00.000Z",
-      "observedAt": "2026-09-25T12:15:00.000Z",
-      "description": "Protest — Unspecified → China near New York, United States. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 42.1497,
-      "lng": -74.9384,
-      "action": "Protest (GDELT 141)",
-      "actor": "Unspecified",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Protest"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "New York, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "http://www.thetibetpost.com/news/exile/thousands-of-tibetans-gather-in-washington-to-protest-xi-s-genocide-policies-in-tibet",
-      "gdelt": {
-        "globalEventId": "1324869233",
-        "eventCode": "141",
-        "geoType": 2,
-        "quadClass": 3,
-        "goldstein": -6.5,
-        "tone": -1.47,
-        "mentions": 2,
         "sources": 1
       }
     }

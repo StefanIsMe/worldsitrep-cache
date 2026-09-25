@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-09-25T21:16:46.854Z",
+  "collectedAt": "2026-09-25T22:50:42.433Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 14
+      "count": 8
     },
     {
       "id": "rci-arctic",
@@ -19,9 +19,9 @@
     {
       "id": "nunatsiaq",
       "url": "https://nunatsiaq.com/feed/",
-      "status": "ok",
-      "count": 25,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS nunatsiaq request failed with HTTP 415"
     },
     {
       "id": "gnews-arctic",
@@ -38,7 +38,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 326,
+  "count": 331,
   "events": [
     {
       "id": "news-m0zg4l",
@@ -167,6 +167,29 @@
       "sourceUrl": "https://nunatsiaq.com/stories/article/my-travels-as-a-small-town-inuk-woman/"
     },
     {
+      "id": "news-t81kdx",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T15:00:00.000Z",
+      "description": "Travel Trending with Kathy Witt: Explore Greenland and Iceland aboard Atlas Ocean Voyages’ World Navigator - thederrick.com (thederrick.com, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "thederrick.com",
+      "axis": "Other",
+      "tags": [
+        "thederrick.com",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Greenland",
+      "source": "thederrick.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQSWkxbXdrQzZNZmxJbWF5ZkxhSHlBSGNuZUJPTFdwMzQyS1pJX0hOOFgwRWtmeEFIV09RTWotdkRRRTdoSTFpM3g5UjhlME5lVGluVlFIc0ltU3RQbkZndjZ6aGV2Wldfcmx6OTBHUDhKdk5rbmZJMEdBa1gzVWxWWUt3elJpNmVieGJNMjJDa2FaSnIwSWMzeXFRbG1VSTg2R0hsTkZKTzkxWUFlY256Q2pxellhbjRUX3ZvZjRqWnNXOFRFNkpFYXUwN1MtWWlLV1ltVXhfOFBGT0VKdnN0YWpIYVBSNDdLa1hMNVhQYnNPNHFVQlRiSFZsRTZiVktJU2Nobm9oNlZFM1VCS1puR01wcld3WWdxOXNENGpfQTItaHVXS05N?oc=5",
+      "lat": 72,
+      "lng": -40,
+      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
+    },
+    {
       "id": "news-tagko9",
       "kind": "news",
       "date": "2026-09-25",
@@ -274,19 +297,19 @@
       "kind": "news",
       "date": "2026-09-25",
       "isoDate": "2026-09-25T12:47:30.000Z",
-      "description": "Breaking down Trump’s national security deal with Greenland and Denmark - Baltimore Sun (Baltimore Sun, 2026-09-25. Headline + link only.)",
+      "description": "Breaking down Trump’s national security deal with Greenland and Denmark - baltimoresun.com (baltimoresun.com, 2026-09-25. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Baltimore Sun",
+      "actor": "baltimoresun.com",
       "axis": "Other",
       "tags": [
-        "Baltimore Sun",
+        "baltimoresun.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Greenland",
-      "source": "Baltimore Sun",
+      "source": "baltimoresun.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOXM0c2h6RXJKTkRXQ09PTFNyZktwLUxXb0M1TnFkUXdlazJWQ0xkYS1UMzJfVUQ1VDZ0aVhLSzBDb0d0VmNLX0hsSnI4UmJoMzhLMnI1S1h2OU11ZTNSU3owOG5XTy1yX0ZDZFNlUjlxQVk1RVRILTZXR1BVcTVTRTRucnNZbHNmUDNnX2JpQkVvclI2WjROQU9haFZYYm0xNHZuZHBobTlaSUlvR2JFaQ?oc=5",
       "lat": 72,
       "lng": -40,
@@ -4914,6 +4937,278 @@
       }
     },
     {
+      "id": "gdelt-1324954932",
+      "kind": "event",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T00:00:00.000Z",
+      "observedAt": "2026-09-25T22:15:00.000Z",
+      "description": "Disapproval — President → Unspecified near Greenland. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 72,
+      "lng": -40,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "President",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Greenland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.newsweek.com/gop-senator-thom-tillis-white-house-trump-loyalty-test-12491396",
+      "gdelt": {
+        "globalEventId": "1324954932",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.77,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324955318",
+      "kind": "event",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T00:00:00.000Z",
+      "observedAt": "2026-09-25T22:15:00.000Z",
+      "description": "Threat — Russia → Military near Finland. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 64,
+      "lng": 26,
+      "action": "Threat (GDELT 130)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Finland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279332266/britain-rhetorical-war-zelensky-un-crashout-deep-state-media-exposed-rt-stories-that-shaped-the-week",
+      "gdelt": {
+        "globalEventId": "1324955318",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.18,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324955767",
+      "kind": "event",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T00:00:00.000Z",
+      "observedAt": "2026-09-25T22:30:00.000Z",
+      "description": "Protest — Industry → Unspecified near Oslo, Oslo, Norway. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.9167,
+      "lng": 10.75,
+      "action": "Protest (GDELT 141)",
+      "actor": "Industry",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Oslo, Oslo, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hellenicshippingnews.com/accelerating-zero-emission-shipping-between-oslo-and-rotterdam-and-beyond/",
+      "gdelt": {
+        "globalEventId": "1324955767",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": 3.3,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324956160",
+      "kind": "event",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T00:00:00.000Z",
+      "observedAt": "2026-09-25T22:30:00.000Z",
+      "description": "Fight — Media → Portugal near Solbakken, Telemark, Norway. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.0667,
+      "lng": 9.75,
+      "action": "Fight (GDELT 190)",
+      "actor": "Media",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Solbakken, Telemark, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.co.uk/articles/erling-haaland-u-turn-confirmed-215643000.html",
+      "gdelt": {
+        "globalEventId": "1324956160",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.24,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324956161",
+      "kind": "event",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T00:00:00.000Z",
+      "observedAt": "2026-09-25T22:30:00.000Z",
+      "description": "Fight — Media → Portugal near Solbakken, Telemark, Norway. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.0667,
+      "lng": 9.75,
+      "action": "Fight (GDELT 190)",
+      "actor": "Media",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Solbakken, Telemark, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.co.uk/articles/erling-haaland-u-turn-confirmed-215643000.html",
+      "gdelt": {
+        "globalEventId": "1324956161",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.24,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324956208",
+      "kind": "event",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T00:00:00.000Z",
+      "observedAt": "2026-09-25T22:30:00.000Z",
+      "description": "Coercion — Norway → Unspecified near Solbakken, Telemark, Norway. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.0667,
+      "lng": 9.75,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Norway",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Solbakken, Telemark, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.co.uk/articles/erling-haaland-u-turn-confirmed-215643000.html",
+      "gdelt": {
+        "globalEventId": "1324956208",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -3.24,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324956216",
+      "kind": "event",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T00:00:00.000Z",
+      "observedAt": "2026-09-25T22:30:00.000Z",
+      "description": "Fight — Portugal → Media near Solbakken, Telemark, Norway. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.0667,
+      "lng": 9.75,
+      "action": "Fight (GDELT 190)",
+      "actor": "Portugal",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Solbakken, Telemark, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.co.uk/articles/erling-haaland-u-turn-confirmed-215643000.html",
+      "gdelt": {
+        "globalEventId": "1324956216",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.24,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1324956217",
+      "kind": "event",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T00:00:00.000Z",
+      "observedAt": "2026-09-25T22:30:00.000Z",
+      "description": "Fight — Portugal → Media near Solbakken, Telemark, Norway. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.0667,
+      "lng": 9.75,
+      "action": "Fight (GDELT 190)",
+      "actor": "Portugal",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Solbakken, Telemark, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.co.uk/articles/erling-haaland-u-turn-confirmed-215643000.html",
+      "gdelt": {
+        "globalEventId": "1324956217",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.24,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-69nkrx",
       "kind": "news",
       "date": "2026-09-24",
@@ -5396,18 +5691,18 @@
       "kind": "news",
       "date": "2026-09-24",
       "isoDate": "2026-09-24T04:00:01.000Z",
-      "description": "The Price of Arctic Ambition - Foreign Affairs (Foreign Affairs, 2026-09-24. Headline + link only.)",
+      "description": "The Price of Arctic Ambition - foreignaffairs.com (foreignaffairs.com, 2026-09-24. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Foreign Affairs",
+      "actor": "foreignaffairs.com",
       "axis": "Other",
       "tags": [
-        "Foreign Affairs",
+        "foreignaffairs.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Foreign Affairs",
-      "source": "Foreign Affairs",
+      "locationStr": "foreignaffairs.com",
+      "source": "foreignaffairs.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOW9ZSjdqLUtpWVBKdnMxY0QySzFtX09wSllveFlna2dlcVphS2h4MWw1TFdEUFNJSmVnZTJlQklrZ1hibzFibjVPRnpueEhUMmZRaUtHdUNqQ3VhdmVOcjJCUUZYVFlsQ2dTVUN4UVkySFVIMzd4aEdlOUZNdFNzRmNzWmNNMkx6LWoyYVpBQWdmYWJOazZwcg?oc=5"
     },
     {
@@ -9862,19 +10157,19 @@
       "kind": "news",
       "date": "2026-09-23",
       "isoDate": "2026-09-23T06:00:00.000Z",
-      "description": "Trump signs US-Denmark-Greenland agreement to bolster Arctic security - San Mateo Daily Journal (San Mateo Daily Journal, 2026-09-23. Headline + link only.)",
+      "description": "Trump signs US-Denmark-Greenland agreement to bolster Arctic security - smdailyjournal.com (smdailyjournal.com, 2026-09-23. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "San Mateo Daily Journal",
+      "actor": "smdailyjournal.com",
       "axis": "Other",
       "tags": [
-        "San Mateo Daily Journal",
+        "smdailyjournal.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Greenland",
-      "source": "San Mateo Daily Journal",
+      "source": "smdailyjournal.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQMloxQmpyQnZfMTZnZ1dsZ1hjZ0VVVHo3TDBPZmNTanR5NXkzT0VaSmF0dFZ2MWJGTlhpNUotYURDMVVaN0dPN1lXOE9Yd2hoeHlOS2swb0VaSDhvUlBzcnRSTTBtUC16ZEIzbGhFdlFIUmY2OUJ2T0NtbUd3R2g4RXZTb1htQ1UyWkxjU1JhWlctNlJxWkEycTM2c3hqNlNjMC05Z05teXBSb2xIYUducENxMjRJZHcydXJsSDUtT3pHN2tpZXduWUFtcURxMGVzemozaWdhRFFyRWM1S2lDQ29QbWYzb3ZfNEtvM0pWcWxQdUhp?oc=5",
       "lat": 72,
       "lng": -40,
@@ -10060,98 +10355,6 @@
       "locationStr": "Greenland",
       "source": "The Washington Post",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUFdOU2x3VDBtaTVVNVNhVFhNY0NndEdZdzNlVkNmajhXWlM2bkZ5SFF4ODJfVFZHZGN6NEtGYU10aEI0UV81WlpLODVOeTVVOTdvZ1o4cnRaekcxdmo2Mm9Tamh1akNVTGJiX29kWE1UM2NrWEUxTW02YThWdWU3dG9kMXJiamNXb0hFRTE4NzZodUYwdW5mRG4wRW0zOTJOeWVlMmlxQXlrWEJqRldXX3dWcUlBZUNKOTllNU5RckprdGhhVWZuTg?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
-    },
-    {
-      "id": "news-yi11jh",
-      "kind": "news",
-      "date": "2026-09-22",
-      "isoDate": "2026-09-22T21:49:48.000Z",
-      "description": "Trump Demanded Greenland. Here’s What He Actually Got in the Security Deal - U.S. News & World Report (U.S. News &amp; World Report, 2026-09-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "U.S. News &amp; World Report",
-      "axis": "Other",
-      "tags": [
-        "U.S. News &amp; World Report",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "U.S. News &amp; World Report",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNlNjeUhSVU16WUpkbVB2dFMtbldxaEtLWFJZa053ZkNpa0JpbF9fcDd2MmFtamktV2FnSFlOUDgzQ3NJcV9Rc0RzcDdERzJwOVZZUTJCMXhhdXdrMkk1WEp0SzNFWDdFZXJSY1RYRTZMM1RlNmo4THFuSEVSRG04bkRYMUlldzhYbng2TWlrb2JuQ2ExRnl2eTNlSkFfand1SnlTM0V1TmtFY3FtREhhTk95NUhxaVVrN0VHMw?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
-    },
-    {
-      "id": "news-craaov",
-      "kind": "news",
-      "date": "2026-09-22",
-      "isoDate": "2026-09-22T21:46:22.000Z",
-      "description": "Trump signs US-Denmark-Greenland agreement to bolster Arctic security after prolonged tensions - WRAL (WRAL, 2026-09-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "WRAL",
-      "axis": "Other",
-      "tags": [
-        "WRAL",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "WRAL",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb1Z5b1hiWnNQS3hQMXFRUDJNbklObUotVm1yT3ZmVk4wNlZGRWpVbFlmTTdEc2tkSFRndkpFRDhtc1hMeFRQQjJhcUV1Q21KYVQ3R3dTdmtaMUE3cG51SV9QM0VKSWx5RVBpQlZXYTBoWW42WmJMdG5UODRxczdmdHJ5M0V0SjFvdHBUTFlGQjlRQk1mYWpES2RxZWx2Wkl5ODFtSWRDem0?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
-    },
-    {
-      "id": "news-rqgxmw",
-      "kind": "news",
-      "date": "2026-09-22",
-      "isoDate": "2026-09-22T21:43:00.000Z",
-      "description": "Trump signs US-Denmark-Greenland agreement to bolster Arctic security after prolonged tensions - Durango Herald (Durango Herald, 2026-09-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Durango Herald",
-      "axis": "Other",
-      "tags": [
-        "Durango Herald",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "Durango Herald",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRkRvWDlUZXBOcGx2dHpmb1FWcXBOT3ZUM2xtRmFfdDFMbUxLT19ZZl9ZMGMxckxYSTB2cTdMdkdFUHZHSU5CdHpmRUJHc0pORW9IYUtueGU2WEE0VmJIREFfMWNma0tqUkxRNWVsWlRMNDRNUXQ5bEVQZUNELTFFdlQzeE9OMGFYNHc3V0tOMGhVYzFNZll2NTVuY0szOXVyN05yQ0FiTjdvRzVfX0Y5ejB3RDlhRUJWa3ViTjlpeE5vajV2?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
-    },
-    {
-      "id": "news-1p4sk7u",
-      "kind": "news",
-      "date": "2026-09-22",
-      "isoDate": "2026-09-22T21:36:55.000Z",
-      "description": "US to build two military bases in Greenland under new deal with Denmark - BBC (BBC, 2026-09-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC",
-      "axis": "Other",
-      "tags": [
-        "BBC",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GaTJlWVBtdFdXZEdHMTFabFI5NTZFckx2VkE3SGNYX1Zma0hZV0U4UDN1QW1iUlVWMFZLczlPbkZZaTBVQldhVFVKZV9HMGRLTkNHTmt2anlYanM?oc=5",
       "lat": 72,
       "lng": -40,
       "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
