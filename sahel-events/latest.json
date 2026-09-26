@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-09-26T14:39:49.074Z",
+  "collectedAt": "2026-09-26T18:25:29.408Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 2
     },
     {
       "id": "aa-mali",
@@ -45,7 +45,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 137,
+  "count": 139,
   "events": [
     {
       "id": "gdelt-1324969517",
@@ -758,6 +758,74 @@
         "goldstein": -2,
         "tone": -4.85,
         "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325053814",
+      "kind": "event",
+      "date": "2026-09-26",
+      "isoDate": "2026-09-26T00:00:00.000Z",
+      "observedAt": "2026-09-26T17:15:00.000Z",
+      "description": "Threat — Unspecified → Niger near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://blueprint.ng/nans-rn-urges-to-fg-probe-disputed-niger-varsity-accreditation-list/",
+      "gdelt": {
+        "globalEventId": "1325053814",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -1.87,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325054006",
+      "kind": "event",
+      "date": "2026-09-26",
+      "isoDate": "2026-09-26T00:00:00.000Z",
+      "observedAt": "2026-09-26T17:15:00.000Z",
+      "description": "Reduced relations — Government → Niger near Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://blueprint.ng/nans-rn-urges-to-fg-probe-disputed-niger-varsity-accreditation-list/",
+      "gdelt": {
+        "globalEventId": "1325054006",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -1.87,
+        "mentions": 1,
         "sources": 1
       }
     },
