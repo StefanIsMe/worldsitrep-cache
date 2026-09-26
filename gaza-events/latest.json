@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "gaza",
-  "collectedAt": "2026-09-26T14:39:49.074Z",
+  "collectedAt": "2026-09-26T15:13:45.548Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 120
+      "count": 10
     },
     {
       "id": "bbc-me",
@@ -21,7 +21,7 @@
       "url": "https://www.jpost.com/rss/rssfeedsfrontpage.aspx",
       "status": "ok",
       "count": 18,
-      "filtered": 9
+      "filtered": 8
     },
     {
       "id": "gnews-gaza",
@@ -47,6 +47,29 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-1f91hlt",
+      "kind": "news",
+      "date": "2026-09-26",
+      "isoDate": "2026-09-26T17:31:45.000Z",
+      "description": "Qatari Prime Minister accuses Netanyahu of sabotaging Gaza peace efforts for his own political gain (Jerusalem Post, 2026-09-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Gaza City",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/middle-east/iran-news/article-909776",
+      "lat": 31.5,
+      "lng": 34.47,
+      "coordsNote": "Headline gazetteer match: \"Gaza\" (city); verify via source article."
+    },
     {
       "id": "news-1803mj5",
       "kind": "news",
@@ -23787,6 +23810,74 @@
         "goldstein": -10,
         "tone": -8.23,
         "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325042350",
+      "kind": "event",
+      "date": "2026-09-26",
+      "isoDate": "2026-09-26T00:00:00.000Z",
+      "observedAt": "2026-09-26T15:00:00.000Z",
+      "description": "Disapproval — Police → Unspecified near Bethlehem, West Bank (general), West Bank. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 31.7049,
+      "lng": 35.2038,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bethlehem, West Bank (general), West Bank",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailygazette.com/hv360/spotlightnews/news/crime/selkirk-man-plea-canceled-violations/article_6681e090-e549-42ac-aeae-cf8031b9d569.html",
+      "gdelt": {
+        "globalEventId": "1325042350",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.21,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325042596",
+      "kind": "event",
+      "date": "2026-09-26",
+      "isoDate": "2026-09-26T00:00:00.000Z",
+      "observedAt": "2026-09-26T15:00:00.000Z",
+      "description": "Demand — West Bank → Unspecified near Bethlehem, West Bank (general), West Bank. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 31.7049,
+      "lng": 35.2038,
+      "action": "Demand (GDELT 100)",
+      "actor": "West Bank",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bethlehem, West Bank (general), West Bank",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailygazette.com/hv360/spotlightnews/news/crime/selkirk-man-plea-canceled-violations/article_6681e090-e549-42ac-aeae-cf8031b9d569.html",
+      "gdelt": {
+        "globalEventId": "1325042596",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -8.21,
+        "mentions": 4,
         "sources": 1
       }
     },
@@ -49399,108 +49490,6 @@
         "goldstein": -10,
         "tone": -10.11,
         "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1324804367",
-      "kind": "event",
-      "date": "2026-09-25",
-      "isoDate": "2026-09-25T00:00:00.000Z",
-      "observedAt": "2026-09-25T03:30:00.000Z",
-      "description": "Disapproval — Israel → Israel near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Disapproval (GDELT 111)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.nbcnewyork.com/news/politics/netanyahu-mamdani-endanger-jewish-new-york-lies-israel-gaza/6551837/",
-      "gdelt": {
-        "globalEventId": "1324804367",
-        "eventCode": "111",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -6.4,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1324804368",
-      "kind": "event",
-      "date": "2026-09-25",
-      "isoDate": "2026-09-25T00:00:00.000Z",
-      "observedAt": "2026-09-25T03:30:00.000Z",
-      "description": "Threat — Israel → Jewish near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Threat (GDELT 130)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.nbcnewyork.com/news/politics/netanyahu-mamdani-endanger-jewish-new-york-lies-israel-gaza/6551837/",
-      "gdelt": {
-        "globalEventId": "1324804368",
-        "eventCode": "130",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -4.4,
-        "tone": -6.4,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1324804379",
-      "kind": "event",
-      "date": "2026-09-25",
-      "isoDate": "2026-09-25T00:00:00.000Z",
-      "observedAt": "2026-09-25T03:30:00.000Z",
-      "description": "Coercion — Jewish → Reuters near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Jewish",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.thehindu.com/news/international/hollywood-stars-among-100-arrested-in-ny-anti-netanyahu-protest/article71506943.ece",
-      "gdelt": {
-        "globalEventId": "1324804379",
-        "eventCode": "173",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -4.11,
-        "mentions": 10,
         "sources": 1
       }
     }
