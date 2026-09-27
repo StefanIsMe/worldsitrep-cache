@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-09-27T10:10:34.425Z",
+  "collectedAt": "2026-09-27T10:58:45.003Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 1
     },
     {
       "id": "rci-arctic",
@@ -19,9 +19,9 @@
     {
       "id": "nunatsiaq",
       "url": "https://nunatsiaq.com/feed/",
-      "status": "ok",
-      "count": 25,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS nunatsiaq request failed with HTTP 415"
     },
     {
       "id": "gnews-arctic",
