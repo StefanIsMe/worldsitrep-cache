@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-09-27T15:14:09.155Z",
+  "collectedAt": "2026-09-27T15:49:53.551Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 12
+      "count": 2
     },
     {
       "id": "taipei-times",
@@ -38,7 +38,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 187,
+  "count": 189,
   "events": [
     {
       "id": "gdelt-1325083352",
@@ -615,6 +615,74 @@
         "goldstein": -2,
         "tone": 0.54,
         "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325151554",
+      "kind": "event",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T00:00:00.000Z",
+      "observedAt": "2026-09-27T15:45:00.000Z",
+      "description": "Fight — China → American near Republic Of China, Taiwan (general), Taiwan. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 24,
+      "lng": 121,
+      "action": "Fight (GDELT 190)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Republic Of China, Taiwan (general), Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cbsnews.com/news/alexander-yui-taiwan-representative-face-the-nation-transcript-09-27-2026/",
+      "gdelt": {
+        "globalEventId": "1325151554",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -0.93,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325152089",
+      "kind": "event",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T00:00:00.000Z",
+      "observedAt": "2026-09-27T15:45:00.000Z",
+      "description": "Fight — American → China near Republic Of China, Taiwan (general), Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 24,
+      "lng": 121,
+      "action": "Fight (GDELT 190)",
+      "actor": "American",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Republic Of China, Taiwan (general), Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cbsnews.com/news/alexander-yui-taiwan-representative-face-the-nation-transcript-09-27-2026/",
+      "gdelt": {
+        "globalEventId": "1325152089",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -0.93,
+        "mentions": 2,
         "sources": 1
       }
     },
