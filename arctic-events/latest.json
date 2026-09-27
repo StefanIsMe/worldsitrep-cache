@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-09-27T05:51:58.274Z",
+  "collectedAt": "2026-09-27T10:10:34.425Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 3
     },
     {
       "id": "rci-arctic",
@@ -38,8 +38,27 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 293,
+  "count": 294,
   "events": [
+    {
+      "id": "news-xia12b",
+      "kind": "news",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T08:26:12.000Z",
+      "description": "Trump got what he wanted – A move against Russia and China’s Arctic plans - todaypress.tv (todaypress.tv, 2026-09-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "todaypress.tv",
+      "axis": "Other",
+      "tags": [
+        "todaypress.tv",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "todaypress.tv",
+      "source": "todaypress.tv",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ19HSXhrZHNXcWFyaXl2a2xyNkVnY3J4YjNsSldEaXcwOXBCR20tS1pZbGVkdWF3XzlQQnlRamFMWXJiWGliT0JpR2RXdTd3TFhwUlZRYXhaalM3UkJSYzh5QzY5bzZUYkpiMGZfV3UzNUl1cm9HNXRHb1hlc3hkM2MxcUNFR0gzYjNuWk5Va0I2TkphTlAwc2xFeXFGbEM0Ull4ZmNPcGE?oc=5"
+    },
     {
       "id": "gdelt-1325079657",
       "kind": "event",
@@ -245,6 +264,108 @@
       }
     },
     {
+      "id": "gdelt-1325107599",
+      "kind": "event",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T00:00:00.000Z",
+      "observedAt": "2026-09-27T07:30:00.000Z",
+      "description": "Demand — Russia → Russia near Petersburg, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.8944,
+      "lng": 30.2642,
+      "action": "Demand (GDELT 100)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petersburg, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kyivpost.com/post/85497",
+      "gdelt": {
+        "globalEventId": "1325107599",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -5.77,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325109969",
+      "kind": "event",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T00:00:00.000Z",
+      "observedAt": "2026-09-27T08:00:00.000Z",
+      "description": "Fight — Norway → Terrorist near Oslo, Oslo, Norway. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.9167,
+      "lng": 10.75,
+      "action": "Fight (GDELT 190)",
+      "actor": "Norway",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Oslo, Oslo, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://countercurrents.org/2026/09/deconstructing-islamophobia-stereotypes-orientalism-and-the-construction-of-the-other/",
+      "gdelt": {
+        "globalEventId": "1325109969",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.84,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325119386",
+      "kind": "event",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T00:00:00.000Z",
+      "observedAt": "2026-09-27T10:00:00.000Z",
+      "description": "Protest — Iceland → Unspecified near Iceland. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 65,
+      "lng": -18,
+      "action": "Protest (GDELT 141)",
+      "actor": "Iceland",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iceland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://listverse.com/2020/03/19/top-10-fascinating-construction-site-secrets/",
+      "gdelt": {
+        "globalEventId": "1325119386",
+        "eventCode": "141",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -2.05,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-186vzd3",
       "kind": "news",
       "date": "2026-09-26",
@@ -393,6 +514,29 @@
       "locationStr": "Greenland",
       "source": "Fox News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQVpnZE04aFZaR2htbmJBVG0yOFpCbmYzTkxhSFpwQkttRy1KYWZqc0NVSWVHUERKMFlxVk9XMW5tSXB3SUhTMEZQWnNmZWJzLWJtb1hFRzdHMkItMnJGNkF4U0MtelVBR2hrQ2hVVWNzQ0lWMlRoeHhHbTlscU4zMldPd3NkM3dDOXpmYkhjbEo1UTRmVWFtMmZTNWdkUHZpYnNhWGFBNmNoYkVUclcwMEdnLTVud9IBuwFBVV95cUxPbzN5dVdUVFBRdTNpcWJhSDRSSWxuTktoci1MSC1JelNFZzhFbHNHS3dOT181S2V6T3Y1SmVYZnBUVkVaYWM3S3VJWW51dFFsUnhRcHhhaG1qZVhtdEw2Uzd6UDFKYkt4TFI5RkhlbXZOZ0hnM0UyU2VkN01DbjJaLVBvY1FmdzBsdTJpUTcyNEVKenRUNW1ab2NfbEpXU2NGMnB0UUxJM0d0bW1LcU9kYVF4WG40aHVCSlE0?oc=5",
+      "lat": 72,
+      "lng": -40,
+      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
+    },
+    {
+      "id": "news-xruds5",
+      "kind": "news",
+      "date": "2026-09-26",
+      "isoDate": "2026-09-26T10:00:37.000Z",
+      "description": "Trump’s Greenland deal shadows Xi visit after years of Beijing eyeing Arctic influence - Yahoo (Yahoo, 2026-09-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yahoo",
+      "axis": "Other",
+      "tags": [
+        "Yahoo",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Greenland",
+      "source": "Yahoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQS0t2M0JNel85MUlPM1Y5R3JXQkJyaFNGQTYzZkNJbVpKUWFyUmxiSXNmby1nXzdoQnhOMzNGbWVzellfX0VOSmJuNVhUX1dwMjBvcl9oSmlVYlZuZ2NBWDRHZlBSRmpOalVJX0tjbzZWVnd6WXRfbEh5SGlYenJrdzBDdzhNd2g2N0RuN045MXZ5TjRZeFE?oc=5",
       "lat": 72,
       "lng": -40,
       "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
@@ -9325,98 +9469,6 @@
       "locationStr": "Greenland",
       "source": "Washington Examiner",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOUlheTZKeUdyUFlLT3lvRUNDNlNSalpDLVlOdlFiWklUc3hPR2pla0J6aVFwSkRrR2VXWFMzRDdEQmNXMEV1bTc3c1JlRFBBbTAwSnA5SzhnR3FCS05RWHE5NW5jcE5md2JmRzVPTHRtMGJsMGtSLTN5ZVpXZ3VLdVpndnpnNC1TbjhMeklKS094YzdSallpV2JLZ0NfVWFIUktBQmhuNkNlNUpRa0hTbUQ4bkVvR21USWlHR2hGQWY0VmNI?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
-    },
-    {
-      "id": "news-1fj8nsp",
-      "kind": "news",
-      "date": "2026-09-24",
-      "isoDate": "2026-09-24T08:03:00.000Z",
-      "description": "Trump wanted to 'own' Greenland. He ended up empowering it. | Opinion - USA Today (USA Today, 2026-09-24. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "USA Today",
-      "axis": "Other",
-      "tags": [
-        "USA Today",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "USA Today",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObERpVFhUdU05YXkyblVYQjNQRm1SMk5PcHE2NDdnV0RVRER3Q0JkandBeC1GazM5NTgyNlFJMllmOFNZbkFyY2RlQWVVVmJNcjVudDRnWVl2TFp2aDVtR2R2bHNpRUpSeWcxc19NNE9SQ3ZIWUhLVThJVTJoY09tRHEzVmtYa3hWWkFiU1RSTk84NnBfNmJxZWFEcWk4TkotbnVmSExfTW9qMnFXWVlPaHN6VQ?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
-    },
-    {
-      "id": "news-1ghs28a",
-      "kind": "news",
-      "date": "2026-09-24",
-      "isoDate": "2026-09-24T06:55:52.000Z",
-      "description": "5 ways Greenland’s 2026 defense deal breaks with the past - Türkiye Today (Türkiye Today, 2026-09-24. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Türkiye Today",
-      "axis": "Other",
-      "tags": [
-        "Türkiye Today",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "Türkiye Today",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNjY4SVpOWkx6UzZZbThqVHJMb2FPY3hYTi1icXNzVXJCUnpkXzVMM0NYYzV2bkZ3NW9ZQTlOazdMSW9PMU9lZjNDeERVdkU1RklRS2ZnUkVVY3VleHdqMThRVW5RZ3F0M1BLQ3hsRWNrdUQ1aXdVMzVKcGpxdFdTZ0hIQy1yUUNXTE00c2tsdjcyZDZqNTRONHlUdUFrYW92?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
-    },
-    {
-      "id": "news-1ou9kq3",
-      "kind": "news",
-      "date": "2026-09-24",
-      "isoDate": "2026-09-24T06:17:00.000Z",
-      "description": "Inside Trump’s Greenland deal: No invasion, a few compromises and the status quo - NBC News (NBC News, 2026-09-24. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdTV6Yl9EWEhSUUxXNi1yRmJjdTV5T2pfM09KUmxobnozamxQbHJNcS1IYzVTUVlfZ2dhdGdVU2E1MVRFUDZ3Nm5PbWlrMncwU0xXREprNDFqN0F6WFBwamNudGpqQmdjTzhoU3htR2pZdXFCVng2dVdEOVlwMm5NSjRVYXRSTXpBWDAxU0Y5d2hXYXRTMjFHM2JQZGJvR2czVEN0NmdaUGl3VEMwR0E?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
-    },
-    {
-      "id": "news-19i33p3",
-      "kind": "news",
-      "date": "2026-09-24",
-      "isoDate": "2026-09-24T06:00:27.000Z",
-      "description": "Greenland is Not for Sale - counterpunch.org (counterpunch.org, 2026-09-24. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "counterpunch.org",
-      "axis": "Other",
-      "tags": [
-        "counterpunch.org",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "counterpunch.org",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JQ2dsZ2oyOFFrWVNrZXZxMFZ4OTV2YklVT0c1eExKRTRTbjRKQkNxUS1BNjNjenhKTjJURGtYUGdwNFpQZ2JIR2VHN3dhbm9EOUZYdEdwUG01WVFVa1pRQTlocDR2MF9XUlhjY1NBT1NPNV9f?oc=5",
       "lat": 72,
       "lng": -40,
       "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
