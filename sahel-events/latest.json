@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-09-27T10:58:45.003Z",
+  "collectedAt": "2026-09-27T15:14:09.155Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 4
+      "count": 1
     },
     {
       "id": "aa-mali",
@@ -45,7 +45,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 101,
+  "count": 102,
   "events": [
     {
       "id": "gdelt-1325106218",
@@ -316,6 +316,40 @@
         "goldstein": -5,
         "tone": -1.35,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325145105",
+      "kind": "event",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T00:00:00.000Z",
+      "observedAt": "2026-09-27T14:30:00.000Z",
+      "description": "Assault — Residents → Unspecified near Niger. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Residents",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.vanguardngr.com/2026/09/plateau-zamfara-niger-attacks-worry-huriwa/",
+      "gdelt": {
+        "globalEventId": "1325145105",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -7.99,
+        "mentions": 5,
         "sources": 1
       }
     },
