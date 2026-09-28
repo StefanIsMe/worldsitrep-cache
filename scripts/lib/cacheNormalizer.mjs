@@ -17,7 +17,14 @@ export function normalizeGammaEvent(input, theatre) {
   if (!ev || typeof ev !== "object") throw new TypeError("Gamma response must contain an event object");
   const slug = ev.slug;
   if (!slug) throw new TypeError("Gamma event must have a slug");
-  const m = ev.markets?.[0] || ev;
+  // Date-ladder events ("by...?") carry expired rungs first: track the most
+  // liquid open rung (preferring unexpired ones), not blindly markets[0].
+  const rungs = Array.isArray(ev.markets) ? ev.markets : [];
+  const open = rungs.filter((r) => r && !r.closed);
+  const now = Date.now();
+  const unexpired = open.filter((r) => !r.endDate || Date.parse(r.endDate) >= now);
+  const byVol = (rs) => [...rs].sort((a, b) => (Number(b.volume) || 0) - (Number(a.volume) || 0));
+  const m = byVol(unexpired)[0] || byVol(open)[0] || rungs[0] || ev;
   let price = m.lastTradePrice ?? 0;
   try {
     const op = typeof m.outcomePrices === "string" ? JSON.parse(m.outcomePrices) : m.outcomePrices;
@@ -33,7 +40,7 @@ export function normalizeGammaEvent(input, theatre) {
     volumeNum,
     endDate: m.endDate || ev.endDate,
     probability: toProbability(price),
-    closed: Boolean(ev.closed || m.closed),
+    closed: Boolean(ev.closed || (rungs.length > 0 && open.length === 0)),
   };
 }
 

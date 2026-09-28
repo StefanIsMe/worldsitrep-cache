@@ -18,7 +18,7 @@ export const GROUPS = {
     snapshots: [
       'taiwan-events/latest.json', 'gaza-events/latest.json', 'iran-events/latest.json',
       'sahel-events/latest.json', 'korea-events/latest.json', 'arctic-events/latest.json',
-      'us-election-events/latest.json',
+      'us-election-events/latest.json', 'houthis-events/latest.json',
     ],
   },
   cache: { maxAgeMin: 100, snapshots: ['markets-data/latest.json', 'hazards-data/latest.json', 'events-data/latest.json', 'news-data/latest.json'] },

@@ -1,5 +1,5 @@
 // Shared normalizers for the per-theatre live-wire feeds (taiwan, gaza, iran,
-// sahel, korea, arctic, us-election). Parameterized twin of ukraineEvents.mjs:
+// sahel, korea, arctic, us-election, houthis). Parameterized twin of ukraineEvents.mjs:
 // same envelope schema (v1), same retention/merge/geocode semantics, driven by
 // per-theatre configs in theatreConfigs.mjs. Pure: no I/O, no network.
 // Never invent data: link-only headlines, derived GDELT metadata, no bodies.

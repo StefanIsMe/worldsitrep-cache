@@ -41,8 +41,8 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   with the match in `coordsNote`; placeless headlines and theatre-wide
   assessments honestly stay `unplaced`. The stage runs over the merged set,
   so previously collected items gain coords on later runs too.
-- `<theatre>-events/latest.json` — rolling live-wire feeds for the other 7
-  theatres (taiwan, gaza, iran, sahel, korea, arctic, us-election): same
+- `<theatre>-events/latest.json` — rolling live-wire feeds for the other 8
+  theatres (taiwan, gaza, iran, sahel, korea, arctic, us-election, houthis): same
   envelope, retention (72h events/news, 14d reports, cap 1500, newest first),
   per-source statuses, and warehouse layout (`latest/status/index/days/`)
   as ukraine-events, driven by per-theatre configs
@@ -51,7 +51,7 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   political-conflict CAMEO roots 13–17 only for us-election so ordinary US
   crime news stays out), plus native RSS (Taipei Times, BBC, Jerusalem
   Post, AllAfrica x3, Yonhap x2, Korea Times, Eye on the Arctic,
-  Nunatsiaq, NPR, EAC) and query-scoped Google News feeds, plus gated
+  Nunatsiaq, NPR, EAC, gCaptain) and query-scoped Google News feeds, plus gated
   ReliefWeb reports (same `RELIEFWEB_APPNAME` secret; skipped for the
   Arctic). General-news home papers (Taipei Times, JPost, Yonhap all-news,
   Korea Times) pass a per-feed keyword relevance gate so sports, culture,
@@ -154,6 +154,7 @@ Raw feed URLs:
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/korea-events/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/arctic-events/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/us-election-events/latest.json (each theatre wire also has status.json, index.json, days/YYYY/MM/DD.json)
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/houthis-events/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/territory-daily/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/territory-daily/status.json (run-liveness record: checkedAt + snapshot id + per-class census)
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/territory-daily/index.json (timeline day list for the site scrubber)

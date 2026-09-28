@@ -292,6 +292,49 @@ export const THEATRES = {
       { names: ['Harrisburg'], lat: 40.27, lng: -76.88, label: 'Harrisburg', level: 'city' },
     ],
   },
+  // Native feeds verified live 2026-09-28 (HTTP 200 + items parsed).
+  houthis: {
+    id: 'houthis',
+    dir: 'houthis-events',
+    gdelt: { fips: ['YM'], defaultGeo: 'Yemen' },
+    actorMap: [
+      ['HOUTHI|ANSAR ALLAH|ABDUL[- ]MALIK|AL-HOUTHI', 'Houthis'],
+      ['YEMEN|SANAA|SANA\'A|ADEN|HODEIDAH|TAIZ', 'Yemen'],
+      ['UNITED STATES|U\\.S\\.|WASHINGTON|PENTAGON|CENTCOM|TRUMP', 'United States'],
+      ['ISRAEL|IDF|TEL AVIV', 'Israel'],
+      ['SAUDI|RIYADH', 'Saudi Arabia'],
+      ['UNITED KINGDOM|BRITAIN|\\bU\\.K\\.\\b|LONDON', 'United Kingdom'],
+    ],
+    rssFeeds: [
+      {
+        id: 'gcaptain', theatre: 'houthis', name: 'gCaptain', url: 'https://gcaptain.com/feed/',
+        match: ['HOUTHI', 'RED SEA', 'MANDEB', 'YEMEN', 'HODEIDAH', 'ADEN', 'TANKER', 'BULK CARRIER', 'CONTAINER ?SHIP', 'VESSEL', 'PIRACY', 'PIRATE', 'USV', 'DRONE BOAT', 'SEA DRONE', 'GALAXY LEADER', 'PROSPERITY GUARDIAN', 'SUEZ', 'STRAIT', 'GULF OF ADEN', 'BAB EL', 'MISSILE', 'HIJACK'],
+      },
+      {
+        id: 'bbc-yemen', theatre: 'houthis', name: 'BBC', url: 'https://feeds.bbci.co.uk/news/world/middle_east/rss.xml',
+        match: ['HOUTHI', 'YEMEN', 'SANAA', 'SANA\'A', 'ADEN', 'HODEIDAH', 'TAIZ', 'SAADA', 'MUKALLA', 'MARIB', 'MOKHA', 'PERIM', 'RED SEA', 'MANDEB', 'GULF OF ADEN', 'AIRSTRIKE', 'STRIKE', 'CEASEFIRE', 'BLOCKADE'],
+      },
+      gnews('gnews-houthis', 'houthis', 'Houthis Yemen Red Sea'),
+      gnews('gnews-shipping', 'houthis', 'Red Sea shipping Houthi attack'),
+    ],
+    reliefwebIso3: ['yem'],
+    osm: { countryCodes: ['ye'], bbox: [10.5, 38.0, 20.0, 56.0] },
+    outletsToStrip: [],
+    gazetteer: [
+      { names: ['Sanaa', 'Sana\'a'], lat: 15.35, lng: 44.21, label: 'Sanaa', level: 'city', capital: true },
+      { names: ['Hodeidah', 'Hudaydah', 'Al Hudaydah'], lat: 14.8, lng: 42.95, label: 'Hodeidah', level: 'city' },
+      { names: ['Aden'], lat: 12.78, lng: 45.04, label: 'Aden', level: 'city' },
+      { names: ['Taiz', 'Ta\'izz'], lat: 13.58, lng: 44.02, label: 'Taiz', level: 'city' },
+      { names: ['Saada', 'Sa\'dah'], lat: 16.94, lng: 43.77, label: 'Saada', level: 'city' },
+      { names: ['Mukalla', 'Al Mukalla'], lat: 14.53, lng: 49.13, label: 'Mukalla', level: 'city' },
+      { names: ['Marib', 'Ma\'rib'], lat: 15.47, lng: 45.33, label: 'Marib', level: 'city' },
+      { names: ['Mokha', 'Mocha'], lat: 13.32, lng: 43.25, label: 'Mokha', level: 'city' },
+      { names: ['Perim Island', 'Perim', 'Mayyun'], lat: 12.66, lng: 43.42, label: 'Perim Island', level: 'city' },
+      { names: ['Bab el-Mandeb', 'Bab el Mandeb', 'Mandeb'], lat: 12.6, lng: 43.4, label: 'Bab el-Mandeb', level: 'region' },
+      { names: ['Red Sea'], lat: 15.5, lng: 41.5, label: 'Red Sea', level: 'region' },
+      { names: ['Gulf of Aden'], lat: 13.0, lng: 47.5, label: 'Gulf of Aden', level: 'region' },
+    ],
+  },
 };
 
 export const THEATRE_IDS = Object.keys(THEATRES);

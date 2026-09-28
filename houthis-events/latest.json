@@ -1,0 +1,806 @@
+{
+  "schemaVersion": 1,
+  "theatre": "houthis",
+  "collectedAt": "2026-09-28T03:21:48.399Z",
+  "sources": [
+    {
+      "id": "gdelt-2.1-export",
+      "url": "https://data.gdeltproject.org/gdeltv2/",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "id": "gcaptain",
+      "url": "https://gcaptain.com/feed/",
+      "status": "ok",
+      "count": 3,
+      "filtered": 9
+    },
+    {
+      "id": "bbc-yemen",
+      "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
+      "status": "ok",
+      "count": 10,
+      "filtered": 24
+    },
+    {
+      "id": "gnews-houthis",
+      "url": "https://news.google.com/rss/search?q=Houthis%20Yemen%20Red%20Sea&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
+    },
+    {
+      "id": "gnews-shipping",
+      "url": "https://news.google.com/rss/search?q=Red%20Sea%20shipping%20Houthi%20attack&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
+    },
+    {
+      "id": "reliefweb",
+      "url": "https://api.reliefweb.int/v2/",
+      "status": "skipped",
+      "count": 0,
+      "note": "RELIEFWEB_APPNAME not set"
+    }
+  ],
+  "count": 31,
+  "events": [
+    {
+      "id": "gdelt-1325196613",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:15:00.000Z",
+      "description": "Rejection — Iran → Unspecified near Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.rappler.com/world/middle-east/iran-army-readiness-potential-renewed-us-attack/",
+      "gdelt": {
+        "globalEventId": "1325196613",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -4.71,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325198898",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:45:00.000Z",
+      "description": "Fight — Iranian → Unspecified near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Fight (GDELT 190)",
+      "actor": "Iranian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/28092026-4-iranian-drone-experts-killed-756-operations-against-houthi-military-positions-over-72-hours-yemen-army/",
+      "gdelt": {
+        "globalEventId": "1325198898",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.28,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325198916",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:45:00.000Z",
+      "description": "Fight — Iran → Saudi Arabia near Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Fight (GDELT 194)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/business/international-business/seven-months-into-hormuz-shutdown-oil-remains-elevated-as-trump-rejects-iran-proposal/articleshow/134529530.cms",
+      "gdelt": {
+        "globalEventId": "1325198916",
+        "eventCode": "194",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.23,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325199119",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:45:00.000Z",
+      "description": "Disapproval — Abdullah → Yemen near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Abdullah",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/28092026-4-iranian-drone-experts-killed-756-operations-against-houthi-military-positions-over-72-hours-yemen-army/",
+      "gdelt": {
+        "globalEventId": "1325199119",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.28,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325199120",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:45:00.000Z",
+      "description": "Fight — Abdullah → Yemen near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Fight (GDELT 190)",
+      "actor": "Abdullah",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/28092026-4-iranian-drone-experts-killed-756-operations-against-houthi-military-positions-over-72-hours-yemen-army/",
+      "gdelt": {
+        "globalEventId": "1325199120",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.28,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325199121",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:45:00.000Z",
+      "description": "Disapproval — Abdullah → Yemen near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Abdullah",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/28092026-4-iranian-drone-experts-killed-756-operations-against-houthi-military-positions-over-72-hours-yemen-army/",
+      "gdelt": {
+        "globalEventId": "1325199121",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.28,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325199122",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:45:00.000Z",
+      "description": "Fight — Abdullah → Yemen near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Fight (GDELT 190)",
+      "actor": "Abdullah",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/28092026-4-iranian-drone-experts-killed-756-operations-against-houthi-military-positions-over-72-hours-yemen-army/",
+      "gdelt": {
+        "globalEventId": "1325199122",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.28,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325199236",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:45:00.000Z",
+      "description": "Disapproval — Yemen → Unspecified near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/28092026-4-iranian-drone-experts-killed-756-operations-against-houthi-military-positions-over-72-hours-yemen-army/",
+      "gdelt": {
+        "globalEventId": "1325199236",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.28,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325199237",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:45:00.000Z",
+      "description": "Disapproval — Yemen → Yemen near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/28092026-4-iranian-drone-experts-killed-756-operations-against-houthi-military-positions-over-72-hours-yemen-army/",
+      "gdelt": {
+        "globalEventId": "1325199237",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.28,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325200173",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T03:00:00.000Z",
+      "description": "Fight — Yemen → Unspecified near Central Market, Al ?udaydah, Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 14.8098,
+      "lng": 42.9418,
+      "action": "Fight (GDELT 195)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Central Market, Al ?udaydah, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://europe.chinadaily.com.cn/a/202609/28/WS6ab9c711e4b06d4aa05607cb.html",
+      "gdelt": {
+        "globalEventId": "1325200173",
+        "eventCode": "195",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.84,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "news-1mtzsff",
+      "kind": "news",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T21:11:15.000Z",
+      "description": "Yemen: Iran-Enhanced Houthi Weapons Pose Growing Threat to Aviation Safety in Southern Red Sea - Yemen Online (Yemen Online, 2026-09-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yemen Online",
+      "axis": "Other",
+      "tags": [
+        "Yemen Online",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Red Sea",
+      "source": "Yemen Online",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSRnVKSmpoeDR4blhfbENxVnBBVWp4ckNJQTdianV5cEtjVmRDcG5kX3lId3pRckt2NWJHZUZaeEJoei1NQWJNYUZkeldhVm1OdjFxWFJONmFnQQ?oc=5",
+      "lat": 15.5,
+      "lng": 41.5,
+      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+    },
+    {
+      "id": "news-uwpksr",
+      "kind": "news",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T19:39:37.000Z",
+      "description": "Russia Says It Struck Vessels In Ukraine (gCaptain, 2026-09-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "gCaptain",
+      "axis": "Other",
+      "tags": [
+        "gCaptain",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "gCaptain",
+      "source": "gCaptain",
+      "sourceUrl": "https://gcaptain.com/russia-says-it-struck-vessels-in-ukraine/"
+    },
+    {
+      "id": "news-14i6vxb",
+      "kind": "news",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T18:51:58.000Z",
+      "description": "Israel cannot secure the Red Sea without an African strategy - opinion - The Jerusalem Post (The Jerusalem Post, 2026-09-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "The Jerusalem Post",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Red Sea",
+      "source": "The Jerusalem Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81T2JUWnp2Tk1BZDFCSXYtWFotUFhOQlg0VVR6c21od2VwNFRMcDFoYmhYZ3UyR1dXb012WnFwSUp2RU1kNVpvX08zVGtXM2lzeF94dUMxQQ?oc=5",
+      "lat": 15.5,
+      "lng": 41.5,
+      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+    },
+    {
+      "id": "news-fv7p9z",
+      "kind": "news",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T18:37:12.000Z",
+      "description": "Yemen: Houthis report deadly Saudi strikes on Taiz market - dw.com (dw.com, 2026-09-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "dw.com",
+      "axis": "Other",
+      "tags": [
+        "dw.com",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Taiz",
+      "source": "dw.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2tiTmtOT3NLUTZvN1hYZHlETHUySG5iMnRvU0ltVS03QXAzWmtocndacEhvVGViM2xnbnFFbkhQLWt6eDlkQVhoUWtMRHNrSVBoS2l3VzlCQzVJTXdPTTVNZVg5WHF5eGdSZzN0ZmNBQlRZeDhmSkNOd3VJRElmbDU4aFVCUFFBTDFVLXl2U01OemfSAZMBQVVfeXFMTVJmck1SdmphcTFYLXhiV1U5ZHI5TzZMcVFjZDBZMFk4NTQ5U1RJSHVyM3pFU3pFZTlsTmNiTUQyODU4VFNRU2FOMGZuSVBfVjlfOXpQZk8zZlJWUDBDZmtmVG1CUHhKamZEVnpuTUoyU253U1g3cS05cWZMWHdMZXBkYXEzUTZsT19lNjg0dW1EcVc0?oc=5",
+      "lat": 13.58,
+      "lng": 44.02,
+      "coordsNote": "Headline gazetteer match: \"Taiz\" (city); verify via source article."
+    },
+    {
+      "id": "news-pd8p6h",
+      "kind": "news",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T12:35:00.000Z",
+      "description": "The South Must Be a Strategic Partner in Confronting the Houthi Threat - Fair Observer (Fair Observer, 2026-09-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Fair Observer",
+      "axis": "Other",
+      "tags": [
+        "Fair Observer",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Fair Observer",
+      "source": "Fair Observer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObnVwWkdBb2c1bV9HRVBscnVuLTQ4MVNWUXJic0w2anNFTFhmVGxBNGtKcVRlWTZ1WDB2elZYRTNDOGdndE5IVXlSUUJzc1h0eEJ3UVRwSTNXeXZ3WGI2WU1uTTlqVUtZU2tCVk5xWlhvRHhnY3JrSGVfNXZHbG5sdlhiVXkyQ1JZR0h3T1gxbWFnenFfR3pJc0loRm1xYkhybWFmYm01ZnVzdEJ4WmloSWNMVnN0T044QWpFbnBwdzlscWx4OXJzN3o1NGM?oc=5"
+    },
+    {
+      "id": "news-vos6o1",
+      "kind": "news",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T12:06:41.000Z",
+      "description": "Yemen government forces widen attacks against Houthis: What we know - Al Jazeera (Al Jazeera, 2026-09-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONGVIbjJTVHlFbzBZdEp6ano2SzlFaFBxTXM0YnhrNThlN2dubVFwSmU3RlBHbjVCU056bWxTVVYxTnNZbnFlbFRveUdnM3BMTjMzbEdfVWhKd2ZUalhKTVhpV2RWN2dyY3R6ckdhcmszUGdzYlZRWVJLaVdjUzRENlEyZHdlRzlQZmtseE9oNmtNUlUyZWM2ZDVaX2FvUXBUM2JaNzEta2ZZVTjSAbABQVVfeXFMTmtZQ0p2ajhMWXZxOEFaRFU0b2U2aFZQWGZ4U181ZUJGbDNBcG1rWXlEd0FxdDN0ZTh0S3hnTXctOEk1SkhHaU1qZ0ZYa3drZGtoNUUza2tORGsyY2NaMGJwTG14eHFZZDZHOWJETHlCby1Id1ppRk85aUtkZ0pNNmlOZU1kSVltY3pWNnNzbEtRN2NBaUgwQUhuV0NUdGxCek5qYkpFVjlvcFVmOWI0UlI?oc=5"
+    },
+    {
+      "id": "news-xni1d0",
+      "kind": "news",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T10:00:00.000Z",
+      "description": "A new flash point in the Iran war: The narrow strait called the ‘Gate of Tears’ - Los Angeles Times (Los Angeles Times, 2026-09-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Los Angeles Times",
+      "axis": "Other",
+      "tags": [
+        "Los Angeles Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Los Angeles Times",
+      "source": "Los Angeles Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTkVLcFV6d3pfcmhaT3ZFanJxSTdtTHJtQWFVb1hVUV9iSElTUlpqOE9vZU5IRjJ4R2VGTnNLckZFQldTdl9sT3JmZmhvX1lSbVN0OXlLQ0dZUE1tcTFnNFpWb2lkUEs2ejJ4SGduaERNbjZCS0NEc0cyZXFWdmUzYThFZDVTd2VQZW9fOWE0STY0TGloNHJfcnJSMWFWazcxZGtoZThETnJ2MzdXUHNPcFdubUppcTQ?oc=5"
+    },
+    {
+      "id": "news-zhgpiz",
+      "kind": "news",
+      "date": "2026-09-26",
+      "isoDate": "2026-09-26T18:09:09.000Z",
+      "description": "Trump Rejects Iran Proposal On Hormuz As Houthis Target Riyadh (gCaptain, 2026-09-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "gCaptain",
+      "axis": "Other",
+      "tags": [
+        "gCaptain",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "gCaptain",
+      "source": "gCaptain",
+      "sourceUrl": "https://gcaptain.com/trump-rejects-iran-proposal-on-hormuz-as-houthis-target-riyadh/"
+    },
+    {
+      "id": "news-1s0fvda",
+      "kind": "news",
+      "date": "2026-09-26",
+      "isoDate": "2026-09-26T13:33:26.000Z",
+      "description": "Pakistan, Türkiye and Saudi Arabia Discuss Joint Response to Houthi Attacks - کوردستان 24 (کوردستان 24, 2026-09-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "کوردستان 24",
+      "axis": "Other",
+      "tags": [
+        "کوردستان 24",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "کوردستان 24",
+      "source": "کوردستان 24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYXBhS1hPYjl5V19DLVlVZ3RLSElXX2RWSzlmNVFOS2lMVHZMUHBvT1Z4empIUDI5dUhSamVpbEJrZkV2ZTF3VFNjWmVSYmVGOFIxR1RZRW81NkI3d1Y4MzRTdEJkUmVONkQxNXFrYjRCb0ZDY2p6dEtuNThETkZlQ0xVUFh5UlJRenRRdzV4T2F5RktPbHdWb3BYNFZ5VWVGQ3M4WGRCejBNcmpkMjh4NVJxNWRydVhFeWR1a1hYT18?oc=5"
+    },
+    {
+      "id": "news-1qblsxn",
+      "kind": "news",
+      "date": "2026-09-26",
+      "isoDate": "2026-09-26T10:00:06.000Z",
+      "description": "Houthi attacks on Saudi Arabia test limits of Mecca regional security pact - scmp.com (scmp.com, 2026-09-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "scmp.com",
+      "axis": "Other",
+      "tags": [
+        "scmp.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "scmp.com",
+      "source": "scmp.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOWlWbVFNSmprYkRxUEozZnZoRkw0VlFXWi1aVXdRS2tTc21SRC1qZHZEVmpJUF9USDVWaGNYUF9MMEY1clNYSEgwQjZnTW5YNDlkdGI2YzZyS3hXYlZ5NEdXVTYwWnJ1NmpYMXptdUNfdlVmOUt1SlVfSjJCeFc3N2EzSUhMU2Fjbk5ucG1NNmpaRl9ucHJubk5EQk8tcEZiVllRSHdKQ0pVR0VuMVZhX1EtT0ZSdnZ3bnNFMngzQVA0SzMx0gHEAUFVX3lxTE1Qci1LUTVwUUwtV1FlX0lXdFBTcmZGeEhXSjcyWGRJSnVQZWZ1THhraG9zcjZQczVNUjR0andaRzYxUlFYTGZuQUl1MF85dTNZSnh5RVVreUQ3anloLXpiV2MwaUxnYlp6WFFRbU1teFBMVjl2dlFOemR2a1ByMnpiN2JMRG4tX0J4WlE4alROYVZySUp1eElSV29RR3AwQk85ejVHUGx0aW1EWWlCS1Rrczd0Y0JQUWpXM0pZUVhaRGpxV0M?oc=5"
+    },
+    {
+      "id": "news-yrkgt1",
+      "kind": "news",
+      "date": "2026-09-26",
+      "isoDate": "2026-09-26T03:13:41.000Z",
+      "description": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters (Reuters, 2026-09-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Reuters",
+      "axis": "Other",
+      "tags": [
+        "Reuters",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Reuters",
+      "source": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5"
+    },
+    {
+      "id": "news-14uyox1",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T21:22:38.000Z",
+      "description": "Yemeni leader calls for general mobilization against Houthis - dw.com (dw.com, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "dw.com",
+      "axis": "Other",
+      "tags": [
+        "dw.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "dw.com",
+      "source": "dw.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS2VsR1BrdExEQURSVE1WeS1WS2VHNWJlcjAwekx5cUMyeDY3T0l5NGxFOWZWNkxNMnhPa2VPNTVweENyNzdaVm5JYWp2V0tTYlgycXNCRURLZUxpdTBvLTh3dW5PSXI5ZHBodWM2c0hXTkQtYzlUWm9KSjdrNTc5R0FFVEhjdDQtLXNpVWpXem9HR0FQYUQtdtIBmAFBVV95cUxOV3ZKNEtWZFNpb0xUNFB0ZE1lRXlLVy10UXU1VllETG81X1FHVmFCNjdIdVJDQ0JldGo3dEhYRHNrUEhsMUUzNnA5ak55dnZxTnctM05OOVZwSVA2cks2MWY4amNDbmx4bXhuMnhYSnJsNmRCYW9JQjl2OWlDYkJod1JPRGV5VDJnRFVTN3ktaWR3OTR1WmNmWg?oc=5"
+    },
+    {
+      "id": "news-1bc41c3",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T20:41:29.000Z",
+      "description": "Yemen's president calls on his people to mobilise against Iran-backed Houthis - France 24 (France 24, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24",
+      "axis": "Other",
+      "tags": [
+        "France 24",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "France 24",
+      "source": "France 24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVGQtUWFQT2p6WXFwU0lIZm9NVW9rZDF0NWlfMTJvTkVNUmUxYjJFMVF2MjVWQ01YOFF1WU5JRVJ3WkR6eVo0RUkwcjRfczEwcTZ5NkhwdnViYkMtWG5aMndqOGE2Q0JXTm9kRlFpWV9jM21ackhTaDlWNnhOR19lSDZqcld5d2laVExHOWhaMkxyM2NKTHQzWG9FN2RCOFhEZE5BeGh0NDJOeTc2cXNCZlJnanIzTThkWmFkNzA3TkZoQQ?oc=5"
+    },
+    {
+      "id": "news-165crsg",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T16:45:36.000Z",
+      "description": "Seized Iranian Oil Tankers Head Toward U.S. With $600 Million Cargo (gCaptain, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "gCaptain",
+      "axis": "Other",
+      "tags": [
+        "gCaptain",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "gCaptain",
+      "source": "gCaptain",
+      "sourceUrl": "https://gcaptain.com/seized-iranian-oil-tankers-head-toward-u-s-with-600-million-cargo/"
+    },
+    {
+      "id": "news-2g69e6",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T16:00:00.000Z",
+      "description": "As Houthis capitalize on U.S.-led war with Iran, fighting engulfs Yemen - The Washington Post (The Washington Post, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Washington Post",
+      "axis": "Other",
+      "tags": [
+        "The Washington Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Washington Post",
+      "source": "The Washington Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUXpOY3FQOE1hUExaWjY3VUs2SElyT1Vvb0x3eWJWQmhwbnZ3T1NOc0hyWG1TU1h5THFqTmtvUERBNUhfWmVkWTNTa19JMUxzcE9jZnFENlBxcDg0bUlQWTBrTGFBNWV4TGI5MWNfQjEzRkw3VlFWdElQTG51UXNielZ2aElNdFI3aFpuQlVGTWRneE01eWdpQzhtRFI4QUdNWTRKdmx3Y1A4VXlKa1JuTw?oc=5"
+    },
+    {
+      "id": "news-3u0w5d",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T14:06:50.000Z",
+      "description": "Saudi port data shows how Houthi attacks thwarted Red Sea oil re-routing - ISI Markets (ISI Markets, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ISI Markets",
+      "axis": "Other",
+      "tags": [
+        "ISI Markets",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Red Sea",
+      "source": "ISI Markets",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSHJTMktvcWdPY2ZMRlBpRHVTWWdON1hQR0pGb1djNDMwcktsWVFiRVFCUWsyV3o3X3FrbjN0WlA1cVVMYjZIOXdIUXBRT3ZCN2hYVFBydGJuNmlzUnl2dG83dnUxSExhdjVaYkZhbTRBZWRxSWhBVUJybVo3M0Y2S0I2TEJpT0dTY0hzdExDeFIwdVZQTnVNVGQwTWZDSV8tWHFsOUprRHc?oc=5",
+      "lat": 15.5,
+      "lng": 41.5,
+      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+    },
+    {
+      "id": "news-1koffij",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T12:47:25.000Z",
+      "description": "Houthis promise not to target European ships - Financial Times (Financial Times, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Financial Times",
+      "axis": "Other",
+      "tags": [
+        "Financial Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Financial Times",
+      "source": "Financial Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkkxZWRKa2Fhb0ROM1E3THhvcFUzLXZsb1dfMDZSN3hHTERlbnVFT2N3YmRqYlJmWG1tX3NwLU4wOTl1MlRZSzVHZ0N0RkxGd2MwZnFnWjFSckhqOW5KcDNSUGk1N1hEODU0UVlHWGxOZ1N3c09US1o5VDNCVGxfUmhBWDM?oc=5"
+    },
+    {
+      "id": "news-474s7r",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T11:45:00.000Z",
+      "description": "Saudi Arabia intercepts wave of Houthi missiles as oil climbs to one-week high - theguardian.com (theguardian.com, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "theguardian.com",
+      "axis": "Other",
+      "tags": [
+        "theguardian.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "theguardian.com",
+      "source": "theguardian.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON0MwRGdjN1NtYkFaMVhhdktMMEtrb0hMUHdmeU1QeTVqZGpqcHlZVkZiVTZ1Yk4xY0ZQMktfem5iTGpsY3FPS0hqZDNkbV9iMHNIVW1ZVk1yOWtiVEtWTkRreXRUTkRMYjE1NThLT0s1cTVIWUlJSGpUdWJpZE5EcEQ3SlJtcjdXV1ByNWFaMlJOeS0ydThQNWJFU1o5TTZIYk1tempn?oc=5"
+    },
+    {
+      "id": "news-nmqu96",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T08:42:34.000Z",
+      "description": "Saudi Arabia allies line up support as Houthi attacks mount - Al Jazeera (Al Jazeera, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU0JQNHBkcVluNkc0ZGM3RktERzltMnJIcHJydGpLdHlOUFEwWmhVYkQ2RXo4LXFlWmVvSlcwclV3N1ZWSlRmRFpwcTRyaDJBYjlEWmFJOGF0T0NqTnFacjd5cmRyVnNBNUk4U2xzQ2RhbWNnY3VlY1RUTTREX3JuSVZYQzBmQzJ5TW9QWnFnMnhOdmRleTRBUlpodlZvUF9JMVHSAacBQVVfeXFMT0RTUnMzT3NsXy1SRl90cmNtcS1WRVQyeUtMNjdwaXdSbTFSdVNBNVZiemtFckgwX1JLTm8xekpMZ2J4Sjg2MmlGTTJXYThYLVhROTBOVFBqZzlWWFE1b1ZTQnZhal80X2Z0ZmE5STBhMzdfVTRlTFk1djRlUC14OFJ6X005VjY1LTFNd1pIcWIyZXJYU0pvQW5wdEYwVjRvTTdmX2NZOE0?oc=5"
+    },
+    {
+      "id": "news-vz8j2w",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T07:26:47.000Z",
+      "description": "Allies unite behind Saudi Arabia as Houthis step up attacks - The Jerusalem Post (The Jerusalem Post, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "The Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Jerusalem Post",
+      "source": "The Jerusalem Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMYVI4azBsUWFOQWxVQkV1dmdUYzRjUFAtaHNkb3Izd3l0VnNPSHRKR0pqdU54bGljMGI4WmprR2swWGY0RTE4THpBQW85d1J5Tl9BQVRLOWVQWk94?oc=5"
+    },
+    {
+      "id": "news-114qt7g",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T06:48:40.000Z",
+      "description": "Yemen tells UN that Houthi rebels' moves on key strait threaten global economy - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ABC News - Breaking News, Latest News and Videos",
+      "axis": "Other",
+      "tags": [
+        "ABC News - Breaking News, Latest News and Videos",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQkt1SkVTV1Q5Vl9RWE9ZWXpKMlNXQWdpRktiNlc5RWFpU1NNRTNFYlpucG8tOFJiWUlzZWExR2FSZlZjZmVyVzRjQkRNQjhRR2JuZlh6TjA5b3ZsTUlUZ3dwWUFrU1FNTHBRRUpGamQwZFE1TGd6YjdVc1FaekJGa2czNDlmX0F1M1UxS2UxdVlsZWtwY2xsQmNB0gGfAUFVX3lxTFBWcTdmQ2VMMGFpaHNfUU4xLUVCQ29RVzlCRF90UnBmTkVjb3EwajVJdGdxeTRCRGtnc25ERTVCM2F3N0tqN1pldkdHMDJ5NEdwVFpZUzNqT0ZYUGxScHRwTlM0Rk54Sy01dlJReC1XVGZQNnZWNkdyLUJxWjJvNEVmYnpLTHM1OGFlWHRqaHc5THl2QjNjN2FDcTRmMlFjVQ?oc=5"
+    }
+  ]
+}

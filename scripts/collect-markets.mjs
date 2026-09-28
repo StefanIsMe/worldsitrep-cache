@@ -31,6 +31,12 @@ export const THEATER_SLUGS = {
     "who-will-trump-endorse-first-in-the-2028-us-presidential-election-20260727202224755",
     "will-aoc-announce-a-run-for-senate-or-president-before-2028",
   ],
+  houthis: [
+    "houthis-successfully-target-shipping-bylptptpt",
+    "bab-el-mandeb-strait-effectively-closed-by",
+    "houthis-seize-an-oil-tanker-by",
+    "houthis-enter-aden-byptptpt",
+  ],
 };
 
 function option(name, fallback = null) {

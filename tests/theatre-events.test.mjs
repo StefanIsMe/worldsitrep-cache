@@ -15,7 +15,7 @@ const cfg = (id) => getTheatre(id);
 const gdeltOpts = (id) => ({ ...cfg(id).gdelt, actorMap: cfg(id).actorMap });
 
 // --- Config validity: every theatre is fully specified ---
-assert.deepEqual([...THEATRE_IDS].sort(), ['arctic', 'gaza', 'iran', 'korea', 'sahel', 'taiwan', 'us-election']);
+assert.deepEqual([...THEATRE_IDS].sort(), ['arctic', 'gaza', 'houthis', 'iran', 'korea', 'sahel', 'taiwan', 'us-election']);
 for (const id of THEATRE_IDS) {
   const c = cfg(id);
   assert.equal(c.dir, `${id}-events`, `${id}: warehouse dir`);
@@ -97,6 +97,7 @@ assert.equal(THEATRE_EVENTS_SCHEMA_VERSION, 1, 'envelope-compatible with ukraine
   assert.equal(gdeltActorLabelFor('KIM JONG UN', cfg('korea').actorMap), 'North Korea');
   assert.equal(gdeltActorLabelFor('MOSCOW', cfg('arctic').actorMap), 'Russia');
   assert.equal(gdeltActorLabelFor('TRUMP', cfg('us-election').actorMap), 'Trump administration');
+  assert.equal(gdeltActorLabelFor('HOUTHIS', cfg('houthis').actorMap), 'Houthis');
   assert.equal(gdeltActorLabelFor('VLADIMIR PUTIN', cfg('sahel').actorMap), 'Vladimir Putin', 'unknown actors pass through title-cased');
   assert.equal(gdeltActorLabelFor('', cfg('gaza').actorMap), 'Unspecified');
 }
@@ -113,6 +114,9 @@ assert.equal(THEATRE_EVENTS_SCHEMA_VERSION, 1, 'envelope-compatible with ukraine
   const kt = cfg('korea').rssFeeds.find((f) => f.id === 'korea-times').match;
   assert.equal(feedTitleKept('Missiles launched near Wonsan, JCS says', kt), true);
   assert.equal(feedTitleKept("Baseball teams end 'laundry war'", kt), false);
+  const gc = cfg('houthis').rssFeeds.find((f) => f.id === 'gcaptain').match;
+  assert.equal(feedTitleKept('Houthi missile targets tanker in the Red Sea', gc), true);
+  assert.equal(feedTitleKept('Container rates rally on transpacific demand', gc), false);
   assert.equal(feedTitleKept('Anything at all', undefined), true, 'unfiltered feeds keep everything');
   assert.equal(feedTitleKept('Anything at all', []), true);
   assert.equal(feedTitleKept('IDF strikes Rafah', ['[bad']), false, 'bad pattern never matches');
@@ -150,6 +154,12 @@ assert.equal(THEATRE_EVENTS_SCHEMA_VERSION, 1, 'envelope-compatible with ukraine
   const us = createGeocoder(cfg('us-election').gazetteer, {});
   assert.equal(us.geocodeText('rally draws thousands in Milwaukee').label, 'Milwaukee');
   assert.equal(us.geocodeText('Washington says recount unlikely'), null, 'bare Washington is an actor');
+
+  const ho = createGeocoder(cfg('houthis').gazetteer, {});
+  assert.equal(ho.geocodeText('Explosions rock Sanaa overnight').label, 'Sanaa');
+  assert.equal(ho.geocodeText('Sanaa says truce unlikely'), null, 'bare Sanaa is an actor');
+  assert.equal(ho.geocodeText('strikes near Hodeidah port reported').label, 'Hodeidah');
+  assert.equal(ho.geocodeText('transits resume through Bab el-Mandeb').label, 'Bab el-Mandeb');
 }
 
 // --- OSM validation per theatre ---
@@ -174,7 +184,7 @@ assert.equal(THEATRE_EVENTS_SCHEMA_VERSION, 1, 'envelope-compatible with ukraine
   const tmp = mkdtempSync(join(tmpdir(), 'wsr-theatres-'));
   const results = await collect({ all: true, inputPath: 'tests/fixtures/theatre-events.fixture.json', root: tmp, collectedAt: '2026-09-21T06:00:00.000Z' });
   assert.deepEqual(Object.keys(results).sort(), [...THEATRE_IDS].sort());
-  const expected = { taiwan: 3, gaza: 5, iran: 3, sahel: 5, korea: 2, arctic: 2, 'us-election': 3 };
+  const expected = { taiwan: 3, gaza: 5, iran: 3, sahel: 5, korea: 2, arctic: 2, 'us-election': 3, houthis: 4 };
   for (const [id, count] of Object.entries(expected)) {
     const r = results[id];
     assert.equal(r.changed, true, `${id}: first run writes`);
@@ -216,6 +226,9 @@ assert.equal(THEATRE_EVENTS_SCHEMA_VERSION, 1, 'envelope-compatible with ukraine
   assert.equal(find('us-election', 'Milwaukee').locationStr, 'Milwaukee');
   assert.equal(find('us-election', 'Washington says').coordsTier, 'unplaced');
   assert.equal(find('taiwan', 'Taiwan Strait').locationStr, 'Taiwan Strait');
+  assert.equal(find('houthis', 'drone boat').locationStr, 'Hodeidah');
+  assert.equal(find('houthis', 'Aden (Fixture)').locationStr, 'Red Sea');
+  assert.equal(find('houthis', 'Houthis → Israel').locationStr, 'Bab el-Mandeb');
   assert.equal(find('taiwan', 'Taipei Times Taiwan poll').coordsTier, 'unplaced');
   assert.equal(find('gaza', 'IDF strikes Hamas targets').locationStr, 'Rafah', 'filtered-in jpost item geocodes');
   assert.equal(find('gaza', 'press pool ban'), undefined, 'off-topic jpost item filtered out');
