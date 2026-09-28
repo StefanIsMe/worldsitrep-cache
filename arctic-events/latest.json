@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-09-28T01:14:21.514Z",
+  "collectedAt": "2026-09-28T07:26:18.301Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 2
+      "count": 19
     },
     {
       "id": "rci-arctic",
@@ -31,6 +31,55 @@
       "filtered": 0
     },
     {
+      "id": "guardian-arctic",
+      "url": "https://www.theguardian.com/world/arctic/rss",
+      "status": "ok",
+      "count": 20,
+      "filtered": 0
+    },
+    {
+      "id": "adn-alaska",
+      "url": "https://www.adn.com/arc/outboundfeeds/rss/",
+      "status": "ok",
+      "count": 1,
+      "filtered": 24
+    },
+    {
+      "id": "nnsl",
+      "url": "https://nnsl.com/feed/",
+      "status": "ok",
+      "count": 10,
+      "filtered": 0
+    },
+    {
+      "id": "cryopolitics",
+      "url": "https://www.cryopolitics.com/feed/",
+      "status": "ok",
+      "count": 3,
+      "filtered": 0
+    },
+    {
+      "id": "gnews-svalbard",
+      "url": "https://news.google.com/rss/search?q=Svalbard%20Norway%20Russia%20Arctic&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
+    },
+    {
+      "id": "gnews-greenland",
+      "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
+    },
+    {
+      "id": "gnews-nsr",
+      "url": "https://news.google.com/rss/search?q=Northern%20Sea%20Route%20Russia%20Arctic&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
+    },
+    {
       "id": "reliefweb",
       "url": "https://api.reliefweb.int/v2/",
       "status": "skipped",
@@ -38,7 +87,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 200,
+  "count": 233,
   "events": [
     {
       "id": "gdelt-1325187013",
@@ -75,27 +124,711 @@
       }
     },
     {
+      "id": "gdelt-1325196540",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:15:00.000Z",
+      "description": "Force posture — Europe → Russia near Petersburg, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.8944,
+      "lng": 30.2642,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Europe",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petersburg, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://nypost.com/2026/09/27/world-news/finland-and-sweden-scramble-fighter-jets-together-against-russia-in-historic-first/",
+      "gdelt": {
+        "globalEventId": "1325196540",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -2.63,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325196648",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:15:00.000Z",
+      "description": "Rejection — Jewish → Unspecified near Sweden. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 15,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Jewish",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Sweden",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.jpost.com/diaspora/article-909913",
+      "gdelt": {
+        "globalEventId": "1325196648",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 0.9,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325196767",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:15:00.000Z",
+      "description": "Fight — Russia → Unspecified near Sweden. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 62,
+      "lng": 15,
+      "action": "Fight (GDELT 190)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Sweden",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://nypost.com/2026/09/27/world-news/finland-and-sweden-scramble-fighter-jets-together-against-russia-in-historic-first/",
+      "gdelt": {
+        "globalEventId": "1325196767",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.63,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325196768",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:15:00.000Z",
+      "description": "Disapproval — Russia → European near Petersburg, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.8944,
+      "lng": 30.2642,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petersburg, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://nypost.com/2026/09/27/world-news/finland-and-sweden-scramble-fighter-jets-together-against-russia-in-historic-first/",
+      "gdelt": {
+        "globalEventId": "1325196768",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.63,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325196771",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T02:15:00.000Z",
+      "description": "Disapproval — Russia → European near Petersburg, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.8944,
+      "lng": 30.2642,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petersburg, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://nypost.com/2026/09/27/world-news/finland-and-sweden-scramble-fighter-jets-together-against-russia-in-historic-first/",
+      "gdelt": {
+        "globalEventId": "1325196771",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.63,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325199888",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T03:00:00.000Z",
+      "description": "Force posture — State Media → Unspecified near Estonia. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59,
+      "lng": 26,
+      "action": "Force posture (GDELT 154)",
+      "actor": "State Media",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Estonia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.naturalnews.com/2026-09-27-op-ed-uk-campaign-prepare-public-war.html",
+      "gdelt": {
+        "globalEventId": "1325199888",
+        "eventCode": "154",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -7.05,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325203636",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T04:00:00.000Z",
+      "description": "Threat — Investor → Dallas near Lidar, Oppland, Norway. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 61.2,
+      "lng": 8.98333,
+      "action": "Threat (GDELT 133)",
+      "actor": "Investor",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lidar, Oppland, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.autoconnectedcar.com/2026/09/autonomous-self-driving-vehicles-news-waymo-comed-tier-iv-einride-hyundai-aeye-witherite-aurora-nhtsa-volvo-arbe-robotics/",
+      "gdelt": {
+        "globalEventId": "1325203636",
+        "eventCode": "133",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5.8,
+        "tone": -0.9,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325203901",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T04:00:00.000Z",
+      "description": "Disapproval — Norway → Unspecified near Lidar, Oppland, Norway. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 61.2,
+      "lng": 8.98333,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Norway",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lidar, Oppland, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.autoconnectedcar.com/2026/09/autonomous-self-driving-vehicles-news-waymo-comed-tier-iv-einride-hyundai-aeye-witherite-aurora-nhtsa-volvo-arbe-robotics/",
+      "gdelt": {
+        "globalEventId": "1325203901",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.9,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325203902",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T04:00:00.000Z",
+      "description": "Rejection — Norway → Unspecified near Lidar, Oppland, Norway. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 61.2,
+      "lng": 8.98333,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Norway",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lidar, Oppland, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.autoconnectedcar.com/2026/09/autonomous-self-driving-vehicles-news-waymo-comed-tier-iv-einride-hyundai-aeye-witherite-aurora-nhtsa-volvo-arbe-robotics/",
+      "gdelt": {
+        "globalEventId": "1325203902",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -0.9,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325205667",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T04:30:00.000Z",
+      "description": "Coercion — Iceland → Unspecified near Iceland. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 65,
+      "lng": -18,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Iceland",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iceland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.yorkpress.co.uk/news/26582637.defendants-sentenced-recently-scarborough-magistrates/",
+      "gdelt": {
+        "globalEventId": "1325205667",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -10.07,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325207749",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T05:00:00.000Z",
+      "description": "Coercion — Naval → Unspecified near Scapa Flow, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 58.9167,
+      "lng": -3.1,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Naval",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Scapa Flow, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailyrecord.co.uk/lifestyle/travel/tiny-uninhabited-scottish-island-amazing-37703460",
+      "gdelt": {
+        "globalEventId": "1325207749",
+        "eventCode": "172",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -1.32,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325207750",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T05:00:00.000Z",
+      "description": "Coercion — Naval → Unspecified near Kirkwall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 58.9667,
+      "lng": -2.95,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Naval",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kirkwall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailyrecord.co.uk/lifestyle/travel/tiny-uninhabited-scottish-island-amazing-37703460",
+      "gdelt": {
+        "globalEventId": "1325207750",
+        "eventCode": "172",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -1.32,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325207751",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T05:00:00.000Z",
+      "description": "Coercion — Naval → Unspecified near Kirkwall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 58.9667,
+      "lng": -2.95,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Naval",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kirkwall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailyrecord.co.uk/lifestyle/travel/tiny-uninhabited-scottish-island-amazing-37703460",
+      "gdelt": {
+        "globalEventId": "1325207751",
+        "eventCode": "172",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -1.32,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325207752",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T05:00:00.000Z",
+      "description": "Coercion — Naval → Unspecified near Lamb Holm, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 58.8833,
+      "lng": -2.88333,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Naval",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lamb Holm, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailyrecord.co.uk/lifestyle/travel/tiny-uninhabited-scottish-island-amazing-37703460",
+      "gdelt": {
+        "globalEventId": "1325207752",
+        "eventCode": "172",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -1.32,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325207753",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T05:00:00.000Z",
+      "description": "Coercion — Naval → Unspecified near Scapa Flow, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 58.9167,
+      "lng": -3.1,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Naval",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Scapa Flow, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailyrecord.co.uk/lifestyle/travel/tiny-uninhabited-scottish-island-amazing-37703460",
+      "gdelt": {
+        "globalEventId": "1325207753",
+        "eventCode": "172",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -1.32,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325207846",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T05:00:00.000Z",
+      "description": "Coercion — Sweden → Los Angeles near Sweden. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 15,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Sweden",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Sweden",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.usmagazine.com/entertainment/news/taylor-swift-accepts-1st-ever-vma-artist-director-honors/",
+      "gdelt": {
+        "globalEventId": "1325207846",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": 7.02,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325214492",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T06:15:00.000Z",
+      "description": "Force posture — Norwegian → Unspecified near Oslo, Oslo, Norway. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.9167,
+      "lng": 10.75,
+      "action": "Force posture (GDELT 150)",
+      "actor": "Norwegian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Oslo, Oslo, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.politico.eu/article/russia-vladimir-putin-is-testing-nato-on-norways-remote-arctic-islands/",
+      "gdelt": {
+        "globalEventId": "1325214492",
+        "eventCode": "150",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -4.02,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325215698",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T06:30:00.000Z",
+      "description": "Rejection — Hospital → Estonian near Estonia. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59,
+      "lng": 26,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Hospital",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Estonia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.tennesseedaily.com/news/279336761/hemogenyx-pharmaceuticals-plc-announces-half-year-financial-report",
+      "gdelt": {
+        "globalEventId": "1325215698",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -0.71,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325215699",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T06:30:00.000Z",
+      "description": "Rejection — Hospital → Estonian near Estonia. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59,
+      "lng": 26,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Hospital",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Estonia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.tennesseedaily.com/news/279336761/hemogenyx-pharmaceuticals-plc-announces-half-year-financial-report",
+      "gdelt": {
+        "globalEventId": "1325215699",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -0.71,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "news-1hx8nbe",
+      "kind": "news",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T20:34:38.000Z",
+      "description": "Assembly members weigh how JBER expansion may further compress Anchorage’s housing market (Anchorage Daily News, 2026-09-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Anchorage Daily News",
+      "axis": "Other",
+      "tags": [
+        "Anchorage Daily News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Anchorage Daily News",
+      "source": "Anchorage Daily News",
+      "sourceUrl": "https://www.adn.com/alaska-news/anchorage/2026/09/27/assembly-members-weigh-how-jber-expansion-may-further-compress-anchorages-housing-market/"
+    },
+    {
       "id": "news-8l2742",
       "kind": "news",
       "date": "2026-09-27",
       "isoDate": "2026-09-27T12:00:11.000Z",
-      "description": "Keep out: why Greenland is the US military’s new eyes in the Arctic on China - South China Morning Post (South China Morning Post, 2026-09-27. Headline + link only.)",
+      "description": "Keep out: why Greenland is the US military’s new eyes in the Arctic on China - scmp.com (scmp.com, 2026-09-27. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "South China Morning Post",
+      "actor": "scmp.com",
       "axis": "Other",
       "tags": [
-        "South China Morning Post",
+        "scmp.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Greenland",
-      "source": "South China Morning Post",
+      "source": "scmp.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQd2UyMlNfUGxIalhwMC1MbkIxTXFSbWltZDNWWHRMSXB6bS1rU01pN095SmdENVJ5eW1wV2pWVWU5RFVHNERFVnRkTEtvdlZGbVc3WlNZZjlUU2d3WkFtMHllS2xRZURXclg1X04waTBiQWxnMXFEamZEUl80LTZEa2I4bHdlRnVGYjcwMFZQWHFiYmk1TWZZSUVLT3JBWjliNGUzMFRGWk9sc2Z1VDZFd2JzYzLSAbQBQVVfeXFMTVo1WHlydEVVc1NNSGphQzlMVE14eXNsMlZnSF9vZEpjMmVCWW0yRVc1RXNBTW5LZTJtczgtOG1CVFNtVE9JUHljRlREUHFkeU5rU280TDFWaVl1UkI5VzBsSmoxV1RZN21ua09ZdEY5WkFQYXpWRUJmdS1NbHgzYkJsamp4czRGRXMyNjhYNEM5Z0VSdlpyWVp3blc5T1o1RXpwdVFrd0ZhaGtxbHpaNjgtbmZD?oc=5",
       "lat": 72,
       "lng": -40,
       "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
+    },
+    {
+      "id": "news-1xz3ed6",
+      "kind": "news",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T11:30:00.000Z",
+      "description": "QUIZ: A time to celebrate democracy (NNSL Northern News, 2026-09-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NNSL Northern News",
+      "axis": "Other",
+      "tags": [
+        "NNSL Northern News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NNSL Northern News",
+      "source": "NNSL Northern News",
+      "sourceUrl": "https://yellowknifer.com/2026/09/27/quiz-a-time-to-celebrate-democracy/"
     },
     {
       "id": "news-xia12b",
@@ -115,6 +848,25 @@
       "locationStr": "todaypress.tv",
       "source": "todaypress.tv",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ19HSXhrZHNXcWFyaXl2a2xyNkVnY3J4YjNsSldEaXcwOXBCR20tS1pZbGVkdWF3XzlQQnlRamFMWXJiWGliT0JpR2RXdTd3TFhwUlZRYXhaalM3UkJSYzh5QzY5bzZUYkpiMGZfV3UzNUl1cm9HNXRHb1hlc3hkM2MxcUNFR0gzYjNuWk5Va0I2TkphTlAwc2xFeXFGbEM0Ull4ZmNPcGE?oc=5"
+    },
+    {
+      "id": "news-wndqbq",
+      "kind": "news",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T04:01:00.000Z",
+      "description": "Russia: Northern Sea route safest of all - Breakingthenews.net (Breakingthenews.net, 2026-09-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Breakingthenews.net",
+      "axis": "Other",
+      "tags": [
+        "Breakingthenews.net",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Breakingthenews.net",
+      "source": "Breakingthenews.net",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQjdsUTc3ejBXam5fMXZmTzVOSFRKSVk5elJybkVtRkZ0dkVydnF1U1NPMVE2bWlKUFZpWWtPdEFOeGp0cXN5blhHbmZSVGJhS2JFalE4ODM1bXBXaDRNRWllY2pFNlBnZE9rVTFPRl91R0h4c1BaRmpoT3AxbjlKTGFkd29IbTJET3luTFl3?oc=5"
     },
     {
       "id": "gdelt-1325079657",
@@ -2633,6 +3385,25 @@
       }
     },
     {
+      "id": "news-jvow5j",
+      "kind": "news",
+      "date": "2026-09-26",
+      "isoDate": "2026-09-26T22:20:38.000Z",
+      "description": "Report: NATO confronted Russian submarines testing secret weapon aimed at undersea cables - Ynetnews (Ynetnews, 2026-09-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ynetnews",
+      "axis": "Other",
+      "tags": [
+        "Ynetnews",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ynetnews",
+      "source": "Ynetnews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XZ3F4b0NUa3ZzcEQzNDhpYXRNd2o0S09qSlF4eVNrTlFqWG5Ya1NqS0tqUXVLVjZGdVZpZzlIRnVCaEVtbDlvSDE2XzVxLUsyWWZMVzVn?oc=5"
+    },
+    {
       "id": "news-186vzd3",
       "kind": "news",
       "date": "2026-09-26",
@@ -2654,6 +3425,44 @@
       "lat": 72,
       "lng": -40,
       "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
+    },
+    {
+      "id": "news-1eetazk",
+      "kind": "news",
+      "date": "2026-09-26",
+      "isoDate": "2026-09-26T14:35:50.000Z",
+      "description": "Homeless encampments should not exist in the NWT, lawyer says (NNSL Northern News, 2026-09-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NNSL Northern News",
+      "axis": "Other",
+      "tags": [
+        "NNSL Northern News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NNSL Northern News",
+      "source": "NNSL Northern News",
+      "sourceUrl": "https://yellowknifer.com/2026/09/26/homeless-encampments-should-not-exist-in-the-nwt-lawyer-says/"
+    },
+    {
+      "id": "news-uc5k3n",
+      "kind": "news",
+      "date": "2026-09-26",
+      "isoDate": "2026-09-26T14:34:44.000Z",
+      "description": "Drones, construction and electricity operations win at Nunavut Business Awards (NNSL Northern News, 2026-09-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NNSL Northern News",
+      "axis": "Other",
+      "tags": [
+        "NNSL Northern News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NNSL Northern News",
+      "source": "NNSL Northern News",
+      "sourceUrl": "https://yellowknifer.com/2026/09/26/drones-construction-and-electricity-operations-win-at-nunavut-business-awards/"
     },
     {
       "id": "news-t5f54s",
@@ -2721,19 +3530,19 @@
       "kind": "news",
       "date": "2026-09-26",
       "isoDate": "2026-09-26T12:00:06.000Z",
-      "description": "Why US deal on Greenland may narrow China’s Arctic space - South China Morning Post (South China Morning Post, 2026-09-26. Headline + link only.)",
+      "description": "Why US deal on Greenland may narrow China’s Arctic space - scmp.com (scmp.com, 2026-09-26. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "South China Morning Post",
+      "actor": "scmp.com",
       "axis": "Other",
       "tags": [
-        "South China Morning Post",
+        "scmp.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Greenland",
-      "source": "South China Morning Post",
+      "source": "scmp.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPa0dxVWJPRzI5UWpac1RNU09IdzN4V3JGVFAta3BDdFZIMkpyQV9OUkt4X0haUFhVOC01OFd3SnYweVZhV3MwSGNFbTdqd2VrWFRURmJ0ckszTEJieHFoaHVkUm15RlFkX3VsdWk4SVdqdVBPbzVyLTNvZXdFRC01QVpwbXo0RW1BRGNXanZjWFd5clZpelE1VUxiQmd1dVExYVAtYUJId1JjT2NFeHl4bGJIMkJNZDV00gG4AUFVX3lxTFA0WmxMazFOQjVlLW5WWjlXM05qaEhwanAyX1AwYXowVHc1Tk8xejZqZ3M4aGY2SGNhd1pEeF9PTTFhZ1oyNGc4WjV2WENwVUI0eHU5YjdHSEVpc0NsSjNJbWppTTVQeXRxZ0xUT1p0UGs4WTlWaDUwZEJxZDQyeVdtNGxMekI4UF9PdUtmbENTUDZpTTVBbjFwN0JQVWpBTVV1b3R4UW9JNzdsUHV3RXhLZzVjaGQyZFQ?oc=5",
       "lat": 72,
       "lng": -40,
@@ -6096,6 +6905,25 @@
       }
     },
     {
+      "id": "news-18shyij",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T22:08:48.000Z",
+      "description": "City may change community grant funding application deadline to Dec. 1 (NNSL Northern News, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NNSL Northern News",
+      "axis": "Other",
+      "tags": [
+        "NNSL Northern News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NNSL Northern News",
+      "source": "NNSL Northern News",
+      "sourceUrl": "https://yellowknifer.com/2026/09/25/city-may-change-community-grant-funding-application-deadline-to-dec-1/"
+    },
+    {
       "id": "news-m0zg4l",
       "kind": "news",
       "date": "2026-09-25",
@@ -6138,6 +6966,48 @@
       "sourceUrl": "https://www.rcinet.ca/eye-on-the-arctic/2026/09/25/gwichin-tribal-council-postpones-annual-general-assembly-for-second-time/"
     },
     {
+      "id": "news-shxmm5",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T19:11:48.000Z",
+      "description": "Final touches being put on for North of 60 Classic basketball tournament (NNSL Northern News, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NNSL Northern News",
+      "axis": "Other",
+      "tags": [
+        "NNSL Northern News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NNSL Northern News",
+      "source": "NNSL Northern News",
+      "sourceUrl": "https://yellowknifer.com/2026/09/25/final-touches-being-put-on-for-north-of-60-classic-basketball-tournament/"
+    },
+    {
+      "id": "news-1bm82c4",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T18:42:50.000Z",
+      "description": "Time to Strengthen the 1920 Svalbard Treaty - en.highnorthnews.com (en.highnorthnews.com, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "en.highnorthnews.com",
+      "axis": "Other",
+      "tags": [
+        "en.highnorthnews.com",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Svalbard",
+      "source": "en.highnorthnews.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONEtleWtVQmNSck1LVGd2bHR4T3JQQ2VWcF9zWnhvMEdTZ05DcDViV3R4R3pFc1FvLS0tWkowMmtzaXAyamJQS1JqdDFEOGFVc1lBOHRnbUozQUhwck1DOEpib01BakdlTEtxV05uU1ZtRWVJckx1Y0UwXzhvcTRnU1VFZVMyRU1jU3BILWVNempsZWM?oc=5",
+      "lat": 78.5,
+      "lng": 16,
+      "coordsNote": "Headline gazetteer match: \"Svalbard\" (region); verify via source article."
+    },
+    {
       "id": "news-1pf5k94",
       "kind": "news",
       "date": "2026-09-25",
@@ -6155,6 +7025,48 @@
       "locationStr": "Eye on the Arctic",
       "source": "Eye on the Arctic",
       "sourceUrl": "https://www.rcinet.ca/eye-on-the-arctic/2026/09/25/elections-quebec-sends-voting-teams-to-nunavik-early-to-avoid-weather-delays/"
+    },
+    {
+      "id": "news-1vsqqzi",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T17:58:00.000Z",
+      "description": "QIA research station in Pond Inlet opens (NNSL Northern News, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NNSL Northern News",
+      "axis": "Other",
+      "tags": [
+        "NNSL Northern News",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Pond Inlet",
+      "source": "NNSL Northern News",
+      "sourceUrl": "https://yellowknifer.com/2026/09/25/qia-research-station-in-pond-inlet-opens/",
+      "lat": 72.69767,
+      "lng": -77.95744,
+      "coordsNote": "OSM geocode: matched \"Pond Inlet\" → Pond Inlet (Mittimatalik), Qikiqtaaluk Region, Nunavut; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-v1wdbv",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T17:42:04.000Z",
+      "description": "Arctic shipping potential gains traction - The Western Producer (The Western Producer, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Western Producer",
+      "axis": "Other",
+      "tags": [
+        "The Western Producer",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Western Producer",
+      "source": "The Western Producer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV21IY1VGem9KQWwtUDhrTTFKMWhsdWtuOE9jY1hHSUFHYndvRnQ0bEl3YU00SThpLWtYZDc5ZVpiZWhJT3FOcjZwbDJ2MDlXM1hCTE5ZZExvT1RtYWJwbTlDNVNZRG1KeWh4TXhxci1pNVJxOTZzbC1PaTVqV19wemZ0V3JaTXFIUi04ejlRRXdiZw?oc=5"
     },
     {
       "id": "news-1fbp83l",
@@ -6178,6 +7090,25 @@
       "lat": 68.62798,
       "lng": -95.86835,
       "coordsNote": "OSM geocode: matched \"Gjoa Haven\" → Gjoa Haven, Kitikmeot Region, Nunavut; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-myop5s",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T16:50:16.000Z",
+      "description": "A berry tempting time of year (NNSL Northern News, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NNSL Northern News",
+      "axis": "Other",
+      "tags": [
+        "NNSL Northern News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NNSL Northern News",
+      "source": "NNSL Northern News",
+      "sourceUrl": "https://yellowknifer.com/2026/09/25/a-berry-tempting-time-of-year/"
     },
     {
       "id": "news-1m3xwis",
@@ -6371,6 +7302,48 @@
       "sourceUrl": "https://www.rcinet.ca/eye-on-the-arctic/2026/09/25/yukon-government-struggling-to-keep-rural-health-centres-open/"
     },
     {
+      "id": "news-1pdzr74",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T12:57:39.000Z",
+      "description": "The Yellowknife Choral Society introduces new co-directors at annual meet and greet (NNSL Northern News, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NNSL Northern News",
+      "axis": "Other",
+      "tags": [
+        "NNSL Northern News",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Yellowknife",
+      "source": "NNSL Northern News",
+      "sourceUrl": "https://yellowknifer.com/2026/09/25/the-yellowknife-choral-society-introduces-new-co-directors-at-annual-meet-and-greet/",
+      "lat": 62.45,
+      "lng": -114.37,
+      "coordsNote": "Headline gazetteer match: \"Yellowknife\" (city); verify via source article."
+    },
+    {
+      "id": "news-muciz7",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T12:56:00.000Z",
+      "description": "205-litre fuel spill at remote Kivalliq exploration site awaits inspection (NNSL Northern News, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NNSL Northern News",
+      "axis": "Other",
+      "tags": [
+        "NNSL Northern News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NNSL Northern News",
+      "source": "NNSL Northern News",
+      "sourceUrl": "https://yellowknifer.com/2026/09/25/205-litre-fuel-spill-at-remote-kivalliq-exploration-site-awaits-inspection/"
+    },
+    {
       "id": "news-m9p1bg",
       "kind": "news",
       "date": "2026-09-25",
@@ -6413,6 +7386,25 @@
       "sourceUrl": "https://nunatsiaq.com/stories/article/susan-aglukark-seeks-new-distributor-for-upcoming-music-release/"
     },
     {
+      "id": "news-1kmh35i",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T11:45:00.000Z",
+      "description": "Putin is testing NATO on Norway’s remote Arctic islands - politico.eu (politico.eu, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "politico.eu",
+      "axis": "Other",
+      "tags": [
+        "politico.eu",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "politico.eu",
+      "source": "politico.eu",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWWNWVUZPcm96Y1c0MFVZUzJxa3FDQmEyTjNMSk1mVlU3UFRYNi00OUE1SzVmNWNkajlORXJ3aGRrc2hVWDMyR19hR19MdzJKRnFXc05qUXVzVkdwUE9tTHZlSnZqVEhBU1QwSU45R0Z1TzN5YnJleG8xeUloRFlENUlPNjc4TURzT2NnNGRleDZ2WUdvN3NyaGUxY05XdWZqQTdaaXZ3?oc=5"
+    },
+    {
       "id": "news-n50cz3",
       "kind": "news",
       "date": "2026-09-25",
@@ -6440,43 +7432,20 @@
       "kind": "news",
       "date": "2026-09-25",
       "isoDate": "2026-09-25T09:00:14.000Z",
-      "description": "Trump Touts Greenland Deal But Key Questions Still Remain - Military.com (Military.com, 2026-09-25. Headline + link only.)",
+      "description": "Trump Touts Greenland Deal But Key Questions Still Remain - military.com (military.com, 2026-09-25. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Military.com",
+      "actor": "military.com",
       "axis": "Other",
       "tags": [
-        "Military.com",
+        "military.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Greenland",
-      "source": "Military.com",
+      "source": "military.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSkpkMVVHTmtCWnBnSDh0eFJVZ0dJTHowWXI3MkZNSWxfZzlYcTJSa1c5YlZpbTVDaHU1cE5MVFh4UV9RV01PSFJjZDBlS3o0Si1CMkMtUXRIZ0Rkd3lRb2oweGVWLVo5UHpiNXBTcEVuTDZVWWdveEZDRlp0dnJtNE1yTHRKaHlrbkNRY1N0RjJET1U3U1AzUEpMbDZOZw?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
-    },
-    {
-      "id": "news-jxc17r",
-      "kind": "news",
-      "date": "2026-09-25",
-      "isoDate": "2026-09-25T06:17:26.000Z",
-      "description": "80 Mile Extends Greenland Hydrocarbon JV as Arctic Investment Climate Improves - The Globe and Mail (The Globe and Mail, 2026-09-25. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Globe and Mail",
-      "axis": "Other",
-      "tags": [
-        "The Globe and Mail",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "The Globe and Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNUVIdVpKcEF1X3BQVG5UTnhDMVpDaEhURnVia1YtRjBFS2g5dGR4LVF1YkY4OG5SR2s4RzdwR09DeFpxd2JhYnBYcjJTV0NXSWN3RGhJcWczQmZxZGlqMF9OOERuWk9VclhQVDdvWWg1RlV4X3M4bjZxOExSXzVRQXhGX3p0VVBkMl80VUh0c1RpRkVPZkV6VTViek52aDVJNmlBSUtDRlZLRkxfLW1iV3dEM3RheTlGUTB4VURJeVJJSjlCdS1adTBMMjhBVk5SbVhyZFFGd3NZY0pJbndEMjJPWjZyRXFZMEhGWTJHVjg?oc=5",
       "lat": 72,
       "lng": -40,
       "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-09-28T03:21:48.399Z",
+  "collectedAt": "2026-09-28T07:26:18.301Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 10
+      "count": 15
     },
     {
       "id": "gcaptain",
@@ -21,7 +21,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
       "status": "ok",
       "count": 10,
-      "filtered": 24
+      "filtered": 19
     },
     {
       "id": "gnews-houthis",
@@ -38,6 +38,41 @@
       "filtered": 0
     },
     {
+      "id": "splash247",
+      "url": "https://splash247.com/feed/",
+      "status": "ok",
+      "count": 2,
+      "filtered": 8
+    },
+    {
+      "id": "loadstar",
+      "url": "https://theloadstar.com/feed/",
+      "status": "ok",
+      "count": 1,
+      "filtered": 9
+    },
+    {
+      "id": "france24-me",
+      "url": "https://www.france24.com/en/middle-east/rss",
+      "status": "ok",
+      "count": 5,
+      "filtered": 25
+    },
+    {
+      "id": "gnews-hodeidah",
+      "url": "https://news.google.com/rss/search?q=Hodeidah%20Sanaa%20airstrike%20Houthi&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
+    },
+    {
+      "id": "gnews-mandeb",
+      "url": "https://news.google.com/rss/search?q=Bab%20el-Mandeb%20vessel%20drone%20attack&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
+    },
+    {
       "id": "reliefweb",
       "url": "https://api.reliefweb.int/v2/",
       "status": "skipped",
@@ -45,8 +80,172 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 31,
+  "count": 48,
   "events": [
+    {
+      "id": "news-17cw9ed",
+      "kind": "news",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T06:44:41.000Z",
+      "description": "“Iran War Spreads to the Red Sea”: U.S. Faces Dilemma Over Ending or Widening Conflict as Burdens Mount on Neighboring Countries - economy.ac (economy.ac, 2026-09-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "economy.ac",
+      "axis": "Other",
+      "tags": [
+        "economy.ac",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Red Sea",
+      "source": "economy.ac",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBEM0lGanpMb3cwS3dqVHNmUzQxblVscTdKWGhnWnUzVmFRdV9wODBiWjg5VXRXSzlXXzhidUctSHFDcVJRRG5fdWVxQzRtaWNKMGNiVXdRSQ?oc=5",
+      "lat": 15.5,
+      "lng": 41.5,
+      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+    },
+    {
+      "id": "news-ycycwm",
+      "kind": "news",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T06:43:23.000Z",
+      "description": "Enjoy the tanker party, but watch the hangover (Splash247, 2026-09-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Splash247",
+      "axis": "Other",
+      "tags": [
+        "Splash247",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Splash247",
+      "source": "Splash247",
+      "sourceUrl": "https://splash247.com/enjoy-the-tanker-party-but-watch-the-hangover/"
+    },
+    {
+      "id": "news-1oxvwol",
+      "kind": "news",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T06:32:39.000Z",
+      "description": "Sanctioned ships retreat under the Russian flag (Splash247, 2026-09-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Splash247",
+      "axis": "Other",
+      "tags": [
+        "Splash247",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Splash247",
+      "source": "Splash247",
+      "sourceUrl": "https://splash247.com/sanctioned-ships-retreat-under-the-russian-flag/"
+    },
+    {
+      "id": "news-refqz7",
+      "kind": "news",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T05:46:25.000Z",
+      "description": "Saudi FM arrives in Washington for Houthi talks as Yemen fighting intensifies - Türkiye Today (Türkiye Today, 2026-09-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Türkiye Today",
+      "axis": "Other",
+      "tags": [
+        "Türkiye Today",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Türkiye Today",
+      "source": "Türkiye Today",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZjFra2tuT0w1ODRnRWNtQ0NDdjFPWFRBemNIUTgtYWFEUklBbkx1OEplc1ZUejVmdUEtOVdtc3Z6UXc3TGFkMUJ2S0YyUGt4RDgtMmhrWTZGVVFKUHdycWIxaFNSbzZ3RjQxOXVud1ZhQWNRUklDVlB5ZERCMWoxOEpjbUMtQ3o1UlRDdV9jeXBZNFFmczgwTDZfODVLZFlXbEVMUDNZdlNNdmZmWmNpRDcxV0p2WHMtbXlBaXF3?oc=5"
+    },
+    {
+      "id": "news-1vtb4jv",
+      "kind": "news",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T05:19:00.000Z",
+      "description": "Saudi Foreign Minister Arrives in Washington for Talks Amid Houthi Escalation - Haaretz (Haaretz, 2026-09-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Haaretz",
+      "axis": "Other",
+      "tags": [
+        "Haaretz",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Haaretz",
+      "source": "Haaretz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPYzVhdUJxLVpVZ3RoWkZhNDlvQS1oR0hmV0ZDdEVhaU5mYzZDT2tFN2tySExjdFhIM2JHYktGakRUQUczR1FhVVpobGRoQ3dOa05hWE9zRURNS0V2dkFhWW9KQktwTTcwUHhEVkR6Y3laQ2YxbjlfSUFuNE1LeVpxT3FaWkhFLUdqZW52bG00aUZlVEY3NHFGcWlVZF9YT3dDZ2MzZkVIdlZkUFhyT3hVUlZDSVZHRzRCbXhXeTRpa3l6czRzUVd0OHB0TV9sTEFJdzIxUk11OGt1OThTNXBzZFpESzZJbk4xRklWclRSTTBvWFNjMzJyQkZvT2NGVGluVlhxRnRNWVE?oc=5"
+    },
+    {
+      "id": "news-q2278u",
+      "kind": "news",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T05:13:19.000Z",
+      "description": "Will Egypt Strike Yemen's Houthis?, by Daily Editorials - Creators Syndicate (Creators Syndicate, 2026-09-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Creators Syndicate",
+      "axis": "Other",
+      "tags": [
+        "Creators Syndicate",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Creators Syndicate",
+      "source": "Creators Syndicate",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWktEdWFuX2ozX25PTzZGSi1KVG9iODRGQ2w1OXRTMWlCQ2lPZ1A1cExOQjhBUXh5U3lSUGVnTUZ3NlpIX2MySHZCRnFKNjNQeml1OXdoTDFES3ZwTGZOb0JfakxGMWpsdHhESkE5MUFoM3h0VWNUNWpzTVhyMzVkYlU4aUx4MnBLckxFT1VwQjhPc2pmQ3c?oc=5"
+    },
+    {
+      "id": "news-1s643p3",
+      "kind": "news",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T03:39:49.000Z",
+      "description": "Iranian advisers helped Houthis seize Yemen’s Red Sea coast in less than 48 hours, sources tell AP - Hiiraan Online (Hiiraan Online, 2026-09-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Hiiraan Online",
+      "axis": "Other",
+      "tags": [
+        "Hiiraan Online",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Red Sea",
+      "source": "Hiiraan Online",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWEllNEF6cEhpUUNPdGxhQTZIMDh5azcwT29CYzRyNDA1Wkl0c0JQQTVOWk0yM3Zrb1hSa056S3NqMUJBNU1sT3YtcUdtVVh5WkdTSE40akFDUFVoWkRxWFNPcnR3aXY0NDViLTdIV2NKWGt2NHIwWlJxYnFUTm56VThjOG4zeEduWmRnQWpYcGI4MFJfUTNZOTl5ZG02ZEU4aThtcDJvLTcwcm1IY3JxakVOODBZVG92OGU5elROVm9NeGdvYXQwaUE2T1hIOFczbHJSVlRLVXBoN2pid2FWT25R?oc=5",
+      "lat": 15.5,
+      "lng": 41.5,
+      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+    },
+    {
+      "id": "news-fv7p9z",
+      "kind": "news",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:40:40.000Z",
+      "description": "Yemen: Houthis report deadly Saudi strikes on Taiz market - DW.com (DW.com, 2026-09-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW.com",
+      "axis": "Other",
+      "tags": [
+        "DW.com",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Taiz",
+      "source": "DW.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2tiTmtOT3NLUTZvN1hYZHlETHUySG5iMnRvU0ltVS03QXAzWmtocndacEhvVGViM2xnbnFFbkhQLWt6eDlkQVhoUWtMRHNrSVBoS2l3VzlCQzVJTXdPTTVNZVg5WHF5eGdSZzN0ZmNBQlRZeDhmSkNOd3VJRElmbDU4aFVCUFFBTDFVLXl2U01OemfSAZMBQVVfeXFMTVJmck1SdmphcTFYLXhiV1U5ZHI5TzZMcVFjZDBZMFk4NTQ5U1RJSHVyM3pFU3pFZTlsTmNiTUQyODU4VFNRU2FOMGZuSVBfVjlfOXpQZk8zZlJWUDBDZmtmVG1CUHhKamZEVnpuTUoyU253U1g3cS05cWZMWHdMZXBkYXEzUTZsT19lNjg0dW1EcVc0?oc=5",
+      "lat": 13.58,
+      "lng": 44.02,
+      "coordsNote": "Headline gazetteer match: \"Taiz\" (city); verify via source article."
+    },
     {
       "id": "gdelt-1325196613",
       "kind": "event",
@@ -388,6 +587,195 @@
       }
     },
     {
+      "id": "gdelt-1325209844",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T05:30:00.000Z",
+      "description": "Disapproval — Ministry → Unspecified near Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Ministry",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/09/28/777160/Saudi-Yemen-aggression",
+      "gdelt": {
+        "globalEventId": "1325209844",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.09,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325210014",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T05:30:00.000Z",
+      "description": "Disapproval — Iran → Saudi Arabia near Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/09/28/777160/Saudi-Yemen-aggression",
+      "gdelt": {
+        "globalEventId": "1325210014",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.09,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325210106",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T05:30:00.000Z",
+      "description": "Assault — Naval → American near Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Assault (GDELT 181)",
+      "actor": "Naval",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/09/28/777160/Saudi-Yemen-aggression",
+      "gdelt": {
+        "globalEventId": "1325210106",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.09,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325211944",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T05:45:00.000Z",
+      "description": "Threat — Yemen → Military near Mawiya, Taizz, Yemen. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5829,
+      "lng": 44.3477,
+      "action": "Threat (GDELT 130)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Mawiya, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.unionleader.com/news/world/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan/article_76d7f06a-7662-5ad8-a4f8-f3140a91261e.html",
+      "gdelt": {
+        "globalEventId": "1325211944",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.1,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325212572",
+      "kind": "event",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T00:00:00.000Z",
+      "observedAt": "2026-09-28T06:00:00.000Z",
+      "description": "Fight — Unspecified → Fighter near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.channelnewsasia.com/world/yemen-taiz-strikes-houthis-saudi-arabia-6414126",
+      "gdelt": {
+        "globalEventId": "1325212572",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -10.33,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "news-hwwpg1",
+      "kind": "news",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T21:16:31.000Z",
+      "description": "Inside Yemen's front-line city as Houthis battle for control (BBC, 2026-09-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BBC",
+      "axis": "Other",
+      "tags": [
+        "BBC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "BBC",
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss"
+    },
+    {
       "id": "news-1mtzsff",
       "kind": "news",
       "date": "2026-09-27",
@@ -409,6 +797,29 @@
       "lat": 15.5,
       "lng": 41.5,
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+    },
+    {
+      "id": "news-16h8ch1",
+      "kind": "news",
+      "date": "2026-09-27",
+      "isoDate": "2026-09-27T21:00:06.000Z",
+      "description": "Watch: BBC reports from the front-line of an escalating war in Yemen (BBC, 2026-09-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BBC",
+      "axis": "Other",
+      "tags": [
+        "BBC",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Yemen",
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/crp3kgjygnkeo?at_medium=RSS&at_campaign=rss",
+      "lat": 16.34712,
+      "lng": 47.89153,
+      "coordsNote": "OSM geocode: matched \"Yemen\" → Yemen; © OpenStreetMap contributors."
     },
     {
       "id": "news-uwpksr",
@@ -453,45 +864,22 @@
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
     },
     {
-      "id": "news-fv7p9z",
-      "kind": "news",
-      "date": "2026-09-27",
-      "isoDate": "2026-09-27T18:37:12.000Z",
-      "description": "Yemen: Houthis report deadly Saudi strikes on Taiz market - dw.com (dw.com, 2026-09-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "dw.com",
-      "axis": "Other",
-      "tags": [
-        "dw.com",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Taiz",
-      "source": "dw.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2tiTmtOT3NLUTZvN1hYZHlETHUySG5iMnRvU0ltVS03QXAzWmtocndacEhvVGViM2xnbnFFbkhQLWt6eDlkQVhoUWtMRHNrSVBoS2l3VzlCQzVJTXdPTTVNZVg5WHF5eGdSZzN0ZmNBQlRZeDhmSkNOd3VJRElmbDU4aFVCUFFBTDFVLXl2U01OemfSAZMBQVVfeXFMTVJmck1SdmphcTFYLXhiV1U5ZHI5TzZMcVFjZDBZMFk4NTQ5U1RJSHVyM3pFU3pFZTlsTmNiTUQyODU4VFNRU2FOMGZuSVBfVjlfOXpQZk8zZlJWUDBDZmtmVG1CUHhKamZEVnpuTUoyU253U1g3cS05cWZMWHdMZXBkYXEzUTZsT19lNjg0dW1EcVc0?oc=5",
-      "lat": 13.58,
-      "lng": 44.02,
-      "coordsNote": "Headline gazetteer match: \"Taiz\" (city); verify via source article."
-    },
-    {
       "id": "news-pd8p6h",
       "kind": "news",
       "date": "2026-09-27",
       "isoDate": "2026-09-27T12:35:00.000Z",
-      "description": "The South Must Be a Strategic Partner in Confronting the Houthi Threat - Fair Observer (Fair Observer, 2026-09-27. Headline + link only.)",
+      "description": "The South Must Be a Strategic Partner in Confronting the Houthi Threat - fairobserver.com (fairobserver.com, 2026-09-27. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Fair Observer",
+      "actor": "fairobserver.com",
       "axis": "Other",
       "tags": [
-        "Fair Observer",
+        "fairobserver.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Fair Observer",
-      "source": "Fair Observer",
+      "locationStr": "fairobserver.com",
+      "source": "fairobserver.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObnVwWkdBb2c1bV9HRVBscnVuLTQ4MVNWUXJic0w2anNFTFhmVGxBNGtKcVRlWTZ1WDB2elZYRTNDOGdndE5IVXlSUUJzc1h0eEJ3UVRwSTNXeXZ3WGI2WU1uTTlqVUtZU2tCVk5xWlhvRHhnY3JrSGVfNXZHbG5sdlhiVXkyQ1JZR0h3T1gxbWFnenFfR3pJc0loRm1xYkhybWFmYm01ZnVzdEJ4WmloSWNMVnN0T044QWpFbnBwdzlscWx4OXJzN3o1NGM?oc=5"
     },
     {
@@ -609,22 +997,41 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5"
     },
     {
+      "id": "news-1gcao3",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T21:54:43.000Z",
+      "description": "Yemen : Houthis Announce Full Restoration of Sana’a Airport After Airstrikes - Yemen Online (Yemen Online, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yemen Online",
+      "axis": "Other",
+      "tags": [
+        "Yemen Online",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yemen Online",
+      "source": "Yemen Online",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4yQzlqWDdlT2VGaEhTSnBOZ1JYSjE4bDlfLVRVdzZoUjkzTWl3WDNnMDE5ZUdRTTNKd2ZNX0FjVmtGcW5idlFXQk1SWHNORFE4VmlCcGFxQUc?oc=5"
+    },
+    {
       "id": "news-14uyox1",
       "kind": "news",
       "date": "2026-09-25",
       "isoDate": "2026-09-25T21:22:38.000Z",
-      "description": "Yemeni leader calls for general mobilization against Houthis - dw.com (dw.com, 2026-09-25. Headline + link only.)",
+      "description": "Yemeni leader calls for general mobilization against Houthis - DW.com (DW.com, 2026-09-25. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "dw.com",
+      "actor": "DW.com",
       "axis": "Other",
       "tags": [
-        "dw.com",
+        "DW.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "dw.com",
-      "source": "dw.com",
+      "locationStr": "DW.com",
+      "source": "DW.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS2VsR1BrdExEQURSVE1WeS1WS2VHNWJlcjAwekx5cUMyeDY3T0l5NGxFOWZWNkxNMnhPa2VPNTVweENyNzdaVm5JYWp2V0tTYlgycXNCRURLZUxpdTBvLTh3dW5PSXI5ZHBodWM2c0hXTkQtYzlUWm9KSjdrNTc5R0FFVEhjdDQtLXNpVWpXem9HR0FQYUQtdtIBmAFBVV95cUxOV3ZKNEtWZFNpb0xUNFB0ZE1lRXlLVy10UXU1VllETG81X1FHVmFCNjdIdVJDQ0JldGo3dEhYRHNrUEhsMUUzNnA5ak55dnZxTnctM05OOVZwSVA2cks2MWY4amNDbmx4bXhuMnhYSnJsNmRCYW9JQjl2OWlDYkJod1JPRGV5VDJnRFVTN3ktaWR3OTR1WmNmWg?oc=5"
     },
     {
@@ -645,6 +1052,25 @@
       "locationStr": "France 24",
       "source": "France 24",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVGQtUWFQT2p6WXFwU0lIZm9NVW9rZDF0NWlfMTJvTkVNUmUxYjJFMVF2MjVWQ01YOFF1WU5JRVJ3WkR6eVo0RUkwcjRfczEwcTZ5NkhwdnViYkMtWG5aMndqOGE2Q0JXTm9kRlFpWV9jM21ackhTaDlWNnhOR19lSDZqcld5d2laVExHOWhaMkxyM2NKTHQzWG9FN2RCOFhEZE5BeGh0NDJOeTc2cXNCZlJnanIzTThkWmFkNzA3TkZoQQ?oc=5"
+    },
+    {
+      "id": "news-1jdkfzf",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T20:41:29.000Z",
+      "description": "Yemen's president calls on his people to mobilise against Iran-backed Houthis (France 24 Middle East, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24 Middle East",
+      "axis": "Other",
+      "tags": [
+        "France 24 Middle East",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "France 24 Middle East",
+      "source": "France 24 Middle East",
+      "sourceUrl": "https://www.france24.com/en/middle-east/20260925-yemen-president-calls-on-his-people-to-mobilise-against-iran-backed-houthis"
     },
     {
       "id": "news-165crsg",
@@ -708,6 +1134,44 @@
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
     },
     {
+      "id": "news-3bzxkp",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T14:04:57.000Z",
+      "description": "'Iran has dragged us into this conflict,' top Emirati diplomat Anwar Gargash says (France 24 Middle East, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24 Middle East",
+      "axis": "Other",
+      "tags": [
+        "France 24 Middle East",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "France 24 Middle East",
+      "source": "France 24 Middle East",
+      "sourceUrl": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260925-iran-has-dragged-us-into-this-conflict-top-emirati-diplomat-anwar-gargash-says"
+    },
+    {
+      "id": "news-113yf9q",
+      "kind": "news",
+      "date": "2026-09-25",
+      "isoDate": "2026-09-25T14:04:20.000Z",
+      "description": "Macron says ‘military resources’ to be sent to Saudi Arabia (France 24 Middle East, 2026-09-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24 Middle East",
+      "axis": "Other",
+      "tags": [
+        "France 24 Middle East",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "France 24 Middle East",
+      "source": "France 24 Middle East",
+      "sourceUrl": "https://www.france24.com/en/macron-says-military-resources-to-be-sent-to-saudi-arabia"
+    },
+    {
       "id": "news-1koffij",
       "kind": "news",
       "date": "2026-09-25",
@@ -731,18 +1195,18 @@
       "kind": "news",
       "date": "2026-09-25",
       "isoDate": "2026-09-25T11:45:00.000Z",
-      "description": "Saudi Arabia intercepts wave of Houthi missiles as oil climbs to one-week high - theguardian.com (theguardian.com, 2026-09-25. Headline + link only.)",
+      "description": "Saudi Arabia intercepts wave of Houthi missiles as oil climbs to one-week high - The Guardian (The Guardian, 2026-09-25. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "theguardian.com",
+      "actor": "The Guardian",
       "axis": "Other",
       "tags": [
-        "theguardian.com",
+        "The Guardian",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "theguardian.com",
-      "source": "theguardian.com",
+      "locationStr": "The Guardian",
+      "source": "The Guardian",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON0MwRGdjN1NtYkFaMVhhdktMMEtrb0hMUHdmeU1QeTVqZGpqcHlZVkZiVTZ1Yk4xY0ZQMktfem5iTGpsY3FPS0hqZDNkbV9iMHNIVW1ZVk1yOWtiVEtWTkRreXRUTkRMYjE1NThLT0s1cTVIWUlJSGpUdWJpZE5EcEQ3SlJtcjdXV1ByNWFaMlJOeS0ydThQNWJFU1o5TTZIYk1tempn?oc=5"
     },
     {
@@ -782,25 +1246,6 @@
       "locationStr": "The Jerusalem Post",
       "source": "The Jerusalem Post",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMYVI4azBsUWFOQWxVQkV1dmdUYzRjUFAtaHNkb3Izd3l0VnNPSHRKR0pqdU54bGljMGI4WmprR2swWGY0RTE4THpBQW85d1J5Tl9BQVRLOWVQWk94?oc=5"
-    },
-    {
-      "id": "news-114qt7g",
-      "kind": "news",
-      "date": "2026-09-25",
-      "isoDate": "2026-09-25T06:48:40.000Z",
-      "description": "Yemen tells UN that Houthi rebels' moves on key strait threaten global economy - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-09-25. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ABC News - Breaking News, Latest News and Videos",
-      "axis": "Other",
-      "tags": [
-        "ABC News - Breaking News, Latest News and Videos",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQkt1SkVTV1Q5Vl9RWE9ZWXpKMlNXQWdpRktiNlc5RWFpU1NNRTNFYlpucG8tOFJiWUlzZWExR2FSZlZjZmVyVzRjQkRNQjhRR2JuZlh6TjA5b3ZsTUlUZ3dwWUFrU1FNTHBRRUpGamQwZFE1TGd6YjdVc1FaekJGa2czNDlmX0F1M1UxS2UxdVlsZWtwY2xsQmNB0gGfAUFVX3lxTFBWcTdmQ2VMMGFpaHNfUU4xLUVCQ29RVzlCRF90UnBmTkVjb3EwajVJdGdxeTRCRGtnc25ERTVCM2F3N0tqN1pldkdHMDJ5NEdwVFpZUzNqT0ZYUGxScHRwTlM0Rk54Sy01dlJReC1XVGZQNnZWNkdyLUJxWjJvNEVmYnpLTHM1OGFlWHRqaHc5THl2QjNjN2FDcTRmMlFjVQ?oc=5"
     }
   ]
 }
