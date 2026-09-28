@@ -2,7 +2,7 @@
 // Ukraine live-wire collector — hourly GitHub Actions.
 // Sources (all keyless except ReliefWeb, which needs a free approved appname):
 //  1. GDELT 2.1 export CSV  data.gdeltproject.org  (geocoded conflict events, ActionGeo UP)
-//  2. RSS, link-only: Kyiv Independent, Ukrainska Pravda (English), Google News x2 queries
+//  2. RSS, link-only: Kyiv Independent, Ukrainska Pravda (English), Kyiv Post, Ukrinform, Interfax-Ukraine, RFE/RL, Euromaidan Press, Google News x5 queries (general feeds gated by feed.match)
 //  3. ISW daily assessments via their WordPress JSON API (title/link/date only)
 //  4. ReliefWeb API v2 reports+disasters (only when RELIEFWEB_APPNAME is set)
 // Zero direct DeepStateMap.live calls: API access was denied (Sep 2026), so the
@@ -19,6 +19,7 @@ import {
   stripForGeocode, validateOsmResult,
 } from './lib/ukraineEvents.mjs';
 import { parseRssItems } from './collect-news.mjs';
+import { feedTitleKept } from './lib/theatreEvents.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const DEFAULT_OUTPUT = resolve(ROOT, 'ukraine-events');
@@ -38,6 +39,23 @@ export const RSS_FEEDS = [
   { id: 'pravda-eng', theatre: 'ukraine', name: 'Ukrainska Pravda', url: 'https://www.pravda.com.ua/eng/rss/' },
   { id: 'gnews-war', theatre: 'ukraine', name: 'Google News', url: 'https://news.google.com/rss/search?q=' + encodeURIComponent('Ukraine war') + '&hl=en-US&gl=US&ceid=US%3Aen', outletFromSourceTag: true },
   { id: 'gnews-strikes', theatre: 'ukraine', name: 'Google News', url: 'https://news.google.com/rss/search?q=' + encodeURIComponent('Ukraine drones OR missiles OR Kyiv strike') + '&hl=en-US&gl=US&ceid=US%3Aen', outletFromSourceTag: true },
+  {
+    id: 'kyiv-post', theatre: 'ukraine', name: 'Kyiv Post', url: 'https://www.kyivpost.com/feed',
+    match: ['AIRSTRIKE', 'BLACKOUT', 'BRIGADE', 'CEASEFIRE', 'CRIMEA', 'DONBAS', 'DONETSK', 'DRONE', 'FRONTLINE', 'KHARKIV', 'KHERSON', 'KIEV', 'KUPIANSK', 'KYIV', 'LUHANSK', 'MISSILE', 'ODESA', 'ODESSA', 'OFFENSIVE', 'POKROVSK', 'PUTIN', 'RUSSIA', 'RUSSIAN', 'SHELLING', 'UKRAINE', 'UKRAINIAN', 'ZAPORIZHZHIA', 'ZELENSKY'],
+  },
+  {
+    id: 'ukrinform-en', theatre: 'ukraine', name: 'Ukrinform', url: 'https://www.ukrinform.net/rss/block-lastnews',
+    match: ['AIRSTRIKE', 'BLACKOUT', 'BRIGADE', 'CEASEFIRE', 'CRIMEA', 'DONBAS', 'DONETSK', 'DRONE', 'FRONTLINE', 'KHARKIV', 'KHERSON', 'KIEV', 'KUPIANSK', 'KYIV', 'LUHANSK', 'MISSILE', 'ODESA', 'ODESSA', 'OFFENSIVE', 'POKROVSK', 'PUTIN', 'RUSSIA', 'RUSSIAN', 'SHELLING', 'UKRAINE', 'UKRAINIAN', 'ZAPORIZHZHIA', 'ZELENSKY'],
+  },
+  {
+    id: 'interfax-ukraine', theatre: 'ukraine', name: 'Interfax-Ukraine', url: 'https://en.interfax.com.ua/news/last.rss',
+    match: ['AIRSTRIKE', 'BLACKOUT', 'BRIGADE', 'CEASEFIRE', 'CRIMEA', 'DONBAS', 'DONETSK', 'DRONE', 'FRONTLINE', 'KHARKIV', 'KHERSON', 'KIEV', 'KUPIANSK', 'KYIV', 'LUHANSK', 'MISSILE', 'ODESA', 'ODESSA', 'OFFENSIVE', 'POKROVSK', 'PUTIN', 'RUSSIA', 'RUSSIAN', 'SHELLING', 'UKRAINE', 'UKRAINIAN', 'ZAPORIZHZHIA', 'ZELENSKY'],
+  },
+  { id: 'rferl-ukraine-war', theatre: 'ukraine', name: 'RFE/RL', url: 'https://www.rferl.org/api/zbgvmtl-vomx-tpeq_kmr' },
+  { id: 'euromaidan-war', theatre: 'ukraine', name: 'Euromaidan Press', url: 'https://euromaidanpress.com/category/russian-aggression/russian-ukrainian-war-news/feed/' },
+  { id: 'gnews-frontline', theatre: 'ukraine', name: 'Google News', url: 'https://news.google.com/rss/search?q=' + encodeURIComponent('Ukraine frontline Pokrovsk Kupiansk offensive') + '&hl=en-US&gl=US&ceid=US%3Aen', outletFromSourceTag: true },
+  { id: 'gnews-blackout', theatre: 'ukraine', name: 'Google News', url: 'https://news.google.com/rss/search?q=' + encodeURIComponent('Ukraine blackout energy grid strikes') + '&hl=en-US&gl=US&ceid=US%3Aen', outletFromSourceTag: true },
+  { id: 'gnews-peace', theatre: 'ukraine', name: 'Google News', url: 'https://news.google.com/rss/search?q=' + encodeURIComponent('Ukraine peace talks ceasefire negotiations') + '&hl=en-US&gl=US&ceid=US%3Aen', outletFromSourceTag: true },
 ];
 const ISW_POSTS_URL = 'https://understandingwar.org/wp-json/wp/v2/posts?search='
   + encodeURIComponent('russian offensive campaign assessment') + '&per_page=10&_fields=id,date,link,title';
@@ -270,6 +288,7 @@ async function collectRss(timeout, collectedAt) {
       const outlets = feed.outletFromSourceTag ? googleNewsSources(xml) : new Map();
       let count = 0;
       for (const item of parseRssItems(xml, feed)) {
+        if (!feed.outletFromSourceTag && !feedTitleKept(item.title, feed.match)) continue;
         const outlet = outlets.get(item.url);
         const e = rssItemToEvent(outlet ? { ...item, publisher: outlet } : item, collectedAt);
         if (e) {
@@ -410,6 +429,7 @@ export async function collect({ inputPath, output = DEFAULT_OUTPUT, collectedAt,
         const outlets = item.xml && feed.outletFromSourceTag ? googleNewsSources(item.xml) : new Map();
         const parsed = item.xml ? parseRssItems(item.xml, feed) : [item.item];
         for (const p of parsed) {
+          if (!feed.outletFromSourceTag && !feedTitleKept(p.title, feed.match)) continue;
           const e = rssItemToEvent(outlets.get(p.url) ? { ...p, publisher: outlets.get(p.url) } : p, collectionTime);
           if (e) fresh.push(e);
         }

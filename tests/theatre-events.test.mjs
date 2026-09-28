@@ -117,6 +117,11 @@ assert.equal(THEATRE_EVENTS_SCHEMA_VERSION, 1, 'envelope-compatible with ukraine
   const gc = cfg('houthis').rssFeeds.find((f) => f.id === 'gcaptain').match;
   assert.equal(feedTitleKept('Houthi missile targets tanker in the Red Sea', gc), true);
   assert.equal(feedTitleKept('Container rates rally on transpacific demand', gc), false);
+  const sa = cfg('sahel').rssFeeds.find((f) => f.id === 'rfi-africa').match;
+  assert.equal(feedTitleKept('Niger signs uranium deal in Niamey', sa), true);
+  assert.equal(feedTitleKept('Nigeria wins AFCON qualifier in Lagos', sa), false);
+  assert.equal(feedTitleKept('Army retakes Djibo after ambush', sa), true);
+  assert.equal(feedTitleKept('Djibouti hosts Red Sea shipping summit', sa), false);
   assert.equal(feedTitleKept('Anything at all', undefined), true, 'unfiltered feeds keep everything');
   assert.equal(feedTitleKept('Anything at all', []), true);
   assert.equal(feedTitleKept('IDF strikes Rafah', ['[bad']), false, 'bad pattern never matches');

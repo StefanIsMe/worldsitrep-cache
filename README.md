@@ -27,8 +27,10 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   (No DeepState calls of any kind: API access denied Sep 2026 — see source policy.)
   Sources: GDELT 2.1 export CSV (`https://data.gdeltproject.org/gdeltv2/`,
   ActionGeo UP + conflict QuadClass, derived metadata only), Kyiv Independent
-  RSS, Ukrainska Pravda English RSS, Google News RSS x2 (headlines + outlet +
-  links only), ISW assessments via their WordPress JSON API (title/link/date
+  RSS, Ukrainska Pravda English RSS, Kyiv Post RSS, Ukrinform English RSS,
+  Interfax-Ukraine RSS, RFE/RL Ukraine RSS, Euromaidan Press war-news RSS,
+  Google News RSS x5 (headlines + outlet + links only; general feeds gated),
+  ISW assessments via their WordPress JSON API (title/link/date
   only), ReliefWeb API v2 reports+disasters (only when the free
   `RELIEFWEB_APPNAME` Actions secret is set — request one at
   `https://apidoc.reliefweb.int/parameters#appname`).
@@ -49,15 +51,20 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   (`scripts/lib/theatreConfigs.mjs`). One shared GDELT 2.1 export download
   per run is partitioned per theatre (FIPS sets; polar bbox for the Arctic;
   political-conflict CAMEO roots 13–17 only for us-election so ordinary US
-  crime news stays out), plus native RSS (Taipei Times, BBC, Jerusalem
-  Post, AllAfrica x3, Yonhap x2, Korea Times, Eye on the Arctic,
-  Nunatsiaq, NPR, EAC, gCaptain) and query-scoped Google News feeds, plus gated
-  ReliefWeb reports (same `RELIEFWEB_APPNAME` secret; skipped for the
-  Arctic). General-news home papers (Taipei Times, JPost, Yonhap all-news,
-  Korea Times) pass a per-feed keyword relevance gate so sports, culture,
-  and world headlines never enter a theatre wire; Al Jazeera all-news and
-  UN News global were dropped for the same reason (Times of Israel is
-  403 bot-walled — no bypass attempted).
+  crime news stays out), plus native RSS (Taipei Times, SCMP, DW Asia,
+  Straits Times, BBC, Jerusalem Post, Al Jazeera, Guardian Middle East, NYT
+  Middle East, Iran International, Tehran Times, IRNA, Mehr, AllAfrica x3,
+  RFI Africa, France 24 Africa/ME, BBC Africa, Africanews, DW Africa,
+  Yonhap x2, Korea Times, NK News, 38 North, Diplomat, BBC Asia, Eye on
+  the Arctic, Nunatsiaq, Guardian Arctic, Anchorage Daily News, NNSL,
+  Cryopolitics, NPR, EAC, The Hill, Politico, PBS, Roll Call, Axios,
+  gCaptain, Splash247, Loadstar) and query-scoped Google News feeds, plus
+  gated ReliefWeb reports (same `RELIEFWEB_APPNAME` secret; skipped for
+  the Arctic). General-news feeds pass a per-feed keyword relevance gate
+  so sports, culture, and world headlines never enter a theatre wire (Al
+  Jazeera all-news rejoined 2026-09-28 under that gate, verified clean);
+  UN News global stays dropped for the same reason, and Times of Israel
+  is 403 bot-walled — no bypass attempted.
   Headlines gain `approximate` coords from a per-theatre gazetteer first,
   then budgeted/cached OSM Nominatim inside a per-theatre country+bbox
   allowlist; placeless items honestly stay `unplaced`.
@@ -103,7 +110,7 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   country centroid) and out-of-theatre pins (`outsideTheatreDropped` —
   e.g. "Moscow says …" datelines geocoded to Moscow).
 - Warehouse history (nothing is ever pruned):
-  - `<theatre>-events/days/YYYY/MM/DD.json` (ukraine + the 7 theatre wires) — immutable day segments: every record
+  - `<theatre>-events/days/YYYY/MM/DD.json` (ukraine + the 8 theatre wires) — immutable day segments: every record
     whose UTC date is that day (full records, deduped by id). Runs only ever
     append new ids; `ukraine-events/index.json` lists day counts by kind.
     The old `ukraine-events/archive/` full-envelope dumps are frozen legacy.

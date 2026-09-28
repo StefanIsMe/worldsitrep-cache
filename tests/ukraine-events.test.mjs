@@ -289,4 +289,24 @@ assert.equal(reliefwebDocToEvent({ fields: { title: 'no alias', date: { created:
   assert.ok(!('lat' in healed));
 }
 
+// --- RSS relevance gate wiring (gated feeds filter, ungated keep all) ---
+{
+  const tmp = mkdtempSync(join(tmpdir(), 'wsr-ukraine-gate-'));
+  const fx = {
+    gdeltRows: [],
+    rss: [
+      { feed: 'kyiv-post', item: { url: 'https://example.com/gate-off', title: 'Local bakery wins national pastry award', publishedAt: '2026-09-21T05:00:00.000Z' } },
+      { feed: 'kyiv-post', item: { url: 'https://example.com/gate-on', title: 'Drone strike hits Kharkiv energy depot', publishedAt: '2026-09-21T05:00:00.000Z' } },
+      { feed: 'kyiv-independent', item: { url: 'https://example.com/gate-plain', title: 'Local bakery wins national pastry award', publishedAt: '2026-09-21T05:00:00.000Z' } },
+    ],
+    isw: [],
+    reliefweb: [],
+  };
+  writeFileSync(join(tmp, 'gate.json'), JSON.stringify(fx));
+  const result = await collect({ inputPath: join(tmp, 'gate.json'), output: join(tmp, 'ukraine-events'), collectedAt: '2026-09-21T06:00:00.000Z' });
+  const titles = result.feed.events.filter((e) => e.kind === 'news').map((e) => e.description);
+  assert.ok(titles.some((d) => d.includes('Kharkiv')), 'on-theatre gated headline kept');
+  assert.equal(titles.filter((d) => d.includes('pastry')).length, 1, 'off-theatre headline kept only by the ungated feed');
+}
+
 console.log('ukraine events normalizer and collector tests passed');

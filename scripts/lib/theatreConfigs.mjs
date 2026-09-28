@@ -1,7 +1,7 @@
 // Per-theatre live-wire configs. One entry per site theatre except ukraine
 // (which keeps its own collector + gazetteer). All sources keyless except
 // ReliefWeb (free approved appname, same secret as ukraine).
-// Feeds verified live 2026-09-24 (HTTP 200 + items parsed). GDELT FIPS 10-4
+// Feeds verified live 2026-09-24, expanded 2026-09-28 (+53: HTTP 200 + parsed + dated). GDELT FIPS 10-4
 // codes; gazetteer coords are major-city reference points (approximate tier).
 
 const gnews = (id, theatre, query) => ({
@@ -29,6 +29,21 @@ export const THEATRES = {
       },
       gnews('gnews-strait', 'taiwan', 'Taiwan Strait China PLA'),
       gnews('gnews-defense', 'taiwan', 'Taiwan PLA military drills'),
+      {
+        id: 'scmp-china', theatre: 'taiwan', name: 'SCMP', url: 'https://www.scmp.com/rss/4/feed',
+        match: ['TAIWAN', 'TAIPEI', 'CROSS-?STRAIT', 'STRAIT', 'PLA', 'KINMEN', 'MATSU', 'PENGHU', 'TSMC', 'SEMICONDUCTOR', 'KUOMINTANG', 'CHINA', 'CHINESE', 'BEIJING', 'INVASION', 'DRILL', 'TAOYUAN', 'HSINCHU', 'TAICHUNG', 'TAINAN', 'KAOHSIUNG', 'KEELUNG', 'HUALIEN', 'CHIAYI', 'MILITARY', 'DEFEN[CS]E', 'NAVY', 'MISSILE', 'COAST GUARD', 'ADIZ', 'HAN KUANG'],
+      },
+      {
+        id: 'dw-asia', theatre: 'taiwan', name: 'DW', url: 'https://rss.dw.com/rdf/rss-en-asia',
+        match: ['TAIWAN', 'TAIPEI', 'CROSS-?STRAIT', 'STRAIT', 'PLA', 'KINMEN', 'MATSU', 'PENGHU', 'TSMC', 'SEMICONDUCTOR', 'KUOMINTANG', 'CHINA', 'CHINESE', 'BEIJING', 'INVASION', 'DRILL', 'TAOYUAN', 'HSINCHU', 'TAICHUNG', 'TAINAN', 'KAOHSIUNG', 'KEELUNG', 'HUALIEN', 'CHIAYI', 'MILITARY', 'DEFEN[CS]E', 'NAVY', 'MISSILE', 'COAST GUARD', 'ADIZ', 'HAN KUANG'],
+      },
+      {
+        id: 'st-asia', theatre: 'taiwan', name: 'Straits Times', url: 'https://www.straitstimes.com/news/asia/rss.xml',
+        match: ['TAIWAN', 'TAIPEI', 'CROSS-?STRAIT', 'STRAIT', 'PLA', 'KINMEN', 'MATSU', 'PENGHU', 'TSMC', 'SEMICONDUCTOR', 'KUOMINTANG', 'CHINA', 'CHINESE', 'BEIJING', 'INVASION', 'DRILL', 'TAOYUAN', 'HSINCHU', 'TAICHUNG', 'TAINAN', 'KAOHSIUNG', 'KEELUNG', 'HUALIEN', 'CHIAYI', 'MILITARY', 'DEFEN[CS]E', 'NAVY', 'MISSILE', 'COAST GUARD', 'ADIZ', 'HAN KUANG'],
+      },
+      gnews('gnews-arms', 'taiwan', 'Taiwan US arms sale'),
+      gnews('gnews-kinmen', 'taiwan', 'Kinmen Matsu Taiwan coast guard'),
+      gnews('gnews-hankuang', 'taiwan', 'Taiwan Han Kuang military drills'),
     ],
     reliefwebIso3: ['twn'],
     osm: { countryCodes: ['tw', 'cn'], bbox: [20.5, 116.5, 27.5, 124.5] },
@@ -67,6 +82,21 @@ export const THEATRES = {
       },
       gnews('gnews-gaza', 'gaza', 'Gaza Israel Hamas'),
       gnews('gnews-ceasefire', 'gaza', 'Gaza ceasefire hostages aid'),
+      {
+        id: 'aljazeera', theatre: 'gaza', name: 'Al Jazeera', url: 'https://www.aljazeera.com/xml/rss/all.xml',
+        match: ['GAZA', 'HAMAS', 'ISRAEL', 'IDF', 'NETANYAHU', 'JERUSALEM', 'TEL AVIV', 'WEST BANK', 'HEZBOLLAH', 'HOSTAGE', 'CEASEFIRE', 'PALESTIN', 'HOUTHI', 'RAFAH', 'JENIN', 'NABLUS', 'RAMALLAH', 'HEBRON', 'LEBANON', 'BEIRUT', 'SYRIA', 'DAMASCUS', 'AIRSTRIKE', 'SETTLER'],
+      },
+      {
+        id: 'guardian-me', theatre: 'gaza', name: 'Guardian Middle East', url: 'https://www.theguardian.com/world/middleeast/rss',
+        match: ['GAZA', 'HAMAS', 'ISRAEL', 'IDF', 'NETANYAHU', 'JERUSALEM', 'TEL AVIV', 'WEST BANK', 'HEZBOLLAH', 'HOSTAGE', 'CEASEFIRE', 'PALESTIN', 'HOUTHI', 'RAFAH', 'JENIN', 'NABLUS', 'RAMALLAH', 'HEBRON', 'LEBANON', 'BEIRUT', 'SYRIA', 'DAMASCUS', 'AIRSTRIKE', 'SETTLER'],
+      },
+      {
+        id: 'nyt-me', theatre: 'gaza', name: 'NYT Middle East', url: 'https://rss.nytimes.com/services/xml/rss/nyt/MiddleEast.xml',
+        match: ['GAZA', 'HAMAS', 'ISRAEL', 'IDF', 'NETANYAHU', 'JERUSALEM', 'TEL AVIV', 'WEST BANK', 'HEZBOLLAH', 'HOSTAGE', 'CEASEFIRE', 'PALESTIN', 'HOUTHI', 'RAFAH', 'JENIN', 'NABLUS', 'RAMALLAH', 'HEBRON', 'LEBANON', 'BEIRUT', 'SYRIA', 'DAMASCUS', 'AIRSTRIKE', 'SETTLER'],
+      },
+      gnews('gnews-flotilla', 'gaza', 'Gaza aid flotilla Rafah crossing'),
+      gnews('gnews-westbank', 'gaza', 'West Bank Jenin raid settlers'),
+      gnews('gnews-lebanon', 'gaza', 'Israel Hezbollah Lebanon ceasefire'),
     ],
     reliefwebIso3: ['pse', 'isr'],
     osm: { countryCodes: ['ps', 'il'], bbox: [29.0, 32.0, 34.0, 37.0] },
@@ -105,6 +135,24 @@ export const THEATRES = {
       gnews('gnews-iran', 'iran', 'Iran Hormuz nuclear'),
       gnews('gnews-unrest', 'iran', 'Iran protests Khamenei'),
       gnews('gnews-policy', 'iran', 'Tehran sanctions oil'),
+      {
+        id: 'iranintl', theatre: 'iran', name: 'Iran International', url: 'https://www.iranintl.com/en/feed',
+        match: ['IRAN', 'TEHRAN', 'IRGC', 'KHAMENEI', 'PEZESHKIAN', 'ARAGHCHI', 'HORMUZ', 'NUCLEAR', 'NATANZ', 'FORDOW', 'ISFAHAN', 'QOM', 'BUSHEHR', 'BANDAR ABBAS', 'KARAJ', 'TABRIZ', 'MASHHAD', 'SHIRAZ', 'AHVAZ', 'KERMAN', 'SANCTION', 'ENRICHMENT', 'IAEA', 'CENTRIFUGE', 'MISSILE', 'DRONE', 'PROTEST'],
+      },
+      {
+        id: 'tehrantimes', theatre: 'iran', name: 'Tehran Times', url: 'https://www.tehrantimes.com/rss',
+        match: ['IRAN', 'TEHRAN', 'IRGC', 'KHAMENEI', 'PEZESHKIAN', 'ARAGHCHI', 'HORMUZ', 'NUCLEAR', 'NATANZ', 'FORDOW', 'ISFAHAN', 'QOM', 'BUSHEHR', 'BANDAR ABBAS', 'KARAJ', 'TABRIZ', 'MASHHAD', 'SHIRAZ', 'AHVAZ', 'KERMAN', 'SANCTION', 'ENRICHMENT', 'IAEA', 'CENTRIFUGE', 'MISSILE', 'DRONE', 'PROTEST'],
+      },
+      {
+        id: 'irna-en', theatre: 'iran', name: 'IRNA English', url: 'https://en.irna.ir/rss',
+        match: ['IRAN', 'TEHRAN', 'IRGC', 'KHAMENEI', 'PEZESHKIAN', 'ARAGHCHI', 'HORMUZ', 'NUCLEAR', 'NATANZ', 'FORDOW', 'ISFAHAN', 'QOM', 'BUSHEHR', 'BANDAR ABBAS', 'KARAJ', 'TABRIZ', 'MASHHAD', 'SHIRAZ', 'AHVAZ', 'KERMAN', 'SANCTION', 'ENRICHMENT', 'IAEA', 'CENTRIFUGE', 'MISSILE', 'DRONE', 'PROTEST'],
+      },
+      {
+        id: 'mehr-en', theatre: 'iran', name: 'Mehr News English', url: 'https://en.mehrnews.com/rss',
+        match: ['IRAN', 'TEHRAN', 'IRGC', 'KHAMENEI', 'PEZESHKIAN', 'ARAGHCHI', 'HORMUZ', 'NUCLEAR', 'NATANZ', 'FORDOW', 'ISFAHAN', 'QOM', 'BUSHEHR', 'BANDAR ABBAS', 'KARAJ', 'TABRIZ', 'MASHHAD', 'SHIRAZ', 'AHVAZ', 'KERMAN', 'SANCTION', 'ENRICHMENT', 'IAEA', 'CENTRIFUGE', 'MISSILE', 'DRONE', 'PROTEST'],
+      },
+      gnews('gnews-irgc', 'iran', 'Iran IRGC missile strike Israel'),
+      gnews('gnews-natanz', 'iran', 'Iran Natanz Fordow enrichment IAEA'),
     ],
     reliefwebIso3: ['irn'],
     osm: { countryCodes: ['ir'], bbox: [24.0, 43.0, 41.0, 65.0] },
@@ -145,6 +193,29 @@ export const THEATRES = {
       { id: 'aa-burkina', theatre: 'sahel', name: 'AllAfrica Burkina Faso', url: 'https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf' },
       { id: 'aa-niger', theatre: 'sahel', name: 'AllAfrica Niger', url: 'https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf' },
       gnews('gnews-sahel', 'sahel', 'Sahel Mali Burkina Niger'),
+      {
+        id: 'rfi-africa', theatre: 'sahel', name: 'RFI Africa', url: 'https://www.rfi.fr/en/africa/rss',
+        match: ['MALI', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
+      },
+      {
+        id: 'france24-africa', theatre: 'sahel', name: 'France 24 Africa', url: 'https://www.france24.com/en/africa/rss',
+        match: ['MALI', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
+      },
+      {
+        id: 'bbc-africa', theatre: 'sahel', name: 'BBC Africa', url: 'https://feeds.bbci.co.uk/news/world/africa/rss.xml',
+        match: ['MALI', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
+      },
+      {
+        id: 'africanews', theatre: 'sahel', name: 'Africanews', url: 'https://www.africanews.com/feed/',
+        match: ['MALI', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
+      },
+      {
+        id: 'dw-africa', theatre: 'sahel', name: 'DW Africa', url: 'https://rss.dw.com/xml/rss-en-africa',
+        match: ['MALI', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
+      },
+      gnews('gnews-jnim', 'sahel', 'Mali Bamako JNIM attack'),
+      gnews('gnews-burkina', 'sahel', 'Burkina Faso junta attack'),
+      gnews('gnews-niger', 'sahel', 'Niger Niamey AES junta'),
     ],
     reliefwebIso3: ['mli', 'bfa', 'ner'],
     osm: { countryCodes: ['ml', 'bf', 'ne'], bbox: [7.0, -19.0, 26.0, 39.0] },
@@ -190,6 +261,19 @@ export const THEATRES = {
         match: ['KOREA', 'SEOUL', 'PYONGYANG', 'MISSILE', 'DMZ', 'NUCLEAR', 'KIM', 'KAESONG', 'WONSAN', 'BUSAN', 'INCHEON', 'PYEONGTAEK', 'OSAN', 'DAEGU', 'TAEGU', 'JEJU', 'JCS', 'Yoon', 'DEFECTOR', 'ABDUCTEE'],
       },
       gnews('gnews-korea', 'korea', 'North Korea missile Kim'),
+      { id: 'nknews', theatre: 'korea', name: 'NK News', url: 'https://www.nknews.org/feed/' },
+      { id: '38north', theatre: 'korea', name: '38 North', url: 'https://feeds.feedburner.com/38North' },
+      {
+        id: 'diplomat', theatre: 'korea', name: 'The Diplomat', url: 'https://thediplomat.com/feed/',
+        match: ['KOREA', 'SEOUL', 'PYONGYANG', 'MISSILE', 'DMZ', 'NUCLEAR', 'KIM', 'KAESONG', 'WONSAN', 'BUSAN', 'INCHEON', 'PYEONGTAEK', 'OSAN', 'DAEGU', 'TAEGU', 'JEJU', 'JCS', 'LEE JAE', 'DEFECTOR', 'ABDUCTEE'],
+      },
+      {
+        id: 'bbc-asia', theatre: 'korea', name: 'BBC', url: 'https://feeds.bbci.co.uk/news/world/asia/rss.xml',
+        match: ['KOREA', 'SEOUL', 'PYONGYANG', 'MISSILE', 'DMZ', 'NUCLEAR', 'KIM', 'KAESONG', 'WONSAN', 'BUSAN', 'INCHEON', 'PYEONGTAEK', 'OSAN', 'DAEGU', 'TAEGU', 'JEJU', 'JCS', 'LEE JAE', 'DEFECTOR', 'ABDUCTEE'],
+      },
+      gnews('gnews-missile', 'korea', 'North Korea missile launch'),
+      gnews('gnews-nkru', 'korea', 'North Korea Russia troops Ukraine'),
+      gnews('gnews-yongbyon', 'korea', 'North Korea Yongbyon nuclear'),
     ],
     reliefwebIso3: ['prk', 'kor'],
     osm: { countryCodes: ['kp', 'kr'], bbox: [33.0, 122.0, 44.0, 133.5] },
@@ -229,6 +313,16 @@ export const THEATRES = {
       { id: 'rci-arctic', theatre: 'arctic', name: 'Eye on the Arctic', url: 'https://www.rcinet.ca/eye-on-the-arctic/feed/' },
       { id: 'nunatsiaq', theatre: 'arctic', name: 'Nunatsiaq News', url: 'https://nunatsiaq.com/feed/' },
       gnews('gnews-arctic', 'arctic', 'Arctic Greenland'),
+      { id: 'guardian-arctic', theatre: 'arctic', name: 'Guardian Arctic', url: 'https://www.theguardian.com/world/arctic/rss' },
+      {
+        id: 'adn-alaska', theatre: 'arctic', name: 'Anchorage Daily News', url: 'https://www.adn.com/arc/outboundfeeds/rss/',
+        match: ['ARCTIC', 'UTQIAGVIK', 'BARROW', 'PRUDHOE', 'NORTH SLOPE', 'NOME', 'KOTZEBUE', 'BETHEL', 'FAIRBANKS', 'BERING', 'CHUKCHI', 'BEAUFORT', 'ALEUTIAN', 'KODIAK', 'BRISTOL BAY', 'COAST GUARD', 'ICEBREAKER', 'NORTHERN SEA', 'WHALING', 'DRILLING', 'PIPELINE', 'SEARCH AND RESCUE', 'EIELSON', 'JBER', 'PITUFFIK', 'THULE', 'GREENLAND', 'RUSSIA', 'RUSSIAN', 'SUBMARINE', 'F-35', 'C-130'],
+      },
+      { id: 'nnsl', theatre: 'arctic', name: 'NNSL Northern News', url: 'https://nnsl.com/feed/' },
+      { id: 'cryopolitics', theatre: 'arctic', name: 'Cryopolitics', url: 'https://www.cryopolitics.com/feed/' },
+      gnews('gnews-svalbard', 'arctic', 'Svalbard Norway Russia Arctic'),
+      gnews('gnews-greenland', 'arctic', 'Greenland Nuuk Arctic military'),
+      gnews('gnews-nsr', 'arctic', 'Northern Sea Route Russia Arctic'),
     ],
     reliefwebIso3: null, // multi-country polar region; RSS covers it
     osm: { countryCodes: ['ca', 'gl', 'no', 'se', 'fi', 'is', 'ru', 'us'], bbox: [55.0, -180.0, 85.0, 60.0] },
@@ -270,6 +364,20 @@ export const THEATRES = {
       { id: 'eac', theatre: 'us-election', name: 'EAC', url: 'https://www.eac.gov/rss.xml' },
       gnews('gnews-election', 'us-election', 'US election Trump 2028'),
       gnews('gnews-policy', 'us-election', 'Trump tariffs executive order'),
+      {
+        id: 'thehill', theatre: 'us-election', name: 'The Hill', url: 'https://thehill.com/feed/',
+        match: ['TRUMP', 'WHITE HOUSE', 'CONGRESS', 'SENATE', 'CAPITOL', 'SCOTUS', 'SUPREME COURT', 'PROTEST', 'IMPEACH', 'EXECUTIVE ORDER', 'TARIFF', 'ELECTION', 'BALLOT', 'MIDTERM', 'DEMOCRAT', 'REPUBLICAN', '\\bGOP\\b', 'GOVERNOR', 'NATIONAL GUARD', 'SHUTDOWN', 'SUBPOENA', 'BORDER', 'DEPORT', 'RIOT', 'PRIMARY', 'CABINET'],
+      },
+      { id: 'politico-congress', theatre: 'us-election', name: 'Politico', url: 'https://rss.politico.com/congress.xml' },
+      { id: 'pbs-politics', theatre: 'us-election', name: 'PBS NewsHour', url: 'https://www.pbs.org/newshour/feeds/rss/politics' },
+      { id: 'rollcall-congress', theatre: 'us-election', name: 'Roll Call', url: 'https://rollcall.com/section/congress/rss' },
+      {
+        id: 'axios', theatre: 'us-election', name: 'Axios', url: 'https://api.axios.com/feed/',
+        match: ['TRUMP', 'WHITE HOUSE', 'CONGRESS', 'SENATE', 'CAPITOL', 'SCOTUS', 'SUPREME COURT', 'PROTEST', 'IMPEACH', 'EXECUTIVE ORDER', 'TARIFF', 'ELECTION', 'BALLOT', 'MIDTERM', 'DEMOCRAT', 'REPUBLICAN', '\\bGOP\\b', 'GOVERNOR', 'NATIONAL GUARD', 'SHUTDOWN', 'SUBPOENA', 'BORDER', 'DEPORT', 'RIOT', 'PRIMARY', 'CABINET'],
+      },
+      gnews('gnews-protest', 'us-election', 'Trump protest National Guard deployment'),
+      gnews('gnews-courts', 'us-election', 'federal judge blocks executive order ruling'),
+      gnews('gnews-midterms', 'us-election', 'US midterm elections 2026 polls'),
     ],
     reliefwebIso3: ['usa'],
     osm: { countryCodes: ['us'], bbox: [17.0, -180.0, 72.0, -64.0] },
@@ -316,6 +424,20 @@ export const THEATRES = {
       },
       gnews('gnews-houthis', 'houthis', 'Houthis Yemen Red Sea'),
       gnews('gnews-shipping', 'houthis', 'Red Sea shipping Houthi attack'),
+      {
+        id: 'splash247', theatre: 'houthis', name: 'Splash247', url: 'https://splash247.com/feed/',
+        match: ['HOUTHI', 'RED SEA', 'MANDEB', 'YEMEN', 'ADEN', 'HODEIDAH', 'TANKER', 'BULK CARRIER', 'CONTAINER ?SHIP', 'VESSEL', 'PIRACY', 'PIRATE', 'DRONE BOAT', 'SEA DRONE', 'MISSILE', 'HIJACK', 'SUEZ', 'GULF OF ADEN', 'BAB EL', 'STRAIT', 'HORMUZ', 'SHADOW FLEET', 'SANCTION'],
+      },
+      {
+        id: 'loadstar', theatre: 'houthis', name: 'The Loadstar', url: 'https://theloadstar.com/feed/',
+        match: ['HOUTHI', 'RED SEA', 'MANDEB', 'YEMEN', 'ADEN', 'HODEIDAH', 'TANKER', 'BULK CARRIER', 'CONTAINER ?SHIP', 'VESSEL', 'PIRACY', 'PIRATE', 'DRONE BOAT', 'SEA DRONE', 'MISSILE', 'HIJACK', 'SUEZ', 'GULF OF ADEN', 'BAB EL', 'STRAIT', 'HORMUZ', 'SHADOW FLEET', 'SANCTION'],
+      },
+      {
+        id: 'france24-me', theatre: 'houthis', name: 'France 24 Middle East', url: 'https://www.france24.com/en/middle-east/rss',
+        match: ['HOUTHI', 'YEMEN', 'SANAA', 'SANA\'A', 'ADEN', 'HODEIDAH', 'TAIZ', 'SAADA', 'MUKALLA', 'MARIB', 'RED SEA', 'MANDEB', 'GULF OF ADEN', 'AIRSTRIKE', 'CEASEFIRE', 'BLOCKADE', 'SAUDI', 'EMIRATI'],
+      },
+      gnews('gnews-hodeidah', 'houthis', 'Hodeidah Sanaa airstrike Houthi'),
+      gnews('gnews-mandeb', 'houthis', 'Bab el-Mandeb vessel drone attack'),
     ],
     reliefwebIso3: ['yem'],
     osm: { countryCodes: ['ye'], bbox: [10.5, 38.0, 20.0, 56.0] },
