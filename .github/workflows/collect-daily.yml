@@ -8,8 +8,10 @@ on:
 permissions:
   contents: write
 
+# Shared by ALL workflows in this repo: each pushes generated data to main,
+# so writers must serialize to avoid pull --rebase conflicts. Do not split.
 concurrency:
-  group: worlds itrep-cache-daily
+  group: cache-main-write
   cancel-in-progress: false
 
 jobs:
