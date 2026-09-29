@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-09-29T16:09:43.830Z",
+  "collectedAt": "2026-09-29T19:57:04.643Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 225
+      "count": 619
     },
     {
       "id": "npr-politics",
@@ -26,23 +26,23 @@
     {
       "id": "gnews-election",
       "url": "https://news.google.com/rss/search?q=US%20election%20Trump%202028&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-election request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Trump%20tariffs%20executive%20order&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-policy request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "thehill",
       "url": "https://thehill.com/feed/",
       "status": "ok",
-      "count": 25,
-      "filtered": 25
+      "count": 26,
+      "filtered": 24
     },
     {
       "id": "politico-congress",
@@ -69,29 +69,29 @@
       "id": "axios",
       "url": "https://api.axios.com/feed/",
       "status": "ok",
-      "count": 27,
-      "filtered": 23
+      "count": 29,
+      "filtered": 21
     },
     {
       "id": "gnews-protest",
       "url": "https://news.google.com/rss/search?q=Trump%20protest%20National%20Guard%20deployment&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-protest request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-courts",
       "url": "https://news.google.com/rss/search?q=federal%20judge%20blocks%20executive%20order%20ruling&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-courts request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-midterms",
       "url": "https://news.google.com/rss/search?q=US%20midterm%20elections%202026%20polls&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-midterms request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -103,6 +103,732 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-f0wve6",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T19:55:36.000Z",
+      "description": "Trump leans on SCOTUS shadow docket more than Biden, Obama and Bush combined (Axios, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/09/29/trump-supreme-court-shadow-docket-41-applications"
+    },
+    {
+      "id": "news-nrbs4g",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T19:53:54.000Z",
+      "description": "Supreme Court green-lights Trump's third-country deportations (Axios, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/09/29/supreme-court-trump-third-country-deportations"
+    },
+    {
+      "id": "news-ek416y",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T19:51:24.000Z",
+      "description": "GAO reasserts pocket rescissions&#8217; illegality after Trump uses tactic to cancel nearly $1B (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/business/budget/6118661-gao-trump-rescission-unlawful/"
+    },
+    {
+      "id": "news-sgg9al",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T19:43:23.000Z",
+      "description": "White House highlights &#8216;new helipad,&#8217; beehive as part of fall garden tours (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/blogs/in-the-know/6118693-white-house-garden-tours-trump-helipad/"
+    },
+    {
+      "id": "news-1upnvm",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T19:36:36.000Z",
+      "description": "Live updates: Jack Smith faces Senate GOP scrutiny; Supreme Court lets Trump resume third-country deportations (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6116612-live-updates-trump-ai-jack-smith-senate-healthcare-affordability/"
+    },
+    {
+      "id": "news-1go9d0c",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T19:31:39.000Z",
+      "description": "Supreme Court lets Trump continue deporting people to 3rd countries while justices consider policy (PBS NewsHour, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "PBS NewsHour",
+      "axis": "Other",
+      "tags": [
+        "PBS NewsHour",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "PBS NewsHour",
+      "source": "PBS NewsHour",
+      "sourceUrl": "https://www.pbs.org/newshour/politics/supreme-court-lets-trump-continue-deporting-people-to-3rd-countries-while-justices-consider-policy"
+    },
+    {
+      "id": "news-17lzoiz",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T19:30:38.000Z",
+      "description": "Supreme Court lifts limits on Trump&#8217;s third-country deportations (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/regulation/court-battles/6118645-supreme-court-trump-third-country-deportation-emergency-ruling/"
+    },
+    {
+      "id": "news-id6s7f",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T19:30:02.000Z",
+      "description": "Media trust increase driven by Republicans: Gallup (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/media/6118504-gallup-poll-republican-media-trust-increases/"
+    },
+    {
+      "id": "news-w3gzu8",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T19:20:49.000Z",
+      "description": "Trump&#8217;s AI website confirms he lost 2020 election (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6118418-trump-ai-website-confirms-biden-win/"
+    },
+    {
+      "id": "news-10pgyzn",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T19:04:25.000Z",
+      "description": "Homeland Security spending $20M in taxpayer funds for pro-Trump ads (PBS NewsHour, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "PBS NewsHour",
+      "axis": "Other",
+      "tags": [
+        "PBS NewsHour",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "PBS NewsHour",
+      "source": "PBS NewsHour",
+      "sourceUrl": "https://www.pbs.org/newshour/politics/homeland-security-spending-20m-in-taxpayer-funds-for-pro-trump-ads"
+    },
+    {
+      "id": "news-14r8066",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T18:59:00.000Z",
+      "description": "Just how bad are midterm polls for Republicans? - The Hill (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeS1CckdnQmQ1ZXdGT2xJMXN1Mk42YkFKYU9pbHJaeHlFVkRBc1I0bGFnMzNlOUh0REJTS2pEZXI0TU5PSFBmMm9JeVk3T0JVX1dTQ3gyUTc3Z0xOd0JIOEhWNEdsZzNWc3otdkhrYnAtZkw4V0Z3T3AzUmFKVS1nZkYtc3ljVmw3T18zMHIzVU5rd9IBlwFBVV95cUxPTHkzbzdGaXN2T0Z0T1V4STZ1amczaThSazNtZ0xrcUtqeC1vdXUxSjlhT1lpNVc5cVg1UjVOSEd3VUVpbngwZm1UVXNBdXpBdTFpQzNmOTE1SmJlemZWUElVMkV2TFJTbmx2ZnRZMTJBUTl2c0t1QkIwTEZQdi12ZjRpZUhYZHJxSllTNVBwVDFnZVNSUC00?oc=5"
+    },
+    {
+      "id": "news-1zvc7t",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T18:58:43.000Z",
+      "description": "Trump to sign order renaming AI as &#8216;superintelligence&#8217; (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/policy/technology/6118532-trump-to-rename-ai-superintelligence/"
+    },
+    {
+      "id": "news-12axx6v",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T18:55:19.000Z",
+      "description": "Cruz blocks Senate Democrats’ bid to pass AI safety bill (Politico, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Politico",
+      "axis": "Other",
+      "tags": [
+        "Politico",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Politico",
+      "source": "Politico",
+      "sourceUrl": "https://www.politico.com/live-updates/2026/09/29/congress/cruz-blocks-senate-democrats-bid-to-pass-ai-safety-bill-01097480"
+    },
+    {
+      "id": "news-1ek519v",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T18:43:18.000Z",
+      "description": "Scoop: Trump's hand-picked, taxpayer-funded ads about to ramp up (Axios, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/09/29/trump-ads-taxpayer-funds"
+    },
+    {
+      "id": "news-ir654s",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T18:07:58.000Z",
+      "description": "Top Senate Dems press HHS about delayed COVID shots for low-income children (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/policy/healthcare/6118339-senators-question-vfc-delay/"
+    },
+    {
+      "id": "news-15zev9z",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T18:07:50.000Z",
+      "description": "Who will win the 2026 midterm elections? Polls and predictions - The Times (The Times, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times",
+      "axis": "Other",
+      "tags": [
+        "The Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Times",
+      "source": "The Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5"
+    },
+    {
+      "id": "news-18knoz0",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T18:03:42.000Z",
+      "description": "WATCH: Schmitt suggests Jack Smith perjured himself about a basketball game, but mixes up 2 teams (PBS NewsHour, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "PBS NewsHour",
+      "axis": "Other",
+      "tags": [
+        "PBS NewsHour",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "PBS NewsHour",
+      "source": "PBS NewsHour",
+      "sourceUrl": "https://www.pbs.org/newshour/politics/watch-schmitt-suggests-jack-smith-perjured-himself-about-a-basketball-game-but-mixes-up-2-teams"
+    },
+    {
+      "id": "news-1mpr45m",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T17:59:27.000Z",
+      "description": "VxSuite 4.1 (EAC, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "EAC",
+      "axis": "Other",
+      "tags": [
+        "EAC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "EAC",
+      "source": "EAC",
+      "sourceUrl": "https://www.eac.gov/voting-equipment/vxsuite-41"
+    },
+    {
+      "id": "news-y55zfs",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T17:57:05.000Z",
+      "description": "Democratic appropriators accuse White House of using CBP funds for Trump political ads (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/house/6118310-democrats-accuse-trump-cbp-funds-political-ads/"
+    },
+    {
+      "id": "news-1noml5k",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T17:55:37.000Z",
+      "description": "Verity Vanguard 1.2 (EAC, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "EAC",
+      "axis": "Other",
+      "tags": [
+        "EAC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "EAC",
+      "source": "EAC",
+      "sourceUrl": "https://www.eac.gov/voting-equipment/verity-vanguard-12"
+    },
+    {
+      "id": "news-1pea1f2",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T17:37:08.000Z",
+      "description": "LA mayor candidates set for forum as city struggles with homelessness, Hollywood job losses (PBS NewsHour, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "PBS NewsHour",
+      "axis": "Other",
+      "tags": [
+        "PBS NewsHour",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "PBS NewsHour",
+      "source": "PBS NewsHour",
+      "sourceUrl": "https://www.pbs.org/newshour/politics/la-mayor-candidates-set-for-forum-as-city-struggles-with-homelessness-hollywood-job-losses"
+    },
+    {
+      "id": "news-1y3c13f",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T17:30:00.000Z",
+      "description": "What Congress can do about AI safety — with China — now (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/opinion/congress-blog/technology/6116752-congressional-action-ai-regulations/"
+    },
+    {
+      "id": "news-1151keo",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T17:29:28.000Z",
+      "description": "GOP hopes fade in Georgia and North Carolina as party shifts focus in battle for Senate (PBS NewsHour, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "PBS NewsHour",
+      "axis": "Other",
+      "tags": [
+        "PBS NewsHour",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "PBS NewsHour",
+      "source": "PBS NewsHour",
+      "sourceUrl": "https://www.pbs.org/newshour/politics/gop-hopes-fade-in-georgia-and-north-carolina-as-party-shifts-focus-in-battle-for-senate"
+    },
+    {
+      "id": "news-1v93g4q",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T17:28:33.000Z",
+      "description": "\"Love Me\" artist doesn't love Trump using his song (Axios, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/09/29/love-me-artist-trump-ad-cease-desist-jmsn"
+    },
+    {
+      "id": "news-nfth59",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T17:17:04.000Z",
+      "description": "Potential Taiwan tension sparked 'last minute' change in Trump-Xi National Archives visit (NPR, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/09/29/nx-s1-5984989/digital-archives-trump-xi"
+    },
+    {
+      "id": "news-1rm9t9u",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T17:16:19.000Z",
+      "description": "Darline Graham rips Jack Smith for obtaining her late brother’s phone records (Politico, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Politico",
+      "axis": "Other",
+      "tags": [
+        "Politico",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Politico",
+      "source": "Politico",
+      "sourceUrl": "https://www.politico.com/live-updates/2026/09/29/congress/darline-graham-goes-after-smith-01097172"
+    },
+    {
+      "id": "news-fwcpzw",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T17:01:00.000Z",
+      "description": "Federal watchdog says Trump’s $810M funding cancellation is unconstitutional (Politico, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Politico",
+      "axis": "Other",
+      "tags": [
+        "Politico",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Politico",
+      "source": "Politico",
+      "sourceUrl": "https://www.politico.com/live-updates/2026/09/29/congress/pocket-rescission-gao-unconstitutional-01096965"
+    },
+    {
+      "id": "news-6bbf8r",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T17:00:33.000Z",
+      "description": "Latest Senate Polls: Midterm Elections 2026 - The New York Times (The New York Times, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
+      "id": "news-2sn2ho",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T16:52:19.000Z",
+      "description": "Khanna: Epstein files should be one of Democrats&#8217; &#8216;highest priorities&#8217; if congressional control changes (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/house/6117891-khanna-massie-epstein-transparency-act/"
+    },
+    {
+      "id": "news-mnf6dw",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T16:50:39.000Z",
+      "description": "Trump, Republicans refuse to pull endorsement of Bo French — why? (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/opinion/lindseys-lens/6118168-bo-french-racist-rhetoric-controversy/"
+    },
+    {
+      "id": "news-2xdr1i",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T16:41:02.000Z",
+      "description": "Watters: Trump should just say &#8216;half-off beer if you vote Republican&#8217; (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/media/6118100-watters-trump-midterm-beer-joke/"
+    },
+    {
+      "id": "news-15p94lb",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T16:31:00.000Z",
+      "description": "2026 Ohio Midterm Election Guide: Key deadlines, races on the ballot - 10TV (10TV, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "10TV",
+      "axis": "Other",
+      "tags": [
+        "10TV",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "10TV",
+      "source": "10TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVnc2dmJTVTVNOGVCb1VvNjRiYWhUQ0h0WmVWRHQ3bmFTSURldkVtNzR0dlhGSE8wN3owcDZtaGUtSG9sSDd0UGZrWkhaemZ5NlpHcTlkLUtpcHkwdkk5WklfQlBjcXlZOTBsRDZnNW41LWxFNUl6MjdSUDRNMFNGaEZBZl9na2F2UGxpUnlxMTdQYV9KNUdDQ2M4emNOOHpldDZVQ3BYemdhZFpjaFhiVmNNcHNQeDBBeU9JWmFQZHFtelA2Zi13ODlmT00?oc=5"
+    },
+    {
+      "id": "news-1lj91pq",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T16:30:59.000Z",
+      "description": "Cruz blocks push by Democrats to unanimously pass AI safety bill (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/policy/technology/6118009-senator-ted-cruz-blocks-ai-bill/"
+    },
+    {
+      "id": "news-198pgm8",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T16:30:00.000Z",
+      "description": "Jack Smith spars with GOP senators (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/newsletters/1230-report/6118054-jack-smith-protect-college-sports-act-maha-summit-vance-rfk/"
+    },
+    {
+      "id": "news-r3no09",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T16:18:45.000Z",
+      "description": "Democrats' lead in the congressional elections reaches another new high - YouGov (YouGov, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "YouGov",
+      "axis": "Other",
+      "tags": [
+        "YouGov",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "YouGov",
+      "source": "YouGov",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZW9SeVZJRmxKSmg3MVhJUS1hN1FoSGVvMlFDeGRFbUl2eWpmNmpsSDIzeDdIMGNoVFNFeXBaUFFGX1NaSUprYlYtN3U0TDlueW5CdHhpQXZaaEIzbXJvZUNkYkhCZ2NwX3hfcG5DVUg1WkZ4c3Y4TUVhUlhzNjMtQlc4cVpiUGRYMUFkeTUzY1dlTGw4VWcxVVRXdkR5dHFIUDBraW1YMllPTnNmMDNZYm5IVW1jOTFRZFhWbTMwNTFzNC1wT3pNRkU5M3M3d1dQQWRsXzdaLUZGaG5LRS1V?oc=5"
+    },
+    {
+      "id": "news-11udtwb",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T16:16:31.000Z",
+      "description": "Trump extends red state midterm tour to Nebraska (The Hill, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6117962-trump-rally-nebraska-midterms/"
+    },
+    {
+      "id": "news-1m0s9s6",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T16:12:12.000Z",
+      "description": "FLIPR 2026 midterm election forecast - Silver Bulletin (Silver Bulletin, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Silver Bulletin",
+      "axis": "Other",
+      "tags": [
+        "Silver Bulletin",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Silver Bulletin",
+      "source": "Silver Bulletin",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5"
+    },
+    {
+      "id": "news-1afhga5",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T16:11:49.000Z",
+      "description": "WATCH: Trump launches AI-powered government website America.gov (PBS NewsHour, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "PBS NewsHour",
+      "axis": "Other",
+      "tags": [
+        "PBS NewsHour",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "PBS NewsHour",
+      "source": "PBS NewsHour",
+      "sourceUrl": "https://www.pbs.org/newshour/politics/watch-trump-launches-ai-powered-government-website-america-gov"
+    },
     {
       "id": "news-8m85ag",
       "kind": "news",
@@ -140,6 +866,25 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/administration/6117752-luke-pettit-treasury-departure/"
+    },
+    {
+      "id": "news-dq53ry",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T15:43:39.000Z",
+      "description": "Democrats' big lead, Independents' lean, and more: September 25 - 28, 2026 Economist / YouGov Poll - YouGov (YouGov, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "YouGov",
+      "axis": "Other",
+      "tags": [
+        "YouGov",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "YouGov",
+      "source": "YouGov",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPN1VHQlNrLWdTRTdQenoxQlB1aEs3OFB2Um5mLWpFb3J5cjdGZmRFeFFITGZlcWdaQ1VoR2ZNNE4zQ1VkeHpfZzZKU3FGQkVJNU1MbmhybFlNZFhDMXoyNlRYcTd2RUpjN19IWEJSU1U0cjJDcnhZZk8wWmZ6WWJhTDRtUWNUcndwZ0JManp5ZW9JU2trMXZNdzJ3bXBoYTAxTTgtS2pURUlqTUp2QW44cUhic0xqcnpwRzR1eU9jTXN2Y053WVJN?oc=5"
     },
     {
       "id": "news-19biksz",
@@ -298,6 +1043,25 @@
       "sourceUrl": "https://thehill.com/opinion/energy-environment/6115950-governors-tackle-rising-electricity-costs/"
     },
     {
+      "id": "news-1pmwo0a",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T14:28:46.000Z",
+      "description": "Background checks should be mandatory for Hill staff, Cammack says (Roll Call, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Roll Call",
+      "axis": "Other",
+      "tags": [
+        "Roll Call",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Roll Call",
+      "source": "Roll Call",
+      "sourceUrl": "https://rollcall.com/2026/09/29/background-checks-hill-staff-cammack/"
+    },
+    {
       "id": "news-14obu3c",
       "kind": "news",
       "date": "2026-09-29",
@@ -393,23 +1157,23 @@
       "sourceUrl": "https://www.axios.com/2026/09/29/trump-ai-meeting-list-ceos-johnson"
     },
     {
-      "id": "news-1upnvm",
+      "id": "news-svjzx3",
       "kind": "news",
       "date": "2026-09-29",
-      "isoDate": "2026-09-29T13:35:06.000Z",
-      "description": "Live updates: Jack Smith faces Senate scrutiny; Trump to unveil federal AI tool (The Hill, 2026-09-29. Headline + link only.)",
+      "isoDate": "2026-09-29T13:36:56.000Z",
+      "description": "Jack Smith pressed on DOJ probes — and basketball (Roll Call, 2026-09-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Hill",
+      "actor": "Roll Call",
       "axis": "Other",
       "tags": [
-        "The Hill",
+        "Roll Call",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6116612-live-updates-trump-ai-jack-smith-senate-healthcare-affordability/"
+      "locationStr": "Roll Call",
+      "source": "Roll Call",
+      "sourceUrl": "https://rollcall.com/2026/09/29/jack-smith-pressed-on-doj-probes-and-basketball/"
     },
     {
       "id": "news-1ly9lkt",
@@ -587,23 +1351,23 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLUxwYUxlVHliQXhxNlpLeXJGdWJEVzFUUnkyTS1SQTVKQUN0QVlKNlg3TElUVDV5WEdqY3dVSUhudFhUdGpYWVRNRTVjVjZxeEgzWEdxOFN2N1hpRFNkb0xHald0d1Z5NUNKU3N4U044cjBTWi1hbmxJeEdPbXJaSjdNRTlBMldZaGs2am53al9aelVhVFVETDk2ckNnWk9TNXBFVlgzczBscFNBQjJnUHdaLW8tUQ?oc=5"
     },
     {
-      "id": "news-15zev9z",
+      "id": "news-1eljh61",
       "kind": "news",
       "date": "2026-09-29",
-      "isoDate": "2026-09-29T12:15:44.000Z",
-      "description": "Who will win the 2026 midterm elections? Polls and predictions - The Times (The Times, 2026-09-29. Headline + link only.)",
+      "isoDate": "2026-09-29T12:00:00.000Z",
+      "description": "Can the Polls Possibly Be Right? - The Atlantic (The Atlantic, 2026-09-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Times",
+      "actor": "The Atlantic",
       "axis": "Other",
       "tags": [
-        "The Times",
+        "The Atlantic",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Times",
-      "source": "The Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5"
+      "locationStr": "The Atlantic",
+      "source": "The Atlantic",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNllUQzhneDU4WFUtQVVrRXhwdm1lYV9nczFDZ0VwRUVna1FlUmNva1BzbGp4TEttRnF3a29oQ2dZaC1YemRWOFZydFNZWkQ4Tk1ic2ViTTlndV9scDA5dXhTQVBJNGpyc3dRR3M3ejR0NzZUai1jQXR3ckJ4MDZTUnFNS1ZkQVNucmRN?oc=5"
     },
     {
       "id": "news-v3l8z6",
@@ -686,46 +1450,23 @@
       "sourceUrl": "https://www.politico.com/live-updates/2026/09/29/congress/jack-smiths-testimony-01096517"
     },
     {
-      "id": "news-1m0s9s6",
+      "id": "news-1mdz3yp",
       "kind": "news",
       "date": "2026-09-29",
-      "isoDate": "2026-09-29T10:49:33.000Z",
-      "description": "FLIPR 2026 midterm election forecast - Silver Bulletin (Silver Bulletin, 2026-09-29. Headline + link only.)",
+      "isoDate": "2026-09-29T10:09:12.000Z",
+      "description": "Colorado voters could see more poll monitors during the midterm election - Colorado Newsline (Colorado Newsline, 2026-09-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Silver Bulletin",
+      "actor": "Colorado Newsline",
       "axis": "Other",
       "tags": [
-        "Silver Bulletin",
+        "Colorado Newsline",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Silver Bulletin",
-      "source": "Silver Bulletin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5"
-    },
-    {
-      "id": "news-51ce6y",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T10:42:00.000Z",
-      "description": "Election Dispatches:: Paxton, Trailing Talarico in Polls, Tacks Toward the Center in Texas - The New York Times (The New York Times, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EeEs0aGJkLXI1WnFoa2ctMENmcnJwckRKM1czQUprTUJVVHROd213UXdHZFAydGtxd2xaaHlCSHBlSDVld2Y3WlhWOFdwSFpmWG1wLVBUNVphcG9oYld0aDRyVVc2d2ZraWxTNw?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+      "locationStr": "Colorado Newsline",
+      "source": "Colorado Newsline",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmUWJmTzhYZ2s3QjJnbzZGd0dRcENEdlItb3BSRjNoMEluZG4wWWlnbWJQNm91UFVwTUNaWHRQOWRrdVZFdzlROWtQeVBhLUFQWDZVd1hlbnlPWG1NRy1uYW9wOXRfMXV5dHoxa01falNJWmZqajRn?oc=5"
     },
     {
       "id": "news-14pf0xf",
@@ -785,29 +1526,6 @@
       "sourceUrl": "https://thehill.com/homenews/senate/6116565-senate-gop-criticize-government-ads/"
     },
     {
-      "id": "news-6bbf8r",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T09:41:46.000Z",
-      "description": "Latest Senate Polls: Midterm Elections 2026 - The New York Times (The New York Times, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
-    },
-    {
       "id": "news-1a8rri3",
       "kind": "news",
       "date": "2026-09-29",
@@ -829,6 +1547,25 @@
       "lat": 41.92167,
       "lng": -93.31227,
       "coordsNote": "OSM geocode: matched \"Iowa\" → Iowa, United States; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-wij0cn",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T09:10:19.000Z",
+      "description": "How 2026 midterm election polling data is collected by NBC News - NBC News (NBC News, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYlVkeUxRRkFOM0NzUTVQT3RZOGd1ZmZsVFhNWjlFQnJ2MEh0SUJ0aEhZYVlERlMwTVBpY25vUlF4VEFDODhHNXd6emRaMmxPTWhkcVJtTExWa3VUTlpQWVB2aWt6Vkpyanh4UjJkZm1yT0VlY3ZGeHA2U3N0RG5lVjRMdlY5OEU?oc=5"
     },
     {
       "id": "news-19t4h2n",
@@ -48943,1332 +49680,6 @@
         "goldstein": -4.4,
         "tone": -8.37,
         "mentions": 3,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325451979",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Africa → Unspecified near Hawaii, United States. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 21.1098,
-      "lng": -157.531,
-      "action": "Coercion (GDELT 172)",
-      "actor": "Africa",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Hawaii, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.guitarworld.com/gear/acoustic-guitars/neck-to-body-join-impact-on-acoustic-guitar",
-      "gdelt": {
-        "globalEventId": "1325451979",
-        "eventCode": "172",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": 0.77,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452032",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Reduced relations — Producer → Writer near Arizona, United States. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 33.7712,
-      "lng": -111.388,
-      "action": "Reduced relations (GDELT 160)",
-      "actor": "Producer",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Reduced relations"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Arizona, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://newpol.org/proles-a-story-of-post-sixties-salting-among-the-salt-of-the-earth/",
-      "gdelt": {
-        "globalEventId": "1325452032",
-        "eventCode": "160",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -4,
-        "tone": -4.2,
-        "mentions": 3,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452088",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Police → Unspecified near Duval County, Florida, United States. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 30.3569,
-      "lng": -81.6315,
-      "action": "Coercion (GDELT 172)",
-      "actor": "Police",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Duval County, Florida, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wlrn.org/government-politics/2026-09-29/how-ai-powered-bungling-by-florida-cops-cost-a-father-his-freedom-and-45-000",
-      "gdelt": {
-        "globalEventId": "1325452088",
-        "eventCode": "172",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.38,
-        "mentions": 10,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452089",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Police → Unspecified near Jacksonville, Florida, United States. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 30.3322,
-      "lng": -81.6556,
-      "action": "Coercion (GDELT 172)",
-      "actor": "Police",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Jacksonville, Florida, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wlrn.org/government-politics/2026-09-29/how-ai-powered-bungling-by-florida-cops-cost-a-father-his-freedom-and-45-000",
-      "gdelt": {
-        "globalEventId": "1325452089",
-        "eventCode": "172",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.38,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452090",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Prison → Unspecified near Jacksonville, Florida, United States. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 30.3322,
-      "lng": -81.6556,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Prison",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Jacksonville, Florida, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wlrn.org/government-politics/2026-09-29/how-ai-powered-bungling-by-florida-cops-cost-a-father-his-freedom-and-45-000",
-      "gdelt": {
-        "globalEventId": "1325452090",
-        "eventCode": "173",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.38,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452091",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Prison → Unspecified near Florida, United States. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 27.8333,
-      "lng": -81.717,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Prison",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Florida, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wlrn.org/government-politics/2026-09-29/how-ai-powered-bungling-by-florida-cops-cost-a-father-his-freedom-and-45-000",
-      "gdelt": {
-        "globalEventId": "1325452091",
-        "eventCode": "173",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.38,
-        "mentions": 6,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452107",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Prison → Judge near Jacksonville, Florida, United States. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 30.3322,
-      "lng": -81.6556,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Prison",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Jacksonville, Florida, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wlrn.org/government-politics/2026-09-29/how-ai-powered-bungling-by-florida-cops-cost-a-father-his-freedom-and-45-000",
-      "gdelt": {
-        "globalEventId": "1325452107",
-        "eventCode": "173",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.38,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452108",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Prison → Judge near Florida, United States. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 27.8333,
-      "lng": -81.717,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Prison",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Florida, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wlrn.org/government-politics/2026-09-29/how-ai-powered-bungling-by-florida-cops-cost-a-father-his-freedom-and-45-000",
-      "gdelt": {
-        "globalEventId": "1325452108",
-        "eventCode": "173",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.38,
-        "mentions": 6,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452159",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Protest — Community → Unspecified near Florida, United States. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 27.8333,
-      "lng": -81.717,
-      "action": "Protest (GDELT 141)",
-      "actor": "Community",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Protest"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Florida, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wlrn.org/florida-news/2026-09-29/how-the-florida-public-service-commission-affects-what-you-pay-for-electricity",
-      "gdelt": {
-        "globalEventId": "1325452159",
-        "eventCode": "141",
-        "geoType": 2,
-        "quadClass": 3,
-        "goldstein": -6.5,
-        "tone": 0.22,
-        "mentions": 6,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452161",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Small Town → Unspecified near Massachusetts, United States. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 42.2373,
-      "lng": -71.5314,
-      "action": "Coercion (GDELT 172)",
-      "actor": "Small Town",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Massachusetts, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.afr.com/world/north-america/the-small-town-lesbian-bar-that-was-devoured-by-wokeness-20260929-p611ev",
-      "gdelt": {
-        "globalEventId": "1325452161",
-        "eventCode": "172",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -3.33,
-        "mentions": 10,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452162",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Landowner → Unspecified near Missouri, United States. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 38.4623,
-      "lng": -92.302,
-      "action": "Coercion (GDELT 172)",
-      "actor": "Landowner",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Missouri, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wyomingnews.com/laramieboomerang/laramieboomerang/news/trump-orders-plans-to-unlock-isolated-public-land-revise-river-trip-permitting/article_652b127c-f78c-4e45-a792-6463683c58a1.html",
-      "gdelt": {
-        "globalEventId": "1325452162",
-        "eventCode": "172",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -2.17,
-        "mentions": 5,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452163",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Landowner → Unspecified near Wyoming, United States. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 42.7475,
-      "lng": -107.209,
-      "action": "Coercion (GDELT 172)",
-      "actor": "Landowner",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Wyoming, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wyomingnews.com/laramieboomerang/laramieboomerang/news/trump-orders-plans-to-unlock-isolated-public-land-revise-river-trip-permitting/article_652b127c-f78c-4e45-a792-6463683c58a1.html",
-      "gdelt": {
-        "globalEventId": "1325452163",
-        "eventCode": "172",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -2.17,
-        "mentions": 5,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452184",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Citizen → Columbus near Columbus, Ohio, United States. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 39.9612,
-      "lng": -82.9988,
-      "action": "Coercion (GDELT 172)",
-      "actor": "Citizen",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Columbus, Ohio, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.akronlegalnews.com/editorial/39078",
-      "gdelt": {
-        "globalEventId": "1325452184",
-        "eventCode": "172",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -2.03,
-        "mentions": 8,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452260",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Reduced relations — Actor → Unspecified near Arizona, United States. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 33.7712,
-      "lng": -111.388,
-      "action": "Reduced relations (GDELT 160)",
-      "actor": "Actor",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Reduced relations"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Arizona, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://newpol.org/proles-a-story-of-post-sixties-salting-among-the-salt-of-the-earth/",
-      "gdelt": {
-        "globalEventId": "1325452260",
-        "eventCode": "160",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -4,
-        "tone": -4.2,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452261",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Reduced relations — Actor → United States near Berkeley, California, United States. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 37.8716,
-      "lng": -122.273,
-      "action": "Reduced relations (GDELT 160)",
-      "actor": "Actor",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Reduced relations"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Berkeley, California, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://newpol.org/proles-a-story-of-post-sixties-salting-among-the-salt-of-the-earth/",
-      "gdelt": {
-        "globalEventId": "1325452261",
-        "eventCode": "160",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -4,
-        "tone": -4.2,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452262",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Reduced relations — Actor → United States near Arizona, United States. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 33.7712,
-      "lng": -111.388,
-      "action": "Reduced relations (GDELT 160)",
-      "actor": "Actor",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Reduced relations"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Arizona, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://newpol.org/proles-a-story-of-post-sixties-salting-among-the-salt-of-the-earth/",
-      "gdelt": {
-        "globalEventId": "1325452262",
-        "eventCode": "160",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -4,
-        "tone": -4.2,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452375",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Threat — President → Unspecified near Iowa, United States. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 42.0046,
-      "lng": -93.214,
-      "action": "Threat (GDELT 130)",
-      "actor": "President",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Iowa, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.nbcchicago.com/news/national-international/jack-smith-testifies-senate-hearing-trump-indictments/3995166/",
-      "gdelt": {
-        "globalEventId": "1325452375",
-        "eventCode": "130",
-        "geoType": 2,
-        "quadClass": 3,
-        "goldstein": -4.4,
-        "tone": -4.53,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452499",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — European Commission → Media near United States. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 39.82818,
-      "lng": -98.5795,
-      "action": "Coercion (GDELT 172)",
-      "actor": "European Commission",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.theepochtimes.com/world/france-wants-eu-to-use-googles-5-billion-fine-to-cut-member-state-budget-payments-6096217",
-      "gdelt": {
-        "globalEventId": "1325452499",
-        "eventCode": "172",
-        "geoType": 1,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -3.68,
-        "mentions": 3,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452534",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Protest — International Community → Unspecified near United States. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 39.82818,
-      "lng": -98.5795,
-      "action": "Protest (GDELT 141)",
-      "actor": "International Community",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Protest"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "http://www.prnewswire.com/news-releases/insight-global-family-foundation-expands-to-support-employees-in-six-new-countries-302892977.html",
-      "gdelt": {
-        "globalEventId": "1325452534",
-        "eventCode": "141",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -6.5,
-        "tone": 5.57,
-        "mentions": 5,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452680",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Judge → Unspecified near Duval County, Florida, United States. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 30.3569,
-      "lng": -81.6315,
-      "action": "Coercion (GDELT 172)",
-      "actor": "Judge",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Duval County, Florida, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wlrn.org/government-politics/2026-09-29/how-ai-powered-bungling-by-florida-cops-cost-a-father-his-freedom-and-45-000",
-      "gdelt": {
-        "globalEventId": "1325452680",
-        "eventCode": "172",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.38,
-        "mentions": 10,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452685",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Prosecutor → Criminal near Cornell University, New York, United States. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 42.447,
-      "lng": -76.483,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Prosecutor",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Cornell University, New York, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://2.boredpanda.com/former-south-park-writer-creates-website-to-expose-alleged-criminals/",
-      "gdelt": {
-        "globalEventId": "1325452685",
-        "eventCode": "173",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.82,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452728",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Threat — Parliament → Iran near United States. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 39.82818,
-      "lng": -98.5795,
-      "action": "Threat (GDELT 138)",
-      "actor": "Parliament",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://dailythepatriot.com/if-our-security-is-not-ensured-no-infrastructure-in-the-region-will-be-safe/",
-      "gdelt": {
-        "globalEventId": "1325452728",
-        "eventCode": "138",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -7,
-        "tone": 0.57,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452729",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Republicans → Worker near Berkeley, California, United States. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 37.8716,
-      "lng": -122.273,
-      "action": "Coercion (GDELT 174)",
-      "actor": "Republicans",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Berkeley, California, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://newpol.org/proles-a-story-of-post-sixties-salting-among-the-salt-of-the-earth/",
-      "gdelt": {
-        "globalEventId": "1325452729",
-        "eventCode": "174",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -4.2,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452730",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Republicans → Worker near New Mexico, United States. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 34.8375,
-      "lng": -106.237,
-      "action": "Coercion (GDELT 174)",
-      "actor": "Republicans",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "New Mexico, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://newpol.org/proles-a-story-of-post-sixties-salting-among-the-salt-of-the-earth/",
-      "gdelt": {
-        "globalEventId": "1325452730",
-        "eventCode": "174",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -4.2,
-        "mentions": 8,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325452737",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Republicans → United States near Maryland, United States. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 39.0724,
-      "lng": -76.7902,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Republicans",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Maryland, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.premiumtimesng.com/news/headlines/913243-atiku-speaks-on-premium-times-report-on-international-corruption-cases-involving-him-ex-wife.html",
-      "gdelt": {
-        "globalEventId": "1325452737",
-        "eventCode": "173",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.43,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453111",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Force posture — United States → Unspecified near Maine, United States. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 44.6074,
-      "lng": -69.3977,
-      "action": "Force posture (GDELT 151)",
-      "actor": "United States",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Force posture"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Maine, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.theblaze.com/news/maine-ice-prison-guards-migrants",
-      "gdelt": {
-        "globalEventId": "1325453111",
-        "eventCode": "151",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -7.2,
-        "tone": -4.9,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453112",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Kentucky → Unspecified near Kentucky, United States. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 37.669,
-      "lng": -84.6514,
-      "action": "Coercion (GDELT 1712)",
-      "actor": "Kentucky",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Kentucky, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.winnipegfreepress.com/arts-and-life/life/greenpage/2026/09/29/millions-who-need-flood-insurance-the-most-dont-have-it-as-flawed-federal-program-raises-prices",
-      "gdelt": {
-        "globalEventId": "1325453112",
-        "eventCode": "1712",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -9.2,
-        "tone": -6.07,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453113",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — United States → Unspecified near Columbus, Ohio, United States. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 39.9612,
-      "lng": -82.9988,
-      "action": "Coercion (GDELT 172)",
-      "actor": "United States",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Columbus, Ohio, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.akronlegalnews.com/editorial/39078",
-      "gdelt": {
-        "globalEventId": "1325453113",
-        "eventCode": "172",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -2.03,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453114",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — United States → Unspecified near Jacksonville, Florida, United States. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 30.3322,
-      "lng": -81.6556,
-      "action": "Coercion (GDELT 173)",
-      "actor": "United States",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Jacksonville, Florida, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wlrn.org/government-politics/2026-09-29/how-ai-powered-bungling-by-florida-cops-cost-a-father-his-freedom-and-45-000",
-      "gdelt": {
-        "globalEventId": "1325453114",
-        "eventCode": "173",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.38,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453115",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Tennessee → Unspecified near Kentucky, United States. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 37.669,
-      "lng": -84.6514,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Tennessee",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Kentucky, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://wabx.net/2026/09/29/1167091/",
-      "gdelt": {
-        "globalEventId": "1325453115",
-        "eventCode": "173",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -9.72,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453123",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — United States → Business near Seneca County, Ohio, United States. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 41.1167,
-      "lng": -83.1166,
-      "action": "Coercion (GDELT 173)",
-      "actor": "United States",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Seneca County, Ohio, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://wham1180.iheart.com/content/2026-09-29-former-pab-attorney-faces-federal-charges-in-ohio/",
-      "gdelt": {
-        "globalEventId": "1325453123",
-        "eventCode": "173",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -9.56,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453138",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — United States → Police near Duval County, Florida, United States. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 30.3569,
-      "lng": -81.6315,
-      "action": "Coercion (GDELT 172)",
-      "actor": "United States",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Duval County, Florida, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wlrn.org/government-politics/2026-09-29/how-ai-powered-bungling-by-florida-cops-cost-a-father-his-freedom-and-45-000",
-      "gdelt": {
-        "globalEventId": "1325453138",
-        "eventCode": "172",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.38,
-        "mentions": 6,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453139",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — United States → Police near Jacksonville, Florida, United States. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 30.3322,
-      "lng": -81.6556,
-      "action": "Coercion (GDELT 172)",
-      "actor": "United States",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Jacksonville, Florida, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wlrn.org/government-politics/2026-09-29/how-ai-powered-bungling-by-florida-cops-cost-a-father-his-freedom-and-45-000",
-      "gdelt": {
-        "globalEventId": "1325453139",
-        "eventCode": "172",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.38,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453140",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Michigan → Prison near Detroit, Michigan, United States. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 42.3314,
-      "lng": -83.0458,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Michigan",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 3); verify via source article.",
-      "locationStr": "Detroit, Michigan, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.theepochtimes.com/us/man-sentenced-to-2-years-for-2-3-million-pandemic-relief-fraud-6096220",
-      "gdelt": {
-        "globalEventId": "1325453140",
-        "eventCode": "173",
-        "geoType": 3,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -8.33,
-        "mentions": 10,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453148",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Protest — United States → Community near Florida, United States. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 27.8333,
-      "lng": -81.717,
-      "action": "Protest (GDELT 141)",
-      "actor": "United States",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Protest"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Florida, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wlrn.org/florida-news/2026-09-29/how-the-florida-public-service-commission-affects-what-you-pay-for-electricity",
-      "gdelt": {
-        "globalEventId": "1325453148",
-        "eventCode": "141",
-        "geoType": 2,
-        "quadClass": 3,
-        "goldstein": -6.5,
-        "tone": 0.22,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453186",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — A Us → Republicans near Maryland, United States. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 39.0724,
-      "lng": -76.7902,
-      "action": "Coercion (GDELT 173)",
-      "actor": "A Us",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Maryland, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.premiumtimesng.com/news/headlines/913243-atiku-speaks-on-premium-times-report-on-international-corruption-cases-involving-him-ex-wife.html",
-      "gdelt": {
-        "globalEventId": "1325453186",
-        "eventCode": "173",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.43,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453187",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — A Us → Republicans near Maryland, United States. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 39.0724,
-      "lng": -76.7902,
-      "action": "Coercion (GDELT 173)",
-      "actor": "A Us",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Maryland, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.premiumtimesng.com/news/headlines/913243-atiku-speaks-on-premium-times-report-on-international-corruption-cases-involving-him-ex-wife.html",
-      "gdelt": {
-        "globalEventId": "1325453187",
-        "eventCode": "173",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.43,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453211",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — Tennessee → United States near Kentucky, United States. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 37.669,
-      "lng": -84.6514,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Tennessee",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Kentucky, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://wabx.net/2026/09/29/1167091/",
-      "gdelt": {
-        "globalEventId": "1325453211",
-        "eventCode": "173",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -9.72,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325453222",
-      "kind": "event",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T00:00:00.000Z",
-      "observedAt": "2026-09-29T14:15:00.000Z",
-      "description": "Coercion — A Us → United States near Maryland, United States. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 39.0724,
-      "lng": -76.7902,
-      "action": "Coercion (GDELT 173)",
-      "actor": "A Us",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 2); verify via source article.",
-      "locationStr": "Maryland, United States",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.premiumtimesng.com/news/headlines/913243-atiku-speaks-on-premium-times-report-on-international-corruption-cases-involving-him-ex-wife.html",
-      "gdelt": {
-        "globalEventId": "1325453222",
-        "eventCode": "173",
-        "geoType": 2,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -5.43,
-        "mentions": 2,
         "sources": 1
       }
     }
