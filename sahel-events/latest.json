@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-09-29T15:00:37.046Z",
+  "collectedAt": "2026-09-29T16:09:43.830Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 28
+      "count": 1
     },
     {
       "id": "aa-mali",
@@ -33,9 +33,9 @@
     {
       "id": "gnews-sahel",
       "url": "https://news.google.com/rss/search?q=Sahel%20Mali%20Burkina%20Niger&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-sahel request failed with HTTP 503"
     },
     {
       "id": "rfi-africa",
@@ -47,16 +47,16 @@
     {
       "id": "france24-africa",
       "url": "https://www.france24.com/en/africa/rss",
-      "status": "ok",
+      "status": "failed",
       "count": 0,
-      "filtered": 30
+      "error": "RSS france24-africa request failed with HTTP 404"
     },
     {
       "id": "bbc-africa",
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
-      "count": 2,
-      "filtered": 27
+      "count": 1,
+      "filtered": 28
     },
     {
       "id": "africanews",
@@ -70,28 +70,28 @@
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 0,
-      "filtered": 2
+      "filtered": 3
     },
     {
       "id": "gnews-jnim",
       "url": "https://news.google.com/rss/search?q=Mali%20Bamako%20JNIM%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-jnim request failed with HTTP 503"
     },
     {
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-burkina request failed with HTTP 503"
     },
     {
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 46,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-niger request failed with HTTP 503"
     },
     {
       "id": "reliefweb",
