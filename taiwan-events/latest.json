@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-09-30T04:45:54.863Z",
+  "collectedAt": "2026-09-30T06:02:41.979Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 10
+      "count": 1
     },
     {
       "id": "taipei-times",
@@ -42,14 +42,14 @@
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
       "count": 3,
-      "filtered": 8
+      "filtered": 9
     },
     {
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 14,
-      "filtered": 36
+      "count": 13,
+      "filtered": 37
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 43,
+      "count": 42,
       "filtered": 0
     },
     {
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 384,
+  "count": 386,
   "events": [
+    {
+      "id": "news-2y414v",
+      "kind": "news",
+      "date": "2026-09-30",
+      "isoDate": "2026-09-30T04:42:59.000Z",
+      "description": "South Korea made no military aid pledge to Ukraine over transfer of North Koreans: Lawmaker (Straits Times, 2026-09-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/south-korea-made-no-military-aid-pledge-to-ukraine-over-transfer-of-north-koreans-lawmaker-says"
+    },
     {
       "id": "news-q3v254",
       "kind": "news",
@@ -609,6 +628,40 @@
       }
     },
     {
+      "id": "gdelt-1325565574",
+      "kind": "event",
+      "date": "2026-09-30",
+      "isoDate": "2026-09-30T00:00:00.000Z",
+      "observedAt": "2026-09-30T05:45:00.000Z",
+      "description": "Demand — Chunghwa Telecom → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Demand (GDELT 100)",
+      "actor": "Chunghwa Telecom",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.digitimes.com/news/a20260929PR200.html",
+      "gdelt": {
+        "globalEventId": "1325565574",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -5.04,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-1mifk6r",
       "kind": "news",
       "date": "2026-09-29",
@@ -689,18 +742,18 @@
       "kind": "news",
       "date": "2026-09-29",
       "isoDate": "2026-09-29T15:25:16.000Z",
-      "description": "Taiwan says US arms sales to island are unchanged, but a $14B package remains on hold - sun-sentinel.com (sun-sentinel.com, 2026-09-29. Headline + link only.)",
+      "description": "Taiwan says US arms sales to island are unchanged, but a $14B package remains on hold - Sun Sentinel (Sun Sentinel, 2026-09-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "sun-sentinel.com",
+      "actor": "Sun Sentinel",
       "axis": "Other",
       "tags": [
-        "sun-sentinel.com",
+        "Sun Sentinel",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "sun-sentinel.com",
-      "source": "sun-sentinel.com",
+      "locationStr": "Sun Sentinel",
+      "source": "Sun Sentinel",
       "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wUG1XNFVhVFRaWkpKOUxHT2tPS2JabnB4R3o0d29oT1hHWHBWNXpXRUVMYV9FamVwbkU3LVJWMjNfdlc0ckZsaVFaVGZIZFFJcl95WGVBZUVIS1Q4bmt2V2xjWDZyRXJUOHNORENVSG1xcUNq?oc=5"
     },
     {
@@ -4336,6 +4389,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeXdtME9sYzBTcEhXd3Q2dzZnSnZZTV9CWFBnVGg4bDRTdmREcFpvRWJIZklOY0txOFpLZEN5YlNidi1GMDdyX2JNWS1hcDY3aHl4cnA0ZGhnWlF5YVJJVnBHVU9saUt1cGc2WWNGUnRwRlJpS0ZVZWx1TDlmelpyMVFIcG5JR1JlX3c5SVRFVnRrVDNoV25uY1NDSjBCOHZXc0lOUWFITmxBX005R25MbnpvOHRSLV9EU2owSU9hTmoyY2s4dEh3YW4wOUQxSjJaU3ZV0gHTAUFVX3lxTE15d20wT2xjMFNwSFd3dDZ3NmdKdllNX0JYUGdUaDhsNFN2ZERwWm9FYkhmSU5jS3E4WktkQ3liU2J2LUYwN3JfYk1ZLWFwNjdoeXhycDRkaGdaUXlhUklWcEdVT2xpS3VwZzZZY0ZSdHBGUmlLRlVlbHVMOWZ6WnIxUUhwbklHUmVfdzlJVEVWdGtUM2hXbm5jU0NKMEI4dldzSU5RYUhObEFfTTlHbkxuem84dFItX0RTajBJT2FOajJjazh0SHdhbjA5RDFKMlpTdlU?oc=5"
     },
     {
+      "id": "news-qyatbq",
+      "kind": "news",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T20:03:45.000Z",
+      "description": "Trump asked China's Xi if he wanted to buy US arms, State Department clarifies law - WBMA (WBMA, 2026-09-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WBMA",
+      "axis": "Other",
+      "tags": [
+        "WBMA",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WBMA",
+      "source": "WBMA",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOS09yenEzNjJuMHRLTWlNejFYRmtyQVdxVkFKV0NTQkhORVVxUWlFMGU3UEpjNUxwVWN5TE5feHlfTXBuZEExeXAwSUZEUWt0ZXp2M3pkTGplcnBGTEwtNVhFNko3MTJjeEs3aWRESkJGNHhhZEJwdmZxbHBCb3RqZE85aDVlakxEbzgxX28tdDNZOWhkcFpRY3JobWowLU02WGhSdUlDU3AyXzFubXNITDdwbXdDUkpHNkhpVUZrOE5xVDd1WFVDcU8ta01lWjlyM2tOV1l2c3NNUGtrUUZONHBrTmNqR09CaGZ5UFZac0dLRUZ5aEJxR1ByNG55aUVWb3FGNk9MWkNPYVpjVkpuT3VycDZiTzBiTXBfeXRYUTdIMUVLRTdRdw?oc=5"
+    },
+    {
       "id": "news-13zzm93",
       "kind": "news",
       "date": "2026-09-28",
@@ -5001,6 +5073,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VYXNpbHJyajBhcVhEUFNqNTZLc1FoR05jY2tnbWFtaW95a1hGa05EclFueEczakNrb3RLcmI0OE5MbVM5YWtmb29nX2Y5T0RJandTZDZIeHRyYjA0LUdDYXVjc2c4dHVwQV8zejA5U3Z6cEtw?oc=5"
     },
     {
+      "id": "news-13336ik",
+      "kind": "news",
+      "date": "2026-09-28",
+      "isoDate": "2026-09-28T13:25:27.000Z",
+      "description": "Trump disputes his ambassador’s account that he asked China’s president if he wanted to buy US arms - East Bay Times (East Bay Times, 2026-09-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "East Bay Times",
+      "axis": "Other",
+      "tags": [
+        "East Bay Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "East Bay Times",
+      "source": "East Bay Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNVW9tWVpCYXB4LWl2VDNuRWZmWW93WjhsNUN5VnBlSnE4cHh2VTNMQVU0VzhmN1c4ejJmNUpKRWM4d3lUd01fRWJXUHk1ZnpnNDM2d3EtamxzZGNfU1ZrdGFoUlloRm9fV3BPTjhDV0VWNGRZWVgwU1JJZmZQZlM4OG1kTW1XOFl3NXMyR3BKX0RaRXM4bGVLRU9ucWdOakZnQTVxRGdyYUNPVE9zN1JPb09Udlp0aHpJcVY2TTkxZlJpTXE5aS1zUXVEOVZPcWVwYlhWOXBmSmJBOG5CWC1xWE04UjdQVFlkOWRMbUE5Rm9oQnRxQWJ3LWdHLW1iNW5FMkFkcTRxRF9QQdIBjwJBVV95cUxPS0JFRnJXa194bXdiT3pHcEhYOTdTdXJSTzNrQVNBTFhLUFpnWmNPaHNQNmFwVFdBNDNjYXhPV284NDhtakRhTFJoeV9ZVVRoNGxPdFVMTFR6S1BoWm9GRXdKVFAwVS1GdUJHM3lCN3h1bHBkYmlLMGlTc1E1dWRTVzBiRk5fMU5UaTNXUW5QVDBNemxZM2RMZW5OQk5jUWN4OXBaR195RHBQWElaTGQzUUUycG1FOXBnZDE1VkR0LTZzUXdPRVVjMFMzZ3NwdEFBUTdLQ2NWYVdhOWZnWEl6NkNXajRmb1Y0NWNDekdGSnpWcUI5X3BsVEdJcDlvOHVxZHgxR2RnNVJZbEVpLXpJ?oc=5"
+    },
+    {
       "id": "news-15uzp7r",
       "kind": "news",
       "date": "2026-09-28",
@@ -5290,18 +5381,18 @@
       "kind": "news",
       "date": "2026-09-28",
       "isoDate": "2026-09-28T10:59:22.000Z",
-      "description": "Trump offered to sell arms to Xi: US ambassador to Fox News - Hong Kong Free Press HKFP (Hong Kong Free Press HKFP, 2026-09-28. Headline + link only.)",
+      "description": "Trump offered to sell arms to Xi: US ambassador to Fox News - hongkongfp.com (hongkongfp.com, 2026-09-28. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Hong Kong Free Press HKFP",
+      "actor": "hongkongfp.com",
       "axis": "Other",
       "tags": [
-        "Hong Kong Free Press HKFP",
+        "hongkongfp.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Hong Kong Free Press HKFP",
-      "source": "Hong Kong Free Press HKFP",
+      "locationStr": "hongkongfp.com",
+      "source": "hongkongfp.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZVJ0Z2x3cWNtTGFuTzVrSTZXZE00anNzdHppRVVCNVZQTTQ0bWNMVGJ6NDBsMV9CdVp0UExYOHYzOUw3ckFITUxZZGNNMmtNY0V3VF9RUlNXNnlMN3JYelBpcngxMVBqVzdicWhiNjNPUmdHeXV6X2NZQVdUNi1SWDhUUWRnY1pLcERJMjU1LUdHaGVrVVpUTQ?oc=5"
     },
     {
@@ -5841,18 +5932,18 @@
       "kind": "news",
       "date": "2026-09-28",
       "isoDate": "2026-09-28T02:28:44.000Z",
-      "description": "Trump asked China’s president if he wants to buy US arms, ambassador says - myMotherLode.com (myMotherLode.com, 2026-09-28. Headline + link only.)",
+      "description": "Trump asked China’s president if he wants to buy US arms, ambassador says - mymotherlode.com (mymotherlode.com, 2026-09-28. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "myMotherLode.com",
+      "actor": "mymotherlode.com",
       "axis": "Other",
       "tags": [
-        "myMotherLode.com",
+        "mymotherlode.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "myMotherLode.com",
-      "source": "myMotherLode.com",
+      "locationStr": "mymotherlode.com",
+      "source": "mymotherlode.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWGliVWxiVHZZaEx6eXBlU3dwMVpDbjFrUzVKX19MUTA3bk8wZlAwdndxYlN2VXFyOVJ5M0JNc1Y2M3c5dGpFYlM2WThIdjNKU1B0Wlp4MEd3VEc5bmQwYmp4T0NLQ2NlWHhtWVhRNUJmdHhpc3pEQ3I4eHdDcGx3bEU5NlE1SE5sUElaVXExclh4dHZ5RnZmeDhPR2tRWkUzT1JiZGtZLXBLWXJtcWNadjVaalh4Sk1Jb0hqOXdwYzJZVnN6TXY00gHHAUFVX3lxTE5YaWJVbGJUdlloTHp5cGVTd3AxWkNuMWtTNUpfX0xRMDduTzBmUDB2d3FiU3ZVcXI5UnkzQk1zVjYzdzl0akViUzZZOEh2M0pTUHRaWngwR3dURzluZDBianhPQ0tDY2VYeG1ZWFE1QmZ0eGlzekRDcjh4d0NwbHdsRTk2UTVITmxQSVpVcTFyWHh0dnlGdmZ4OE9Ha1FaRTNPUmJka1ktcEtZcm1xY1p2NVpqWHhKTUlvSGo5d3BjMllWc3pNdjQ?oc=5"
     },
     {
@@ -5974,18 +6065,18 @@
       "kind": "news",
       "date": "2026-09-28",
       "isoDate": "2026-09-28T00:28:33.000Z",
-      "description": "Trump tells Xi US arms sales to Taiwan are routine, envoy says - India Today (India Today, 2026-09-28. Headline + link only.)",
+      "description": "Trump tells Xi US arms sales to Taiwan are routine, envoy says - indiatoday.in (indiatoday.in, 2026-09-28. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "India Today",
+      "actor": "indiatoday.in",
       "axis": "Other",
       "tags": [
-        "India Today",
+        "indiatoday.in",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "India Today",
-      "source": "India Today",
+      "locationStr": "indiatoday.in",
+      "source": "indiatoday.in",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUjRDV1FFNEIxSW5PZnkzaFJoaDJ3TG9WT3hUOXo5VFQzeVhMQmJQMm41aWRwV3J0ZkhaYThxR2hpb3hnU1BFRzhSelRXV0xidXQxd0lKTXVMUmVGV1pNQmlPMjVQQVJ4UV8tWTVjN2ZSV29vMnY3SHFUQ05NODRoNHFoVmhuYXNZTU1zNnBVV053WmF3SHBQMmZzUTlMWWpySWlkNGdvQmZoal9PdTF2cUdQN2hUOGZxN2xWU1hR0gHDAUFVX3lxTE01Z0NkVXUxLXBwbkgxTndFM0J3TzVrQ0JOX3ZwampyZTlCZWxrWHdSV0c0RE1tTUpZbzh5cEZXTmVjY2xYLVBYWDk0eGJ1LUxDMmFvcmZpWnNRSUQtQlVYWkRYWG9XRHVDVWs3Q0lybzlzLW1yUWY4V0dERUswUFRLU3VoanlFWFlVOXc1OHB6a2hnT085XzhxYzFtaFlBam9iR00yeDVlMW5SMG9iUkRpMFBfOEtsUlZkdzdiM3BJdE1saw?oc=5"
     },
     {
@@ -9969,44 +10060,6 @@
       "locationStr": "DW",
       "source": "DW",
       "sourceUrl": "https://www.dw.com/en/china-sends-two-giant-pandas-off-to-atlanta-zoo-after-xi-trump-summit/a-79447128?maca=en-rss-en-asia-5133-rdf"
-    },
-    {
-      "id": "news-11pj6yc",
-      "kind": "news",
-      "date": "2026-09-27",
-      "isoDate": "2026-09-27T05:28:00.000Z",
-      "description": "Taiwan says US 'very much' understands its defence needs amid China threat - The Times of India (The Times of India, 2026-09-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Times of India",
-      "axis": "Other",
-      "tags": [
-        "The Times of India",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Times of India",
-      "source": "The Times of India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTkhhUE1USHpzM1pjMGFndWt1aGpUU1hyZkgwX0VSQk81MDd2eVc4ajhmX2tYYmhYNUdkOXBrUVU5d2x4c0hVRERUbHE2OXMxQUFJdzZneEoyMEdPSGdSU1FoRHJ4WVBEYkFxTW5FRGtDUTBBSjZkRGtNM3FpSlJyLUdsSWJfRDdGNEx4OVBFT3lSYl9OS2pJaVdxMk5haVhIVWhydldvVE1Wb0pEWDBwdzFJZ3F6WnR2ZWk5ZUQ3ZWRrcy1GQkFybFVKOTJ5eU5XOGRYbGpGbV9aU1pjZ19hV3R5RnNHcHdYRlHSAe8BQVVfeXFMTXVOMTQ3elVYS2JwVVgzdUR4OHBHQmgxMk1HQlJYdUpIR0RHc3lDcDJVZVRkTVFsMDZWNnlZSG4tQ1ZEWU5RaEtXcExQMm9rTW9rRVlTVG9SZng1ZlZrdWZQUVVvUWNfV0RONDI4TVIyalBiamN6c0VHR0lKYkJBOVJDT0ljSUdRQzdyT0Y3aDhXR2x4OTUwbmhOSWdzTHBSLWV3anR0dHdKeXBqcUJfWnNLcVFmYWZsQWhvWExodVA1VVVxVi1EVE9DUEhtOXJUTm1aTlltNUhOeG5QZFNwWkQ4UU9YcW84MU1iS3NhcEk?oc=5"
-    },
-    {
-      "id": "news-3ezme4",
-      "kind": "news",
-      "date": "2026-09-27",
-      "isoDate": "2026-09-27T05:05:00.000Z",
-      "description": "Taiwan says US understands defence needs as $14 billion arms package remains on hold - The Times of India (The Times of India, 2026-09-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Times of India",
-      "axis": "Other",
-      "tags": [
-        "The Times of India",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Times of India",
-      "source": "The Times of India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQlRabnBaanJCN2tTZTdUbVdrSmVrOXFyV2Y0NEZ2YzVuaXJuaGNqVUwxVFl5MjAyZnR3eDk3Unh0SkhxSlVOaTZ5NjVmMDZaTHZEV2txWDdZb0lpTGtBYTdBaHBlLXo1NFY4blJ6RThNWUQtTjl4TnpEVTJtSWlMSDJoMExJTEYzWjFiX0w4OHZEbXBvWmRSN1FnOF8wVmM4ZjRSblpHb01XOWdTenRFQkVFekFLdnNmT2JtaFQxRUlYblA2Zm5HM3hhRnMyQTJSTEhUS3VpV0Jxc2JIZWVnS0s3X1FacE5zbzNrZ3c1VlFjSWpyYkxPZdIB_gFBVV95cUxQMTBmWjFOQXJFUXBQYnN3MWZZem9GRW0yMFZHeXRmSVBRaEVYelBnTVhHTVNScFMxTWloOHJjRF9iQVUxdHB3MEhUUnY0VkNOUTBkaUJlRWdqZ196eG1WaExubVdXR3lXUjNFX0pIQTk0NU5zRWxXNThiWjNXaE56dmFHaVE2RWpzSnZpY0dWSDJXQVRlRmROQnpNaUJXUV83OERadVR5ckhmUDgwYWhzc25EVmpXSHFBZ3RYQWZEa3BRTXQ0dy1paTg2VlNkc3JESmVXM3BlZEt4cmdsbWJYZTlaOHpsdHM5V0lGT0R6STBVOG5tbnJqTGVGMzNhUQ?oc=5"
     }
   ]
 }
