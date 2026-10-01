@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-01T07:00:17.840Z",
+  "collectedAt": "2026-10-01T14:25:22.244Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 11
     },
     {
       "id": "aa-mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
       "status": "ok",
-      "count": 16,
+      "count": 18,
       "filtered": 0
     },
     {
@@ -62,15 +62,15 @@
       "id": "africanews",
       "url": "https://www.africanews.com/feed/",
       "status": "ok",
-      "count": 2,
-      "filtered": 48
+      "count": 3,
+      "filtered": 47
     },
     {
       "id": "dw-africa",
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 0,
-      "filtered": 5
+      "filtered": 6
     },
     {
       "id": "gnews-jnim",
@@ -90,7 +90,7 @@
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 47,
+      "count": 46,
       "filtered": 0
     },
     {
@@ -101,8 +101,88 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 176,
+  "count": 188,
   "events": [
+    {
+      "id": "news-bq655t",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T11:56:30.000Z",
+      "description": "Burkina Faso's military leaders mark four years in power (Africanews, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Africanews",
+      "axis": "Other",
+      "tags": [
+        "Africanews",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Africanews",
+      "source": "Africanews",
+      "sourceUrl": "http://www.africanews.com/2026/10/01/burkina-fasos-military-leaders-mark-four-years-in-power/"
+    },
+    {
+      "id": "news-1oo9i71",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T10:04:23.000Z",
+      "description": "Who Wins From Ukraine's Drones in Mali? (AllAfrica Mali, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AllAfrica Mali",
+      "axis": "Other",
+      "tags": [
+        "AllAfrica Mali",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Mali",
+      "source": "AllAfrica Mali",
+      "sourceUrl": "https://allafrica.com/stories/202610010227.html",
+      "lat": 16.37004,
+      "lng": -2.29002,
+      "coordsNote": "OSM geocode: matched \"Mali\" → Mali; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-br13cf",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T09:06:07.000Z",
+      "description": "Mali: more than 2,400 schools remain closed as insecurity disrupts new school year (Africanews, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Africanews",
+      "axis": "Other",
+      "tags": [
+        "Africanews",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Africanews",
+      "source": "Africanews",
+      "sourceUrl": "http://www.africanews.com/2026/10/01/mali-more-than-2400-schools-remain-closed-as-insecurity-disrupts-new-school-year/"
+    },
+    {
+      "id": "news-d8rgns",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T07:52:36.000Z",
+      "description": "Mali Warns UN of Foreign Support for Terrorism in the Sahel (AllAfrica Mali, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AllAfrica Mali",
+      "axis": "Other",
+      "tags": [
+        "AllAfrica Mali",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AllAfrica Mali",
+      "source": "AllAfrica Mali",
+      "sourceUrl": "https://allafrica.com/stories/202610010132.html"
+    },
     {
       "id": "news-pod050",
       "kind": "news",
@@ -191,6 +271,380 @@
       }
     },
     {
+      "id": "gdelt-1325766319",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T08:00:00.000Z",
+      "description": "Protest — Government → Unspecified near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Protest (GDELT 141)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://blueprint.ng/3-die-in-niger-government-house-dtampede/",
+      "gdelt": {
+        "globalEventId": "1325766319",
+        "eventCode": "141",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -5.97,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325782330",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T10:00:00.000Z",
+      "description": "Disapproval — Mali → Actor near Mali. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610010132.html",
+      "gdelt": {
+        "globalEventId": "1325782330",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.05,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325782331",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T10:00:00.000Z",
+      "description": "Disapproval — Mali → Actor near Mali. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610010132.html",
+      "gdelt": {
+        "globalEventId": "1325782331",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.05,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325782334",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T10:00:00.000Z",
+      "description": "Disapproval — Mali → Armed Group near Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610010132.html",
+      "gdelt": {
+        "globalEventId": "1325782334",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.05,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325782341",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T10:00:00.000Z",
+      "description": "Disapproval — Mali → Ukraine near Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610010132.html",
+      "gdelt": {
+        "globalEventId": "1325782341",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.05,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325782504",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T10:00:00.000Z",
+      "description": "Demand — Intelligence → Africa near Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Demand (GDELT 100)",
+      "actor": "Intelligence",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610010132.html",
+      "gdelt": {
+        "globalEventId": "1325782504",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": 0.05,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325782545",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T10:00:00.000Z",
+      "description": "Fight — Terrorist → Civilian near Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 17,
+      "lng": -4,
+      "action": "Fight (GDELT 190)",
+      "actor": "Terrorist",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610010132.html",
+      "gdelt": {
+        "globalEventId": "1325782545",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 0.05,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325788929",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T10:45:00.000Z",
+      "description": "Disapproval — Algiers → Mali near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Algiers",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610010227.html",
+      "gdelt": {
+        "globalEventId": "1325788929",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.06,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325789355",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T10:45:00.000Z",
+      "description": "Disapproval — Television → France near Niamey, Niamey, Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5167,
+      "lng": 2.11667,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Television",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Niamey, Niamey, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610010227.html",
+      "gdelt": {
+        "globalEventId": "1325789355",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.06,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325789392",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T10:45:00.000Z",
+      "description": "Disapproval — Mali → France near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610010227.html",
+      "gdelt": {
+        "globalEventId": "1325789392",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.06,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325789394",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T10:45:00.000Z",
+      "description": "Fight — Mali → Russia / Africa Corps near Kidal, Kidal, Mali. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 18.4411,
+      "lng": 1.40778,
+      "action": "Fight (GDELT 190)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kidal, Kidal, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610010227.html",
+      "gdelt": {
+        "globalEventId": "1325789394",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.06,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-lm5ppe",
       "kind": "news",
       "date": "2026-09-30",
@@ -233,18 +687,18 @@
       "kind": "news",
       "date": "2026-09-30",
       "isoDate": "2026-09-30T08:03:51.000Z",
-      "description": "Sahel States Launch TV Channel to Counter Western Coverage - allafrica.com (allafrica.com, 2026-09-30. Headline + link only.)",
+      "description": "Sahel States Launch TV Channel to Counter Western Coverage - allAfrica.com (allAfrica.com, 2026-09-30. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "allafrica.com",
+      "actor": "allAfrica.com",
       "axis": "Other",
       "tags": [
-        "allafrica.com",
+        "allAfrica.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "allafrica.com",
-      "source": "allafrica.com",
+      "locationStr": "allAfrica.com",
+      "source": "allAfrica.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1NcnRBVEp0b2wzanVIUlUtS2NZRWd1RC1GY1hyenRxZXhtS1lqWkozeVBHSUNmbkY3bERqQTJ4TUVNcm9BLTRDVi1UdFZGTnRRTFVQYm9WdGNXNHdpdDk0TFcwcER6R2tGZkdB?oc=5"
     },
     {
@@ -5684,63 +6138,6 @@
       "locationStr": "Tech Review Africa",
       "source": "Tech Review Africa",
       "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSDhmRW9SN0kxQmZibVZ0UHp6akI4TGxQZUVtdUwzclpwSkpIalpZZWl6aGpnMEkzNHF6em4xTnB0MzczdkxOSFp4ZUtadWg2ZHFwZnRuWGFiR2Z6aW1TTXBfanFpMTNPTXBpT05DNzlDVFNycFByaEtYRU9pTWczeGxPU1lhc2ZXRFhpOVFmV3F2WjFFWXhvX1JXWWFkcEl5V3QySVU0YXV0Z0taTHcwOWFmOWtPeDJWVnpvVThrZ3VZaHZnQTdzVE9ybmZJQQ?oc=5"
-    },
-    {
-      "id": "news-4759x4",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T13:07:21.000Z",
-      "description": "Families welcome guilty verdict over Mali crash that killed 116 (BBC Africa, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC Africa",
-      "axis": "Other",
-      "tags": [
-        "BBC Africa",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "BBC Africa",
-      "source": "BBC Africa",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq3d7jlgjmm5o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "news-9nceba",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T10:41:31.000Z",
-      "description": "Niger seeks new investment as it tightens control over uranium sector (Africanews, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Africanews",
-      "axis": "Other",
-      "tags": [
-        "Africanews",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Africanews",
-      "source": "Africanews",
-      "sourceUrl": "http://www.africanews.com/2026/09/28/niger-seeks-new-investment-as-it-tightens-control-over-uranium-sector/"
-    },
-    {
-      "id": "news-f2ehce",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T10:23:55.000Z",
-      "description": "Niger Hold Off Lesotho Fightback to Make Winning Start to Afcon 2027 Qualifiers (AllAfrica Niger, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AllAfrica Niger",
-      "axis": "Other",
-      "tags": [
-        "AllAfrica Niger",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AllAfrica Niger",
-      "source": "AllAfrica Niger",
-      "sourceUrl": "https://allafrica.com/stories/202609280119.html"
     }
   ]
 }
