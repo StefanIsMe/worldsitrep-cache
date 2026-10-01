@@ -97,7 +97,9 @@ export function gdeltActorLabelFor(name, actorMap = []) {
  * Relevance gate for general-news native feeds (home papers carry sports,
  * culture, and world news alongside theatre coverage). Returns true when
  * the feed has no `match` patterns or any pattern matches the title
- * (case-insensitive). Query-scoped Google News feeds carry no patterns.
+ * (case-insensitive). Query-scoped Google News feeds usually carry none;
+ * us-election GNews carries a safety net (Trump queries drift into
+ * foreign stories, e.g. Taiwan timelines under "Trump 2028").
  */
 export function feedTitleKept(title, match) {
   if (!Array.isArray(match) || match.length === 0) return true;
@@ -113,13 +115,15 @@ export function feedTitleKept(title, match) {
 /**
  * Normalize one GDELT 2.1 export row (pre-split TSV fields) to a theatre event.
  * opts: { fips?: string[] (ActionGeo country match), bbox?: [minLat,minLng,maxLat,maxLng],
- *         roots?: string[] (allowed CAMEO roots), actorMap?, defaultGeo? }
+ *         roots?: string[] (allowed CAMEO roots), actorMap?, defaultGeo?,
+ *         disabled?: boolean (subject-matter topics with no geographic signal) }
  * Returns null when the row is not a located in-theatre conflict event (not an error).
  * Throws only on a malformed row shape.
  */
 export function gdeltRowToEventFor(fields, opts = {}) {
   if (!Array.isArray(fields)) throw new TypeError('GDELT row must be a fields array');
   if (fields.length < GDELT_MIN_COLS) throw new TypeError(`GDELT row has ${fields.length} cols, need ${GDELT_MIN_COLS}`);
+  if (opts.disabled) return null; // RSS-only theatre: GDELT rows carry no headline text
   const c = GDELT_COLS;
   const lat = Number(fields[c.ActionGeo_Lat]);
   const lng = Number(fields[c.ActionGeo_Long]);

@@ -3,14 +3,99 @@
 // ReliefWeb (free approved appname, same secret as ukraine).
 // Feeds verified live 2026-09-24, expanded 2026-09-28 (+53: HTTP 200 + parsed + dated). GDELT FIPS 10-4
 // codes; gazetteer coords are major-city reference points (approximate tier).
+// Relevance gates 2026-10-01: shared US_POLITICS/SAHEL_CRISIS/ARCTIC_WATCH/GAZA match lists; GDELT off for us-election (RSS-only); nunatsiaq/nnsl dropped (~0% topic-relevant).
+// Plus: optional match safety net on us-election GNews feeds (Trump queries drift into foreign stories); \b bounds on MALI/IDF/PLA/KIM (Somali/midfield/display/skim collisions).
 
-const gnews = (id, theatre, query) => ({
+const gnews = (id, theatre, query, match) => ({
   id,
   theatre,
   name: 'Google News',
   url: 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) + '&hl=en-US&gl=US&ceid=US%3Aen',
   outletFromSourceTag: true,
+  ...(match ? { match } : {}),
 });
+
+// Federal politics + elections relevance (us-election native feeds, verified 2026-10-01).
+const US_POLITICS_MATCH = [
+  '\\bTRUMP\\b', '\\bVANCE\\b', '\\bBIDEN\\b', '\\bHARRIS\\b', 'WHITE HOUSE', 'OVAL OFFICE',
+  'AIR FORCE ONE', 'MAR-A-LAGO', 'ADMINISTRATION', '\\bSECRETARY\\b', 'CONGRESS', 'SENATE',
+  'SENATOR', 'HOUSE-PASSED', 'HOUSE PASSED', 'HOUSE SPEAKER', 'HOUSE BILL', 'HOUSE VOTE',
+  'HOUSE PANEL', 'HOUSE MAJORITY', 'HOUSE MINORITY', 'HOUSE REPUBLICANS', 'HOUSE DEMOCRATS', 'SPEAKER OF THE HOUSE',
+  'MAJORITY LEADER', 'MINORITY LEADER', 'CAPITOL', '\\bCOMMITTEE\\b', 'FILIBUSTER', 'RECONCILIATION',
+  '\\bRECON\\b', '\\bLAWMAKERS?\\b', 'SCOTUS', 'SUPREME COURT', 'FEDERAL JUDGE', 'FEDERAL COURT',
+  'APPEALS COURT', 'CIRCUIT COURT', 'JUSTICE DEPARTMENT', '\\bDOJ\\b', 'ATTORNEY GENERAL', '\\bFBI\\b',
+  'SPECIAL COUNSEL', 'LAWSUIT', '\\bSUED\\b', '\\bSUES\\b', '\\bSUING\\b', 'SUBPOENA',
+  'INDICT', 'PARDON', 'CONTEMPT', 'INJUNCTION', 'RESTRAINING ORDER', '\\bELECTIONS?\\b',
+  'ELECTORAL COLLEGE', 'BALLOT', 'MIDTERM', '\\bPRIMARY\\b', '\\bPRIMARIES\\b', 'CAUCUS',
+  '\\bPOLLS?\\b', 'VOTE', 'CAMPAIGN', 'CANDIDATE', 'ENDORSE', 'FUNDRAIS',
+  'SUPER PAC', 'AD BUY', 'DEBATE', 'GERRYMANDER', 'REDISTRICT', 'CENSUS',
+  'APPORTIONMENT', 'REFERENDUM', 'BALLOT MEASURE', 'RECALL ELECTION', 'FACES RECALL', 'DEMOCRAT',
+  '\\bDEMS?\\b', 'REPUBLICAN', '\\bGOP\\b', '\\bMAGA\\b', 'DEMOCRACY', 'INSURRECTION',
+  'CORRUPTION', 'GOVERNOR', 'GUBERNATORIAL', '\\bGOV\\b', 'NATIONAL GUARD', 'PENTAGON',
+  '\\bMILITARY\\b', 'MARINE CORPS', '\\bMARINES\\b', 'HOMELAND SECURITY', 'TROOPS', 'U\\.S\\. ARMY',
+  'U\\.S\\. NAVY', '\\bBORDER\\b', 'DEPORT', 'EXPEL', 'EXPULSION', 'ICE AGENTS?',
+  'ICE RAID', 'ICE CUSTODY', 'ICE DETENTION', 'ICE ARREST', 'MIGRANT', 'ASYLUM',
+  'SANCTUARY', 'TARIFF', 'TRADE WAR', 'TRADE DEAL', 'TRADE DEFICIT', 'TRADE TENSIONS',
+  'TRADE TALKS', 'TRADE POLICY', 'FREE TRADE', 'EXECUTIVE ORDER', 'SHUTDOWN', 'VETO',
+  'NOMINEE', 'NOMINATION', 'CONFIRMATION', 'CABINET', 'IMPEACH', 'PROTEST',
+  'DEMONSTRATORS?', '\\bRIOT\\b', 'CULTURE WAR', 'TREASON', 'CLAWBACK', 'TAXPAYER',
+  'TAX (BILL|CUT|HIKE|PLAN|REFORM|VOTE)', 'ABORTION', 'GUN CONTROL', 'SECOND AMENDMENT', 'WITHDRAW', 'FEDERAL RESERVE',
+  '\\bPOWELL\\b', '\\bFTC\\b', 'SEC (CHAIR|CHARGES?|SUES?|FINES?|PROBE|INVESTIGATION|RULES?|FILINGS?)', '\\bFCC\\b',
+  'MIKE JOHNSON', '\\bSCHUMER\\b', '\\bTHUNE\\b', '\\bJEFFRIES\\b', 'SECURITY CLEARANCE'
+];
+
+// Gaza / Israel / West Bank / Lebanon relevance (was inline x3, extracted 2026-10-01).
+const GAZA_MATCH = [
+  'GAZA', 'HAMAS', 'ISRAEL', '\\bIDF\\b', 'NETANYAHU', 'JERUSALEM',
+  'TEL AVIV', 'WEST BANK', 'HEZBOLLAH', 'HOSTAGE', 'CEASEFIRE', 'PALESTIN',
+  'HOUTHI', 'RAFAH', 'JENIN', 'NABLUS', 'RAMALLAH', 'HEBRON',
+  'LEBANON', 'BEIRUT', 'SYRIA', 'DAMASCUS', 'AIRSTRIKE', 'SETTLER'
+];
+
+// Sahel crisis relevance; country names excluded on purpose (sports name them too). Verified 2026-10-01.
+const SAHEL_CRISIS_MATCH = [
+  'ATTACK', 'AMBUSH', 'DEADLY CLASH', 'VIOLENT CLASH', 'ARMED CLASH', 'BORDER CLASH', 'ETHNIC CLASH', 'CLASHES (ERUPT|KILL|LEAVE|BREAK|SPREAD|CONTINUE)', 'CLASH (KILLS|KILLED|LEAVES|ERUPTS)', 'CLASHES WITH', 'CLASH WITH', 'CLASHES NEAR', 'CLASH NEAR', 'KILLED', 'KILLING', 'MASSACRE',
+  'ABDUCT', 'KIDNAP', 'BOMB', 'BLAST', 'AIRSTRIKE', 'DRONE',
+  'HUNGER STRIKE', 'GENERAL STRIKE', 'STRIKE (KILLS?|KILLED|WOUNDS?|HITS?|DESTROYS?)', 'WAR CRIMES', 'CIVILIANS?', 'JUNTA',
+  '\\bCOUPS?\\b', 'WAGNER', 'AFRICA CORPS', 'JNIM', 'QAEDA', '\\bAQIM\\b',
+  'ISGS', 'ISWAP', 'BOKO', 'JIHAD', 'TERROR', 'INSURGENT',
+  'REBELS?', 'TUAREG', '\\bAES\\b', 'ECOWAS', '\\bUN\\b', 'U\\.N\\.',
+  'UNGA', 'FRANCE', 'FRENCH', 'RUSSIA', 'RUSSIAN', 'ELECTION',
+  'VOTE', 'REFERENDUM', 'SANCTION', 'HUMAN RIGHTS', 'HOSTAGE', 'DISPLACED',
+  'REFUGEE', 'HUMANITARIAN', 'FOOD AID', 'FOREIGN AID', 'MILITARY AID', 'AID GROUP',
+  'AID WORKERS?', 'AID CONVOY', 'CEASEFIRE', 'PEACE', 'EXILE', 'REPRESS',
+  'CRACKDOWN', 'PROTEST', 'JOURNALIST', 'PRESS FREEDOM', 'CORRUPTION', 'FAMINE',
+  'DROUGHT', 'FLOODS?', 'MIGRANT', 'ASYLUM', 'ARMS', 'WEAPONS',
+  'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA',
+  'MÉNAKA', 'TESSALIT', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b',
+  'OUAHIGOUYA', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA',
+  'TAHOUA', 'SAHEL',
+  'DISINFORMATION', 'INFORMATION WAR', 'PROPAGANDA', 'URANIUM', 'GOLD (REFINERY|MINE|MINERS?|MINING|RESERVES?|PRICES?|EXPORTS?|TRADE|SMUGGLING|SECTOR|INDUSTRY)', 'REFINERY',
+  'MINING', 'MINERALS?', 'GUNSHOTS?', 'GUNFIRE', 'EXPLOSIONS?', 'GUNNED DOWN',
+  'OPENED FIRE', 'MASS SHOOTING', 'DEADLY SHOOTING'
+];
+
+// Arctic geopolitics relevance for regional outlets (no place-only terms). Verified 2026-10-01.
+const ARCTIC_WATCH_MATCH = [
+  'ARCTIC', 'GREENLAND', 'NUUK', 'ILULISSAT', 'PITUFFIK', 'THULE',
+  'SVALBARD', 'LONGYEARBYEN', 'TROMSØ', 'TROMSO', 'KIRKENES', 'REYKJAVIK',
+  'REYKJAVÍK', 'MURMANSK', 'NORTHERN SEA', 'NORTHWEST PASSAGE', 'NORTHEAST PASSAGE', 'BERING',
+  'CHUKCHI', 'BEAUFORT', 'BARENTS', 'BAFFIN', 'FRAM STRAIT', 'RUSSIA',
+  'RUSSIAN', 'KREMLIN', 'MOSCOW', 'CHINA', 'CHINESE', 'BEIJING',
+  'DENMARK', 'DANISH', 'NORWAY', 'NORWEGIAN', 'FINLAND', 'FINNISH',
+  'ICELAND', 'ICELANDIC', 'SWEDEN', 'SWEDISH', 'OTTAWA', 'WASHINGTON',
+  'NATO', 'MILITARY', 'DEFEN[CS]E', 'COAST GUARD', 'ICEBREAKER', 'NORAD',
+  'RCAF', 'INTERCEPT', 'SURVEILLANCE', 'RADAR', 'SUBMARINE', 'BOMBER',
+  '\\bFIGHTERS?\\b', 'F-35', 'C-130', 'SOVEREIGNTY', 'TERRITORIAL WATERS', 'TERRITORIAL DISPUTE',
+  'TERRITORIAL CLAIM', 'TERRITORIAL SEA', 'PATROL', 'RESCUE', 'MILITARY EXERCISE', 'NAVAL EXERCISE',
+  'NATO EXERCISE', 'ARCTIC EXERCISE', 'JOINT EXERCISE', 'EIELSON', 'JBER', 'PRUDHOE',
+  'UTQIAGVIK', 'NOME', 'MINING', 'MINERALS?', 'RARE EARTH', 'CRITICAL MINERALS',
+  'PROPOSED MINE', 'GOLD MINE', 'COAL MINE', 'DRILLING', 'OFFSHORE OIL', 'OIL LEASE',
+  'GAS PIPELINE', 'PIPELINE', 'LNG', 'SHIPPING', 'TANKER', 'VESSEL',
+  'SEAPORT', 'DEEPWATER PORT', 'PORT OF', 'WHALING', 'ILLEGAL FISHING', 'SEA ICE',
+  'PERMAFROST', 'TREATY', 'SANCTION', 'EMBARGO', 'DIPLOMAT',
+  'TREATIES'
+];
 
 export const THEATRES = {
   taiwan: {
@@ -25,21 +110,21 @@ export const THEATRES = {
     rssFeeds: [
       {
         id: 'taipei-times', theatre: 'taiwan', name: 'Taipei Times', url: 'https://www.taipeitimes.com/xml/index.rss',
-        match: ['TAIWAN', 'TAIPEI', 'CROSS-?STRAIT', 'STRAIT', 'PLA', 'KINMEN', 'MATSU', 'PENGHU', 'TSMC', 'SEMICONDUCTOR', 'KUOMINTANG', 'CHINA', 'CHINESE', 'BEIJING', 'INVASION', 'DRILL', 'TAOYUAN', 'HSINCHU', 'TAICHUNG', 'TAINAN', 'KAOHSIUNG', 'KEELUNG', 'HUALIEN', 'CHIAYI'],
+        match: ['TAIWAN', 'TAIPEI', 'CROSS-?STRAIT', 'STRAIT', '\\bPLA\\b', 'KINMEN', 'MATSU', 'PENGHU', 'TSMC', 'SEMICONDUCTOR', 'KUOMINTANG', 'CHINA', 'CHINESE', 'BEIJING', 'INVASION', 'DRILL', 'TAOYUAN', 'HSINCHU', 'TAICHUNG', 'TAINAN', 'KAOHSIUNG', 'KEELUNG', 'HUALIEN', 'CHIAYI'],
       },
       gnews('gnews-strait', 'taiwan', 'Taiwan Strait China PLA'),
       gnews('gnews-defense', 'taiwan', 'Taiwan PLA military drills'),
       {
         id: 'scmp-china', theatre: 'taiwan', name: 'SCMP', url: 'https://www.scmp.com/rss/4/feed',
-        match: ['TAIWAN', 'TAIPEI', 'CROSS-?STRAIT', 'STRAIT', 'PLA', 'KINMEN', 'MATSU', 'PENGHU', 'TSMC', 'SEMICONDUCTOR', 'KUOMINTANG', 'CHINA', 'CHINESE', 'BEIJING', 'INVASION', 'DRILL', 'TAOYUAN', 'HSINCHU', 'TAICHUNG', 'TAINAN', 'KAOHSIUNG', 'KEELUNG', 'HUALIEN', 'CHIAYI', 'MILITARY', 'DEFEN[CS]E', 'NAVY', 'MISSILE', 'COAST GUARD', 'ADIZ', 'HAN KUANG'],
+        match: ['TAIWAN', 'TAIPEI', 'CROSS-?STRAIT', 'STRAIT', '\\bPLA\\b', 'KINMEN', 'MATSU', 'PENGHU', 'TSMC', 'SEMICONDUCTOR', 'KUOMINTANG', 'CHINA', 'CHINESE', 'BEIJING', 'INVASION', 'DRILL', 'TAOYUAN', 'HSINCHU', 'TAICHUNG', 'TAINAN', 'KAOHSIUNG', 'KEELUNG', 'HUALIEN', 'CHIAYI', 'MILITARY', 'DEFEN[CS]E', 'NAVY', 'MISSILE', 'COAST GUARD', 'ADIZ', 'HAN KUANG'],
       },
       {
         id: 'dw-asia', theatre: 'taiwan', name: 'DW', url: 'https://rss.dw.com/rdf/rss-en-asia',
-        match: ['TAIWAN', 'TAIPEI', 'CROSS-?STRAIT', 'STRAIT', 'PLA', 'KINMEN', 'MATSU', 'PENGHU', 'TSMC', 'SEMICONDUCTOR', 'KUOMINTANG', 'CHINA', 'CHINESE', 'BEIJING', 'INVASION', 'DRILL', 'TAOYUAN', 'HSINCHU', 'TAICHUNG', 'TAINAN', 'KAOHSIUNG', 'KEELUNG', 'HUALIEN', 'CHIAYI', 'MILITARY', 'DEFEN[CS]E', 'NAVY', 'MISSILE', 'COAST GUARD', 'ADIZ', 'HAN KUANG'],
+        match: ['TAIWAN', 'TAIPEI', 'CROSS-?STRAIT', 'STRAIT', '\\bPLA\\b', 'KINMEN', 'MATSU', 'PENGHU', 'TSMC', 'SEMICONDUCTOR', 'KUOMINTANG', 'CHINA', 'CHINESE', 'BEIJING', 'INVASION', 'DRILL', 'TAOYUAN', 'HSINCHU', 'TAICHUNG', 'TAINAN', 'KAOHSIUNG', 'KEELUNG', 'HUALIEN', 'CHIAYI', 'MILITARY', 'DEFEN[CS]E', 'NAVY', 'MISSILE', 'COAST GUARD', 'ADIZ', 'HAN KUANG'],
       },
       {
         id: 'st-asia', theatre: 'taiwan', name: 'Straits Times', url: 'https://www.straitstimes.com/news/asia/rss.xml',
-        match: ['TAIWAN', 'TAIPEI', 'CROSS-?STRAIT', 'STRAIT', 'PLA', 'KINMEN', 'MATSU', 'PENGHU', 'TSMC', 'SEMICONDUCTOR', 'KUOMINTANG', 'CHINA', 'CHINESE', 'BEIJING', 'INVASION', 'DRILL', 'TAOYUAN', 'HSINCHU', 'TAICHUNG', 'TAINAN', 'KAOHSIUNG', 'KEELUNG', 'HUALIEN', 'CHIAYI', 'MILITARY', 'DEFEN[CS]E', 'NAVY', 'MISSILE', 'COAST GUARD', 'ADIZ', 'HAN KUANG'],
+        match: ['TAIWAN', 'TAIPEI', 'CROSS-?STRAIT', 'STRAIT', '\\bPLA\\b', 'KINMEN', 'MATSU', 'PENGHU', 'TSMC', 'SEMICONDUCTOR', 'KUOMINTANG', 'CHINA', 'CHINESE', 'BEIJING', 'INVASION', 'DRILL', 'TAOYUAN', 'HSINCHU', 'TAICHUNG', 'TAINAN', 'KAOHSIUNG', 'KEELUNG', 'HUALIEN', 'CHIAYI', 'MILITARY', 'DEFEN[CS]E', 'NAVY', 'MISSILE', 'COAST GUARD', 'ADIZ', 'HAN KUANG'],
       },
       gnews('gnews-arms', 'taiwan', 'Taiwan US arms sale'),
       gnews('gnews-kinmen', 'taiwan', 'Kinmen Matsu Taiwan coast guard'),
@@ -75,24 +160,27 @@ export const THEATRES = {
       ['UNITED STATES|U\\.S\\.', 'United States'],
     ],
     rssFeeds: [
-      { id: 'bbc-me', theatre: 'gaza', name: 'BBC', url: 'https://feeds.bbci.co.uk/news/world/middle_east/rss.xml' },
+      {
+        id: 'bbc-me', theatre: 'gaza', name: 'BBC', url: 'https://feeds.bbci.co.uk/news/world/middle_east/rss.xml',
+        match: GAZA_MATCH,
+      },
       {
         id: 'jpost', theatre: 'gaza', name: 'Jerusalem Post', url: 'https://www.jpost.com/rss/rssfeedsfrontpage.aspx',
-        match: ['IDF', 'GAZA', 'HAMAS', 'NETANYAHU', 'ISRAEL', 'JERUSALEM', 'TEL AVIV', 'WEST BANK', 'HEZBOLLAH', 'HOSTAGE', 'CEASEFIRE', 'PALESTIN', 'HOUTHI', 'KNESSET', 'RAFAH', 'JENIN', 'NABLUS', 'RAMALLAH', 'HEBRON', 'BEERSHEBA', 'ASHKELON', 'SDEROT', 'HAIFA', 'EILAT', 'LEBANON', 'SYRIA'],
+        match: ['\\bIDF\\b', 'GAZA', 'HAMAS', 'NETANYAHU', 'ISRAEL', 'JERUSALEM', 'TEL AVIV', 'WEST BANK', 'HEZBOLLAH', 'HOSTAGE', 'CEASEFIRE', 'PALESTIN', 'HOUTHI', 'KNESSET', 'RAFAH', 'JENIN', 'NABLUS', 'RAMALLAH', 'HEBRON', 'BEERSHEBA', 'ASHKELON', 'SDEROT', 'HAIFA', 'EILAT', 'LEBANON', 'SYRIA'],
       },
       gnews('gnews-gaza', 'gaza', 'Gaza Israel Hamas'),
       gnews('gnews-ceasefire', 'gaza', 'Gaza ceasefire hostages aid'),
       {
         id: 'aljazeera', theatre: 'gaza', name: 'Al Jazeera', url: 'https://www.aljazeera.com/xml/rss/all.xml',
-        match: ['GAZA', 'HAMAS', 'ISRAEL', 'IDF', 'NETANYAHU', 'JERUSALEM', 'TEL AVIV', 'WEST BANK', 'HEZBOLLAH', 'HOSTAGE', 'CEASEFIRE', 'PALESTIN', 'HOUTHI', 'RAFAH', 'JENIN', 'NABLUS', 'RAMALLAH', 'HEBRON', 'LEBANON', 'BEIRUT', 'SYRIA', 'DAMASCUS', 'AIRSTRIKE', 'SETTLER'],
+        match: GAZA_MATCH,
       },
       {
         id: 'guardian-me', theatre: 'gaza', name: 'Guardian Middle East', url: 'https://www.theguardian.com/world/middleeast/rss',
-        match: ['GAZA', 'HAMAS', 'ISRAEL', 'IDF', 'NETANYAHU', 'JERUSALEM', 'TEL AVIV', 'WEST BANK', 'HEZBOLLAH', 'HOSTAGE', 'CEASEFIRE', 'PALESTIN', 'HOUTHI', 'RAFAH', 'JENIN', 'NABLUS', 'RAMALLAH', 'HEBRON', 'LEBANON', 'BEIRUT', 'SYRIA', 'DAMASCUS', 'AIRSTRIKE', 'SETTLER'],
+        match: GAZA_MATCH,
       },
       {
         id: 'nyt-me', theatre: 'gaza', name: 'NYT Middle East', url: 'https://rss.nytimes.com/services/xml/rss/nyt/MiddleEast.xml',
-        match: ['GAZA', 'HAMAS', 'ISRAEL', 'IDF', 'NETANYAHU', 'JERUSALEM', 'TEL AVIV', 'WEST BANK', 'HEZBOLLAH', 'HOSTAGE', 'CEASEFIRE', 'PALESTIN', 'HOUTHI', 'RAFAH', 'JENIN', 'NABLUS', 'RAMALLAH', 'HEBRON', 'LEBANON', 'BEIRUT', 'SYRIA', 'DAMASCUS', 'AIRSTRIKE', 'SETTLER'],
+        match: GAZA_MATCH,
       },
       gnews('gnews-flotilla', 'gaza', 'Gaza aid flotilla Rafah crossing'),
       gnews('gnews-westbank', 'gaza', 'West Bank Jenin raid settlers'),
@@ -189,29 +277,38 @@ export const THEATRES = {
       ['JNIM|AL QAEDA|QAEDA|ISLAMIC STATE|ISIS|ISGS|ISWAP|BOKO', 'Jihadist groups'],
     ],
     rssFeeds: [
-      { id: 'aa-mali', theatre: 'sahel', name: 'AllAfrica Mali', url: 'https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf' },
-      { id: 'aa-burkina', theatre: 'sahel', name: 'AllAfrica Burkina Faso', url: 'https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf' },
-      { id: 'aa-niger', theatre: 'sahel', name: 'AllAfrica Niger', url: 'https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf' },
+      {
+        id: 'aa-mali', theatre: 'sahel', name: 'AllAfrica Mali', url: 'https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf',
+        match: SAHEL_CRISIS_MATCH,
+      },
+      {
+        id: 'aa-burkina', theatre: 'sahel', name: 'AllAfrica Burkina Faso', url: 'https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf',
+        match: SAHEL_CRISIS_MATCH,
+      },
+      {
+        id: 'aa-niger', theatre: 'sahel', name: 'AllAfrica Niger', url: 'https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf',
+        match: SAHEL_CRISIS_MATCH,
+      },
       gnews('gnews-sahel', 'sahel', 'Sahel Mali Burkina Niger'),
       {
         id: 'rfi-africa', theatre: 'sahel', name: 'RFI Africa', url: 'https://www.rfi.fr/en/africa/rss',
-        match: ['MALI', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
+        match: ['\\bMALI\\b', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
       },
       {
         id: 'france24-africa', theatre: 'sahel', name: 'France 24 Africa', url: 'https://www.france24.com/en/africa/rss',
-        match: ['MALI', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
+        match: ['\\bMALI\\b', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
       },
       {
         id: 'bbc-africa', theatre: 'sahel', name: 'BBC Africa', url: 'https://feeds.bbci.co.uk/news/world/africa/rss.xml',
-        match: ['MALI', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
+        match: ['\\bMALI\\b', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
       },
       {
         id: 'africanews', theatre: 'sahel', name: 'Africanews', url: 'https://www.africanews.com/feed/',
-        match: ['MALI', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
+        match: ['\\bMALI\\b', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
       },
       {
         id: 'dw-africa', theatre: 'sahel', name: 'DW Africa', url: 'https://rss.dw.com/xml/rss-en-africa',
-        match: ['MALI', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
+        match: ['\\bMALI\\b', 'BAMAKO', '\\bGAO\\b', 'KIDAL', 'TIMBUKTU', 'MOPTI', 'MENAKA', 'MÉNAKA', 'TESSALIT', 'BURKINA', 'OUAGADOUGOU', '\\bKAYA\\b', '\\bDJIBO\\b', '\\bDORI\\b', 'OUAHIGOUYA', '\\bNIGER\\b', 'NIGERIEN', 'NIAMEY', 'AGADEZ', 'TILLABERI', 'TILLABÉRI', 'DIFFA', 'TAHOUA', 'SAHEL', 'JNIM', 'QAEDA', 'ISGS', 'ISWAP', 'BOKO HARAM', 'JIHAD', 'TUAREG', 'WAGNER', 'AFRICA CORPS', '\\bAES\\b'],
       },
       gnews('gnews-jnim', 'sahel', 'Mali Bamako JNIM attack'),
       gnews('gnews-burkina', 'sahel', 'Burkina Faso junta attack'),
@@ -254,22 +351,22 @@ export const THEATRES = {
       { id: 'yna-nk', theatre: 'korea', name: 'Yonhap', url: 'https://en.yna.co.kr/RSS/nk.xml' },
       {
         id: 'yna-news', theatre: 'korea', name: 'Yonhap', url: 'https://en.yna.co.kr/RSS/news.xml',
-        match: ['KOREA', 'SEOUL', 'PYONGYANG', 'MISSILE', 'DMZ', 'NUCLEAR', 'KIM', 'KAESONG', 'WONSAN', 'BUSAN', 'INCHEON', 'PYEONGTAEK', 'OSAN', 'DAEGU', 'TAEGU', 'JEJU', 'JCS', 'Yoon', 'DEFECTOR', 'ABDUCTEE'],
+        match: ['KOREA', 'SEOUL', 'PYONGYANG', 'MISSILE', 'DMZ', 'NUCLEAR', '\\bKIM\\b', 'KAESONG', 'WONSAN', 'BUSAN', 'INCHEON', 'PYEONGTAEK', 'OSAN', 'DAEGU', 'TAEGU', 'JEJU', 'JCS', 'Yoon', 'DEFECTOR', 'ABDUCTEE'],
       },
       {
         id: 'korea-times', theatre: 'korea', name: 'Korea Times', url: 'https://feed.koreatimes.co.kr/k/allnews.xml',
-        match: ['KOREA', 'SEOUL', 'PYONGYANG', 'MISSILE', 'DMZ', 'NUCLEAR', 'KIM', 'KAESONG', 'WONSAN', 'BUSAN', 'INCHEON', 'PYEONGTAEK', 'OSAN', 'DAEGU', 'TAEGU', 'JEJU', 'JCS', 'Yoon', 'DEFECTOR', 'ABDUCTEE'],
+        match: ['KOREA', 'SEOUL', 'PYONGYANG', 'MISSILE', 'DMZ', 'NUCLEAR', '\\bKIM\\b', 'KAESONG', 'WONSAN', 'BUSAN', 'INCHEON', 'PYEONGTAEK', 'OSAN', 'DAEGU', 'TAEGU', 'JEJU', 'JCS', 'Yoon', 'DEFECTOR', 'ABDUCTEE'],
       },
       gnews('gnews-korea', 'korea', 'North Korea missile Kim'),
       { id: 'nknews', theatre: 'korea', name: 'NK News', url: 'https://www.nknews.org/feed/' },
       { id: '38north', theatre: 'korea', name: '38 North', url: 'https://feeds.feedburner.com/38North' },
       {
         id: 'diplomat', theatre: 'korea', name: 'The Diplomat', url: 'https://thediplomat.com/feed/',
-        match: ['KOREA', 'SEOUL', 'PYONGYANG', 'MISSILE', 'DMZ', 'NUCLEAR', 'KIM', 'KAESONG', 'WONSAN', 'BUSAN', 'INCHEON', 'PYEONGTAEK', 'OSAN', 'DAEGU', 'TAEGU', 'JEJU', 'JCS', 'LEE JAE', 'DEFECTOR', 'ABDUCTEE'],
+        match: ['KOREA', 'SEOUL', 'PYONGYANG', 'MISSILE', 'DMZ', 'NUCLEAR', '\\bKIM\\b', 'KAESONG', 'WONSAN', 'BUSAN', 'INCHEON', 'PYEONGTAEK', 'OSAN', 'DAEGU', 'TAEGU', 'JEJU', 'JCS', 'LEE JAE', 'DEFECTOR', 'ABDUCTEE'],
       },
       {
         id: 'bbc-asia', theatre: 'korea', name: 'BBC', url: 'https://feeds.bbci.co.uk/news/world/asia/rss.xml',
-        match: ['KOREA', 'SEOUL', 'PYONGYANG', 'MISSILE', 'DMZ', 'NUCLEAR', 'KIM', 'KAESONG', 'WONSAN', 'BUSAN', 'INCHEON', 'PYEONGTAEK', 'OSAN', 'DAEGU', 'TAEGU', 'JEJU', 'JCS', 'LEE JAE', 'DEFECTOR', 'ABDUCTEE'],
+        match: ['KOREA', 'SEOUL', 'PYONGYANG', 'MISSILE', 'DMZ', 'NUCLEAR', '\\bKIM\\b', 'KAESONG', 'WONSAN', 'BUSAN', 'INCHEON', 'PYEONGTAEK', 'OSAN', 'DAEGU', 'TAEGU', 'JEJU', 'JCS', 'LEE JAE', 'DEFECTOR', 'ABDUCTEE'],
       },
       gnews('gnews-missile', 'korea', 'North Korea missile launch'),
       gnews('gnews-nkru', 'korea', 'North Korea Russia troops Ukraine'),
@@ -310,15 +407,16 @@ export const THEATRES = {
       ['CANADA|OTTAWA', 'Canada'],
     ],
     rssFeeds: [
-      { id: 'rci-arctic', theatre: 'arctic', name: 'Eye on the Arctic', url: 'https://www.rcinet.ca/eye-on-the-arctic/feed/' },
-      { id: 'nunatsiaq', theatre: 'arctic', name: 'Nunatsiaq News', url: 'https://nunatsiaq.com/feed/' },
+      {
+        id: 'rci-arctic', theatre: 'arctic', name: 'Eye on the Arctic', url: 'https://www.rcinet.ca/eye-on-the-arctic/feed/',
+        match: ARCTIC_WATCH_MATCH,
+      },
       gnews('gnews-arctic', 'arctic', 'Arctic Greenland'),
       { id: 'guardian-arctic', theatre: 'arctic', name: 'Guardian Arctic', url: 'https://www.theguardian.com/world/arctic/rss' },
       {
         id: 'adn-alaska', theatre: 'arctic', name: 'Anchorage Daily News', url: 'https://www.adn.com/arc/outboundfeeds/rss/',
         match: ['ARCTIC', 'UTQIAGVIK', 'BARROW', 'PRUDHOE', 'NORTH SLOPE', 'NOME', 'KOTZEBUE', 'BETHEL', 'FAIRBANKS', 'BERING', 'CHUKCHI', 'BEAUFORT', 'ALEUTIAN', 'KODIAK', 'BRISTOL BAY', 'COAST GUARD', 'ICEBREAKER', 'NORTHERN SEA', 'WHALING', 'DRILLING', 'PIPELINE', 'SEARCH AND RESCUE', 'EIELSON', 'JBER', 'PITUFFIK', 'THULE', 'GREENLAND', 'RUSSIA', 'RUSSIAN', 'SUBMARINE', 'F-35', 'C-130'],
       },
-      { id: 'nnsl', theatre: 'arctic', name: 'NNSL Northern News', url: 'https://nnsl.com/feed/' },
       { id: 'cryopolitics', theatre: 'arctic', name: 'Cryopolitics', url: 'https://www.cryopolitics.com/feed/' },
       gnews('gnews-svalbard', 'arctic', 'Svalbard Norway Russia Arctic'),
       gnews('gnews-greenland', 'arctic', 'Greenland Nuuk Arctic military'),
@@ -349,10 +447,11 @@ export const THEATRES = {
   'us-election': {
     id: 'us-election',
     dir: 'us-election-events',
-    // Political-conflict roots only: threats, protests, posture, reduced
-    // relations, coercion. Assault/fight roots would flood the wire with
-    // ordinary US crime news; those are not policy volatility.
-    gdelt: { fips: ['US'], roots: ['13', '14', '15', '16', '17'], defaultGeo: 'United States' },
+    // RSS-only wire (GDELT disabled 2026-10-01): a subject-matter topic has
+    // no geographic signal, and GDELT rows carry no headline text, so FIPS
+    // US + roots 13-17 admitted ~100/hr domestic noise rows at ~1% precision.
+    // RSS headlines + keyword gates are the relevance signal here.
+    gdelt: { fips: ['US'], roots: ['13', '14', '15', '16', '17'], defaultGeo: 'United States', disabled: true },
     actorMap: [
       ['TRUMP|WHITE HOUSE', 'Trump administration'],
       ['DEMOCRAT|BIDEN|HARRIS|NEWSOM|OCASIO|AOC', 'Democrats'],
@@ -360,26 +459,38 @@ export const THEATRES = {
       ['SUPREME COURT|SCOTUS|FEDERAL JUDGE|\\bCOURT\\b', 'Courts'],
     ],
     rssFeeds: [
-      { id: 'npr-politics', theatre: 'us-election', name: 'NPR', url: 'https://feeds.npr.org/1014/rss.xml' },
+      {
+        id: 'npr-politics', theatre: 'us-election', name: 'NPR', url: 'https://feeds.npr.org/1014/rss.xml',
+        match: US_POLITICS_MATCH,
+      },
       { id: 'eac', theatre: 'us-election', name: 'EAC', url: 'https://www.eac.gov/rss.xml' },
-      gnews('gnews-election', 'us-election', 'US election Trump 2028'),
-      gnews('gnews-policy', 'us-election', 'Trump tariffs executive order'),
+      gnews('gnews-election', 'us-election', 'US election Trump 2028', US_POLITICS_MATCH),
+      gnews('gnews-policy', 'us-election', 'Trump tariffs executive order', US_POLITICS_MATCH),
       {
         id: 'thehill', theatre: 'us-election', name: 'The Hill', url: 'https://thehill.com/feed/',
-        match: ['TRUMP', 'WHITE HOUSE', 'CONGRESS', 'SENATE', 'CAPITOL', 'SCOTUS', 'SUPREME COURT', 'PROTEST', 'IMPEACH', 'EXECUTIVE ORDER', 'TARIFF', 'ELECTION', 'BALLOT', 'MIDTERM', 'DEMOCRAT', 'REPUBLICAN', '\\bGOP\\b', 'GOVERNOR', 'NATIONAL GUARD', 'SHUTDOWN', 'SUBPOENA', 'BORDER', 'DEPORT', 'RIOT', 'PRIMARY', 'CABINET'],
+        match: US_POLITICS_MATCH,
       },
-      { id: 'politico-congress', theatre: 'us-election', name: 'Politico', url: 'https://rss.politico.com/congress.xml' },
-      { id: 'pbs-politics', theatre: 'us-election', name: 'PBS NewsHour', url: 'https://www.pbs.org/newshour/feeds/rss/politics' },
-      { id: 'rollcall-congress', theatre: 'us-election', name: 'Roll Call', url: 'https://rollcall.com/section/congress/rss' },
+      {
+        id: 'politico-congress', theatre: 'us-election', name: 'Politico', url: 'https://rss.politico.com/congress.xml',
+        match: US_POLITICS_MATCH,
+      },
+      {
+        id: 'pbs-politics', theatre: 'us-election', name: 'PBS NewsHour', url: 'https://www.pbs.org/newshour/feeds/rss/politics',
+        match: US_POLITICS_MATCH,
+      },
+      {
+        id: 'rollcall-congress', theatre: 'us-election', name: 'Roll Call', url: 'https://rollcall.com/section/congress/rss',
+        match: US_POLITICS_MATCH,
+      },
       {
         id: 'axios', theatre: 'us-election', name: 'Axios', url: 'https://api.axios.com/feed/',
-        match: ['TRUMP', 'WHITE HOUSE', 'CONGRESS', 'SENATE', 'CAPITOL', 'SCOTUS', 'SUPREME COURT', 'PROTEST', 'IMPEACH', 'EXECUTIVE ORDER', 'TARIFF', 'ELECTION', 'BALLOT', 'MIDTERM', 'DEMOCRAT', 'REPUBLICAN', '\\bGOP\\b', 'GOVERNOR', 'NATIONAL GUARD', 'SHUTDOWN', 'SUBPOENA', 'BORDER', 'DEPORT', 'RIOT', 'PRIMARY', 'CABINET'],
+        match: US_POLITICS_MATCH,
       },
-      gnews('gnews-protest', 'us-election', 'Trump protest National Guard deployment'),
-      gnews('gnews-courts', 'us-election', 'federal judge blocks executive order ruling'),
-      gnews('gnews-midterms', 'us-election', 'US midterm elections 2026 polls'),
+      gnews('gnews-protest', 'us-election', 'Trump protest National Guard deployment', US_POLITICS_MATCH),
+      gnews('gnews-courts', 'us-election', 'federal judge blocks executive order ruling', US_POLITICS_MATCH),
+      gnews('gnews-midterms', 'us-election', 'US midterm elections 2026 polls', US_POLITICS_MATCH),
     ],
-    reliefwebIso3: ['usa'],
+    reliefwebIso3: null, // US disaster reports are not election news
     osm: { countryCodes: ['us'], bbox: [17.0, -180.0, 72.0, -64.0] },
     outletsToStrip: [],
     gazetteer: [
@@ -455,6 +566,53 @@ export const THEATRES = {
       { names: ['Bab el-Mandeb', 'Bab el Mandeb', 'Mandeb'], lat: 12.6, lng: 43.4, label: 'Bab el-Mandeb', level: 'region' },
       { names: ['Red Sea'], lat: 15.5, lng: 41.5, label: 'Red Sea', level: 'region' },
       { names: ['Gulf of Aden'], lat: 13.0, lng: 47.5, label: 'Gulf of Aden', level: 'region' },
+    ],
+  },
+  // Native feeds verified live 2026-10-01 (HTTP 200 + parsed + dated; Mizzima/Frontier 403 bot-walled, dropped).
+  myanmar: {
+    id: 'myanmar',
+    dir: 'myanmar-events',
+    gdelt: { fips: ['BM'], defaultGeo: 'Myanmar' },
+    actorMap: [
+      ['TATMADAW|MYANMAR MILITARY|JUNTA|\\bSAC\\b|MIN AUNG HLAING|STATE ADMINISTRATION', 'Myanmar junta'],
+      ['\\bNUG\\b|NATIONAL UNITY|\\bPDF\\b|PEOPLE.?S DEFEN[CS]E|RESISTANCE', 'Resistance (NUG/PDF)'],
+      ['ARAKAN ARMY|KACHIN|\\bKNU\\b|KAREN NATIONAL|TNLA|MNDAA|UNITED WA|\\bUWSA\\b|SHAN STATE ARMY|CHIN NATIONAL|KARENNI', 'Ethnic armed groups'],
+      ['CHINA|CHINESE|BEIJING', 'China'],
+      ['ROHINGYA', 'Rohingya'],
+    ],
+    rssFeeds: [
+      { id: 'irrawaddy', theatre: 'myanmar', name: 'The Irrawaddy', url: 'https://www.irrawaddy.com/feed' },
+      { id: 'myanmar-now', theatre: 'myanmar', name: 'Myanmar Now', url: 'https://myanmar-now.org/en/feed/' },
+      { id: 'dvb', theatre: 'myanmar', name: 'DVB English', url: 'https://english.dvb.no/feed/' },
+      {
+        id: 'bbc-myanmar', theatre: 'myanmar', name: 'BBC Asia', url: 'https://feeds.bbci.co.uk/news/world/asia/rss.xml',
+        match: ['MYANMAR', 'BURMA', 'BURMESE', 'NAYPYIDAW', 'YANGON', 'MANDALAY', 'RAKHINE', 'ARAKAN', 'ROHINGYA', 'TATMADAW', 'MIN AUNG HLAING', 'AUNG SAN SUU KYI', 'KACHIN', '\\bKNU\\b', 'KARENNI', 'SAGAING', 'MAGWAY', 'TANINTHARYI', 'MON STATE', 'CHIN STATE', 'KAYAH', 'SHAN STATE', 'IRRAWADDY', 'SITTWE', 'LASHIO', 'MYAWADDY', 'MOGOK', 'BHAMO', 'KYAUKTAW', 'MONGMIT', 'KYAUKME', 'DAWEI', 'MYITKYINA', 'TAUNGGYI', 'MEIKTILA', 'PYINMANA'],
+      },
+      gnews('gnews-myanmar', 'myanmar', 'Myanmar'),
+      gnews('gnews-war', 'myanmar', 'Myanmar civil war'),
+      gnews('gnews-rakhine', 'myanmar', 'Rakhine Arakan Army'),
+    ],
+    reliefwebIso3: ['mmr'],
+    osm: { countryCodes: ['mm'], bbox: [9.0, 92.0, 29.0, 102.0] },
+    outletsToStrip: [],
+    gazetteer: [
+      { names: ['Naypyidaw', 'Nay Pyi Taw'], lat: 19.76, lng: 96.07, label: 'Naypyidaw', level: 'city', capital: true },
+      { names: ['Yangon', 'Rangoon'], lat: 16.84, lng: 96.17, label: 'Yangon', level: 'city' },
+      { names: ['Mandalay'], lat: 21.97, lng: 96.08, label: 'Mandalay', level: 'city' },
+      { names: ['Mawlamyine', 'Moulmein'], lat: 16.49, lng: 97.63, label: 'Mawlamyine', level: 'city' },
+      { names: ['Myitkyina'], lat: 25.38, lng: 97.40, label: 'Myitkyina', level: 'city' },
+      { names: ['Lashio'], lat: 22.93, lng: 97.75, label: 'Lashio', level: 'city' },
+      { names: ['Taunggyi'], lat: 20.78, lng: 97.04, label: 'Taunggyi', level: 'city' },
+      { names: ['Sittwe'], lat: 20.15, lng: 92.90, label: 'Sittwe', level: 'city' },
+      { names: ['Myawaddy'], lat: 16.69, lng: 98.51, label: 'Myawaddy', level: 'city' },
+      { names: ['Hpa-an', 'Hpa An', 'Pa-an'], lat: 16.89, lng: 97.63, label: 'Hpa-an', level: 'city' },
+      { names: ['Kalay', 'Kalaymyo'], lat: 23.19, lng: 94.06, label: 'Kalay', level: 'city' },
+      { names: ['Bhamo'], lat: 24.26, lng: 97.24, label: 'Bhamo', level: 'city' },
+      { names: ['Mogok'], lat: 22.92, lng: 96.51, label: 'Mogok', level: 'city' },
+      { names: ['Dawei', 'Tavoy'], lat: 14.08, lng: 98.19, label: 'Dawei', level: 'city' },
+      { names: ['Rakhine State', 'Rakhine'], lat: 20.50, lng: 93.00, label: 'Rakhine State', level: 'region' },
+      { names: ['Sagaing Region', 'Sagaing'], lat: 22.00, lng: 95.50, label: 'Sagaing Region', level: 'region' },
+      { names: ['Shan State'], lat: 21.50, lng: 98.00, label: 'Shan State', level: 'region' },
     ],
   },
 };

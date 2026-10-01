@@ -22,6 +22,7 @@ export const THEATER_QUERIES = {
   arctic: "Greenland Arctic",
   "us-election": "United States election Trump",
   houthis: "Houthis Yemen Red Sea",
+  myanmar: "Myanmar civil war",
 };
 
 // HDX CKAN package_search terms per theatre (metadata only).
@@ -31,6 +32,7 @@ export const THEATER_HDX_TERMS = {
   iran: "iran humanitarian",
   sahel: "sahel humanitarian",
   houthis: "yemen humanitarian",
+  myanmar: "myanmar humanitarian",
 };
 
 const GDELT_DELAY_MS = 5000; // polite: GDELT has no hard limit; stay gentle

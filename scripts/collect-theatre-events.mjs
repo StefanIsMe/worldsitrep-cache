@@ -277,7 +277,7 @@ async function collectRss(cfg, timeout, collectedAt) {
       let count = 0;
       let filtered = 0;
       for (const item of parseRssItems(xml, feed)) {
-        if (!feed.outletFromSourceTag && !feedTitleKept(item.title, feed.match)) {
+        if (!feedTitleKept(item.title, feed.match)) {
           filtered++;
           continue;
         }
@@ -410,7 +410,7 @@ export async function collectTheatre(cfg, { root, collectedAt, timeoutMs, only, 
         const outlets = item.xml && feed.outletFromSourceTag ? googleNewsSources(item.xml) : new Map();
         const parsed = item.xml ? parseRssItems(item.xml, feed) : [item.item];
         for (const p of parsed) {
-          if (!feed.outletFromSourceTag && !feedTitleKept(p.title, feed.match)) continue;
+          if (!feedTitleKept(p.title, feed.match)) continue;
           const e = rssItemToEvent(outlets.get(p.url) ? { ...p, publisher: outlets.get(p.url) } : p, collectionTime);
           if (e) fresh.push(e);
         }
