@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-01T01:37:02.211Z",
+  "collectedAt": "2026-10-01T07:00:17.840Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 8
     },
     {
       "id": "gcaptain",
@@ -20,8 +20,8 @@
       "id": "bbc-yemen",
       "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
       "status": "ok",
-      "count": 7,
-      "filtered": 24
+      "count": 6,
+      "filtered": 25
     },
     {
       "id": "gnews-houthis",
@@ -80,8 +80,322 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 233,
+  "count": 236,
   "events": [
+    {
+      "id": "news-trg06w",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T04:44:49.000Z",
+      "description": "Norden: The capital shift from tankers to dry cargo (Splash247, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Splash247",
+      "axis": "Other",
+      "tags": [
+        "Splash247",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Splash247",
+      "source": "Splash247",
+      "sourceUrl": "https://splash247.com/norden-the-capital-shift-from-tankers-to-dry-cargo/"
+    },
+    {
+      "id": "news-1f6mz8e",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T02:02:21.000Z",
+      "description": "African Red Sea states’s risks grow as Houthi rebels expand reach - Asia Times (Asia Times, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Asia Times",
+      "axis": "Other",
+      "tags": [
+        "Asia Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Red Sea",
+      "source": "Asia Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRmdyZndDS1FhS3FlQUl0WlJQYjNRMWVqbEY2S29IR0pUZjZmQ2VCdWV3TlQyQ3V5STFwaDVReTJDY1dsUUpuTUF5QVJINDdsUTYwSFV3MFpSQ2taaXFSUVZseU1qLU91WG5fZTFJRjlOMVU1T05BeG9GUVJhLUJ3T2pVeDRKbVNiTjJYTzRxY1UtamRJWlpmTEItSQ?oc=5",
+      "lat": 15.5,
+      "lng": 41.5,
+      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+    },
+    {
+      "id": "gdelt-1325730004",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T02:00:00.000Z",
+      "description": "Threat — Media → Military near Al-Waziiyah, Taizz, Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.174,
+      "lng": 43.7298,
+      "action": "Threat (GDELT 130)",
+      "actor": "Media",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Al-Waziiyah, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://aa.com.tr/en/middle-east/yemeni-army-says-it-carried-out-468-operations-against-houthis-on-3-fronts/4074351",
+      "gdelt": {
+        "globalEventId": "1325730004",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.19,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325730005",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T02:00:00.000Z",
+      "description": "Threat — Media → Fighter near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Threat (GDELT 130)",
+      "actor": "Media",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://aa.com.tr/en/middle-east/yemeni-army-says-it-carried-out-468-operations-against-houthis-on-3-fronts/4074351",
+      "gdelt": {
+        "globalEventId": "1325730005",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.19,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325731346",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T02:15:00.000Z",
+      "description": "Fight — Crown Prince → Yemen near Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Fight (GDELT 195)",
+      "actor": "Crown Prince",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://herald-zeitung.com/opinion/outside-view-donald-trump-is-undoing-the-global-influence-of-the-united-states/article_c7bc64e1-219a-4883-bca3-3143e98bf47a.html",
+      "gdelt": {
+        "globalEventId": "1325731346",
+        "eventCode": "195",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.59,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325731347",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T02:15:00.000Z",
+      "description": "Fight — Crown Prince → Yemen near Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Fight (GDELT 195)",
+      "actor": "Crown Prince",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://herald-zeitung.com/opinion/outside-view-donald-trump-is-undoing-the-global-influence-of-the-united-states/article_c7bc64e1-219a-4883-bca3-3143e98bf47a.html",
+      "gdelt": {
+        "globalEventId": "1325731347",
+        "eventCode": "195",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.59,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325735404",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T03:00:00.000Z",
+      "description": "Rejection — Ministry → Unspecified near Shabwa, La?ij, Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5167,
+      "lng": 44.4333,
+      "action": "Rejection (GDELT 124)",
+      "actor": "Ministry",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Shabwa, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://kenya-today.com/report-eight-egyptian-sailors-freed-after-fivemonth-somali-pirate-captivity-5199/",
+      "gdelt": {
+        "globalEventId": "1325735404",
+        "eventCode": "124",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -2.42,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325735405",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T03:00:00.000Z",
+      "description": "Rejection — Ministry → Unspecified near Shabwa, La?ij, Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5167,
+      "lng": 44.4333,
+      "action": "Rejection (GDELT 124)",
+      "actor": "Ministry",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Shabwa, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://kenya-today.com/report-eight-egyptian-sailors-freed-after-fivemonth-somali-pirate-captivity-5199/",
+      "gdelt": {
+        "globalEventId": "1325735405",
+        "eventCode": "124",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -2.42,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325736713",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T03:15:00.000Z",
+      "description": "Reduced relations — Airline → Saudi Arabia near Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Airline",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.israelnationalnews.com/news/433917",
+      "gdelt": {
+        "globalEventId": "1325736713",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -5.42,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325759438",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T07:00:00.000Z",
+      "description": "Fight — Yemen → Saudi Arabia near Yemen. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Fight (GDELT 190)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://tribune.com.pk/story/2632309/the-case-of-a-global-concert",
+      "gdelt": {
+        "globalEventId": "1325759438",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.76,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
     {
       "id": "news-mpxk0",
       "kind": "news",
@@ -125,29 +439,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE94Y1c3NkdSbkdtR1hxaWtZMm5iNmpMSkxKUWpNS2dBaUxUY21GNmVMR0hQcG5wem9HeG5FT3k1cUhHelRpVHdjSThpb3BGSy1SVXp3RlgyU2FROVlp?oc=5"
     },
     {
-      "id": "news-trg06w",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T21:54:49.000Z",
-      "description": "Norden: The capital shift from tankers to dry cargo (Splash247, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Splash247",
-      "axis": "Other",
-      "tags": [
-        "Splash247",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Splash247",
-      "source": "Splash247",
-      "sourceUrl": "https://splash247.com/norden-the-capital-shift-from-tankers-to-dry-cargo/"
-    },
-    {
       "id": "news-18k4b0j",
       "kind": "news",
       "date": "2026-09-30",
-      "isoDate": "2026-09-30T18:11:01.000Z",
+      "isoDate": "2026-09-30T21:12:43.000Z",
       "description": "Houthi attacks threaten more than oil infrastructure — but its unclear how the Saudis can stop them. - DW.com (DW.com, 2026-09-30. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -167,19 +462,19 @@
       "kind": "news",
       "date": "2026-09-30",
       "isoDate": "2026-09-30T16:44:00.000Z",
-      "description": "Yemeni foreign minister says Houthis expanding ‘Red Sea Axis’ - middleeasteye.net (middleeasteye.net, 2026-09-30. Headline + link only.)",
+      "description": "Yemeni foreign minister says Houthis expanding ‘Red Sea Axis’ - Middle East Eye (Middle East Eye, 2026-09-30. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "middleeasteye.net",
+      "actor": "Middle East Eye",
       "axis": "Other",
       "tags": [
-        "middleeasteye.net",
+        "Middle East Eye",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Red Sea",
-      "source": "middleeasteye.net",
+      "source": "Middle East Eye",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQNHJZamlHaE51cGJmblRFZW1XZEc5dVN2dWQ3T2xORXNhY1FMNVNyaXlsWFdTNVNVbE9URFo2UHJfMVFfazFrbWczdzlKM3ZzR0hzYlhDUTQtSzE5YlBEUkI2NU04czROSDRUU1JlYk55R01heUFicnUyeWRxRDdBX3JHM1FCTFAyUEtEc0t0bkxlQXBSUDE0U0VtT2FoWkduT1pQU3hEMHRDbjlHM0hvV251NkcyT04wS0VMbEc0UVNvQjhjenJ0SUhwMVp5cDRjbXNvRllWcHg3OFJpZVZyQXFyNWtuMWhaZEozdkg5UHNvQnBiajVr?oc=5",
       "lat": 15.5,
       "lng": 41.5,
@@ -3192,18 +3487,18 @@
       "kind": "news",
       "date": "2026-09-29",
       "isoDate": "2026-09-29T19:13:04.000Z",
-      "description": "Saudi Arabia turns to UAE 'white horse' as it gears up to battle Yemen's Houthis - middleeasteye.net (middleeasteye.net, 2026-09-29. Headline + link only.)",
+      "description": "Saudi Arabia turns to UAE 'white horse' as it gears up to battle Yemen's Houthis - Middle East Eye (Middle East Eye, 2026-09-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "middleeasteye.net",
+      "actor": "Middle East Eye",
       "axis": "Other",
       "tags": [
-        "middleeasteye.net",
+        "Middle East Eye",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "middleeasteye.net",
-      "source": "middleeasteye.net",
+      "locationStr": "Middle East Eye",
+      "source": "Middle East Eye",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONll5S0pfdXFJVDNhU0E0RFhXclhyN2IycTNHQmdJcUpvTldjcWlUUWhyWTV3YURfQVY0QkJGck81bk1Uczc1NGx4VW9ySkVrUG1zUUsyUk5CM3RsQTRpYkdBOTE1SG9hLTJDOHhCTFFjQmN6b3BLQVo5RzZuT1h3MnNSZTJKUWkwU2pfMjNfMWpTSk9ibzFfdnZkUThQOVczV3c?oc=5"
     },
     {
@@ -6882,19 +7177,19 @@
       "kind": "news",
       "date": "2026-09-28",
       "isoDate": "2026-09-28T12:57:30.000Z",
-      "description": "Red Sea crisis: How powerful is the Houthi war machine? - middleeasteye.net (middleeasteye.net, 2026-09-28. Headline + link only.)",
+      "description": "Red Sea crisis: How powerful is the Houthi war machine? - Middle East Eye (Middle East Eye, 2026-09-28. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "middleeasteye.net",
+      "actor": "Middle East Eye",
       "axis": "Other",
       "tags": [
-        "middleeasteye.net",
+        "Middle East Eye",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Red Sea",
-      "source": "middleeasteye.net",
+      "source": "Middle East Eye",
       "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeHppR2tiaHA2eW14VUEtemNSNEM2N3RibDZtaWt2cEU3U2Zrb3lxZmtNNlBMT3VLSWVLTXdBMGxBR1QzRmt0dFFvZUFpV0N4M0JEQUVFVUR1Z1VwVnVsczN3S29uUEI1X3VUREJic0NZaFVRWHdUV3B2NHJZLVdPZ1VuUFI3MTl0ZmFwbDgwUkcxN2gtV21iWVdiMUM?oc=5",
       "lat": 15.5,
       "lng": 41.5,
@@ -7075,124 +7370,6 @@
       "locationStr": "Red Sea",
       "source": "The Jerusalem Post",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5odFVfMXFKR2Fza0JydndSRnF3bTYxaTVXd2RXc2s2aEkyUUtRQkQ2cEM3VTN2SktRYVVWZzkwZkxKb2piNmwxWUZRRmZMSWZ1RmpwWGRYQXVmaGRNdG1B?oc=5",
-      "lat": 15.5,
-      "lng": 41.5,
-      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
-    },
-    {
-      "id": "news-ycycwm",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T06:43:23.000Z",
-      "description": "Enjoy the tanker party, but watch the hangover (Splash247, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Splash247",
-      "axis": "Other",
-      "tags": [
-        "Splash247",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Splash247",
-      "source": "Splash247",
-      "sourceUrl": "https://splash247.com/enjoy-the-tanker-party-but-watch-the-hangover/"
-    },
-    {
-      "id": "news-1oxvwol",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T06:32:39.000Z",
-      "description": "Sanctioned ships retreat under the Russian flag (Splash247, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Splash247",
-      "axis": "Other",
-      "tags": [
-        "Splash247",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Splash247",
-      "source": "Splash247",
-      "sourceUrl": "https://splash247.com/sanctioned-ships-retreat-under-the-russian-flag/"
-    },
-    {
-      "id": "news-refqz7",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T05:46:25.000Z",
-      "description": "Saudi FM arrives in Washington for Houthi talks as Yemen fighting intensifies - Türkiye Today (Türkiye Today, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Türkiye Today",
-      "axis": "Other",
-      "tags": [
-        "Türkiye Today",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Türkiye Today",
-      "source": "Türkiye Today",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZjFra2tuT0w1ODRnRWNtQ0NDdjFPWFRBemNIUTgtYWFEUklBbkx1OEplc1ZUejVmdUEtOVdtc3Z6UXc3TGFkMUJ2S0YyUGt4RDgtMmhrWTZGVVFKUHdycWIxaFNSbzZ3RjQxOXVud1ZhQWNRUklDVlB5ZERCMWoxOEpjbUMtQ3o1UlRDdV9jeXBZNFFmczgwTDZfODVLZFlXbEVMUDNZdlNNdmZmWmNpRDcxV0p2WHMtbXlBaXF3?oc=5"
-    },
-    {
-      "id": "news-1vtb4jv",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T05:19:00.000Z",
-      "description": "Saudi Foreign Minister Arrives in Washington for Talks Amid Houthi Escalation - Haaretz (Haaretz, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Haaretz",
-      "axis": "Other",
-      "tags": [
-        "Haaretz",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Haaretz",
-      "source": "Haaretz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPYzVhdUJxLVpVZ3RoWkZhNDlvQS1oR0hmV0ZDdEVhaU5mYzZDT2tFN2tySExjdFhIM2JHYktGakRUQUczR1FhVVpobGRoQ3dOa05hWE9zRURNS0V2dkFhWW9KQktwTTcwUHhEVkR6Y3laQ2YxbjlfSUFuNE1LeVpxT3FaWkhFLUdqZW52bG00aUZlVEY3NHFGcWlVZF9YT3dDZ2MzZkVIdlZkUFhyT3hVUlZDSVZHRzRCbXhXeTRpa3l6czRzUVd0OHB0TV9sTEFJdzIxUk11OGt1OThTNXBzZFpESzZJbk4xRklWclRSTTBvWFNjMzJyQkZvT2NGVGluVlhxRnRNWVE?oc=5"
-    },
-    {
-      "id": "news-q2278u",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T05:13:06.000Z",
-      "description": "Will Egypt Strike Yemen's Houthis?, by Daily Editorials - Creators Syndicate (Creators Syndicate, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Creators Syndicate",
-      "axis": "Other",
-      "tags": [
-        "Creators Syndicate",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Creators Syndicate",
-      "source": "Creators Syndicate",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWktEdWFuX2ozX25PTzZGSi1KVG9iODRGQ2w1OXRTMWlCQ2lPZ1A1cExOQjhBUXh5U3lSUGVnTUZ3NlpIX2MySHZCRnFKNjNQeml1OXdoTDFES3ZwTGZOb0JfakxGMWpsdHhESkE5MUFoM3h0VWNUNWpzTVhyMzVkYlU4aUx4MnBLckxFT1VwQjhPc2pmQ3c?oc=5"
-    },
-    {
-      "id": "news-1s643p3",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T03:39:49.000Z",
-      "description": "Iranian advisers helped Houthis seize Yemen’s Red Sea coast in less than 48 hours, sources tell AP - Hiiraan Online (Hiiraan Online, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Hiiraan Online",
-      "axis": "Other",
-      "tags": [
-        "Hiiraan Online",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Red Sea",
-      "source": "Hiiraan Online",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWEllNEF6cEhpUUNPdGxhQTZIMDh5azcwT29CYzRyNDA1Wkl0c0JQQTVOWk0yM3Zrb1hSa056S3NqMUJBNU1sT3YtcUdtVVh5WkdTSE40akFDUFVoWkRxWFNPcnR3aXY0NDViLTdIV2NKWGt2NHIwWlJxYnFUTm56VThjOG4zeEduWmRnQWpYcGI4MFJfUTNZOTl5ZG02ZEU4aThtcDJvLTcwcm1IY3JxakVOODBZVG92OGU5elROVm9NeGdvYXQwaUE2T1hIOFczbHJSVlRLVXBoN2pid2FWT25R?oc=5",
       "lat": 15.5,
       "lng": 41.5,
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
