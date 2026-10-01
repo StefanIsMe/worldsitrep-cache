@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "theatre": "myanmar",
-  "collectedAt": "2026-10-01T09:41:15.498Z",
+  "collectedAt": "2026-10-01T14:50:33.310Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 2
     },
     {
       "id": "irrawaddy",
       "url": "https://www.irrawaddy.com/feed",
-      "status": "ok",
-      "count": 10,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS irrawaddy request failed with HTTP 403"
     },
     {
       "id": "myanmar-now",
@@ -66,8 +66,324 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 111,
+  "count": 126,
   "events": [
+    {
+      "id": "news-6g04gb",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T14:44:14.000Z",
+      "description": "Former Myanmar American Chamber of Commerce board member detained in Spain - livingstonenterprise.net (livingstonenterprise.net, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "livingstonenterprise.net",
+      "axis": "Other",
+      "tags": [
+        "livingstonenterprise.net",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "livingstonenterprise.net",
+      "source": "livingstonenterprise.net",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWTZTQkU3N3NHcy1hWl92c25iNWkydG1Oa0lmWG5RVVFUQWZIN0ZlWnJ6Wi12aWNUZktZbXl5YUJCVDNlN3pkTnhDZFJvaThqeDRmUWhTTkdrdlcxcTU3OFFXYnFENXlrb2hhUy0wTDUyemlocjNjRnRFcGxlaXNJdk1rMHZyQkhuMm5FdDZiZ2tLMHFKb2U4TWNmaXRqYTJkR190TkVYZWZwakt3b1ZMekYwSkF4LXJUV1hrU3FHVGNFVEU?oc=5"
+    },
+    {
+      "id": "news-6h30u9",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T14:09:46.000Z",
+      "description": "War and Love in Myanmar by Waso&#8217;s Idea [AUDIO] (DVB English, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DVB English",
+      "axis": "Other",
+      "tags": [
+        "DVB English",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Myanmar",
+      "source": "DVB English",
+      "sourceUrl": "https://english.dvb.no/war-and-love-in-myanmar-by-wasos-idea-audio/",
+      "lat": 17.17505,
+      "lng": 95.99997,
+      "coordsNote": "OSM geocode: matched \"Myanmar\" → Myanmar; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1uq7xze",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T14:05:00.000Z",
+      "description": "Rohingya youth injured in landmine blast along Myanmar border - Newagebd.net (Newagebd.net, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Newagebd.net",
+      "axis": "Other",
+      "tags": [
+        "Newagebd.net",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Newagebd.net",
+      "source": "Newagebd.net",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdElueDk0NTZvU3lJdFlVVXV6RllPMEdZN2FBSXJsaDN2T1FNaXliM2V2YjdYRWZrdWdySU9kYmF1ZlY0N1E5ZklTanRxVFpPak9UUGFtUS00c0p5ekI1VE1aY0tGOGtBbkwtV3hsWGxzUThkUWxXcC1JYVpiTTZiaElYWlViSWhKMUlPTnY0R1h4WE9BekVuRVhkbjN1TTBWWURRQS1hYU02Zw?oc=5"
+    },
+    {
+      "id": "news-tv6arr",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T12:50:07.000Z",
+      "description": "UN special rapporteur urges Malaysia to halt repatriation of Myanmar nationals - Anadolu Ajansı (Anadolu Ajansı, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Anadolu Ajansı",
+      "axis": "Other",
+      "tags": [
+        "Anadolu Ajansı",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Anadolu Ajansı",
+      "source": "Anadolu Ajansı",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT2Fqdjl5RGVUMnVEb0Jpd29GWXZSbUVJV2tVTlREYTAwdUh0dlBvS3lZSXZabTU5TTFkcFBKVnBsdzA0WEVsd2l0WXc5RTJQbXhBbG5pbzg1NWlVZnhvUGw0d0pVWkRSZUlIbmJzRmU4OEJPcXlxYnd6SHZkY3RwMmxxN2pMMHRsVjV5MWVOUEpVanM1MzB5TUdkS2hldFJhUTg1OG5IR2FEMEFFWF9CX3VFMXZDajc5NjQ1Wg?oc=5"
+    },
+    {
+      "id": "news-1ajmeep",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T12:30:21.000Z",
+      "description": "Former Myanmar American Chamber of Commerce board member detained in Spain (DVB English, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DVB English",
+      "axis": "Other",
+      "tags": [
+        "DVB English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DVB English",
+      "source": "DVB English",
+      "sourceUrl": "https://english.dvb.no/former-myanmar-american-chamber-of-commerce-board-member-detained-in-spain/"
+    },
+    {
+      "id": "news-1d23rps",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T12:26:39.000Z",
+      "description": "Cuba, Belarus, Myanmar, and more: Private Internet Access adds 15 new VPN server locations - Yahoo Tech (Yahoo Tech, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yahoo Tech",
+      "axis": "Other",
+      "tags": [
+        "Yahoo Tech",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yahoo Tech",
+      "source": "Yahoo Tech",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSkdiUVpWOERRYlBjMm92eVRhN2UwTno2WWtIbWM2QjNZQ3VIbFVIb1l1cXVQM0ZzaVFySkhGQUhMWFdvVUliZHZxZmxMNVhVczhKVmZtMy1OdkxTV00ySHdRZThsTUt5WXFva2NuTUlqcEc5S0dobWhXMnpSN1BWNFg2YVUwbnVreGtiaw?oc=5"
+    },
+    {
+      "id": "news-8p4iu",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T12:00:56.000Z",
+      "description": "Former Myanmar American Chamber of Commerce board member detained in Spain - Goshen News (Goshen News, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Goshen News",
+      "axis": "Other",
+      "tags": [
+        "Goshen News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Goshen News",
+      "source": "Goshen News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQcDhKZWJ2bzJXX0oweGNLdkpEUFdoS1oxWTRFbkxQRV9WQkZPM0N1ZmpmN1BBSnlqTlRVWV9TYnlCZUEyeGxQeEpqUUdvTGZtOUdXYno4aVY0Q3R1N2stakpKclJydGFPVkhoUmp0cnl5NW5NY1lsV0EyRVRRazllWWtjYkpOTDJvVjRxTnp6MHNzMTRsV1RaMEVCZVEyczFMX2l4eHY3RGcxc0FERE1YQUo4ZnZkdVB4UE5kWWtSNG92RVFQZnBBaHNYV2VQZ1FVOTNybEo2dVNCVm1lMWZTSlJRVDloTFlXaEJPd01RUHRmaUR4VllZSkFNZkVPVmM?oc=5"
+    },
+    {
+      "id": "news-1ghuh69",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T12:00:00.000Z",
+      "description": "Former Myanmar American Chamber of Commerce board member detained in Spain - AP News (AP News, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AP News",
+      "axis": "Other",
+      "tags": [
+        "AP News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AP News",
+      "source": "AP News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVmVudkR6M1BGRkJ0cWtpb2VDaFlPVUpvb3A3aW90S3NKNUdrS01pMjRCakx0XzR3U3RSVHlUTnd1WFFhd2NFcTJ6RkFXaTBwQUNQemhIS3NxTEVVSXRWbFJRaWZHOGRoSV9rVVVuaUhSVDBUZUdjTmllRktSMnNDUDJfb1d3UUdrRm8tWW5iSHVtUGha?oc=5"
+    },
+    {
+      "id": "news-19vfpjf",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T11:30:12.000Z",
+      "description": "Myanmar nationals in Malaysia fear arrest and forced return (Myanmar Now, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Myanmar Now",
+      "axis": "Other",
+      "tags": [
+        "Myanmar Now",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Myanmar Now",
+      "source": "Myanmar Now",
+      "sourceUrl": "https://myanmar-now.org/en/news/myanmar-nationals-in-malaysia-fear-arrest-and-forced-return/"
+    },
+    {
+      "id": "news-ca7h08",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T11:30:00.000Z",
+      "description": "Myanmar drug kingpin’s money trail leads ED to Rs 4 cr parked in 22 bank accounts - timesofindia.indiatimes.com (timesofindia.indiatimes.com, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "timesofindia.indiatimes.com",
+      "axis": "Other",
+      "tags": [
+        "timesofindia.indiatimes.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "timesofindia.indiatimes.com",
+      "source": "timesofindia.indiatimes.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSVVhSk9aUldMNFVXUGpnSW40RnBaZ1BOd2JQQzl1bGMzY1AxTDZ4QjhJdnFyZDJtNWF1QUwtTmo0UGpzNjhXbmtxdUV4dG5hamxBV1MxQzQ4OGtOMFIzV1hWbk9aTk1zbHllME9Xc2MySklleEN5bDBRUU10U2RUUU1YWEF2M3FDeWlpM3NYOGYyc25XOFhxZElPNFlheDI3dG84LVpCbnl1R3RWYm5CdzNENXhOajQ5dUVxYmJienE3NFNqd1Jpb3pGZk5NazNkMjF3QTZuaU1JNUNISTlpUDNWTkhOSzVGaGFDX9IB8gFBVV95cUxNSTBnd1FBTlRjMHFweDBiNDBUY1dzYmZNbmlfYjVpdVItemJ4elJPU2xJOE9jZWVlVnZqNkpIZ3lZbFB1YWo4V2FXMEFYMUVYS080WE9ZN0NaanN2ZXlTQ0tCcmhEcV9sX2VURDhqX1huOFVkckZwbGpvTDZxVGZtemJ2QTRzYmQ2cGM3UFpyWGFqZG94Z3JodVNTWFUtNU1TQ0tTS1VJakxBSmhjQjdVTzVmbVFyWUlvT2hfOGJBcWdJVjJ2ZmVlRHFFcG1vcU1FeThFbTdqWDBxWGV1ZkNBc04xaHE3eVdmMGl3QjBWSW4zdw?oc=5"
+    },
+    {
+      "id": "news-109ro5k",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T10:36:55.000Z",
+      "description": "2026/71 “The Enduring Daw Aung San Suu Kyi Factor in Myanmar Politics” by Kyaw Yin Hlaing - ISEAS – Yusof Ishak Institute (ISEAS – Yusof Ishak Institute, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ISEAS – Yusof Ishak Institute",
+      "axis": "Other",
+      "tags": [
+        "ISEAS – Yusof Ishak Institute",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Hlaing",
+      "source": "ISEAS – Yusof Ishak Institute",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNlFFbmRVWkg1eGlnVWdSU0lxVVdkMnotbWdqVElET0Y3OHpoZ1BVN2gwaGU1S2poakItT2dxbjNXRnBYTndBdjdldmVBODA3QzF0aUFsOFQ0NFBmSnBVYlFyblI5RklKeHp1S2wtb0lIQWNpWngydkxoRjRSSmtLeVVhNVlRdHR3Ml94dm9rQWZfZTh6VlB4WC1Ha3ZVbUljX3RRZE5zU1hycmFCMTA5X2Q3LXotNXFNQzVraVZwemNTWTQ2a0RQWHpBclpDQVhqQTBFUGdqTFJGc3c1ZnRndGRMcEhfNTlo?oc=5",
+      "lat": 16.84305,
+      "lng": 96.12344,
+      "coordsNote": "OSM geocode: matched \"Hlaing\" → Hlaing, Mayangon District, Yangon City; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-cfmlm7",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T10:31:31.000Z",
+      "description": "Myanmar Regime Has Killed 383 Civilians in 21 Rakhine Massacres: Irrawaddy Tally - The Irrawaddy (The Irrawaddy, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Irrawaddy",
+      "axis": "Other",
+      "tags": [
+        "The Irrawaddy",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Rakhine State",
+      "source": "The Irrawaddy",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeF8wUmZ2dGM1T3M0c1F2S25XeFJZN0ZMdGJtNjJCMTVaSm9OdmRJMnhBWTdVWlZqNXh0a0lhTTU2UW80VmFvSDZmNWV3TlJQVjJjV0tJZjZjVXFqNkJ0QkhZTno2UTVqVFBpVm4wRnZaNWJuQzdoYjRxa1VaQk5NMDFMdlM0MUNFczdCYmRLTnZOcFRxc0dvcVlsUjJES2R4OFpLZWlySkE1amJnSV9GMm5sQS1TWXdHeXlBVEVrSjVsVXh4OEtGeFloREY0YUdEMEE?oc=5",
+      "lat": 20.5,
+      "lng": 93,
+      "coordsNote": "Headline gazetteer match: \"Rakhine\" (region); verify via source article."
+    },
+    {
+      "id": "news-ldgpeq",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T10:16:17.000Z",
+      "description": "Indonesia&#8217;s Prabowo appoints new foreign minister (DVB English, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DVB English",
+      "axis": "Other",
+      "tags": [
+        "DVB English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DVB English",
+      "source": "DVB English",
+      "sourceUrl": "https://english.dvb.no/indonesias-prabowo-appoints-new-foreign-minister/"
+    },
+    {
+      "id": "news-xkaj1y",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T09:59:15.000Z",
+      "description": "Unrelated pictures of migrants at airport falsely linked to repatriation of Myanmar nationals at Malaysian naval base - Yahoo (Yahoo, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yahoo",
+      "axis": "Other",
+      "tags": [
+        "Yahoo",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yahoo",
+      "source": "Yahoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcFJXaHRvcUlFU1U0dUc5OUhLQ2xEdjVJYS04ME9uamtfUXVMOUo0VFBhS1Z3TlhTODhwRnJTcDk3SFp0cURLNXh2WEFYTkVub0h5WUdTX2NCRFUwRXE1OUYxb2hDaDg3X1ItU2VXSzk5eGtaWXNfMWhNaXhwcEx6RmJtOVhUSTY3bUR0NnVWcmIxV2hL?oc=5"
+    },
+    {
+      "id": "news-aavv6o",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T09:43:02.000Z",
+      "description": "Myanmar regime relocates Regional Military Command to Karenni State ahead of counteroffensive (DVB English, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DVB English",
+      "axis": "Other",
+      "tags": [
+        "DVB English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DVB English",
+      "source": "DVB English",
+      "sourceUrl": "https://english.dvb.no/myanmar-regime-relocates-regional-military-command-to-karenni-state-ahead-of-counteroffensive/"
+    },
+    {
+      "id": "news-1xnf9dm",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T09:40:18.000Z",
+      "description": "Myanmar American Detained - GazetteXtra (GazetteXtra, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "GazetteXtra",
+      "axis": "Other",
+      "tags": [
+        "GazetteXtra",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "GazetteXtra",
+      "source": "GazetteXtra",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOEFtTEphcEw3aVNseHZYWFk1V1I1Q3JmYjlWMEVlQm9ELUhtNGlpYkUxLURqZlpON2xBS1FZREpnNThXbWZOZnd2b0NYQWhsWGpmck1mTExNaDBYODdHcnRHVll0LW8zNUJ0aXBiYjBHeWZEOFRnWG1wWGY5anhDUWxkeEtUVzN6bjFxN2lLQ1pVaEJOZ1p5UkNTcEZpaVI4bjdBNmJmbXFrcFlPbkozanpsTG9lczV1QVlB?oc=5"
+    },
     {
       "id": "news-1s7hru7",
       "kind": "news",
@@ -86,6 +402,25 @@
       "locationStr": "Myanmar Now",
       "source": "Myanmar Now",
       "sourceUrl": "https://myanmar-now.org/en/news/death-toll-rises-to-34-as-floods-landslides-devastate-villages-in-southern-myanmar/"
+    },
+    {
+      "id": "news-s1hjix",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T09:23:28.000Z",
+      "description": "Myanmar American Detained - hjnews.com (hjnews.com, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "hjnews.com",
+      "axis": "Other",
+      "tags": [
+        "hjnews.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "hjnews.com",
+      "source": "hjnews.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcVFyelctSUNXRUdNUkVEUDZlNjNlQ1dBTmRnMExUSWxaVGhJSVFJdGF0SnkyLWxNSHllZm5XY1JVY2hZMkVsN0NmalNRSEdoXzRhWGdFY0FENzFXT21XWDE5VndiT2N2ZHBTVmlVQXdsSTNDaENVam0yUjdwX3ZSc1BYdVhUYmRfY0lfTTNrcFVfUzFwbzJVSFdrcGw5eXc4WUNnVg?oc=5"
     },
     {
       "id": "news-11dn9eo",
@@ -111,19 +446,38 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T08:59:29.000Z",
-      "description": "UN expert urges Malaysian Government to stop repatriation of Myanmar nationals, deplores Myanmar military’s latest airstrikes targeting civilians - ohchr.org (ohchr.org, 2026-10-01. Headline + link only.)",
+      "description": "UN expert urges Malaysian Government to stop repatriation of Myanmar nationals, deplores Myanmar military’s latest airstrikes targeting civilians - ohchr (ohchr, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "ohchr.org",
+      "actor": "ohchr",
       "axis": "Other",
       "tags": [
-        "ohchr.org",
+        "ohchr",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "ohchr.org",
-      "source": "ohchr.org",
+      "locationStr": "ohchr",
+      "source": "ohchr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOUVvR3Awc3l3cFF4WTJEUF9KZk5QZ21ZbmZLc2NYemk5UXV4Unpob25BaVNKQXVGSVVlTEp3bUFma1l0MzVGYjBaQi1STU5rQjV0dGg2bDlFN25tTGhiTFVoZDhXdmZJR3ZoaHVIZng4MGp1SERFZVQzSW5sNzMzT3k3YVJjamJPdV92MGpLaklwaFN4Wm1ZX3dtZml4U211ZHhwLUNKNWlva0RvNlhSdXJnVE5NVmRwNElIRw?oc=5"
+    },
+    {
+      "id": "news-1tmexna",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T08:35:14.000Z",
+      "description": "Why Malaysia is deporting thousands of Myanmar asylum seekers (DVB English, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DVB English",
+      "axis": "Other",
+      "tags": [
+        "DVB English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DVB English",
+      "source": "DVB English",
+      "sourceUrl": "https://english.dvb.no/why-malaysia-is-deporting-thousands-of-myanmar-asylum-seekers/"
     },
     {
       "id": "news-qqz6j2",
@@ -431,6 +785,74 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRmFuc3R2bHB0Qy1sbzNCZVZ4UWEzVnJaWENCZUxFY3VONDlzSWJSbE5aTzMzUjBJWm5mLVlORWlteG5qMUdEVmtRMDB6ZERESWducnFsMC1MdVJfU3lOc0FMN21UODk5bnZFNHhidnJVR2dWc1hYMGZyVUlrZ011WllZeVM3bm1VSlBHcHdLanc4OW1lRzMzNU9fNWpoaWRmS0hWWHFDa0VudGpiTEZnZUd3?oc=5"
     },
     {
+      "id": "gdelt-1325816010",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T13:45:00.000Z",
+      "description": "Threat — Unspecified → Yangon near Yangon, Yangon, Myanmar. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16.8053,
+      "lng": 96.1561,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Yangon, Yangon, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://gasiantimes.com/misc-asia/2026/10/01/bangkok-floodwaters-begin-to-ease-after-torrential-rains-affect-700000-people/",
+      "gdelt": {
+        "globalEventId": "1325816010",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.42,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325816011",
+      "kind": "event",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T00:00:00.000Z",
+      "observedAt": "2026-10-01T13:45:00.000Z",
+      "description": "Threat — Unspecified → Yangon near Dawei, Tanintharyi, Myanmar. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 14.0833,
+      "lng": 98.2,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dawei, Tanintharyi, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://gasiantimes.com/misc-asia/2026/10/01/bangkok-floodwaters-begin-to-ease-after-torrential-rains-affect-700000-people/",
+      "gdelt": {
+        "globalEventId": "1325816011",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.42,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-d41rm8",
       "kind": "news",
       "date": "2026-09-30",
@@ -649,6 +1071,29 @@
       "sourceUrl": "https://english.dvb.no/nug-rejects-regime-data-hack-claims-accuses-financial-service-providers-of-exposing-donors/"
     },
     {
+      "id": "news-17u8r1n",
+      "kind": "news",
+      "date": "2026-09-30",
+      "isoDate": "2026-09-30T10:55:39.000Z",
+      "description": "Myanmar's Min Aung Hlaing to visit Malaysia in October, report says - Reuters (Reuters, 2026-09-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Reuters",
+      "axis": "Other",
+      "tags": [
+        "Reuters",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Aung Hlaing",
+      "source": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUldoYkR0a1hLTHN3aVUyU0xRRjc2N2F2VFdFRTh0My1XeXhvMEs3WV9kcktpYlJhc0FGQlYxYzBSRDdTYjUteXVmSXBoTnlNVW14amd6TUR1bXZZNkVuVzIwY1UzVFZXWnpKRWp0TEZ4VWh5MWVGWHctSnlENUd2Zl9hQjI1ejhtZkRXUHB1T1UtbENUNUVGRXhCN0RQRXh0N3psU25tZDlHVldTcWVGS0xnVHU?oc=5",
+      "lat": 15.79803,
+      "lng": 94.77819,
+      "coordsNote": "OSM geocode: matched \"Aung Hlaing\" → Aung Hlaing, Labutta Township, Labutta; © OpenStreetMap contributors."
+    },
+    {
       "id": "news-1uho3qg",
       "kind": "news",
       "date": "2026-09-30",
@@ -821,18 +1266,18 @@
       "kind": "news",
       "date": "2026-09-30",
       "isoDate": "2026-09-30T08:13:43.000Z",
-      "description": "UN refugee agency concerned by Malaysia returns to Myanmar - reuters.com (reuters.com, 2026-09-30. Headline + link only.)",
+      "description": "UN refugee agency concerned by Malaysia returns to Myanmar - Reuters (Reuters, 2026-09-30. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "reuters.com",
+      "actor": "Reuters",
       "axis": "Other",
       "tags": [
-        "reuters.com",
+        "Reuters",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "reuters.com",
-      "source": "reuters.com",
+      "locationStr": "Reuters",
+      "source": "Reuters",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS0QxN2dIejJWbG83VG0tTzdUU0VaaEEzRURNVVlvcDJNXzB3RHA1WG1YUFpGT2VJUlJKMW1IWW9RMGJBTFRhbDF1V2NvNjB3QkRXaXI5UDhCNWhYSHVFTEVlT2tXbFJkeHZDWnA5dDJPYUJ3aVdQYnFVQ3IwSllVeDdXOEVTU1FBYzF0dll2UDNxSTFCc20taThYNlJwNTlya1p0S0FVdzBiTUhUNlJJ?oc=5"
     },
     {
@@ -853,25 +1298,6 @@
       "locationStr": "ECR",
       "source": "ECR",
       "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DQTZ1Vm4tNVRpRXFfQmFSZzFYamY1T2M3RllybkVlVS05RlRNbmNnc2xhVk5Yc2FLdTEtVU9VXzFzVXpCd0RpbXQ0Q0tEelAzQ2Yzb2c0VHJCZV9zV2lPYzFJSnVRZWhKVzZ4Tm12dHloUElzWHZIMw?oc=5"
-    },
-    {
-      "id": "news-1ebdqnm",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T06:43:00.000Z",
-      "description": "Malaysia Begins Repatriation of Migrants to War-Torn Myanmar Despite Critics’ Warnings - The New York Times (The New York Times, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New York Times",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXZsdmxTc05rbEF5TVZRX0Vrd0k3eDFWcXZUcHQxZXE4RkJLUzUyUXc1bGRZaGJJZ0drT05Od0JCcjlHcDlqLUhZcW5IMUdzMGtYZFhwdEVfaVZ0MV90alhyenJpNzNNNklma0lFRlhZQ3dDeFdrRWEzaEdZeWdpVXEtRkJjVTJtVzJFeC16ek1LUDF5dWxwRTNkcGE?oc=5"
     },
     {
       "id": "news-16kez1u",
@@ -1156,18 +1582,18 @@
       "kind": "news",
       "date": "2026-09-29",
       "isoDate": "2026-09-29T20:20:46.000Z",
-      "description": "Malaysia begins sending home Myanmar refugees, including children, despite safety concerns - reuters.com (reuters.com, 2026-09-29. Headline + link only.)",
+      "description": "Malaysia begins sending home Myanmar refugees, including children, despite safety concerns - Reuters (Reuters, 2026-09-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "reuters.com",
+      "actor": "Reuters",
       "axis": "Other",
       "tags": [
-        "reuters.com",
+        "Reuters",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "reuters.com",
-      "source": "reuters.com",
+      "locationStr": "Reuters",
+      "source": "Reuters",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeGktWktpcHgta29UNDlId0N1Mk1hY2RicGs5a2ZhSGx4WUNHdHRUVTN6aGZrQnJEY3hwa3o0MU1CU3dNRjZ2ZTNUSUhNUlRjeUxqd281Wlo5VlJzRks3TE5oRWl2d0F0UHdkZTJwcFBPaHpHTmZCOE1zbGRlLUNYYXp6MXQtQXZiNHB2WDVUbG1ieHRFNGlmbGFHTldkX2Y5MWZ4X25fb21BVy1FTm1CMWstcl9QZHpLZ3VzM1lnb3U4dw?oc=5"
     },
     {
@@ -1175,18 +1601,18 @@
       "kind": "news",
       "date": "2026-09-29",
       "isoDate": "2026-09-29T19:56:56.000Z",
-      "description": "UN alarmed by reports that Myanmar air strike killed 50 - reuters.com (reuters.com, 2026-09-29. Headline + link only.)",
+      "description": "UN alarmed by reports that Myanmar air strike killed 50 - Reuters (Reuters, 2026-09-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "reuters.com",
+      "actor": "Reuters",
       "axis": "Other",
       "tags": [
-        "reuters.com",
+        "Reuters",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "reuters.com",
-      "source": "reuters.com",
+      "locationStr": "Reuters",
+      "source": "Reuters",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdXNfc0kxMkFDRU1CWGhNZy1DWmF2U2lHTXZJa0RxWTJzU1I2cDcyQ1d3ajg5Zm1xYTdqNEVNamVmX2dVYWdVc0U1UTVOeXFHcHhsVmhTSlN5dDVhM2RlTkNfcGpsQTczdlIyQ0lRcmQtMG5WQ0lUT0NFUUp2RUE3bXNGM0V4dnVNNXV2LWtfY2RjZmo5YUZFeUthcE1FeDhoXzV4aGJJMkFyTXlfSmVn?oc=5"
     },
     {
@@ -1251,19 +1677,19 @@
       "kind": "news",
       "date": "2026-09-29",
       "isoDate": "2026-09-29T16:28:28.000Z",
-      "description": "Myanmar: Türk deplores deadly strikes at busy Rakhine market - ohchr.org (ohchr.org, 2026-09-29. Headline + link only.)",
+      "description": "Myanmar: Türk deplores deadly strikes at busy Rakhine market - ohchr (ohchr, 2026-09-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "ohchr.org",
+      "actor": "ohchr",
       "axis": "Other",
       "tags": [
-        "ohchr.org",
+        "ohchr",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Rakhine State",
-      "source": "ohchr.org",
+      "source": "ohchr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeHF2cmlDZ1U1cnpJMWhHcVI4akxHXzQ5ekFueWoySjlrdlJHSnNqb3hhSDd2QjM2ZUQybHFmLUR5NG9HSnpMSHlSMU55Z3dLN2UwVk80dFRqNllmS2hVSXZKcVFtU1dmMmtnQlZWWUlOdlRhbkI2enVhVURFaDlRZUU4NGVPazhEZW15S3VhZHZOaHJwYkJHOWc1b0l3Qm5VR1hpM2lFYw?oc=5",
       "lat": 20.5,
       "lng": 93,
@@ -1426,6 +1852,25 @@
       "sourceUrl": "https://www.irrawaddy.com/opinion/editorial/regime-responds-to-natural-disasters-by-increasing-violence-against-civilians.html"
     },
     {
+      "id": "news-1ebdqnm",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T11:58:17.000Z",
+      "description": "Malaysia Begins Repatriation of Migrants to War-Torn Myanmar Despite Critics’ Warnings - The New York Times (The New York Times, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The New York Times",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXZsdmxTc05rbEF5TVZRX0Vrd0k3eDFWcXZUcHQxZXE4RkJLUzUyUXc1bGRZaGJJZ0drT05Od0JCcjlHcDlqLUhZcW5IMUdzMGtYZFhwdEVfaVZ0MV90alhyenJpNzNNNklma0lFRlhZQ3dDeFdrRWEzaEdZeWdpVXEtRkJjVTJtVzJFeC16ek1LUDF5dWxwRTNkcGE?oc=5"
+    },
+    {
       "id": "news-1udizl6",
       "kind": "news",
       "date": "2026-09-29",
@@ -1537,19 +1982,19 @@
       "kind": "news",
       "date": "2026-09-29",
       "isoDate": "2026-09-29T10:10:05.000Z",
-      "description": "Death toll from Myanmar airstrike in Rakhine state rises to 50 - reuters.com (reuters.com, 2026-09-29. Headline + link only.)",
+      "description": "Death toll from Myanmar airstrike in Rakhine state rises to 50 - Reuters (Reuters, 2026-09-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "reuters.com",
+      "actor": "Reuters",
       "axis": "Other",
       "tags": [
-        "reuters.com",
+        "Reuters",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Rakhine State",
-      "source": "reuters.com",
+      "source": "Reuters",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbEk3YkFTVER5WWhfdE1HbzlHNkRyaWp3YjNmdzgteWZBR2lrUmgyOXJRSGtlRjF6VkpnYzUxeTNQRWdoeWo3TWFBVmpnUGdxWGFVdWVuai1HMXRSYXNLOTlpcHpvVW55aXdyZlZ2WmQwY1RhbTNRYW5TM3ZES1E2ajRDZF9vVzM0NHBCcV92V3JHdzl0WW5abEYtUzRFN0V0ejFwZkN1TWU3dw?oc=5",
       "lat": 20.5,
       "lng": 93,
@@ -1600,6 +2045,29 @@
       "lat": 20.5,
       "lng": 93,
       "coordsNote": "Headline gazetteer match: \"Rakhine State\" (region); verify via source article."
+    },
+    {
+      "id": "news-17w8lw1",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T10:07:54.000Z",
+      "description": "Battles Erupt in South Chin as Regime Launches Second Push for Rakhine Gateway - The Irrawaddy (The Irrawaddy, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Irrawaddy",
+      "axis": "Other",
+      "tags": [
+        "The Irrawaddy",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Rakhine State",
+      "source": "The Irrawaddy",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWnhKdzlpeW0tYzNMc0J5OGpPZWl1Mk5QUWRJZVVwNlpZVmNwZmM4a1hMSjlYZV9ua0ZsUWZnX0hsRXFmbmRBdC11OWpieUZscDF3bkU4MDNKeHhnb1hxMkRzcnR5QkpnNElDTnQ5bkR0eG9xOHJoZVRybnhhUmVDNkdCTS1RM1BlS2Q4SE8wSmNCLXhXalN5ZVBqeXVDOFFXNHFCVGpVN0ZnT09JYktqakZQdGRCd3Z6SnB5aQ?oc=5",
+      "lat": 20.5,
+      "lng": 93,
+      "coordsNote": "Headline gazetteer match: \"Rakhine\" (region); verify via source article."
     },
     {
       "id": "news-rnjshf",
@@ -1680,6 +2148,25 @@
       "locationStr": "France 24",
       "source": "France 24",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObHlQMWVwVk9YVFg3b0NjdXJXU0lIU0p0cVdRakNUNFF5Y3d3T2hBbzJZZUU2bXZZMXZTbmM1MVF6eHd0b0JLeDNrcm1jbUJGUWk3bzZLZTZkTktpamFIcmRVbWFDSC02c3I4a0FEa1lPMEpYMkdJeC1MLUVic0ZjMVN0YVNIUzBrWG9lZTdjY09GU0NmT2MwM0ctQkZHSVQ5RTRF?oc=5"
+    },
+    {
+      "id": "news-20cqqt",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T08:48:03.000Z",
+      "description": "Dozens Killed in Myanmar Military Bombing - The New York Times (The New York Times, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The New York Times",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONUxHemZwNTZPVkdXdHJTcHdsTlZOWUpQYk9qMzFaVTh1TFA5dG5sQnUxcjJUdEQ2amhROUFRYWpYRVNMbmRreHVYUndYOUNCTDJrVFJpbGx5VmM1YkFxNmh4cC1SMzg0ak5ycE16WEZRNXRnNC1HbGdwRzdlM190QldpWGNVVDhWNnJN?oc=5"
     },
     {
       "id": "news-s0s2pg",
@@ -1953,19 +2440,19 @@
       "kind": "news",
       "date": "2026-09-29",
       "isoDate": "2026-09-29T02:56:00.000Z",
-      "description": "49 killed in Myanmar as junta carries out airstrike at rebel-controlled Rakhine region - The Times of India (The Times of India, 2026-09-29. Headline + link only.)",
+      "description": "49 killed in Myanmar as junta carries out airstrike at rebel-controlled Rakhine region - timesofindia.indiatimes.com (timesofindia.indiatimes.com, 2026-09-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Times of India",
+      "actor": "timesofindia.indiatimes.com",
       "axis": "Other",
       "tags": [
-        "The Times of India",
+        "timesofindia.indiatimes.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Rakhine State",
-      "source": "The Times of India",
+      "source": "timesofindia.indiatimes.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQRWZ0d3pmakpuckRuc1ZXN0FoRkQ0Y1NXOC1ZaTk1RndfWm9PaHpTd3JCSDNveUd6M2Z4dE5qZ0ZaVWFBd3FHU0ZnOGdqTGRDLU1Cc1NSNmJobHA3X0xCQ085bXpDa3hoVnZMQVd0eVhxd3V6bE0yS1R6MmprMExMRmlUWEpoMnFCSFlrT0xkOXlFN05YeFNPeUFPdGVxOWtsR0MwbkFDVWdfS3Q1a3BGeWVXUlFBVE1TM0NNaEtqcy1vYWE4bkpJb2JMUnJOdmtxYnFaVzRJejFpb0VOTGJ6U0U3YTI3Q2pnNlRZSW5jdmN2Z2QwLTh0NThFZljSAYICQVVfeXFMTm1yXzNOUGhDaHhfMVdsc1REUE9TOXZKN1FWLXZsQnl6cFRNa1oxSktOQ2N1VklpWUpmMS1KZ2NBN3pWb2NtWE5YV0R5UHhRRVNkZ2NwTThCUEFpN1VjcmFNZG5wak9rV3JTaldOM1I4UGZfbUNTb2dSM1pCOTVaT1NHNTNrR3lRYU82akRrTUV0ODRIekM3RUI2RkpnOFhOZG90SzhyQ3d1Nl9BaF9qdDNsb2ZEYlFLNWdtcnZjTS1TSTc2aFBiT0pyeG14TU1ieUZqV1RzTEZyV0UzU0FHb25ZU2w3OHdmWGN2cllyU0ZGdEhmYWZ6UlBISHNGN2JRNVFB?oc=5",
       "lat": 20.5,
       "lng": 93,
@@ -2196,182 +2683,6 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xQ0xmQXFUekJDMTRsckQtdWJHRUpSbmxZWnRXTEtPNzdBRXRiY0ZLcmF3QWdkN1Q1N29vQkV2WGJBR2J2cTV0QW1EVnFFSmphQzF2VFJmbG9zMTF1UFNlMVh4cDEtSExFcU9BaUF4cktTME8xVTRsNg?oc=5"
-    },
-    {
-      "id": "news-1e42mby",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T14:08:38.000Z",
-      "description": "Myanmar’s military airstrike kills at least 33 in Rakhine state - freemalaysiatoday.com (freemalaysiatoday.com, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "freemalaysiatoday.com",
-      "axis": "Other",
-      "tags": [
-        "freemalaysiatoday.com",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Rakhine State",
-      "source": "freemalaysiatoday.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUWpYVzkyTXZCVmI3VUEzck00UlJXeVo3X0F1RkdlMzNGVDJtTzR1OWxlUVdOckRINklhVWJfMTd0dy1IQWlFeVVaV3JkU1FGSk91dWNhZVVabjJEQVhobk05QXJkOVhvbEhwbnRjOU1MaUtXRC1zVU9BMzluQTJiT3p6aDhmY3J5NDR1N0NFanhaUUNPc2hTOE5YdUpGaHVFaFRsbGhQQUN2MjVQVzVzY2FIcHZnbTVoUmMyOVpDY0I?oc=5",
-      "lat": 20.5,
-      "lng": 93,
-      "coordsNote": "Headline gazetteer match: \"Rakhine State\" (region); verify via source article."
-    },
-    {
-      "id": "news-8rhhxt",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T13:00:30.000Z",
-      "description": "At least 33 killed in Myanmar military airstrike in Rakhine - Daily Observer (Daily Observer, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Daily Observer",
-      "axis": "Other",
-      "tags": [
-        "Daily Observer",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Rakhine State",
-      "source": "Daily Observer",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9BZGl2N1F2cVVjRHlwdUYxbjhwUVdrNHNiZWdXbDhKQ3B0RlJwU1huMlMtcnRFZ096UHAwWDRlLVVUTHVUY01EM1Z3?oc=5",
-      "lat": 20.5,
-      "lng": 93,
-      "coordsNote": "Headline gazetteer match: \"Rakhine\" (region); verify via source article."
-    },
-    {
-      "id": "news-108nhxw",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T12:46:19.000Z",
-      "description": "Man ICE detained came to U.S. fleeing genocide in Myanmar - Verite News (Verite News, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Verite News",
-      "axis": "Other",
-      "tags": [
-        "Verite News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Myanmar",
-      "source": "Verite News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zLVA2ZGpkRHprUG1BbFVRd1lwaEdFSS1hLUx0djdzVUg3bVNTZzdETTdWVk45VGtDa2xrUmlfNlplNDMtWHFLZkRVWldGeW10MXE5cUpFR2FHZkx1ZVpTYlRaejVlRDhTdTEzQzFsTTllRFFlR0VuTnlR?oc=5",
-      "lat": 17.17505,
-      "lng": 95.99997,
-      "coordsNote": "OSM geocode: matched \"Myanmar\" → Myanmar; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-16pp68h",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T12:32:44.000Z",
-      "description": "Myanmar military strike on crowded market in Rakhine state kills 33, injures dozens - Malay Mail (Malay Mail, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Malay Mail",
-      "axis": "Other",
-      "tags": [
-        "Malay Mail",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Rakhine State",
-      "source": "Malay Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSjlWOFlqSDhoRjZjVmd1Wk5hRy11Ym1DdXNPaVBVQzA4RDdFSFVXZkV1R3hRTjVJNWFKck96cU8wX0tRVlZ5RG0wOFN2SDhYRVZDblNETzNTMGprN1k2aGp1TXM2d1VrU0hpQVVuUS0xWV90b01jenNjMGxEOGV6dzNzMS1lMFpDWWN6ak9LTzNKZmV1Nk5WSEZ0QkhxZmpoWEkycHN2M2V4NnZobUlqNDdUam9qTVlXYWlrWXFQNEpPbllTZHhNRzZobWhVaUJCV0Zz0gHYAUFVX3lxTFBwYmtYU2tUeFpIWGJyaDdKeXdQTWhGN1Qzek9wVDVKcGgtQ0hKT1BycUVscXJpYkRoYXROUXNjdHg1Sjk3NERQdV9CV1hjTm9id3FKaUdrc3VsNmNsbUs1N3NaUFBfZ1hZcmZhR25DM25wMFNZNjBoZDNjUklyTDRYN2xLaXFUcUhrbzZQb3N4SjlXOUhnc2t6Y2JSX3k4MDBFUWZsdUdFcFgxTG9uR3NneUY4S0xVU210VkJvM0NWMGd5V2J3UUg2WkpvSHlSTEpMem94dE9mQw?oc=5",
-      "lat": 20.5,
-      "lng": 93,
-      "coordsNote": "Headline gazetteer match: \"Rakhine State\" (region); verify via source article."
-    },
-    {
-      "id": "news-1firll0",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T12:23:59.000Z",
-      "description": "33 killed, 36 injured after Myanmar military airstrike in war-torn Rakhine - India Today (India Today, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "India Today",
-      "axis": "Other",
-      "tags": [
-        "India Today",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Rakhine State",
-      "source": "India Today",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTEJSamYwOXF2NzVDUXlZcmw2eEZTQXY4Z0QwQ2hxemY1eWgtbVBDUkhhUjBXN290T1pSUlUxSlJFS2xfLS02MkNYTUZyX0RqNmN5U3dOTTAxSEYzQlE2aEgwZUdXcHB4UVVmbHpwZ1hiYnFBemlTZDcwMFlXdjlQaW5WaHg2UHpVTlVhTHRhSXlWWlM2VFdNNTZYZkFMTjh2aVluYU56Wk5OeVoweUY2RFZvZDljSlpCNnRpMUNlYjZ0Vno0T2VVQ2JVcHkxUjhLZVpvUF9R0gHWAUFVX3lxTE9MQlJqZjA5cXY3NUNReVlybDZ4RlNBdjhnRDBDaHF6ZjV5aC1tUENSSGFSMFc3b3RPWlJSVTFKUkVLbF8tLTYyQ1hNRnJfRGo2Y3lTd05NMDFIRjNCUTZoSDBlR1dwcHhRVWZsenBnWGJicUF6aVNkNzAwWVd2OVBpblZoeDZQelVOVWFMdGFJeVZaUzZUV001NlhmQUxOOHZpWW5hTnpaTk55WjB5RjZEVm9kOWNKWkI2dGkxQ2ViNnRWejRPZVVDYlVweTFSOEtlWm9QX1E?oc=5",
-      "lat": 20.5,
-      "lng": 93,
-      "coordsNote": "Headline gazetteer match: \"Rakhine\" (region); verify via source article."
-    },
-    {
-      "id": "news-avydlv",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T12:09:46.000Z",
-      "description": "At least one dead as villages flooded in southern Myanmar’s Tanintharyi Region (Myanmar Now, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Myanmar Now",
-      "axis": "Other",
-      "tags": [
-        "Myanmar Now",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Myanmar Now",
-      "source": "Myanmar Now",
-      "sourceUrl": "https://myanmar-now.org/en/news/at-least-one-dead-as-villages-flooded-in-southern-myanmars-tanintharyi-region/"
-    },
-    {
-      "id": "news-7lzl6x",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T10:45:22.000Z",
-      "description": "Floods kill at least 16 in Thailand and Myanmar, nearly 2.5 million affected - watchers.news (watchers.news, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "watchers.news",
-      "axis": "Other",
-      "tags": [
-        "watchers.news",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "watchers.news",
-      "source": "watchers.news",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUERQTndjbmdKVS1ySlRwaVZwaXNnSVUyMDY4R1NwOENfM1hrRzhLVWdOT2JFQjVMR1VPS2FmdWVRbFJUMlJVSmQwZkV2eFRYdzZiWThHaVQ0bEtkZExOQnlCVHJrYk9MNUhEZ0dNV2Q4N1dibEJiNG9tcUFwOUNDZUNYbVJJbGZUVmJDejdFR1E0UmNzczVBZGRTQW1raU51NzJ3aVVEQnhTWEliM2c?oc=5"
-    },
-    {
-      "id": "news-t1v2o4",
-      "kind": "news",
-      "date": "2026-09-28",
-      "isoDate": "2026-09-28T10:00:13.000Z",
-      "description": "Airstrikes by Myanmar’s military kill eight civilians near Sagaing-Kachin border (Myanmar Now, 2026-09-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Myanmar Now",
-      "axis": "Other",
-      "tags": [
-        "Myanmar Now",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Sagaing Region",
-      "source": "Myanmar Now",
-      "sourceUrl": "https://myanmar-now.org/en/news/airstrikes-by-myanmars-military-kill-eight-civilians-near-sagaing-kachin-border/",
-      "lat": 22,
-      "lng": 95.5,
-      "coordsNote": "Headline gazetteer match: \"Sagaing\" (region); verify via source article."
     }
   ]
 }

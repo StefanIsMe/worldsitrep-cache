@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-01T14:21:06.023Z",
+  "collectedAt": "2026-10-01T14:50:33.310Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -27,8 +27,8 @@
       "id": "gnews-election",
       "url": "https://news.google.com/rss/search?q=US%20election%20Trump%202028&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 36,
-      "filtered": 14
+      "count": 37,
+      "filtered": 13
     },
     {
       "id": "gnews-policy",
@@ -40,9 +40,9 @@
     {
       "id": "thehill",
       "url": "https://thehill.com/feed/",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS thehill request failed: fetch failed"
+      "status": "ok",
+      "count": 35,
+      "filtered": 15
     },
     {
       "id": "politico-congress",
@@ -101,8 +101,126 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 175,
+  "count": 183,
   "events": [
+    {
+      "id": "news-5fygdu",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T14:43:48.000Z",
+      "description": "Permanent daylight saving time bill&#8217;s future uncertain after Senate adjourns (The Hill, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/policy/energy-environment/6122607-permanent-daylight-saving-time-bills-future-uncertain-after-senate-adjourns/"
+    },
+    {
+      "id": "news-1dmlrse",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T14:42:17.000Z",
+      "description": "Trump says he regrets nominating Gorsuch, Kavanaugh and Barrett (The Hill, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6123220-supreme-court-votes-against-trump/"
+    },
+    {
+      "id": "news-1dg80if",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T14:41:00.000Z",
+      "description": "Don Lemon admits Trump has delivered ‘pretty much every promise’ he made on policy - New York Post (New York Post, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "New York Post",
+      "axis": "Other",
+      "tags": [
+        "New York Post",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "New York Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNnNWYVRFV3VYblk3SXNDRlpzZVN2MHRkbzFsNTRCOE9JalFmRFNaNHNtdFdxMlJOSGJoTHV2eThkcnBaQjFhVmMtUjVyNTJIeVFDeUstaFhCUmNRODVxMjU2Z2oxclZxTWlEcmJ3THV6bmVzcHM3WjZoRkdvVEJqSVh3QWFMQ2FKNkF5TmQyUnhHSkRJYVdTU0lPTmxCbmVsdkNnT25KYWZVbEFxRGJYaHVQZ3VfOS14?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
+      "id": "news-1uqie32",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T14:30:00.000Z",
+      "description": "Maryland Democrats should reject gerrymandering and set a national precedent (The Hill, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/opinion/campaign/6121000-maryland-question-3-gerrymandering/"
+    },
+    {
+      "id": "news-m82oxk",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T14:27:43.000Z",
+      "description": "Trump not ruling out invoking Insurrection Act around midterms (The Hill, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6122559-trump-midterm-election-insurrection-act/"
+    },
+    {
+      "id": "news-axrbyy",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T14:21:52.000Z",
+      "description": "House Democrats call for GAO to investigate government-funded Trump ads (The Hill, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/house/6123030-house-democrats-gao-trump-ads/"
+    },
     {
       "id": "news-n21l2o",
       "kind": "news",
@@ -211,7 +329,7 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T13:39:09.000Z",
-      "description": "Supreme Court takes up Trump’s mandatory detention policy (The Hill, 2026-10-01. Headline + link only.)",
+      "description": "Supreme Court takes up Trump&#8217;s mandatory detention policy (The Hill, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "The Hill",
@@ -300,6 +418,25 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/senate/6122591-schumer-democrats-senate-majority/"
+    },
+    {
+      "id": "news-wij0cn",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T13:11:27.000Z",
+      "description": "How 2026 midterm election polling data is collected by NBC News - NBC News (NBC News, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYlVkeUxRRkFOM0NzUTVQT3RZOGd1ZmZsVFhNWjlFQnJ2MEh0SUJ0aEhZYVlERlMwTVBpY25vUlF4VEFDODhHNXd6emRaMmxPTWhkcVJtTExWa3VUTlpQWVB2aWt6Vkpyanh4UjJkZm1yT0VlY3ZGeHA2U3N0RG5lVjRMdlY5OEU?oc=5"
     },
     {
       "id": "news-c3k6jt",
@@ -618,18 +755,18 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T09:31:57.000Z",
-      "description": "California governor race polls: who will win the 2026 election? - The Times (The Times, 2026-10-01. Headline + link only.)",
+      "description": "California governor race polls: who will win the 2026 election? - thetimes.com (thetimes.com, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Times",
+      "actor": "thetimes.com",
       "axis": "Other",
       "tags": [
-        "The Times",
+        "thetimes.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Times",
-      "source": "The Times",
+      "locationStr": "thetimes.com",
+      "source": "thetimes.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaTFUZ0N3NDRxVzVXRXZGVm1LejJSa29JNEVUOFpqOUtmVTAwdXFTc1ZKdUVrYmdNTVMzR0tjYmlqZDFQbHdTaWtYQlMwRHBEVE1zSWc0VGV1MGtjQzBTMVpUeEdnQzBhNktnT1VwWVVzQS12QVNOZ0VWNERoX2RhWVBoYTFmS3JZZkIxVG43VEkyWDdoeVNQeXYtOHNPTVo1clpOOHJHUjJKakpKNWZlYlBtWTRJZ1JZcVo3QzlHRzFqZWM?oc=5"
     },
     {
@@ -935,6 +1072,25 @@
       "locationStr": "The Jerusalem Post",
       "source": "The Jerusalem Post",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpcHJEWDE2bGxqbjlZNUZrTW1EZVlPVTQxdFJTQmtoOU93LWlVRTFteWxjVGU5bFV3bGlJV2tEaXlTNzVQNVlLNE5pb3FsZGl5bGk3SVU4dXlRS2M0Uk5Z?oc=5"
+    },
+    {
+      "id": "news-14jbcub",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T05:00:00.000Z",
+      "description": "Senators debate liability for &#8216;rogue&#8217; AI agents (Roll Call, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Roll Call",
+      "axis": "Other",
+      "tags": [
+        "Roll Call",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Roll Call",
+      "source": "Roll Call",
+      "sourceUrl": "https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/"
     },
     {
       "id": "news-hq63ix",
@@ -1243,25 +1399,6 @@
       "locationStr": "PBS NewsHour",
       "source": "PBS NewsHour",
       "sourceUrl": "https://www.pbs.org/newshour/politics/democrats-want-a-blue-wave-new-hampshire-is-exhibit-a-for-why-that-may-not-happen"
-    },
-    {
-      "id": "news-14jbcub",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T22:00:00.000Z",
-      "description": "Senators debate liability for &#8216;rogue&#8217; AI agents (Roll Call, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Roll Call",
-      "axis": "Other",
-      "tags": [
-        "Roll Call",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Roll Call",
-      "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/"
     },
     {
       "id": "news-7fjawn",
@@ -1762,6 +1899,25 @@
       "sourceUrl": "https://www.politico.com/live-updates/2026/09/30/congress/ken-paxton-20-million-ad-buy-01100312"
     },
     {
+      "id": "news-1b55q0h",
+      "kind": "news",
+      "date": "2026-09-30",
+      "isoDate": "2026-09-30T18:26:59.000Z",
+      "description": "‘Toothless messaging’? Senate agenda caught up in midterm branding (Roll Call, 2026-09-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Roll Call",
+      "axis": "Other",
+      "tags": [
+        "Roll Call",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Roll Call",
+      "source": "Roll Call",
+      "sourceUrl": "https://rollcall.com/2026/09/30/senate-agenda-midterm-branding/"
+    },
+    {
       "id": "news-vatcr7",
       "kind": "news",
       "date": "2026-09-30",
@@ -1785,19 +1941,23 @@
       "kind": "news",
       "date": "2026-09-30",
       "isoDate": "2026-09-30T18:25:45.000Z",
-      "description": "Paxton worries about drop in polling numbers after midterm GOP convention in leaked audio - houstonpublicmedia.org (houstonpublicmedia.org, 2026-09-30. Headline + link only.)",
+      "description": "Paxton worries about drop in polling numbers after midterm GOP convention in leaked audio - Houston Public Media (Houston Public Media, 2026-09-30. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "houstonpublicmedia.org",
+      "actor": "Houston Public Media",
       "axis": "Other",
       "tags": [
-        "houstonpublicmedia.org",
-        "headline"
+        "Houston Public Media",
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "houstonpublicmedia.org",
-      "source": "houstonpublicmedia.org",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNV0IyNy1Tc3BDbkJDT0lFQWF6TkxVTlNQNjZRVGZveGN1YzhoclRiU3dtREw1TTVscjdMVVpQYWpyS0d3SUlZR2NwVWdhNjZTSEV1RXU3WnFQdEVscC1tUlVCUVhkT3BtRTd2UnNuTDZxcU9vemZTS1pib0FmYm5sanhuMXNTZ0JFTUEwbTdCUTJMcnNIaU1hXzNXS0lDN2tSTEh5TGlibTZhVDhoSF9GdDRDaXR5bnFTVFhjNFBJR2pjNG9vWEFOZVZTZ0VXbEdmRVhWS0JKWmNzb2x3WGlDTjFnR1VZZjFUS3BRS2ZvenZjd3dEMFlIbVFXTmd5aVZ4VmpVYjZEN01DMHVETlRWTlpJR1N3V1labGR6VTVRaUltN2tk0gGsAkFVX3lxTE5SaDZoR2t4WXdsSzdKSjZKclV3UTMyM1JWWEl0RDl3ZEIzTkdLVXdteWx1ckIxbmRBQktETkZsZ0lwZWp2U3FwTXU2MjhtbmNRaWlMTjF4Ym43amZSZUVIcHpqVFVQOGdKVGVacTlLaW92U05HeGlTV1dYWklqc3R1eEhTeWxfSGhlNWJ5VnFDNGN1M3B3MDhnR3hYTmhDWjJwYkhEVHI1blRtM2JDcE1sLU02NHBtZkFsNWVaOUI4M0YwN0RuZFNWdEhiS0VKZW1CY3pGSU53ek50RHB4M3VzcThMYjRIbmdwaEwzOWc1dE84SU5CZDRMQ0Q3Mkt0V2RrYURCemhEaTNUc1VMbno0NWpnOGQ2X3BjblVNVFFUeGczZ2ZjUUZKNjdSaw?oc=5"
+      "coordsTier": "approximate",
+      "locationStr": "Houston",
+      "source": "Houston Public Media",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNV0IyNy1Tc3BDbkJDT0lFQWF6TkxVTlNQNjZRVGZveGN1YzhoclRiU3dtREw1TTVscjdMVVpQYWpyS0d3SUlZR2NwVWdhNjZTSEV1RXU3WnFQdEVscC1tUlVCUVhkT3BtRTd2UnNuTDZxcU9vemZTS1pib0FmYm5sanhuMXNTZ0JFTUEwbTdCUTJMcnNIaU1hXzNXS0lDN2tSTEh5TGlibTZhVDhoSF9GdDRDaXR5bnFTVFhjNFBJR2pjNG9vWEFOZVZTZ0VXbEdmRVhWS0JKWmNzb2x3WGlDTjFnR1VZZjFUS3BRS2ZvenZjd3dEMFlIbVFXTmd5aVZ4VmpVYjZEN01DMHVETlRWTlpJR1N3V1labGR6VTVRaUltN2tk0gGsAkFVX3lxTE5SaDZoR2t4WXdsSzdKSjZKclV3UTMyM1JWWEl0RDl3ZEIzTkdLVXdteWx1ckIxbmRBQktETkZsZ0lwZWp2U3FwTXU2MjhtbmNRaWlMTjF4Ym43amZSZUVIcHpqVFVQOGdKVGVacTlLaW92U05HeGlTV1dYWklqc3R1eEhTeWxfSGhlNWJ5VnFDNGN1M3B3MDhnR3hYTmhDWjJwYkhEVHI1blRtM2JDcE1sLU02NHBtZkFsNWVaOUI4M0YwN0RuZFNWdEhiS0VKZW1CY3pGSU53ek50RHB4M3VzcThMYjRIbmdwaEwzOWc1dE84SU5CZDRMQ0Q3Mkt0V2RrYURCemhEaTNUc1VMbno0NWpnOGQ2X3BjblVNVFFUeGczZ2ZjUUZKNjdSaw?oc=5",
+      "lat": 29.76,
+      "lng": -95.37,
+      "coordsNote": "Headline gazetteer match: \"Houston\" (city); verify via source article."
     },
     {
       "id": "news-3twt8f",
@@ -1850,7 +2010,7 @@
       "kind": "news",
       "date": "2026-09-30",
       "isoDate": "2026-09-30T17:00:00.000Z",
-      "description": "Hottest Midterm Races—Brown Leads Husted In Pivotal Ohio Senate Contest (Updated Daily) - Forbes (Forbes, 2026-09-30. Headline + link only.)",
+      "description": "Hottest 2026 Midterm Races—Democrat Sherrod Brown Up 3 Points In Ohio Senate Race (Updated Daily) - Forbes (Forbes, 2026-09-30. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Forbes",
@@ -1991,6 +2151,29 @@
       "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
+      "id": "news-1amwx37",
+      "kind": "news",
+      "date": "2026-09-30",
+      "isoDate": "2026-09-30T16:23:00.000Z",
+      "description": "New York 12th Congressional District 2026: Latest Polls - The New York Times (The New York Times, 2026-09-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeTRjVkttMVhkMjk3b0NJMU9fdHQ0anZGM21GVzAya2JHbVdob3AzTkZDTzBKbWRSdTJNV25DbmtfcDdXQzRBbkxkSHV4UlRkRFQ4RU14dGZDbmx6U0p3UEh2NzI0UXNyeFFJXzk4Y1EwT1hCbENYemRwS1Y0bjJ3TzZ3OG0?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
       "id": "news-1rbd1tr",
       "kind": "news",
       "date": "2026-09-30",
@@ -2060,6 +2243,44 @@
       "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
+      "id": "news-yp4xsf",
+      "kind": "news",
+      "date": "2026-09-30",
+      "isoDate": "2026-09-30T16:01:01.000Z",
+      "description": "Housing groups challenge Trump funding clawback (Roll Call, 2026-09-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Roll Call",
+      "axis": "Other",
+      "tags": [
+        "Roll Call",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Roll Call",
+      "source": "Roll Call",
+      "sourceUrl": "https://rollcall.com/2026/09/30/housing-groups-challenge-trump-funding-clawback/"
+    },
+    {
+      "id": "news-5zeh97",
+      "kind": "news",
+      "date": "2026-09-30",
+      "isoDate": "2026-09-30T15:59:15.000Z",
+      "description": "Blackburn sues Jack Smith over phone records (Roll Call, 2026-09-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Roll Call",
+      "axis": "Other",
+      "tags": [
+        "Roll Call",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Roll Call",
+      "source": "Roll Call",
+      "sourceUrl": "https://rollcall.com/2026/09/30/blackburn-sues-jack-smith-over-phone-records/"
+    },
+    {
       "id": "news-1x3nwrc",
       "kind": "news",
       "date": "2026-09-30",
@@ -2121,19 +2342,57 @@
       "kind": "news",
       "date": "2026-09-30",
       "isoDate": "2026-09-30T14:26:15.000Z",
-      "description": "Who will win the 2026 midterm elections? Polls and predictions - The Times (The Times, 2026-09-30. Headline + link only.)",
+      "description": "Who will win the 2026 midterm elections? Polls and predictions - thetimes.com (thetimes.com, 2026-09-30. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Times",
+      "actor": "thetimes.com",
       "axis": "Other",
       "tags": [
-        "The Times",
+        "thetimes.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Times",
-      "source": "The Times",
+      "locationStr": "thetimes.com",
+      "source": "thetimes.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5"
+    },
+    {
+      "id": "news-tp7150",
+      "kind": "news",
+      "date": "2026-09-30",
+      "isoDate": "2026-09-30T14:20:52.000Z",
+      "description": "Voluntary ratepayer protection bill blocked in Senate again (Roll Call, 2026-09-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Roll Call",
+      "axis": "Other",
+      "tags": [
+        "Roll Call",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Roll Call",
+      "source": "Roll Call",
+      "sourceUrl": "https://rollcall.com/2026/09/30/voluntary-ratepayer-protection-bill-blocked-in-senate-again/"
+    },
+    {
+      "id": "news-1glcsny",
+      "kind": "news",
+      "date": "2026-09-30",
+      "isoDate": "2026-09-30T13:55:32.000Z",
+      "description": "Lawmakers’ stock trading bill falls short in Senate (Roll Call, 2026-09-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Roll Call",
+      "axis": "Other",
+      "tags": [
+        "Roll Call",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Roll Call",
+      "source": "Roll Call",
+      "sourceUrl": "https://rollcall.com/2026/09/30/lawmakers-stock-trading-bill-falls-short-in-senate/"
     },
     {
       "id": "news-fa85z",
@@ -2153,25 +2412,6 @@
       "locationStr": "Politico",
       "source": "Politico",
       "sourceUrl": "https://www.politico.com/live-updates/2026/09/30/congress/one-day-more-01098791"
-    },
-    {
-      "id": "news-1b55q0h",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T11:26:59.000Z",
-      "description": "‘Toothless messaging’? Senate agenda caught up in midterm branding (Roll Call, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Roll Call",
-      "axis": "Other",
-      "tags": [
-        "Roll Call",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Roll Call",
-      "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/09/30/senate-agenda-midterm-branding/"
     },
     {
       "id": "news-7whiqb",
@@ -2235,6 +2475,25 @@
       "coordsNote": "Headline gazetteer match: \"Los Angeles\" (city); verify via source article."
     },
     {
+      "id": "news-1vzewat",
+      "kind": "news",
+      "date": "2026-09-30",
+      "isoDate": "2026-09-30T09:35:10.000Z",
+      "description": "New critique of offshore wind clawbacks: Taxpayers lose out (Roll Call, 2026-09-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Roll Call",
+      "axis": "Other",
+      "tags": [
+        "Roll Call",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Roll Call",
+      "source": "Roll Call",
+      "sourceUrl": "https://rollcall.com/2026/09/30/new-critique-of-offshore-wind-clawbacks-taxpayers-lose-out/"
+    },
+    {
       "id": "news-o5cq44",
       "kind": "news",
       "date": "2026-09-30",
@@ -2271,44 +2530,6 @@
       "locationStr": "Axios",
       "source": "Axios",
       "sourceUrl": "https://www.axios.com/2026/09/30/renewables-boom-trump-cliff"
-    },
-    {
-      "id": "news-yp4xsf",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T09:01:01.000Z",
-      "description": "Housing groups challenge Trump funding clawback (Roll Call, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Roll Call",
-      "axis": "Other",
-      "tags": [
-        "Roll Call",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Roll Call",
-      "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/09/30/housing-groups-challenge-trump-funding-clawback/"
-    },
-    {
-      "id": "news-5zeh97",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T08:59:15.000Z",
-      "description": "Blackburn sues Jack Smith over phone records (Roll Call, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Roll Call",
-      "axis": "Other",
-      "tags": [
-        "Roll Call",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Roll Call",
-      "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/09/30/blackburn-sues-jack-smith-over-phone-records/"
     },
     {
       "id": "news-1wc8izr",
@@ -2349,11 +2570,11 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNE9UeEdfUkdJbFRRLTdpLUJhb3laeHUzb2lWQkdZUHJiWlZKMTVzcmlTYXF2dzMwd05zb08zME9aVTNUYndQYkF1bUlwbUNWUkxMeGJCNEJCTWZieUc3NkRJeXdaT2RYbUczUjU4NmZTU0owUjF0Y3lkbEJsU0kyTHBSdTRvMnM0YjZHMXBUcWhRUnhVOGFVcnpqTGvSAaIBQVVfeXFMUGFiN2N1TnhjS2c1ak5FSmJmaHAxaVk2Vm5xdTlVYjAtRGc3ampGOFZNSHMxc053ODJ4Y3lWYjh6VDU2LUcwcExvWlQxR0kwcC04U1BTZnR6bk92NFA3a0FXdnRVVEdiV1lVQWlOZTVrSHYzNFoyZHY0dHlMcngyWThpVlVJUHBBSFpaMS00M2JIcFBfZWY1VF9HSnlCZjk2ckVn?oc=5"
     },
     {
-      "id": "news-tp7150",
+      "id": "news-1kosm5b",
       "kind": "news",
       "date": "2026-09-30",
-      "isoDate": "2026-09-30T07:20:52.000Z",
-      "description": "Voluntary ratepayer protection bill blocked in Senate again (Roll Call, 2026-09-30. Headline + link only.)",
+      "isoDate": "2026-09-30T06:15:00.000Z",
+      "description": "How is ‘Mean Girls’ like gerrymandering? Ask these former Hill staffers (Roll Call, 2026-09-30. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Roll Call",
@@ -2365,26 +2586,7 @@
       "coordsTier": "unplaced",
       "locationStr": "Roll Call",
       "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/09/30/voluntary-ratepayer-protection-bill-blocked-in-senate-again/"
-    },
-    {
-      "id": "news-1glcsny",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T06:55:32.000Z",
-      "description": "Lawmakers’ stock trading bill falls short in Senate (Roll Call, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Roll Call",
-      "axis": "Other",
-      "tags": [
-        "Roll Call",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Roll Call",
-      "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/09/30/lawmakers-stock-trading-bill-falls-short-in-senate/"
+      "sourceUrl": "https://rollcall.com/2026/09/30/mean-girls-like-gerrymandering/"
     },
     {
       "id": "news-r3no09",
@@ -2461,44 +2663,6 @@
       "locationStr": "Newsweek",
       "source": "Newsweek",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZVpYR2NaM0hRbGlsMlo1alkzV1FsRWJ6NjZjRlF6VFJuNGFLM0R5bWJIbXVhQi1xa05WLUE5clplWGlSN1JOOWYyMnYwYWFMRXVLb3B4NXhTSGtORllXN05sUEpCWVJOb082dFVZYklPRjhHcDZacXZ3RW1zWFJfZjFxeFFpVl94?oc=5"
-    },
-    {
-      "id": "news-1vzewat",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T02:35:10.000Z",
-      "description": "New critique of offshore wind clawbacks: Taxpayers lose out (Roll Call, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Roll Call",
-      "axis": "Other",
-      "tags": [
-        "Roll Call",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Roll Call",
-      "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/09/30/new-critique-of-offshore-wind-clawbacks-taxpayers-lose-out/"
-    },
-    {
-      "id": "news-1kosm5b",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T23:15:00.000Z",
-      "description": "How is ‘Mean Girls’ like gerrymandering? Ask these former Hill staffers (Roll Call, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Roll Call",
-      "axis": "Other",
-      "tags": [
-        "Roll Call",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Roll Call",
-      "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/09/30/mean-girls-like-gerrymandering/"
     },
     {
       "id": "news-vpe72l",
@@ -2737,6 +2901,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPN1VHQlNrLWdTRTdQenoxQlB1aEs3OFB2Um5mLWpFb3J5cjdGZmRFeFFITGZlcWdaQ1VoR2ZNNE4zQ1VkeHpfZzZKU3FGQkVJNU1MbmhybFlNZFhDMXoyNlRYcTd2RUpjN19IWEJSU1U0cjJDcnhZZk8wWmZ6WWJhTDRtUWNUcndwZ0JManp5ZW9JU2trMXZNdzJ3bXBoYTAxTTgtS2pURUlqTUp2QW44cUhic0xqcnpwRzR1eU9jTXN2Y053WVJN?oc=5"
     },
     {
+      "id": "news-1jkn3al",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T19:06:51.000Z",
+      "description": "Wildfire bill to ease path for controlled burns passes Senate (Roll Call, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Roll Call",
+      "axis": "Other",
+      "tags": [
+        "Roll Call",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Roll Call",
+      "source": "Roll Call",
+      "sourceUrl": "https://rollcall.com/2026/09/29/wildfire-bill-to-ease-path-for-controlled-burns-passes-senate/"
+    },
+    {
       "id": "news-ruezsc",
       "kind": "news",
       "date": "2026-09-29",
@@ -2792,6 +2975,25 @@
       "locationStr": "Axios",
       "source": "Axios",
       "sourceUrl": "https://www.axios.com/2026/09/29/trump-ads-taxpayer-funds"
+    },
+    {
+      "id": "news-u44q32",
+      "kind": "news",
+      "date": "2026-09-29",
+      "isoDate": "2026-09-29T18:38:11.000Z",
+      "description": "Congress continues back-seat role as AI execs feted at White House (Roll Call, 2026-09-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Roll Call",
+      "axis": "Other",
+      "tags": [
+        "Roll Call",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Roll Call",
+      "source": "Roll Call",
+      "sourceUrl": "https://rollcall.com/2026/09/29/congress-continues-back-seat-role-as-ai-execs-feted-at-white-house/"
     },
     {
       "id": "news-1mpr45m",
@@ -2855,18 +3057,18 @@
       "kind": "news",
       "date": "2026-09-29",
       "isoDate": "2026-09-29T17:13:34.000Z",
-      "description": "Your 2026 Midterm Voting Questions Answered - aclu.org (aclu.org, 2026-09-29. Headline + link only.)",
+      "description": "Your 2026 Midterm Voting Questions Answered - American Civil Liberties Union (American Civil Liberties Union, 2026-09-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "aclu.org",
+      "actor": "American Civil Liberties Union",
       "axis": "Other",
       "tags": [
-        "aclu.org",
+        "American Civil Liberties Union",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "aclu.org",
-      "source": "aclu.org",
+      "locationStr": "American Civil Liberties Union",
+      "source": "American Civil Liberties Union",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNjVwekNPbnNNc2paUUVBbnpWUWpTSkRQRVVZM0dqaVQ0T3luVUdhUnJscFE0Qzl0UDJ5TWpBYTFoR2tsN1l4UXpZM0F6S1p1eDNMdDVhTzRudm5GTFktYmhIRVdURmRISEZZczk2VWw5Y3lMZFRzQmQzalZpWTk5MTYwVXQ1WlU3cVJDb1RROTN1cnZOQ29yN3JmTHhZWXdtVHdtclZLalI0M0ZHbHFF?oc=5"
     },
     {
@@ -2984,25 +3186,6 @@
       "sourceUrl": "https://www.axios.com/2026/09/29/trump-ai-meeting-list-ceos-johnson"
     },
     {
-      "id": "news-1jkn3al",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T12:06:51.000Z",
-      "description": "Wildfire bill to ease path for controlled burns passes Senate (Roll Call, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Roll Call",
-      "axis": "Other",
-      "tags": [
-        "Roll Call",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Roll Call",
-      "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/09/29/wildfire-bill-to-ease-path-for-controlled-burns-passes-senate/"
-    },
-    {
       "id": "news-dxxojp",
       "kind": "news",
       "date": "2026-09-29",
@@ -3024,25 +3207,6 @@
       "lat": 35.54381,
       "lng": -98.00315,
       "coordsNote": "OSM geocode: matched \"Canadian\" → Canadian County, Oklahoma, United States; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-u44q32",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T11:38:11.000Z",
-      "description": "Congress continues back-seat role as AI execs feted at White House (Roll Call, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Roll Call",
-      "axis": "Other",
-      "tags": [
-        "Roll Call",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Roll Call",
-      "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/09/29/congress-continues-back-seat-role-as-ai-execs-feted-at-white-house/"
     },
     {
       "id": "news-7rw3h",
@@ -3087,18 +3251,18 @@
       "kind": "news",
       "date": "2026-09-29",
       "isoDate": "2026-09-29T10:09:12.000Z",
-      "description": "Colorado voters could see more poll monitors during the midterm election - Colorado Newsline (Colorado Newsline, 2026-09-29. Headline + link only.)",
+      "description": "Colorado voters could see more poll monitors during the midterm election - coloradonewsline.com (coloradonewsline.com, 2026-09-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Colorado Newsline",
+      "actor": "coloradonewsline.com",
       "axis": "Other",
       "tags": [
-        "Colorado Newsline",
+        "coloradonewsline.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Colorado Newsline",
-      "source": "Colorado Newsline",
+      "locationStr": "coloradonewsline.com",
+      "source": "coloradonewsline.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmUWJmTzhYZ2s3QjJnbzZGd0dRcENEdlItb3BSRjNoMEluZG4wWWlnbWJQNm91UFVwTUNaWHRQOWRrdVZFdzlROWtQeVBhLUFQWDZVd1hlbnlPWG1NRy1uYW9wOXRfMXV5dHoxa01falNJWmZqajRn?oc=5"
     },
     {
