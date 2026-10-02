@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-02T00:16:12.343Z",
+  "collectedAt": "2026-10-02T04:48:29.583Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 9
     },
     {
       "id": "taipei-times",
@@ -34,22 +34,22 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 42,
-      "filtered": 8
+      "count": 41,
+      "filtered": 9
     },
     {
       "id": "dw-asia",
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
-      "count": 2,
+      "count": 1,
       "filtered": 12
     },
     {
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 10,
-      "filtered": 40
+      "count": 12,
+      "filtered": 38
     },
     {
       "id": "gnews-arms",
@@ -80,8 +80,375 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 299,
+  "count": 296,
   "events": [
+    {
+      "id": "news-11jqw45",
+      "kind": "news",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T03:05:00.000Z",
+      "description": "China gears up for record travel demand during week-long National Day holiday (Straits Times, 2026-10-02. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/china-gears-up-for-record-travel-demand-during-week-long-national-day-holiday"
+    },
+    {
+      "id": "news-p9dpjp",
+      "kind": "news",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T02:23:14.000Z",
+      "description": "First new F-16V fighter jets to arrive in Taiwan to bolster defences against China (Straits Times, 2026-10-02. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Taiwan",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/first-new-f-16v-fighter-jets-to-arrive-in-taiwan-to-bolster-defences-against-china",
+      "lat": 23.97394,
+      "lng": 120.98202,
+      "coordsNote": "OSM geocode: matched \"Taiwan\" → Taiwan; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-fcnrz8",
+      "kind": "news",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T01:00:07.000Z",
+      "description": "Online claims revive mercury mystery around tomb of first Chinese emperor (SCMP, 2026-10-02. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/science/article/3369469/online-claims-revive-mercury-mystery-around-tomb-first-chinese-emperor?utm_source=rss_feed"
+    },
+    {
+      "id": "gdelt-1325911401",
+      "kind": "event",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T00:00:00.000Z",
+      "observedAt": "2026-10-02T01:00:00.000Z",
+      "description": "Disapproval — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.militarytimes.com/global/asia-pacific/2026/10/01/taiwan-takes-a-page-from-ukraines-playbook-in-steeling-society-for-an-invasion/",
+      "gdelt": {
+        "globalEventId": "1325911401",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.51,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325912243",
+      "kind": "event",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T00:00:00.000Z",
+      "observedAt": "2026-10-02T01:00:00.000Z",
+      "description": "Force posture — Liberation Army → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Force posture (GDELT 150)",
+      "actor": "Liberation Army",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.militarytimes.com/global/asia-pacific/2026/10/01/taiwan-takes-a-page-from-ukraines-playbook-in-steeling-society-for-an-invasion/",
+      "gdelt": {
+        "globalEventId": "1325912243",
+        "eventCode": "150",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -2.51,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325912269",
+      "kind": "event",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T00:00:00.000Z",
+      "observedAt": "2026-10-02T01:00:00.000Z",
+      "description": "Disapproval — Taiwan → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.militarytimes.com/global/asia-pacific/2026/10/01/taiwan-takes-a-page-from-ukraines-playbook-in-steeling-society-for-an-invasion/",
+      "gdelt": {
+        "globalEventId": "1325912269",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.51,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325926406",
+      "kind": "event",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T00:00:00.000Z",
+      "observedAt": "2026-10-02T03:45:00.000Z",
+      "description": "Threat — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 130)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/defence/taiwan-bolster-defences-against-china-as-first-batch-of-f-16v-fighter-jets-to-arrive/articleshow/134630446.cms",
+      "gdelt": {
+        "globalEventId": "1325926406",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 1.17,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325926909",
+      "kind": "event",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T00:00:00.000Z",
+      "observedAt": "2026-10-02T03:45:00.000Z",
+      "description": "Disapproval — Taiwan → United States near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 114)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/defence/taiwan-bolster-defences-against-china-as-first-batch-of-f-16v-fighter-jets-to-arrive/articleshow/134630446.cms",
+      "gdelt": {
+        "globalEventId": "1325926909",
+        "eventCode": "114",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.17,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325927790",
+      "kind": "event",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T00:00:00.000Z",
+      "observedAt": "2026-10-02T04:00:00.000Z",
+      "description": "Threat — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 130)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://bdnews24.com/world/asia-pacific/cmu4dxb5ch",
+      "gdelt": {
+        "globalEventId": "1325927790",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 0.69,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325929292",
+      "kind": "event",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T00:00:00.000Z",
+      "observedAt": "2026-10-02T04:15:00.000Z",
+      "description": "Threat — China → Military near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 2 sources); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 130)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://ksevradio.com/first-new-f-16v-fighter-jets-to-arrive-in-taiwan-to-bolster-defences-against-china/",
+      "gdelt": {
+        "globalEventId": "1325929292",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 0.62,
+        "mentions": 3,
+        "sources": 2
+      }
+    },
+    {
+      "id": "gdelt-1325929740",
+      "kind": "event",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T00:00:00.000Z",
+      "observedAt": "2026-10-02T04:15:00.000Z",
+      "description": "Rejection — Military Force → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Military Force",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.chiangraitimes.com/news-asia/philippines-cost-guard-china/",
+      "gdelt": {
+        "globalEventId": "1325929740",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -3.26,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1325929742",
+      "kind": "event",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T00:00:00.000Z",
+      "observedAt": "2026-10-02T04:15:00.000Z",
+      "description": "Rejection — Military Force → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Military Force",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.chiangraitimes.com/news-asia/philippines-cost-guard-china/",
+      "gdelt": {
+        "globalEventId": "1325929742",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -3.26,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
     {
       "id": "news-16387k6",
       "kind": "news",
@@ -414,6 +781,25 @@
       "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369456/panda-diplomacy-all-countries-currently-hosting-chinas-beloved-ambassadors?utm_source=rss_feed"
     },
     {
+      "id": "news-14i4nbe",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T20:52:55.000Z",
+      "description": "Opinion | Why Does Trump Want To Sell Arms To A US 'Adversary'? Inside His Strange Bargain - NDTV (NDTV, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NDTV",
+      "axis": "Other",
+      "tags": [
+        "NDTV",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NDTV",
+      "source": "NDTV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaDdXYUJEbDJkLUJ3S09MWVQtbTJoUWE4WnMyaEk4YjRWMnpNM1pRZFdfTnM2M05CSGd2Y2FtOWx6b3loWllUTXc5Y1lPd2Q2REZiZFIxVjB6SkVURFNNeHQ3Q0hhdnhGN2p5dFE4eWNJZ2EzcE5wcW40QXNmQWg4dDAxS2txc2dwM3NrMFE2azQwM3RQRVM2NGxSUmdaRkZHdDNJLW13?oc=5"
+    },
+    {
       "id": "news-1fjxzk0",
       "kind": "news",
       "date": "2026-10-01",
@@ -595,25 +981,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/military/article/3369429/us-says-f-47-will-be-first-sixth-gen-jet-chinas-j-36-and-j-50-are-already-flying?utm_source=rss_feed"
-    },
-    {
-      "id": "news-14i4nbe",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T11:32:12.000Z",
-      "description": "Opinion | Why Does Trump Want To Sell Arms To A US 'Adversary'? Inside His Strange Bargain - NDTV (NDTV, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NDTV",
-      "axis": "Other",
-      "tags": [
-        "NDTV",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NDTV",
-      "source": "NDTV",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaDdXYUJEbDJkLUJ3S09MWVQtbTJoUWE4WnMyaEk4YjRWMnpNM1pRZFdfTnM2M05CSGd2Y2FtOWx6b3loWllUTXc5Y1lPd2Q2REZiZFIxVjB6SkVURFNNeHQ3Q0hhdnhGN2p5dFE4eWNJZ2EzcE5wcW40QXNmQWg4dDAxS2txc2dwM3NrMFE2azQwM3RQRVM2NGxSUmdaRkZHdDNJLW13?oc=5"
     },
     {
       "id": "news-1gbhykf",
@@ -833,18 +1200,18 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T03:45:55.000Z",
-      "description": "Taiwan transfers naval commander to Coast Guard to boost deterrence against China - internazionale.it (internazionale.it, 2026-10-01. Headline + link only.)",
+      "description": "Taiwan transfers naval commander to Coast Guard to boost deterrence against China - Internazionale (Internazionale, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "internazionale.it",
+      "actor": "Internazionale",
       "axis": "Other",
       "tags": [
-        "internazionale.it",
+        "Internazionale",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "internazionale.it",
-      "source": "internazionale.it",
+      "locationStr": "Internazionale",
+      "source": "Internazionale",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQnpXTThpZjExSFUtYnVBYWZQbHVxcUhVUUtMazQ0Z3d2cl9RUUlWWWdWLTBFXzBKclVUNE9ZaEVpYk13SHhMMVNwNzV6c1lycWZWdDE4N2d6LVRUTXJmYkFIVHEtRHhSMWstVHM1ZXE4WGtRN2ZPZHFoN2Z1OWhWWExBTWRpOFk2empTQUhJNDZWaWQ3Z3NNWE9ndHBPdTFMR1NPLVJfZUt4OC1RR1FaTUxYTU1UWGNabTdKYWtpM2xyay12Wkc0dWVNZV9YYkJ6U2NoUUdUT2pjaXlVQUE?oc=5"
     },
     {
@@ -979,6 +1346,25 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369402/xi-trump-rapport-most-valuable-strategic-asset-us-china-ties-envoy-xie-says?utm_source=rss_feed"
+    },
+    {
+      "id": "news-1w44kd8",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T01:57:14.000Z",
+      "description": "PLA activities in the waters and airspace around Taiwan - mnd.gov.tw (mnd.gov.tw, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "mnd.gov.tw",
+      "axis": "Other",
+      "tags": [
+        "mnd.gov.tw",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "mnd.gov.tw",
+      "source": "mnd.gov.tw",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XZkxNWEhJYkJnNFNHdkdjNVRmZlVMX1BTVzQ5OGlMZlNzQWlYS0s2SFRTYnJEd2ZqYkpEU3VEV0paVXpCQWNVbU5tTXhBd2FTWXdQdFdR?oc=5"
     },
     {
       "id": "news-1tv152z",
@@ -7297,18 +7683,18 @@
       "kind": "news",
       "date": "2026-09-29",
       "isoDate": "2026-09-29T13:50:00.000Z",
-      "description": "A $14 billion U.S. arms deal to Taiwan is stalled. Taipei says everything else is still on track - fortune.com (fortune.com, 2026-09-29. Headline + link only.)",
+      "description": "A $14 billion U.S. arms deal to Taiwan is stalled. Taipei says everything else is still on track - Fortune (Fortune, 2026-09-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "fortune.com",
+      "actor": "Fortune",
       "axis": "Other",
       "tags": [
-        "fortune.com",
+        "Fortune",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "fortune.com",
-      "source": "fortune.com",
+      "locationStr": "Fortune",
+      "source": "Fortune",
       "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE43dng5VlJ1d2Vmdi1VcFZMVFFMbzMtZFFHYTdpNmNzUWloQzJqSXRwNjNORGhtNjlLUWduSmpud2dsNUVGQnpuakpOVlBUeEpramxmanduam81bWt0emE0T21OeGxXc08zWGxYWDBobzM?oc=5"
     },
     {
@@ -7766,318 +8152,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/us/diplomacy/article/3369150/important-and-consequential-nvidias-jensen-huang-us-china-ai-race-risk-management?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1v6s8oe",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T04:47:33.000Z",
-      "description": "Myanmar arrests 21 over alleged donations to opposition-linked fundraising platform (Straits Times, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/se-asia/myanmar-arrests-21-over-alleged-donations-to-opposition-linked-fundraising-platform"
-    },
-    {
-      "id": "news-16y2y9b",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T04:30:00.000Z",
-      "description": "Sydney data centre plan scrapped by developer after community backlash (Straits Times, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/australianz/sydney-data-center-plan-scrapped-by-developer-after-community-backlash"
-    },
-    {
-      "id": "news-16rir9r",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T04:11:17.000Z",
-      "description": "Chinese deep-ocean drilling ship brings home ‘precious’ South China Sea samples (SCMP, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3369137/chinese-deep-ocean-drilling-ship-brings-home-precious-south-china-sea-samples?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1y8qqru",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T03:52:00.000Z",
-      "description": "With national holidays approaching, workers in China demand a proper break (Straits Times, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/with-national-holidays-approaching-workers-in-china-demand-a-proper-break"
-    },
-    {
-      "id": "news-7nq4we",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T03:06:00.000Z",
-      "description": "Johnson predicts NT$1.27 trillion in Taiwan arms sales under Trump - Taiwan News (Taiwan News, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Taiwan News",
-      "axis": "Other",
-      "tags": [
-        "Taiwan News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Taiwan",
-      "source": "Taiwan News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0yczNjWktfSzdHNWV5dVR0MklfZEZ1NlRfc3BobXAxLWtlSGlaX1JuT3FnYjVmZ0YxTlRScXVXakxnZXNhZmJpc0xiYnlaWmFUdHdCSEU1dno?oc=5",
-      "lat": 23.97394,
-      "lng": 120.98202,
-      "coordsNote": "OSM geocode: matched \"Taiwan\" → Taiwan; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-qusbal",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T03:06:00.000Z",
-      "description": "Johnson predicts NT$1.27 trillion in Taiwan arms sales under Trump - Taiwan News (Taiwan News, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Taiwan News",
-      "axis": "Other",
-      "tags": [
-        "Taiwan News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Taiwan",
-      "source": "Taiwan News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB0X3V3TkZnYXVnTzVFWkRpWmc5cUREM2c5c2IzWl9GOFZCUmMwcUZqcFlrbUlNbjBTWlROaWxMRkhYNXZYaGFDeFg5NlBub2xOcDN2WQ?oc=5",
-      "lat": 23.97394,
-      "lng": 120.98202,
-      "coordsNote": "OSM geocode: matched \"Taiwan\" → Taiwan; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-zpyubo",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T02:20:42.000Z",
-      "description": "China reveals plan to map the entire surface of Mars by 2028 amid race with US (SCMP, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3369127/china-reveals-plan-map-entire-surface-mars-2028-amid-race-us?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1qkxo9m",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T02:01:22.000Z",
-      "description": "Trump Asked Xi If China Wanted American Weapons, US Ambassador Claims, Despite Sales Being Banned by Law - inkl.com (inkl.com, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "inkl.com",
-      "axis": "Other",
-      "tags": [
-        "inkl.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "inkl.com",
-      "source": "inkl.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeTlXZ1Z3RHFvZHVMNkZ2UFY2VnFPS0hYWDQ4RnJwMUs0MVpFS2ZHNGN6QWozMU83bnlDOVhZQlFEM295d1AxNXhIZnl5SnlrUk51VzBFTFE1VTVYX1FKaE9fUlItVXctbmwxU1NCNHl4STVUUFF1QnktOFNfMkNTTy1YcVVQbVZ6Y3VtMWRDbXY2WUljRGJ4dHgwdnFLNXFfZjFXbmc3X2dLTEZBMlhxVkk4Q2d0MzU2YmQ0YWh3TFZ4eVYxbFNV?oc=5"
-    },
-    {
-      "id": "news-wzkz8b",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T01:57:39.000Z",
-      "description": "Taiwan says it is in continuous talks with US about arms sales (Straits Times, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/taiwan-says-it-is-in-continuous-talks-with-us-about-arms-sales"
-    },
-    {
-      "id": "news-1qcgavv",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T01:55:53.000Z",
-      "description": "Taiwan says it is in continuous talks with US about arms sales By Reuters - Investing.com (Investing.com, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Investing.com",
-      "axis": "Other",
-      "tags": [
-        "Investing.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Investing.com",
-      "source": "Investing.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZjA4SlJVazdDbHU3RXR0Z3pCZ280dkRiVV8zai1XRndnNG5aTGpkVVd3YUF3bEZyb09sbVZIaHFLcURyaU5WUDZwZjBKLWtKV0w3bmdTM1FKM1JIbklRd0k2TUtwcEdYZ0dXbTNkeWE4N2lQUVdoNm4zcjkwME9TMW12VGw3eHZ3Q19GamNkTmpleHlEdkl3SnMySlpiU1QwV3lGdUlOeHZPOG0wV0VZUmVmbTdBSUlnWmxr?oc=5"
-    },
-    {
-      "id": "news-1yc86sq",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T01:53:00.000Z",
-      "description": "Taiwan says it is in continuous talks with US about arms sales - Reuters (Reuters, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeEwyZ3A3ZUxSQjhGZUxZNko5NWdqTERhb3h4TlhWczF0WUd6NzU3b2xzWV9nZFNvSTMybGJadTZ1SWJPajRMZGxGV3hlNEFaRXk4bFlteTJGeHA4OFRRRFh2aEU4VjUteUxjSEpjSlI4YXFkbFA4WUNZUFAtU3h5TTBKUEdLQXNCWDlsLWY1V3Nlc3lneGt3cWViX1ltdjZBRzVjc3dqTW1jQ29KYTdSeFZQaXBHWTN2dVRCM0ttOA?oc=5"
-    },
-    {
-      "id": "news-1dw6tq0",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T01:46:00.000Z",
-      "description": "Trump denies offering to sell arms to China’s Xi - japantimes.co.jp (japantimes.co.jp, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "japantimes.co.jp",
-      "axis": "Other",
-      "tags": [
-        "japantimes.co.jp",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "japantimes.co.jp",
-      "source": "japantimes.co.jp",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTzhNRjFGUE9mcDhWYVRXODJJbXV5RnFQU0VpaF9OVDlXU0lDaW1DalVfd2p3UFFJWWJUckpVUVk4OFVWSHhNTnh6LWNjQ25CbXZ1REZPOHBqZWExLWdQSEF4UXVjQkJIMnpNS1lpeFUybFlnanJYaGNLYXJrRHBYbXRzSTdjcm1NNjQ2eFpn?oc=5"
-    },
-    {
-      "id": "news-pz5lzk",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T01:38:27.000Z",
-      "description": "Trump Denies Discussing US Arms Sales to China in Xi Summit - mb.ntd.com (mb.ntd.com, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "mb.ntd.com",
-      "axis": "Other",
-      "tags": [
-        "mb.ntd.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "mb.ntd.com",
-      "source": "mb.ntd.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbW93ZE9MTG04UllvV0NrN3FLMmVXVEs0bURzSkVhaXdZRWZQc3dxQllkclhtdXlSbkZqTDg1NkNST29KcWlKX28yQnA5cEZhT1dSUnJCLVUyUXNtS2NPNkpIdjhtQXJxMlJ5NEowelgtRlBVdllzQ0JsMC16Y2N1N0ljU1Z6VERzT3gya0tlUEFmSWFCcUE?oc=5"
-    },
-    {
-      "id": "news-14hexf2",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T01:05:39.000Z",
-      "description": "Trump contradicts US envoy over reported offer to sell arms to China’s Xi - Malay Mail (Malay Mail, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Malay Mail",
-      "axis": "Other",
-      "tags": [
-        "Malay Mail",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Malay Mail",
-      "source": "Malay Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdktGd3phY1Y5aUxMNVpDT3E4aWh0RDU3OUJnZTNtYzIxRzg4cVBxbFZtWXFIN3h3VFRlZVVncklzUmRIcmZjaUMtVkI1VmtpZGt1bGFMelN0UnR1T3AwRWVfc2gyRnFLMWZKTFZ1TzBvbFBuaGhUSWlsTi1BM1RQN3FRNkk5U1FPSG9xa1E2ZV94UEN2em1wRmcxYW9tVmdXRk9wM0lsQXI3aW8zOF9zWGZ4dXEtRGd2RVNYWEtrQ1kzZ0xRWDhRSFhjY9IBywFBVV95cUxNdktGd3phY1Y5aUxMNVpDT3E4aWh0RDU3OUJnZTNtYzIxRzg4cVBxbFZtWXFIN3h3VFRlZVVncklzUmRIcmZjaUMtVkI1VmtpZGt1bGFMelN0UnR1T3AwRWVfc2gyRnFLMWZKTFZ1TzBvbFBuaGhUSWlsTi1BM1RQN3FRNkk5U1FPSG9xa1E2ZV94UEN2em1wRmcxYW9tVmdXRk9wM0lsQXI3aW8zOF9zWGZ4dXEtRGd2RVNYWEtrQ1kzZ0xRWDhRSFhjYw?oc=5"
-    },
-    {
-      "id": "news-16bning",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T01:04:40.000Z",
-      "description": "Trump contradicts US envoy over reported offer to sell arms to China’s Xi - Malay Mail (Malay Mail, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Malay Mail",
-      "axis": "Other",
-      "tags": [
-        "Malay Mail",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Malay Mail",
-      "source": "Malay Mail",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWVBSSUZMUzYxaWlnSEJ1dFhOeDB3WFNWR0JUTlJpY2lsd1ViTW5xQ1BtQUVDWGlNNHFONkdmUS00aGFPUFJ0cXhUTmZlSmJvaklVWDZjZEg4cVJFVGJSNzA4V3JWcXlYS3l6MzFITmZtcE95T1pKaUI4LW5DTUJBYkJRVlBLZHpCVVNrSVVtN09ZOFg2VTJHdXgtUU0waXc4b1lHZTNfMm56RW9PWklIeGI4bTVQR0xrRURya0dCNUVwVE1JdUHSAcsBQVVfeXFMTXZLRnd6YWNWOWlMTDVaQ09xOGlodEQ1NzlCZ2UzbWMyMUc4OHFQcWxWbVlxSDd4d1RUZWVVZ3JJc1JkSHJmY2lDLVZCNVZraWRrdWxhTHpTdFJ0dU9wMEVlX3NoMkZxSzFmSkxWdU8wb2xQbmhoVElpbE4tQTNUUDdxUTZJOVNRT0hvcWtRNmVfeFBDdnptcEZnMWFvbVZnV0ZPcDNJbEFyN2lvMzhfc1hmeHVxLURndkVTWFhLa0NZM2dMUVg4UUhYY2M?oc=5"
-    },
-    {
-      "id": "news-8tnrsj",
-      "kind": "news",
-      "date": "2026-09-29",
-      "isoDate": "2026-09-29T01:00:17.000Z",
-      "description": "Chinese team sets world record with swarm of 116 underwater drones (SCMP, 2026-09-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3369031/chinese-team-sets-world-record-swarm-116-underwater-drones?utm_source=rss_feed"
     }
   ]
 }
