@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-03T11:56:24.980Z",
+  "collectedAt": "2026-10-03T12:46:15.702Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 1
     },
     {
       "id": "taipei-times",
@@ -42,14 +42,14 @@
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
       "count": 3,
-      "filtered": 12
+      "filtered": 13
     },
     {
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 7,
-      "filtered": 43
+      "count": 6,
+      "filtered": 44
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 41,
+      "count": 42,
       "filtered": 0
     },
     {
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 250,
+  "count": 249,
   "events": [
     {
       "id": "news-1g4hlqo",
@@ -100,6 +100,25 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/north-koreas-kim-yo-jong-says-intermediate-range-missile-test-was-conducted"
+    },
+    {
+      "id": "news-2a835j",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T11:08:37.000Z",
+      "description": "North Korea’s Kim Yo Jong says intermediate-range missile test was conducted (Straits Times, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/north-koreas-kim-yo-jong-says-intermediate-range-missile-test-was-conducted"
     },
     {
       "id": "news-eudhhu",
@@ -616,6 +635,40 @@
         "goldstein": -10,
         "tone": 0.36,
         "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326138222",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T12:30:00.000Z",
+      "description": "Force posture — Navy → Japan near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Navy",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://eng.chinamil.com.cn/2025xb/W/A_251464/16490997.html",
+      "gdelt": {
+        "globalEventId": "1326138222",
+        "eventCode": "154",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -4.25,
+        "mentions": 2,
         "sources": 1
       }
     },
@@ -6869,63 +6922,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/east-asia/china-extends-probes-into-us-trade-barriers-until-december"
-    },
-    {
-      "id": "news-rrvwbd",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T12:30:10.000Z",
-      "description": "From Taiwan to Takaichi, the geopolitical fallout from Xi-Trump summit (SCMP, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369360/taiwan-takaichi-geopolitical-fallout-xi-trump-summit?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1djgp2w",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T12:30:06.000Z",
-      "description": "US-China conflict doesn’t have to become a self-fulfilling prophecy (SCMP, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/opinion/china-opinion/article/3369128/us-china-conflict-doesnt-have-become-self-fulfilling-prophecy?utm_source=rss_feed"
-    },
-    {
-      "id": "news-zbqhd1",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T12:01:04.000Z",
-      "description": "Did Beijing and Washington agree on a crisis prevention deal, or not? (SCMP, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/military/article/3369359/did-beijing-and-washington-agree-crisis-prevention-deal-or-not?utm_source=rss_feed"
     }
   ]
 }
