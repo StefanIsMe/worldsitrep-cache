@@ -23,6 +23,7 @@ export const THEATER_QUERIES = {
   "us-election": "United States election Trump",
   houthis: "Houthis Yemen Red Sea",
   myanmar: "Myanmar civil war",
+  france: "France student protests",
 };
 
 // HDX CKAN package_search terms per theatre (metadata only).

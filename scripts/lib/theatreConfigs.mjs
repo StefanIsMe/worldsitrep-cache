@@ -51,6 +51,14 @@ const GAZA_MATCH = [
   'HOUTHI', 'RAFAH', 'JENIN', 'NABLUS', 'RAMALLAH', 'HEBRON',
   'LEBANON', 'BEIRUT', 'SYRIA', 'DAMASCUS', 'AIRSTRIKE', 'SETTLER'
 ];
+// France student-protest relevance (verified 2026-10-03: france24-en 4/24 kept,
+// bbc-france 3/22, rfi-en 1/21, zero false positives in-sample; PARIS dropped -
+// Channel-crime and state-visit noise; NICE dropped - adjective collision).
+const FRANCE_MATCH = [
+  'CRÉTEIL', 'CRETEIL', 'MARSEILLE', 'LYON', 'NANTES', 'LILLE', 'RENNES', 'BORDEAUX', 'TOULOUSE', 'STRASBOURG', 'MONTPELLIER', 'PANTIN', 'SAINT-DENIS', 'AUBERVILLIERS', 'PERPIGNAN', 'NÎMES', 'NIMES', 'TOURS', 'MEAUX', 'ÎLE-DE-FRANCE', 'ILE-DE-FRANCE', 'SEINE-SAINT-DENIS', 'VAL-DE-MARNE',
+  'LECORNU', 'GEFFRAY', 'NUÑEZ', 'NUNEZ', 'DARMANIN', 'MÉLENCHON', 'MELENCHON', 'BOMPARD', 'BAGAYOKO', '\\bLFI\\b', 'LA FRANCE INSOUMISE', 'RETAILLEAU', 'ATTAL', 'PÉCRESSE', 'PECRESSE', '\\bUSL\\b', 'UNION SYNDICALE',
+  'LYCÉE', 'LYCEE', 'STUDENT PROTEST', 'STUDENTS PROTEST', 'SCHOOL PROTEST', 'STUDENT UNREST', 'FRENCH UNREST', 'SCHOOL BLOCKADE', 'BLOCKADE', 'PARCOURSUP', 'BLOCUS', 'YELLOW VEST',
+];
 
 // Sahel crisis relevance; country names excluded on purpose (sports name them too). Verified 2026-10-01.
 const SAHEL_CRISIS_MATCH = [
@@ -613,6 +621,53 @@ export const THEATRES = {
       { names: ['Rakhine State', 'Rakhine'], lat: 20.50, lng: 93.00, label: 'Rakhine State', level: 'region' },
       { names: ['Sagaing Region', 'Sagaing'], lat: 22.00, lng: 95.50, label: 'Sagaing Region', level: 'region' },
       { names: ['Shan State'], lat: 21.50, lng: 98.00, label: 'Shan State', level: 'region' },
+    ],
+  },
+  france: {
+    id: 'france',
+    dir: 'france-events',
+    gdelt: { fips: ['FR'], defaultGeo: 'France' },
+    actorMap: [
+      ['USL|UNION SYNDICALE|RYAD RANI', 'Student unions'],
+      ['LA FRANCE INSOUMISE|\\bLFI\\b|MÉLENCHON|MELENCHON|BOMPARD|BAGAYOKO', 'Left bloc'],
+      ['LECORNU|GEFFRAY|NUÑEZ|NUNEZ|DARMANIN|RETAILLEAU|ATTAL|PÉCRESSE|PECRESSE', 'Government'],
+      ['POLICE|GENDARMERIE|\\bCRS\\b|PREFECT', 'Security forces'],
+    ],
+    // RSS verified 2026-10-03: gnews-france-protests 50/50 (46 fresh72h),
+    // gnews-lycees 34/34 (17 fresh72h); outlet gates via FRANCE_MATCH above.
+    rssFeeds: [
+      gnews('gnews-france-protests', 'france', 'France student protests'),
+      gnews('gnews-lycees', 'france', 'France lycées blockades'),
+      {
+        id: 'france24-en', theatre: 'france', name: 'France 24 English', url: 'https://www.france24.com/en/rss',
+        match: FRANCE_MATCH,
+      },
+      {
+        id: 'bbc-france', theatre: 'france', name: 'BBC Europe', url: 'https://feeds.bbci.co.uk/news/world/europe/rss.xml',
+        match: FRANCE_MATCH,
+      },
+      {
+        id: 'rfi-en', theatre: 'france', name: 'RFI English', url: 'https://www.rfi.fr/en/rss',
+        match: FRANCE_MATCH,
+      },
+    ],
+    reliefwebIso3: ['fra'],
+    osm: { countryCodes: ['fr'], bbox: [41.0, -5.5, 51.5, 10.0] },
+    gazetteer: [
+      { names: ['Paris'], lat: 48.86, lng: 2.35, label: 'Paris', level: 'city', capital: true },
+      { names: ['Créteil', 'Creteil'], lat: 48.79, lng: 2.45, label: 'Créteil', level: 'city' },
+      { names: ['Saint-Denis'], lat: 48.94, lng: 2.36, label: 'Saint-Denis', level: 'city' },
+      { names: ['Pantin'], lat: 48.9, lng: 2.41, label: 'Pantin', level: 'city' },
+      { names: ['Lille'], lat: 50.63, lng: 3.07, label: 'Lille', level: 'city' },
+      { names: ['Lyon'], lat: 45.76, lng: 4.84, label: 'Lyon', level: 'city' },
+      { names: ['Marseille'], lat: 43.3, lng: 5.37, label: 'Marseille', level: 'city' },
+      { names: ['Nantes'], lat: 47.22, lng: -1.55, label: 'Nantes', level: 'city' },
+      { names: ['Rennes'], lat: 48.11, lng: -1.68, label: 'Rennes', level: 'city' },
+      { names: ['Bordeaux'], lat: 44.84, lng: -0.58, label: 'Bordeaux', level: 'city' },
+      { names: ['Toulouse'], lat: 43.6, lng: 1.44, label: 'Toulouse', level: 'city' },
+      { names: ['Strasbourg'], lat: 48.57, lng: 7.75, label: 'Strasbourg', level: 'city' },
+      { names: ['Nice'], lat: 43.7, lng: 7.27, label: 'Nice', level: 'city' },
+      { names: ['Montpellier'], lat: 43.61, lng: 3.88, label: 'Montpellier', level: 'city' },
     ],
   },
 };

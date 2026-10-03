@@ -31,6 +31,7 @@ put('arctic-events/latest.json', ago(10));
 put('us-election-events/latest.json', ago(10));
 put('houthis-events/latest.json', ago(10));
 put('myanmar-events/latest.json', ago(10));
+put('france-events/latest.json', ago(10));
 
 const r = await checkFreshness(tmp, NOW);
 assert.equal(r.ukraine.stale, true, 'ukraine past 75m is stale');

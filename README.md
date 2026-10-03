@@ -43,8 +43,8 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   with the match in `coordsNote`; placeless headlines and theatre-wide
   assessments honestly stay `unplaced`. The stage runs over the merged set,
   so previously collected items gain coords on later runs too.
-- `<theatre>-events/latest.json` — rolling live-wire feeds for the other 9
-  theatres (taiwan, gaza, iran, sahel, korea, arctic, us-election, houthis, myanmar): same
+- `<theatre>-events/latest.json` — rolling live-wire feeds for the other 10
+  theatres (taiwan, gaza, iran, sahel, korea, arctic, us-election, houthis, myanmar, france): same
   envelope, retention (72h events/news, 14d reports, cap 1500, newest first),
   per-source statuses, and warehouse layout (`latest/status/index/days/`)
   as ukraine-events, driven by per-theatre configs
@@ -58,11 +58,11 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   Yonhap x2, Korea Times, NK News, 38 North, Diplomat, BBC Asia, Eye on
   the Arctic, Guardian Arctic, Anchorage Daily News,
   Cryopolitics, NPR, EAC, The Hill, Politico, PBS, Roll Call, Axios,
-  gCaptain, Splash247, Loadstar, Irrawaddy, Myanmar Now, DVB) and query-scoped Google News feeds, plus
+  gCaptain, Splash247, Loadstar, Irrawaddy, Myanmar Now, DVB, France 24 English, BBC Europe, RFI English) and query-scoped Google News feeds, plus
   gated ReliefWeb reports (same `RELIEFWEB_APPNAME` secret; skipped for
   the Arctic and us-election). General-news feeds pass a per-feed keyword
   relevance gate so sports, culture, and world headlines never enter a
-  theatre wire (shared US_POLITICS / SAHEL_CRISIS / ARCTIC_WATCH / GAZA
+  theatre wire (shared US_POLITICS / SAHEL_CRISIS / ARCTIC_WATCH / GAZA / FRANCE
   lists since 2026-10-01; Al Jazeera all-news rejoined 2026-09-28 under
   that gate, verified clean); UN News global stays dropped for the same
   reason, as are Nunatsiaq and NNSL (local news only, ~0% topic-relevant,
@@ -113,7 +113,7 @@ No website source code lives here. Free-tier only: no API keys, no paid services
   country centroid) and out-of-theatre pins (`outsideTheatreDropped` —
   e.g. "Moscow says …" datelines geocoded to Moscow).
 - Warehouse history (nothing is ever pruned):
-  - `<theatre>-events/days/YYYY/MM/DD.json` (ukraine + the 9 theatre wires) — immutable day segments: every record
+  - `<theatre>-events/days/YYYY/MM/DD.json` (ukraine + the 10 theatre wires) — immutable day segments: every record
     whose UTC date is that day (full records, deduped by id). Runs only ever
     append new ids; `ukraine-events/index.json` lists day counts by kind.
     The old `ukraine-events/archive/` full-envelope dumps are frozen legacy.
@@ -166,6 +166,7 @@ Raw feed URLs:
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/us-election-events/latest.json (each theatre wire also has status.json, index.json, days/YYYY/MM/DD.json)
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/houthis-events/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/myanmar-events/latest.json
+- https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/france-events/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/territory-daily/latest.json
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/territory-daily/status.json (run-liveness record: checkedAt + snapshot id + per-class census)
 - https://raw.githubusercontent.com/StefanIsMe/worldsitrep-cache/main/territory-daily/index.json (timeline day list for the site scrubber)
@@ -180,7 +181,7 @@ sea-ice image metadata (citation NSIDC/CIRES/NASA).
 `.github/workflows/collect-ukraine-events.yml` runs hourly (minute 37) for
 the Ukraine live-wire feed.
 `.github/workflows/collect-theatre-events.yml` runs hourly (minute 52) for
-the other 9 theatre live-wire feeds (one shared GDELT download per run).
+the other 10 theatre live-wire feeds (one shared GDELT download per run).
 `.github/workflows/collect-territory.yml` runs daily (04:13 UTC, after the mirror's ~03:00 UTC refresh) for the Ukraine territory snapshot; the watchdog also heals it inline when `territory-daily/latest.json` is older than 30h.
 `.github/workflows/collect-traffic.yml` runs twice hourly (minutes 17, 47).
 `.github/workflows/check-freshness.yml` (watchdog) runs every 30 minutes and

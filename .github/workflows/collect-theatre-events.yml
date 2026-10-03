@@ -1,7 +1,7 @@
 name: Collect theatre live-wire events
 
 # Hourly live-wire feeds for the 9 non-Ukraine theatres (taiwan, gaza, iran,
-# sahel, korea, arctic, us-election, houthis, myanmar): one shared GDELT 2.1 export download
+# sahel, korea, arctic, us-election, houthis, myanmar, france): one shared GDELT 2.1 export download
 # partitioned per theatre, plus per-theatre RSS headlines and gated ReliefWeb
 # reports. Same envelope + warehouse layout as ukraine-events. Runs in this
 # public cache repo; the private site repo only reads latest.json.
@@ -46,14 +46,14 @@ jobs:
         run: |
           # NOTE: stage first — bare `git diff` ignores untracked files, so a
           # pre-add quiet check would silently skip the first-ever snapshot.
-          git add -- taiwan-events/latest.json taiwan-events/status.json taiwan-events/index.json taiwan-events/days taiwan-events/geocode-cache.json gaza-events/latest.json gaza-events/status.json gaza-events/index.json gaza-events/days gaza-events/geocode-cache.json iran-events/latest.json iran-events/status.json iran-events/index.json iran-events/days iran-events/geocode-cache.json sahel-events/latest.json sahel-events/status.json sahel-events/index.json sahel-events/days sahel-events/geocode-cache.json korea-events/latest.json korea-events/status.json korea-events/index.json korea-events/days korea-events/geocode-cache.json arctic-events/latest.json arctic-events/status.json arctic-events/index.json arctic-events/days arctic-events/geocode-cache.json us-election-events/latest.json us-election-events/status.json us-election-events/index.json us-election-events/days us-election-events/geocode-cache.json houthis-events/latest.json houthis-events/status.json houthis-events/index.json houthis-events/days houthis-events/geocode-cache.json myanmar-events/latest.json myanmar-events/status.json myanmar-events/index.json myanmar-events/days myanmar-events/geocode-cache.json
+          git add -- taiwan-events/latest.json taiwan-events/status.json taiwan-events/index.json taiwan-events/days taiwan-events/geocode-cache.json gaza-events/latest.json gaza-events/status.json gaza-events/index.json gaza-events/days gaza-events/geocode-cache.json iran-events/latest.json iran-events/status.json iran-events/index.json iran-events/days iran-events/geocode-cache.json sahel-events/latest.json sahel-events/status.json sahel-events/index.json sahel-events/days sahel-events/geocode-cache.json korea-events/latest.json korea-events/status.json korea-events/index.json korea-events/days korea-events/geocode-cache.json arctic-events/latest.json arctic-events/status.json arctic-events/index.json arctic-events/days arctic-events/geocode-cache.json us-election-events/latest.json us-election-events/status.json us-election-events/index.json us-election-events/days us-election-events/geocode-cache.json houthis-events/latest.json houthis-events/status.json houthis-events/index.json houthis-events/days houthis-events/geocode-cache.json myanmar-events/latest.json myanmar-events/status.json myanmar-events/index.json myanmar-events/days myanmar-events/geocode-cache.json france-events/latest.json france-events/status.json france-events/index.json france-events/days france-events/geocode-cache.json
           if git diff --cached --quiet; then
             echo "No theatre file changes; nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --cached --quiet -- taiwan-events/latest.json gaza-events/latest.json iran-events/latest.json sahel-events/latest.json korea-events/latest.json arctic-events/latest.json us-election-events/latest.json houthis-events/latest.json myanmar-events/latest.json; then
+          if git diff --cached --quiet -- taiwan-events/latest.json gaza-events/latest.json iran-events/latest.json sahel-events/latest.json korea-events/latest.json arctic-events/latest.json us-election-events/latest.json houthis-events/latest.json myanmar-events/latest.json france-events/latest.json; then
             git commit -m "chore: theatre collectors heartbeat (no new items)"
           else
             git commit -m "chore: update theatre live-wire snapshots"

@@ -20,6 +20,7 @@ export const GROUPS = {
       'sahel-events/latest.json', 'korea-events/latest.json', 'arctic-events/latest.json',
       'us-election-events/latest.json', 'houthis-events/latest.json',
       'myanmar-events/latest.json',
+      'france-events/latest.json',
     ],
   },
   cache: { maxAgeMin: 100, snapshots: ['markets-data/latest.json', 'hazards-data/latest.json', 'events-data/latest.json', 'news-data/latest.json'] },
