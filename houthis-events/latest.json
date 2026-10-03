@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-03T19:20:57.624Z",
+  "collectedAt": "2026-10-03T19:31:27.808Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 36
+      "count": 3
     },
     {
       "id": "gcaptain",
@@ -26,16 +26,16 @@
     {
       "id": "gnews-houthis",
       "url": "https://news.google.com/rss/search?q=Houthis%20Yemen%20Red%20Sea&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-houthis request failed with HTTP 503"
     },
     {
       "id": "gnews-shipping",
       "url": "https://news.google.com/rss/search?q=Red%20Sea%20shipping%20Houthi%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-shipping request failed with HTTP 503"
     },
     {
       "id": "splash247",
@@ -61,16 +61,16 @@
     {
       "id": "gnews-hodeidah",
       "url": "https://news.google.com/rss/search?q=Hodeidah%20Sanaa%20airstrike%20Houthi&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-hodeidah request failed with HTTP 503"
     },
     {
       "id": "gnews-mandeb",
       "url": "https://news.google.com/rss/search?q=Bab%20el-Mandeb%20vessel%20drone%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-mandeb request failed with HTTP 503"
     },
     {
       "id": "reliefweb",

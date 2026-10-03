@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-03T19:20:57.624Z",
+  "collectedAt": "2026-10-03T19:31:27.808Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -26,23 +26,23 @@
     {
       "id": "gnews-election",
       "url": "https://news.google.com/rss/search?q=US%20election%20Trump%202028&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 36,
-      "filtered": 14
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-election request failed with HTTP 503"
     },
     {
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Trump%20tariffs%20executive%20order&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 49,
-      "filtered": 1
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-policy request failed with HTTP 503"
     },
     {
       "id": "thehill",
       "url": "https://thehill.com/feed/",
       "status": "ok",
-      "count": 29,
-      "filtered": 21
+      "count": 30,
+      "filtered": 20
     },
     {
       "id": "politico-congress",
@@ -75,23 +75,23 @@
     {
       "id": "gnews-protest",
       "url": "https://news.google.com/rss/search?q=Trump%20protest%20National%20Guard%20deployment&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-protest request failed with HTTP 503"
     },
     {
       "id": "gnews-courts",
       "url": "https://news.google.com/rss/search?q=federal%20judge%20blocks%20executive%20order%20ruling&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 47,
-      "filtered": 3
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-courts request failed with HTTP 503"
     },
     {
       "id": "gnews-midterms",
       "url": "https://news.google.com/rss/search?q=US%20midterm%20elections%202026%20polls&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-midterms request failed with HTTP 503"
     },
     {
       "id": "reliefweb",
@@ -103,6 +103,25 @@
   ],
   "count": 290,
   "events": [
+    {
+      "id": "news-1k60y7x",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T19:22:07.000Z",
+      "description": "White House defends media outlet bans, now citing &#8216;professionalism&#8217; standards (The Hill, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/regulation/court-battles/6127654-white-house-defends-press-ban-professionalism/"
+    },
     {
       "id": "news-16o1ejt",
       "kind": "news",
@@ -5761,25 +5780,6 @@
       "locationStr": "PBS NewsHour",
       "source": "PBS NewsHour",
       "sourceUrl": "https://www.pbs.org/newshour/politics/former-homeland-security-secretary-kristi-noem-files-for-divorce-from-her-husband-of-34-years"
-    },
-    {
-      "id": "news-1jnddo0",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T19:21:09.000Z",
-      "description": "Blackburn sues Jack Smith for obtaining her phone records (Politico, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Politico",
-      "axis": "Other",
-      "tags": [
-        "Politico",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Politico",
-      "source": "Politico",
-      "sourceUrl": "https://www.politico.com/news/2026/09/30/blackburn-sues-jack-smith-for-obtaining-her-phone-records-01100441"
     }
   ]
 }

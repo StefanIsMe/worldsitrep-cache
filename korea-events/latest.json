@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "korea",
-  "collectedAt": "2026-10-03T19:20:57.624Z",
+  "collectedAt": "2026-10-03T19:31:27.808Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 12
+      "count": 0
     },
     {
       "id": "yna-nk",
@@ -33,9 +33,9 @@
     {
       "id": "gnews-korea",
       "url": "https://news.google.com/rss/search?q=North%20Korea%20missile%20Kim&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-korea request failed with HTTP 503"
     },
     {
       "id": "nknews",
@@ -68,23 +68,23 @@
     {
       "id": "gnews-missile",
       "url": "https://news.google.com/rss/search?q=North%20Korea%20missile%20launch&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-missile request failed with HTTP 503"
     },
     {
       "id": "gnews-nkru",
       "url": "https://news.google.com/rss/search?q=North%20Korea%20Russia%20troops%20Ukraine&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-nkru request failed with HTTP 503"
     },
     {
       "id": "gnews-yongbyon",
       "url": "https://news.google.com/rss/search?q=North%20Korea%20Yongbyon%20nuclear&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-yongbyon request failed with HTTP 503"
     },
     {
       "id": "reliefweb",
