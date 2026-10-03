@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-03T01:29:31.251Z",
+  "collectedAt": "2026-10-03T06:12:39.472Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 4
+      "count": 10
     },
     {
       "id": "taipei-times",
@@ -80,8 +80,46 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 249,
+  "count": 253,
   "events": [
+    {
+      "id": "news-1xxekui",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T04:00:14.000Z",
+      "description": "China returns to top 100 in gender parity ranking for first time since 2016 (SCMP, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3369621/china-returns-top-100-gender-parity-ranking-first-time-2016?utm_source=rss_feed"
+    },
+    {
+      "id": "news-1m689b3",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T02:00:13.000Z",
+      "description": "Malaysia is building a new research corridor across Asia to meet China’s rise: scientists (SCMP, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/science/article/3369619/malaysia-building-new-research-corridor-across-asia-meet-chinas-rise-scientists?utm_source=rss_feed"
+    },
     {
       "id": "gdelt-1326075415",
       "kind": "event",
@@ -147,6 +185,346 @@
         "goldstein": -2,
         "tone": 0.62,
         "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326088796",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T02:15:00.000Z",
+      "description": "Rejection — Iran → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.opednews.com/populum/page.php?f=China-Iran-and-the-Trump-IRAN-NO-NUKES_Iran-Nuclear-Deal_Iran-Nuclear-Talks_Iran-War-261002-129.html",
+      "gdelt": {
+        "globalEventId": "1326088796",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -1.89,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326101346",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T05:15:00.000Z",
+      "description": "Reduced relations — Madagascar → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Madagascar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/politics/202610030005",
+      "gdelt": {
+        "globalEventId": "1326101346",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -6.23,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326101347",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T05:15:00.000Z",
+      "description": "Reduced relations — Madagascar → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Madagascar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/politics/202610030005",
+      "gdelt": {
+        "globalEventId": "1326101347",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -6.23,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326101376",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T05:15:00.000Z",
+      "description": "Reduced relations — Mauritius → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Mauritius",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/politics/202610030005",
+      "gdelt": {
+        "globalEventId": "1326101376",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -6.23,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326101377",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T05:15:00.000Z",
+      "description": "Reduced relations — Mauritius → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Mauritius",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/politics/202610030005",
+      "gdelt": {
+        "globalEventId": "1326101377",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -6.23,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326101378",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T05:15:00.000Z",
+      "description": "Reduced relations — Mauritius → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Mauritius",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/politics/202610030005",
+      "gdelt": {
+        "globalEventId": "1326101378",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -6.23,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326101473",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T05:15:00.000Z",
+      "description": "Reduced relations — Seychelles → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Seychelles",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/politics/202610030005",
+      "gdelt": {
+        "globalEventId": "1326101473",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -6.23,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326101474",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T05:15:00.000Z",
+      "description": "Reduced relations — Seychelles → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Seychelles",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/politics/202610030005",
+      "gdelt": {
+        "globalEventId": "1326101474",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -6.23,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326101475",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T05:15:00.000Z",
+      "description": "Reduced relations — Seychelles → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Seychelles",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/politics/202610030005",
+      "gdelt": {
+        "globalEventId": "1326101475",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -6.23,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326101477",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T05:15:00.000Z",
+      "description": "Fight — Taiwan → Unspecified near Yang Ming Chiao, Hualian Xian, Taiwan. Machine-coded by GDELT 2.1 (20 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 24.1947,
+      "lng": 121.417,
+      "action": "Fight (GDELT 193)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Yang Ming Chiao, Hualian Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/society/202610030006",
+      "gdelt": {
+        "globalEventId": "1326101477",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.51,
+        "mentions": 20,
         "sources": 1
       }
     },
@@ -541,6 +919,25 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/politics/article/3369634/taiwan-coastguard-uses-water-cannons-warn-mainland-chinese-fishing-vessel?utm_source=rss_feed"
+    },
+    {
+      "id": "news-1f8d9kl",
+      "kind": "news",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T18:09:26.000Z",
+      "description": "PLA activities in the waters and airspace around Taiwan - mnd.gov.tw (mnd.gov.tw, 2026-10-02. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "mnd.gov.tw",
+      "axis": "Other",
+      "tags": [
+        "mnd.gov.tw",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "mnd.gov.tw",
+      "source": "mnd.gov.tw",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOMlhHRmMybVpJMjBiQVpobU5YcnNjbF9KVm4tazF2UzY1QWJFLTA0VmcxUGhZaW1CQUpCb011X01uekg4QXhjUkdRbGJONGlFdUpuLWRB?oc=5"
     },
     {
       "id": "news-1l8rtpp",
@@ -3392,19 +3789,19 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T14:00:31.000Z",
-      "description": "Why US missile shortfalls raise stakes for a potential Taiwan Strait conflict - South China Morning Post (South China Morning Post, 2026-10-01. Headline + link only.)",
+      "description": "Why US missile shortfalls raise stakes for a potential Taiwan Strait conflict - scmp.com (scmp.com, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "South China Morning Post",
+      "actor": "scmp.com",
       "axis": "Other",
       "tags": [
-        "South China Morning Post",
+        "scmp.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Taiwan Strait",
-      "source": "South China Morning Post",
+      "source": "scmp.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdGhHUS1QSTVWMlN5NWdGRXdDTXdSaWlFc0dwcGFYZ3M4VnBJanVlVUxJMTRHdHpaU3VxSUtVcEZ0NXltVG1iLUtVY1pGRXZxclg0QmhPa25hTnBxMERCekdTdVFnQndhMlh4aDBmeXU5eTJIOUhsY0xuYW9CSmhna1VVNm9FSlNvYnVmOHJkaGhISWJaTjl0NGRDcVdXb3lWNGlNYkhDT0ZjTHR5N2JIV3lsN24xcVRySjlybmhKalpHeDh4NzBfNDhtS19ma2l30gHQAUFVX3lxTE5lSDZidmJCVTc3cEptWElaNTRfV2Z0TExRY05wc3IxVDRvT1hHSXktbld6VHcxVmEwLUlTbWZKWU9lVkpjVmxlalIzcm80VzU1MmRvSy1JMm5paUllUG12QjdEejhValJERS0wbnZ3LVhsYmhEV0t0cjRPSlZ6WVhQQTNzNlZqc1o1eVVwS2U3eHIyQ1JGTWdENjN3S1QxbkVPc1RLcndfRHJHSmxoLUNyTTFKSjRsYmprZlhlUmc3Q25PQmNsVDNET2RWTmllcXU?oc=5",
       "lat": 24.5,
       "lng": 119.5,
@@ -3556,18 +3953,18 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T11:17:18.000Z",
-      "description": "Retired Taiwan Air Force officer charged with spying for China - Taiwan News (Taiwan News, 2026-10-01. Headline + link only.)",
+      "description": "Retired Taiwan Air Force officer charged with spying for China - taiwannews.com.tw (taiwannews.com.tw, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Taiwan News",
+      "actor": "taiwannews.com.tw",
       "axis": "Other",
       "tags": [
-        "Taiwan News",
+        "taiwannews.com.tw",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Taiwan News",
-      "source": "Taiwan News",
+      "locationStr": "taiwannews.com.tw",
+      "source": "taiwannews.com.tw",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRVFZnODhDVG5RWEtJZjl5U1EtMVc0TmtRVjF5NkJzbnNCbWsyUmpobGR2LTY0MVNhMFQ2OW1ZZXdrUnRIUGJjVFdCRWVfX1dmQVVqXw?oc=5"
     },
     {
@@ -3613,18 +4010,18 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T09:59:00.000Z",
-      "description": "3 ex-servicemen indicted for allegedly spying for China - Focus Taiwan - CNA English News (Focus Taiwan - CNA English News, 2026-10-01. Headline + link only.)",
+      "description": "3 ex-servicemen indicted for allegedly spying for China - focustaiwan.tw (focustaiwan.tw, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Focus Taiwan - CNA English News",
+      "actor": "focustaiwan.tw",
       "axis": "Other",
       "tags": [
-        "Focus Taiwan - CNA English News",
+        "focustaiwan.tw",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Focus Taiwan - CNA English News",
-      "source": "Focus Taiwan - CNA English News",
+      "locationStr": "focustaiwan.tw",
+      "source": "focustaiwan.tw",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6b29oQ3NkRXlNZ0VZeHdUODkxdGhOQV9FX2xJbkZiQkhqRm4xVXU3MU1fUzUwaG5MV0hOM3JTLXZQVk96Z3pyNzU2NldIV19NaERJbUpR?oc=5"
     },
     {
@@ -3706,6 +4103,25 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/east-asia/us-sees-chinese-invasion-of-taiwan-unlikely-next-year-despite-2027-timeline-sources-say"
+    },
+    {
+      "id": "news-1myh4yx",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T05:00:21.000Z",
+      "description": "Taiwan transfers naval commander to Coast Guard to boost deterrence against China - Reuters (Reuters, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Reuters",
+      "axis": "Other",
+      "tags": [
+        "Reuters",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Reuters",
+      "source": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZnFvSkZSdG5JRmRiNzZtU0ZXYVVrakc3b1N4Qjd0TGhWMGw2cHFqREFtQk9jZTdUc2NnazVHaS1sVnI4TzFEZEVlUzJZRkZaN0E0T0tGalVHbFE1YklfVFVwdkdjQm9RTW1sTG9nU2g5eDNIQzc1NHVLQTI5V2d4OVhNM0N5aWJ2ZnFJTTFnT21nNXhsZG5Vd19NWko0WkNmZmc5QWdsb2t5ZExFakRrYXZBa25iX0NYSkJSQWhRYTA?oc=5"
     },
     {
       "id": "news-1ym4ol1",
@@ -3822,25 +4238,6 @@
       "sourceUrl": "https://www.straitstimes.com/asia/east-asia/taiwan-transfers-naval-commander-to-coast-guard-to-boost-deterrence-against-china"
     },
     {
-      "id": "news-1myh4yx",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T03:37:00.000Z",
-      "description": "Taiwan transfers naval commander to Coast Guard to boost deterrence against China - Reuters (Reuters, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZnFvSkZSdG5JRmRiNzZtU0ZXYVVrakc3b1N4Qjd0TGhWMGw2cHFqREFtQk9jZTdUc2NnazVHaS1sVnI4TzFEZEVlUzJZRkZaN0E0T0tGalVHbFE1YklfVFVwdkdjQm9RTW1sTG9nU2g5eDNIQzc1NHVLQTI5V2d4OVhNM0N5aWJ2ZnFJTTFnT21nNXhsZG5Vd19NWko0WkNmZmc5QWdsb2t5ZExFakRrYXZBa25iX0NYSkJSQWhRYTA?oc=5"
-    },
-    {
       "id": "news-mj8tne",
       "kind": "news",
       "date": "2026-10-01",
@@ -3883,18 +4280,18 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T03:00:00.000Z",
-      "description": "Senator Wicker says US should not consult China on Taiwan arms sales - Taiwan News (Taiwan News, 2026-10-01. Headline + link only.)",
+      "description": "Senator Wicker says US should not consult China on Taiwan arms sales - taiwannews.com.tw (taiwannews.com.tw, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Taiwan News",
+      "actor": "taiwannews.com.tw",
       "axis": "Other",
       "tags": [
-        "Taiwan News",
+        "taiwannews.com.tw",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Taiwan News",
-      "source": "Taiwan News",
+      "locationStr": "taiwannews.com.tw",
+      "source": "taiwannews.com.tw",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWQjFiVW56VmlCQ0VvMmxuUy1jaWN4QWtsbzNJV3JwYjhUYkhnQWdQRXZDaXFtWkgzank2MTd1eE1BRzdLUk0xdTROLVh1eDRFZVYxN3lGZE4?oc=5"
     },
     {
@@ -3902,18 +4299,18 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T02:51:24.000Z",
-      "description": "US senators urge Trump to speed Taiwan arms deliveries - Taiwan News (Taiwan News, 2026-10-01. Headline + link only.)",
+      "description": "US senators urge Trump to speed Taiwan arms deliveries - taiwannews.com.tw (taiwannews.com.tw, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Taiwan News",
+      "actor": "taiwannews.com.tw",
       "axis": "Other",
       "tags": [
-        "Taiwan News",
+        "taiwannews.com.tw",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Taiwan News",
-      "source": "Taiwan News",
+      "locationStr": "taiwannews.com.tw",
+      "source": "taiwannews.com.tw",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1vNjY4VERldFBTUWFESVRKb2s4ZHRUVEw2MHVrYktuNEwzSGpkeFRIeFdkb3hPWFRnWjFNRGhoNUJBQU56N0E3OUdMUEg0V29tRGdGUllzcW8?oc=5"
     },
     {
@@ -6571,177 +6968,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/iran-receives-us-feedback-on-seven-day-trust-building-plan"
-    },
-    {
-      "id": "news-2y414v",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T04:42:59.000Z",
-      "description": "South Korea made no military aid pledge to Ukraine over transfer of North Koreans: Lawmaker (Straits Times, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/south-korea-made-no-military-aid-pledge-to-ukraine-over-transfer-of-north-koreans-lawmaker-says"
-    },
-    {
-      "id": "news-q3v254",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T04:42:59.000Z",
-      "description": "South Korea made no military aid pledge to Ukraine over transfer of North Koreans, lawmaker says (Straits Times, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/south-korea-made-no-military-aid-pledge-to-ukraine-over-transfer-of-north-koreans-lawmaker-says"
-    },
-    {
-      "id": "news-p4pggo",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T04:02:56.000Z",
-      "description": "China says Taiwan is ‘desecrating the martyrs’ with its World War II history criticism (Straits Times, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/china-says-taiwan-is-desecrating-the-martyrs-with-its-world-war-two-history-criticism"
-    },
-    {
-      "id": "news-1yk38z1",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T04:00:08.000Z",
-      "description": "Slow is beautiful: China launches war against AI drama, goes beyond algorithms (SCMP, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3369183/slow-beautiful-china-launches-war-against-ai-drama-goes-beyond-algorithms?utm_source=rss_feed"
-    },
-    {
-      "id": "news-17jmp06",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T03:32:51.000Z",
-      "description": "Republican Senator Wicker says US security commitments to Taiwan must be upheld (Straits Times, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/republican-senator-wicker-says-us-security-commitments-to-taiwan-must-be-upheld"
-    },
-    {
-      "id": "news-z3l8o7",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T03:10:00.000Z",
-      "description": "Malaysia plans to tighten regulation of AI tech (Straits Times, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/se-asia/malaysia-plans-to-tighten-regulation-of-ai-tech"
-    },
-    {
-      "id": "news-1ffd4de",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T02:00:17.000Z",
-      "description": "Taiwan plans US$850 million munition spend to prepare for potential PLA blockade - South China Morning Post (South China Morning Post, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "South China Morning Post",
-      "axis": "Other",
-      "tags": [
-        "South China Morning Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "South China Morning Post",
-      "source": "South China Morning Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMWRmX05BWlk2YUlra181TXFNWWNtM3AzX3Qxc3NhQWxZOEhuaEtCQ0RuNWlYX2JtbENwNWVZLTBTNWV6dDByeXl3QXhxSzIzVGJ6bWFtSm8wdU9SUmgwMS1paXk1akV4TWZxaHlaQ0VlOW41VnFMSWxwQWxzeUNHaXZjY1BPY2dfblNYUnZMQW9iTmxzYm9NOW9kaDVMVjR1djYxeUhNVUlRX3h1Q1lmY2IxaVdCNWpJS2UwUFBmelV5UlJ5Wk5pYlpwa9IBywFBVV95cUxQUDVTbk9CX0t6UUtPejdvZEhaX1ZWZ0lfUnNRY2VpTnpiS3NSdG5HTnpNYkdZTWpVVkVjbGVmRWdtbzRXaEMtME9BVXhrOGVsZmFnRVBHNm5zNUlNX19zODFQTVBnelZ6WnBsQ3FGRHlVZGVuNVY5bXBtZVB5S1Z0dnZtTXBEU1Nocm5BZG5KaU1qNFpDV0lSdlFTaFBkc2hVNl9pUFRVOWV5dm9sdy10SkRxdXdOMGlvektIWEI5bTRHVUd5NU05M2J6cw?oc=5"
-    },
-    {
-      "id": "news-htbg9r",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T02:00:17.000Z",
-      "description": "Taiwan plans US$850 million ammunition spend to prepare for potential PLA blockade (SCMP, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/military/article/3369212/taiwan-plans-us850-million-ammunition-spend-prepare-potential-pla-blockade?utm_source=rss_feed"
-    },
-    {
-      "id": "news-asj8jg",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T01:30:21.000Z",
-      "description": "US-China trade truce remains ‘fragile’ after Xi-Trump summit, analysts say (SCMP, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369263/us-china-trade-truce-remains-fragile-after-xi-trump-summit-analysts-say?utm_source=rss_feed"
     }
   ]
 }
