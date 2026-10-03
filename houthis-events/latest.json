@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-03T19:31:27.808Z",
+  "collectedAt": "2026-10-03T22:21:39.328Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 9
     },
     {
       "id": "gcaptain",
@@ -26,16 +26,16 @@
     {
       "id": "gnews-houthis",
       "url": "https://news.google.com/rss/search?q=Houthis%20Yemen%20Red%20Sea&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-houthis request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-shipping",
       "url": "https://news.google.com/rss/search?q=Red%20Sea%20shipping%20Houthi%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-shipping request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "splash247",
@@ -61,16 +61,16 @@
     {
       "id": "gnews-hodeidah",
       "url": "https://news.google.com/rss/search?q=Hodeidah%20Sanaa%20airstrike%20Houthi&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-hodeidah request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-mandeb",
       "url": "https://news.google.com/rss/search?q=Bab%20el-Mandeb%20vessel%20drone%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-mandeb request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -80,8 +80,50 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 600,
+  "count": 610,
   "events": [
+    {
+      "id": "news-5jqj9c",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T18:23:12.000Z",
+      "description": "Houthis blame Saudi air strikes as loud blasts rock Yemen's capital Sanaa - Modern Ghana (Modern Ghana, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Modern Ghana",
+      "axis": "Other",
+      "tags": [
+        "Modern Ghana",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Modern Ghana",
+      "source": "Modern Ghana",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUEp6UGFsY0JCYnBRdXp6V2VnS25LYTRRN1BKaEtjdVdaT3hKSDd4LV9HRXBua2VkMkZDUUNPOUZJSTJJa3hncHpoRFVKU01ad3ZtbVlGVkRDY0xiQ2UtYXRYZ3VRWFRrdTlXN05vZktRcWplU3NyYjJyNUpBbkdOX2F1cGJJMEg0UnpZS3Jwb0FhSi05V1HSAZYBQVVfeXFMT1BKelBhbGNCQmJwUXV6eldlZ0tuS2E0UTdQSmhLY3VXWk94Skg3eC1fR0VwbmtlZDJGQ1FDTzlGSUkySWt4Z3B6aERVSlNNWnd2bW1ZRlZEQ2NMYkNlLWF0WGd1UVhUa3U5VzdOb2ZLUXFqZVNzcmIycjVKQW5HTl9hdXBiSTBINFJ6WUtycG9BYUotOVdR?oc=5"
+    },
+    {
+      "id": "news-gr32f",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T17:14:00.000Z",
+      "description": "Houthis say Saudi Arabia launched dozens of strikes on Yemen capital - The Times of Israel (The Times of Israel, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times of Israel",
+      "axis": "Other",
+      "tags": [
+        "The Times of Israel",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Yemen",
+      "source": "The Times of Israel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNM00xQ1l2X2VkS01WUkg0bmJWMzFYU3hlN3lxRGhEaVFqbVg2dHhPYmhCaWRiNHlZS3NmZWlDaDhlXzZOdnlTTnRVZGhzQ05IU0ZILVZXV2pNT3VsU1A4WU1MM0NwQTZvVGxSSVUtQnNJa002cGNIclh5cnhaZUItUG9VbWptSmlWTE9DcnV1dmYwbUtrT0tpZTVBcVNIejFC0gGmAUFVX3lxTFA1b0txZUN2VnpHeU5SMnBXdXhIZFlTRHRPUlJ1RGNNbGROODJYWTB0LXpEcVZrNVNqajUwUnh5Q0tJcnJWVjZOUFlYODFLajRaZWhpMUptclFNQzJuQXNqa241Q2Z5ejQxQUIyeFB2NDQwd2dvV1BqWEZIdXhLSjVfVW04cFFxVlJzaXVHQzlabFhkOTFSdXlfb1M5TnFrS05xSDhLLXc?oc=5",
+      "lat": 16.34712,
+      "lng": 47.89153,
+      "coordsNote": "OSM geocode: matched \"Yemen\" → Yemen; © OpenStreetMap contributors."
+    },
     {
       "id": "news-jga7ta",
       "kind": "news",
@@ -129,7 +171,7 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T14:31:30.000Z",
-      "description": "Loud blasts rock Sanaa as Houthis accuse Saudi forces of pounding Yemeni capital - France 24 (France 24, 2026-10-03. Headline + link only.)",
+      "description": "Houthis claim strike on oil facilty near Riyadh, accuse Saudi forces of pounding Yemen's capital - France 24 (France 24, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "France 24",
@@ -140,19 +182,19 @@
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
-      "locationStr": "Sanaa",
+      "locationStr": "Riyadh",
       "source": "France 24",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWXFOZ19fTnRLdFoybW8zNWJ2OTAxT2xQd3poMTVzcFpvQTFMV2Q1SnhnaHhLSUY5OXBXZGN5NXlEVWVqTGZMQkVUelZQUkZORWtONUtqNFpjTlV5cTM2Vk9YbHVZZ0lQQ3BuTy1vM2dVY2xReWgxWWR1LUY1TUtRWDlfUUFoZEFkOUdybkVFQXZJZHVMalJiNm1hX3M2a2ZYOHlVc0xPV0p1RDU2YjN1M2wtSGtvY2w1?oc=5",
-      "lat": 15.35,
-      "lng": 44.21,
-      "coordsNote": "Headline gazetteer match: \"Sanaa\" (city); verify via source article."
+      "lat": 14.11962,
+      "lng": 46.93065,
+      "coordsNote": "OSM geocode: matched \"Riyadh\" → Ar Riyadh, Al Mahfad District, Abyan Governorate; © OpenStreetMap contributors."
     },
     {
       "id": "news-r2cs2b",
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T14:31:30.000Z",
-      "description": "Loud blasts rock Sanaa as Houthis accuse Saudi forces of pounding Yemeni capital (France 24 Middle East, 2026-10-03. Headline + link only.)",
+      "description": "Houthis claim strike on oil facilty near Riyadh, accuse Saudi forces of pounding Yemen's capital (France 24 Middle East, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "France 24 Middle East",
@@ -163,12 +205,12 @@
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
-      "locationStr": "Sanaa",
+      "locationStr": "Riyadh",
       "source": "France 24 Middle East",
       "sourceUrl": "https://www.france24.com/en/middle-east/20261003-houthis-blame-saudi-air-strikes-loud-blasts-rock-yemen-capital-sanaa",
-      "lat": 15.35,
-      "lng": 44.21,
-      "coordsNote": "Headline gazetteer match: \"Sanaa\" (city); verify via source article."
+      "lat": 14.11962,
+      "lng": 46.93065,
+      "coordsNote": "OSM geocode: matched \"Riyadh\" → Ar Riyadh, Al Mahfad District, Abyan Governorate; © OpenStreetMap contributors."
     },
     {
       "id": "news-5j2lpu",
@@ -389,19 +431,19 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T03:25:04.000Z",
-      "description": "Saudi Arabia Plans Strike Against Tehran-Backed Houthis To Secure Red Sea Route as US-Iran Conflict Disru - Benzinga (Benzinga, 2026-10-03. Headline + link only.)",
+      "description": "Saudi Arabia Plans Strike Against Tehran-Backed Houthis To Secure Red Sea Route as US-Iran Conflict Disru - benzinga.com (benzinga.com, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Benzinga",
+      "actor": "benzinga.com",
       "axis": "Other",
       "tags": [
-        "Benzinga",
+        "benzinga.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Red Sea",
-      "source": "Benzinga",
+      "source": "benzinga.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQcy1jRVhkbElhLWhkYWEzRnJJMWV0bXBZc0U4ZWUtV0NPU0JwYnVZU1E0eDZNa3NzWGR2RFpXcE1uSkVaQzIzUk1TTmdUcWE1MGJhQ0tsN0Yxa2RkVmZOOHpSTnp6aU90M2RaU1kxZllBdGhieTM3c1YtaWhIQVk0STlRVzdQUzVBd2lCM3dGbWlyX29oMnktVW9CcWpxaWQzMnBOZ2ZrSVlfMy13NEJHVGFSbXRvdlQtRW1zUmE0UDF6N2w3WHlNSVVNWDAzLTFpc2h0Wl9JS2h5ZDFrLTJkTkdtZGdqREF4V25VYThIbE9KY3ZMeVhUdnQxM1N4djRNWHBSWmRVOTVPZw?oc=5",
       "lat": 15.5,
       "lng": 41.5,
@@ -5520,6 +5562,312 @@
       }
     },
     {
+      "id": "gdelt-1326176254",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:15:00.000Z",
+      "description": "Disapproval — Sunni → Shiite near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Sunni",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.zerohedge.com/geopolitical/us-again-rebuffs-riyadhs-yemen-plea-100000-man-force-readies-war",
+      "gdelt": {
+        "globalEventId": "1326176254",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.02,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326176402",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:15:00.000Z",
+      "description": "Fight — Reuters → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 194)",
+      "actor": "Reuters",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.al-monitor.com/originals/2026/10/yemens-houthis-say-they-attacked-aramco-facility-riyadh-missiles-drones",
+      "gdelt": {
+        "globalEventId": "1326176402",
+        "eventCode": "194",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.11,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178219",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Fight — Military → Unspecified near Jabal Habashi, Taizz, Yemen. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.4739,
+      "lng": 43.8881,
+      "action": "Fight (GDELT 194)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Jabal Habashi, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.arabnews.com/middle-east/yemeni-forces-launch-257-operations-against-houthis-3004406",
+      "gdelt": {
+        "globalEventId": "1326178219",
+        "eventCode": "194",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.13,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178220",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Fight — Military → Unspecified near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 194)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.arabnews.com/saudi-arabia/coalition-spokesman-houthi-claims-of-targeting-riyadh-are-misleading-3004467",
+      "gdelt": {
+        "globalEventId": "1326178220",
+        "eventCode": "194",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.47,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178240",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Fight — Government Forces → Yemen near Jabal Habashi, Taizz, Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.4739,
+      "lng": 43.8881,
+      "action": "Fight (GDELT 190)",
+      "actor": "Government Forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Jabal Habashi, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.arabnews.com/middle-east/yemeni-forces-launch-257-operations-against-houthis-3004406",
+      "gdelt": {
+        "globalEventId": "1326178240",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.13,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178507",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Fight — Yemen → Yemen near Jabal Habashi, Taizz, Yemen. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.4739,
+      "lng": 43.8881,
+      "action": "Fight (GDELT 190)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Jabal Habashi, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.arabnews.com/middle-east/yemeni-forces-launch-257-operations-against-houthis-3004406",
+      "gdelt": {
+        "globalEventId": "1326178507",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.13,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326182825",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T22:00:00.000Z",
+      "description": "Fight — Government Forces → Yemen near Mayyun, Adan, Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 12.6545,
+      "lng": 43.4233,
+      "action": "Fight (GDELT 190)",
+      "actor": "Government Forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Mayyun, Adan, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279349855/1st-ld-writethru-roundup-yemen-houthis-claim-attack-on-aramco-facility-in-riyadh",
+      "gdelt": {
+        "globalEventId": "1326182825",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.59,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326182826",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T22:00:00.000Z",
+      "description": "Fight — Government Forces → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Government Forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279349855/1st-ld-writethru-roundup-yemen-houthis-claim-attack-on-aramco-facility-in-riyadh",
+      "gdelt": {
+        "globalEventId": "1326182826",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.59,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326183413",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T22:15:00.000Z",
+      "description": "Threat — Military → Unspecified near Hayfan, Taizz, Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.3178,
+      "lng": 44.2801,
+      "action": "Threat (GDELT 130)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Hayfan, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.khabaragency.net/news253783.html",
+      "gdelt": {
+        "globalEventId": "1326183413",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -11.3,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-cxnyzu",
       "kind": "news",
       "date": "2026-10-02",
@@ -5700,6 +6048,29 @@
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
     },
     {
+      "id": "news-1hx8br7",
+      "kind": "news",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T18:06:54.000Z",
+      "description": "Fighting Intensifies in Yemen, Raising Fresh Fears of All-Out War - The New York Times (The New York Times, 2026-10-02. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Yemen",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTmlxQjEtWS04S2hkc2t4a3VKRWxSZUg1SVl2ZE80ZTN2eUdDUTVPTEZPWmJUYWRhMVAySW1JMEcyaUNPRHpDdkZyTTU1YXRWcG05eGU1aUJWeUNCck1PTjNZZHVjUkFrb2FsNGRlSGN1SkxTZ0Z6aWdZLVp3Mm0tQ0ZPV2VMeHE1NVM4Rkc3ZmMtTnFjX201QTFB?oc=5",
+      "lat": 16.34712,
+      "lng": 47.89153,
+      "coordsNote": "OSM geocode: matched \"Yemen\" → Yemen; © OpenStreetMap contributors."
+    },
+    {
       "id": "news-rpoxcw",
       "kind": "news",
       "date": "2026-10-02",
@@ -5847,29 +6218,6 @@
       "locationStr": "حياة عدن",
       "source": "حياة عدن",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xU0ZvZUxvWGhYSFYtekFsV0RLTmViSWdzR2dsUnJJUURFT3M1N2lfMFR0SU1GcDBlbkRONzB2eGppWC00YUg0cGhGaGRnTndndGRMVnlKd0Jfdw?oc=5"
-    },
-    {
-      "id": "news-1hx8br7",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T14:28:34.000Z",
-      "description": "Fighting Intensifies in Yemen, Raising Fresh Fears of All-Out War - The New York Times (The New York Times, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Yemen",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTmlxQjEtWS04S2hkc2t4a3VKRWxSZUg1SVl2ZE80ZTN2eUdDUTVPTEZPWmJUYWRhMVAySW1JMEcyaUNPRHpDdkZyTTU1YXRWcG05eGU1aUJWeUNCck1PTjNZZHVjUkFrb2FsNGRlSGN1SkxTZ0Z6aWdZLVp3Mm0tQ0ZPV2VMeHE1NVM4Rkc3ZmMtTnFjX201QTFB?oc=5",
-      "lat": 16.34712,
-      "lng": 47.89153,
-      "coordsNote": "OSM geocode: matched \"Yemen\" → Yemen; © OpenStreetMap contributors."
     },
     {
       "id": "news-17tmaav",
@@ -19631,25 +19979,6 @@
       "locationStr": "The Jerusalem Post",
       "source": "The Jerusalem Post",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE94Y1c3NkdSbkdtR1hxaWtZMm5iNmpMSkxKUWpNS2dBaUxUY21GNmVMR0hQcG5wem9HeG5FT3k1cUhHelRpVHdjSThpb3BGSy1SVXp3RlgyU2FROVlp?oc=5"
-    },
-    {
-      "id": "news-muuqhm",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T19:37:17.000Z",
-      "description": "Saudi Arabia not to compromise on security as Houthis choose ‘chaos’: MBS - Al Jazeera (Al Jazeera, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Al Jazeera",
-      "axis": "Other",
-      "tags": [
-        "Al Jazeera",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Al Jazeera",
-      "source": "Al Jazeera",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLThfd1Q3em1qOGdmckYybUVCcmdtNW84RFRIMjJtM1p5SE5Kc1B3cE5zLUZLbXZpdzhuVVRILVF2SUZSazRua0pjdGl2RjhlcHk5WjBWcEZTcXJfRS1KdkpVYjVhSlNKSVFBaS0tSlE4WFY0MkFvenFtSHNLZEtWUzdIeFBXTUpUWUljaXBPRFg2c2ZQcXJYNVRlN1B6WE1SVVk5b3B3elBDUXZIMHNKNGstczZwUdIBuwFBVV95cUxNWmx5clBfR1lkSXZhb2p1cjh6dFU2OW1mTjBfVlphR20zOUVYR2tWUUNlSGRENTJQTjZiUmJQTE5aVGZLSU9uSGthS2Z6ZXgzVVZiNkR6dHAxZUE4WF90MG9maHdQTWNEVUE0Nkg3c0ZuT0RjY3lQc0NucmI2TlQ0a2R6QkVHNFRKYkswc1Q5TjExUDVVWXVXcGhsNFAxbWRWRVZHSDgycHBxazAyZDNJU2JtUHhzNHdnSWlv?oc=5"
     }
   ]
 }

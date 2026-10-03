@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-03T19:31:27.808Z",
+  "collectedAt": "2026-10-03T22:21:39.328Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -26,23 +26,23 @@
     {
       "id": "gnews-election",
       "url": "https://news.google.com/rss/search?q=US%20election%20Trump%202028&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-election request failed with HTTP 503"
+      "status": "ok",
+      "count": 36,
+      "filtered": 14
     },
     {
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Trump%20tariffs%20executive%20order&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-policy request failed with HTTP 503"
+      "status": "ok",
+      "count": 49,
+      "filtered": 1
     },
     {
       "id": "thehill",
       "url": "https://thehill.com/feed/",
       "status": "ok",
-      "count": 30,
-      "filtered": 20
+      "count": 31,
+      "filtered": 19
     },
     {
       "id": "politico-congress",
@@ -75,23 +75,23 @@
     {
       "id": "gnews-protest",
       "url": "https://news.google.com/rss/search?q=Trump%20protest%20National%20Guard%20deployment&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-protest request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-courts",
       "url": "https://news.google.com/rss/search?q=federal%20judge%20blocks%20executive%20order%20ruling&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-courts request failed with HTTP 503"
+      "status": "ok",
+      "count": 47,
+      "filtered": 3
     },
     {
       "id": "gnews-midterms",
       "url": "https://news.google.com/rss/search?q=US%20midterm%20elections%202026%20polls&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-midterms request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -101,8 +101,126 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 290,
+  "count": 278,
   "events": [
+    {
+      "id": "news-bot5e7",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T21:47:46.000Z",
+      "description": "Hegseth indicates some US troops could be redeployed from Europe to Western Hemisphere (The Hill, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/policy/defense/6127801-hegseth-redeploys-troops-western-hemisphere/"
+    },
+    {
+      "id": "news-tm479w",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T21:43:14.000Z",
+      "description": "Federal judge rules warrantless Flock camera searches may violate 4th Amendment (The Hill, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/regulation/court-battles/6127775-fourth-amendment-flock-camera-ruling/"
+    },
+    {
+      "id": "news-1st5b1f",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T21:00:00.000Z",
+      "description": "Head Start fight reaches tipping point as advocates push back against proposed Trump changes (The Hill, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/education/6126823-head-start-programs-trump-reforms-hhs/"
+    },
+    {
+      "id": "news-1wa5wdt",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T20:53:07.000Z",
+      "description": "Trump rallies in Ohio to boost Jon Husted in a tight Senate race against Sherrod Brown (PBS NewsHour, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "PBS NewsHour",
+      "axis": "Other",
+      "tags": [
+        "PBS NewsHour",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Ohio",
+      "source": "PBS NewsHour",
+      "sourceUrl": "https://www.pbs.org/newshour/politics/trump-rallies-in-ohio-to-boost-jon-husted-in-a-tight-senate-race-against-sherrod-brown",
+      "lat": 40.22536,
+      "lng": -82.68814,
+      "coordsNote": "OSM geocode: matched \"Ohio\" → Ohio, United States; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-yt0m4n",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T20:37:40.000Z",
+      "description": "Sunday shows preview: Trump boosts midterm candidates in final stretch; Supreme Court opens new term (The Hill, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/sunday-talk-shows/6127755-trump-midterm-campaign-iran-war/"
+    },
+    {
+      "id": "news-1x1c6wa",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T19:53:57.000Z",
+      "description": "Trump, Cotton tussle over daylight savings after cell phone number leak (The Hill, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6127691-trump-cotton-fued-daylight-savings-posts/"
+    },
     {
       "id": "news-1k60y7x",
       "kind": "news",
@@ -184,6 +302,25 @@
       "sourceUrl": "https://www.politico.com/news/2026/10/03/trump-tom-cotton-cell-phone-daylight-savings-01105998"
     },
     {
+      "id": "news-1m0s9s6",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T16:24:49.000Z",
+      "description": "FLIPR 2026 midterm election forecast - Silver Bulletin (Silver Bulletin, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Silver Bulletin",
+      "axis": "Other",
+      "tags": [
+        "Silver Bulletin",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Silver Bulletin",
+      "source": "Silver Bulletin",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5"
+    },
+    {
       "id": "news-mpumb0",
       "kind": "news",
       "date": "2026-10-03",
@@ -241,6 +378,25 @@
       "sourceUrl": "https://thehill.com/opinion/campaign/6124490-vance-must-champion-working-class/"
     },
     {
+      "id": "news-nb5bvt",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T16:00:00.000Z",
+      "description": "A record number of Native Americans are running in the 2026 midterms - The Washington Post (The Washington Post, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Washington Post",
+      "axis": "Other",
+      "tags": [
+        "The Washington Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Washington Post",
+      "source": "The Washington Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWkVKVV9lTDZtcmYzTFRGaGhHcFNnLUNDNnRNeWh4bGJTenMtaDd5b0hMbEF3bXVSSmxQNkF0emxxYzZtZHNSd1pNbUQtWU1hajVQNF82d2dpWTBPc1p0RTNremczVkZwTG9vd3RjWGZfZzE3SzEtcmFadkIzQmR2TjlpcmtVa0hPMDRpM2FJNHkyRFI5MTVCU3V6SGJadXU1NGtzT240NXJiMzYx?oc=5"
+    },
+    {
       "id": "news-1lgs0il",
       "kind": "news",
       "date": "2026-10-03",
@@ -258,6 +414,25 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/campaign/6127564-senate-polls-democrats-midterm-elections/"
+    },
+    {
+      "id": "news-nf3zth",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T15:59:00.000Z",
+      "description": "Democrats edge out, neck and neck with Republicans in 5 key Senate races: Polls - The Hill (The Hill, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMzNpRWdQR1R5WnpSQllxd192QWRTc0EwNnJQLUs2SVRMUjdBT0RvMmhtMVZuVVNneVVDQjk0NTcwQkxNMUQxNEh3eXhEbGRKV2pJZk5Da0RSVzZEOEoyZkFwcXA3QW4yaHl1WlFaczIwcF9TdTQyVE8xakJ1VWExemd1TXZJanlTc0h2XzdWTDLSAZYBQVVfeXFMTnYzTzFhNXJBNlBfeTFuV0JwdmZ3aWdUcmU0R2t3MGg4WnpZajNMbnlZR3BBYlNYQmFDMlkxdDhiOUVKVFMwQk9QU2tfZTBWUUQzU3hJdjV6b3VlcUdhZWU3R0RRSENvdWxaeTlMelFfM0pRbFBoWDNwcTJYdDdSeW5fT0xTOE1pN3Noc2c4ckt0Q3dLdndR?oc=5"
     },
     {
       "id": "news-14qfs1",
@@ -334,6 +509,25 @@
       "locationStr": "MassLive.com",
       "source": "MassLive.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQajhmMlRjeC03aEdJNUlVWVVwb19wd3dpOTNETWJ6X1ViMUtXa1dYcW9KWEhITThSVXJTeFA4Zi1vZFcxbWduWFdpYTRlUEFxQkgweDd1M1c2c2d3QmtNdWMzM0JmQ3ZKek5jZ2EzS3hsdzFnTzhibFRrNk16Rng5cGN3MzR2MzgyS2hGRjlWMmpXal92RnUtVXhHX3RqUkpwVU92X3hFZVJPS0xkbDF1ZjZETXpiNXhqXzRNMmhUSUJLSWtWQTZDYQ?oc=5"
+    },
+    {
+      "id": "news-qwa7vw",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T14:00:00.000Z",
+      "description": "Nate Silver reveals the ‘biggest electoral story of 2026’ — and it’s bad news for Trump. - Cleveland.com (Cleveland.com, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Cleveland.com",
+      "axis": "Other",
+      "tags": [
+        "Cleveland.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Cleveland.com",
+      "source": "Cleveland.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMi11VFVwRGV2bmMxVFlLTG0zc2N6aW9uQU1YX1RsekM3dnNMZC1WZ2pxcUlDNFJhOF9YSkhvd3ZOT0ZOUzF4ZEg2d08tN2FNenE2RWd5b1RBWkNTYWZQVU9JTnI0M1pQWFZwTE1Nc2dMNkdKWE96Wm9BR0h5MDVaUDdrcDkxOTJaR1ctb0V0Q29TRzA0cXh5Y3d2SzJRV3dOdGxwUE5TZDdyRWVmem14R3NldDIybFd5VVc4UldRai00dUhjczcxWHZn?oc=5"
     },
     {
       "id": "news-1t15l71",
@@ -918,6 +1112,29 @@
       "sourceUrl": "https://www.npr.org/2026/10/02/nx-s1-5985789/trump-arch-protest-veterans-midterms"
     },
     {
+      "id": "news-rol0wd",
+      "kind": "news",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T21:38:35.000Z",
+      "description": "Hispanic Voters, Souring on Republicans, Could Decide the Midterms - The New York Times (The New York Times, 2026-10-02. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSDd6c2Jod1lST21RZkUwYTZvZXlmeVQtZjk3cW5CS21OX3VjV3Q4SVI5REt6S2lxR1V2clM3Nko2MTgweFRGR1hIb2FRNmYzOWRzNzk4ekFpQnFSSFYzeERJVEtRZ2FMeTdtRFAzSXRTV2FNMV9yWHdGV0hLejVKeXVXcWYtRkJnZUE?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
       "id": "news-1gguua7",
       "kind": "news",
       "date": "2026-10-02",
@@ -979,18 +1196,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T21:07:00.000Z",
-      "description": "Our Unpopular President Leads an Unpopular War. Remember What Dems Got the Last Time That Happened? - slate.com (slate.com, 2026-10-02. Headline + link only.)",
+      "description": "Our Unpopular President Leads an Unpopular War. Remember What Dems Got the Last Time That Happened? - Slate (Slate, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "slate.com",
+      "actor": "Slate",
       "axis": "Other",
       "tags": [
-        "slate.com",
+        "Slate",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "slate.com",
-      "source": "slate.com",
+      "locationStr": "Slate",
+      "source": "Slate",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOTVqM2NWdllpUlFQUlZhOEVnckhFR0lMOEdCU1NPWmsxal9VWERBWU5DTjQ1dVlnTFcxR1FaVGtkSWp3MVVRZVN3eloycTYxVExmSXFqdVhmbVN4MjlraGJzWkpyalByM3ZodG9acU1SbkgwZEpINnhYdmJtQXNKZzIyajNMelctLU5YNGE1UkFDVjZRWDNn?oc=5"
     },
     {
@@ -1395,25 +1612,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/administration/6126569-justice-department-sues-maryland-over-federal-agent-mask-ban/"
-    },
-    {
-      "id": "news-1m0s9s6",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T18:09:01.000Z",
-      "description": "FLIPR 2026 midterm election forecast - Silver Bulletin (Silver Bulletin, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Silver Bulletin",
-      "axis": "Other",
-      "tags": [
-        "Silver Bulletin",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Silver Bulletin",
-      "source": "Silver Bulletin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5"
     },
     {
       "id": "news-lp1bbm",
@@ -2575,18 +2773,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T09:14:57.000Z",
-      "description": "Who will win the 2026 midterm elections? Polls and predictions - thetimes.com (thetimes.com, 2026-10-02. Headline + link only.)",
+      "description": "Who will win the 2026 midterm elections? Polls and predictions - The Times (The Times, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "thetimes.com",
+      "actor": "The Times",
       "axis": "Other",
       "tags": [
-        "thetimes.com",
+        "The Times",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "thetimes.com",
-      "source": "thetimes.com",
+      "locationStr": "The Times",
+      "source": "The Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5"
     },
     {
@@ -5358,428 +5556,6 @@
       "locationStr": "PBS NewsHour",
       "source": "PBS NewsHour",
       "sourceUrl": "https://www.pbs.org/newshour/show/utah-gov-spencer-cox-on-his-blueprint-for-depolarizing-a-fractured-nation"
-    },
-    {
-      "id": "news-1hep6sh",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T22:15:09.000Z",
-      "description": "Democrats want a blue wave. New Hampshire is Exhibit A for why that may not happen (PBS NewsHour, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/democrats-want-a-blue-wave-new-hampshire-is-exhibit-a-for-why-that-may-not-happen"
-    },
-    {
-      "id": "news-1bepfmx",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T21:57:25.000Z",
-      "description": "Trump puts Sullivan at center stage during Alaska pipeline reveal (The Hill, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6121739-trump-praises-senator-dan-sullivan/"
-    },
-    {
-      "id": "news-m1mz04",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T21:52:19.000Z",
-      "description": "Trump defends government-funded ad campaigns: &#8216;I&#8217;m not promoting a candidate&#8217; (The Hill, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6121727-trump-government-ads-white-house/"
-    },
-    {
-      "id": "news-19q8p8w",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T21:51:20.000Z",
-      "description": "Leaning into culture war flashpoints, Hegseth says he has transformed U.S. military (NPR, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/09/30/nx-s1-5986304/hegseth-troops-address"
-    },
-    {
-      "id": "news-6f2rdr",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T21:50:47.000Z",
-      "description": "Watchdog group sues DHS for records to back claims that 250,000 noncitizens are registered to vote (The Hill, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/regulation/court-battles/6121740-markwayne-mullin-voter-registration-american-oversight/"
-    },
-    {
-      "id": "news-ap4qe2",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T21:50:26.000Z",
-      "description": "Democrats block data center bill in Senate (The Hill, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/6121735-senate-blocks-data-center-bill-newsletter/"
-    },
-    {
-      "id": "news-9nq42p",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T21:37:14.000Z",
-      "description": "Trump says he asked Blanche to &#8216;study&#8217; Fed watchdog report that cleared Powell (The Hill, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6121704-trump-blanche-fed-renovation/"
-    },
-    {
-      "id": "news-d2co82",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T21:31:59.000Z",
-      "description": "AI safety fears put OpenAI and Anthropic in the FTC's crosshairs (Axios, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/09/30/ftc-openai-anthropic-ai-safety-investigation"
-    },
-    {
-      "id": "news-sv5osm",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T21:30:54.000Z",
-      "description": "South Korea to invest up to $200B in Alaska LNG pipeline, US power plants, Trump announces (The Hill, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/policy/energy-environment/6121683-south-korea-alaska-lng-pipeline-texas/"
-    },
-    {
-      "id": "news-l4zd2u",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T21:14:30.000Z",
-      "description": "Senate reaches bipartisan deal on permitting bill to speed approvals of new energy projects (PBS NewsHour, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/senate-reaches-bipartisan-deal-on-permitting-bill-to-speed-approvals-of-new-energy-projects"
-    },
-    {
-      "id": "news-12g067",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T21:01:09.000Z",
-      "description": "WATCH: Justice Department files complaint against judges over immigration enforcement surge comments (PBS NewsHour, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/watch-justice-department-files-complaint-against-judges-over-immigration-enforcement-surge-comments"
-    },
-    {
-      "id": "news-ca3ce8",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T20:55:32.000Z",
-      "description": "WATCH: Trump announces $54 billion South Korean investment in Alaska natural gas pipeline (PBS NewsHour, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Alaska",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/watch-trump-announces-54-billion-south-korean-investment-in-alaska-natural-gas-pipeline",
-      "lat": 64.44596,
-      "lng": -149.68091,
-      "coordsNote": "OSM geocode: matched \"Alaska\" → Alaska, United States; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-1z0uvkt",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T20:50:26.000Z",
-      "description": "Sherrod Brown says Facebook ‘glitch’ cost campaign money, votes (Politico, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Politico",
-      "axis": "Other",
-      "tags": [
-        "Politico",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Politico",
-      "source": "Politico",
-      "sourceUrl": "https://www.politico.com/live-updates/2026/09/30/congress/sherrod-brown-facebook-glitch-01100898"
-    },
-    {
-      "id": "news-uxel8s",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T20:47:56.000Z",
-      "description": "Ask Trump's AI chatbot who won in 2020. You might not get an answer. (Axios, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/09/30/trump-america-gov-ai-chatbot-conflicting-answers"
-    },
-    {
-      "id": "news-1dpkum0",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T20:47:18.000Z",
-      "description": "Musk returns to Trump world for Pentagon war study (Axios, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/09/30/pentagon-hegseth-musk-gingrich-anduril"
-    },
-    {
-      "id": "news-1o4bz65",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T20:29:23.000Z",
-      "description": "Fed watchdog clears former chair Powell in renovation probe (Axios, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/09/30/fed-powell-ig-building"
-    },
-    {
-      "id": "news-bdtfyf",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T20:20:58.000Z",
-      "description": "Trump's DOJ takes its fight with federal judges to Minnesota (Axios, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/09/30/doj-misconduct-complaint-minnesota-judges"
-    },
-    {
-      "id": "news-sqhtlz",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T20:20:54.000Z",
-      "description": "Amid public outcry, Tarrant County, Texas cuts polling locations ahead of 2026 midterm elections - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ABC News - Breaking News, Latest News and Videos",
-      "axis": "Other",
-      "tags": [
-        "ABC News - Breaking News, Latest News and Videos",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTXp1UEJOX2x4M1J0MmQyRWlZMmhnM0dQUHFvT3VIN1RESm5xRXBXNVM2elBNZHh0WF8ydDZ4RlFRc2RmaGRxU1lxdXFsRXpDcWlpSGwxQ3hHaW9vYXRGaTJRYXhNRm55d2xRd2dYT3FsUGxlLW1tdEg2anRNemNUMjR6akRGbmFEbHBPOHFxdS1RaGJ6VFdLRkFJd2ZJU0I4NFHSAacBQVVfeXFMTVAwcWRYaHdEOHhrVkk1czZHWEMxUnA4cHlXQ3VnenlsU0JHRVJwLWVkOXI4bDM5VkMzbzk1Zkc1MUtzandvWENGZ2dSdFpsUldxbzZKbUprYlo1Q3dBeXZYLUMyeWlnVWR1S0JBWlhEeV81bTlLWUp3dkhqQTdUd1pNVmVsc1pUUGN6c0M5OFRCTmlNMk5VSnhicHdWcDl6cEpuSEM1ZFk?oc=5"
-    },
-    {
-      "id": "news-lx5eyw",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T20:20:11.000Z",
-      "description": "Hegseth accuses media of treason in pugnacious annual address (Axios, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/09/30/pete-hegseth-pentagon-media-treason"
-    },
-    {
-      "id": "news-eu9par",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T19:45:43.000Z",
-      "description": "Jim Justice says he has a ‘short’ timeline for deciding on governor run (Politico, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Politico",
-      "axis": "Other",
-      "tags": [
-        "Politico",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Politico",
-      "source": "Politico",
-      "sourceUrl": "https://www.politico.com/live-updates/2026/09/30/congress/justices-big-gov-decision-01100571"
-    },
-    {
-      "id": "news-1yuj8i4",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T19:45:33.000Z",
-      "description": "WATCH: Data center bill falls short as Senate holds final votes before the midterms (PBS NewsHour, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/watch-live-data-center-bill-falls-short-as-senate-holds-final-votes-before-the-midterms"
-    },
-    {
-      "id": "news-419gmb",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T19:33:32.000Z",
-      "description": "Former Homeland Security Secretary Kristi Noem files for divorce from her husband of 34 years (PBS NewsHour, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/former-homeland-security-secretary-kristi-noem-files-for-divorce-from-her-husband-of-34-years"
     }
   ]
 }

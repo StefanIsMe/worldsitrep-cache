@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-10-03T19:31:27.808Z",
+  "collectedAt": "2026-10-03T22:21:39.328Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 13
+      "count": 26
     },
     {
       "id": "gnews-france-protests",
       "url": "https://news.google.com/rss/search?q=France%20student%20protests&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-france-protests request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-lycees",
       "url": "https://news.google.com/rss/search?q=France%20lyc%C3%A9es%20blockades&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-lycees request failed with HTTP 503"
+      "status": "ok",
+      "count": 34,
+      "filtered": 0
     },
     {
       "id": "france24-en",
@@ -52,8 +52,46 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 280,
+  "count": 309,
   "events": [
+    {
+      "id": "news-gsfyh7",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T22:03:10.000Z",
+      "description": "France is struggling to contain violent student protests that began last week. Police have detained more than 5,000 people, and hundreds of schools were closed on Friday. #dwnews - facebook.com (facebook.com, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "facebook.com",
+      "axis": "Other",
+      "tags": [
+        "facebook.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "facebook.com",
+      "source": "facebook.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRTJPRGlHSVYxRWNzVm9WWUVhWm5YQVA1aWlkS0MxOFlYTG9DOUdQcnRVelZoNmo4c2Fsa19raUh3NVNiNFJPMDFNa2QwVEJzVG1OS29zczQzazI5QW1HcGZkS0xxWHZIMFBqc1pudmNBM0FKZVlBZldTeldxNVFUN3pheFZhSkp2OEVUY29obGRCZGhOak15cnN3Y0U2ekxrcF84MFlXbXc1RXFGUHk0dGpELXNtVTNJNnZjTEdkV3NsQ1FGVGFGSC1Xd2pyUkJkZ1RNYU5sbkV3OW91SmZ2Xw?oc=5"
+    },
+    {
+      "id": "news-15uysd1",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T20:21:57.000Z",
+      "description": "French ‘Student’ Riots Send Marine Le Pen Surging on Polymarket - Hungarian Conservative (Hungarian Conservative, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Hungarian Conservative",
+      "axis": "Other",
+      "tags": [
+        "Hungarian Conservative",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Hungarian Conservative",
+      "source": "Hungarian Conservative",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNzBEdzN3V3lfVE9aRnhPNnRCb214eFl4UUJjR2RrWnJGV3hFeGpPZk5YUm5UcGM3ZjB5OXpZQURYMEhHZ0o5WWFKVW44WkdPcktVNlQwcFdYNW81ZXhpdm1SeGxwend5Tld2NldHelZyYlFoNjJKZW1NMG9UeDY0cklRdFZUVEs0azItWjNxWFBjV09MeldEU3dzZEI5Z1dKVXZlYURMUXdkUm9EQk0tWldnNU96Rk0?oc=5"
+    },
     {
       "id": "news-4kbjhj",
       "kind": "news",
@@ -82,19 +120,38 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T17:26:59.000Z",
-      "description": "Paris police chief says student protest movement out of control, urges peaceful action - reuters.com (reuters.com, 2026-10-03. Headline + link only.)",
+      "description": "Paris police chief says student protest movement out of control, urges peaceful action - Reuters (Reuters, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "reuters.com",
+      "actor": "Reuters",
       "axis": "Other",
       "tags": [
-        "reuters.com",
+        "Reuters",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "reuters.com",
-      "source": "reuters.com",
+      "locationStr": "Reuters",
+      "source": "Reuters",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMzl3THIzM09pS2xTbFBMNF9YZmhqTUVNd19nX05MMHZZbEVTVmVuMjltS3ZhVGNxQ0cyN0kwUktxdmd5UkRtZ2lzOXhMWW9DX0VmOG9hb2dVOEZmWWpKWWZQNExLaS0tdUduYi1wNVBUMVNka2tWTHVoSkM3MUlSOEd5TEt0dF85THJVcENFMFBCdG5Gb1A1ZVdhS0NOa2laWXhVNEpXWkdjQm1LU2Vwb19DS1Z4S04w?oc=5"
+    },
+    {
+      "id": "news-1oyquvc",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T17:00:00.000Z",
+      "description": "Police and high school students clash across France in protests over underfunded education - komu.com (komu.com, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "komu.com",
+      "axis": "Other",
+      "tags": [
+        "komu.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "komu.com",
+      "source": "komu.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNUUZHUWtTMDFHcXIxbTBXSHhNRTJ3S1VmWTJMS3BKai1XMktBT0d3aVlpTDBDTFF0MElMSVhSLUp2UEpKM1NJMVFsTmZXMmNwV3Rsak03aUJkaVNVZm5WeDQ2My1UZXFUQTJ0d2dneU5fQWYyNGM2QnBjSjNhejM2LW9HdmxJNUNidW1iVnlfQ3dueXVnWG9DWHBQbGI2SWFnSmdMaUoyVVg2cVMyRElzQ1VPeDd0M1hLWXoyNDV6MDVwcGFmMzJJWnlpNmNPZ3VBRlFEeE5BaThRSnBHS0JtNV9TelVEYUIwXzlzVDRJSG85WGhGblpOYkNzeFp1UlRCTThZRFRrc1ZiMlZ0SVRN0gGPAkFVX3lxTE1RRkdRa1MwMUdxcjFtMFdIeE1FMndLVWZZMkxLcEpqLVcyS0FPR3dpWWlMMENMUXQwSUxJWFItSnZQSkozU0kxUWxOZlcyY3BXdGxqTTdpQmRpU1VmblZ4NDYzLVRlcVRBMnR3Z2d5Tl9BZjI0YzZCcGNKM2F6MzYtb0d2bEk1Q2J1bWJWeV9Dd255dWdYb0NYcFBsYjZJYWdKZ0xpSjJVWDZxUzJESXNDVU94N3QzWEtZejI0NXowNXBwYWYzMklaeWk2Y09ndUFGUUR4TkFpOFFKcEdLQm01X1N6VURhQjBfOXNUNElIbzlYaEZuWk5iQ3N4WnVSVEJNOFlEVGtzVmIyVnRJVE0?oc=5"
     },
     {
       "id": "news-d2t511",
@@ -116,41 +173,22 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqNUE2S25EM0h2YVhGMDAweldGaXByUi14NnRLOXg4M2hnR2F1UXMyOHJFWGZZR0k0cU9DZV9oSDBhY3RYeEpRbGVaclV2NGpHVmJlM1pTQ3gtazFrdndmNlRIT3doTTRpbjFNVGp2b0pUeWJmNlV5WVNwWUxOVWfSAYQBQVVfeXFMTU55ZE5UaEs3UkhkTVR5YlZpUV82NHNuYi0zaHNPV3JXdzB6TnBFSzNUYXFRRkJVZWpaaWpCQVI3Q1VnZkM2N3E2RFFGQW5RcUpUNlhGWmFWejUxYUNaaDBCUTY2VnktZDBrZVZTWnNSTlNMY1BfWUxEWXBmTVJhTXd3SFdH?oc=5"
     },
     {
-      "id": "news-15uysd1",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T14:58:38.000Z",
-      "description": "French ‘Student’ Riots Send Marine Le Pen Surging on Polymarket - Hungarian Conservative (Hungarian Conservative, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Hungarian Conservative",
-      "axis": "Other",
-      "tags": [
-        "Hungarian Conservative",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Hungarian Conservative",
-      "source": "Hungarian Conservative",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNzBEdzN3V3lfVE9aRnhPNnRCb214eFl4UUJjR2RrWnJGV3hFeGpPZk5YUm5UcGM3ZjB5OXpZQURYMEhHZ0o5WWFKVW44WkdPcktVNlQwcFdYNW81ZXhpdm1SeGxwend5Tld2NldHelZyYlFoNjJKZW1NMG9UeDY0cklRdFZUVEs0azItWjNxWFBjV09MeldEU3dzZEI5Z1dKVXZlYURMUXdkUm9EQk0tWldnNU96Rk0?oc=5"
-    },
-    {
       "id": "news-1kp4pb",
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T14:26:46.000Z",
-      "description": "As students call for 'act three', can France's school protests keep momentum? - RFI (RFI, 2026-10-03. Headline + link only.)",
+      "description": "As students call for 'act three', can France's school protests keep momentum? - rfi.fr (rfi.fr, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "RFI",
+      "actor": "rfi.fr",
       "axis": "Other",
       "tags": [
-        "RFI",
+        "rfi.fr",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "RFI",
-      "source": "RFI",
+      "locationStr": "rfi.fr",
+      "source": "rfi.fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWC1zS29LdWhJREx2UnlaMkxENG9LMHJnZnhBaHhEVkoxZEVyUGdTaXVCV01fRTUzTHd3Tkl1TjNMbUFvanR4SzVEM3BPZmVIU0xJbERSYWREaGxrX3hvS0FkOVAxOWVYV29HQl9MUTBJQ0xJVmhuQUlJY3ZzTHpLSTdRbUh1ZTFoazFidXJ2Mm9XMzcwTkk1eUVtSTBnVlpYZ0h0WGVfT2t0UFAwaUJsVw?oc=5"
     },
     {
@@ -195,7 +233,7 @@
       "id": "news-16q80gt",
       "kind": "news",
       "date": "2026-10-03",
-      "isoDate": "2026-10-03T12:56:00.000Z",
+      "isoDate": "2026-10-03T12:52:00.000Z",
       "description": "‘We will not stop’: Students’ blunt message as school protests spread across France - The Independent (The Independent, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -323,6 +361,25 @@
       "locationStr": "Daily Sabah",
       "source": "Daily Sabah",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYUVadXFfTUM5a29rRm5nNmVwVzg2VnR2VzlpQ19xNXJlbFROYTNiYkNJcFdlTnVNMHBXMjRNb2lsc3BYOFdYRFYyZGVRZGpkS2ZfVHBmWjBxSUpTbTdkZ0NPX2RsNjQ4OHJ5aVc3Nk1iMmRubHhvR2ZDOU9KOEs0QjNYVGZlUmI2OVhlQTc1UWFEaGwza3JKM2wwdkVueG9BWEQ4WQ?oc=5"
+    },
+    {
+      "id": "news-s4ylfi",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T07:00:00.000Z",
+      "description": "Student Protests Rattle France as Police Clashes Bring Blockades and Tear Gas - The New York Times (The New York Times, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The New York Times",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbnpqaFQ0Rm9TeUhTVXRsX1dUbGFyeUFZUmw1dTE5Wm5nTEw2MzllZFpvTktOdjN4QkpKS2FwY2s0UHh5Znd3S2hTaTl0QTh5Tk1wM2xvYzNqQmYxLWM4Q0tsV2pISzlHVW82bDE4MGFpcmxvRmJpVlR6MzNQSDg5eXAxR1dnMXVnclpj?oc=5"
     },
     {
       "id": "news-l3c70b",
@@ -6774,6 +6831,890 @@
       }
     },
     {
+      "id": "gdelt-1326176100",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:15:00.000Z",
+      "description": "Protest — Immigrant → Student near Rennes, Bretagne, France. Machine-coded by GDELT 2.1 (20 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.112,
+      "lng": -1.67429,
+      "action": "Protest (GDELT 145)",
+      "actor": "Immigrant",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Rennes, Bretagne, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.zerohedge.com/political/far-left-riots-tearing-france-apart-political-gift-le-pen-election-odds-soar",
+      "gdelt": {
+        "globalEventId": "1326176100",
+        "eventCode": "145",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7.5,
+        "tone": -8.26,
+        "mentions": 20,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326176129",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:15:00.000Z",
+      "description": "Disapproval — French → Unspecified near Rennes, Bretagne, France. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.112,
+      "lng": -1.67429,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "French",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Rennes, Bretagne, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.zerohedge.com/political/far-left-riots-tearing-france-apart-political-gift-le-pen-election-odds-soar",
+      "gdelt": {
+        "globalEventId": "1326176129",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.26,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326176131",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:15:00.000Z",
+      "description": "Coercion — France → School near Matignon, Bretagne, France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.5963,
+      "lng": -2.29125,
+      "action": "Coercion (GDELT 173)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Matignon, Bretagne, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.odnako.org/students-set-fire-to-france-schools-set-on-fire-and-two-thousand-arrested/",
+      "gdelt": {
+        "globalEventId": "1326176131",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -4.16,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326176135",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:15:00.000Z",
+      "description": "Fight — France → United States near France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 46,
+      "lng": 2,
+      "action": "Fight (GDELT 190)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ksl.com:443/article/51623509/general-conference-special-utah-celebrates-america-250",
+      "gdelt": {
+        "globalEventId": "1326176135",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 4.48,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326176138",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:15:00.000Z",
+      "description": "Assault — Nantes → Fire Brigade near Rouen, Haute-Normandie, France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 49.4333,
+      "lng": 1.08333,
+      "action": "Assault (GDELT 180)",
+      "actor": "Nantes",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Rouen, Haute-Normandie, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.odnako.org/students-set-fire-to-france-schools-set-on-fire-and-two-thousand-arrested/",
+      "gdelt": {
+        "globalEventId": "1326176138",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.16,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326177047",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:30:00.000Z",
+      "description": "Fight — Security forces → School near Paris, France (general), France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Fight (GDELT 190)",
+      "actor": "Security forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/paris-police-chief-says-student-protest-movement-out-of-control-urges-peaceful-action",
+      "gdelt": {
+        "globalEventId": "1326177047",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -11.21,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326177102",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:30:00.000Z",
+      "description": "Fight — School → Security forces near Paris, France (general), France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Fight (GDELT 190)",
+      "actor": "School",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/paris-police-chief-says-student-protest-movement-out-of-control-urges-peaceful-action",
+      "gdelt": {
+        "globalEventId": "1326177102",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -11.21,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326177117",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:30:00.000Z",
+      "description": "Disapproval — French → France near Paris, France (general), France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Disapproval (GDELT 114)",
+      "actor": "French",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/paris-police-chief-says-student-protest-movement-out-of-control-urges-peaceful-action",
+      "gdelt": {
+        "globalEventId": "1326177117",
+        "eventCode": "114",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -11.21,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326177119",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:30:00.000Z",
+      "description": "Disapproval — French → Paris near Paris, France (general), France. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Disapproval (GDELT 114)",
+      "actor": "French",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/paris-police-chief-says-student-protest-movement-out-of-control-urges-peaceful-action",
+      "gdelt": {
+        "globalEventId": "1326177119",
+        "eventCode": "114",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -11.21,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326177130",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:30:00.000Z",
+      "description": "Rejection — United Kingdom → France near France. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Rejection (GDELT 120)",
+      "actor": "United Kingdom",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.azernews.az/region/264941.html",
+      "gdelt": {
+        "globalEventId": "1326177130",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -2.29,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326177136",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:30:00.000Z",
+      "description": "Rejection — United Kingdom → Japan near France. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Rejection (GDELT 120)",
+      "actor": "United Kingdom",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.azernews.az/region/264941.html",
+      "gdelt": {
+        "globalEventId": "1326177136",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -2.29,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326177966",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Assault — France → Reuters near Rennes, Bretagne, France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 48.112,
+      "lng": -1.67429,
+      "action": "Assault (GDELT 180)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Rennes, Bretagne, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://victorygirlsblog.com/student-riots-across-france-and-what-you-shouldnt-notice/",
+      "gdelt": {
+        "globalEventId": "1326177966",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -9.45,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326177967",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Assault — France → Reuters near Versailles, Îe-de-France, France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 48.8036,
+      "lng": 2.13424,
+      "action": "Assault (GDELT 180)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Versailles, Îe-de-France, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://victorygirlsblog.com/student-riots-across-france-and-what-you-shouldnt-notice/",
+      "gdelt": {
+        "globalEventId": "1326177967",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -9.45,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326177968",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Fight — France → Reuters near Rennes, Bretagne, France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 48.112,
+      "lng": -1.67429,
+      "action": "Fight (GDELT 190)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Rennes, Bretagne, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://victorygirlsblog.com/student-riots-across-france-and-what-you-shouldnt-notice/",
+      "gdelt": {
+        "globalEventId": "1326177968",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -9.45,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178244",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Assault — Student unions → Jewish near Versailles, Îe-de-France, France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 48.8036,
+      "lng": 2.13424,
+      "action": "Assault (GDELT 1821)",
+      "actor": "Student unions",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Versailles, Îe-de-France, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://victorygirlsblog.com/student-riots-across-france-and-what-you-shouldnt-notice/",
+      "gdelt": {
+        "globalEventId": "1326178244",
+        "eventCode": "1821",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -9.45,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178487",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Assault — Reuters → Unspecified near Versailles, Îe-de-France, France. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 48.8036,
+      "lng": 2.13424,
+      "action": "Assault (GDELT 180)",
+      "actor": "Reuters",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Versailles, Îe-de-France, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://victorygirlsblog.com/student-riots-across-france-and-what-you-shouldnt-notice/",
+      "gdelt": {
+        "globalEventId": "1326178487",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -9.45,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178488",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Fight — Reuters → France near Rennes, Bretagne, France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 48.112,
+      "lng": -1.67429,
+      "action": "Fight (GDELT 190)",
+      "actor": "Reuters",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Rennes, Bretagne, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://victorygirlsblog.com/student-riots-across-france-and-what-you-shouldnt-notice/",
+      "gdelt": {
+        "globalEventId": "1326178488",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -9.45,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326180040",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T21:15:00.000Z",
+      "description": "Rejection — Canada → French near France. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Rejection (GDELT 127)",
+      "actor": "Canada",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.therecord.com/news/canada/france-hasn-t-issued-crab-licence-off-newfoundland-despite-surprising-pledge-ottawa/article_6e1f230b-47af-597c-90a9-1845a6b508b8.html",
+      "gdelt": {
+        "globalEventId": "1326180040",
+        "eventCode": "127",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": 0.88,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326180126",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T21:15:00.000Z",
+      "description": "Coercion — School → Unspecified near Paris, France (general), France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Coercion (GDELT 173)",
+      "actor": "School",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theyeshivaworld.com/news/general/2604938/france-in-chaos-5000-arrests-hundreds-injured-as-student-protests-turn-violent.html",
+      "gdelt": {
+        "globalEventId": "1326180126",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -11.62,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326180127",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T21:15:00.000Z",
+      "description": "Assault — School → France near Paris, France (general), France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Assault (GDELT 182)",
+      "actor": "School",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theyeshivaworld.com/news/general/2604938/france-in-chaos-5000-arrests-hundreds-injured-as-student-protests-turn-violent.html",
+      "gdelt": {
+        "globalEventId": "1326180127",
+        "eventCode": "182",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -11.62,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326180145",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T21:15:00.000Z",
+      "description": "Fight — Paris → Unspecified near Paris, France (general), France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Fight (GDELT 193)",
+      "actor": "Paris",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cairnspost.com.au/technology/gadgets/australian-photographer-peter-yan-tests-apple-iphone-18-pro-camera-in-paris-and-iceland/news-story/1ff93e3dfdfdbddd1c6ff6c8d12d7936?nk=0cb50098d9558366a8955dd8607b01bd-1791061292",
+      "gdelt": {
+        "globalEventId": "1326180145",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 1.01,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326180152",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T21:15:00.000Z",
+      "description": "Fight — France → Iceland near Paris, France (general), France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Fight (GDELT 193)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cairnspost.com.au/technology/gadgets/australian-photographer-peter-yan-tests-apple-iphone-18-pro-camera-in-paris-and-iceland/news-story/1ff93e3dfdfdbddd1c6ff6c8d12d7936?nk=0cb50098d9558366a8955dd8607b01bd-1791061292",
+      "gdelt": {
+        "globalEventId": "1326180152",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 1.01,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326180154",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T21:15:00.000Z",
+      "description": "Disapproval — French → France near Paris, France (general), France. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "French",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theyeshivaworld.com/news/general/2604938/france-in-chaos-5000-arrests-hundreds-injured-as-student-protests-turn-violent.html",
+      "gdelt": {
+        "globalEventId": "1326180154",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -11.62,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326180246",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T21:15:00.000Z",
+      "description": "Disapproval — Employee → Google near Paris, France (general), France. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Employee",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cairnspost.com.au/technology/gadgets/australian-photographer-peter-yan-tests-apple-iphone-18-pro-camera-in-paris-and-iceland/news-story/1ff93e3dfdfdbddd1c6ff6c8d12d7936?nk=0cb50098d9558366a8955dd8607b01bd-1791061292",
+      "gdelt": {
+        "globalEventId": "1326180246",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.01,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326181651",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T21:45:00.000Z",
+      "description": "Disapproval — French → Unspecified near Chiron, Centre, France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 47.2525,
+      "lng": 2.80438,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "French",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Chiron, Centre, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://carbuzz.com/man-responsible-for-bugatti-quality-departs-after-24-years/",
+      "gdelt": {
+        "globalEventId": "1326181651",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 2.28,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326183308",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T22:15:00.000Z",
+      "description": "Coercion — Europe → Security forces near France. Machine-coded by GDELT 2.1 (20 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Coercion (GDELT 1721)",
+      "actor": "Europe",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://theconservativetreehouse.com/blog/2026/10/03/france-closes-400-schools-rioters-planning-major-escalation-october-6th-and-7th-next-target-london-and-u-k/comment-page-1/",
+      "gdelt": {
+        "globalEventId": "1326183308",
+        "eventCode": "1721",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -10.8,
+        "mentions": 20,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-3vlijv",
       "kind": "news",
       "date": "2026-10-02",
@@ -7000,25 +7941,6 @@
       "locationStr": "The Nation",
       "source": "The Nation",
       "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ0lJMDBOQlFkV3FTOWZhZVBrR0dBMXZjNlVoT3o1N1B6U1pzSDJES19xWnBhczFQTU5JdHk1ZGJ4MTMzSzFReDRLU09HTjRkVlUyZkhuR1BnRHg5NG5MeXJoNE5GSWhnRjZFVm5BZVNzWi12SnhpaTlfV3hLOFJ6QjVnYlBOUXJTcDY4V1NRb1htaUnSAZsBQVVfeXFMT0Jiay1MQ1o2dDJqVVI3YzBXQzFSNEI4bUdmYlZtMS13aDdILU5DQ0JITE1TVENmOGlLZ2lHdDRneE9xOVFqbk5yRm4yNHQ3b1VnNVJzYlIzd181Ym9oNm9ZS0RONkdjUUNfVm9mM0dtRlkzWmkxTndpMFhSVGVDYVNKTXNRaURfRFVsa0VsWllLWm5kVHlxT3B6NHM?oc=5"
-    },
-    {
-      "id": "news-s4ylfi",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T17:48:59.000Z",
-      "description": "Student Protests Rattle France as Police Clashes Bring Blockades and Tear Gas - The New York Times (The New York Times, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New York Times",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbnpqaFQ0Rm9TeUhTVXRsX1dUbGFyeUFZUmw1dTE5Wm5nTEw2MzllZFpvTktOdjN4QkpKS2FwY2s0UHh5Znd3S2hTaTl0QTh5Tk1wM2xvYzNqQmYxLWM4Q0tsV2pISzlHVW82bDE4MGFpcmxvRmJpVlR6MzNQSDg5eXAxR1dnMXVnclpj?oc=5"
     },
     {
       "id": "news-1wakn0t",
@@ -7253,18 +8175,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T13:59:00.000Z",
-      "description": "What to know as France school protests morph into unrest and the streets are seething - AP News (AP News, 2026-10-02. Headline + link only.)",
+      "description": "What to know as France school protests morph into unrest and the streets are seething - apnews.com (apnews.com, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "AP News",
+      "actor": "apnews.com",
       "axis": "Other",
       "tags": [
-        "AP News",
+        "apnews.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
+      "locationStr": "apnews.com",
+      "source": "apnews.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaXE5c3pVdTVCSHM1VXdhUWdsUmZMMGVLZmIyXzVmQzlIMlh1X05tREhydFkzSmsxN1AwRGtETGNHMGVmU09fV1ZfY0daYkxIY3BaLXNaUUZaTkplQmJzbWxuS2d1ZVpjdFJRblNVaTh0RXBCRC14Q2dIMVF2QVd1cGstci0wcFBRZTJiOTBjU19TYzVVUEN1bkxIaWdKZGI2Y3dha1NueGtiS20yNHp5ZUg3RGNzWXJkNHc?oc=5"
     },
     {
@@ -7713,18 +8635,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T05:21:00.000Z",
-      "description": "Students and police clash as France struggles to quell school protests - reuters.com (reuters.com, 2026-10-02. Headline + link only.)",
+      "description": "Students and police clash as France struggles to quell school protests - Reuters (Reuters, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "reuters.com",
+      "actor": "Reuters",
       "axis": "Other",
       "tags": [
-        "reuters.com",
+        "Reuters",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "reuters.com",
-      "source": "reuters.com",
+      "locationStr": "Reuters",
+      "source": "Reuters",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaFQyTU1FaVBENkY3X1RkbTlmMkE5LVBkTjF3X1lMMExZb1M5anM2THFGOHVTYmJzdWFCQ0VUNU0zN2xYNUI3ZDF6aEl4WXNUcnd1MkJsQmhLako0c2NqNW5Yb3JIbjkyVHN6MWFQNjBQMm15QjA0WDlheUVnSDAxdDRGd2NKQVRyX1lxSlhSa2FuMk55RUp3QUV4RFlfLXdXU1pEQXBLU0Y0OFdG?oc=5"
     },
     {
@@ -7732,18 +8654,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T04:01:54.000Z",
-      "description": "French schools burn as student unrest spreads - ft.com (ft.com, 2026-10-02. Headline + link only.)",
+      "description": "French schools burn as student unrest spreads - Financial Times (Financial Times, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "ft.com",
+      "actor": "Financial Times",
       "axis": "Other",
       "tags": [
-        "ft.com",
+        "Financial Times",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "ft.com",
-      "source": "ft.com",
+      "locationStr": "Financial Times",
+      "source": "Financial Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONkZuMU1TZ2tDdlRXQlVtc3lkNldSTHVvSVp6cGdwZnNRZUZLbHZka2ktQWJCcWQ2NzctbkJ3ZHFxcmVKZks2LTk3M0hLb0lPUU5yMklpaS1tWW56TUJ4RUdfRDhpLTNUenJvT1ZHNWQ4bVRpU2prUzk0LTRLWXU4eGhWMVU?oc=5"
     },
     {
@@ -7808,18 +8730,18 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T21:51:57.000Z",
-      "description": "French school protests spread as fires, blockades deepen unrest - CNA (CNA, 2026-10-01. Headline + link only.)",
+      "description": "French school protests spread as fires, blockades deepen unrest - channelnewsasia.com (channelnewsasia.com, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "CNA",
+      "actor": "channelnewsasia.com",
       "axis": "Other",
       "tags": [
-        "CNA",
+        "channelnewsasia.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "CNA",
-      "source": "CNA",
+      "locationStr": "channelnewsasia.com",
+      "source": "channelnewsasia.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLWxNQUdyMU9qOVd3aHctMFhReGl4ZU8wRnVfYUZNQjRFUWI4ZW43MW13cmRpOVQ0M0x4VDhDampVZVlXOVVibkhYMzN1Uk5OOXUzZ04taG1jYnFfZEEzOU9NS3BRMTBUdjF5Ulg0T2VtYk84alZNSlRNdGRkNFlXSnFkTnc4YmVJNmtkZ1BoQ1VhQ2ZT?oc=5"
     },
     {
@@ -7861,11 +8783,30 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOXhRelBoQmZBVVpQSXAwdkZHQkRLWlJGdGpIVTg2b2xEZFA0VXNTcEM2cllqcGFRRHA4SFZ1LUg4MGQwd3lWRTlOMFdnT3ExTU5mSXFCcEEweXNIQ0JIOGJTWXZTVmlOaHRfQUx1QXp2bmliSzBKWjZERW0tZWhrbGxjWllPVUU5UjlSd0dnZTZFR0UyQlpHMFhYRng0ZXF2dzM2OGZ2NGdxUdIBrwFBVV95cUxNY0szcFFoOTI0bTJNVWEwUENDODFqaTlOY0dBZXdBejNnNFNLamUyTXBnYXVlaUJ4WVlxQ0ZzM1ZZX0dGM18wa1o4OHJqbHVObG9adl9qV0pGWjRLMTQ3ekNSMGg0TVE5dV82NzNYLWE0LTktSG1VWjBUTDI2ekt4c3NSUnFObzV2ekNYaWQzb0FScUJlaG91WnYyLWhHOHNCcGlsUXMxMmcxZEVsV2lJ?oc=5"
     },
     {
+      "id": "news-1ja7yvj",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T18:21:11.000Z",
+      "description": "School protests spread as fires, blockades deepen unrest in France - Al Jazeera (Al Jazeera, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOXhRelBoQmZBVVpQSXAwdkZHQkRLWlJGdGpIVTg2b2xEZFA0VXNTcEM2cllqcGFRRHA4SFZ1LUg4MGQwd3lWRTlOMFdnT3ExTU5mSXFCcEEweXNIQ0JIOGJTWXZTVmlOaHRfQUx1QXp2bmliSzBKWjZERW0tZWhrbGxjWllPVUU5UjlSd0dnZTZFR0UyQlpHMFhYRng0ZXF2dzM2OGZ2NGdxUQ?oc=5"
+    },
+    {
       "id": "news-1aefern",
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T18:15:27.000Z",
-      "description": "French protests over school conditions spread as students set fires and put up blockades - Euronews.com (Euronews.com, 2026-10-01. Headline + link only.)",
+      "description": "French school protests spread as fires, blockades deepen unrest - Euronews.com (Euronews.com, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Euronews.com",
@@ -7884,18 +8825,18 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T18:12:18.000Z",
-      "description": "Crisis meeting told France's hardleft party behind school protests, says source - reuters.com (reuters.com, 2026-10-01. Headline + link only.)",
+      "description": "Crisis meeting told France's hardleft party behind school protests, says source - Reuters (Reuters, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "reuters.com",
+      "actor": "Reuters",
       "axis": "Other",
       "tags": [
-        "reuters.com",
+        "Reuters",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "reuters.com",
-      "source": "reuters.com",
+      "locationStr": "Reuters",
+      "source": "Reuters",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTi02ZkxUMzY1TkRkb0Uwd0Z2MTZHQmcxRkZnVlZvSGpZeFZFb1NaX0x5N0Q3bDRVcXoyMHdiVlVVT1g2TDA5dTVJTnVBZHBGME16VHBkUkktd3ZEOURPNFFRVHk5OFpIQ2h4cTBseEd4SXFnQ1ZKTlczaUIwd01fb0tLVWh3N3FmMnlHM0ZDQXlNeVZ1WHlicVcxR2xpWEd1bnpxSFpMR2g5NU5icmtYMzNjTF8tZw?oc=5"
     },
     {
@@ -7916,6 +8857,25 @@
       "locationStr": "The Guardian",
       "source": "The Guardian",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWjQxQTUxSE1zaWUtRzYzVnBGamNzSUdTZkg1NW0weHJMTUdMcjA1RXR4SFNidERULUxqeVRrLTJjY0x3SDNnaFRnaW04NjcyWnFUdm9nUmN6dnpQaFVnTU5VMFZXVGZTTGowS2hTeXd3QzdFRzBmLXJ6TktSNnBsWUZMeFJNUFVQTTdjXzBOcUlGMXpZVjlDX0hxQURzZXZyS3FrOXFn?oc=5"
+    },
+    {
+      "id": "news-e8j8e2",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T17:44:00.000Z",
+      "description": "Scenes of unrest as French students protest deteriorating schools - Reuters (Reuters, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Reuters",
+      "axis": "Other",
+      "tags": [
+        "Reuters",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Reuters",
+      "source": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWkZBTEVBSlh0dXpYbXhYWWVtb01zQXJ3ZVpyVlNvNEY1Rlp2bUtNcEtGQWlHMnhmS0RyMFBlMVBHYjJZZmJZUlphMmJOOWxTVzZNVzl3TWh4ck5XeVNNSkZsQUhWUjBRc2plVlA5T0lWa2piR2wxV3FZVGFhMWZmbVl2WjdfRmJLOXJTbmFVVEw5OU0tVGRNTFZyNC1YR25YSlJPUnNxSQ?oc=5"
     },
     {
       "id": "news-jd22m4",
@@ -8017,18 +8977,18 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T14:59:00.000Z",
-      "description": "France gripped by spreading student protests as PM calls crisis meeting - AP News (AP News, 2026-10-01. Headline + link only.)",
+      "description": "France gripped by spreading student protests as PM calls crisis meeting - apnews.com (apnews.com, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "AP News",
+      "actor": "apnews.com",
       "axis": "Other",
       "tags": [
-        "AP News",
+        "apnews.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
+      "locationStr": "apnews.com",
+      "source": "apnews.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVkNpN2l2enlnYmxURVQwT04yekxLeWZya0hoTklJWG9McVFJbmxEM2ZWVmtqeEZEX2NjVmtsaU9KakRfQTdoVTkwTUtFY2pucFdJRTRMYVJseDZNU3c4d0Y5a2dtTzRodFdVVkgxZlc2c1B0cm8zRUNXMW1Nb0pCU21WaDllaGwyMUdqRnc4dmFCS3JCN1o0bUd6WlVhZkdBOENObjBtaC1scmR1TVRKYzVyLWVHb0V1Qmhz?oc=5"
     },
     {
@@ -8093,18 +9053,18 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T09:58:00.000Z",
-      "description": "French PM holds crisis meeting as student protests spread nationwide - RFI (RFI, 2026-10-01. Headline + link only.)",
+      "description": "French PM holds crisis meeting as student protests spread nationwide - rfi.fr (rfi.fr, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "RFI",
+      "actor": "rfi.fr",
       "axis": "Other",
       "tags": [
-        "RFI",
+        "rfi.fr",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "RFI",
-      "source": "RFI",
+      "locationStr": "rfi.fr",
+      "source": "rfi.fr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeFA2cXVlRkk1NW5mOVg0OC1iVWxGQlNNOGV4UFppNXpzRGhTX1YyWXFpcFdidWF0MnFqNzdQU2QzZ0FVSUFDb28td3NQbW1wOXotQjlzTzIxLTVQdzkwUDVjdmEzYlNrRUxqQUUzSzlRYzUyNGNyYkJnNUgtcVFoalRrUzM4N1BmVHFoZWpLdkJmMFlraHNjdW9vSWRDWS1DZURvUHpZTU8wQQ?oc=5"
     },
     {
@@ -8182,25 +9142,6 @@
       "locationStr": "DW.com",
       "source": "DW.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYWdveFlLZ1REWTlBN1MtbV9XclA5cGxteTVNY1NtaTBlWDY5cXZuRU1PQXB3Mmo0N0NmRmJ1TV8yNDNDR2pPMlVGWU5KQ3Q4Q2lCMG1STWhGc0xVZFc2WDAxN3lrRlRSM1FuWEdjbW53cjlEbVJEU2tSOFFPV1VOZlhxbGFORVNIZnpSdTlHMNIBjwFBVV95cUxQUEdVdW5LR1hRcWYwN0dHN3E5d0pFdjZHNlVoSUp5M1ZqdXl3LTVFRzZETWplWjdBVEFCMm1NckpoSjBLdmxPOG1KaW1LMFhiZk15dVBCTHpEaWRiY1gtbWtfQkJRWjVCWUhVWlp4ZmN1Z25La0lVUTBGQjUzOG1zYllmbk5vNm5xOXJuZjRYVQ?oc=5"
-    },
-    {
-      "id": "news-8t2ni1",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T21:06:11.000Z",
-      "description": "Video: Hundreds Detained in France as Some Student Protests Turn Violent - The New York Times (The New York Times, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New York Times",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQldxNXp1M1RHSjFXQm9TOTdTVEliQjZZdEFFblQtMlJyYTU4Sm5Ua2ZzRGlsRnhEQURfOEhXbDdNbUdHaTlweVRTWHczWEJvSzg1NkdfaHFOMnZRS0RjU1FDSDVReU45ZmFrbElkQm95WVI5cTRfU2JqVmg3VERXc3BNWnVmdE9yQko4T3gyS3kwQlZvRFpTNUxKSWotaFM5?oc=5"
     }
   ]
 }

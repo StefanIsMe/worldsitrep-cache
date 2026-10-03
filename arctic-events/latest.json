@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-10-03T19:31:27.808Z",
+  "collectedAt": "2026-10-03T22:21:39.328Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 10
     },
     {
       "id": "rci-arctic",
@@ -19,9 +19,9 @@
     {
       "id": "gnews-arctic",
       "url": "https://news.google.com/rss/search?q=Arctic%20Greenland&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-arctic request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "guardian-arctic",
@@ -34,8 +34,8 @@
       "id": "adn-alaska",
       "url": "https://www.adn.com/arc/outboundfeeds/rss/",
       "status": "ok",
-      "count": 0,
-      "filtered": 25
+      "count": 3,
+      "filtered": 22
     },
     {
       "id": "cryopolitics",
@@ -47,23 +47,23 @@
     {
       "id": "gnews-svalbard",
       "url": "https://news.google.com/rss/search?q=Svalbard%20Norway%20Russia%20Arctic&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-svalbard request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-greenland request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-nsr",
       "url": "https://news.google.com/rss/search?q=Northern%20Sea%20Route%20Russia%20Arctic&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-nsr request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 369,
+  "count": 379,
   "events": [
     {
       "id": "news-1hl2lh7",
@@ -3609,6 +3609,346 @@
       }
     },
     {
+      "id": "gdelt-1326177791",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Fight — Unspecified → American near Whitehall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.15,
+      "lng": -2.61667,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Whitehall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/article/250-years-ago-a-defiant-american-victory-the-great-fire-of-new-york-and-the-one-life-of-nathan-hale-6098757",
+      "gdelt": {
+        "globalEventId": "1326177791",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.55,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326177979",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Threat — United Kingdom → Academics near Whitehall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.15,
+      "lng": -2.61667,
+      "action": "Threat (GDELT 130)",
+      "actor": "United Kingdom",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Whitehall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailymail.com/news/article-16180887/sources-China-disable-police-cars-buses-ambulances.html",
+      "gdelt": {
+        "globalEventId": "1326177979",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.18,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178010",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Threat — United Kingdom → United States near Whitehall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.15,
+      "lng": -2.61667,
+      "action": "Threat (GDELT 138)",
+      "actor": "United Kingdom",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Whitehall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/article/250-years-ago-a-defiant-american-victory-the-great-fire-of-new-york-and-the-one-life-of-nathan-hale-6098757",
+      "gdelt": {
+        "globalEventId": "1326178010",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -4.55,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178011",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Fight — British → New York City near Whitehall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.15,
+      "lng": -2.61667,
+      "action": "Fight (GDELT 192)",
+      "actor": "British",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Whitehall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/article/250-years-ago-a-defiant-american-victory-the-great-fire-of-new-york-and-the-one-life-of-nathan-hale-6098757",
+      "gdelt": {
+        "globalEventId": "1326178011",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -4.55,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178013",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Fight — United Kingdom → United States near Whitehall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.15,
+      "lng": -2.61667,
+      "action": "Fight (GDELT 192)",
+      "actor": "United Kingdom",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Whitehall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/article/250-years-ago-a-defiant-american-victory-the-great-fire-of-new-york-and-the-one-life-of-nathan-hale-6098757",
+      "gdelt": {
+        "globalEventId": "1326178013",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -4.55,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178253",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Fight — Dutch → Unspecified near Long Island, Eilean Siar, United Kingdom. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 58.25,
+      "lng": -6.66667,
+      "action": "Fight (GDELT 192)",
+      "actor": "Dutch",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Long Island, Eilean Siar, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/article/250-years-ago-a-defiant-american-victory-the-great-fire-of-new-york-and-the-one-life-of-nathan-hale-6098757",
+      "gdelt": {
+        "globalEventId": "1326178253",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -4.55,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178255",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Fight — Netherlands → United Kingdom near Long Island, Eilean Siar, United Kingdom. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 58.25,
+      "lng": -6.66667,
+      "action": "Fight (GDELT 192)",
+      "actor": "Netherlands",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Long Island, Eilean Siar, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/article/250-years-ago-a-defiant-american-victory-the-great-fire-of-new-york-and-the-one-life-of-nathan-hale-6098757",
+      "gdelt": {
+        "globalEventId": "1326178255",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -4.55,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178258",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Fight — Dutch → United States near Long Island, Eilean Siar, United Kingdom. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 58.25,
+      "lng": -6.66667,
+      "action": "Fight (GDELT 192)",
+      "actor": "Dutch",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Long Island, Eilean Siar, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/article/250-years-ago-a-defiant-american-victory-the-great-fire-of-new-york-and-the-one-life-of-nathan-hale-6098757",
+      "gdelt": {
+        "globalEventId": "1326178258",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -4.55,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178405",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Threat — American → Unspecified near Whitehall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.15,
+      "lng": -2.61667,
+      "action": "Threat (GDELT 138)",
+      "actor": "American",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Whitehall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/article/250-years-ago-a-defiant-american-victory-the-great-fire-of-new-york-and-the-one-life-of-nathan-hale-6098757",
+      "gdelt": {
+        "globalEventId": "1326178405",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -4.55,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326178438",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:45:00.000Z",
+      "description": "Fight — American → United Kingdom near Whitehall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.15,
+      "lng": -2.61667,
+      "action": "Fight (GDELT 192)",
+      "actor": "American",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Whitehall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/article/250-years-ago-a-defiant-american-victory-the-great-fire-of-new-york-and-the-one-life-of-nathan-hale-6098757",
+      "gdelt": {
+        "globalEventId": "1326178438",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -4.55,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-11h81td",
       "kind": "news",
       "date": "2026-10-02",
@@ -3636,18 +3976,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T20:00:05.000Z",
-      "description": "Arctic sea routes boom as Gulf war and global warming divert shipping - ft.com (ft.com, 2026-10-02. Headline + link only.)",
+      "description": "Arctic sea routes boom as Gulf war and global warming divert shipping - Financial Times (Financial Times, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "ft.com",
+      "actor": "Financial Times",
       "axis": "Other",
       "tags": [
-        "ft.com",
+        "Financial Times",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "ft.com",
-      "source": "ft.com",
+      "locationStr": "Financial Times",
+      "source": "Financial Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaEo5OHpsV3dQVmRiREtpSkppYVltdUV6bnVQak80bmtnRmxkQU1UOFdkS0VWLXBEWHJSU1VPcnliVmx1cTJHa19UWU5mQW94X2NXN0h6c050c2VyeHd3WjA1RXl0VmRSb0Q5eGQ5MHBESGVjOHNaRGtrT3lDY05nd1ZEZEI?oc=5"
     },
     {
@@ -3655,18 +3995,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T19:46:39.000Z",
-      "description": "Blog: South Korea bets on the Arctic to boost its biggest port – Eye on the Arctic - rcinet.ca (rcinet.ca, 2026-10-02. Headline + link only.)",
+      "description": "Blog: South Korea bets on the Arctic to boost its biggest port – Eye on the Arctic - Radio-Canada (Radio-Canada, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "rcinet.ca",
+      "actor": "Radio-Canada",
       "axis": "Other",
       "tags": [
-        "rcinet.ca",
+        "Radio-Canada",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "rcinet.ca",
-      "source": "rcinet.ca",
+      "locationStr": "Radio-Canada",
+      "source": "Radio-Canada",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWQ3ckhtRUh6cDhacHBaS0VZaGdPYWFzdjJ1ZHpPRG9YejAzUVNNZ3gwdTJRTDlaMGNkRGRrSzBOa0t2Uk9KMDhKdnI3dWpsNWNOMTdVMU5tWEx4Y1lhU1BiNnJWcUFnbjBsWkplOUtTNTVIRFVWZjlDb3o1T1ZYWXA0NEZzb1FZLThXRzVtc3JwSmcwU1NMQmNFOEVmX0hscy15WDhkempDT1FuOVRPbFF6aw?oc=5"
     },
     {
@@ -3687,6 +4027,29 @@
       "locationStr": "Eye on the Arctic",
       "source": "Eye on the Arctic",
       "sourceUrl": "https://www.rcinet.ca/eye-on-the-arctic/2026/10/02/blog-south-korea-bets-on-the-arctic-to-boost-its-biggest-port/"
+    },
+    {
+      "id": "news-16tbpfs",
+      "kind": "news",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T17:57:18.000Z",
+      "description": "Trump’s Greenland Deal: Modest Gains, Lasting Costs - CSIS | Center for Strategic and International Studies (CSIS | Center for Strategic and International Studies, 2026-10-02. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "CSIS | Center for Strategic and International Studies",
+      "axis": "Other",
+      "tags": [
+        "CSIS | Center for Strategic and International Studies",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Greenland",
+      "source": "CSIS | Center for Strategic and International Studies",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOajBDS0daYWxZTy1LWHUwcG0wOVJqZEFQcW1UWGVfMzQ0VTNNMXd1MkhaVGx6aEJReVlNUlJZNEh1WDVaOHIzbFd5YXdFaTJSeG1BRUVhcGpucU1selljUHNqN2N0Z0xOd21xVjlvQ2trTHQxZ0xJZFE5UXdHWmtvRFUtT1U?oc=5",
+      "lat": 72,
+      "lng": -40,
+      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
     },
     {
       "id": "news-1hr5rux",
@@ -7313,7 +7676,7 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T20:21:43.000Z",
-      "description": "Alaska’s Bristol Bay salmon return about average this year, with higher prices paid to fishers (Anchorage Daily News, 2026-10-01. Headline + link only.)",
+      "description": "Alaska’s Bristol Bay salmon return about average this year, with higher prices paid to fishermen (Anchorage Daily News, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Anchorage Daily News",
@@ -7408,19 +7771,19 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T12:07:54.000Z",
-      "description": "Denmark says NATO could have long-term presence in Greenland after US deal - baltimoresun.com (baltimoresun.com, 2026-10-01. Headline + link only.)",
+      "description": "Denmark says NATO could have long-term presence in Greenland after US deal - Baltimore Sun (Baltimore Sun, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "baltimoresun.com",
+      "actor": "Baltimore Sun",
       "axis": "Other",
       "tags": [
-        "baltimoresun.com",
+        "Baltimore Sun",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Greenland",
-      "source": "baltimoresun.com",
+      "source": "Baltimore Sun",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNFNvbnFZQzdNelo3T3JtSDdzbHRrLVdIYzgxZXl1cWs0bUxiWXZzRGNyaXBrWEFWRHNhdGtnQk1qNlJMRjdSV2dfSlo0YVJXbzc4YldLd1d3UlpzSkFaekJ5RFVKSklEaF85d3ZpeFNvbmwzbFBZaXJucm9SbVdMZ2Z1UEpvMVpQV0RoUkFqelpxaXFrVTFNTk5CS21WWjVONTlLek90Rm92c2pJb1FsZXpiUkt3QQ?oc=5",
       "lat": 72,
       "lng": -40,
@@ -12285,29 +12648,6 @@
         "mentions": 6,
         "sources": 1
       }
-    },
-    {
-      "id": "news-1jkhu5b",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T20:39:39.000Z",
-      "description": "Trump says South Korea will invest $54B in Alaska natural gas pipeline (Anchorage Daily News, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Anchorage Daily News",
-      "axis": "Other",
-      "tags": [
-        "Anchorage Daily News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Alaska",
-      "source": "Anchorage Daily News",
-      "sourceUrl": "https://www.adn.com/business-economy/energy/2026/09/30/trump-to-announce-south-korean-investment-in-alaska-natural-gas-pipeline/",
-      "lat": 64.44596,
-      "lng": -149.68091,
-      "coordsNote": "OSM geocode: matched \"Alaska\" → Alaska, United States; © OpenStreetMap contributors."
     }
   ]
 }

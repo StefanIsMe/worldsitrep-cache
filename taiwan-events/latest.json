@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-03T19:31:27.808Z",
+  "collectedAt": "2026-10-03T22:21:39.328Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 5
     },
     {
       "id": "taipei-times",
@@ -19,16 +19,16 @@
     {
       "id": "gnews-strait",
       "url": "https://news.google.com/rss/search?q=Taiwan%20Strait%20China%20PLA&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-strait request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-defense",
       "url": "https://news.google.com/rss/search?q=Taiwan%20PLA%20military%20drills&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-defense request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "scmp-china",
@@ -48,29 +48,29 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 7,
-      "filtered": 43
+      "count": 8,
+      "filtered": 42
     },
     {
       "id": "gnews-arms",
       "url": "https://news.google.com/rss/search?q=Taiwan%20US%20arms%20sale&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-arms request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-kinmen request failed with HTTP 503"
+      "status": "ok",
+      "count": 42,
+      "filtered": 0
     },
     {
       "id": "gnews-hankuang",
       "url": "https://news.google.com/rss/search?q=Taiwan%20Han%20Kuang%20military%20drills&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-hankuang request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 279,
+  "count": 285,
   "events": [
     {
       "id": "news-118gl8y",
@@ -252,6 +252,44 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/10/04/2003865356"
+    },
+    {
+      "id": "news-s59uyj",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T22:13:22.000Z",
+      "description": "North Korea says it conducted intermediate-range strategic missile drill (Straits Times, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/north-korea-says-it-conducted-intermediate-range-strategic-missile-drill"
+    },
+    {
+      "id": "news-tgp2bi",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T22:00:12.000Z",
+      "description": "China and Africa boost law enforcement ties in crackdown on cross-border cybercrime (SCMP, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369660/china-and-africa-boost-law-enforcement-ties-crackdown-cross-border-cybercrime?utm_source=rss_feed"
     },
     {
       "id": "news-14i4nbe",
@@ -1570,6 +1608,108 @@
       }
     },
     {
+      "id": "gdelt-1326176313",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:15:00.000Z",
+      "description": "Coercion — Taiwan → Nvidia near Taiwan. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thenextweb.com/news/greg-lui-earthmade-ai-server-smuggling-china",
+      "gdelt": {
+        "globalEventId": "1326176313",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -6.99,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326176349",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:15:00.000Z",
+      "description": "Disapproval — California → Server near Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 1121)",
+      "actor": "California",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thenextweb.com/news/greg-lui-earthmade-ai-server-smuggling-china",
+      "gdelt": {
+        "globalEventId": "1326176349",
+        "eventCode": "1121",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.99,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326176350",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:15:00.000Z",
+      "description": "Disapproval — California → Server near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 1121)",
+      "actor": "California",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thenextweb.com/news/greg-lui-earthmade-ai-server-smuggling-china",
+      "gdelt": {
+        "globalEventId": "1326176350",
+        "eventCode": "1121",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.99,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-1jo6l4z",
       "kind": "news",
       "date": "2026-10-03",
@@ -2017,6 +2157,25 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/military/article/3369575/chinas-pla-sets-new-military-academy-colleges-ai-drones-and-discipline?utm_source=rss_feed"
+    },
+    {
+      "id": "news-1v51tvt",
+      "kind": "news",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T11:19:07.000Z",
+      "description": "Taiwan receives 2 long-delayed U.S. F-16Vs and awaits additional fighter jets - Washington Times (Washington Times, 2026-10-02. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Washington Times",
+      "axis": "Other",
+      "tags": [
+        "Washington Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Washington Times",
+      "source": "Washington Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYldoYWpxa2VLYlVJWXQzbjJodUp0UTBtVnB1QXcwV0gxRzhWclJXQXI2WEhnY0hWUkxJLU1pVEV0UDlHWndXS0hxbHRncmpwQ2JWWENnOG50SXZ6N3FPYWVsLWRDa2w5OEYtWUFwR0k2VkdHZVprSWFuaWctd3UwZkVfcWtvX0F6WGpVWFVwb1d3czcyb0JwQ3NOUjFIVUp3MVRpbDRjdUxMR2c?oc=5"
     },
     {
       "id": "news-3ews4",
@@ -4486,6 +4645,74 @@
         "quadClass": 4,
         "goldstein": -7.2,
         "tone": -0.82,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326175988",
+      "kind": "event",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:15:00.000Z",
+      "description": "Force posture — Coast Guard → Taiwan near Oluanpi, Pingdong Xian, Taiwan. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 21.9039,
+      "lng": 120.852,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Coast Guard",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Oluanpi, Pingdong Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5594678",
+      "gdelt": {
+        "globalEventId": "1326175988",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -0.71,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326175990",
+      "kind": "event",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T00:00:00.000Z",
+      "observedAt": "2026-10-03T20:15:00.000Z",
+      "description": "Force posture — Philippine → Taiwan near Oluanpi, Pingdong Xian, Taiwan. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 21.9039,
+      "lng": 120.852,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Philippine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Oluanpi, Pingdong Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5594678",
+      "gdelt": {
+        "globalEventId": "1326175990",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -0.71,
         "mentions": 5,
         "sources": 1
       }
@@ -7758,44 +7985,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369395/us-criticises-chinas-wto-compliance-industry-groups-mount-complaints?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1h4czw9",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T21:30:34.000Z",
-      "description": "US targets China’s steel capacity at G20 days after Xi’s state visit (SCMP, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369393/us-targets-chinas-steel-capacity-g20-days-after-xis-state-visit?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1qgkhtp",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T20:03:02.000Z",
-      "description": "Fault Lines – Taiwan’s arms hopes, Indonesia’s carrier, Fiji’s chiefs - The Strategist | ASPI's analysis and commentary site (The Strategist | ASPI's analysis and commentary site, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Strategist | ASPI's analysis and commentary site",
-      "axis": "Other",
-      "tags": [
-        "The Strategist | ASPI's analysis and commentary site",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Strategist | ASPI's analysis and commentary site",
-      "source": "The Strategist | ASPI's analysis and commentary site",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNFNURkF2QUxkaDVYSFNlSVFoSDlpaVU3Zlp6dkJZRWMtQVo2aHRSRlVTQW4yZFJULTV2bElVYWFHZUZVYThRalhieVpOVlcwUGxpUjQyT2pPNllJdkVSY01yQjF1OU5wNTFLTnF2YXh2MThkOVpBM3c1TkdJT3d0REpBTVM3emNIYWdiX2c2U3RFRkpPSklkMzhIeXVydw?oc=5"
     }
   ]
 }
