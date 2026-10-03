@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-03T12:46:15.702Z",
+  "collectedAt": "2026-10-03T16:00:56.018Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 1
+      "count": 4
     },
     {
       "id": "taipei-times",
@@ -34,22 +34,22 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 40,
-      "filtered": 10
+      "count": 41,
+      "filtered": 9
     },
     {
       "id": "dw-asia",
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
       "count": 3,
-      "filtered": 13
+      "filtered": 11
     },
     {
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 6,
-      "filtered": 44
+      "count": 7,
+      "filtered": 43
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 42,
+      "count": 43,
       "filtered": 0
     },
     {
@@ -80,8 +80,69 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 249,
+  "count": 255,
   "events": [
+    {
+      "id": "news-1lrtn0p",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T15:08:09.000Z",
+      "description": "China slams US ‘lie’ over Starbucks stores in Xinjiang (Straits Times, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Xinjiang",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/china-slams-us-lie-over-starbucks-stores-in-xinjiang",
+      "lat": 22.63555,
+      "lng": 120.30362,
+      "coordsNote": "OSM geocode: matched \"Xinjiang\" → Xinjiang Village, Xinxing District, Kaohsiung; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-9ml2dj",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T14:00:12.000Z",
+      "description": "Chinese art takes long march home from US museums (SCMP, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/article/3369654/chinese-art-takes-long-march-home-us-museums?utm_source=rss_feed"
+    },
+    {
+      "id": "news-1bxb909",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T13:45:24.000Z",
+      "description": "US to deploy NMESIS anti-ship system on Japanese island closest to Taiwan for first time (SCMP, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369666/us-deploy-nmesis-anti-ship-system-japanese-island-closest-taiwan-first-time?utm_source=rss_feed"
+    },
     {
       "id": "news-1g4hlqo",
       "kind": "news",
@@ -669,6 +730,142 @@
         "goldstein": -7.2,
         "tone": -4.25,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326141171",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T13:00:00.000Z",
+      "description": "Disapproval — Taiwan → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://aninews.in/news/world/asia/china-accused-of-new-form-of-transnational-repression-in-taiwan20261003173323/",
+      "gdelt": {
+        "globalEventId": "1326141171",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -7.23,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326148016",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T14:15:00.000Z",
+      "description": "Force posture — Taiwan → Philippine near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/politics/202610030015",
+      "gdelt": {
+        "globalEventId": "1326148016",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -1.19,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326148017",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T14:15:00.000Z",
+      "description": "Force posture — Taiwan → Philippine near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (16 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/politics/202610030015",
+      "gdelt": {
+        "globalEventId": "1326148017",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -1.19,
+        "mentions": 16,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326153126",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T15:15:00.000Z",
+      "description": "Rejection — United States → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Rejection (GDELT 124)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.washingtonexaminer.com/news/investigations/4736137/activist-network-wants-you-scared-ai-killing-people/",
+      "gdelt": {
+        "globalEventId": "1326153126",
+        "eventCode": "124",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -1.86,
+        "mentions": 3,
         "sources": 1
       }
     },
@@ -4249,25 +4446,6 @@
       "sourceUrl": "https://www.straitstimes.com/asia/east-asia/us-sees-chinese-invasion-of-taiwan-unlikely-next-year-despite-2027-timeline-sources-say"
     },
     {
-      "id": "news-1myh4yx",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T05:00:21.000Z",
-      "description": "Taiwan transfers naval commander to Coast Guard to boost deterrence against China - Reuters (Reuters, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZnFvSkZSdG5JRmRiNzZtU0ZXYVVrakc3b1N4Qjd0TGhWMGw2cHFqREFtQk9jZTdUc2NnazVHaS1sVnI4TzFEZEVlUzJZRkZaN0E0T0tGalVHbFE1YklfVFVwdkdjQm9RTW1sTG9nU2g5eDNIQzc1NHVLQTI5V2d4OVhNM0N5aWJ2ZnFJTTFnT21nNXhsZG5Vd19NWko0WkNmZmc5QWdsb2t5ZExFakRrYXZBa25iX0NYSkJSQWhRYTA?oc=5"
-    },
-    {
       "id": "news-1ym4ol1",
       "kind": "news",
       "date": "2026-10-01",
@@ -4380,6 +4558,25 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/east-asia/taiwan-transfers-naval-commander-to-coast-guard-to-boost-deterrence-against-china"
+    },
+    {
+      "id": "news-1myh4yx",
+      "kind": "news",
+      "date": "2026-10-01",
+      "isoDate": "2026-10-01T03:37:00.000Z",
+      "description": "Taiwan transfers naval commander to Coast Guard to boost deterrence against China - Reuters (Reuters, 2026-10-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Reuters",
+      "axis": "Other",
+      "tags": [
+        "Reuters",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Reuters",
+      "source": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZnFvSkZSdG5JRmRiNzZtU0ZXYVVrakc3b1N4Qjd0TGhWMGw2cHFqREFtQk9jZTdUc2NnazVHaS1sVnI4TzFEZEVlUzJZRkZaN0E0T0tGalVHbFE1YklfVFVwdkdjQm9RTW1sTG9nU2g5eDNIQzc1NHVLQTI5V2d4OVhNM0N5aWJ2ZnFJTTFnT21nNXhsZG5Vd19NWko0WkNmZmc5QWdsb2t5ZExFakRrYXZBa25iX0NYSkJSQWhRYTA?oc=5"
     },
     {
       "id": "news-mj8tne",
@@ -6903,25 +7100,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369390/china-slaps-55-cent-tariff-brazilian-beef-rebuffs-bid-borrow-uruguays-quota?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1eihly7",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T14:30:00.000Z",
-      "description": "China extends probes into US trade barriers until December (Straits Times, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/china-extends-probes-into-us-trade-barriers-until-december"
     }
   ]
 }
