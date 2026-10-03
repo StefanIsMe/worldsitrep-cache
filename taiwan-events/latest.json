@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-03T07:08:09.380Z",
+  "collectedAt": "2026-10-03T11:56:24.980Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 3
     },
     {
       "id": "taipei-times",
@@ -42,14 +42,14 @@
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
       "count": 3,
-      "filtered": 13
+      "filtered": 12
     },
     {
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 6,
-      "filtered": 44
+      "count": 7,
+      "filtered": 43
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 40,
+      "count": 41,
       "filtered": 0
     },
     {
@@ -80,8 +80,65 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 253,
+  "count": 250,
   "events": [
+    {
+      "id": "news-1g4hlqo",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T11:08:37.000Z",
+      "description": "North Korea's Kim Yo Jong says intermediate-range missile test was conducted (Straits Times, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/north-koreas-kim-yo-jong-says-intermediate-range-missile-test-was-conducted"
+    },
+    {
+      "id": "news-eudhhu",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T11:00:11.000Z",
+      "description": "Chinese troops line up for Russia’s Tsentr-2026 exercise as military ties tighten (SCMP, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/military/article/3369657/chinese-troops-line-russias-tsentr-2026-exercise-military-ties-tighten?utm_source=rss_feed"
+    },
+    {
+      "id": "news-ezec9i",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T10:00:13.000Z",
+      "description": "US, China botanists sign landmark proposal on cooperation, global issues and projects (SCMP, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/science/article/3369652/us-china-botanists-sign-landmark-proposal-cooperation-global-issues-and-projects?utm_source=rss_feed"
+    },
     {
       "id": "news-1xxekui",
       "kind": "news",
@@ -525,6 +582,40 @@
         "goldstein": -10,
         "tone": -3.51,
         "mentions": 20,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326123928",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-03T09:45:00.000Z",
+      "description": "Fight — Philippine → Taiwan near Kinmen, Jinmen Xian, Taiwan. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 24.4367,
+      "lng": 118.318,
+      "action": "Fight (GDELT 193)",
+      "actor": "Philippine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kinmen, Jinmen Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/politics/202610030007",
+      "gdelt": {
+        "globalEventId": "1326123928",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 0.36,
+        "mentions": 6,
         "sources": 1
       }
     },
@@ -4299,18 +4390,18 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T02:51:24.000Z",
-      "description": "US senators urge Trump to speed Taiwan arms deliveries - taiwannews.com.tw (taiwannews.com.tw, 2026-10-01. Headline + link only.)",
+      "description": "US senators urge Trump to speed Taiwan arms deliveries - Taiwan News (Taiwan News, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "taiwannews.com.tw",
+      "actor": "Taiwan News",
       "axis": "Other",
       "tags": [
-        "taiwannews.com.tw",
+        "Taiwan News",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "taiwannews.com.tw",
-      "source": "taiwannews.com.tw",
+      "locationStr": "Taiwan News",
+      "source": "Taiwan News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1vNjY4VERldFBTUWFESVRKb2s4ZHRUVEw2MHVrYktuNEwzSGpkeFRIeFdkb3hPWFRnWjFNRGhoNUJBQU56N0E3OUdMUEg0V29tRGdGUllzcW8?oc=5"
     },
     {
@@ -6835,139 +6926,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/military/article/3369359/did-beijing-and-washington-agree-crisis-prevention-deal-or-not?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1ahvq64",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T11:27:57.000Z",
-      "description": "China's Xi talks economy, Taiwan at reception marking National Day (Straits Times, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/chinas-xi-talks-economy-taiwan-at-reception-marking-national-day"
-    },
-    {
-      "id": "news-f953kv",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T11:12:55.000Z",
-      "description": "Republican committee chair calls for scrutiny of Seoul's China ties (Straits Times, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/republican-committee-chair-calls-for-scrutiny-of-seouls-china-ties"
-    },
-    {
-      "id": "news-1dkw0o2",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T10:43:15.000Z",
-      "description": "Chinese researchers say missile lidar model can spot US F-35 at up to 61.5km (SCMP, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3369347/chinese-researchers-say-missile-lidar-model-can-spot-us-f-35-615km?utm_source=rss_feed"
-    },
-    {
-      "id": "news-160b5q2",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T10:25:19.000Z",
-      "description": "Taiwan’s island troops prepare for a Chinese first strike - 朝日新聞 (朝日新聞, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "朝日新聞",
-      "axis": "Other",
-      "tags": [
-        "朝日新聞",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "朝日新聞",
-      "source": "朝日新聞",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FcVVqamNZVW9MdmkzWFlyalh2dWdEeWFWZHM0NExsRUFqNk83bnhGaXRSSHBrTDFfVzJUYUNndC1Wa29fV1duQ0RWZFhwVjVTRnQ5cDczbk1KU0R3aUE?oc=5"
-    },
-    {
-      "id": "news-1f0vo15",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T09:23:31.000Z",
-      "description": "Latest News, India News, Breaking News, Business, Bollywood, Cricket, Videos & Photos - NDTV (NDTV, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NDTV",
-      "axis": "Other",
-      "tags": [
-        "NDTV",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NDTV",
-      "source": "NDTV",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOM0NBVThtVWlfYWZTWnR2YlNQN2VteUdubHlUdURGVkQ2WWM2RVEzSzhmVUVLZ0JWeFdHcGJFUTNVNDJXTHd5OWFFcTZxUktVRi01aW9COHRBNkJpLXVuRzU2OGtTdDMxXzBPZVNXekJtdmNtMjdZeFhzZ0xyX2cxZ2M1SjBlVmNyaEUtU1Bwcllqa00?oc=5"
-    },
-    {
-      "id": "news-1rgr15v",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T08:00:14.000Z",
-      "description": "EU weighs sweeping new trade powers against China before make-or-break October (SCMP, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369303/eu-weighs-sweeping-new-trade-powers-against-china-make-or-break-october?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1xv95ip",
-      "kind": "news",
-      "date": "2026-09-30",
-      "isoDate": "2026-09-30T07:33:03.000Z",
-      "description": "Iran receives US feedback on seven-day trust-building plan (Straits Times, 2026-09-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/iran-receives-us-feedback-on-seven-day-trust-building-plan"
     }
   ]
 }
