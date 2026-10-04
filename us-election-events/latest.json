@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-04T18:02:53.685Z",
+  "collectedAt": "2026-10-04T18:24:45.751Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -26,23 +26,23 @@
     {
       "id": "gnews-election",
       "url": "https://news.google.com/rss/search?q=US%20election%20Trump%202028&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 40,
-      "filtered": 10
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-election request failed with HTTP 503"
     },
     {
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Trump%20tariffs%20executive%20order&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 49,
-      "filtered": 1
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-policy request failed with HTTP 503"
     },
     {
       "id": "thehill",
       "url": "https://thehill.com/feed/",
       "status": "ok",
-      "count": 25,
-      "filtered": 25
+      "count": 26,
+      "filtered": 24
     },
     {
       "id": "politico-congress",
@@ -75,23 +75,23 @@
     {
       "id": "gnews-protest",
       "url": "https://news.google.com/rss/search?q=Trump%20protest%20National%20Guard%20deployment&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-protest request failed with HTTP 503"
     },
     {
       "id": "gnews-courts",
       "url": "https://news.google.com/rss/search?q=federal%20judge%20blocks%20executive%20order%20ruling&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 47,
-      "filtered": 3
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-courts request failed with HTTP 503"
     },
     {
       "id": "gnews-midterms",
       "url": "https://news.google.com/rss/search?q=US%20midterm%20elections%202026%20polls&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-midterms request failed with HTTP 503"
     },
     {
       "id": "reliefweb",
@@ -103,6 +103,44 @@
   ],
   "count": 221,
   "events": [
+    {
+      "id": "news-jqhcpy",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T18:09:38.000Z",
+      "description": "Emanuel urges Democrats to prioritize ethics reform over potential third Trump impeachment (The Hill, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/campaign/6128366-emanuel-pushes-democrats-ethics-reform/"
+    },
+    {
+      "id": "news-1iv8lj4",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T18:00:00.000Z",
+      "description": "3 classes after Supreme Court&#8217;s admissions ruling: What the data show (The Hill, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/opinion/education/6127046-higher-education-post-ruling-trends/"
+    },
     {
       "id": "news-y6fmrw",
       "kind": "news",
@@ -4463,44 +4501,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/administration/6124187-trump-threatens-iran-peace-deal/"
-    },
-    {
-      "id": "news-19hmjqn",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T18:13:29.000Z",
-      "description": "Trump slams Time staff during interview for not asking &#8216;one f‑‑‑ing positive question&#8217; (The Hill, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6123793-trump-criticizes-time-interview/"
-    },
-    {
-      "id": "news-9b1xi7",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T18:12:03.000Z",
-      "description": "Peltola tells voters &#8216;forget party&#8217; in new campaign ad (The Hill, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/6124020-peltola-alaska-senate-ad/"
     }
   ]
 }

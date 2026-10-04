@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-10-04T18:02:53.685Z",
+  "collectedAt": "2026-10-04T18:24:45.751Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 62
+      "count": 40
     },
     {
       "id": "gnews-france-protests",
       "url": "https://news.google.com/rss/search?q=France%20student%20protests&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-france-protests request failed with HTTP 503"
     },
     {
       "id": "gnews-lycees",
       "url": "https://news.google.com/rss/search?q=France%20lyc%C3%A9es%20blockades&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 37,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-lycees request failed with HTTP 503"
     },
     {
       "id": "france24-en",
@@ -52,7 +52,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 551,
+  "count": 557,
   "events": [
     {
       "id": "news-1rvdnk2",
@@ -8204,6 +8204,346 @@
         "quadClass": 4,
         "goldstein": -10,
         "tone": -4.01,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271177",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Protest — Unspecified → France near La Ciotat, Provence-Alpes-Côd'Azur, France. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 43.176,
+      "lng": 5.60789,
+      "action": "Protest (GDELT 140)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "La Ciotat, Provence-Alpes-Côd'Azur, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/france-to-close-500-schools-over-worsening-student-protests/",
+      "gdelt": {
+        "globalEventId": "1326271177",
+        "eventCode": "140",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -8.61,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271364",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Fight — Security forces → France near La Ciotat, Provence-Alpes-Côd'Azur, France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 43.176,
+      "lng": 5.60789,
+      "action": "Fight (GDELT 190)",
+      "actor": "Security forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "La Ciotat, Provence-Alpes-Côd'Azur, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/france-to-close-500-schools-over-worsening-student-protests/",
+      "gdelt": {
+        "globalEventId": "1326271364",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.61,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271374",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Fight — Security Force → Protester near La Ciotat, Provence-Alpes-Côd'Azur, France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 43.176,
+      "lng": 5.60789,
+      "action": "Fight (GDELT 190)",
+      "actor": "Security Force",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "La Ciotat, Provence-Alpes-Côd'Azur, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/france-to-close-500-schools-over-worsening-student-protests/",
+      "gdelt": {
+        "globalEventId": "1326271374",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.61,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271529",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Coercion — France → Unspecified near La Ciotat, Provence-Alpes-Côd'Azur, France. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 43.176,
+      "lng": 5.60789,
+      "action": "Coercion (GDELT 175)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "La Ciotat, Provence-Alpes-Côd'Azur, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/france-to-close-500-schools-over-worsening-student-protests/",
+      "gdelt": {
+        "globalEventId": "1326271529",
+        "eventCode": "175",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -8.61,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271532",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Coercion — France → School near La Ciotat, Provence-Alpes-Côd'Azur, France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 43.176,
+      "lng": 5.60789,
+      "action": "Coercion (GDELT 1721)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "La Ciotat, Provence-Alpes-Côd'Azur, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/france-to-close-500-schools-over-worsening-student-protests/",
+      "gdelt": {
+        "globalEventId": "1326271532",
+        "eventCode": "1721",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -8.61,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271534",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Coercion — Paris → Congress near Paris, France (general), France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Paris",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://aa.com.tr/en/features/explainer-what-will-world-s-largest-space-congress-talk-about/4077818",
+      "gdelt": {
+        "globalEventId": "1326271534",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -0.21,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271537",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Disapproval — France → Activist near La Ciotat, Provence-Alpes-Côd'Azur, France. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 43.176,
+      "lng": 5.60789,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "La Ciotat, Provence-Alpes-Côd'Azur, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/france-to-close-500-schools-over-worsening-student-protests/",
+      "gdelt": {
+        "globalEventId": "1326271537",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.61,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271867",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Protest — Nigerian → Industry near France. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Protest (GDELT 141)",
+      "actor": "Nigerian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/why-adenuga-never-settles-for-less-lekan-otufodunrin/",
+      "gdelt": {
+        "globalEventId": "1326271867",
+        "eventCode": "141",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": 2.84,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271868",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Protest — Nigerian → Company near France. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Protest (GDELT 141)",
+      "actor": "Nigerian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/why-adenuga-never-settles-for-less-lekan-otufodunrin/",
+      "gdelt": {
+        "globalEventId": "1326271868",
+        "eventCode": "141",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": 2.84,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271905",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Fight — Protester → Security Force near La Ciotat, Provence-Alpes-Côd'Azur, France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 43.176,
+      "lng": 5.60789,
+      "action": "Fight (GDELT 190)",
+      "actor": "Protester",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "La Ciotat, Provence-Alpes-Côd'Azur, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/france-to-close-500-schools-over-worsening-student-protests/",
+      "gdelt": {
+        "globalEventId": "1326271905",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.61,
         "mentions": 5,
         "sources": 1
       }
@@ -17234,82 +17574,6 @@
       "locationStr": "Foreign Policy",
       "source": "Foreign Policy",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOU2pPZHJraUJXSUFBcy1TaEtrTnV1aTlTUko4OG50MFlwYU5TSllBS0s3UHd4TTllckVnSDgtaUk3cm00T3dnZFZnWUN3MktvQVExdXVhbnlpRU1neXdtLTBlSWZja3RlSGhHUUJWcmg0VjMzRFEyOFhfb0lsUW9xSjJ6REhiTTVyeDhfcERwMHFlRXhzcTZTN2pPQk5YZXRCOVVJQkpGVWE?oc=5"
-    },
-    {
-      "id": "news-1h5wbi4",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T18:21:11.000Z",
-      "description": "School protests spread as fires, blockades deepen unrest in France - Al Jazeera (Al Jazeera, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Al Jazeera",
-      "axis": "Other",
-      "tags": [
-        "Al Jazeera",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Al Jazeera",
-      "source": "Al Jazeera",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOXhRelBoQmZBVVpQSXAwdkZHQkRLWlJGdGpIVTg2b2xEZFA0VXNTcEM2cllqcGFRRHA4SFZ1LUg4MGQwd3lWRTlOMFdnT3ExTU5mSXFCcEEweXNIQ0JIOGJTWXZTVmlOaHRfQUx1QXp2bmliSzBKWjZERW0tZWhrbGxjWllPVUU5UjlSd0dnZTZFR0UyQlpHMFhYRng0ZXF2dzM2OGZ2NGdxUdIBrwFBVV95cUxNY0szcFFoOTI0bTJNVWEwUENDODFqaTlOY0dBZXdBejNnNFNLamUyTXBnYXVlaUJ4WVlxQ0ZzM1ZZX0dGM18wa1o4OHJqbHVObG9adl9qV0pGWjRLMTQ3ekNSMGg0TVE5dV82NzNYLWE0LTktSG1VWjBUTDI2ekt4c3NSUnFObzV2ekNYaWQzb0FScUJlaG91WnYyLWhHOHNCcGlsUXMxMmcxZEVsV2lJ?oc=5"
-    },
-    {
-      "id": "news-1ja7yvj",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T18:21:11.000Z",
-      "description": "School protests spread as fires, blockades deepen unrest in France - Al Jazeera (Al Jazeera, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Al Jazeera",
-      "axis": "Other",
-      "tags": [
-        "Al Jazeera",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Al Jazeera",
-      "source": "Al Jazeera",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOXhRelBoQmZBVVpQSXAwdkZHQkRLWlJGdGpIVTg2b2xEZFA0VXNTcEM2cllqcGFRRHA4SFZ1LUg4MGQwd3lWRTlOMFdnT3ExTU5mSXFCcEEweXNIQ0JIOGJTWXZTVmlOaHRfQUx1QXp2bmliSzBKWjZERW0tZWhrbGxjWllPVUU5UjlSd0dnZTZFR0UyQlpHMFhYRng0ZXF2dzM2OGZ2NGdxUQ?oc=5"
-    },
-    {
-      "id": "news-1aefern",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T18:15:27.000Z",
-      "description": "French school protests spread as fires, blockades deepen unrest - Euronews.com (Euronews.com, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Euronews.com",
-      "axis": "Other",
-      "tags": [
-        "Euronews.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Euronews.com",
-      "source": "Euronews.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNODhzNnNWYnhEMzJmZ3JQV3psS1dNX0tBSnBzb1h2V0NITm5td3pMSi1ualo3MldoYVFhRkdRNEZLOVFzdE5mOHpoakZOWGpTM0dvR0ozYXdFTnZieWRnSFV1QlIwaU5faWxoWmdTMU9yZ2ZDWnU1dFlMMEpMMjRsV3BkTG1nbVM3VFZzS2RuZmhkRW5KT2N5em1PYUNWcW5tbV9uMXFNenJIbktJVGZMUm9sOHJiOUdGZXBCc1g1ZHFvdw?oc=5"
-    },
-    {
-      "id": "news-qofdm6",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T18:12:18.000Z",
-      "description": "Crisis meeting told France's hardleft party behind school protests, says source - Reuters (Reuters, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTi02ZkxUMzY1TkRkb0Uwd0Z2MTZHQmcxRkZnVlZvSGpZeFZFb1NaX0x5N0Q3bDRVcXoyMHdiVlVVT1g2TDA5dTVJTnVBZHBGME16VHBkUkktd3ZEOURPNFFRVHk5OFpIQ2h4cTBseEd4SXFnQ1ZKTlczaUIwd01fb0tLVWh3N3FmMnlHM0ZDQXlNeVZ1WHlicVcxR2xpWEd1bnpxSFpMR2g5NU5icmtYMzNjTF8tZw?oc=5"
     }
   ]
 }

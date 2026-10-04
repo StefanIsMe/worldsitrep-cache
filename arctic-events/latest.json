@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-10-04T18:02:53.685Z",
+  "collectedAt": "2026-10-04T18:24:45.751Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 20
+      "count": 1
     },
     {
       "id": "rci-arctic",
@@ -19,9 +19,9 @@
     {
       "id": "gnews-arctic",
       "url": "https://news.google.com/rss/search?q=Arctic%20Greenland&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-arctic request failed with HTTP 503"
     },
     {
       "id": "guardian-arctic",
@@ -47,23 +47,23 @@
     {
       "id": "gnews-svalbard",
       "url": "https://news.google.com/rss/search?q=Svalbard%20Norway%20Russia%20Arctic&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-svalbard request failed with HTTP 503"
     },
     {
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-greenland request failed with HTTP 503"
     },
     {
       "id": "gnews-nsr",
       "url": "https://news.google.com/rss/search?q=Northern%20Sea%20Route%20Russia%20Arctic&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-nsr request failed with HTTP 503"
     },
     {
       "id": "reliefweb",

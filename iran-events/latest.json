@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
   "theatre": "iran",
-  "collectedAt": "2026-10-04T18:02:53.685Z",
+  "collectedAt": "2026-10-04T18:24:45.751Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 106
+      "count": 45
     },
     {
       "id": "gnews-iran",
       "url": "https://news.google.com/rss/search?q=Iran%20Hormuz%20nuclear&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-iran request failed with HTTP 503"
     },
     {
       "id": "gnews-unrest",
       "url": "https://news.google.com/rss/search?q=Iran%20protests%20Khamenei&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-unrest request failed with HTTP 503"
     },
     {
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Tehran%20sanctions%20oil&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-policy request failed with HTTP 503"
     },
     {
       "id": "iranintl",
@@ -61,16 +61,16 @@
     {
       "id": "gnews-irgc",
       "url": "https://news.google.com/rss/search?q=Iran%20IRGC%20missile%20strike%20Israel&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-irgc request failed with HTTP 503"
     },
     {
       "id": "gnews-natanz",
       "url": "https://news.google.com/rss/search?q=Iran%20Natanz%20Fordow%20enrichment%20IAEA&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-natanz request failed with HTTP 503"
     },
     {
       "id": "reliefweb",
@@ -82,6 +82,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-1q0rsi4",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T18:22:58.000Z",
+      "description": "Pezeshkian congrats astronomy Olympiad team on world title (Mehr News English, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Mehr News English",
+      "axis": "Other",
+      "tags": [
+        "Mehr News English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Mehr News English",
+      "source": "Mehr News English",
+      "sourceUrl": "https://en.mehrnews.com/news/248312/Pezeshkian-congrats-astronomy-Olympiad-team-on-world-title"
+    },
     {
       "id": "news-59ja97",
       "kind": "news",
@@ -15667,6 +15686,312 @@
         "goldstein": -10,
         "tone": -4.65,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271562",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Threat — United Kingdom → Minist near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.75,
+      "lng": 51.5148,
+      "action": "Threat (GDELT 130)",
+      "actor": "United Kingdom",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tehran, Tehran, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.express.co.uk/news/politics/2254386/us-bombers-raf-fairford-terror-plot",
+      "gdelt": {
+        "globalEventId": "1326271562",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -7.32,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271604",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Threat — Minist → Unspecified near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.75,
+      "lng": 51.5148,
+      "action": "Threat (GDELT 130)",
+      "actor": "Minist",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tehran, Tehran, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.express.co.uk/news/politics/2254386/us-bombers-raf-fairford-terror-plot",
+      "gdelt": {
+        "globalEventId": "1326271604",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -7.32,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271710",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Fight — Iran → United Kingdom near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 35.75,
+      "lng": 51.5148,
+      "action": "Fight (GDELT 190)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tehran, Tehran, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.express.co.uk/news/politics/2254386/us-bombers-raf-fairford-terror-plot",
+      "gdelt": {
+        "globalEventId": "1326271710",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -7.32,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271711",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Disapproval — Iran → The Us near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.75,
+      "lng": 51.5148,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tehran, Tehran, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.moneycontrol.com/world/iran-signed-npt-india-did-not-jaishankar-highlights-very-different-positions-as-west-asia-conflict-deepens-energy-crisis-article-14044319.html",
+      "gdelt": {
+        "globalEventId": "1326271711",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.61,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271742",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Disapproval — Israel → Iran near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.75,
+      "lng": 51.5148,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Israel",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tehran, Tehran, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.express.co.uk/news/politics/2254386/us-bombers-raf-fairford-terror-plot",
+      "gdelt": {
+        "globalEventId": "1326271742",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -7.32,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271757",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Disapproval — Israel → Iran near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.75,
+      "lng": 51.5148,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Israel",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tehran, Tehran, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.express.co.uk/news/politics/2254386/us-bombers-raf-fairford-terror-plot",
+      "gdelt": {
+        "globalEventId": "1326271757",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -7.32,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271847",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Assault — Military → Iran near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 35.75,
+      "lng": 51.5148,
+      "action": "Assault (GDELT 180)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tehran, Tehran, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.express.co.uk/news/politics/2254386/us-bombers-raf-fairford-terror-plot",
+      "gdelt": {
+        "globalEventId": "1326271847",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -7.32,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326271848",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Assault — Military → Iran near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 35.75,
+      "lng": 51.5148,
+      "action": "Assault (GDELT 180)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tehran, Tehran, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.express.co.uk/news/politics/2254386/us-bombers-raf-fairford-terror-plot",
+      "gdelt": {
+        "globalEventId": "1326271848",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -7.32,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326272113",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:15:00.000Z",
+      "description": "Disapproval — United States → Unspecified near Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32,
+      "lng": 53,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.pakistantoday.com.pk/2026/10/04/why-is-trump-a-dictator",
+      "gdelt": {
+        "globalEventId": "1326272113",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.97,
+        "mentions": 1,
         "sources": 1
       }
     },
@@ -47550,346 +47875,6 @@
         "goldstein": -10,
         "tone": -2.98,
         "mentions": 6,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325964143",
-      "kind": "event",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T00:00:00.000Z",
-      "observedAt": "2026-10-02T09:15:00.000Z",
-      "description": "Fight — The Us → President near Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 32,
-      "lng": 53,
-      "action": "Fight (GDELT 195)",
-      "actor": "The Us",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.thenationalnews.com/podcasts/trending-middle-east/2026/10/02/third-us-carrier-heads-to-middle-east-uae-investigates-flydubai-incident-and-dubai-sets-ai-rules-for-schools/",
-      "gdelt": {
-        "globalEventId": "1325964143",
-        "eventCode": "195",
-        "geoType": 1,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -2.98,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325964146",
-      "kind": "event",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T00:00:00.000Z",
-      "observedAt": "2026-10-02T09:15:00.000Z",
-      "description": "Fight — The Us → Iran near Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 32,
-      "lng": 53,
-      "action": "Fight (GDELT 195)",
-      "actor": "The Us",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.thenationalnews.com/podcasts/trending-middle-east/2026/10/02/third-us-carrier-heads-to-middle-east-uae-investigates-flydubai-incident-and-dubai-sets-ai-rules-for-schools/",
-      "gdelt": {
-        "globalEventId": "1325964146",
-        "eventCode": "195",
-        "geoType": 1,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -2.98,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325964188",
-      "kind": "event",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T00:00:00.000Z",
-      "observedAt": "2026-10-02T09:15:00.000Z",
-      "description": "Fight — Houthis → Government near Madinah, Khuzestan, Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 30.7799,
-      "lng": 48.8125,
-      "action": "Fight (GDELT 195)",
-      "actor": "Houthis",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Madinah, Khuzestan, Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/10/02/fighting-intensifies-for-taiz-amid-major-houthi-push-to-seize-strategic-yemeni-city/",
-      "gdelt": {
-        "globalEventId": "1325964188",
-        "eventCode": "195",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -5.63,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325964190",
-      "kind": "event",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T00:00:00.000Z",
-      "observedAt": "2026-10-02T09:15:00.000Z",
-      "description": "Fight — Houthis → Government near Madinah, Khuzestan, Iran. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 30.7799,
-      "lng": 48.8125,
-      "action": "Fight (GDELT 195)",
-      "actor": "Houthis",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Madinah, Khuzestan, Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/10/02/fighting-intensifies-for-taiz-amid-major-houthi-push-to-seize-strategic-yemeni-city/",
-      "gdelt": {
-        "globalEventId": "1325964190",
-        "eventCode": "195",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -5.63,
-        "mentions": 6,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325966088",
-      "kind": "event",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T00:00:00.000Z",
-      "observedAt": "2026-10-02T09:30:00.000Z",
-      "description": "Fight — Commander → Fighter near Iran. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 32,
-      "lng": 53,
-      "action": "Fight (GDELT 190)",
-      "actor": "Commander",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://english.aawsat.com/arab-world/5325089-taiz-repels-simultaneous-houthi-attacks-fiercest-fighting-years",
-      "gdelt": {
-        "globalEventId": "1325966088",
-        "eventCode": "190",
-        "geoType": 1,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -6.95,
-        "mentions": 6,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325967405",
-      "kind": "event",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T00:00:00.000Z",
-      "observedAt": "2026-10-02T09:45:00.000Z",
-      "description": "Coercion — Unspecified → United Kingdom near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 35.75,
-      "lng": 51.5148,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Unspecified",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Tehran, Tehran, Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.chronicle.lu/category/international-news/63749-uk-police-arrest-dual-uk-iranian-man-in-fairford-airbase-investigation",
-      "gdelt": {
-        "globalEventId": "1325967405",
-        "eventCode": "173",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -6.06,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325967457",
-      "kind": "event",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T00:00:00.000Z",
-      "observedAt": "2026-10-02T09:45:00.000Z",
-      "description": "Coercion — Unspecified → Reuters near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 35.75,
-      "lng": 51.5148,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Unspecified",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Tehran, Tehran, Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.chronicle.lu/category/international-news/63749-uk-police-arrest-dual-uk-iranian-man-in-fairford-airbase-investigation",
-      "gdelt": {
-        "globalEventId": "1325967457",
-        "eventCode": "173",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -6.06,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1325967772",
-      "kind": "event",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T00:00:00.000Z",
-      "observedAt": "2026-10-02T09:45:00.000Z",
-      "description": "Threat — President → Iran near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (8 mentions, 3 sources); open the source article for details.",
-      "type": "other",
-      "lat": 35.75,
-      "lng": 51.5148,
-      "action": "Threat (GDELT 131)",
-      "actor": "President",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Tehran, Tehran, Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "http://www.austinglobe.com/news/279347289/us-boosting-military-presence-in-middle-east-ap",
-      "gdelt": {
-        "globalEventId": "1325967772",
-        "eventCode": "131",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -5.8,
-        "tone": -1.77,
-        "mentions": 8,
-        "sources": 3
-      }
-    },
-    {
-      "id": "gdelt-1325967773",
-      "kind": "event",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T00:00:00.000Z",
-      "observedAt": "2026-10-02T09:45:00.000Z",
-      "description": "Threat — President → Iran near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (4 mentions, 3 sources); open the source article for details.",
-      "type": "other",
-      "lat": 35.75,
-      "lng": 51.5148,
-      "action": "Threat (GDELT 131)",
-      "actor": "President",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Tehran, Tehran, Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "http://www.austinglobe.com/news/279347289/us-boosting-military-presence-in-middle-east-ap",
-      "gdelt": {
-        "globalEventId": "1325967773",
-        "eventCode": "131",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -5.8,
-        "tone": -1.77,
-        "mentions": 4,
-        "sources": 3
-      }
-    },
-    {
-      "id": "gdelt-1325967907",
-      "kind": "event",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T00:00:00.000Z",
-      "observedAt": "2026-10-02T09:45:00.000Z",
-      "description": "Fight — Iran → Unspecified near Mashhad, (IR30), Iran. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 36.297,
-      "lng": 59.6062,
-      "action": "Fight (GDELT 190)",
-      "actor": "Iran",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Mashhad, (IR30), Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.azernews.az/region/264856.html",
-      "gdelt": {
-        "globalEventId": "1325967907",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -1.13,
-        "mentions": 4,
         "sources": 1
       }
     }

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-04T18:02:53.685Z",
+  "collectedAt": "2026-10-04T18:24:45.751Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 26
+      "count": 3
     },
     {
       "id": "taipei-times",
@@ -19,16 +19,16 @@
     {
       "id": "gnews-strait",
       "url": "https://news.google.com/rss/search?q=Taiwan%20Strait%20China%20PLA&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-strait request failed with HTTP 503"
     },
     {
       "id": "gnews-defense",
       "url": "https://news.google.com/rss/search?q=Taiwan%20PLA%20military%20drills&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-defense request failed with HTTP 503"
     },
     {
       "id": "scmp-china",
@@ -54,23 +54,23 @@
     {
       "id": "gnews-arms",
       "url": "https://news.google.com/rss/search?q=Taiwan%20US%20arms%20sale&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-arms request failed with HTTP 503"
     },
     {
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 43,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-kinmen request failed with HTTP 503"
     },
     {
       "id": "gnews-hankuang",
       "url": "https://news.google.com/rss/search?q=Taiwan%20Han%20Kuang%20military%20drills&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-hankuang request failed with HTTP 503"
     },
     {
       "id": "reliefweb",
