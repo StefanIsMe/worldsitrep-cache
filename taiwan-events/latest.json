@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-04T02:01:09.296Z",
+  "collectedAt": "2026-10-04T07:56:42.118Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 3
     },
     {
       "id": "taipei-times",
@@ -34,8 +34,8 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 41,
-      "filtered": 9
+      "count": 40,
+      "filtered": 10
     },
     {
       "id": "dw-asia",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 6,
-      "filtered": 44
+      "count": 3,
+      "filtered": 43
     },
     {
       "id": "gnews-arms",
@@ -80,8 +80,110 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 210,
+  "count": 198,
   "events": [
+    {
+      "id": "gdelt-1326202063",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T04:15:00.000Z",
+      "description": "Fight — Unspecified → Taiwan near Yuan Shan, Taidong Xian, Taiwan. Machine-coded by GDELT 2.1 (16 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 22.3222,
+      "lng": 120.891,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Yuan Shan, Taidong Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/society/202610040001",
+      "gdelt": {
+        "globalEventId": "1326202063",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.25,
+        "mentions": 16,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326202212",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T04:15:00.000Z",
+      "description": "Fight — Firefighter → Unspecified near Yuan Shan, Taidong Xian, Taiwan. Machine-coded by GDELT 2.1 (20 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 22.3222,
+      "lng": 120.891,
+      "action": "Fight (GDELT 193)",
+      "actor": "Firefighter",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Yuan Shan, Taidong Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/society/202610040001",
+      "gdelt": {
+        "globalEventId": "1326202212",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.25,
+        "mentions": 20,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326202225",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T04:15:00.000Z",
+      "description": "Fight — Authorities → Taiwan near Yilan, Yilan Xian, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 24.757,
+      "lng": 121.753,
+      "action": "Fight (GDELT 190)",
+      "actor": "Authorities",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Yilan, Yilan Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/society/202610040001",
+      "gdelt": {
+        "globalEventId": "1326202225",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.25,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
     {
       "id": "news-118gl8y",
       "kind": "news",
@@ -258,7 +360,7 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T22:13:22.000Z",
-      "description": "North Korea says it conducted intermediate-range strategic missile drill (Straits Times, 2026-10-03. Headline + link only.)",
+      "description": "North Korea’s Kim oversaw launch of missile that uses AI (Straits Times, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Straits Times",
@@ -5342,18 +5444,18 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T11:17:18.000Z",
-      "description": "Retired Taiwan Air Force officer charged with spying for China - taiwannews.com.tw (taiwannews.com.tw, 2026-10-01. Headline + link only.)",
+      "description": "Retired Taiwan Air Force officer charged with spying for China - Taiwan News (Taiwan News, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "taiwannews.com.tw",
+      "actor": "Taiwan News",
       "axis": "Other",
       "tags": [
-        "taiwannews.com.tw",
+        "Taiwan News",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "taiwannews.com.tw",
-      "source": "taiwannews.com.tw",
+      "locationStr": "Taiwan News",
+      "source": "Taiwan News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRVFZnODhDVG5RWEtJZjl5U1EtMVc0TmtRVjF5NkJzbnNCbWsyUmpobGR2LTY0MVNhMFQ2OW1ZZXdrUnRIUGJjVFdCRWVfX1dmQVVqXw?oc=5"
     },
     {
@@ -5412,295 +5514,6 @@
       "locationStr": "Focus Taiwan - CNA English News",
       "source": "Focus Taiwan - CNA English News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6b29oQ3NkRXlNZ0VZeHdUODkxdGhOQV9FX2xJbkZiQkhqRm4xVXU3MU1fUzUwaG5MV0hOM3JTLXZQVk96Z3pyNzU2NldIV19NaERJbUpR?oc=5"
-    },
-    {
-      "id": "news-1l53nk4",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T07:00:06.000Z",
-      "description": "Maxwell smart: new Chinese embodied model tops global AI ranking on physical tasks (SCMP, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3369420/maxwell-smart-new-chinese-embodied-model-tops-global-ai-ranking-physical-tasks?utm_source=rss_feed"
-    },
-    {
-      "id": "news-12ym4x5",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T06:51:18.000Z",
-      "description": "Japan drops out of top 10 holiday spots for Chinese travellers amid tensions (Straits Times, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/japan-drops-out-of-top-10-holiday-spots-for-chinese-travellers-amid-tensions"
-    },
-    {
-      "id": "news-1uwg8uk",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T05:53:03.000Z",
-      "description": "Philippines sends largest ship, aircraft to drive away Chinese vessel in waters near Taiwan (Straits Times, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Taiwan",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/philippines-sends-largest-ship-aircraft-to-drive-away-chinese-vessel-in-waters-near-taiwan",
-      "lat": 23.97394,
-      "lng": 120.98202,
-      "coordsNote": "OSM geocode: matched \"Taiwan\" → Taiwan; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-nf7g3h",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T05:03:04.000Z",
-      "description": "US sees Chinese invasion of Taiwan unlikely in 2027  despite 2027 timeline, sources say (Straits Times, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/us-sees-chinese-invasion-of-taiwan-unlikely-next-year-despite-2027-timeline-sources-say"
-    },
-    {
-      "id": "news-1ym4ol1",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T04:59:40.000Z",
-      "description": "Shows, tours and film as China marks 90 years since the end of the Long March (SCMP, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3369418/shows-tours-and-film-china-marks-90-years-end-long-march?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1idfjpj",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T04:00:15.000Z",
-      "description": "Beijing slams ‘harassment’ after Manila challenges research ship near Batanes (SCMP, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369334/chinese-research-ship-near-batanes-sparks-undersea-cable-concerns-manila?utm_source=rss_feed"
-    },
-    {
-      "id": "news-41kws4",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T03:53:03.000Z",
-      "description": "South Korea’s Lee urges North Korea to restore dialogue, pledges military build-up (Straits Times, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/south-koreas-lee-urges-north-korea-to-restore-dialogue-pledges-military-buildup"
-    },
-    {
-      "id": "news-o54xh3",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T03:50:00.000Z",
-      "description": "Indonesia plans first adjustment of tax-free income threshold since 2016, minister says (Straits Times, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/se-asia/indonesia-plans-first-adjustment-of-tax-free-income-threshold-since-2016-minister-says"
-    },
-    {
-      "id": "news-19ez134",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T03:45:55.000Z",
-      "description": "Taiwan transfers naval commander to Coast Guard to boost deterrence against China - Internazionale (Internazionale, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Internazionale",
-      "axis": "Other",
-      "tags": [
-        "Internazionale",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Internazionale",
-      "source": "Internazionale",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQnpXTThpZjExSFUtYnVBYWZQbHVxcUhVUUtMazQ0Z3d2cl9RUUlWWWdWLTBFXzBKclVUNE9ZaEVpYk13SHhMMVNwNzV6c1lycWZWdDE4N2d6LVRUTXJmYkFIVHEtRHhSMWstVHM1ZXE4WGtRN2ZPZHFoN2Z1OWhWWExBTWRpOFk2empTQUhJNDZWaWQ3Z3NNWE9ndHBPdTFMR1NPLVJfZUt4OC1RR1FaTUxYTU1UWGNabTdKYWtpM2xyay12Wkc0dWVNZV9YYkJ6U2NoUUdUT2pjaXlVQUE?oc=5"
-    },
-    {
-      "id": "news-ubatvb",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T03:38:03.000Z",
-      "description": "Taiwan transfers naval commander to Coast Guard to boost deterrence against China (Straits Times, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/taiwan-transfers-naval-commander-to-coast-guard-to-boost-deterrence-against-china"
-    },
-    {
-      "id": "news-1myh4yx",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T03:37:00.000Z",
-      "description": "Taiwan transfers naval commander to Coast Guard to boost deterrence against China - Reuters (Reuters, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZnFvSkZSdG5JRmRiNzZtU0ZXYVVrakc3b1N4Qjd0TGhWMGw2cHFqREFtQk9jZTdUc2NnazVHaS1sVnI4TzFEZEVlUzJZRkZaN0E0T0tGalVHbFE1YklfVFVwdkdjQm9RTW1sTG9nU2g5eDNIQzc1NHVLQTI5V2d4OVhNM0N5aWJ2ZnFJTTFnT21nNXhsZG5Vd19NWko0WkNmZmc5QWdsb2t5ZExFakRrYXZBa25iX0NYSkJSQWhRYTA?oc=5"
-    },
-    {
-      "id": "news-mj8tne",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T03:08:10.000Z",
-      "description": "Greer urges G20 to back Trump tariff agenda, takes aim at China (Straits Times, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/greer-urges-g20-to-back-trump-tariff-agenda-takes-aim-at-china"
-    },
-    {
-      "id": "news-1beo8b3",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T03:02:23.000Z",
-      "description": "Taiwan won’t be sacrificed, US arms sales a commitment, president responds to Trump - politiko.com.ph (politiko.com.ph, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "politiko.com.ph",
-      "axis": "Other",
-      "tags": [
-        "politiko.com.ph",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "politiko.com.ph",
-      "source": "politiko.com.ph",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV0JWWXZtX1pTeE9BT2Rhdll2SHlZZkFJMzlSRUFFZTgxQlF2QUFBMEVHNzk1YkZQMHp1Nk9BMzFQSS13OEdhbDdsZ2N4Tmg2dzcyaFIwaktDbXd2Vnp3WGpyNjBxaDgzVEkzYVh6a3QwMUIyemhaZ3ZDcUh2ZmItN1R3QjNUY29kd0VQem5VcTZGQ0k0Uklzdm5jSFZ1SzhxZ1JNanFIT3o?oc=5"
-    },
-    {
-      "id": "news-1l8ydza",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T03:00:00.000Z",
-      "description": "Senator Wicker says US should not consult China on Taiwan arms sales - taiwannews.com.tw (taiwannews.com.tw, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "taiwannews.com.tw",
-      "axis": "Other",
-      "tags": [
-        "taiwannews.com.tw",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "taiwannews.com.tw",
-      "source": "taiwannews.com.tw",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWQjFiVW56VmlCQ0VvMmxuUy1jaWN4QWtsbzNJV3JwYjhUYkhnQWdQRXZDaXFtWkgzank2MTd1eE1BRzdLUk0xdTROLVh1eDRFZVYxN3lGZE4?oc=5"
-    },
-    {
-      "id": "news-fsxe09",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T02:51:24.000Z",
-      "description": "US senators urge Trump to speed Taiwan arms deliveries - taiwannews.com.tw (taiwannews.com.tw, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "taiwannews.com.tw",
-      "axis": "Other",
-      "tags": [
-        "taiwannews.com.tw",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "taiwannews.com.tw",
-      "source": "taiwannews.com.tw",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1vNjY4VERldFBTUWFESVRKb2s4ZHRUVEw2MHVrYktuNEwzSGpkeFRIeFdkb3hPWFRnWjFNRGhoNUJBQU56N0E3OUdMUEg0V29tRGdGUllzcW8?oc=5"
     }
   ]
 }

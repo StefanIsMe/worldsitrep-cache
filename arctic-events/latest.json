@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-10-04T01:54:16.895Z",
+  "collectedAt": "2026-10-04T07:56:42.118Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 10
     },
     {
       "id": "rci-arctic",
@@ -34,8 +34,8 @@
       "id": "adn-alaska",
       "url": "https://www.adn.com/arc/outboundfeeds/rss/",
       "status": "ok",
-      "count": 3,
-      "filtered": 22
+      "count": 4,
+      "filtered": 21
     },
     {
       "id": "cryopolitics",
@@ -73,26 +73,385 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 239,
+  "count": 249,
   "events": [
+    {
+      "id": "news-16qkdir",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T04:54:01.000Z",
+      "description": "Book review: New work details the fading promise of a peaceful Arctic and how it affects the region’s future (Anchorage Daily News, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Anchorage Daily News",
+      "axis": "Other",
+      "tags": [
+        "Anchorage Daily News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Anchorage Daily News",
+      "source": "Anchorage Daily News",
+      "sourceUrl": "https://www.adn.com/arts/books/2026/10/03/book-review-new-work-details-the-fading-promise-of-a-peaceful-arctic-and-how-it-affects-the-regions-future/"
+    },
+    {
+      "id": "gdelt-1326197126",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T02:30:00.000Z",
+      "description": "Fight — Estonia → Unspecified near Tallinn, Harjumaa, Estonia. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.4339,
+      "lng": 24.7281,
+      "action": "Fight (GDELT 192)",
+      "actor": "Estonia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tallinn, Harjumaa, Estonia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279349973/estonia-beats-luxembourg-to-move-into-second-place-in-nations-league-group",
+      "gdelt": {
+        "globalEventId": "1326197126",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": 3.26,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326200172",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T03:30:00.000Z",
+      "description": "Disapproval — Scholar → Unspecified near Petersburg, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.8944,
+      "lng": 30.2642,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Scholar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petersburg, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thewrap.com/creative-content/movies/a-statement-review-tom-mccarthy-climate-change-dramedy/",
+      "gdelt": {
+        "globalEventId": "1326200172",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.24,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326200310",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T03:30:00.000Z",
+      "description": "Rejection — Congress → Unspecified near Petersburg, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.8944,
+      "lng": 30.2642,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Congress",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petersburg, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thewrap.com/creative-content/movies/a-statement-review-tom-mccarthy-climate-change-dramedy/",
+      "gdelt": {
+        "globalEventId": "1326200310",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -1.24,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326200350",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T03:30:00.000Z",
+      "description": "Assault — Norway → Unspecified near Utoya, Nordland, Norway. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 66.2333,
+      "lng": 12.5667,
+      "action": "Assault (GDELT 186)",
+      "actor": "Norway",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Utoya, Nordland, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://antonyloewenstein.com/on-utoya-book-on-murder-far-right-racism-and-hate/",
+      "gdelt": {
+        "globalEventId": "1326200350",
+        "eventCode": "186",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.89,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326200351",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T03:30:00.000Z",
+      "description": "Fight — Norwegian → Unspecified near Utoya, Nordland, Norway. Machine-coded by GDELT 2.1 (16 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 66.2333,
+      "lng": 12.5667,
+      "action": "Fight (GDELT 190)",
+      "actor": "Norwegian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Utoya, Nordland, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://antonyloewenstein.com/on-utoya-book-on-murder-far-right-racism-and-hate/",
+      "gdelt": {
+        "globalEventId": "1326200351",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.89,
+        "mentions": 16,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326200384",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T03:30:00.000Z",
+      "description": "Disapproval — Russia → Unspecified near Petersburg, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.8944,
+      "lng": 30.2642,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petersburg, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thewrap.com/creative-content/movies/a-statement-review-tom-mccarthy-climate-change-dramedy/",
+      "gdelt": {
+        "globalEventId": "1326200384",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.24,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326200387",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T03:30:00.000Z",
+      "description": "Rejection — Russia → Congress near Petersburg, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.8944,
+      "lng": 30.2642,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petersburg, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thewrap.com/creative-content/movies/a-statement-review-tom-mccarthy-climate-change-dramedy/",
+      "gdelt": {
+        "globalEventId": "1326200387",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -1.24,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326208170",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T06:00:00.000Z",
+      "description": "Disapproval — Citizen → Legislative Body near Sweden. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 15,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Citizen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Sweden",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.daytondailynews.com/local/dayton-ombudsman-we-are-who-you-should-call-when-you-need-help-with-a-governmental/article_a67ddafa-3d0d-5390-8f7d-63e501cfd505.html",
+      "gdelt": {
+        "globalEventId": "1326208170",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.74,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326214967",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T07:45:00.000Z",
+      "description": "Fight — Detective → Norway near Oslo, Oslo, Norway. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.9167,
+      "lng": 10.75,
+      "action": "Fight (GDELT 190)",
+      "actor": "Detective",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Oslo, Oslo, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://screenrant.com/joel-kinnaman-detective-hole-follow-up-bishop/",
+      "gdelt": {
+        "globalEventId": "1326214967",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.58,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326215289",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T07:45:00.000Z",
+      "description": "Fight — Norway → Unspecified near Oslo, Oslo, Norway. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.9167,
+      "lng": 10.75,
+      "action": "Fight (GDELT 190)",
+      "actor": "Norway",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Oslo, Oslo, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://screenrant.com/joel-kinnaman-detective-hole-follow-up-bishop/",
+      "gdelt": {
+        "globalEventId": "1326215289",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.58,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
     {
       "id": "news-1hl2lh7",
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T15:27:28.000Z",
-      "description": "Trump Signs Greenland Deal — No Sovereignty, but Two New U.S. Bases and No End Date - Latin Times (Latin Times, 2026-10-03. Headline + link only.)",
+      "description": "Trump Signs Greenland Deal — No Sovereignty, but Two New U.S. Bases and No End Date - latintimes.com (latintimes.com, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Latin Times",
+      "actor": "latintimes.com",
       "axis": "Other",
       "tags": [
-        "Latin Times",
+        "latintimes.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Greenland",
-      "source": "Latin Times",
+      "source": "latintimes.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWXJkSHJfR05sbjYwZ0YxOGFZUlBZSGh6X25zcnBMYjF4U25hTjZxTVlRZGxxeWNZNV83TmNsZHY4ZmdENXE3dWNIcVgzczFRRVVOZlVnZjlsSXFvTWFyaHJWNklweTE0N0V5REhvbmROeVgzS3VqYTVCckNVcGZGNy1CdDBpTWQzcTNrb3BpY05JTjFGRTB1NDgwd1gyelVlN05mcVZsaw?oc=5",
       "lat": 72,
       "lng": -40,
@@ -103,18 +462,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T13:56:20.000Z",
-      "description": "Northern Sea Route traffic hits record as Gulf war, melting ice push ships north - Türkiye Today (Türkiye Today, 2026-10-03. Headline + link only.)",
+      "description": "Northern Sea Route traffic hits record as Gulf war, melting ice push ships north - turkiyetoday.com (turkiyetoday.com, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Türkiye Today",
+      "actor": "turkiyetoday.com",
       "axis": "Other",
       "tags": [
-        "Türkiye Today",
+        "turkiyetoday.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Türkiye Today",
-      "source": "Türkiye Today",
+      "locationStr": "turkiyetoday.com",
+      "source": "turkiyetoday.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNb0JvMFBiMWtvNl8zM19qMk81WW9hbjFZY2RwYVVVNzJSM3JRVjI4dEhJbnA3dmFUNjdYY0hkMk5Nb2p3ekZFZGRaS2xVVEtlbF9HcnNLaVphMXdfekJ4eDEybjltLWNfenlzcFZnV3pJVklrRW4taUFhY0ZkX3NXS3FDOVN2Tk13MFoxZTNGeDJ1U3hFSTAwcXBmVVI3Tk1mNVFKYlUtYUFneXhDOER3RDJMWkRtcFFEdWVGVS1maw?oc=5"
     },
     {
@@ -7840,19 +8199,19 @@
       "kind": "news",
       "date": "2026-10-01",
       "isoDate": "2026-10-01T08:30:00.000Z",
-      "description": "In shifting geopolitical landscape, Canada, U.S. and Denmark militaries train together in Greenland - CBC (CBC, 2026-10-01. Headline + link only.)",
+      "description": "In shifting geopolitical landscape, Canada, U.S. and Denmark militaries train together in Greenland - cbc.ca (cbc.ca, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "CBC",
+      "actor": "cbc.ca",
       "axis": "Other",
       "tags": [
-        "CBC",
+        "cbc.ca",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Greenland",
-      "source": "CBC",
+      "source": "cbc.ca",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPelltNWZJUG9TVDB3WDYyeTJyYzBWcUEwWHRzMWd0UVhSNURial9KWENucHhMelg0UlpUZmQ1a1VpNkh0ekh2XzlJRVR2bHo4MmxNcWMyVENzU2JUQ2g4Z2RhSVg4NW9DUWZRbElkOWc1ellrdDg4djVMMDdhd0hVRFJTUUdhS09rYk5mUklMN1Vpc1Jmc1JpeTlB?oc=5",
       "lat": 72,
       "lng": -40,
@@ -7880,25 +8239,6 @@
       "lat": 72,
       "lng": -40,
       "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
-    },
-    {
-      "id": "news-vdpdgm",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T02:51:00.000Z",
-      "description": "US expands military footprint in Arctic under new defense deal - Alaska's News Source (Alaska's News Source, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Alaska's News Source",
-      "axis": "Other",
-      "tags": [
-        "Alaska's News Source",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Alaska's News Source",
-      "source": "Alaska's News Source",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONzdWcTJwOEc3OW9iUkNCVVFwVkI4eDlSNFVBcWhSUjEtWUdybTZ2NnFLZDY0aXhUbUxNWVc0M0tPVXg0Z3FYVk9aSkxjdkRXd2FQbjM3SkU4d0lnQ2h5cjNlaXVDTlhVbTNQekd4V0dseGV1T2JqTGRObENSV0hTNk4xN2Z6WENOc29qOGlkTk5JaHBpZTVUT1liWlNUVmg5T3JjRm9PX2fSAbwBQVVfeXFMTVVQTVE4T3BDa1laN25kQmU0M2xhdWd1cVdpSFVJUlc1R3VlYnM0YVIxYW5xQ01wT1lPUXloa0kxNEtOVVJQeVUtWlFSWEJfRC1ia2dTVWk4QWN2Y3BXekxCVWxfYmxYY1NMYjR2Y0xyOHhBcVBkVDQzRS1RVzFnYjJrU0hzR3YxNXc3dzcxa3liTmZ5U2c4aUU5M1NMY2x4eng0endSYnloSkk4TFlxd3p3YTg2Z1hxMWFQLU8?oc=5"
     }
   ]
 }
