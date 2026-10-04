@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "myanmar",
-  "collectedAt": "2026-10-04T13:52:13.492Z",
+  "collectedAt": "2026-10-04T14:28:20.880Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -19,9 +19,9 @@
     {
       "id": "myanmar-now",
       "url": "https://myanmar-now.org/en/feed/",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS myanmar-now request failed with HTTP 403"
+      "status": "ok",
+      "count": 10,
+      "filtered": 0
     },
     {
       "id": "dvb",
@@ -66,8 +66,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 114,
+  "count": 112,
   "events": [
+    {
+      "id": "news-5rvarb",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T13:34:00.000Z",
+      "description": "‘Dunki route’ used to bring Myanmar girls from Bangladesh to India for marriage; MP GRP seeks NIA probe - The Times of India (The Times of India, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times of India",
+      "axis": "Other",
+      "tags": [
+        "The Times of India",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Times of India",
+      "source": "The Times of India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPSC1oUGtjVXFCSEZUNGRWOWMyMjF0VDVlSXE4QWt4MVUwU2liWWd4NTlxYmJVQ0pTaDBaRTVwa2Rwdmw2TTdiY2trU2ZqXzYyZ0Vvc3pJR2dlMmVqOFZDdmw5YWZjYXdxLXhDRVQ4MlN0X3hjOC1Vb2FfOG9uenFGelBPUDRraEpMT3BLSi1ERGxGbERSVk5LX1ZHWmg2YVZnRV8wUXlMdDlZc2NOVHhEZ1V0bm9iT1V0WFROQTBkS3VRRzBUaFFVZkJkMUhwVi0zem9uTUZETU1vYnB2YS1PZXUtam9tNjhWNnEyMUNHOVY3bzJlT1RxSi1Fam56cGs1OWNxatIBigJBVV95cUxPMXBTMWtCcjZlNXY2NGJBY3lwRXdhZENQTzlPNXJPX19kSHUzX2tLR0t3cmFDX3d4cDdHcnh6MEhqUGpnQ2lZalA4WE9qVFNoRUZFdWc2cGlDcUNYYTI5VGJSUi05VTBpSHhFeUhKODl4RXFZQ1dZUTQzTU9hWjRXTWpjb2IzQU9ZYXZpbEp3MjNfbmxZeVpSS1Q2ajBoakFWa2JCY0Y4NW9uSHFuM3ZLS2FRSVBHY1d2X2lLdzg2bDZtbkhWa2w5WmNqUTg5TnByXzB2c2xiTVNOak5BSk5RMndNQ09Xd2dyNmpWSm5IcTFFQlBjU2FnTEdKVjVWUXZHczdEWTFPdXVnZw?oc=5"
+    },
     {
       "id": "news-1bed6cs",
       "kind": "news",
@@ -248,18 +267,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T09:50:33.000Z",
-      "description": "Malaysia sends back 1,500 Myanmar nationals despite UN safety warning - India Today (India Today, 2026-10-04. Headline + link only.)",
+      "description": "Malaysia sends back 1,500 Myanmar nationals despite UN safety warning - indiatoday.in (indiatoday.in, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "India Today",
+      "actor": "indiatoday.in",
       "axis": "Other",
       "tags": [
-        "India Today",
+        "indiatoday.in",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "India Today",
-      "source": "India Today",
+      "locationStr": "indiatoday.in",
+      "source": "indiatoday.in",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVHdLaHR3M2tBQXk2VGdCejN1dGdtMXpzYzJUdDBBbWp4T0lHRGRDUXBCcWgzMldkN3RsQWFwTGw3aGN2UTZ5SnJhRTlpNE11T3Y3alFNZDI5NHVDTmh4cXBmZjhWYnd2LVZnTllSOEthRE5lTFd0SS1wblYzZ1NfN3BlWkJrelJEQjE4dUdub29BWW1pNVdYX0lneUsxRFZEMllaeVEzYzdwM0VCNWdyMnlzM2ZKVlotSUZMQTFDY3pLbFdqSURFRk9XbXc0Z2g20gHQAUFVX3lxTE9Ud0todHcza0FBeTZUZ0J6M3V0Z20xenNjMlR0MEFtanhPSUdEZENRcEJxaDMyV2Q3dGxBYXBMbDdoY3ZRNnlKcmFFOWk0TXVPdjdqUU1kMjk0dUNOaHhxcGZmOFZid3YtVmdOWVI4S2FETmVMV3RJLXBuVjNnU183cGVaQmt6UkRCMTh1R25vb0FZbWk1V1hfSWd5SzFEVkQyWVp5UTNjN3AzRUI1Z3IyeXMzZkpWWi1JRkxBMUNjektsV2pJREVGT1dtdzRnaDY?oc=5"
     },
     {
@@ -267,18 +286,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T09:39:20.000Z",
-      "description": "Myanmar Malaysia - gazettextra.com (gazettextra.com, 2026-10-04. Headline + link only.)",
+      "description": "Myanmar Malaysia - GazetteXtra (GazetteXtra, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "gazettextra.com",
+      "actor": "GazetteXtra",
       "axis": "Other",
       "tags": [
-        "gazettextra.com",
+        "GazetteXtra",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "gazettextra.com",
-      "source": "gazettextra.com",
+      "locationStr": "GazetteXtra",
+      "source": "GazetteXtra",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd05wdENRTktZZDlDbFk1d3YzVGFzeXZMczlTWkxtX0ZYUjNzQ1U4b2Y1M3ZnQWZIeVJOdi1uUU5ERW85anNxVmdEZTN1UTNZbzEtNzZpMVRsVE9WVXgyUUkyQmlvakJUdlVSM0hGMXJEaTR2OHcwZWo5QlZ6WnQxMWNnQlZLdTBpMHJlX1ZlY0tlaUJpa3ZaZ0dMSXZGQWNDdExiaGFkc3E0ZXJQM2hj?oc=5"
     },
     {
@@ -419,18 +438,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T04:40:00.000Z",
-      "description": "Myanmar migrants returned to war-torn nation from Malaysia - japantimes.co.jp (japantimes.co.jp, 2026-10-04. Headline + link only.)",
+      "description": "Myanmar migrants returned to war-torn nation from Malaysia - The Japan Times (The Japan Times, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "japantimes.co.jp",
+      "actor": "The Japan Times",
       "axis": "Other",
       "tags": [
-        "japantimes.co.jp",
+        "The Japan Times",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "japantimes.co.jp",
-      "source": "japantimes.co.jp",
+      "locationStr": "The Japan Times",
+      "source": "The Japan Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRS02NkRQOUR6dXJUMmNTSDFWWDhoQ1NLaU1Ra0FLMlkycVNNRlFEVmRqRWRucGxRb1I3YkR6ODdjRnF2bmR3YkRjanNVWkpidl9IRGFKWFdZMzRJa3RoeFd0a0d1OVI1X3VxZDhXaFc2NnlVYnFzUTVGcFNEUWRVd3NhQ0NZeDZNTm9ybkFDbUlVY3p2SE9R?oc=5"
     },
     {
@@ -514,18 +533,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T01:22:44.000Z",
-      "description": "Myanmar migrants returned to war-torn nation from Malaysia - France 24 (France 24, 2026-10-04. Headline + link only.)",
+      "description": "Myanmar migrants returned to war-torn nation from Malaysia - france24.com (france24.com, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "France 24",
+      "actor": "france24.com",
       "axis": "Other",
       "tags": [
-        "France 24",
+        "france24.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "France 24",
-      "source": "France 24",
+      "locationStr": "france24.com",
+      "source": "france24.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc3Nob1Frd0NaT2VfVUtfRFhnMGMzS3NnWjRldDdJS01MT2RHSEp1UlRzUHZ4MlA1ZmN6Y0dnMUF2aVpVYXBFM0YwWWt0SWQzenhtRG1PR3BVcVJuZW5wZnZVU21ZV29rSnZwdTFENEs2Ri1PbVA2VDNwVW42VWpUNUJwZkxPMkVGd1dJTlBzcFVBMW1meUV3Wk1URG1ST2w5NHNmamVGZHk?oc=5"
     },
     {
@@ -772,19 +791,19 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T09:17:00.000Z",
-      "description": "Philippines urges ASEAN talks after 50 killed in Myanmar airstrike - Daily Sabah (Daily Sabah, 2026-10-03. Headline + link only.)",
+      "description": "Philippines urges ASEAN talks after 50 killed in Myanmar airstrike - dailysabah.com (dailysabah.com, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Daily Sabah",
+      "actor": "dailysabah.com",
       "axis": "Other",
       "tags": [
-        "Daily Sabah",
+        "dailysabah.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Myanmar",
-      "source": "Daily Sabah",
+      "source": "dailysabah.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMVlOU2Y0cERMUkIxVFVWM2VxcVJJdVJhOFdwaTgyNXZaWFVmSm1jYXBCZ2daNU1oT3hDaFVGUVFyelBvMEhIb2J1XzhVejV2bUlqTGk0bEt3bm1tZm1QeEZaa1gyclA3Q0ZHR2xDUUx3dVprZEVVa2ROM1kwMGcwc3E4Z0VJV19pSHlPYWpsbnRpNTZVOVlvdjlRWmZ0TnluUzhnXzZieWFaeTNBSzNadUhB?oc=5",
       "lat": 17.17505,
       "lng": 95.99997,
@@ -795,19 +814,19 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T09:17:00.000Z",
-      "description": "Philippines urges ASEAN talks after 50 killed in Myanmar airstrike - Daily Sabah (Daily Sabah, 2026-10-03. Headline + link only.)",
+      "description": "Philippines urges ASEAN talks after 50 killed in Myanmar airstrike - dailysabah.com (dailysabah.com, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Daily Sabah",
+      "actor": "dailysabah.com",
       "axis": "Other",
       "tags": [
-        "Daily Sabah",
+        "dailysabah.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Myanmar",
-      "source": "Daily Sabah",
+      "source": "dailysabah.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTnRsN1kwdjdxWGNob1IxU2t3TU5EWTBwc2FyOXp1SnhsM1ZhZXZWSWctSV9CRVhNUEgyQ0F1NzdKcU5JNHZoTE1SMlRiOU1xRXFtMV85STZGQjdrU29wS09QRWc4c1Z4SVJPcFVJVEFVdm01Z0ZjcE9DYzhfMmVSNzlBWlNpQ1pjal9zd0NVWXpSOXZzNnB6cDVRSHFQbXNxY2JoclZtb3p3d2hKODRQaFI0WThCZjg?oc=5",
       "lat": 17.17505,
       "lng": 95.99997,
@@ -2020,18 +2039,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T21:12:42.000Z",
-      "description": "Myanmar junta airstrikes target civilians to coerce Arakan Army into peace talks - Radio Free Asia (Radio Free Asia, 2026-10-02. Headline + link only.)",
+      "description": "Myanmar junta airstrikes target civilians to coerce Arakan Army into peace talks - rfa.org (rfa.org, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Radio Free Asia",
+      "actor": "rfa.org",
       "axis": "Other",
       "tags": [
-        "Radio Free Asia",
+        "rfa.org",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Radio Free Asia",
-      "source": "Radio Free Asia",
+      "locationStr": "rfa.org",
+      "source": "rfa.org",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMkpaeUtSeG9SYUNoSlNPeGVYUUxHRWJKOUtDeUFtMXNoN293a2FnY3JFNFNFcG1VRV9vc1gwNVN2dk04dTQyRXVsMDR3bEo0V3ZCT2o4Szg3dEIyelJzcFlIT3lHd09WRnV4bWdVaXItSGRwSEFiQm5xbHNIME1pU0kzWFJHOGhWcnB5MQ?oc=5"
     },
     {
@@ -2797,7 +2816,7 @@
       "id": "news-f3jnl3",
       "kind": "news",
       "date": "2026-10-01",
-      "isoDate": "2026-10-01T20:35:57.000Z",
+      "isoDate": "2026-10-01T20:34:00.000Z",
       "description": "Exclusive | How a Trump-Backed Team Got a Pro-MAGA Businessman Out of a Myanmar Prison - WSJ (WSJ, 2026-10-01. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -2868,67 +2887,6 @@
       "locationStr": "livingstonenterprise.net",
       "source": "livingstonenterprise.net",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWTZTQkU3N3NHcy1hWl92c25iNWkydG1Oa0lmWG5RVVFUQWZIN0ZlWnJ6Wi12aWNUZktZbXl5YUJCVDNlN3pkTnhDZFJvaThqeDRmUWhTTkdrdlcxcTU3OFFXYnFENXlrb2hhUy0wTDUyemlocjNjRnRFcGxlaXNJdk1rMHZyQkhuMm5FdDZiZ2tLMHFKb2U4TWNmaXRqYTJkR190TkVYZWZwakt3b1ZMekYwSkF4LXJUV1hrU3FHVGNFVEU?oc=5"
-    },
-    {
-      "id": "news-6h30u9",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T14:09:46.000Z",
-      "description": "War and Love in Myanmar by Waso&#8217;s Idea [AUDIO] (DVB English, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DVB English",
-      "axis": "Other",
-      "tags": [
-        "DVB English",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Myanmar",
-      "source": "DVB English",
-      "sourceUrl": "https://english.dvb.no/war-and-love-in-myanmar-by-wasos-idea-audio/",
-      "lat": 17.17505,
-      "lng": 95.99997,
-      "coordsNote": "OSM geocode: matched \"Myanmar\" → Myanmar; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-1uq7xze",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T14:05:00.000Z",
-      "description": "Rohingya youth injured in landmine blast along Myanmar border - New Age BD (New Age BD, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "New Age BD",
-      "axis": "Other",
-      "tags": [
-        "New Age BD",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "New Age BD",
-      "source": "New Age BD",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdElueDk0NTZvU3lJdFlVVXV6RllPMEdZN2FBSXJsaDN2T1FNaXliM2V2YjdYRWZrdWdySU9kYmF1ZlY0N1E5ZklTanRxVFpPak9UUGFtUS00c0p5ekI1VE1aY0tGOGtBbkwtV3hsWGxzUThkUWxXcC1JYVpiTTZiaElYWlViSWhKMUlPTnY0R1h4WE9BekVuRVhkbjN1TTBWWURRQS1hYU02Zw?oc=5"
-    },
-    {
-      "id": "news-o124o8",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T14:00:36.000Z",
-      "description": "Myanmar stuns Indonesia as 20th Asian Games MLBB final draws 822K Peak Viewers - Esports Charts (Esports Charts, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Esports Charts",
-      "axis": "Other",
-      "tags": [
-        "Esports Charts",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Esports Charts",
-      "source": "Esports Charts",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwMWx0YlExQVBYbHBVWkdfZThIYTdYeUhrbmJCMV9KaUNVM3dOWW96cDlqLTc5TWY5bXBVNTc5Vno2YXM3OFR5LVJQMk53dGpvSm5mY0NrQTNZcDg5V3pMcTBSWTg2T2hrLWc?oc=5"
     }
   ]
 }
