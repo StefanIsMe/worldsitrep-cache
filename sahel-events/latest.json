@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-04T14:28:20.880Z",
+  "collectedAt": "2026-10-04T18:02:53.685Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "id": "aa-mali",
@@ -90,7 +90,7 @@
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 49,
+      "count": 48,
       "filtered": 0
     },
     {
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 41,
+  "count": 40,
   "events": [
     {
       "id": "news-1uu7f5k",
@@ -187,6 +187,40 @@
         "goldstein": -9.5,
         "tone": -9.37,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326266550",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T17:15:00.000Z",
+      "description": "Disapproval — Israeli → Iranian near Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 1124)",
+      "actor": "Israeli",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://saharareporters.com/2026/10/04/nigerian-man-dauda-kado-sparks-outrage-after-saying-iran-will-come-nigeria-and-arrest",
+      "gdelt": {
+        "globalEventId": "1326266550",
+        "eventCode": "1124",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -7,
+        "mentions": 1,
         "sources": 1
       }
     },
@@ -1383,44 +1417,6 @@
         "mentions": 4,
         "sources": 1
       }
-    },
-    {
-      "id": "news-kr93wg",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T14:53:21.000Z",
-      "description": "Journalist Sentenced to Two Years in Prison Over TV Remarks (AllAfrica Mali, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AllAfrica Mali",
-      "axis": "Other",
-      "tags": [
-        "AllAfrica Mali",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AllAfrica Mali",
-      "source": "AllAfrica Mali",
-      "sourceUrl": "https://allafrica.com/stories/202610010446.html"
-    },
-    {
-      "id": "news-1ia28mu",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T14:36:45.000Z",
-      "description": "'Absolutely nothing' justifies arrest of Niger journalist, rights expert tells RFI (RFI Africa, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "RFI Africa",
-      "axis": "Other",
-      "tags": [
-        "RFI Africa",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "RFI Africa",
-      "source": "RFI Africa",
-      "sourceUrl": "https://www.rfi.fr/en/africa/20261001-absolutely-nothing-justifies-arrest-of-nigerien-journalist-moussa-kaka-rights-expert-tells-rfi"
     }
   ]
 }
