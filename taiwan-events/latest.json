@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-04T18:24:45.751Z",
+  "collectedAt": "2026-10-04T21:49:31.314Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 15
     },
     {
       "id": "taipei-times",
@@ -19,16 +19,16 @@
     {
       "id": "gnews-strait",
       "url": "https://news.google.com/rss/search?q=Taiwan%20Strait%20China%20PLA&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-strait request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-defense",
       "url": "https://news.google.com/rss/search?q=Taiwan%20PLA%20military%20drills&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-defense request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "scmp-china",
@@ -42,35 +42,35 @@
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
       "count": 2,
-      "filtered": 9
+      "filtered": 10
     },
     {
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 6,
-      "filtered": 37
+      "count": 7,
+      "filtered": 36
     },
     {
       "id": "gnews-arms",
       "url": "https://news.google.com/rss/search?q=Taiwan%20US%20arms%20sale&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-arms request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-kinmen request failed with HTTP 503"
+      "status": "ok",
+      "count": 43,
+      "filtered": 0
     },
     {
       "id": "gnews-hankuang",
       "url": "https://news.google.com/rss/search?q=Taiwan%20Han%20Kuang%20military%20drills&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-hankuang request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 265,
+  "count": 284,
   "events": [
     {
       "id": "news-15lkgyd",
@@ -256,6 +256,82 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/05/2003865424"
+    },
+    {
+      "id": "news-o3ghv7",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T20:26:27.000Z",
+      "description": "Taiwan’s envoy prods Trump administration on stalled arms sale (Straits Times, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/taiwans-envoy-prods-trump-administration-on-stalled-arms-sale"
+    },
+    {
+      "id": "news-1t0ga6g",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T20:26:00.000Z",
+      "description": "Taiwan’s envoy prods Trump administration on stalled arms sale - straitstimes.com (straitstimes.com, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "straitstimes.com",
+      "axis": "Other",
+      "tags": [
+        "straitstimes.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "straitstimes.com",
+      "source": "straitstimes.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQanNwd0xNRDh4ZUkxNHpGakxrYTkteWRBYnZybVYyYzJiamU1VFhJbGQycVlpWlg2Q1FBQjNZelVwSGR1UWxGOGVSVTN3RUVkVEVVdmxTNzdRcFNkNktXVWx5R2tFSDVZMlhSWUp1c1NvSXk2dlZCSWlaZVJOQ3BCTVZVTjMzTkVfcmRaRUwwak83Ynl4VFVtZ2RRVk5yQVNLdmRobTV2cmR5Q2thaXJGYUFSM1B2alBsMWZsYmJ1Q0RIX3FH?oc=5"
+    },
+    {
+      "id": "news-14i4nbe",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T19:31:31.000Z",
+      "description": "Opinion | Why Does Trump Want To Sell Arms To A US 'Adversary'? Inside His Strange Bargain - NDTV (NDTV, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NDTV",
+      "axis": "Other",
+      "tags": [
+        "NDTV",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NDTV",
+      "source": "NDTV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaDdXYUJEbDJkLUJ3S09MWVQtbTJoUWE4WnMyaEk4YjRWMnpNM1pRZFdfTnM2M05CSGd2Y2FtOWx6b3loWllUTXc5Y1lPd2Q2REZiZFIxVjB6SkVURFNNeHQ3Q0hhdnhGN2p5dFE4eWNJZ2EzcE5wcW40QXNmQWg4dDAxS2txc2dwM3NrMFE2azQwM3RQRVM2NGxSUmdaRkZHdDNJLW13?oc=5"
+    },
+    {
+      "id": "news-6ilvp8",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T19:24:56.000Z",
+      "description": "Taiwan’s Envoy Prods Trump Administration on Stalled Arms Sale - Bloomberg.com (Bloomberg.com, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Bloomberg.com",
+      "axis": "Other",
+      "tags": [
+        "Bloomberg.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Bloomberg.com",
+      "source": "Bloomberg.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbzEzMXY3Q2g0RGZ5U0JiNDBsdWJ6NXhadUFPaXBYVktuTmZiQm01cVhvX0lZMGhNTHhVTUtNeHg2OXJGS0FyQlZUckhuT2FVbW5HS3lDaGpMMmhTUmw0OVpuTVh4YS1LRU5rT2kyTTg4Vm9sM1hJQXFWc1JrZ0ZORm5CcTVtVmp6VmE4bk5WY3M2M1YzaUVmZFpCbFg0bEtrNEZiT2sxTmZMZ1l1Ri1pR0VWVQ?oc=5"
     },
     {
       "id": "news-2rlvvg",
@@ -2507,6 +2583,482 @@
       }
     },
     {
+      "id": "gdelt-1326276327",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Reduced relations — Taiwan → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/city/vadodara/travel-agent-dupes-man-with-taiwan-job-promise/articleshow/134679635.cms",
+      "gdelt": {
+        "globalEventId": "1326276327",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -4.07,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276328",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Coercion — Taiwan → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/city/vadodara/travel-agent-dupes-man-with-taiwan-job-promise/articleshow/134679635.cms",
+      "gdelt": {
+        "globalEventId": "1326276328",
+        "eventCode": "172",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -4.07,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276329",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Reduced relations — Taiwan → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/city/vadodara/travel-agent-dupes-man-with-taiwan-job-promise/articleshow/134679635.cms",
+      "gdelt": {
+        "globalEventId": "1326276329",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -4.07,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276330",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Reduced relations — Taiwan → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/city/vadodara/travel-agent-dupes-man-with-taiwan-job-promise/articleshow/134679635.cms",
+      "gdelt": {
+        "globalEventId": "1326276330",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -4.07,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276331",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Coercion — Taiwan → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/city/vadodara/travel-agent-dupes-man-with-taiwan-job-promise/articleshow/134679635.cms",
+      "gdelt": {
+        "globalEventId": "1326276331",
+        "eventCode": "172",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -4.07,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276332",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Coercion — Taiwan → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/city/vadodara/travel-agent-dupes-man-with-taiwan-job-promise/articleshow/134679635.cms",
+      "gdelt": {
+        "globalEventId": "1326276332",
+        "eventCode": "172",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -4.07,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276334",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Reduced relations — Taiwan → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/city/vadodara/travel-agent-dupes-man-with-taiwan-job-promise/articleshow/134679635.cms",
+      "gdelt": {
+        "globalEventId": "1326276334",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -4.07,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276335",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Reduced relations — Taiwan → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/city/vadodara/travel-agent-dupes-man-with-taiwan-job-promise/articleshow/134679635.cms",
+      "gdelt": {
+        "globalEventId": "1326276335",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -4.07,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276336",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Coercion — Taiwan → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/city/vadodara/travel-agent-dupes-man-with-taiwan-job-promise/articleshow/134679635.cms",
+      "gdelt": {
+        "globalEventId": "1326276336",
+        "eventCode": "172",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -4.07,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276337",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Coercion — Taiwan → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/city/vadodara/travel-agent-dupes-man-with-taiwan-job-promise/articleshow/134679635.cms",
+      "gdelt": {
+        "globalEventId": "1326276337",
+        "eventCode": "172",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -4.07,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326279071",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:00:00.000Z",
+      "description": "Fight — Unspecified → Pingtung County near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Fight (GDELT 194)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5595519",
+      "gdelt": {
+        "globalEventId": "1326279071",
+        "eventCode": "194",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 1.01,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326284253",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:15:00.000Z",
+      "description": "Demand — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Demand (GDELT 100)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.thailandnews.net/news/279348128/first-2-us-built-f-16s-boost-taiwan-air-force",
+      "gdelt": {
+        "globalEventId": "1326284253",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": 0.98,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326284508",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:15:00.000Z",
+      "description": "Disapproval — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 114)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.thailandnews.net/news/279348128/first-2-us-built-f-16s-boost-taiwan-air-force",
+      "gdelt": {
+        "globalEventId": "1326284508",
+        "eventCode": "114",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.98,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326284509",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:15:00.000Z",
+      "description": "Disapproval — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 114)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.thailandnews.net/news/279348128/first-2-us-built-f-16s-boost-taiwan-air-force",
+      "gdelt": {
+        "globalEventId": "1326284509",
+        "eventCode": "114",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.98,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-118gl8y",
       "kind": "news",
       "date": "2026-10-04",
@@ -2733,25 +3285,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369660/china-and-africa-boost-law-enforcement-ties-crackdown-cross-border-cybercrime?utm_source=rss_feed"
-    },
-    {
-      "id": "news-14i4nbe",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T16:37:21.000Z",
-      "description": "Opinion | Why Does Trump Want To Sell Arms To A US 'Adversary'? Inside His Strange Bargain - NDTV (NDTV, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NDTV",
-      "axis": "Other",
-      "tags": [
-        "NDTV",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NDTV",
-      "source": "NDTV",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaDdXYUJEbDJkLUJ3S09MWVQtbTJoUWE4WnMyaEk4YjRWMnpNM1pRZFdfTnM2M05CSGd2Y2FtOWx6b3loWllUTXc5Y1lPd2Q2REZiZFIxVjB6SkVURFNNeHQ3Q0hhdnhGN2p5dFE4eWNJZ2EzcE5wcW40QXNmQWg4dDAxS2txc2dwM3NrMFE2azQwM3RQRVM2NGxSUmdaRkZHdDNJLW13?oc=5"
     },
     {
       "id": "news-1lrtn0p",
@@ -4323,6 +4856,40 @@
       }
     },
     {
+      "id": "gdelt-1326279016",
+      "kind": "event",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:00:00.000Z",
+      "description": "Fight — Taiwan → Legislator near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Fight (GDELT 190)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5595523",
+      "gdelt": {
+        "globalEventId": "1326279016",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.18,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-1jo6l4z",
       "kind": "news",
       "date": "2026-10-03",
@@ -4677,6 +5244,25 @@
       "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369636/brazils-lula-hails-bold-chinese-investors-rival-pitches-rare-earths-trump?utm_source=rss_feed"
     },
     {
+      "id": "news-bpupcv",
+      "kind": "news",
+      "date": "2026-10-02",
+      "isoDate": "2026-10-02T18:56:41.000Z",
+      "description": "China & Taiwan Update, October 2, 2026 - Institute for the Study of War (Institute for the Study of War, 2026-10-02. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Institute for the Study of War",
+      "axis": "Other",
+      "tags": [
+        "Institute for the Study of War",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Institute for the Study of War",
+      "source": "Institute for the Study of War",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUTFKRmh3SHg0S3Jlajc1Q3JOMlhkT2pmTXRwVUhCZG5OTGl0S3NMc0Z5MUcxeW9EZFh3UHlLVUc1SDRBR2NYbms4Y1hLdzFOWnRWQWZDVzdZdG5XYVN1aTk2YTRfS3o3R2lvQnNrd2lmX0VJTkJPT0hENkNOZFpkYzZSTzBxaFVZQUo2dHpjbw?oc=5"
+    },
+    {
       "id": "news-uled1x",
       "kind": "news",
       "date": "2026-10-02",
@@ -4776,18 +5362,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T11:19:07.000Z",
-      "description": "Taiwan receives 2 long-delayed U.S. F-16Vs and awaits additional fighter jets - Washington Times (Washington Times, 2026-10-02. Headline + link only.)",
+      "description": "Taiwan receives 2 long-delayed U.S. F-16Vs and awaits additional fighter jets - washingtontimes.com (washingtontimes.com, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Washington Times",
+      "actor": "washingtontimes.com",
       "axis": "Other",
       "tags": [
-        "Washington Times",
+        "washingtontimes.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Washington Times",
-      "source": "Washington Times",
+      "locationStr": "washingtontimes.com",
+      "source": "washingtontimes.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYldoYWpxa2VLYlVJWXQzbjJodUp0UTBtVnB1QXcwV0gxRzhWclJXQXI2WEhnY0hWUkxJLU1pVEV0UDlHWndXS0hxbHRncmpwQ2JWWENnOG50SXZ6N3FPYWVsLWRDa2w5OEYtWUFwR0k2VkdHZVprSWFuaWctd3UwZkVfcWtvX0F6WGpVWFVwb1d3czcyb0JwQ3NOUjFIVUp3MVRpbDRjdUxMR2c?oc=5"
     },
     {

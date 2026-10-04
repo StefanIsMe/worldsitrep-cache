@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "ukraine",
-  "collectedAt": "2026-10-04T18:45:20.786Z",
+  "collectedAt": "2026-10-04T21:48:46.384Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 35
+      "count": 37
     },
     {
       "id": "kyiv-independent",
@@ -43,7 +43,7 @@
       "id": "ukrinform-en",
       "url": "https://www.ukrinform.net/rss/block-lastnews",
       "status": "ok",
-      "count": 26
+      "count": 28
     },
     {
       "id": "interfax-ukraine",
@@ -54,8 +54,9 @@
     {
       "id": "rferl-ukraine-war",
       "url": "https://www.rferl.org/api/zbgvmtl-vomx-tpeq_kmr",
-      "status": "ok",
-      "count": 20
+      "status": "failed",
+      "count": 0,
+      "error": "RSS rferl-ukraine-war request failed: fetch failed"
     },
     {
       "id": "euromaidan-war",
@@ -99,6 +100,372 @@
   "count": 1500,
   "events": [
     {
+      "id": "news-1b5n34i",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T21:39:00.000Z",
+      "description": "Russian war criminal accused of torturing Ukrainian POWs killed in Russia (Ukrinform, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrinform",
+      "axis": "Other",
+      "tags": [
+        "Ukrinform",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrinform",
+      "source": "Ukrinform",
+      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4170864-russian-war-criminal-accused-of-torturing-ukrainian-pows-killed-in-russia.html"
+    },
+    {
+      "id": "news-18krfqd",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T21:37:32.000Z",
+      "description": "Russian drone strike hits energy facility in Poltava Oblast, leaves 22,000 without power - The Kyiv Independent (The Kyiv Independent, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "The Kyiv Independent",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Poltava region",
+      "source": "The Kyiv Independent",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcmhaNmwwaldwRmpuRmZkSVR4ZFpuMHZFck54V2xHMGRCNWFobVFMN2F1c01nc3FDR2xobVBVd1dBd0dCZGtncFVHZzBwRWVOR3F5SnphM0NhZVo1R1JLbGFrWGtza1k5c2pNRmFpbDkwcnpKTlRSNlc0d3NuNHVOZ2pxWUhmRVdZanBwU0VvS0FpTUpJSjFxR1BVM1pBUERNbF84Q2J5cnFNaFEzUGlBV2g2Y2hlakU?oc=5",
+      "lat": 49.59,
+      "lng": 34.55,
+      "coordsNote": "Headline gazetteer match: \"Poltava\" (region); verify via source article."
+    },
+    {
+      "id": "news-1rlpqpv",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T21:37:32.000Z",
+      "description": "Russian drone strike hits energy facility in Poltava Oblast, leaves 22,000 without power (Kyiv Independent, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Independent",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Poltava region",
+      "source": "Kyiv Independent",
+      "sourceUrl": "https://kyivindependent.com/russian-drone-strike-hits-energy-facility-in-poltava-oblast-leaves-22-000-without-power/",
+      "lat": 49.59,
+      "lng": 34.55,
+      "coordsNote": "Headline gazetteer match: \"Poltava\" (region); verify via source article."
+    },
+    {
+      "id": "news-j5k44o",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T21:22:30.000Z",
+      "description": "Russia hits Kyiv bridge as Germany’s Merz visits Ukraine’s capital - Al Jazeera (Al Jazeera, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kyiv",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSGpSRVY5RDlvY19ick14cVE3d3BIYTM4ZktyNjRJQ0NLcHZtVGdxOEJxUGplZGlkNFBxdE5Kd2sxSXlNSVhFRmw5cUM4Si1nYm51QTBYTXVSYWFmWkJvdlJGc3ZmaDBqelV1dDZGSGsxYkxRYlltbU9EYVRmQTk2aU9fRFRzYUFBNDBuSzJoRk1XV3ZGdU1qTldkUWExaXh1MVZvYmtYUHJ6T2Qz0gGyAUFVX3lxTE1naGxKV1ZmcEVFV0lPQVFtdmthbnFic2FOTHJzc29fZFNmYXVEdFhNX2V1UUZYZE5hOExtSS1HVXN0SWxWWU9sWVFPRk1GNUFkb01wa09jci1lemhMc2VRVFI5SDh4Z2hFd0xXRlhHbG9Ed3E5endpV095ZUxyU3QtTlJaOHdOZ0RLc3FTTU5MTEJENlI0ci1RMHhPdDFnYzRjbWoyeVVlTjBqRklwbFJCb3c?oc=5",
+      "lat": 50.45,
+      "lng": 30.52,
+      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
+    },
+    {
+      "id": "news-hni24q",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T20:58:12.000Z",
+      "description": "US proposes trilateral talks with Russia, Ukraine by end of October, Zelensky says (Kyiv Independent, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Independent",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Independent",
+      "source": "Kyiv Independent",
+      "sourceUrl": "https://kyivindependent.com/us-proposes-trilateral-talks-with-russia-ukraine-by-end-of-october-zelensky-says/"
+    },
+    {
+      "id": "news-gyr3h2",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T20:48:45.000Z",
+      "description": "Germany’s Merz visits Kyiv as Russia steps up attacks on Ukrainian cities - The Boston Globe (The Boston Globe, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Boston Globe",
+      "axis": "Other",
+      "tags": [
+        "The Boston Globe",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Boston Globe",
+      "source": "The Boston Globe",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNF83SnpBcllMYlRZalppMElWVGZHODh6bTBrTEhkQ3NDUWtOYUhJNHF6OFZxNzVTeFVnMnotX3BLcjhzc01ET1d4aTZCdC1IdnctTkFDR3NSdGxRZXZtZ0NxZDgyX2cyTmVDTDE3ZExKdWlvNWZNaUZIbW5wWTJISDBLQ0RqcHptajB6M0MxMTViblhXYWI1VlBHTlNwWFU0SllWTzBnZ21QQQ?oc=5"
+    },
+    {
+      "id": "news-inzheg",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T20:40:00.000Z",
+      "description": "Ukraine and Germany sign energy agreements worth more than €155 million (Ukrinform, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrinform",
+      "axis": "Other",
+      "tags": [
+        "Ukrinform",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrinform",
+      "source": "Ukrinform",
+      "sourceUrl": "https://www.ukrinform.net/rubric-economy/4171039-ukraine-and-germany-sign-energy-agreements-worth-more-than-155-million.html"
+    },
+    {
+      "id": "news-1xnwym1",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T20:21:05.000Z",
+      "description": "Ukraine ready for US-backed talks with Russia: Zelenskyy - Al Jazeera (Al Jazeera, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ0R6ZzB4N1VaZ3Mya2lwcmZramlKaWxfLUMtZjNfYUtjN3NyVEZWR1dKM0llTnFFeWV4TmFMTlFTVzFXRUk5RU9QTmFmZk0yUnhfQm1TNFhHc2VGbXRBbzlZMl9GYnNUVENsSlRhMV9JUko4M2IyYXVvVEVPb3pSX1JRT2NEeXFaaHZSb2FRM3ZIMFlWRThPc05OODfSAaIBQVVfeXFMT0lWUXEzRmh4ZTZvOEg3eDB4QVVBMTNSUHlPbE40a1FMTlpsZ19DRC1VaTFSdTNseHIzT0VFSGZBNmZCTV9MSDJLYjNtNEs0NTN4R0RRem5lTTNTUEZBTEs2MmZmb1lQNVVCX2ctY05yd1ZJQjduaS1GM1h4V3NNSTY0dWZ0UjJ0RzBoR3o2NWdaODNuMWNYZFRoZlE4Qmo2RUp3?oc=5"
+    },
+    {
+      "id": "news-bpuycy",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T20:00:46.000Z",
+      "description": "Germany’s Merz in Kyiv announces $1.5B in aid, urges Putin to end war - Al Jazeera (Al Jazeera, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kyiv",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPODNiaXpEanFEcjZWQTgtWkZyRUp4RzEzREpJRGtraDd6S2xrSXBveGlXSWJMeTh2VWw4UFhoalVCMTBLTHhReTlSb3czUjlkY1F0ZXRuRkFWWHZxLWJHdTR6QkZ2LUtiTFNzbGJObk5xWVh4N0F3ZThFU1ZwazZOLXBidlFHaXVnSlRiTnJTb3Jua2VIUjJoQtIBngFBVV95cUxQRFdIR21LY2t6ZDNOUC1PMlV4SkpkQkF3MzVieGVVQ0U3WDM2T3V2NTFoSk9PbWZCQkZac0pxVkNXY0daT3F5Mll2Ty1nUlVKVmZHSEdtaTkxX25sckZIWjVCYllTRk9qRElQbUdRTjFPOVFkSjh0RHBjWTUzSjBleGtnY3kyekFrb29PV2lxNFMtNk44bU5YbzhKQ0gzQQ?oc=5",
+      "lat": 50.45,
+      "lng": 30.52,
+      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
+    },
+    {
+      "id": "news-1ueh00z",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T19:46:58.000Z",
+      "description": "Ukraine's deep strikes have wrecked over half of Russia's oil refining capacity, Defense Ministry says (Kyiv Independent, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Independent",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Independent",
+      "source": "Kyiv Independent",
+      "sourceUrl": "https://kyivindependent.com/ukraines-deep-strikes-have-wrecked-over-half-of-russias-oil-refining-capacity-defense-ministry-says/"
+    },
+    {
+      "id": "news-11elsur",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T19:40:35.000Z",
+      "description": "Zelensky Warns Moscow Faces Reciprocal Strikes on Bridges, Networks - Kyiv Post (Kyiv Post, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Post",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Post",
+      "source": "Kyiv Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1LU2c4MjZlVHUwTnZtTVVOS1I1UnItb05vQnhPV1FjMWppcVhFUWNPTncyRUd3cnpYWXE5bUdXQkZjd2NPWjFYSTZwYw?oc=5"
+    },
+    {
+      "id": "news-1fo0s4t",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T19:40:35.000Z",
+      "description": "Ukraine Hits Russian Buk-M3, Drone Hub, and Bryansk EW Station - Kyiv Post (Kyiv Post, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Post",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Post",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Bryansk",
+      "source": "Kyiv Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBKSzktbFRyVEgwN1J5dnZGRnZmZUNCZGloOFFQd2hva3NRWC1GOHJBaGhQeF9iX3FXWV9wZEF3a1dUSlJDVThWdHNnNA?oc=5",
+      "lat": 53.24,
+      "lng": 34.37,
+      "coordsNote": "Headline gazetteer match: \"Bryansk\" (city); verify via source article."
+    },
+    {
+      "id": "news-k80l5r",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T19:40:35.000Z",
+      "description": "SBU Drones Hit Su-35, Su-34 Jets and Ammo Depot at Khanskaya Base - Kyiv Post (Kyiv Post, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Post",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Post",
+      "source": "Kyiv Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4wbElBV3lpUVFFUVlVSHQ3UVp2Y091emhJMWlvc3JDTDJEaFlMYlNxODNvNXZLRlNQeTRRTzlZQVdEREcxUXEzR1VSUQ?oc=5"
+    },
+    {
+      "id": "news-hin7gt",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T19:30:00.000Z",
+      "description": "Drone strike on power facility in Poltava region leaves 22,000 customers without power (Ukrinform, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrinform",
+      "axis": "Other",
+      "tags": [
+        "Ukrinform",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Poltava region",
+      "source": "Ukrinform",
+      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4171022-drone-strike-on-power-facility-in-poltava-region-leaves-22000-customers-without-power.html",
+      "lat": 49.59,
+      "lng": 34.55,
+      "coordsNote": "Headline gazetteer match: \"Poltava\" (region); verify via source article."
+    },
+    {
+      "id": "news-106imcc",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T19:27:00.000Z",
+      "description": "Ukraine has disabled more than 51% of Russia's oil refining capacity - MoD (Ukrinform, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrinform",
+      "axis": "Other",
+      "tags": [
+        "Ukrinform",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrinform",
+      "source": "Ukrinform",
+      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4171038-ukraine-has-disabled-more-than-51-of-russias-oil-refining-capacity-mod.html"
+    },
+    {
+      "id": "news-10i51k9",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T18:58:00.000Z",
+      "description": "Zelensky: Ukraine tests Nika missile and SPYS interceptor against jet-powered drones (Ukrinform, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrinform",
+      "axis": "Other",
+      "tags": [
+        "Ukrinform",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrinform",
+      "source": "Ukrinform",
+      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4171021-zelensky-ukraine-tests-nika-missile-and-spys-interceptor-against-jetpowered-drones.html"
+    },
+    {
+      "id": "news-12mc11z",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T18:47:42.000Z",
+      "description": "US Wants New Round Of Talks With Russia, Ukraine This Month: Zelensky - NDTV (NDTV, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NDTV",
+      "axis": "Other",
+      "tags": [
+        "NDTV",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NDTV",
+      "source": "NDTV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGl5UEJXanI1VnRjcVFzTTIwTTlWQ01pN29mcmlsdnFuM3BWQU05d1ZXR2lvejBnRGdud0daVFRySFNoQkhoX0t4aGhpVWV0X1kxRlIwbHJkR2NCWlNFeFJ0Y3BZanZmNVYySEs1NTMyLWt3X2tZZjkxY0d4dy02VXhVM2JaTXlCdkIxZ1Y5TWdCSEt1R0V4ZHA1VFdzbUcyeS1zUGdTSHlrM3k20gG0AUFVX3lxTE5SV3Z1c3pTdWp1bmNrNXo5Zy1jUVQtN20wQmdZOUx1OEFMMDRsZlRvM3JmbUVZM0Y3NHVweEJBUlR4R3pfN1Z4RDh1UkhfQzBmT2ZudHhDNF9kNDU4YkdyVGlKUmlocDNockVXQ3NndzhtMkRzdmdxV1h3WXJMMzBaMjNtb1h1czFVdF9qd1NOWUVEUW9jZXpKbUJ6V01ZUjdKeExxbEtvSkdwZzhmTldHbF9WVg?oc=5"
+    },
+    {
+      "id": "news-bjjsvz",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T18:42:07.000Z",
+      "description": "Plague death triggers quarantine, mask mandates in Russia's Irkutsk region in Siberia (Kyiv Independent, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Independent",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Independent",
+      "source": "Kyiv Independent",
+      "sourceUrl": "https://kyivindependent.com/plague-death-triggers-quarantine-mask-mandates-in-russias-irkutsk-region-in-siberia/"
+    },
+    {
       "id": "news-el5ko8",
       "kind": "news",
       "date": "2026-10-04",
@@ -116,6 +483,25 @@
       "locationStr": "Ukrinform",
       "source": "Ukrinform",
       "sourceUrl": "https://www.ukrinform.net/rubric-ato/4171020-president-defense-forces-carry-out-two-successful-offensive-operations.html"
+    },
+    {
+      "id": "news-bb3eup",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T18:23:36.000Z",
+      "description": "Domestic Missiles to Fight Jet Drones by Late October, Zelensky Says - Kyiv Post (Kyiv Post, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Post",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Post",
+      "source": "Kyiv Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE44Q2hiVHVycTdhTDhjYVRrUU4xQ0ZNZy1kN3NSTUg1NzdrbTlFdGR6YzJnTG9OeENVTGNGR2VjeEZtYmRtMGtOYmlVTQ?oc=5"
     },
     {
       "id": "news-1psm8ae",
@@ -160,18 +546,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T17:46:01.000Z",
-      "description": "Ukraine war forcing U.S. defense companies to rethink how weapons are built - Washington Times (Washington Times, 2026-10-04. Headline + link only.)",
+      "description": "Ukraine war forcing U.S. defense companies to rethink how weapons are built - washingtontimes.com (washingtontimes.com, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Washington Times",
+      "actor": "washingtontimes.com",
       "axis": "Other",
       "tags": [
-        "Washington Times",
+        "washingtontimes.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Washington Times",
-      "source": "Washington Times",
+      "locationStr": "washingtontimes.com",
+      "source": "washingtontimes.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTlZ5TWdsSWRJUUtJXzNCNWxOcjA3enlCejVPSEMyTDNMT1lUYUhQbFZTREdxbFVlN0pvd0Z3OFp5WmZsUEJIeExJb25NX1pZOHJlTWJLSVRtU09LdGNtRjUtek1QS0o0cUU2ZVN2MzNTMGFTWWdWRGlOUFNEVEJsMDg2ZGNHVGtHRXhZQktsMkZlUzFEbExyQnZ6U0JrVXk4VHpWcmg5WXlVZXBhMnpHUg?oc=5"
     },
     {
@@ -217,27 +603,23 @@
       "sourceUrl": "https://kyivindependent.com/ukraine-war-latest-germany-supplies-kyiv-with-interceptors-air-defense-missiles-in-1-5-billion-aid-package/"
     },
     {
-      "id": "news-1fo0s4t",
+      "id": "news-7puiw1",
       "kind": "news",
       "date": "2026-10-04",
-      "isoDate": "2026-10-04T17:22:34.000Z",
-      "description": "Ukraine Hits Russian Buk-M3, Drone Hub, and Bryansk EW Station - Kyiv Post (Kyiv Post, 2026-10-04. Headline + link only.)",
+      "isoDate": "2026-10-04T17:24:53.000Z",
+      "description": "Ukraine war latest: Germany supplies Kyiv with interceptors, air defense missiles in $1.5 billion aid package - The Kyiv Independent (The Kyiv Independent, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Kyiv Post",
+      "actor": "The Kyiv Independent",
       "axis": "Other",
       "tags": [
-        "Kyiv Post",
-        "headline",
-        "headline-geocoded"
+        "The Kyiv Independent",
+        "headline"
       ],
-      "coordsTier": "approximate",
-      "locationStr": "Bryansk",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBKSzktbFRyVEgwN1J5dnZGRnZmZUNCZGloOFFQd2hva3NRWC1GOHJBaGhQeF9iX3FXWV9wZEF3a1dUSlJDVThWdHNnNA?oc=5",
-      "lat": 53.24,
-      "lng": 34.37,
-      "coordsNote": "Headline gazetteer match: \"Bryansk\" (city); verify via source article."
+      "coordsTier": "unplaced",
+      "locationStr": "The Kyiv Independent",
+      "source": "The Kyiv Independent",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbkp6Y2hiYjVxYnpRenBnS184bTV4OWRVVHF3VkVINHlrQXRCU19mRGpVMVZSQTZDZURmS0Z3VFdxdjNOUmtWREFzUGpaY3BONnFNaEY1ejY2VzJ0aWwxdVowU2hiSnMzZE9zWlUtTU9kOW0yZDUyNUJtMVh3LU5HNXVkOFQ1ekc5clRFNW9yaHpVRFJQblhxdFhsM2ZkdERkOVpESFhiUGI1elhUVG9hT3NoU1hzaUsyYTRoRS0yNkRtd3JCZGw4aEx6MzBNdVdu?oc=5"
     },
     {
       "id": "news-f1pc95",
@@ -257,29 +639,6 @@
       "locationStr": "Kyiv Post",
       "source": "Kyiv Post",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB1SWFyVjNFdlNHbGFoc2d4VDM0cmwzdm9BSnVTX0g0QkV2U1BWa3RDdFV1OWhtR1dTdFVDRXB1ZGdNTUxkeG1rOUxScw?oc=5"
-    },
-    {
-      "id": "news-j5k44o",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T17:22:27.000Z",
-      "description": "Russia hits Kyiv bridge as Germany’s Merz visits Ukraine’s capital - Al Jazeera (Al Jazeera, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Al Jazeera",
-      "axis": "Other",
-      "tags": [
-        "Al Jazeera",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "Al Jazeera",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSGpSRVY5RDlvY19ick14cVE3d3BIYTM4ZktyNjRJQ0NLcHZtVGdxOEJxUGplZGlkNFBxdE5Kd2sxSXlNSVhFRmw5cUM4Si1nYm51QTBYTXVSYWFmWkJvdlJGc3ZmaDBqelV1dDZGSGsxYkxRYlltbU9EYVRmQTk2aU9fRFRzYUFBNDBuSzJoRk1XV3ZGdU1qTldkUWExaXh1MVZvYmtYUHJ6T2Qz0gGyAUFVX3lxTE1naGxKV1ZmcEVFV0lPQVFtdmthbnFic2FOTHJzc29fZFNmYXVEdFhNX2V1UUZYZE5hOExtSS1HVXN0SWxWWU9sWVFPRk1GNUFkb01wa09jci1lemhMc2VRVFI5SDh4Z2hFd0xXRlhHbG9Ed3E5endpV095ZUxyU3QtTlJaOHdOZ0RLc3FTTU5MTEJENlI0ci1RMHhPdDFnYzRjbWoyeVVlTjBqRklwbFJCb3c?oc=5",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
     },
     {
       "id": "news-1o3itl9",
@@ -358,23 +717,46 @@
       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/04/8056449/"
     },
     {
-      "id": "news-v2dl4o",
+      "id": "news-1axcc7e",
       "kind": "news",
       "date": "2026-10-04",
-      "isoDate": "2026-10-04T16:58:00.000Z",
-      "description": "Russia intensifies strikes on Kyiv as German Chancellor arrives in Kyiv to pledges support - The Independent (The Independent, 2026-10-04. Headline + link only.)",
+      "isoDate": "2026-10-04T16:58:08.000Z",
+      "description": "Russia intensifies strikes on Kyiv as German Chancellor arrives to pledge support - AOL.com (AOL.com, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Independent",
+      "actor": "AOL.com",
       "axis": "Other",
       "tags": [
-        "The Independent",
+        "AOL.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Kyiv",
-      "source": "The Independent",
+      "source": "AOL.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZUFrNm1FNEF6djFFbXh1dnZBRlQ0Vk5JWDRZQ082V2t0TjJvTWlOQzhKQkF0al9NMUxrdWFTRjBhV3RQY0NTZ2xocDlpOXFjUlU1VEJZQmc0WU9NOElKWWhkOXp1NDJpLTAwOXlVQ3JGbDRWS0djenpHckxPanR6czBRcVlia0ROcVZzX0t3?oc=5",
+      "lat": 50.45,
+      "lng": 30.52,
+      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
+    },
+    {
+      "id": "news-v2dl4o",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T16:58:00.000Z",
+      "description": "Russia intensifies strikes on Kyiv as German Chancellor arrives in Kyiv to pledges support - independent.co.uk (independent.co.uk, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "independent.co.uk",
+      "axis": "Other",
+      "tags": [
+        "independent.co.uk",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kyiv",
+      "source": "independent.co.uk",
       "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS0h1d2M2YU1LN2VBakdNdjZ5TXR3emxYOFVRRWZvZEViUWczT1dKRUNoNVV1RTZaQWFQdGdqQnctSk5CczZsUG4wUm5NMHRDZEd0dHZLSTNJWEtsS2tqX0NFRUZfZ2VJQi1wUjY2RVdKMW9iOHRqR2tOQXZWaEU0SXNxaEczTk5IaDJLSjljMUk0cTR3THYtVFJiV1JSZw?oc=5",
       "lat": 50.45,
       "lng": 30.52,
@@ -461,29 +843,6 @@
       "coordsNote": "Headline gazetteer match: \"Dnipropetrovsk\" (region); verify via source article."
     },
     {
-      "id": "news-bpuycy",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T16:39:07.000Z",
-      "description": "Germany’s Merz in Kyiv announces $1.5B in aid, urges Putin to end war - Al Jazeera (Al Jazeera, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Al Jazeera",
-      "axis": "Other",
-      "tags": [
-        "Al Jazeera",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "Al Jazeera",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPODNiaXpEanFEcjZWQTgtWkZyRUp4RzEzREpJRGtraDd6S2xrSXBveGlXSWJMeTh2VWw4UFhoalVCMTBLTHhReTlSb3czUjlkY1F0ZXRuRkFWWHZxLWJHdTR6QkZ2LUtiTFNzbGJObk5xWVh4N0F3ZThFU1ZwazZOLXBidlFHaXVnSlRiTnJTb3Jua2VIUjJoQtIBngFBVV95cUxQRFdIR21LY2t6ZDNOUC1PMlV4SkpkQkF3MzVieGVVQ0U3WDM2T3V2NTFoSk9PbWZCQkZac0pxVkNXY0daT3F5Mll2Ty1nUlVKVmZHSEdtaTkxX25sckZIWjVCYllTRk9qRElQbUdRTjFPOVFkSjh0RHBjWTUzSjBleGtnY3kyekFrb29PV2lxNFMtNk44bU5YbzhKQ0gzQQ?oc=5",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
       "id": "news-14tbcsk",
       "kind": "news",
       "date": "2026-10-04",
@@ -566,6 +925,29 @@
       "locationStr": "Ukrinform",
       "source": "Ukrinform",
       "sourceUrl": "https://www.ukrinform.net/rubric-polytics/4171002-sybiha-on-bridge-attacks-world-must-make-it-clear-to-russia-that-it-must-stop-escalation.html"
+    },
+    {
+      "id": "news-17woc17",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T16:29:46.000Z",
+      "description": "Russian Drone Strikes in Kherson and Chernihiv Injure 6 - Kyiv Post (Kyiv Post, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Post",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Post",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Chernihiv",
+      "source": "Kyiv Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE82VC1rTHBIb3Y3d2NKbXJXNVhRYmt2Y2RzZC1RS1ZPVnFYb2hVNFJZNy03cFh2ZWNmNlhjMHJBUWZQTFpxZmVieE9wZw?oc=5",
+      "lat": 51.49,
+      "lng": 31.29,
+      "coordsNote": "Headline gazetteer match: \"Chernihiv\" (city); verify via source article."
     },
     {
       "id": "news-13vpdu5",
@@ -896,25 +1278,6 @@
       "sourceUrl": "https://www.ukrinform.net/rubric-polytics/4170960-germany-working-to-accelerate-ukraines-accession-to-eu-merz.html"
     },
     {
-      "id": "news-k80l5r",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T14:59:34.000Z",
-      "description": "SBU Drones Hit Su-35, Su-34 Jets and Ammo Depot at Khanskaya Base - Kyiv Post (Kyiv Post, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Post",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4wbElBV3lpUVFFUVlVSHQ3UVp2Y091emhJMWlvc3JDTDJEaFlMYlNxODNvNXZLRlNQeTRRTzlZQVdEREcxUXEzR1VSUQ?oc=5"
-    },
-    {
       "id": "news-17oub1j",
       "kind": "news",
       "date": "2026-10-04",
@@ -1060,49 +1423,11 @@
       "coordsNote": "OSM geocode: matched \"Oleshky\" → Oleshky, Oleshky urban hromada, Kherson Raion; © OpenStreetMap contributors."
     },
     {
-      "id": "news-11elsur",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T14:32:41.000Z",
-      "description": "Zelensky Warns Moscow Faces Reciprocal Strikes on Bridges, Networks - Kyiv Post (Kyiv Post, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Post",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1LU2c4MjZlVHUwTnZtTVVOS1I1UnItb05vQnhPV1FjMWppcVhFUWNPTncyRUd3cnpYWXE5bUdXQkZjd2NPWjFYSTZwYw?oc=5"
-    },
-    {
-      "id": "news-bb3eup",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T14:32:41.000Z",
-      "description": "Domestic Missiles to Fight Jet Drones by Late October, Zelensky Says - Kyiv Post (Kyiv Post, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Post",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE44Q2hiVHVycTdhTDhjYVRrUU4xQ0ZNZy1kN3NSTUg1NzdrbTlFdGR6YzJnTG9OeENVTGNGR2VjeEZtYmRtMGtOYmlVTQ?oc=5"
-    },
-    {
       "id": "news-sqs1ds",
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T14:32:34.000Z",
-      "description": "Drones Strike Russian Khanskaya Air Base in Adygea - Kyiv Post (Kyiv Post, 2026-10-04. Headline + link only.)",
+      "description": "Fire Erupts as Drones Strike Russian Air Base in Adygea - Kyiv Post (Kyiv Post, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Kyiv Post",
@@ -1226,6 +1551,25 @@
       "lat": 50.45,
       "lng": 30.52,
       "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
+    },
+    {
+      "id": "news-1hr03uw",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T14:11:56.000Z",
+      "description": "India moves beyond advocacy, steps up efforts to end Ukraine war: S Jaishankar - Deccan Herald (Deccan Herald, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Deccan Herald",
+      "axis": "Other",
+      "tags": [
+        "Deccan Herald",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Deccan Herald",
+      "source": "Deccan Herald",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRXU1bmhLXzRGSmV2bTFycUNRcHF1VmhZVWtyZ18wY0ZVR1JWV2VIM3lfeDlhWWExLVo1emJVblRaQzF0aG9qNG1iNEFINy0xNHh3ZVBrOUx0YWpOWGpyRnNDMERXWHZ6TDRzMDd6TWxzVjc1OGdEWm5vSnZSNnJsNkxyZ3Q2TzRIa3RaWWFPd2Z3VUFKTExYVV9NWDAxN0toSGROcnRmcG8zb2dOS1U2T003OEFlQ0V0emJV?oc=5"
     },
     {
       "id": "news-13r3l5y",
@@ -1434,7 +1778,7 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T13:18:47.000Z",
-      "description": "Germany announces $1.46 billion in aid for Ukraine, including interceptor drones - The Kyiv Independent (The Kyiv Independent, 2026-10-04. Headline + link only.)",
+      "description": "Germany announces $1.46 billion in aid for Ukraine, including interceptor drones, air defense missiles - The Kyiv Independent (The Kyiv Independent, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "The Kyiv Independent",
@@ -2341,6 +2685,25 @@
       "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
     },
     {
+      "id": "news-1e0t8om",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T11:00:00.000Z",
+      "description": "As Zelensky’s war chest runs dry, Ukraine braces for a winter of austerity - telegraph.co.uk (telegraph.co.uk, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "telegraph.co.uk",
+      "axis": "Other",
+      "tags": [
+        "telegraph.co.uk",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "telegraph.co.uk",
+      "source": "telegraph.co.uk",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdjlVV2NQV2ZGaE5KbHdnd3czY1VlOW9mSjB6VjdmdkNDWVM2UW5pS1BySk1ydDFPSWtfVGJCTUZ4WjVITVUzZjJJdUxpelJsY1VhTTNlZlA4emlEQkZaMWNuTlQtOTl2ZzZ6c0VzWkZTblFieFBrTmsxeV9CTmNpeXgzZUtGX2wtdUl1eDZBT19GRUxnT0xGZUxpbDA1WTNRWHlMR3IwRFV0Mk5x?oc=5"
+    },
+    {
       "id": "news-f0gjxy",
       "kind": "news",
       "date": "2026-10-04",
@@ -2387,18 +2750,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T10:50:11.000Z",
-      "description": "Ukraine war vets stop in Hawaii to speak about experiences - Honolulu Star-Advertiser (Honolulu Star-Advertiser, 2026-10-04. Headline + link only.)",
+      "description": "Ukraine war vets stop in Hawaii to speak about experiences - staradvertiser.com (staradvertiser.com, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Honolulu Star-Advertiser",
+      "actor": "staradvertiser.com",
       "axis": "Other",
       "tags": [
-        "Honolulu Star-Advertiser",
+        "staradvertiser.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Honolulu Star-Advertiser",
-      "source": "Honolulu Star-Advertiser",
+      "locationStr": "staradvertiser.com",
+      "source": "staradvertiser.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSGpYMXZUa3QyYVY5TVFRckN1M1g4ZzhGVkxGUnY0MmZ0STlWNDUtVFl3akpPRjBpWmowMDFNb01sQVRqcmIyTHZBOEQzVm9Kbnd2UzFlYzdydG82NGY5WmZ4WE9Pemk0MTJhTUlXWUFiOExGd3pmQ3cwV2g5cmw4bEhnMnVORXgyZFlmOWIybTQyZ3RCTGVXUkpoOG16a0hIbWJhVDljbXQwd0R3aTVfSmNxMA?oc=5"
     },
     {
@@ -2438,29 +2801,6 @@
       "locationStr": "Ukrainska Pravda",
       "source": "Ukrainska Pravda",
       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/04/8056393/"
-    },
-    {
-      "id": "news-17woc17",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T10:30:00.000Z",
-      "description": "Russian Drone Strikes in Kherson and Chernihiv Injure 6 - Kyiv Post (Kyiv Post, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Chernihiv",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE82VC1rTHBIb3Y3d2NKbXJXNVhRYmt2Y2RzZC1RS1ZPVnFYb2hVNFJZNy03cFh2ZWNmNlhjMHJBUWZQTFpxZmVieE9wZw?oc=5",
-      "lat": 51.49,
-      "lng": 31.29,
-      "coordsNote": "Headline gazetteer match: \"Chernihiv\" (city); verify via source article."
     },
     {
       "id": "news-1aslzqd",
@@ -2734,19 +3074,19 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T09:49:35.000Z",
-      "description": "Russian strike hits Kyiv amid Chancellor Merz visit - France 24 (France 24, 2026-10-04. Headline + link only.)",
+      "description": "Russian strike hits Kyiv amid Chancellor Merz visit - france24.com (france24.com, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "France 24",
+      "actor": "france24.com",
       "axis": "Other",
       "tags": [
-        "France 24",
+        "france24.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Kyiv",
-      "source": "France 24",
+      "source": "france24.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPb3VySXhWOElXZUYwSFhpNWw4V2REX0I2NUg4MEs0QmZzbHBMSlJJNjFGei1TaU4xVnZVdGlQTExwSHJzZEpZQWp3TllIX0MtajlFY1M0VDZHZWlCMjliRmYySHhraUNNcWh3RGZ1YkZjNVNzakRsU0ZlZmM1M0JkcDhULU9mUQ?oc=5",
       "lat": 50.45,
       "lng": 30.52,
@@ -2789,29 +3129,6 @@
       "locationStr": "Yahoo News Canada",
       "source": "Yahoo News Canada",
       "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4Tzl0N0ZMWS1tdUd2LXJrdDYtSW81QmJYck9DTkxrWmh0RUdGYmpIVjAzZ1g3aHdlbGw1UWJPT0NXZk5aUnp4eUFZOFhCS2d4RUNfUUVsekd1U2psMFNEMjhOUGtwZnlYdlBhTDdxeTFpZzBsRVBkU1RaYkZNZw?oc=5"
-    },
-    {
-      "id": "news-1axcc7e",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T09:36:11.000Z",
-      "description": "German Chancellor pledges support for Ukraine as Russia intensifies strikes on Kyiv - AOL.com (AOL.com, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AOL.com",
-      "axis": "Other",
-      "tags": [
-        "AOL.com",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "AOL.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZUFrNm1FNEF6djFFbXh1dnZBRlQ0Vk5JWDRZQ082V2t0TjJvTWlOQzhKQkF0al9NMUxrdWFTRjBhV3RQY0NTZ2xocDlpOXFjUlU1VEJZQmc0WU9NOElKWWhkOXp1NDJpLTAwOXlVQ3JGbDRWS0djenpHckxPanR6czBRcVlia0ROcVZzX0t3?oc=5",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
     },
     {
       "id": "news-1xdwvs2",
@@ -2879,18 +3196,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T09:26:00.000Z",
-      "description": "How deadlock in the Ukraine war is crippling global food prices - The Independent (The Independent, 2026-10-04. Headline + link only.)",
+      "description": "How deadlock in the Ukraine war is crippling global food prices - independent.co.uk (independent.co.uk, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Independent",
+      "actor": "independent.co.uk",
       "axis": "Other",
       "tags": [
-        "The Independent",
+        "independent.co.uk",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Independent",
-      "source": "The Independent",
+      "locationStr": "independent.co.uk",
+      "source": "independent.co.uk",
       "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWlJQeE03TXNYSzJwOVg2T1hPV0ttRVlLVXY2bnNpLW5QbzY0SFJXZ3VORnlYNWswVFNmZzQzdDJsZVFqUmxkRl9RYmxJQjVBX2VvcFhxS09qTEZxVEQwQmxxME5HM0tzVngyZVEwTU11QnZyTllVQ1k2ZHRTRUhzYkZETE5zdlhyVjRxTTRoNnZaRmZ0ZUZ5YVVLS21GR09m?oc=5"
     },
     {
@@ -3081,29 +3398,6 @@
       "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
     },
     {
-      "id": "news-2bw56",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T08:50:00.000Z",
-      "description": "Ukraine war latest: Russia vows 'massive strikes' on Kyiv - as German leader visits Ukrainian capital - Sky News (Sky News, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Sky News",
-      "axis": "Other",
-      "tags": [
-        "Sky News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "Sky News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYkNvMXI0RVFtbmhCMlg3eVN4ZGxnQ1RJZ1BYMTBRd25FYmk0SEhjQWJGc2RnYU5xbTNvSi05TTI2TzRWWlBBQk8zald4OUNtR2JEdnlqeXl5cjZBbW1aNGpoYUFGOGxhSzVvNGFSNDZjdzBwY1BNOEZQWDI3clJwbjRFeFVUeHNqZllRYmdEV3UwV2JNRjFfTDhRbmZuR0YyRDVoVFJRYVQ0ZVJTSzZZSmt6UE9JVnlfMGM5VGJNVGJ0YUxkQ0tWZnhrT0Y?oc=5",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
       "id": "news-yjhnlj",
       "kind": "news",
       "date": "2026-10-04",
@@ -3159,6 +3453,29 @@
       "locationStr": "Kyiv Post",
       "source": "Kyiv Post",
       "sourceUrl": "https://www.kyivpost.com/post/86059"
+    },
+    {
+      "id": "news-1ry6wvh",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T08:38:43.000Z",
+      "description": "Merz unveils new aid for Ukraine as Russia strikes Kyiv during German leader's visit - france24.com (france24.com, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "france24.com",
+      "axis": "Other",
+      "tags": [
+        "france24.com",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kyiv",
+      "source": "france24.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMWxQNTlyaTFIVGV6Qzc2NXNId19TNUFDZFpZTm1ialdpbnRKV0sxaVNOR0I5Q0NHTXJvRHd1dHpZaXhKajJLZFh0VFh4YWJ4M0I1eWtNQ1ZwaXhsUmQ4VXFYZ0ZTUm43WUNTRGtma0JwM3MxUEJWbllZMzhpUWtXM2JFa21GYmVaOC04X1QzTjN4Q0YxcjVOWmpDV1dOeXBvbExBWDVqaTFVN0Y0LThsY3VuQ1g0VVpoeEFZNjMyQXhWbERGUzE0?oc=5",
+      "lat": 50.45,
+      "lng": 30.52,
+      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
     },
     {
       "id": "news-ds9yiw",
@@ -3863,6 +4180,29 @@
       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/04/8056364/"
     },
     {
+      "id": "news-1bcp4e4",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T05:45:27.000Z",
+      "description": "Germany's chancellor arrives in Kyiv on unannounced visit to pledge more military support to Ukraine - dw.com (dw.com, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "dw.com",
+      "axis": "Other",
+      "tags": [
+        "dw.com",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kyiv",
+      "source": "dw.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSW1Yc3VXRjkway1CS2duckVLNzR4UVh6QUM1VUwxTERiN29CNnh0TktNaGtTTm95VFN2VmZFYmM5WklmWFF1U3g5bEg1LXA1dmNOQmpDZkdYbmZGTWJ5YXpEalBxUVR6Wk5BYS1mVHFMNlJIWVpnT01jTXAxN3EzWkRaaXJxc0xHcUMw0gGLAUFVX3lxTE5iOFViZnpDS25xOG9WTEJkSklhVENLNm9CcFdvOGpVdzdiQlV4QWhOeVc3NUNHTkRGNzRwNmFHczYwMjY1U3dvd0REMnk3RjRqcHZYVlZPa0ozdjcxREF3WWFlbTJjOGdHSkQxSHQyV1d3S001aUF5dWFaTmx0LUg3RHJWYnZDRWZzMGc?oc=5",
+      "lat": 50.45,
+      "lng": 30.52,
+      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
+    },
+    {
       "id": "news-1kz8d6f",
       "kind": "news",
       "date": "2026-10-04",
@@ -3884,6 +4224,25 @@
       "lat": 50.45,
       "lng": 30.52,
       "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
+    },
+    {
+      "id": "news-moo6wf",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T05:45:00.000Z",
+      "description": "One casualty every 23 minutes: Civilians fatalities mount as Ukraine war intensifies - The Times of India (The Times of India, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times of India",
+      "axis": "Other",
+      "tags": [
+        "The Times of India",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Times of India",
+      "source": "The Times of India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNeTc0bkR2VDRVNTY4S3JNR2VnNGQxWUxiTWZ5Nl94R29hWUJnenJHSXZ1YkIxUTJ2N3ItNXBvY3FaQVpuWm1wWml0S2gwX3NLbFNHWUdnc1BiQ09uZ29wTTA2LVJxdHNGSm03Z21YYktiMHJYbGRTcTBRNDZpVnZhT1JneDJVNlRfenBQVVZoOVZsM0M3RlpGRFdQTndxUmcyQW4weWR6VTVjc2UwLUhPUllWYWVHa1BWSXBYVnpCVkoya0FzVWYzZkdlVC1YUTNmRTZEXzZXSGxlcWtyWTFxcjBjVzhpNzN1TzVVcEJZMNIB9AFBVV95cUxNOW5vdkkwb25Dcm1Sd2tzTGtwTVVueFgzVGRjdVl6REt5SjdxWExQWXIwZHRxd21zV1JZNklma2JOUFBocTM4bHUwanNDNkFpbE5kSU9HZnNkcy1SVEFPcWJOaEVKMGxVT2M4S1FsVUFDSUczTmNzOTh6TE84NU81bkJSb2pNdXVGRUFjSlpGT1BJbXBYZjVibmdmNE9CRDkyVU5pNnJQa3ZSbnNla0Yyc1dfUzhnT0l2TjZMbTZscFFBZFYycVd4MTR5bVRpdGtqQVpTMlVfVHhZQ3JVWnZNMlZrcnZQX0V5dk50ekNtUnJlZEhS?oc=5"
     },
     {
       "id": "news-1o3i2s0",
@@ -3926,29 +4285,6 @@
       "locationStr": "Ukrinform",
       "source": "Ukrinform",
       "sourceUrl": "https://www.ukrinform.net/rubric-ato/4170803-russias-war-casualty-toll-in-ukraine-up-by-1750-over-past-day.html"
-    },
-    {
-      "id": "news-1bcp4e4",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T05:38:54.000Z",
-      "description": "Germany's chancellor arrives in Kyiv on unannounced visit to pledge more military support to Ukraine - dw.com (dw.com, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "dw.com",
-      "axis": "Other",
-      "tags": [
-        "dw.com",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "dw.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSW1Yc3VXRjkway1CS2duckVLNzR4UVh6QUM1VUwxTERiN29CNnh0TktNaGtTTm95VFN2VmZFYmM5WklmWFF1U3g5bEg1LXA1dmNOQmpDZkdYbmZGTWJ5YXpEalBxUVR6Wk5BYS1mVHFMNlJIWVpnT01jTXAxN3EzWkRaaXJxc0xHcUMw0gGLAUFVX3lxTE5iOFViZnpDS25xOG9WTEJkSklhVENLNm9CcFdvOGpVdzdiQlV4QWhOeVc3NUNHTkRGNzRwNmFHczYwMjY1U3dvd0REMnk3RjRqcHZYVlZPa0ozdjcxREF3WWFlbTJjOGdHSkQxSHQyV1d3S001aUF5dWFaTmx0LUg3RHJWYnZDRWZzMGc?oc=5",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
     },
     {
       "id": "news-1xdwvr4",
@@ -4073,19 +4409,19 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T05:00:01.000Z",
-      "description": "Ukraine’s surprise robot offensive exposes a vulnerability in Putin’s war machine - CNBC (CNBC, 2026-10-04. Headline + link only.)",
+      "description": "Ukraine’s surprise robot offensive exposes a vulnerability in Putin’s war machine - cnbc.com (cnbc.com, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "CNBC",
+      "actor": "cnbc.com",
       "axis": "Other",
       "tags": [
-        "CNBC",
+        "cnbc.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Putin’s",
-      "source": "CNBC",
+      "source": "cnbc.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdTFtV1pwZjU2aTNjWFRaQWRScS1vakQ3R3hXUXJKXzdtX2taOEhjUU9RdjhCUk1nYW8yNlhWOTdFbmlWRjVOVjRZYVF3M1hWTTdsUHBlX0E0cUV4dGRHNEpOUmNQRFVwcE1SMkIyNHNzX1UyMFhxaWdHMU1fX1pESFR1RDI3VHI5YzNXetIBkgFBVV95cUxOSlpxRWpGdkRZeVNaYkM1bTlzT3ROMWM3WjFTRlFHZENhOWx4X2hyNV9QNkx3YWROakhRdURnUDZyVXNWNVRVZmE3STJINWZOdUF0RGZOWHVMcTMwWjkxUEd2TUYyenY3eGJOc0pfa2hKaUZ4Y0tleDFtNDNXX2hVa2c4YVozeW5sMUt1SnZLRF9lQQ?oc=5",
       "lat": 44.42202,
       "lng": 38.20476,
@@ -19199,6 +19535,1264 @@
       }
     },
     {
+      "id": "gdelt-1326276180",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Threat — Foreign National → Russian forces near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Threat (GDELT 130)",
+      "actor": "Foreign National",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.europesun.com/news/279351187/russia-strikes-kyiv-bridge-as-merz-visits-ukrainian-capital",
+      "gdelt": {
+        "globalEventId": "1326276180",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -4.87,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276181",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Threat — Foreign National → Russian forces near Dnipro, Ukraine (general), Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46.4975,
+      "lng": 32.3086,
+      "action": "Threat (GDELT 130)",
+      "actor": "Foreign National",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dnipro, Ukraine (general), Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.europesun.com/news/279351187/russia-strikes-kyiv-bridge-as-merz-visits-ukrainian-capital",
+      "gdelt": {
+        "globalEventId": "1326276181",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -4.87,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276300",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Fight — Russian forces → Civilian near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theglobeandmail.com/world/article-germany-merz-ukraine-zelensky-aid/",
+      "gdelt": {
+        "globalEventId": "1326276300",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.53,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276342",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Fight — Ukraine → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.europesun.com/news/279351187/russia-strikes-kyiv-bridge-as-merz-visits-ukrainian-capital",
+      "gdelt": {
+        "globalEventId": "1326276342",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.87,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326277664",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:30:00.000Z",
+      "description": "Rejection — American → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Rejection (GDELT 120)",
+      "actor": "American",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.com/german-chancellor-visits-missile-prone-kyiv-german-ukrainian-alliance-now-faces-political-3808213",
+      "gdelt": {
+        "globalEventId": "1326277664",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -1.14,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326279553",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:00:00.000Z",
+      "description": "Threat — Russian forces → Ukraine near Odesa, Odes'ka Oblast, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46.4639,
+      "lng": 30.7386,
+      "action": "Threat (GDELT 130)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Odesa, Odes'ka Oblast, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.wtxl.com/world/europe/russian-drone-slams-into-kyiv-bridge-in-escalating-campaign-as-germanys-chancellor-arrives-to-sirens",
+      "gdelt": {
+        "globalEventId": "1326279553",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.12,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326279644",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:00:00.000Z",
+      "description": "Rejection — Ukraine → German near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.wtxl.com/world/europe/russian-drone-slams-into-kyiv-bridge-in-escalating-campaign-as-germanys-chancellor-arrives-to-sirens",
+      "gdelt": {
+        "globalEventId": "1326279644",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -3.12,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326281756",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:30:00.000Z",
+      "description": "Fight — Russian forces → Germany near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.azernews.az/region/264967.html",
+      "gdelt": {
+        "globalEventId": "1326281756",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 3.09,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326281759",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:30:00.000Z",
+      "description": "Threat — Russian forces → Diplomat near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Threat (GDELT 130)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.business-standard.com/world-news/russia-vows-to-intensify-strikes-warns-diplomats-against-kyiv-travel-126100400771_1.html",
+      "gdelt": {
+        "globalEventId": "1326281759",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.97,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326281764",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:30:00.000Z",
+      "description": "Fight — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.business-standard.com/world-news/russia-vows-to-intensify-strikes-warns-diplomats-against-kyiv-travel-126100400771_1.html",
+      "gdelt": {
+        "globalEventId": "1326281764",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.97,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326281765",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:30:00.000Z",
+      "description": "Disapproval — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.business-standard.com/world-news/russia-vows-to-intensify-strikes-warns-diplomats-against-kyiv-travel-126100400771_1.html",
+      "gdelt": {
+        "globalEventId": "1326281765",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.97,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326283713",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:00:00.000Z",
+      "description": "Demand — Protester → Unspecified near Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Demand (GDELT 1053)",
+      "actor": "Protester",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eng.kavkaz-uzel.eu/articles/79119",
+      "gdelt": {
+        "globalEventId": "1326283713",
+        "eventCode": "1053",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -3.03,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326283714",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:00:00.000Z",
+      "description": "Demand — Political Prisoner → Unspecified near Ukraine. Machine-coded by GDELT 2.1 (13 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Demand (GDELT 1053)",
+      "actor": "Political Prisoner",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eng.kavkaz-uzel.eu/articles/79119",
+      "gdelt": {
+        "globalEventId": "1326283714",
+        "eventCode": "1053",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -3.03,
+        "mentions": 13,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285142",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Threat — Unspecified → Diplomat near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mirror.co.uk/news/world-news/ukraine-russia-vladimir-putin-zelensky-37733927",
+      "gdelt": {
+        "globalEventId": "1326285142",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.75,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285265",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Force posture — Germany → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Germany",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/india/external-affairs-minister-s-jaishankar-says-us-has-chosen-to-become-lonelier-power/articleshow/134680336.cms",
+      "gdelt": {
+        "globalEventId": "1326285265",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -0.97,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285432",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Threat — Iran → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Threat (GDELT 130)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mirror.co.uk/news/world-news/ukraine-russia-vladimir-putin-zelensky-37733927",
+      "gdelt": {
+        "globalEventId": "1326285432",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.75,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285433",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Threat — Iran → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Threat (GDELT 130)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mirror.co.uk/news/world-news/ukraine-russia-vladimir-putin-zelensky-37733927",
+      "gdelt": {
+        "globalEventId": "1326285433",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.75,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285434",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Threat — Iran → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Threat (GDELT 130)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mirror.co.uk/news/world-news/ukraine-russia-vladimir-putin-zelensky-37733927",
+      "gdelt": {
+        "globalEventId": "1326285434",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.75,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285569",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Threat — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Threat (GDELT 138)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mirror.co.uk/news/world-news/ukraine-russia-vladimir-putin-zelensky-37733927",
+      "gdelt": {
+        "globalEventId": "1326285569",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -5.75,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285570",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Threat — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Threat (GDELT 138)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mirror.co.uk/news/world-news/ukraine-russia-vladimir-putin-zelensky-37733927",
+      "gdelt": {
+        "globalEventId": "1326285570",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -5.75,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285572",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Assault — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Assault (GDELT 180)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mirror.co.uk/news/world-news/ukraine-russia-vladimir-putin-zelensky-37733927",
+      "gdelt": {
+        "globalEventId": "1326285572",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -5.75,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285573",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Assault — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Assault (GDELT 180)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mirror.co.uk/news/world-news/ukraine-russia-vladimir-putin-zelensky-37733927",
+      "gdelt": {
+        "globalEventId": "1326285573",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -5.75,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285576",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Coercion — Moscow → Russian forces near Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Coercion (GDELT 175)",
+      "actor": "Moscow",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.breitbart.com/europe/2026/10/04/dozens-detained-at-communist-party-rally-in-moscow/",
+      "gdelt": {
+        "globalEventId": "1326285576",
+        "eventCode": "175",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -5.28,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285600",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Fight — Ukraine → German near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mirror.co.uk/news/world-news/ukraine-russia-vladimir-putin-zelensky-37733927",
+      "gdelt": {
+        "globalEventId": "1326285600",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.75,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285601",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Fight — Ukraine → German near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mirror.co.uk/news/world-news/ukraine-russia-vladimir-putin-zelensky-37733927",
+      "gdelt": {
+        "globalEventId": "1326285601",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.75,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285602",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Fight — Ukraine → Germany near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mirror.co.uk/news/world-news/ukraine-russia-vladimir-putin-zelensky-37733927",
+      "gdelt": {
+        "globalEventId": "1326285602",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.75,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285603",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Fight — Ukraine → German near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mirror.co.uk/news/world-news/ukraine-russia-vladimir-putin-zelensky-37733927",
+      "gdelt": {
+        "globalEventId": "1326285603",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.75,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326285605",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:30:00.000Z",
+      "description": "Assault — Ukraine → Russian forces near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Assault (GDELT 180)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mirror.co.uk/news/world-news/ukraine-russia-vladimir-putin-zelensky-37733927",
+      "gdelt": {
+        "globalEventId": "1326285605",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -5.75,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326286287",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:45:00.000Z",
+      "description": "Disapproval — The Un → Unspecified near Ukraine. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "The Un",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.jpost.com/opinion/article-910582",
+      "gdelt": {
+        "globalEventId": "1326286287",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.41,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326286421",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:45:00.000Z",
+      "description": "Disapproval — Russian forces → Vladimir Putin near Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailybeast.com/warmongering-vladimir-putin-accused-of-massive-pneumonic-plague-cover-up-in-siberia/",
+      "gdelt": {
+        "globalEventId": "1326286421",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -7.97,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326286422",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:45:00.000Z",
+      "description": "Disapproval — Russian forces → Ukraine near Sumy, Sums'ka Oblast', Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.9216,
+      "lng": 34.8003,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sumy, Sums'ka Oblast', Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/india/1-dead-as-russian-drones-hit-desi-pharma-plant-in-ukraine/articleshow/134680367.cms",
+      "gdelt": {
+        "globalEventId": "1326286422",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -7.22,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326286425",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:45:00.000Z",
+      "description": "Disapproval — Russian forces → Ukraine near Sumy, Sums'ka Oblast', Ukraine. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.9216,
+      "lng": 34.8003,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sumy, Sums'ka Oblast', Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/india/1-dead-as-russian-drones-hit-desi-pharma-plant-in-ukraine/articleshow/134680367.cms",
+      "gdelt": {
+        "globalEventId": "1326286425",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -7.22,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326286427",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:45:00.000Z",
+      "description": "Fight — Russian forces → Ukraine near Sumy, Sums'ka Oblast', Ukraine. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.9216,
+      "lng": 34.8003,
+      "action": "Fight (GDELT 190)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sumy, Sums'ka Oblast', Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/india/1-dead-as-russian-drones-hit-desi-pharma-plant-in-ukraine/articleshow/134680367.cms",
+      "gdelt": {
+        "globalEventId": "1326286427",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -7.22,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326286429",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:45:00.000Z",
+      "description": "Disapproval — Russian forces → Vladimir Putin near Ukraine. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailybeast.com/warmongering-vladimir-putin-accused-of-massive-pneumonic-plague-cover-up-in-siberia/",
+      "gdelt": {
+        "globalEventId": "1326286429",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -7.97,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326286441",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:45:00.000Z",
+      "description": "Assault — Ukraine → Producer near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Assault (GDELT 182)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailybeast.com/fox-news-star-blamed-for-producer-oleksha-sasha-kuvshynovas-death-in-explosive-report/",
+      "gdelt": {
+        "globalEventId": "1326286441",
+        "eventCode": "182",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -6.83,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326286442",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:45:00.000Z",
+      "description": "Assault — Ukraine → Producer near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Assault (GDELT 182)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailybeast.com/fox-news-star-blamed-for-producer-oleksha-sasha-kuvshynovas-death-in-explosive-report/",
+      "gdelt": {
+        "globalEventId": "1326286442",
+        "eventCode": "182",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -6.83,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326286443",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T21:45:00.000Z",
+      "description": "Fight — Ukraine → Producer near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailybeast.com/fox-news-star-blamed-for-producer-oleksha-sasha-kuvshynovas-death-in-explosive-report/",
+      "gdelt": {
+        "globalEventId": "1326286443",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.83,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-p09qr5",
       "kind": "news",
       "date": "2026-10-03",
@@ -19428,6 +21022,25 @@
       "sourceUrl": "https://www.kyivpost.com/thread/86047"
     },
     {
+      "id": "news-2bw56",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T21:11:37.000Z",
+      "description": "Ukraine war latest: US 'proposes fresh Russia-Ukraine talks' says Zelenskyy - Sky News (Sky News, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Sky News",
+      "axis": "Other",
+      "tags": [
+        "Sky News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Sky News",
+      "source": "Sky News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYkNvMXI0RVFtbmhCMlg3eVN4ZGxnQ1RJZ1BYMTBRd25FYmk0SEhjQWJGc2RnYU5xbTNvSi05TTI2TzRWWlBBQk8zald4OUNtR2JEdnlqeXl5cjZBbW1aNGpoYUFGOGxhSzVvNGFSNDZjdzBwY1BNOEZQWDI3clJwbjRFeFVUeHNqZllRYmdEV3UwV2JNRjFfTDhRbmZuR0YyRDVoVFJRYVQ0ZVJTSzZZSmt6UE9JVnlfMGM5VGJNVGJ0YUxkQ0tWZnhrT0Y?oc=5"
+    },
+    {
       "id": "news-1v8b78g",
       "kind": "news",
       "date": "2026-10-03",
@@ -19487,6 +21100,29 @@
       "lat": 48.46,
       "lng": 35.05,
       "coordsNote": "Headline gazetteer match: \"Dnipropetrovsk\" (region); verify via source article."
+    },
+    {
+      "id": "news-n4v8pl",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T20:17:31.000Z",
+      "description": "Russia Turns to Striking Kyiv’s Bridges, Threatening a Vital Lifeline - The New York Times (The New York Times, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kyiv",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbXVpakVXTEFmeS1tM2JITW1LUmZManF3c2NCVEYxOUVMdG50azJUOW1lZzQ4WDY1V1QwdHFBT1RlQ3RTcDFLeWhjZ0dUemJ5bUtxTmZCWHQ0emZHUm5pSENFOUwyM1VUWGdBcDVoUXN3TWgwUW16bDlzM0Zza3FRYXZxbVlKWEE?oc=5",
+      "lat": 50.45,
+      "lng": 30.52,
+      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
     },
     {
       "id": "news-gqo0qp",
@@ -21189,29 +22825,6 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY1dra1RzVC05OFBqZHVaNmNmTkZINEVMTU96OEJrcGJ6Y0VKdW1GRm1KUUJSMmxGaWhlV280a055akZhODg5bnlGWU05cVlMQUhZcE9ieHQzV3I2d01KTUtkSTNZQXM4V0RqVUJhRWMxOVNVUEZiUktKNDM2aTdtaWNBLTdiZVBBY29lYVFRb3lBZDd4V0ZWZVNNVGNyX1BLT2todGp0RE5Gd3lwWHpTZUl5YWgtbHpkcFJGQQ?oc=5"
     },
     {
-      "id": "news-n4v8pl",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T11:59:07.000Z",
-      "description": "Russia Turns to Striking Kyiv’s Bridges, Threatening a Vital Lifeline - The New York Times (The New York Times, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbXVpakVXTEFmeS1tM2JITW1LUmZManF3c2NCVEYxOUVMdG50azJUOW1lZzQ4WDY1V1QwdHFBT1RlQ3RTcDFLeWhjZ0dUemJ5bUtxTmZCWHQ0emZHUm5pSENFOUwyM1VUWGdBcDVoUXN3TWgwUW16bDlzM0Zza3FRYXZxbVlKWEE?oc=5",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
       "id": "news-gvfkyx",
       "kind": "news",
       "date": "2026-10-03",
@@ -22352,7 +23965,7 @@
       "id": "news-1ynbbnc",
       "kind": "news",
       "date": "2026-10-03",
-      "isoDate": "2026-10-03T09:03:58.000Z",
+      "isoDate": "2026-10-03T09:03:59.000Z",
       "description": "Trump, Putin, Ukraine and an Oil Deal: 5 Takeaways - The New York Times (The New York Times, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -23734,18 +25347,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T02:58:22.000Z",
-      "description": "Sandu: Russia Will Remain Major Threat to Europe Even After Ukraine War Ends - kyivpost.com (kyivpost.com, 2026-10-03. Headline + link only.)",
+      "description": "Sandu: Russia Will Remain Major Threat to Europe Even After Ukraine War Ends - Kyiv Post (Kyiv Post, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "kyivpost.com",
+      "actor": "Kyiv Post",
       "axis": "Other",
       "tags": [
-        "kyivpost.com",
+        "Kyiv Post",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "kyivpost.com",
-      "source": "kyivpost.com",
+      "locationStr": "Kyiv Post",
+      "source": "Kyiv Post",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA2Vm9oQ1ZRUTRFRFJJZ1VYUmNadEhRUHA4TDhXUWxZSWszOGZES2JoRjh3ZGtsY2VkMVpKNzdnb1lqZzB5NzVaMHFrcw?oc=5"
     },
     {
@@ -36770,18 +38383,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T15:29:29.000Z",
-      "description": "Ukraine war fatigue fuels defense-spending downgrade plan in Italy - defensenews.com (defensenews.com, 2026-10-02. Headline + link only.)",
+      "description": "Ukraine war fatigue fuels defense-spending downgrade plan in Italy - Defense News (Defense News, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "defensenews.com",
+      "actor": "Defense News",
       "axis": "Other",
       "tags": [
-        "defensenews.com",
+        "Defense News",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "defensenews.com",
-      "source": "defensenews.com",
+      "locationStr": "Defense News",
+      "source": "Defense News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNTZUSktNYzVWWlp6V0c4ZzJ0T1VQREpFY3VQWmlEdmwyWENTVWc2SjR5WlcxenZvZHZTVlFYY0JUNzhrRVB3Nl9UdlNQTjFMSE9Pa21WNWhTZkk0Q3hqbURkQzlqNkJHVnYweE81aVBPaFY4X3pZUjlYTHlWd05oREVMX3RVa05NNjZWMFVTb3AyVGJIc1JJM3ZJTEk2T2JwVi0weEtCNURvZ214OEhNbVRldWJRcU5wbG1lOQ?oc=5"
     },
     {
@@ -39877,1123 +41490,6 @@
       "locationStr": "Interfax-Ukraine",
       "source": "Interfax-Ukraine",
       "sourceUrl": "https://en.interfax.com.ua/news/economic/1213283.html"
-    },
-    {
-      "id": "news-kfb0ad",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T07:01:20.000Z",
-      "description": "Attack shuts Kyiv's Southern Bridge, curbs two others (Interfax-Ukraine, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Interfax-Ukraine",
-      "axis": "Other",
-      "tags": [
-        "Interfax-Ukraine",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Interfax-Ukraine",
-      "source": "Interfax-Ukraine",
-      "sourceUrl": "https://en.interfax.com.ua/news/general/1213277.html"
-    },
-    {
-      "id": "news-1hjvkbz",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T07:01:09.000Z",
-      "description": "Russian Offensive Campaign Assessment, October 1, 2026 - Institute for the Study of War (Institute for the Study of War, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Institute for the Study of War",
-      "axis": "Other",
-      "tags": [
-        "Institute for the Study of War",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Institute for the Study of War",
-      "source": "Institute for the Study of War",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORGJ6V2ozc1EweDNqNHhNU0VzMGZ0N3pudGtONFFRNHZfdEl2Y3ZpN3VtaUJqeGlyUE5DcXlVaHFpT3hJQmthb3JOTHpmTUd1YTZ3Z0lRZUlXa3FFUlltTDlIMlFUZXF3LUdONGd0Ml9HVXlxMGlELUxoYm9namVBTUktczd4LTltMjAxa1VJTFNsZDRrdk12R2lsZU0wQmxKcjNfSnlNYmZoZw?oc=5"
-    },
-    {
-      "id": "news-13ub85v",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:59:13.000Z",
-      "description": "Poroshenko calls on European Parliament to discuss humanitarian situation in Ukraine and Oleshky (Interfax-Ukraine, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Interfax-Ukraine",
-      "axis": "Other",
-      "tags": [
-        "Interfax-Ukraine",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Interfax-Ukraine",
-      "source": "Interfax-Ukraine",
-      "sourceUrl": "https://en.interfax.com.ua/news/general/1213284.html"
-    },
-    {
-      "id": "news-d71uew",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:52:00.000Z",
-      "description": "Russian attacks in Kharkiv region leave six people injured over past day (Ukrinform, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kharkiv region",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4170266-russian-attacks-in-kharkiv-region-leave-six-people-injured-over-past-day.html",
-      "lat": 49.99,
-      "lng": 36.23,
-      "coordsNote": "Headline gazetteer match: \"Kharkiv\" (region); verify via source article."
-    },
-    {
-      "id": "news-143pqg5",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:50:15.000Z",
-      "description": "Belarus tests a new path back to the West (Kyiv Independent, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Independent",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Independent",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Independent",
-      "source": "Kyiv Independent",
-      "sourceUrl": "https://kyivindependent.com/belarus-tests-a-new-path-back-to-the-west/"
-    },
-    {
-      "id": "news-1lupdo3",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:44:00.000Z",
-      "description": "Hungarian PM welcomes registration of bill on education in minority languages (Ukrainska Pravda, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/02/8056089/"
-    },
-    {
-      "id": "news-czzcm",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:43:07.000Z",
-      "description": "One killed, two injured in morning drone attack on Kyiv – prosecutor's office (Interfax-Ukraine, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Interfax-Ukraine",
-      "axis": "Other",
-      "tags": [
-        "Interfax-Ukraine",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "Interfax-Ukraine",
-      "sourceUrl": "https://en.interfax.com.ua/news/general/1213269.html",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
-      "id": "news-mnuowd",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:37:37.000Z",
-      "description": "General Staff: Russia has lost 1,537,390 troops in Ukraine since Feb. 24, 2022 (Kyiv Independent, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Independent",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Independent",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Independent",
-      "source": "Kyiv Independent",
-      "sourceUrl": "https://kyivindependent.com/general-staff-russia-has-lost-1-537-390-troops-in-ukraine-since-feb-24-2022/"
-    },
-    {
-      "id": "news-1xdwbhj",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:29:54.000Z",
-      "description": "646 Drones Swarm Russia as Fires Hit Europe’s Largest Tank Farm, Oil Facilities (Kyiv Post, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Post",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://www.kyivpost.com/post/85913"
-    },
-    {
-      "id": "news-1lupdn6",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:29:00.000Z",
-      "description": "Suspected drone falls in Romania, causing fire (Ukrainska Pravda, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/02/8056088/"
-    },
-    {
-      "id": "news-1p0znsw",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:23:04.000Z",
-      "description": "1682 Days of russia-Ukraine War – russian Casualties in Ukraine - Defense Express (Defense Express, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Defense Express",
-      "axis": "Other",
-      "tags": [
-        "Defense Express",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Defense Express",
-      "source": "Defense Express",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNk53QnY5cmdKR1JWS2ZWcm9sOE8tOER5RXFQWUE2VzljcUhMZG1KX2taVFN4dm82MzNmbzkxZTZYQmhWZEE3ZXQ4OWxxbTNVdHZDSzlBdHpEREJ5ckY2a2plVGxIWFVVQm0zdEhiOGtaMUZLWDFYb25OMy1sWkotWHhYby1SeWg1dldsRlNGdmFPNlhWMXlTWXhKUXJZUDl5cTlBdTBB?oc=5"
-    },
-    {
-      "id": "news-1plxhlj",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:19:00.000Z",
-      "description": "Russian drones damage three apartment buildings in Sumy overnight (Ukrinform, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Sumy",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4170261-russian-drones-damage-three-apartment-buildings-in-sumy-overnight.html",
-      "lat": 50.91,
-      "lng": 34.8,
-      "coordsNote": "Headline gazetteer match: \"Sumy\" (city); verify via source article."
-    },
-    {
-      "id": "news-1c3az2q",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:16:42.000Z",
-      "description": "Ukrainian air defense shoot down 88 out of 108 enemy targets; enemy aerial weapons recorded at 11 locations (Interfax-Ukraine, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Interfax-Ukraine",
-      "axis": "Other",
-      "tags": [
-        "Interfax-Ukraine",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Interfax-Ukraine",
-      "source": "Interfax-Ukraine",
-      "sourceUrl": "https://en.interfax.com.ua/news/general/1213256.html"
-    },
-    {
-      "id": "news-soar78",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:10:53.000Z",
-      "description": "Ukraine works to restore sanctions on Usmanov, Fridman, prepares list of over 20 Russian oligarchs – Sybiha (Interfax-Ukraine, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Interfax-Ukraine",
-      "axis": "Other",
-      "tags": [
-        "Interfax-Ukraine",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Interfax-Ukraine",
-      "source": "Interfax-Ukraine",
-      "sourceUrl": "https://en.interfax.com.ua/news/general/1213249.html"
-    },
-    {
-      "id": "news-1xdwbhh",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:08:59.000Z",
-      "description": "Russian Strike on European Arms Factory Would Trigger Article 5, EU Defense Chief Says (Kyiv Post, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Post",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://www.kyivpost.com/post/85911"
-    },
-    {
-      "id": "news-pfspvz",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:07:14.000Z",
-      "description": "Ukraine secures 20mm ammunition for F-16 jets to counter jet-powered drones – Sybiha (Interfax-Ukraine, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Interfax-Ukraine",
-      "axis": "Other",
-      "tags": [
-        "Interfax-Ukraine",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Interfax-Ukraine",
-      "source": "Interfax-Ukraine",
-      "sourceUrl": "https://en.interfax.com.ua/news/general/1213244.html"
-    },
-    {
-      "id": "news-1m77cyw",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:55:00.000Z",
-      "description": "ADF neutralizes 88 of 108 Russians drones used to attack Ukraine overnight (Ukrinform, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrinform",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4170249-adf-neutralizes-88-of-108-russians-drones-used-to-attack-ukraine-overnight.html"
-    },
-    {
-      "id": "news-b51cjb",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:55:00.000Z",
-      "description": "ADF neutralizes 88 of 108 Russians drones used to attack Ukraine overnight - Ukrinform (Ukrinform, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrinform",
-      "source": "Ukrinform",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWWlFWC1MR1hBTGEtMHBKSGRUUGY1Qmh4VmlrODR6MzRkajZfR0VJRjB1MGdpUFByb1pnV0tDaFhOMHFzRkJhMVYtV01uT1Q4azhBU0pRR1IyaXJHdklvblBvNGhja1hmUW53Y0laVzczRXlnVnNoeVdTcVdobWZZdl94VEdleHByQlFYZFIwd0JTOHlsRG16bkZyX2VyQmxIZHRCU0N6VkdwT1BFZWg0SDVYQjZWTXdkR3R2dVRNX1gzZ9IBxwFBVV95cUxPSlV5QnJsNFR3dWY1TWEzRGZac1hoMXFQUy1NTEE4Z1R0cHBJTnhKc1Q1YjM4MUlkMFNKekRyVnJRUEJLUXlpOWNXOWlLYUFCM3NHc1V3ZnRyUjNkTW9Na3dqa0Y0RDJ0NXlTYUMtaFB5TTVaQ0RPOFVxZXNfa1h2NS1XZDlGRi1HamZyVU9iMkZ2X2Z1QUFSYlpNXzByOHdrb2x1QmdiSXlCYnd4aGFYSTQxT0JaUWlNTnpjN2pmTUo2XzAwdjlv?oc=5"
-    },
-    {
-      "id": "news-r6zy5h",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:53:13.000Z",
-      "description": "Russian Attack Kills 1 in Kyiv High-Rise as 108 Drones Target Ukraine, 88 Downed or Jammed - Kyiv Post (Kyiv Post, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1iSGM2OWVQVDlqMW04MEJmSnRlbmtiaXNCYkM5dHYzOEtwY0VvSkpXa2lkOUtZYjBhQWc2X0QwNGNlbkJCNVB1a1VUYw?oc=5",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
-      "id": "news-15xylve",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:52:42.000Z",
-      "description": "Ukraine-Russia latest: South Korea vows to take ‘action’ against Kyiv - The Independent (The Independent, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Independent",
-      "axis": "Other",
-      "tags": [
-        "The Independent",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "The Independent",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORkxvU0xfTTNLQVhHaUplU2pkdFRieHMwNl9rYzFhbFVtNGVNeUVKUEtSazIzTzAxN2paMFRsTXNrRHAzdUxZLXVKLVh5U2ZLZ3VhZV83eVcwYnJyRW94a3AzVHNSSmFXV25WU004R2tmN0xoNUZBWEpxd0c2ZEtpMEVpeFRjV19UNHJTeGRycUNlM24xY0RjbU1GZ1R4ZnloOUxoODk1TlowaDNmN0FfMF9zZGlHV25ibTRmQzBpUQ?oc=5",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
-      "id": "news-1wnfuvn",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:52:42.000Z",
-      "description": "Ukraine-Russia latest: South Korea vows to take ‘action’ against Kyiv - the-independent.com (the-independent.com, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "the-independent.com",
-      "axis": "Other",
-      "tags": [
-        "the-independent.com",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "the-independent.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWUV5YUFpLXF4a1dYQVQ0Z0ZCMEN5RVdBb3VQdWQ2Rk5xUTRkZ2MwTlVZc2MxaFdJMmduWGR3MzJyREw1WFo1UGFkUkFrN1V4Z1hQZGVuVVhMVU1HbGdqeHRtQnNBNC1lV2ljaURpRURhdXljT0ZBd242Zm51YVd1MjZMYTlrYzFiX1RTcTdSVXRXajBScHF3ZmZVQkdjYmozVEVnLW1mWmlRTVVlZXZqaEo3NndrT3RrYUhFYmxOWmI4Zw?oc=5",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
-      "id": "news-1xdwbgq",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:48:33.000Z",
-      "description": "Russian Attack Kills 1 in Kyiv High-Rise, Shuts Down Bridges Across the Capital (Kyiv Post, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://www.kyivpost.com/post/85907",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
-      "id": "news-1ciqu1q",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:47:40.000Z",
-      "description": "Ukraine War, Day 1,681: Zelensky — Our Ballistic Missile Used for 1st Time v. Russia - EA WorldView (EA WorldView, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "EA WorldView",
-      "axis": "Other",
-      "tags": [
-        "EA WorldView",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "EA WorldView",
-      "source": "EA WorldView",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbXk1Z3RhMW11cVRvOHdoemEtZFNyTUhHU2R4ZmpuZzZwMWZabnBSVlc5UURVRHgwb0YzbC00MFVYdG5aTVJnWWgydnE3NC05X3FGS29UWGJhZS1wQXA1Y2E0Y1d5WjZUODVHdmtmVkhSZFhfM05UdFN4WmthUFZra2ltbXlLaldfNHAtZkNCZWhieTA5?oc=5"
-    },
-    {
-      "id": "news-wse4ve",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:36:00.000Z",
-      "description": "Civilian enterprise damaged, fire breaks out in Rivne region following Russian attack (Ukrinform, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Rivne region",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4170248-civilian-enterprise-damaged-fire-breaks-out-in-rivne-region-following-russian-attack.html",
-      "lat": 50.62,
-      "lng": 26.25,
-      "coordsNote": "Headline gazetteer match: \"Rivne\" (region); verify via source article."
-    },
-    {
-      "id": "news-1lupdfu",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:35:00.000Z",
-      "description": "One killed and two injured in Russian strike on Kyiv's Darnytskyi district – photos (Ukrainska Pravda, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/02/8056080/",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
-      "id": "news-ii8p21",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:30:42.000Z",
-      "description": "Russia is ‘tearing Kyiv apart’, mayor says, as Moscow’s bombing brings traffic to a halt - France 24 (France 24, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "France 24",
-      "axis": "Other",
-      "tags": [
-        "France 24",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "France 24",
-      "source": "France 24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMEJqdEdZZ090YTlGYmtxZzU2cDFZMEZUUC1zRTl0MUJpM0oyY0lES0xQNVNlczhJRTNCbTl4UmRKYkhXSjlQbGRfcE11X3hjNS1Ja2FaM0N3WXQ0V1pOcjZMc2lkUGVXSGFadzhxc3UzbmVHMF9DLVZ0MG5hVElvbmlPb0RnQjk4Y1djcEszZlZuY2tXZndIc084NTRqM2xkNExtWjF0NGpWUG9JbG95N1AzS1c3SjZNZ2V3Sw?oc=5"
-    },
-    {
-      "id": "news-1lupctu",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:25:00.000Z",
-      "description": "Ukraine's European integration minister expects Hungary to lift veto and remaining EU accession negotiating clusters to open by year-end (Ukrainska Pravda, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/02/8056079/"
-    },
-    {
-      "id": "news-9ti7ov",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:17:00.000Z",
-      "description": "Russian army loses 1,520 troops in war against Ukraine over past day (Ukrinform, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrinform",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4170247-russian-army-loses-1520-troops-in-war-against-ukraine-over-past-day.html"
-    },
-    {
-      "id": "news-1lupcsx",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:16:00.000Z",
-      "description": "Ukraine's General Staff reports 207 combat clashes on front over past 24 hours (Ukrainska Pravda, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/02/8056078/"
-    },
-    {
-      "id": "news-1lupcs0",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:15:00.000Z",
-      "description": "Ukrainian air defence downs 88 out of 108 Russian drones (Ukrainska Pravda, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/02/8056077/"
-    },
-    {
-      "id": "news-1xdwbgm",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:08:53.000Z",
-      "description": "ISW Russian Offensive Campaign Assessment, November 1, 2026 (Kyiv Post, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Post",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://www.kyivpost.com/post/85903"
-    },
-    {
-      "id": "news-1h3a52h",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:04:11.000Z",
-      "description": "Russian strike kills 1, injures 2 in Kyiv as Southern Bridge hit again overnight - The Kyiv Independent (The Kyiv Independent, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Kyiv Independent",
-      "axis": "Other",
-      "tags": [
-        "The Kyiv Independent",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "The Kyiv Independent",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQld6MWt1X3FsWlQyaGFzbmYxOEd4RWZpeXZodlR2WVI4bGdUYVM1M09ZQlZ4SXMyazZXRnhjbWI2cUUyb05PLTQ5ZVlDMkdFY2tLNEh4eDIzaUpFRWZIS0g5NGxKR0xKVzNaa1hsUEVVV3RyN3dIRzhtLVZMNVFJQ09xTHFVRk9id2E2MmN3X2lGdnhfcDFGQjNkYl8zWXNMV3BBWEZzd1hNdU9B?oc=5",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
-      "id": "news-1p67j30",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:04:11.000Z",
-      "description": "Russian strike kills 1, injures 2 in Kyiv as Southern Bridge hit again overnight (Kyiv Independent, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Independent",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Independent",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "Kyiv Independent",
-      "sourceUrl": "https://kyivindependent.com/russian-strike-kills-1-injures-2-in-kyiv-as-southern-bridge-hit-again-overnight/",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
-      "id": "news-1tg4bre",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:04:00.000Z",
-      "description": "Russian strikes hit Kyiv bridge again as Ukraine drones target Volgograd - TVP World (TVP World, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "TVP World",
-      "axis": "Other",
-      "tags": [
-        "TVP World",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Volgograd",
-      "source": "TVP World",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWVV6U3dKOHNCQ192Tmk0SWE2YUpaNVNTb09mdmVRWXZ0aC1ZUWtkSmw0Y1otS2M4Qlp5TnFVa19McE42ZzFhQmFJSWN6cUtmVlVvZFQyMU1lNnFhTmNITU55S1BDcklhZEFZQkJLa2RkYUVIaG1UUmtTX0JmVzdpUUZEbE8wTEJLcy0wUHNDSDdHdHFiblFhQmIwT3pFc0VpMS01Qw?oc=5",
-      "lat": 48.71,
-      "lng": 44.52,
-      "coordsNote": "Headline gazetteer match: \"Volgograd\" (city); verify via source article."
-    },
-    {
-      "id": "news-uzivjf",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T05:00:06.000Z",
-      "description": "Opinion | My Friend Is a Draft Dodger in Ukraine. He’s Not a Coward. - The New York Times (The New York Times, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New York Times",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1QbzRqZGNBSy1IWGZfaVdhdlVhTWV4LVZ0SHFBdzN4ejgzbDNlUE00cTFqX1M0VmNSUXR0dGpwbUZ6U1kxenhDQm5WWDZvVmFocWo3aFplNzBhWEE4N05LZEpSSFBNVEUzdHFvMHRFUDUyV0x6cFhmWmVvbE4?oc=5"
-    },
-    {
-      "id": "news-90dvbt",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T04:59:28.000Z",
-      "description": "Modi has 'good ideas' for settlement of Ukraine conflict: Putin - Rediff (Rediff, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Rediff",
-      "axis": "Other",
-      "tags": [
-        "Rediff",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Rediff",
-      "source": "Rediff",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHpuSFB5bVFUTVp6eC04Y1A5Z3RJYmYtUG9HUTExZ3JoSGhTT0g2ekVQMUJ4NUNKeEtYdWdKX04zYmNUR3E0Vm5yWGdvSjF3Rm9ZbHBFalhncmFzNkdkME9HN0JTUERNbXZEaW9CNGJWbFJISlQ2Q0lvblpJWTVIbHBmMS1tT3FfUXpQTGEyZWt4QV9Zd181REtBcTJUa19LZkpkV3N1MmJPOEhr0gGvAUFVX3lxTE4xRmRSa3UyOXMyR2ZYaHFVb2gyUUlVM2l6NEF1SHBTeGdZOE1wUk1jVk1hcVRueE5PLVdTZUdxUHR3RjBnc0ZkX3pYUV9Ld29Nd0dWQnFSSHV4LXE2b2ExMGRDaTlrd1NMdE9PUXY2SzdpVDhnbmpWTWVoNnhfdVJiakVFZDZSVjFNVGxINk5oRVVWX1NLWFZvWFEwcXRrTUhabkUtbnlnR3ZkTnotTzQ?oc=5"
-    },
-    {
-      "id": "news-1as0ys0",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T04:59:00.000Z",
-      "description": "Russian attack in Kyiv's Darnytskyi district leaves 25-story residential building damaged (Ukrinform, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4170242-russian-attack-in-kyivs-darnytskyi-district-leaves-25story-residential-building-damaged.html",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
-      "id": "news-1xdwbgj",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T04:41:46.000Z",
-      "description": "Russia Turns Its Drone War on Kyiv’s Dnipro Bridges – Why Now? (Kyiv Post, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Dnipro",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://www.kyivpost.com/post/85900",
-      "lat": 48.46,
-      "lng": 35.05,
-      "coordsNote": "Headline gazetteer match: \"Dnipro\" (city); verify via source article."
-    },
-    {
-      "id": "news-1lupbyo",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T04:38:00.000Z",
-      "description": "Drones attack Russia's Volgograd: fires reported near oil refinery and chemical plant – video (Ukrainska Pravda, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Volgograd",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/02/8056068/",
-      "lat": 48.71,
-      "lng": 44.52,
-      "coordsNote": "Headline gazetteer match: \"Volgograd\" (city); verify via source article."
-    },
-    {
-      "id": "news-a4v60w",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T04:36:00.000Z",
-      "description": "Russians attack South bridge again — Klitschko (Ukrinform, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrinform",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4170237-russians-attack-south-bridge-again-klitschko.html"
-    },
-    {
-      "id": "news-1t6ou8x",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T04:33:17.000Z",
-      "description": "Ukrainian forces strike oil facilities in Russia's Volgograd, Samara regions, General Staff says (Kyiv Independent, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Independent",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Independent",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Volgograd",
-      "source": "Kyiv Independent",
-      "sourceUrl": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-oil-facilities-in-russias-volgograd-samara-regions/",
-      "lat": 48.71,
-      "lng": 44.52,
-      "coordsNote": "Headline gazetteer match: \"Volgograd\" (city); verify via source article."
-    },
-    {
-      "id": "news-1eexrem",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T04:24:17.000Z",
-      "description": "PM Modi has ‘good ideas’ for settlement of Ukraine conflict: Putin - The Hindu (The Hindu, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hindu",
-      "axis": "Other",
-      "tags": [
-        "The Hindu",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hindu",
-      "source": "The Hindu",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTm9BOUl6WDRLaFRMREJ3V0RpSkoyZnNRUVlLRU1vTi1aQzByRG1jbUFNQTZLbjg2STRfcTdxZXFVOGNiUTNkMzNnQk5mQ0hZZVotTGxZOU91MnN0R1ExX0dPdWJSbXFsUE8tRjRMZmFJX0lSWGFxSEVaVnZvQWJZUk5ydG9GV0tZSkw2OE93empzOF9wS3QtLU45WVNnTGc1SUE2OTc3b050TmpKRzdrWXJ4Mlk1YWtFTHo0YnQzTThqN1E5eVHSAcwBQVVfeXFMT3I4MHhGSkQzQUlHUjA0ZFlkaXlLckZWZFY3bWZPd1UtQ2pMWnNJZG1ZRk5ya0ZLakJmMVdocElMM3U2MVdYZzFlX3dnM2FjVFBJNlhRUi1US2tPekFYeWFLWlNVSWdaaU1wVzBNaVZsMUV0YzFMWUF0Qlc1cmpSb2c2c2hjRG0tNlYzdzA2bVdQR19iSWw5aE0tZEdqSU5FS0NLOFRHVUFkd2VTblB2VVhUQzg0NXNOM3BPQnVYSUFNaUFJczRBM0Jwd01L?oc=5"
-    },
-    {
-      "id": "news-1y7fv30",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T04:19:00.000Z",
-      "description": "Military helicopter crashes in Russia — social media (Ukrinform, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrinform",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4170236-military-helicopter-crashes-in-russia-social-media.html"
-    },
-    {
-      "id": "news-1lupbvx",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T04:17:00.000Z",
-      "description": "Kyiv closes Pivdennyi and Paton bridges after Russian attack, restricts traffic on Metro Bridge (Ukrainska Pravda, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/02/8056065/"
-    },
-    {
-      "id": "news-yrve4m",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T04:01:56.000Z",
-      "description": "Putin has told military leaders to abandon rules of war, Zelenskyy says - Financial Times (Financial Times, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Financial Times",
-      "axis": "Other",
-      "tags": [
-        "Financial Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Financial Times",
-      "source": "Financial Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzBOOS1DbVhuTjJneDh1azlCTHRWcDVYX1M1b2pDRHdweVhZUllPZ1p4TnhHR0tDWHcyZ1BxeFI5VUFpdXFXQU1Ua3FpWnhCTzY5dVU5dERQNzNDU3BST3lfZTNnNXg5ZjRBR2VyejFXNzY3QnpGZVFZeXhzXzJKQzdZdVI?oc=5"
-    },
-    {
-      "id": "news-1iigha8",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T04:00:49.000Z",
-      "description": "Russia Is Planning Its Most Powerful Blow Yet to Try to Freeze Ukraine - The New York Times (The New York Times, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New York Times",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOcENMRmRnUExITWtXdzF2ckppWE82RHJOYl8xZ0tqeHJPSkd3YkJpLXJwWHNRZWYydFdzRmxBa3pFcWlNbVI4S09qQ2MwaVBtSTZhcG9MLVpPMUxLYW1OelJ4aXVmUzJ6Um5rN3BCckt2ZDh5ekJ5UDdiS0hUWDQ?oc=5"
-    },
-    {
-      "id": "news-rdjxe9",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T03:59:48.000Z",
-      "description": "Russia to conscript 120,000 men, again promises they won't be sent to fight in Ukraine (Kyiv Independent, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Independent",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Independent",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Independent",
-      "source": "Kyiv Independent",
-      "sourceUrl": "https://kyivindependent.com/russia-to-conscript-120-000-men-again-promises-they-wont-be-sent-to-fight-in-ukraine/"
-    },
-    {
-      "id": "news-br1b0g",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T03:59:00.000Z",
-      "description": "Kyiv Symphony Orchestra and Chorus brings Ukrainian music and stories of war to Lubbock - KCBD (KCBD, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "KCBD",
-      "axis": "Other",
-      "tags": [
-        "KCBD",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "KCBD",
-      "source": "KCBD",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWUlSTkdmZEZMWFlmdmJzZWxORDZ4OGx3cUg1V25iV3p6UDI1djFNRnBsOVItaFN0RjFOUzlVR0R4RUtWVHVDVmttNnFlSFhENlFvNXR5engtMTQxbWthM2ZLdzVDZ2tTSk4wQW9aaXRnVXNNQ1NtaWRYTHBNS2lHR3FGTG9iZXN2Uk9CVTNYTjRiZlJXNlFaemllM2RkX1J0MmR0YXZublFLUdIBvgFBVV95cUxQYTl2SkRHYjVOWVhXT2RsVnY0Wjc0bTF3NndtcnQ4SGhJY09KbDZRb0Mtd19VbTRDRkx4Rlo5bGVIRkp1UHpRejFtWXJoSWJ4eVY3czFSTi1Wb1VQWmFiQnJvLUg0amNXT2pkTUN5TklZWXgzVmsyQnBEM2FpRzQ0dndjQ09sOEVGVUdtTnI3akNzMFZTblFRbktmUWdoR083VEVxcXlHV0t1RWxDdWN5UV9zU1hQa0RmXzdKWTV3?oc=5"
-    },
-    {
-      "id": "news-hysfy4",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T03:55:00.000Z",
-      "description": "Special forces in Sumy region receive first batch of Sting interceptor drones (Ukrinform, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Sumy region",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4170234-special-forces-in-sumy-region-receive-first-batch-of-sting-interceptor-drones.html",
-      "lat": 50.91,
-      "lng": 34.8,
-      "coordsNote": "Headline gazetteer match: \"Sumy\" (region); verify via source article."
-    },
-    {
-      "id": "news-1lupbv0",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T03:49:00.000Z",
-      "description": "Russia loses 1,520 soldiers and 37 artillery systems over past day (Ukrainska Pravda, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/02/8056064/"
-    },
-    {
-      "id": "news-16cpwvh",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T03:38:00.000Z",
-      "description": "Air defense, economy and sanctions against Russia: Zelensky meets with EU ambassadors (Ukrinform, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrinform",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-polytics/4170233-air-defense-economy-and-sanctions-against-russia-zelensky-meets-with-eu-ambassadors.html"
-    },
-    {
-      "id": "news-snzjwa",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T03:36:58.000Z",
-      "description": "Rafale Jets to Face Su-57-like Limits in Ukraine War. Too Few, Too Costly and Too Valuable To Use Freely - EurAsian Times (EurAsian Times, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "EurAsian Times",
-      "axis": "Other",
-      "tags": [
-        "EurAsian Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "EurAsian Times",
-      "source": "EurAsian Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMDRhRU93ekk4b0hWX1JTX2VjRVZmV2kwck83V3lUZFh5RzlncnFrQmRYYXdOZzlRRUZ4Tmp1bkhYdmgyV192ZFNRY1FSc1lzcWltaEtlblF6NnlHUkRWLVRSVEVjRTBkbWFTY3dJam1yeWxwdGdiWS1oQk5OTTBjc2J6RjlEUHo4b0VR0gGLAUFVX3lxTE0wNGFFT3d6SThvSFZfUlNfZWNFVmZXaTByTzdXeVRkWHlHOWdycWtCZFhhd05nOVFFRnhOanVuSFh2aDJXX3ZkU1FjUVJzWXNxaW1oS2VuUXo2eUdSRFYtVFJURWNFMGRtYVNjd0lqbXJ5bHB0Z2JZLWhCTk5NMGNzYnpGOURQejhvRVE?oc=5"
-    },
-    {
-      "id": "news-1o258lk",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T03:30:00.000Z",
-      "description": "War in Ukraine: 'First surrender, then negotiation. These are Moscow's words' - Le Monde.fr (Le Monde.fr, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Le Monde.fr",
-      "axis": "Other",
-      "tags": [
-        "Le Monde.fr",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Le Monde.fr",
-      "source": "Le Monde.fr",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaGN4cUNqQnphbHJreWdKbUc0WktERG15TXlESnQ5Zzh1QnIyREVzbFFsSzV3bGJTRzh6eU1CN0k4S2xkdmhqN18ydDJ6WEdaLVh3d2ZaUEswSlFlaEV5VFI0OU93Z2wyZFdMWTVGMUJHMFdSVV9TRzRHLXZVNElKUlRnaW9pWlJ5dUhvRmRQOThyZ0JoWEFBVVc1Q2U1N3hCNXBLRVVyMXNkeEVRempqYlhMcGowMUlwVFg5UTNqR1BEQ1R6S29EM2xRSDNNTTFXR2R0bTktcGo?oc=5"
-    },
-    {
-      "id": "news-1lupbu3",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T03:22:00.000Z",
-      "description": "Russians attack Kyiv again, hit Pivdennyi Bridge and damage residential building (Ukrainska Pravda, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/02/8056063/",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
-      "id": "news-12adwww",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T03:19:00.000Z",
-      "description": "Ukraine war briefing: Russia pounds power grid with seven killed in biggest energy attack in months - The Guardian (The Guardian, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Guardian",
-      "axis": "Other",
-      "tags": [
-        "The Guardian",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Guardian",
-      "source": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcW9waG9IWVhYZTI5MkV4SjJhTzBzTkFjZ2lNTWNEZUNZeDhTSVlNZ0xwTHNOWnhxVEpvUXc0Rk5tUExSbVVOT0h5R3Z6aXFvNEN6QWxZWm4xMFVsVFFwLTVFSk9WemxjOFVQNlVzUHRUYUoycnluTWQ3SDZtdFRlYXptN2p0M2djOVRfRXJXYkd1bE1BRHZ2bllRcHJ2WU1NSXkxSklWQkpXN3hMQ3d2ZnBUalFLMDR2MnNqa1JPT1hzQzFLZ3UxTkRKVkNHdEtONDNDRnJ3VlFLenp2?oc=5"
     }
   ]
 }

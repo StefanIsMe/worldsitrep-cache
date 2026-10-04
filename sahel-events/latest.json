@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-04T18:24:45.751Z",
+  "collectedAt": "2026-10-04T21:49:31.314Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -33,9 +33,9 @@
     {
       "id": "gnews-sahel",
       "url": "https://news.google.com/rss/search?q=Sahel%20Mali%20Burkina%20Niger&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-sahel request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "rfi-africa",
@@ -75,23 +75,23 @@
     {
       "id": "gnews-jnim",
       "url": "https://news.google.com/rss/search?q=Mali%20Bamako%20JNIM%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-jnim request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-burkina request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-niger request failed with HTTP 503"
+      "status": "ok",
+      "count": 48,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 40,
+  "count": 41,
   "events": [
     {
       "id": "news-1uu7f5k",
@@ -220,6 +220,40 @@
         "quadClass": 3,
         "goldstein": -2,
         "tone": -7,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326273201",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:30:00.000Z",
+      "description": "Assault — Niger → Niger near Kwara, Tahoua, Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 14.1213,
+      "lng": 5.0281,
+      "action": "Assault (GDELT 181)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kwara, Tahoua, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.vanguardngr.com/2026/10/makinde-to-tinubu-rescue-abducted-nysc-members-now/",
+      "gdelt": {
+        "globalEventId": "1326273201",
+        "eventCode": "181",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -6.42,
         "mentions": 1,
         "sources": 1
       }

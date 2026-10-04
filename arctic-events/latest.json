@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-10-04T18:24:45.751Z",
+  "collectedAt": "2026-10-04T21:49:31.314Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 1
+      "count": 6
     },
     {
       "id": "rci-arctic",
@@ -19,9 +19,9 @@
     {
       "id": "gnews-arctic",
       "url": "https://news.google.com/rss/search?q=Arctic%20Greenland&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-arctic request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "guardian-arctic",
@@ -47,23 +47,23 @@
     {
       "id": "gnews-svalbard",
       "url": "https://news.google.com/rss/search?q=Svalbard%20Norway%20Russia%20Arctic&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-svalbard request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-greenland request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-nsr",
       "url": "https://news.google.com/rss/search?q=Northern%20Sea%20Route%20Russia%20Arctic&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-nsr request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 298,
+  "count": 301,
   "events": [
     {
       "id": "news-16qkdir",
@@ -2301,6 +2301,210 @@
         "goldstein": -2,
         "tone": -2.27,
         "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276255",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Disapproval — Mexico → Journalist near Sweden. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 15,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Mexico",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Sweden",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://collider.com/best-thriller-book-trilogies-all-time-ranked/",
+      "gdelt": {
+        "globalEventId": "1326276255",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.42,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326276256",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:15:00.000Z",
+      "description": "Disapproval — Mexico → Sweden near Sweden. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 15,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Mexico",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Sweden",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://collider.com/best-thriller-book-trilogies-all-time-ranked/",
+      "gdelt": {
+        "globalEventId": "1326276256",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.42,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326278515",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:45:00.000Z",
+      "description": "Assault — Norway → Cargo Ship near Alesund, Møg Romsdal, Norway. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 62.4667,
+      "lng": 6.15,
+      "action": "Assault (GDELT 182)",
+      "actor": "Norway",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Alesund, Møg Romsdal, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279351613/three-ships-collide-off-western-norway-no-injuries-reported",
+      "gdelt": {
+        "globalEventId": "1326278515",
+        "eventCode": "182",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -2.88,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326280362",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:15:00.000Z",
+      "description": "Threat — Greenland / Denmark → Unspecified near Greenland. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 72,
+      "lng": -40,
+      "action": "Threat (GDELT 130)",
+      "actor": "Greenland / Denmark",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Greenland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.metroweekly.com/2026/10/digger-review-tom-cruise/",
+      "gdelt": {
+        "globalEventId": "1326280362",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -4.01,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326280433",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:15:00.000Z",
+      "description": "Fight — Cabinet → Unspecified near Greenland. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 72,
+      "lng": -40,
+      "action": "Fight (GDELT 190)",
+      "actor": "Cabinet",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Greenland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.metroweekly.com/2026/10/digger-review-tom-cruise/",
+      "gdelt": {
+        "globalEventId": "1326280433",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.01,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326281645",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:30:00.000Z",
+      "description": "Disapproval — Publisher → Unspecified near Estonia. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59,
+      "lng": 26,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Publisher",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Estonia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.editorandpublisher.com/stories/your-reporting-is-solid-can-you-afford-to-defend-it,263829",
+      "gdelt": {
+        "globalEventId": "1326281645",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.48,
+        "mentions": 10,
         "sources": 1
       }
     },
@@ -6308,19 +6512,19 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T16:13:58.000Z",
-      "description": "State Department: Greenland deal boosts Seattle icebreakers - Seattle Red (Seattle Red, 2026-10-02. Headline + link only.)",
+      "description": "State Department: Greenland deal boosts Seattle icebreakers - seattlered.com (seattlered.com, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Seattle Red",
+      "actor": "seattlered.com",
       "axis": "Other",
       "tags": [
-        "Seattle Red",
+        "seattlered.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Greenland",
-      "source": "Seattle Red",
+      "source": "seattlered.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRmpQNHZ6djBPZDRUWkhQUzZfVG5QRmM2bUlDLURHNGE4RVQxNVZPZl9meDVxTWJpV1V3YkxLenhPOERTTUZPdWxSNHh1T2F5YVE3c0R3U3Z4Q1g5RnphZDJJdVA3NmJIdi15T2xLb1U5a3NfcllILXdCbXRHR1N4OHpvakMxYWxKd0VKY1d2bHNXU0hCSkR4bVN6ckhIeVdnWldZTGVGQTlkQQ?oc=5",
       "lat": 72,
       "lng": -40,
@@ -6331,19 +6535,19 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T13:55:08.000Z",
-      "description": "Trump’s Arctic plan pays off; a security win in Greenland - Washington Times (Washington Times, 2026-10-02. Headline + link only.)",
+      "description": "Trump’s Arctic plan pays off; a security win in Greenland - washingtontimes.com (washingtontimes.com, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Washington Times",
+      "actor": "washingtontimes.com",
       "axis": "Other",
       "tags": [
-        "Washington Times",
+        "washingtontimes.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Greenland",
-      "source": "Washington Times",
+      "source": "washingtontimes.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNUVZdTRGcUZGdndIQ1VTQ0NLd2ZzYkU3Q19yOFBCSTNwU2lzOWZzWGE4TmU3X1ZKZGxTQXhqcWxTSWNlTzRKcHFBc3JBcVB6djZuSWs5Z0IyaUplUVhIUlN2U3puRUtkWWFTV3NJeFlXRXBMb1lVZXEwdktHUnhGckQya2dyLTdUdlpvdkdJLUxYLTVDQzNHdDZLQQ?oc=5",
       "lat": 72,
       "lng": -40,
@@ -9922,63 +10126,6 @@
         "mentions": 4,
         "sources": 1
       }
-    },
-    {
-      "id": "news-leaxvs",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T20:21:43.000Z",
-      "description": "Alaska’s Bristol Bay salmon return about average this year, with higher prices paid to fishermen (Anchorage Daily News, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Anchorage Daily News",
-      "axis": "Other",
-      "tags": [
-        "Anchorage Daily News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Anchorage Daily News",
-      "source": "Anchorage Daily News",
-      "sourceUrl": "https://www.adn.com/alaska-news/2026/10/01/alaskas-bristol-bay-salmon-return-about-average-this-year-with-higher-prices-paid-to-fishers/"
-    },
-    {
-      "id": "news-1tji36y",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T18:42:46.000Z",
-      "description": "Opinion: Kodiak’s fisheries debate makes the choice for governor clearer (Anchorage Daily News, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Anchorage Daily News",
-      "axis": "Other",
-      "tags": [
-        "Anchorage Daily News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Anchorage Daily News",
-      "source": "Anchorage Daily News",
-      "sourceUrl": "https://www.adn.com/opinions/2026/10/01/opinion-kodiaks-fisheries-debate-makes-the-choice-for-governor-clearer/"
-    },
-    {
-      "id": "news-127j453",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T18:41:50.000Z",
-      "description": "Opinion: What the pollock fishing debate looks like from a village in the Aleutians (Anchorage Daily News, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Anchorage Daily News",
-      "axis": "Other",
-      "tags": [
-        "Anchorage Daily News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Anchorage Daily News",
-      "source": "Anchorage Daily News",
-      "sourceUrl": "https://www.adn.com/opinions/2026/10/01/opinion-what-the-pollock-fishing-debate-looks-like-from-a-village-in-the-aleutians/"
     }
   ]
 }

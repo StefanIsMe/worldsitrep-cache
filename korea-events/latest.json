@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "korea",
-  "collectedAt": "2026-10-04T18:24:45.751Z",
+  "collectedAt": "2026-10-04T21:49:31.314Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 10
+      "count": 15
     },
     {
       "id": "yna-nk",
@@ -20,22 +20,22 @@
       "id": "yna-news",
       "url": "https://en.yna.co.kr/RSS/news.xml",
       "status": "ok",
-      "count": 31,
-      "filtered": 19
+      "count": 32,
+      "filtered": 18
     },
     {
       "id": "korea-times",
       "url": "https://feed.koreatimes.co.kr/k/allnews.xml",
       "status": "ok",
-      "count": 0,
-      "filtered": 3
+      "count": 1,
+      "filtered": 4
     },
     {
       "id": "gnews-korea",
       "url": "https://news.google.com/rss/search?q=North%20Korea%20missile%20Kim&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-korea request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "nknews",
@@ -68,23 +68,23 @@
     {
       "id": "gnews-missile",
       "url": "https://news.google.com/rss/search?q=North%20Korea%20missile%20launch&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-missile request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-nkru",
       "url": "https://news.google.com/rss/search?q=North%20Korea%20Russia%20troops%20Ukraine&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-nkru request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-yongbyon",
       "url": "https://news.google.com/rss/search?q=North%20Korea%20Yongbyon%20nuclear&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-yongbyon request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -94,13 +94,127 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 885,
+  "count": 909,
   "events": [
+    {
+      "id": "news-gxrl63",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T21:47:02.000Z",
+      "description": "Anamaría Oramas ushers sounds of contemporary Colombian jazz to Korea (Korea Times, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261005/anamaria-oramas-ushers-sounds-of-contemporary-colombian-jazz-to-korea?utm_source=rss"
+    },
+    {
+      "id": "news-1rhmg8y",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T21:46:33.000Z",
+      "description": "Zelenskyy: South Korea Requested Repatriation of North Korean POWs - 조선일보 (조선일보, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "조선일보",
+      "axis": "Other",
+      "tags": [
+        "조선일보",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "조선일보",
+      "source": "조선일보",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWnluTHN6YnlKdDJNTUNfeFp2TUE0amV3SkdDc29vMGU1Z1lQMktySERCRV9BZUxSd01UUnE3R3NmVHdibFRvUVk0b2xVdTNBWkV0WVQ2d2pVWXc4V0U0VUdYelY0ZmJ2WmJ0WGkwRVZ0eXdFTVlTMXRJMU4zSmR4eUVCRzY?oc=5"
+    },
+    {
+      "id": "news-19it3wr",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T21:30:08.000Z",
+      "description": "No Mention of 'Landmines' ... \"Hypersonic Missile Test-Fired\" - news.sbs.co.kr (news.sbs.co.kr, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "news.sbs.co.kr",
+      "axis": "Other",
+      "tags": [
+        "news.sbs.co.kr",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "news.sbs.co.kr",
+      "source": "news.sbs.co.kr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4LVQ4NER4aHFOYTJNNTRBak50RG56VEtCU0hJU0lRdEdpWDNCekZLNUdnc3lOVkZRNnVWM2JHUG9OemEwZFJ5by1PdWtvQ055UlNsOUVIX1JUSjlIZDd2eEYtUW5TZUtmNGxEdUln0gFmQVVfeXFMTTF4OERsTDV1aEtydktBLWU5alpQN0I2aDVZdmdhTUY5R0VFa3ZmVXB0VExWUVhFUDU4VWZlZHducC1LMTMtc2NjX1ZFU0VTSHhqNWtjRXFlNG0wM05jcGhNZzlFUWlB?oc=5"
+    },
+    {
+      "id": "news-y14683",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T21:00:03.000Z",
+      "description": "(Asiad) S. Korea falls short of target as gap with Japan widens (Yonhap, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261004001900315"
+    },
+    {
+      "id": "news-16ppvmr",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T20:54:46.000Z",
+      "description": "Zelenskyy: Russia Appears to Have Shared Jet-Propelled Drone Technology with North Korea - news.sbs.co.kr (news.sbs.co.kr, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "news.sbs.co.kr",
+      "axis": "Other",
+      "tags": [
+        "news.sbs.co.kr",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "news.sbs.co.kr",
+      "source": "news.sbs.co.kr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UTnQzVUlJdVhtX01Qc2EzM0pLdWpwRi1ONktfSThsTDhpejlETU9zR1J4a3dfUkxTSnB2RjZKYXc0b2o2Rm9Ic0M5X3duMG0ybllTLTRmNXVwUEpCYjFRcGtrclRFRU1ydFFpdkJR?oc=5"
+    },
+    {
+      "id": "news-9f6yco",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T20:28:34.000Z",
+      "description": "Editorial: North's Hypersonic Missile Threat Meets South's Empty-Gun Front Lines - 조선일보 (조선일보, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "조선일보",
+      "axis": "Other",
+      "tags": [
+        "조선일보",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "조선일보",
+      "source": "조선일보",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRVgwTW5zNTFMVDN0ZlJWdFBzZFFCUC03R29sU2Z0dEJvbU9aMGZKeWpzaF9PUW02MTA3ZVVuOGVOVktpS0stWGppUFRwbWF4VWZXWG5MSmhGZjFtMVlfLUlUaVJoOWFhZHE4eTZoUWZhLV94QzUyUjNIWFBxT0pZZmJKODlfQk0?oc=5"
+    },
     {
       "id": "news-152qy3s",
       "kind": "news",
       "date": "2026-10-04",
-      "isoDate": "2026-10-04T17:12:38.000Z",
+      "isoDate": "2026-10-04T20:05:00.000Z",
       "description": "North Korea Launches Hypersonic Missile Amid Landmine Dispute - 조선일보 (조선일보, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -114,6 +228,63 @@
       "locationStr": "조선일보",
       "source": "조선일보",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbVp5OExrblh1Q3BGRkJsTHRpMkgxdzZ3elRlOTBsR1ZIN2NPRWNTeklDdkZwZUFDOVNjbzNJa1pMRlZVVTlsRjJSVlF6eFh4c0xhVm9NR3otSy0zQ1BhR1JNZVlyUGFwaE5DallXXzhYMTVpMm1YX0NFWVNqX3FuY2g2UkpuTmJaQW9kMw?oc=5"
+    },
+    {
+      "id": "news-10eyl0p",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T19:36:05.000Z",
+      "description": "North Korea’s Kim Oversaw Launch Of Missile That Uses AI - Channels Television (Channels Television, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Channels Television",
+      "axis": "Other",
+      "tags": [
+        "Channels Television",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Channels Television",
+      "source": "Channels Television",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZnItbjRFNkpNMDIxNGxkN0dzTGNSSXFJZnlWUnlqQS1wcEVGMklTSWpWTzZ1Tlhrc0dmaFVHOFVTWXdSdUR0QVM2M2E2Ujl4QVFCdERNQTZ4Y3h2LTFtTFNTbjR4VjZCMU10VGhrX0FadG9PNDZobUZyUHhlMEFaNEdzWWZaRHZrT3ZoV2w3cnpxQzJKWU1NNHpn?oc=5"
+    },
+    {
+      "id": "news-cnd4ek",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T19:19:45.000Z",
+      "description": "North Korea missile threat grows as Kim Jong Un rebuffs Trump outreach - Fox News (Fox News, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Fox News",
+      "axis": "Other",
+      "tags": [
+        "Fox News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Fox News",
+      "source": "Fox News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xbG81ZVlabk9rOHBxck0xOGlZTlQ1Qzl0bi1HRzR4Z2NXcTdwMW5ydGcxMVcxQmpDZmlwLXpfWDQxQnJTUmF6S0VhcDNsVHBPaUZRVThR?oc=5"
+    },
+    {
+      "id": "news-1l45o9m",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T18:29:15.000Z",
+      "description": "President Trump Establishes AI Task Force; North Korea Tests AI-Assisted Ballistic Missile - The Media Line (The Media Line, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Media Line",
+      "axis": "Other",
+      "tags": [
+        "The Media Line",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Media Line",
+      "source": "The Media Line",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaGNGWE5OcklPQ3V0SWhzQW12RDdRY3lOcVdRaVpZU0E3NHdPai12MXRQUk93dF9PMzRsNWF1enRaZjdUcUs2NWJDbDlUN2hSMGk5LU51RFY0ajQ1Nm9QeHVod0xYSWRJdlgwdGN5UHNmQW1qQjhuWFhqR01WMER5aGZ0MWdIREl1VnE5WEl2a21OWm5Ud05zS1Niem83V1dRaDFlOFZZTHNIem9IR3JuQ09oOUE3RE5OMWlybFo2Y1dzMHM?oc=5"
     },
     {
       "id": "news-1qd18py",
@@ -154,23 +325,23 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY0hzMHAwZFJDay1mUjF6SE5XVWFjbVByeVdJc2NDcGVVNFZFY1VmTlYzYk14dUxNMTlkTExhWExzbXU0V1M3aTZTX1U3a2gxVVJIYi1MRG1kb1RNd0NzbUdUTFlSUjVVd29qb1RYUVc5cVhtNnBXd19ENWNjSDhudk95VmJHZDZsUFRDM2lmZDUybGhIRHl4SGwyd212bTFNRS1reXltX2NZVFVtaDhhOTE0YW1mX0lXX2R3?oc=5"
     },
     {
-      "id": "news-9f6yco",
+      "id": "news-1td5js3",
       "kind": "news",
       "date": "2026-10-04",
-      "isoDate": "2026-10-04T15:24:34.000Z",
-      "description": "Editorial: North's Hypersonic Missile Threat Meets South's Empty-Gun Front Lines - 조선일보 (조선일보, 2026-10-04. Headline + link only.)",
+      "isoDate": "2026-10-04T16:04:30.000Z",
+      "description": "Ukraine believes Russia shared jet-drone technology with North Korea, says Zelenskiy - AOL.com (AOL.com, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "조선일보",
+      "actor": "AOL.com",
       "axis": "Other",
       "tags": [
-        "조선일보",
+        "AOL.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "조선일보",
-      "source": "조선일보",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRVgwTW5zNTFMVDN0ZlJWdFBzZFFCUC03R29sU2Z0dEJvbU9aMGZKeWpzaF9PUW02MTA3ZVVuOGVOVktpS0stWGppUFRwbWF4VWZXWG5MSmhGZjFtMVlfLUlUaVJoOWFhZHE4eTZoUWZhLV94QzUyUjNIWFBxT0pZZmJKODlfQk0?oc=5"
+      "locationStr": "AOL.com",
+      "source": "AOL.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaERJbWlFM2R0TzJKbGpuRXluNGlVZjRMZTBLdGhMQlU3VXdfVVJiWmJkN0RjRC1nbjNqZFdvQV9JZWFLaWZMenM5WWF4XzQ0SkdfN1ZEMlFuSVp4Wk5FR3pIMU04aE0xMWlhMFBjZjM4TlF2bVN5Sml6ZUZYY0FDdnVqQWw?oc=5"
     },
     {
       "id": "news-okjeay",
@@ -439,25 +610,6 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNa3lVb1huaFRoNDZXTThtMWRfVmxrMmd2alNTSHZjajhHQTY2UWNKQnN6dzI3RGRIU0pvWE14RkE2UE5iLUoydTNwbTRucUp4U081YU84ckIzeGNTTVVTakxPeGdlS3J5Y3R4RUI3SGo5WkNUcDNzcmx0aEpTY2M5bm1ibjVxVnFxZTRDMXdtb1poS0Z2N1JveFdiNGV1WlpmWlJrRWM2MmlXVVROdkJJRlc1cHFVZk0tWUVJdjRYZEhhcTROcWtoRGJZUk1idFV2SjRGWHJqY19sUmYwOUxINmlFWjRVTE5LeklPUzhGRWJDQlFLbGhHQVRRWS0xWHR1T2040gGIAkFVX3lxTE40RWRIbm1mRE1pb0hWSDNDYTBaeG9WWHV3MGZFcVg4R09qT1JoOHphZkNxRGRxVVlVMEpSY0FHVjlvcEFWMmdDdUdzVE0xOGhSZ2VjendkUWlNM1BnMGRZdVFqUHdWVUh1bGo4cEtyV1dBX0hCd2Z2NndKNHlrV0lkU3FDNHlwbjFURGVUZGNLVXRyRl84OTU1cmZkWFBocUVMXzNWR2ZSSGNQVzJUV1pwMHY4RVo5VV80Qml4ZnZJbDR6eDRlNnJ5OV8xbTlibm54SWtvcTdsVlNFUWswRExOS0pxcTZZODdNci1TY0dhVHYzRW84T0M5dFg2c0VLRWl0SVNuSGF2eg?oc=5"
     },
     {
-      "id": "news-1l45o9m",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T13:43:36.000Z",
-      "description": "President Trump Establishes AI Task Force; North Korea Tests AI-Assisted Ballistic Missile - The Media Line (The Media Line, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Media Line",
-      "axis": "Other",
-      "tags": [
-        "The Media Line",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Media Line",
-      "source": "The Media Line",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaGNGWE5OcklPQ3V0SWhzQW12RDdRY3lOcVdRaVpZU0E3NHdPai12MXRQUk93dF9PMzRsNWF1enRaZjdUcUs2NWJDbDlUN2hSMGk5LU51RFY0ajQ1Nm9QeHVod0xYSWRJdlgwdGN5UHNmQW1qQjhuWFhqR01WMER5aGZ0MWdIREl1VnE5WEl2a21OWm5Ud05zS1Niem83V1dRaDFlOFZZTHNIem9IR3JuQ09oOUE3RE5OMWlybFo2Y1dzMHM?oc=5"
-    },
-    {
       "id": "news-5qk8xh",
       "kind": "news",
       "date": "2026-10-04",
@@ -481,18 +633,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T12:13:31.000Z",
-      "description": "North Korea’s Kim oversees missile launch with AI guidance - Free Malaysia Today (Free Malaysia Today, 2026-10-04. Headline + link only.)",
+      "description": "North Korea’s Kim oversees missile launch with AI guidance - freemalaysiatoday.com (freemalaysiatoday.com, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Free Malaysia Today",
+      "actor": "freemalaysiatoday.com",
       "axis": "Other",
       "tags": [
-        "Free Malaysia Today",
+        "freemalaysiatoday.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Free Malaysia Today",
-      "source": "Free Malaysia Today",
+      "locationStr": "freemalaysiatoday.com",
+      "source": "freemalaysiatoday.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPczZCR20zZU5kZXFOT2FfR2dIZkktWEJYUXJBMlNBSnVvS3ZmVF9TMVNYaVAzU09PcFF1WlJ5OFdfajBQS0RTSUVvOGY0MXUxS20yc1kwdnZ4Z1ZuMEZDekt4dmd1dEkzUEtqNmJqUjRHX09aejJ4Q0ZSaGZDajJZOFRhdjRDTkF2MDFKTVBSWWNyNTRvMlFfdE9oRGx3emhuVTZwdURqVF9JbGdESURaXzBBRWF2MmNNUGc?oc=5"
     },
     {
@@ -519,18 +671,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T10:45:00.000Z",
-      "description": "North Korea says Kim oversaw hypersonic missile drill - The Independent (The Independent, 2026-10-04. Headline + link only.)",
+      "description": "North Korea says Kim oversaw hypersonic missile drill - independent.co.uk (independent.co.uk, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Independent",
+      "actor": "independent.co.uk",
       "axis": "Other",
       "tags": [
-        "The Independent",
+        "independent.co.uk",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Independent",
-      "source": "The Independent",
+      "locationStr": "independent.co.uk",
+      "source": "independent.co.uk",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORnlrTXN5UlMxTm83UTg5YTlDTWxlNnZ6MVlHZ21taWpocmVMZC1SQjNmQXBjbVlVWjJqX1hIZUZDdlBob1JFWkVTZ2VKblc4WE5CMm5pQ0YzMktxSlBRR2EwTEZ0T0VvSWZRWnBPMzlrcW9uMDVQZ3ZLbVRINmU5SnF2aTRWXzFIcmduQmpwaGppSGVC?oc=5"
     },
     {
@@ -538,18 +690,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T09:35:07.000Z",
-      "description": "North Korea says hypersonic missile flew 1,000km, exceeding Seoul, Tokyo reports - NK News (NK News, 2026-10-04. Headline + link only.)",
+      "description": "North Korea says hypersonic missile flew 1,000km, exceeding Seoul, Tokyo reports - nknews.org (nknews.org, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "NK News",
+      "actor": "nknews.org",
       "axis": "Other",
       "tags": [
-        "NK News",
+        "nknews.org",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "NK News",
-      "source": "NK News",
+      "locationStr": "nknews.org",
+      "source": "nknews.org",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5Dd3JrSFMwcVhIYVM3TXdKT0E4MlZINnZqYkpUMThSX0c4aUlnVi01UHRQLWtwck5kdFkwZ0Q5S1dkVzhsRjZF?oc=5"
     },
     {
@@ -589,25 +741,6 @@
       "locationStr": "Korea Times",
       "source": "Korea Times",
       "sourceUrl": "https://www.koreatimes.co.kr/sports/20261004/asian-games-disappointing-as-south-korean-flag-mishap-sees-games-end-on-sour-note?utm_source=rss"
-    },
-    {
-      "id": "news-n46y63",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T08:20:41.000Z",
-      "description": "North Korea media: Kim oversees missile launch on Saturday | NHK WORLD-JAPAN News - nhk.or.jp (nhk.or.jp, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "nhk.or.jp",
-      "axis": "Other",
-      "tags": [
-        "nhk.or.jp",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "nhk.or.jp",
-      "source": "nhk.or.jp",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nU0dac0hKVUhjSTVjRVNwcWFUajNXTDN3LWllamh6ZmlHZnp0bHZFX3kyUWhpZ01pcWZHekc3eXdhUEFiS3lxVkg5NkFCZ0FLUUJJTkJlQk9HSEp6TXlVMXZOdw?oc=5"
     },
     {
       "id": "news-iby1sa",
@@ -819,6 +952,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lT0d6bFIzTU5UZFFXbmFKamlObWduM094MV9HNWEtSGFOR1RqbERWZWg2TTdLaTdOQWZ2TUwzMWVFTjFhbEptTWFhTFpEMEZKNGRRdUl6NXN6a0tsZUJNYTFJLTVQMWp5QnZVeUhrcl95empUZ210UnJMMUNmd2_SAZMBQVVfeXFMUHJzZTZ1TXFSY05nWXJqRjBNN1dKQm83bmIwTUszbUwxX0oycHlmeHJuV1owN3hYVXNLQW1EYU9oV0dSNzJmX2xXTkhkakJfQmd1aW5lNld0b2M2ZWZrOWI1YUZGbzMwVVAyYnUyV1BtcTBmaWV0b3Z6Znl5bWVRWDM2ekxKZzVYdEloMlppYktsX2hR?oc=5"
     },
     {
+      "id": "news-1cfefyn",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T07:08:07.000Z",
+      "description": "North Korea’s Kim Oversaw Hypersonic Missile Drill, KCNA Says - Bloomberg.com (Bloomberg.com, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Bloomberg.com",
+      "axis": "Other",
+      "tags": [
+        "Bloomberg.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Bloomberg.com",
+      "source": "Bloomberg.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbVcyZEdMYmJxdk8wSUg5Zl9ldVJkMlZvTkhINEJ2a1VNN0U4MnZXcEhheE5yYnAtZmlVZWJfc3dqRXdnTVJOTlBqYVZ2QjFaY0VjdlFVVEVidlpRck9KekJWakdrMUNLaFdhZTBackdjbHNwdk0xaldiQWVBbUJLQ3lUT0dQWFVDSTJUYlRLcjFpUTVRUzkwMHVTSE9UVkJLVnk1Zy1hSm1hYzQ1Zmpxdw?oc=5"
+    },
+    {
       "id": "news-10inn57",
       "kind": "news",
       "date": "2026-10-04",
@@ -880,18 +1032,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T05:19:33.000Z",
-      "description": "North Korea mocks Seoul, Tokyo over alleged failure to track missile - NK News (NK News, 2026-10-04. Headline + link only.)",
+      "description": "North Korea mocks Seoul, Tokyo over alleged failure to track missile - nknews.org (nknews.org, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "NK News",
+      "actor": "nknews.org",
       "axis": "Other",
       "tags": [
-        "NK News",
+        "nknews.org",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "NK News",
-      "source": "NK News",
+      "locationStr": "nknews.org",
+      "source": "nknews.org",
       "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWtqMHhuVmQxY25sLTdQNXNOVlRRenpXSloxUWEydnhucHFSeGItd2RsMGxSbk41MmZvcDFaQVRfQ0NpOWRaNUd3OF9tZkcxdUp5S2R2X1k0TkM5cWpzSW5ySG85dllBYW4xQWFqdFZPVzBoZHk5QkZrdGpyQWNCN1U1dEw1R3ZGemozZnNPMks2ZnFubXZkcGZ2U3FPdjJH?oc=5"
     },
     {
@@ -1013,18 +1165,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T03:34:00.000Z",
-      "description": "'No way to avoid attack': Kim Jong Un confirms North Korea's AI-powered missile launch - WION (WION, 2026-10-04. Headline + link only.)",
+      "description": "'No way to avoid attack': Kim Jong Un confirms North Korea's AI-powered missile launch - wionews.com (wionews.com, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "WION",
+      "actor": "wionews.com",
       "axis": "Other",
       "tags": [
-        "WION",
+        "wionews.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "WION",
-      "source": "WION",
+      "locationStr": "wionews.com",
+      "source": "wionews.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUZ1RFo5VVdDcDRsRDBpRWVxR0pNUG10cWpBUXJCZWpGTnJ6S1hia0hldk5lU3VCWjBLMEhhazk1NU85bE55RnRvVFpTcnNtYmd0LVEydVBwb2ptcnVGVXdtanlUckk2M0hueHcycThwejdJMHpaUDdaS3NyNDlVOGIxbzVPV1Jtb050ODA4akNXN3hLNlZsNlV2aGpHOEh3Vk5xdEpZb3JKQ1YzQ2t4aExHY0pBaHFqMFJZU1BmTWNwVDdBQnfSAcsBQVVfeXFMUGJjT09hX1cxZ19iUTFVWlJkREprTUZNZ3J0ZlFaX0k2TGtBaXNWbzhhRFhwb2lZdDZyak9RZFpxeDBtRHpUa1FrQ2RaRktiU3cwa2puZnVBN19DcHlNVVF2MFhSbXViOW85ajFtU1JIWlNCN0xsUy05OGk0aDhJWkl0bkF3WGhnaHJwLU9DTDVweXdHRUlweEFPNFhPWEN2cW9jQzIzLTNQQ21wQnVrYlZoSlhiNndmTlNXTmRCbjR5SmZrSV9Wd0Q1MGs?oc=5"
     },
     {
@@ -1144,6 +1296,25 @@
       "locationStr": "Morocco World News",
       "source": "Morocco World News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObmJvYmZES1RnY0t6SVdCejA3XzVuNzZuZ3VmdzdtTFB3bXF4SWpnX2wxd3B2OTkzRk5pMTRGMGtYeklaUFhaV2E1ME9HeHUtdzBMSVJfRVB4b0dlaktDOXVFRXZkeTIxZDMyaVRfUmFVT3NvajRDQTZQTWZ5WFdBM0hRdmh3NkUyaUxSQWl5aFhrNGxBYXJ4QWpiY1BGbzg4WWFEdUF3SjFrX0tGWUZNS2xuRXlUek9WR0M1X2Q4VUVKYXVN?oc=5"
+    },
+    {
+      "id": "news-n46y63",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T02:20:41.000Z",
+      "description": "North Korea media: Kim oversees missile launch on Saturday | NHK WORLD-JAPAN News - nhk.or.jp (nhk.or.jp, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "nhk.or.jp",
+      "axis": "Other",
+      "tags": [
+        "nhk.or.jp",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "nhk.or.jp",
+      "source": "nhk.or.jp",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nU0dac0hKVUhjSTVjRVNwcWFUajNXTDN3LWllamh6ZmlHZnp0bHZFX3kyUWhpZ01pcWZHekc3eXdhUEFiS3lxVkg5NkFCZ0FLUUJJTkJlQk9HSEp6TXlVMXZOdw?oc=5"
     },
     {
       "id": "news-1yxuqhb",
@@ -5620,6 +5791,516 @@
       }
     },
     {
+      "id": "gdelt-1326272800",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:30:00.000Z",
+      "description": "Fight — Unspecified → Japan near Dokdo, Cholla-namdo, South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 34.6989,
+      "lng": 126.386,
+      "action": "Fight (GDELT 192)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dokdo, Cholla-namdo, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.hani.co.kr/arti/english_edition/e_national/850387.html",
+      "gdelt": {
+        "globalEventId": "1326272800",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -0.21,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326273086",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:30:00.000Z",
+      "description": "Force posture — Japan → South Korea near Dokdo, Cholla-namdo, South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 34.6989,
+      "lng": 126.386,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Japan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dokdo, Cholla-namdo, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.hani.co.kr/arti/english_edition/e_national/850387.html",
+      "gdelt": {
+        "globalEventId": "1326273086",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -0.21,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326273098",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:30:00.000Z",
+      "description": "Disapproval — South Korea → Unspecified near Dokdo, Cholla-namdo, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 34.6989,
+      "lng": 126.386,
+      "action": "Disapproval (GDELT 114)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dokdo, Cholla-namdo, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.hani.co.kr/arti/english_edition/e_national/850387.html",
+      "gdelt": {
+        "globalEventId": "1326273098",
+        "eventCode": "114",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.21,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326273104",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:30:00.000Z",
+      "description": "Force posture — South Korea → Japan near Dokdo, Cholla-namdo, South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 34.6989,
+      "lng": 126.386,
+      "action": "Force posture (GDELT 154)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dokdo, Cholla-namdo, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.hani.co.kr/arti/english_edition/e_national/850387.html",
+      "gdelt": {
+        "globalEventId": "1326273104",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -0.21,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326273105",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:30:00.000Z",
+      "description": "Fight — South Korea → Japan near Dokdo, Cholla-namdo, South Korea. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 34.6989,
+      "lng": 126.386,
+      "action": "Fight (GDELT 192)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dokdo, Cholla-namdo, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.hani.co.kr/arti/english_edition/e_national/850387.html",
+      "gdelt": {
+        "globalEventId": "1326273105",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -0.21,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326273147",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:30:00.000Z",
+      "description": "Disapproval — Coast Guard → Unspecified near Dokdo, Cholla-namdo, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 34.6989,
+      "lng": 126.386,
+      "action": "Disapproval (GDELT 114)",
+      "actor": "Coast Guard",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dokdo, Cholla-namdo, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.hani.co.kr/arti/english_edition/e_national/850387.html",
+      "gdelt": {
+        "globalEventId": "1326273147",
+        "eventCode": "114",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.21,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326273152",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:30:00.000Z",
+      "description": "Disapproval — Coast Guard → South Korea near Dokdo, Cholla-namdo, South Korea. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 34.6989,
+      "lng": 126.386,
+      "action": "Disapproval (GDELT 114)",
+      "actor": "Coast Guard",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dokdo, Cholla-namdo, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.hani.co.kr/arti/english_edition/e_national/850387.html",
+      "gdelt": {
+        "globalEventId": "1326273152",
+        "eventCode": "114",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.21,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326274014",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:45:00.000Z",
+      "description": "Protest — China → Japanese near Daejeon, Taejon-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 36.3214,
+      "lng": 127.42,
+      "action": "Protest (GDELT 141)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Daejeon, Taejon-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/20261005/endless-search-for-graves-of-forgotten-independence-fighters",
+      "gdelt": {
+        "globalEventId": "1326274014",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -0.67,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326274277",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T18:45:00.000Z",
+      "description": "Protest — Russia → Unspecified near Daejeon, Taejon-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 36.3214,
+      "lng": 127.42,
+      "action": "Protest (GDELT 141)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Daejeon, Taejon-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/20261005/endless-search-for-graves-of-forgotten-independence-fighters",
+      "gdelt": {
+        "globalEventId": "1326274277",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -0.67,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326277402",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:30:00.000Z",
+      "description": "Disapproval — South Korea → Unspecified near South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailymeal.com/2272668/popular-kitchen-appliances-buy-sams-club/",
+      "gdelt": {
+        "globalEventId": "1326277402",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 2.19,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326277498",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:30:00.000Z",
+      "description": "Fight — North Korea → Russia near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Fight (GDELT 190)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.com/articles/ukraine-believes-russia-shared-jet-160245000.html",
+      "gdelt": {
+        "globalEventId": "1326277498",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.26,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326277596",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T19:30:00.000Z",
+      "description": "Disapproval — United States → Unspecified near South Korea. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailymeal.com/2272668/popular-kitchen-appliances-buy-sams-club/",
+      "gdelt": {
+        "globalEventId": "1326277596",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 2.19,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326282413",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:45:00.000Z",
+      "description": "Threat — Unspecified → South Korea near South Korea. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Threat (GDELT 138)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://gamerant.com/dark-souls-characters-stronger-than-artorias/",
+      "gdelt": {
+        "globalEventId": "1326282413",
+        "eventCode": "138",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -2.17,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326282414",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:45:00.000Z",
+      "description": "Threat — Unspecified → South Korea near South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Threat (GDELT 1384)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://gamerant.com/dark-souls-characters-stronger-than-artorias/",
+      "gdelt": {
+        "globalEventId": "1326282414",
+        "eventCode": "1384",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -2.17,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326282477",
+      "kind": "event",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T00:00:00.000Z",
+      "observedAt": "2026-10-04T20:45:00.000Z",
+      "description": "Threat — Boss → Unspecified near South Korea. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Threat (GDELT 130)",
+      "actor": "Boss",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://gamerant.com/dark-souls-characters-stronger-than-artorias/",
+      "gdelt": {
+        "globalEventId": "1326282477",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -2.17,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-7ynph5",
       "kind": "news",
       "date": "2026-10-03",
@@ -6970,6 +7651,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ielFPcmtZdDlINjhPM09vLTdILU9SMHBsS3BxWDI1N0NMYU8td0tHQ25DTzRLbXRBZnhQQ2lpZmNUY0d4cURkYQ?oc=5"
     },
     {
+      "id": "news-zfo54i",
+      "kind": "news",
+      "date": "2026-10-03",
+      "isoDate": "2026-10-03T12:07:10.000Z",
+      "description": "North Korea says test of intermediate-range strategic missile included use of AI - afp.com (afp.com, 2026-10-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "afp.com",
+      "axis": "Other",
+      "tags": [
+        "afp.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "afp.com",
+      "source": "afp.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLVUzQzZJOS1zMmE2WS03Y09ZOC1lXzJVZEZtdkhjYnFZMlp1VXNfWlh1bGNTS2xOSG9LZHFIamxEb0VOeDRUZGxEbE80RHlyZHM0N2VYd0lLd2R5WGJkb0pnOGZibzRVcHlWLU54MDV5bk94ZmRJX2VRSHVjVWFpM2xjVl9tLTlTRWo5bFZmNkd3cGMyTUpZUndXaHNrQUNS?oc=5"
+    },
+    {
       "id": "news-piorez",
       "kind": "news",
       "date": "2026-10-03",
@@ -8027,18 +8727,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T05:20:17.000Z",
-      "description": "North Korea fires ballistic missile toward East Sea - NK News (NK News, 2026-10-03. Headline + link only.)",
+      "description": "North Korea fires ballistic missile toward East Sea - nknews.org (nknews.org, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "NK News",
+      "actor": "nknews.org",
       "axis": "Other",
       "tags": [
-        "NK News",
+        "nknews.org",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "NK News",
-      "source": "NK News",
+      "locationStr": "nknews.org",
+      "source": "nknews.org",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9sQmVwSnNfWWpnOGFCX2t1b2VNaTA5MFZIMWx4S3FwdHROUnBfNWhFdUQtTk5XN00zV0N2bEdyMmxBUjc1U0g4?oc=5"
     },
     {
@@ -8236,18 +8936,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T03:12:00.000Z",
-      "description": "North Korea fires suspected ballistic missile toward sea off east coast - The Independent (The Independent, 2026-10-03. Headline + link only.)",
+      "description": "North Korea fires suspected ballistic missile toward sea off east coast - independent.co.uk (independent.co.uk, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Independent",
+      "actor": "independent.co.uk",
       "axis": "Other",
       "tags": [
-        "The Independent",
+        "independent.co.uk",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Independent",
-      "source": "The Independent",
+      "locationStr": "independent.co.uk",
+      "source": "independent.co.uk",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUHpOOWtfeXFVZTB6NmtPX1FUMGxCS3VYZkZIalBvQmhpcnBVM3lsOGFXbVFTYUNwQVhZVzFobzJkZjhERjF4UlJwWlkxUFlxNGFaYm1KVHJHUzFQREFzUU1MczU4cFptQTZiUHlkTnF6ODNXTFktYmJLUEEzWDRPd0ExV2wyYUJ3OFNQWUk3UWVTWUlqSWN3NlJSd3RrdV9zSENDWm1uTnNidw?oc=5"
     },
     {
@@ -8369,18 +9069,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T02:40:43.000Z",
-      "description": "North Korea launches ballistic missile as tensions with Seoul grow over border mine blasts - France 24 (France 24, 2026-10-03. Headline + link only.)",
+      "description": "North Korea launches ballistic missile as tensions with Seoul grow over border mine blasts - france24.com (france24.com, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "France 24",
+      "actor": "france24.com",
       "axis": "Other",
       "tags": [
-        "France 24",
+        "france24.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "France 24",
-      "source": "France 24",
+      "locationStr": "france24.com",
+      "source": "france24.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSlVEUmczX1lWYVZMT1htNUQzSEVDYTRva3ZFOHJOU1FENUpsWXVXZDR0a2xHZF82Wm5MLXZkaEMyM2Rpc0s5cGtaVFZrbXM3S3d4RFYybjNvZ2t0dERvNklnNkU1NkJLWlo3cjNiT1BRajVtb2lhUUpHcTdHWVBiOUN6X1BzOFVtS3luY2RKcHpReGNzRm5HeVA2UTdORk5pblhEeWhVYVJTYUdobkJzXzhyWFo?oc=5"
     },
     {
@@ -16545,18 +17245,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T09:22:22.000Z",
-      "description": "S. Korea Slams Ukraine over POW Transfer Disclosure - tasnimnews.ir (tasnimnews.ir, 2026-10-02. Headline + link only.)",
+      "description": "S. Korea Slams Ukraine over POW Transfer Disclosure - تسنیم (تسنیم, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "tasnimnews.ir",
+      "actor": "تسنیم",
       "axis": "Other",
       "tags": [
-        "tasnimnews.ir",
+        "تسنیم",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "tasnimnews.ir",
-      "source": "tasnimnews.ir",
+      "locationStr": "تسنیم",
+      "source": "تسنیم",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMVJmVHZ2N3lLbVZENkRWQ3ZvY0dUVVpVSGFrZVl3Uzl5bWpHdnROeHZUUHRuZ1dRUm9mRzlIa1NHQkNRWVlHZi1jWFZlek1GSERoMlNsaGNEQTY5ZHd0dWx2UTRSaVNHMVdad0VqczJuZk4yalRWYVh1aFYtM2htNzdBZ09aNGIyQmN6M1k5TE45NWZ4OWJpcHlTdGgybkpodl91Wkp30gGrAUFVX3lxTFBWbzVPd1RYMlJRVGxsS3lxTEVFVmp2algyOTFCNXVaWnFFcmVvWEZkamtmYlk3YjdhWnczRkVBX1IzM0F6Q0ZJSEwtRERPUmE3WFJtclA2U2pfR1NSbTNGS1piTE1wMGthdG1CODluRl9yQ0ZVY0FZX2tFMzdMTzR6d3pTeVVycVowMVJwQjJ5RUp3ZWpfR3FrM0daSnlETnEzc1BjSDJVenQxOA?oc=5"
     },
     {
@@ -16823,18 +17523,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T07:23:00.000Z",
-      "description": "South Korea threatens action against Ukraine over transfer of North Koreans - The Independent (The Independent, 2026-10-02. Headline + link only.)",
+      "description": "South Korea threatens action against Ukraine over transfer of North Koreans - independent.co.uk (independent.co.uk, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Independent",
+      "actor": "independent.co.uk",
       "axis": "Other",
       "tags": [
-        "The Independent",
+        "independent.co.uk",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Independent",
-      "source": "The Independent",
+      "locationStr": "independent.co.uk",
+      "source": "independent.co.uk",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTUlpS3B1TFM1bU5UN3hKeU0wWW1xSXZJcnhtNE5WdWRMMGdYM1o2a011ZWtpbFZTVWFpVWdqLW9YSnRpQlkzUm5USHhzRk5qeTYyM1BRRV9EbWpYd19yYUZjQzlpaWxTcmFCanloSGdOTE5OeENMV2sxcWFGdlBta2ZxSFpqcTBKR2ZVRlpWbUY5Z3FMQkhzc3FB?oc=5"
     },
     {
@@ -24298,25 +24998,6 @@
       "locationStr": "Yonhap",
       "source": "Yonhap",
       "sourceUrl": "https://en.yna.co.kr/view/AEN20261002000300320"
-    },
-    {
-      "id": "news-1pwc0hq",
-      "kind": "news",
-      "date": "2026-10-01",
-      "isoDate": "2026-10-01T21:00:15.000Z",
-      "description": "(Asiad) S. Korea potentially in for big day with competition nearing end (Yonhap, 2026-10-01. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261001006200315"
     }
   ]
 }
