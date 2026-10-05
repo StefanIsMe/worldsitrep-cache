@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-05T22:24:05.026Z",
+  "collectedAt": "2026-10-05T22:56:16.522Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 30
+      "count": 3
     },
     {
       "id": "taipei-times",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 376,
+  "count": 377,
   "events": [
     {
       "id": "news-1baz88d",
@@ -258,6 +258,25 @@
       "sourceUrl": "https://www.taipeitimes.com/News/editorials/archives/2026/10/06/2003865459"
     },
     {
+      "id": "news-t7lzrt",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T22:40:59.000Z",
+      "description": "US seeks to revoke citizenship of two China-born men convicted in Beijing-linked cases (SCMP, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369845/us-seeks-revoke-citizenship-two-china-born-men-convicted-beijing-linked-cases?utm_source=rss_feed"
+    },
+    {
       "id": "news-1rmkn0p",
       "kind": "news",
       "date": "2026-10-05",
@@ -338,18 +357,18 @@
       "kind": "news",
       "date": "2026-10-05",
       "isoDate": "2026-10-05T16:00:00.000Z",
-      "description": "Envoy prods US on stalled arms sale - taipeitimes.com (taipeitimes.com, 2026-10-05. Headline + link only.)",
+      "description": "Envoy prods US on stalled arms sale - Taipei Times (Taipei Times, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "taipeitimes.com",
+      "actor": "Taipei Times",
       "axis": "Other",
       "tags": [
-        "taipeitimes.com",
+        "Taipei Times",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "taipeitimes.com",
-      "source": "taipeitimes.com",
+      "locationStr": "Taipei Times",
+      "source": "Taipei Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpVzJ2VDdENnJwSy1rdUVCT2gxUDhsTDJpMDFWVVp5bWgtM1NFaGRzUlRtRE9YbTFmUGtXTDd0cG9kYld6bUtqWS0xMkxRSENNTE9lOU9oREw5MWZvQmdKM0hJRjBMX2J6ZnVLWUhNelJaQXMwX0pBckh3?oc=5"
     },
     {
@@ -6075,6 +6094,40 @@
       }
     },
     {
+      "id": "gdelt-1326455347",
+      "kind": "event",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T00:00:00.000Z",
+      "observedAt": "2026-10-05T22:45:00.000Z",
+      "description": "Rejection — Taiwan → Unspecified near Tuniu, T'ai-chung, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24.2646,
+      "lng": 120.811,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tuniu, T'ai-chung, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.independent.co.uk/travel/news-and-advice/japan-china-tourism-thailand-south-korea-b3061364.html",
+      "gdelt": {
+        "globalEventId": "1326455347",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 0.48,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-15lkgyd",
       "kind": "news",
       "date": "2026-10-05",
@@ -11434,25 +11487,6 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://www.taipeitimes.com/News/sport/archives/2026/10/03/2003865313"
-    },
-    {
-      "id": "news-1d8zt31",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T22:38:41.000Z",
-      "description": "US blast simulation targets China’s alleged secret nuclear testing (SCMP, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369638/us-blast-simulation-targets-chinas-alleged-secret-nuclear-testing?utm_source=rss_feed"
     }
   ]
 }
