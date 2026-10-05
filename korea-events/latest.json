@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "korea",
-  "collectedAt": "2026-10-05T06:39:54.396Z",
+  "collectedAt": "2026-10-05T07:44:02.478Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 60
+      "count": 3
     },
     {
       "id": "yna-nk",
@@ -20,15 +20,15 @@
       "id": "yna-news",
       "url": "https://en.yna.co.kr/RSS/news.xml",
       "status": "ok",
-      "count": 30,
-      "filtered": 20
+      "count": 31,
+      "filtered": 19
     },
     {
       "id": "korea-times",
       "url": "https://feed.koreatimes.co.kr/k/allnews.xml",
       "status": "ok",
-      "count": 12,
-      "filtered": 27
+      "count": 22,
+      "filtered": 28
     },
     {
       "id": "gnews-korea",
@@ -55,8 +55,8 @@
       "id": "diplomat",
       "url": "https://thediplomat.com/feed/",
       "status": "ok",
-      "count": 2,
-      "filtered": 48
+      "count": 1,
+      "filtered": 49
     },
     {
       "id": "bbc-asia",
@@ -94,13 +94,51 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 759,
+  "count": 773,
   "events": [
+    {
+      "id": "news-1lm0gac",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:45:24.000Z",
+      "description": "North Korea falters in Asian Games medal tally despite weightlifting domination (NK News, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NK News",
+      "axis": "Other",
+      "tags": [
+        "NK News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NK News",
+      "source": "NK News",
+      "sourceUrl": "https://www.nknews.org/2026/10/north-korea-falters-in-asian-games-medal-tally-despite-weightlifting-domination/"
+    },
+    {
+      "id": "news-14ewapx",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:42:03.000Z",
+      "description": "Citizen diplomacy brings Korea, Japan closer (Korea Times, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/foreignaffairs/others/20261005/citizen-diplomacy-brings-korea-japan-closer?utm_source=rss"
+    },
     {
       "id": "news-178e8vg",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T06:37:03.000Z",
+      "isoDate": "2026-10-05T07:42:03.000Z",
       "description": "Man in 20s arrested for killing elderly stranger in Seoul (Korea Times, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -120,10 +158,33 @@
       "coordsNote": "Headline gazetteer match: \"Seoul\" (city); verify via source article."
     },
     {
+      "id": "news-1bghlyl",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:42:03.000Z",
+      "description": "Over 5 mil. resident registration number records leaked in Korea over 6 years (Korea Times, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Korea",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/business/20261005/over-5-mil-resident-registration-number-records-leaked-in-korea-over-6-years?utm_source=rss",
+      "lat": 36.63839,
+      "lng": 127.69612,
+      "coordsNote": "OSM geocode: matched \"Korea\" → South Korea; © OpenStreetMap contributors."
+    },
+    {
       "id": "news-1bh66qc",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T06:37:03.000Z",
+      "isoDate": "2026-10-05T07:42:03.000Z",
       "description": "Trump nuclear weapons double standard (Korea Times, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -139,10 +200,52 @@
       "sourceUrl": "https://www.koreatimes.co.kr/opinion/20261005/trump-nuclear-weapons-double-standard?utm_source=rss"
     },
     {
+      "id": "news-1h7sdd0",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:42:03.000Z",
+      "description": "S. Korean military launches operation to remove NK mines at recent DMZ blast site (Korea Times, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "DMZ",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/defense/20261005/s-korean-military-launches-operation-to-remove-nk-mines-at-recent-dmz-blast-site?utm_source=rss",
+      "lat": 38.32,
+      "lng": 127,
+      "coordsNote": "Headline gazetteer match: \"DMZ\" (region); verify via source article."
+    },
+    {
+      "id": "news-1nh3rid",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:42:03.000Z",
+      "description": "Zara Larsson sets Seoul ablaze with 'Midnight Sun' tour (Korea Times, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/entertainment/music/20261005/zara-larsson-sets-seoul-ablaze-with-midnight-sun-tour?utm_source=rss"
+    },
+    {
       "id": "news-1o761eh",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T06:37:03.000Z",
+      "isoDate": "2026-10-05T07:42:03.000Z",
       "description": "Saudi crude share of S. Korea's imports falls below 30% for 1st time in 5 years (Korea Times, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -161,7 +264,7 @@
       "id": "news-1uc9kd9",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T06:37:03.000Z",
+      "isoDate": "2026-10-05T07:42:03.000Z",
       "description": "Korea to launch $3.5 bil. frontier AI project next year (Korea Times, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -177,10 +280,29 @@
       "sourceUrl": "https://www.koreatimes.co.kr/business/tech-science/20261005/korea-to-launch-35-bil-frontier-ai-project-next-year?utm_source=rss"
     },
     {
+      "id": "news-1xovb5q",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:42:03.000Z",
+      "description": "Korea begins US investment but trade pressure persists (Korea Times, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261005/korea-begins-us-investment-but-trade-pressure-persists?utm_source=rss"
+    },
+    {
       "id": "news-1yvwz0h",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T06:37:03.000Z",
+      "isoDate": "2026-10-05T07:42:03.000Z",
       "description": "Hana Financial Group opens new Incheon HQ, bets on closer finance-tech ties (Korea Times, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -203,7 +325,7 @@
       "id": "news-7fuwzg",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T06:37:03.000Z",
+      "isoDate": "2026-10-05T07:42:03.000Z",
       "description": "Korea's AI blind spot (Korea Times, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -222,7 +344,7 @@
       "id": "news-8sfffl",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T06:37:03.000Z",
+      "isoDate": "2026-10-05T07:42:03.000Z",
       "description": "AMRO revises up Korean economy's growth projection this year to 3.3% (Korea Times, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -241,7 +363,7 @@
       "id": "news-96460a",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T06:37:03.000Z",
+      "isoDate": "2026-10-05T07:42:03.000Z",
       "description": "Model, actress Jang yoon-joo moves to UK with family (Korea Times, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -257,10 +379,52 @@
       "sourceUrl": "https://www.koreatimes.co.kr/entertainment/20261005/model-actress-jang-yoon-joo-moves-to-uk-with-family?utm_source=rss"
     },
     {
+      "id": "news-9mq80b",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:42:03.000Z",
+      "description": "North Korea's Asian Games run overshadowed by poor sportsmanship (Korea Times, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/sports/20261005/north-koreas-asian-games-run-overshadowed-by-poor-sportsmanship?utm_source=rss"
+    },
+    {
+      "id": "news-cc962n",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:42:03.000Z",
+      "description": "Foreigners clash with blunt weapons in Pyeongtaek, Central Asian groups suspected (Korea Times, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Pyeongtaek",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/society/20261005/foreigners-clash-with-blunt-weapons-in-pyeongtaek-central-asian-groups-suspected?utm_source=rss",
+      "lat": 36.99,
+      "lng": 126.83,
+      "coordsNote": "Headline gazetteer match: \"Pyeongtaek\" (city); verify via source article."
+    },
+    {
       "id": "news-f66flx",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T06:37:03.000Z",
+      "isoDate": "2026-10-05T07:42:03.000Z",
       "description": "S. Korea falls short of target as gap with Japan widens (Korea Times, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -279,7 +443,7 @@
       "id": "news-gxrl63",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T06:37:03.000Z",
+      "isoDate": "2026-10-05T07:42:03.000Z",
       "description": "Anamaría Oramas ushers sounds of contemporary Colombian jazz to Korea (Korea Times, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -295,10 +459,71 @@
       "sourceUrl": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261005/anamaria-oramas-ushers-sounds-of-contemporary-colombian-jazz-to-korea?utm_source=rss"
     },
     {
+      "id": "news-h1m7ii",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:42:03.000Z",
+      "description": "From samulnori to King Sejong: Korean culture sweeps Vietnam National University (Korea Times, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/world/20261005/from-samulnori-to-king-sejong-korean-culture-sweeps-vietnam-national-university?utm_source=rss"
+    },
+    {
+      "id": "news-mt2brd",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:42:03.000Z",
+      "description": "North Korea responsible for DMZ mine explosions, Seoul says (Korea Times, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "DMZ",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/defense/20261005/north-korea-responsible-for-dmz-mine-explosions-seoul-says?utm_source=rss",
+      "lat": 38.32,
+      "lng": 127,
+      "coordsNote": "Headline gazetteer match: \"DMZ\" (region); verify via source article."
+    },
+    {
+      "id": "news-q3mi4c",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:42:03.000Z",
+      "description": "North Korean drama features man preparing meals in floral apron (Korea Times, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261005/north-korean-drama-features-man-preparing-meals-in-floral-apron?utm_source=rss"
+    },
+    {
       "id": "news-ts23v4",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T06:37:03.000Z",
+      "isoDate": "2026-10-05T07:42:03.000Z",
       "description": "Korea's delisting drive faces court challenge as expulsions nearly double (Korea Times, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -317,7 +542,7 @@
       "id": "news-yxucmn",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T06:37:03.000Z",
+      "isoDate": "2026-10-05T07:42:03.000Z",
       "description": "Fishing boat capsizes off Jeju; 9 rescued, 2 missing (Korea Times, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -331,6 +556,197 @@
       "locationStr": "Korea Times",
       "source": "Korea Times",
       "sourceUrl": "https://www.koreatimes.co.kr/southkorea/20261005/fishing-boat-capsizes-off-jeju-9-rescued-2-missing?utm_source=rss"
+    },
+    {
+      "id": "news-mebzfm",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:30:29.000Z",
+      "description": "North Korean, Taliban military officials hold talks at Russian war games (NK News, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NK News",
+      "axis": "Other",
+      "tags": [
+        "NK News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NK News",
+      "source": "NK News",
+      "sourceUrl": "https://www.nknews.org/2026/10/north-korea-taliban-military-officials-hold-talks-at-russian-war-games/"
+    },
+    {
+      "id": "news-9q9gup",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:26:05.000Z",
+      "description": "North Korea says missile ‘skip points’ expose gaps in South Korean, Japanese tracking - stripes.com (stripes.com, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "stripes.com",
+      "axis": "Other",
+      "tags": [
+        "stripes.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "stripes.com",
+      "source": "stripes.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdTdKQUZXckpNaUdBaEFhLU1oay1YWnBwd01aeUJQV3h0Rkc0VU93bDkwWHlLY3N5NDVUUmRseDBWdnp0a1JkdlI1VW9TWlE2WEs2UTdmZXNSM1NNSDZwd051cFdrTU9DMjJiTjRiRDZ6dUpmSEVDdE1Xa1JsQ0hnLUVndGd0MTh2eDJHeXo1RDhlVVlma3gtWG91Z1pfY2pqdGM2SHA0TWVmUQ?oc=5"
+    },
+    {
+      "id": "news-6u6m92",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:16:20.000Z",
+      "description": "(URGENT) S. Korean military urges N. Korea to apologize to soldiers injured in DMZ mine blast (Yonhap, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "DMZ",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261005003900315",
+      "lat": 38.32,
+      "lng": 127,
+      "coordsNote": "Headline gazetteer match: \"DMZ\" (region); verify via source article."
+    },
+    {
+      "id": "news-66vt6t",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:15:28.000Z",
+      "description": "(URGENT) JCS says will continue mine-removal operations if N. Korea refuses to remove mines (Yonhap, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261005003800315"
+    },
+    {
+      "id": "news-5jl04k",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:10:31.000Z",
+      "description": "(URGENT) S. Korean military concludes DMZ blast caused by N. Korean mines 'planted' south of MDL (Yonhap, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "DMZ",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261005003700315",
+      "lat": 38.32,
+      "lng": 127,
+      "coordsNote": "Headline gazetteer match: \"DMZ\" (region); verify via source article."
+    },
+    {
+      "id": "news-umdqnx",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:06:38.000Z",
+      "description": "S. Korean military launches operation to remove N. Korean mines at recent DMZ blast site (Yonhap, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "DMZ",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261005001200315",
+      "lat": 38.32,
+      "lng": 127,
+      "coordsNote": "Headline gazetteer match: \"DMZ\" (region); verify via source article."
+    },
+    {
+      "id": "news-tz2xlo",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:05:59.000Z",
+      "description": "(URGENT) S. Korean military launches operation to remove N. Korean mines at recent DMZ blast site: JCS (Yonhap, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "DMZ",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261005001100315",
+      "lat": 38.32,
+      "lng": 127,
+      "coordsNote": "Headline gazetteer match: \"DMZ\" (region); verify via source article."
+    },
+    {
+      "id": "news-4wa72b",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T07:04:46.000Z",
+      "description": "Police probe alleged clash between Central Asian groups in Pyeongtaek (Yonhap, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Pyeongtaek",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261005003600315",
+      "lat": 36.99,
+      "lng": 126.83,
+      "coordsNote": "Headline gazetteer match: \"Pyeongtaek\" (city); verify via source article."
+    },
+    {
+      "id": "news-1qd18py",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T06:49:11.000Z",
+      "description": "Ban Ki-moon, Kim Suk Rebuke Lee on Sanctions - 조선일보 (조선일보, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "조선일보",
+      "axis": "Other",
+      "tags": [
+        "조선일보",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "조선일보",
+      "source": "조선일보",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPemwxRy1ybTVEcnk2ZWVCV3hBcUQ4RkNlWnJrNlNsdXNCNnVjclU3TnM2RHZ4bUpvdDV5OVBBVGE4b2tOcHpIWWszVUJiaXQxNGJpVk5nQmpwdDZqQjFXaE5kZEVtY0NCT2oybXUwaEF0R0RZbnlQeUF3ZVN5SWFDMGR1NlNsdnRC?oc=5"
     },
     {
       "id": "news-1hx6swx",
@@ -359,19 +775,19 @@
       "id": "news-15v81p9",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T05:36:19.000Z",
-      "description": "Volodymyr Zelensky: Russia shared jet-drone technology with North Korea - The Jerusalem Post (The Jerusalem Post, 2026-10-05. Headline + link only.)",
+      "isoDate": "2026-10-05T05:49:30.000Z",
+      "description": "Russia shares jet-drone technology with North Korea, Zelensky claims - jpost.com (jpost.com, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Jerusalem Post",
+      "actor": "jpost.com",
       "axis": "Other",
       "tags": [
-        "The Jerusalem Post",
+        "jpost.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Jerusalem Post",
-      "source": "The Jerusalem Post",
+      "locationStr": "jpost.com",
+      "source": "jpost.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBHX1hyYjlIcnNBUDQtWjZNZTB3RHI0aFlRTUVfeUF1WTRxZFBDRkF4Z0Z3dmFfY3RBYi1yZWwxS1Q5blRQYmwtT2xEMVlDQlZPTnd2NWFBaUFnQ2JydVZBdjRJdw?oc=5"
     },
     {
@@ -392,6 +808,25 @@
       "locationStr": "Korea JoongAng Daily",
       "source": "Korea JoongAng Daily",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWW9BQXJqeGVNdzIxWDFmTVRlR1hPTWxlQlp2RFNrUC1xeTVFY3FyZW4yRnlhS2ExVnJxOW9hRjJweWhHZEkxU2FWc2F5ZEJJS0E3S0pnbDVzQkhRT2tOS2hoYzBTX094Y1JEbjFDT0MyV20tWlVQU1NuVW1uemRmMXZnVnh1RUZacldmbExsc1RpWmF3QmtZSXhlQlMwVktGX3NiZ0pXNHJIa2hBcWZlRjE2N0Vic01iaFVRekF1N25VV3F4dzdN?oc=5"
+    },
+    {
+      "id": "news-15cl0s",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T05:11:00.000Z",
+      "description": "Ukraine war briefing: Germany’s Merz pledges €1bn in military aid to Kyiv as Russia ramps up attacks - The Guardian (The Guardian, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Guardian",
+      "axis": "Other",
+      "tags": [
+        "The Guardian",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Guardian",
+      "source": "The Guardian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcjBPSk5wQnVIY1dWTTBxNGg2dkpjM3lPYUktX2ZBM0g5UlRKN3Y1VHpMcFVkTG85M2tNVXhxc3BkN1c3U2RfaENodVI1d3dfaXhseWJKak5fWEpTRGVtZVc4d2VVUVZiX2ItTGJmT0doRTItVHJRTFRndTBrcTh1M0xYdHl3WHlrQW0ySm9nd3o3UXRuWVF6Q0w4VzdDQkpYeVNMVFp4YS1XTjhiYVBUNUh5bzdtQ0xGdXdoUzQ5UFBQWHotdFhVRlRSNFVDMVNWb0ZQY04yV1NiS00?oc=5"
     },
     {
       "id": "news-x7kywx",
@@ -493,18 +928,18 @@
       "kind": "news",
       "date": "2026-10-05",
       "isoDate": "2026-10-05T01:44:05.000Z",
-      "description": "North Korea Launches Hypersonic Missile Amid Detection Claims - chosun.com (chosun.com, 2026-10-05. Headline + link only.)",
+      "description": "North Korea Launches Hypersonic Missile Amid Detection Claims - 조선일보 (조선일보, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "chosun.com",
+      "actor": "조선일보",
       "axis": "Other",
       "tags": [
-        "chosun.com",
+        "조선일보",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "chosun.com",
-      "source": "chosun.com",
+      "locationStr": "조선일보",
+      "source": "조선일보",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbVp5OExrblh1Q3BGRkJsTHRpMkgxdzZ3elRlOTBsR1ZIN2NPRWNTeklDdkZwZUFDOVNjbzNJa1pMRlZVVTlsRjJSVlF6eFh4c0xhVm9NR3otSy0zQ1BhR1JNZVlyUGFwaE5DallXXzhYMTVpMm1YX0NFWVNqX3FuY2g2UkpuTmJaQW9kMw?oc=5"
     },
     {
@@ -531,18 +966,18 @@
       "kind": "news",
       "date": "2026-10-05",
       "isoDate": "2026-10-05T01:36:23.000Z",
-      "description": "North Korea’s Kim Oversaw Launch Of Missile That Uses AI - Channels Television (Channels Television, 2026-10-05. Headline + link only.)",
+      "description": "North Korea’s Kim Oversaw Launch Of Missile That Uses AI - channelstv.com (channelstv.com, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Channels Television",
+      "actor": "channelstv.com",
       "axis": "Other",
       "tags": [
-        "Channels Television",
+        "channelstv.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Channels Television",
-      "source": "Channels Television",
+      "locationStr": "channelstv.com",
+      "source": "channelstv.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZnItbjRFNkpNMDIxNGxkN0dzTGNSSXFJZnlWUnlqQS1wcEVGMklTSWpWTzZ1Tlhrc0dmaFVHOFVTWXdSdUR0QVM2M2E2Ujl4QVFCdERNQTZ4Y3h2LTFtTFNTbjR4VjZCMU10VGhrX0FadG9PNDZobUZyUHhlMEFaNEdzWWZaRHZrT3ZoV2w3cnpxQzJKWU1NNHpn?oc=5"
     },
     {
@@ -601,25 +1036,6 @@
       "locationStr": "Yonhap",
       "source": "Yonhap",
       "sourceUrl": "https://en.yna.co.kr/view/AEN20261005001000320"
-    },
-    {
-      "id": "news-15cl0s",
-      "kind": "news",
-      "date": "2026-10-05",
-      "isoDate": "2026-10-05T01:00:00.000Z",
-      "description": "Ukraine war briefing: Germany’s Merz pledges €1bn in military aid to Kyiv as Russia ramps up attacks - The Guardian (The Guardian, 2026-10-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Guardian",
-      "axis": "Other",
-      "tags": [
-        "The Guardian",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Guardian",
-      "source": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcjBPSk5wQnVIY1dWTTBxNGg2dkpjM3lPYUktX2ZBM0g5UlRKN3Y1VHpMcFVkTG85M2tNVXhxc3BkN1c3U2RfaENodVI1d3dfaXhseWJKak5fWEpTRGVtZVc4d2VVUVZiX2ItTGJmT0doRTItVHJRTFRndTBrcTh1M0xYdHl3WHlrQW0ySm9nd3o3UXRuWVF6Q0w4VzdDQkpYeVNMVFp4YS1XTjhiYVBUNUh5bzdtQ0xGdXdoUzQ5UFBQWHotdFhVRlRSNFVDMVNWb0ZQY04yV1NiS00?oc=5"
     },
     {
       "id": "news-d59xzy",
@@ -2496,6 +2912,74 @@
       }
     },
     {
+      "id": "gdelt-1326328871",
+      "kind": "event",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T00:00:00.000Z",
+      "observedAt": "2026-10-05T07:15:00.000Z",
+      "description": "Disapproval — South Korea → Unspecified near Incheon, Inch'on-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.4536,
+      "lng": 126.732,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Incheon, Inch'on-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreaherald.com/article/10893200",
+      "gdelt": {
+        "globalEventId": "1326328871",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.81,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326329025",
+      "kind": "event",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T00:00:00.000Z",
+      "observedAt": "2026-10-05T07:15:00.000Z",
+      "description": "Disapproval — Intelligence → Bank near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Intelligence",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreaherald.com:443/article/10892927",
+      "gdelt": {
+        "globalEventId": "1326329025",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.52,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-cnqb2n",
       "kind": "news",
       "date": "2026-10-04",
@@ -2576,18 +3060,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T22:21:00.000Z",
-      "description": "Zelensky says South Korea seeks return of North Korean POWs, warns of Russia ties - CHOSUNBIZ - biz.chosun.com (biz.chosun.com, 2026-10-04. Headline + link only.)",
+      "description": "Zelensky says South Korea seeks return of North Korean POWs, warns of Russia ties - CHOSUNBIZ - Chosunbiz (Chosunbiz, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "biz.chosun.com",
+      "actor": "Chosunbiz",
       "axis": "Other",
       "tags": [
-        "biz.chosun.com",
+        "Chosunbiz",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "biz.chosun.com",
-      "source": "biz.chosun.com",
+      "locationStr": "Chosunbiz",
+      "source": "Chosunbiz",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUXRRTVNFQjFFa2N3MV8wb1hVT1ZtckFYMFhyMTR5c3UzeHU1QTlSbU11LVZrYWRzTkNDRktDT2hGVmM5QVZkdFYtSGFLSlNwQ1JYMEdlVDgxZlpndElhWXlLM0dvcU5FdWlWOG1CYngzSzdNcWJhb3d3ckFNX3lVcHNZOHF6TFoy0gGcAUFVX3lxTFBIQjBUYzFJQy11M3BETjI4QWZOU0tQY19zSVp6MVNBU2lEem8wVWxSVmUxbEZhSks3SlFHMW1sa3RlRGl5TUJ0SWlZMFgtWlowaGhLbnhUNUtNWmVSbjZmZkxGaFZZQl9SSm1TOV9maW91d04wclBHYVNLVEl2QlkwU2pPMXN4ZmdZaUpELVpkMkFxeW11ODAyOWgxYg?oc=5"
     },
     {
@@ -2614,18 +3098,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T21:37:09.000Z",
-      "description": "Editorial: North's Hypersonic Missile Threat Meets South's Empty-Gun Front Lines - chosun.com (chosun.com, 2026-10-04. Headline + link only.)",
+      "description": "Editorial: North's Hypersonic Missile Threat Meets South's Empty-Gun Front Lines - 조선일보 (조선일보, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "chosun.com",
+      "actor": "조선일보",
       "axis": "Other",
       "tags": [
-        "chosun.com",
+        "조선일보",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "chosun.com",
-      "source": "chosun.com",
+      "locationStr": "조선일보",
+      "source": "조선일보",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRVgwTW5zNTFMVDN0ZlJWdFBzZFFCUC03R29sU2Z0dEJvbU9aMGZKeWpzaF9PUW02MTA3ZVVuOGVOVktpS0stWGppUFRwbWF4VWZXWG5MSmhGZjFtMVlfLUlUaVJoOWFhZHE4eTZoUWZhLV94QzUyUjNIWFBxT0pZZmJKODlfQk0?oc=5"
     },
     {
@@ -2671,18 +3155,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T21:08:50.000Z",
-      "description": "North Korea missile could put Guam in range as Kim rebuffs Trump outreach: expert - foxnews.com (foxnews.com, 2026-10-04. Headline + link only.)",
+      "description": "North Korea missile could put Guam in range as Kim rebuffs Trump outreach: expert - Fox News (Fox News, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "foxnews.com",
+      "actor": "Fox News",
       "axis": "Other",
       "tags": [
-        "foxnews.com",
+        "Fox News",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "foxnews.com",
-      "source": "foxnews.com",
+      "locationStr": "Fox News",
+      "source": "Fox News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU0lkb1JSZURDWEQtb2NvdTdhS3A4UVdUM01aLTNNWkYtWlM0QzR2NkxueWhJeDRMRTFLb295M0J4RVR0VHlUMGZqZVNCNGtmNDhDYU1zMVk0RGpmT1BESGJLN1JHWDR6QmRkbF9RcTZaRlhYSjdRdHNzNVpFcXE3ZVNYSk5tQnI2dl84TXVyYVdBVHRBQ3I3M3pFcnlZcHF3Q0ZnaEhzMNIBrAFBVV95cUxNRUNYcVJmU1FITXZhYmg0eXl3cWRCT2RlaVJZNTUxc0IydFNVSkFfemkyWVR3cGNPVXBOOVFaQWtPMVZaRlF4NC1Fc0h6WUNYSzd5RTQ1NjM2TkFqSDB5WUlOU0dOY2Q3dEF2Y2dmcnRiWm9lTFVkMWF3VDE3SXlwenFVcy1mT1UxeEluSndjYkxNSk00MDJvQ29naTdudkxsX1lCdGdXRXEzdUVQ?oc=5"
     },
     {
@@ -2760,25 +3244,6 @@
       "locationStr": "Fox News",
       "source": "Fox News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xbG81ZVlabk9rOHBxck0xOGlZTlQ1Qzl0bi1HRzR4Z2NXcTdwMW5ydGcxMVcxQmpDZmlwLXpfWDQxQnJTUmF6S0VhcDNsVHBPaUZRVThR?oc=5"
-    },
-    {
-      "id": "news-1qd18py",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T16:44:36.000Z",
-      "description": "Ban Ki-moon, Kim Suk Rebuke Lee on Sanctions - 조선일보 (조선일보, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "조선일보",
-      "axis": "Other",
-      "tags": [
-        "조선일보",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "조선일보",
-      "source": "조선일보",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPemwxRy1ybTVEcnk2ZWVCV3hBcUQ4RkNlWnJrNlNsdXNCNnVjclU3TnM2RHZ4bUpvdDV5OVBBVGE4b2tOcHpIWWszVUJiaXQxNGJpVk5nQmpwdDZqQjFXaE5kZEVtY0NCT2oybXUwaEF0R0RZbnlQeUF3ZVN5SWFDMGR1NlNsdnRC?oc=5"
     },
     {
       "id": "news-1twfa5y",
@@ -3089,18 +3554,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T13:26:45.000Z",
-      "description": "Trump: 'I Get Along With Kim Jong-un… When Someone Has 112 Nuclear Missiles, You Get Along' - chosun.com (chosun.com, 2026-10-04. Headline + link only.)",
+      "description": "Trump: 'I Get Along With Kim Jong-un… When Someone Has 112 Nuclear Missiles, You Get Along' - 조선일보 (조선일보, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "chosun.com",
+      "actor": "조선일보",
       "axis": "Other",
       "tags": [
-        "chosun.com",
+        "조선일보",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "chosun.com",
-      "source": "chosun.com",
+      "locationStr": "조선일보",
+      "source": "조선일보",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNc19pNTFZTjVmTUNUeDhzUnhpVWpnZXZ0QUFWQlRmRFNCaEFSbzVLSjNHRVVORVpacFBheWxweWI1Y2ZDWGdaYUR4LXJudC0yakhrdGtzeG9mbGtFT3JSekQydmQ4eUVGWkxZZ2YtTl9BSjY5dVN4WnEtamNiQi04U1pDWDk?oc=5"
     },
     {
@@ -3184,18 +3649,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T09:33:49.000Z",
-      "description": "Kim Jong-un Watches Hypersonic Missile Drill With Daughter Ju-ae; Missile's Flag and Number Revealed - chosun.com (chosun.com, 2026-10-04. Headline + link only.)",
+      "description": "Kim Jong-un Watches Hypersonic Missile Drill With Daughter Ju-ae; Missile's Flag and Number Revealed - 조선일보 (조선일보, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "chosun.com",
+      "actor": "조선일보",
       "axis": "Other",
       "tags": [
-        "chosun.com",
+        "조선일보",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "chosun.com",
-      "source": "chosun.com",
+      "locationStr": "조선일보",
+      "source": "조선일보",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQa29MekJWODJTbk1PeUVuTC1XOTk2Uk12c0FGS1lnTlRaUmNSVlFqSEFudk1Pd3dLanI4NDROalM5ZUVDVDJxVi1saGp2aTlyM0RXX2NfZm8zaWUxZWQ4cVpRQ1ZGMV96U1lRRTBqZ3dDU3JiUDdWQ0VqV0tEemZZRVF1cVlXLXZGMi10dQ?oc=5"
     },
     {
@@ -3294,6 +3759,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRG83amdwMGlNelQ4MmU3Y1hUY2xka3I5Tk1FZjJ0Z21MSWotakFVYWFwOF93OUZNUTBQdndYeXhGc0ZlQjFFQkk1bHk1d3dxY0o1SHozNVYxcGZnUFY3cF9kbWZycVRfamlxbl9TRVpLaXRwR3plazVqSUxvcTdsa09jV2k2TndYQ28zcUtLZjVtUlJHWUE5OXZfSkdwM2x0RU5pb1dxUml2YU1uUWNRNmtTY20?oc=5"
     },
     {
+      "id": "news-1bsv1se",
+      "kind": "news",
+      "date": "2026-10-04",
+      "isoDate": "2026-10-04T07:52:30.000Z",
+      "description": "North Korea mocks Seoul, Tokyo over alleged failure to track missile - NK News (NK News, 2026-10-04. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NK News",
+      "axis": "Other",
+      "tags": [
+        "NK News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NK News",
+      "source": "NK News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWtqMHhuVmQxY25sLTdQNXNOVlRRenpXSloxUWEydnhucHFSeGItd2RsMGxSbk41MmZvcDFaQVRfQ0NpOWRaNUd3OF9tZkcxdUp5S2R2X1k0TkM5cWpzSW5ySG85dllBYW4xQWFqdFZPVzBoZHk5QkZrdGpyQWNCN1U1dEw1R3ZGemozZnNPMks2ZnFubXZkcGZ2U3FPdjJH?oc=5"
+    },
+    {
       "id": "news-1ovqd9q",
       "kind": "news",
       "date": "2026-10-04",
@@ -3336,18 +3820,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T07:41:31.000Z",
-      "description": "North Korea fires intermediate-range missile, claiming evasive flight and AI features - Euronews.com (Euronews.com, 2026-10-04. Headline + link only.)",
+      "description": "North Korea fires intermediate-range missile, claiming evasive flight and AI features - euronews.com (euronews.com, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Euronews.com",
+      "actor": "euronews.com",
       "axis": "Other",
       "tags": [
-        "Euronews.com",
+        "euronews.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Euronews.com",
-      "source": "Euronews.com",
+      "locationStr": "euronews.com",
+      "source": "euronews.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzZyUFBOM0VjOXUwQXF3OEFfRzl5NFNSZ05GWnd4WGhuTDFlUHVkYlZkeFU1WE84NkpITXFlUVRPYWxUdTd5NkQ0RF9LaUhXbEs0bE4wQTNKc2NXYnE4ZW1zZnlnTkpBaV9RaFdCMFlxMGdXUUZhaFd4d1BUdFJrMDhsNUpQeXZfQ252VE1qNnhoZS0zWjhzdnREalNMYVNVV1oxOE5VcFVyMXJzQ21BNi1DbmtrVWhjWldRQw?oc=5"
     },
     {
@@ -3503,25 +3987,6 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZGhHNXpHbDlyLVF4SXpHNVBVSEhwZ3BnT1hMUW11aEVoMmlSdEhTV0VJb01MUko4Sm1RMDA4N0RtY21rZ3JNajFhLVliWjcyMlVOT21LaVNnV0I1Vi1Qd0FPR0prNWR4cHV2LW4wUG9LRzNaRFY4clBVai1yajR0UWZrT3k4d0ppX3VfYTRNdWhta29kZFZUbEZmN2V5UnNNTnRlVk1KbUFuMDQ?oc=5"
     },
     {
-      "id": "news-1bsv1se",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T05:19:33.000Z",
-      "description": "North Korea mocks Seoul, Tokyo over alleged failure to track missile - NK News (NK News, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NK News",
-      "axis": "Other",
-      "tags": [
-        "NK News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NK News",
-      "source": "NK News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWtqMHhuVmQxY25sLTdQNXNOVlRRenpXSloxUWEydnhucHFSeGItd2RsMGxSbk41MmZvcDFaQVRfQ0NpOWRaNUd3OF9tZkcxdUp5S2R2X1k0TkM5cWpzSW5ySG85dllBYW4xQWFqdFZPVzBoZHk5QkZrdGpyQWNCN1U1dEw1R3ZGemozZnNPMks2ZnFubXZkcGZ2U3FPdjJH?oc=5"
-    },
-    {
       "id": "news-co7j5u",
       "kind": "news",
       "date": "2026-10-04",
@@ -3640,18 +4105,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T03:34:00.000Z",
-      "description": "'No way to avoid attack': Kim Jong Un confirms North Korea's AI-powered missile launch - WION (WION, 2026-10-04. Headline + link only.)",
+      "description": "'No way to avoid attack': Kim Jong Un confirms North Korea's AI-powered missile launch - wionews.com (wionews.com, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "WION",
+      "actor": "wionews.com",
       "axis": "Other",
       "tags": [
-        "WION",
+        "wionews.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "WION",
-      "source": "WION",
+      "locationStr": "wionews.com",
+      "source": "wionews.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUZ1RFo5VVdDcDRsRDBpRWVxR0pNUG10cWpBUXJCZWpGTnJ6S1hia0hldk5lU3VCWjBLMEhhazk1NU85bE55RnRvVFpTcnNtYmd0LVEydVBwb2ptcnVGVXdtanlUckk2M0hueHcycThwejdJMHpaUDdaS3NyNDlVOGIxbzVPV1Jtb050ODA4akNXN3hLNlZsNlV2aGpHOEh3Vk5xdEpZb3JKQ1YzQ2t4aExHY0pBaHFqMFJZU1BmTWNwVDdBQnfSAcsBQVVfeXFMUGJjT09hX1cxZ19iUTFVWlJkREprTUZNZ3J0ZlFaX0k2TGtBaXNWbzhhRFhwb2lZdDZyak9RZFpxeDBtRHpUa1FrQ2RaRktiU3cwa2puZnVBN19DcHlNVVF2MFhSbXViOW85ajFtU1JIWlNCN0xsUy05OGk0aDhJWkl0bkF3WGhnaHJwLU9DTDVweXdHRUlweEFPNFhPWEN2cW9jQzIzLTNQQ21wQnVrYlZoSlhiNndmTlNXTmRCbjR5SmZrSV9Wd0Q1MGs?oc=5"
     },
     {
@@ -3910,18 +4375,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T00:12:00.000Z",
-      "description": "North Korea says intermediate missile’s range bests Tokyo and Seoul estimates - The Japan Times (The Japan Times, 2026-10-04. Headline + link only.)",
+      "description": "North Korea says intermediate missile’s range bests Tokyo and Seoul estimates - japantimes.co.jp (japantimes.co.jp, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Japan Times",
+      "actor": "japantimes.co.jp",
       "axis": "Other",
       "tags": [
-        "The Japan Times",
+        "japantimes.co.jp",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Japan Times",
-      "source": "The Japan Times",
+      "locationStr": "japantimes.co.jp",
+      "source": "japantimes.co.jp",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYnJ0U084VE5nbDhPNldRaXk0S0FKaGU2LW9fZVJSY0N1dUpqNExHQ2V5MDVzZC0ta2gyYUppRjY4TUpCbmtNTXNaaEtSbnFYNlduX0NOOHIzSWUxVXJqYURUcFo0WU5EaXgwTndRS1NVRXd2YWNfUmQ5YVdpX0liMThuWkRydDdrZFFNVUM4NDctWkc5OUVXVENNaHU4eHJCcEE?oc=5"
     },
     {
@@ -3986,18 +4451,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T00:00:04.000Z",
-      "description": "Seoul's diplomatic dilemma over North Korean POWs - The Korea Times (The Korea Times, 2026-10-04. Headline + link only.)",
+      "description": "Seoul's diplomatic dilemma over North Korean POWs - koreatimes.co.kr (koreatimes.co.kr, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Korea Times",
+      "actor": "koreatimes.co.kr",
       "axis": "Other",
       "tags": [
-        "The Korea Times",
+        "koreatimes.co.kr",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Korea Times",
-      "source": "The Korea Times",
+      "locationStr": "koreatimes.co.kr",
+      "source": "koreatimes.co.kr",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUFUMkFrQmtUQjZvR1pXV3A4Tnp0UTd0eS0zcVlkbVVkX2x2eFZUVUVFTlhlZEFmQkpKcWMyNWdEbTJBR0dJTC16S0labjNLQ3BqczdhZC1ybmpfNFpBdGVSVkZwbjJSSV9rZUNzaW5lNkxuekpXZm5ZWlRWOEJZb2hFemw0SWZtQk15ajlGYzJoUFlaZ0N6RTB30gGfAUFVX3lxTE1sVU9sY0VSMEpLQ3ZhcG9UNUkzM2lSRlJWVjBOMkw5YWpQalNVcVRkSkxodHh6a1hneWxuV01YSWt5VVR6Y01ULWhCTEJmMEZocXVYVzZnTjg4UWNmMWlZeUMzQ1FweHhYV1lKcnpxbkVNZTJ1cjlOSXN5Q2lyOTdRVkhIRTBYLXY5cEpNR0pOVERXZlYtQ25NM1ptUzVNTQ?oc=5"
     },
     {
@@ -9003,18 +9468,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T23:50:59.000Z",
-      "description": "North Korea launches ballistic missile 700 km. as hostilities heat up - The Jerusalem Post (The Jerusalem Post, 2026-10-03. Headline + link only.)",
+      "description": "North Korea launches ballistic missile 700 km. as hostilities heat up - jpost.com (jpost.com, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Jerusalem Post",
+      "actor": "jpost.com",
       "axis": "Other",
       "tags": [
-        "The Jerusalem Post",
+        "jpost.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Jerusalem Post",
-      "source": "The Jerusalem Post",
+      "locationStr": "jpost.com",
+      "source": "jpost.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVTG5qWWdhd3lsQ2pJdEVweklJZkhYNXBsNXZIQ1lJeEdfejlSdFVRU0U4dndLVzZCUmFZSVV4YXF1YnRmZjBaZFZuOVUzR29WVGdLdW5UUXVYVmgtbmNN?oc=5"
     },
     {
@@ -9098,18 +9563,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T22:57:00.000Z",
-      "description": "North Korea Says It Conducted Intermediate-Range Strategic Missile Drill - english.aawsat.com (english.aawsat.com, 2026-10-03. Headline + link only.)",
+      "description": "North Korea Says It Conducted Intermediate-Range Strategic Missile Drill - ASHARQ AL-AWSAT English (ASHARQ AL-AWSAT English, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "english.aawsat.com",
+      "actor": "ASHARQ AL-AWSAT English",
       "axis": "Other",
       "tags": [
-        "english.aawsat.com",
+        "ASHARQ AL-AWSAT English",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "english.aawsat.com",
-      "source": "english.aawsat.com",
+      "locationStr": "ASHARQ AL-AWSAT English",
+      "source": "ASHARQ AL-AWSAT English",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdVphU3ZKSi1HNTM2M3JXLUcwOU1tS3lOTHFtOEdKLUJuX2RQVEhwNERzRVRHMlVtNUl5YzVDYWQxZEtTQnFNa043akdKa1RlRlpiLVRNdFpuWEJaYXVBSlM5Tk11dEhxOWloenM1ekR4a2tVTWNoOGszNkFHRTBRVVBaZl85NU82Xy1iUF9BLVNFbGZhX2NqaDFFNjJaSE1HUEhDclloblRXVS1wMjUtcGt4SQ?oc=5"
     },
     {
@@ -9155,18 +9620,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T22:14:17.000Z",
-      "description": "N. Korea's Kim oversees intermediate-range missile launch, calls for bolstering war deterrent - en.yna.co.kr (en.yna.co.kr, 2026-10-03. Headline + link only.)",
+      "description": "N. Korea's Kim oversees intermediate-range missile launch, calls for bolstering war deterrent - Yonhap News Agency (Yonhap News Agency, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "en.yna.co.kr",
+      "actor": "Yonhap News Agency",
       "axis": "Other",
       "tags": [
-        "en.yna.co.kr",
+        "Yonhap News Agency",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "en.yna.co.kr",
-      "source": "en.yna.co.kr",
+      "locationStr": "Yonhap News Agency",
+      "source": "Yonhap News Agency",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kNUNmY3hzMGhLT1lVTEg3NUVuRnlxcEdabkNTNmQ5TWRsSFJVekFpRkFmSE5Wekkyclo5dHBrMEQ5c1J0YjUyM0Q3aXRyeVNyR1NCbGtSeXE0QQ?oc=5"
     },
     {
@@ -9402,18 +9867,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T16:00:00.000Z",
-      "description": "N Korea test-fires missile amid tensions with South - taipeitimes.com (taipeitimes.com, 2026-10-03. Headline + link only.)",
+      "description": "N Korea test-fires missile amid tensions with South - Taipei Times (Taipei Times, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "taipeitimes.com",
+      "actor": "Taipei Times",
       "axis": "Other",
       "tags": [
-        "taipeitimes.com",
+        "Taipei Times",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "taipeitimes.com",
-      "source": "taipeitimes.com",
+      "locationStr": "Taipei Times",
+      "source": "Taipei Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OR19hZFVQMldrRlZwOFZOYXM4Q3dRQU56VVpESTlZYXJURUNESzQ0eUo5Y0lUNHBBYTJPRmdBVEVjXzRGSkFqOFBUd0szVFdjaFhFUHJTZC1vTnJsQnhVaEFSMklnZHhKc1JWSEx6M0NFVlVJVzFrZQ?oc=5"
     },
     {
@@ -9421,18 +9886,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T15:35:04.000Z",
-      "description": "North Korea's Mid-Range Missile Evades South Korea, Japan Tracking - chosun.com (chosun.com, 2026-10-03. Headline + link only.)",
+      "description": "North Korea's Mid-Range Missile Evades South Korea, Japan Tracking - 조선일보 (조선일보, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "chosun.com",
+      "actor": "조선일보",
       "axis": "Other",
       "tags": [
-        "chosun.com",
+        "조선일보",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "chosun.com",
-      "source": "chosun.com",
+      "locationStr": "조선일보",
+      "source": "조선일보",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWjhtRnRYVGdUOE02aTNkMktQbHEzUjREbXNlZEpTZUdpWEZjY3RUbUxoYVpNcW85akdQMjZ4NUluS3B0NFoxSk1mMVBrNGZsVnRDMW4xNHE1V0xVTDBaOG9lTWJTXzNRNGg1TFgzeHdKeDNkSXpFcXdoRUZJZngwQV94RFd4NG5F?oc=5"
     },
     {
@@ -10467,18 +10932,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T11:56:07.000Z",
-      "description": "South Korea, U.S., Japan Discuss Response to North Missile Launch - chosun.com (chosun.com, 2026-10-03. Headline + link only.)",
+      "description": "South Korea, U.S., Japan Discuss Response to North Missile Launch - 조선일보 (조선일보, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "chosun.com",
+      "actor": "조선일보",
       "axis": "Other",
       "tags": [
-        "chosun.com",
+        "조선일보",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "chosun.com",
-      "source": "chosun.com",
+      "locationStr": "조선일보",
+      "source": "조선일보",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX211ajBuQXJJa2tEV21EOXJUd3ZpVy03QUFJUll2MFhGUFNKMUJ0RUFaQ2tra2FITXpBZ2lyMmFhWTREMWNqLXJpbm1JZUFIMmNfa0tqRldQNEFlTXFsZ1p0NmJjR2JqaGVaTnNXc1g5dFRTUGtEN0R5RERhSGRjdUpqeHkyUXFh?oc=5"
     },
     {
@@ -10524,18 +10989,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T11:48:47.000Z",
-      "description": "(LEAD) Cheong Wa Dae holds emergency security meeting on N. Korea's missile launch - en.yna.co.kr (en.yna.co.kr, 2026-10-03. Headline + link only.)",
+      "description": "(LEAD) Cheong Wa Dae holds emergency security meeting on N. Korea's missile launch - Yonhap News Agency (Yonhap News Agency, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "en.yna.co.kr",
+      "actor": "Yonhap News Agency",
       "axis": "Other",
       "tags": [
-        "en.yna.co.kr",
+        "Yonhap News Agency",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "en.yna.co.kr",
-      "source": "en.yna.co.kr",
+      "locationStr": "Yonhap News Agency",
+      "source": "Yonhap News Agency",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtWGhoS0RpVFZNZ1RNN014MFdlcXh3VGE0b1ZVNTE3UkttU0c1X3hwWktvZWRaRmlBc2RCOS1Ra3lXRGpsSWhod0FzSlo3UHFsVXZDcFZ4VV9CQQ?oc=5"
     },
     {
@@ -10638,18 +11103,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T11:18:01.000Z",
-      "description": "(LEAD) N.K. leader's sister says intermediate-range strategic missile was launched during firing drill - en.yna.co.kr (en.yna.co.kr, 2026-10-03. Headline + link only.)",
+      "description": "(LEAD) N.K. leader's sister says intermediate-range strategic missile was launched during firing drill - Yonhap News Agency (Yonhap News Agency, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "en.yna.co.kr",
+      "actor": "Yonhap News Agency",
       "axis": "Other",
       "tags": [
-        "en.yna.co.kr",
+        "Yonhap News Agency",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "en.yna.co.kr",
-      "source": "en.yna.co.kr",
+      "locationStr": "Yonhap News Agency",
+      "source": "Yonhap News Agency",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fbnJhanQ1NkJCQ0kwckJFTjViUlZWQmxWMDB3bGtJNkxQY2twbTRuOEhuUEM4ZHRDUHdDQWtlRWcxVGI2cVdYaEhRRENMckxwdjZ2TUJibFpRQQ?oc=5"
     },
     {
@@ -11292,18 +11757,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T06:28:16.000Z",
-      "description": "North Korea fires ballistic missile toward East Sea amid Seoul tensions - turkiyetoday.com (turkiyetoday.com, 2026-10-03. Headline + link only.)",
+      "description": "North Korea fires ballistic missile toward East Sea amid Seoul tensions - Türkiye Today (Türkiye Today, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "turkiyetoday.com",
+      "actor": "Türkiye Today",
       "axis": "Other",
       "tags": [
-        "turkiyetoday.com",
+        "Türkiye Today",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "turkiyetoday.com",
-      "source": "turkiyetoday.com",
+      "locationStr": "Türkiye Today",
+      "source": "Türkiye Today",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTmMyZEVLOUFGRjUwTWRxeVRlcUFyT2ZGVHZjelFDYy1fQ2REb0FScGpNVUlDNjIwM205MFh4NjdmLWRKU3RBeEk2Y0xNYUpwT1ltZkxBeGpHcGhuNzBVMWt6aU1qLWhVamlVZjN4dWpoTjROVEQ1MUpTTGlTQ082cGFuSTBuTmpfclY5bmdnbjc1Y0Q0WEIwY0VJak80Y1UzOEJrOGtWa0Fub2lYUldOWVIwbHo?oc=5"
     },
     {
@@ -12357,18 +12822,18 @@
       "kind": "news",
       "date": "2026-10-03",
       "isoDate": "2026-10-03T00:27:07.000Z",
-      "description": "Cheong Wa Dae holds emergency security meeting on N. Korea's missile launch - en.yna.co.kr (en.yna.co.kr, 2026-10-03. Headline + link only.)",
+      "description": "Cheong Wa Dae holds emergency security meeting on N. Korea's missile launch - Yonhap News Agency (Yonhap News Agency, 2026-10-03. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "en.yna.co.kr",
+      "actor": "Yonhap News Agency",
       "axis": "Other",
       "tags": [
-        "en.yna.co.kr",
+        "Yonhap News Agency",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "en.yna.co.kr",
-      "source": "en.yna.co.kr",
+      "locationStr": "Yonhap News Agency",
+      "source": "Yonhap News Agency",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yWG1YWnMtRXpud09mcEVtSTFSX1ZQMlZ6UDQxN1BCMjIyMFlVY3NpcjYybHlvWHVEZm45RnFnWVhSM1JGeEVEcVZlTHB3VFF3cVFGWldTcVFlQQ?oc=5"
     },
     {
@@ -18946,18 +19411,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T21:00:05.000Z",
-      "description": "Russia Says North Korean Troops Can Be Deployed Anywhere on Its Soil - Seoul Economic Daily (Seoul Economic Daily, 2026-10-02. Headline + link only.)",
+      "description": "Russia Says North Korean Troops Can Be Deployed Anywhere on Its Soil - en.sedaily.com (en.sedaily.com, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Seoul Economic Daily",
+      "actor": "en.sedaily.com",
       "axis": "Other",
       "tags": [
-        "Seoul Economic Daily",
+        "en.sedaily.com",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Seoul Economic Daily",
-      "source": "Seoul Economic Daily",
+      "locationStr": "en.sedaily.com",
+      "source": "en.sedaily.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSEdib2NXdWxjVFp0M2VWQ1A5TFBBZWZQSmFLUWg1TEhZN2RiakVSNkNaZ09IWFFIT0t0MnZXUEo5MUNWeGVNZjM2cXRhZVl2TEU3UThkMkFtZE8xd3UxVUpCVHcteVZzRThFSTQ5SWpOZGZ4QnJxeDhyX1BIQnRrNGpQQ0ttZUxxeFA0MUoyT2JZVlYzQUtGR0tWdWRrdlIzN0tCcFFaSmVBS1k?oc=5"
     },
     {
@@ -19003,18 +19468,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T19:33:37.000Z",
-      "description": "South Korea warns ‘further measures’ if Ukraine refuses public apology - The Japan Times (The Japan Times, 2026-10-02. Headline + link only.)",
+      "description": "South Korea warns ‘further measures’ if Ukraine refuses public apology - japantimes.co.jp (japantimes.co.jp, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Japan Times",
+      "actor": "japantimes.co.jp",
       "axis": "Other",
       "tags": [
-        "The Japan Times",
+        "japantimes.co.jp",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Japan Times",
-      "source": "The Japan Times",
+      "locationStr": "japantimes.co.jp",
+      "source": "japantimes.co.jp",
       "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPV2R2QjhrWWJ4X2xRYnZzOXVHY2hsd3lfRExZRFQ2N2ZIZm16M0tTblBzMjJtLVV1N00zWnp6RnhMZTYxdExqNGE1emJVS3UyZWRUWjRoVmhvVTZ2MDAwbkdxaUFkd2VTaGdaNUdnTWVMampUQTBzUUU0RW94VHBBejBSeUY0UFYtekZvOWtxazA?oc=5"
     },
     {
@@ -20088,18 +20553,18 @@
       "kind": "news",
       "date": "2026-10-02",
       "isoDate": "2026-10-02T08:15:04.000Z",
-      "description": "Opposition Slams Lee: Ukraine Apology Demand, North Korea Silence - chosun.com (chosun.com, 2026-10-02. Headline + link only.)",
+      "description": "Opposition Slams Lee: Ukraine Apology Demand, North Korea Silence - 조선일보 (조선일보, 2026-10-02. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "chosun.com",
+      "actor": "조선일보",
       "axis": "Other",
       "tags": [
-        "chosun.com",
+        "조선일보",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "chosun.com",
-      "source": "chosun.com",
+      "locationStr": "조선일보",
+      "source": "조선일보",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMXRHc2pvNVdqcWxMWTVld2RXQVladHQyZGx0dEdIZGdkLXUxM1Y0R2Q1SUljeTJ6TTE3WjVfWlM1OXRuNWV4MkJrbUVHNDlkV1FiRWo4M3A3V19EYXdtcUZmVUdvUHNjUW13TUlpLWRKWTJPcVZteW1nRVJKUkw3bVA4ZTlTeEI3?oc=5"
     },
     {
@@ -20158,139 +20623,6 @@
       "locationStr": "The New Voice of Ukraine",
       "source": "The New Voice of Ukraine",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ2JnbjVnSk1fZ1lxNnRnYUZnQ2lfNnZ6SmRJMlZzUWdjX0xBYTNhOTdfS3gwdkg0TllXNGUxczZqcXBlbGtEWHQyUHFZUE54bS1wd2xHNjlYRVVJQ3JhODBBVmMyUHVPQUF6dU1XMVp1N1Q5eXQzS1FDYXFteGd0NVYyY3didE43bjdOenFiamc1aWxSU2xTTVVLMVRONi0tdFZ1TzBpcUh3eFQ1ak1aekpR0gGuAUFVX3lxTFAyYWN6ZVNXcTRxYmxKb2xneEw3OXpfSEstMkEzSkl4WFZJcGQ0Y05mQ25ha0pSSURoeVdVU3ZNLXF6ajd4RDVyOXlGUDc5TnF0ODVpVXZQd3I5R3hLM0pNVWx0UzlwaDNLY0s4TWFFdVFLVC01UTdNNVZYU1kyblA5SGl3LVlXekNTempneGR1SVNfY2hIYVQ4eC1CU1hDU3lMcVZvcTd1MktXb19sdw?oc=5"
-    },
-    {
-      "id": "news-1r49v5u",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T07:43:56.000Z",
-      "description": "(2nd LD) Seoul shares end higher on bargain hunting amid uncertainties; S. Korean won up (Yonhap, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261002006252320"
-    },
-    {
-      "id": "news-ypegip",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T07:30:45.000Z",
-      "description": "Defense chief highlights S. Korea-U.S. alliance, readiness on 1st visit to USFK base (Yonhap, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261002008200315"
-    },
-    {
-      "id": "news-gkzush",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T07:28:26.000Z",
-      "description": "(Asiad) S. Korea wins two silvers, two bronzes in ju-jitsu (Yonhap, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261002007700320"
-    },
-    {
-      "id": "news-dul3i6",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T07:23:00.000Z",
-      "description": "South Korea threatens action against Ukraine over transfer of North Koreans - The Independent (The Independent, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Independent",
-      "axis": "Other",
-      "tags": [
-        "The Independent",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Independent",
-      "source": "The Independent",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTUlpS3B1TFM1bU5UN3hKeU0wWW1xSXZJcnhtNE5WdWRMMGdYM1o2a011ZWtpbFZTVWFpVWdqLW9YSnRpQlkzUm5USHhzRk5qeTYyM1BRRV9EbWpYd19yYUZjQzlpaWxTcmFCanloSGdOTE5OeENMV2sxcWFGdlBta2ZxSFpqcTBKR2ZVRlpWbUY5Z3FMQkhzc3FB?oc=5"
-    },
-    {
-      "id": "news-1vncquk",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T07:04:53.000Z",
-      "description": "(LEAD) (Asiad) S. Korea wins 2nd straight gold in men's team recurve archery (Yonhap, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261002006951315"
-    },
-    {
-      "id": "news-1r493fl",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:51:23.000Z",
-      "description": "(LEAD) Seoul shares end higher on bargain hunting amid uncertainties; S. Korean won up (Yonhap, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261002006251320"
-    },
-    {
-      "id": "news-1vjsvt2",
-      "kind": "news",
-      "date": "2026-10-02",
-      "isoDate": "2026-10-02T06:40:24.000Z",
-      "description": "(Asiad) S. Korea wins 2nd straight gold in men's team recurve archery (Yonhap, 2026-10-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261002006900315"
     }
   ]
 }
