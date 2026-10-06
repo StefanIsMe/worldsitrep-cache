@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "iran",
-  "collectedAt": "2026-10-06T02:26:44.587Z",
+  "collectedAt": "2026-10-06T03:21:52.461Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 121
+      "count": 21
     },
     {
       "id": "gnews-iran",
@@ -40,9 +40,9 @@
     {
       "id": "tehrantimes",
       "url": "https://www.tehrantimes.com/rss",
-      "status": "ok",
-      "count": 16,
-      "filtered": 14
+      "status": "failed",
+      "count": 0,
+      "error": "RSS tehrantimes request timed out after 25000 ms"
     },
     {
       "id": "irna-en",
@@ -54,9 +54,9 @@
     {
       "id": "mehr-en",
       "url": "https://en.mehrnews.com/rss",
-      "status": "ok",
-      "count": 18,
-      "filtered": 12
+      "status": "failed",
+      "count": 0,
+      "error": "RSS mehr-en request timed out after 25000 ms"
     },
     {
       "id": "gnews-irgc",
@@ -3298,6 +3298,535 @@
       }
     },
     {
+      "id": "gdelt-1326480984",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T02:30:00.000Z",
+      "description": "Assault — Iran → Unspecified near Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 32,
+      "lng": 53,
+      "action": "Assault (GDELT 180)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/international/world-news/war-weary-northern-israelis-rethink-loyalty-to-netanyahu-before-election/articleshow/134720771.cms",
+      "gdelt": {
+        "globalEventId": "1326480984",
+        "eventCode": "180",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326481224",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T02:30:00.000Z",
+      "description": "Threat — Saudi → Airline near Iran. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32,
+      "lng": 53,
+      "action": "Threat (GDELT 130)",
+      "actor": "Saudi",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://yalibnan.com/2026/10/06/yemens-iran-backed-houthis-say-they-targeted-riyadh-airport-saudi-aramco-refinery/",
+      "gdelt": {
+        "globalEventId": "1326481224",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.34,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326482440",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T02:45:00.000Z",
+      "description": "Protest — Iran → Iran near Isfahan, Esfahan, Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32.6597,
+      "lng": 51.6714,
+      "action": "Protest (GDELT 141)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Isfahan, Esfahan, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://isp.netscape.com:443/news/world/story/0001/20261005/5c0479a4ecb8fefb8f259e6df3800cd8",
+      "gdelt": {
+        "globalEventId": "1326482440",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -6,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326482441",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T02:45:00.000Z",
+      "description": "Protest — Iran → Judiciary near Isfahan, Esfahan, Iran. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32.6597,
+      "lng": 51.6714,
+      "action": "Protest (GDELT 141)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Isfahan, Esfahan, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://isp.netscape.com:443/news/world/story/0001/20261005/5c0479a4ecb8fefb8f259e6df3800cd8",
+      "gdelt": {
+        "globalEventId": "1326482441",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -6,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326482442",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T02:45:00.000Z",
+      "description": "Disapproval — Iran → Oman near Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32,
+      "lng": 53,
+      "action": "Disapproval (GDELT 1124)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.newindianexpress.com/world/2026/Oct/06/trump-personally-believes-iran-responsible-for-attack-by-omani-co-pilot-on-flydubai-flight",
+      "gdelt": {
+        "globalEventId": "1326482442",
+        "eventCode": "1124",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.98,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326482444",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T02:45:00.000Z",
+      "description": "Reduced relations — Iran → Unspecified near Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32,
+      "lng": 53,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://en.apa.az/america/us-redirected-130-vessels-in-iran-blockade-528294",
+      "gdelt": {
+        "globalEventId": "1326482444",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -9.64,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326482535",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T02:45:00.000Z",
+      "description": "Reduced relations — Commander → Unspecified near Iran. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32,
+      "lng": 53,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Commander",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://en.apa.az/america/us-redirected-130-vessels-in-iran-blockade-528294",
+      "gdelt": {
+        "globalEventId": "1326482535",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -9.64,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326482541",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T02:45:00.000Z",
+      "description": "Reduced relations — Commander → Iran near Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32,
+      "lng": 53,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Commander",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://en.apa.az/america/us-redirected-130-vessels-in-iran-blockade-528294",
+      "gdelt": {
+        "globalEventId": "1326482541",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -9.64,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326482805",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T02:45:00.000Z",
+      "description": "Disapproval — Alaska → Iran near Iran. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32,
+      "lng": 53,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Alaska",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/international/global-trends/trump-says-he-personally-believes-iran-was-behind-flydubai-attack/articleshow/134720936.cms",
+      "gdelt": {
+        "globalEventId": "1326482805",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.38,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326483472",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T03:00:00.000Z",
+      "description": "Disapproval — Canada → Iran near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.75,
+      "lng": 51.5148,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Canada",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tehran, Tehran, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.caribbeanherald.com/news/279353982/the-tariffs-were-a-wake-up-call-ottawa-hits-snooze-again",
+      "gdelt": {
+        "globalEventId": "1326483472",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.98,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326483805",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T03:00:00.000Z",
+      "description": "Fight — Iran → Unspecified near Kurdistan, Khuzestan, Iran. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 30.6693,
+      "lng": 50.2055,
+      "action": "Fight (GDELT 190)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kurdistan, Khuzestan, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://en.tempo.co/read/2121002/iran-poised-to-exploit-security-vacuum-as-us-leaves-iraq",
+      "gdelt": {
+        "globalEventId": "1326483805",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.47,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326483806",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T03:00:00.000Z",
+      "description": "Fight — Iran → Unspecified near Mahabad, Az¯arbayjan-e Gharbi, Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 36.7499,
+      "lng": 45.7229,
+      "action": "Fight (GDELT 190)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Mahabad, Az¯arbayjan-e Gharbi, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://en.tempo.co/read/2121002/iran-poised-to-exploit-security-vacuum-as-us-leaves-iraq",
+      "gdelt": {
+        "globalEventId": "1326483806",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.47,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326483810",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T03:00:00.000Z",
+      "description": "Threat — Iran → Military near Kurdistan, Khuzestan, Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 30.6693,
+      "lng": 50.2055,
+      "action": "Threat (GDELT 130)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kurdistan, Khuzestan, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://en.tempo.co/read/2121002/iran-poised-to-exploit-security-vacuum-as-us-leaves-iraq",
+      "gdelt": {
+        "globalEventId": "1326483810",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.47,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326484953",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T03:15:00.000Z",
+      "description": "Threat — Djibouti → Iran near Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32,
+      "lng": 53,
+      "action": "Threat (GDELT 138)",
+      "actor": "Djibouti",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://bworldonline.com/world/2026/10/06/784796/yemeni-government-forces-drive-houthis-from-bab-el-mandeb-strait/",
+      "gdelt": {
+        "globalEventId": "1326484953",
+        "eventCode": "138",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -5.47,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326485058",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T03:15:00.000Z",
+      "description": "Disapproval — Iran → Unspecified near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.75,
+      "lng": 51.5148,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tehran, Tehran, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279354113/us-nine-nations-target-iran-activities",
+      "gdelt": {
+        "globalEventId": "1326485058",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.48,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "news-tuylma",
+      "kind": "news",
+      "date": "2026-10-05",
+      "isoDate": "2026-10-05T23:23:36.000Z",
+      "description": "​​​​​​​What is Iran's 7-Day plan to reopen the Hormuz? - tehrantimes.com (tehrantimes.com, 2026-10-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "tehrantimes.com",
+      "axis": "Other",
+      "tags": [
+        "tehrantimes.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "tehrantimes.com",
+      "source": "tehrantimes.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeEo1Z0JOZS1PVnBxb3hFVE5rOVAwM3R4R3Ewc0o1UEUzdzZickpVbEhrQkJTcm9CalJwUk1nZm8wZnJDU0VqTUNLdzdQaUI4YTFmVEwtNTQxSUlnN1UtR0F6TllKelc4WUthNzRJZF9fUzBhM3F6bFR5ZHozTTZTVG5reVdSMnVRUGhpaDZRQQ?oc=5"
+    },
+    {
       "id": "news-1c48ntz",
       "kind": "news",
       "date": "2026-10-05",
@@ -3395,25 +3924,6 @@
       "locationStr": "Mehr News English",
       "source": "Mehr News English",
       "sourceUrl": "https://en.mehrnews.com/news/248349/US-cannot-be-trusted-in-talks-Pezeshkian"
-    },
-    {
-      "id": "news-tuylma",
-      "kind": "news",
-      "date": "2026-10-05",
-      "isoDate": "2026-10-05T18:07:58.000Z",
-      "description": "​​​​​​​What is Iran's 7-Day plan to reopen the Hormuz? - Tehran Times (Tehran Times, 2026-10-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Tehran Times",
-      "axis": "Other",
-      "tags": [
-        "Tehran Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Tehran Times",
-      "source": "Tehran Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeEo1Z0JOZS1PVnBxb3hFVE5rOVAwM3R4R3Ewc0o1UEUzdzZickpVbEhrQkJTcm9CalJwUk1nZm8wZnJDU0VqTUNLdzdQaUI4YTFmVEwtNTQxSUlnN1UtR0F6TllKelc4WUthNzRJZF9fUzBhM3F6bFR5ZHozTTZTVG5reVdSMnVRUGhpaDZRQQ?oc=5"
     },
     {
       "id": "news-iac3bo",
@@ -28976,19 +29486,19 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T15:20:57.000Z",
-      "description": "Iran says Strait of Hormuz main focus of talks to end US war - en.yenisafak.com (en.yenisafak.com, 2026-10-04. Headline + link only.)",
+      "description": "Iran says Strait of Hormuz main focus of talks to end US war - Yeni Şafak English (Yeni Şafak English, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "en.yenisafak.com",
+      "actor": "Yeni Şafak English",
       "axis": "Other",
       "tags": [
-        "en.yenisafak.com",
+        "Yeni Şafak English",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Strait of Hormuz",
-      "source": "en.yenisafak.com",
+      "source": "Yeni Şafak English",
       "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTEZZTk9UTWs0eWJacWNLVEhJaExjaE9XR3Z0SGswWFZXcTNqTVpFcF84RFRXRzl5OVdyZ0tzcEo2NG96UG45YmhnbkNDcXhGUlF1WU9kRTdkaFFMb1lzcFRtYWpQSkRXQ25XajktYnAyNHptdmpwYTduanl5T3drcFJxQW9wVGtidEpNRF9rSnJrWHlBQnBXS1VodnE0S3h6?oc=5",
       "lat": 26.57,
       "lng": 56.25,
@@ -29414,18 +29924,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T11:15:26.000Z",
-      "description": "Shafaq News..Iran prioritizes Hormuz security in response to US proposal - shafaq.com (shafaq.com, 2026-10-04. Headline + link only.)",
+      "description": "Shafaq News..Iran prioritizes Hormuz security in response to US proposal - شفق نيوز (شفق نيوز, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "shafaq.com",
+      "actor": "شفق نيوز",
       "axis": "Other",
       "tags": [
-        "shafaq.com",
+        "شفق نيوز",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "shafaq.com",
-      "source": "shafaq.com",
+      "locationStr": "شفق نيوز",
+      "source": "شفق نيوز",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZUV4RGhWckxMS2RKdVFhbmNpWGFMUzVrOXNiQVVmNVhPdGhqeHE5ci10Q2g2YWxrbFU5RHhZWXMtMWhpYTVtWmpVV0JfN3hyU0JoZ1ZjdjBQeVdTTUE1dlRPYlpNemRNSUFZRENKeHNrV0xoZFVDZFNTX2NSQ3VHMkVxcVJ6aFRVakswcW9meEFoREVFTnJLQQ?oc=5"
     },
     {
@@ -29433,18 +29943,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T11:12:01.000Z",
-      "description": "Iran says Hormuz to remain closed until US meets conditions - aljazeera.com (aljazeera.com, 2026-10-04. Headline + link only.)",
+      "description": "Iran says Hormuz to remain closed until US meets conditions - Al Jazeera (Al Jazeera, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "aljazeera.com",
+      "actor": "Al Jazeera",
       "axis": "Other",
       "tags": [
-        "aljazeera.com",
+        "Al Jazeera",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "aljazeera.com",
-      "source": "aljazeera.com",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdEpOSExlamJ6VFM3V3hVMXl2M09LVHYxQnZpUHV6bXZuRkJmM3ljVHA0NFpQTmJ2WS1uZzhQVjAxVUJJYUZXeE5rMTVZMkdma3Z0a2NWUU9qRGJXZlhkSFYyVkVINHE1NjR6bklmTmxZUWdWNS1qaXc0cTNnU0xtZWV2QTRubWoyakdyMDNIUm9KcmpfSy1Jb3Nrb09mTEVMbjBlYVFybGNaa0JFOFhF0gG0AUFVX3lxTE12RHNGM054RWlsaVJaeEgtRWlIUDNKVWN0N0JLQmRfOHA1MU5SUVhXV1pjM1RKRlY2YjVkZlkyaG5vaDhWa0Fhd2hDeVZGMXRYcm5odHB1RWZ1eWJGeEZxRnZrWVNib2FvZHFySGVnNjdqTHlmUVJLdThHZHkwYk14ajdNWlptejNOYnhNR3dacmZMTWlLRDdGMFpkczBqcTBWZlN5UnlSUTV6a3NsWFBvY0djdQ?oc=5"
     },
     {
@@ -29601,19 +30111,19 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T10:20:00.000Z",
-      "description": "Iran Says Strait of Hormuz Will Stay Closed Until U.S. Meets Their Conditions - Haaretz (Haaretz, 2026-10-04. Headline + link only.)",
+      "description": "Iran Says Strait of Hormuz Will Stay Closed Until U.S. Meets Their Conditions - haaretz.com (haaretz.com, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Haaretz",
+      "actor": "haaretz.com",
       "axis": "Other",
       "tags": [
-        "Haaretz",
+        "haaretz.com",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Strait of Hormuz",
-      "source": "Haaretz",
+      "source": "haaretz.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZGZHSkRZaUVsTHBfeE9jcGQwMkRaS1VrUXIxa3Jja25KbHQ5d05vcWhzSDNwOHFRRW9xYWkwUzFmRHMtem1abFBIZzhWMEJEUjlOSzU4cTRWQnBJRzhUYng3SnYyZ01tS2duNVIyZW9vSkVZQ2xxU0ZhaFUzenJqUDg3ZUE5YWJVWF9Gb2ljSEdkLTVDMjBua2lpdUhwSUdZM2Ztc09INkFzYmZGZW1VQkdSaXY1c0Zsam5hOW1xQVRyeUp2YWYzNUFwUlo0aWhRaFh0elo2SkNLa0JwekxqUlRfOXRSWGFqTHZtQVl3YV9tTHVXcU9SdXY0SG5NTzhvaFMtOHpnMTQya1pCZFE?oc=5",
       "lat": 26.57,
       "lng": 56.25,
@@ -47680,291 +48190,6 @@
       "locationStr": "Iran International",
       "source": "Iran International",
       "sourceUrl": "https://www.iranintl.com/en/202610038161"
-    },
-    {
-      "id": "news-13j0o5i",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T11:17:14.000Z",
-      "description": "Enemy calculations collapsed in face of Iranian nation’s will (Mehr News English, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Mehr News English",
-      "axis": "Other",
-      "tags": [
-        "Mehr News English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Mehr News English",
-      "source": "Mehr News English",
-      "sourceUrl": "https://en.mehrnews.com/news/248271/Enemy-calculations-collapsed-in-face-of-Iranian-nation-s-will"
-    },
-    {
-      "id": "news-gtek11",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T11:13:05.000Z",
-      "description": "75 Iranian universities in THE WUR 2027 Rankings (Tehran Times, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Tehran Times",
-      "axis": "Other",
-      "tags": [
-        "Tehran Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Tehran Times",
-      "source": "Tehran Times",
-      "sourceUrl": "https://www.tehrantimes.com/news/530680/75-Iranian-universities-in-THE-WUR-2027-Rankings"
-    },
-    {
-      "id": "news-ru6qa9",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T11:00:08.000Z",
-      "description": "Azarpira collects Iran’s 18th gold at 2026 Asian Games (Tehran Times, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Tehran Times",
-      "axis": "Other",
-      "tags": [
-        "Tehran Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Tehran Times",
-      "source": "Tehran Times",
-      "sourceUrl": "https://www.tehrantimes.com/news/530678/Azarpiran-collects-Iran-s-18th-gold-at-2026-Asian-Games"
-    },
-    {
-      "id": "news-19hkvc",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T10:55:11.000Z",
-      "description": "Four street sabotage networks dismantled in southeast Iran: Intelligence Ministry (IRNA English, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "IRNA English",
-      "axis": "Other",
-      "tags": [
-        "IRNA English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "IRNA English",
-      "source": "IRNA English",
-      "sourceUrl": "https://en.irna.ir/news/86281820/Four-street-sabotage-networks-dismantled-in-southeast-Iran-Intelligence"
-    },
-    {
-      "id": "news-1coh8wq",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T10:52:16.000Z",
-      "description": "Iran, Pakistan to expand tourism cooperation (IRNA English, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "IRNA English",
-      "axis": "Other",
-      "tags": [
-        "IRNA English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "IRNA English",
-      "source": "IRNA English",
-      "sourceUrl": "https://en.irna.ir/news/86281776/Iran-Pakistan-to-expand-tourism-cooperation"
-    },
-    {
-      "id": "news-pd28m5",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T10:27:24.000Z",
-      "description": "Iranian wrestler Emami snatches gold in 2026 Asian Games (Tehran Times, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Tehran Times",
-      "axis": "Other",
-      "tags": [
-        "Tehran Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Tehran Times",
-      "source": "Tehran Times",
-      "sourceUrl": "https://www.tehrantimes.com/news/530676/Iranian-wrestler-Emami-snatches-gold-in-2026-Asian-Games"
-    },
-    {
-      "id": "news-1n7osm0",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T10:22:00.000Z",
-      "description": "Iran Executes Man Detained During January Protests Over Alleged Attack on Police - Haaretz (Haaretz, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Haaretz",
-      "axis": "Other",
-      "tags": [
-        "Haaretz",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Haaretz",
-      "source": "Haaretz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNQ09iWnhBQm53WGFsaHBOSnQxYTZMZFNyOEpmTk55bE41MjNLNU1ZSUE4UzREbDB5amg3ZnNSYW9oNHhSeXBLc3REa25wRDN3ZjZfUTJnY3l2NXNNd1BUS1FYQWVIemEyVDRjR1FKYnNxUkdQVEpYR2tjZDU5VTZjX2FRX0hsb0JYQl9SREhST1NFdk85czEwSFpGOUgwWEhKY2huWDhVOFlGdng4OVVFaFRtaWxwb094M3h2ZW16VTcxVUxLR1ZDZ28zNFV2Mng2RWtIc2x0NGJxVXRjVkdEaF80N2NYaFhfYV9lVjFRdmNmaExtM1hVTVBwUTZIeFc5RUtUNjU4VHNFYVJRMjljRnFPYw?oc=5"
-    },
-    {
-      "id": "news-1bwhflx",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T10:20:41.000Z",
-      "description": "Mehregan festival marked in Iran as seasonal tradition endures (Tehran Times, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Tehran Times",
-      "axis": "Other",
-      "tags": [
-        "Tehran Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Tehran Times",
-      "source": "Tehran Times",
-      "sourceUrl": "https://www.tehrantimes.com/news/530672/Mehregan-festival-marked-in-Iran-as-seasonal-tradition-endures"
-    },
-    {
-      "id": "news-1gtns23",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T10:18:27.000Z",
-      "description": "Iran’s taekwondo star wins gold at 2026 Asian Games (IRNA English, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "IRNA English",
-      "axis": "Other",
-      "tags": [
-        "IRNA English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "IRNA English",
-      "source": "IRNA English",
-      "sourceUrl": "https://en.irna.ir/news/86281706/Iran-s-taekwondo-star-wins-gold-at-2026-Asian-Games"
-    },
-    {
-      "id": "news-18ndqgw",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T10:10:50.000Z",
-      "description": "Iran police force represents professional, people-backed security: IRGC Commander (IRNA English, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "IRNA English",
-      "axis": "Other",
-      "tags": [
-        "IRNA English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "IRNA English",
-      "source": "IRNA English",
-      "sourceUrl": "https://en.irna.ir/news/86281738/Iran-police-force-represents-professional-people-backed-security"
-    },
-    {
-      "id": "news-1cuqv7v",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T10:05:20.000Z",
-      "description": "Iran Intel. Min. dismantles 4 sabotage networks, 31 arrested (Mehr News English, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Mehr News English",
-      "axis": "Other",
-      "tags": [
-        "Mehr News English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Mehr News English",
-      "source": "Mehr News English",
-      "sourceUrl": "https://en.mehrnews.com/news/248269/Iran-Intel-Min-dismantles-4-sabotage-networks-31-arrested"
-    },
-    {
-      "id": "news-1c2v9wk",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T09:56:58.000Z",
-      "description": "Euro tops 3 million rials as Iran's currency hits fresh record lows (Iran International, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Iran International",
-      "axis": "Other",
-      "tags": [
-        "Iran International",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Iran International",
-      "source": "Iran International",
-      "sourceUrl": "https://www.iranintl.com/en/202610032594"
-    },
-    {
-      "id": "news-8ula1w",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T09:18:17.000Z",
-      "description": "Iran’s padel claims bronze: 2026 Asian Games (Tehran Times, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Tehran Times",
-      "axis": "Other",
-      "tags": [
-        "Tehran Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Tehran Times",
-      "source": "Tehran Times",
-      "sourceUrl": "https://www.tehrantimes.com/news/530668/Iran-s-padel-claims-bronze-2026-Asian-Games"
-    },
-    {
-      "id": "news-rys9tv",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T09:06:14.000Z",
-      "description": "Iran, Azerbaijan FMs discuss ties, latest reg. developments (Mehr News English, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Mehr News English",
-      "axis": "Other",
-      "tags": [
-        "Mehr News English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Mehr News English",
-      "source": "Mehr News English",
-      "sourceUrl": "https://en.mehrnews.com/news/248266/Iran-Azerbaijan-FMs-discuss-ties-latest-reg-developments"
-    },
-    {
-      "id": "news-1c29nrb",
-      "kind": "news",
-      "date": "2026-10-03",
-      "isoDate": "2026-10-03T08:58:55.000Z",
-      "description": "Smartwatches on Iran's security chiefs spark row within the inner circle (Iran International, 2026-10-03. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Iran International",
-      "axis": "Other",
-      "tags": [
-        "Iran International",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Iran International",
-      "source": "Iran International",
-      "sourceUrl": "https://www.iranintl.com/en/202610027377"
     }
   ]
 }
