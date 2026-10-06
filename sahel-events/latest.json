@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-06T10:48:56.560Z",
+  "collectedAt": "2026-10-06T16:11:01.758Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 2
     },
     {
       "id": "aa-mali",
@@ -56,21 +56,21 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 31
+      "filtered": 32
     },
     {
       "id": "africanews",
       "url": "https://www.africanews.com/feed/",
       "status": "ok",
-      "count": 1,
-      "filtered": 49
+      "count": 0,
+      "filtered": 50
     },
     {
       "id": "dw-africa",
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 0,
-      "filtered": 4
+      "filtered": 6
     },
     {
       "id": "gnews-jnim",
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 32,
+  "count": 34,
   "events": [
     {
       "id": "gdelt-1326483323",
@@ -338,6 +338,74 @@
         "goldstein": -9.5,
         "tone": -4.14,
         "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326583841",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T15:45:00.000Z",
+      "description": "Fight — Jihadist groups → Mali near Kidal, Kidal, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 18.4411,
+      "lng": 1.40778,
+      "action": "Fight (GDELT 190)",
+      "actor": "Jihadist groups",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kidal, Kidal, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cnbcafrica.com/2026/mali-separatists-announce-withdrawal-from-strategic-northern-mali-town",
+      "gdelt": {
+        "globalEventId": "1326583841",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.41,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326583842",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T15:45:00.000Z",
+      "description": "Fight — Jihadist groups → Mali near Kidal, Kidal, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 18.4411,
+      "lng": 1.40778,
+      "action": "Fight (GDELT 192)",
+      "actor": "Jihadist groups",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kidal, Kidal, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cnbcafrica.com/2026/mali-separatists-announce-withdrawal-from-strategic-northern-mali-town",
+      "gdelt": {
+        "globalEventId": "1326583842",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -3.41,
+        "mentions": 10,
         "sources": 1
       }
     },
@@ -1011,18 +1079,18 @@
       "kind": "news",
       "date": "2026-10-04",
       "isoDate": "2026-10-04T09:24:20.000Z",
-      "description": "Sahel juntas launch TV channel with Russian backing - ft.com (ft.com, 2026-10-04. Headline + link only.)",
+      "description": "Sahel juntas launch TV channel with Russian backing - Financial Times (Financial Times, 2026-10-04. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "ft.com",
+      "actor": "Financial Times",
       "axis": "Other",
       "tags": [
-        "ft.com",
+        "Financial Times",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "ft.com",
-      "source": "ft.com",
+      "locationStr": "Financial Times",
+      "source": "Financial Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbkxFZ1BzR1YxVVBRblo1eHZSTmwyRjR2eWdhQ2lLb2F4OW9VX1RCbTY3bjNEVGE0aXB1UjB3Rm5keUNpWUpQWGpaVzdmQWFhYUlTVkUtckc0aG9wMVVaeVc0SmIydDk1ZklybnNkRWxsY0F5a1d5bzY2a1l2S1dwMkRsa0U?oc=5"
     },
     {
