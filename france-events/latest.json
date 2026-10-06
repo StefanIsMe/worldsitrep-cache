@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-10-06T21:09:28.888Z",
+  "collectedAt": "2026-10-06T21:54:40.211Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 165
+      "count": 54
     },
     {
       "id": "gnews-france-protests",
@@ -20,22 +20,22 @@
       "id": "gnews-lycees",
       "url": "https://news.google.com/rss/search?q=France%20lyc%C3%A9es%20blockades&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 47,
+      "count": 46,
       "filtered": 0
     },
     {
       "id": "france24-en",
       "url": "https://www.france24.com/en/rss",
       "status": "ok",
-      "count": 3,
-      "filtered": 21
+      "count": 2,
+      "filtered": 22
     },
     {
       "id": "bbc-france",
       "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml",
       "status": "ok",
-      "count": 2,
-      "filtered": 18
+      "count": 3,
+      "filtered": 17
     },
     {
       "id": "rfi-en",
@@ -52,8 +52,46 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 1487,
+  "count": 1494,
   "events": [
+    {
+      "id": "news-bqrdld",
+      "kind": "news",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T21:22:22.000Z",
+      "description": "Watch: Riot police clash with school protesters and use tear gas in France (BBC Europe, 2026-10-06. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BBC Europe",
+      "axis": "Other",
+      "tags": [
+        "BBC Europe",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "BBC Europe",
+      "source": "BBC Europe",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/cwm26078pkepo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "news-qwof49",
+      "kind": "news",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T21:10:00.000Z",
+      "description": "Trump blames mass protests in France on ‘out of control mass migration’ and Islam - Politico (Politico, 2026-10-06. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Politico",
+      "axis": "Other",
+      "tags": [
+        "Politico",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Politico",
+      "source": "Politico",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWXBqZWRTYXpFUEp6MzZUS3pKc044S2sxbWwtZVZrcmhUUEtGQklmLWlkaUZXbnItYWVDMjEwRmNjbGZnX2JaWk9XaUxZRmdfVnlrY2xPNnZ3c0lwclFfX0wzUVZibkpRaGVZazJjamZuZXl0cVp1c19wTnh0OV9GV0o4aGs?oc=5"
+    },
     {
       "id": "news-ew9of7",
       "kind": "news",
@@ -224,6 +262,25 @@
       "locationStr": "RFI English",
       "source": "RFI English",
       "sourceUrl": "https://www.rfi.fr/en/france/20261006-french-pm-slams-violence-at-student-protests-promises-timeout-for-democracy"
+    },
+    {
+      "id": "news-e06398",
+      "kind": "news",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T19:24:00.000Z",
+      "description": "How dilapidated are French schools and how bad is inequality in the education system? - The Guardian (The Guardian, 2026-10-06. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Guardian",
+      "axis": "Other",
+      "tags": [
+        "The Guardian",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Guardian",
+      "source": "The Guardian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWWVLeTJDOF85ZThKbFJtNi00djV6T1p6TXFqdENaUmpkbk5RZDA5eWI3NEhOSi1sYTFYT2gwQUx6QW15QkRCZ2d3TUdSSXh5UDhWUTNxWlBPNDRTUEw3bWVaNkl1TFgzbmw5WGotR2k3ZWFSOUJ5ZldJaGFLcnQwZGJWOWd5Zy1haS1VRERldVBmTkdzRmRNbEE1Qk1fNy1ZRXRTTVAxSXZaOUdJZEpuM1MySQ?oc=5"
     },
     {
       "id": "news-4hzxgj",
@@ -433,25 +490,6 @@
       "locationStr": "The New York Times",
       "source": "The New York Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOejRmQWhjUll6SEl0S2ZfRUs5bzlGa2N1Tm12NXIwejR2TURacnFjc2wxS1pzRi1BLWNkSjgxVl8tTG9TQ1IwNnREejREaC1xWU4yRk9iS3h4NEl4WEp0NUFmYTlvbDlFbE9BUUNjQlpNRXE2azg4SVdoSWRvMndZYXhFTmdUdG12V0JVMVlTMVpSNnc0?oc=5"
-    },
-    {
-      "id": "news-e06398",
-      "kind": "news",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T16:05:00.000Z",
-      "description": "How dilapidated are French schools and how bad is inequality in the education system? - The Guardian (The Guardian, 2026-10-06. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Guardian",
-      "axis": "Other",
-      "tags": [
-        "The Guardian",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Guardian",
-      "source": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWWVLeTJDOF85ZThKbFJtNi00djV6T1p6TXFqdENaUmpkbk5RZDA5eWI3NEhOSi1sYTFYT2gwQUx6QW15QkRCZ2d3TUdSSXh5UDhWUTNxWlBPNDRTUEw3bWVaNkl1TFgzbmw5WGotR2k3ZWFSOUJ5ZldJaGFLcnQwZGJWOWd5Zy1haS1VRERldVBmTkdzRmRNbEE1Qk1fNy1ZRXRTTVAxSXZaOUdJZEpuM1MySQ?oc=5"
     },
     {
       "id": "news-1dzafj4",
@@ -899,7 +937,7 @@
       "kind": "news",
       "date": "2026-10-06",
       "isoDate": "2026-10-06T12:38:00.000Z",
-      "description": "Schools blockaded as tens of thousands of protesters take to streets in France - The Guardian (The Guardian, 2026-10-06. Headline + link only.)",
+      "description": "Riot police fire teargas as 250,000 take part in schools protests across France - The Guardian (The Guardian, 2026-10-06. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "The Guardian",
@@ -23143,6 +23181,176 @@
         "goldstein": -2,
         "tone": 2.67,
         "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326630396",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T21:15:00.000Z",
+      "description": "Disapproval — Rome → Unspecified near Paris, France (general), France. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Rome",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreaherald.com/article/10894603",
+      "gdelt": {
+        "globalEventId": "1326630396",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.47,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326631706",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T21:30:00.000Z",
+      "description": "Disapproval — Prime Minister → School near Paris, France (general), France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Prime Minister",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://sana.sy/en/international/2348644/",
+      "gdelt": {
+        "globalEventId": "1326631706",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -12.46,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326632959",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T21:45:00.000Z",
+      "description": "Disapproval — Unspecified → Security forces near Pontoise, Picardie, France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49.5542,
+      "lng": 3.04645,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pontoise, Picardie, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/highlight/2026/10/07/french-policeman-charged-after-firing-tear-gas-grenade-at-high-school-student-says-prosecutor",
+      "gdelt": {
+        "globalEventId": "1326632959",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -11.51,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326633549",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T21:45:00.000Z",
+      "description": "Coercion — Tehran → Demonstrator near Paris, France (general), France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Coercion (GDELT 175)",
+      "actor": "Tehran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.arabnews.com/middle-east/iran-summons-french-envoy-over-violent-response-to-school-protests-3004964",
+      "gdelt": {
+        "globalEventId": "1326633549",
+        "eventCode": "175",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -13.74,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326633733",
+      "kind": "event",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T00:00:00.000Z",
+      "observedAt": "2026-10-06T21:45:00.000Z",
+      "description": "Protest — Demonstrator → Tehran near Paris, France (general), France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Protest (GDELT 145)",
+      "actor": "Demonstrator",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.arabnews.com/middle-east/iran-summons-french-envoy-over-violent-response-to-school-protests-3004964",
+      "gdelt": {
+        "globalEventId": "1326633733",
+        "eventCode": "145",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7.5,
+        "tone": -13.74,
+        "mentions": 2,
         "sources": 1
       }
     },
