@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-07T07:45:13.918Z",
+  "collectedAt": "2026-10-07T14:40:54.263Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 19
     },
     {
       "id": "aa-mali",
@@ -41,8 +41,8 @@
       "id": "rfi-africa",
       "url": "https://www.rfi.fr/en/africa/rss",
       "status": "ok",
-      "count": 5,
-      "filtered": 25
+      "count": 6,
+      "filtered": 24
     },
     {
       "id": "france24-africa",
@@ -70,7 +70,7 @@
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 1,
-      "filtered": 6
+      "filtered": 7
     },
     {
       "id": "gnews-jnim",
@@ -101,8 +101,31 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 70,
+  "count": 89,
   "events": [
+    {
+      "id": "news-43vkez",
+      "kind": "news",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T12:19:56.000Z",
+      "description": "Malian army retakes strategic city of Kidal after Tuareg separatists withdraw (RFI Africa, 2026-10-07. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "RFI Africa",
+      "axis": "Other",
+      "tags": [
+        "RFI Africa",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kidal",
+      "source": "RFI Africa",
+      "sourceUrl": "https://www.rfi.fr/en/africa/20261007-malian-army-retakes-strategic-city-of-kidal-after-tuareg-separatists-withdraw",
+      "lat": 18.44,
+      "lng": 1.41,
+      "coordsNote": "Headline gazetteer match: \"Kidal\" (city); verify via source article."
+    },
     {
       "id": "news-zo2wbo",
       "kind": "news",
@@ -826,6 +849,652 @@
         "goldstein": -10,
         "tone": -5,
         "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326704582",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T08:45:00.000Z",
+      "description": "Disapproval — Rights Group → Mali near Kidal, Kidal, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 18.4411,
+      "lng": 1.40778,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Rights Group",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kidal, Kidal, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://kenya-today.com/report-malis-junta-and-russian-forces-retake-kidal-as-tuareg-rebels-withdraw-7737/",
+      "gdelt": {
+        "globalEventId": "1326704582",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.26,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326704583",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T08:45:00.000Z",
+      "description": "Disapproval — Rights Group → Mali near Kidal, Kidal, Mali. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 18.4411,
+      "lng": 1.40778,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Rights Group",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kidal, Kidal, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://kenya-today.com/report-malis-junta-and-russian-forces-retake-kidal-as-tuareg-rebels-withdraw-7737/",
+      "gdelt": {
+        "globalEventId": "1326704583",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.26,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326708840",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T09:15:00.000Z",
+      "description": "Threat — Niger → Unspecified near Niger. Machine-coded by GDELT 2.1 (4 mentions, 2 sources); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Threat (GDELT 130)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610070211.html",
+      "gdelt": {
+        "globalEventId": "1326708840",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 0.99,
+        "mentions": 4,
+        "sources": 2
+      }
+    },
+    {
+      "id": "gdelt-1326709071",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T09:15:00.000Z",
+      "description": "Fight — Liberation Front → Unspecified near Kidal, Kidal, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 18.4411,
+      "lng": 1.40778,
+      "action": "Fight (GDELT 190)",
+      "actor": "Liberation Front",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kidal, Kidal, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.polity.org.za/article/mali-troops-re-enter-strategic-northern-town-after-separatists-withdraw-2026-10-07",
+      "gdelt": {
+        "globalEventId": "1326709071",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.15,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326714926",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T10:00:00.000Z",
+      "description": "Disapproval — Israel → Unspecified near Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Israel",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.israelnationalnews.com/news/434236",
+      "gdelt": {
+        "globalEventId": "1326714926",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.87,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326714959",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T10:00:00.000Z",
+      "description": "Disapproval — Rabbi → Unspecified near Mali. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Rabbi",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.israelnationalnews.com/news/434236",
+      "gdelt": {
+        "globalEventId": "1326714959",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.87,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326720945",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T10:45:00.000Z",
+      "description": "Disapproval — Burkina Faso → France near Anefis, Gao, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 18.04,
+      "lng": 0.60111,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Anefis, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279357247/mali-reclaims-rebel-stronghold-with-russian-support",
+      "gdelt": {
+        "globalEventId": "1326720945",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.05,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326720946",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T10:45:00.000Z",
+      "description": "Disapproval — Burkina Faso → France near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279357247/mali-reclaims-rebel-stronghold-with-russian-support",
+      "gdelt": {
+        "globalEventId": "1326720946",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.05,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326721094",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T10:45:00.000Z",
+      "description": "Fight — Residents → Unspecified near Niger. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16,
+      "lng": 8,
+      "action": "Fight (GDELT 190)",
+      "actor": "Residents",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://leadership.ng/just-in-farmer-dies-after-fulani-herdsmen-attack-in-niger-community/",
+      "gdelt": {
+        "globalEventId": "1326721094",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -10.55,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326721106",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T10:45:00.000Z",
+      "description": "Fight — Residents → Niger near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16,
+      "lng": 8,
+      "action": "Fight (GDELT 190)",
+      "actor": "Residents",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://leadership.ng/just-in-farmer-dies-after-fulani-herdsmen-attack-in-niger-community/",
+      "gdelt": {
+        "globalEventId": "1326721106",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -10.55,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326721660",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T10:45:00.000Z",
+      "description": "Disapproval — Mali → France near Anefis, Gao, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 18.04,
+      "lng": 0.60111,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Anefis, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279357247/mali-reclaims-rebel-stronghold-with-russian-support",
+      "gdelt": {
+        "globalEventId": "1326721660",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.05,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326721662",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T10:45:00.000Z",
+      "description": "Disapproval — Mali → France near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279357247/mali-reclaims-rebel-stronghold-with-russian-support",
+      "gdelt": {
+        "globalEventId": "1326721662",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.05,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326721668",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T10:45:00.000Z",
+      "description": "Reduced relations — Mali → Kiev near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Reduced relations (GDELT 161)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279357247/mali-reclaims-rebel-stronghold-with-russian-support",
+      "gdelt": {
+        "globalEventId": "1326721668",
+        "eventCode": "161",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -6.05,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326721698",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T10:45:00.000Z",
+      "description": "Assault — Niger → Residents near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 182)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://leadership.ng/just-in-farmer-dies-after-fulani-herdsmen-attack-in-niger-community/",
+      "gdelt": {
+        "globalEventId": "1326721698",
+        "eventCode": "182",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -10.55,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326721699",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T10:45:00.000Z",
+      "description": "Disapproval — Niger → France near Anefis, Gao, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 18.04,
+      "lng": 0.60111,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Anefis, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279357247/mali-reclaims-rebel-stronghold-with-russian-support",
+      "gdelt": {
+        "globalEventId": "1326721699",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.05,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326721701",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T10:45:00.000Z",
+      "description": "Disapproval — Niger → France near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279357247/mali-reclaims-rebel-stronghold-with-russian-support",
+      "gdelt": {
+        "globalEventId": "1326721701",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.05,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326721948",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T10:45:00.000Z",
+      "description": "Disapproval — Armed Group → Unspecified near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Armed Group",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bignewsnetwork.com/news/279357247/mali-reclaims-rebel-stronghold-with-russian-support",
+      "gdelt": {
+        "globalEventId": "1326721948",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.05,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326737219",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T12:30:00.000Z",
+      "description": "Fight — African Union → Africa near Burkina Faso. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13,
+      "lng": -2,
+      "action": "Fight (GDELT 190)",
+      "actor": "African Union",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://capitalfm.africa/us500m-great-green-wall-push-targets-270000-hectares-across-nine-african-countries/",
+      "gdelt": {
+        "globalEventId": "1326737219",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 0.72,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326739114",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T12:45:00.000Z",
+      "description": "Fight — Unspecified → Defence Minist near Kidal, Kidal, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 18.4411,
+      "lng": 1.40778,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kidal, Kidal, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.co.uk/articles/malian-army-retakes-strategic-city-121956000.html",
+      "gdelt": {
+        "globalEventId": "1326739114",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.32,
+        "mentions": 10,
         "sources": 1
       }
     },
@@ -1740,7 +2409,7 @@
       "id": "news-7zyie2",
       "kind": "news",
       "date": "2026-10-05",
-      "isoDate": "2026-10-05T23:38:10.000Z",
+      "isoDate": "2026-10-05T13:57:14.000Z",
       "description": "Port of Lomé Courts Niger, Burkina Faso and Mali to Strengthen Sahel Corridors - Togo First (Togo First, 2026-10-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -2400,25 +3069,6 @@
         "mentions": 10,
         "sources": 1
       }
-    },
-    {
-      "id": "news-1uu7f5k",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T09:24:20.000Z",
-      "description": "Sahel juntas launch TV channel with Russian backing - Financial Times (Financial Times, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Financial Times",
-      "axis": "Other",
-      "tags": [
-        "Financial Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Financial Times",
-      "source": "Financial Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbkxFZ1BzR1YxVVBRblo1eHZSTmwyRjR2eWdhQ2lLb2F4OW9VX1RCbTY3bjNEVGE0aXB1UjB3Rm5keUNpWUpQWGpaVzdmQWFhYUlTVkUtckc0aG9wMVVaeVc0SmIydDk1ZklybnNkRWxsY0F5a1d5bzY2a1l2S1dwMkRsa0U?oc=5"
     }
   ]
 }
