@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-07T00:57:22.271Z",
+  "collectedAt": "2026-10-07T01:47:18.163Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 227,
+  "coarseGdeltDropped": 231,
   "outsideTheatreDropped": 18,
   "proposals": [
     {
@@ -15,39 +15,39 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 437,
+      "eventCount": 441,
       "kinds": {
-        "other": 272,
-        "strike": 36,
-        "combat": 129
+        "other": 275,
+        "combat": 130,
+        "strike": 36
       },
       "tierCounts": {
-        "approximate": 437
+        "approximate": 441
       },
-      "combatCount": 165,
-      "newestIsoDate": "2026-10-07T00:00:00.000Z",
+      "combatCount": 166,
+      "newestIsoDate": "2026-10-07T01:43:33.000Z",
       "samples": [
+        {
+          "id": "news-guh4d7",
+          "isoDate": "2026-10-07T01:43:33.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9nN0h1RkNFQWhyWlVOYlRJcUQ5NlNhMjE2SjFEUjk3cXBOSFZiRjhWLXlHRFVub3BNSWpUMmoyUW5XSWhTQ3l3MEZVdw?oc=5"
+        },
         {
           "id": "gdelt-1326649866",
           "isoDate": "2026-10-07T00:00:00.000Z",
           "sourceUrl": "https://www.wdsu.com/article/democrat-investigating-jared-kushner-financial-investments/74056469"
         },
         {
-          "id": "news-1eti051",
-          "isoDate": "2026-10-06T21:35:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4171493-omega-telecom-data-center-in-kyiv-to-cease-operations-after-russian-attack.html"
-        },
-        {
-          "id": "news-1qcbjpu",
-          "isoDate": "2026-10-06T15:27:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/06/8056741/"
+          "id": "gdelt-1326656361",
+          "isoDate": "2026-10-07T00:00:00.000Z",
+          "sourceUrl": "https://dunyanews.tv/en/World/976522-ukraine-drone-attack-triggers-huge-tanker-fire-off-russias-sochi"
         }
       ],
       "centroid": {
-        "lat": 50.3331,
-        "lng": 30.1939
+        "lat": 50.334,
+        "lng": 30.1969
       },
-      "radiusKm": 48.4
+      "radiusKm": 48
     },
     {
       "zoneId": "lib-snake",
@@ -173,47 +173,6 @@
       "radiusKm": 42.9
     },
     {
-      "zoneId": "occ-zaporizhzhia",
-      "region": "Zaporizhzhia Oblast",
-      "center": {
-        "lat": 47,
-        "lng": 35.5
-      },
-      "eventCount": 37,
-      "kinds": {
-        "other": 29,
-        "combat": 7,
-        "strike": 1
-      },
-      "tierCounts": {
-        "approximate": 37
-      },
-      "combatCount": 8,
-      "newestIsoDate": "2026-10-06T19:59:00.000Z",
-      "samples": [
-        {
-          "id": "news-1w94ej7",
-          "isoDate": "2026-10-06T19:59:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4171731-russian-drone-strikes-apartment-building-in-zaporizhzhia-injuring-five-including-fiveyearold-child.html"
-        },
-        {
-          "id": "news-1qcbn5l",
-          "isoDate": "2026-10-06T18:44:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/06/8056784/"
-        },
-        {
-          "id": "news-1ssfa04",
-          "isoDate": "2026-10-06T17:56:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4171701-russian-strike-on-warehouse-in-zaporizhzhia-leaves-one-killed-in-others-injured.html"
-        }
-      ],
-      "centroid": {
-        "lat": 47.7612,
-        "lng": 35.3052
-      },
-      "radiusKm": 52.2
-    },
-    {
       "zoneId": "lib-sumy",
       "region": "Sumy Oblast",
       "center": {
@@ -253,6 +212,47 @@
         "lng": 34.7484
       },
       "radiusKm": 30.2
+    },
+    {
+      "zoneId": "occ-zaporizhzhia",
+      "region": "Zaporizhzhia Oblast",
+      "center": {
+        "lat": 47,
+        "lng": 35.5
+      },
+      "eventCount": 36,
+      "kinds": {
+        "other": 28,
+        "combat": 7,
+        "strike": 1
+      },
+      "tierCounts": {
+        "approximate": 36
+      },
+      "combatCount": 8,
+      "newestIsoDate": "2026-10-06T19:59:00.000Z",
+      "samples": [
+        {
+          "id": "news-1w94ej7",
+          "isoDate": "2026-10-06T19:59:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4171731-russian-drone-strikes-apartment-building-in-zaporizhzhia-injuring-five-including-fiveyearold-child.html"
+        },
+        {
+          "id": "news-1qcbn5l",
+          "isoDate": "2026-10-06T18:44:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/06/8056784/"
+        },
+        {
+          "id": "news-1ssfa04",
+          "isoDate": "2026-10-06T17:56:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4171701-russian-strike-on-warehouse-in-zaporizhzhia-leaves-one-killed-in-others-injured.html"
+        }
+      ],
+      "centroid": {
+        "lat": 47.7418,
+        "lng": 35.3122
+      },
+      "radiusKm": 51.9
     },
     {
       "zoneId": "occ-luhansk",
@@ -384,13 +384,13 @@
         "lat": 51.4982,
         "lng": 31.2893
       },
-      "eventCount": 10,
+      "eventCount": 9,
       "kinds": {
-        "other": 2,
+        "other": 1,
         "combat": 8
       },
       "tierCounts": {
-        "approximate": 10
+        "approximate": 9
       },
       "combatCount": 8,
       "newestIsoDate": "2026-10-05T09:57:00.000Z",
@@ -412,10 +412,10 @@
         }
       ],
       "centroid": {
-        "lat": 51.391,
-        "lng": 31.3542
+        "lat": 51.38,
+        "lng": 31.3613
       },
-      "radiusKm": 18.4
+      "radiusKm": 19.5
     }
   ]
 }
