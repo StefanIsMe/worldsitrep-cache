@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-07T00:57:22.908Z",
+  "collectedAt": "2026-10-07T01:50:46.484Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 46
+      "count": 6
     },
     {
       "id": "gcaptain",
@@ -412,6 +412,74 @@
       }
     },
     {
+      "id": "gdelt-1326661129",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T01:45:00.000Z",
+      "description": "Threat — Yemen → Unspecified near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Threat (GDELT 130)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.straitstimes.com/world/middle-east/houthis-launch-missiles-at-yemens-aden-airport-as-fighting-intensifies",
+      "gdelt": {
+        "globalEventId": "1326661129",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -2.69,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326661131",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T01:45:00.000Z",
+      "description": "Fight — Yemen → Iran near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 194)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.straitstimes.com/world/middle-east/houthis-launch-missiles-at-yemens-aden-airport-as-fighting-intensifies",
+      "gdelt": {
+        "globalEventId": "1326661131",
+        "eventCode": "194",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.69,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-o9xbel",
       "kind": "news",
       "date": "2026-10-06",
@@ -496,29 +564,10 @@
       "coordsNote": "OSM geocode: matched \"Yemen\" → Yemen; © OpenStreetMap contributors."
     },
     {
-      "id": "news-1a51ahf",
-      "kind": "news",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T18:23:00.000Z",
-      "description": "Why Saudi Arabia’s Last War in Yemen Turned Into a Quagmire - The New York Times (The New York Times, 2026-10-06. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New York Times",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnRySEhOdmpmbVBQYjVYVldxbDd6N3BDb3JMT2pCVHBtdzRVNWZLOTZ6RENGeXMzUHN5MXJIRlduall0bGIwelRDQUVyUmZCSTlNWXdBdEpzODJubVV5bWdXQ0hLOTlacEZBMGc0M1k4NUZsbzdJeDQyUHdfcVI5WUdCY1c4NG5wSHFla0EyUG1xTUVGa1RwcUlQLWo?oc=5"
-    },
-    {
       "id": "news-10e83vm",
       "kind": "news",
       "date": "2026-10-06",
-      "isoDate": "2026-10-06T18:17:31.000Z",
+      "isoDate": "2026-10-06T18:24:35.000Z",
       "description": "Yemeni forces filmed driving armored cars over Houthis near Bab el-Mandeb - The Jerusalem Post (The Jerusalem Post, 2026-10-06. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -536,6 +585,25 @@
       "lat": 12.6,
       "lng": 43.4,
       "coordsNote": "Headline gazetteer match: \"Bab el-Mandeb\" (region); verify via source article."
+    },
+    {
+      "id": "news-1a51ahf",
+      "kind": "news",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T18:23:00.000Z",
+      "description": "Why Saudi Arabia’s Last War in Yemen Turned Into a Quagmire - The New York Times (The New York Times, 2026-10-06. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The New York Times",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnRySEhOdmpmbVBQYjVYVldxbDd6N3BDb3JMT2pCVHBtdzRVNWZLOTZ6RENGeXMzUHN5MXJIRlduall0bGIwelRDQUVyUmZCSTlNWXdBdEpzODJubVV5bWdXQ0hLOTlacEZBMGc0M1k4NUZsbzdJeDQyUHdfcVI5WUdCY1c4NG5wSHFla0EyUG1xTUVGa1RwcUlQLWo?oc=5"
     },
     {
       "id": "news-1sq39wa",
@@ -559,6 +627,25 @@
       "lat": 15.5,
       "lng": 41.5,
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+    },
+    {
+      "id": "news-egb104",
+      "kind": "news",
+      "date": "2026-10-06",
+      "isoDate": "2026-10-06T17:11:15.000Z",
+      "description": "What would it take for the Yemen offensive to succeed? - Al Jazeera (Al Jazeera, 2026-10-06. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcUNoR0FrdVIwTWVBaE1NSng2TjJiOGgxT3JvOUhtQWtCMnJSOTRGUkFYeTg5Y2w2em9CendwX0tLNjU5eF9SYTUxYTJ1Q1ZHNnhpS1NNajBGYW9UT2dQcnljTU83Q2pmVDRJZVppT2hkLUp6cW00MVJzcW5heV8wYl9VRkhKQ0Q2Y2dCajFhd3NPNHdmT1dqc1EyOFBuSVHSAaQBQVVfeXFMTThWbV9yOU9QWGNaQXl0cGNHenJjRU5fN25BN1BBRFM4MUZGSlFSZUxheTEyOVd2aHhjOWJzWVdFUGhiRnAxQ244cXV4bHJjbmdaeFIzOUVBMHIzUHVZdDJzWDY1a1VwTzhuSzQ5bmxpTklfWHh5RUZTWTlPZ3ozelRBUXlZTGdxVG81dzN4cUxQRGNlemhsamV5OUZLZ3VydHQ3cTE?oc=5"
     },
     {
       "id": "news-18co9z8",
@@ -32381,71 +32468,6 @@
       "locationStr": "The Times of India",
       "source": "The Times of India",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTGxwWEN4Uy1ZMFJkWVItd044ajZSVkVJUmpUVHR0TlNDUVI4SUFfbE96X1lWX09UXzh1Vkc5aWxLQjRvV0ppb280NTlTcnZUUVROelJGWDZEWnlFcXJhODlxSjd3TXA5bmFXZUVwOHk2OVRyWXpfeGVxNDNfYmE3Y1VOajRQdXVLdTV0MjVYVWdUbnJTSjdCc2VFSVlvLVcyMG0wSFFyaUdvczB3UzNkWFI4YWlXU0ZrLW40SGJ3VkdFSjJRb3kwVUViWmpsNXFZLXcweHU2ZlpUSEt0dG9kS3Fqd1Ntb3A2VnM4LXdBOU5qazJGbjFBWTJXQm9SY2kxeElWLdIBigJBVV95cUxQN1RucG9icnF1U1RIUDBUVTBfN1l5VXRIT3JWVTBwUHNpZkhJeF82UHlqdXFPdFlLRjQ3bkNDWXh1bC1uY243ODlBS1pURE9NMllKR0I0OFdKcERWallKeDFMOUFtM2EzTklpTUNVcmdJNFhvZkg3QlFiWFl5UFluMkFiSXhJU00zX2lrYzNJT3lkb0dxaHE4UWVDVkt5MHlfN3NQYV9WaHlFNl9GRGI0MWhSYW9ZTDlOQVRQWUlVMmE3RUhsWUFBM01DVjdld3FmeDdXN2otNFF2Wk1jWjJaN2prUzhVd2I1U0J6RlVsTzJCRlhaaklqMTNIM1h0WlNFXzZ3VTlOOU1Idw?oc=5"
-    },
-    {
-      "id": "news-32b974",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T01:35:00.000Z",
-      "description": "Houthis Claim Attack on Riyadh Oil Facilities, Adding Fresh Uncertainty to Middle East Crude Supply Outlook - finance.biggo.com (finance.biggo.com, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "finance.biggo.com",
-      "axis": "Other",
-      "tags": [
-        "finance.biggo.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "finance.biggo.com",
-      "source": "finance.biggo.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43dTlXcnlFRmNpNzZ0S3M5NV9Eakx6Z3FQQXVUSnpmeDJJSllQSUJJR1BSWjlsS2c5QVM0U3ZyZ3BUZTA4MnlqZ2JaQ0FXaXVoZmZHMWRsaGV0V01ucm82NThiaEIzVmNHV1hZWmhhV2ZUbWVzaUE?oc=5"
-    },
-    {
-      "id": "news-vg8ae1",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T01:16:00.000Z",
-      "description": "Houthis Claim Drone and Missile Attack on Saudi Aramco Facility in Riyadh - Haaretz (Haaretz, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Haaretz",
-      "axis": "Other",
-      "tags": [
-        "Haaretz",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Riyadh",
-      "source": "Haaretz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPUWFiT3lRM1ozQVd0d2p1N0ZuQnhjcFkweE1PckV3QTV1XzFpcUVxdm01bTd3bnhhWkhCb3VjTTNEbURYNkN2TmJpeXpMRkdwSEYtMS1udy02YnFnN2xnX003RFlEdF9IUXVJNERCeXlaNlV2aTJkVm1yRWwzbkVFWFhwS2VPZlVsbGpoRnFxM2xrMkFyXy1rbU44QVRpQkp3T0dYbmlyczFGR1RlS0dpbnluazgyS1dCMUJOVFRfMTZsQUVUYjJwV1BDZ2RvVHF4Mmk1VUtkcVVydWx3OEppcVk2OWVza09NaHFhQUZ5bEdLUzM3dFd0SHJoX3NsQ3NGMTdj?oc=5",
-      "lat": 14.11962,
-      "lng": 46.93065,
-      "coordsNote": "OSM geocode: matched \"Riyadh\" → Ar Riyadh, Al Mahfad District, Abyan Governorate; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-4t0k6a",
-      "kind": "news",
-      "date": "2026-10-04",
-      "isoDate": "2026-10-04T01:05:03.000Z",
-      "description": "Explosions rock Sanaa as Saudi airstrikes target Houthi positions - CGTN (CGTN, 2026-10-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "CGTN",
-      "axis": "Other",
-      "tags": [
-        "CGTN",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Sanaa",
-      "source": "CGTN",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbEk0Y243eTljS0pGX2VwbGNZY1hSTmx4MWF1czRUdmc5bDRFdTFlUW1yNTc5bFB1YTV2S1AzeGVtWHc5clpEa1lUV0dVd05TREpsSjhaSXVnTlU3akdiYS1CSnBRTFNxQ2FJZ0xpNEdsNFVkNkt2VkwyaFpKUjVPbEVOZ3cwSDhaMWQzUVdfWk81RUFHTWpkdWZPV21MZW4wT0dDMFpjbDUxNjdoY0hCckZIclJ6N2I1clZOT2prRQ?oc=5",
-      "lat": 15.35,
-      "lng": 44.21,
-      "coordsNote": "Headline gazetteer match: \"Sanaa\" (city); verify via source article."
     }
   ]
 }

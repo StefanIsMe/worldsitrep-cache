@@ -1,8 +1,27 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-07",
-  "count": 12,
+  "count": 15,
   "events": [
+    {
+      "id": "news-q14419",
+      "kind": "news",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T01:00:07.000Z",
+      "description": "China’s DeepZang AI aims to transform Tibetan language tech, promote ethnic unity (SCMP, 2026-10-07. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3369938/chinas-deepzang-ai-aims-transform-tibetan-language-tech-promote-ethnic-unity?utm_source=rss_feed"
+    },
     {
       "id": "gdelt-1326648043",
       "kind": "event",
@@ -102,6 +121,74 @@
         "goldstein": -4,
         "tone": 0.77,
         "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326657361",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T01:15:00.000Z",
+      "description": "Threat — China → Taiwan near Republic Of China, Taiwan (general), Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Threat (GDELT 130)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Republic Of China, Taiwan (general), Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thehindu.com/news/international/north-korea-warns-us-over-taiwan-while-kim-pledges-support-for-russia/article71553315.ece",
+      "gdelt": {
+        "globalEventId": "1326657361",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -0.62,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1326658908",
+      "kind": "event",
+      "date": "2026-10-07",
+      "isoDate": "2026-10-07T00:00:00.000Z",
+      "observedAt": "2026-10-07T01:30:00.000Z",
+      "description": "Demand — Engineer → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Demand (GDELT 100)",
+      "actor": "Engineer",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.emsnow.com/comparing-the-semiconductor-talent-shortages-across-north-america-emea-and-southeast-asia/",
+      "gdelt": {
+        "globalEventId": "1326658908",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": 1.08,
+        "mentions": 5,
         "sources": 1
       }
     },
