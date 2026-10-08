@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-08T20:04:16.929Z",
+  "collectedAt": "2026-10-08T20:14:15.373Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -26,16 +26,16 @@
     {
       "id": "gnews-election",
       "url": "https://news.google.com/rss/search?q=US%20election%20Trump%202028&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 39,
-      "filtered": 11
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-election request failed with HTTP 503"
     },
     {
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Trump%20tariffs%20executive%20order&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-policy request failed with HTTP 503"
     },
     {
       "id": "thehill",
@@ -69,29 +69,29 @@
       "id": "axios",
       "url": "https://api.axios.com/feed/",
       "status": "ok",
-      "count": 28,
-      "filtered": 22
+      "count": 27,
+      "filtered": 23
     },
     {
       "id": "gnews-protest",
       "url": "https://news.google.com/rss/search?q=Trump%20protest%20National%20Guard%20deployment&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-protest request failed with HTTP 503"
     },
     {
       "id": "gnews-courts",
       "url": "https://news.google.com/rss/search?q=federal%20judge%20blocks%20executive%20order%20ruling&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 49,
-      "filtered": 1
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-courts request failed with HTTP 503"
     },
     {
       "id": "gnews-midterms",
       "url": "https://news.google.com/rss/search?q=US%20midterm%20elections%202026%20polls&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-midterms request failed with HTTP 503"
     },
     {
       "id": "reliefweb",

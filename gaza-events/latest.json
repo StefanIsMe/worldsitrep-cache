@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "gaza",
-  "collectedAt": "2026-10-08T20:04:16.929Z",
+  "collectedAt": "2026-10-08T20:14:15.373Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 595
+      "count": 70
     },
     {
       "id": "bbc-me",
@@ -26,16 +26,16 @@
     {
       "id": "gnews-gaza",
       "url": "https://news.google.com/rss/search?q=Gaza%20Israel%20Hamas&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-gaza request failed with HTTP 503"
     },
     {
       "id": "gnews-ceasefire",
       "url": "https://news.google.com/rss/search?q=Gaza%20ceasefire%20hostages%20aid&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-ceasefire request failed with HTTP 503"
     },
     {
       "id": "aljazeera",
@@ -61,23 +61,23 @@
     {
       "id": "gnews-flotilla",
       "url": "https://news.google.com/rss/search?q=Gaza%20aid%20flotilla%20Rafah%20crossing&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 47,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-flotilla request failed with HTTP 503"
     },
     {
       "id": "gnews-westbank",
       "url": "https://news.google.com/rss/search?q=West%20Bank%20Jenin%20raid%20settlers&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-westbank request failed with HTTP 503"
     },
     {
       "id": "gnews-lebanon",
       "url": "https://news.google.com/rss/search?q=Israel%20Hezbollah%20Lebanon%20ceasefire&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-lebanon request failed with HTTP 503"
     },
     {
       "id": "reliefweb",

@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-10-08T20:04:16.929Z",
+  "collectedAt": "2026-10-08T20:14:15.373Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 40
+      "count": 11
     },
     {
       "id": "rci-arctic",
       "url": "https://www.rcinet.ca/eye-on-the-arctic/feed/",
       "status": "ok",
-      "count": 11,
-      "filtered": 9
+      "count": 12,
+      "filtered": 8
     },
     {
       "id": "gnews-arctic",
       "url": "https://news.google.com/rss/search?q=Arctic%20Greenland&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-arctic request failed with HTTP 503"
     },
     {
       "id": "guardian-arctic",
@@ -47,23 +47,23 @@
     {
       "id": "gnews-svalbard",
       "url": "https://news.google.com/rss/search?q=Svalbard%20Norway%20Russia%20Arctic&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-svalbard request failed with HTTP 503"
     },
     {
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-greenland request failed with HTTP 503"
     },
     {
       "id": "gnews-nsr",
       "url": "https://news.google.com/rss/search?q=Northern%20Sea%20Route%20Russia%20Arctic&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-nsr request failed with HTTP 503"
     },
     {
       "id": "reliefweb",
@@ -73,8 +73,27 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 514,
+  "count": 515,
   "events": [
+    {
+      "id": "news-yneitc",
+      "kind": "news",
+      "date": "2026-10-08",
+      "isoDate": "2026-10-08T19:53:25.000Z",
+      "description": "South Korean shipbuilder eyes Arctic opportunities, including Canada, as northern shipping grows (Eye on the Arctic, 2026-10-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Eye on the Arctic",
+      "axis": "Other",
+      "tags": [
+        "Eye on the Arctic",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Eye on the Arctic",
+      "source": "Eye on the Arctic",
+      "sourceUrl": "https://www.rcinet.ca/eye-on-the-arctic/2026/10/08/south-korean-shipbuilder-eyes-arctic-opportunities-including-canada-as-northern-shipping-grows/"
+    },
     {
       "id": "news-1ea14y3",
       "kind": "news",

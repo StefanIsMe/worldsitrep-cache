@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-10-08T20:04:16.929Z",
+  "collectedAt": "2026-10-08T20:14:15.373Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 126
+      "count": 28
     },
     {
       "id": "gnews-france-protests",
       "url": "https://news.google.com/rss/search?q=France%20student%20protests&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-france-protests request failed with HTTP 503"
     },
     {
       "id": "gnews-lycees",
       "url": "https://news.google.com/rss/search?q=France%20lyc%C3%A9es%20blockades&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-lycees request failed with HTTP 503"
     },
     {
       "id": "france24-en",
       "url": "https://www.france24.com/en/rss",
       "status": "ok",
-      "count": 5,
-      "filtered": 19
+      "count": 6,
+      "filtered": 18
     },
     {
       "id": "bbc-france",
@@ -54,6 +54,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-1sybnci",
+      "kind": "news",
+      "date": "2026-10-08",
+      "isoDate": "2026-10-08T20:22:33.000Z",
+      "description": "‘Nothing will stop us’: French student protests show few signs of ending (France 24 English, 2026-10-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24 English",
+      "axis": "Other",
+      "tags": [
+        "France 24 English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "France 24 English",
+      "source": "France 24 English",
+      "sourceUrl": "https://www.france24.com/en/france/20261008-nothing-will-stop-us-french-student-protests-show-few-signs-of-ending"
+    },
     {
       "id": "news-142zws1",
       "kind": "news",
@@ -48233,40 +48252,6 @@
         "goldstein": -9,
         "tone": -6.4,
         "mentions": 5,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1326566816",
-      "kind": "event",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T00:00:00.000Z",
-      "observedAt": "2026-10-06T14:00:00.000Z",
-      "description": "Fight — Security forces → Prosecutor near La Ciotat, Provence-Alpes-Côd'Azur, France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 43.176,
-      "lng": 5.60789,
-      "action": "Fight (GDELT 190)",
-      "actor": "Security forces",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "La Ciotat, Provence-Alpes-Côd'Azur, France",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.zerohedge.com/political/rioters-torch-paris-school-exit-and-trap-100-students-inside",
-      "gdelt": {
-        "globalEventId": "1326566816",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -6.66,
-        "mentions": 10,
         "sources": 1
       }
     }
