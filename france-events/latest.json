@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-10-08T06:31:54.181Z",
+  "collectedAt": "2026-10-08T06:42:21.784Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 100
+      "count": 25
     },
     {
       "id": "gnews-france-protests",
@@ -41,8 +41,8 @@
       "id": "rfi-en",
       "url": "https://www.rfi.fr/en/rss",
       "status": "ok",
-      "count": 3,
-      "filtered": 19
+      "count": 4,
+      "filtered": 18
     },
     {
       "id": "reliefweb",
@@ -54,6 +54,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-b7emil",
+      "kind": "news",
+      "date": "2026-10-08",
+      "isoDate": "2026-10-08T06:35:49.000Z",
+      "description": "French PM Lecornu denies police crackdown as France’s student protests intensify (RFI English, 2026-10-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "RFI English",
+      "axis": "Other",
+      "tags": [
+        "RFI English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "RFI English",
+      "source": "RFI English",
+      "sourceUrl": "https://www.rfi.fr/en/france/20261008-french-pm-lecornu-denies-police-crackdown-as-france-s-student-protests-intensify"
+    },
     {
       "id": "news-18qnngz",
       "kind": "news",
@@ -48689,40 +48708,6 @@
         "quadClass": 4,
         "goldstein": -9.2,
         "tone": -5.43,
-        "mentions": 10,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1326634940",
-      "kind": "event",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T00:00:00.000Z",
-      "observedAt": "2026-10-06T22:00:00.000Z",
-      "description": "Protest — School → Unspecified near France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 46,
-      "lng": 2,
-      "action": "Protest (GDELT 141)",
-      "actor": "School",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Protest"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "France",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.smh.com.au/world/riot-police-fire-tear-gas-as-thousands-rally-for-school-funding-in-france-20261007-p613ei.html",
-      "gdelt": {
-        "globalEventId": "1326634940",
-        "eventCode": "141",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -6.5,
-        "tone": -8.51,
         "mentions": 10,
         "sources": 1
       }
