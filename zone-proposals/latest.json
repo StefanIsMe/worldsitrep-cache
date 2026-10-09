@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-09T07:13:47.546Z",
+  "collectedAt": "2026-10-09T09:33:40.642Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 140,
-  "outsideTheatreDropped": 4,
+  "coarseGdeltDropped": 160,
+  "outsideTheatreDropped": 1,
   "proposals": [
     {
       "zoneId": "lib-kyiv",
@@ -15,16 +15,16 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 544,
+      "eventCount": 566,
       "kinds": {
-        "other": 348,
-        "combat": 163,
-        "strike": 33
+        "other": 350,
+        "combat": 182,
+        "strike": 34
       },
       "tierCounts": {
-        "approximate": 544
+        "approximate": 566
       },
-      "combatCount": 196,
+      "combatCount": 216,
       "newestIsoDate": "2026-10-09T06:14:14.000Z",
       "samples": [
         {
@@ -44,8 +44,8 @@
         }
       ],
       "centroid": {
-        "lat": 50.5066,
-        "lng": 29.9014
+        "lat": 50.4921,
+        "lng": 29.8621
       },
       "radiusKm": 80
     },
@@ -56,18 +56,23 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 123,
+      "eventCount": 129,
       "kinds": {
-        "other": 73,
-        "combat": 39,
-        "strike": 11
+        "other": 75,
+        "combat": 40,
+        "strike": 14
       },
       "tierCounts": {
-        "approximate": 123
+        "approximate": 129
       },
-      "combatCount": 50,
-      "newestIsoDate": "2026-10-09T06:47:00.000Z",
+      "combatCount": 54,
+      "newestIsoDate": "2026-10-09T07:58:00.000Z",
       "samples": [
+        {
+          "id": "news-1p0my7x",
+          "isoDate": "2026-10-09T07:58:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4172569-russian-attacks-in-donetsk-region-kill-35-residents-and-injure-25-over-past-24-hours.html"
+        },
         {
           "id": "news-15v8znq",
           "isoDate": "2026-10-09T06:47:00.000Z",
@@ -77,59 +82,54 @@
           "id": "gdelt-1327022106",
           "isoDate": "2026-10-09T00:00:00.000Z",
           "sourceUrl": "https://www.sbs.com.au/news/podcast-episode/uk-sanctions-russia-after-appalling-attacks-morning-news-bulletin-9-october-2026/o8zbadyuz"
-        },
-        {
-          "id": "gdelt-1327022109",
-          "isoDate": "2026-10-09T00:00:00.000Z",
-          "sourceUrl": "https://www.aol.com/articles/russian-bomb-kills-12-street-093616000.html"
         }
       ],
       "centroid": {
-        "lat": 48.6726,
-        "lng": 37.5695
+        "lat": 48.6696,
+        "lng": 37.5708
       },
       "radiusKm": 15
     },
     {
-      "zoneId": "lib-chernihiv",
-      "region": "Chernihiv Oblast",
+      "zoneId": "lib-snake",
+      "region": "Snake Island",
       "center": {
-        "lat": 51.4982,
-        "lng": 31.2893
+        "lat": 45.2551,
+        "lng": 30.2033
       },
-      "eventCount": 44,
+      "eventCount": 42,
       "kinds": {
-        "other": 33,
-        "combat": 8,
-        "strike": 3
+        "other": 16,
+        "combat": 20,
+        "strike": 6
       },
       "tierCounts": {
-        "approximate": 44
+        "approximate": 42
       },
-      "combatCount": 11,
-      "newestIsoDate": "2026-10-09T00:00:00.000Z",
+      "combatCount": 26,
+      "newestIsoDate": "2026-10-09T09:07:00.000Z",
       "samples": [
         {
-          "id": "gdelt-1327056954",
+          "id": "news-1tq047o",
+          "isoDate": "2026-10-09T09:07:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/09/8057190/"
+        },
+        {
+          "id": "news-1fize23",
+          "isoDate": "2026-10-09T07:21:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4172563-russian-forces-strike-infrastructure-in-odesa-overnight-causing-damage.html"
+        },
+        {
+          "id": "gdelt-1327046997",
           "isoDate": "2026-10-09T00:00:00.000Z",
-          "sourceUrl": "https://www.dw.com/en/ukraine-europe-us-to-meet-in-miami-for-talks-on-ending-war/a-79606735"
-        },
-        {
-          "id": "news-1slm3yx",
-          "isoDate": "2026-10-08T14:45:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/08/8057088/"
-        },
-        {
-          "id": "news-10ew9cj",
-          "isoDate": "2026-10-08T14:17:45.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/general/1216614.html"
+          "sourceUrl": "http://www.utahindependent.com/news/279357994/children-among-dead-in-russian-missile-barrage"
         }
       ],
       "centroid": {
-        "lat": 51.0812,
-        "lng": 31.9118
+        "lat": 46.3807,
+        "lng": 30.1813
       },
-      "radiusKm": 63
+      "radiusKm": 65.3
     },
     {
       "zoneId": "occ-kherson",
@@ -138,16 +138,16 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 42,
+      "eventCount": 41,
       "kinds": {
         "strike": 7,
-        "combat": 14,
-        "other": 21
+        "combat": 16,
+        "other": 18
       },
       "tierCounts": {
-        "approximate": 42
+        "approximate": 41
       },
-      "combatCount": 21,
+      "combatCount": 23,
       "newestIsoDate": "2026-10-09T00:00:00.000Z",
       "samples": [
         {
@@ -167,51 +167,51 @@
         }
       ],
       "centroid": {
-        "lat": 46.6687,
-        "lng": 32.376
+        "lat": 46.6631,
+        "lng": 32.3499
       },
-      "radiusKm": 41.1
+      "radiusKm": 42
     },
     {
-      "zoneId": "lib-snake",
-      "region": "Snake Island",
+      "zoneId": "lib-chernihiv",
+      "region": "Chernihiv Oblast",
       "center": {
-        "lat": 45.2551,
-        "lng": 30.2033
+        "lat": 51.4982,
+        "lng": 31.2893
       },
       "eventCount": 40,
       "kinds": {
-        "other": 14,
-        "combat": 20,
-        "strike": 6
+        "other": 29,
+        "combat": 8,
+        "strike": 3
       },
       "tierCounts": {
         "approximate": 40
       },
-      "combatCount": 26,
-      "newestIsoDate": "2026-10-09T00:00:00.000Z",
+      "combatCount": 11,
+      "newestIsoDate": "2026-10-09T08:06:00.000Z",
       "samples": [
         {
-          "id": "gdelt-1327046997",
-          "isoDate": "2026-10-09T00:00:00.000Z",
-          "sourceUrl": "http://www.utahindependent.com/news/279357994/children-among-dead-in-russian-missile-barrage"
+          "id": "news-1tq02rf",
+          "isoDate": "2026-10-09T08:06:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/09/8057179/"
         },
         {
-          "id": "gdelt-1327046998",
+          "id": "gdelt-1327056954",
           "isoDate": "2026-10-09T00:00:00.000Z",
-          "sourceUrl": "http://www.utahindependent.com/news/279357994/children-among-dead-in-russian-missile-barrage"
+          "sourceUrl": "https://www.dw.com/en/ukraine-europe-us-to-meet-in-miami-for-talks-on-ending-war/a-79606735"
         },
         {
-          "id": "gdelt-1327047004",
-          "isoDate": "2026-10-09T00:00:00.000Z",
-          "sourceUrl": "http://www.utahindependent.com/news/279357994/children-among-dead-in-russian-missile-barrage"
+          "id": "news-1slm3yx",
+          "isoDate": "2026-10-08T14:45:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/08/8057088/"
         }
       ],
       "centroid": {
-        "lat": 46.3757,
-        "lng": 30.1539
+        "lat": 51.1522,
+        "lng": 31.8369
       },
-      "radiusKm": 67.2
+      "radiusKm": 61.4
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -220,39 +220,39 @@
         "lat": 47,
         "lng": 35.5
       },
-      "eventCount": 32,
+      "eventCount": 33,
       "kinds": {
-        "other": 17,
+        "other": 18,
         "combat": 14,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 32
+        "approximate": 33
       },
       "combatCount": 15,
-      "newestIsoDate": "2026-10-09T06:30:00.000Z",
+      "newestIsoDate": "2026-10-09T09:08:25.000Z",
       "samples": [
         {
-          "id": "news-8fc83f",
-          "isoDate": "2026-10-09T06:30:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4172561-russian-forces-attack-dnipropetrovsk-region-more-than-30-times-since-evening-injuring-one-person.html"
+          "id": "news-15d7fk6",
+          "isoDate": "2026-10-09T09:08:25.000Z",
+          "sourceUrl": "https://kyivindependent.com/russian-attacks-kill-at-least-41-injure-67-across-ukraine-as-glide-bombs-strike-zaporizhzhia/"
         },
         {
-          "id": "news-db1r7j",
-          "isoDate": "2026-10-09T05:57:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4172542-russian-attack-in-zaporizhzhia-kills-one-man-and-injures-several-people-including-child.html"
+          "id": "news-1x96pfz",
+          "isoDate": "2026-10-09T08:27:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4172576-russian-kab-strikes-on-zaporizhzhia-at-dawn-kill-one-person-and-injure-nine-others.html"
         },
         {
-          "id": "news-xzf5y0",
-          "isoDate": "2026-10-09T05:11:06.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9KMUxxNndET3FQdEFoNTJjM2ZfOHdtcVFEWHNZVDNWNV8yeTVkOElCWl9zWVgxLU5rMDlCcGwwLW9RUnVKS3ZPbTJPVQ?oc=5"
+          "id": "news-8kcwj0",
+          "isoDate": "2026-10-09T07:57:27.000Z",
+          "sourceUrl": "https://en.interfax.com.ua/news/general/1217003.html"
         }
       ],
       "centroid": {
-        "lat": 48.1761,
-        "lng": 35.1563
+        "lat": 48.1471,
+        "lng": 35.1585
       },
-      "radiusKm": 37.3
+      "radiusKm": 37.6
     },
     {
       "zoneId": "lib-sumy",
@@ -304,16 +304,21 @@
       },
       "eventCount": 29,
       "kinds": {
+        "other": 12,
         "combat": 13,
-        "strike": 4,
-        "other": 12
+        "strike": 4
       },
       "tierCounts": {
         "approximate": 29
       },
       "combatCount": 17,
-      "newestIsoDate": "2026-10-09T00:00:00.000Z",
+      "newestIsoDate": "2026-10-09T08:58:00.000Z",
       "samples": [
+        {
+          "id": "news-1vsqbik",
+          "isoDate": "2026-10-09T08:58:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4172579-russian-strike-on-outskirts-of-kharkiv-causes-casualties.html"
+        },
         {
           "id": "gdelt-1327033230",
           "isoDate": "2026-10-09T00:00:00.000Z",
@@ -323,18 +328,13 @@
           "id": "gdelt-1327062562",
           "isoDate": "2026-10-09T00:00:00.000Z",
           "sourceUrl": "http://www.rightspeak.net/2026/10/194-c-clashes-in-f-line-15-in-pokrovsk.html"
-        },
-        {
-          "id": "gdelt-1327067851",
-          "isoDate": "2026-10-09T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/10/8/800109677/community/1688/"
         }
       ],
       "centroid": {
-        "lat": 49.6531,
-        "lng": 36.8028
+        "lat": 49.6875,
+        "lng": 36.7487
       },
-      "radiusKm": 69.8
+      "radiusKm": 66.4
     },
     {
       "zoneId": "occ-luhansk",
@@ -343,16 +343,16 @@
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 18,
+      "eventCount": 20,
       "kinds": {
         "other": 9,
-        "combat": 8,
-        "strike": 1
+        "strike": 2,
+        "combat": 9
       },
       "tierCounts": {
-        "approximate": 18
+        "approximate": 20
       },
-      "combatCount": 9,
+      "combatCount": 11,
       "newestIsoDate": "2026-10-09T00:00:00.000Z",
       "samples": [
         {
@@ -361,21 +361,21 @@
           "sourceUrl": "https://allafrica.com/stories/202610090107.html"
         },
         {
-          "id": "gdelt-1326855321",
-          "isoDate": "2026-10-08T00:00:00.000Z",
-          "sourceUrl": "https://www.ibtimes.com/ukraine-taking-back-ground-key-region-russias-long-offensive-continues-stall-3808347"
+          "id": "gdelt-1327082561",
+          "isoDate": "2026-10-09T00:00:00.000Z",
+          "sourceUrl": "https://www.yourdemocracy.net.au/drupal/node/61318"
         },
         {
-          "id": "gdelt-1326869139",
-          "isoDate": "2026-10-08T00:00:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/86402"
+          "id": "gdelt-1327086851",
+          "isoDate": "2026-10-09T00:00:00.000Z",
+          "sourceUrl": "https://eaworldview.com/2026/10/ukraine-war-kramatorsk-33-murdered-in-russia-strike-on-minibuses/"
         }
       ],
       "centroid": {
-        "lat": 48.4964,
-        "lng": 38.7047
+        "lat": 48.5067,
+        "lng": 38.6943
       },
-      "radiusKm": 26.1
+      "radiusKm": 23.5
     },
     {
       "zoneId": "occ-crimea",
