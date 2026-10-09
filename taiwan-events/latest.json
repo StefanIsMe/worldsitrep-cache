@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-09T19:51:28.095Z",
+  "collectedAt": "2026-10-09T23:37:49.573Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 20
+      "count": 7
     },
     {
       "id": "taipei-times",
@@ -20,7 +20,7 @@
       "id": "gnews-strait",
       "url": "https://news.google.com/rss/search?q=Taiwan%20Strait%20China%20PLA&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 0,
       "filtered": 0
     },
     {
@@ -34,8 +34,8 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 44,
-      "filtered": 6
+      "count": 43,
+      "filtered": 7
     },
     {
       "id": "dw-asia",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 11,
-      "filtered": 39
+      "count": 10,
+      "filtered": 40
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 46,
+      "count": 45,
       "filtered": 0
     },
     {
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 310,
+  "count": 314,
   "events": [
     {
       "id": "news-10y5147",
@@ -271,6 +271,67 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/10/2003865733"
+    },
+    {
+      "id": "news-1c6qzt",
+      "kind": "news",
+      "date": "2026-10-09",
+      "isoDate": "2026-10-09T22:00:09.000Z",
+      "description": "What are the concerns and priorities behind the new language used to define China-US ties? (SCMP, 2026-10-09. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3370323/what-are-concerns-and-priorities-behind-new-language-used-define-china-us-ties?utm_source=rss_feed"
+    },
+    {
+      "id": "news-mg7vbb",
+      "kind": "news",
+      "date": "2026-10-09",
+      "isoDate": "2026-10-09T21:40:20.000Z",
+      "description": "Taiwan expels Chinese coast guard ships from Kinmen waters - Taiwan News (Taiwan News, 2026-10-09. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Taiwan News",
+      "axis": "Other",
+      "tags": [
+        "Taiwan News",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kinmen",
+      "source": "Taiwan News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00WTlEYVBDLVRNdHZHb0owN2dlemhfTDU1X1FnN2VfMTd3SjRrUUhVYTFrRWljT0VWN2h6QUpUSTBIMUhjUVBDcEtUNUI3QmRqWWJ0cw?oc=5",
+      "lat": 24.44,
+      "lng": 118.33,
+      "coordsNote": "Headline gazetteer match: \"Kinmen\" (city); verify via source article."
+    },
+    {
+      "id": "news-1ierpn6",
+      "kind": "news",
+      "date": "2026-10-09",
+      "isoDate": "2026-10-09T20:54:02.000Z",
+      "description": "Port of LA, key US point for China imports, has best-ever quarter despite trade uncertainty (SCMP, 2026-10-09. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3370410/key-us-port-china-imports-records-best-ever-quarter-despite-trade-uncertainty?utm_source=rss_feed"
     },
     {
       "id": "news-kqyiq5",
@@ -2168,6 +2229,244 @@
         "goldstein": -4,
         "tone": 3.89,
         "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327180631",
+      "kind": "event",
+      "date": "2026-10-09",
+      "isoDate": "2026-10-09T00:00:00.000Z",
+      "observedAt": "2026-10-09T20:15:00.000Z",
+      "description": "Disapproval — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (12 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5601376",
+      "gdelt": {
+        "globalEventId": "1327180631",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.33,
+        "mentions": 12,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327180635",
+      "kind": "event",
+      "date": "2026-10-09",
+      "isoDate": "2026-10-09T00:00:00.000Z",
+      "observedAt": "2026-10-09T20:15:00.000Z",
+      "description": "Disapproval — Taiwan → Diplomat near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5601380",
+      "gdelt": {
+        "globalEventId": "1327180635",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.81,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327182254",
+      "kind": "event",
+      "date": "2026-10-09",
+      "isoDate": "2026-10-09T00:00:00.000Z",
+      "observedAt": "2026-10-09T20:30:00.000Z",
+      "description": "Disapproval — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/china/eswatini-king-reaffirms-taiwan-ties-backs-un-participation-during-state-visit-6101780",
+      "gdelt": {
+        "globalEventId": "1327182254",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 3.4,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327182255",
+      "kind": "event",
+      "date": "2026-10-09",
+      "isoDate": "2026-10-09T00:00:00.000Z",
+      "observedAt": "2026-10-09T20:30:00.000Z",
+      "description": "Disapproval — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/china/eswatini-king-reaffirms-taiwan-ties-backs-un-participation-during-state-visit-6101780",
+      "gdelt": {
+        "globalEventId": "1327182255",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 3.4,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327182256",
+      "kind": "event",
+      "date": "2026-10-09",
+      "isoDate": "2026-10-09T00:00:00.000Z",
+      "observedAt": "2026-10-09T20:30:00.000Z",
+      "description": "Disapproval — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/china/eswatini-king-reaffirms-taiwan-ties-backs-un-participation-during-state-visit-6101780",
+      "gdelt": {
+        "globalEventId": "1327182256",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 3.4,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327183063",
+      "kind": "event",
+      "date": "2026-10-09",
+      "isoDate": "2026-10-09T00:00:00.000Z",
+      "observedAt": "2026-10-09T20:30:00.000Z",
+      "description": "Disapproval — Taiwan → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/china/eswatini-king-reaffirms-taiwan-ties-backs-un-participation-during-state-visit-6101780",
+      "gdelt": {
+        "globalEventId": "1327183063",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 3.4,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327183064",
+      "kind": "event",
+      "date": "2026-10-09",
+      "isoDate": "2026-10-09T00:00:00.000Z",
+      "observedAt": "2026-10-09T20:30:00.000Z",
+      "description": "Disapproval — Taiwan → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/china/eswatini-king-reaffirms-taiwan-ties-backs-un-participation-during-state-visit-6101780",
+      "gdelt": {
+        "globalEventId": "1327183064",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 3.4,
+        "mentions": 2,
         "sources": 1
       }
     },
@@ -8577,124 +8876,6 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://www.taipeitimes.com/News/sport/archives/2026/10/07/2003865533"
-    },
-    {
-      "id": "news-187eip1",
-      "kind": "news",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T23:34:20.000Z",
-      "description": "North Korea warns US over Taiwan while Kim pledges support for Russia - NST Online (NST Online, 2026-10-06. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NST Online",
-      "axis": "Other",
-      "tags": [
-        "NST Online",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NST Online",
-      "source": "NST Online",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdWMzUElXS0RYRlBMLWFSNDE0amhKeTRIUV9nTThyWkxRcExDdmJUX1FyRTJGbTQ4Mk9ZWElISUJ6WmFfa2lPU25xQVFDVzdtWDZZV1dQb0Q4bjQ4WVJVZG1oeF9GcWtlOFpraGNWblFmYjREWmtmYnF6TjNSaVk0dUFXRDFQQ2U5TjdNZ2RfTFplYUlWNThxWmNtM1A1TE5JTTh6OUk3NFpMMkw2NUpLQTNrY1ZzZWfSAbwBQVVfeXFMTkEwV0RhZnR5YnNmWjRiYm5jejk0LTZSSS1jUFZCQktuSFJvVktpYktpMG5wRDBnT3hRTGFWOUpvZUF4M0Rjb3gtMkVzcG5ScE13UWJDXzVxMUFoYnU0RXc3VERWZUdVSjItN3ctVVc0VjByckFvaUl1RDVtd3M3QkpJakhmSXJMQlppYWdUdlZWUmxMeFQ0VnZMcjVKdWNQZnpQX0hGXzhfZXNyUHlydEJLRGVUZ3UxUV8xVW8?oc=5"
-    },
-    {
-      "id": "news-1ca13ko",
-      "kind": "news",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T22:40:48.000Z",
-      "description": "China’s economy to slow as global growth stays solid, US think tank report says (SCMP, 2026-10-06. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3369965/chinas-economy-slow-global-growth-stays-solid-us-think-tank-report-says?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1qyitnb",
-      "kind": "news",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T21:59:33.000Z",
-      "description": "US seeks US$100 million bail each for Chinese-born couple in surrogacy child abuse case (SCMP, 2026-10-06. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/us/article/3369963/us-seeks-us100-million-bail-each-chinese-born-couple-surrogacy-child-abuse-case?utm_source=rss_feed"
-    },
-    {
-      "id": "news-97esgp",
-      "kind": "news",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T21:55:37.000Z",
-      "description": "North Korea Accuses U.S. of Provoking Taiwan Strait, Reaffirms Support for Russia - Forth.News (Forth.News, 2026-10-06. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Forth.News",
-      "axis": "Other",
-      "tags": [
-        "Forth.News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Taiwan Strait",
-      "source": "Forth.News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCUzh3TjFFMGRDNkpjZDRuZHJFVkVPZGREUmVqbDVsSllsSFZNYW00b1hMendJXzVEMXF0T2J1Y2t6SVo1eGowdFlRaXRLQ1JXYlhYV0o4ODRPY0VIc1p6WFhn?oc=5",
-      "lat": 24.5,
-      "lng": 119.5,
-      "coordsNote": "Headline gazetteer match: \"Taiwan Strait\" (region); verify via source article."
-    },
-    {
-      "id": "news-pmpas7",
-      "kind": "news",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T21:54:03.000Z",
-      "description": "North Korea criticises US support for Taiwan, pledges backing for Russia (Straits Times, 2026-10-06. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/north-korea-warns-us-over-taiwan-while-kim-pledges-support-for-russia"
-    },
-    {
-      "id": "news-8o2ie0",
-      "kind": "news",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T21:49:00.000Z",
-      "description": "North Korea criticises US support for Taiwan, pledges backing for Russia - Reuters (Reuters, 2026-10-06. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMHg2SlpoVHlESU44TmVmZmNnNjFrYWw4bzYxVmtkWHBsdkppd2hFLVlSNFg3X19RRV9zc2tUa2tOX1BSckpvOVJnTHJabXJ4aHR3TDZJTENCOV9tV0ZPN3FYUkt2YjlVZllULUEyN0hTLXd5a3pFUmNEcXF4N1ZxTTVQX1JVdmNoaXdBcnhNUDRvZ0MtLTRhLUhmQzNTaEtiTlN1MTh3M3o4d0ZhQVFWaTZTQ2lCSHoyV3FocnhDRE4zX3FVTjJz?oc=5"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-09T19:51:28.095Z",
+  "collectedAt": "2026-10-09T23:37:49.573Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 12
+      "count": 1
     },
     {
       "id": "aa-mali",
@@ -90,7 +90,7 @@
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 49,
+      "count": 48,
       "filtered": 0
     },
     {
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 98,
+  "count": 99,
   "events": [
     {
       "id": "news-9r42iv",
@@ -758,6 +758,40 @@
         "goldstein": -2,
         "tone": -9.52,
         "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327178648",
+      "kind": "event",
+      "date": "2026-10-09",
+      "isoDate": "2026-10-09T00:00:00.000Z",
+      "observedAt": "2026-10-09T20:00:00.000Z",
+      "description": "Coercion — Unspecified → Niger near Dankama, Tillabé, Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.7994,
+      "lng": 0.61483,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dankama, Tillabé, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.premiumtimesng.com/news/top-news/915716-court-remands-nigerien-man-in-abuja-for-alleged-supply-of-ak-47-ammunition-for-terrorism.html",
+      "gdelt": {
+        "globalEventId": "1327178648",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -11.78,
+        "mentions": 2,
         "sources": 1
       }
     },
