@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "myanmar",
-  "collectedAt": "2026-10-08T20:14:15.373Z",
+  "collectedAt": "2026-10-09T00:35:09.941Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 0
     },
     {
       "id": "irrawaddy",
@@ -40,23 +40,23 @@
     {
       "id": "gnews-myanmar",
       "url": "https://news.google.com/rss/search?q=Myanmar&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-myanmar request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-war",
       "url": "https://news.google.com/rss/search?q=Myanmar%20civil%20war&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-war request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-rakhine",
       "url": "https://news.google.com/rss/search?q=Rakhine%20Arakan%20Army&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-rakhine request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -66,8 +66,115 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 259,
+  "count": 254,
   "events": [
+    {
+      "id": "news-2v4e7g",
+      "kind": "news",
+      "date": "2026-10-08",
+      "isoDate": "2026-10-08T23:15:39.000Z",
+      "description": "‘RAY&#8217; international tour raises funds for Myanmar (DVB English, 2026-10-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DVB English",
+      "axis": "Other",
+      "tags": [
+        "DVB English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DVB English",
+      "source": "DVB English",
+      "sourceUrl": "https://english.dvb.no/ray-international-tour-raises-funds-for-myanmar/"
+    },
+    {
+      "id": "news-n8u6db",
+      "kind": "news",
+      "date": "2026-10-08",
+      "isoDate": "2026-10-08T22:26:58.000Z",
+      "description": "Malaysia to &#8216;reintegrate&#8217; Myanmar at ASEAN; Resistance forces condemn Min Aung Hlaing visit to Putrajaya (DVB English, 2026-10-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DVB English",
+      "axis": "Other",
+      "tags": [
+        "DVB English",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Aung Hlaing",
+      "source": "DVB English",
+      "sourceUrl": "https://english.dvb.no/malaysia-to-reintegrate-myanmar-at-asean-resistance-forces-condemn-min-aung-hlaing-visit-to-putrajaya/",
+      "lat": 15.79803,
+      "lng": 94.77819,
+      "coordsNote": "OSM geocode: matched \"Aung Hlaing\" → Aung Hlaing, Labutta Township, Labutta; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1cvxcmv",
+      "kind": "news",
+      "date": "2026-10-08",
+      "isoDate": "2026-10-08T22:04:00.000Z",
+      "description": "The majority of people in Myanmar are living in poverty or at risk, UN report says (DVB English, 2026-10-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DVB English",
+      "axis": "Other",
+      "tags": [
+        "DVB English",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Myanmar",
+      "source": "DVB English",
+      "sourceUrl": "https://english.dvb.no/majority-of-people-in-myanmar-are-living-in-poverty-or-at-risk-un-report-says/",
+      "lat": 17.17505,
+      "lng": 95.99997,
+      "coordsNote": "OSM geocode: matched \"Myanmar\" → Myanmar; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-n1bmkd",
+      "kind": "news",
+      "date": "2026-10-08",
+      "isoDate": "2026-10-08T22:00:00.000Z",
+      "description": "Myanmar’s Min Aung Hlaing seeks closer ties on visit to Malaysia as he pivots to diplomacy (DVB English, 2026-10-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DVB English",
+      "axis": "Other",
+      "tags": [
+        "DVB English",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Aung Hlaing",
+      "source": "DVB English",
+      "sourceUrl": "https://english.dvb.no/myanmars-min-aung-hlaing-seeks-closer-ties-on-visit-to-malaysia-as-he-pivots-to-diplomacy/",
+      "lat": 15.79803,
+      "lng": 94.77819,
+      "coordsNote": "OSM geocode: matched \"Aung Hlaing\" → Aung Hlaing, Labutta Township, Labutta; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-4db8cq",
+      "kind": "news",
+      "date": "2026-10-08",
+      "isoDate": "2026-10-08T20:37:00.000Z",
+      "description": "The Trump Administration’s Shift on Myanmar Is a Disastrous Decision - Council on Foreign Relations (CFR) (Council on Foreign Relations (CFR), 2026-10-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Council on Foreign Relations (CFR)",
+      "axis": "Other",
+      "tags": [
+        "Council on Foreign Relations (CFR)",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Council on Foreign Relations (CFR)",
+      "source": "Council on Foreign Relations (CFR)",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmZlV2o5aXZLOENhTmNLQkYzUVZVZmJsTUFuTlNnV3ctT2tiOWdOZExQM1NuT1pOVjE0U2N6M1JUbjkyRS1nUUN6Zi1ad3NnQ2N4WmxRQzZ3S0NoVm95WjZQSEFKcFgxVFdSaGM0LWlXOWZUQ3RzYkJiSnBIdGJBR2tFNWFhdF9ETWtXTnlaSlZMN1NBNktvT2s5Qy0?oc=5"
+    },
     {
       "id": "news-gp1j1n",
       "kind": "news",
@@ -86,6 +193,25 @@
       "locationStr": "Narinjara News",
       "source": "Narinjara News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Jdl9sQW1iUU81cDBnZUJLRGZWRFo0cXBhTUZ1WGw0WlY1azJ5MlBjTmoyMVpzajB5ZXJFMWhpTmZhQ0dZZmVfSnk3MXlQd1VSVjBFR0Znemd5T3NDSzJwMjU5cVlURFo1aWdpRFdaTQ?oc=5"
+    },
+    {
+      "id": "news-lzgzej",
+      "kind": "news",
+      "date": "2026-10-08",
+      "isoDate": "2026-10-08T18:43:41.000Z",
+      "description": "Trump administration opens direct talks with Myanmar junta, signals shift from isolation to engagement - The Economic Times (The Economic Times, 2026-10-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Economic Times",
+      "axis": "Other",
+      "tags": [
+        "The Economic Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Economic Times",
+      "source": "The Economic Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOYTNZSVc1OVN1aEFxaG5lWlF2cnlxOGkwc3FxanN4Y3RyUGNCWm5LVmRiY0JaZklFS3lOVndaRDZ3ZXB1SFdVNk0xbzN6Y1B6T0dObnp2azZGaUx6M0ZZZTBxRmRiNkdoc1ZFSnFkSGl0bVhuZGk1b3lJaDNWcDhpNjNwOVdfOUpXNjBNRm5WTmxZS0Rlbnc2dV9YS3dFRzFBeTY4WjlFLXkzYTNhOTZTX3ZVN3ZHc1E3NC1DSm1PejVRUWdEV2p1TndaNHFEXy1UWUxsZm1FajFNcVNlSFZKSW5jMHNyQTFLeTRpbWxwdmwxMnU0cktOb2R3dkVyWDVfbHlFOU5PcVZPc2pEX2pPRGI3ONIBmAJBVV95cUxPWm9Pam9Ld2ZXZjBCQUprNkl4aTB4alNqbml0MGNLQmV2TF9DaVczX2dyY3hjRFVxcTZiMGNNN0p5bmdhWkNOQVZIc1RkZEV6TjN4QjlvMzlqckFjWG9SRG04MGZUTnNfMXhiUHFPdjRTZDJsdFdmQ3FaajFsRXd3dnBhRTBsZGp2YnNlVFpHVzFHYVRlNjFyWWpVendsSmk2Nnc2ZG9ocDkxSVg3R0R3dThfbFNITWRuQTFhQUVoQmJTMVNqcndUTXhZZmV5NS1TSnBUQndTZ2lJTGR2SldpYXdvQ3FoWVB1SHVzaFhUTXhwOFlxQ1kyUVRtSm1JcDA5bWpoUTZERG5xZFlITGdSZHdEaEZpd2Yx?oc=5"
     },
     {
       "id": "news-bx8no1",
@@ -208,6 +334,29 @@
       "locationStr": "ABC News - Breaking News, Latest News and Videos",
       "source": "ABC News - Breaking News, Latest News and Videos",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSV9ITGxLbFBqTEJILVpHTW5VYVhmM25pTmVTRjc1QUpWTmF6cHcyUnpVbkphbktaaUF6LTdWaGZ0RTRtOXZ6RDU0TE54M1U5SFFIRzJ3dzU1NE95dDN5Xy1SMTdldWNiODVvLUFaaGdOTm1JVzAzeVdxVmRZcEQ0bmFwMXl6LVRYYm9Dd19INEFSTVZaTXNWSWVLbGxXZWFKWndvdEtpaEcwY0VnMXfSAbMBQVVfeXFMT21FeGZTbmhidzE3VGtETXVKRklSdjRpVU1xSzQwYjhGejQ0VzJ6MTlxVXM1eTRBalBwVGFCc2VHYktBaWlqUkJNTFM3cGNJRHRiRkxHXzQtbWh4UmFmcWpHWVgtUFJ6NlZrNHcwQWVxc0xYcDFwMnRwMk1NX0thc0FHc3pxMEtBa2NWc09KUmlWY3E3Y1h0N29IZFJEMy1tSFZCc3RaQmVQeDVuZFF2OVNXc0E?oc=5"
+    },
+    {
+      "id": "news-77ydgt",
+      "kind": "news",
+      "date": "2026-10-08",
+      "isoDate": "2026-10-08T12:41:16.000Z",
+      "description": "Majority of people in Myanmar are living in poverty or at risk, UN report says - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-10-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ABC News - Breaking News, Latest News and Videos",
+      "axis": "Other",
+      "tags": [
+        "ABC News - Breaking News, Latest News and Videos",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Myanmar",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQUdRVzRtYkEtb3hnNWtjZV9UTWZodmc0OTBMenhLVXFpNVlQczhxYUptdldrTC1oa01WamdhRG8zMFREQWxCUmhHZTlSUHNnbTF5cUl2TEJpZHVZcUhpLWdOVlVjdmRabG9JOHVFakF3NU02dHJ1dFR5bW85QUtqRGM0VWljUmxQckZHVEZhNktBUWcxdG52RHhGdXVCOTA5U215ZzhMRdIBrAFBVV95cUxPNk50LVpFMUdzN3hGZE11OEZGZTloUkI2YWgybi1ESnJOM19kWkk3T1lWSDJZVWx5RTUybVllbDVrNjRsUTV3X2VqcDhJSVp4QVU2MTdCdkZJbnlHeWVqOVdWanI5T0Z6VkdFYWF2N0gxT0dTYk50RFFlSW51OWk1Z0xaNC1VdTY2X3Vpd1lsR3VyM091WmhzTm9LcDJPR2d1RlNnTTF2Z2ZVWUhN?oc=5",
+      "lat": 17.17505,
+      "lng": 95.99997,
+      "coordsNote": "OSM geocode: matched \"Myanmar\" → Myanmar; © OpenStreetMap contributors."
     },
     {
       "id": "news-1dyt9px",
@@ -562,6 +711,25 @@
       "locationStr": "AP News",
       "source": "AP News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYVBYd2Q2MDdweTdWMU1EM29nREFlcDIxRlI3VzJyaFdLdlJKc0dPbkdiZWFVZ3Z3VEhlN3VzT0tkVTd3dHcwWUhsN0xDU0hLNm9vN0hQQU1CdUlFUE9qWnRldzhJOWExM19IZ2dpX1VRWVc1ZXVIZjFfRC1feEZWbUFjem92MEQ0ejNORmtFYjRKTVhQUkhNcXhRWQ?oc=5"
+    },
+    {
+      "id": "news-16lxc0s",
+      "kind": "news",
+      "date": "2026-10-08",
+      "isoDate": "2026-10-08T08:12:50.000Z",
+      "description": "Guest Column | Arakan Under the Myanmar Regime’s Air War - The Irrawaddy (The Irrawaddy, 2026-10-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Irrawaddy",
+      "axis": "Other",
+      "tags": [
+        "The Irrawaddy",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Irrawaddy",
+      "source": "The Irrawaddy",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRDNqUjNvZEh6XzRkNlBkek1zQ09SQnZ1a2JXQ05PeUxwNmdqWVlJSk9YZXJ6eXJlWmIyNS1fdzJXazR3RWZ3dkJ5R3VoelpHOFdwZkttZ084aHBBV1hZZEZPWl8tVmlOV2kwb20yTUdoTGd5X1F1Z3JXNDVlNjRVVnduTTlvazQyZHNlQ1RoeXNmdnNmTWVr?oc=5"
     },
     {
       "id": "news-12wubu9",
@@ -3311,25 +3479,6 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE11YWV4UlRNUlBIN3EwZm82T1FxMlV6SS1JODY1U0FNbGYxa2RhZ3A1VVRYTmRma0xyZ0oxeHBuTHNIZjF3QzdnNzhoaDVlb2d0MV9wVTd3d0w?oc=5"
     },
     {
-      "id": "news-16lxc0s",
-      "kind": "news",
-      "date": "2026-10-07",
-      "isoDate": "2026-10-07T09:11:53.000Z",
-      "description": "Guest Column | Arakan Under the Myanmar Regime’s Air War - The Irrawaddy (The Irrawaddy, 2026-10-07. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Irrawaddy",
-      "axis": "Other",
-      "tags": [
-        "The Irrawaddy",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Irrawaddy",
-      "source": "The Irrawaddy",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRDNqUjNvZEh6XzRkNlBkek1zQ09SQnZ1a2JXQ05PeUxwNmdqWVlJSk9YZXJ6eXJlWmIyNS1fdzJXazR3RWZ3dkJ5R3VoelpHOFdwZkttZ084aHBBV1hZZEZPWl8tVmlOV2kwb20yTUdoTGd5X1F1Z3JXNDVlNjRVVnduTTlvazQyZHNlQ1RoeXNmdnNmTWVr?oc=5"
-    },
-    {
       "id": "news-pdjanc",
       "kind": "news",
       "date": "2026-10-07",
@@ -5554,325 +5703,6 @@
       "locationStr": "ASEAN - BERNAMA",
       "source": "ASEAN - BERNAMA",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uV0hMNEFqcUVydExCQ3VYbzY1Um13QlZub2xZdXdqenJhMnBJczloU2hZYXNGZ2hfWUdITzBVa05PcjhyTmM2eWg3Z0pwSXhPcmR2OGpfVWI?oc=5"
-    },
-    {
-      "id": "gdelt-1326510794",
-      "kind": "event",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T00:00:00.000Z",
-      "observedAt": "2026-10-06T07:30:00.000Z",
-      "description": "Disapproval — Migrant → United Nations near Yangon, Yangon, Myanmar. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 16.8053,
-      "lng": 96.1561,
-      "action": "Disapproval (GDELT 111)",
-      "actor": "Migrant",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Yangon, Yangon, Myanmar",
-      "source": "GDELT 2.1",
-      "sourceUrl": "http://colombogazette.com/2026/10/06/nearly-1-500-myanmar-migrants-return-from-malaysia-despite-un-warnings",
-      "gdelt": {
-        "globalEventId": "1326510794",
-        "eventCode": "111",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -9.12,
-        "mentions": 10,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1326510805",
-      "kind": "event",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T00:00:00.000Z",
-      "observedAt": "2026-10-06T07:30:00.000Z",
-      "description": "Disapproval — Migrant → Human Rights Group near Yangon, Yangon, Myanmar. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 16.8053,
-      "lng": 96.1561,
-      "action": "Disapproval (GDELT 111)",
-      "actor": "Migrant",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Yangon, Yangon, Myanmar",
-      "source": "GDELT 2.1",
-      "sourceUrl": "http://colombogazette.com/2026/10/06/nearly-1-500-myanmar-migrants-return-from-malaysia-despite-un-warnings",
-      "gdelt": {
-        "globalEventId": "1326510805",
-        "eventCode": "111",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -9.12,
-        "mentions": 10,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1326630400",
-      "kind": "event",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T00:00:00.000Z",
-      "observedAt": "2026-10-06T21:15:00.000Z",
-      "description": "Fight — Japan → Unspecified near Kangaw, Rakhine State, Myanmar. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 20.1167,
-      "lng": 93.45,
-      "action": "Fight (GDELT 192)",
-      "actor": "Japan",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kangaw, Rakhine State, Myanmar",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.historyextra.com/period/second-world-war/battle-of-hill-170-arakan-offensive/",
-      "gdelt": {
-        "globalEventId": "1326630400",
-        "eventCode": "192",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -9.5,
-        "tone": -6.76,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1326630507",
-      "kind": "event",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T00:00:00.000Z",
-      "observedAt": "2026-10-06T21:15:00.000Z",
-      "description": "Fight — Commando → Unspecified near Kangaw, Rakhine State, Myanmar. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 20.1167,
-      "lng": 93.45,
-      "action": "Fight (GDELT 193)",
-      "actor": "Commando",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kangaw, Rakhine State, Myanmar",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.historyextra.com/period/second-world-war/battle-of-hill-170-arakan-offensive/",
-      "gdelt": {
-        "globalEventId": "1326630507",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -6.76,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1326630516",
-      "kind": "event",
-      "date": "2026-10-06",
-      "isoDate": "2026-10-06T00:00:00.000Z",
-      "observedAt": "2026-10-06T21:15:00.000Z",
-      "description": "Assault — Myanmar → Unspecified near Kangaw, Rakhine State, Myanmar. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "strike",
-      "lat": 20.1167,
-      "lng": 93.45,
-      "action": "Assault (GDELT 180)",
-      "actor": "Myanmar",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Assault"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kangaw, Rakhine State, Myanmar",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.historyextra.com/period/second-world-war/battle-of-hill-170-arakan-offensive/",
-      "gdelt": {
-        "globalEventId": "1326630516",
-        "eventCode": "180",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -9,
-        "tone": -6.76,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "news-7p5fdp",
-      "kind": "news",
-      "date": "2026-10-05",
-      "isoDate": "2026-10-05T23:35:32.000Z",
-      "description": "Military Launches Airstrikes Targeting Rakhine Civilians After ‘Operation 4926’ Fails - Narinjara News (Narinjara News, 2026-10-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Narinjara News",
-      "axis": "Other",
-      "tags": [
-        "Narinjara News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Rakhine State",
-      "source": "Narinjara News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9zZFdUUzhTQ29fN202Q0hYaTdJZWNVVG1TaDgwV0c2MWl0aTRudGZ5S0p3X21Nc1lGYnRCa050UTZieFktYmJvMFhxYXZ4Vng5dDVtMy1waXgwb0tzMVpGUEpTUTdWUWc0OVR3RllFdw?oc=5",
-      "lat": 20.5,
-      "lng": 93,
-      "coordsNote": "Headline gazetteer match: \"Rakhine\" (region); verify via source article."
-    },
-    {
-      "id": "news-pzgwq9",
-      "kind": "news",
-      "date": "2026-10-05",
-      "isoDate": "2026-10-05T23:23:03.000Z",
-      "description": "Myanmar military airstrikes on displacement camps in Rakhine State kill eight (DVB English, 2026-10-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DVB English",
-      "axis": "Other",
-      "tags": [
-        "DVB English",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Rakhine State",
-      "source": "DVB English",
-      "sourceUrl": "https://english.dvb.no/myanmar-military-airstrikes-on-displacement-camps-in-rakhine-state-kill-eight/",
-      "lat": 20.5,
-      "lng": 93,
-      "coordsNote": "Headline gazetteer match: \"Rakhine State\" (region); verify via source article."
-    },
-    {
-      "id": "news-14l81kf",
-      "kind": "news",
-      "date": "2026-10-05",
-      "isoDate": "2026-10-05T22:45:27.000Z",
-      "description": "Nearly 1,500 migrants arrive in Myanmar from Malaysia despite UN warnings - Al Jazeera (Al Jazeera, 2026-10-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Al Jazeera",
-      "axis": "Other",
-      "tags": [
-        "Al Jazeera",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Myanmar",
-      "source": "Al Jazeera",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbkxQVk5PRlNDYVZPRUpVOXYzWW1obEQyT0lxOGVjR21yRl94aWhub2JyRXlORWVZZUJwMWdzMFdJd3I0MG5qOXhCMjI1OEdJNjZ1YTRpSFpOeDZCRU5tVFN1LU55MEp1WjQtcGdLbDNKUmZsM1plWm9DamNoQ0pKbDJVX0hmOTlvaFc0aUVVQ2hiZWMzNFNnd0M0YUVZLUk4RXg1QlJNRzBNQWI5eDJ1b2tTb9IBuAFBVV95cUxPTFFYNGI2cmttQVo5NHgyX29iOWhRUi1fbXhQM29Pb0Y4SGt5TFdfWFF6LWpiVlJ2SnpJbzl5ZkpfcVhpcklmOE5JQkFxUUVzZGE3QzgyQU9GbmN5ZnBkUHE4NGgyWk5ReVd3N0FnTTR3NzJYSzNWLTB4N0VoQ3FPNlRXQkpyMkhZbHJOd1hnUVdhOGlyQUI4aVU5YUZCVE9vak9fV2dBd3ZqLU5vbE93M3J1SERIX1hB?oc=5",
-      "lat": 17.17505,
-      "lng": 95.99997,
-      "coordsNote": "OSM geocode: matched \"Myanmar\" → Myanmar; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-ubhe3x",
-      "kind": "news",
-      "date": "2026-10-05",
-      "isoDate": "2026-10-05T22:28:54.000Z",
-      "description": "Airstrikes intensify in Rakhine State since 50 killed; 1,500 Myanmar nationals return from Malaysia (DVB English, 2026-10-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DVB English",
-      "axis": "Other",
-      "tags": [
-        "DVB English",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Rakhine State",
-      "source": "DVB English",
-      "sourceUrl": "https://english.dvb.no/airstrikes-intensify-in-rakhine-state-since-50-killed-nearly-1500-myanmar-nationals-return-home-from-malaysia/",
-      "lat": 20.5,
-      "lng": 93,
-      "coordsNote": "Headline gazetteer match: \"Rakhine State\" (region); verify via source article."
-    },
-    {
-      "id": "news-4mi8ux",
-      "kind": "news",
-      "date": "2026-10-05",
-      "isoDate": "2026-10-05T22:26:57.000Z",
-      "description": "Activists Welcome Review of Myanmar’s Membership in Regional Human Rights Umbrella - The Irrawaddy (The Irrawaddy, 2026-10-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Irrawaddy",
-      "axis": "Other",
-      "tags": [
-        "The Irrawaddy",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Irrawaddy",
-      "source": "The Irrawaddy",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdWVyTFJhWVA3VWZHRTByX0xXOVVZUF94VV9DSEV6eTlYQ2ZsV2R0bHczdGMyU3FWTG13Q1F5U0R1VGV5eXozWUxLODVtZ2dlOEx5UV9JdmhWdjlfR01aYmJHbU5BaXFBVURpMFJaakNVNUZvMHZqQ1FzenhKa1FTaW94TDhCM3JoOVNjYkZQak4wa1VhQkZJQVpSRURkZG1NYTBTVTUwU1B4WVRwTjd0bzhSLU0zWVRwbUdrNkRhakhZZ2Vid3RZWDFOTXNaYTIyaXdVOHpCb0piRDQ?oc=5"
-    },
-    {
-      "id": "news-ok8814",
-      "kind": "news",
-      "date": "2026-10-05",
-      "isoDate": "2026-10-05T22:26:57.000Z",
-      "description": "Myanmar Regime Begins Rolling Blackouts as ‘Super El Niño’ Heat Intensifies - The Irrawaddy (The Irrawaddy, 2026-10-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Irrawaddy",
-      "axis": "Other",
-      "tags": [
-        "The Irrawaddy",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Irrawaddy",
-      "source": "The Irrawaddy",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQXzEyZy1nYlRxZDJKSU94UTVOQkZGbV9lMTVfdzhGMFU5WGhrNXZZOFM3cXNSS2JqNlQxbm1hZTVLY0kzMjdub2pQVWFVdnQ3blJXRTVEYlpTUzc0c05JaVplSWVXR0JkZDJkNWFnb01MU1pkLUZhbXdYbk52bEdUUWFQVnpMNkdROVBldkp3Z2tXcmtZVDNjYVdEMUYyaUZvLTBZNzFoOGZmQXlpeE4xNUU3SlpUUQ?oc=5"
-    },
-    {
-      "id": "news-1hadmeh",
-      "kind": "news",
-      "date": "2026-10-05",
-      "isoDate": "2026-10-05T21:00:00.000Z",
-      "description": "Myanmar property market booms as prices soar on regime policies, inflation - Nikkei Asia (Nikkei Asia, 2026-10-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Nikkei Asia",
-      "axis": "Other",
-      "tags": [
-        "Nikkei Asia",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Nikkei Asia",
-      "source": "Nikkei Asia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlY3NkVBRzRjSzFsamhRWndMYzU5UHFua1JTTkpUeE5tY2RpVVVtYXNLeTh0d3V6X2ZEdWhIZEpyZDRLdzI3dEYxRVhyYjdoX0VHbHdhZ1ZSaHdnZUFfVlNYSGk2ZmN2Um9nMkZmTk5LOS10cXdYSlBXVXVhUE5BQ1pvNVhnUm5HRGFKcThwaHRZMnZuUlRCSmc4U0NWUnVSNWQzMlBidjNibFhjMnpNdWFOWVFjM0QwZFdv?oc=5"
     }
   ]
 }
