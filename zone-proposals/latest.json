@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-09T14:33:14.390Z",
+  "collectedAt": "2026-10-09T16:31:09.685Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 184,
-  "outsideTheatreDropped": 2,
+  "coarseGdeltDropped": 191,
+  "outsideTheatreDropped": 4,
   "proposals": [
     {
       "zoneId": "lib-kyiv",
@@ -15,16 +15,16 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 572,
+      "eventCount": 554,
       "kinds": {
-        "other": 339,
-        "combat": 201,
-        "strike": 32
+        "other": 324,
+        "combat": 203,
+        "strike": 27
       },
       "tierCounts": {
-        "approximate": 572
+        "approximate": 554
       },
-      "combatCount": 233,
+      "combatCount": 230,
       "newestIsoDate": "2026-10-09T13:52:58.000Z",
       "samples": [
         {
@@ -44,8 +44,8 @@
         }
       ],
       "centroid": {
-        "lat": 50.4773,
-        "lng": 29.8085
+        "lat": 50.4554,
+        "lng": 29.7398
       },
       "radiusKm": 80
     },
@@ -56,16 +56,16 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 132,
+      "eventCount": 118,
       "kinds": {
-        "other": 75,
-        "combat": 43,
-        "strike": 14
+        "other": 72,
+        "combat": 34,
+        "strike": 12
       },
       "tierCounts": {
-        "approximate": 132
+        "approximate": 118
       },
-      "combatCount": 57,
+      "combatCount": 46,
       "newestIsoDate": "2026-10-09T13:26:02.000Z",
       "samples": [
         {
@@ -85,10 +85,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.667,
-        "lng": 37.5712
+        "lat": 48.6538,
+        "lng": 37.5812
       },
-      "radiusKm": 15
+      "radiusKm": 15.6
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -130,6 +130,47 @@
         "lng": 35.1202
       },
       "radiusKm": 46.3
+    },
+    {
+      "zoneId": "occ-kherson",
+      "region": "Kherson Oblast",
+      "center": {
+        "lat": 46.6354,
+        "lng": 32.6169
+      },
+      "eventCount": 44,
+      "kinds": {
+        "other": 16,
+        "strike": 8,
+        "combat": 20
+      },
+      "tierCounts": {
+        "approximate": 44
+      },
+      "combatCount": 28,
+      "newestIsoDate": "2026-10-09T11:15:00.000Z",
+      "samples": [
+        {
+          "id": "news-1y7cnw6",
+          "isoDate": "2026-10-09T11:15:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4172679-russian-forces-attack-industrial-and-energy-infrastructure-in-mykolaiv-killing-man.html"
+        },
+        {
+          "id": "gdelt-1327068649",
+          "isoDate": "2026-10-09T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/8/800109677/community/1688/"
+        },
+        {
+          "id": "gdelt-1327068651",
+          "isoDate": "2026-10-09T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/8/800109677/community/1688/"
+        }
+      ],
+      "centroid": {
+        "lat": 46.6659,
+        "lng": 32.3594
+      },
+      "radiusKm": 40.9
     },
     {
       "zoneId": "lib-snake",
@@ -179,16 +220,16 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 35,
+      "eventCount": 39,
       "kinds": {
-        "other": 16,
-        "combat": 15,
+        "other": 19,
+        "combat": 16,
         "strike": 4
       },
       "tierCounts": {
-        "approximate": 35
+        "approximate": 39
       },
-      "combatCount": 19,
+      "combatCount": 20,
       "newestIsoDate": "2026-10-09T12:37:39.000Z",
       "samples": [
         {
@@ -208,92 +249,10 @@
         }
       ],
       "centroid": {
-        "lat": 49.6649,
-        "lng": 36.6548
+        "lat": 49.6515,
+        "lng": 36.6304
       },
-      "radiusKm": 68.1
-    },
-    {
-      "zoneId": "occ-kherson",
-      "region": "Kherson Oblast",
-      "center": {
-        "lat": 46.6354,
-        "lng": 32.6169
-      },
-      "eventCount": 35,
-      "kinds": {
-        "other": 15,
-        "strike": 7,
-        "combat": 13
-      },
-      "tierCounts": {
-        "approximate": 35
-      },
-      "combatCount": 20,
-      "newestIsoDate": "2026-10-09T11:15:00.000Z",
-      "samples": [
-        {
-          "id": "news-1y7cnw6",
-          "isoDate": "2026-10-09T11:15:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4172679-russian-forces-attack-industrial-and-energy-infrastructure-in-mykolaiv-killing-man.html"
-        },
-        {
-          "id": "gdelt-1327068649",
-          "isoDate": "2026-10-09T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/10/8/800109677/community/1688/"
-        },
-        {
-          "id": "gdelt-1327068651",
-          "isoDate": "2026-10-09T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/10/8/800109677/community/1688/"
-        }
-      ],
-      "centroid": {
-        "lat": 46.6831,
-        "lng": 32.3037
-      },
-      "radiusKm": 48.6
-    },
-    {
-      "zoneId": "lib-chernihiv",
-      "region": "Chernihiv Oblast",
-      "center": {
-        "lat": 51.4982,
-        "lng": 31.2893
-      },
-      "eventCount": 30,
-      "kinds": {
-        "other": 19,
-        "combat": 8,
-        "strike": 3
-      },
-      "tierCounts": {
-        "approximate": 30
-      },
-      "combatCount": 11,
-      "newestIsoDate": "2026-10-09T08:06:00.000Z",
-      "samples": [
-        {
-          "id": "news-1tq02rf",
-          "isoDate": "2026-10-09T08:06:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/09/8057179/"
-        },
-        {
-          "id": "gdelt-1327056954",
-          "isoDate": "2026-10-09T00:00:00.000Z",
-          "sourceUrl": "https://www.dw.com/en/ukraine-europe-us-to-meet-in-miami-for-talks-on-ending-war/a-79606735"
-        },
-        {
-          "id": "news-1slm3yx",
-          "isoDate": "2026-10-08T14:45:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/08/8057088/"
-        }
-      ],
-      "centroid": {
-        "lat": 51.2772,
-        "lng": 31.7271
-      },
-      "radiusKm": 52.8
+      "radiusKm": 69.2
     },
     {
       "zoneId": "lib-sumy",
@@ -302,14 +261,14 @@
         "lat": 50.9077,
         "lng": 34.7981
       },
-      "eventCount": 28,
+      "eventCount": 25,
       "kinds": {
         "strike": 6,
         "combat": 10,
-        "other": 12
+        "other": 9
       },
       "tierCounts": {
-        "approximate": 28
+        "approximate": 25
       },
       "combatCount": 16,
       "newestIsoDate": "2026-10-09T00:00:00.000Z",
@@ -331,10 +290,51 @@
         }
       ],
       "centroid": {
-        "lat": 49.7546,
-        "lng": 33.915
+        "lat": 49.8365,
+        "lng": 33.9735
       },
       "radiusKm": 80
+    },
+    {
+      "zoneId": "lib-chernihiv",
+      "region": "Chernihiv Oblast",
+      "center": {
+        "lat": 51.4982,
+        "lng": 31.2893
+      },
+      "eventCount": 23,
+      "kinds": {
+        "other": 12,
+        "combat": 8,
+        "strike": 3
+      },
+      "tierCounts": {
+        "approximate": 23
+      },
+      "combatCount": 11,
+      "newestIsoDate": "2026-10-09T08:06:00.000Z",
+      "samples": [
+        {
+          "id": "news-1tq02rf",
+          "isoDate": "2026-10-09T08:06:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/09/8057179/"
+        },
+        {
+          "id": "gdelt-1327056954",
+          "isoDate": "2026-10-09T00:00:00.000Z",
+          "sourceUrl": "https://www.dw.com/en/ukraine-europe-us-to-meet-in-miami-for-talks-on-ending-war/a-79606735"
+        },
+        {
+          "id": "news-1slm3yx",
+          "isoDate": "2026-10-08T14:45:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/08/8057088/"
+        }
+      ],
+      "centroid": {
+        "lat": 51.1979,
+        "lng": 31.8012
+      },
+      "radiusKm": 60.4
     },
     {
       "zoneId": "occ-luhansk",
@@ -343,14 +343,14 @@
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 22,
+      "eventCount": 20,
       "kinds": {
-        "other": 9,
+        "other": 7,
         "strike": 2,
         "combat": 11
       },
       "tierCounts": {
-        "approximate": 22
+        "approximate": 20
       },
       "combatCount": 13,
       "newestIsoDate": "2026-10-09T00:00:00.000Z",
@@ -372,10 +372,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.5152,
-        "lng": 38.6857
+        "lat": 48.5134,
+        "lng": 38.6634
       },
-      "radiusKm": 21.3
+      "radiusKm": 19.4
     },
     {
       "zoneId": "occ-crimea",
@@ -384,16 +384,22 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 4,
+      "eventCount": 6,
       "kinds": {
-        "combat": 4
+        "other": 1,
+        "combat": 5
       },
       "tierCounts": {
-        "approximate": 4
+        "approximate": 6
       },
-      "combatCount": 4,
-      "newestIsoDate": "2026-10-09T00:00:00.000Z",
+      "combatCount": 5,
+      "newestIsoDate": "2026-10-09T16:13:48.000Z",
       "samples": [
+        {
+          "id": "news-1o63vok",
+          "isoDate": "2026-10-09T16:13:48.000Z",
+          "sourceUrl": "https://euromaidanpress.com/2026/10/09/counterlogistics-continues/"
+        },
         {
           "id": "gdelt-1327068397",
           "isoDate": "2026-10-09T00:00:00.000Z",
@@ -403,18 +409,13 @@
           "id": "gdelt-1327068402",
           "isoDate": "2026-10-09T00:00:00.000Z",
           "sourceUrl": "https://www.dailykos.com/stories/2026/10/8/800109677/community/1688/"
-        },
-        {
-          "id": "gdelt-1326860507",
-          "isoDate": "2026-10-08T00:00:00.000Z",
-          "sourceUrl": "https://www.aol.co.uk/articles/ukraine-war-briefing-zelenskyy-blames-012244000.html"
         }
       ],
       "centroid": {
-        "lat": 45.1593,
-        "lng": 34.8423
+        "lat": 45.236,
+        "lng": 34.4581
       },
-      "radiusKm": 68.5
+      "radiusKm": 68.2
     }
   ]
 }
