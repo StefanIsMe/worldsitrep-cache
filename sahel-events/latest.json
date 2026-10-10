@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-10T02:48:24.711Z",
+  "collectedAt": "2026-10-10T06:15:16.491Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 10
+      "count": 1
     },
     {
       "id": "aa-mali",
@@ -90,7 +90,7 @@
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 49,
+      "count": 48,
       "filtered": 0
     },
     {
@@ -440,6 +440,40 @@
         "goldstein": -5,
         "tone": -12.64,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327221366",
+      "kind": "event",
+      "date": "2026-10-10",
+      "isoDate": "2026-10-10T00:00:00.000Z",
+      "observedAt": "2026-10-10T03:00:00.000Z",
+      "description": "Rejection — Unspecified → Political Parties near Niger. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.vanguardngr.com/2026/10/billboard-war-internal-crises-mar-campaigns-in-north/",
+      "gdelt": {
+        "globalEventId": "1327221366",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -2.38,
+        "mentions": 5,
         "sources": 1
       }
     },
@@ -1865,29 +1899,6 @@
       "locationStr": "Kidal",
       "source": "RFI Africa",
       "sourceUrl": "https://www.rfi.fr/en/africa/20261007-malian-army-retakes-strategic-city-of-kidal-after-tuareg-separatists-withdraw",
-      "lat": 18.44,
-      "lng": 1.41,
-      "coordsNote": "Headline gazetteer match: \"Kidal\" (city); verify via source article."
-    },
-    {
-      "id": "news-zo2wbo",
-      "kind": "news",
-      "date": "2026-10-07",
-      "isoDate": "2026-10-07T05:35:09.000Z",
-      "description": "Junta Forces Retake Strategic Town of Kidal (AllAfrica Mali, 2026-10-07. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AllAfrica Mali",
-      "axis": "Other",
-      "tags": [
-        "AllAfrica Mali",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kidal",
-      "source": "AllAfrica Mali",
-      "sourceUrl": "https://allafrica.com/stories/202610070174.html",
       "lat": 18.44,
       "lng": 1.41,
       "coordsNote": "Headline gazetteer match: \"Kidal\" (city); verify via source article."

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-10T02:48:24.711Z",
+  "collectedAt": "2026-10-10T06:15:16.491Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 27
+      "count": 5
     },
     {
       "id": "gcaptain",
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 748,
+  "count": 749,
   "events": [
+    {
+      "id": "news-rfyvq3",
+      "kind": "news",
+      "date": "2026-10-10",
+      "isoDate": "2026-10-10T02:45:46.000Z",
+      "description": "Saudi-led coalition says destroyed more than 100 Houthi targets - www.daily-sun.com (www.daily-sun.com, 2026-10-10. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "www.daily-sun.com",
+      "axis": "Other",
+      "tags": [
+        "www.daily-sun.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "www.daily-sun.com",
+      "source": "www.daily-sun.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT0dxb0tZZEJvZ3cxVUI5TndnY25yTWdvWjBCMEcyaDZPWVBkQkFSdWs1WlB4d3BnclRVR0RfSGlxbXZ5TWxCSm1zSUhVU2Ftc193Q3JCV18yX1hDWWtZX1VLOUxCNnM5S3BXZjZJOC12UFF5WS1GYkdhcG14alRBTlJfUGFsREJKQ1c0VlpWSURadXVUS3hWbjBjRXAzTENpSE9lejZLZ0FySU5hZ2FIUFVR?oc=5"
+    },
     {
       "id": "gdelt-1327203275",
       "kind": "event",
@@ -933,23 +952,174 @@
       }
     },
     {
-      "id": "news-1wtzmse",
-      "kind": "news",
-      "date": "2026-10-09",
-      "isoDate": "2026-10-09T23:49:07.000Z",
-      "description": "3 Killed and Dozens Injured in Attacks on Saudi Airports, as Houthis Claim Strikes - The New York Times (The New York Times, 2026-10-09. Headline + link only.)",
+      "id": "gdelt-1327225023",
+      "kind": "event",
+      "date": "2026-10-10",
+      "isoDate": "2026-10-10T00:00:00.000Z",
+      "observedAt": "2026-10-10T03:45:00.000Z",
+      "description": "Disapproval — Protester → Saudi Arabia near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
       "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Protester",
       "axis": "Other",
       "tags": [
-        "The New York Times",
-        "headline"
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New York Times",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTGtGdUZWSDI3TnZmeTFqeGxJbDdSYWlJOVVHblozNFdWamU1N1JYNnF4SU4zS3Rxa0xxV3E2TTJWay10a2pLYjctYTJvZFNDMGIxX3VCbGdRNE8tVmF3OVk2TGJEN0RYU3VLUXVDOF81MEdsUHdTZXZCX0N5TDdGV3NIMFB2c0xpSFhUenR0cw?oc=5"
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.asiaone.com:443/world/saudi-authorities-say-3-killed-houthi-claimed-attacks-riyadh-airport",
+      "gdelt": {
+        "globalEventId": "1327225023",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.68,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327227379",
+      "kind": "event",
+      "date": "2026-10-10",
+      "isoDate": "2026-10-10T00:00:00.000Z",
+      "observedAt": "2026-10-10T04:15:00.000Z",
+      "description": "Disapproval — Saudi Arabia → United States near Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/us-tells-un-houthis-must-cease-attacks-saudi-yemeni-governments",
+      "gdelt": {
+        "globalEventId": "1327227379",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.27,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327227380",
+      "kind": "event",
+      "date": "2026-10-10",
+      "isoDate": "2026-10-10T00:00:00.000Z",
+      "observedAt": "2026-10-10T04:15:00.000Z",
+      "description": "Disapproval — Saudi Arabia → United States near Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/us-tells-un-houthis-must-cease-attacks-saudi-yemeni-governments",
+      "gdelt": {
+        "globalEventId": "1327227380",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.27,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327227491",
+      "kind": "event",
+      "date": "2026-10-10",
+      "isoDate": "2026-10-10T00:00:00.000Z",
+      "observedAt": "2026-10-10T04:15:00.000Z",
+      "description": "Disapproval — Yemen → United States near Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/us-tells-un-houthis-must-cease-attacks-saudi-yemeni-governments",
+      "gdelt": {
+        "globalEventId": "1327227491",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.27,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327227492",
+      "kind": "event",
+      "date": "2026-10-10",
+      "isoDate": "2026-10-10T00:00:00.000Z",
+      "observedAt": "2026-10-10T04:15:00.000Z",
+      "description": "Disapproval — Yemen → United States near Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/us-tells-un-houthis-must-cease-attacks-saudi-yemeni-governments",
+      "gdelt": {
+        "globalEventId": "1327227492",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.27,
+        "mentions": 1,
+        "sources": 1
+      }
     },
     {
       "id": "news-vt3z2i",
@@ -1011,6 +1181,25 @@
       "locationStr": "gCaptain",
       "source": "gCaptain",
       "sourceUrl": "https://gcaptain.com/vessel-struck-by-unknown-projectile-off-uae-coast-amid-surge-in-attacks-ukmto-says/"
+    },
+    {
+      "id": "news-1wtzmse",
+      "kind": "news",
+      "date": "2026-10-09",
+      "isoDate": "2026-10-09T16:34:00.000Z",
+      "description": "Explosions Heard in Riyadh After Saudis Say Houthi Attacks Killed 3 in Kingdom - The New York Times (The New York Times, 2026-10-09. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The New York Times",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTGtGdUZWSDI3TnZmeTFqeGxJbDdSYWlJOVVHblozNFdWamU1N1JYNnF4SU4zS3Rxa0xxV3E2TTJWay10a2pLYjctYTJvZFNDMGIxX3VCbGdRNE8tVmF3OVk2TGJEN0RYU3VLUXVDOF81MEdsUHdTZXZCX0N5TDdGV3NIMFB2c0xpSFhUenR0cw?oc=5"
     },
     {
       "id": "news-1mdstuq",
@@ -1438,25 +1627,6 @@
       "lat": 15.5,
       "lng": 41.5,
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
-    },
-    {
-      "id": "news-1ol613n",
-      "kind": "news",
-      "date": "2026-10-09",
-      "isoDate": "2026-10-09T08:59:48.000Z",
-      "description": "How Houthi attacks on Saudi Arabia raise the stakes for the militia - Arab News (Arab News, 2026-10-09. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Arab News",
-      "axis": "Other",
-      "tags": [
-        "Arab News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Arab News",
-      "source": "Arab News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOW9VSllBVVV6SkYzczRvNDdDQ0p0ZFkzZ0RSbWtCU0dOYktBWVVqZWtsWmVmbWx4eXIwWkh2cHJwa2lzcEpBNkxIVncxUGRFVlZ2aHd2c0NQY1psbl90Vnh0dnV4MWNDNko5ckg4V0JEWnlybkhIMDZXeW03QXlBcmtnQTgxUFRqcmQtbUlvV3hpN3g3LWVyMUpETkxMT21CYndpY1JNanNDZk9fQmlyRDZR?oc=5"
     },
     {
       "id": "news-5c11wc",
@@ -11007,6 +11177,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNjViOUhSeGxLRjRSamhQOEV3cVJMT2lmdkhlNHpxbDJmVHNZN3oyYnJSbUdEV2tmc1RjNTRlMVR3ZldBOUc3cHpJLU9DMUhncmJ1UUxaeGxLSktpcmJCeGN0THhubFVrT2ZoNGtkUmZ5WnQ1TERzeEViXzR5TU1zR0ZuclVBbWtxUWxielVwYUdHZkl4SDBpcTd4VkVyamhrd0lOcEFNVzhfcUh1M0RrQWpjRkpwN1huNEFZQlQxNA?oc=5"
     },
     {
+      "id": "news-1ol613n",
+      "kind": "news",
+      "date": "2026-10-08",
+      "isoDate": "2026-10-08T20:01:52.000Z",
+      "description": "How Houthi attacks on Saudi Arabia raise the stakes for the militia - Arab News (Arab News, 2026-10-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Arab News",
+      "axis": "Other",
+      "tags": [
+        "Arab News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Arab News",
+      "source": "Arab News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOW9VSllBVVV6SkYzczRvNDdDQ0p0ZFkzZ0RSbWtCU0dOYktBWVVqZWtsWmVmbWx4eXIwWkh2cHJwa2lzcEpBNkxIVncxUGRFVlZ2aHd2c0NQY1psbl90Vnh0dnV4MWNDNko5ckg4V0JEWnlybkhIMDZXeW03QXlBcmtnQTgxUFRqcmQtbUlvV3hpN3g3LWVyMUpETkxMT21CYndpY1JNanNDZk9fQmlyRDZR?oc=5"
+    },
+    {
       "id": "news-sjcqkx",
       "kind": "news",
       "date": "2026-10-08",
@@ -11047,6 +11236,29 @@
       "locationStr": "gCaptain",
       "source": "gCaptain",
       "sourceUrl": "https://gcaptain.com/u-s-sanctions-22-more-tankers-in-crackdown-on-irans-shadow-fleet/"
+    },
+    {
+      "id": "news-zhqkvn",
+      "kind": "news",
+      "date": "2026-10-08",
+      "isoDate": "2026-10-08T18:22:30.000Z",
+      "description": "The Houthi conflict is directly affecting African countries in the Red Sea region — and beyond - DW.com (DW.com, 2026-10-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW.com",
+      "axis": "Other",
+      "tags": [
+        "DW.com",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Red Sea",
+      "source": "DW.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMFQtMk9YX1R2RXJEdUFNVGlfbmdZckNUc1NlNzdIdnZMNU5iMW5XZ1pVTDZod0FGZTFmZmlRUktrMnBHaXhPUlQydWlydnN2aUlOcmdZZEJOSFFtemVGbXNhdGJJeVZxdGRGbXBaNXFiZTgxbzFyRVhETTA3MU5jaE1WZHNxVEltVTQ3MjBSSmtNeUx1MDJzNjNXMHRTQm55Tk8wWWVtS1RkYXpUNnVoUkQzUEdMQdIBtgFBVV95cUxQb3ZpWDFzS29QUno4ZTFhUnpyVDlXZl9vekpyWmw1UnRIZlU0OTFzTERWTmNPaE5hdjZnelNPTnhmVzBpVzN2RXFfZTdRYzE2YmJzZ3F0ZmZxMlVyV0J5YlNxLUlqNklIYzhGb0FtcXJVWFVZVy1xblRSZUkySHRDYWRyMWFzVjFwVEtlb2hpYS1UX1lQaTZEQS1WSmZGQXRrV3Q4Q21ORU1YNnVsbWIxbUVmMGI5QQ?oc=5",
+      "lat": 15.5,
+      "lng": 41.5,
+      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
     },
     {
       "id": "news-1bp6y",
@@ -23710,7 +23922,7 @@
       "kind": "news",
       "date": "2026-10-07",
       "isoDate": "2026-10-07T14:22:29.000Z",
-      "description": "Turkey sending technical, defensive support to Saudi Arabia to help fight Houthis, officials say - The Jerusalem Post (The Jerusalem Post, 2026-10-07. Headline + link only.)",
+      "description": "Turkey to help Saudi Arabia fight Houthis - The Jerusalem Post (The Jerusalem Post, 2026-10-07. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "The Jerusalem Post",
@@ -24128,132 +24340,6 @@
       "lat": 13.58,
       "lng": 44.02,
       "coordsNote": "Headline gazetteer match: \"Taiz\" (city); verify via source article."
-    },
-    {
-      "id": "news-melsf1",
-      "kind": "news",
-      "date": "2026-10-07",
-      "isoDate": "2026-10-07T06:04:55.000Z",
-      "description": "Yemeni forces launch offensive to retake Houthi-held al-Waziiya in Taiz - Al Jazeera (Al Jazeera, 2026-10-07. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Al Jazeera",
-      "axis": "Other",
-      "tags": [
-        "Al Jazeera",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Taiz",
-      "source": "Al Jazeera",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1hId3BxY2xsaVViVnNsS3RjS0I1SU4zX2pXMk0zRER3OGxpRVo4UUNwSl9jd1JKUWlVRm5RV2ZGYUxqUnpIZDR2azFoMGtaeVhPaUQtbTBIa1BYdHRpR3I5ZmVxTEE0bWEwVGJnM09GX0FkOXE4dmZEclEzZWpEc21MRGRycVlReks4OG4yZlZkczF6aVpyRUJfR0laT3c3S2lxZjA5Rl9LTTVSYUd5Q0pB0gG3AUFVX3lxTE5NMUpWQm03aFBiejZleHJDbTVjWXRZTDR4VkhUZ1kxV016Q3RtWkRNQ2ktbmxYdVhvbGRIN0JsbjgwU3NKSmFkbnhoRFFhcmhLd3FrczBMd1NoNjJmWlQ0SVJ5VmZuWEpFUFdaRTF0VzN5djdXYkhpRjlmVXVWWXlGYUt1ZUFteHctOEtyeE1jYW1KMFBETWp0QVYxM1N6SWJZXzlFSWdwWENiWThCdXZvWTlUbkZIRQ?oc=5",
-      "lat": 13.58,
-      "lng": 44.02,
-      "coordsNote": "Headline gazetteer match: \"Taiz\" (city); verify via source article."
-    },
-    {
-      "id": "news-nsyjhd",
-      "kind": "news",
-      "date": "2026-10-07",
-      "isoDate": "2026-10-07T06:04:00.000Z",
-      "description": "Iran-backed Houthis deny losing ground in Yemen as oil prices ease despite fierce fighting - CBS News (CBS News, 2026-10-07. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "CBS News",
-      "axis": "Other",
-      "tags": [
-        "CBS News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Yemen",
-      "source": "CBS News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQczhsWnBDYVFqOGRhcWt5dS1WUy01WWZyWjV0UEIxVTZwUVV0RlBlcnpwbnhhRHVEZG83dE5HS05LWUxKWWR2MG9oWDVNQzE1aElqVkN3Tzc4Mjl4ZTQtTmNJVXMyTWVESmJ5MEJIZ2RWME13WGszcEhmUENQUmdLdEkxRXJ1TWszcnZiUklfblBaVVQ1RVRWUDRXS3BfQ1BhTlhHSA?oc=5",
-      "lat": 16.34712,
-      "lng": 47.89153,
-      "coordsNote": "OSM geocode: matched \"Yemen\" → Yemen; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-1w057fx",
-      "kind": "news",
-      "date": "2026-10-07",
-      "isoDate": "2026-10-07T05:55:16.000Z",
-      "description": "Twelve injured in latest Hormuz attack (Splash247, 2026-10-07. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Splash247",
-      "axis": "Other",
-      "tags": [
-        "Splash247",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Splash247",
-      "source": "Splash247",
-      "sourceUrl": "https://splash247.com/twelve-injured-in-latest-hormuz-attack/"
-    },
-    {
-      "id": "news-fskssb",
-      "kind": "news",
-      "date": "2026-10-07",
-      "isoDate": "2026-10-07T05:53:00.000Z",
-      "description": "Houthis attack Aden airport with ballistic missiles, drones: Transport ministry - Al Arabiya English (Al Arabiya English, 2026-10-07. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Al Arabiya English",
-      "axis": "Other",
-      "tags": [
-        "Al Arabiya English",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Aden",
-      "source": "Al Arabiya English",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYjN5cUUxbGNFdE4tV013R1FCQW9tT2RmcjRlOHJDZjVOZzRlV3JzaTczM2FDeGVWTjFHTEJ0bUpwM1NKTXphVENSamJ1M0M0N3BTcUtfa2hjaUlYbWEwUlE2QW5CaTZsNFFmQUhxLUV3b1FnRFc1Y0wyYUZySm8tbmxueWlvbmhDRnQ4cGY2Tm9YVVhtd1M1czR0WmpLWEs3aWpCMlRGYmhRbkpETHBZNm96NDVaUlVWMWpNeDR2RnVJbzllY2dlb3BDQ1NrLTFnVWfSAdcBQVVfeXFMTXRoSVhXMUFROVpLTTdKeXRvcWt1WXVGX3Y5dUpkSEY0dkZTY2hFcXFqSWVqTjQ1UzFfNTJUYzc2WGtmaG5kVFNtRjdJd19LLXczZXpEdzFFX2c0NGdaVjN1NFoydWdqejMzd1NNNjg5dEF4YUxtTVdMQTRvOGh5YTZRSzg3N3VQYV85a1JOVEFUMkJyZ183ckt6ZFZBa2tHb2d1em1VSHRKM2dGODljRk1CN3haWGV6dVQxMlota3dYZmMxRlFSb29NUkxnNElsaUMwZWRwZDQ?oc=5",
-      "lat": 12.78,
-      "lng": 45.04,
-      "coordsNote": "Headline gazetteer match: \"Aden\" (city); verify via source article."
-    },
-    {
-      "id": "news-jcknmp",
-      "kind": "news",
-      "date": "2026-10-07",
-      "isoDate": "2026-10-07T05:31:17.000Z",
-      "description": "Houthis Claim Missile Strike on Riyadh Airport as Yemen Fighting Escalates - کوردستان 24 (کوردستان 24, 2026-10-07. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "کوردستان 24",
-      "axis": "Other",
-      "tags": [
-        "کوردستان 24",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "کوردستان 24",
-      "source": "کوردستان 24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOREtyNHp4WWJDd0Ztekg3ZDVDaTgtdHJqZnRFOVZNeUtlTXFndDhuQ21jNXV3Y2NrRVIweFU3NS1Sd0hlSnpOOWVQbzFBcXdrVFpVeXVOb3Fna3Jhc2c5Y2puZXdUSFVXQ2pQQk9kU1BOUVJmVU9qWEU1ZlY2LVJfbk1wNEltUkZQcTZsdFotZVBFVUhYUnhZNnZUMHYtdzc4eG51RUVwdWZhRFp2eTVGM1RtcUtqWmJwQmc?oc=5"
-    },
-    {
-      "id": "news-61y7fj",
-      "kind": "news",
-      "date": "2026-10-07",
-      "isoDate": "2026-10-07T04:02:00.000Z",
-      "description": "Yemen civil war: what sparked latest escalation and who is involved? - The Guardian (The Guardian, 2026-10-07. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Guardian",
-      "axis": "Other",
-      "tags": [
-        "The Guardian",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Guardian",
-      "source": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSTd1TnpkUUVrdUpsWHpELW9xX1hmSkRMVHdqZUpyb0RSLUNLTUdZOWEwZ0N5SzhnXzdDZUpKcUpqTHRnUTRnVy1BYXU3UWh4TFl5c2FWV0EyVENNNm5ETGlsU3pwQTM4VzRRUU85WEM0RWwyekZoYXZ3MmFQWnBMMHNwVTdnZnJkak5QVms2VVpmVHhCUUFCTHNWR1VOdkRWRnFoS2R1alRVQnFDbHlSR1l3?oc=5"
     }
   ]
 }
