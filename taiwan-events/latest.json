@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-11T13:19:22.804Z",
+  "collectedAt": "2026-10-11T15:58:58.926Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 5
+      "count": 4
     },
     {
       "id": "taipei-times",
@@ -34,8 +34,8 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 42,
-      "filtered": 8
+      "count": 40,
+      "filtered": 10
     },
     {
       "id": "dw-asia",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 49,
+      "count": 48,
       "filtered": 0
     },
     {
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 257,
+  "count": 258,
   "events": [
     {
       "id": "news-1cuxgyl",
@@ -106,7 +106,7 @@
       "kind": "news",
       "date": "2026-10-11",
       "isoDate": "2026-10-11T12:00:00.000Z",
-      "description": "‘City upon a hill’: Why Taiwan’s President quoted the Bible in his National Day speech (Straits Times, 2026-10-11. Headline + link only.)",
+      "description": "‘City upon a hill’: Why Taiwan’s President quoted the Bible in his national day speech (Straits Times, 2026-10-11. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Straits Times",
@@ -1012,6 +1012,108 @@
         "quadClass": 3,
         "goldstein": -4,
         "tone": -0.9,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327390116",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T13:45:00.000Z",
+      "description": "Threat — United States → Iran near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 130)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/11/washingtons-transactional-taiwan-policy-puts-indo-pacific-at-risk-ex-us-officials-warn",
+      "gdelt": {
+        "globalEventId": "1327390116",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.31,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327390121",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T13:45:00.000Z",
+      "description": "Threat — United States → Iran near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 130)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/11/washingtons-transactional-taiwan-policy-puts-indo-pacific-at-risk-ex-us-officials-warn",
+      "gdelt": {
+        "globalEventId": "1327390121",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.31,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327398156",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T15:15:00.000Z",
+      "description": "Disapproval — Taiwan → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.jpost.com/opinion/article-911067",
+      "gdelt": {
+        "globalEventId": "1327398156",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.08,
         "mentions": 8,
         "sources": 1
       }
@@ -7391,44 +7493,6 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9IMWU5cHRpbUJMajdJMDJHQXloLU1jX2Z4Q3hSXzZHYkVNTFNDZHRJWGI5ZkE3VlVPUnJBNU1udmZZdjN1dmo4dUFaTUVWR0ItRmh3Y0RzZ3ZZaHIzNGJoR3drMVhTWGFDUjhuQVFCY2lWOW5nMWF3blNR?oc=5"
-    },
-    {
-      "id": "news-1f449q5",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T15:00:21.000Z",
-      "description": "Washington’s transactional Taiwan policy puts Indo-Pacific at risk, ex-US officials warn (SCMP, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/us/article/3370204/washingtons-transactional-taiwan-policy-puts-indo-pacific-risk-ex-us-officials-warn?utm_source=rss_feed"
-    },
-    {
-      "id": "news-12xjgj9",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T14:42:00.000Z",
-      "description": "EU envoy in Beijing for talks to calm trade tensions (DW, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DW",
-      "axis": "Other",
-      "tags": [
-        "DW",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "DW",
-      "source": "DW",
-      "sourceUrl": "https://www.dw.com/en/eu-envoy-in-beijing-for-talks-to-calm-trade-tensions/a-79598713?maca=en-rss-en-asia-5133-rdf"
     }
   ]
 }

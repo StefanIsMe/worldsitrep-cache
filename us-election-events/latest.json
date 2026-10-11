@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-11T13:19:22.804Z",
+  "collectedAt": "2026-10-11T15:58:58.926Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -41,8 +41,8 @@
       "id": "thehill",
       "url": "https://thehill.com/feed/",
       "status": "ok",
-      "count": 32,
-      "filtered": 18
+      "count": 28,
+      "filtered": 22
     },
     {
       "id": "politico-congress",
@@ -69,8 +69,8 @@
       "id": "axios",
       "url": "https://api.axios.com/feed/",
       "status": "ok",
-      "count": 28,
-      "filtered": 22
+      "count": 29,
+      "filtered": 21
     },
     {
       "id": "gnews-protest",
@@ -101,8 +101,111 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 281,
+  "count": 261,
   "events": [
+    {
+      "id": "news-1l5tp2a",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T15:39:35.000Z",
+      "description": "Trump claims Russia and Ukraine agree to energy ceasefire (Axios, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/10/11/trump-russia-ukraine-energy-ceasefire-zelensky"
+    },
+    {
+      "id": "news-kev202",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T15:27:19.000Z",
+      "description": "2026 Midterm Elections: Early Vote Tracking in Key Senate Battleground States - The New York Times (The New York Times, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWUNScEZXTjJwYVpIZENZS0txWHd4TTNRUFZvQk1aRUUtTHE2NUhQbWJpb3BTRHpQUTFtdWEybmpFRk9iN1VXY1Y5Q1FjMTNqTEYzdkJZZk9OOUFPNnR3WFV2Qy1KZ3JscGpGT2N0eGdOY2NSaXJSZ2hoLXFORXB1bEhmUGd6QnEtVW9sZzRudW9wQ2pJTTdxVWFCTGpaZDJBaU9LX29oeER4STJrczJsOTRZbG43cHFF?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
+      "id": "news-ibmov1",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T15:26:00.000Z",
+      "description": "Live updates: Trump claims Russia-Ukraine energy ceasefire; Zelensky rips diesel deal (The Hill, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6140988-live-updates-zelensky-set-for-sunday-interview-amid-backlash-to-trumps-russia-diesel-deal/"
+    },
+    {
+      "id": "news-1cr1eyx",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T14:51:16.000Z",
+      "description": "Trump claims energy ceasefire reached between Russia and Ukraine (The Hill, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6141275-trump-russia-ukraine-energy-ceasefire/"
+    },
+    {
+      "id": "news-cxbcdx",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T13:07:00.000Z",
+      "description": "Why Abdul El-Sayed might not be winning Black voters in Michigan - The Guardian (The Guardian, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Guardian",
+      "axis": "Other",
+      "tags": [
+        "The Guardian",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Michigan",
+      "source": "The Guardian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV1FTaVlHM0JUa0dMaXp1ZWJ2VUtCUVpmUkhPX3pYcTB6Nm02RzF3Yk9BNDNEd3JPRjdJVTljNnNQYUNxNEtZRXotTzctVWlrMzNkajBRYnlaaEUybHl2SFhfaUY1WGswdVo3Q1NrOElfV21KUjI0N0lwVWFscDBPZ1MzZGV3am9JSlp1WG9wbnhRS1VnSUc2bHRUMVE?oc=5",
+      "lat": 43.6212,
+      "lng": -84.68243,
+      "coordsNote": "OSM geocode: matched \"Michigan\" → Michigan, United States; © OpenStreetMap contributors."
+    },
     {
       "id": "news-sl5tkd",
       "kind": "news",
@@ -121,25 +224,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/administration/6141177-trump-names-katie-bailey-legislative-director/"
-    },
-    {
-      "id": "news-ibmov1",
-      "kind": "news",
-      "date": "2026-10-11",
-      "isoDate": "2026-10-11T12:29:15.000Z",
-      "description": "Live updates: Zelensky set for Sunday interview amid backlash to Trump&#8217;s Russia diesel deal (The Hill, 2026-10-11. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6140988-live-updates-zelensky-set-for-sunday-interview-amid-backlash-to-trumps-russia-diesel-deal/"
     },
     {
       "id": "news-o30apv",
@@ -197,25 +281,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/opinion/white-house/6139752-trump-media-lawfare-threat/"
-    },
-    {
-      "id": "news-cxbcdx",
-      "kind": "news",
-      "date": "2026-10-11",
-      "isoDate": "2026-10-11T12:00:00.000Z",
-      "description": "Why Abdul El-Sayed might not be winning Black voters - The Guardian (The Guardian, 2026-10-11. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Guardian",
-      "axis": "Other",
-      "tags": [
-        "The Guardian",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Guardian",
-      "source": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV1FTaVlHM0JUa0dMaXp1ZWJ2VUtCUVpmUkhPX3pYcTB6Nm02RzF3Yk9BNDNEd3JPRjdJVTljNnNQYUNxNEtZRXotTzctVWlrMzNkajBRYnlaaEUybHl2SFhfaUY1WGswdVo3Q1NrOElfV21KUjI0N0lwVWFscDBPZ1MzZGV3am9JSlp1WG9wbnhRS1VnSUc2bHRUMVE?oc=5"
     },
     {
       "id": "news-1h5wnsh",
@@ -762,6 +827,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sZERpQkk4QlVNeG9tV3BUWWtuaFFyNVJFMFpwVTVfQjZ4cVFSdHh4U3hGbmxIN0d6ZWQ0Q1R5dXRrZ05YelhGSDVPTkxHQU4yaTdkcHRGX1JiZmxhc3IyOEU5TTgxZ1RjNi1NZlhnZG8?oc=5"
     },
     {
+      "id": "news-p6reev",
+      "kind": "news",
+      "date": "2026-10-10",
+      "isoDate": "2026-10-10T17:30:21.000Z",
+      "description": "Alabama Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-10. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyWWFFbnd1NUp2cGxfU3hsUU1lMldWSnRnVmJJZmhfSFY3UmNpcDVFd0Z6OUJCVVlUb2JIOGpaMUx1ZWFJT3JraUtFTDJuZm1FWkhXVlRRY3FyMElacFIxbmxEOGllVlUyMUx0U0FOeVI?oc=5"
+    },
+    {
       "id": "news-n8pzdn",
       "kind": "news",
       "date": "2026-10-10",
@@ -798,29 +882,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/analysis/6140076-trump-guilfoyle-controversy-response-column/"
-    },
-    {
-      "id": "news-kev202",
-      "kind": "news",
-      "date": "2026-10-10",
-      "isoDate": "2026-10-10T14:15:43.000Z",
-      "description": "2026 Midterm Elections: Early Vote Tracking in Key Senate Battleground States - The New York Times (The New York Times, 2026-10-10. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWUNScEZXTjJwYVpIZENZS0txWHd4TTNRUFZvQk1aRUUtTHE2NUhQbWJpb3BTRHpQUTFtdWEybmpFRk9iN1VXY1Y5Q1FjMTNqTEYzdkJZZk9OOUFPNnR3WFV2Qy1KZ3JscGpGT2N0eGdOY2NSaXJSZ2hoLXFORXB1bEhmUGd6QnEtVW9sZzRudW9wQ2pJTTdxVWFCTGpaZDJBaU9LX29oeER4STJrczJsOTRZbG43cHFF?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
       "id": "news-1hr08cz",
@@ -5152,443 +5213,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/education/6136433-vance-foreign-student-visas-j-1/"
-    },
-    {
-      "id": "news-1qfrv4f",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T15:54:08.000Z",
-      "description": "WATCH: Vance says Microsoft is being suspended from green card program for H-1B visa workers (PBS NewsHour, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/watch-vance-says-microsoft-is-being-suspended-from-green-card-program-for-h-1b-visa-workers"
-    },
-    {
-      "id": "news-1jw9jo1",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T15:49:47.000Z",
-      "description": "‘Save the Senate’? Duo floats big changes to chamber rules (Roll Call, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Roll Call",
-      "axis": "Other",
-      "tags": [
-        "Roll Call",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Roll Call",
-      "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/10/08/save-the-senate-duo-floats-big-changes-to-chamber-rules/"
-    },
-    {
-      "id": "news-2bsbig",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T15:43:04.000Z",
-      "description": "NFL urges Supreme Court to take up prediction market dispute (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/policy/technology/6136384-nfl-urges-supreme-court-prediction-markets/"
-    },
-    {
-      "id": "news-mu21xa",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T15:38:05.000Z",
-      "description": "Top House Democrat unveils surprise medical billing overhaul (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/policy/healthcare/6136385-lower-premiums-faster-payments-act/"
-    },
-    {
-      "id": "news-1g5cmr0",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T15:32:04.000Z",
-      "description": "Mike Johnson voices uncertainty about his future if GOP loses control (Politico, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Politico",
-      "axis": "Other",
-      "tags": [
-        "Politico",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Politico",
-      "source": "Politico",
-      "sourceUrl": "https://www.politico.com/live-updates/2026/10/08/congress/mike-johnson-2028-congress-speaker-01111565"
-    },
-    {
-      "id": "news-1sas2ce",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T15:24:23.000Z",
-      "description": "White House correspondent April Ryan reflects on reporting while under attack (NPR, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/08/nx-s1-5994416/white-house-correspondent-april-ryan-reflects-on-reporting-while-under-attack"
-    },
-    {
-      "id": "news-1inwn2r",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T15:05:31.000Z",
-      "description": "Congressional candidate says she was raped while repairing campaign signs (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/6136266-bernadette-green-placentia-arizona-house-campaign-sexual-assault-allegation/"
-    },
-    {
-      "id": "news-si1ww5",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T15:00:00.000Z",
-      "description": "Senate Republicans give it one more last chance (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/opinion/congress-blog/6134140-senate-midterm-legislative-gridlock/"
-    },
-    {
-      "id": "news-19m0jn9",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T14:54:44.000Z",
-      "description": "Brown holds 6-point lead over Husted in Ohio Senate race survey (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/6136241-brown-leads-husted-ohio-poll/"
-    },
-    {
-      "id": "news-1tyjn76",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T14:52:21.000Z",
-      "description": "Guilfoyle asked GOP donor to wire her $100K for AmEx bill: Wall Street Journal report (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6136101-ambassador-guilfoyle-wire-request/"
-    },
-    {
-      "id": "news-vo0abw",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T14:47:43.000Z",
-      "description": "Oil prices rise after reports White House weighing Iran strikes (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/policy/energy-environment/6136014-oil-gas-prices-surge-reports-fresh-iran-strikes-white-house/"
-    },
-    {
-      "id": "news-1mcwx2i",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T14:32:40.000Z",
-      "description": "Kansas joins a tightening Senate map as Election Day nears (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/data-nerds/6136107-senate-race-kansas-poll/"
-    },
-    {
-      "id": "news-1goz81u",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T14:31:34.000Z",
-      "description": "Trump administration brings fight over political ad rates back to Supreme Court (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/regulation/court-battles/6136177-trump-administration-supreme-court-television-ad-rates/"
-    },
-    {
-      "id": "news-k9mc3y",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T14:29:55.000Z",
-      "description": "WATCH: Trump awards Elon Musk the National Medal of Science, among other awards for tech execs (PBS NewsHour, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/watch-live-trump-awards-elon-musk-the-national-medal-of-science-among-other-awards-for-tech-execs"
-    },
-    {
-      "id": "news-e7x4nb",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T14:27:32.000Z",
-      "description": "White House on possible Iran strikes before midterms: Trump ‘has all options’ (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6136146-white-house-trump-possible-iran-strikes-midterms/"
-    },
-    {
-      "id": "news-af00mo",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T14:10:25.000Z",
-      "description": "Bipartisan Senate duo proposes filibuster rules reform to fix gridlock (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/senate/6136126-daines-merkley-bipartisan-proposal/"
-    },
-    {
-      "id": "news-1i0wfy4",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T14:04:56.000Z",
-      "description": "Watch live: Vance lays out steps to combat alleged work visa fraud (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/video-clips/6135975-watch-live-jd-vance-white-house-task-force-eliminate-fraud-work-visa-abuses/"
-    },
-    {
-      "id": "news-yvz1ni",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T13:58:00.000Z",
-      "description": "Hottest 2026 Midterm Races—Republican Leads In Iowa, Democrat Ahead In Ohio Senate Races (Updated Daily) - Forbes (Forbes, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Forbes",
-      "axis": "Other",
-      "tags": [
-        "Forbes",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Forbes",
-      "source": "Forbes",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOdHV3emJ6YkVQd2F1Zk5xNklrTjZJTVp6SlMxS2p1UkE3bWl1dHRnUUdyVVNBZS1RMVBySGxDYmlNeEVIRnFJYU5BaVQxaTFoemtlSC1xSGItR2t5Q0tFUEdrUzB4SUVWcHR4R2V5TWZ3YXZ0SDFpYlBubldEWE9hWmlmelZQbkxmb0dKazdsNElYWDhRVVBodUZneWdiT2JHak1MdE1hUk9CU0twdmhWdnBXbmpmWmsyZDJMbDdSUVV1cUhmSTF2b3ZRUkxhbFV0TW82SGdWWElKZWROTzBjRFJUMlJLOXI2TnY4U0N1LVFWc25SWGJBZVNR?oc=5"
-    },
-    {
-      "id": "news-mxrin3",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T13:55:47.000Z",
-      "description": "2026 Primary Election Calendar: What Races Are Today? - NBC News (NBC News, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wZ0FEZ0NyOGRRU0hlSW1zbWo4bUFWTDRybHFSQWVMQUdFQ0FuVWNvenRFV2pVZkVueDNfckY2SjZraUo1d2xLX2VDVDN5eEpja1YyOWp1SDdYaFY0ajV1Z3VmZWV2blNaUk5FOXhDeU5wdw?oc=5"
-    },
-    {
-      "id": "news-1ikhy7a",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T13:41:16.000Z",
-      "description": "HRT-01755 (EAC, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "EAC",
-      "axis": "Other",
-      "tags": [
-        "EAC",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "EAC",
-      "source": "EAC",
-      "sourceUrl": "https://www.eac.gov/voting-equipment/engineering-change-orders/hrt-01755"
-    },
-    {
-      "id": "news-9ly0xf",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T13:40:22.000Z",
-      "description": "30 percent of Trump voters enthusiastic about casting ballots: Survey (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/6135888-donald-trump-voter-enthusiasm-2026-midterms-survey/"
-    },
-    {
-      "id": "news-1fqxeta",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T13:30:00.000Z",
-      "description": "The politics of tariffs after Trump (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/opinion/congress-blog/politics/6134178-congressional-trade-powers-reform/"
-    },
-    {
-      "id": "news-13pztp4",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T13:29:14.000Z",
-      "description": "Oh my, how the midterm battlegrounds have shifted (Roll Call, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Roll Call",
-      "axis": "Other",
-      "tags": [
-        "Roll Call",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Roll Call",
-      "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/10/08/midterm-election-battleground-house-senate/"
     }
   ]
 }
