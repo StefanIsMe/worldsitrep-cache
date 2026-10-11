@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-10-11T06:14:33.433Z",
+  "collectedAt": "2026-10-11T09:20:19.791Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 15
+      "count": 10
     },
     {
       "id": "rci-arctic",
@@ -40,9 +40,9 @@
     {
       "id": "cryopolitics",
       "url": "https://www.cryopolitics.com/feed/",
-      "status": "ok",
-      "count": 3,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS cryopolitics request failed: fetch failed"
     },
     {
       "id": "gnews-svalbard",
@@ -73,8 +73,69 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 511,
+  "count": 523,
   "events": [
+    {
+      "id": "news-1g8ctra",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T08:03:41.000Z",
+      "description": "South Korea completes trial of Arctic shipping route - France 24 (France 24, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24",
+      "axis": "Other",
+      "tags": [
+        "France 24",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "France 24",
+      "source": "France 24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVENIb2RKaW5NSHJ5VmdENHRiUmlZc1h2emNNU0JPM1E2X09SdXpFRTVGV0szazdkbUZsTWRXR0hueXNBd0UySUZJRDlaeTBKY2lhZzFMckJIbHkxN0VFcUFpMkg0d01DUWtnRHZBYmxfbkZvaFdzX2g4cXRyd0I2U3AxMnNOTlMwODJNTVN3TFI0TW1fbWJoaFZFYndOWFg1?oc=5"
+    },
+    {
+      "id": "news-l8xk4h",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T06:31:00.000Z",
+      "description": "South Korea completes first Arctic commercial voyage, targets regular route by 2030 despite risks - The News International (The News International, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The News International",
+      "axis": "Other",
+      "tags": [
+        "The News International",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The News International",
+      "source": "The News International",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSWx5WXJNb0RPLTBOZjlScmFwZUdCbFVtSElsUFM4Q3NwUXU3S2w2SnpTMlFCWmp0bENQUVVUTGtESDFZaFVReUNycFZ4ankzRHRRNDNja3k5MDlMemxwX0p0cGJEN0Q2U1BSWUlURGdCT29kRmdmQmhKX3ZNY0NIdVU3Vk5XMkRPZ0NKTTYwV0FmR3lMRGthYkdETkMwUlR0blhaSkdCWFc1X2RWeExlX1JmZG53Z1I2X0tCdUZmM1hyNHRPWjBJUmcyelc5NmRxT0k3UNIB0AFBVV95cUxNOHVRekhEZTNMS2NweW93QThoZ3ZXNWRPNC1BeEY0eUpiS3lOTHlrS3JkcTAwTkJjUWVCQnkwZWY1OEpRM19LRC1rVWNOZXNuZk45QUVLQnp4LUFGRm9YeTd0b2w3QTB6U0Q3ZG5HUXZoRHV5UFY1UEZLb2p2a0ppNF81SUh5bVI0TWoyeXAxblB1RDFvU0FaZDE3WEJPUTFkZS1jc2lnWGN4ZHdWbkZYSkZ2U29LYm5VN3E1Y1I0aXI5VUNmcGRsSXQzUVVDU1FE?oc=5"
+    },
+    {
+      "id": "news-ugmx8m",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T06:00:00.000Z",
+      "description": "Greenland changes Denmark’s airlift problem. That is why Airbus has a chance - Defence24.com (Defence24.com, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Defence24.com",
+      "axis": "Other",
+      "tags": [
+        "Defence24.com",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Greenland",
+      "source": "Defence24.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa2I3SXBvaW9JSWhLbUpvUk5OZlFzdklhN1NsWUJJYzNGWW54TDZfSkllVHdPbFRsQXBXTzNaSnRVRzh5cm5kYmlqVHNtV0x3N3haUXNkbi1HRjBHaW9SVC1qTl9TNEZaNFN1d1RPbG85eS1tcEdPb3Z3bjhTRS1vdmZZTTNWZEZkU3BGRTg1QnNERjJWTmVkUkFUbEJwOG1JeFVTRmxRSHZST2VZYXR5Rg?oc=5",
+      "lat": 72,
+      "lng": -40,
+      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
+    },
     {
       "id": "gdelt-1327325745",
       "kind": "event",
@@ -1398,6 +1459,346 @@
         "goldstein": -2,
         "tone": 0.26,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327350905",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T06:30:00.000Z",
+      "description": "Rejection — Publication → United States near Reykjavik, (IC10), Iceland. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 64.15,
+      "lng": -21.95,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Publication",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Reykjavik, (IC10), Iceland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://slguardian.org/reagan-backed-soviet-plan-to-abolish-nuclear-weapons/",
+      "gdelt": {
+        "globalEventId": "1327350905",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -2.27,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327357827",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T08:00:00.000Z",
+      "description": "Protest — Unspecified → Scotland near Whitehall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (15 mentions, 5 sources); open the source article for details.",
+      "type": "other",
+      "lat": 59.15,
+      "lng": -2.61667,
+      "action": "Protest (GDELT 140)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Whitehall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.redditchadvertiser.co.uk/news/national/26625460.several-arrests-made-thousands-descend-london-pro-palestine-protest/",
+      "gdelt": {
+        "globalEventId": "1327357827",
+        "eventCode": "140",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -7.1,
+        "mentions": 15,
+        "sources": 5
+      }
+    },
+    {
+      "id": "gdelt-1327360771",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T08:30:00.000Z",
+      "description": "Rejection — Staff Member → Unspecified near Reykjavik, (IC10), Iceland. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 64.15,
+      "lng": -21.95,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Staff Member",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Reykjavik, (IC10), Iceland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://aninews.in/news/world/europe/mos-kirti-vardhan-singh-plants-sacred-sapling-under-8216ek-ped-maa-ke-naam8217-initiative-in-iceland20261011133632/",
+      "gdelt": {
+        "globalEventId": "1327360771",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 6.49,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327360774",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T08:30:00.000Z",
+      "description": "Rejection — Staff Member → Prime Minister near Reykjavik, (IC10), Iceland. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 64.15,
+      "lng": -21.95,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Staff Member",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Reykjavik, (IC10), Iceland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://aninews.in/news/world/europe/mos-kirti-vardhan-singh-plants-sacred-sapling-under-8216ek-ped-maa-ke-naam8217-initiative-in-iceland20261011133632/",
+      "gdelt": {
+        "globalEventId": "1327360774",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 6.49,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327360776",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T08:30:00.000Z",
+      "description": "Assault — Employee → Russia near Norway. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 62,
+      "lng": 10,
+      "action": "Assault (GDELT 186)",
+      "actor": "Employee",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://eaworldview.com/2026/10/ukraine-war-trump-zelensky-should-be-replaced/",
+      "gdelt": {
+        "globalEventId": "1327360776",
+        "eventCode": "186",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.22,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327360777",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T08:30:00.000Z",
+      "description": "Assault — Employee → Russia near Norway. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 62,
+      "lng": 10,
+      "action": "Assault (GDELT 186)",
+      "actor": "Employee",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://eaworldview.com/2026/10/ukraine-war-trump-zelensky-should-be-replaced/",
+      "gdelt": {
+        "globalEventId": "1327360777",
+        "eventCode": "186",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.22,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327360778",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T08:30:00.000Z",
+      "description": "Assault — Employee → Operative near Norway. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 62,
+      "lng": 10,
+      "action": "Assault (GDELT 186)",
+      "actor": "Employee",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://eaworldview.com/2026/10/ukraine-war-trump-zelensky-should-be-replaced/",
+      "gdelt": {
+        "globalEventId": "1327360778",
+        "eventCode": "186",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.22,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327360780",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T08:30:00.000Z",
+      "description": "Assault — Employee → Ukraine near Norway. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 62,
+      "lng": 10,
+      "action": "Assault (GDELT 186)",
+      "actor": "Employee",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://eaworldview.com/2026/10/ukraine-war-trump-zelensky-should-be-replaced/",
+      "gdelt": {
+        "globalEventId": "1327360780",
+        "eventCode": "186",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.22,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327360781",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T08:30:00.000Z",
+      "description": "Assault — Employee → Ukraine near Norway. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 62,
+      "lng": 10,
+      "action": "Assault (GDELT 186)",
+      "actor": "Employee",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://eaworldview.com/2026/10/ukraine-war-trump-zelensky-should-be-replaced/",
+      "gdelt": {
+        "globalEventId": "1327360781",
+        "eventCode": "186",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.22,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327364180",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T09:00:00.000Z",
+      "description": "Disapproval — United States → Unspecified near Norway. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://fortune.com/2026/10/11/women-rage-retreats-cost-anger-therapy/",
+      "gdelt": {
+        "globalEventId": "1327364180",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.71,
+        "mentions": 4,
         "sources": 1
       }
     },
@@ -17009,25 +17410,6 @@
       "locationStr": "Arctic Today",
       "source": "Arctic Today",
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2U0ZwNFcxcm5leHNsLXEtWWZZTkh2WlBEam9JT1BXN1ZBZU91RThvbTAweG9sd0JjaV9HQzNGWEpHLTRDRVZ4VWxYTGE5QUhHRDJPd3paamktaHVwckxtODBmZEJRMy11OHRYS09Uc2R0ZmlGSlVWM3FDOU11MlU?oc=5"
-    },
-    {
-      "id": "news-1t0bprl",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T07:57:33.000Z",
-      "description": "Greetings From the Island of Ice and Fire - High North News (High North News, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "High North News",
-      "axis": "Other",
-      "tags": [
-        "High North News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "High North News",
-      "source": "High North News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUE5mWTNlblpEbkFUQjJrUmlEYllrUVVlUVRvWGhGMHVkQm52R2xwUWJXczVNbnh2dGFaZUxuNjBXOGtyMzM3LVlhWnJjV212WkVIMWVJRnItSjZ6QkQwcHlvSTJDYlZLUktGcVQyekJsOUhNRVdrQUpTbkxKZmtrRmhrdXBtMkNfbVZvdElhV1g?oc=5"
     }
   ]
 }
