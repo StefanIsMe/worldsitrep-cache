@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-10-11T09:20:19.791Z",
+  "collectedAt": "2026-10-11T13:19:22.804Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 10
+      "count": 13
     },
     {
       "id": "rci-arctic",
@@ -34,15 +34,15 @@
       "id": "adn-alaska",
       "url": "https://www.adn.com/arc/outboundfeeds/rss/",
       "status": "ok",
-      "count": 0,
-      "filtered": 25
+      "count": 1,
+      "filtered": 24
     },
     {
       "id": "cryopolitics",
       "url": "https://www.cryopolitics.com/feed/",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS cryopolitics request failed: fetch failed"
+      "status": "ok",
+      "count": 3,
+      "filtered": 0
     },
     {
       "id": "gnews-svalbard",
@@ -73,8 +73,50 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 523,
+  "count": 535,
   "events": [
+    {
+      "id": "news-v888o6",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T11:43:00.000Z",
+      "description": "Did Trump get one thing right about Greenland? - The Guardian (The Guardian, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Guardian",
+      "axis": "Other",
+      "tags": [
+        "The Guardian",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Greenland",
+      "source": "The Guardian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWFlfYlFnZkRLaFBGTXNMSU9JTUVoNVJvVHdkWUdsTlhMVkVQSzN4ZlNTbFBNUFBKV29KZHNMdmxfb0RGNDFUZmJXX1JLV1R3VzlmZkpZeFlBVGRDczNpbVF4SzhVRVp3VU9PQnlYaXN6aGdrWVVOUGtlUlVKZmNPYmJUOHdrSXY4NHpNVWEzMHFMeV9MYlE?oc=5",
+      "lat": 72,
+      "lng": -40,
+      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
+    },
+    {
+      "id": "news-fmomxm",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T08:45:00.000Z",
+      "description": "South Korea completes Arctic shipping route trial - Bangkok Post (Bangkok Post, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Bangkok Post",
+      "axis": "Other",
+      "tags": [
+        "Bangkok Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Bangkok Post",
+      "source": "Bangkok Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLVBxZGRxdnlYUV9WS28zT3JZdUxIMVJCNl9fSkRTeGFiQVlvbDByMjVvY3hoODREX0VCQmVncUZnazZVYnlqS2dpZzh2ZzlfUnJKNC1GVEUzbHhzbnZlTXVLdml0X3RacGZDNm5WMV9lV2kxcnRGc1dkakVtSUFGODJ6TG85ZXRSOUVWcWdJcDNFbjJQUkE?oc=5"
+    },
     {
       "id": "news-1g8ctra",
       "kind": "news",
@@ -135,6 +177,25 @@
       "lat": 72,
       "lng": -40,
       "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
+    },
+    {
+      "id": "news-3pji9z",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:06:00.000Z",
+      "description": "Zelenskyy pushes back on Trump’s call for a new Ukrainian president as drones hit Russian data hub (Anchorage Daily News, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Anchorage Daily News",
+      "axis": "Other",
+      "tags": [
+        "Anchorage Daily News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Anchorage Daily News",
+      "source": "Anchorage Daily News",
+      "sourceUrl": "https://www.adn.com/nation-world/2026/10/10/trump-says-ukraine-should-get-a-new-president-as-he-blames-zelenskyy-for-us-diesel-prices/"
     },
     {
       "id": "gdelt-1327325745",
@@ -1799,6 +1860,448 @@
         "goldstein": -2,
         "tone": -5.71,
         "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327368732",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T10:00:00.000Z",
+      "description": "Disapproval — Christian → Prime Minister near Norway. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Christian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.universityworldnews.com/post.php?story=2026101008073436",
+      "gdelt": {
+        "globalEventId": "1327368732",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.83,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327368733",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T10:00:00.000Z",
+      "description": "Disapproval — Christian → Minist near Norway. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Christian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.universityworldnews.com/post.php?story=2026101008073436",
+      "gdelt": {
+        "globalEventId": "1327368733",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.83,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327368813",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T10:00:00.000Z",
+      "description": "Threat — University → European near Norway. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Threat (GDELT 130)",
+      "actor": "University",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.universityworldnews.com/post.php?story=2026101008073436",
+      "gdelt": {
+        "globalEventId": "1327368813",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -1.83,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327369195",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T10:00:00.000Z",
+      "description": "Disapproval — Norway → Prime Minister near Norway. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Norway",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.universityworldnews.com/post.php?story=2026101008073436",
+      "gdelt": {
+        "globalEventId": "1327369195",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.83,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327369196",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T10:00:00.000Z",
+      "description": "Disapproval — Norway → Minist near Norway. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Norway",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.universityworldnews.com/post.php?story=2026101008073436",
+      "gdelt": {
+        "globalEventId": "1327369196",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.83,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327374490",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T11:00:00.000Z",
+      "description": "Rejection — Scotland → Politician near Whitehall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.15,
+      "lng": -2.61667,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Scotland",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Whitehall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thenational.scot/politics/26626098.unionist-attacks-scottish-devolution-will-prove-counter-productive/",
+      "gdelt": {
+        "globalEventId": "1327374490",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -4.19,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327377206",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T11:30:00.000Z",
+      "description": "Disapproval — Greenland / Denmark → Unspecified near Greenland. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 72,
+      "lng": -40,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Greenland / Denmark",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Greenland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.techtimes.com/articles/328873/20261011/climate-tipping-points-research-has-blind-spot-greenland-crowds-out-higher-risk-systems.htm",
+      "gdelt": {
+        "globalEventId": "1327377206",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.33,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327377534",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T11:30:00.000Z",
+      "description": "Coercion — Norway → Unspecified near Norway. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Norway",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theguardian.com/commentisfree/2026/oct/11/smart-glasses-content-creation",
+      "gdelt": {
+        "globalEventId": "1327377534",
+        "eventCode": "172",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": 0.76,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327381131",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T12:15:00.000Z",
+      "description": "Rejection — Germany → Regime near Sweden. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 15,
+      "action": "Rejection (GDELT 1244)",
+      "actor": "Germany",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Sweden",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.rferl.org/a/europe-backs-zelenskyy-trump-russia-diesel-deal-drone-strikes/33874495.html",
+      "gdelt": {
+        "globalEventId": "1327381131",
+        "eventCode": "1244",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -6.59,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327381222",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T12:15:00.000Z",
+      "description": "Assault — Government → Unspecified near Norway. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 62,
+      "lng": 10,
+      "action": "Assault (GDELT 180)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://tribune.com.pk/story/2634199/navi-pillays-nobel-peace-prize-is-a-rebuke-to-trump",
+      "gdelt": {
+        "globalEventId": "1327381222",
+        "eventCode": "180",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -3.62,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327382600",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T12:30:00.000Z",
+      "description": "Disapproval — Norway → Unspecified near Norway. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Norway",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://yalibnan.com/2026/10/11/trump-rages-over-nobel-peace-prize-loss/",
+      "gdelt": {
+        "globalEventId": "1327382600",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 4.55,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327382601",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T12:30:00.000Z",
+      "description": "Disapproval — Norway → Unspecified near Norway. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Norway",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://yalibnan.com/2026/10/11/trump-rages-over-nobel-peace-prize-loss/",
+      "gdelt": {
+        "globalEventId": "1327382601",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 4.55,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327386695",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T13:15:00.000Z",
+      "description": "Coercion — Altai → Unspecified near Norway. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Altai",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.co.uk/articles/yorkshire-wildlife-park-tiger-horror-123300000.html",
+      "gdelt": {
+        "globalEventId": "1327386695",
+        "eventCode": "172",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -5.11,
+        "mentions": 5,
         "sources": 1
       }
     },
@@ -17326,90 +17829,6 @@
       "locationStr": "gCaptain",
       "source": "gCaptain",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOF9EeFF2emtCUEMtUFFYMEp0M0UzQWQ0YmpGT3IxVjhOVUZ2TmEtekc3OTNORnViempDYlVFOFl6ZVpvUVRvQ25HbEhhbGs5LU83ZjZ0ZmVKY0pGZXZWVHZzN2p6aUV2eFdYd056bXhhWmNzV2xJOWFXUnQ1bEVMalhSTFF6dUpPbU9nblFuam11ekNYNW9jSXloYw?oc=5"
-    },
-    {
-      "id": "news-lar8et",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T13:15:11.000Z",
-      "description": "China Completes 8 Northern Sea Route Sailings, Transporting 14,000 TEUs Before Winter Closure - Marine Insight (Marine Insight, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Marine Insight",
-      "axis": "Other",
-      "tags": [
-        "Marine Insight",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Marine Insight",
-      "source": "Marine Insight",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLWJySjdfLUR3c3Y1ZHZiMEtiSHdQNTU5RF9TUXRsZ2tuTlZfUnZjY0Zwa2NaaUo4RS1QM1hTb2tubl9BRkdoWlpSVVZNTU90TWtWWEFnbG41cDVMLVphZGI5UUNmcjgzRU42Q0FSMVdCOHNleFFvV2lKSnItN1FLZjVfY0wxOWhzQm1RVnVodlBKeUhKTXlpdHE5bEJoR0xFWHdHZ2tNcjNCTXNXSktzeVlxcFotek5YUGRpQVhHQQ?oc=5"
-    },
-    {
-      "id": "news-wmhwf6",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T10:03:52.000Z",
-      "description": "Rob Huebert: New Greenland security deal offers hope for a reasonable defence agreement with the U.S. - National Post (National Post, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "National Post",
-      "axis": "Other",
-      "tags": [
-        "National Post",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "National Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNb2F4SkpQeEk5Z2owU2FtUXZ1N0hYTWU2N013VTk1alJjWVBIXzlnX09aREJXRGFRLUlXeXdtRXAwa29SWHVEbVNoblB2OTN5NVR6R21pUFloV2g2YW9WWFVPemsySVZ0ZndHM242TU9lb1g0bUF2VTdkTUYxUWdpS2JEOUpwX1dZS185NlAwVUNCOEZwcEZ0WmNuakt0UWx6c3NFZDMzeDhTOE1uanl6MEZHWnJPOHBDRGZwV3h2d0xmTzdSMXh1XzNLMHU?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
-    },
-    {
-      "id": "news-plvpml",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T09:53:00.000Z",
-      "description": "New US security agreement requires Greenland to remain in NATO if it becomes independent - EL PAÍS English (EL PAÍS English, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "EL PAÍS English",
-      "axis": "Other",
-      "tags": [
-        "EL PAÍS English",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "EL PAÍS English",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZ0hpV2hvOERUQnZOU2ljVmRVTGEtcXp5SmozTlpFTnlONUdJdmRFQmluRExrUTVMei0xRE14Um94WTllMGtiTW51blp2UlVBNHRCMlJjcFlQNmpiZUpLS0x5R2hPbzJrUS14eHJfX25ka0w2dUxFOHpDTF9JM181SmlqeHEtVjZZUTBScGw3cElmdHhlZnpzR0hLalBBQ1BhTlhTNWt6dktnel8xek1rT0pGaFpYakVYMVc3US1wWVo4cWdhYy1IYlVhSWs5VDRG0gHkAUFVX3lxTFBlSV9xT09oQkdNenBYYmdGaTlWWHloSGJteml3ckVXemg5VWJCLVl0SEJlYXFpeVA0VGdXZ3ZPQmlnOGlGZzZVbFJNaF9SSTFtYkFBZWJ1UHZfeFctZ081QzJsWExIX2E4TzA5VnZUWFdRX0ZxT0VLOWQ2R2JuQmpIbkljNDcya2hCWVJIQXhqdzFLTF9KSFVOdU14b05UNUcwNzFqMWMzX19YU0ZGX2pjNVEwbm9PbEZ6ZVVaUkktempDQ0lUSlR3OFF3bk5KTmtGbmt3TTk0ZUxZYzNZVWZkMEI2Vw?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
-    },
-    {
-      "id": "news-5i69xu",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T09:37:27.000Z",
-      "description": "Why Europe wants to boost its Arctic presence - Arctic Today (Arctic Today, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Arctic Today",
-      "axis": "Other",
-      "tags": [
-        "Arctic Today",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Arctic Today",
-      "source": "Arctic Today",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2U0ZwNFcxcm5leHNsLXEtWWZZTkh2WlBEam9JT1BXN1ZBZU91RThvbTAweG9sd0JjaV9HQzNGWEpHLTRDRVZ4VWxYTGE5QUhHRDJPd3paamktaHVwckxtODBmZEJRMy11OHRYS09Uc2R0ZmlGSlVWM3FDOU11MlU?oc=5"
     }
   ]
 }
