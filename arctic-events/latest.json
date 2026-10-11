@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-10-11T15:58:58.926Z",
+  "collectedAt": "2026-10-11T18:20:46.746Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 7
+      "count": 10
     },
     {
       "id": "rci-arctic",
@@ -73,13 +73,13 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 538,
+  "count": 543,
   "events": [
     {
       "id": "news-v888o6",
       "kind": "news",
       "date": "2026-10-11",
-      "isoDate": "2026-10-11T14:05:00.000Z",
+      "isoDate": "2026-10-11T17:04:00.000Z",
       "description": "Did Trump get one thing right about Greenland? - The Guardian (The Guardian, 2026-10-11. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -183,7 +183,7 @@
       "kind": "news",
       "date": "2026-10-11",
       "isoDate": "2026-10-11T00:06:00.000Z",
-      "description": "Zelenskyy pushes back on Trump’s call for a new Ukrainian president as drones hit Russian data hub (Anchorage Daily News, 2026-10-11. Headline + link only.)",
+      "description": "Trump says Russia and Ukraine reach ‘energy ceasefire’ but gives no details (Anchorage Daily News, 2026-10-11. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Anchorage Daily News",
@@ -2539,6 +2539,278 @@
         "quadClass": 3,
         "goldstein": -2,
         "tone": 0.32,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327402077",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T16:00:00.000Z",
+      "description": "Disapproval — Police → Unspecified near Norway. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailystar.co.uk/news/latest-news/police-statement-yorkshire-wildlife-park-37760081",
+      "gdelt": {
+        "globalEventId": "1327402077",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.09,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327404925",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T16:30:00.000Z",
+      "description": "Disapproval — Unspecified → Village near Norway. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dailybruin.com/2026/10/10/film-review-gripping-fjord-navigates-the-treacherous-terrain-between-faith-family-and-justice",
+      "gdelt": {
+        "globalEventId": "1327404925",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.86,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327407855",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T17:00:00.000Z",
+      "description": "Assault — The Us → International Criminal Court near Greenland. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 72,
+      "lng": -40,
+      "action": "Assault (GDELT 180)",
+      "actor": "The Us",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Greenland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theguardian.com/commentisfree/2026/oct/11/the-guardian-view-on-the-us-russia-and-the-international-criminal-court-trumps-assault-on-the-rule-of-law-intensifies",
+      "gdelt": {
+        "globalEventId": "1327407855",
+        "eventCode": "180",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -7.43,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327407883",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T17:00:00.000Z",
+      "description": "Assault — The Us → Russia near Greenland. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 72,
+      "lng": -40,
+      "action": "Assault (GDELT 180)",
+      "actor": "The Us",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Greenland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theguardian.com/commentisfree/2026/oct/11/the-guardian-view-on-the-us-russia-and-the-international-criminal-court-trumps-assault-on-the-rule-of-law-intensifies",
+      "gdelt": {
+        "globalEventId": "1327407883",
+        "eventCode": "180",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -7.43,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327411335",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T17:45:00.000Z",
+      "description": "Coercion — Unspecified → Norwegian near Oslo, Oslo, Norway. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.9167,
+      "lng": 10.75,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Oslo, Oslo, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.greekherald.com/news/279361587/south-africa-navi-pillay-wins-2026-nobel-peace-prize",
+      "gdelt": {
+        "globalEventId": "1327411335",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": 4.37,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327411459",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T17:45:00.000Z",
+      "description": "Force posture — Greenland / Denmark → Russia near Greenland. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 72,
+      "lng": -40,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Greenland / Denmark",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Greenland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://economictimes.indiatimes.com/magazines/panache/a-secret-nuclear-city-was-built-under-greenlands-ice-by-the-usa-in-1967-it-was-abandoned-but-something-dangerous-got-left-behind/articleshow/134873732.cms",
+      "gdelt": {
+        "globalEventId": "1327411459",
+        "eventCode": "154",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -4.34,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327411710",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T17:45:00.000Z",
+      "description": "Coercion — Israel → Norwegian near Oslo, Oslo, Norway. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.9167,
+      "lng": 10.75,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Israel",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Oslo, Oslo, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.greekherald.com/news/279361587/south-africa-navi-pillay-wins-2026-nobel-peace-prize",
+      "gdelt": {
+        "globalEventId": "1327411710",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": 4.37,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327411711",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T17:45:00.000Z",
+      "description": "Coercion — Israel → Norway near Oslo, Oslo, Norway. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.9167,
+      "lng": 10.75,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Israel",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Oslo, Oslo, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.greekherald.com/news/279361587/south-africa-navi-pillay-wins-2026-nobel-peace-prize",
+      "gdelt": {
+        "globalEventId": "1327411711",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": 4.37,
         "mentions": 3,
         "sources": 1
       }
@@ -17926,67 +18198,6 @@
       "locationStr": "Eye on the Arctic",
       "source": "Eye on the Arctic",
       "sourceUrl": "https://www.rcinet.ca/eye-on-the-arctic/2026/10/08/south-korean-shipbuilder-eyes-arctic-opportunities-including-canada-as-northern-shipping-grows/"
-    },
-    {
-      "id": "news-1ea14y3",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T17:20:28.000Z",
-      "description": "Sanctioned Chinese heavy lift carrier on standby outside Norwegian Arctic coast (Eye on the Arctic, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Eye on the Arctic",
-      "axis": "Other",
-      "tags": [
-        "Eye on the Arctic",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Eye on the Arctic",
-      "source": "Eye on the Arctic",
-      "sourceUrl": "https://www.rcinet.ca/eye-on-the-arctic/2026/10/08/sanctioned-chinese-heavy-lift-carrier-on-standby-outside-norwegian-arctic-coast/"
-    },
-    {
-      "id": "news-1iob5rd",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T17:20:28.000Z",
-      "description": "Sanctioned Chinese heavy lift carrier on standby outside Norwegian Arctic coast – Eye on the Arctic - Radio-Canada (Radio-Canada, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Radio-Canada",
-      "axis": "Other",
-      "tags": [
-        "Radio-Canada",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Radio-Canada",
-      "source": "Radio-Canada",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLWlZQUNoX3AtQzVzbE5yTDY5MU5STWtHTjVFcHFrNDB5bjhJQkRvZDF3VU1tMWsyenhfS192Q3pHQWxHMGJEck96eVB6OGZ4OEV3X2d5RnZmalRQa2laWHREQ3FzWWdlVzZjN1M2dHNRdTRlQzhWeUZNNEQwVTBWZFFvaFRBSXFNNEJ5VVB3M2o4ZmxUSzNkWnNOUE44YklXWTY2TEtTdnFNUjVDZzBVWHN5cGg2RnE3c0Z1QmVwXzk3Q2xLd0t1OTRWdw?oc=5"
-    },
-    {
-      "id": "news-wemvx3",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T17:10:35.000Z",
-      "description": "New Greenland Deal Strengthens U.S. Arctic Defense and Security - AMAC — The Association of Mature American Citizens (AMAC — The Association of Mature American Citizens, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AMAC — The Association of Mature American Citizens",
-      "axis": "Other",
-      "tags": [
-        "AMAC — The Association of Mature American Citizens",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "AMAC — The Association of Mature American Citizens",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GdVFYQk1EemdqdV9UR3JRbDZYcTI4aXA0MWNGQXFRV25aMXZ1aEF3REtoQjh1UHZUeDVBSFBZZkthd1M1TkVYLWFzVWRoRlI4WGlHRTdNUDZfQ0o2Nnk3MkZHTXpodDMycGJKT3Nn?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
     }
   ]
 }

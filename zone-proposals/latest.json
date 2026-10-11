@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-11T15:56:11.142Z",
+  "collectedAt": "2026-10-11T18:20:46.045Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 282,
+  "coarseGdeltDropped": 287,
   "outsideTheatreDropped": 7,
   "proposals": [
     {
@@ -15,16 +15,16 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 556,
+      "eventCount": 537,
       "kinds": {
-        "other": 407,
-        "combat": 133,
+        "other": 396,
+        "combat": 125,
         "strike": 16
       },
       "tierCounts": {
-        "approximate": 556
+        "approximate": 537
       },
-      "combatCount": 149,
+      "combatCount": 141,
       "newestIsoDate": "2026-10-11T15:43:00.000Z",
       "samples": [
         {
@@ -44,10 +44,50 @@
         }
       ],
       "centroid": {
-        "lat": 50.4398,
-        "lng": 30.0654
+        "lat": 50.437,
+        "lng": 30.1373
       },
-      "radiusKm": 60.2
+      "radiusKm": 51.7
+    },
+    {
+      "zoneId": "occ-kharkiv",
+      "region": "Kharkiv Oblast",
+      "center": {
+        "lat": 49.8,
+        "lng": 37.6
+      },
+      "eventCount": 69,
+      "kinds": {
+        "other": 49,
+        "combat": 20
+      },
+      "tierCounts": {
+        "approximate": 69
+      },
+      "combatCount": 20,
+      "newestIsoDate": "2026-10-11T18:14:00.000Z",
+      "samples": [
+        {
+          "id": "news-i05ok8",
+          "isoDate": "2026-10-11T18:14:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4173348-russian-invaders-strike-kharkiv-suburb-with-missiles-killing-three-injuring-nine.html"
+        },
+        {
+          "id": "news-mq5ekq",
+          "isoDate": "2026-10-11T18:14:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/11/8057502/"
+        },
+        {
+          "id": "news-pla24l",
+          "isoDate": "2026-10-11T17:58:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4173325-fire-extinguished-in-kharkiv-after-russian-attack-one-killed-nine-injured.html"
+        }
+      ],
+      "centroid": {
+        "lat": 49.847,
+        "lng": 36.5925
+      },
+      "radiusKm": 56.2
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -56,18 +96,23 @@
         "lat": 47,
         "lng": 35.5
       },
-      "eventCount": 70,
+      "eventCount": 69,
       "kinds": {
-        "other": 53,
-        "combat": 16,
+        "other": 54,
+        "combat": 14,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 70
+        "approximate": 69
       },
-      "combatCount": 17,
-      "newestIsoDate": "2026-10-11T13:21:00.000Z",
+      "combatCount": 15,
+      "newestIsoDate": "2026-10-11T17:15:00.000Z",
       "samples": [
+        {
+          "id": "news-g5p7q3",
+          "isoDate": "2026-10-11T17:15:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4173317-russian-forces-attack-dnipropetrovsk-region-over-50-times-on-sunday.html"
+        },
         {
           "id": "news-1n7pejo",
           "isoDate": "2026-10-11T13:21:00.000Z",
@@ -77,99 +122,13 @@
           "id": "news-mq4r85",
           "isoDate": "2026-10-11T12:23:00.000Z",
           "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/11/8057459/"
-        },
-        {
-          "id": "news-1xdx1jc",
-          "isoDate": "2026-10-11T09:23:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/86715"
         }
       ],
       "centroid": {
-        "lat": 48.034,
-        "lng": 35.1319
+        "lat": 48.0277,
+        "lng": 35.1334
       },
-      "radiusKm": 37.6
-    },
-    {
-      "zoneId": "occ-kharkiv",
-      "region": "Kharkiv Oblast",
-      "center": {
-        "lat": 49.8,
-        "lng": 37.6
-      },
-      "eventCount": 63,
-      "kinds": {
-        "other": 40,
-        "combat": 23
-      },
-      "tierCounts": {
-        "approximate": 63
-      },
-      "combatCount": 23,
-      "newestIsoDate": "2026-10-11T13:41:53.000Z",
-      "samples": [
-        {
-          "id": "news-e89eg4",
-          "isoDate": "2026-10-11T13:41:53.000Z",
-          "sourceUrl": "https://kyivindependent.com/russian-air-strike-on-kharkiv-kills-at-least-1-injures-8/"
-        },
-        {
-          "id": "news-1mdsxb6",
-          "isoDate": "2026-10-11T13:15:52.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd1lfYlJBZkQ4a251SWo0akJOZWJabVBrZTNBQXNrWFhpWDgzTDRkWjZlSnNhYTFmWjY2d0xsb0NwSmRCbXFTaW0yWjZBQWlXTDd3dlNWcDQ0SEJadHZVUkswVmhfRU1Oc1FaemYzSkhTQzhsUVJRSUVFOEt2YjNwWE1rSmlJc2FNZS0yRE1HWVNzUGptNldtT0VfeGMxU1M0bk9WR2JHbUNWTEtTQ0hGOVJqaUZNQW5VWDVTX1I4RGdDdw?oc=5"
-        },
-        {
-          "id": "news-9f8d2",
-          "isoDate": "2026-10-11T13:00:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4173274-russian-forces-strike-kharkiv-with-guided-bombs-killing-woman-and-injuring-eight.html"
-        }
-      ],
-      "centroid": {
-        "lat": 49.822,
-        "lng": 36.5802
-      },
-      "radiusKm": 58.1
-    },
-    {
-      "zoneId": "occ-donetsk",
-      "region": "Donetsk Oblast",
-      "center": {
-        "lat": 47.8,
-        "lng": 37.5
-      },
-      "eventCount": 51,
-      "kinds": {
-        "other": 20,
-        "combat": 30,
-        "strike": 1
-      },
-      "tierCounts": {
-        "approximate": 51
-      },
-      "combatCount": 31,
-      "newestIsoDate": "2026-10-11T12:20:00.000Z",
-      "samples": [
-        {
-          "id": "news-1w9wqo7",
-          "isoDate": "2026-10-11T12:20:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4173268-russian-attacks-on-sloviansk-and-kramatorsk-community-injure-nine.html"
-        },
-        {
-          "id": "news-s2rl",
-          "isoDate": "2026-10-11T11:26:25.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWDFGZC1SVlE2WGluSXoxTVFUMVFQYk9rU0xtci1TUE1hdk8yWnU0QVRObzlCYXUySnlqNko5Z1ZQZXJycmtLODhxTkl1MXNxa2phLUNDUXFuUXFFVEI2YVFuR0hQQnNwd0lrTlJVeGh2M1BmQVNPVXBveFNQSDBwSzRNaGFIc0VKLWdtYkRESzZDeGpRVGRJS2J2SWRtRmJZb3l5QmtrZ1ZHX3dvbDJUYmZfLVVEbjc0djhuWlc5c1R4bnIwbmY1c1FzN09RTmRjcWhyLUhzekM?oc=5"
-        },
-        {
-          "id": "news-mq4pht",
-          "isoDate": "2026-10-11T08:51:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/11/8057437/"
-        }
-      ],
-      "centroid": {
-        "lat": 48.651,
-        "lng": 37.5455
-      },
-      "radiusKm": 15
+      "radiusKm": 37.2
     },
     {
       "zoneId": "occ-kherson",
@@ -211,6 +170,47 @@
         "lng": 31.8843
       },
       "radiusKm": 80
+    },
+    {
+      "zoneId": "occ-donetsk",
+      "region": "Donetsk Oblast",
+      "center": {
+        "lat": 47.8,
+        "lng": 37.5
+      },
+      "eventCount": 45,
+      "kinds": {
+        "other": 17,
+        "combat": 27,
+        "strike": 1
+      },
+      "tierCounts": {
+        "approximate": 45
+      },
+      "combatCount": 28,
+      "newestIsoDate": "2026-10-11T12:20:00.000Z",
+      "samples": [
+        {
+          "id": "news-1w9wqo7",
+          "isoDate": "2026-10-11T12:20:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4173268-russian-attacks-on-sloviansk-and-kramatorsk-community-injure-nine.html"
+        },
+        {
+          "id": "news-s2rl",
+          "isoDate": "2026-10-11T11:26:25.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWDFGZC1SVlE2WGluSXoxTVFUMVFQYk9rU0xtci1TUE1hdk8yWnU0QVRObzlCYXUySnlqNko5Z1ZQZXJycmtLODhxTkl1MXNxa2phLUNDUXFuUXFFVEI2YVFuR0hQQnNwd0lrTlJVeGh2M1BmQVNPVXBveFNQSDBwSzRNaGFIc0VKLWdtYkRESzZDeGpRVGRJS2J2SWRtRmJZb3l5QmtrZ1ZHX3dvbDJUYmZfLVVEbjc0djhuWlc5c1R4bnIwbmY1c1FzN09RTmRjcWhyLUhzekM?oc=5"
+        },
+        {
+          "id": "news-mq4pht",
+          "isoDate": "2026-10-11T08:51:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/11/8057437/"
+        }
+      ],
+      "centroid": {
+        "lat": 48.6414,
+        "lng": 37.544
+      },
+      "radiusKm": 16.6
     },
     {
       "zoneId": "lib-snake",
@@ -260,15 +260,15 @@
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 40,
+      "eventCount": 38,
       "kinds": {
-        "combat": 21,
+        "combat": 19,
         "other": 19
       },
       "tierCounts": {
-        "approximate": 40
+        "approximate": 38
       },
-      "combatCount": 21,
+      "combatCount": 19,
       "newestIsoDate": "2026-10-11T00:00:00.000Z",
       "samples": [
         {
@@ -288,10 +288,50 @@
         }
       ],
       "centroid": {
-        "lat": 48.3462,
-        "lng": 39.1683
+        "lat": 48.3346,
+        "lng": 39.1604
       },
-      "radiusKm": 49
+      "radiusKm": 50.8
+    },
+    {
+      "zoneId": "occ-crimea",
+      "region": "Crimea",
+      "center": {
+        "lat": 45.3453,
+        "lng": 34.4997
+      },
+      "eventCount": 17,
+      "kinds": {
+        "other": 6,
+        "combat": 11
+      },
+      "tierCounts": {
+        "approximate": 17
+      },
+      "combatCount": 11,
+      "newestIsoDate": "2026-10-11T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1327346480",
+          "isoDate": "2026-10-11T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/10/800110473/community/1690/"
+        },
+        {
+          "id": "gdelt-1327346532",
+          "isoDate": "2026-10-11T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/10/800110473/community/1690/"
+        },
+        {
+          "id": "gdelt-1327403939",
+          "isoDate": "2026-10-11T00:00:00.000Z",
+          "sourceUrl": "https://www.aljazeera.com/news/2026/10/11/oval-office-spat-to-public-rebukes-a-timeline-of-trump-zelenskyy-ties"
+        }
+      ],
+      "centroid": {
+        "lat": 44.8994,
+        "lng": 34.33
+      },
+      "radiusKm": 40.1
     },
     {
       "zoneId": "lib-sumy",
@@ -332,46 +372,6 @@
         "lng": 34.6349
       },
       "radiusKm": 55.5
-    },
-    {
-      "zoneId": "occ-crimea",
-      "region": "Crimea",
-      "center": {
-        "lat": 45.3453,
-        "lng": 34.4997
-      },
-      "eventCount": 8,
-      "kinds": {
-        "other": 1,
-        "combat": 7
-      },
-      "tierCounts": {
-        "approximate": 8
-      },
-      "combatCount": 7,
-      "newestIsoDate": "2026-10-11T00:00:00.000Z",
-      "samples": [
-        {
-          "id": "gdelt-1327346480",
-          "isoDate": "2026-10-11T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/10/10/800110473/community/1690/"
-        },
-        {
-          "id": "gdelt-1327346532",
-          "isoDate": "2026-10-11T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/10/10/800110473/community/1690/"
-        },
-        {
-          "id": "gdelt-1327309556",
-          "isoDate": "2026-10-10T00:00:00.000Z",
-          "sourceUrl": "https://www.eurasiareview.com/10102026-before-ukraine-it-was-azerbaijan-that-launched-the-modern-era-of-warfare-oped/"
-        }
-      ],
-      "centroid": {
-        "lat": 44.7862,
-        "lng": 34.7012
-      },
-      "radiusKm": 48.8
     },
     {
       "zoneId": "lib-chernihiv",
