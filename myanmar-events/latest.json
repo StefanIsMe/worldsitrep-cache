@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "myanmar",
-  "collectedAt": "2026-10-11T18:20:46.746Z",
+  "collectedAt": "2026-10-11T20:37:59.214Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 4
+      "count": 8
     },
     {
       "id": "irrawaddy",
@@ -35,7 +35,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/asia/rss.xml",
       "status": "ok",
       "count": 1,
-      "filtered": 16
+      "filtered": 17
     },
     {
       "id": "gnews-myanmar",
@@ -66,8 +66,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 152,
+  "count": 159,
   "events": [
+    {
+      "id": "news-rhi3fr",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T18:28:43.000Z",
+      "description": "Kuwait v Myanmar | Match Highlights | ICC Men's T20WC Asia Sub Regional Qualifier A 2026 - ICC (ICC, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ICC",
+      "axis": "Other",
+      "tags": [
+        "ICC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "ICC",
+      "source": "ICC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZHYyYXB0VlU0aHhxMW95REFxT3ZQYkNQU1N0NzRPd05GNkRIUkdjZHE4VTlmUHZJR2UyN3ZrTG9zeDFUYTZQbk92VUFZVXcyRGJkY19EODVJb1FKVTY0MGFiY3ZPS0QtR2pvdEdSNk82SGlxMm9OalBHTGxVQWtyN3dQRE1ER0dKN2w1TlRzN2U5STZ1MTd6X0JyRnRtZ2t5RWlYQzd1MGh2Mk11THZDcDZZTGhkQU1qWkpF?oc=5"
+    },
     {
       "id": "news-6h8s3e",
       "kind": "news",
@@ -758,6 +777,278 @@
         "goldstein": -10,
         "tone": -4.29,
         "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327420650",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T19:30:00.000Z",
+      "description": "Fight — Unspecified → Myanmar near Arakan, Yangon, Myanmar. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16.7769,
+      "lng": 96.1911,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Arakan, Yangon, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailystar.net/slow-reads/focus/news/slave-raids-bengal-and-the-making-arakans-power-4296131",
+      "gdelt": {
+        "globalEventId": "1327420650",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.77,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327421057",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T19:30:00.000Z",
+      "description": "Rejection — Myanmar → Unspecified near Yoma, Sagain, Myanmar. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 22.15,
+      "lng": 95.0833,
+      "action": "Rejection (GDELT 128)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Yoma, Sagain, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailystar.net/slow-reads/focus/news/slave-raids-bengal-and-the-making-arakans-power-4296131",
+      "gdelt": {
+        "globalEventId": "1327421057",
+        "eventCode": "128",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -4.77,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327421058",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T19:30:00.000Z",
+      "description": "Rejection — Myanmar → Unspecified near Arakan, Yangon, Myanmar. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16.7769,
+      "lng": 96.1911,
+      "action": "Rejection (GDELT 128)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Arakan, Yangon, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailystar.net/slow-reads/focus/news/slave-raids-bengal-and-the-making-arakans-power-4296131",
+      "gdelt": {
+        "globalEventId": "1327421058",
+        "eventCode": "128",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -4.77,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327421059",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T19:30:00.000Z",
+      "description": "Assault — Myanmar → Unspecified near Arakan, Yangon, Myanmar. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16.7769,
+      "lng": 96.1911,
+      "action": "Assault (GDELT 180)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Arakan, Yangon, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailystar.net/slow-reads/focus/news/slave-raids-bengal-and-the-making-arakans-power-4296131",
+      "gdelt": {
+        "globalEventId": "1327421059",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.77,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327421062",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T19:30:00.000Z",
+      "description": "Fight — Myanmar → Unspecified near Toungoo, Bago, Myanmar. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 18.9333,
+      "lng": 96.4333,
+      "action": "Fight (GDELT 190)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Toungoo, Bago, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailystar.net/slow-reads/focus/news/slave-raids-bengal-and-the-making-arakans-power-4296131",
+      "gdelt": {
+        "globalEventId": "1327421062",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.77,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327421063",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T19:30:00.000Z",
+      "description": "Fight — Myanmar → Unspecified near Arakan, Yangon, Myanmar. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16.7769,
+      "lng": 96.1911,
+      "action": "Fight (GDELT 190)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Arakan, Yangon, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailystar.net/slow-reads/focus/news/slave-raids-bengal-and-the-making-arakans-power-4296131",
+      "gdelt": {
+        "globalEventId": "1327421063",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.77,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327421064",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T19:30:00.000Z",
+      "description": "Fight — Myanmar → Unspecified near Arakan, Yangon, Myanmar. Machine-coded by GDELT 2.1 (15 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16.7769,
+      "lng": 96.1911,
+      "action": "Fight (GDELT 190)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Arakan, Yangon, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailystar.net/slow-reads/focus/news/slave-raids-bengal-and-the-making-arakans-power-4296131",
+      "gdelt": {
+        "globalEventId": "1327421064",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.77,
+        "mentions": 15,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327421376",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T19:30:00.000Z",
+      "description": "Disapproval — Naga → Hill Tribes near Mogok, Ayeyarwady, Myanmar. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17.5333,
+      "lng": 95.4,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Naga",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Mogok, Ayeyarwady, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailystar.net/slow-reads/focus/news/slave-raids-bengal-and-the-making-arakans-power-4296131",
+      "gdelt": {
+        "globalEventId": "1327421376",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.77,
+        "mentions": 2,
         "sources": 1
       }
     },
@@ -4128,44 +4419,6 @@
       "lat": 15.79803,
       "lng": 94.77819,
       "coordsNote": "OSM geocode: matched \"Aung Hlaing\" → Aung Hlaing, Labutta Township, Labutta; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-4db8cq",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T20:37:00.000Z",
-      "description": "The Trump Administration’s Shift on Myanmar Is a Disastrous Decision - Council on Foreign Relations (Council on Foreign Relations, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Council on Foreign Relations",
-      "axis": "Other",
-      "tags": [
-        "Council on Foreign Relations",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Council on Foreign Relations",
-      "source": "Council on Foreign Relations",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmZlV2o5aXZLOENhTmNLQkYzUVZVZmJsTUFuTlNnV3ctT2tiOWdOZExQM1NuT1pOVjE0U2N6M1JUbjkyRS1nUUN6Zi1ad3NnQ2N4WmxRQzZ3S0NoVm95WjZQSEFKcFgxVFdSaGM0LWlXOWZUQ3RzYkJiSnBIdGJBR2tFNWFhdF9ETWtXTnlaSlZMN1NBNktvT2s5Qy0?oc=5"
-    },
-    {
-      "id": "news-lzgzej",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T18:43:41.000Z",
-      "description": "Trump administration opens direct talks with Myanmar junta, signals shift from isolation to engagement - The Economic Times (The Economic Times, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Economic Times",
-      "axis": "Other",
-      "tags": [
-        "The Economic Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Economic Times",
-      "source": "The Economic Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOYTNZSVc1OVN1aEFxaG5lWlF2cnlxOGkwc3FxanN4Y3RyUGNCWm5LVmRiY0JaZklFS3lOVndaRDZ3ZXB1SFdVNk0xbzN6Y1B6T0dObnp2azZGaUx6M0ZZZTBxRmRiNkdoc1ZFSnFkSGl0bVhuZGk1b3lJaDNWcDhpNjNwOVdfOUpXNjBNRm5WTmxZS0Rlbnc2dV9YS3dFRzFBeTY4WjlFLXkzYTNhOTZTX3ZVN3ZHc1E3NC1DSm1PejVRUWdEV2p1TndaNHFEXy1UWUxsZm1FajFNcVNlSFZKSW5jMHNyQTFLeTRpbWxwdmwxMnU0cktOb2R3dkVyWDVfbHlFOU5PcVZPc2pEX2pPRGI3ONIBmAJBVV95cUxPWm9Pam9Ld2ZXZjBCQUprNkl4aTB4alNqbml0MGNLQmV2TF9DaVczX2dyY3hjRFVxcTZiMGNNN0p5bmdhWkNOQVZIc1RkZEV6TjN4QjlvMzlqckFjWG9SRG04MGZUTnNfMXhiUHFPdjRTZDJsdFdmQ3FaajFsRXd3dnBhRTBsZGp2YnNlVFpHVzFHYVRlNjFyWWpVendsSmk2Nnc2ZG9ocDkxSVg3R0R3dThfbFNITWRuQTFhQUVoQmJTMVNqcndUTXhZZmV5NS1TSnBUQndTZ2lJTGR2SldpYXdvQ3FoWVB1SHVzaFhUTXhwOFlxQ1kyUVRtSm1JcDA5bWpoUTZERG5xZFlITGdSZHdEaEZpd2Yx?oc=5"
     }
   ]
 }

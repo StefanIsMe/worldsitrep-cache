@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-11T18:20:46.746Z",
+  "collectedAt": "2026-10-11T20:37:59.214Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 15
+      "count": 7
     },
     {
       "id": "taipei-times",
@@ -34,8 +34,8 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 40,
-      "filtered": 10
+      "count": 41,
+      "filtered": 9
     },
     {
       "id": "dw-asia",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 280,
+  "count": 287,
   "events": [
     {
       "id": "news-1s41qz4",
@@ -264,6 +264,25 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/10/12/2003865798"
+    },
+    {
+      "id": "news-e2436n",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T16:00:11.000Z",
+      "description": "Putin aide looks to boost Russian shipbuilding ties with China during visit (SCMP, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3370497/putin-aide-looks-boost-russian-shipbuilding-ties-china-during-visit?utm_source=rss_feed"
     },
     {
       "id": "news-1cuxgyl",
@@ -1807,6 +1826,244 @@
         "quadClass": 3,
         "goldstein": -6.5,
         "tone": 1.38,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327417265",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T18:45:00.000Z",
+      "description": "Demand — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Demand (GDELT 100)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/editorials/archives/2026/10/12/2003865793",
+      "gdelt": {
+        "globalEventId": "1327417265",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -9.28,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327417748",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T18:45:00.000Z",
+      "description": "Force posture — Military → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Force posture (GDELT 150)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/editorials/archives/2026/10/12/2003865793",
+      "gdelt": {
+        "globalEventId": "1327417748",
+        "eventCode": "150",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -9.28,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327417929",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T18:45:00.000Z",
+      "description": "Disapproval — Taiwan → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/editorials/archives/2026/10/12/2003865793",
+      "gdelt": {
+        "globalEventId": "1327417929",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -9.28,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327423473",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T20:00:00.000Z",
+      "description": "Force posture — King → Military near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Force posture (GDELT 150)",
+      "actor": "King",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5603080",
+      "gdelt": {
+        "globalEventId": "1327423473",
+        "eventCode": "150",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": 1.9,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327423598",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T20:00:00.000Z",
+      "description": "Threat — Military Police → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 138)",
+      "actor": "Military Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5603078",
+      "gdelt": {
+        "globalEventId": "1327423598",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -2.21,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327423599",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T20:00:00.000Z",
+      "description": "Assault — Military Police → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Assault (GDELT 180)",
+      "actor": "Military Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5603078",
+      "gdelt": {
+        "globalEventId": "1327423599",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -2.21,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327423600",
+      "kind": "event",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T00:00:00.000Z",
+      "observedAt": "2026-10-11T20:00:00.000Z",
+      "description": "Fight — Military Police → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Fight (GDELT 190)",
+      "actor": "Military Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5603078",
+      "gdelt": {
+        "globalEventId": "1327423600",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.21,
         "mentions": 3,
         "sources": 1
       }
@@ -8129,25 +8386,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/us/science-technology/article/3370243/pentagon-unveils-us350-million-quantum-computing-push-china-rivalry-grows?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1lqn7rr",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T19:05:23.000Z",
-      "description": "US probes Harvard, Yale, MIT, other universities over alleged visa fraud, with China focus (SCMP, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/us/article/3370239/us-investigates-9-universities-over-alleged-visa-fraud-focus-china?utm_source=rss_feed"
     }
   ]
 }
