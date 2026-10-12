@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-11T22:19:42.014Z",
+  "collectedAt": "2026-10-12T00:01:42.956Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -27,8 +27,8 @@
       "id": "gnews-election",
       "url": "https://news.google.com/rss/search?q=US%20election%20Trump%202028&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 40,
-      "filtered": 10
+      "count": 41,
+      "filtered": 9
     },
     {
       "id": "gnews-policy",
@@ -41,8 +41,8 @@
       "id": "thehill",
       "url": "https://thehill.com/feed/",
       "status": "ok",
-      "count": 28,
-      "filtered": 22
+      "count": 29,
+      "filtered": 21
     },
     {
       "id": "politico-congress",
@@ -101,8 +101,27 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 226,
+  "count": 217,
   "events": [
+    {
+      "id": "news-12mm1f3",
+      "kind": "news",
+      "date": "2026-10-11",
+      "isoDate": "2026-10-11T22:54:10.000Z",
+      "description": "Lawmakers in bipartisan statement push back on Trump over Russian oil (The Hill, 2026-10-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/senate/6141837-senate-lawmakers-condemn-russian-oil-deal/"
+    },
     {
       "id": "news-1wg61lh",
       "kind": "news",
@@ -1112,7 +1131,7 @@
       "kind": "news",
       "date": "2026-10-10",
       "isoDate": "2026-10-10T20:50:27.000Z",
-      "description": "Sunday shows preview: Trump admin&#8217;s Russia deal, public execution plan spark pre-midterm backlash (The Hill, 2026-10-10. Headline + link only.)",
+      "description": "Sunday shows preview: Trump&#8217;s Russia deal, public execution plan spark pre-midterm backlash (The Hill, 2026-10-10. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "The Hill",
@@ -1125,29 +1144,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/sunday-talk-shows/6140761-trump-russian-deal-executions-sunday-shows/"
-    },
-    {
-      "id": "news-1ggrelq",
-      "kind": "news",
-      "date": "2026-10-10",
-      "isoDate": "2026-10-10T19:38:00.000Z",
-      "description": "Election Dispatches: James Talarico Returns to Campaign Trail in Texas After Absence Raised Questions - The New York Times (The New York Times, 2026-10-10. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPc2NOTmVTTjdyM092d2VoNnRrWlNnQjlMQUVlYXJqUE9FWWg0TmNhaFZPZ3o4NVZMSmI0Mk0wRnVHYWc4VVNqcGlPcWhaU2w0TFJGNmdZeXhfamNnN3RvLTllNXYwekUzc1ROVGVR?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
       "id": "news-1p5pfd2",
@@ -1788,6 +1784,29 @@
       "locationStr": "New York",
       "source": "Politico",
       "sourceUrl": "https://www.politico.com/news/2026/10/09/trump-boosts-a-new-york-ally-in-a-tough-race-01115656",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
+      "id": "news-1ggrelq",
+      "kind": "news",
+      "date": "2026-10-10",
+      "isoDate": "2026-10-10T01:08:45.000Z",
+      "description": "Election Dispatches: James Talarico Returns to Campaign Trail in Texas After Absence Raised Questions - The New York Times (The New York Times, 2026-10-10. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPc2NOTmVTTjdyM092d2VoNnRrWlNnQjlMQUVlYXJqUE9FWWg0TmNhaFZPZ3o4NVZMSmI0Mk0wRnVHYWc4VVNqcGlPcWhaU2w0TFJGNmdZeXhfamNnN3RvLTllNXYwekUzc1ROVGVR?oc=5",
       "lat": 40.71,
       "lng": -74,
       "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
@@ -4338,196 +4357,6 @@
       "locationStr": "Politico",
       "source": "Politico",
       "sourceUrl": "https://www.politico.com/live-updates/2026/10/08/congress/aipac-and-the-michigan-senate-race-01113266"
-    },
-    {
-      "id": "news-1gs5kjb",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T23:57:14.000Z",
-      "description": "Live updates: El-Sayed, Rogers clash at Michigan Senate debate (The Hill, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6135113-live-updates-trump-midterm-elections-debates-tech-iran/"
-    },
-    {
-      "id": "news-8gw05a",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T23:14:00.000Z",
-      "description": "Anthropic is launching a 'presidential engagement' effort to advise candidates on AI policy ahead of the 2028 election - Fortune (Fortune, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Fortune",
-      "axis": "Other",
-      "tags": [
-        "Fortune",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Fortune",
-      "source": "Fortune",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSk9lbDZlSVFIVlZ1aXZKMzNxWkJudG1aVHN6cXc3bXhwTnVhMUZvcDZxdTlkNGVwR0ZEVEZUTzJCenlMN19TeDJ3cHdiU0dPMGVLWjlRbnBiMXVHX2lrTWx4ZlZnb25MdGZhTmdPdU1lQ3FibVQ0MFhaNmtuaG1OTmpQVnBMa1o2dEZBYXlJa192eWVFU0JyN0p3WEZFVlgtZk9LTkZPWXRseU83ZHo0?oc=5"
-    },
-    {
-      "id": "news-16xykzt",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T23:12:33.000Z",
-      "description": "California threatens to worsen House Democrats' 2027 headaches (Axios, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/10/08/california-house-elections-democrats-jeffries"
-    },
-    {
-      "id": "news-9j2122",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T22:51:33.000Z",
-      "description": "Can $1 billion power the GOP to victory in the midterms? Some campaigns fear it's too late (PBS NewsHour, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/can-1-billion-power-the-gop-to-victory-in-the-midterms-some-campaigns-fear-its-too-late"
-    },
-    {
-      "id": "news-1igxjd4",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T22:45:14.000Z",
-      "description": "News Wrap: Judge extends White House access for news outlets (PBS NewsHour, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/show/news-wrap-judge-extends-white-house-access-for-news-outlets"
-    },
-    {
-      "id": "news-1hfagvo",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T22:40:33.000Z",
-      "description": "Botched execution reignites debate surrounding death penalty (PBS NewsHour, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/show/botched-execution-reignites-debate-surrounding-death-penalty"
-    },
-    {
-      "id": "news-y3rka6",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T22:35:31.000Z",
-      "description": "Netanyahu's handling of Oct. 7 emerges as key issue in Israeli election (PBS NewsHour, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/show/netanyahus-handling-of-oct-7-emerges-as-key-issue-in-israeli-election"
-    },
-    {
-      "id": "news-1hqci2u",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T22:30:21.000Z",
-      "description": "Utah Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tc0h2SEhlSnJHSDBCeGtHeWREbGRrM3FMME9hbDdCX3hQd3pSejI2X2gyRE15ZVpYVk55S3M5cDNJMTk5NklZWGxnbmhsTFdkX2Rwaks5aGtGSEpHQ1FNTndKVzZLbnVDaUJJTA?oc=5"
-    },
-    {
-      "id": "news-yhmikr",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T22:30:21.000Z",
-      "description": "Nebraska Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WWWl2V2pHZ0daSFltdG1zaU5xLWx4QkhSWUtrcUtlYm9XSDBack85dnlZZnlkY3RLZ1dlQ01sR0hhem9KeXZmWjVHMWlBWUE2aDEybzgxNGlVQzVKbXR0MlVWdDU1dUVSNjdPc3pEWkJ0QQ?oc=5"
-    },
-    {
-      "id": "news-c1esmy",
-      "kind": "news",
-      "date": "2026-10-08",
-      "isoDate": "2026-10-08T22:30:05.000Z",
-      "description": "Democrats are betting on pastors and ministers in the midterms (PBS NewsHour, 2026-10-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/show/democrats-are-betting-on-pastors-and-ministers-in-the-midterms"
     }
   ]
 }
