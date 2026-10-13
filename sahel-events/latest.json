@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-13T01:10:18.774Z",
+  "collectedAt": "2026-10-13T03:56:54.965Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "id": "aa-mali",
@@ -27,7 +27,7 @@
       "id": "aa-niger",
       "url": "https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf",
       "status": "ok",
-      "count": 10,
+      "count": 9,
       "filtered": 4
     },
     {
@@ -101,8 +101,42 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 62,
+  "count": 63,
   "events": [
+    {
+      "id": "gdelt-1327623131",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T01:15:00.000Z",
+      "description": "Assault — Armed Group → Unspecified near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Armed Group",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://punchng.com/child-soldier-us-threatens-to-cut-military-aid-to-nigeria/",
+      "gdelt": {
+        "globalEventId": "1327623131",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -9.09,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
     {
       "id": "gdelt-1327480211",
       "kind": "event",

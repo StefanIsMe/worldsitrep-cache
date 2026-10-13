@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-13T01:10:18.774Z",
+  "collectedAt": "2026-10-13T03:56:54.965Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 7,
-      "filtered": 43
+      "count": 10,
+      "filtered": 40
     },
     {
       "id": "gnews-arms",
@@ -80,8 +80,65 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 218,
+  "count": 220,
   "events": [
+    {
+      "id": "news-qflkgs",
+      "kind": "news",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T03:35:32.000Z",
+      "description": "China-linked hackers breached Fiji organization, US Embassy says (Straits Times, 2026-10-13. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/china-linked-hackers-breached-fiji-organization-us-embassy-says"
+    },
+    {
+      "id": "news-13xdh3b",
+      "kind": "news",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T03:25:21.000Z",
+      "description": "Taiwan finance minister to attend APEC meeting in Hong Kong (Straits Times, 2026-10-13. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/taiwan-finance-minister-to-attend-apec-meeting-in-hong-kong"
+    },
+    {
+      "id": "news-dgz6x9",
+      "kind": "news",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T02:00:30.000Z",
+      "description": "US says it opposes Chinese ‘coercion’ after Belize, Paraguay ministers sanctioned (Straits Times, 2026-10-13. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/us-says-it-opposes-chinese-coercion-after-belize-paraguay-ministers-sanctioned"
+    },
     {
       "id": "news-3a7i2c",
       "kind": "news",
@@ -200,6 +257,142 @@
         "goldstein": -5,
         "tone": -5.7,
         "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327623129",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T01:15:00.000Z",
+      "description": "Coercion — Taiwan → Indianapolis near Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.wbko.com/2026/10/12/taiwan-woman-charged-with-credit-card-fraud-bowling-green-police-say/",
+      "gdelt": {
+        "globalEventId": "1327623129",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -13,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327632175",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T03:00:00.000Z",
+      "description": "Reduced relations — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Reduced relations (GDELT 161)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/10/13/us-opposes-china-s-coercion-against-taiwan-s-diplomatic-allies",
+      "gdelt": {
+        "globalEventId": "1327632175",
+        "eventCode": "161",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -1.81,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327632176",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T03:00:00.000Z",
+      "description": "Rejection — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Rejection (GDELT 120)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/10/13/us-opposes-china-s-coercion-against-taiwan-s-diplomatic-allies",
+      "gdelt": {
+        "globalEventId": "1327632176",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -1.81,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327633717",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T03:15:00.000Z",
+      "description": "Disapproval — Qualcomm → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Qualcomm",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://itbusinessnet.com/2026/10/gfiber-qualcomm-and-gemtek-unveil-an-ai-native-wi-fi-8-broadband-gateway-at-network-x-2026/",
+      "gdelt": {
+        "globalEventId": "1327633717",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 4.12,
+        "mentions": 10,
         "sources": 1
       }
     },
@@ -402,7 +595,7 @@
       "kind": "news",
       "date": "2026-10-12",
       "isoDate": "2026-10-12T21:45:31.000Z",
-      "description": "North Korea test-fires tactical ballistic missile, KCNA says (Straits Times, 2026-10-12. Headline + link only.)",
+      "description": "North Korea’s Kim showcases missile capable of reaching US as Trump signals possible meeting (Straits Times, 2026-10-12. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Straits Times",
@@ -6237,101 +6430,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/se-asia/philippine-president-marcos-looks-to-singapore-to-build-on-asean-digital-pact-amid-us-china-rivalry"
-    },
-    {
-      "id": "news-clbro2",
-      "kind": "news",
-      "date": "2026-10-10",
-      "isoDate": "2026-10-10T03:19:50.000Z",
-      "description": "Taiwan’s leader says increasing defence spending will ‘deter war’ (Straits Times, 2026-10-10. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/taiwan-cherishes-peace-but-will-not-give-up-its-freedom-president-says"
-    },
-    {
-      "id": "news-irm0to",
-      "kind": "news",
-      "date": "2026-10-10",
-      "isoDate": "2026-10-10T03:00:12.000Z",
-      "description": "Will Taiwan issue derail Washington and Beijing’s latest reset? Analysts are sceptical (SCMP, 2026-10-10. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3370402/will-taiwan-issue-derail-washington-and-beijings-latest-reset-analysts-are-sceptical?utm_source=rss_feed"
-    },
-    {
-      "id": "news-xtrlzc",
-      "kind": "news",
-      "date": "2026-10-10",
-      "isoDate": "2026-10-10T02:01:07.000Z",
-      "description": "Why a Communist Party boss had a coffee shop date with Chinese content creators (SCMP, 2026-10-10. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3370417/why-communist-party-boss-had-coffee-shop-date-chinese-content-creators?utm_source=rss_feed"
-    },
-    {
-      "id": "news-zttxrz",
-      "kind": "news",
-      "date": "2026-10-10",
-      "isoDate": "2026-10-10T01:30:04.000Z",
-      "description": "Modi and Xi can’t bridge the India-China divide by themselves (SCMP, 2026-10-10. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/opinion/china-opinion/article/3370033/modi-and-xi-cant-bridge-india-china-divide-themselves?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1je88xn",
-      "kind": "news",
-      "date": "2026-10-10",
-      "isoDate": "2026-10-10T01:15:04.000Z",
-      "description": "US says Chinese actions off Taiwan’s east coast are ‘deeply destabilising’ (Straits Times, 2026-10-10. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/us-says-chinese-actions-off-taiwan-are-deeply-destabilising"
     }
   ]
 }
