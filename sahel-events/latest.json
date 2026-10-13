@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-13T08:14:18.826Z",
+  "collectedAt": "2026-10-13T12:13:48.429Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 4
     },
     {
       "id": "aa-mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
       "status": "ok",
       "count": 10,
-      "filtered": 9
+      "filtered": 10
     },
     {
       "id": "aa-burkina",
@@ -41,8 +41,8 @@
       "id": "rfi-africa",
       "url": "https://www.rfi.fr/en/africa/rss",
       "status": "ok",
-      "count": 8,
-      "filtered": 22
+      "count": 7,
+      "filtered": 23
     },
     {
       "id": "france24-africa",
@@ -70,7 +70,7 @@
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 0,
-      "filtered": 5
+      "filtered": 6
     },
     {
       "id": "gnews-jnim",
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 63,
+  "count": 67,
   "events": [
     {
       "id": "gdelt-1327623131",
@@ -134,6 +134,142 @@
         "goldstein": -9,
         "tone": -9.09,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327668355",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T08:45:00.000Z",
+      "description": "Demand — Unspecified → Authorities near Ouagadougou, Kadiogo, Burkina Faso. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.3703,
+      "lng": -1.52472,
+      "action": "Demand (GDELT 100)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Ouagadougou, Kadiogo, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610130095.html",
+      "gdelt": {
+        "globalEventId": "1327668355",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -2.55,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327668359",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T08:45:00.000Z",
+      "description": "Disapproval — Unspecified → Authorities near Ouagadougou, Kadiogo, Burkina Faso. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.3703,
+      "lng": -1.52472,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Ouagadougou, Kadiogo, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610130095.html",
+      "gdelt": {
+        "globalEventId": "1327668359",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.55,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327668959",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T08:45:00.000Z",
+      "description": "Demand — Sunni → Authorities near Ouagadougou, Kadiogo, Burkina Faso. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.3703,
+      "lng": -1.52472,
+      "action": "Demand (GDELT 100)",
+      "actor": "Sunni",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Ouagadougou, Kadiogo, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610130095.html",
+      "gdelt": {
+        "globalEventId": "1327668959",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -2.55,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327690998",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T11:15:00.000Z",
+      "description": "Fight — Bandit → Niger near Niger. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16,
+      "lng": 8,
+      "action": "Fight (GDELT 190)",
+      "actor": "Bandit",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thisdaylive.com/2026/10/13/bandits-kill-immigration-officer-in-niger-injure-another/",
+      "gdelt": {
+        "globalEventId": "1327690998",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.43,
+        "mentions": 4,
         "sources": 1
       }
     },
