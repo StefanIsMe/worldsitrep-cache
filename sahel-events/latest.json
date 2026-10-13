@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-13T19:34:46.475Z",
+  "collectedAt": "2026-10-13T21:27:07.404Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "id": "aa-mali",
@@ -90,7 +90,7 @@
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 47,
+      "count": 48,
       "filtered": 0
     },
     {
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 70,
+  "count": 71,
   "events": [
     {
       "id": "news-1ehyqf2",
@@ -395,6 +395,40 @@
         "goldstein": -4.4,
         "tone": -0.83,
         "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327780916",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T21:00:00.000Z",
+      "description": "Disapproval — Unspecified → Government near Niger. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 1124)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://blueprint.ng/tinubu-deserves-another-4-year-tenure-to-complete-road-projects-umahi/",
+      "gdelt": {
+        "globalEventId": "1327780916",
+        "eventCode": "1124",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.64,
+        "mentions": 3,
         "sources": 1
       }
     },
