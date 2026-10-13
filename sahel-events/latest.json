@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-13T12:13:48.429Z",
+  "collectedAt": "2026-10-13T16:18:09.676Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "id": "aa-mali",
@@ -62,15 +62,15 @@
       "id": "africanews",
       "url": "https://www.africanews.com/feed/",
       "status": "ok",
-      "count": 0,
-      "filtered": 50
+      "count": 1,
+      "filtered": 49
     },
     {
       "id": "dw-africa",
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 0,
-      "filtered": 6
+      "filtered": 5
     },
     {
       "id": "gnews-jnim",
@@ -101,8 +101,31 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 67,
+  "count": 69,
   "events": [
+    {
+      "id": "news-1ehyqf2",
+      "kind": "news",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T14:51:03.000Z",
+      "description": "Severe environmental incident declared in Niger after oil blowout (Africanews, 2026-10-13. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Africanews",
+      "axis": "Other",
+      "tags": [
+        "Africanews",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Niger",
+      "source": "Africanews",
+      "sourceUrl": "http://www.africanews.com/2026/10/13/severe-environmental-incident-declared-in-niger-after-oil-blowout/",
+      "lat": 17.73562,
+      "lng": 9.32384,
+      "coordsNote": "OSM geocode: matched \"Niger\" → Niger; © OpenStreetMap contributors."
+    },
     {
       "id": "gdelt-1327623131",
       "kind": "event",
@@ -269,6 +292,108 @@
         "quadClass": 4,
         "goldstein": -10,
         "tone": -6.43,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327717348",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T14:00:00.000Z",
+      "description": "Threat — Niger → Niger near Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Threat (GDELT 130)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/nigeria-natural-resources-explained-2026/",
+      "gdelt": {
+        "globalEventId": "1327717348",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -0.83,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327717350",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T14:00:00.000Z",
+      "description": "Threat — Niger → Niger near Niger. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Threat (GDELT 130)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/nigeria-natural-resources-explained-2026/",
+      "gdelt": {
+        "globalEventId": "1327717350",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -0.83,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327717357",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T14:00:00.000Z",
+      "description": "Threat — Katsina → Niger near Niger. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Threat (GDELT 130)",
+      "actor": "Katsina",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/nigeria-natural-resources-explained-2026/",
+      "gdelt": {
+        "globalEventId": "1327717357",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -0.83,
         "mentions": 4,
         "sources": 1
       }
@@ -2297,44 +2422,6 @@
       "locationStr": "AllAfrica Niger",
       "source": "AllAfrica Niger",
       "sourceUrl": "https://allafrica.com/stories/202610100171.html"
-    },
-    {
-      "id": "news-1u41v49",
-      "kind": "news",
-      "date": "2026-10-10",
-      "isoDate": "2026-10-10T13:25:20.000Z",
-      "description": "UN alarmed as number of displaced in central Sahel reaches nearly four million - RFI (RFI, 2026-10-10. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "RFI",
-      "axis": "Other",
-      "tags": [
-        "RFI",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "RFI",
-      "source": "RFI",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQa1BOcHFKTm1DUHpPaE5nVl85dGVrcjZ3RjRoSEtwMDBEQXdWblV4bXl2YzI3Q01ESHg4OTFmUHVzNktsR3J4ZjBBQzZPQ0lhRDJ1c1U5ajMwMUI4Yk9raFA4ZXZfbnFLYnY0ZUxtaEdLUmFmbVJFY0Rha2hBVUo1NTBKaWZmdTRtcHVoS3NJb2paNlU2ZklpeUlPNXZLWVhWbUhXTzJvckQtTC0yOFoySFZIWmtXeHc?oc=5"
-    },
-    {
-      "id": "news-66wjj0",
-      "kind": "news",
-      "date": "2026-10-10",
-      "isoDate": "2026-10-10T13:25:20.000Z",
-      "description": "UN alarmed as number of displaced in central Sahel reaches nearly four million (RFI Africa, 2026-10-10. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "RFI Africa",
-      "axis": "Other",
-      "tags": [
-        "RFI Africa",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "RFI Africa",
-      "source": "RFI Africa",
-      "sourceUrl": "https://www.rfi.fr/en/africa/20261010-un-alarmed-as-number-of-displaced-in-central-sahel-reaches-nearly-four-million"
     }
   ]
 }
