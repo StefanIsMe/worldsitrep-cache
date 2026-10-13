@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-13T21:27:07.404Z",
+  "collectedAt": "2026-10-13T23:27:12.621Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 1
+      "count": 2
     },
     {
       "id": "aa-mali",
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 71,
+  "count": 72,
   "events": [
     {
       "id": "news-1ehyqf2",
@@ -429,6 +429,74 @@
         "goldstein": -2,
         "tone": 0.64,
         "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327788009",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T22:00:00.000Z",
+      "description": "Fight — Islamic → Unspecified near Mali. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 17,
+      "lng": -4,
+      "action": "Fight (GDELT 190)",
+      "actor": "Islamic",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.christiandaily.com/news/christian-humanitarian-worker-slain-in-northwest-nigeria",
+      "gdelt": {
+        "globalEventId": "1327788009",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.87,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327795283",
+      "kind": "event",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T00:00:00.000Z",
+      "observedAt": "2026-10-13T23:00:00.000Z",
+      "description": "Disapproval — Niger → Government near Niger. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 1124)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://tribuneonlineng.com/fg-executing-5500km-road-projects-nationwide-umahi/",
+      "gdelt": {
+        "globalEventId": "1327795283",
+        "eventCode": "1124",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.88,
+        "mentions": 7,
         "sources": 1
       }
     },
@@ -2456,25 +2524,6 @@
       "locationStr": "Eurasia Review",
       "source": "Eurasia Review",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdVlyQnZSWjNpeHdLSTd6YlFHWm9VeDF2Q2pjaVhuam9kaVczdkwyUDY4RlA0VjhVaWJFREh4Q1I1RVFoNGZfZ2ZUVHFiMXE5aDFjamZzdkxoNW9rUjYzQ3dNWllfR0sta2pEZmxLTXNQbDFVT1h2bTM5QmllSmhjNmxzT3pPQXZ3VjI4cVQ2dw?oc=5"
-    },
-    {
-      "id": "news-1qvq5y3",
-      "kind": "news",
-      "date": "2026-10-10",
-      "isoDate": "2026-10-10T23:24:38.000Z",
-      "description": "Niger Intelligence Agents Expelled From France in Sign of Diplomatic Strain (AllAfrica Niger, 2026-10-10. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AllAfrica Niger",
-      "axis": "Other",
-      "tags": [
-        "AllAfrica Niger",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AllAfrica Niger",
-      "source": "AllAfrica Niger",
-      "sourceUrl": "https://allafrica.com/stories/202610100171.html"
     }
   ]
 }
