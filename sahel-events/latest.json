@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-14T11:31:05.781Z",
+  "collectedAt": "2026-10-14T14:05:23.741Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 1
+      "count": 3
     },
     {
       "id": "aa-mali",
@@ -62,8 +62,8 @@
       "id": "africanews",
       "url": "https://www.africanews.com/feed/",
       "status": "ok",
-      "count": 2,
-      "filtered": 48
+      "count": 3,
+      "filtered": 47
     },
     {
       "id": "dw-africa",
@@ -101,8 +101,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 39,
+  "count": 44,
   "events": [
+    {
+      "id": "news-iuhwfm",
+      "kind": "news",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T13:30:57.000Z",
+      "description": "Mali hosts more than 322,000 refugees and asylum seekers (Africanews, 2026-10-14. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Africanews",
+      "axis": "Other",
+      "tags": [
+        "Africanews",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Africanews",
+      "source": "Africanews",
+      "sourceUrl": "http://www.africanews.com/2026/10/14/mali-hosts-more-than-322000-refugees-and-asylum-seekers/"
+    },
     {
       "id": "news-1y13i4v",
       "kind": "news",
@@ -223,6 +242,127 @@
         "mentions": 5,
         "sources": 1
       }
+    },
+    {
+      "id": "gdelt-1327897590",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T12:45:00.000Z",
+      "description": "Coercion — Lawyer → Government near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Lawyer",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ifj.org/media-centre/news/detail/category/press-freedom/article/senegal-faj-calls-on-the-african-commission-and-african-states-to-protect-journalists-investigate-attacks-and-end-the-culture-of-impunity",
+      "gdelt": {
+        "globalEventId": "1327897590",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -7.59,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327905896",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T13:30:00.000Z",
+      "description": "Disapproval — Niger → France near Niamey, Niamey, Niger. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5167,
+      "lng": 2.11667,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Niamey, Niamey, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africanews.com/2026/10/14/act-of-ingratitude-niger-condemns-expulsion-of-security-agents-from-france/",
+      "gdelt": {
+        "globalEventId": "1327905896",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -9.27,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327905897",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T13:30:00.000Z",
+      "description": "Disapproval — Niger → France near Niamey, Niamey, Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5167,
+      "lng": 2.11667,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Niamey, Niamey, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africanews.com/2026/10/14/act-of-ingratitude-niger-condemns-expulsion-of-security-agents-from-france/",
+      "gdelt": {
+        "globalEventId": "1327905897",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -9.27,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "news-1v2zo81",
+      "kind": "news",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T18:30:05.000Z",
+      "description": "Contributions of the Alliance of Sahel States to the African and World Revolutions - Black Agenda Report (Black Agenda Report, 2026-10-13. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Black Agenda Report",
+      "axis": "Other",
+      "tags": [
+        "Black Agenda Report",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Black Agenda Report",
+      "source": "Black Agenda Report",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZEJFanEzMzQxS0FxTUVsYkNTTUFFUmp1MHM5ME5EMzZpclVaOXNtdnlDcUVuSHdncG9OdnU3Z3Q2cHlqTG45NmV6R0JfTHB4SVVvVHFqbklxMHJRNXhKTTJzT2xtR2twR1U2U1NwT0JSYUZ0T0RFQUNKU2JMb2NkWE9DZ0ZwOElTR0Iyd0FXVnVnNkI1d0VGal9oTGtXc29O?oc=5"
     },
     {
       "id": "news-1ehyqf2",
