@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-10-14T05:56:12.583Z",
+  "collectedAt": "2026-10-14T08:03:30.135Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 33
+      "count": 11
     },
     {
       "id": "gnews-france-protests",
@@ -35,14 +35,14 @@
       "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml",
       "status": "ok",
       "count": 2,
-      "filtered": 20
+      "filtered": 25
     },
     {
       "id": "rfi-en",
       "url": "https://www.rfi.fr/en/rss",
       "status": "ok",
       "count": 2,
-      "filtered": 20
+      "filtered": 19
     },
     {
       "id": "reliefweb",
@@ -52,7 +52,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 1051,
+  "count": 1061,
   "events": [
     {
       "id": "news-ujzen0",
@@ -76,6 +76,25 @@
       "lat": 50.63,
       "lng": 3.07,
       "coordsNote": "Headline gazetteer match: \"Lille\" (city); verify via source article."
+    },
+    {
+      "id": "news-1mnfcht",
+      "kind": "news",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T03:00:06.000Z",
+      "description": "As school holidays approach, mobilized high schoolers call on university students and Yellow Vest activists to take up the torch - Le Monde.fr (Le Monde.fr, 2026-10-14. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Le Monde.fr",
+      "axis": "Other",
+      "tags": [
+        "Le Monde.fr",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Le Monde.fr",
+      "source": "Le Monde.fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNQlJ4cWUyRVNiY2NFRlRmdDJPNHhXS1psNTliMjVvanJFdl93enFDZmxmZ0ZZd05lbkJkNGtYNDJja09QVF9LVEVZNDJjRUJaZ3hNTExZQjJaNkp6X1AzZnJsalk1ZHluZ25hYlNPaXlWMjlXNGhiSnRCbkNOU0lVUl9sVUxzRWNxSm90b0ZsR3pVSkxQYXBNVDNSbVZyX2IxVTFYZ1FjX0ItVVZaR0NfcG1BTlVQNEJKRnh3d2c1UlVaOGdtazI4ZnVNanRQRjhEQ2RzS0kxUkdhazBKNXJTR1ZEeWVmSDZoVktVU1JjV05odXl5UTZxWHptSGJ6MExnREZzQmg4bzJLMjFvb0hDdGU4aWVselViR0I1MWdKRXExa09EQUJodjJUcWNfTDg5Nl8tbVoyZDNmczloT0JtMEI2bEl2dw?oc=5"
     },
     {
       "id": "gdelt-1327799681",
@@ -2623,6 +2642,380 @@
         "quadClass": 3,
         "goldstein": -6.5,
         "tone": -5.5,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327839395",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T06:00:00.000Z",
+      "description": "Protest — Protester → Paris near Paris, France (general), France. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Protest (GDELT 141)",
+      "actor": "Protester",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.brisbanetimes.com.au/world/north-america/world-in-pictures-this-week-october-15-2026-20261014-p615iv.html",
+      "gdelt": {
+        "globalEventId": "1327839395",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -1.67,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327842930",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T06:30:00.000Z",
+      "description": "Threat — France → Unspecified near Paris, France (general), France. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Threat (GDELT 130)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.co.uk/articles/why-champions-league-campaign-feels-055218000.html",
+      "gdelt": {
+        "globalEventId": "1327842930",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 0.1,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327842931",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T06:30:00.000Z",
+      "description": "Threat — France → Unspecified near Paris, France (general), France. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Threat (GDELT 138)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.co.uk/articles/why-champions-league-campaign-feels-055218000.html",
+      "gdelt": {
+        "globalEventId": "1327842931",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": 0.1,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327844808",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T06:45:00.000Z",
+      "description": "Fight — French → Unspecified near France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 46,
+      "lng": 2,
+      "action": "Fight (GDELT 192)",
+      "actor": "French",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
+      "gdelt": {
+        "globalEventId": "1327844808",
+        "eventCode": "192",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": 0.73,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327846574",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T07:00:00.000Z",
+      "description": "Fight — France → Unspecified near France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 46,
+      "lng": 2,
+      "action": "Fight (GDELT 193)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://theconversation.com/loops-flashbacks-and-fractured-narratives-why-filmmakers-love-to-play-with-time-291671",
+      "gdelt": {
+        "globalEventId": "1327846574",
+        "eventCode": "193",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -1.09,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327849115",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T07:15:00.000Z",
+      "description": "Rejection — Military → Unspecified near Paris, France (general), France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/chad-france-defence-declaration-2026/",
+      "gdelt": {
+        "globalEventId": "1327849115",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -0.74,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327849308",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T07:15:00.000Z",
+      "description": "Fight — Chad → Central African Republic near Paris, France (general), France. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Fight (GDELT 192)",
+      "actor": "Chad",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/chad-france-defence-declaration-2026/",
+      "gdelt": {
+        "globalEventId": "1327849308",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -0.74,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327852789",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T07:45:00.000Z",
+      "description": "Disapproval — French → Unspecified near France. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "French",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://canadafreepress.com/article/is-a-cute-dog-better-than-an-ugly-one",
+      "gdelt": {
+        "globalEventId": "1327852789",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 5.85,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327855218",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T08:00:00.000Z",
+      "description": "Disapproval — European → Unspecified near Paris, France (general), France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "European",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.manilatimes.net/2026/10/14/tmt-newswire/globenewswire/the-omoda-family-shines-at-the-2026-paris-motor-show-two-model-debuts-showcase-individuality-and-style-opening-a-new-chapter-in-europe/2445273",
+      "gdelt": {
+        "globalEventId": "1327855218",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 5.81,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327855233",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T08:00:00.000Z",
+      "description": "Disapproval — Paris → Unspecified near Paris, France (general), France. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Paris",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.manilatimes.net/2026/10/14/tmt-newswire/globenewswire/the-omoda-family-shines-at-the-2026-paris-motor-show-two-model-debuts-showcase-individuality-and-style-opening-a-new-chapter-in-europe/2445273",
+      "gdelt": {
+        "globalEventId": "1327855233",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 5.81,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1327855234",
+      "kind": "event",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T00:00:00.000Z",
+      "observedAt": "2026-10-14T08:00:00.000Z",
+      "description": "Threat — Paris → Unspecified near Barrot, Auvergne, France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46.1026,
+      "lng": 2.76841,
+      "action": "Threat (GDELT 130)",
+      "actor": "Paris",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Barrot, Auvergne, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.co.uk/articles/france-toughens-fight-against-foreign-072315000.html",
+      "gdelt": {
+        "globalEventId": "1327855234",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -9.07,
         "mentions": 10,
         "sources": 1
       }
@@ -34361,44 +34754,6 @@
       "locationStr": "France 24",
       "source": "France 24",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMUIwWGNacWVxeHF1V3dxdFZpTExZQXVyalFBSnc4OUpWQW5iMHFwRmRiTWtFTW5vM3Q1X2JCYmV2ZGRib2p4MGoxZFJTLUh5NmdfYWV4OVlEbkN3WHVuZ2l3bUg5UDJTbGUtVEotLWtZYVFnLUEycms2NVhCOFBmZ3ZaOU5OZHZpUkVGUlpPc005d2dSVGhGYXk1bGJrQnROWEhVZ3VWUXdMUmp2SWdxR2dJODZWcVAtNllfbWt6VjRiQ0ZRY3NVUFcyQ0N0R0dXbzZn?oc=5"
-    },
-    {
-      "id": "news-wr2yjj",
-      "kind": "news",
-      "date": "2026-10-11",
-      "isoDate": "2026-10-11T07:00:00.000Z",
-      "description": "Paris Police Disperse Thousands Protesting School Conditions - The New York Times (The New York Times, 2026-10-11. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New York Times",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOemRha3VQVG9VekNqYVp6VjdBYWJsd0g5aTlvWlFvZTMtbzRZYllWTk1NSi1OS2JESTJhY2FpMndNR08xd0RtMWpaWmtiaVVqcWNpR0l4bnRldTRJQUotOTNlU2V6dDI1OEtqWHRLa200bVdTWFltZUZoeUJuTWRCblgzTlE?oc=5"
-    },
-    {
-      "id": "news-1g9xhfk",
-      "kind": "news",
-      "date": "2026-10-11",
-      "isoDate": "2026-10-11T06:00:35.000Z",
-      "description": "Could student protests ignite a wider movement in France? - Euronews.com (Euronews.com, 2026-10-11. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Euronews.com",
-      "axis": "Other",
-      "tags": [
-        "Euronews.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Euronews.com",
-      "source": "Euronews.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeDVmZThzSl9YYkZrSjhUbklzbmhvZkV3ZXZFc0g3dW8xSUxvdDAtZkNHSjhvSV9uWTh0eWtyanVDWE9RVENxbGF6Tld3SDFwYUpkdnNfbUE0eFZ0RjViSktyanBuTGt0andPd1RxYndfTjFsZmpnRThCNnVFengwWU5NWjh1QkI3S2VIaFIzWm9GbGRkalFIZ1JTb0w4RE1LU0ZWd3E0aEkyeEo3aTFRRnRBSmNfSGYzSFNWQQ?oc=5"
     }
   ]
 }
