@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-15T17:24:12.532Z",
+  "collectedAt": "2026-10-15T20:34:03.988Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 17
+      "count": 8
     },
     {
       "id": "taipei-times",
@@ -42,7 +42,7 @@
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
       "count": 6,
-      "filtered": 11
+      "filtered": 10
     },
     {
       "id": "st-asia",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 292,
+  "count": 301,
   "events": [
     {
       "id": "news-1berpym",
@@ -323,11 +323,30 @@
       "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/10/16/2003866047"
     },
     {
+      "id": "news-1qtw2w1",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T18:23:44.000Z",
+      "description": "China bought half of Brazil’s oil exports as Iran war shut Hormuz, driving sales to record (SCMP, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/article/3371064/china-bought-half-brazils-oil-exports-iran-war-shut-hormuz-driving-sales-record?utm_source=rss_feed"
+    },
+    {
       "id": "news-rbza3z",
       "kind": "news",
       "date": "2026-10-15",
       "isoDate": "2026-10-15T16:41:24.000Z",
-      "description": "Chinese chemicals and machinery in EU crosshairs as leaders back more trade curbs (SCMP, 2026-10-15. Headline + link only.)",
+      "description": "EU open to creating ‘kill switch’ weapon to kick Chinese firms out of market (SCMP, 2026-10-15. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "SCMP",
@@ -1916,6 +1935,278 @@
         "goldstein": -5,
         "tone": -5.21,
         "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328161398",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T19:15:00.000Z",
+      "description": "Coercion — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/biz/archives/2026/10/16/2003866034",
+      "gdelt": {
+        "globalEventId": "1328161398",
+        "eventCode": "172",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -4.33,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328165110",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T19:45:00.000Z",
+      "description": "Fight — Administration → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 24,
+      "lng": 121,
+      "action": "Fight (GDELT 190)",
+      "actor": "Administration",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.businessinsider.com/jensen-huang-nvidia-immigration-trump-2026-10",
+      "gdelt": {
+        "globalEventId": "1328165110",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 1.2,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328165316",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T19:45:00.000Z",
+      "description": "Rejection — Nvidia → Business near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Rejection (GDELT 124)",
+      "actor": "Nvidia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.businessinsider.com/jensen-huang-nvidia-immigration-trump-2026-10",
+      "gdelt": {
+        "globalEventId": "1328165316",
+        "eventCode": "124",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 1.2,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328165317",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T19:45:00.000Z",
+      "description": "Rejection — Nvidia → Business near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Rejection (GDELT 124)",
+      "actor": "Nvidia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.businessinsider.com/jensen-huang-nvidia-immigration-trump-2026-10",
+      "gdelt": {
+        "globalEventId": "1328165317",
+        "eventCode": "124",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 1.2,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328165321",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T19:45:00.000Z",
+      "description": "Threat — Nvidia → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Threat (GDELT 130)",
+      "actor": "Nvidia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.businessinsider.com/jensen-huang-nvidia-immigration-trump-2026-10",
+      "gdelt": {
+        "globalEventId": "1328165321",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 1.2,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328165322",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T19:45:00.000Z",
+      "description": "Threat — Nvidia → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Threat (GDELT 130)",
+      "actor": "Nvidia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.businessinsider.com/jensen-huang-nvidia-immigration-trump-2026-10",
+      "gdelt": {
+        "globalEventId": "1328165322",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 1.2,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328165422",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T19:45:00.000Z",
+      "description": "Demand — Taiwan → Immigrant near Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Demand (GDELT 100)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.businessinsider.com/jensen-huang-nvidia-immigration-trump-2026-10",
+      "gdelt": {
+        "globalEventId": "1328165422",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": 1.2,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328165423",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T19:45:00.000Z",
+      "description": "Fight — Taiwan → Administration near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 24,
+      "lng": 121,
+      "action": "Fight (GDELT 190)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.businessinsider.com/jensen-huang-nvidia-immigration-trump-2026-10",
+      "gdelt": {
+        "globalEventId": "1328165423",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 1.2,
+        "mentions": 2,
         "sources": 1
       }
     },
