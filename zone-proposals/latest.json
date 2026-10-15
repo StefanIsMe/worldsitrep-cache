@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-15T03:52:45.754Z",
+  "collectedAt": "2026-10-15T06:22:06.326Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 240,
+  "coarseGdeltDropped": 201,
   "outsideTheatreDropped": 2,
   "proposals": [
     {
@@ -15,18 +15,23 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 672,
+      "eventCount": 676,
       "kinds": {
-        "combat": 154,
-        "other": 506,
-        "strike": 12
+        "other": 500,
+        "combat": 165,
+        "strike": 11
       },
       "tierCounts": {
-        "approximate": 672
+        "approximate": 676
       },
-      "combatCount": 166,
-      "newestIsoDate": "2026-10-15T00:00:00.000Z",
+      "combatCount": 176,
+      "newestIsoDate": "2026-10-15T04:16:00.000Z",
       "samples": [
+        {
+          "id": "news-o9gntc",
+          "isoDate": "2026-10-15T04:16:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4174550-drone-attack-damages-business-in-ternopil-region-five-people-injured.html"
+        },
         {
           "id": "gdelt-1327997023",
           "isoDate": "2026-10-15T00:00:00.000Z",
@@ -36,18 +41,13 @@
           "id": "gdelt-1327997067",
           "isoDate": "2026-10-15T00:00:00.000Z",
           "sourceUrl": "https://www.eveshamjournal.co.uk/news/national/26635778.zelensky-says-russian-strikes-hit-ukraines-energy-sites-despite-ceasefire-push/"
-        },
-        {
-          "id": "gdelt-1327997593",
-          "isoDate": "2026-10-15T00:00:00.000Z",
-          "sourceUrl": "https://www.eveshamjournal.co.uk/news/national/26635778.zelensky-says-russian-strikes-hit-ukraines-energy-sites-despite-ceasefire-push/"
         }
       ],
       "centroid": {
-        "lat": 50.4225,
-        "lng": 30.2353
+        "lat": 50.4129,
+        "lng": 30.2043
       },
-      "radiusKm": 38.1
+      "radiusKm": 42.5
     },
     {
       "zoneId": "occ-kharkiv",
@@ -56,16 +56,16 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 150,
+      "eventCount": 141,
       "kinds": {
-        "other": 90,
-        "combat": 54,
-        "strike": 6
+        "other": 89,
+        "combat": 47,
+        "strike": 5
       },
       "tierCounts": {
-        "approximate": 150
+        "approximate": 141
       },
-      "combatCount": 60,
+      "combatCount": 52,
       "newestIsoDate": "2026-10-15T00:00:00.000Z",
       "samples": [
         {
@@ -85,8 +85,8 @@
         }
       ],
       "centroid": {
-        "lat": 49.9706,
-        "lng": 36.2695
+        "lat": 49.9879,
+        "lng": 36.3033
       },
       "radiusKm": 15
     },
@@ -99,36 +99,36 @@
       },
       "eventCount": 49,
       "kinds": {
-        "combat": 26,
-        "other": 23
+        "other": 24,
+        "combat": 25
       },
       "tierCounts": {
         "approximate": 49
       },
-      "combatCount": 26,
-      "newestIsoDate": "2026-10-15T00:00:00.000Z",
+      "combatCount": 25,
+      "newestIsoDate": "2026-10-15T05:43:00.000Z",
       "samples": [
         {
-          "id": "gdelt-1327999327",
-          "isoDate": "2026-10-15T00:00:00.000Z",
-          "sourceUrl": "https://www.arabnews.com/world/ukraine-accuses-us-of-helping-russia-restricting-starlink-as-missiles-hit-kyiv-3006366"
+          "id": "news-r8821e",
+          "isoDate": "2026-10-15T05:43:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/15/8058091/"
         },
         {
-          "id": "gdelt-1328009087",
-          "isoDate": "2026-10-15T00:00:00.000Z",
-          "sourceUrl": "https://www.the-sun.com/news/17144965/"
+          "id": "news-10ae5zw",
+          "isoDate": "2026-10-15T04:55:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4174552-russian-attacks-in-dnipropetrovsk-region-leave-two-killed-private-houses-on-fire.html"
         },
         {
-          "id": "gdelt-1328009922",
-          "isoDate": "2026-10-15T00:00:00.000Z",
-          "sourceUrl": "https://www.the-sun.com/news/17144965/"
+          "id": "news-1it9rex",
+          "isoDate": "2026-10-15T03:48:43.000Z",
+          "sourceUrl": "https://kyivindependent.com/russian-attacks-on-dnipropetrovsk-oblast-kill-2-spark-residential-fires/"
         }
       ],
       "centroid": {
-        "lat": 48.2811,
-        "lng": 35.2095
+        "lat": 48.2683,
+        "lng": 35.212
       },
-      "radiusKm": 37.9
+      "radiusKm": 39.1
     },
     {
       "zoneId": "occ-luhansk",
@@ -137,18 +137,23 @@
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 32,
+      "eventCount": 33,
       "kinds": {
+        "combat": 10,
         "other": 21,
-        "combat": 9,
         "strike": 2
       },
       "tierCounts": {
-        "approximate": 32
+        "approximate": 33
       },
-      "combatCount": 11,
-      "newestIsoDate": "2026-10-14T00:00:00.000Z",
+      "combatCount": 12,
+      "newestIsoDate": "2026-10-15T00:00:00.000Z",
       "samples": [
+        {
+          "id": "gdelt-1328034661",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/14/800112564/community/1/"
+        },
         {
           "id": "gdelt-1327808689",
           "isoDate": "2026-10-14T00:00:00.000Z",
@@ -158,18 +163,13 @@
           "id": "gdelt-1327810888",
           "isoDate": "2026-10-14T00:00:00.000Z",
           "sourceUrl": "https://www.eurasiareview.com/14102026-occupied-ukraine-baptist-community-banned-alongside-jehovahs-witnesses-orthodox-church-of-ukraine-greek-catholics-analysis/"
-        },
-        {
-          "id": "gdelt-1327811209",
-          "isoDate": "2026-10-14T00:00:00.000Z",
-          "sourceUrl": "https://www.eurasiareview.com/14102026-occupied-ukraine-baptist-community-banned-alongside-jehovahs-witnesses-orthodox-church-of-ukraine-greek-catholics-analysis/"
         }
       ],
       "centroid": {
-        "lat": 48.4825,
-        "lng": 39.3141
+        "lat": 48.473,
+        "lng": 39.3096
       },
-      "radiusKm": 31.8
+      "radiusKm": 32.2
     },
     {
       "zoneId": "lib-snake",
@@ -178,16 +178,16 @@
         "lat": 45.2551,
         "lng": 30.2033
       },
-      "eventCount": 21,
+      "eventCount": 32,
       "kinds": {
-        "other": 16,
-        "combat": 3,
-        "strike": 2
+        "other": 18,
+        "combat": 8,
+        "strike": 6
       },
       "tierCounts": {
-        "approximate": 21
+        "approximate": 32
       },
-      "combatCount": 5,
+      "combatCount": 14,
       "newestIsoDate": "2026-10-15T00:00:00.000Z",
       "samples": [
         {
@@ -207,10 +207,10 @@
         }
       ],
       "centroid": {
-        "lat": 46.019,
-        "lng": 30.1832
+        "lat": 46.166,
+        "lng": 29.951
       },
-      "radiusKm": 75.2
+      "radiusKm": 79.5
     },
     {
       "zoneId": "occ-donetsk",
@@ -219,38 +219,39 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 21,
+      "eventCount": 23,
       "kinds": {
-        "other": 18,
+        "strike": 6,
+        "other": 14,
         "combat": 3
       },
       "tierCounts": {
-        "approximate": 21
+        "approximate": 23
       },
-      "combatCount": 3,
-      "newestIsoDate": "2026-10-14T23:36:52.000Z",
+      "combatCount": 9,
+      "newestIsoDate": "2026-10-15T00:00:00.000Z",
       "samples": [
         {
-          "id": "news-1fz030",
-          "isoDate": "2026-10-14T23:36:52.000Z",
-          "sourceUrl": "https://euromaidanpress.com/2026/10/15/dobropillya/"
+          "id": "gdelt-1328034557",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/14/800112564/community/1/"
         },
         {
-          "id": "news-1xdxnka",
-          "isoDate": "2026-10-14T20:49:42.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/87086"
+          "id": "gdelt-1328034704",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/14/800112564/community/1/"
         },
         {
-          "id": "news-ecxhtk",
-          "isoDate": "2026-10-14T17:51:27.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV2NSa2RqM2lUSm5RLWtpemstcU40ZTZ1SEtMczJ2VjdVb3NkR05DQWVHa3JuVy1vS3h5bE1rWlpmaURzVkN2c2VfY04zVnZKUTVscGJEQ2NicFN1WXpNakVCdXdja280b3YzNDl1a1FMRDdzb212UnRERVJvbTlrdnRoUjlBSjBjbzJaOC1XU2FEX0J5LUZsUGIwdW5IVmxCdDB1WWt4STBvNFZZcGFMLWo3bmZQSGNpNThyOGVTb1Y?oc=5"
+          "id": "gdelt-1328036080",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "http://www.rightspeak.net/2026/10/222-c-clashes-in-f-line-29-in-pokrovsk.html"
         }
       ],
       "centroid": {
-        "lat": 48.429,
-        "lng": 37.6005
+        "lat": 48.4291,
+        "lng": 37.6163
       },
-      "radiusKm": 38.5
+      "radiusKm": 35.5
     },
     {
       "zoneId": "occ-kherson",
@@ -259,36 +260,37 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 17,
+      "eventCount": 19,
       "kinds": {
-        "other": 15,
+        "other": 16,
+        "strike": 1,
         "combat": 2
       },
       "tierCounts": {
-        "approximate": 17
+        "approximate": 19
       },
-      "combatCount": 2,
-      "newestIsoDate": "2026-10-15T03:20:00.000Z",
+      "combatCount": 3,
+      "newestIsoDate": "2026-10-15T04:58:00.000Z",
       "samples": [
+        {
+          "id": "news-r881eh",
+          "isoDate": "2026-10-15T04:58:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/15/8058089/"
+        },
         {
           "id": "news-p1jz41",
           "isoDate": "2026-10-15T03:20:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-ato/4174547-death-toll-from-russian-attack-rises-to-three-six-people-injured-in-kropyvnytskyi.html"
         },
         {
-          "id": "news-1uzbal3",
-          "isoDate": "2026-10-14T23:09:14.000Z",
-          "sourceUrl": "https://kyivindependent.com/intense-russian-assault-on-kropyvnytskyi-kills-3-injures-6/"
-        },
-        {
-          "id": "news-1xdxnkd",
-          "isoDate": "2026-10-14T22:46:13.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/87089"
+          "id": "gdelt-1328034706",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/14/800112564/community/1/"
         }
       ],
       "centroid": {
-        "lat": 47.1961,
-        "lng": 32.5513
+        "lat": 47.2894,
+        "lng": 32.2599
       },
       "radiusKm": 80
     },
@@ -299,17 +301,22 @@
         "lat": 50.9077,
         "lng": 34.7981
       },
-      "eventCount": 11,
+      "eventCount": 12,
       "kinds": {
-        "other": 4,
+        "other": 5,
         "combat": 7
       },
       "tierCounts": {
-        "approximate": 11
+        "approximate": 12
       },
       "combatCount": 7,
-      "newestIsoDate": "2026-10-15T00:00:00.000Z",
+      "newestIsoDate": "2026-10-15T05:57:00.000Z",
       "samples": [
+        {
+          "id": "news-f0fptv",
+          "isoDate": "2026-10-15T05:57:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4174565-russian-drones-attack-two-industrial-facilities-in-poltava-region.html"
+        },
         {
           "id": "gdelt-1328000856",
           "isoDate": "2026-10-15T00:00:00.000Z",
@@ -319,18 +326,13 @@
           "id": "gdelt-1327841472",
           "isoDate": "2026-10-14T00:00:00.000Z",
           "sourceUrl": "https://www.rte.ie/news/ukraine/2026/1014/1595299-ukraine-russia/"
-        },
-        {
-          "id": "gdelt-1327845311",
-          "isoDate": "2026-10-14T00:00:00.000Z",
-          "sourceUrl": "https://www.dailymail.com/news/article-16207623/Putin-ignores-Trumps-energy-ceasefire-fresh-attacks-cutting-power-Kyiv-Zelensky-blasts-absolutely-unjust-lack-warning-allies.html"
         }
       ],
       "centroid": {
-        "lat": 50.8137,
-        "lng": 34.5752
+        "lat": 50.7117,
+        "lng": 34.5731
       },
-      "radiusKm": 43.4
+      "radiusKm": 56.7
     },
     {
       "zoneId": "occ-crimea",
@@ -339,39 +341,78 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 7,
+      "eventCount": 8,
       "kinds": {
-        "other": 2,
-        "combat": 4,
-        "strike": 1
+        "combat": 6,
+        "other": 2
       },
       "tierCounts": {
-        "approximate": 7
+        "approximate": 8
       },
-      "combatCount": 5,
-      "newestIsoDate": "2026-10-14T03:40:00.000Z",
+      "combatCount": 6,
+      "newestIsoDate": "2026-10-15T00:00:00.000Z",
       "samples": [
+        {
+          "id": "gdelt-1328034561",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/14/800112564/community/1/"
+        },
+        {
+          "id": "gdelt-1328034567",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/14/800112564/community/1/"
+        },
         {
           "id": "news-1lhzw0n",
           "isoDate": "2026-10-14T03:40:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-polytics/4174155-forum-2000-participants-to-join-global-crimea-international-conference-in-kyiv.html"
-        },
-        {
-          "id": "gdelt-1327805686",
-          "isoDate": "2026-10-14T00:00:00.000Z",
-          "sourceUrl": "http://www.russiaherald.com/news/279372608/killing-a-tsar-wasnt-enough-russia-revolutionaries-hit-a-bloody-dead-end"
-        },
-        {
-          "id": "gdelt-1327808688",
-          "isoDate": "2026-10-14T00:00:00.000Z",
-          "sourceUrl": "https://www.eurasiareview.com/14102026-germany-to-start-nord-stream-war-crime-trial-with-prosecutors-blaming-ukrainian-state-authorities/"
         }
       ],
       "centroid": {
-        "lat": 45.2566,
-        "lng": 33.9327
+        "lat": 45.3062,
+        "lng": 34.355
       },
-      "radiusKm": 72.5
+      "radiusKm": 80
+    },
+    {
+      "zoneId": "lib-chernihiv",
+      "region": "Chernihiv Oblast",
+      "center": {
+        "lat": 51.4982,
+        "lng": 31.2893
+      },
+      "eventCount": 3,
+      "kinds": {
+        "combat": 2,
+        "other": 1
+      },
+      "tierCounts": {
+        "approximate": 3
+      },
+      "combatCount": 2,
+      "newestIsoDate": "2026-10-15T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1328034646",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/14/800112564/community/1/"
+        },
+        {
+          "id": "news-5wev1y",
+          "isoDate": "2026-10-14T06:47:03.000Z",
+          "sourceUrl": "https://en.interfax.com.ua/news/general/1219722.html"
+        },
+        {
+          "id": "gdelt-1327883963",
+          "isoDate": "2026-10-14T00:00:00.000Z",
+          "sourceUrl": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+        }
+      ],
+      "centroid": {
+        "lat": 51.5269,
+        "lng": 31.6254
+      },
+      "radiusKm": 31.5
     }
   ]
 }
