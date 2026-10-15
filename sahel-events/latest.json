@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-15T06:32:45.660Z",
+  "collectedAt": "2026-10-15T09:01:10.963Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 2
+      "count": 3
     },
     {
       "id": "aa-mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
       "status": "ok",
       "count": 11,
-      "filtered": 12
+      "filtered": 13
     },
     {
       "id": "aa-burkina",
@@ -56,7 +56,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 34
+      "filtered": 35
     },
     {
       "id": "africanews",
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 39,
+  "count": 42,
   "events": [
     {
       "id": "news-elqi8v",
@@ -323,6 +323,108 @@
         "goldstein": -10,
         "tone": -6.18,
         "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328048567",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T07:30:00.000Z",
+      "description": "Fight — Mali → Africa near Bombori, Mopti, Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 14.8307,
+      "lng": -3.8275,
+      "action": "Fight (GDELT 193)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bombori, Mopti, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610150224.html",
+      "gdelt": {
+        "globalEventId": "1328048567",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -12.16,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328048568",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T07:30:00.000Z",
+      "description": "Fight — Mali → Africa near Bombori, Mopti, Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 14.8307,
+      "lng": -3.8275,
+      "action": "Fight (GDELT 193)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bombori, Mopti, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610150224.html",
+      "gdelt": {
+        "globalEventId": "1328048568",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -12.16,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328056291",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T08:30:00.000Z",
+      "description": "Coercion — Unspecified → Niger near Niger. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.co.uk/articles/lgbtq-people-hiding-senegal-hundreds-080025000.html",
+      "gdelt": {
+        "globalEventId": "1328056291",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -8.42,
+        "mentions": 8,
         "sources": 1
       }
     },

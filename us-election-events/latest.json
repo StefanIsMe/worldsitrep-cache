@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-15T06:32:45.660Z",
+  "collectedAt": "2026-10-15T09:01:10.963Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -48,8 +48,8 @@
       "id": "politico-congress",
       "url": "https://rss.politico.com/congress.xml",
       "status": "ok",
-      "count": 28,
-      "filtered": 2
+      "count": 27,
+      "filtered": 3
     },
     {
       "id": "pbs-politics",
@@ -61,9 +61,9 @@
     {
       "id": "rollcall-congress",
       "url": "https://rollcall.com/section/congress/rss",
-      "status": "ok",
-      "count": 8,
-      "filtered": 2
+      "status": "failed",
+      "count": 0,
+      "error": "RSS rollcall-congress request failed with HTTP 502"
     },
     {
       "id": "axios",
@@ -101,13 +101,51 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 426,
+  "count": 421,
   "events": [
+    {
+      "id": "news-1671iza",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T09:00:00.000Z",
+      "description": "Capitol agenda: Waters rallies support as rivals circle (Politico, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Politico",
+      "axis": "Other",
+      "tags": [
+        "Politico",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Politico",
+      "source": "Politico",
+      "sourceUrl": "https://www.politico.com/live-updates/2026/10/15/congress/waters-rallies-support-rivals-circle-01119792"
+    },
+    {
+      "id": "news-xs0b5g",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T08:45:00.000Z",
+      "description": "Why Democrats are looking to Katherine Clark to bring ‘order’ to the House (Politico, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Politico",
+      "axis": "Other",
+      "tags": [
+        "Politico",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Politico",
+      "source": "Politico",
+      "sourceUrl": "https://www.politico.com/news/2026/10/14/katherine-clark-majority-leader-01119041"
+    },
     {
       "id": "news-12olopt",
       "kind": "news",
       "date": "2026-10-15",
-      "isoDate": "2026-10-15T05:30:21.000Z",
+      "isoDate": "2026-10-15T08:00:21.000Z",
       "description": "Tracking the 2026 Early Vote: Midterm Elections - NBC News (NBC News, 2026-10-15. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -121,6 +159,25 @@
       "locationStr": "NBC News",
       "source": "NBC News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5"
+    },
+    {
+      "id": "news-a5zmkl",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T07:44:59.000Z",
+      "description": "US Judge Declines To Block Trump’s DEI Order For Contractors - BW People (BW People, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BW People",
+      "axis": "Other",
+      "tags": [
+        "BW People",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "BW People",
+      "source": "BW People",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUk1jVVRHTHVrZWpGU2hwem14UExwQlFILXZNNFhlbnB4S0RjWGU3Y24yRFRMZ2Q3Z3l0WGZoN0VnMU42QURqR0RBRTAtN1U3N3Z4TzNFN0p0dXBlVjR4aHFzcUEtRy1IS2pOeEx5Q0Zvb0JXTXVqODAyRnQ1Sk9RZW5XT1FQVlhHV19VTW0wUHFLQXloSVlMaG9mT2NiWGNU?oc=5"
     },
     {
       "id": "news-15zev9z",
@@ -922,25 +979,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/house/6149330-lawmakers-challenge-smart-ai-rollout/"
-    },
-    {
-      "id": "news-1k742p8",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T21:36:31.000Z",
-      "description": "Ohio's working-class voters rethink support for Trump and the Republican Party - Reuters (Reuters, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWno4ZFd2QmdMeXRMUWg2dk1IVGg1VmJ5U19nZVVaZFBueWhMT05PWFZLNnYxZktyVXB4cTlJeGxXdDBROURCazNsN2ZtcnNVcU5MbElLWUhrUklEVjJJcE4zaGFiRXhnVEV6N1ZhRUZlVGpld2pRWm8zNVlJdTJ5UmFYbkl5VXlyeGpOR1RDYXk2SnhiS05RYzJHbUlnaWxxVmU0SDdiR0NaMTFRaTZz?oc=5"
     },
     {
       "id": "news-1jmuh0j",
@@ -2828,6 +2866,25 @@
       "locationStr": "The Guardian",
       "source": "The Guardian",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOC1Va1p4enRlUmZxcE1tVEt5NVNOUGw5TldUODUxOURpRWRYQzJUSy1PN3oyZFJ5QzU4OGZKS1k5TjZGbzQwdGllSi1PTlJvYTNDNmxNbmIwVGl1d2xiMm5iSThLb3V6NldCbUxDbkhqNFJadXlYWHk3WkJvRm5VOGpGRVY3OWg3SFdtYnFZWl9IR2lwWEtENHlNQjU5OXhsR1lEdVJPS0V2MG0yME03ZjBBOEZXZk1iVGk3eWdZWGtUdG1YWGlucEw3RWh1QVYzbS1VeTJ3?oc=5"
+    },
+    {
+      "id": "news-1k742p8",
+      "kind": "news",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T10:07:00.000Z",
+      "description": "Ohio's working-class voters rethink support for Trump and the Republican Party - Reuters (Reuters, 2026-10-14. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Reuters",
+      "axis": "Other",
+      "tags": [
+        "Reuters",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Reuters",
+      "source": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWno4ZFd2QmdMeXRMUWg2dk1IVGg1VmJ5U19nZVVaZFBueWhMT05PWFZLNnYxZktyVXB4cTlJeGxXdDBROURCazNsN2ZtcnNVcU5MbElLWUhrUklEVjJJcE4zaGFiRXhnVEV6N1ZhRUZlVGpld2pRWm8zNVlJdTJ5UmFYbkl5VXlyeGpOR1RDYXk2SnhiS05RYzJHbUlnaWxxVmU0SDdiR0NaMTFRaTZz?oc=5"
     },
     {
       "id": "news-1qqcdvj",
@@ -8236,162 +8293,6 @@
       "lat": 40.71,
       "lng": -74,
       "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
-    },
-    {
-      "id": "news-1npxtug",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T08:39:36.000Z",
-      "description": "Political strategist on how Trump's personal grievances could affect the GOP (NPR, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/12/nx-s1-5996646/political-strategist-on-how-trumps-personal-grievances-could-affect-the-gop"
-    },
-    {
-      "id": "news-1v474ws",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T08:39:36.000Z",
-      "description": "Republican strategist on how Trump's personal grievances could affect the GOP (NPR, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/12/nx-s1-5996646/republican-strategist-on-how-trumps-personal-grievances-could-affect-the-gop"
-    },
-    {
-      "id": "news-po89kb",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T08:39:21.000Z",
-      "description": "Trump struggles to show voters he's focused on the cost of living (NPR, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/12/nx-s1-5998073/trump-struggles-to-show-voters-hes-focused-on-the-cost-of-living"
-    },
-    {
-      "id": "news-1u6yk7g",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T08:38:03.000Z",
-      "description": "NEWSBRIEF: TRUMP RUSSIA UKRAINE, TRUMP PRIORITIES, SAUDI AIRPORT STRIKES (NPR, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/12/nx-s1-5995584/newsbrief-trump-russia-ukraine-trump-priorities-saudi-airport-strikes"
-    },
-    {
-      "id": "news-1lg2lbb",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T08:37:01.000Z",
-      "description": "Texas' 5th Congressional District provides clues to state's Latino vote (NPR, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/12/nx-s1-5986126/texas-5th-congressional-district-provides-clues-to-states-latino-vote"
-    },
-    {
-      "id": "news-9dg2zc",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T08:37:01.000Z",
-      "description": "Texas' 15th Congressional District provides clues to state's Latino vote (NPR, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/12/nx-s1-5986126/texas-15th-congressional-district-provides-clues-to-states-latino-vote"
-    },
-    {
-      "id": "news-n4zph8",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T08:20:19.000Z",
-      "description": "Judge Immediately Pulls the Plug on Trump’s Bonkers Propaganda Blitz - The Daily Beast (The Daily Beast, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Daily Beast",
-      "axis": "Other",
-      "tags": [
-        "The Daily Beast",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Daily Beast",
-      "source": "The Daily Beast",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUjZDUHZnWDBYbGhhcVdEY0hKaGJVdXNreUY3RXhDaTRZZ0o0LVZjOFNBbVpUQ3JXSGxjZDgwN1hqTFJpeEZ5VmtUbnkyZExJYUpvdktUME5LVklseGdxT0RIYW1YaTBXRXJXSDEwLWVjY3hlZ1A3U0JVWWt5MTdsbjRnN21FQXdBektRdkJJdTdMSHoxeEttTklEUjV6dw?oc=5"
-    },
-    {
-      "id": "news-cxbcdx",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T07:08:00.000Z",
-      "description": "Why Abdul El-Sayed might not be winning Black voters in Michigan - The Guardian (The Guardian, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Guardian",
-      "axis": "Other",
-      "tags": [
-        "The Guardian",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Michigan",
-      "source": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV1FTaVlHM0JUa0dMaXp1ZWJ2VUtCUVpmUkhPX3pYcTB6Nm02RzF3Yk9BNDNEd3JPRjdJVTljNnNQYUNxNEtZRXotTzctVWlrMzNkajBRYnlaaEUybHl2SFhfaUY1WGswdVo3Q1NrOElfV21KUjI0N0lwVWFscDBPZ1MzZGV3am9JSlp1WG9wbnhRS1VnSUc2bHRUMVE?oc=5",
-      "lat": 43.6212,
-      "lng": -84.68243,
-      "coordsNote": "OSM geocode: matched \"Michigan\" → Michigan, United States; © OpenStreetMap contributors."
     }
   ]
 }
