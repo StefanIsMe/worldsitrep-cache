@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "myanmar",
-  "collectedAt": "2026-10-15T09:01:10.963Z",
+  "collectedAt": "2026-10-15T12:10:50.891Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 13
+      "count": 0
     },
     {
       "id": "irrawaddy",
@@ -19,9 +19,9 @@
     {
       "id": "myanmar-now",
       "url": "https://myanmar-now.org/en/feed/",
-      "status": "ok",
-      "count": 10,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS myanmar-now request failed: fetch failed"
     },
     {
       "id": "dvb",
@@ -66,8 +66,92 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 151,
+  "count": 145,
   "events": [
+    {
+      "id": "news-1evnvk7",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T11:15:00.000Z",
+      "description": "Internet cable found between border house and Myanmar casino - Bangkok Post (Bangkok Post, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Bangkok Post",
+      "axis": "Other",
+      "tags": [
+        "Bangkok Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Bangkok Post",
+      "source": "Bangkok Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdjZiOHlPY01rOS0zRXM1SU5hOUJRd3AwcVl4djNJOE8ybzJuaXFySDJaNC1wNXJ5Vk9RQk9BdFpKYzdXSW5jV3V1bzc5TlFZRUY1QVpMZWdyT2Z4a00weTdCY0NRRkFaaVRZbmxVRVFnUVh0QnNiTXpZc1JqdjVVRUIzTTJDelhxY3hoVU5TRldfNWllWmVEbVJkR1VTVzgwdmxzcFdlclBJWE1EYXZPSF9Tcw?oc=5"
+    },
+    {
+      "id": "news-h2yl9o",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T10:47:37.000Z",
+      "description": "At least 8 civilians killed by Myanmar junta airstrikes near Mon-Karen border - Myanmar Now (Myanmar Now, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Myanmar Now",
+      "axis": "Other",
+      "tags": [
+        "Myanmar Now",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Mon-Karen",
+      "source": "Myanmar Now",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQlpwS2tnbnpvMjRGdW9md3VOWHVNaGVFVUEzcFRBaUNkQjkyQ28tVFlRMng4a3h2RFhYMW5XelFmMWRvTC1lZWRkYlRKSEFPYXlnM0ZlX2Qya3Q0dzBrLWgxdjdIQ05GcG16R3NfcUhKUWZWRGZYMkdNdnl0blQ4d2tiVjRxX3pKQjhMeEM4ZTRQdHFneE1uNDdVamhjOTl2OGM4OXhTTERRSk0wOFB3?oc=5",
+      "lat": 19.21696,
+      "lng": 96.51149,
+      "coordsNote": "OSM geocode: matched \"Mon-Karen\" → Hta Mon (Lower), Thandaunggyi Township, Thandaungyi District; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-9hfsst",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T09:10:54.000Z",
+      "description": "Trade collapses in Rakhine State market destroyed by deadly airstrikes on September 28 (DVB English, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DVB English",
+      "axis": "Other",
+      "tags": [
+        "DVB English",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Rakhine State",
+      "source": "DVB English",
+      "sourceUrl": "https://english.dvb.no/trade-collapses-in-rakhine-state-market-destroyed-by-deadly-airstrikes-on-september-28/",
+      "lat": 20.5,
+      "lng": 93,
+      "coordsNote": "Headline gazetteer match: \"Rakhine State\" (region); verify via source article."
+    },
+    {
+      "id": "news-2uumf0",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T08:39:40.000Z",
+      "description": "Myanmar Daily Life - WV News (WV News, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WV News",
+      "axis": "Other",
+      "tags": [
+        "WV News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WV News",
+      "source": "WV News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNekxHdU10ZEhZb0sxcFFmelBSQjhTWmJYcjZIWGRMcjFUX2IwY2M3V0RmdnVrajI3X2R2SU1yUGRCYmpzQ0lhMTdvX0hnVS16UzRHMkw4UzgyZU9Td0VXcVdrUlJoeEx6WjVXU2h2YklOalFaU2w4M01pb3d3NlkzUzdWWHNpUlFoYi0xb2ZlZXFvQ0NmVklZZEhYcnY3YVFrbDRvN0dyWQ?oc=5"
+    },
     {
       "id": "news-8z74bc",
       "kind": "news",
@@ -164,6 +248,25 @@
       "sourceUrl": "https://www.irrawaddy.com/news/burma/myanmar-regime-denies-drafting-college-students-into-army.html"
     },
     {
+      "id": "news-dh5gfq",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T08:05:22.000Z",
+      "description": "Myanmar Agriculture Fellowship Report October 2026 - US-ASEAN Business Council (US-ASEAN Business Council, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "US-ASEAN Business Council",
+      "axis": "Other",
+      "tags": [
+        "US-ASEAN Business Council",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "US-ASEAN Business Council",
+      "source": "US-ASEAN Business Council",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObEI5WE5kQlcxT2d5OHNYckZpbHdkcEFMT1F5Ykw4WUZnbjhmeFpIZ1BteUlYTlBDZ3o0bmtUY1JIaDNucW56eGd6cGdpLVlnZDhhRTltWkNMUGpnckF5UFBYRWhjZ2N2RXpNNVphU3c5TUFIUkx6SG80YVdaaDE1OTFzM1puSFhHX0E?oc=5"
+    },
+    {
       "id": "news-1ju5eoa",
       "kind": "news",
       "date": "2026-10-15",
@@ -181,6 +284,25 @@
       "locationStr": "Law.asia",
       "source": "Law.asia",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EWU8ySDE4TkhEOHJ0LXFnQkhxdGgxY0lZOEluMnRsVHRzM2RxYmpxTl9KTlZweUg3VFpvVmtxZ2R0Z0hlS21aVXBPYmtmdEprTnVvbktfZEl3YktpaS03NW5vZGo?oc=5"
+    },
+    {
+      "id": "news-x8l7tp",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T06:24:07.000Z",
+      "description": "Bangladesh Air Force Conducts Live Missile Drills Near Myanmar Border - Narinjara News (Narinjara News, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Narinjara News",
+      "axis": "Other",
+      "tags": [
+        "Narinjara News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Narinjara News",
+      "source": "Narinjara News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xbjVtMVhpNmJCeV9BMl9ibHliWG1FZVU0UDgwT1IwMWZYLWM2M0V0a0t2V21fWnBVbFg1SzBsYTAxRDRuNG96MEo4VkpqaWRXN3FQc2s3MG9zWnVXbjBCdnlBVG9LalJMVHhhM1p0OA?oc=5"
     },
     {
       "id": "news-9hqp9u",
@@ -859,25 +981,6 @@
       "lat": 15.79803,
       "lng": 94.77819,
       "coordsNote": "OSM geocode: matched \"Aung Hlaing\" → Aung Hlaing, Labutta Township, Labutta; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-x8l7tp",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T21:24:06.000Z",
-      "description": "Bangladesh Air Force Conducts Live Missile Drills Near Myanmar Border - Narinjara News (Narinjara News, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Narinjara News",
-      "axis": "Other",
-      "tags": [
-        "Narinjara News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Narinjara News",
-      "source": "Narinjara News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xbjVtMVhpNmJCeV9BMl9ibHliWG1FZVU0UDgwT1IwMWZYLWM2M0V0a0t2V21fWnBVbFg1SzBsYTAxRDRuNG96MEo4VkpqaWRXN3FQc2s3MG9zWnVXbjBCdnlBVG9LalJMVHhhM1p0OA?oc=5"
     },
     {
       "id": "news-thu4bv",
@@ -3158,223 +3261,6 @@
       "locationStr": "The Irrawaddy",
       "source": "The Irrawaddy",
       "sourceUrl": "https://www.irrawaddy.com/news/myanmars-crisis-the-world/philippine-president-hails-diplomatic-engagement-with-myanmars-regime.html"
-    },
-    {
-      "id": "news-1nutg97",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T12:05:02.000Z",
-      "description": "JFM Slams US Lifting of Sanctions on Fifth Myanmar Regime Crony (The Irrawaddy, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Irrawaddy",
-      "axis": "Other",
-      "tags": [
-        "The Irrawaddy",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Irrawaddy",
-      "source": "The Irrawaddy",
-      "sourceUrl": "https://www.irrawaddy.com/news/myanmars-crisis-the-world/jfm-slams-us-lifting-of-sanctions-on-fifth-myanmar-regime-crony.html"
-    },
-    {
-      "id": "news-jg5xc3",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T11:46:42.000Z",
-      "description": "The Rise and Fall of Myanmar’s Ambassador to Thailand - The Irrawaddy (The Irrawaddy, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Irrawaddy",
-      "axis": "Other",
-      "tags": [
-        "The Irrawaddy",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Irrawaddy",
-      "source": "The Irrawaddy",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUDBKa19sWHNPYW5INkdBd3pVd25NaUh2QzBmdUdkQWlYSWJfWnZVb3BkSzFkZXQwN0VlRUdOT25qb0hOZUFlVURyNkJleFhRYTBrVUUxN2FCTk85WkJ2UVNWZEZQQlh3a2U5UmlwdWpxcU1FMHgtSnF0T3hyVUVkMDNUeGx2b0ctMVVhbEs1bFBNV1dLNjc3d093?oc=5"
-    },
-    {
-      "id": "news-rhlyg7",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T11:46:42.000Z",
-      "description": "Hundreds of Myanmar Migrant Workers Barred From Returning Abroad Over Tax, Remittance - The Irrawaddy (The Irrawaddy, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Irrawaddy",
-      "axis": "Other",
-      "tags": [
-        "The Irrawaddy",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Irrawaddy",
-      "source": "The Irrawaddy",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWXd1V0lmQlNBQ1RVaXNxamF0WnZyYnVsWHYtQ1BESzd4VGNxLWR0M2dCbUpiellJZ1hCbjYxYkRiVnIxajFjRkRqUGpTd2ZWVWJaVWJXVmhqRVoxeWk1UmozOXhNNnNfV0lVanNDV1RPMUY2cXBqVHc3SWFmY1NwblF1cHhMa1U2RGVxWnI0Y253Q0taQnhKdUJWd2R1VlY0VGpnWVBVeUVyMWlGMlVwTmE0WmFsTVVlenhrTnRaX2p3bFV2?oc=5"
-    },
-    {
-      "id": "news-1jbbx0w",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T11:41:02.000Z",
-      "description": "Hundreds of Myanmar Migrant Workers Barred From Returning Abroad Over Tax, Remittance (The Irrawaddy, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Irrawaddy",
-      "axis": "Other",
-      "tags": [
-        "The Irrawaddy",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Irrawaddy",
-      "source": "The Irrawaddy",
-      "sourceUrl": "https://www.irrawaddy.com/news/burma/hundreds-of-myanmar-migrant-workers-barred-from-returning-abroad-over-tax-remittance.html"
-    },
-    {
-      "id": "news-15wdpe3",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T11:34:10.000Z",
-      "description": "The Rise and Fall of Myanmar’s Ambassador to Thailand (The Irrawaddy, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Irrawaddy",
-      "axis": "Other",
-      "tags": [
-        "The Irrawaddy",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Irrawaddy",
-      "source": "The Irrawaddy",
-      "sourceUrl": "https://www.irrawaddy.com/news/burma/the-rise-and-fall-of-myanmars-ambassador-to-thailand.html"
-    },
-    {
-      "id": "news-18365",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T11:08:28.000Z",
-      "description": "Fishermen harassed as Myanmar junta steps up naval offensives in Rakhine - Myanmar Now (Myanmar Now, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Myanmar Now",
-      "axis": "Other",
-      "tags": [
-        "Myanmar Now",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Rakhine State",
-      "source": "Myanmar Now",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdDdwaDZic2dvaF9yZWZkTVZZZ0Q4N3BaT0RCUUJta0tnTndtbXlpUmhfaUlhTldtTlE4dVBJaFA3MGRxR3RNUFMwUEFKY0FwNjZlNjVJdkpwUVNRSGJxTF9fd0tCR2ZmSlFtLS13aDZham5ud0tXSkhfOUV2aWFrT2kwdGEtdTVOSlp0d2EyMXpHLVVXOS1XTGVfcFBvWkZVRTRodmtKanU?oc=5",
-      "lat": 20.5,
-      "lng": 93,
-      "coordsNote": "Headline gazetteer match: \"Rakhine\" (region); verify via source article."
-    },
-    {
-      "id": "news-626vdk",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T11:01:52.000Z",
-      "description": "Fishermen harassed as Myanmar junta steps up naval offensives in Rakhine (Myanmar Now, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Myanmar Now",
-      "axis": "Other",
-      "tags": [
-        "Myanmar Now",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Rakhine State",
-      "source": "Myanmar Now",
-      "sourceUrl": "https://myanmar-now.org/en/news/fishermen-harassed-as-myanmar-junta-steps-up-naval-offensives-in-rakhine/",
-      "lat": 20.5,
-      "lng": 93,
-      "coordsNote": "Headline gazetteer match: \"Rakhine\" (region); verify via source article."
-    },
-    {
-      "id": "news-1cefjya",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T10:25:21.000Z",
-      "description": "One freed American doesn’t equal US policy shift on Myanmar - Asia Times (Asia Times, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Asia Times",
-      "axis": "Other",
-      "tags": [
-        "Asia Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Asia Times",
-      "source": "Asia Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObDhnbENfeEdXUGFTTHZaSllVdjRpSUlVb0hsYWxGclQ4bnVzUnRKMzNiYXFDbXpyMEFsN0VDSWtZRzBWOVQ5ck1mWWFsUTUzb3JMZ0g5RVY5MTBlSjJ6cVYzS1JPNXJiQXdkU0k3YjlvR2Q2QjRma0VleTk3TUVhX2lJWHNGZ3hnamMwcmFRZmZpSTg?oc=5"
-    },
-    {
-      "id": "news-uol005",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T10:05:53.000Z",
-      "description": "Sri Lankan Air Force hosts Myanmar military delegation for talks - Tamil Guardian (Tamil Guardian, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Tamil Guardian",
-      "axis": "Other",
-      "tags": [
-        "Tamil Guardian",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Tamil Guardian",
-      "source": "Tamil Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQTVpZE5UV1AyRTlYMkZQSEdEVjRDR3RmQzQ4YjdESm1EQkZDSjJYVGxRZ0VPNXAtQkxQSXRSUndtTmoyTEZaWnBiYXU0NXdVbFZ2ZzItOFBFcDktX1dpM0Uta2VxUTB6WWZJN2I0V2xyMmZJQ1JvM01CY29IUUhoZFRYaC13N2h0bWF1MHVjWTNZWDZONWNvMjM1WDVLa2M?oc=5"
-    },
-    {
-      "id": "news-n5refc",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T10:03:26.000Z",
-      "description": "Between Bombs and Red Carpets, the ‘ASEAN Way’ Is Failing (The Irrawaddy, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Irrawaddy",
-      "axis": "Other",
-      "tags": [
-        "The Irrawaddy",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Irrawaddy",
-      "source": "The Irrawaddy",
-      "sourceUrl": "https://www.irrawaddy.com/opinion/guest-column/between-bombs-and-red-carpets-the-asean-way-is-failing.html"
-    },
-    {
-      "id": "news-j5o97m",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T09:16:49.000Z",
-      "description": "Washington returns to Myanmar. Will India lose strategic space? - ThePrint (ThePrint, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ThePrint",
-      "axis": "Other",
-      "tags": [
-        "ThePrint",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ThePrint",
-      "source": "ThePrint",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WRy1fYWpudWJKWlV5Rk5pSjBOa21zUS1pelBmR0ZQazhTVU1HeXRFWlF1OTNOLWRQNGt5MlZBVFliQ1QzV1BFcG53aXU4dnNrV3VaVGdINVVtaDRtQ1V4cGhYQjczdHdaaHI5VmVUejd0TDB1ajR4WW9aaV90YmPSAYQBQVVfeXFMUElpWUZ4bmJocmthMnp1aXB1XzRPWUNFZmptRmdUaFpSSEVTV1VVVUdFWnZWSVZkckVfSk9VV2d3emN3OG9xTXdIbVQ0a3N6WG5fZmJIVjNwbG1DdEFWYVJkbmZYSU04T25Cb1ZIdTdKRGpBRlJmRnhpV3piZjBJcEwzV1hV?oc=5"
     }
   ]
 }

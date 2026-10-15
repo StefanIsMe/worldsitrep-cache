@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-15T09:01:10.963Z",
+  "collectedAt": "2026-10-15T12:10:50.891Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -41,15 +41,15 @@
       "id": "thehill",
       "url": "https://thehill.com/feed/",
       "status": "ok",
-      "count": 35,
-      "filtered": 15
+      "count": 32,
+      "filtered": 18
     },
     {
       "id": "politico-congress",
       "url": "https://rss.politico.com/congress.xml",
       "status": "ok",
-      "count": 27,
-      "filtered": 3
+      "count": 26,
+      "filtered": 4
     },
     {
       "id": "pbs-politics",
@@ -61,16 +61,16 @@
     {
       "id": "rollcall-congress",
       "url": "https://rollcall.com/section/congress/rss",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS rollcall-congress request failed with HTTP 502"
+      "status": "ok",
+      "count": 8,
+      "filtered": 2
     },
     {
       "id": "axios",
       "url": "https://api.axios.com/feed/",
       "status": "ok",
-      "count": 26,
-      "filtered": 24
+      "count": 25,
+      "filtered": 25
     },
     {
       "id": "gnews-protest",
@@ -101,8 +101,263 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 421,
+  "count": 419,
   "events": [
+    {
+      "id": "news-12olopt",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T12:00:21.000Z",
+      "description": "Tracking the 2026 Early Vote: Midterm Elections - NBC News (NBC News, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5"
+    },
+    {
+      "id": "news-1fq7oev",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T11:06:21.000Z",
+      "description": "After booting 760K off ACA health plans, the Trump administration adds some people back (NPR, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/15/nx-s1-6002957/aca-fraud-trump-health-insurance"
+    },
+    {
+      "id": "news-16pvpp2",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T11:00:00.000Z",
+      "description": "Putin is once again playing Trump for a fool (The Hill, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/opinion/national-security/6148360-putin-outsmarts-trump-diplomacy/"
+    },
+    {
+      "id": "news-ptl56b",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T10:30:21.000Z",
+      "description": "Louisiana Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9pZHZyZnlsaGh6Qy02ZUpoN3VnVDJ2Z2xtNkRpbm1BSUFGa0RsV0t5Vzc1VW9wV2NrRUZqUHliRlY0YzVPZ216UE53TXdzbEhqVjJGc1NwMGVlbUJocWx3Umlmb1JRQzV2SnY2akZwQTZFb3M?oc=5"
+    },
+    {
+      "id": "news-17s6nm4",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T10:00:00.000Z",
+      "description": "Mystery surrounds DOJ&#8217;s investigation of Gavin Newsom (The Hill, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Newsom",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/campaign/6149261-trump-targets-newsom-foundation/",
+      "lat": 36.08006,
+      "lng": -86.99723,
+      "coordsNote": "OSM geocode: matched \"Newsom\" → Newsom, Nashville, Davidson County; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-17si5ev",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T10:00:00.000Z",
+      "description": "Connecticut governor holds double-digit lead in reelection bid: Poll (The Hill, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/campaign/6148737-lamont-leads-fazio-poll-midterms/"
+    },
+    {
+      "id": "news-1v1sfe1",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T10:00:00.000Z",
+      "description": "Trump&#8217;s flood-the-zone strategy drowns state-specific midterm messaging (The Hill, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/campaign/6149466-donald-trump-midterm-economic-initiatives-rallies/"
+    },
+    {
+      "id": "news-6zjgdz",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T10:00:00.000Z",
+      "description": "L.A. voters worry about outside influence in midterm elections, new poll finds - Los Angeles Times (Los Angeles Times, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Los Angeles Times",
+      "axis": "Other",
+      "tags": [
+        "Los Angeles Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Los Angeles",
+      "source": "Los Angeles Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUElYU1l4VE9kdi05c1VrUm9JbzVjOTh4OUhiVC1GMk41MG1lWE9yT0dqZ2tObG0xR1MtRGhOTzJQTzVzVEVtZmgwUDFFTWhGUTNvZTVHZ1pNTEppX3VlcDNBT29VdHNWdFpKZkhiNnFiN29md3dQbkpOUExndFNORDZqWC13ZTM2?oc=5",
+      "lat": 34.05,
+      "lng": -118.24,
+      "coordsNote": "Headline gazetteer match: \"Los Angeles\" (city); verify via source article."
+    },
+    {
+      "id": "news-l7rxfw",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T10:00:00.000Z",
+      "description": "Trump, Senate GOP see Starlink become latest flash point over Ukraine (The Hill, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/senate/6149563-trump-ukraine-starlink-controversy/"
+    },
+    {
+      "id": "news-c2nkjw",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T09:52:46.000Z",
+      "description": "YOLO Chuck: Schumer's final fight (Axios, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/10/15/yolo-chuck-schumers-final-fight"
+    },
+    {
+      "id": "news-15zev9z",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T09:36:44.000Z",
+      "description": "Who will win the 2026 midterm elections? Polls and predictions - The Times (The Times, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times",
+      "axis": "Other",
+      "tags": [
+        "The Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Times",
+      "source": "The Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5"
+    },
+    {
+      "id": "news-t1tir7",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T09:30:09.000Z",
+      "description": "Gen Z and millennials are running for Congress in record numbers, but few reach November (Axios, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/10/15/gen-z-millennials-congress-gen-x-baby-boomers"
+    },
+    {
+      "id": "news-tce7a5",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T09:00:07.000Z",
+      "description": "Scoop: The FTC demanded documents from AI giants over recent safety incidents (Axios, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation"
+    },
     {
       "id": "news-1671iza",
       "kind": "news",
@@ -121,6 +376,82 @@
       "locationStr": "Politico",
       "source": "Politico",
       "sourceUrl": "https://www.politico.com/live-updates/2026/10/15/congress/waters-rallies-support-rivals-circle-01119792"
+    },
+    {
+      "id": "news-1l12grk",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T09:00:00.000Z",
+      "description": "Key US voters say economy is getting worse ahead of midterms, exclusive poll finds - The Guardian (The Guardian, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Guardian",
+      "axis": "Other",
+      "tags": [
+        "The Guardian",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Guardian",
+      "source": "The Guardian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSzZUX3puSnV6Q1E5OGE0SGtObWtXcTE2XzFPRTNwQ3Q1X2NkTnRrWUZwVW5PRVk0MkxIblBRM3pKN0lWZWhEalFITlNTcmlOeUh3SFFieGZtNHdqVDdneElFSnFpV0h6b3MwaXBwYTJBcG54S1ZXSWwwaHFNR0wyTWtLeG9xMWtwZlZBa1FZY3hROUot?oc=5"
+    },
+    {
+      "id": "news-1n4wjby",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T09:00:00.000Z",
+      "description": "31 election experts weigh in on whether Trump will interfere in the midterms - Votebeat (Votebeat, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Votebeat",
+      "axis": "Other",
+      "tags": [
+        "Votebeat",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Votebeat",
+      "source": "Votebeat",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUjNxQjFDc0xJOHBLMkVRN1ppOVk2elpMNjBYa0ZQOXJ0OXBnZERyazd0OGRic0ZTdjl2eGJxbmI4bzlTYUNVQXdMYnVlY29MRjRiYThBc3RsRmdvSVJ0cXgtRVVNR0U4ejd3TmtVZ1kxWlBKcklsVWhrUXFUSVFZa1dXTldjY0ludk05NUxvRF9sVEpSVUxwNlF0SzRJbVN1bjVDMTk1MkpDVi1pb2JfWDlvZk02dUFRSXc?oc=5"
+    },
+    {
+      "id": "news-gobfm1",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T09:00:00.000Z",
+      "description": "These swing voters regret voting for Trump and it's influencing their midterm choices (NPR, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/15/nx-s1-6001714/georgia-swing-voters-focus-groups"
+    },
+    {
+      "id": "news-soy9dh",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T09:00:00.000Z",
+      "description": "Republicans’ last hope for 2026: Another polling miss - Politico (Politico, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Politico",
+      "axis": "Other",
+      "tags": [
+        "Politico",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Politico",
+      "source": "Politico",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYmZFR1NtcHZOSVVMeDFLUTlWMjFKc2k3a0ZDZWF0XzNsZnRiQmgySUo0VFhiQW5fck54YktFNG5lakEtUzhGYWEyTFJPWEpJaExqbU9kcEFsQjBCeWx6ZTVBbzU2cEVNeTZlS1VZaUpfVmxnQUk3QkowV0hBZlhBdmpDT0NBZ29RelByTXFyVEczV1dUTU1hSlhOdk51N1JBOFE?oc=5"
     },
     {
       "id": "news-xs0b5g",
@@ -142,25 +473,6 @@
       "sourceUrl": "https://www.politico.com/news/2026/10/14/katherine-clark-majority-leader-01119041"
     },
     {
-      "id": "news-12olopt",
-      "kind": "news",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T08:00:21.000Z",
-      "description": "Tracking the 2026 Early Vote: Midterm Elections - NBC News (NBC News, 2026-10-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5"
-    },
-    {
       "id": "news-a5zmkl",
       "kind": "news",
       "date": "2026-10-15",
@@ -180,42 +492,46 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUk1jVVRHTHVrZWpGU2hwem14UExwQlFILXZNNFhlbnB4S0RjWGU3Y24yRFRMZ2Q3Z3l0WGZoN0VnMU42QURqR0RBRTAtN1U3N3Z4TzNFN0p0dXBlVjR4aHFzcUEtRy1IS2pOeEx5Q0Zvb0JXTXVqODAyRnQ1Sk9RZW5XT1FQVlhHV19VTW0wUHFLQXloSVlMaG9mT2NiWGNU?oc=5"
     },
     {
-      "id": "news-15zev9z",
+      "id": "news-op6lyu",
       "kind": "news",
       "date": "2026-10-15",
-      "isoDate": "2026-10-15T04:34:58.000Z",
-      "description": "Who will win the 2026 midterm elections? Polls and predictions - The Times (The Times, 2026-10-15. Headline + link only.)",
+      "isoDate": "2026-10-15T06:33:45.000Z",
+      "description": "Here’s Why a Normal Election This November Is More Likely Than Chaos - Katie Couric Media (Katie Couric Media, 2026-10-15. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Times",
+      "actor": "Katie Couric Media",
       "axis": "Other",
       "tags": [
-        "The Times",
+        "Katie Couric Media",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Times",
-      "source": "The Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5"
+      "locationStr": "Katie Couric Media",
+      "source": "Katie Couric Media",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOTloeUJhMktPVmhFYzFJd1BLX0JWQjVIRlJfbzNLS1d6OXpSTVptNWFkdWRSWTZXd2kxQ1R2VVl1UU5xZEhZcy10Y3JsVk52LWlNZVh4bzNDWVZZMDFsTVhYNUlITXpwVHpIWTEwdko4S2JKTk80SGstMHZZbmcwZEF4Z1JWMzljalA3UU00anlHcy1RcWc?oc=5"
     },
     {
-      "id": "news-ptl56b",
+      "id": "news-7qj7l7",
       "kind": "news",
       "date": "2026-10-15",
-      "isoDate": "2026-10-15T04:30:21.000Z",
-      "description": "Louisiana Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-15. Headline + link only.)",
+      "isoDate": "2026-10-15T06:28:25.000Z",
+      "description": "Homeland Security investigative unit in spotlight in Omar probe (Roll Call, 2026-10-15. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "NBC News",
+      "actor": "Roll Call",
       "axis": "Other",
       "tags": [
-        "NBC News",
-        "headline"
+        "Roll Call",
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9pZHZyZnlsaGh6Qy02ZUpoN3VnVDJ2Z2xtNkRpbm1BSUFGa0RsV0t5Vzc1VW9wV2NrRUZqUHliRlY0YzVPZ216UE53TXdzbEhqVjJGc1NwMGVlbUJocWx3Umlmb1JRQzV2SnY2akZwQTZFb3M?oc=5"
+      "coordsTier": "approximate",
+      "locationStr": "Omar",
+      "source": "Roll Call",
+      "sourceUrl": "https://rollcall.com/2026/10/15/homeland-security-investigative-unit-in-spotlight-in-omar-probe/",
+      "lat": 37.75882,
+      "lng": -81.99774,
+      "coordsNote": "OSM geocode: matched \"Omar\" → Omar, Logan County, West Virginia; © OpenStreetMap contributors."
     },
     {
       "id": "news-mj3ofj",
@@ -302,7 +618,7 @@
       "kind": "news",
       "date": "2026-10-15",
       "isoDate": "2026-10-15T02:50:13.000Z",
-      "description": "Talarico debates Texas voters in CNN-Jubilee town hall amid tight Senate race (The Hill, 2026-10-15. Headline + link only.)",
+      "description": "Talarico debates Texas voters in town hall amid tight Senate race (The Hill, 2026-10-15. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "The Hill",
@@ -817,6 +1133,29 @@
       "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
+      "id": "news-v9tif",
+      "kind": "news",
+      "date": "2026-10-14",
+      "isoDate": "2026-10-14T21:53:46.000Z",
+      "description": "Alaska At-Large Congressional District 2026: Latest Polls - The New York Times (The New York Times, 2026-10-14. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOczJRTWVvXzFLWkFQYUszemZISEgwWWRyTE5SbFdlYzJyVnAtaVVieUVaVHBudnVFaGpYblZ0SFRuVThGaHZ0bHdUUjBoLWJUZmJwOVVXY2JjNkJDY3hOb19MdnhpaWlPZlNISWtrRzZ4a1BwakNoSmNHOUt0VXdhTnotNGpLNmUzWGc?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
       "id": "news-13w1k9q",
       "kind": "news",
       "date": "2026-10-14",
@@ -1074,25 +1413,6 @@
       "locationStr": "NBC News",
       "source": "NBC News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aYnktTFVvVC14X2pyUEYwRzZGaU5IWDFFdUt2eXo1ZzVheDJGU2xmb185dVJzb1FqaXBWNy1XdHdtTnVuUnZUOVFPWGw5cnYza045eVAwQm5QLUdCbEtNTmh5eElITjFFRU0zXw?oc=5"
-    },
-    {
-      "id": "news-op6lyu",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T20:45:12.000Z",
-      "description": "Here’s Why a Normal Election This November Is More Likely Than Chaos - Katie Couric Media (Katie Couric Media, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Katie Couric Media",
-      "axis": "Other",
-      "tags": [
-        "Katie Couric Media",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Katie Couric Media",
-      "source": "Katie Couric Media",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOTloeUJhMktPVmhFYzFJd1BLX0JWQjVIRlJfbzNLS1d6OXpSTVptNWFkdWRSWTZXd2kxQ1R2VVl1UU5xZEhZcy10Y3JsVk52LWlNZVh4bzNDWVZZMDFsTVhYNUlITXpwVHpIWTEwdko4S2JKTk80SGstMHZZbmcwZEF4Z1JWMzljalA3UU00anlHcy1RcWc?oc=5"
     },
     {
       "id": "news-11z66r3",
@@ -2151,29 +2471,6 @@
       "locationStr": "NBC News",
       "source": "NBC News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5"
-    },
-    {
-      "id": "news-v9tif",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T15:45:15.000Z",
-      "description": "Alaska At-Large Congressional District 2026: Latest Polls - The New York Times (The New York Times, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOczJRTWVvXzFLWkFQYUszemZISEgwWWRyTE5SbFdlYzJyVnAtaVVieUVaVHBudnVFaGpYblZ0SFRuVThGaHZ0bHdUUjBoLWJUZmJwOVVXY2JjNkJDY3hOb19MdnhpaWlPZlNISWtrRzZ4a1BwakNoSmNHOUt0VXdhTnotNGpLNmUzWGc?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
       "id": "news-138lizc",
@@ -7962,337 +8259,6 @@
       "locationStr": "AgroLatam",
       "source": "AgroLatam",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPanlDUzVYdzJqR0dOM0djTFR6SWoyXzdybHM2d294b000MzFIQXdTN01wRnZCXzBJeDBvdXQwWkJ1U0JDUnZhUC12WHJVT21leTdVOXZoelJzWnpVeVo0OG9yUDRyWVdsZ05HNzlTQVRlTU42d0p2dFoxN3ZHLWR4d2JuVWotalRSdXVR?oc=5"
-    },
-    {
-      "id": "news-3fk4io",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T12:01:35.000Z",
-      "description": "Trump privately expresses doubts about livestreaming execution (Axios, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/10/12/trump-livestream-execution"
-    },
-    {
-      "id": "news-1n0rmtx",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T11:59:19.000Z",
-      "description": "Schumer: Judge halting Trump ads ‘only the beginning’ (The Hill, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/senate/6142172-chuck-schumer-donald-trump-controversial-ads-blocked-by-judge/"
-    },
-    {
-      "id": "news-1f1zarc",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T11:56:56.000Z",
-      "description": "Federal judge ordered Trump's $20M taxpayer-funded TV ads off the air - Quartz (Quartz, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Quartz",
-      "axis": "Other",
-      "tags": [
-        "Quartz",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Quartz",
-      "source": "Quartz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Jc3ZfaEg1bjZqYW5La2FaWHZOY1U0MTVrLXUySFJkZjRqa0RVN1dmR3dYYkpFRGI5NDM1cFdQemlGWDNnalhxU0w2RW5vLUR0bWRXTlVudGVHeDlZUUFhZ0w1dU1OU1FwWTFGczFiNGhURUUtRGc?oc=5"
-    },
-    {
-      "id": "news-vv10t5",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T11:37:00.000Z",
-      "description": "Democratic senator talks Trump's Russian diesel deal (NPR, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/12/nx-s1-5998040/democratic-senator-talks-trumps-russian-diesel-deal"
-    },
-    {
-      "id": "news-1578vd6",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T11:21:37.000Z",
-      "description": "Federal judge bars Trump administration from airing publicly funded ads - Inquirer.com (Inquirer.com, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Inquirer.com",
-      "axis": "Other",
-      "tags": [
-        "Inquirer.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Inquirer.com",
-      "source": "Inquirer.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZWtfZGN4RmJPc091MUI3b3lFN21rYzFQcmdWaXA4VkduOVNiUk9TbUk4cGd1YndXNWdaUWN0QW5kWUpEemlFR2VKMExSZ1dLRjJTalN4SGZDZUxvVkZ4V2JKb1RsMUswRU1BcEtWbVh0UHRZNkNfRDZhSnBpaG9zXzQ4UQ?oc=5"
-    },
-    {
-      "id": "news-ieyzbz",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T10:07:47.000Z",
-      "description": "US House races to watch in the 2026 elections - Reuters (Reuters, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcEpPVmpmaTg3LTZjVzVHUk4zb3dndDRDMWw1ZlltWFRiTlVVNHNvVmhWZ21vbGVSaTJKaS1kSllUMlJoZHZUWlBlNE81VVAxRHdXLVp4M2h4V0ozSUQyQ3FFQmE0SHg1RWxrbmYzeld5V0Y3ZmNhR2kzVVFlWk5oWlJhZTRFSGtTd3R1MEN0dWVxZw?oc=5"
-    },
-    {
-      "id": "news-t9vfav",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T10:02:00.000Z",
-      "description": "Six reasons Democrats may fall short of a midterm landslide in November - Reuters (Reuters, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUDUtNXdPdWhTRjltSHNuVHhFN3VyWmdKZ2lzZmItSHRCd1VRV2R1Tmx2ZzZ4VU1nY2ZDSGVrcVNMY0tfa3NWR0V3dVh4d1hHRmhYd0RnQi1UNzNsZ09xNEtQcURCbm9leDZWUEZLdWZZcjNmUU5EWkJ6VERjVDNHbVRJQjhSYm50anM3VVEtRVYyT0RIOWtScjh4MnA4MnBtVXkyNkFpdG9jN3Ry?oc=5"
-    },
-    {
-      "id": "news-16fxcnk",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T10:00:21.000Z",
-      "description": "Colorado Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1LUw1X0pTb0hERndfMVFzcmg5Zk44eWlTV3dVRG9ESWs5SFVpdHF5UkU4eGEycm1QWldBS2F6RDlOSS1ub3h3bnhBRktaZEx1RFRpX1FBYW1nSHRiVkJqZ1Z1aXY1XzBSZ09XZFlNRWVnUQ?oc=5"
-    },
-    {
-      "id": "news-nhlzy8",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T10:00:21.000Z",
-      "description": "Arizona Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01dkVCZGVncXlQblhmYnY1RnJxSk81OTNSSzY4aEhudUt1c2ZtenE0UGp1aURBTXJucVFOZEZ6R0FrOHpWcmpxTGh2OEdQVDdFZzNLdGl0dUpXYlRUVVh5ajZ3bHRLU0pSUm9wOWo1Y0s?oc=5"
-    },
-    {
-      "id": "news-ym3737",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T10:00:21.000Z",
-      "description": "Virginia Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkLWRDem9pazRtRXphOUZUcDl4OWdzaFlBZFVZOHVMbE5vemhjU24zR0tJQkdNcy1UcDdMdkRJZFZ5TmI0bWFKemxMQlZ1eGRSZk8tNWswVDVPQi1ScjFSUExZdi1RanNYeS1mZEFIVDBWQQ?oc=5"
-    },
-    {
-      "id": "news-10lhdrg",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T10:00:00.000Z",
-      "description": "The Senate races most likely to flip less than a month from Election Day - The Hill (The Hill, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX3p0QW9sa0hTODRac01yUm04TGE4eW1SQTJXRmNjSkNnSGRtcWZpRlJGZG5OVnp1bnZYNTFWbWJ6WjM0SEdybm15YVRxekl0bFBzekh0c093RmdJd090TzlKa3dCLWprVjV4ZUtDWlVpQVBETkFzYTZzMEpEekhscUxTOA?oc=5"
-    },
-    {
-      "id": "news-1m0fkoq",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T10:00:00.000Z",
-      "description": "Minnesota Poll: Flanagan with narrow lead over Tafoya in U.S. Senate race - kare11.com (kare11.com, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "kare11.com",
-      "axis": "Other",
-      "tags": [
-        "kare11.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "kare11.com",
-      "source": "kare11.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYUM1U29VUHpwU21maHFlaGdDUnhZYUJGTnJxQUFza3k3ZXI1Z3JScXJUZzRNRWhBUWNja2RsLUl6VDYwczRKdkJnOGNhZnNxdGdtVGl4MHFIZl9fWWV5MXljQ0xIbkF4UENmNjg5WENLd0lwOE9nejZEYXlONElOQWhZWDZjdDNDU0RPTkZCRzdHbmhuamM1YUJxRGZEWHBsS1hUSDh0XzF5a1dnYVZTWlpZVWdQUHNMcHJYazZzbUl1QXYySTMtZEU1TFhOUFB2UkNBY0FYT1NEWjkwOVVGMGNkTUdUY0I2QVN2RlA3QnRfY21VN3lUYg?oc=5"
-    },
-    {
-      "id": "news-8sua02",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T10:00:00.000Z",
-      "description": "The Senate races most likely to flip less than a month from Election Day - The Hill (The Hill, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX3p0QW9sa0hTODRac01yUm04TGE4eW1SQTJXRmNjSkNnSGRtcWZpRlJGZG5OVnp1bnZYNTFWbWJ6WjM0SEdybm15YVRxekl0bFBzekh0c093RmdJd090TzlKa3dCLWprVjV4ZUtDWlVpQVBETkFzYTZzMEpEekhscUxTONIBiAFBVV95cUxQeXJFU2FhU3BmeVhlUHBiYXNPVjh1MHJ1OTRoRGNUckx2RmtFekxKWU9qRmY1b3MwZno3QVExbFVmRlpQdG1Ndmp3bnZ0RGRlb3o4S2k0OU5RaU5xcV9OeU1lOEYzaEVWY0xsMEtmOEVjV3dzS055dWZJUy05TENzOEVMVU9NN1ky?oc=5"
-    },
-    {
-      "id": "news-e8ks5z",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T10:00:00.000Z",
-      "description": "The Senate races most likely to flip less than a month from Election Day (The Hill, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/6140876-senate-race-forecasts-midterms/"
-    },
-    {
-      "id": "news-1osfdxt",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T09:07:00.000Z",
-      "description": "If Republicans get crushed in the midterms, what's their plan B? | Opinion - USA Today (USA Today, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "USA Today",
-      "axis": "Other",
-      "tags": [
-        "USA Today",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "USA Today",
-      "source": "USA Today",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS2dhMXJ1d1h0bXJqREhSQzJwdkkybHN0MldsQmY2QW5IWGZVM0ljY19IUW1Hd1pFaFRaSGZWU25BYnRzdWt4TWZZVFJjakI1OXVjQzliekJmQkdrQllER296UHdGaDVPWXZHQU9fcVZRMzdxUEVvWExxRUo3ODhVWTlDSjVVWGRKU1kyNGFnM1hPSkRRRExRM3N1TUhuakljM2oyRjBBZkhqUmdVVVRiQUx3UQ?oc=5"
-    },
-    {
-      "id": "news-maor6u",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T09:02:39.000Z",
-      "description": "Who’s Winning the Race for Congress? - The New York Times (The New York Times, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY2pMNnY5dTJFT2VKNEFzSzRPMUg3WktYWkk5RjJwNjl6djZHU2s4UDN3eGE2QlFVR0FpcUlwZFdRa2luMVFwMnAydjBJVFJGdHVTajVKTkRhUUFoWVJGdjF0QUhTSXBiQmpSMm1Rd0J4QnJPdTF1cGlGVFExczJMSWx3QnVyLTA0and5MEdFQQ?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
-    },
-    {
-      "id": "news-ynud8x",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T09:02:23.000Z",
-      "description": "Inside Elon Musk’s $276 Million Midterm Rescue Mission for Republicans - The New York Times (The New York Times, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80Mmg3bWR5UmhKR0tTaTZOTmREWUJKZF9HSXZoNEYxVjJMRWNKa0lTNFFzRWZCUmY1Z0dPRWQ5RjBlWWJHeElFRzhleURGcTNhWXFkVHJmOE9YTkNuMHZtRG1XbDBZODAtb01kbjNsWXdQOWpfNXNEY0t3?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     }
   ]
 }
