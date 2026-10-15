@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-15T12:10:50.891Z",
+  "collectedAt": "2026-10-15T14:19:48.409Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 19
+      "count": 15
     },
     {
       "id": "gcaptain",
       "url": "https://gcaptain.com/feed/",
       "status": "ok",
-      "count": 5,
-      "filtered": 7
+      "count": 4,
+      "filtered": 8
     },
     {
       "id": "bbc-yemen",
@@ -55,8 +55,8 @@
       "id": "france24-me",
       "url": "https://www.france24.com/en/middle-east/rss",
       "status": "ok",
-      "count": 21,
-      "filtered": 9
+      "count": 22,
+      "filtered": 8
     },
     {
       "id": "gnews-hodeidah",
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 861,
+  "count": 873,
   "events": [
+    {
+      "id": "news-yvrhop",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T14:16:57.000Z",
+      "description": "War escalates between Houthis and Riyadh: How did we get here? (France 24 Middle East, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24 Middle East",
+      "axis": "Other",
+      "tags": [
+        "France 24 Middle East",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "France 24 Middle East",
+      "source": "France 24 Middle East",
+      "sourceUrl": "https://www.france24.com/en/tv-shows/perspective/20261015-war-escalates-between-houthis-and-riyadh-how-did-we-get-here"
+    },
     {
       "id": "news-1k21ils",
       "kind": "news",
@@ -3046,6 +3065,516 @@
         "goldstein": -5,
         "tone": -3.53,
         "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328093727",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T12:30:00.000Z",
+      "description": "Fight — Djibouti → Unspecified near Marib, Ma'rib, Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.461,
+      "lng": 45.3253,
+      "action": "Fight (GDELT 190)",
+      "actor": "Djibouti",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Marib, Ma'rib, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://article.wn.com/view/2026/10/15/A_SaudiIran_Deal_May_Keep_the_Bab_alMandab_Strait_Open/",
+      "gdelt": {
+        "globalEventId": "1328093727",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.02,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328094693",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T12:30:00.000Z",
+      "description": "Rejection — Saudi Arabia → Yemen near Marib, Ma'rib, Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.461,
+      "lng": 45.3253,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Marib, Ma'rib, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://article.wn.com/view/2026/10/15/A_SaudiIran_Deal_May_Keep_the_Bab_alMandab_Strait_Open/",
+      "gdelt": {
+        "globalEventId": "1328094693",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -3.02,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328094997",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T12:30:00.000Z",
+      "description": "Rejection — Yemen → Unspecified near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.middleeastmonitor.com/20261015-yemeni-premier-calls-houthi-attacks-siege-of-taiz-war-crime/",
+      "gdelt": {
+        "globalEventId": "1328094997",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -8.65,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328096337",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T12:45:00.000Z",
+      "description": "Fight — Unspecified → Yemen near Madinah, Ibb, Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.9777,
+      "lng": 44.0484,
+      "action": "Fight (GDELT 195)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Madinah, Ibb, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.samaa.tv/2087358531-saudi-coalition-intercepts-cruise-missile-over-madinah",
+      "gdelt": {
+        "globalEventId": "1328096337",
+        "eventCode": "195",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.23,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328097546",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T12:45:00.000Z",
+      "description": "Fight — Saudi Arabia → Unspecified near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 194)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.samaa.tv/2087358531-saudi-coalition-intercepts-cruise-missile-over-madinah",
+      "gdelt": {
+        "globalEventId": "1328097546",
+        "eventCode": "194",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.23,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328097882",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T12:45:00.000Z",
+      "description": "Fight — Yemen → Saudi Arabia near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 194)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.samaa.tv/2087358531-saudi-coalition-intercepts-cruise-missile-over-madinah",
+      "gdelt": {
+        "globalEventId": "1328097882",
+        "eventCode": "194",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.23,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328097883",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T12:45:00.000Z",
+      "description": "Fight — Yemen → Saudi Arabia near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 194)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.samaa.tv/2087358531-saudi-coalition-intercepts-cruise-missile-over-madinah",
+      "gdelt": {
+        "globalEventId": "1328097883",
+        "eventCode": "194",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.23,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328100262",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T13:00:00.000Z",
+      "description": "Disapproval — Saudi Arabia → Unspecified near Yemen. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://en.dailypakistan.com.pk/15-Oct-2026/houthis-claim-to-have-shot-down-saudi-typhoon-fighter-jet-over-yemens-sadah",
+      "gdelt": {
+        "globalEventId": "1328100262",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.4,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328100263",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T13:00:00.000Z",
+      "description": "Fight — Saudi Arabia → Unspecified near Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Fight (GDELT 194)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://en.dailypakistan.com.pk/15-Oct-2026/houthis-claim-to-have-shot-down-saudi-typhoon-fighter-jet-over-yemens-sadah",
+      "gdelt": {
+        "globalEventId": "1328100263",
+        "eventCode": "194",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.4,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328102084",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T13:15:00.000Z",
+      "description": "Disapproval — Brussels → Saudi Arabia near Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Brussels",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://arynews.tv/eu-gulf-nations-postpone-riyadh-summit-houthi-attacks",
+      "gdelt": {
+        "globalEventId": "1328102084",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.37,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328102825",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T13:15:00.000Z",
+      "description": "Reduced relations — Saudi Arabia → Unspecified near Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Reduced relations (GDELT 161)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://arynews.tv/eu-gulf-nations-postpone-riyadh-summit-houthi-attacks",
+      "gdelt": {
+        "globalEventId": "1328102825",
+        "eventCode": "161",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -5.37,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328105197",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T13:30:00.000Z",
+      "description": "Fight — Yemen → Unspecified near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 194)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.middleeastmonitor.com/20261015-egypt-qatar-stress-need-to-halt-hostilities-against-saudi-arabia/",
+      "gdelt": {
+        "globalEventId": "1328105197",
+        "eventCode": "194",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.25,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328106839",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T13:45:00.000Z",
+      "description": "Threat — China → Israel near Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Threat (GDELT 130)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.terrorism-info.org.il/en/spotlight-on-iran-and-the-shiite-axis-october-7-14-2026/",
+      "gdelt": {
+        "globalEventId": "1328106839",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.86,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328107496",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T13:45:00.000Z",
+      "description": "Disapproval — National Security Adviser → Unspecified near Yemen. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "National Security Adviser",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thedailybeast.com/trump-says-leakers-should-be-shot-after-secret-plans-exposed",
+      "gdelt": {
+        "globalEventId": "1328107496",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.74,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328112206",
+      "kind": "event",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T00:00:00.000Z",
+      "observedAt": "2026-10-15T14:00:00.000Z",
+      "description": "Fight — United States → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.aawsat.com/opinion/5329860-regional-alliances-confronting-iranian-narrative",
+      "gdelt": {
+        "globalEventId": "1328112206",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 0.25,
+        "mentions": 8,
         "sources": 1
       }
     },
@@ -27293,86 +27822,6 @@
       "locationStr": "gCaptain",
       "source": "gCaptain",
       "sourceUrl": "https://gcaptain.com/sweden-releases-sanctioned-russian-shadow-fleet-tanker-after-seven-month-detention/"
-    },
-    {
-      "id": "news-2rfh3k",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T13:17:00.000Z",
-      "description": "Saudi Arabia faces new missile and drone fire after major attacks on airports - Reuters (Reuters, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbjQ4VHZvYkdYQm9yVEk1YjFFMmpzdkZlZURhdnpYUlNHTl9KMDZrbVFMSXB6WGRlU2ZIb2NnZm9yMjYwb2hYTnh0YnBrc2RkWWs0MzdxX01TUzllWERDajRXZHhxVXFIVmJhX0ljT0NWVHZMejdIdFhmWlZaOUFPQkVLUXZiN2hGVG1velpDX3FvTzY0VVhiQlpCQ1hoejRmSjhBZlVnYlNUcUlQOF9PeWVlMS0xT1RzS2Rlb1FUQlBwQQ?oc=5"
-    },
-    {
-      "id": "news-1v6y92g",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T13:05:22.000Z",
-      "description": "Saudi Arabia probes air defence failure after Houthi attack on Riyadh airport kills 13 - The New Indian Express (The New Indian Express, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New Indian Express",
-      "axis": "Other",
-      "tags": [
-        "The New Indian Express",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New Indian Express",
-      "source": "The New Indian Express",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdTJDTTZkUEJRZFk3N0FaYUh4aEdBMWM5SDVxYjI1ODNfWElZNk9Wbmphekl5Y25vZTVaVzRMT01SclVXRkRZQU0wS2QxMF8xelB3UGFLWlJfeFBfcHdtdWp2M04zWTVSWGpNbzF5aXlvMVBtWFBqbWhBamoxbnhMVktBV1VwVl9WbVFjcnFsUEF6N1djQzNEUmFkaEI5U2JLNWc4ckJsaWNsWEVXS3pSUHFOUVFWUnB1cFhFUHJvYV94WFUtQjI0RmVWdDZUZ3hSYlg00gHgAUFVX3lxTE5VeDBrYnYySDNZNjVSOEZvME9qc1RJNXk3RGtqNFBPZHZaeEFVOGxUX0YxeFYzeGx2dThzNGZ6bTJDY3VGVVljSGxYVmZfOW5rVVYwVXFJaV9kTzRDd0txV253MHVBR2tYdWxmNTlDRXgzMlU2aC11NUVfZ3JfRUg0anJOTzRsOTliTWoyWklJUHhCMU42VjZCdkJVVFJjTTRUMUhoOGJzYlBnSElhZV95bUI3ekh4TXViUURkcVpIaXBFSElKbzg5bU9hYlExWGdhMDFMb0ZlNWt1RFQtNHdC?oc=5"
-    },
-    {
-      "id": "news-u2ukmh",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T12:50:28.000Z",
-      "description": "Shippers stressing over risks from Suez Canal and Red Sea transits (The Loadstar, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Loadstar",
-      "axis": "Other",
-      "tags": [
-        "The Loadstar",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Red Sea",
-      "source": "The Loadstar",
-      "sourceUrl": "https://theloadstar.com/shippers-stressing-over-risks-from-suez-canal-and-red-sea-transits/",
-      "lat": 15.5,
-      "lng": 41.5,
-      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
-    },
-    {
-      "id": "news-dkc7ox",
-      "kind": "news",
-      "date": "2026-10-12",
-      "isoDate": "2026-10-12T12:15:01.000Z",
-      "description": "Why is it so hard to fight the Houthis? (BBC, 2026-10-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC",
-      "axis": "Other",
-      "tags": [
-        "BBC",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "BBC",
-      "source": "BBC",
-      "sourceUrl": "https://www.bbc.co.uk/news/videos/cmy56nzd6y69o?at_medium=RSS&at_campaign=rss"
     }
   ]
 }
