@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-15T00:48:56.788Z",
+  "collectedAt": "2026-10-15T03:52:45.754Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 265,
+  "coarseGdeltDropped": 240,
   "outsideTheatreDropped": 2,
   "proposals": [
     {
@@ -15,16 +15,16 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 660,
+      "eventCount": 672,
       "kinds": {
-        "combat": 158,
-        "other": 490,
+        "combat": 154,
+        "other": 506,
         "strike": 12
       },
       "tierCounts": {
-        "approximate": 660
+        "approximate": 672
       },
-      "combatCount": 170,
+      "combatCount": 166,
       "newestIsoDate": "2026-10-15T00:00:00.000Z",
       "samples": [
         {
@@ -44,10 +44,10 @@
         }
       ],
       "centroid": {
-        "lat": 50.4128,
-        "lng": 30.197
+        "lat": 50.4225,
+        "lng": 30.2353
       },
-      "radiusKm": 43.2
+      "radiusKm": 38.1
     },
     {
       "zoneId": "occ-kharkiv",
@@ -56,14 +56,14 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 147,
+      "eventCount": 150,
       "kinds": {
-        "other": 87,
-        "combat": 53,
-        "strike": 7
+        "other": 90,
+        "combat": 54,
+        "strike": 6
       },
       "tierCounts": {
-        "approximate": 147
+        "approximate": 150
       },
       "combatCount": 60,
       "newestIsoDate": "2026-10-15T00:00:00.000Z",
@@ -85,8 +85,8 @@
         }
       ],
       "centroid": {
-        "lat": 49.9704,
-        "lng": 36.2698
+        "lat": 49.9706,
+        "lng": 36.2695
       },
       "radiusKm": 15
     },
@@ -97,15 +97,15 @@
         "lat": 47,
         "lng": 35.5
       },
-      "eventCount": 40,
+      "eventCount": 49,
       "kinds": {
-        "combat": 23,
-        "other": 17
+        "combat": 26,
+        "other": 23
       },
       "tierCounts": {
-        "approximate": 40
+        "approximate": 49
       },
-      "combatCount": 23,
+      "combatCount": 26,
       "newestIsoDate": "2026-10-15T00:00:00.000Z",
       "samples": [
         {
@@ -114,21 +114,21 @@
           "sourceUrl": "https://www.arabnews.com/world/ukraine-accuses-us-of-helping-russia-restricting-starlink-as-missiles-hit-kyiv-3006366"
         },
         {
-          "id": "news-1ctx8uo",
-          "isoDate": "2026-10-14T16:52:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4174479-russian-forces-attack-dnipropetrovsk-region-nearly-40-times-in-one-day-killing-one-person.html"
+          "id": "gdelt-1328009087",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.the-sun.com/news/17144965/"
         },
         {
-          "id": "news-cgc7sr",
-          "isoDate": "2026-10-14T16:24:17.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/economic/1220261.html"
+          "id": "gdelt-1328009922",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.the-sun.com/news/17144965/"
         }
       ],
       "centroid": {
-        "lat": 48.2225,
-        "lng": 35.2739
+        "lat": 48.2811,
+        "lng": 35.2095
       },
-      "radiusKm": 46.1
+      "radiusKm": 37.9
     },
     {
       "zoneId": "occ-luhansk",
@@ -170,6 +170,47 @@
         "lng": 39.3141
       },
       "radiusKm": 31.8
+    },
+    {
+      "zoneId": "lib-snake",
+      "region": "Snake Island",
+      "center": {
+        "lat": 45.2551,
+        "lng": 30.2033
+      },
+      "eventCount": 21,
+      "kinds": {
+        "other": 16,
+        "combat": 3,
+        "strike": 2
+      },
+      "tierCounts": {
+        "approximate": 21
+      },
+      "combatCount": 5,
+      "newestIsoDate": "2026-10-15T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1328012039",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.lbc.co.uk/article/zelenskyy-starlink-starshield-betrayed-us-ukraine-trump-5Hjdjw9_2/"
+        },
+        {
+          "id": "gdelt-1328012044",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.lbc.co.uk/article/zelenskyy-starlink-starshield-betrayed-us-ukraine-trump-5Hjdjw9_2/"
+        },
+        {
+          "id": "gdelt-1328012313",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.lbc.co.uk/article/zelenskyy-starlink-starshield-betrayed-us-ukraine-trump-5Hjdjw9_2/"
+        }
+      ],
+      "centroid": {
+        "lat": 46.019,
+        "lng": 30.1832
+      },
+      "radiusKm": 75.2
     },
     {
       "zoneId": "occ-donetsk",
@@ -218,18 +259,22 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 20,
+      "eventCount": 17,
       "kinds": {
-        "other": 14,
-        "combat": 4,
-        "strike": 2
+        "other": 15,
+        "combat": 2
       },
       "tierCounts": {
-        "approximate": 20
+        "approximate": 17
       },
-      "combatCount": 6,
-      "newestIsoDate": "2026-10-14T23:09:14.000Z",
+      "combatCount": 2,
+      "newestIsoDate": "2026-10-15T03:20:00.000Z",
       "samples": [
+        {
+          "id": "news-p1jz41",
+          "isoDate": "2026-10-15T03:20:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4174547-death-toll-from-russian-attack-rises-to-three-six-people-injured-in-kropyvnytskyi.html"
+        },
         {
           "id": "news-1uzbal3",
           "isoDate": "2026-10-14T23:09:14.000Z",
@@ -239,57 +284,11 @@
           "id": "news-1xdxnkd",
           "isoDate": "2026-10-14T22:46:13.000Z",
           "sourceUrl": "https://www.kyivpost.com/post/87089"
-        },
-        {
-          "id": "news-fsh3h",
-          "isoDate": "2026-10-14T22:28:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4174160-over-70-of-liberated-kherson-region-cleared-of-mines.html"
         }
       ],
       "centroid": {
-        "lat": 47.1922,
-        "lng": 32.5124
-      },
-      "radiusKm": 80
-    },
-    {
-      "zoneId": "lib-snake",
-      "region": "Snake Island",
-      "center": {
-        "lat": 45.2551,
-        "lng": 30.2033
-      },
-      "eventCount": 19,
-      "kinds": {
-        "combat": 1,
-        "other": 14,
-        "strike": 4
-      },
-      "tierCounts": {
-        "approximate": 19
-      },
-      "combatCount": 5,
-      "newestIsoDate": "2026-10-14T00:00:00.000Z",
-      "samples": [
-        {
-          "id": "gdelt-1327836529",
-          "isoDate": "2026-10-14T00:00:00.000Z",
-          "sourceUrl": "https://brudirect.com/post/Bulgarian-PM-summons-Russian-ambassador-after-ship-sinks-in-Black-Sea-drone-attack"
-        },
-        {
-          "id": "gdelt-1327836614",
-          "isoDate": "2026-10-14T00:00:00.000Z",
-          "sourceUrl": "https://brudirect.com/post/Bulgarian-PM-summons-Russian-ambassador-after-ship-sinks-in-Black-Sea-drone-attack"
-        },
-        {
-          "id": "gdelt-1327845222",
-          "isoDate": "2026-10-14T00:00:00.000Z",
-          "sourceUrl": "https://www.lahainanews.com/wire/?category=5041&ID=400389"
-        }
-      ],
-      "centroid": {
-        "lat": 46.0274,
-        "lng": 30.039
+        "lat": 47.1961,
+        "lng": 32.5513
       },
       "radiusKm": 80
     },
@@ -300,13 +299,13 @@
         "lat": 50.9077,
         "lng": 34.7981
       },
-      "eventCount": 12,
+      "eventCount": 11,
       "kinds": {
-        "other": 5,
+        "other": 4,
         "combat": 7
       },
       "tierCounts": {
-        "approximate": 12
+        "approximate": 11
       },
       "combatCount": 7,
       "newestIsoDate": "2026-10-15T00:00:00.000Z",
@@ -328,10 +327,10 @@
         }
       ],
       "centroid": {
-        "lat": 50.8227,
-        "lng": 34.594
+        "lat": 50.8137,
+        "lng": 34.5752
       },
-      "radiusKm": 40.3
+      "radiusKm": 43.4
     },
     {
       "zoneId": "occ-crimea",
@@ -340,16 +339,16 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 12,
+      "eventCount": 7,
       "kinds": {
         "other": 2,
-        "combat": 9,
+        "combat": 4,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 12
+        "approximate": 7
       },
-      "combatCount": 10,
+      "combatCount": 5,
       "newestIsoDate": "2026-10-14T03:40:00.000Z",
       "samples": [
         {
@@ -369,10 +368,10 @@
         }
       ],
       "centroid": {
-        "lat": 45.42,
-        "lng": 34.4827
+        "lat": 45.2566,
+        "lng": 33.9327
       },
-      "radiusKm": 80
+      "radiusKm": 72.5
     }
   ]
 }
