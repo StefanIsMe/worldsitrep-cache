@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-15T17:18:52.277Z",
+  "collectedAt": "2026-10-15T20:31:09.008Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 118,
-  "outsideTheatreDropped": 2,
+  "coarseGdeltDropped": 125,
+  "outsideTheatreDropped": 3,
   "proposals": [
     {
       "zoneId": "lib-kyiv",
@@ -15,16 +15,16 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 655,
+      "eventCount": 635,
       "kinds": {
-        "other": 477,
-        "combat": 169,
-        "strike": 9
+        "other": 461,
+        "combat": 164,
+        "strike": 10
       },
       "tierCounts": {
-        "approximate": 655
+        "approximate": 635
       },
-      "combatCount": 178,
+      "combatCount": 174,
       "newestIsoDate": "2026-10-15T15:19:00.000Z",
       "samples": [
         {
@@ -44,10 +44,50 @@
         }
       ],
       "centroid": {
-        "lat": 50.416,
-        "lng": 30.2732
+        "lat": 50.4167,
+        "lng": 30.2814
       },
-      "radiusKm": 33.9
+      "radiusKm": 32.7
+    },
+    {
+      "zoneId": "occ-kharkiv",
+      "region": "Kharkiv Oblast",
+      "center": {
+        "lat": 49.8,
+        "lng": 37.6
+      },
+      "eventCount": 72,
+      "kinds": {
+        "other": 53,
+        "combat": 19
+      },
+      "tierCounts": {
+        "approximate": 72
+      },
+      "combatCount": 19,
+      "newestIsoDate": "2026-10-15T18:26:00.000Z",
+      "samples": [
+        {
+          "id": "news-r89ghb",
+          "isoDate": "2026-10-15T18:26:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/15/8058232/"
+        },
+        {
+          "id": "news-edzv61",
+          "isoDate": "2026-10-15T17:47:18.000Z",
+          "sourceUrl": "https://kyivindependent.com/russian-soldier-faces-life-in-prison-over-alleged-killing-of-5-ukrainian-troops-civilian-in-kharkiv-oblast/"
+        },
+        {
+          "id": "news-tx7lhs",
+          "isoDate": "2026-10-15T17:45:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4174857-russian-forces-make-incursion-near-anyshchyne-in-kharkiv-region-military-spox.html"
+        }
+      ],
+      "centroid": {
+        "lat": 50.0509,
+        "lng": 36.49
+      },
+      "radiusKm": 37.5
     },
     {
       "zoneId": "occ-kherson",
@@ -56,16 +96,16 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 59,
+      "eventCount": 63,
       "kinds": {
-        "other": 28,
+        "other": 29,
         "strike": 3,
-        "combat": 28
+        "combat": 31
       },
       "tierCounts": {
-        "approximate": 59
+        "approximate": 63
       },
-      "combatCount": 31,
+      "combatCount": 34,
       "newestIsoDate": "2026-10-15T13:38:00.000Z",
       "samples": [
         {
@@ -85,90 +125,10 @@
         }
       ],
       "centroid": {
-        "lat": 47.8011,
-        "lng": 32.2867
+        "lat": 47.8463,
+        "lng": 32.285
       },
       "radiusKm": 80
-    },
-    {
-      "zoneId": "occ-kharkiv",
-      "region": "Kharkiv Oblast",
-      "center": {
-        "lat": 49.8,
-        "lng": 37.6
-      },
-      "eventCount": 57,
-      "kinds": {
-        "other": 48,
-        "combat": 9
-      },
-      "tierCounts": {
-        "approximate": 57
-      },
-      "combatCount": 9,
-      "newestIsoDate": "2026-10-15T12:35:00.000Z",
-      "samples": [
-        {
-          "id": "news-r88s4z",
-          "isoDate": "2026-10-15T12:35:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/15/8058173/"
-        },
-        {
-          "id": "news-1rqmzqk",
-          "isoDate": "2026-10-15T11:59:00.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcGNMWmNWT2RMMHFyQ3ppNmtkUVhtd29Kd0tEMlU3dmxQNTRvcXJ5SWVWRDJweE5TX0M0WG1FX2pWeGlOdF9FeXFTT3dxd1dBbXBXQkpaYWJ0UTRCelVaRlNaYW9BRG1LakpoZjFlZTEwTlNyalhSc29zc0haZjNHNmJIQTdjcXA4b3g3SVlvRVYyWmIyUmlvWFY3T1BMMWcwaGVaNURRS1FqQ1pBUDloY2JtdUFXUnRiZkF4OWFUMXRPeDZ0LUE?oc=5"
-        },
-        {
-          "id": "news-r88osw",
-          "isoDate": "2026-10-15T09:30:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/15/8058134/"
-        }
-      ],
-      "centroid": {
-        "lat": 50.0687,
-        "lng": 36.554
-      },
-      "radiusKm": 45.6
-    },
-    {
-      "zoneId": "occ-luhansk",
-      "region": "Luhansk Oblast",
-      "center": {
-        "lat": 48.574,
-        "lng": 39.3078
-      },
-      "eventCount": 42,
-      "kinds": {
-        "other": 26,
-        "combat": 16
-      },
-      "tierCounts": {
-        "approximate": 42
-      },
-      "combatCount": 16,
-      "newestIsoDate": "2026-10-15T15:37:00.000Z",
-      "samples": [
-        {
-          "id": "news-1vma4i9",
-          "isoDate": "2026-10-15T15:37:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4174821-russia-builds-new-attack-drone-launch-base-in-rostov-region-in-six-weeks-reuters-reports.html"
-        },
-        {
-          "id": "gdelt-1328034661",
-          "isoDate": "2026-10-15T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/10/14/800112564/community/1/"
-        },
-        {
-          "id": "gdelt-1328041764",
-          "isoDate": "2026-10-15T00:00:00.000Z",
-          "sourceUrl": "https://www.huffingtonpost.co.uk/entry/trump-pressuring-ukraine-help-midterm_uk_6ad05e63e4b0bfd256548693"
-        }
-      ],
-      "centroid": {
-        "lat": 48.4203,
-        "lng": 39.1124
-      },
-      "radiusKm": 42.3
     },
     {
       "zoneId": "occ-donetsk",
@@ -212,19 +172,60 @@
       "radiusKm": 50.2
     },
     {
+      "zoneId": "lib-snake",
+      "region": "Snake Island",
+      "center": {
+        "lat": 45.2551,
+        "lng": 30.2033
+      },
+      "eventCount": 26,
+      "kinds": {
+        "other": 10,
+        "combat": 12,
+        "strike": 4
+      },
+      "tierCounts": {
+        "approximate": 26
+      },
+      "combatCount": 16,
+      "newestIsoDate": "2026-10-15T17:06:12.000Z",
+      "samples": [
+        {
+          "id": "news-18drk4c",
+          "isoDate": "2026-10-15T17:06:12.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxSHdUMFdQcTBzY1NocXk2YTZZQ3R1UWFrX2I5eTkwTXFFZ1JrZzBhSUZKS2J6UWlhMDlPYV9kZXY4aktFRUtnSnFvaDhTczNkT1F0dUFRUzY?oc=5"
+        },
+        {
+          "id": "news-16z205g",
+          "isoDate": "2026-10-15T13:52:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4174783-injury-toll-after-russian-strike-on-store-in-odesa-region-rises-to-four.html"
+        },
+        {
+          "id": "news-r88qdq",
+          "isoDate": "2026-10-15T13:11:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/15/8058150/"
+        }
+      ],
+      "centroid": {
+        "lat": 46.3864,
+        "lng": 29.9867
+      },
+      "radiusKm": 70.2
+    },
+    {
       "zoneId": "occ-zaporizhzhia",
       "region": "Zaporizhzhia Oblast",
       "center": {
         "lat": 47,
         "lng": 35.5
       },
-      "eventCount": 26,
+      "eventCount": 25,
       "kinds": {
-        "other": 21,
+        "other": 20,
         "combat": 5
       },
       "tierCounts": {
-        "approximate": 26
+        "approximate": 25
       },
       "combatCount": 5,
       "newestIsoDate": "2026-10-15T14:52:55.000Z",
@@ -246,51 +247,50 @@
         }
       ],
       "centroid": {
-        "lat": 48.253,
-        "lng": 35.1334
+        "lat": 48.3125,
+        "lng": 35.0668
       },
-      "radiusKm": 36.3
+      "radiusKm": 25.4
     },
     {
-      "zoneId": "lib-snake",
-      "region": "Snake Island",
+      "zoneId": "occ-luhansk",
+      "region": "Luhansk Oblast",
       "center": {
-        "lat": 45.2551,
-        "lng": 30.2033
+        "lat": 48.574,
+        "lng": 39.3078
       },
-      "eventCount": 24,
+      "eventCount": 20,
       "kinds": {
-        "other": 9,
-        "combat": 11,
-        "strike": 4
+        "other": 11,
+        "combat": 9
       },
       "tierCounts": {
-        "approximate": 24
+        "approximate": 20
       },
-      "combatCount": 15,
-      "newestIsoDate": "2026-10-15T13:52:00.000Z",
+      "combatCount": 9,
+      "newestIsoDate": "2026-10-15T15:37:00.000Z",
       "samples": [
         {
-          "id": "news-16z205g",
-          "isoDate": "2026-10-15T13:52:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4174783-injury-toll-after-russian-strike-on-store-in-odesa-region-rises-to-four.html"
+          "id": "news-1vma4i9",
+          "isoDate": "2026-10-15T15:37:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4174821-russia-builds-new-attack-drone-launch-base-in-rostov-region-in-six-weeks-reuters-reports.html"
         },
         {
-          "id": "news-r88qdq",
-          "isoDate": "2026-10-15T13:11:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/15/8058150/"
+          "id": "gdelt-1328034661",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/14/800112564/community/1/"
         },
         {
-          "id": "news-1gfix2e",
-          "isoDate": "2026-10-15T11:42:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4174718-russian-drone-strike-hits-shop-in-odesa-region-injuring-three.html"
+          "id": "gdelt-1328041764",
+          "isoDate": "2026-10-15T00:00:00.000Z",
+          "sourceUrl": "https://www.huffingtonpost.co.uk/entry/trump-pressuring-ukraine-help-midterm_uk_6ad05e63e4b0bfd256548693"
         }
       ],
       "centroid": {
-        "lat": 46.3782,
-        "lng": 29.9922
+        "lat": 48.4205,
+        "lng": 38.5943
       },
-      "radiusKm": 70.8
+      "radiusKm": 20.5
     },
     {
       "zoneId": "occ-crimea",
@@ -299,16 +299,16 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 17,
+      "eventCount": 16,
       "kinds": {
-        "combat": 4,
-        "other": 11,
+        "combat": 5,
+        "other": 9,
         "strike": 2
       },
       "tierCounts": {
-        "approximate": 17
+        "approximate": 16
       },
-      "combatCount": 6,
+      "combatCount": 7,
       "newestIsoDate": "2026-10-15T00:00:00.000Z",
       "samples": [
         {
@@ -328,10 +328,10 @@
         }
       ],
       "centroid": {
-        "lat": 45.0596,
-        "lng": 34.3472
+        "lat": 45.0398,
+        "lng": 34.2106
       },
-      "radiusKm": 44.1
+      "radiusKm": 30
     },
     {
       "zoneId": "lib-sumy",
