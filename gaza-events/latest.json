@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "gaza",
-  "collectedAt": "2026-10-16T20:07:29.778Z",
+  "collectedAt": "2026-10-16T21:57:58.003Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 219
+      "count": 81
     },
     {
       "id": "bbc-me",
@@ -41,8 +41,8 @@
       "id": "aljazeera",
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "status": "ok",
-      "count": 6,
-      "filtered": 19
+      "count": 4,
+      "filtered": 21
     },
     {
       "id": "guardian-me",
@@ -56,13 +56,13 @@
       "url": "https://rss.nytimes.com/services/xml/rss/nyt/MiddleEast.xml",
       "status": "ok",
       "count": 12,
-      "filtered": 11
+      "filtered": 12
     },
     {
       "id": "gnews-flotilla",
       "url": "https://news.google.com/rss/search?q=Gaza%20aid%20flotilla%20Rafah%20crossing&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 48,
       "filtered": 0
     },
     {
@@ -109,6 +109,48 @@
       "sourceUrl": "https://www.jpost.com/opinion/article-911550"
     },
     {
+      "id": "news-7aplgo",
+      "kind": "news",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T21:08:44.000Z",
+      "description": "How Israeli spyware used ‘zero click’ hack on Al Jazeera staff (Al Jazeera, 2026-10-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/10/16/how-israeli-spyware-used-zero-click-hack-on-al-jazeera-staff?traffic_source=rss"
+    },
+    {
+      "id": "news-10yfpey",
+      "kind": "news",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T20:56:02.000Z",
+      "description": "Norway faces public dilemma over divesting from companies involved with war in Gaza - NPR (NPR, 2026-10-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Gaza City",
+      "source": "NPR",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNa2xfdUNjMEVhNmFsUXBXV09QRjdVQ2xEVnYyeDJCTGFPMGRJbFQ3YkNlcEFNRmRPM0VLbHFjSXhEa2J0aXlLdzYyVklGOVpHQ2xCa2pjTTR5REZCeGVmeEM3WXl2VlVkcmVpc1VEczAtQ0U4b202S1F2Q2FEcGdwbUdNLUw2a3lrT09MNGxPRWt4WXFBSnRnZ3JDdmxmUFBYemZZSW5QaExIbER6Ujg2VF92U20yUFMzR0k4T1lsZ0ZwOG9JRFgw?oc=5",
+      "lat": 31.5,
+      "lng": 34.47,
+      "coordsNote": "Headline gazetteer match: \"Gaza\" (city); verify via source article."
+    },
+    {
       "id": "news-uyuxkl",
       "kind": "news",
       "date": "2026-10-16",
@@ -126,6 +168,29 @@
       "locationStr": "Jerusalem Post",
       "source": "Jerusalem Post",
       "sourceUrl": "https://www.jpost.com/middle-east/article-911936"
+    },
+    {
+      "id": "news-1fsycrx",
+      "kind": "news",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T20:37:22.000Z",
+      "description": "Food affordability fears plague Gaza as Israel halts commercial goods (Al Jazeera, 2026-10-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Gaza City",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/10/16/food-affordability-fears-plague-gaza-as-israel-halts-commercial-goods?traffic_source=rss",
+      "lat": 31.5,
+      "lng": 34.47,
+      "coordsNote": "Headline gazetteer match: \"Gaza\" (city); verify via source article."
     },
     {
       "id": "news-hyiec6",
@@ -49916,108 +49981,6 @@
         "goldstein": -9,
         "tone": -6.9,
         "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328336156",
-      "kind": "event",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T00:00:00.000Z",
-      "observedAt": "2026-10-16T17:30:00.000Z",
-      "description": "Fight — West Bank → Washington near Israel. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.5,
-      "lng": 34.75,
-      "action": "Fight (GDELT 190)",
-      "actor": "West Bank",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://abcnews.com/International/police-open-investigation-attack-washington-post-journalist-west/story?id=137320053",
-      "gdelt": {
-        "globalEventId": "1328336156",
-        "eventCode": "190",
-        "geoType": 1,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -6.9,
-        "mentions": 7,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328336307",
-      "kind": "event",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T00:00:00.000Z",
-      "observedAt": "2026-10-16T17:30:00.000Z",
-      "description": "Disapproval — Washington → Unspecified near Israel. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.5,
-      "lng": 34.75,
-      "action": "Disapproval (GDELT 111)",
-      "actor": "Washington",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://abcnews.com/International/police-open-investigation-attack-washington-post-journalist-west/story?id=137320053",
-      "gdelt": {
-        "globalEventId": "1328336307",
-        "eventCode": "111",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -6.9,
-        "mentions": 3,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328336322",
-      "kind": "event",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T00:00:00.000Z",
-      "observedAt": "2026-10-16T17:30:00.000Z",
-      "description": "Fight — United States → Unspecified near Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.5,
-      "lng": 34.75,
-      "action": "Fight (GDELT 193)",
-      "actor": "United States",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://townhall.com/news/amy-curtis/2026/10/16/ro-khanna-hindu-wouldbe-shooter-n2684793",
-      "gdelt": {
-        "globalEventId": "1328336322",
-        "eventCode": "193",
-        "geoType": 1,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -7.56,
-        "mentions": 2,
         "sources": 1
       }
     }

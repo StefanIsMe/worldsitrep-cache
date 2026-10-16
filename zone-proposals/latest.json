@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-16T20:03:10.582Z",
+  "collectedAt": "2026-10-16T21:57:57.299Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 166,
+  "coarseGdeltDropped": 170,
   "outsideTheatreDropped": 2,
   "proposals": [
     {
@@ -15,18 +15,23 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 588,
+      "eventCount": 582,
       "kinds": {
-        "other": 434,
-        "combat": 133,
-        "strike": 21
+        "other": 424,
+        "combat": 138,
+        "strike": 20
       },
       "tierCounts": {
-        "approximate": 588
+        "approximate": 582
       },
-      "combatCount": 154,
-      "newestIsoDate": "2026-10-16T16:47:00.000Z",
+      "combatCount": 158,
+      "newestIsoDate": "2026-10-16T20:05:00.000Z",
       "samples": [
+        {
+          "id": "news-94i2xu",
+          "isoDate": "2026-10-16T20:05:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175290-russian-forces-strike-energy-facility-in-ternopil-region.html"
+        },
         {
           "id": "news-sco6bb",
           "isoDate": "2026-10-16T16:47:00.000Z",
@@ -36,18 +41,13 @@
           "id": "news-lukr1p",
           "isoDate": "2026-10-16T16:30:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175224-russian-strike-hits-customs-terminal-in-kovel-setting-trucks-on-fire-and-causing-one-casualty.html"
-        },
-        {
-          "id": "news-vqyspe",
-          "isoDate": "2026-10-16T15:42:16.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/general/1221653.html"
         }
       ],
       "centroid": {
-        "lat": 50.4132,
-        "lng": 30.1314
+        "lat": 50.4115,
+        "lng": 30.119
       },
-      "radiusKm": 52.6
+      "radiusKm": 54.1
     },
     {
       "zoneId": "occ-kharkiv",
@@ -56,18 +56,23 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 65,
+      "eventCount": 64,
       "kinds": {
         "other": 37,
-        "combat": 27,
+        "combat": 26,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 65
+        "approximate": 64
       },
-      "combatCount": 28,
-      "newestIsoDate": "2026-10-16T12:56:14.000Z",
+      "combatCount": 27,
+      "newestIsoDate": "2026-10-16T20:30:00.000Z",
       "samples": [
+        {
+          "id": "news-1f5zcvi",
+          "isoDate": "2026-10-16T20:30:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175294-russian-attack-damages-homes-in-kharkiv-over-100-windows-shattered.html"
+        },
         {
           "id": "news-10lph7i",
           "isoDate": "2026-10-16T12:56:14.000Z",
@@ -77,18 +82,13 @@
           "id": "news-1xdxp9n",
           "isoDate": "2026-10-16T12:53:06.000Z",
           "sourceUrl": "https://www.kyivpost.com/post/87294"
-        },
-        {
-          "id": "news-1ii8mkw",
-          "isoDate": "2026-10-16T10:12:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175069-russian-strike-on-kharkiv-market-leaves-two-killed-17-injured.html"
         }
       ],
       "centroid": {
-        "lat": 50.0421,
-        "lng": 36.4384
+        "lat": 50.0432,
+        "lng": 36.4409
       },
-      "radiusKm": 30.5
+      "radiusKm": 31
     },
     {
       "zoneId": "occ-kherson",
@@ -138,16 +138,16 @@
         "lat": 45.2551,
         "lng": 30.2033
       },
-      "eventCount": 35,
+      "eventCount": 33,
       "kinds": {
-        "other": 15,
+        "other": 14,
         "strike": 5,
-        "combat": 15
+        "combat": 14
       },
       "tierCounts": {
-        "approximate": 35
+        "approximate": 33
       },
-      "combatCount": 20,
+      "combatCount": 19,
       "newestIsoDate": "2026-10-16T10:30:34.000Z",
       "samples": [
         {
@@ -167,10 +167,51 @@
         }
       ],
       "centroid": {
-        "lat": 46.476,
-        "lng": 30.5375
+        "lat": 46.443,
+        "lng": 30.4678
       },
-      "radiusKm": 28.3
+      "radiusKm": 37.6
+    },
+    {
+      "zoneId": "occ-luhansk",
+      "region": "Luhansk Oblast",
+      "center": {
+        "lat": 48.574,
+        "lng": 39.3078
+      },
+      "eventCount": 28,
+      "kinds": {
+        "combat": 17,
+        "strike": 1,
+        "other": 10
+      },
+      "tierCounts": {
+        "approximate": 28
+      },
+      "combatCount": 18,
+      "newestIsoDate": "2026-10-16T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1328210629",
+          "isoDate": "2026-10-16T00:00:00.000Z",
+          "sourceUrl": "https://slguardian.org/zelensky-lack-of-judgment-attacking-trump/"
+        },
+        {
+          "id": "gdelt-1328223814",
+          "isoDate": "2026-10-16T00:00:00.000Z",
+          "sourceUrl": "http://www.rightspeak.net/2026/10/244-c-clashes-in-f-line-31-in-pokrovsk.html"
+        },
+        {
+          "id": "gdelt-1328228915",
+          "isoDate": "2026-10-16T00:00:00.000Z",
+          "sourceUrl": "http://www.strategypage.com/%5Chtmw%5Chtproc%5Carticles%5C2026101595112.aspx"
+        }
+      ],
+      "centroid": {
+        "lat": 48.4606,
+        "lng": 38.6877
+      },
+      "radiusKm": 25.3
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -179,16 +220,16 @@
         "lat": 47,
         "lng": 35.5
       },
-      "eventCount": 33,
+      "eventCount": 23,
       "kinds": {
-        "other": 21,
-        "combat": 11,
+        "other": 15,
+        "combat": 7,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 33
+        "approximate": 23
       },
-      "combatCount": 12,
+      "combatCount": 8,
       "newestIsoDate": "2026-10-16T18:11:15.000Z",
       "samples": [
         {
@@ -208,10 +249,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.2538,
-        "lng": 35.1685
+        "lat": 48.1629,
+        "lng": 35.2248
       },
-      "radiusKm": 36.2
+      "radiusKm": 42.9
     },
     {
       "zoneId": "occ-crimea",
@@ -253,47 +294,6 @@
         "lng": 34
       },
       "radiusKm": 15
-    },
-    {
-      "zoneId": "occ-luhansk",
-      "region": "Luhansk Oblast",
-      "center": {
-        "lat": 48.574,
-        "lng": 39.3078
-      },
-      "eventCount": 21,
-      "kinds": {
-        "combat": 14,
-        "strike": 1,
-        "other": 6
-      },
-      "tierCounts": {
-        "approximate": 21
-      },
-      "combatCount": 15,
-      "newestIsoDate": "2026-10-16T00:00:00.000Z",
-      "samples": [
-        {
-          "id": "gdelt-1328210629",
-          "isoDate": "2026-10-16T00:00:00.000Z",
-          "sourceUrl": "https://slguardian.org/zelensky-lack-of-judgment-attacking-trump/"
-        },
-        {
-          "id": "gdelt-1328223814",
-          "isoDate": "2026-10-16T00:00:00.000Z",
-          "sourceUrl": "http://www.rightspeak.net/2026/10/244-c-clashes-in-f-line-31-in-pokrovsk.html"
-        },
-        {
-          "id": "gdelt-1328228915",
-          "isoDate": "2026-10-16T00:00:00.000Z",
-          "sourceUrl": "http://www.strategypage.com/%5Chtmw%5Chtproc%5Carticles%5C2026101595112.aspx"
-        }
-      ],
-      "centroid": {
-        "lat": 48.4474,
-        "lng": 38.7503
-      },
-      "radiusKm": 31.2
     },
     {
       "zoneId": "occ-donetsk",
