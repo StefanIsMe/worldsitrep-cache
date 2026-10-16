@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-10-16T04:52:03.833Z",
+  "collectedAt": "2026-10-16T06:27:22.149Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 41
+      "count": 13
     },
     {
       "id": "gnews-france-protests",
@@ -27,15 +27,15 @@
       "id": "france24-en",
       "url": "https://www.france24.com/en/rss",
       "status": "ok",
-      "count": 1,
-      "filtered": 23
+      "count": 2,
+      "filtered": 22
     },
     {
       "id": "bbc-france",
       "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml",
       "status": "ok",
-      "count": 2,
-      "filtered": 19
+      "count": 3,
+      "filtered": 18
     },
     {
       "id": "rfi-en",
@@ -52,8 +52,31 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 800,
+  "count": 812,
   "events": [
+    {
+      "id": "news-2buxag",
+      "kind": "news",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T05:41:13.000Z",
+      "description": "Marseille woes continue with a second consecutive Europa League defeat (France 24 English, 2026-10-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24 English",
+      "axis": "Other",
+      "tags": [
+        "France 24 English",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Marseille",
+      "source": "France 24 English",
+      "sourceUrl": "https://www.france24.com/en/tv-shows/sports/20261016-marseille-woes-continue-with-a-second-consecutive-europa-league-defeat",
+      "lat": 43.3,
+      "lng": 5.37,
+      "coordsNote": "Headline gazetteer match: \"Marseille\" (city); verify via source article."
+    },
     {
       "id": "news-1joxmfk",
       "kind": "news",
@@ -1927,6 +1950,467 @@
         "mentions": 10,
         "sources": 1
       }
+    },
+    {
+      "id": "gdelt-1328226339",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T05:00:00.000Z",
+      "description": "Threat — Unspecified → Government near Montbrehain, Picardie, France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49.9667,
+      "lng": 3.34926,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Montbrehain, Picardie, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mailtimes.com.au/wimmera-connections-to-the-western-front-1-2026-10-16",
+      "gdelt": {
+        "globalEventId": "1328226339",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -0.81,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328228955",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T05:30:00.000Z",
+      "description": "Disapproval — Security forces → Unspecified near Paris, France (general), France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Disapproval (GDELT 114)",
+      "actor": "Security forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://kdhnews.com/news/world/policing-of-frances-school-protests-clouds-macrons-final-months-and-sparks-uproar/article_1376d1ff-eb60-5194-b10d-460b731208cf.html",
+      "gdelt": {
+        "globalEventId": "1328228955",
+        "eventCode": "114",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -9.62,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328229086",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T05:30:00.000Z",
+      "description": "Force posture — Europe → Government near Paris, France (general), France. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Europe",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://kdhnews.com/news/world/policing-of-frances-school-protests-clouds-macrons-final-months-and-sparks-uproar/article_1376d1ff-eb60-5194-b10d-460b731208cf.html",
+      "gdelt": {
+        "globalEventId": "1328229086",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -9.62,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328229157",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T05:30:00.000Z",
+      "description": "Force posture — Government → Unspecified near Paris, France (general), France. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://kdhnews.com/news/world/policing-of-frances-school-protests-clouds-macrons-final-months-and-sparks-uproar/article_1376d1ff-eb60-5194-b10d-460b731208cf.html",
+      "gdelt": {
+        "globalEventId": "1328229157",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -9.62,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328230640",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T05:45:00.000Z",
+      "description": "Disapproval — Chinese → European near Paris, France (general), France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Chinese",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://english.anhuinews.com/newscenter/headline/202610/t20261016_9663662.html",
+      "gdelt": {
+        "globalEventId": "1328230640",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 2.63,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328230657",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T05:45:00.000Z",
+      "description": "Threat — Methodist Church → Unspecified near Paris, France (general), France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Threat (GDELT 130)",
+      "actor": "Methodist Church",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winchesterstar.com/winchester_star/religious-services-events/article_7d667125-aa4d-5265-b15a-4cec905b5426.html",
+      "gdelt": {
+        "globalEventId": "1328230657",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 3.46,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328230686",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T05:45:00.000Z",
+      "description": "Protest — Security forces → Paris near Paris, France (general), France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Protest (GDELT 141)",
+      "actor": "Security forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/16/policing-of-frances-school-protests-clouds-macrons-final-months-and-sparks-uproar",
+      "gdelt": {
+        "globalEventId": "1328230686",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -9.42,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328232402",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T06:00:00.000Z",
+      "description": "Protest — Paris → Student near Paris, France (general), France. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Protest (GDELT 141)",
+      "actor": "Paris",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.wsws.org/en/articles/2026/10/16/tzmm-o16.html",
+      "gdelt": {
+        "globalEventId": "1328232402",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -4.7,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328232403",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T06:00:00.000Z",
+      "description": "Coercion — French → Sovereign near Paris, France (general), France. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Coercion (GDELT 173)",
+      "actor": "French",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://havanatimes.org/interviews/us-sanctions-the-world-court-in-a-bid-to-avoid-criminal-liability/",
+      "gdelt": {
+        "globalEventId": "1328232403",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -3.54,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328232405",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T06:00:00.000Z",
+      "description": "Fight — French → Sovereign near Paris, France (general), France. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Fight (GDELT 193)",
+      "actor": "French",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://havanatimes.org/interviews/us-sanctions-the-world-court-in-a-bid-to-avoid-criminal-liability/",
+      "gdelt": {
+        "globalEventId": "1328232405",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.54,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328232660",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T06:00:00.000Z",
+      "description": "Rejection — Assur → Unspecified near France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Assur",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://hiddenremote.com/greys-anatomy-season-23-episode-1-recap",
+      "gdelt": {
+        "globalEventId": "1328232660",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -3.01,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328232799",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T06:00:00.000Z",
+      "description": "Protest — Media → Unspecified near Paris, France (general), France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Protest (GDELT 141)",
+      "actor": "Media",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.wsws.org/en/articles/2026/10/16/tzmm-o16.html",
+      "gdelt": {
+        "globalEventId": "1328232799",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -4.7,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328233041",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T06:00:00.000Z",
+      "description": "Protest — Portugal → Ireland near Paris, France (general), France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Protest (GDELT 143)",
+      "actor": "Portugal",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.wsws.org/en/articles/2026/10/16/tzmm-o16.html",
+      "gdelt": {
+        "globalEventId": "1328233041",
+        "eventCode": "143",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -4.7,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "news-2li3b6",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T23:25:06.000Z",
+      "description": "Are student protests being manipulated ahead of France's presidential election? (BBC Europe, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BBC Europe",
+      "axis": "Other",
+      "tags": [
+        "BBC Europe",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "BBC Europe",
+      "source": "BBC Europe",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c8zxlyg965r3o?at_medium=RSS&at_campaign=rss"
     },
     {
       "id": "news-baynxk",
@@ -24092,6 +24576,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNck5aU1lDYmJ5bmZpejJ6YklyUGpKdTVVQTJjNTliLWJoRlpIcXJyTlBlcmV6RHB4LWcwMllNRGxtNzBSSWU3WmtjaVVaenM5bGVsc3d4OGI0dnF2b2pCcUVMXy1FVHRuQ1IydWRQUXRYRk1kZ09HemFaRHRmc2toVzNnMWZreW1uQklHbW8xMnpDcGVhYVRGYl9mYjlSNVp3OEtkZERRUFhjWmRCRThIc3hQNNIBuAFBVV95cUxON3J1cm9CazllX0NTNDg0RG9QTGlqZDYxVTQyZVpLUWdpcUFUbThKQWs0dFVfUjdNX1JiUnZFT1hwSzZIMzFOWDVCLUFDcS1RVW54VkNiWk5RcHk5empLbHYyQkNldHllME5xWnZ4dFJnWjBlR1Rwb1BTakd1V0lFQjg4aVdrZmxGN0poaElqMkdKSmJiWWpUUzZ5Y056Ymp6WWN3NEdQdzFUMmtDZEVtdHpReFY1TVJw?oc=5"
     },
     {
+      "id": "news-1j975kd",
+      "kind": "news",
+      "date": "2026-10-13",
+      "isoDate": "2026-10-13T21:04:38.000Z",
+      "description": "Photos show protests across France as students demand more school resources - AP News (AP News, 2026-10-13. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AP News",
+      "axis": "Other",
+      "tags": [
+        "AP News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AP News",
+      "source": "AP News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZ2hETzZwT21FTEpaVk5KQVdSb2dhWEFhN29sRGlTeEVoZTA3WGcxTUp4WFkzVHFvRXcxSmFNRkJUNTYwUENuN3dZV1M4UjdjbzFNXzFvQ2tzN091ZG8xZ1c0dzJSVTI0azhYaTllSEZueXF3ZDJxXzhYalhWNks0ZHZvaFQ5MUxERHpzbkV1TlRweVBlQl9KQnNXQlVzN3F5YzRwVU94NWpWVmFGSG9Xei1kemZNLUpXaFlUVmRZRjJGeF9DMlpfSVNZQXM2N2I0SUVWdw?oc=5"
+    },
+    {
       "id": "news-igbc7i",
       "kind": "news",
       "date": "2026-10-13",
@@ -24485,18 +24988,18 @@
       "kind": "news",
       "date": "2026-10-13",
       "isoDate": "2026-10-13T17:04:54.000Z",
-      "description": "French Student Protests Enter 3rd Week as Budget Talks Start - Bloomberg.com (Bloomberg.com, 2026-10-13. Headline + link only.)",
+      "description": "French Student Protests Enter 3rd Week as Budget Talks Start - Bloomberg (Bloomberg, 2026-10-13. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Bloomberg.com",
+      "actor": "Bloomberg",
       "axis": "Other",
       "tags": [
-        "Bloomberg.com",
+        "Bloomberg",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Bloomberg.com",
-      "source": "Bloomberg.com",
+      "locationStr": "Bloomberg",
+      "source": "Bloomberg",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNWpJMDAtM0Z3NWpsTHhxMTJKbEhXU2RPMEdNUHU4Zks3WS1UNEFQN1J0NElFRVlCdXp0R1NOZC1YUVdabjFNNXpfSUlQam85UlRPcXFvc3NDdGJMR250MG90UXUzSVl0NmNOQWtTbVNXUXM3M0JSLTFSNkhNZlVSWHZXakViWm5FVEdzajE1a0xTNmtOSFFHbVhIZVkyRFNFd1cyekd5bFh6V01INnBPcktiM1R5Zw?oc=5"
     },
     {
@@ -25418,86 +25921,6 @@
       "locationStr": "The Free Press",
       "source": "The Free Press",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPMmJSc1RzdWRlUjVGSy1fVjM4RHlKbEZtSVRyVzFNdjNvWlZKSlFvdTExOHR2WXphdUpHMHBWYk16aWdFU2ktZHgydmpiYlVrZm1CRU93SFVURjFNSExGbkRMQ3hEMHVL?oc=5"
-    },
-    {
-      "id": "news-h8hq24",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T06:23:51.000Z",
-      "description": "Champions League: Olivier Giroud faces former club Arsenal with Lille (France 24 English, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "France 24 English",
-      "axis": "Other",
-      "tags": [
-        "France 24 English",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Lille",
-      "source": "France 24 English",
-      "sourceUrl": "https://www.france24.com/en/tv-shows/sports/20261013-champions-league-olivier-giroud-makes-arsenal-return-with-lille",
-      "lat": 50.63,
-      "lng": 3.07,
-      "coordsNote": "Headline gazetteer match: \"Lille\" (city); verify via source article."
-    },
-    {
-      "id": "news-1afdlxy",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T06:15:32.000Z",
-      "description": "France braces for fresh school protests as student movement tests momentum - RFI (RFI, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "RFI",
-      "axis": "Other",
-      "tags": [
-        "RFI",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "RFI",
-      "source": "RFI",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2xZdUgzSkYzN2VIX1IzTkwtTkRlOHI3ZXVCMk5HSDVQdng4aDdORFM2UXlVOFZJeHN0ZkZJOWtMQVZhSGI0ZE82YmJrQjExNHFDcnRRZmc1ZWZQSlVkdkpySTN5c0pkTF9fT2UxRTNSN1hBZjdkUWNNYmtyXzhvTVF3aHkwZk1IWGJaWDFRWUVlSDVrR3NLZnpHYXRKUm1aTHl4VE9adms4d3kxX2lIZG9B?oc=5"
-    },
-    {
-      "id": "news-q70yss",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T06:15:32.000Z",
-      "description": "France braces for fresh school protests as student movement tests momentum (RFI English, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "RFI English",
-      "axis": "Other",
-      "tags": [
-        "RFI English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "RFI English",
-      "source": "RFI English",
-      "sourceUrl": "https://www.rfi.fr/en/france/20261013-france-braces-for-fresh-school-protests-as-student-movement-tests-momentum"
-    },
-    {
-      "id": "news-ketrd0",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T05:23:44.000Z",
-      "description": "French Student Protests Enter Third Week as Budget Debate Starts - https://streamlinefeed.co.ke/ (https://streamlinefeed.co.ke/, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "https://streamlinefeed.co.ke/",
-      "axis": "Other",
-      "tags": [
-        "https://streamlinefeed.co.ke/",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "https://streamlinefeed.co.ke/",
-      "source": "https://streamlinefeed.co.ke/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSWRqaTRqZml5dXlCV1o0aEQzMF9FUFAwUXhpZFdOTHUzdjlPLTdrbG9kdUR1ZjUzcGc5QUhURGpLLWtsMHNPVWM1SU1rZnZHc0FHSGQzVDZhT2ROWkdhV1FxM1BjN0Y0MTJLY3B1b0x5QTJHZng4NldiQ1FOcmEteDNNbllOQUI2dTFMeFprT2tHdkxsYjNpV2tiTlpHS2M?oc=5"
     }
   ]
 }
