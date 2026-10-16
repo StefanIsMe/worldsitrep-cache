@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-16T14:40:38.101Z",
+  "collectedAt": "2026-10-16T17:00:34.077Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 53
+      "count": 16
     },
     {
       "id": "gcaptain",
@@ -55,8 +55,8 @@
       "id": "france24-me",
       "url": "https://www.france24.com/en/middle-east/rss",
       "status": "ok",
-      "count": 23,
-      "filtered": 7
+      "count": 22,
+      "filtered": 8
     },
     {
       "id": "gnews-hodeidah",
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 957,
+  "count": 955,
   "events": [
+    {
+      "id": "news-2etvfc",
+      "kind": "news",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T16:23:00.000Z",
+      "description": "S. Korean envoy condemns Houthi attacks, urges tougher UN sanctions - The Korea Times (The Korea Times, 2026-10-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Korea Times",
+      "axis": "Other",
+      "tags": [
+        "The Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Korea Times",
+      "source": "The Korea Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdV9xN1dFb1Zyb3NhRzA3YUgxTkozT1VHWnFqNW9Lc0xRYU1kQUVQcTdZWkJvanFMQy1Rd2RBRWVldHJsRVRmZ2pmYWo5QmxEaUZpd21aVUhRcXRiZmNrVURDNWZOLVF5YWRIYkxOcGRoaWNfS1RTSTFCcV9Kb2dZYllFSWJaNzc0aGxRbHJ1M0Y5SEZrQ0RxajhtOTRSUm50ZWJTVXk4eGVZemJ2QmfSAbMBQVVfeXFMUHNWVVh5QVhGTTNLeWZack80MUFCeS0tME83bXpsVHVnUUt4THFzU0c1WkdLTWFFXzBVNE00dEIwNjNIbjRxS0RJczNGc1Z1N2hDd1pfelVoMTdScGM0d2l2ODFpR0ZtTnJiRmpRNEJLekRqQ3g3RW5PTVZfamJNYlNPSlgyWlhpY3NlNHRrdElmZlNxbnVqMkdyWHA1dll6LUxiNzdlSFpXbHpRVmtSZVZYZVE?oc=5"
+    },
     {
       "id": "news-1y80vhm",
       "kind": "news",
@@ -7017,6 +7036,550 @@
         "quadClass": 3,
         "goldstein": -2,
         "tone": -5.61,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328311136",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T15:00:00.000Z",
+      "description": "Fight — Army Unit → Fighter near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Army Unit",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://arynews.tv/why-is-the-battle-for-yemens-taiz-so-important",
+      "gdelt": {
+        "globalEventId": "1328311136",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.84,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328311298",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T15:00:00.000Z",
+      "description": "Fight — Fighter → Army Unit near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Fighter",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://arynews.tv/why-is-the-battle-for-yemens-taiz-so-important",
+      "gdelt": {
+        "globalEventId": "1328311298",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.84,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328316410",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T15:30:00.000Z",
+      "description": "Fight — Military Representative → Saudi Arabia near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Military Representative",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://defenceweb.co.za/sea/sea-sea/tanker-attacks-intensify-as-saudi-houthi-fighting-threatens-bab-el-mandeb/",
+      "gdelt": {
+        "globalEventId": "1328316410",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.5,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328316411",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T15:30:00.000Z",
+      "description": "Threat — Military Representative → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Threat (GDELT 130)",
+      "actor": "Military Representative",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://defenceweb.co.za/sea/sea-sea/tanker-attacks-intensify-as-saudi-houthi-fighting-threatens-bab-el-mandeb/",
+      "gdelt": {
+        "globalEventId": "1328316411",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -6.5,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328316527",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T15:30:00.000Z",
+      "description": "Fight — Saudi Arabia → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://defenceweb.co.za/sea/sea-sea/tanker-attacks-intensify-as-saudi-houthi-fighting-threatens-bab-el-mandeb/",
+      "gdelt": {
+        "globalEventId": "1328316527",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.5,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328321734",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T16:00:00.000Z",
+      "description": "Fight — Military → Fighter near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://aa.com.tr/en/middle-east/yemeni-army-says-it-captured-houthi-drone-operations-team-in-taiz/4091219",
+      "gdelt": {
+        "globalEventId": "1328321734",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328321890",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T16:00:00.000Z",
+      "description": "Disapproval — Saudi Arabia → Abu Dhabi near Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://horseedmedia.net/foreign-rivalries-risk-turning-somalias-political-crisis-into-a-protracted-war/426543/",
+      "gdelt": {
+        "globalEventId": "1328321890",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.17,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328321983",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T16:00:00.000Z",
+      "description": "Fight — Fighter → Military near Al-Aqrud, La?ij, Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.3359,
+      "lng": 44.3638,
+      "action": "Fight (GDELT 193)",
+      "actor": "Fighter",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Al-Aqrud, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://aa.com.tr/en/middle-east/yemeni-army-says-it-captured-houthi-drone-operations-team-in-taiz/4091219",
+      "gdelt": {
+        "globalEventId": "1328321983",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328322305",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T16:00:00.000Z",
+      "description": "Threat — Yemen → Displaced People near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Threat (GDELT 130)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://aa.com.tr/en/middle-east/electricity-water-stations-shut-in-yemen-s-taiz-as-houthis-block-fuel-says-governor/4091211",
+      "gdelt": {
+        "globalEventId": "1328322305",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -6.05,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328325853",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T16:30:00.000Z",
+      "description": "Disapproval — Criminal → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Disapproval (GDELT 1121)",
+      "actor": "Criminal",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.manilatimes.net/2026/10/17/world/americas-emea/houthis-attack-yemeni-presidential-palace/2447502",
+      "gdelt": {
+        "globalEventId": "1328325853",
+        "eventCode": "1121",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.08,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328326224",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T16:30:00.000Z",
+      "description": "Coercion — Iranian → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Iranian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.manilatimes.net/2026/10/17/world/americas-emea/houthis-attack-yemeni-presidential-palace/2447502",
+      "gdelt": {
+        "globalEventId": "1328326224",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -6.08,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328326541",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T16:30:00.000Z",
+      "description": "Disapproval — Saudi Arabia → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.manilatimes.net/2026/10/17/world/americas-emea/houthis-attack-yemeni-presidential-palace/2447502",
+      "gdelt": {
+        "globalEventId": "1328326541",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.08,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328326824",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T16:30:00.000Z",
+      "description": "Disapproval — Yemen → Criminal near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.manilatimes.net/2026/10/17/world/americas-emea/houthis-attack-yemeni-presidential-palace/2447502",
+      "gdelt": {
+        "globalEventId": "1328326824",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.08,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328326829",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T16:30:00.000Z",
+      "description": "Coercion — Yemen → Iranian near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.manilatimes.net/2026/10/17/world/americas-emea/houthis-attack-yemeni-presidential-palace/2447502",
+      "gdelt": {
+        "globalEventId": "1328326829",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -6.08,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328326833",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T16:30:00.000Z",
+      "description": "Coercion — Yemen → Iranian near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (12 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.manilatimes.net/2026/10/17/world/americas-emea/houthis-attack-yemeni-presidential-palace/2447502",
+      "gdelt": {
+        "globalEventId": "1328326833",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -6.08,
+        "mentions": 12,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328331339",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T17:00:00.000Z",
+      "description": "Rejection — Saudi Arabia → Colombia near Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Rejection (GDELT 127)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://sana.sy/en/politics/2351230/",
+      "gdelt": {
+        "globalEventId": "1328331339",
+        "eventCode": "127",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -2.76,
         "mentions": 2,
         "sources": 1
       }
@@ -30563,391 +31126,6 @@
       "lat": 16.34712,
       "lng": 47.89153,
       "coordsNote": "OSM geocode: matched \"Yemen\" → Yemen; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-1fmolsz",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T16:52:46.000Z",
-      "description": "Houthis threaten Saudi Aramco, Riyadh airport after Yemen oil facility strikes - Moneycontrol.com (Moneycontrol.com, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Moneycontrol.com",
-      "axis": "Other",
-      "tags": [
-        "Moneycontrol.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Moneycontrol.com",
-      "source": "Moneycontrol.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSk4zQzdhWFJLWFo4T0hJM2tKNzRHeW9fYVVRNnBzd2thQ083dTVJbkhGdm96alY3V21jXzdScUxQbHpmYjhaZm9ZclhFYnJQUVRUMG1yWURXNXdSMjRhOVRkQzFMakNxNmRxS0E1cFBVYnRabVlhamlQMXUxNEhWY3lVS0JwZ010Z3BtZm9OaTR4eWJlbnMtOFZJSE5MYndiV09ZV1YzMmVBSGNVaFhoUTBLMmMyV1FIaFBpTzNyblp1bW5xMUMyWnYweHNHVWfSAdQBQVVfeXFMTUxKSDVlUlh3T1BNRDRCOXVNZHdsMEgwbW1COUhxWXF4Ui1TTy1vcUNGZ043OEVubnpjUUwzeENiUURzcUJuTTZILWZvVXZDZHk4c1BZem5vUHpSOThJeVJjaXFCNFlYNmJXRzhta2hxbGI2QmRrUTdoamx0Y29keWRXeHRjcHByZkNZS2FIcUdfeXNya2ppZkxGYm5WSXA5Qjl4ME1tV2NqUEREZG9vQWhESm5WOUFpSzlPNzUxdzB3WlRzMFllbWNCckY5QWFpRjd4eE4?oc=5"
-    },
-    {
-      "id": "news-tq78k8",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T16:51:15.000Z",
-      "description": "What Ideology Lies Behind The Houthis’ Destructive Doctrine? – Analysis - Eurasia Review (Eurasia Review, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Eurasia Review",
-      "axis": "Other",
-      "tags": [
-        "Eurasia Review",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Eurasia Review",
-      "source": "Eurasia Review",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa2tKZ3owUjE4ODF0Nlp4RDdxVE5QZEp1MVFSbkota3VCeURoYTNBWGtVWl9DUWFvc1V6OGJzUFBqT1lESmtXaFdhUEdhSHQ3ZWd4N015OGdCdHFoUk9tOUx0OWk5bjB1dUVhTjV4RV81UmFYVVhfYmpaSkdRbDdhSTJWcC1mTnlOZ29IZFRGQk5GNENjVHdWRkE0NlZieFJlMG9DMllrdnBSWWM?oc=5"
-    },
-    {
-      "id": "news-xd2gx4",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T16:43:00.000Z",
-      "description": "Houthis say two killed as Saudi-led coalition strikes oil sites in west Yemen - Haaretz (Haaretz, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Haaretz",
-      "axis": "Other",
-      "tags": [
-        "Haaretz",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Haaretz",
-      "source": "Haaretz",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPV3FpcnB2czJGRzU0cDdPRm05QmUySlJidkJKU0JWY1AwYmFkd2lvZ2lJdUpLbWc1eDRLNVBHQ01VQ1NrT01XT0t2SFpxMWlseVM4MUVxOXpsdkVEWWRHUmJnSldWYlR0a2JGNXpMRXVXZTRuVWtHNnNKcXNQc05GNV9IUGdScjFtSW5oZERUcE15RGVDTXRIaF9hUVJnblJwUkhCOUJOT3RvRHJMVE4xb3hxU3dMYjhzTkxIOWVjVmluMy0zUWE3ZVZYWWNsaHNuNmg4RWNjaE00LThOWVhvZGlEeWNJNEJQSkVjVEJmYVQzdEVqeEJsek53VG9RYUhaemlBanIxS00?oc=5"
-    },
-    {
-      "id": "news-1a7h5k",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T16:36:02.000Z",
-      "description": "Fire Forces Crew to Abandon Research Vessel Off Louisiana (gCaptain, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "gCaptain",
-      "axis": "Other",
-      "tags": [
-        "gCaptain",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "gCaptain",
-      "source": "gCaptain",
-      "sourceUrl": "https://gcaptain.com/fire-forces-crew-to-abandon-research-vessel-off-louisiana/"
-    },
-    {
-      "id": "news-c88egv",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T16:34:00.000Z",
-      "description": "Iran's Houthi allies' deadly attacks on Saudi Arabia create \"a difficult dilemma for President Trump\" - CBS News (CBS News, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "CBS News",
-      "axis": "Other",
-      "tags": [
-        "CBS News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "CBS News",
-      "source": "CBS News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTnVuZXMwT1Q4bkV1a2dHX1lVWE1Sd0NWdzlWMDdHMzZrWnd2YmVTdi12dkUtcTk1SDBpSWFhbngxN254Z3ZNSFl2ak91Q0NpWHh5aWRWeDRaTFh2WGhhSDBVRmtCSEVna3ZVY1VaeFVISFpDUEpaTWlWQ2Z5M1hPQ1Q1M1QtX1RhbzM5T3AzbWhOZUE?oc=5"
-    },
-    {
-      "id": "news-fms1rt",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T16:30:50.000Z",
-      "description": "Saudi-led coalition strikes Sanaa as Trump says Houthis act at Iran’s behest - Al-Monitor (Al-Monitor, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Al-Monitor",
-      "axis": "Other",
-      "tags": [
-        "Al-Monitor",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Sanaa",
-      "source": "Al-Monitor",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZVc1SnJHdERHWGk5Z2c5OHkzLW4xRThTd1U1amNKMUtEaUFVdDlvelg0YjlmRDFWVlo2bU1ZVW1uNGJ5WnZneENKMzlzdVduSjhwTklqLXlOeEJpYU9JdUI0YjNReGx6WmM3bVhKYkZIcjBHTmpKMEthY3lTMUpLUXJLWGYxc093RzFudTZOckhxM1EyUFpOV2M4bkJDMUlCYUxVai1pbU9kaFNXMEo0ZDh4ckY?oc=5",
-      "lat": 15.35,
-      "lng": 44.21,
-      "coordsNote": "Headline gazetteer match: \"Sanaa\" (city); verify via source article."
-    },
-    {
-      "id": "news-qqyd0j",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T16:30:46.000Z",
-      "description": "Iran increases threat to Strait of Hormuz shipping, and other Middle East developments - Hartford Courant (Hartford Courant, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Hartford Courant",
-      "axis": "Other",
-      "tags": [
-        "Hartford Courant",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Hartford Courant",
-      "source": "Hartford Courant",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jaUdSNTRib1VKRzlobWVLZG1GbXpSV0J4NEk1UGZreF9PLWRiYXBWVlhLblFfclhUZjRoV3FIcDlNUVRIRjdzQ2pZNkpKSERFY3I0b1lxVkN4NWY0OW1tNi1nelhPMnowalRoYlRNaTd1Zk1fZFlTSw?oc=5"
-    },
-    {
-      "id": "news-1y3g0a5",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T16:29:08.000Z",
-      "description": "Oil facility near Yemen capital Sanaa hit by Saudi Arabia, Houthis say - Modern Ghana (Modern Ghana, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Modern Ghana",
-      "axis": "Other",
-      "tags": [
-        "Modern Ghana",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Sanaa",
-      "source": "Modern Ghana",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMTBxamxSOVZaOVFSWGN5djFzQ0VzYW4zLUtJY3RMa09PTTViMGlRbDBiR19FZ0laR01oWWhoeXQwcVRGbkc5YTc4LVlzSnFPV3ZSaWlZTGJ3R0RNR0FxaG02c0ktVlVYLXVsT0FtSUJGaWpwYzVJczJKMk9RMDdoVDhXQmtyalhnb25GVmYtNUt3ZUEwUXRtbElSVEHSAZsBQVVfeXFMTWwtSTRRNTh3ZEZkejZTcGt0MFVDZ0JLdUlqdGtyM1hEaTQ0NkJqRGo2VkU0cjRTQWozUVVwN3R6bEhVOVZ4QVAzQUMtVTY3LVFSOFMxR01oRWM0a0IzdkhIRTQ5TjJiSi15UWMtUWR5V3ZYNGo3ZDVVeXBBcU1SZ2h3ODl4aXlnS0hOUHpuc1RQZ3RSenpkVUxnN1U?oc=5",
-      "lat": 15.35,
-      "lng": 44.21,
-      "coordsNote": "Headline gazetteer match: \"Sanaa\" (city); verify via source article."
-    },
-    {
-      "id": "news-1e4nrbo",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T16:23:19.000Z",
-      "description": "Supertankers Turn From Gulf Oil Transfer Hub Amid Iran’s Attacks (gCaptain, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "gCaptain",
-      "axis": "Other",
-      "tags": [
-        "gCaptain",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "gCaptain",
-      "source": "gCaptain",
-      "sourceUrl": "https://gcaptain.com/supertankers-turn-from-gulf-oil-transfer-hub-amid-irans-attacks/"
-    },
-    {
-      "id": "news-1dkkw65",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T15:54:00.000Z",
-      "description": "Saudi-led coalition launches airstrikes on Houthi positions in Yemen’s Sanaa - Middle East Monitor (Middle East Monitor, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Middle East Monitor",
-      "axis": "Other",
-      "tags": [
-        "Middle East Monitor",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Yemen’s Sanaa",
-      "source": "Middle East Monitor",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVE5Vbms5Sk4zOEdjS0JneGx3TjdnM3VfbndxbGVpT00zeHplbVJQaEp6YWo0NkVqOTdqSm9WeWJ1bWJRN3R0T3V6NjkydEJoS0syMWduOWtTRGgyN19LRXpGRGMxSE1TUG5NbkM0R1RsSXNJV0ZtUEdBQ0hhaUl3UmNwekMtOS1ONDRlTUVXb0hZNm5hcEsyNnMxWnB3RmkwSEJBRWxRN01OakhxS1dMQ01ZMzNfUE9hbVhr0gHAAUFVX3lxTE1PN3hoNF9fQTFJSVFXeHgyOU9pQ1IwU2JUbTRQZ1U1NmxiRUJXSVM0NmpDQkdUZ3pWMXhidXVObzFfam9RRXRKaU9uZG9fU1JVQkhoeUNDazduTlVjTnhad2duQUZNcEtHMlExQVpwanZCd09vRWVEeHJZTnQ1SVRNLWczSHh5ZFJBM05zWDZoY3czNGlYM2tHbnZKVnIzdE5XRGQzNXJHOGh4X2lYN05RTzdSNXY2cnhxOXpZOXdHcw?oc=5",
-      "lat": 15.35386,
-      "lng": 44.20588,
-      "coordsNote": "OSM geocode: matched \"Yemen’s Sanaa\" → Sana'a, At Tahrir District, Amanat Al Asimah; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-di734o",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T15:41:40.000Z",
-      "description": "Drones hit ships in Black Sea, sinking 1 and prompting rescue operations, Bulgaria says - KSL News (KSL News, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "KSL News",
-      "axis": "Other",
-      "tags": [
-        "KSL News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "KSL News",
-      "source": "KSL News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOG9udFVoSnVGcHRFQWxDS3owMEFPd1BpTEpkUWJFN05jVmFUU1BkaE91dkNyWW1BUkxOVTZlUXBXWVRlbzU5M05ZV1VYRkNBMlE4akNHaWZDczN1UlpYZjB6SUR5Q0dQYkJZbjY3bkR4U19iSmpuNGdVaTRlQnhPcXMtX1ZiSkg3RU8xaGxtNm5jZmdYanNCS0poZUVzenV3bnJPaE1RWi1uTzlVanNYTkRDeHd1LUd1bmhJUjU2OA?oc=5"
-    },
-    {
-      "id": "news-1q959z5",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T15:31:11.000Z",
-      "description": "NATO urged to act after Black Sea ships sunk in suspected Russian attack - Yahoo (Yahoo, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yahoo",
-      "axis": "Other",
-      "tags": [
-        "Yahoo",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yahoo",
-      "source": "Yahoo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcE9EZjF3RVRldlg4aEZFSG9nWXVaTVhHRkxscjZvUzR1SWxNMlAzcTRncEJOVXBIclUtQ3h3a2ZNaDNncmNlOFg4YXZ3U2lYREN2YjZlT29tT1JXYUFrVTdRNDRBSmgydTZwSm9GUXpMTVFDZUJNVkhzTDhUdzBhOEpTelRCVF9Q?oc=5"
-    },
-    {
-      "id": "news-1sez63p",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T15:30:00.000Z",
-      "description": "Saudi-Led Coalition Strikes Oil Facility Near Yemen’s Sanaa: Houthi Media - Kurdistan24 (Kurdistan24, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kurdistan24",
-      "axis": "Other",
-      "tags": [
-        "Kurdistan24",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kurdistan24",
-      "source": "Kurdistan24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45X0Z1aVI0aDltRFRqM0kwQUR4VUZTUzVEek5Xd1owMkxrTUpaNXphVWJ3T0tCMXFtWVhXd3VRT1cxZVlTWTFiU2c4TXc4dVBHOUwwRnVn?oc=5"
-    },
-    {
-      "id": "news-q96qtm",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T15:30:00.000Z",
-      "description": "Saudi-Led Coalition Strikes Oil Facility Near Yemen’s Sanaa: Houthi Media - Kurdistan24 (Kurdistan24, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kurdistan24",
-      "axis": "Other",
-      "tags": [
-        "Kurdistan24",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kurdistan24",
-      "source": "Kurdistan24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeDN2SGtVdF9NM0V4UjZfNFc1SzBNVnpqRC1Xb0dwc0NwLUQ0em5OM2FMSmxPY1c5ZDlLdHUyU3FNS2lZR2hOYXZNYVA1Z0pQZjVGZHVFOHFnZ0FDd21IZlJLM3ZLRGs5blNaaUdKdnNaM0VxanktU3llenUyQkRacnBXc2dSc05QVUdHS2xwT1hQU1lXeDNrbXVtS3lUNmduVmllTWs4SG41Szhaa0x3WFpKYUx3dw?oc=5"
-    },
-    {
-      "id": "news-1qlbkt",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T15:26:09.000Z",
-      "description": "Why billions spent on defense haven’t shielded Saudi Arabia from Houthi attacks - CNN (CNN, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "CNN",
-      "axis": "Other",
-      "tags": [
-        "CNN",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "CNN",
-      "source": "CNN",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOalAxZ2ZJLU1qbnBGcDh3OHRPWnhxUDI2dGNYb2N0ejZ2YVFhYXBTQWJ4WGhBbzl0ZXhVT3hZU2tYSy1hNjlOb2pZSDZyb0lKSmtjRWZKcDNCM0NBUmRVRWZ4VTNWbURIa0FBbzF0NmNiMDhEQ0UxVHYxOWQtc1U4SmV2cVdPVkhmYlE?oc=5"
-    },
-    {
-      "id": "news-1s2iqiu",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T15:13:49.000Z",
-      "description": "Saudi-led coalition strikes oil facilities near Yemen's Sanaa as tensions escalate - Kashmir News Service (Kashmir News Service, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kashmir News Service",
-      "axis": "Other",
-      "tags": [
-        "Kashmir News Service",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Yemen's Sanaa",
-      "source": "Kashmir News Service",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRlNMZC1iaEkwaXdPQWRUVjZzcEJLLUdPR01abjQ0Q1lIUUJ5MzFHazY5TTFTSDNiZFBBYU1ZNzNBZmVBVFJhWm5NM2pjUEFmRWVaaWNHX1VWSjhiSFZ5OGVMNGhlYnp0ZkVwcnU0WGpKZElQNlM4SU9UN2t5dy15a1U0ZTRsQWJsUWgyZmxCbFQ0bXJGMjAwb0tqY1M3YmRSaXNTQm1xNlJEd1hKVWptcGduekVKUGc?oc=5",
-      "lat": 15.35386,
-      "lng": 44.20588,
-      "coordsNote": "OSM geocode: matched \"Yemen's Sanaa\" → Sana'a, At Tahrir District, Amanat Al Asimah; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-1czbu8v",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T14:53:39.000Z",
-      "description": "Oil facility near Yemen capital Sanaa hit by Saudi Arabia, Houthis say (France 24 Middle East, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "France 24 Middle East",
-      "axis": "Other",
-      "tags": [
-        "France 24 Middle East",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Sanaa",
-      "source": "France 24 Middle East",
-      "sourceUrl": "https://www.france24.com/en/middle-east/20261013-oil-facility-near-yemen-capital-sanaa-hit-by-saudi-arabia-houthis-say",
-      "lat": 15.35,
-      "lng": 44.21,
-      "coordsNote": "Headline gazetteer match: \"Sanaa\" (city); verify via source article."
-    },
-    {
-      "id": "news-1ikx5uj",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T14:53:39.000Z",
-      "description": "Oil facility near Yemen capital Sanaa hit by Saudi Arabia, Houthis say - France 24 (France 24, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "France 24",
-      "axis": "Other",
-      "tags": [
-        "France 24",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Sanaa",
-      "source": "France 24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQk1ROHJ2ZHk2ZW9FVV9RR0M1LWx6a0VlYWE4ZC1hZ1dHMWFBZmVaOWFCdGJNekxiSnlobnU2ZXk3MjdBVzBhUm1odTRCakEtd09mSmlhQzdScGI2SWotckRoOUR6WmFYYy1Ccmt3MHp6LS0tTGxfSUtXRC1MQU53dVdvUnpjRlRfdzl1LUF1WWp0MTdZaVpKOWFHLTFNbU4wVVRGbEdFRmViYnNpV2F2QlVQTXppeUYxVVE?oc=5",
-      "lat": 15.35,
-      "lng": 44.21,
-      "coordsNote": "Headline gazetteer match: \"Sanaa\" (city); verify via source article."
-    },
-    {
-      "id": "news-1eenyt",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T14:51:59.000Z",
-      "description": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack - BBC (BBC, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC",
-      "axis": "Other",
-      "tags": [
-        "BBC",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "BBC",
-      "source": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtOXhiczM5QnZQbVJGRVpuZm5UOXBfaFpVRFhOV2M1bk1YOGFoMVdKMjN1dm4zMEpqeE9ZUXFFU0Z1VkNwRTBpaE9JdXBjanBDUVA0dDlwS0tNT2c?oc=5"
     }
   ]
 }
