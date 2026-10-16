@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "gaza",
-  "collectedAt": "2026-10-16T18:41:34.177Z",
+  "collectedAt": "2026-10-16T20:07:29.778Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 477
+      "count": 219
     },
     {
       "id": "bbc-me",
@@ -20,8 +20,8 @@
       "id": "jpost",
       "url": "https://www.jpost.com/rss/rssfeedsfrontpage.aspx",
       "status": "ok",
-      "count": 17,
-      "filtered": 8
+      "count": 19,
+      "filtered": 6
     },
     {
       "id": "gnews-gaza",
@@ -41,8 +41,8 @@
       "id": "aljazeera",
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "status": "ok",
-      "count": 9,
-      "filtered": 16
+      "count": 6,
+      "filtered": 19
     },
     {
       "id": "guardian-me",
@@ -55,8 +55,8 @@
       "id": "nyt-me",
       "url": "https://rss.nytimes.com/services/xml/rss/nyt/MiddleEast.xml",
       "status": "ok",
-      "count": 13,
-      "filtered": 12
+      "count": 12,
+      "filtered": 11
     },
     {
       "id": "gnews-flotilla",
@@ -90,10 +90,71 @@
   "count": 1500,
   "events": [
     {
+      "id": "news-ptmyzk",
+      "kind": "news",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T21:23:18.000Z",
+      "description": "Israeli media's polling obscures the majority opposed to Netanyahu - opinion (Jerusalem Post, 2026-10-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jerusalem Post",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/opinion/article-911550"
+    },
+    {
+      "id": "news-uyuxkl",
+      "kind": "news",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T20:55:00.000Z",
+      "description": "Trump says Saudi Arabia may accept Israeli help against Houthis, revive Abraham Accords (Jerusalem Post, 2026-10-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jerusalem Post",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/middle-east/article-911936"
+    },
+    {
+      "id": "news-hyiec6",
+      "kind": "news",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T19:47:20.000Z",
+      "description": "More than 340 children killed in Gaza in year since Israel-Hamas ceasefire, UNICEF says - Arab News (Arab News, 2026-10-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Arab News",
+      "axis": "Other",
+      "tags": [
+        "Arab News",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Gaza City",
+      "source": "Arab News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbnhCRW1oVVhVaXlSVlh6X3VkS0NTZl9ubHZKVTA4a0dRakRMNHZvdTZzTzBTbzVZRDJWbU5fVnJYMlFUa2hzSEhPUVFMRkJGNDE4cDZUVXVUTVVmUU9Va3haNmZ1SjN6NzQ5SEhJNVItSE9uMjF2aDQ0TElSRXV3VGo3RTAtaG9lT2d6VTNnckhCMG9zTlJuVnhtLWJleTZEOHR5QUtIMnkwNElfa3owb2FuVzFSamFiTmlXTENzMTFMU1dTbW1JblJQdw?oc=5",
+      "lat": 31.5,
+      "lng": 34.47,
+      "coordsNote": "Headline gazetteer match: \"Gaza\" (city); verify via source article."
+    },
+    {
       "id": "news-1am32sy",
       "kind": "news",
       "date": "2026-10-16",
-      "isoDate": "2026-10-16T18:37:57.000Z",
+      "isoDate": "2026-10-16T19:31:34.000Z",
       "description": "Israeli Settlers Attack Palestinians and Washington Post Journalist in West Bank (NYT Middle East, 2026-10-16. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -116,7 +177,7 @@
       "id": "news-15sru4z",
       "kind": "news",
       "date": "2026-10-16",
-      "isoDate": "2026-10-16T18:00:05.000Z",
+      "isoDate": "2026-10-16T19:00:05.000Z",
       "description": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post (The Jerusalem Post, 2026-10-16. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -130,6 +191,25 @@
       "locationStr": "The Jerusalem Post",
       "source": "The Jerusalem Post",
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11NWFDZjV2eVJvRlEtQzBwQWIwRnlEeFgxMkRLd1d1Yk5Hc2pPd01KYlJMV3dxYTBBMDRsQXJNRnVCaW1VVVZCTXpVWXlXQnJYZjVOYjhxb1ZTcFRaWHVtN0J5aEtHaHV4YWZiREh1YnRwR3BKUWI3Nl95dGNiMXM?oc=5"
+    },
+    {
+      "id": "news-1cswfbq",
+      "kind": "news",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T18:26:08.000Z",
+      "description": "UK PM adviser’s wife expresses ‘support’ for Palestine Action (Al Jazeera, 2026-10-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/16/uk-pm-advisers-wife-expresses-support-for-palestine-action?traffic_source=rss"
     },
     {
       "id": "news-1amc93l",
@@ -680,6 +760,25 @@
       "lat": 32.08,
       "lng": 34.78,
       "coordsNote": "Headline gazetteer match: \"Tel Aviv\" (city); verify via source article."
+    },
+    {
+      "id": "news-ptn1dr",
+      "kind": "news",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T13:07:42.000Z",
+      "description": "Netanyahu built Israel’s military power, but undermined its security - opinion (Jerusalem Post, 2026-10-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jerusalem Post",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/opinion/article-911801"
     },
     {
       "id": "news-1amc91z",
@@ -49918,176 +50017,6 @@
         "quadClass": 4,
         "goldstein": -10,
         "tone": -7.56,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328337260",
-      "kind": "event",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T00:00:00.000Z",
-      "observedAt": "2026-10-16T17:45:00.000Z",
-      "description": "Disapproval — Unspecified → Commander near West Bank. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.66667,
-      "lng": 35.25,
-      "action": "Disapproval (GDELT 111)",
-      "actor": "Unspecified",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "West Bank",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/16/778451/Yahya-Sinwar-shattered-Israeli-invincibility-myth",
-      "gdelt": {
-        "globalEventId": "1328337260",
-        "eventCode": "111",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -3.41,
-        "mentions": 6,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328337523",
-      "kind": "event",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T00:00:00.000Z",
-      "observedAt": "2026-10-16T17:45:00.000Z",
-      "description": "Coercion — Perpetrator → Unspecified near Jerusalem, Israel (general), Israel. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.7667,
-      "lng": 35.2333,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Perpetrator",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Jerusalem, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.clickorlando.com/business/2026/10/16/israeli-settlers-torch-cars-and-trees-in-west-bank-villages-disrupting-palestinians-olive-harvest/",
-      "gdelt": {
-        "globalEventId": "1328337523",
-        "eventCode": "173",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -6.14,
-        "mentions": 10,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328337562",
-      "kind": "event",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T00:00:00.000Z",
-      "observedAt": "2026-10-16T17:45:00.000Z",
-      "description": "Fight — Scientist → Israel near Kerem Shalom, HaDarom, Israel. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.2278,
-      "lng": 34.2846,
-      "action": "Fight (GDELT 193)",
-      "actor": "Scientist",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kerem Shalom, HaDarom, Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/16/778451/Yahya-Sinwar-shattered-Israeli-invincibility-myth",
-      "gdelt": {
-        "globalEventId": "1328337562",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -3.41,
-        "mentions": 8,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328337563",
-      "kind": "event",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T00:00:00.000Z",
-      "observedAt": "2026-10-16T17:45:00.000Z",
-      "description": "Fight — Scientist → Israel near Kerem Shalom, HaDarom, Israel. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.2278,
-      "lng": 34.2846,
-      "action": "Fight (GDELT 193)",
-      "actor": "Scientist",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kerem Shalom, HaDarom, Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/16/778451/Yahya-Sinwar-shattered-Israeli-invincibility-myth",
-      "gdelt": {
-        "globalEventId": "1328337563",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -3.41,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328337566",
-      "kind": "event",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T00:00:00.000Z",
-      "observedAt": "2026-10-16T17:45:00.000Z",
-      "description": "Fight — Scientist → Palestinians near Kerem Shalom, HaDarom, Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.2278,
-      "lng": 34.2846,
-      "action": "Fight (GDELT 193)",
-      "actor": "Scientist",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kerem Shalom, HaDarom, Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/16/778451/Yahya-Sinwar-shattered-Israeli-invincibility-myth",
-      "gdelt": {
-        "globalEventId": "1328337566",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -3.41,
         "mentions": 2,
         "sources": 1
       }

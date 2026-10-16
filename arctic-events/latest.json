@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-10-16T18:41:34.177Z",
+  "collectedAt": "2026-10-16T20:07:29.778Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 66
+      "count": 2
     },
     {
       "id": "rci-arctic",
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 688,
+  "count": 689,
   "events": [
     {
       "id": "news-1ut541c",
@@ -6132,6 +6132,74 @@
         "quadClass": 3,
         "goldstein": -2,
         "tone": -1.02,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328349028",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T19:00:00.000Z",
+      "description": "Disapproval — Wales → Unspecified near Fair Isle, Shetland Islands, United Kingdom. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.5333,
+      "lng": -1.65,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Wales",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Fair Isle, Shetland Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.marieclaire.com/celebrity/royals/princess-kate-fair-isle-sweater-trend-secret-appearance-cornwall/",
+      "gdelt": {
+        "globalEventId": "1328349028",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 11.43,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328357770",
+      "kind": "event",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T00:00:00.000Z",
+      "observedAt": "2026-10-16T20:00:00.000Z",
+      "description": "Disapproval — Alaska → Russia near Petersburg, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.8944,
+      "lng": 30.2642,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Alaska",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petersburg, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://anchoragepress.com/revealed-the-money-behind-the-last-minute-fringe-candidate-ad-blitz-in-alaskas-u-s-senate-primary/",
+      "gdelt": {
+        "globalEventId": "1328357770",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 2.61,
         "mentions": 2,
         "sources": 1
       }
@@ -22470,25 +22538,6 @@
         "mentions": 3,
         "sources": 1
       }
-    },
-    {
-      "id": "news-1etgneq",
-      "kind": "news",
-      "date": "2026-10-13",
-      "isoDate": "2026-10-13T19:51:35.000Z",
-      "description": "South Korean president says Arctic trial run is first step toward regular commercial service (Eye on the Arctic, 2026-10-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Eye on the Arctic",
-      "axis": "Other",
-      "tags": [
-        "Eye on the Arctic",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Eye on the Arctic",
-      "source": "Eye on the Arctic",
-      "sourceUrl": "https://www.rcinet.ca/eye-on-the-arctic/2026/10/13/south-korean-president-says-arctic-trial-run-is-first-step-toward-regular-commercial-service/"
     }
   ]
 }
