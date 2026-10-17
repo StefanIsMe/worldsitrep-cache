@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-17T13:07:12.520Z",
+  "collectedAt": "2026-10-17T14:28:17.162Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -41,8 +41,8 @@
       "id": "thehill",
       "url": "https://thehill.com/feed/",
       "status": "ok",
-      "count": 30,
-      "filtered": 20
+      "count": 32,
+      "filtered": 18
     },
     {
       "id": "politico-congress",
@@ -69,8 +69,8 @@
       "id": "axios",
       "url": "https://api.axios.com/feed/",
       "status": "ok",
-      "count": 26,
-      "filtered": 24
+      "count": 25,
+      "filtered": 25
     },
     {
       "id": "gnews-protest",
@@ -83,8 +83,8 @@
       "id": "gnews-courts",
       "url": "https://news.google.com/rss/search?q=federal%20judge%20blocks%20executive%20order%20ruling&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 47,
-      "filtered": 3
+      "count": 48,
+      "filtered": 2
     },
     {
       "id": "gnews-midterms",
@@ -101,14 +101,71 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 434,
+  "count": 419,
   "events": [
+    {
+      "id": "news-1qtvdbx",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T14:08:22.000Z",
+      "description": "Zelensky on Trump waiving Russia sanctions: &#8216;This Act could have helped enormously&#8217; (The Hill, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/policy/international/6155800-zelensky-condemns-trump-russia-sanctions-waiver/"
+    },
+    {
+      "id": "news-l0p9wb",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T14:00:00.000Z",
+      "description": "If the Supreme Court wants to protect freedom of the press, here is its chance (The Hill, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/opinion/judiciary/6155337-journalist-face-privacy-act-showdown/"
+    },
+    {
+      "id": "news-wcdmua",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T13:23:47.000Z",
+      "description": "GOP lawmakers bash Trump&#8217;s decision to waive Russia sanctions: &#8216;Beyond irresponsible&#8217; (The Hill, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6155725-trump-waives-russia-sanctions/"
+    },
     {
       "id": "news-1owq6xh",
       "kind": "news",
       "date": "2026-10-17",
       "isoDate": "2026-10-17T13:00:00.000Z",
-      "description": "Live updates: Trump and Zelensky relationship rocky over Russia sanctions, Starlink; Obama campaigns in Michigan, Ohio (The Hill, 2026-10-17. Headline + link only.)",
+      "description": "Live updates: Trump-Zelensky relationship rocky over Russia sanctions, Starlink; Obama campaigns in Michigan, Ohio (The Hill, 2026-10-17. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "The Hill",
@@ -144,6 +201,25 @@
       "locationStr": "Axios",
       "source": "Axios",
       "sourceUrl": "https://www.axios.com/2026/10/17/trump-october-midterms-controversy"
+    },
+    {
+      "id": "news-1m0s9s6",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T12:20:15.000Z",
+      "description": "FLIPR 2026 midterm election forecast - Silver Bulletin (Silver Bulletin, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Silver Bulletin",
+      "axis": "Other",
+      "tags": [
+        "Silver Bulletin",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Silver Bulletin",
+      "source": "Silver Bulletin",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5"
     },
     {
       "id": "news-1t73t2b",
@@ -376,25 +452,6 @@
       "locationStr": "Global Agriculture",
       "source": "Global Agriculture",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTjZEeGNkUm9xdG10Z0J0YTgwZkJ4VWNEemRNVXVMbVh4WXNzbkh0M3RvekFPQzYwdzFxa0hUdTN2NU5IeUs0TkYya0JBX0lqQUdKbFJ5cm11U01RUDRMTXZIT1NoUDZrWUxjWWtuX0VSQmlxUUJ3TGgxeVdxX1NGeXZSQlM5UVpOUFhEbWV3UnpRSjVTaGpodVhqQktRSGh2STVoR0VadGhxQmpRVjJhQTBBWFNyUXZPVkUzWlZB?oc=5"
-    },
-    {
-      "id": "news-1m0s9s6",
-      "kind": "news",
-      "date": "2026-10-17",
-      "isoDate": "2026-10-17T09:19:24.000Z",
-      "description": "FLIPR 2026 midterm election forecast - Silver Bulletin (Silver Bulletin, 2026-10-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Silver Bulletin",
-      "axis": "Other",
-      "tags": [
-        "Silver Bulletin",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Silver Bulletin",
-      "source": "Silver Bulletin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5"
     },
     {
       "id": "news-577qk8",
@@ -779,6 +836,25 @@
       "locationStr": "Anadolu Ajansı",
       "source": "Anadolu Ajansı",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS1FvUVZIcU5VRzJaRUp4RnU4NXRlM2ZsTldnWG1VUkx0LW9VT1cxamFISHJWTjBpaGdUWnhMS09rWkZyTHFFaWh1RUpvYlZqcjRnamFwdHdnRnJPcW5zcnhpUXZCYTN2YWpWWUFkMFBnMks3bE1La2E1UktiUVc1VDdZbTlFVVktU1RTeFpIdTJfdGdobkxMdGlpdm5JUGN4VGZzOF80MHk2VXdG?oc=5"
+    },
+    {
+      "id": "news-1rtfwni",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T02:51:00.000Z",
+      "description": "No tariff on India for buying Russian oil as Trump waives sanctions under Lindsey Graham law - Firstpost (Firstpost, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Firstpost",
+      "axis": "Other",
+      "tags": [
+        "Firstpost",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Firstpost",
+      "source": "Firstpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQU3I5NnNhN2JFd29MWVV2NFVXM0x4VWE1LVFUbzAtOXVQdVZKLTlyVVlWNmxSV1NmX1NuMzJnT244b1AwbUl6elN1NHFaN2ZHNnRjaTZuRnR1ZWxSWUpiOFhrQ1lCX2ZndGxDc3VTZ3d2clNQT0JwZ0p6cTZwUVZBZEcycTJnRzhGVXNOUW44SjhBVEtnRHQ2eXprWVd3ZmtIYzNMR0k1SUJ5eDBnVW1xbEJOekl1ZEhDOTRVNmxyYkNXc2ZlZHE4ekVkTXlRYTdENkpfWVEzcko5Tm9QMEHSAeMBQVVfeXFMUEE5QVFYcFZNNGEtRTZIZ2xDUEpCYWRocEl5YXl0UmdPaWpYZ0VsTVZQamdGTnlWQlFXcl82VUNsUGtGNTlaUFZzTGFFT09wVGRsQ2tBMlpaWTIyRldVQTd3alVNQXNteUlCMTBsSGZhclpnSDFIaWFHRW1BTW5CaThYRlpNZWphWEVteTh4TjFGcjN0NGtvdzlGZ0JncDNFd2F4UkRRNU0yREZjUktmMFRMSjg5VE10X0t5dDFjaGNHQmdCYzZRQ3RTbXFaSFhmczdqYkRtRVo4Z3JvdFBuUC14X2c?oc=5"
     },
     {
       "id": "news-vrrbf0",
@@ -1530,7 +1606,7 @@
       "kind": "news",
       "date": "2026-10-16",
       "isoDate": "2026-10-16T21:24:47.000Z",
-      "description": "Watch live: Decision Desk ‘26  Midterm Preview powered by 2WAY and The Hill (The Hill, 2026-10-16. Headline + link only.)",
+      "description": "Watch live: Decision Desk ‘26 Midterm Preview powered by 2WAY and The Hill (The Hill, 2026-10-16. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "The Hill",
@@ -8231,371 +8307,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/administration/6147843-deters-threatens-vance-guilfoyle/"
-    },
-    {
-      "id": "news-ucsth2",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T14:28:04.000Z",
-      "description": "Katie Zacharia's debut shows the pitfalls and possibilities of White House press secretary's role (PBS NewsHour, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/katie-zacharias-debut-shows-the-pitfalls-and-possibilities-of-white-house-press-secretarys-role"
-    },
-    {
-      "id": "news-1g7bsel",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T14:20:11.000Z",
-      "description": "Guilfoyle &#8216;certainly more&#8217; than just some woman Trump&#8217;s son dated: Grisham (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6147513-guilfoyle-trump-family-ties/"
-    },
-    {
-      "id": "news-1j7miyv",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T14:12:50.000Z",
-      "description": "Who is winning the midterm elections 2026? Latest polls and forecasts - Delawareonline.com (Delawareonline.com, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Delawareonline.com",
-      "axis": "Other",
-      "tags": [
-        "Delawareonline.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Delawareonline.com",
-      "source": "Delawareonline.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQzNwRHVDOUFQS1ViVkJjMTlBWjNBZGV6TWNQb0IwRlZMNk40YnhqZGwzYVl0bzZva1V0RS12YmM1Q3lQOG55NkVNdW9EaXAtamRrOU8yWm5MajZtbjlRc2NENVBEbE5QVWdrRTBuUkNhVEdQRDRtYW5vaFRoZl9NTmlZMElCUkFZZnY3MFh6M2ZYcEpXUzBGaDhhM1I1cnJLbHQ1QkdENnpfUnk2QmFCeHF3VU54RGNyWUd0MDhDTy14TVRIUS1sc3pzZTg?oc=5"
-    },
-    {
-      "id": "news-q68ii",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T14:12:46.000Z",
-      "description": "Mike Pence group urges Trump to reverse Russia diesel plan (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6147755-trump-russia-diesel-pence-advancing-american-freedom/"
-    },
-    {
-      "id": "news-ajjra4",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T14:02:38.000Z",
-      "description": "Stephen A. Smith says Trump&#8217;s financial pledges aren&#8217;t winning over Americans at NewsNation town hall (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6147662-trump-economic-messaging-critique/"
-    },
-    {
-      "id": "news-12onidv",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T14:00:00.000Z",
-      "description": "Why it took a lawsuit to get a real investigation into Cornell (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/opinion/criminal-justice/6145937-cornell-sexual-abuse-lawsuit/"
-    },
-    {
-      "id": "news-1idzte",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:56:27.000Z",
-      "description": "PHOTOS: Dozens rally as appeals court weighs Trump's DC National Guard deployment - KDNL (KDNL, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "KDNL",
-      "axis": "Other",
-      "tags": [
-        "KDNL",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "KDNL",
-      "source": "KDNL",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQTlJKOUJvWjgzYzVtckZyV3dVYmwyNGVkTXZnY0E2T0RDYUpDYmJpeU1QSDNLZ2FYRTcweEdldklKT2ZReGN0RmlUNVFjcEVtOGNoc0U1VXMxbFl0bUN1c19wa0I4RzF4ai12WGhud1JRb3FVS1dWNzlkejZXMDNfTmZydmFkcXBZQXR4UmlyU1hTOXlzdklGN0dKZHJVdjVmMGpBSjBXaGQwT3BLYUNGSHc4OXpGSkRTWkZRMWx5eXpOSHNEdVBqNGVMeXVHOWMzNWRFOVJONUFmeG5lVHJBRkNUNVpGR1JYUFEwUDI1Vl9FRW5sdXRuOXdXRTQ4TkhHdEVMQ0MybFp5SmVZaWxYakkxb3FqNW9HcDVZcHVtRUJ1dVNKV2RaMkpyTUt0aC1HRUdqY3FmcXVvSjg?oc=5"
-    },
-    {
-      "id": "news-1p28h8o",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:54:00.000Z",
-      "description": "When is early voting in New Jersey? Who's winning the 2026 midterms now? - Bergen Record (Bergen Record, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Bergen Record",
-      "axis": "Other",
-      "tags": [
-        "Bergen Record",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New Jersey",
-      "source": "Bergen Record",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNkFPTUF0bC1jaVhUS1JKanhEaHlCcklzMnI1OEZodnN6cGVNa1MwR3BycENqTWFnY3JhTFVPaEpnY0k1MkQycUJoNnRIMDZ3M09TU1J5ZjlVNlFYTUUzSnVBRHQxMkJRbzVRNXRfSFM1WjRraGMwblBydF9zYjNLNWNpcXJIZzZZNTc3M2xHODUtQmJVLVdEa2c0Rmdybk5COGdYN3ZuZVMtbHJ6UVZSanhOMTI5cFlZUmp5VVVram44emdnZkFuQnM3SGU2U1FFa2xFeWRFaDNVRVZNTlFvd0FLdlFGTGs4UGRSVEF3?oc=5",
-      "lat": 40.07574,
-      "lng": -74.40416,
-      "coordsNote": "OSM geocode: matched \"New Jersey\" → New Jersey, United States; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-pe6wca",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:53:30.000Z",
-      "description": "Presidents Cannot Distort Laws To Justify Deploying Federal Forces To ‘Repel Armed Enemies’ in Elections - Center for American Progress (Center for American Progress, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Center for American Progress",
-      "axis": "Other",
-      "tags": [
-        "Center for American Progress",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Center for American Progress",
-      "source": "Center for American Progress",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORHptNGlwRndjblh6aWdOU2gxNlo0ZWxXLTNwMWxnM1BDaUdhX2pORG82WGVHS1RGWGtxZDFWakkybksxNTRTX0dWSVhGVmY2dG1RNE1ZX3hMeWItYmhDR1RfSmR0SkNZZ1Q3b01QZGxmWVFfRXJjd2xPR0F3aDU2TTNwYTUtd2g3Q2x0cEQ0TVNFTTA3aFE4OEUycFYwdFBRV0hqTExfaFpURTdXczc5YXhxZGxmZWxWSm5adUl4ZTFSVE1qMGNEb1Bqc09vNzJyX0Q2a055TUl0d3lo?oc=5"
-    },
-    {
-      "id": "news-i8cq0q",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:52:13.000Z",
-      "description": "PHOTOS: Dozens rally as appeals court weighs Trump's DC National Guard deployment - KEYE (KEYE, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "KEYE",
-      "axis": "Other",
-      "tags": [
-        "KEYE",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "KEYE",
-      "source": "KEYE",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNV3M5bTZkUGlYVWE0Tkt0Mm9YTmpNOVU3SW1uWnFnUl94LXpGWUM4ZUFyZWxJUTVvQlNKOVJ6SHRxazk3S3VDNWdzM2ZpaHVIQ2J3U09CQ1dmWldXOXJVakJfN1ltTG56enlrNjkzQUJoNVBrR2MwclBlZm1veHNHX2V2N05hTXZvTlQ4Z01LMTVBLThTR3lQQWlpeFFKSzRIanpBeVNkdUJoTmZtYk1RWEFhOWp1ak12bzM4M05GRW05RkRrdVFlWW1NdXdsTFV1VnRKX3ZZOFRPYkN3WXpQS3lSRWtTS3V5a2xVMVdrTHBvTHk3WElNRTU4eHhEbjU2V1BfcThZR2wwRk5MdE8yUjRXVDN1SUNxX2J3Yi1IeVNIeXpwTHZjT1hnWFJWb2trYzEzZktrY3FKUQ?oc=5"
-    },
-    {
-      "id": "news-1anrr7s",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:52:01.000Z",
-      "description": "PHOTOS: Dozens rally as appeals court weighs Trump's DC National Guard deployment - WJLA (WJLA, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "WJLA",
-      "axis": "Other",
-      "tags": [
-        "WJLA",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "WJLA",
-      "source": "WJLA",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOMk1aMzJmMk14SzdIV1MtSHRUZ1Y4NjVaSWRLMjJWa2pELXhmZ0wtNWhBeE9pM2JFOEtPUjZOaTNYeU01SzM5NzdQTm5ZLU5PakVRbzFiaGd4am9URS1vNlZZZWJhR1hWVUpyX3plaEUwRGFNRVZTcmZtZnpIbm1FeERid2hmUDZ3aVl0VC1kVnYzanRuRHNILUpvWE1FUXJRSFBBaE92d1pfQkk3T0V2NlV4MW94V0hfRWZ3Q0Q3a25sSVhQVnFmWWdkN045MVQ1SjBMN0RYMkVyM1hycmJwNEdWQi1oSHJ5Wk1uYzU0b2VFWWJfUzI3OEl5S1FNWmFHc3VrREpfLWpFZ3JqenVjWTdwalVfODFGNXZaWG05TFpBRjlUZVJOWlYzeHg3azIxRmQ5Rw?oc=5"
-    },
-    {
-      "id": "news-981znv",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:49:59.000Z",
-      "description": "PHOTOS: Dozens rally as appeals court weighs Trump's DC National Guard deployment - KBAK (KBAK, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "KBAK",
-      "axis": "Other",
-      "tags": [
-        "KBAK",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "KBAK",
-      "source": "KBAK",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOQ2NvNXI4Q25rY25yai1OTDlSSFhsZG04NzRzREVRVUh6b2pTQXk3dFc1MG9RX29NaGtIQU80S194aEY1aktmS0ZzejJIOGZlam5TSHAzRXRqUVpMZl9XbjJncHUzUHk3UXBTR1Q1VnlUQkJrRC1qQTRkZDl1R3JmZG1HUnlnSEJCeE9tQ1JhT0JnZGcwQ3hkVE1ZaFJGX1FDZkJ2akN6V1pFLTJXUUhsRURfNE9oZEY0bUo2dnUwaUF5YWdISk9adVJQY2hJU2ZJNHY5UE1obWt2eXBuODhsWTMybEFJZWN6ZG9GWWhqbUUyRmMzWnNMYjVhV2xidmszekd2Q3MyeTEtZnVSMVdzRnFiWGltTDdpUkpXRGMwNmFad0dNdEpOVW1SLTlpWDdsdGpLRHBGZDg1empySnA2Nlcybm1Uek10T24w?oc=5"
-    },
-    {
-      "id": "news-1u2bhw8",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:49:10.000Z",
-      "description": "PHOTOS: Dozens rally as appeals court weighs Trump's DC National Guard deployment - KRXI (KRXI, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "KRXI",
-      "axis": "Other",
-      "tags": [
-        "KRXI",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "KRXI",
-      "source": "KRXI",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOSGt1RU1KNmJvZWFJVDl2WFFGVFdtblUwckUzUG1jVjZOdzNCMjY2UW5yX0JwTWptQUxXTVZDblgyRUV4SGcyRW9wNTMtLW1OMDloODlqSGlfRGF2TDNCSTFoMUgyaC13eWdwSmlLUHgtQ2lncFRCejRQX0Jwd3hFNnJxeDAwY09hcS1zTGk5Uk1DV04xaDBpeEhTejVkdXNHT3FLenNKZEQwOFNocXNXLTFMcm9QT3NoaGdPMVBWX1hLeHhBdW5kVVlvckt0cG5Cb09TXzF5Sy01VGtoUHVsYjhua3pXUVRidUNMVVpCZ1dtQkhJQ1M3ZkgtUlhyNkk4bzNIWDFUdzVjMy1YcWxJR3Rfc0pTaVNFdTZsR09xZF9MNmNJZngwVEZyTzJWSFdEc1ZzSE91WQ?oc=5"
-    },
-    {
-      "id": "news-15p3t8j",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:48:53.000Z",
-      "description": "PHOTOS: Dozens rally as appeals court weighs Trump's DC National Guard deployment - KTUL (KTUL, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "KTUL",
-      "axis": "Other",
-      "tags": [
-        "KTUL",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "KTUL",
-      "source": "KTUL",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPRUo3X0xfM2RDU1VzeGQwUDhVNXlvY2RMQVJTaGkxUlNGNy1sOXBBU0tBUnRYSC1RSHFWcDFIQXRLUlQ2MWdFZ2VWZUZJa0ZRbkIycVA0MjZBTzQ3UVJVRWg5ZWV6THB1bGtrR3YzOUMwYVQzQ3daODhOYjRFZkxKeXo1ZzJjQll4aURUajRDVUFxRE9pT292S1d2MUtjTHBHTWJKQTg0ZHpQaEZQWFY5VHhSWklNQXdETkVjS1EyT3pRMEdoU1owOEthTVJLdTQ3eXZNczhWUzREN3Rqc0lEWnpZV0s1Y3F4VGhsbjk1WlJxVEpTSkoxLW5CVUJ2RXhoM0hrN2pURDZoeUgxbG1tenlmOTFXTGo3NUxabk42VFdfc0lJVTllZmhuVkdCQ1A0OWhnTDRqRXQ0cTBZVkE?oc=5"
-    },
-    {
-      "id": "news-k92lq0",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:43:34.000Z",
-      "description": "PHOTOS: Dozens rally as appeals court weighs Trump's DC National Guard deployment - WJLA (WJLA, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "WJLA",
-      "axis": "Other",
-      "tags": [
-        "WJLA",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "WJLA",
-      "source": "WJLA",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOOElXMFBNZjluN3FXRXdFR0F0Sk9FQktOVEZDdnBXY254N2VOX0VVRGJmTWhaNmV1eVNJa0lJV1R5WGRKZUxrcWNITHFUUDdCM1dCaEg1ZGJzRE1SY3hrUHE4cnJrUjNwYUE0bnlQcjk3cUFHMHBhR1FQZG5CSy1LMVZFclY5RXgzWjZtbEVaa1FlbWhyY3ZqRmdwa2VmczRiT2I5WUNuT0ZNZkhFTmNMRGRpVFdtdzNmdzBwLUtyLUlCcjBzeUJFbDZZNjlPUHRkaHBZTmxxa2FKeTJ5N0NFRWhSNm1PRVY5a0g2RW5tWkV6VElmSG9yYkpWMzhRb3EwQU85UFo0c1lBMlJBQk9vWG5GdHdiVUF2SmxPb0pvUkNsM3Z6V045SklR?oc=5"
-    },
-    {
-      "id": "news-1hqro63",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:40:22.000Z",
-      "description": "Appeals court will hear arguments on Trump's National Guard deployment in the nation's capital - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ABC News - Breaking News, Latest News and Videos",
-      "axis": "Other",
-      "tags": [
-        "ABC News - Breaking News, Latest News and Videos",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRGtIU3EzX05lUVV2WEJrNzR5RWxWV2g2bEc2Sm10X1oxTXF3ZHp4bkpnWnA2VGZCaHhxbmZNYWtMQnRIRkh0NlQyT2V1WVRPWng4VTVILUFuV0JkOFJTMGhrWkVkZGd1YTVOR1hQTnVKNnVjX200bWp6dV9uV01PVHBYTllMVHJBZzNGcXR1amtoU1BXQWhpYklQR0tNbGdUeUR6dFlzc9IBrAFBVV95cUxQclNpNG00ZG5NcVo3RWdwdUpZNzdRVEwyRFRZOHdPZ0FtQnBsbDhTTGU3a2pQQ1JRZzZTcnBBSnlHc2xnd3dxZUp2ZEpxdkNXa09PQjlSQTB3VHpBSlFHTG8wanhpdFZaMktSUlpzaVRVVVdmQmFuSFFqMFJtTHlIdGNoVEZCN2NIcF9hOTJZSkxmUkpnQkRsN09lSHg5XzhTSmZ3NUFvd1BTN1RZ?oc=5"
-    },
-    {
-      "id": "news-nzizgh",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:33:00.000Z",
-      "description": "Omar on Vance saying DOJ is investigating her: &#8216;That man is delusional&#8217; (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/house/6147462-ilhan-omar-jd-vance-doj-investigation-rhetor/"
-    },
-    {
-      "id": "news-k6evvu",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:30:00.000Z",
-      "description": "Trump takes a wrecking ball to legal representation for immigrant children (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/opinion/immigration/6144088-hhs-secretary-rfk-jr-lawyers/"
-    },
-    {
-      "id": "news-1i1nrno",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:21:43.000Z",
-      "description": "Judge orders Trump administration to halt work at DC golf course until later this month (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/policy/sports-gaming/6147430-court-ruling-donald-trump-east-potomac-golf-links-project/"
     }
   ]
 }
