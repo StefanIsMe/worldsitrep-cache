@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-17T01:37:00.373Z",
+  "collectedAt": "2026-10-17T04:52:33.383Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 5
     },
     {
       "id": "taipei-times",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 12,
-      "filtered": 38
+      "count": 9,
+      "filtered": 41
     },
     {
       "id": "gnews-arms",
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 229,
+  "count": 231,
   "events": [
+    {
+      "id": "news-9r9w1e",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T04:10:18.000Z",
+      "description": "Chinese kindergarten owner given life sentence over lead paint poisoning scandal (SCMP, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3371229/chinese-kindergarten-owner-given-life-sentence-over-lead-paint-poisoning-scandal?utm_source=rss_feed"
+    },
     {
       "id": "news-lke2he",
       "kind": "news",
@@ -219,6 +238,176 @@
         "goldstein": -4,
         "tone": 0,
         "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328394047",
+      "kind": "event",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T00:00:00.000Z",
+      "observedAt": "2026-10-17T01:45:00.000Z",
+      "description": "Disapproval — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.defensenews.com/land/2019/07/08/state-okays-possible-2-billion-abrams-tank-sale-to-taiwan/",
+      "gdelt": {
+        "globalEventId": "1328394047",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.34,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328394051",
+      "kind": "event",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T00:00:00.000Z",
+      "observedAt": "2026-10-17T01:45:00.000Z",
+      "description": "Rejection — China → Taiwan near Taiwan Strait, Taiwan (general), Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 119,
+      "action": "Rejection (GDELT 120)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taiwan Strait, Taiwan (general), Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.defensenews.com/opinion/commentary/2019/06/26/trade-deal-with-china-or-not-the-us-must-bolster-taiwans-defense/",
+      "gdelt": {
+        "globalEventId": "1328394051",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -2.67,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328394052",
+      "kind": "event",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T00:00:00.000Z",
+      "observedAt": "2026-10-17T01:45:00.000Z",
+      "description": "Reduced relations — China → Taiwan near Taiwan Strait, Taiwan (general), Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 119,
+      "action": "Reduced relations (GDELT 161)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taiwan Strait, Taiwan (general), Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.defensenews.com/opinion/commentary/2019/06/26/trade-deal-with-china-or-not-the-us-must-bolster-taiwans-defense/",
+      "gdelt": {
+        "globalEventId": "1328394052",
+        "eventCode": "161",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -2.67,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328394055",
+      "kind": "event",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T00:00:00.000Z",
+      "observedAt": "2026-10-17T01:45:00.000Z",
+      "description": "Fight — China → Taiwan near Taiwan Strait, Taiwan (general), Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 24,
+      "lng": 119,
+      "action": "Fight (GDELT 190)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taiwan Strait, Taiwan (general), Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.defensenews.com/opinion/commentary/2019/06/26/trade-deal-with-china-or-not-the-us-must-bolster-taiwans-defense/",
+      "gdelt": {
+        "globalEventId": "1328394055",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.67,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328406261",
+      "kind": "event",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T00:00:00.000Z",
+      "observedAt": "2026-10-17T04:30:00.000Z",
+      "description": "Coercion — Taiwan → Unspecified near Cijin, Kao-hsiung, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 22.6124,
+      "lng": 120.269,
+      "action": "Coercion (GDELT 174)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Cijin, Kao-hsiung, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/politics/202610170005",
+      "gdelt": {
+        "globalEventId": "1328406261",
+        "eventCode": "174",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -2.65,
+        "mentions": 4,
         "sources": 1
       }
     },
@@ -5850,82 +6039,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/east-asia/japan-protests-chinese-delegation-visit-to-island-held-by-russia"
-    },
-    {
-      "id": "news-db04hi",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T04:10:00.000Z",
-      "description": "Malaysia taps China’s satellites to boost disaster response (Straits Times, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/se-asia/malaysia-taps-chinas-satellites-to-boost-disaster-response"
-    },
-    {
-      "id": "news-lmv4ab",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T04:00:09.000Z",
-      "description": "Chinese team finds 11,700 new viruses in world’s biggest seabed metal deposit (SCMP, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3370762/chinese-team-finds-11700-new-viruses-worlds-biggest-seabed-metal-deposit?utm_source=rss_feed"
-    },
-    {
-      "id": "news-12inot7",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T03:25:43.000Z",
-      "description": "Taiwan must ‘bear the consequences’ of water cannon incident, China says (Straits Times, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/taiwan-must-bear-the-consequences-of-water-cannon-incident-china-says"
-    },
-    {
-      "id": "news-907koq",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T02:35:43.000Z",
-      "description": "China-North Korea bridge to open on Oct 15, 12 years late (Straits Times, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/china-north-korea-bridge-to-open-on-october-15"
     }
   ]
 }
