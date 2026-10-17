@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "iran",
-  "collectedAt": "2026-10-17T21:38:41.890Z",
+  "collectedAt": "2026-10-17T21:46:48.787Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 21
+      "count": 2
     },
     {
       "id": "gnews-iran",
@@ -20,7 +20,7 @@
       "id": "gnews-unrest",
       "url": "https://news.google.com/rss/search?q=Iran%20protests%20Khamenei&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 49,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -82,6 +82,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-42ibjc",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T21:43:54.000Z",
+      "description": "IRGC spox. lambasts Washington for \"Mother of Bombs\" threat (Mehr News English, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Mehr News English",
+      "axis": "Other",
+      "tags": [
+        "Mehr News English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Mehr News English",
+      "source": "Mehr News English",
+      "sourceUrl": "https://en.mehrnews.com/news/248658/IRGC-spox-lambasts-Washington-for-Mother-of-Bombs-threat"
+    },
     {
       "id": "news-gavb45",
       "kind": "news",
@@ -48298,40 +48317,6 @@
         "goldstein": -7.2,
         "tone": -4.8,
         "mentions": 14,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328050553",
-      "kind": "event",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T00:00:00.000Z",
-      "observedAt": "2026-10-15T07:45:00.000Z",
-      "description": "Threat — Israel → Iran near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 35.75,
-      "lng": 51.5148,
-      "action": "Threat (GDELT 1384)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Tehran, Tehran, Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.bankingnews.gr/diethni/articles/905260/us-with-the-moab-mother-of-all-bombs-strikes-nuclear-and-oil-sites-iran-we-will-crush-you-without-mercy%20title=",
-      "gdelt": {
-        "globalEventId": "1328050553",
-        "eventCode": "1384",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -7,
-        "tone": -4.8,
-        "mentions": 2,
         "sources": 1
       }
     }
