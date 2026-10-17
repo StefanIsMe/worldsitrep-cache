@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-17T14:28:17.162Z",
+  "collectedAt": "2026-10-17T16:36:09.574Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "id": "taipei-times",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 5,
-      "filtered": 45
+      "count": 4,
+      "filtered": 46
     },
     {
       "id": "gnews-arms",
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 231,
+  "count": 232,
   "events": [
+    {
+      "id": "news-10zlgd6",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T14:49:00.000Z",
+      "description": "China's influence in the gaming industry is growing (DW, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW",
+      "axis": "Other",
+      "tags": [
+        "DW",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DW",
+      "source": "DW",
+      "sourceUrl": "https://www.dw.com/en/china-s-influence-in-the-gaming-industry-is-growing/a-79484755?maca=en-rss-en-asia-5133-rdf"
+    },
     {
       "id": "news-1fnu9ul",
       "kind": "news",
@@ -997,6 +1016,40 @@
         "quadClass": 4,
         "goldstein": -10,
         "tone": -6.15,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328467157",
+      "kind": "event",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T00:00:00.000Z",
+      "observedAt": "2026-10-17T15:45:00.000Z",
+      "description": "Disapproval — Nvidia → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Nvidia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://wccftech.com/nvidia-denies-rtx-5090-discontinuation-reports/",
+      "gdelt": {
+        "globalEventId": "1328467157",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.82,
         "mentions": 10,
         "sources": 1
       }
@@ -6230,25 +6283,6 @@
       "locationStr": "USNI News",
       "source": "USNI News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU1lkZVk0bGZQNTFoOGozaXg1bGg0b3RaOHU5Y3gyT1kzc2d4eVZDTktrcDF1SnVoTHlyRDV2a0t1VUFyVkNjX1ZXREo0b0wxbkFENE1KQXY4TWJYOHZwWnVrbU5zTENaNWh3MUlNTjdjMFNrWmFWUjh2MlYzak5taUh6SmYzMmtXREdWR2hFOC12czZ0?oc=5"
-    },
-    {
-      "id": "news-19tq69h",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T14:45:07.000Z",
-      "description": "EU leaders to ‘urgently’ call for new trade weapons to tackle China shock (SCMP, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/article/3370914/eu-leaders-urgently-call-new-trade-weapons-tackle-china-shock?utm_source=rss_feed"
     }
   ]
 }
