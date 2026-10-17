@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-17T11:13:00.582Z",
+  "collectedAt": "2026-10-17T13:07:12.520Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -13,8 +13,8 @@
       "id": "npr-politics",
       "url": "https://feeds.npr.org/1014/rss.xml",
       "status": "ok",
-      "count": 7,
-      "filtered": 3
+      "count": 8,
+      "filtered": 2
     },
     {
       "id": "eac",
@@ -41,8 +41,8 @@
       "id": "thehill",
       "url": "https://thehill.com/feed/",
       "status": "ok",
-      "count": 31,
-      "filtered": 19
+      "count": 30,
+      "filtered": 20
     },
     {
       "id": "politico-congress",
@@ -69,8 +69,8 @@
       "id": "axios",
       "url": "https://api.axios.com/feed/",
       "status": "ok",
-      "count": 27,
-      "filtered": 23
+      "count": 26,
+      "filtered": 24
     },
     {
       "id": "gnews-protest",
@@ -83,8 +83,8 @@
       "id": "gnews-courts",
       "url": "https://news.google.com/rss/search?q=federal%20judge%20blocks%20executive%20order%20ruling&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 48,
-      "filtered": 2
+      "count": 47,
+      "filtered": 3
     },
     {
       "id": "gnews-midterms",
@@ -101,8 +101,225 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 435,
+  "count": 434,
   "events": [
+    {
+      "id": "news-1owq6xh",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T13:00:00.000Z",
+      "description": "Live updates: Trump and Zelensky relationship rocky over Russia sanctions, Starlink; Obama campaigns in Michigan, Ohio (The Hill, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Michigan",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6155519-live-updates-trump-and-zelensky-relationship-rocky-over-russia-sanctions-starlink-obama-campaigns-in-michigan-ohio/",
+      "lat": 43.6212,
+      "lng": -84.68243,
+      "coordsNote": "OSM geocode: matched \"Michigan\" → Michigan, United States; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1dh7soz",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T12:40:07.000Z",
+      "description": "Trump ratchets up the chaos in an October barrage (Axios, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/10/17/trump-october-midterms-controversy"
+    },
+    {
+      "id": "news-1t73t2b",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T12:20:07.000Z",
+      "description": "Black voters test the socialist left's ceiling (Axios, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/10/17/black-voters-democratic-socialists"
+    },
+    {
+      "id": "news-1wqq1nj",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T12:10:08.000Z",
+      "description": "Trump administration says painting Eisenhower building would hurt landmark&#8217;s history (The Hill, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6155709-eisenhower-building-landmark-painting/"
+    },
+    {
+      "id": "news-111qk4y",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T11:57:03.000Z",
+      "description": "US President signs executive order lifting sanctions against russia imposed under \"Graham Act\" - White House - Ukrainian news (Ukrainian news, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainian news",
+      "axis": "Other",
+      "tags": [
+        "Ukrainian news",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrainian news",
+      "source": "Ukrainian news",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUDBnSVRDM1lxcnVXeVFsOGt6MzNnVXlxa3o5T1BCdnZ6bkpDY0EwdzNEQ1JZaGk5NEY2WjhtYXZMRmlYbVhtU29TMGw5aGNKVzVQS2ROZXRZWWF1OS1SNGFJZncxSTZVN2JoTjJTX1ZOR0ZRZEtRR3ZkczVCOFJxYThUMlBQcnhDUEZSTkRzRkJwWHVUczE3dXVyOEF3U2RENURyVVB2dTJfTE43V21qQUtGSFozU0RIU1kxaHBqdTRRU0hJVDFhNFVqZ9IB0AFBVV95cUxPbHFwdGlqZkVReGotZlBlZjBNTDZOZzhQdEtVcGQtY2Exa0dhN3o0dUM2Z3lHNm9sbG5UUUxoelNtS05UcDFNb0tjakRtelV4VE9MN3JGVDlEcklKX1ZjX0FJLWZXN3lld3pTWDhVTDZJd2dOUzlFeWRMSTQxbE1lSzZpWGJCRWxZcFN0WGJoRDd1dVM0bVg0RnJTbzVnNy04eUhmdW5WZGkxZkllRDZxeWpySzlTS2l6Yjc5V2xWTGJiNlJUbFBBTWdmbVl0aThi?oc=5"
+    },
+    {
+      "id": "news-1bhumfm",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T11:56:06.000Z",
+      "description": "Trump waives several Russia sanctions as row with Zelensky intensifies - BBC (BBC, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BBC",
+      "axis": "Other",
+      "tags": [
+        "BBC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "BBC",
+      "source": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RS3I2MGlpT0lTUm00NkJ5SUpIbVZRX0I5U3N0ZlViR1RXbjlDR0VCcEppZmVEQVFKU29vSE5Nd2RYc3Yxc1lyTGxURHhUUjNRQURHT1RSWDhZaUE?oc=5"
+    },
+    {
+      "id": "news-1y4eqnf",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T11:43:14.000Z",
+      "description": "Fraud, affordability and Trump policies drive friction in Minnesota Senate debate (NPR, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/17/nx-s1-6004910/minn-us-senate-race"
+    },
+    {
+      "id": "news-1w3d53g",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T11:43:08.000Z",
+      "description": "Week in Politics: Trump's Russian diesel deal update; why the DOJ is suing California (NPR, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/17/nx-s1-5998079/week-in-politics-trumps-russian-diesel-deal-update-why-the-doj-is-suing-california"
+    },
+    {
+      "id": "news-1t6v53w",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T11:19:18.000Z",
+      "description": "Trump waives many Russia-related sanctions, tariffs - The Australian (The Australian, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Australian",
+      "axis": "Other",
+      "tags": [
+        "The Australian",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Australian",
+      "source": "The Australian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPLWQtZVdORmV1MUFvQzBNSzhqNGJBWEhwcmUwWnNiVUt2YXc5MnYyTlFPbjlyd1REQlF6c0xJZzZ3NzBxbUFhQjhGb190czEzSWJvdkVXSVJlOVBvUmpkSHhOeUYyNTkzMjZ1UGJ1TXZOSEJ2ZG9FTEpNRUVRS3gzNDAwaHFhNnNmU1ZmeFotYWhGUjYzS1hmUlE3MFl4dUpqOFg1bE1MZ1VXNkdCV1dnTHp6eFJERXFvNkFwRENOT1hFM0R2Zm5FRFpTbUIwNFhoWHcyRFF6SnowX0Y0NEF3MmItNmVSaEhPRjh1UnZqZVo0V3ZQX2JmMmJWb0dEUE95Ukd5RA?oc=5"
+    },
+    {
+      "id": "news-n5rqbb",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T10:26:59.000Z",
+      "description": "Tracking Competitive Races in the House and Senate - The New York Times (The New York Times, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
+      "id": "news-1nil7j0",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T10:00:21.000Z",
+      "description": "Florida Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sZERpQkk4QlVNeG9tV3BUWWtuaFFyNVJFMFpwVTVfQjZ4cVFSdHh4U3hGbmxIN0d6ZWQ0Q1R5dXRrZ05YelhGSDVPTkxHQU4yaTdkcHRGX1JiZmxhc3IyOEU5TTgxZ1RjNi1NZlhnZG8?oc=5"
+    },
     {
       "id": "news-utgjsl",
       "kind": "news",
@@ -142,25 +359,6 @@
       "sourceUrl": "https://www.axios.com/2026/10/17/trump-russia-sanctions"
     },
     {
-      "id": "news-wl5ud7",
-      "kind": "news",
-      "date": "2026-10-17",
-      "isoDate": "2026-10-17T09:39:30.000Z",
-      "description": "Trump waives tariffs on largest buyers of Russian oil, days before Lindsey Graham-backed law was set to take effect - CBS News (CBS News, 2026-10-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "CBS News",
-      "axis": "Other",
-      "tags": [
-        "CBS News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "CBS News",
-      "source": "CBS News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTG5sVGFVMjd0eGhSQkRuYlc3SDYzQmtmYzh4TlJmdmMyYkFMU0JCUGt4bFlaaUJSa2ljTThuUGNnMnlqLWZ4dTZuaW1TOUxIZlZ4UlRzNWdYZV9SNV9ReFZGa21HbUVmdVF4YjF6cjhJa0xvRERHOVJ4WnZfYW44ZE1HS2ZvWXpIMmRqckNqNzE?oc=5"
-    },
-    {
       "id": "news-1acznj5",
       "kind": "news",
       "date": "2026-10-17",
@@ -178,6 +376,25 @@
       "locationStr": "Global Agriculture",
       "source": "Global Agriculture",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTjZEeGNkUm9xdG10Z0J0YTgwZkJ4VWNEemRNVXVMbVh4WXNzbkh0M3RvekFPQzYwdzFxa0hUdTN2NU5IeUs0TkYya0JBX0lqQUdKbFJ5cm11U01RUDRMTXZIT1NoUDZrWUxjWWtuX0VSQmlxUUJ3TGgxeVdxX1NGeXZSQlM5UVpOUFhEbWV3UnpRSjVTaGpodVhqQktRSGh2STVoR0VadGhxQmpRVjJhQTBBWFNyUXZPVkUzWlZB?oc=5"
+    },
+    {
+      "id": "news-1m0s9s6",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T09:19:24.000Z",
+      "description": "FLIPR 2026 midterm election forecast - Silver Bulletin (Silver Bulletin, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Silver Bulletin",
+      "axis": "Other",
+      "tags": [
+        "Silver Bulletin",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Silver Bulletin",
+      "source": "Silver Bulletin",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5"
     },
     {
       "id": "news-577qk8",
@@ -218,29 +435,10 @@
       "sourceUrl": "https://www.npr.org/2026/10/17/nx-s1-6004276/trump-travel-midterms"
     },
     {
-      "id": "news-15zev9z",
-      "kind": "news",
-      "date": "2026-10-17",
-      "isoDate": "2026-10-17T08:38:33.000Z",
-      "description": "Who will win the 2026 midterm elections? Polls and predictions - The Times (The Times, 2026-10-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Times",
-      "axis": "Other",
-      "tags": [
-        "The Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Times",
-      "source": "The Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5"
-    },
-    {
       "id": "news-1vuoumt",
       "kind": "news",
       "date": "2026-10-17",
-      "isoDate": "2026-10-17T08:37:30.000Z",
+      "isoDate": "2026-10-17T08:40:58.000Z",
       "description": "Trump signs order waiving Graham Act sanctions on Russia - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-10-17. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -254,29 +452,6 @@
       "locationStr": "ABC News - Breaking News, Latest News and Videos",
       "source": "ABC News - Breaking News, Latest News and Videos",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaExZUlBtbDZ3YXN2cGZ0Z0RMRVcxT3hlaG8xMnRiSm16d0pSdnBHUzJzSHB1YVVFUXNSMUFGTXZHRE4yb3JyTHczam54WFAxQjRLSjcwTlBuY0pKUGVTbGtjdE5PWVlSdXVFZ1FtUlBLXy1DZUhYRVhEOEZnTHJZTWZQb2J0ejZ3bG9DU0g0cnYyVU9XUllQenJTVkdJc2xucG5r0gGoAUFVX3lxTE00QU9Jbml5eUQxemhUMzRMLVhWLVNGM05PNEp6eGtVaF94RmFmaTJ0WGVxdGVNR2dySDR6QXJtaVpIUFN6N3dnSDB3bkp1T3IteU5HZ1VYbFpPU0tYNVJxd25mQ0xqcVVXOF9NTmFvem14R3NLTkhsTy1pay1XZzRVUEk5eldiY3NFcU03RXVicTQxZ0l5MkFuRmtwbE54TzAxMVltaXNJRA?oc=5"
-    },
-    {
-      "id": "news-p2sou1",
-      "kind": "news",
-      "date": "2026-10-17",
-      "isoDate": "2026-10-17T08:35:00.000Z",
-      "description": "Trump Signs Order Exempting Russia From Sanctions Law - The New York Times (The New York Times, 2026-10-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
       "id": "news-qqfrdn",
@@ -298,6 +473,29 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLXBhWEdtRTVoaVB2dC1aU19IOENBejAxYk1sZkVUSk96YWVCUE9LQnlpM0FRdy1tcU10ZFRRV3p2d1dpZ3VMNjY5czNqaW01RFpFYnh5X3NKM2ZiNi1sbzQ3cEloeVB5aU5JNW42dTJBWTZPZElmRjEwSEpDSU42M24yY2RhWXVibkZkVFZNUlR3dUdzTjgtZTVuY01oLVNwNEtualM0eVZENEN4LURwMTdLV3o?oc=5"
     },
     {
+      "id": "news-p2sou1",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T07:57:36.000Z",
+      "description": "Trump Signs Order Exempting Russia From Sanctions Law - The New York Times (The New York Times, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
       "id": "news-1hgn8le",
       "kind": "news",
       "date": "2026-10-17",
@@ -315,67 +513,6 @@
       "locationStr": "The Hindu",
       "source": "The Hindu",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNEJCSWVBNk5fUVR0NVJDTVNSOG1TYUVWWW9WWTVUVC1OUDBUbGdoZGR0amxSUXozZHQtZHNVZzVmSDJDT3ZoZXB2OEFKbHVxbUl4TmlLQXVVQzhabmptSHk0d1BIcW05SHJtY0pvTmU2V3FUM29WbVlYQ05TTkR4ajVQa2NKXy1ycWhBMlpVdjY2bTZMeFRrVGFaUGgzSDhRQWRxQzFXQmJTSXlSTHE3MDhVLUdXX0dvZTF6TzB4UGgzQXN0YXI2cUVSSmM5djBHWUHSAdgBQVVfeXFMTWhOZUN6QUQ5TC1ESmpjVTdQWE1wTVhQeHZxLWJiMXo2azV6d1Z1OTVQQ19TZjcxQ1lpVXVyS0I5cDZOZTlxNWdEN3JxZlBQdDl5RGRqNkEwV3lVU0dhalpsa05EWDE1VGY5U2ZnbW0zT2Nhdjh4anVoRHhISTRuYU1hb1pxQW4yczlUNTNLQUJGdjZrNzdUaEdzWnlwRjV4TnNfTDItWHRBWkJRTXpHelhHd0xFYVVrcTNsZ1M4QVluOWtocFNDLW5BVDhxR2tBY29uUEctUm5E?oc=5"
-    },
-    {
-      "id": "news-1bhumfm",
-      "kind": "news",
-      "date": "2026-10-17",
-      "isoDate": "2026-10-17T07:41:01.000Z",
-      "description": "Trump waives several Russia sanctions as row with Zelensky intensifies - BBC (BBC, 2026-10-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC",
-      "axis": "Other",
-      "tags": [
-        "BBC",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "BBC",
-      "source": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RS3I2MGlpT0lTUm00NkJ5SUpIbVZRX0I5U3N0ZlViR1RXbjlDR0VCcEppZmVEQVFKU29vSE5Nd2RYc3Yxc1lyTGxURHhUUjNRQURHT1RSWDhZaUE?oc=5"
-    },
-    {
-      "id": "news-n5rqbb",
-      "kind": "news",
-      "date": "2026-10-17",
-      "isoDate": "2026-10-17T07:23:58.000Z",
-      "description": "Tracking Competitive Races in the House and Senate - The New York Times (The New York Times, 2026-10-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
-    },
-    {
-      "id": "news-1nil7j0",
-      "kind": "news",
-      "date": "2026-10-17",
-      "isoDate": "2026-10-17T07:00:21.000Z",
-      "description": "Florida Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sZERpQkk4QlVNeG9tV3BUWWtuaFFyNVJFMFpwVTVfQjZ4cVFSdHh4U3hGbmxIN0d6ZWQ0Q1R5dXRrZ05YelhGSDVPTkxHQU4yaTdkcHRGX1JiZmxhc3IyOEU5TTgxZ1RjNi1NZlhnZG8?oc=5"
     },
     {
       "id": "news-75369w",
@@ -414,6 +551,25 @@
       "locationStr": "Vanguard News",
       "source": "Vanguard News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVHRhX09ELVA5Wmx5Nk5VQy00TlJTY0NaTExELWhxb29rNmRyS1VlTzc2RDB0eDFITkpvczl1YXpvRHd3d3JCYUpfblctQ0l4dU1tQlhpa0VnWkJ5eFdwTkpoQ3ZHU1pPcGYxdEU0bHY5OHlyWFY5OHFrTURBMlBUZ2czZExCbjhjclhaTEo0WHl1Wm5xWms2OFZJdW1OWlBpd21N0gGoAUFVX3lxTE8wcEJZUEktZUNJSjU5Mm1GVnIwWWwxa0h4MlpreDJ5Vl9wSUJzVmJaUW1UMkVYd0hhSERLQkd3RXFZOHptQWgzLU5pLWl0OFl6MGR1RlJYbXJjU2Q2Y0dwVjEzSHZ5MUY3X0gwZFlITUJjb1REOFJBcGVvbkhhVUwtVm1JeXZRSFpobE1iZ2J3WG1Zdm4tMy1sSHFpUjJkR1JJVjNUMWRCZw?oc=5"
+    },
+    {
+      "id": "news-1bh442m",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T06:16:20.000Z",
+      "description": "Trump waives broad new Russia sanctions and tariffs under Graham Act, citing national interest - CNBC (CNBC, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "CNBC",
+      "axis": "Other",
+      "tags": [
+        "CNBC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "CNBC",
+      "source": "CNBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUGhWanJQQmg3UlEwNlI3MDRGLWRxV2NyQ0dyOXRScjhQYllENXdEZWVjM2xwYjdlR2pqNGh2b1VVZ2FLbXA2d24tZjRBWUtFd0pqYi1XUndMWWVTSkFnNkdfV25zZzJnY01kcVZ2UUR5RDd4eDNfYk5sdE9sQllPTGQxRWpJU1NrbnppeW1xVWF6cUd5UUtNbGhmQmdkYldJU0J2dzBickprdTDSAbABQVVfeXFMTkFwd09KUmJOQjVPYzl3V2M2Z0dKQUt1N29nbDBockdxMzdtMWNjQkFiRkMxT1Nta0kydzgyN2R3VVo1Rm1MOE55WVo0Q01JT1lfVktNcFFpVUwzeGkwV2taZDlSclRVdGtvU3RkRDliNVhfRk1lTjQ0ajJHSkpwNFhqUV9tSUxwRmJOeWo4ME9ndHYxZVZ2dW5xd2RJWm53S21tTDhuZE5mWVRTQVIwSTU?oc=5"
     },
     {
       "id": "news-1byqa3y",
@@ -547,25 +703,6 @@
       "locationStr": "Kyiv Post",
       "source": "Kyiv Post",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9NV29FU3l1SjlUVHJ4MUE2Z05vZEJKTU9oaE11enNoLVJTSXRoMklQbl9wUC1GQjlWOThFZk0waVQ3a0JzeGNVb21ESQ?oc=5"
-    },
-    {
-      "id": "news-1t6v53w",
-      "kind": "news",
-      "date": "2026-10-17",
-      "isoDate": "2026-10-17T03:50:07.000Z",
-      "description": "Trump waives many Russia-related sanctions, tariffs - The Australian (The Australian, 2026-10-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Australian",
-      "axis": "Other",
-      "tags": [
-        "The Australian",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Australian",
-      "source": "The Australian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPLWQtZVdORmV1MUFvQzBNSzhqNGJBWEhwcmUwWnNiVUt2YXc5MnYyTlFPbjlyd1REQlF6c0xJZzZ3NzBxbUFhQjhGb190czEzSWJvdkVXSVJlOVBvUmpkSHhOeUYyNTkzMjZ1UGJ1TXZOSEJ2ZG9FTEpNRUVRS3gzNDAwaHFhNnNmU1ZmeFotYWhGUjYzS1hmUlE3MFl4dUpqOFg1bE1MZ1VXNkdCV1dnTHp6eFJERXFvNkFwRENOT1hFM0R2Zm5FRFpTbUIwNFhoWHcyRFF6SnowX0Y0NEF3MmItNmVSaEhPRjh1UnZqZVo0V3ZQX2JmMmJWb0dEUE95Ukd5RA?oc=5"
     },
     {
       "id": "news-15rgatx",
@@ -775,6 +912,25 @@
       "locationStr": "The Statesman",
       "source": "The Statesman",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQnpWMEpzbW5zWVNIbFVnR1lrbm9vSEpLUzZxV0RvLUVTSlB6OHk3VEJnRjNvOFJCdG1RdVlfYVBUUnV2eEVlYXdfRks5R3hMbVMwQmYwdUM2VmplUHptYTNfc0c1M1RFanRtdER2NFF4V0lMQkdRQ0xOU19ncmlUdFBWRVZhVHlobmpNUmxCUEZUX2lvZTBBUkNDT0MyTlduUmNqWGdMWmxPb0Y3NFZWdXgxbFFGN2FkeGhKVzZScktHbVNQU0RjeWZLYlZVM00weF9EZHFoblVud9IB3wFBVV95cUxOZVJoMTRGRDNpVDJIMnlMeHVCRXYwdkllRGFPMVlWMDZ2VVNYWG40WTJMTjNjbko2clM2UnBSX2t5dTNJek1hRGl3QTZwbENpenR1S1dHajNEc29odjgyODhPMVhPZXhfTE1iUlNtR09XSEJBQzVtSktlYmVVX2VLazlZTWhSZkp0eDVBLVd4azRPOEppdTJJbjlfR0FCR19ESmhsVkp0dlljODNvRmN3Ti1uMEFSbWV1M0lha1MyZmNSakVCdjNHalRFbW03VHVQZy0tN1FvSTVLWWlURVo4?oc=5"
+    },
+    {
+      "id": "news-wl5ud7",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T02:38:00.000Z",
+      "description": "Trump waives tariffs on largest buyers of Russian oil, days before Lindsey Graham-backed law was set to take effect - CBS News (CBS News, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "CBS News",
+      "axis": "Other",
+      "tags": [
+        "CBS News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "CBS News",
+      "source": "CBS News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTG5sVGFVMjd0eGhSQkRuYlc3SDYzQmtmYzh4TlJmdmMyYkFMU0JCUGt4bFlaaUJSa2ljTThuUGNnMnlqLWZ4dTZuaW1TOUxIZlZ4UlRzNWdYZV9SNV9ReFZGa21HbUVmdVF4YjF6cjhJa0xvRERHOVJ4WnZfYW44ZE1HS2ZvWXpIMmRqckNqNzE?oc=5"
     },
     {
       "id": "news-2h6m7a",
@@ -1840,25 +1996,6 @@
       "locationStr": "Silver Bulletin",
       "source": "Silver Bulletin",
       "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTjdtTENfOTI3YnEtMWExbmNVOElpaTRqTUxGQTBBRGpILTMzdmE1bmtEMlZ6VHZXTDNoMVZvSHFOaVhaeXBmRkJTSE5WQlZrLUhNeUlnR0tHOEYyQTR5WW5JMldBam11Tk5DcS16YTZZSWE5WFI2S0Joa3FhS2xVWA?oc=5"
-    },
-    {
-      "id": "news-1m0s9s6",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T18:22:28.000Z",
-      "description": "FLIPR 2026 midterm election forecast - Silver Bulletin (Silver Bulletin, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Silver Bulletin",
-      "axis": "Other",
-      "tags": [
-        "Silver Bulletin",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Silver Bulletin",
-      "source": "Silver Bulletin",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5"
     },
     {
       "id": "news-1xkew09",
@@ -3078,6 +3215,25 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/senate/6152690-senators-demand-starshield-probe/"
+    },
+    {
+      "id": "news-15zev9z",
+      "kind": "news",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T09:31:23.000Z",
+      "description": "Who will win the 2026 midterm elections? Polls and predictions - The Times (The Times, 2026-10-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times",
+      "axis": "Other",
+      "tags": [
+        "The Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Times",
+      "source": "The Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5"
     },
     {
       "id": "news-11pwre2",
@@ -8440,181 +8596,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/policy/sports-gaming/6147430-court-ruling-donald-trump-east-potomac-golf-links-project/"
-    },
-    {
-      "id": "news-a91385",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T13:00:00.000Z",
-      "description": "Trump&#8217;s authoritarian raid on Ilhan Omar is an attack on the rule of law (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/opinion/campaign/6146203-trump-raids-ilhan-omar-home/"
-    },
-    {
-      "id": "news-sdbsrq",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T12:35:19.000Z",
-      "description": "Listen live: Supreme Court weighs reach of decades-old video privacy law (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/video-clips/6147356-listen-live-supreme-court-arguments-digital-privacy-case/"
-    },
-    {
-      "id": "news-15gmfgv",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T12:33:17.000Z",
-      "description": "Pentagon taps DOD public affairs official as Stars and Stripes publisher (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/policy/defense/6147373-pentagon-appoints-acting-stars-stripes-publisher/"
-    },
-    {
-      "id": "news-o3p47m",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T12:21:47.000Z",
-      "description": "Trump: &#8216;Massive&#8217; oil, gas, mineral exploration set to begin in Greenland (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6147349-donald-trump-greenland-oil-gas-mineral-exploration/",
-      "lat": 43.0362,
-      "lng": -70.83283,
-      "coordsNote": "OSM geocode: matched \"Greenland\" → Greenland, Rockingham County, New Hampshire; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-1m5tn8k",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T12:00:00.000Z",
-      "description": "Capitol agenda: Some Republicans write off the House (Politico, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Politico",
-      "axis": "Other",
-      "tags": [
-        "Politico",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Politico",
-      "source": "Politico",
-      "sourceUrl": "https://www.politico.com/live-updates/2026/10/14/congress/some-republicans-write-off-house-01117735"
-    },
-    {
-      "id": "news-32i91w",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T12:00:00.000Z",
-      "description": "A message from Pew: The 2026 midterms will be uniquely difficult for polls - The Hill (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcmtHalB2ejc3WTlSWUw2Z3ZLcmlhb3ZKbUdmYklzdHlaamNHM0htUE9VY09xRTNmZFdqSGo0REo3MGF0a2xsOVJfWjAtSmhKTTVPMTFGdGNDYkIyUDYzMEV3MWxzd2psN21GTXIwakg5cmNmY3c3alJrRC1rQVpRc2EyQjFFYnVM0gGOAUFVX3lxTFAzZXdVMU5rOXhCX2VJVjRPYkR5RmYyWm9kTDdQNTIwVzlxT2dtVTY1MkdLRU8wRFJYSFFhbmpwd3dMdXZFdFBMSFJyLXI1WVhnRnRDelNBR1BRVlVPQUxuZ1NUaTV0VkJsY0dtdlBVMkpxaUhhc3czWjhoeE92QXJYbk1sYUZHTkV2S1o4aUE?oc=5"
-    },
-    {
-      "id": "news-qve0sm",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T12:00:00.000Z",
-      "description": "A message from Pew: The 2026 midterms will be uniquely difficult for polls (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/opinion/campaign/6145938-polling-challenges-election-turnout/"
-    },
-    {
-      "id": "news-xcj4uu",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T11:35:00.000Z",
-      "description": "Georgia Senate debate takeaways: Ossoff shoos off interest in WH bid - USA Today (USA Today, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "USA Today",
-      "axis": "Other",
-      "tags": [
-        "USA Today",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "USA Today",
-      "source": "USA Today",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeFFoc25JTllEZ0V3SGMycno2b2xZVmRxUExCZW5yQ2M1ZENKUTVqWGxSOXB0RkNSQXRndjZyM0VRNTZjZm9tM2htSXQ4N2VXUDhseGozdXpaVlRuR0YtbGY4WEJYcFRFXzlQU0N0c0VlR3lCbXE1bUNnVGJ5LTU5OVBlQ0d5Tk1NTmkxVWpwTW5MZGh1QkR4V2d3dW9hWVBnZjhPMDFRbUJxZk9UMlZUWko1Zm9XeWFCMTFodDg5TkRxMENxOTJ2ZEpn?oc=5"
-    },
-    {
-      "id": "news-5ad9z6",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T11:30:00.000Z",
-      "description": "Sanctuary city whack-a-mole: Same policy, different ZIP code (The Hill, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/opinion/immigration/6144269-colorado-ice-detainers-report/"
     }
   ]
 }
