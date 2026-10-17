@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-17T06:16:11.276Z",
+  "collectedAt": "2026-10-17T09:05:18.831Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -61,9 +61,9 @@
     {
       "id": "rollcall-congress",
       "url": "https://rollcall.com/section/congress/rss",
-      "status": "ok",
-      "count": 8,
-      "filtered": 2
+      "status": "failed",
+      "count": 0,
+      "error": "RSS rollcall-congress request failed with HTTP 502"
     },
     {
       "id": "axios",
@@ -90,8 +90,8 @@
       "id": "gnews-midterms",
       "url": "https://news.google.com/rss/search?q=US%20midterm%20elections%202026%20polls&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 49,
-      "filtered": 1
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -101,8 +101,126 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 442,
+  "count": 438,
   "events": [
+    {
+      "id": "news-1vuoumt",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T08:37:30.000Z",
+      "description": "Trump signs order waiving Graham Act sanctions on Russia - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ABC News - Breaking News, Latest News and Videos",
+      "axis": "Other",
+      "tags": [
+        "ABC News - Breaking News, Latest News and Videos",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaExZUlBtbDZ3YXN2cGZ0Z0RMRVcxT3hlaG8xMnRiSm16d0pSdnBHUzJzSHB1YVVFUXNSMUFGTXZHRE4yb3JyTHczam54WFAxQjRLSjcwTlBuY0pKUGVTbGtjdE5PWVlSdXVFZ1FtUlBLXy1DZUhYRVhEOEZnTHJZTWZQb2J0ejZ3bG9DU0g0cnYyVU9XUllQenJTVkdJc2xucG5r0gGoAUFVX3lxTE00QU9Jbml5eUQxemhUMzRMLVhWLVNGM05PNEp6eGtVaF94RmFmaTJ0WGVxdGVNR2dySDR6QXJtaVpIUFN6N3dnSDB3bkp1T3IteU5HZ1VYbFpPU0tYNVJxd25mQ0xqcVVXOF9NTmFvem14R3NLTkhsTy1pay1XZzRVUEk5eldiY3NFcU03RXVicTQxZ0l5MkFuRmtwbE54TzAxMVltaXNJRA?oc=5"
+    },
+    {
+      "id": "news-1hgn8le",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T07:47:26.000Z",
+      "description": "Donald Trump waives sanctions, tariffs on purchase of Russian oil and gas - The Hindu (The Hindu, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hindu",
+      "axis": "Other",
+      "tags": [
+        "The Hindu",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hindu",
+      "source": "The Hindu",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNEJCSWVBNk5fUVR0NVJDTVNSOG1TYUVWWW9WWTVUVC1OUDBUbGdoZGR0amxSUXozZHQtZHNVZzVmSDJDT3ZoZXB2OEFKbHVxbUl4TmlLQXVVQzhabmptSHk0d1BIcW05SHJtY0pvTmU2V3FUM29WbVlYQ05TTkR4ajVQa2NKXy1ycWhBMlpVdjY2bTZMeFRrVGFaUGgzSDhRQWRxQzFXQmJTSXlSTHE3MDhVLUdXX0dvZTF6TzB4UGgzQXN0YXI2cUVSSmM5djBHWUHSAdgBQVVfeXFMTWhOZUN6QUQ5TC1ESmpjVTdQWE1wTVhQeHZxLWJiMXo2azV6d1Z1OTVQQ19TZjcxQ1lpVXVyS0I5cDZOZTlxNWdEN3JxZlBQdDl5RGRqNkEwV3lVU0dhalpsa05EWDE1VGY5U2ZnbW0zT2Nhdjh4anVoRHhISTRuYU1hb1pxQW4yczlUNTNLQUJGdjZrNzdUaEdzWnlwRjV4TnNfTDItWHRBWkJRTXpHelhHd0xFYVVrcTNsZ1M4QVluOWtocFNDLW5BVDhxR2tBY29uUEctUm5E?oc=5"
+    },
+    {
+      "id": "news-p2sou1",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T07:10:00.000Z",
+      "description": "Trump Signs Order Exempting Russia From Sanctions Law - The New York Times (The New York Times, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
+      "id": "news-75369w",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T06:57:40.000Z",
+      "description": "Trump suspends sanctions and tariffs targeting Russian Oil revenues - سانا (سانا, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "سانا",
+      "axis": "Other",
+      "tags": [
+        "سانا",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "سانا",
+      "source": "سانا",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBISkw2SHRCTGhXSTJCbVFTVWxtVDJxUWZMUW04UG41ZVZybVZEQ0RPV2UxR3hZeXpnOFZuMTNub2NtUlhCcHdYVEx6YnU?oc=5"
+    },
+    {
+      "id": "news-16pxgq6",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T06:55:05.000Z",
+      "description": "Trump signs executive order waiving new Russia sanctions, tariffs - Vanguard News (Vanguard News, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Vanguard News",
+      "axis": "Other",
+      "tags": [
+        "Vanguard News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Vanguard News",
+      "source": "Vanguard News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVHRhX09ELVA5Wmx5Nk5VQy00TlJTY0NaTExELWhxb29rNmRyS1VlTzc2RDB0eDFITkpvczl1YXpvRHd3d3JCYUpfblctQ0l4dU1tQlhpa0VnWkJ5eFdwTkpoQ3ZHU1pPcGYxdEU0bHY5OHlyWFY5OHFrTURBMlBUZ2czZExCbjhjclhaTEo0WHl1Wm5xWms2OFZJdW1OWlBpd21N0gGoAUFVX3lxTE8wcEJZUEktZUNJSjU5Mm1GVnIwWWwxa0h4MlpreDJ5Vl9wSUJzVmJaUW1UMkVYd0hhSERLQkd3RXFZOHptQWgzLU5pLWl0OFl6MGR1RlJYbXJjU2Q2Y0dwVjEzSHZ5MUY3X0gwZFlITUJjb1REOFJBcGVvbkhhVUwtVm1JeXZRSFpobE1iZ2J3WG1Zdm4tMy1sSHFpUjJkR1JJVjNUMWRCZw?oc=5"
+    },
+    {
+      "id": "news-1byqa3y",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T05:49:03.000Z",
+      "description": "Federal judge lifts all blocks on Trump mail-in ballots executive order - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ABC News - Breaking News, Latest News and Videos",
+      "axis": "Other",
+      "tags": [
+        "ABC News - Breaking News, Latest News and Videos",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRy04Q2xhT2NLTnYwZ3c5UTlQZUhjejc5WTN0U2F1TEpFdm0wOHJ3WHZmQ3lZbG5jdV9ISkZucmMxUHdvZnczMHBydGV6OUNVUU9yRVI3YzZuUkF6UTA4MjlwRWdpTDZfZ3B6ZjZldHYzWjQ2T0NNcmt2c0pEdWtUQ0k3R09VNXBRSHh3b1VyYnZrODVxaDE1aXpWak5hd1Rja0I2Zlp30gGrAUFVX3lxTE14RXJENTlqSkFXc3Qycmd5YnBZNkFVVjRmWTBuN1NWVXQ3d3kwcjd5LUhRY2xWQ25qWS1BVDNHM0YzeXJhRmFuMV96elpWakMxVmtyUUlEdXlpejhXTW5wUmljWXV1LUpxZVMyU0dDQTdNb2tjdVN6eGZYZlpyX21UbVNia3U4UzhSUzlfWGk3YktncnBTWEZLclhOOUxWWk5vVFlPWmRqMW8xRQ?oc=5"
+    },
     {
       "id": "news-18inmk6",
       "kind": "news",
@@ -197,25 +315,6 @@
       "locationStr": "BBC",
       "source": "BBC",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RS3I2MGlpT0lTUm00NkJ5SUpIbVZRX0I5U3N0ZlViR1RXbjlDR0VCcEppZmVEQVFKU29vSE5Nd2RYc3Yxc1lyTGxURHhUUjNRQURHT1RSWDhZaUE?oc=5"
-    },
-    {
-      "id": "news-1vuoumt",
-      "kind": "news",
-      "date": "2026-10-17",
-      "isoDate": "2026-10-17T04:57:49.000Z",
-      "description": "Trump signs order waiving Graham Act sanctions on Russia - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-10-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ABC News - Breaking News, Latest News and Videos",
-      "axis": "Other",
-      "tags": [
-        "ABC News - Breaking News, Latest News and Videos",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaExZUlBtbDZ3YXN2cGZ0Z0RMRVcxT3hlaG8xMnRiSm16d0pSdnBHUzJzSHB1YVVFUXNSMUFGTXZHRE4yb3JyTHczam54WFAxQjRLSjcwTlBuY0pKUGVTbGtjdE5PWVlSdXVFZ1FtUlBLXy1DZUhYRVhEOEZnTHJZTWZQb2J0ejZ3bG9DU0g0cnYyVU9XUllQenJTVkdJc2xucG5r0gGoAUFVX3lxTE00QU9Jbml5eUQxemhUMzRMLVhWLVNGM05PNEp6eGtVaF94RmFmaTJ0WGVxdGVNR2dySDR6QXJtaVpIUFN6N3dnSDB3bkp1T3IteU5HZ1VYbFpPU0tYNVJxd25mQ0xqcVVXOF9NTmFvem14R3NLTkhsTy1pay1XZzRVUEk5eldiY3NFcU03RXVicTQxZ0l5MkFuRmtwbE54TzAxMVltaXNJRA?oc=5"
     },
     {
       "id": "news-1nwhoj3",
@@ -355,29 +454,6 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQREc3TFRzMlNRS210S1BpR21OVWxleDNVdU9jdkxSMlZyZ2FlQ0FSbUpkbW1jRlpDa2dsdFdvSXhnREdKcDhBUnlVUncxcUxoWnpES3lGa1BKVUFPVktaVTdoeGViVzVIQ3oxa1h3TFpnQ0N1YlNCODZaQzhMYjBfcjdKVUlieXczRUZGNnAtZWhjSEFLTldQcFBjNEo2NjhIZW9LV1p3?oc=5"
     },
     {
-      "id": "news-p2sou1",
-      "kind": "news",
-      "date": "2026-10-17",
-      "isoDate": "2026-10-17T03:07:11.000Z",
-      "description": "Trump Signs Order Exempting Russia From Sanctions Law - The New York Times (The New York Times, 2026-10-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
-    },
-    {
       "id": "news-9nfhyi",
       "kind": "news",
       "date": "2026-10-17",
@@ -492,6 +568,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNGt0d3M4MURsZ1h0UHVwTzdJQmY0dEJNMDJwUU5obEJKdEwwMWFLY1kwMW1PZHljRzQwd3VsVl9fRjJ2N2RVSW9vVHV2MkdVYXVMcFBUZzlzdlJGS1QyYVk0Nm1Gd0dhNkYtU1hHS1lLQVl0bUdvLVZyLVo4MzA1aW1WSWE3UjAyX0h3Q0k0U1lQVnlTa2phV1R3?oc=5"
     },
     {
+      "id": "news-1qphnhi",
+      "kind": "news",
+      "date": "2026-10-17",
+      "isoDate": "2026-10-17T02:43:00.000Z",
+      "description": "Trump invokes national interest to waive new Russia sanctions, tariffs; India gets relief from 100% tariff threat - WION (WION, 2026-10-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WION",
+      "axis": "Other",
+      "tags": [
+        "WION",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WION",
+      "source": "WION",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcGFMMnlBU0Z6RW9nMndCbU9BemgzajFyTEhFZGplM25ZSFZzSXhsMUpJRzZLQlBNb05hTEtGSnlsSVpJcldBZVdtc1VWZzhsWVpkOVdpVXl0RVNkRGFxSWFGVktVQjkxWGtXbGJETlVUamhad2IydE51c0wzUFBfT3E0MFVab1ZlTlFCblZUcDZmcERRbGZMTnY1UjNfVjRYcjJLRVhiZjY2a3pPaVNMTUNidUZnMVFneG15ZnJXSTdkX0IzS3h5NmNlX3pSdTNTNGlzbjA5YlNOTTBtSGo0am5JaEZkLU16YkHSAe8BQVVfeXFMTnVEb2hhdGEwa01vRXljNkxmQ0lyNlo1T1ZhOWJYWktldF9ndWJkWEl0enRkLUJTQm1TSGNZNXFicGtsMWoxZmZrYzBmdnR0YzF6Z1JlNDdSeFdIbTM4b1NWVmxicG5FUC1GZHFGd1pYR2tyWXpRUHJPNWtvSno2eTAxakNtanBZN1pmaWtabnNkX196SzFxVmxEbjlLZFpKMWhvNTJIbnZFMmt6dFBaTGgyZHJVUEk5U1NJUlNPSDUzdk1QS2ZYZndRZWh1UkVabVc1RnFSb0I4QmJJbkNjRmVBQ2QxZjZLLWZSNnhNZDg?oc=5"
+    },
+    {
       "id": "news-1gu1i1j",
       "kind": "news",
       "date": "2026-10-17",
@@ -604,25 +699,6 @@
       "locationStr": "The New Indian Express",
       "source": "The New Indian Express",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQODlENFBmeFBJcGotdXdnYW41aHpobG4zYjJncktfQUVwcWFGUXZONHBrMloxZzVCdEN1enNUY21SUmVxbWIwdkI4dkJKa2dpT0FOT0lveDc1b2RRMzVXeENkRkxpNEYyMkl5eU9wRV9DN0EyZXJha1NaZEoyUUFoekVwWHEtUWItR3ViNGJlZVhTdlJ0QTFmeHcyMzhuSmhSNm80VFVvdVMzYW5PTUFnaTd2am9hRk5JS1VuQlBCbGrSAc4BQVVfeXFMTTlwYnhtYVFVVmJfODdvSUtMak01OWE3em1JYXFyRDUzMG9weGp6UlVDZlZmYnpFMFg5NVdpLV8teGVUY2MwaGZ6dXBiUTV1NHc3eGEzUGhtYUU3SC13M2QwUU44SDNKYllLWGlQbWQwODRHZnlfSEU4eG0yNF9TbU5hTG8xSmZxd2toN0NWc0EtTFN3dHVScFpUY2FxTVIwVW4ydkR0Yy13RFRoS3Q2LTN5ejNyUlJHa2xkeS1yRWE3ZDNHYzEzOEVlSVlZMHc?oc=5"
-    },
-    {
-      "id": "news-1hgn8le",
-      "kind": "news",
-      "date": "2026-10-17",
-      "isoDate": "2026-10-17T02:00:15.000Z",
-      "description": "Donald Trump waives sanctions, tariffs on purchase of Russian oil and gas - The Hindu (The Hindu, 2026-10-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hindu",
-      "axis": "Other",
-      "tags": [
-        "The Hindu",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hindu",
-      "source": "The Hindu",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNEJCSWVBNk5fUVR0NVJDTVNSOG1TYUVWWW9WWTVUVC1OUDBUbGdoZGR0amxSUXozZHQtZHNVZzVmSDJDT3ZoZXB2OEFKbHVxbUl4TmlLQXVVQzhabmptSHk0d1BIcW05SHJtY0pvTmU2V3FUM29WbVlYQ05TTkR4ajVQa2NKXy1ycWhBMlpVdjY2bTZMeFRrVGFaUGgzSDhRQWRxQzFXQmJTSXlSTHE3MDhVLUdXX0dvZTF6TzB4UGgzQXN0YXI2cUVSSmM5djBHWUHSAdgBQVVfeXFMTWhOZUN6QUQ5TC1ESmpjVTdQWE1wTVhQeHZxLWJiMXo2azV6d1Z1OTVQQ19TZjcxQ1lpVXVyS0I5cDZOZTlxNWdEN3JxZlBQdDl5RGRqNkEwV3lVU0dhalpsa05EWDE1VGY5U2ZnbW0zT2Nhdjh4anVoRHhISTRuYU1hb1pxQW4yczlUNTNLQUJGdjZrNzdUaEdzWnlwRjV4TnNfTDItWHRBWkJRTXpHelhHd0xFYVVrcTNsZ1M4QVluOWtocFNDLW5BVDhxR2tBY29uUEctUm5E?oc=5"
     },
     {
       "id": "news-1nwgv26",
@@ -2675,6 +2751,44 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/campaign/6153163-troy-jackson-susan-collins-heated-debate-maine-senate-race/"
+    },
+    {
+      "id": "news-1b7syb7",
+      "kind": "news",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T11:30:21.000Z",
+      "description": "Kentucky Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtMlZLR1JONlVDTHBPb0V4ZFVjQVo4RE5aM3pyc1FCSkItbkpldnQ2c1JKSkFMTXU2OTNHTVVLZ0JVVDlPdFRwVGxKN2pvVVZWSzR0TzNTU25PajBRZ01kUkNkODYxemZpRHY0VFNEQUh1dw?oc=5"
+    },
+    {
+      "id": "news-1hqci2u",
+      "kind": "news",
+      "date": "2026-10-16",
+      "isoDate": "2026-10-16T11:30:21.000Z",
+      "description": "Utah Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tc0h2SEhlSnJHSDBCeGtHeWREbGRrM3FMME9hbDdCX3hQd3pSejI2X2gyRE15ZVpYVk55S3M5cDNJMTk5NklZWGxnbmhsTFdkX2Rwaks5aGtGSEpHQ1FNTndKVzZLbnVDaUJJTA?oc=5"
     },
     {
       "id": "news-ptl56b",
@@ -5885,25 +5999,6 @@
       "sourceUrl": "https://thehill.com/homenews/campaign/6149733-texas-talarico-town-hall/"
     },
     {
-      "id": "news-1byqa3y",
-      "kind": "news",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T02:40:04.000Z",
-      "description": "Federal judge lifts all blocks on Trump mail-in ballots executive order - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-10-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ABC News - Breaking News, Latest News and Videos",
-      "axis": "Other",
-      "tags": [
-        "ABC News - Breaking News, Latest News and Videos",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRy04Q2xhT2NLTnYwZ3c5UTlQZUhjejc5WTN0U2F1TEpFdm0wOHJ3WHZmQ3lZbG5jdV9ISkZucmMxUHdvZnczMHBydGV6OUNVUU9yRVI3YzZuUkF6UTA4MjlwRWdpTDZfZ3B6ZjZldHYzWjQ2T0NNcmt2c0pEdWtUQ0k3R09VNXBRSHh3b1VyYnZrODVxaDE1aXpWak5hd1Rja0I2Zlp30gGrAUFVX3lxTE14RXJENTlqSkFXc3Qycmd5YnBZNkFVVjRmWTBuN1NWVXQ3d3kwcjd5LUhRY2xWQ25qWS1BVDNHM0YzeXJhRmFuMV96elpWakMxVmtyUUlEdXlpejhXTW5wUmljWXV1LUpxZVMyU0dDQTdNb2tjdVN6eGZYZlpyX21UbVNia3U4UzhSUzlfWGk3YktncnBTWEZLclhOOUxWWk5vVFlPWmRqMW8xRQ?oc=5"
-    },
-    {
       "id": "news-1q9520g",
       "kind": "news",
       "date": "2026-10-15",
@@ -8577,181 +8672,6 @@
       "locationStr": "USA Today",
       "source": "USA Today",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPalhOdHZ0ZHFOSFIzYlNUQXJIY1NqdU4tdjJWM1c1ejN4X0lrSW4tbnJ0ZVdfLWtzMW1PZW5sUTNUR2V2UWpzMEZIQlVnbElmQlNEQ3NzQ3luQzRnbUI1cTRubnFvZ0N3ZmszTzVFak1QT2dodEhhcWt0Z1lIVHdmeTFPRU1PVGIwSzcwZzZ1c1BsOTFmNExfUHhXMk5YeDJ3amd2WmFXU2VIOGRVQVZTUDBoU0VRQQ?oc=5"
-    },
-    {
-      "id": "news-e6k14h",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T09:00:05.000Z",
-      "description": "Trump plays Russian roulette on eve of midterms (Axios, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/10/14/trump-putin-diesel-deal-midterms-russia"
-    },
-    {
-      "id": "news-1ytry5",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T09:00:00.000Z",
-      "description": "In Kansas, a newly competitive Senate race tests limit of Trump's unpopular policies - NPR (NPR, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3pIc3lCeGI1SmR0WDN1alc2RXVJcmdTejNGZVdoeXNqdTh4NWFSdmFrem9BSVhHZzQwSVpNMjJXRnk2N1NSWlgwYjA0TjJKd2dTdmd1NlpHRGthRlBtYTNOcW9jMUFrRFBUOHAxeGhwdTN6dG9NdnFISUVyWUpNV3pqZ2M2aXJsbE1RX1ZLRVVvdw?oc=5"
-    },
-    {
-      "id": "news-p7k47d",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T09:00:00.000Z",
-      "description": "Civil rights advocates plan to send thousands of observers to midterm polling places (NPR, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/14/nx-s1-5991802/election-polling-place-observers"
-    },
-    {
-      "id": "news-wzp523",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T09:00:00.000Z",
-      "description": "In Kansas, a newly competitive Senate race tests limit of Trump's unpopular policies (NPR, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/14/nx-s1-5995633/kansas-senate-race-hamilton-marshall-tossup"
-    },
-    {
-      "id": "news-1eaapwq",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T08:44:34.000Z",
-      "description": "Former White House ethics lawyer on Kimberly Guilfoyle's alleged ethics violations (NPR, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/14/nx-s1-6000179/former-white-house-ethics-lawyer-on-kimberly-guilfoyles-alleged-ethics-violations"
-    },
-    {
-      "id": "news-16s48pp",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T08:03:25.000Z",
-      "description": "Judge Blocks Trump Administration’s Sanctions on 2 Groups Aiding the I.C.C. - The New York Times (The New York Times, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVDdnT3JDZVFPaDNiNDlmcW85MXhtQmlLRGp2dWZ0UGtTOS14RkRBRWFZM0h4em8yLUJWNHpfUmkxTXZxZ1FIa3N2THZEdTNXY3B5bkRFNVp5aFhmR0psS01jT3lKekEzc2ZwdTh0QmI2SGFCaVlLeF9ZaG9mbkZIRkNydw?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
-    },
-    {
-      "id": "news-8p4d9c",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T08:00:05.000Z",
-      "description": "Ossoff rejects 2028 buzz amid bruising night of Senate debates (Axios, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/10/14/senate-midterm-debates-ossoff-georgia-maine-iowa"
-    },
-    {
-      "id": "news-1xise08",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T07:00:00.000Z",
-      "description": "Frequently asked questions about the 2026 midterm elections - Protect Democracy (Protect Democracy, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Protect Democracy",
-      "axis": "Other",
-      "tags": [
-        "Protect Democracy",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Protect Democracy",
-      "source": "Protect Democracy",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaGc2YzZlb2ZjZmFHdmFUZ2o2eGtYX0phYl9lWUcxaHVFV2N2NlIzbjFsejdlMUJLdnZoclpkakw0d2U1VjlTODBETDVXNW9iWmZGMU93R2lRRy1iYW50eXZmQnduUmhlZWRZbWlPNlRkQ1IzTmdTTjM2T21kTnhZdHlhYlVROEFVY1NGN3ZDRVZGVENsTTVzYk9n?oc=5"
-    },
-    {
-      "id": "news-3m48gx",
-      "kind": "news",
-      "date": "2026-10-14",
-      "isoDate": "2026-10-14T07:00:00.000Z",
-      "description": "Appeals Court Weighs Legality of Trump’s National Guard Deployment in DC - The Well News (The Well News, 2026-10-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Well News",
-      "axis": "Other",
-      "tags": [
-        "The Well News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Well News",
-      "source": "The Well News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM1FlSDgxRXBRSzZOcTZwUVBQN19NcmRzSV9EMGNtZmdFNFJxdTFOcU9Oa1g0TFNwWnhCSkFiUGJkaHU0anRNTFpXbGZsbVU5Nk1DOC1mMEJjc3Zpb2FQMmdUUkJ0ZVMydDlvTkkzX2pLVzdzdmJfeGlaREc0RGhIOVdlcHZ0ekFrTmRyalJkSi04ejRPdTZsNV8wTHhPdFdzRUQzWnpJQQ?oc=5"
     }
   ]
 }
