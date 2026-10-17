@@ -19,6 +19,12 @@ No website source code lives here. Free-tier only: no API keys, no paid services
 - `news-data/latest.json` — rolling news snapshot: free RSS feeds, link-only
   (title/url/date/publisher, never bodies). Current: Yonhap English (Korea).
   Source: `https://en.yna.co.kr/RSS/news.xml`.
+- `headlines-data/latest.json` — compact cross-theatre headline digest for the
+  homepage (~60KB): built hourly by `scripts/build-headlines.mjs` from the
+  theatre wires below (kind `news` only, last 48h, link-only). Off-topic beats
+  (sports/celebrity/lifestyle) are dropped, a word-boundary geopolitical lexicon
+  ranks the rest, theatres are interleaved round-robin and cross-feed
+  duplicates removed. No network calls, no new sources.
 - `ukraine-events/latest.json` — rolling Ukraine live-wire feed (72h events/news,
   14d assessments/reports, cap 1500, newest first). Records match the site's
   event schema: GDELT rows carry machine-geocoded coords (`approximate` tier);
