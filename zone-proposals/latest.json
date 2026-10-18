@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-18T17:30:52.460Z",
+  "collectedAt": "2026-10-18T19:19:29.482Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 255,
+  "coarseGdeltDropped": 236,
   "outsideTheatreDropped": 4,
   "proposals": [
     {
@@ -15,16 +15,16 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 653,
+      "eventCount": 657,
       "kinds": {
-        "other": 460,
-        "combat": 167,
-        "strike": 26
+        "other": 462,
+        "combat": 170,
+        "strike": 25
       },
       "tierCounts": {
-        "approximate": 653
+        "approximate": 657
       },
-      "combatCount": 193,
+      "combatCount": 195,
       "newestIsoDate": "2026-10-18T16:32:00.000Z",
       "samples": [
         {
@@ -44,10 +44,10 @@
         }
       ],
       "centroid": {
-        "lat": 50.3739,
-        "lng": 30.2204
+        "lat": 50.3743,
+        "lng": 30.2222
       },
-      "radiusKm": 42.3
+      "radiusKm": 42.1
     },
     {
       "zoneId": "occ-kherson",
@@ -56,16 +56,16 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 76,
+      "eventCount": 70,
       "kinds": {
-        "other": 38,
-        "combat": 32,
-        "strike": 6
+        "other": 37,
+        "combat": 29,
+        "strike": 4
       },
       "tierCounts": {
-        "approximate": 76
+        "approximate": 70
       },
-      "combatCount": 38,
+      "combatCount": 33,
       "newestIsoDate": "2026-10-18T00:00:00.000Z",
       "samples": [
         {
@@ -85,10 +85,10 @@
         }
       ],
       "centroid": {
-        "lat": 46.7234,
-        "lng": 32.2863
+        "lat": 46.7048,
+        "lng": 32.3069
       },
-      "radiusKm": 47.1
+      "radiusKm": 44.4
     },
     {
       "zoneId": "lib-snake",
@@ -97,16 +97,16 @@
         "lat": 45.2551,
         "lng": 30.2033
       },
-      "eventCount": 46,
+      "eventCount": 45,
       "kinds": {
-        "other": 14,
-        "combat": 28,
+        "other": 11,
+        "combat": 30,
         "strike": 4
       },
       "tierCounts": {
-        "approximate": 46
+        "approximate": 45
       },
-      "combatCount": 32,
+      "combatCount": 34,
       "newestIsoDate": "2026-10-18T14:55:00.000Z",
       "samples": [
         {
@@ -126,10 +126,10 @@
         }
       ],
       "centroid": {
-        "lat": 46.5255,
-        "lng": 30.5186
+        "lat": 46.5269,
+        "lng": 30.5137
       },
-      "radiusKm": 32.4
+      "radiusKm": 32.9
     },
     {
       "zoneId": "occ-kharkiv",
@@ -148,8 +148,13 @@
         "approximate": 40
       },
       "combatCount": 9,
-      "newestIsoDate": "2026-10-18T13:04:00.000Z",
+      "newestIsoDate": "2026-10-18T17:31:00.000Z",
       "samples": [
+        {
+          "id": "news-173zh1k",
+          "isoDate": "2026-10-18T17:31:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175702-russian-uav-strike-hits-car-in-kharkiv-region-injuring-two-people.html"
+        },
         {
           "id": "news-ulg5g8",
           "isoDate": "2026-10-18T13:04:00.000Z",
@@ -159,18 +164,54 @@
           "id": "news-1bt9w5",
           "isoDate": "2026-10-18T10:52:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175625-russian-drone-strikes-minibus-in-kharkiv-region-injuring-two.html"
-        },
-        {
-          "id": "news-ulfkf2",
-          "isoDate": "2026-10-18T09:34:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/18/8058595/"
         }
       ],
       "centroid": {
-        "lat": 49.8471,
-        "lng": 36.509
+        "lat": 49.8473,
+        "lng": 36.5084
       },
       "radiusKm": 42.3
+    },
+    {
+      "zoneId": "occ-zaporizhzhia",
+      "region": "Zaporizhzhia Oblast",
+      "center": {
+        "lat": 47,
+        "lng": 35.5
+      },
+      "eventCount": 36,
+      "kinds": {
+        "other": 21,
+        "combat": 11,
+        "strike": 4
+      },
+      "tierCounts": {
+        "approximate": 36
+      },
+      "combatCount": 15,
+      "newestIsoDate": "2026-10-18T15:32:00.000Z",
+      "samples": [
+        {
+          "id": "news-ulg76k",
+          "isoDate": "2026-10-18T15:32:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/18/8058638/"
+        },
+        {
+          "id": "news-1cgpd32",
+          "isoDate": "2026-10-18T14:30:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175673-malokaterynivka-in-zaporizhzhia-region-remains-under-ukrainian-control-ccd.html"
+        },
+        {
+          "id": "news-1ejw3ep",
+          "isoDate": "2026-10-18T14:00:03.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZVBXaU5rdk1JeWh5TlVDNVpHV1dnckZ1UmV0cVVBQzUyQTNxRGFlbHpYLUJsS1pMWTVvRHhhaUd2M2NWN3RrdkZBeC1pbm50cEJDY3VadGFrTlBfZElzMF9SOExwTGZ4dkVOcWtNOXpGUmNwc0NRVXFKcEVEUnZHY1ZZZGg4X1VEVzJfRGNYakJhMHYtQnRFYm1kRDhWUXF3b1hueDZmYU9HZUNienhKdzhURkZablFHdnV1ampTQzNnWDRtcHVSTA?oc=5"
+        }
+      ],
+      "centroid": {
+        "lat": 47.9245,
+        "lng": 35.3014
+      },
+      "radiusKm": 34.4
     },
     {
       "zoneId": "occ-donetsk",
@@ -179,14 +220,14 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 35,
+      "eventCount": 36,
       "kinds": {
-        "other": 25,
+        "other": 26,
         "combat": 9,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 35
+        "approximate": 36
       },
       "combatCount": 10,
       "newestIsoDate": "2026-10-18T09:52:00.000Z",
@@ -208,51 +249,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.4514,
-        "lng": 37.5796
+        "lat": 48.459,
+        "lng": 37.579
       },
-      "radiusKm": 43.1
-    },
-    {
-      "zoneId": "occ-zaporizhzhia",
-      "region": "Zaporizhzhia Oblast",
-      "center": {
-        "lat": 47,
-        "lng": 35.5
-      },
-      "eventCount": 34,
-      "kinds": {
-        "other": 19,
-        "combat": 11,
-        "strike": 4
-      },
-      "tierCounts": {
-        "approximate": 34
-      },
-      "combatCount": 15,
-      "newestIsoDate": "2026-10-18T15:32:00.000Z",
-      "samples": [
-        {
-          "id": "news-ulg76k",
-          "isoDate": "2026-10-18T15:32:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/18/8058638/"
-        },
-        {
-          "id": "news-1cgpd32",
-          "isoDate": "2026-10-18T14:30:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175673-malokaterynivka-in-zaporizhzhia-region-remains-under-ukrainian-control-ccd.html"
-        },
-        {
-          "id": "news-1r5443p",
-          "isoDate": "2026-10-18T10:37:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175623-russian-forces-attack-critical-infrastructure-facility-in-dnipro.html"
-        }
-      ],
-      "centroid": {
-        "lat": 47.9375,
-        "lng": 35.2919
-      },
-      "radiusKm": 34.7
+      "radiusKm": 42.4
     },
     {
       "zoneId": "occ-crimea",
@@ -261,15 +261,16 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 22,
+      "eventCount": 24,
       "kinds": {
         "combat": 17,
-        "other": 5
+        "other": 6,
+        "strike": 1
       },
       "tierCounts": {
-        "approximate": 22
+        "approximate": 24
       },
-      "combatCount": 17,
+      "combatCount": 18,
       "newestIsoDate": "2026-10-18T00:00:00.000Z",
       "samples": [
         {
@@ -289,10 +290,10 @@
         }
       ],
       "centroid": {
-        "lat": 45.4938,
-        "lng": 33.8505
+        "lat": 45.5181,
+        "lng": 33.8347
       },
-      "radiusKm": 45
+      "radiusKm": 43.5
     },
     {
       "zoneId": "lib-sumy",
