@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-18T11:47:07.635Z",
+  "collectedAt": "2026-10-18T14:52:59.262Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 1
     },
     {
       "id": "taipei-times",
@@ -34,22 +34,22 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 46,
-      "filtered": 4
+      "count": 47,
+      "filtered": 3
     },
     {
       "id": "dw-asia",
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
       "count": 1,
-      "filtered": 9
+      "filtered": 10
     },
     {
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
       "count": 1,
-      "filtered": 44
+      "filtered": 42
     },
     {
       "id": "gnews-arms",
@@ -80,8 +80,65 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 184,
+  "count": 183,
   "events": [
+    {
+      "id": "news-5hdr99",
+      "kind": "news",
+      "date": "2026-10-18",
+      "isoDate": "2026-10-18T14:00:15.000Z",
+      "description": "China urged to copy Pentagon’s hi-tech warfare project without US conflicts of interest (SCMP, 2026-10-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/military/article/3371286/china-urged-copy-pentagons-hi-tech-warfare-project-without-us-conflicts-interest?utm_source=rss_feed"
+    },
+    {
+      "id": "news-14cktvs",
+      "kind": "news",
+      "date": "2026-10-18",
+      "isoDate": "2026-10-18T13:30:09.000Z",
+      "description": "Katie Zacharia and Mao Ning – a study in contrasts in US and China media strategies (SCMP, 2026-10-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3371317/katie-zacharia-and-mao-ning-study-contrasts-us-and-china-media-strategies?utm_source=rss_feed"
+    },
+    {
+      "id": "news-18yxtt7",
+      "kind": "news",
+      "date": "2026-10-18",
+      "isoDate": "2026-10-18T12:00:08.000Z",
+      "description": "How a hospital ship helps buoy China’s strategic mission in Africa (SCMP, 2026-10-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3371295/how-hospital-ship-helps-buoy-chinas-strategic-mission-africa?utm_source=rss_feed"
+    },
     {
       "id": "news-vll7nm",
       "kind": "news",
@@ -450,6 +507,40 @@
         "goldstein": -5,
         "tone": -10.76,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328554942",
+      "kind": "event",
+      "date": "2026-10-18",
+      "isoDate": "2026-10-18T00:00:00.000Z",
+      "observedAt": "2026-10-18T12:00:00.000Z",
+      "description": "Rejection — Taiwan → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Rejection (GDELT 128)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.webindia123.com/news/Articles/World/20261018/4512290.html",
+      "gdelt": {
+        "globalEventId": "1328554942",
+        "eventCode": "128",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -1.46,
+        "mentions": 2,
         "sources": 1
       }
     },
@@ -4841,101 +4932,6 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzZzJoYjFrdDJEV013a2Roei05LU9vQTJRUWdpOGNUaThpSGxiNDFBRXNNTE5tN1pkX0RZRjcweXRTU3dSQ2pBY0ZFYjZnOU1yT2Vlel9XR2lfMjNtLVEtZllPYTFrdVBwRjloUU9kUFhscklpb0tZQjNn?oc=5"
-    },
-    {
-      "id": "news-1n5pdev",
-      "kind": "news",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T14:00:13.000Z",
-      "description": "China is a beacon of global embryo research, says scientist on return from US to lead lab (SCMP, 2026-10-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3371014/china-beacon-global-embryo-research-says-scientist-return-us-lead-lab?utm_source=rss_feed"
-    },
-    {
-      "id": "news-t7rkxg",
-      "kind": "news",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T14:00:05.000Z",
-      "description": "Blast simulation, university probes, robotics fine, AI spies: 7 US-China relations reads (SCMP, 2026-10-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3370921/blast-simulation-university-probes-robotics-fine-ai-spies-7-us-china-relations-reads?utm_source=rss_feed"
-    },
-    {
-      "id": "news-zspkdh",
-      "kind": "news",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T12:30:10.000Z",
-      "description": "Young Americans are key for the US to better understand China (SCMP, 2026-10-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/opinion/world-opinion/article/3370738/young-americans-are-key-us-better-understand-china?utm_source=rss_feed"
-    },
-    {
-      "id": "news-iugl79",
-      "kind": "news",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T12:02:00.000Z",
-      "description": "Hypersonic missiles highlight arms race on Korean Peninsula (DW, 2026-10-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DW",
-      "axis": "Other",
-      "tags": [
-        "DW",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "DW",
-      "source": "DW",
-      "sourceUrl": "https://www.dw.com/en/hypersonic-missiles-highlight-arms-race-on-korean-peninsula/a-79667084?maca=en-rss-en-asia-5133-rdf"
-    },
-    {
-      "id": "news-wqyv39",
-      "kind": "news",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T12:00:09.000Z",
-      "description": "China-led team hits 83% success rate anticipating earthquakes in ‘seismo-ripples’ study (SCMP, 2026-10-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3371035/china-led-team-hits-83-success-rate-anticipating-earthquakes-seismo-ripples-study?utm_source=rss_feed"
     }
   ]
 }
