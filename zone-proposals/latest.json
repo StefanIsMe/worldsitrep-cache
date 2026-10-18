@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-18T13:05:21.703Z",
+  "collectedAt": "2026-10-18T14:07:54.106Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 228,
+  "coarseGdeltDropped": 229,
   "outsideTheatreDropped": 6,
   "proposals": [
     {
@@ -15,16 +15,16 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 605,
+      "eventCount": 616,
       "kinds": {
-        "other": 440,
-        "combat": 143,
-        "strike": 22
+        "other": 441,
+        "combat": 152,
+        "strike": 23
       },
       "tierCounts": {
-        "approximate": 605
+        "approximate": 616
       },
-      "combatCount": 165,
+      "combatCount": 175,
       "newestIsoDate": "2026-10-18T12:25:00.000Z",
       "samples": [
         {
@@ -44,10 +44,10 @@
         }
       ],
       "centroid": {
-        "lat": 50.3855,
-        "lng": 30.2279
+        "lat": 50.3864,
+        "lng": 30.2331
       },
-      "radiusKm": 40.9
+      "radiusKm": 40.2
     },
     {
       "zoneId": "occ-kherson",
@@ -107,8 +107,13 @@
         "approximate": 41
       },
       "combatCount": 9,
-      "newestIsoDate": "2026-10-18T10:52:00.000Z",
+      "newestIsoDate": "2026-10-18T13:04:00.000Z",
       "samples": [
+        {
+          "id": "news-ulg5g8",
+          "isoDate": "2026-10-18T13:04:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/18/8058616/"
+        },
         {
           "id": "news-1bt9w5",
           "isoDate": "2026-10-18T10:52:00.000Z",
@@ -118,11 +123,6 @@
           "id": "news-ulfkf2",
           "isoDate": "2026-10-18T09:34:00.000Z",
           "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/18/8058595/"
-        },
-        {
-          "id": "news-17eogra",
-          "isoDate": "2026-10-18T08:59:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175584-russian-shelling-in-kharkiv-region-injures-12-people.html"
         }
       ],
       "centroid": {
@@ -130,6 +130,47 @@
         "lng": 36.5022
       },
       "radiusKm": 41.5
+    },
+    {
+      "zoneId": "lib-snake",
+      "region": "Snake Island",
+      "center": {
+        "lat": 45.2551,
+        "lng": 30.2033
+      },
+      "eventCount": 41,
+      "kinds": {
+        "other": 12,
+        "combat": 25,
+        "strike": 4
+      },
+      "tierCounts": {
+        "approximate": 41
+      },
+      "combatCount": 29,
+      "newestIsoDate": "2026-10-18T10:26:00.000Z",
+      "samples": [
+        {
+          "id": "news-1g2y83s",
+          "isoDate": "2026-10-18T10:26:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175622-russian-forces-hit-apartment-building-in-odesa-injure-child.html"
+        },
+        {
+          "id": "news-1xdxqrq",
+          "isoDate": "2026-10-18T10:23:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/87424"
+        },
+        {
+          "id": "news-ulfkgw",
+          "isoDate": "2026-10-18T10:03:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/18/8058597/"
+        }
+      ],
+      "centroid": {
+        "lat": 46.5327,
+        "lng": 30.4919
+      },
+      "radiusKm": 35.4
     },
     {
       "zoneId": "occ-donetsk",
@@ -210,47 +251,6 @@
       "centroid": {
         "lat": 48.0009,
         "lng": 35.2735
-      },
-      "radiusKm": 39.9
-    },
-    {
-      "zoneId": "lib-snake",
-      "region": "Snake Island",
-      "center": {
-        "lat": 45.2551,
-        "lng": 30.2033
-      },
-      "eventCount": 35,
-      "kinds": {
-        "other": 12,
-        "combat": 19,
-        "strike": 4
-      },
-      "tierCounts": {
-        "approximate": 35
-      },
-      "combatCount": 23,
-      "newestIsoDate": "2026-10-18T10:26:00.000Z",
-      "samples": [
-        {
-          "id": "news-1g2y83s",
-          "isoDate": "2026-10-18T10:26:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175622-russian-forces-hit-apartment-building-in-odesa-injure-child.html"
-        },
-        {
-          "id": "news-1xdxqrq",
-          "isoDate": "2026-10-18T10:23:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/87424"
-        },
-        {
-          "id": "news-ulfkgw",
-          "isoDate": "2026-10-18T10:03:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/18/8058597/"
-        }
-      ],
-      "centroid": {
-        "lat": 46.5445,
-        "lng": 30.4496
       },
       "radiusKm": 39.9
     },
