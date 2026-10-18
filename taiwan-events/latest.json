@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-18T08:42:54.410Z",
+  "collectedAt": "2026-10-18T11:47:07.635Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 3
     },
     {
       "id": "taipei-times",
@@ -42,14 +42,14 @@
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
       "count": 1,
-      "filtered": 10
+      "filtered": 9
     },
     {
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
       "count": 1,
-      "filtered": 49
+      "filtered": 44
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 47,
+      "count": 49,
       "filtered": 0
     },
     {
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 185,
+  "count": 184,
   "events": [
+    {
+      "id": "news-vll7nm",
+      "kind": "news",
+      "date": "2026-10-18",
+      "isoDate": "2026-10-18T10:00:07.000Z",
+      "description": "Qian Jiang, former Johns Hopkins’ eye institute expert, joins hospital in China (SCMP, 2026-10-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/science/article/3370936/qian-jiang-former-johns-hopkins-eye-institute-expert-joins-hospital-china?utm_source=rss_feed"
+    },
     {
       "id": "news-kn1fbl",
       "kind": "news",
@@ -329,6 +348,108 @@
         "goldstein": -4,
         "tone": 0.6,
         "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328540363",
+      "kind": "event",
+      "date": "2026-10-18",
+      "isoDate": "2026-10-18T00:00:00.000Z",
+      "observedAt": "2026-10-18T09:15:00.000Z",
+      "description": "Threat — Taiwan → Industry near Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Threat (GDELT 130)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://econotimes.com/Nvidia-Chose-TSMC-in-1996-for-Trust-Beyond-Manufacturing-Terms-1756100",
+      "gdelt": {
+        "globalEventId": "1328540363",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 1.01,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328546779",
+      "kind": "event",
+      "date": "2026-10-18",
+      "isoDate": "2026-10-18T00:00:00.000Z",
+      "observedAt": "2026-10-18T10:30:00.000Z",
+      "description": "Coercion — South Korea → South Korea near Nanzih, T'ai-chung, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24.211,
+      "lng": 120.529,
+      "action": "Coercion (GDELT 173)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Nanzih, T'ai-chung, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/society/202610180005",
+      "gdelt": {
+        "globalEventId": "1328546779",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -10.76,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328547131",
+      "kind": "event",
+      "date": "2026-10-18",
+      "isoDate": "2026-10-18T00:00:00.000Z",
+      "observedAt": "2026-10-18T10:30:00.000Z",
+      "description": "Coercion — Kaohsiung → Employee near Nanzih, T'ai-chung, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24.211,
+      "lng": 120.529,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Kaohsiung",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Nanzih, T'ai-chung, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/society/202610180005",
+      "gdelt": {
+        "globalEventId": "1328547131",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -10.76,
+        "mentions": 10,
         "sources": 1
       }
     },
@@ -4815,101 +4936,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/science/article/3371035/china-led-team-hits-83-success-rate-anticipating-earthquakes-seismo-ripples-study?utm_source=rss_feed"
-    },
-    {
-      "id": "news-pze0sx",
-      "kind": "news",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T10:00:13.000Z",
-      "description": "China keen to strengthen North Korea trade ties with New Yalu River Bridge opening (SCMP, 2026-10-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3371000/china-keen-strengthen-north-korea-trade-ties-new-yalu-river-bridge-opening?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1x9d560",
-      "kind": "news",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T09:27:12.000Z",
-      "description": "China, US discuss AI as chip stock rout hits Asian markets (SCMP, 2026-10-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/plus/tech/tech-war/article/3371013/china-us-discuss-ai-chip-stock-rout-hits-asian-markets?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1durm78",
-      "kind": "news",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T08:59:13.000Z",
-      "description": "Cross-border matchmaking can lead to financial ruin, Chinese police warn rural men (SCMP, 2026-10-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3370982/cross-border-matchmaking-can-lead-financial-ruin-chinese-police-warn-rural-men?utm_source=rss_feed"
-    },
-    {
-      "id": "news-cwi5ci",
-      "kind": "news",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T08:50:00.000Z",
-      "description": "Man sentenced to 12 years’ jail for raiding ancient tombs in China as court issues stern warning (Straits Times, 2026-10-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/man-sentenced-to-12-years-jail-for-raiding-ancient-tombs-in-china-court-issues-stern-warning"
-    },
-    {
-      "id": "news-1w2rbtj",
-      "kind": "news",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T08:45:00.000Z",
-      "description": "Why Chinese tech brands are outpacing Western rivals from EVs to robot vacuums (DW, 2026-10-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DW",
-      "axis": "Other",
-      "tags": [
-        "DW",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "DW",
-      "source": "DW",
-      "sourceUrl": "https://www.dw.com/en/why-chinese-tech-brands-are-outpacing-western-rivals-from-evs-to-robot-vacuums/a-79646187?maca=en-rss-en-asia-5133-rdf"
     }
   ]
 }
