@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-18T01:35:47.357Z",
+  "collectedAt": "2026-10-18T03:45:08.583Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 3
     },
     {
       "id": "taipei-times",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 4,
-      "filtered": 46
+      "count": 2,
+      "filtered": 48
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 45,
+      "count": 46,
       "filtered": 0
     },
     {
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 184,
+  "count": 187,
   "events": [
     {
       "id": "news-ovlnly",
@@ -119,6 +119,108 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/us/article/3371267/how-land-power-could-help-us-forces-counter-china-indo-pacific?utm_source=rss_feed"
+    },
+    {
+      "id": "gdelt-1328514374",
+      "kind": "event",
+      "date": "2026-10-18",
+      "isoDate": "2026-10-18T00:00:00.000Z",
+      "observedAt": "2026-10-18T02:45:00.000Z",
+      "description": "Rejection — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (20 mentions, 2 sources); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Rejection (GDELT 128)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.japanherald.com/news/279382168/taiwan-detects-2-pla-aircraft-5-plan-vessels-operating-near-territory",
+      "gdelt": {
+        "globalEventId": "1328514374",
+        "eventCode": "128",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -1.43,
+        "mentions": 20,
+        "sources": 2
+      }
+    },
+    {
+      "id": "gdelt-1328516195",
+      "kind": "event",
+      "date": "2026-10-18",
+      "isoDate": "2026-10-18T00:00:00.000Z",
+      "observedAt": "2026-10-18T03:15:00.000Z",
+      "description": "Coercion — Military → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/18/two-taiwanese-executives-arrested-over-mainland-components-in-military-drones",
+      "gdelt": {
+        "globalEventId": "1328516195",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -8.84,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328516196",
+      "kind": "event",
+      "date": "2026-10-18",
+      "isoDate": "2026-10-18T00:00:00.000Z",
+      "observedAt": "2026-10-18T03:15:00.000Z",
+      "description": "Assault — Military → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Assault (GDELT 186)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/18/two-taiwanese-executives-arrested-over-mainland-components-in-military-drones",
+      "gdelt": {
+        "globalEventId": "1328516196",
+        "eventCode": "186",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.84,
+        "mentions": 1,
+        "sources": 1
+      }
     },
     {
       "id": "news-12sbyzx",
@@ -4738,6 +4840,25 @@
       "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3370956/vehicle-may-have-sparked-mongolia-wildfire-putting-china-rescuers-high-alert?utm_source=rss_feed"
     },
     {
+      "id": "news-bu8bs0",
+      "kind": "news",
+      "date": "2026-10-15",
+      "isoDate": "2026-10-15T06:11:42.000Z",
+      "description": "What’s Going On With China’s Military Exercises This Week? - https://dominotheory.com/ (https://dominotheory.com/, 2026-10-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "https://dominotheory.com/",
+      "axis": "Other",
+      "tags": [
+        "https://dominotheory.com/",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "https://dominotheory.com/",
+      "source": "https://dominotheory.com/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPN09YYXZLeGNMdHU0LU9ndmNlVVVGbWlvUi1ONG54VDE1YmJHWlBHY2w2YnJ2aHhUYkkxYXVOeTZxaHdOeTktYjUzOUpXVFFtX2JNTFM5UUtfX2llVGo5T1VIVXJETjJ6VW1YLWhxdlBEQWxNTUxqR3pwUFY5c1hOUmE3UGV5TkRJdmV3?oc=5"
+    },
+    {
       "id": "news-1xxj1g",
       "kind": "news",
       "date": "2026-10-15",
@@ -4812,25 +4933,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/eu-leaders-to-tackle-china-exports-energy-prices-budget-at-summit"
-    },
-    {
-      "id": "news-1rk6xtz",
-      "kind": "news",
-      "date": "2026-10-15",
-      "isoDate": "2026-10-15T02:45:57.000Z",
-      "description": "New four-lane bridge opens between China, North Korea (Straits Times, 2026-10-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/trucks-line-up-as-long-delayed-china-north-korea-bridge-officially-opens"
     }
   ]
 }
