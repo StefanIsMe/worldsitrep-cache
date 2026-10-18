@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-18T19:36:17.542Z",
+  "collectedAt": "2026-10-18T21:43:20.062Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 240,
+  "coarseGdeltDropped": 239,
   "outsideTheatreDropped": 4,
   "proposals": [
     {
@@ -15,18 +15,23 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 657,
+      "eventCount": 660,
       "kinds": {
-        "other": 461,
-        "combat": 171,
-        "strike": 25
+        "other": 459,
+        "combat": 174,
+        "strike": 27
       },
       "tierCounts": {
-        "approximate": 657
+        "approximate": 660
       },
-      "combatCount": 196,
-      "newestIsoDate": "2026-10-18T19:10:00.000Z",
+      "combatCount": 201,
+      "newestIsoDate": "2026-10-18T19:34:00.000Z",
       "samples": [
+        {
+          "id": "news-1o05396",
+          "isoDate": "2026-10-18T19:34:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175721-russian-attacks-leave-19000-consumers-without-power-in-ternopil-region.html"
+        },
         {
           "id": "news-gxrzcj",
           "isoDate": "2026-10-18T19:10:00.000Z",
@@ -36,18 +41,13 @@
           "id": "news-esznhi",
           "isoDate": "2026-10-18T16:32:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175695-russian-forces-launch-another-attack-on-critical-infrastructure-in-vinnytsia-region.html"
-        },
-        {
-          "id": "news-ulg5bn",
-          "isoDate": "2026-10-18T12:25:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/18/8058611/"
         }
       ],
       "centroid": {
-        "lat": 50.3746,
-        "lng": 30.2157
+        "lat": 50.3752,
+        "lng": 30.2024
       },
-      "radiusKm": 42.8
+      "radiusKm": 44.3
     },
     {
       "zoneId": "occ-kherson",
@@ -56,16 +56,16 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 68,
+      "eventCount": 63,
       "kinds": {
-        "other": 36,
-        "combat": 28,
+        "other": 33,
+        "combat": 26,
         "strike": 4
       },
       "tierCounts": {
-        "approximate": 68
+        "approximate": 63
       },
-      "combatCount": 32,
+      "combatCount": 30,
       "newestIsoDate": "2026-10-18T00:00:00.000Z",
       "samples": [
         {
@@ -85,10 +85,10 @@
         }
       ],
       "centroid": {
-        "lat": 46.6989,
-        "lng": 32.3368
+        "lat": 46.6944,
+        "lng": 32.3567
       },
-      "radiusKm": 41.2
+      "radiusKm": 39.1
     },
     {
       "zoneId": "lib-snake",
@@ -97,14 +97,14 @@
         "lat": 45.2551,
         "lng": 30.2033
       },
-      "eventCount": 45,
+      "eventCount": 46,
       "kinds": {
-        "other": 11,
+        "other": 12,
         "combat": 30,
         "strike": 4
       },
       "tierCounts": {
-        "approximate": 45
+        "approximate": 46
       },
       "combatCount": 34,
       "newestIsoDate": "2026-10-18T14:55:00.000Z",
@@ -126,10 +126,51 @@
         }
       ],
       "centroid": {
-        "lat": 46.5269,
-        "lng": 30.5137
+        "lat": 46.5255,
+        "lng": 30.5186
       },
-      "radiusKm": 32.9
+      "radiusKm": 32.4
+    },
+    {
+      "zoneId": "occ-donetsk",
+      "region": "Donetsk Oblast",
+      "center": {
+        "lat": 47.8,
+        "lng": 37.5
+      },
+      "eventCount": 36,
+      "kinds": {
+        "other": 26,
+        "combat": 9,
+        "strike": 1
+      },
+      "tierCounts": {
+        "approximate": 36
+      },
+      "combatCount": 10,
+      "newestIsoDate": "2026-10-18T20:53:00.000Z",
+      "samples": [
+        {
+          "id": "news-c65b0f",
+          "isoDate": "2026-10-18T20:53:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175727-war-update-173-clashes-on-front-line-fiercest-fighting-in-pokrovsk-sector.html"
+        },
+        {
+          "id": "news-104dpxs",
+          "isoDate": "2026-10-18T09:52:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175614-ukrainian-forces-strike-russian-drone-launch-site-near-donetsk.html"
+        },
+        {
+          "id": "gdelt-1328520319",
+          "isoDate": "2026-10-18T00:00:00.000Z",
+          "sourceUrl": "https://jowhar.com/russia-says-ukraines-territorial-gains-are-an-illusion-officials-claim/"
+        }
+      ],
+      "centroid": {
+        "lat": 48.4757,
+        "lng": 37.5984
+      },
+      "radiusKm": 39.3
     },
     {
       "zoneId": "occ-kharkiv",
@@ -138,14 +179,14 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 38,
+      "eventCount": 36,
       "kinds": {
-        "other": 29,
+        "other": 27,
         "combat": 8,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 38
+        "approximate": 36
       },
       "combatCount": 9,
       "newestIsoDate": "2026-10-18T17:31:00.000Z",
@@ -167,51 +208,10 @@
         }
       ],
       "centroid": {
-        "lat": 49.8403,
-        "lng": 36.5219
+        "lat": 49.8325,
+        "lng": 36.5369
       },
-      "radiusKm": 44.1
-    },
-    {
-      "zoneId": "occ-donetsk",
-      "region": "Donetsk Oblast",
-      "center": {
-        "lat": 47.8,
-        "lng": 37.5
-      },
-      "eventCount": 36,
-      "kinds": {
-        "other": 26,
-        "combat": 9,
-        "strike": 1
-      },
-      "tierCounts": {
-        "approximate": 36
-      },
-      "combatCount": 10,
-      "newestIsoDate": "2026-10-18T09:52:00.000Z",
-      "samples": [
-        {
-          "id": "news-104dpxs",
-          "isoDate": "2026-10-18T09:52:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175614-ukrainian-forces-strike-russian-drone-launch-site-near-donetsk.html"
-        },
-        {
-          "id": "gdelt-1328520319",
-          "isoDate": "2026-10-18T00:00:00.000Z",
-          "sourceUrl": "https://jowhar.com/russia-says-ukraines-territorial-gains-are-an-illusion-officials-claim/"
-        },
-        {
-          "id": "gdelt-1328520353",
-          "isoDate": "2026-10-18T00:00:00.000Z",
-          "sourceUrl": "https://jowhar.com/russia-says-ukraines-territorial-gains-are-an-illusion-officials-claim/"
-        }
-      ],
-      "centroid": {
-        "lat": 48.459,
-        "lng": 37.579
-      },
-      "radiusKm": 42.4
+      "radiusKm": 46
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -302,15 +302,15 @@
         "lat": 50.9077,
         "lng": 34.7981
       },
-      "eventCount": 16,
+      "eventCount": 14,
       "kinds": {
         "other": 11,
-        "combat": 5
+        "combat": 3
       },
       "tierCounts": {
-        "approximate": 16
+        "approximate": 14
       },
-      "combatCount": 5,
+      "combatCount": 3,
       "newestIsoDate": "2026-10-18T13:18:00.000Z",
       "samples": [
         {
@@ -330,10 +330,10 @@
         }
       ],
       "centroid": {
-        "lat": 50.6195,
-        "lng": 34.6526
+        "lat": 50.5764,
+        "lng": 34.6315
       },
-      "radiusKm": 73
+      "radiusKm": 79.8
     },
     {
       "zoneId": "occ-luhansk",
