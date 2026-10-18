@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-18T14:07:54.106Z",
+  "collectedAt": "2026-10-18T16:44:53.174Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 229,
-  "outsideTheatreDropped": 6,
+  "coarseGdeltDropped": 247,
+  "outsideTheatreDropped": 4,
   "proposals": [
     {
       "zoneId": "lib-kyiv",
@@ -15,18 +15,23 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 616,
+      "eventCount": 670,
       "kinds": {
-        "other": 441,
-        "combat": 152,
-        "strike": 23
+        "other": 472,
+        "combat": 172,
+        "strike": 26
       },
       "tierCounts": {
-        "approximate": 616
+        "approximate": 670
       },
-      "combatCount": 175,
-      "newestIsoDate": "2026-10-18T12:25:00.000Z",
+      "combatCount": 198,
+      "newestIsoDate": "2026-10-18T16:32:00.000Z",
       "samples": [
+        {
+          "id": "news-esznhi",
+          "isoDate": "2026-10-18T16:32:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175695-russian-forces-launch-another-attack-on-critical-infrastructure-in-vinnytsia-region.html"
+        },
         {
           "id": "news-ulg5bn",
           "isoDate": "2026-10-18T12:25:00.000Z",
@@ -36,18 +41,13 @@
           "id": "news-zz2pep",
           "isoDate": "2026-10-18T12:23:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175648-fire-at-volyn-enterprise-contained-after-russian-attack.html"
-        },
-        {
-          "id": "news-1xdxqq0",
-          "isoDate": "2026-10-18T10:31:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/87408"
         }
       ],
       "centroid": {
-        "lat": 50.3864,
-        "lng": 30.2331
+        "lat": 50.3754,
+        "lng": 30.2279
       },
-      "radiusKm": 40.2
+      "radiusKm": 41.3
     },
     {
       "zoneId": "occ-kherson",
@@ -56,14 +56,14 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 78,
+      "eventCount": 76,
       "kinds": {
-        "other": 40,
+        "other": 38,
         "combat": 32,
         "strike": 6
       },
       "tierCounts": {
-        "approximate": 78
+        "approximate": 76
       },
       "combatCount": 38,
       "newestIsoDate": "2026-10-18T00:00:00.000Z",
@@ -85,10 +85,51 @@
         }
       ],
       "centroid": {
-        "lat": 46.7211,
-        "lng": 32.2962
+        "lat": 46.7234,
+        "lng": 32.2863
       },
-      "radiusKm": 46.2
+      "radiusKm": 47.1
+    },
+    {
+      "zoneId": "lib-snake",
+      "region": "Snake Island",
+      "center": {
+        "lat": 45.2551,
+        "lng": 30.2033
+      },
+      "eventCount": 46,
+      "kinds": {
+        "other": 14,
+        "combat": 28,
+        "strike": 4
+      },
+      "tierCounts": {
+        "approximate": 46
+      },
+      "combatCount": 32,
+      "newestIsoDate": "2026-10-18T14:55:00.000Z",
+      "samples": [
+        {
+          "id": "news-mtr4wn",
+          "isoDate": "2026-10-18T14:55:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175674-fire-extinguished-in-odesa-apartment-building-following-russian-attack.html"
+        },
+        {
+          "id": "news-1g2y83s",
+          "isoDate": "2026-10-18T10:26:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175622-russian-forces-hit-apartment-building-in-odesa-injure-child.html"
+        },
+        {
+          "id": "news-1xdxqrq",
+          "isoDate": "2026-10-18T10:23:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/87424"
+        }
+      ],
+      "centroid": {
+        "lat": 46.5255,
+        "lng": 30.5186
+      },
+      "radiusKm": 32.4
     },
     {
       "zoneId": "occ-kharkiv",
@@ -97,14 +138,14 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 41,
+      "eventCount": 40,
       "kinds": {
-        "other": 32,
+        "other": 31,
         "combat": 8,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 41
+        "approximate": 40
       },
       "combatCount": 9,
       "newestIsoDate": "2026-10-18T13:04:00.000Z",
@@ -126,51 +167,10 @@
         }
       ],
       "centroid": {
-        "lat": 49.8506,
-        "lng": 36.5022
+        "lat": 49.8471,
+        "lng": 36.509
       },
-      "radiusKm": 41.5
-    },
-    {
-      "zoneId": "lib-snake",
-      "region": "Snake Island",
-      "center": {
-        "lat": 45.2551,
-        "lng": 30.2033
-      },
-      "eventCount": 41,
-      "kinds": {
-        "other": 12,
-        "combat": 25,
-        "strike": 4
-      },
-      "tierCounts": {
-        "approximate": 41
-      },
-      "combatCount": 29,
-      "newestIsoDate": "2026-10-18T10:26:00.000Z",
-      "samples": [
-        {
-          "id": "news-1g2y83s",
-          "isoDate": "2026-10-18T10:26:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175622-russian-forces-hit-apartment-building-in-odesa-injure-child.html"
-        },
-        {
-          "id": "news-1xdxqrq",
-          "isoDate": "2026-10-18T10:23:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/87424"
-        },
-        {
-          "id": "news-ulfkgw",
-          "isoDate": "2026-10-18T10:03:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/18/8058597/"
-        }
-      ],
-      "centroid": {
-        "lat": 46.5327,
-        "lng": 30.4919
-      },
-      "radiusKm": 35.4
+      "radiusKm": 42.3
     },
     {
       "zoneId": "occ-donetsk",
@@ -179,14 +179,14 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 37,
+      "eventCount": 35,
       "kinds": {
-        "other": 27,
+        "other": 25,
         "combat": 9,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 37
+        "approximate": 35
       },
       "combatCount": 10,
       "newestIsoDate": "2026-10-18T09:52:00.000Z",
@@ -208,10 +208,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.4184,
-        "lng": 37.5504
+        "lat": 48.4514,
+        "lng": 37.5796
       },
-      "radiusKm": 46.9
+      "radiusKm": 43.1
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -220,39 +220,39 @@
         "lat": 47,
         "lng": 35.5
       },
-      "eventCount": 36,
+      "eventCount": 34,
       "kinds": {
-        "other": 21,
+        "other": 19,
         "combat": 11,
         "strike": 4
       },
       "tierCounts": {
-        "approximate": 36
+        "approximate": 34
       },
       "combatCount": 15,
-      "newestIsoDate": "2026-10-18T10:37:00.000Z",
+      "newestIsoDate": "2026-10-18T15:32:00.000Z",
       "samples": [
+        {
+          "id": "news-ulg76k",
+          "isoDate": "2026-10-18T15:32:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/18/8058638/"
+        },
+        {
+          "id": "news-1cgpd32",
+          "isoDate": "2026-10-18T14:30:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175673-malokaterynivka-in-zaporizhzhia-region-remains-under-ukrainian-control-ccd.html"
+        },
         {
           "id": "news-1r5443p",
           "isoDate": "2026-10-18T10:37:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175623-russian-forces-attack-critical-infrastructure-facility-in-dnipro.html"
-        },
-        {
-          "id": "news-123vdf0",
-          "isoDate": "2026-10-18T05:48:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175554-russian-forces-attack-dnipropetrovsk-region-over-10-times-overnight-injuring-three.html"
-        },
-        {
-          "id": "news-14nuaqu",
-          "isoDate": "2026-10-18T03:40:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175539-woman-killed-in-russian-attack-on-zaporizhzhia.html"
         }
       ],
       "centroid": {
-        "lat": 48.0009,
-        "lng": 35.2735
+        "lat": 47.9375,
+        "lng": 35.2919
       },
-      "radiusKm": 39.9
+      "radiusKm": 34.7
     },
     {
       "zoneId": "occ-crimea",
@@ -261,15 +261,15 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 20,
+      "eventCount": 22,
       "kinds": {
-        "combat": 15,
+        "combat": 17,
         "other": 5
       },
       "tierCounts": {
-        "approximate": 20
+        "approximate": 22
       },
-      "combatCount": 15,
+      "combatCount": 17,
       "newestIsoDate": "2026-10-18T00:00:00.000Z",
       "samples": [
         {
@@ -289,10 +289,10 @@
         }
       ],
       "centroid": {
-        "lat": 45.4646,
-        "lng": 33.8694
+        "lat": 45.4938,
+        "lng": 33.8505
       },
-      "radiusKm": 46.4
+      "radiusKm": 45
     },
     {
       "zoneId": "lib-sumy",
@@ -310,8 +310,13 @@
         "approximate": 16
       },
       "combatCount": 5,
-      "newestIsoDate": "2026-10-18T11:47:00.000Z",
+      "newestIsoDate": "2026-10-18T13:18:00.000Z",
       "samples": [
+        {
+          "id": "news-ulg5i2",
+          "isoDate": "2026-10-18T13:18:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/18/8058618/"
+        },
         {
           "id": "news-ulg4nt",
           "isoDate": "2026-10-18T11:47:00.000Z",
@@ -321,18 +326,13 @@
           "id": "news-39almz",
           "isoDate": "2026-10-18T08:46:15.000Z",
           "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1MMmM2eGJ6OUlKNWpvemZfNzZ4R2ItSkRncXlpMk5CU2EzdVBfOVB3LV9pTG82MVVHSlRVY01uM2FFc21DaWkwb3hiOA?oc=5"
-        },
-        {
-          "id": "news-1xdxqpz",
-          "isoDate": "2026-10-18T08:43:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/87407"
         }
       ],
       "centroid": {
-        "lat": 50.702,
-        "lng": 34.6682
+        "lat": 50.6195,
+        "lng": 34.6526
       },
-      "radiusKm": 63.5
+      "radiusKm": 73
     },
     {
       "zoneId": "occ-luhansk",
