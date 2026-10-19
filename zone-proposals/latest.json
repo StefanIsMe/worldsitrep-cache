@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-19T00:00:01.960Z",
+  "collectedAt": "2026-10-19T00:26:25.156Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 222,
+  "coarseGdeltDropped": 216,
   "outsideTheatreDropped": 4,
   "proposals": [
     {
@@ -15,39 +15,80 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 656,
+      "eventCount": 674,
       "kinds": {
-        "other": 451,
-        "combat": 176,
-        "strike": 29
+        "combat": 189,
+        "other": 455,
+        "strike": 30
       },
       "tierCounts": {
-        "approximate": 656
+        "approximate": 674
       },
-      "combatCount": 205,
-      "newestIsoDate": "2026-10-18T19:34:00.000Z",
+      "combatCount": 219,
+      "newestIsoDate": "2026-10-19T00:00:00.000Z",
       "samples": [
         {
-          "id": "news-1o05396",
-          "isoDate": "2026-10-18T19:34:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175721-russian-attacks-leave-19000-consumers-without-power-in-ternopil-region.html"
+          "id": "gdelt-1328611533",
+          "isoDate": "2026-10-19T00:00:00.000Z",
+          "sourceUrl": "https://www.yourlocalguardian.co.uk/news/national/26647121.ukraine-launches-1-000-drones-russia-amid-ongoing-trump-zelensky-spat/"
         },
         {
-          "id": "news-gxrzcj",
-          "isoDate": "2026-10-18T19:10:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175718-russian-forces-strike-industrial-facility-in-rivne-region.html"
+          "id": "gdelt-1328611537",
+          "isoDate": "2026-10-19T00:00:00.000Z",
+          "sourceUrl": "https://yourdemocracy.net/drupal/node/61475"
         },
         {
-          "id": "news-esznhi",
-          "isoDate": "2026-10-18T16:32:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175695-russian-forces-launch-another-attack-on-critical-infrastructure-in-vinnytsia-region.html"
+          "id": "gdelt-1328612216",
+          "isoDate": "2026-10-19T00:00:00.000Z",
+          "sourceUrl": "https://www.northcountrypublicradio.org/news/npr/nx-s1-6007382/ukraine-and-the-u-s-are-at-odds-over-starshield-here-s-what-to-know"
         }
       ],
       "centroid": {
-        "lat": 50.3741,
-        "lng": 30.2056
+        "lat": 50.3754,
+        "lng": 30.2203
       },
-      "radiusKm": 43.9
+      "radiusKm": 42.1
+    },
+    {
+      "zoneId": "lib-snake",
+      "region": "Snake Island",
+      "center": {
+        "lat": 45.2551,
+        "lng": 30.2033
+      },
+      "eventCount": 48,
+      "kinds": {
+        "other": 14,
+        "combat": 30,
+        "strike": 4
+      },
+      "tierCounts": {
+        "approximate": 48
+      },
+      "combatCount": 34,
+      "newestIsoDate": "2026-10-19T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1328612375",
+          "isoDate": "2026-10-19T00:00:00.000Z",
+          "sourceUrl": "https://www.spokesman.com/stories/2026/oct/18/russia-ukraine-keep-up-attacks-as-zelenskyy-renews/"
+        },
+        {
+          "id": "gdelt-1328612411",
+          "isoDate": "2026-10-19T00:00:00.000Z",
+          "sourceUrl": "https://www.spokesman.com/stories/2026/oct/18/russia-ukraine-keep-up-attacks-as-zelenskyy-renews/"
+        },
+        {
+          "id": "news-mtr4wn",
+          "isoDate": "2026-10-18T14:55:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175674-fire-extinguished-in-odesa-apartment-building-following-russian-attack.html"
+        }
+      ],
+      "centroid": {
+        "lat": 46.523,
+        "lng": 30.5277
+      },
+      "radiusKm": 31.3
     },
     {
       "zoneId": "occ-kherson",
@@ -56,16 +97,16 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 60,
+      "eventCount": 42,
       "kinds": {
-        "other": 33,
-        "combat": 23,
+        "other": 29,
+        "combat": 9,
         "strike": 4
       },
       "tierCounts": {
-        "approximate": 60
+        "approximate": 42
       },
-      "combatCount": 27,
+      "combatCount": 13,
       "newestIsoDate": "2026-10-18T22:25:00.000Z",
       "samples": [
         {
@@ -85,51 +126,51 @@
         }
       ],
       "centroid": {
-        "lat": 46.6877,
-        "lng": 32.3879
+        "lat": 46.724,
+        "lng": 32.3335
       },
-      "radiusKm": 35.8
+      "radiusKm": 46
     },
     {
-      "zoneId": "lib-snake",
-      "region": "Snake Island",
+      "zoneId": "occ-crimea",
+      "region": "Crimea",
       "center": {
-        "lat": 45.2551,
-        "lng": 30.2033
+        "lat": 45.3453,
+        "lng": 34.4997
       },
-      "eventCount": 46,
+      "eventCount": 40,
       "kinds": {
-        "other": 12,
-        "combat": 30,
-        "strike": 4
+        "combat": 22,
+        "other": 15,
+        "strike": 3
       },
       "tierCounts": {
-        "approximate": 46
+        "approximate": 40
       },
-      "combatCount": 34,
-      "newestIsoDate": "2026-10-18T14:55:00.000Z",
+      "combatCount": 25,
+      "newestIsoDate": "2026-10-19T00:00:00.000Z",
       "samples": [
         {
-          "id": "news-mtr4wn",
-          "isoDate": "2026-10-18T14:55:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175674-fire-extinguished-in-odesa-apartment-building-following-russian-attack.html"
+          "id": "gdelt-1328611979",
+          "isoDate": "2026-10-19T00:00:00.000Z",
+          "sourceUrl": "https://japantoday.com/category/world/ukraine-sets-saint-petersburg-refinery-ablaze-in-large-scale-drone-attack"
         },
         {
-          "id": "news-1g2y83s",
-          "isoDate": "2026-10-18T10:26:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175622-russian-forces-hit-apartment-building-in-odesa-injure-child.html"
+          "id": "gdelt-1328613691",
+          "isoDate": "2026-10-19T00:00:00.000Z",
+          "sourceUrl": "https://www.hindustantimes.com/world-news/us-news/zelensky-speaks-to-us-envoys-as-trump-lashes-out-101792363480724.html"
         },
         {
-          "id": "news-1xdxqrq",
-          "isoDate": "2026-10-18T10:23:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/87424"
+          "id": "gdelt-1328613692",
+          "isoDate": "2026-10-19T00:00:00.000Z",
+          "sourceUrl": "https://www.hindustantimes.com/world-news/us-news/zelensky-speaks-to-us-envoys-as-trump-lashes-out-101792363480724.html"
         }
       ],
       "centroid": {
-        "lat": 46.5255,
-        "lng": 30.5186
+        "lat": 45.6328,
+        "lng": 33.7822
       },
-      "radiusKm": 32.4
+      "radiusKm": 30.8
     },
     {
       "zoneId": "occ-kharkiv",
@@ -171,47 +212,6 @@
         "lng": 36.5369
       },
       "radiusKm": 46
-    },
-    {
-      "zoneId": "occ-crimea",
-      "region": "Crimea",
-      "center": {
-        "lat": 45.3453,
-        "lng": 34.4997
-      },
-      "eventCount": 36,
-      "kinds": {
-        "combat": 20,
-        "other": 13,
-        "strike": 3
-      },
-      "tierCounts": {
-        "approximate": 36
-      },
-      "combatCount": 23,
-      "newestIsoDate": "2026-10-18T00:00:00.000Z",
-      "samples": [
-        {
-          "id": "gdelt-1328535661",
-          "isoDate": "2026-10-18T00:00:00.000Z",
-          "sourceUrl": "https://www.aol.co.uk/articles/putins-home-town-fire-major-071500000.html"
-        },
-        {
-          "id": "gdelt-1328535972",
-          "isoDate": "2026-10-18T00:00:00.000Z",
-          "sourceUrl": "https://www.aol.co.uk/articles/putins-home-town-fire-major-071500000.html"
-        },
-        {
-          "id": "gdelt-1328535979",
-          "isoDate": "2026-10-18T00:00:00.000Z",
-          "sourceUrl": "https://www.aol.co.uk/articles/putins-home-town-fire-major-071500000.html"
-        }
-      ],
-      "centroid": {
-        "lat": 45.6158,
-        "lng": 33.7957
-      },
-      "radiusKm": 33.2
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -261,14 +261,14 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 29,
+      "eventCount": 28,
       "kinds": {
-        "other": 22,
+        "other": 21,
         "combat": 6,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 29
+        "approximate": 28
       },
       "combatCount": 7,
       "newestIsoDate": "2026-10-18T20:53:00.000Z",
@@ -290,10 +290,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.416,
-        "lng": 37.6086
+        "lat": 48.4051,
+        "lng": 37.6105
       },
-      "radiusKm": 43.7
+      "radiusKm": 44.4
     },
     {
       "zoneId": "lib-sumy",
