@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "ukraine",
-  "collectedAt": "2026-10-19T17:06:07.742Z",
+  "collectedAt": "2026-10-19T17:43:19.428Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 256
+      "count": 32
     },
     {
       "id": "kyiv-independent",
@@ -49,7 +49,7 @@
       "id": "interfax-ukraine",
       "url": "https://en.interfax.com.ua/news/last.rss",
       "status": "ok",
-      "count": 11
+      "count": 12
     },
     {
       "id": "rferl-ukraine-war",
@@ -98,6 +98,338 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-5uidtq",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:39:34.000Z",
+      "description": "Following Russian strike on park in Nova Vodolaha, Zelenskyy urges against lifting sanctions, calls for application of Graham Act (Interfax-Ukraine, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Interfax-Ukraine",
+      "axis": "Other",
+      "tags": [
+        "Interfax-Ukraine",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Nova Vodolaha",
+      "source": "Interfax-Ukraine",
+      "sourceUrl": "https://en.interfax.com.ua/news/general/1222799.html",
+      "lat": 49.71812,
+      "lng": 35.86016,
+      "coordsNote": "OSM geocode: matched \"Nova Vodolaha\" → Nova Vodolaha, Нововодолазька селищна громада, Kharkiv Raion; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-vpub0k",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:37:00.000Z",
+      "description": "Russians attack Khmelnytskyi: three injured, homes and business damaged (Ukrainska Pravda, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Khmelnytskyi",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/19/8058789/",
+      "lat": 49.42,
+      "lng": 26.99,
+      "coordsNote": "Headline gazetteer match: \"Khmelnytskyi\" (city); verify via source article."
+    },
+    {
+      "id": "news-1dwcv2z",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:35:00.000Z",
+      "description": "Republicans threaten to block Pentagon funding unless Trump takes tougher stance on Russia (Ukrinform, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrinform",
+      "axis": "Other",
+      "tags": [
+        "Ukrinform",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrinform",
+      "source": "Ukrinform",
+      "sourceUrl": "https://www.ukrinform.net/rubric-polytics/4176049-republicans-threaten-to-block-pentagon-funding-unless-trump-takes-tougher-stance-on-russia.html"
+    },
+    {
+      "id": "news-vpu9zw",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:33:00.000Z",
+      "description": "Russian attack on park in Kharkiv Oblast: six killed, including three children, 15 injured – photos (Ukrainska Pravda, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kharkiv region",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/19/8058772/",
+      "lat": 49.99,
+      "lng": 36.23,
+      "coordsNote": "Headline gazetteer match: \"Kharkiv\" (region); verify via source article."
+    },
+    {
+      "id": "news-f7zf5g",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:24:40.000Z",
+      "description": "Ukraine war live: Kyiv claims it carried out first ever medical evacuation via drone - The Independent (The Independent, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Independent",
+      "axis": "Other",
+      "tags": [
+        "The Independent",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Independent",
+      "source": "The Independent",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSTUydGU0cnFZM19NR1h5WTR3NFZ3dFgxdGYtN1JPRzl5NjNfWERaZFJqeC1ORjBfaXBwMkcydTdDTms0MEx0ckk2ZEZGY1h5VmdUejNHUENneDhHSlFGUVozQlcwY21TSnMxcFlkRmNkMm9fR2FLekJpZXhuaHpMY2gyN2lOX0ZLQlZBd2gwY3dEcU5lMHRJZlMwU1dSb2lrVUxYZUlDS011dDRsLWVFcnJqOWV0cjI3SzhIeFYzbEs0UVRtN0ZB?oc=5"
+    },
+    {
+      "id": "news-1jipsql",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:22:27.000Z",
+      "description": "Three military personnel and three police officers wounded at TCK office in Kyiv’s Pechersk district – police (Interfax-Ukraine, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Interfax-Ukraine",
+      "axis": "Other",
+      "tags": [
+        "Interfax-Ukraine",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kyiv",
+      "source": "Interfax-Ukraine",
+      "sourceUrl": "https://en.interfax.com.ua/news/general/1222789.html",
+      "lat": 50.45,
+      "lng": 30.52,
+      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
+    },
+    {
+      "id": "news-1ypjg8",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:21:57.000Z",
+      "description": "URCS providing assistance at site of Russian drone attack in Mykolaiv (Interfax-Ukraine, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Interfax-Ukraine",
+      "axis": "Other",
+      "tags": [
+        "Interfax-Ukraine",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Mykolaiv",
+      "source": "Interfax-Ukraine",
+      "sourceUrl": "https://en.interfax.com.ua/news/general/1222793.html",
+      "lat": 46.98,
+      "lng": 31.99,
+      "coordsNote": "Headline gazetteer match: \"Mykolaiv\" (city); verify via source article."
+    },
+    {
+      "id": "news-1i846m3",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:15:34.000Z",
+      "description": "Biletsky reports expanded control in Luhansk region following Operation Vivaldi (Interfax-Ukraine, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Interfax-Ukraine",
+      "axis": "Other",
+      "tags": [
+        "Interfax-Ukraine",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Luhansk region",
+      "source": "Interfax-Ukraine",
+      "sourceUrl": "https://en.interfax.com.ua/news/general/1222787.html",
+      "lat": 48.57,
+      "lng": 39.3,
+      "coordsNote": "Headline gazetteer match: \"Luhansk\" (region); verify via source article."
+    },
+    {
+      "id": "news-1kf9w2o",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:12:33.000Z",
+      "description": "Pope Leo urges Zelenskiy to cooperate with Russia on aid for Oleshky - Reuters (Reuters, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Reuters",
+      "axis": "Other",
+      "tags": [
+        "Reuters",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Reuters",
+      "source": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSW9IQmgyc3g5S1pkQnhhdDdwTUtYX3NBdWtHQ3M3b3FuT3NZQWhrcklpYmpWMnhTSUs1Nl9rV0h5dWpNR1Y5M2M5eHFnWHBucWwxVjFzRWZ4bmZMYmZLRDhsNVIxUndMOWl4ODFBNURiT2I3eG83ckgyYVllT2h0dDNxS0s1OTJzOThYZzUxZ3Z5eHFqUkFZSnozcXNaWUlSenc?oc=5"
+    },
+    {
+      "id": "news-1tb4a0d",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:12:00.000Z",
+      "description": "Ukrainian air defenses down 418 out of 463 Russian attack drones in 24 hours (Ukrinform, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrinform",
+      "axis": "Other",
+      "tags": [
+        "Ukrinform",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrinform",
+      "source": "Ukrinform",
+      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4176043-ukrainian-air-defenses-down-418-out-of-463-russian-attack-drones-in-24-hours.html"
+    },
+    {
+      "id": "news-v3ckea",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:12:00.000Z",
+      "description": "Ukrainian air defenses down 418 out of 463 Russian attack drones in 24 hours - Ukrinform (Ukrinform, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrinform",
+      "axis": "Other",
+      "tags": [
+        "Ukrinform",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrinform",
+      "source": "Ukrinform",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazFhY3BrdmdSMGFnc3ZMTmIzZEFSU0JvOXNCeDhfNHFHelctaXVzcWZNNElGRTVVcTZLeHlDTGlxdk9xNVJGR0NOR2s3YUh3eTdsYTJDWEVLWVpkamdndFhaVEpZaktDd0xkRXBPZzRJRUlaczJsTWFKWC14R0lKSjV2d3RNOGRlZnNOdWdxNm90REFTQXp0a0R4UTl4VjBmUDhqakNEek1jZ1VpcVd3X0c2YVRYQ2hXZFBfNk5sZVQxQXdp0gHKAUFVX3lxTE9ENHZQRWRFaDdOZUFiUURNa3czQXZQa3lucEVmWjBUOEtXbklZOXhNMThiNWszOU8tMnc2cFNMLXZtc1U2MFE1LThXSlFHZ3d0eEk5YVFSRzFiYTdlLXF4alAwM2ZjS2VLWXhxUjF2LV9PYkxLdG41UUhrek9XdUUycnBIZTNrbjhHTlV3MkpZNVVUVE03SWNXcFdvazc0bjh0dU5ZTFBidFJNZU92R2JQS0QwV0dyd1JQWXlxOEZ2Q2NHYWZpQzA1cXc?oc=5"
+    },
+    {
+      "id": "news-ua0bau",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:09:29.000Z",
+      "description": "Biletsky announces positive results on frontlines expected in near future (Interfax-Ukraine, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Interfax-Ukraine",
+      "axis": "Other",
+      "tags": [
+        "Interfax-Ukraine",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Interfax-Ukraine",
+      "source": "Interfax-Ukraine",
+      "sourceUrl": "https://en.interfax.com.ua/news/general/1222773.html"
+    },
+    {
+      "id": "news-zfg80j",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:09:10.000Z",
+      "description": "Trump and Zelenskyy clash over how to bring Putin to negotiating table - WBMA (WBMA, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WBMA",
+      "axis": "Other",
+      "tags": [
+        "WBMA",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WBMA",
+      "source": "WBMA",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQSHdQS09BZGtTYnFJdUpsNWcxYy1heENuTmRmRmFtdkJ5cmQtYXdxN0g1M01RRTJxbEI5WVRDZ0Mtb3BwQ18zdzdaS254d0xRU3VDUXFBZnVPWFRoalBYWW1RR3RuczRGQnhBQVJpeGJWV0taSWhrdFBoYjdhNWJZVkhFM1dOU3NESDlMRG4xTHROc3ZNM3FXejVDeS1pOGNOTUs4bk1lTXEzb3YtN2tIbkF0UExxWUtqeHpLT1pQdFMtbUdOZzdWUDFiS0FQSGFpUnA1TFV3dWJRZXQ3dXl2NW1DTTcwcjFs?oc=5"
+    },
+    {
+      "id": "news-vpubut",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:07:00.000Z",
+      "description": "Kyiv shopping centre Cosmo Multimall partially reopens after overnight attack (Ukrainska Pravda, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrainska Pravda",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/19/8058799/"
+    },
+    {
+      "id": "news-13kk2bj",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T17:03:00.000Z",
+      "description": "Zelenskyy says Ukraine got no early warning from partners as Russia hits the power grid again - AP News (AP News, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AP News",
+      "axis": "Other",
+      "tags": [
+        "AP News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AP News",
+      "source": "AP News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYm9Fd0ZUSUJudF9abExqQ1dsTEFBbS1nLXRRai1VQk5GRDlXNnFQbHlXM1kzVU41YnRJT3Y5d256eGZzU1lQeFAwamJxQlJKUkFMNkt0RG9lb29SMTJMMEVJSVdreEF6QTdseWI0VzUzTG9oUWtoVEh4UmdTNE44X0tWckx6M2VtZzZNcWRwV0JKMzEy?oc=5"
+    },
+    {
+      "id": "news-1hzoo22",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T16:59:35.000Z",
+      "description": "Why Russia's war on Ukraine's data centers could backfire on Moscow (Kyiv Independent, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Independent",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Moscow",
+      "source": "Kyiv Independent",
+      "sourceUrl": "https://kyivindependent.com/why-russias-war-on-ukraines-data-centers-could-backfire-on-moscow/",
+      "lat": 55.76,
+      "lng": 37.62,
+      "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
+    },
     {
       "id": "news-14v6i0q",
       "kind": "news",
@@ -164,7 +496,7 @@
       "kind": "news",
       "date": "2026-10-19",
       "isoDate": "2026-10-19T16:38:40.000Z",
-      "description": "Russian drone strike on park in Kharkiv Oblast kills children and infant (Kyiv Independent, 2026-10-19. Headline + link only.)",
+      "description": "'Absolute atrocity' — Russian drone strike on park in Kharkiv Oblast kills children and infant (Kyiv Independent, 2026-10-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Kyiv Independent",
@@ -204,6 +536,52 @@
       "lat": 49.99,
       "lng": 36.23,
       "coordsNote": "Headline gazetteer match: \"Kharkiv\" (region); verify via source article."
+    },
+    {
+      "id": "news-vpuboe",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T16:38:00.000Z",
+      "description": "Russia has abandoned plan to outflank Donetsk Oblast via Barvinkove after Operation Vivaldi (Ukrainska Pravda, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Donetsk region",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/19/8058792/",
+      "lat": 48.02,
+      "lng": 37.8,
+      "coordsNote": "Headline gazetteer match: \"Donetsk\" (region); verify via source article."
+    },
+    {
+      "id": "news-vpubq8",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T16:35:00.000Z",
+      "description": "Commander of 3rd Army Corps explains why Lyman offensive was named Vivaldi (Ukrainska Pravda, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Lyman",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/19/8058794/",
+      "lat": 48.99,
+      "lng": 37.8,
+      "coordsNote": "Headline gazetteer match: \"Lyman\" (city); verify via source article."
     },
     {
       "id": "news-1f1aw1f",
@@ -309,6 +687,29 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQekctRlpSR2xzZmNfNGNvX0FVSXN3aUVsTm5XOWV3aldrbW42alRxV0RQZzNydWRiQkdWeXRteHZGa1FmUlZrXzJQU0VKR1RYMm5EZHctX2RHOFZyVGJQcmF5bm9FdUxPQTNweUZWbDB0bE82bmIwNU1HTW93TEFEQ0UycmlqS09OZ3c?oc=5"
     },
     {
+      "id": "news-vpuayq",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T16:14:00.000Z",
+      "description": "Russian attack damages Accounting Chamber premises in Kyiv, building not fit for purpose – photos (Ukrainska Pravda, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrainska Pravda",
+      "axis": "Other",
+      "tags": [
+        "Ukrainska Pravda",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kyiv",
+      "source": "Ukrainska Pravda",
+      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/19/8058787/",
+      "lat": 50.45,
+      "lng": 30.52,
+      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
+    },
+    {
       "id": "news-in9d1f",
       "kind": "news",
       "date": "2026-10-19",
@@ -326,29 +727,6 @@
       "locationStr": "France 24",
       "source": "France 24",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSWpRYUdvSnlTOWNmdjBYbzJPcHpkYktWdDlCLXlVak9lQ1pnMEtieEtGbUhJeENFUHJDd3ZkXzJWbG4tX2JLdi04T3lMTHdYSWNIUnQ3Sm56a3N6MVpwakZlcF9mTTh5OHBHaUJtYmV3VUtTQjhnMHB0YjA0ak4ybVJVV0NPdzc2Undfb1RNd3FZMTExM09PZzhWLWtYdEVESkdj?oc=5"
-    },
-    {
-      "id": "news-vpub0k",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T16:07:00.000Z",
-      "description": "Russians attack Khmelnytskyi: three injured, homes and business damaged (Ukrainska Pravda, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Khmelnytskyi",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/19/8058789/",
-      "lat": 49.42,
-      "lng": 26.99,
-      "coordsNote": "Headline gazetteer match: \"Khmelnytskyi\" (city); verify via source article."
     },
     {
       "id": "news-20rnkj",
@@ -416,7 +794,7 @@
       "kind": "news",
       "date": "2026-10-19",
       "isoDate": "2026-10-19T15:53:39.000Z",
-      "description": "Russian Drone Strikes Park in Kharkiv Region, Leaves Infant and 2 Women Dead, 14 Wounded (Kyiv Post, 2026-10-19. Headline + link only.)",
+      "description": "Russian Drone Strikes Park in Kharkiv Region, Leaves Infant and 5 Others Dead, 15 Wounded (Kyiv Post, 2026-10-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Kyiv Post",
@@ -498,25 +876,6 @@
       "lat": 46.98,
       "lng": 31.99,
       "coordsNote": "Headline gazetteer match: \"Mykolaiv\" (region); verify via source article."
-    },
-    {
-      "id": "news-f7zf5g",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T15:36:25.000Z",
-      "description": "Ukraine war live: Kyiv ‘has reclaimed more land than Moscow has captured in autumn’ - The Independent (The Independent, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Independent",
-      "axis": "Other",
-      "tags": [
-        "The Independent",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Independent",
-      "source": "The Independent",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSTUydGU0cnFZM19NR1h5WTR3NFZ3dFgxdGYtN1JPRzl5NjNfWERaZFJqeC1ORjBfaXBwMkcydTdDTms0MEx0ckk2ZEZGY1h5VmdUejNHUENneDhHSlFGUVozQlcwY21TSnMxcFlkRmNkMm9fR2FLekJpZXhuaHpMY2gyN2lOX0ZLQlZBd2gwY3dEcU5lMHRJZlMwU1dSb2lrVUxYZUlDS011dDRsLWVFcnJqOWV0cjI3SzhIeFYzbEs0UVRtN0ZB?oc=5"
     },
     {
       "id": "news-v2txxl",
@@ -768,29 +1127,6 @@
       "locationStr": "Kyiv Post",
       "source": "Kyiv Post",
       "sourceUrl": "https://www.kyivpost.com/post/87527"
-    },
-    {
-      "id": "news-vpu9zw",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T14:51:00.000Z",
-      "description": "Russian attack on park in Kharkiv Oblast: six killed, including three children, 15 injured – photos (Ukrainska Pravda, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kharkiv region",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/19/8058772/",
-      "lat": 49.99,
-      "lng": 36.23,
-      "coordsNote": "Headline gazetteer match: \"Kharkiv\" (region); verify via source article."
     },
     {
       "id": "news-fezwgl",
@@ -1128,6 +1464,25 @@
       "sourceUrl": "https://www.kyivpost.com/post/87523"
     },
     {
+      "id": "news-1l0b02w",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T14:20:03.000Z",
+      "description": "Tennis star Svitolina says emotional toll of Ukraine war led to Monfils separation - BBC (BBC, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BBC",
+      "axis": "Other",
+      "tags": [
+        "BBC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "BBC",
+      "source": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lMWJPZlVZLXVKaHAwSEotRFFIWkVCNEtOSlFWWVNiWWNNczFaTlZCNzNzZHNoN21RNnZVV001WlVNLU5uWHc2TjZHVWNjblRjZ3ZpeFE5eEN6UTdtN3c?oc=5"
+    },
+    {
       "id": "news-4yf1u0",
       "kind": "news",
       "date": "2026-10-19",
@@ -1145,6 +1500,25 @@
       "locationStr": "BBC",
       "source": "BBC",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5udnhBejAzQzZIeHRuYVp2N0s5alNvR3dKS0dfdmRMbFVhX0FjRDY5VXBqOWJXVzg3OEs4ZzhlaHF6bnNMNDhtSmhQaWo2QTRhc0h2endmQUNpcGM?oc=5"
+    },
+    {
+      "id": "news-1wadypz",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T14:16:48.000Z",
+      "description": "Zelensky says Ukraine got no early warning from partners as Russia hits the power grid again - Los Angeles Times (Los Angeles Times, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Los Angeles Times",
+      "axis": "Other",
+      "tags": [
+        "Los Angeles Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Los Angeles Times",
+      "source": "Los Angeles Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRVhDVEZwRVQ0ZEdxRzY4cTI4RF81NDV3ZkVoaHotbXB2NzNMcnF3aHdkVVBWZ0pXTEFvRW02SmVEaVJRTm5vb3MzN1lvYUlUcG1Ndnh3aW5Db3B2REctNXVvV0RFV190ZlU0TnlNazdKQTE1YmprWDhUUS00TmEwcUppdnVHOGtzeHNqU19JSHViT3lVY2ZYa0MxNFNMVDAtdlBScE15WkZfeUgtLXBVLUF3VVZzUmJLNUZCU3dRQUdQcUxrSUJjejBIV2o5eXQ3QTg1VGlnVHZZdw?oc=5"
     },
     {
       "id": "news-cgnfld",
@@ -1240,25 +1614,6 @@
       "locationStr": "Ukrinform",
       "source": "Ukrinform",
       "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175974-poland-scrambles-military-aircraft-for-second-time-in-response-to-russian-attack-on-ukraine.html"
-    },
-    {
-      "id": "news-13kk2bj",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T13:58:00.000Z",
-      "description": "Zelenskyy says Ukraine got no early warning from partners as Russia hits the power grid again - AP News (AP News, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AP News",
-      "axis": "Other",
-      "tags": [
-        "AP News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYm9Fd0ZUSUJudF9abExqQ1dsTEFBbS1nLXRRai1VQk5GRDlXNnFQbHlXM1kzVU41YnRJT3Y5d256eGZzU1lQeFAwamJxQlJKUkFMNkt0RG9lb29SMTJMMEVJSVdreEF6QTdseWI0VzUzTG9oUWtoVEh4UmdTNE44X0tWckx6M2VtZzZNcWRwV0JKMzEy?oc=5"
     },
     {
       "id": "news-10776bt",
@@ -2202,6 +2557,25 @@
       "coordsNote": "Headline gazetteer match: \"Donbas\" (region); verify via source article."
     },
     {
+      "id": "news-19b9p77",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T11:05:13.000Z",
+      "description": "Zelenskyy says Ukraine got no early warning from partners as Russia hits the power grid again - NBC News (NBC News, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc09jdDZEc0dpVEVwMmVyUG95NzBuM0xMOHFXd0xMRHdHSEdvREZfUFJBa3hoZ3NUZy10NEc1d2xvMXNBNDNwUzUyTHJORjlxOU1ra3c2X3dLbWVBcnpGSzkzUkFNTGtYTGJicUQ1R0tYNEpfZXdkWnM0ajFpUzJ6MHRDWUhXSGZQckFtN1oxN0VlbHl0Z2haMHRIWUNBa0FWUU1wbTd2QnpuN3hOS1FWOWFseEstZ2s3dm1F?oc=5"
+    },
+    {
       "id": "news-1xpqb6l",
       "kind": "news",
       "date": "2026-10-19",
@@ -2812,6 +3186,25 @@
       "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
     },
     {
+      "id": "news-1jrnijd",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T09:40:24.000Z",
+      "description": "Zelenskyy says Ukraine got no early warning from partners as Russia hits the power grid again - WSAV-TV (WSAV-TV, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSAV-TV",
+      "axis": "Other",
+      "tags": [
+        "WSAV-TV",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WSAV-TV",
+      "source": "WSAV-TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNG9nekdnOC1nSktULW9PaTlHWmdPNlpLRTNKLVoxOXVRNERPQVppdlZiTWtTY1JiVWFTRUU1Z0lRQW9QdXFDN04tclhGeWNWeHRBQXVOdC1MZnFkYk5jVmZkOW1wR0RzUFdOcDItTFRMSE4zQXVkLXVWaEI1TENpVDFzYXpvQVVEQjZULTRjWjY1cnlBRm5ySkhkbW12cXNTb1AwUWl0cHVwLVRFdk5ZbmZqb1hQOXZib3fSAb8BQVVfeXFMTTJmQ3FmNFFOMDZ3S0QwQWVoQ0FRaE41Nlg5NGFkd04yYTVlSXpBTGNpMF9COUhkR2djX29KMC1XWlFIcVZPU1o4TzhiODBpV1BsbUMxZk5ON21OUUVlbDhFX3cwQktEOGxjTFc2bGZvRUFORml2MmktQTRQU1RNMC14WVA5LXRGbnBJUGRldXRLTUNsclY0Y1lVRExzN0laTmJLZXNZUVJGc2EyMkRkSkpSd0I5alJHdnlzT2xNQlk?oc=5"
+    },
+    {
       "id": "news-8oxnyu",
       "kind": "news",
       "date": "2026-10-19",
@@ -3277,6 +3670,25 @@
       "coordsNote": "Headline gazetteer match: \"Kryvyi Rih\" (city); verify via source article."
     },
     {
+      "id": "news-vx4ysn",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T08:48:16.000Z",
+      "description": "Ukraine and Russia should be focused on ending the war, says Rubio - News24 (News24, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "News24",
+      "axis": "Other",
+      "tags": [
+        "News24",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "News24",
+      "source": "News24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUEwNWZCU2lpYm5tbEV4anpZUGtaMWhwVnFJanNKd2t2U01ycHJ5ZEhrcGcyWXFBMU1RS0lKMDhSM195YW5fdExaSldkYzVoaVhEbFdaTEs3bmoxeVZzd19NbEx1ZVI4TXVaUWpObGpVVzZtT0RHTktvUlFaekU2NEtrNGtaRXRHcWRXaXhOOUw0Q0ozOFltSzEtZ3BUWFZDWUtJb2xtQXowd0Mw?oc=5"
+    },
+    {
       "id": "news-ryihnz",
       "kind": "news",
       "date": "2026-10-19",
@@ -3397,6 +3809,25 @@
       "lat": 55.76,
       "lng": 37.62,
       "coordsNote": "Headline gazetteer match: \"Moscow\" (city); verify via source article."
+    },
+    {
+      "id": "news-v8hqmk",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T08:40:45.000Z",
+      "description": "Putin seeks Ukraine talks with Trump and Xi, refuses to meet Zelenskyy - Euronews.com (Euronews.com, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Euronews.com",
+      "axis": "Other",
+      "tags": [
+        "Euronews.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Euronews.com",
+      "source": "Euronews.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbVJ0NkZCcjdFWWRhc3VpU082LTFtWkNxemdMWTJEYVJPZ3FjQTNuNFJ3WlNGZDFnS2Q1a19jQXpFcjZPV2F5S0Z3YTRUTzZSU3diNFFSTUZ5MEg0SDdXbm5JU1kzU1FMWVRzTHB2eHV6VVF3bk5oVktrRjI0aEhIVk1udDBDdDQ2TlV6d3cxQVlZZU1TLThNc2hIckJlMkU5N3M2ajJ2YUExVy1yT3pSM09fYw?oc=5"
     },
     {
       "id": "news-1xdxqxb",
@@ -5179,7 +5610,7 @@
       "id": "news-sklj6r",
       "kind": "news",
       "date": "2026-10-19",
-      "isoDate": "2026-10-19T02:39:54.000Z",
+      "isoDate": "2026-10-19T02:38:59.000Z",
       "description": "As Russia-Ukraine war changes, Zelenskyy could be 'losing a strong partner' - ABC News & Headlines – Australian Broadcasting Corporation (ABC News &amp; Headlines – Australian Broadcasting Corporation, 2026-10-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -27905,6 +28336,210 @@
       }
     },
     {
+      "id": "gdelt-1328740509",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T17:15:00.000Z",
+      "description": "Assault — Unspecified → Poland near Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 49,
+      "lng": 32,
+      "action": "Assault (GDELT 180)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://sofiaglobe.com/2026/10/19/sofia-court-issues-european-arrest-warrants-for-two-german-suspects-in-starlink-arson-case/",
+      "gdelt": {
+        "globalEventId": "1328740509",
+        "eventCode": "180",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -5.25,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328741174",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T17:15:00.000Z",
+      "description": "Disapproval — European Commission → Unspecified near Yalta, Donets'ka Oblast', Ukraine. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.0466,
+      "lng": 36.7518,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "European Commission",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Yalta, Donets'ka Oblast', Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://sofokleous10.gr/2026/10/19/mytilineos-tells-cnbc-europes-metals-system-is-failing-and-blames-the-european-commission/",
+      "gdelt": {
+        "globalEventId": "1328741174",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.22,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328741548",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T17:15:00.000Z",
+      "description": "Fight — Russian forces → Kharkiv near Kharkiv, Kharkivs'ka Oblast', Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 49.9808,
+      "lng": 36.2527,
+      "action": "Fight (GDELT 190)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kharkiv, Kharkivs'ka Oblast', Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/international/world-news/russia-drone-attack-ukraine-kharkiv-kills-six-including-children/articleshow/135052068.cms",
+      "gdelt": {
+        "globalEventId": "1328741548",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.26,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328741598",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T17:15:00.000Z",
+      "description": "Fight — Ukraine → Ukraine near Kharkiv, Kharkivs'ka Oblast', Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 49.9808,
+      "lng": 36.2527,
+      "action": "Fight (GDELT 190)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kharkiv, Kharkivs'ka Oblast', Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/international/world-news/russia-drone-attack-ukraine-kharkiv-kills-six-including-children/articleshow/135052068.cms",
+      "gdelt": {
+        "globalEventId": "1328741598",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.26,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328743079",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T17:30:00.000Z",
+      "description": "Threat — China → Russian forces near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Threat (GDELT 130)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://econotimes.com/Sybiha-Opposes-Putin-Trump-Xi-Talks-as-Ukraine-Agenda-Remains-Unset-1756660",
+      "gdelt": {
+        "globalEventId": "1328743079",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -1.42,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328743273",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T17:30:00.000Z",
+      "description": "Disapproval — European → Unspecified near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (40 mentions, 4 sources); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "European",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://katv.com/news/nation-world/trump-and-zelenskyy-clash-over-how-to-bring-putin-to-negotiating-table-energy-ceasefire-diesel-refineries-sanctions",
+      "gdelt": {
+        "globalEventId": "1328743273",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.45,
+        "mentions": 40,
+        "sources": 4
+      }
+    },
+    {
       "id": "news-1b1wsmq",
       "kind": "news",
       "date": "2026-10-18",
@@ -28181,6 +28816,25 @@
       "locationStr": "The Daily Beast",
       "source": "The Daily Beast",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPajA5UlZ3ZGJSSTZFOHdaeVlSckJjSWxneUtiQUxjbmNIelFCa3AzbVRGNm8yeVF5OUloMmo4X3dFaHpUWkdmaHFmOVBTRHo2N1hySHd2ckRIUVRxVlZNMHJiSjdMNnhTcWZwTkFrUUpMOFlGUU1ja0xTYVFfUHR2aDlWa2JhTmcySTJtY25sV2NMbTNYZ1RPV3RKVU9TS0RCNTNweEVpZExUaXRoS05VVDByYmRmSjhWQy11SmhGUQ?oc=5"
+    },
+    {
+      "id": "news-1hmgr19",
+      "kind": "news",
+      "date": "2026-10-18",
+      "isoDate": "2026-10-18T21:25:00.000Z",
+      "description": "Wright defends Trump’s Russian diesel deal as ‘carrot’ for peace - Politico (Politico, 2026-10-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Politico",
+      "axis": "Other",
+      "tags": [
+        "Politico",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Politico",
+      "source": "Politico",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYWVGUURoRU80NEQ1RzV4QkdiSXcxT000dkZrMm45WFBNQkJNVmwxdjNOa0tLaHhqWWFDclE0bDNkUUJNVDFMTWlielZWLWx2MEJpaVhHbHFnQXc4eVZpRjdaQ1JydHB6UEpmVEJqNTI1TUlTSUlKRnFWS1ZHWXVsUXN3WW4wMUVGa0VKeVo1YzVWdzQ?oc=5"
     },
     {
       "id": "news-1sd4iix",
@@ -28535,25 +29189,6 @@
       "locationStr": "Ukrinform",
       "source": "Ukrinform",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMmQzY1hldEdwY2s1NGNmeW8tNTVYekRYbTdqcUxoSUo1Z2RzSDQxYzdobGdFZGIyNmtzOFhIeU55b25LMWhQM3FHRUs5UnMxSWdIRzNHZERweHhrd29GTFBWR0lqOWp2di1kZzFYc3A4amRtci15MXF0ekFKMGx0ak5JOXpWOTZmZUg3LWhKMHVWNmxQYUFySHdKUjRQUkVFbzh4MHFfMWVPTkhaZHRIcXBZaENBRWFNVDQtYUhR0gHDAUFVX3lxTE11aE5xSEI3WkpGWGZsdlhzd29uMjlRb0laOGtWQWRJeWxJVzFCRy1UaWtZVDU1M2RaS3N5R0xKTkpJWUJPTlVLUFBKampNSjdOT3JKZVFhZUhaZUNKZUd5V0I5d1VEV2RVbnNYekxKOFJsZk40MWVpWm1YUjZ0MVlaR0xxNWZ6cU5XOFd0dUM0cnIwNUtrX1p5QmxYQThVdEZTS1FOTXc3VXVBZjZ2Rlo1clgyNWRfdWd2dU9HQlo0TTZVRQ?oc=5"
-    },
-    {
-      "id": "news-1hmgr19",
-      "kind": "news",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T18:40:00.000Z",
-      "description": "Wright defends Trump’s Russian diesel deal as ‘carrot’ for peace - Politico (Politico, 2026-10-18. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Politico",
-      "axis": "Other",
-      "tags": [
-        "Politico",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Politico",
-      "source": "Politico",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYWVGUURoRU80NEQ1RzV4QkdiSXcxT000dkZrMm45WFBNQkJNVmwxdjNOa0tLaHhqWWFDclE0bDNkUUJNVDFMTWlielZWLWx2MEJpaVhHbHFnQXc4eVZpRjdaQ1JydHB6UEpmVEJqNTI1TUlTSUlKRnFWS1ZHWXVsUXN3WW4wMUVGa0VKeVo1YzVWdzQ?oc=5"
     },
     {
       "id": "news-3zvg13",
@@ -43350,924 +43985,6 @@
         "goldstein": -5,
         "tone": -9.28,
         "mentions": 6,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328559169",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T12:45:00.000Z",
-      "description": "Fight — Ukraine → Unspecified near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Fight (GDELT 193)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.gdnonline.com:443/Details/1410071",
-      "gdelt": {
-        "globalEventId": "1328559169",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -6.93,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328559170",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T12:45:00.000Z",
-      "description": "Fight — Ukraine → Unspecified near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Fight (GDELT 193)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.gdnonline.com:443/Details/1410071",
-      "gdelt": {
-        "globalEventId": "1328559170",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -6.93,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328559171",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T12:45:00.000Z",
-      "description": "Fight — Ukraine → Unspecified near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Fight (GDELT 193)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.gdnonline.com:443/Details/1410071",
-      "gdelt": {
-        "globalEventId": "1328559171",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -6.93,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328559173",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T12:45:00.000Z",
-      "description": "Fight — Ukraine → Europe near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Fight (GDELT 193)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.kyivpost.com/post/87408",
-      "gdelt": {
-        "globalEventId": "1328559173",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -4.04,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328559175",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T12:45:00.000Z",
-      "description": "Fight — Ukraine → Europe near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Fight (GDELT 193)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.kyivpost.com/post/87408",
-      "gdelt": {
-        "globalEventId": "1328559175",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -4.04,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328559181",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T12:45:00.000Z",
-      "description": "Demand — Ukraine → Russian forces near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Demand (GDELT 100)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Demand"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.dailystar.co.uk/news/world-news/putins-hometown-hit-massive-drone-37784086",
-      "gdelt": {
-        "globalEventId": "1328559181",
-        "eventCode": "100",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -5,
-        "tone": -9.28,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328559182",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T12:45:00.000Z",
-      "description": "Rejection — Ukraine → United States near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Rejection (GDELT 120)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.aol.co.uk/articles/andy-burnham-given-chilling-warning-113800000.html",
-      "gdelt": {
-        "globalEventId": "1328559182",
-        "eventCode": "120",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -4,
-        "tone": -5.56,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328559183",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T12:45:00.000Z",
-      "description": "Disapproval — Ukraine → The White House near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Disapproval (GDELT 112)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.aol.co.uk/articles/andy-burnham-given-chilling-warning-113800000.html",
-      "gdelt": {
-        "globalEventId": "1328559183",
-        "eventCode": "112",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -5.56,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328559185",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T12:45:00.000Z",
-      "description": "Rejection — Ukraine → The White House near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Rejection (GDELT 120)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.aol.co.uk/articles/andy-burnham-given-chilling-warning-113800000.html",
-      "gdelt": {
-        "globalEventId": "1328559185",
-        "eventCode": "120",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -4,
-        "tone": -5.56,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328559186",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T12:45:00.000Z",
-      "description": "Rejection — Ukraine → The White House near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Rejection (GDELT 120)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.aol.co.uk/articles/andy-burnham-given-chilling-warning-113800000.html",
-      "gdelt": {
-        "globalEventId": "1328559186",
-        "eventCode": "120",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -4,
-        "tone": -5.56,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328559187",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T12:45:00.000Z",
-      "description": "Fight — Ukraine → Russian forces near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Fight (GDELT 195)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.kyivpost.com/post/87408",
-      "gdelt": {
-        "globalEventId": "1328559187",
-        "eventCode": "195",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -4.04,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328560275",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:00:00.000Z",
-      "description": "Threat — Authorities → Company near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Threat (GDELT 138)",
-      "actor": "Authorities",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.express.co.uk/news/world/2258219/nato-lithuania-starlink-ukraine-attack",
-      "gdelt": {
-        "globalEventId": "1328560275",
-        "eventCode": "138",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -7,
-        "tone": -5.17,
-        "mentions": 8,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328560348",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:00:00.000Z",
-      "description": "Threat — Nato → Russian forces near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Threat (GDELT 130)",
-      "actor": "Nato",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.express.co.uk/news/world/2258219/nato-lithuania-starlink-ukraine-attack",
-      "gdelt": {
-        "globalEventId": "1328560348",
-        "eventCode": "130",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -4.4,
-        "tone": -5.17,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328560649",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:00:00.000Z",
-      "description": "Rejection — Ukraine → United States near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Rejection (GDELT 120)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.express.co.uk/news/politics/2258212/Russia-UK-MI5-Vladimir-Putin-Grant-Shapps-defence-electricity",
-      "gdelt": {
-        "globalEventId": "1328560649",
-        "eventCode": "120",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -4,
-        "tone": -5.23,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328560651",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:00:00.000Z",
-      "description": "Rejection — Ukraine → The White House near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Rejection (GDELT 120)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.express.co.uk/news/politics/2258212/Russia-UK-MI5-Vladimir-Putin-Grant-Shapps-defence-electricity",
-      "gdelt": {
-        "globalEventId": "1328560651",
-        "eventCode": "120",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -4,
-        "tone": -5.23,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328562073",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:15:00.000Z",
-      "description": "Disapproval — Ukraine → Unspecified near Ukraine. Machine-coded by GDELT 2.1 (4 mentions, 2 sources); open the source article for details.",
-      "type": "other",
-      "lat": 49,
-      "lng": 32,
-      "action": "Disapproval (GDELT 112)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.hawaiitribune-herald.com/2026/10/18/nation-world-news/trump-offers-putin-economic-relief-in-hopes-that-russia-will-return-the-favor/",
-      "gdelt": {
-        "globalEventId": "1328562073",
-        "eventCode": "112",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -3.41,
-        "mentions": 4,
-        "sources": 2
-      }
-    },
-    {
-      "id": "gdelt-1328563962",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:45:00.000Z",
-      "description": "Fight — Unspecified → Firefighter near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Fight (GDELT 190)",
-      "actor": "Unspecified",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://nypost.com/2026/10/18/world-news/zelensky-reveals-us-intel-sharing-is-back-after-blackout-left-ukraine-blind-to-russian-attacks/",
-      "gdelt": {
-        "globalEventId": "1328563962",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -4.93,
-        "mentions": 8,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328564177",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:45:00.000Z",
-      "description": "Fight — Firefighter → Unspecified near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Fight (GDELT 190)",
-      "actor": "Firefighter",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://nypost.com/2026/10/18/world-news/zelensky-reveals-us-intel-sharing-is-back-after-blackout-left-ukraine-blind-to-russian-attacks/",
-      "gdelt": {
-        "globalEventId": "1328564177",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -4.93,
-        "mentions": 8,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328564308",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:45:00.000Z",
-      "description": "Fight — Defense Force → Russian forces near Odessa, Odes'ka Oblast, Ukraine. Machine-coded by GDELT 2.1 (12 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 46.4639,
-      "lng": 30.7386,
-      "action": "Fight (GDELT 190)",
-      "actor": "Defense Force",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Odessa, Odes'ka Oblast, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://english.news.cn/20261018/1ba8a31ae965476f8460c2c624add785/c.html",
-      "gdelt": {
-        "globalEventId": "1328564308",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -4.8,
-        "mentions": 12,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328564310",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:45:00.000Z",
-      "description": "Fight — Defense Force → Russian forces near Odessa, Odes'ka Oblast, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 46.4639,
-      "lng": 30.7386,
-      "action": "Fight (GDELT 190)",
-      "actor": "Defense Force",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Odessa, Odes'ka Oblast, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://english.news.cn/20261018/1ba8a31ae965476f8460c2c624add785/c.html",
-      "gdelt": {
-        "globalEventId": "1328564310",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -4.8,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328564315",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:45:00.000Z",
-      "description": "Fight — Defense Force → Ukraine near Odessa, Odes'ka Oblast, Ukraine. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 46.4639,
-      "lng": 30.7386,
-      "action": "Fight (GDELT 193)",
-      "actor": "Defense Force",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Odessa, Odes'ka Oblast, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://english.news.cn/20261018/1ba8a31ae965476f8460c2c624add785/c.html",
-      "gdelt": {
-        "globalEventId": "1328564315",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -4.8,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328564422",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:45:00.000Z",
-      "description": "Assault — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "strike",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Assault (GDELT 181)",
-      "actor": "Russian forces",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Assault"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.bankingnews.gr/diethni/articles/905783/russian-barrage-in-ukraine-geran-5-destroys-energy-grid-and-trains-odessa-blaze",
-      "gdelt": {
-        "globalEventId": "1328564422",
-        "eventCode": "181",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -9,
-        "tone": -4.97,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328564423",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:45:00.000Z",
-      "description": "Fight — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Fight (GDELT 190)",
-      "actor": "Russian forces",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://nypost.com/2026/10/18/world-news/zelensky-reveals-us-intel-sharing-is-back-after-blackout-left-ukraine-blind-to-russian-attacks/",
-      "gdelt": {
-        "globalEventId": "1328564423",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -4.93,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328564426",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:45:00.000Z",
-      "description": "Fight — Russian forces → Washington near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Fight (GDELT 190)",
-      "actor": "Russian forces",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://nypost.com/2026/10/18/world-news/zelensky-reveals-us-intel-sharing-is-back-after-blackout-left-ukraine-blind-to-russian-attacks/",
-      "gdelt": {
-        "globalEventId": "1328564426",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -4.93,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328564427",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:45:00.000Z",
-      "description": "Fight — Russian forces → Reuters near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Fight (GDELT 190)",
-      "actor": "Russian forces",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://whbl.com/2026/10/18/one-killed-15-injured-in-ukrainian-drone-attack-on-st-petersburg-and-leningrad-region/",
-      "gdelt": {
-        "globalEventId": "1328564427",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -5.51,
-        "mentions": 3,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328564437",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:45:00.000Z",
-      "description": "Disapproval — Intelligence → President near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Disapproval (GDELT 112)",
-      "actor": "Intelligence",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://nypost.com/2026/10/18/world-news/zelensky-reveals-us-intel-sharing-is-back-after-blackout-left-ukraine-blind-to-russian-attacks/",
-      "gdelt": {
-        "globalEventId": "1328564437",
-        "eventCode": "112",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -4.93,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328564449",
-      "kind": "event",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T00:00:00.000Z",
-      "observedAt": "2026-10-18T13:45:00.000Z",
-      "description": "Fight — Ukraine → Unspecified near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (20 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 50.4333,
-      "lng": 30.5167,
-      "action": "Fight (GDELT 194)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.bankingnews.gr/diethni/articles/905783/russian-barrage-in-ukraine-geran-5-destroys-energy-grid-and-trains-odessa-blaze",
-      "gdelt": {
-        "globalEventId": "1328564449",
-        "eventCode": "194",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -4.97,
-        "mentions": 20,
         "sources": 1
       }
     }
