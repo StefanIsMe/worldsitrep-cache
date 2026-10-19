@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "korea",
-  "collectedAt": "2026-10-19T01:51:11.106Z",
+  "collectedAt": "2026-10-19T04:28:59.186Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 1
+      "count": 20
     },
     {
       "id": "yna-nk",
@@ -20,15 +20,15 @@
       "id": "yna-news",
       "url": "https://en.yna.co.kr/RSS/news.xml",
       "status": "ok",
-      "count": 18,
-      "filtered": 32
+      "count": 20,
+      "filtered": 30
     },
     {
       "id": "korea-times",
       "url": "https://feed.koreatimes.co.kr/k/allnews.xml",
       "status": "ok",
-      "count": 5,
-      "filtered": 19
+      "count": 13,
+      "filtered": 34
     },
     {
       "id": "gnews-korea",
@@ -94,13 +94,32 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 303,
+  "count": 325,
   "events": [
+    {
+      "id": "news-12mozfq",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T04:27:02.000Z",
+      "description": "Korean singer-songwriter eldon brings his 'Comic Book' world to life with Asia, US tour (Korea Times, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/entertainment/music/20261019/korean-singer-songwriter-eldon-brings-his-comic-book-world-to-life-with-asia-us-tour?utm_source=rss"
+    },
     {
       "id": "news-13jn61p",
       "kind": "news",
       "date": "2026-10-19",
-      "isoDate": "2026-10-19T01:52:03.000Z",
+      "isoDate": "2026-10-19T04:27:02.000Z",
       "description": "1 KATUSA killed, 3 USFK soldiers injured in rollover crash in Daegu (Korea Times, 2026-10-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -120,11 +139,34 @@
       "coordsNote": "Headline gazetteer match: \"Daegu\" (city); verify via source article."
     },
     {
-      "id": "news-1ymgmur",
+      "id": "news-1uo48qd",
       "kind": "news",
       "date": "2026-10-19",
-      "isoDate": "2026-10-19T01:52:03.000Z",
-      "description": "Seoul stocks open sharply lower after US tech sell-off (Korea Times, 2026-10-19. Headline + link only.)",
+      "isoDate": "2026-10-19T04:27:02.000Z",
+      "description": "Job seekers in Korea spend $400 monthly preparing for employment, survey finds (Korea Times, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Korea",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/economy/others/20261019/job-seekers-in-korea-spend-400-monthly-preparing-for-employment-survey-finds?utm_source=rss",
+      "lat": 36.63839,
+      "lng": 127.69612,
+      "coordsNote": "OSM geocode: matched \"Korea\" → South Korea; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1y6gmkm",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T04:27:02.000Z",
+      "description": "Hanwha to distribute 2027 braille calendar to mark 100th anniv. of Korean braille system (Korea Times, 2026-10-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Korea Times",
@@ -136,13 +178,93 @@
       "coordsTier": "unplaced",
       "locationStr": "Korea Times",
       "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/economy/20261019/seoul-stocks-open-sharply-lower-after-us-tech-sell-off?utm_source=rss"
+      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261019/hanwha-to-distribute-2027-braille-calendar-to-mark-100th-anniv-of-korean-braille-system?utm_source=rss"
+    },
+    {
+      "id": "news-388bkn",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T04:27:02.000Z",
+      "description": "Seoul shares narrow losses late Monday morning on institutional buying (Korea Times, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/economy/20261019/seoul-shares-narrow-losses-late-monday-morning-on-institutional-buying?utm_source=rss"
+    },
+    {
+      "id": "news-4hk82x",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T04:27:02.000Z",
+      "description": "Jeju's haenyeo bring lifetime of diving stories to comedy stage (Korea Times, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/lifestyle/arts-theater/20261019/jejus-haenyeo-bring-lifetime-of-diving-stories-to-comedy-stage?utm_source=rss"
+    },
+    {
+      "id": "news-ggq78z",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T04:27:02.000Z",
+      "description": "Global AI & Digital Summit kicks off 3-day run in Seoul (Korea Times, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Seoul",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/business/tech-science/20261019/global-ai-digital-summit-kicks-off-3-day-run-in-seoul?utm_source=rss",
+      "lat": 37.57,
+      "lng": 126.98,
+      "coordsNote": "Headline gazetteer match: \"Seoul\" (city); verify via source article."
+    },
+    {
+      "id": "news-hy8dbj",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T04:27:02.000Z",
+      "description": "[COVER STORY] Labor rigidity hinders Korean shipbuilders' ability to take more orders (Korea Times, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261019/cover-story-labor-rigidity-hinders-korean-shipbuilders-ability-to-take-more-orders?utm_source=rss"
     },
     {
       "id": "news-o76wzs",
       "kind": "news",
       "date": "2026-10-19",
-      "isoDate": "2026-10-19T01:52:03.000Z",
+      "isoDate": "2026-10-19T04:27:02.000Z",
       "description": "Korean won's earlier slide 'out of line' with fundamentals: finance minister (Korea Times, 2026-10-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -161,7 +283,7 @@
       "id": "news-p7phpi",
       "kind": "news",
       "date": "2026-10-19",
-      "isoDate": "2026-10-19T01:52:03.000Z",
+      "isoDate": "2026-10-19T04:27:02.000Z",
       "description": "N. Korea touts 'invincible' comradeship with Russia at diplomatic event (Korea Times, 2026-10-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -177,10 +299,52 @@
       "sourceUrl": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261019/n-korea-touts-invincible-comradeship-with-russia-at-diplomatic-event?utm_source=rss"
     },
     {
+      "id": "news-ydyaom",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T04:27:02.000Z",
+      "description": "Korea to send delegation to Kazakhstan for water industry cooperation (Korea Times, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/foreignaffairs/20261019/korea-to-send-delegation-to-kazakhstan-for-water-industry-cooperation?utm_source=rss"
+    },
+    {
+      "id": "news-znlssi",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T04:27:02.000Z",
+      "description": "Reconstructed skeleton of extinct Dokdo sea lion goes on display in Seoul (Korea Times, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Seoul",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/environment-animals/20261019/reconstructed-skeleton-of-extinct-dokdo-sea-lion-goes-on-display-in-seoul?utm_source=rss",
+      "lat": 37.57,
+      "lng": 126.98,
+      "coordsNote": "Headline gazetteer match: \"Seoul\" (city); verify via source article."
+    },
+    {
       "id": "news-zxafow",
       "kind": "news",
       "date": "2026-10-19",
-      "isoDate": "2026-10-19T01:52:03.000Z",
+      "isoDate": "2026-10-19T04:27:02.000Z",
       "description": "Korea's growth could exceed IMF projection: finance minister (Korea Times, 2026-10-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -194,6 +358,86 @@
       "locationStr": "Korea Times",
       "source": "Korea Times",
       "sourceUrl": "https://www.koreatimes.co.kr/economy/20261019/koreas-growth-could-exceed-imf-projection-finance-minister?utm_source=rss"
+    },
+    {
+      "id": "news-1xoocso",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T04:00:00.000Z",
+      "description": "Global AI & Digital Summit kicks off 3-day run in Seoul (Yonhap, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Seoul",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261019004900320",
+      "lat": 37.57,
+      "lng": 126.98,
+      "coordsNote": "Headline gazetteer match: \"Seoul\" (city); verify via source article."
+    },
+    {
+      "id": "news-1we2qo6",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T02:45:34.000Z",
+      "description": "Seoul shares narrow losses late Mon. morning on institutional buying (Yonhap, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261019004700320"
+    },
+    {
+      "id": "news-1wbvrzx",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T02:24:12.000Z",
+      "description": "North Korea's Military Power 10 Times Stronger Than Iran's - 조선일보 (조선일보, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "조선일보",
+      "axis": "Other",
+      "tags": [
+        "조선일보",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "조선일보",
+      "source": "조선일보",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOU18xWkFCdUxkZ2R5QWVPSnRTcWJXMkUtYlh4ZDlEM083VTJ5dXVSZWdZdUM2bmE3YmRpWlhCZTJsMF9hZUk1aHFSNG85YlFBODFVMVVEcUlPQ1cxVFBVaTUwVEFWY0Y3aUU2NUdZLWxJWUNZTlJqVldiS3lQNUhwQjhEdHU1MUU?oc=5"
+    },
+    {
+      "id": "news-1ymgmur",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T01:52:03.000Z",
+      "description": "Seoul stocks open sharply lower after US tech sell-off (Korea Times, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/economy/20261019/seoul-stocks-open-sharply-lower-after-us-tech-sell-off?utm_source=rss"
     },
     {
       "id": "news-qbk9l5",
@@ -295,25 +539,6 @@
       "sourceUrl": "https://en.yna.co.kr/view/AEN20261018001300320"
     },
     {
-      "id": "news-1wbvrzx",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T00:28:56.000Z",
-      "description": "North Korea's Military 10-Fold Stronger Than Iran: South Korea Would Lose - 조선일보 (조선일보, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "조선일보",
-      "axis": "Other",
-      "tags": [
-        "조선일보",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "조선일보",
-      "source": "조선일보",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOU18xWkFCdUxkZ2R5QWVPSnRTcWJXMkUtYlh4ZDlEM083VTJ5dXVSZWdZdUM2bmE3YmRpWlhCZTJsMF9hZUk1aHFSNG85YlFBODFVMVVEcUlPQ1cxVFBVaTUwVEFWY0Y3aUU2NUdZLWxJWUNZTlJqVldiS3lQNUhwQjhEdHU1MUU?oc=5"
-    },
-    {
       "id": "news-1ywx32a",
       "kind": "news",
       "date": "2026-10-19",
@@ -401,6 +626,686 @@
         "goldstein": -6.5,
         "tone": -2.64,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328627000",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T02:45:00.000Z",
+      "description": "Disapproval — South Korea → Unspecified near South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://usa.chinadaily.com.cn/a/202610/19/WS6ad57540e4b06d4aa05637bf.html",
+      "gdelt": {
+        "globalEventId": "1328627000",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.96,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328629771",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T03:30:00.000Z",
+      "description": "Disapproval — Employer → Unspecified near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 114)",
+      "actor": "Employer",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreaherald.com/article/10907118",
+      "gdelt": {
+        "globalEventId": "1328629771",
+        "eventCode": "114",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.93,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328629906",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T03:30:00.000Z",
+      "description": "Disapproval — Foreign National → Unspecified near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Foreign National",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreaherald.com/article/10907118",
+      "gdelt": {
+        "globalEventId": "1328629906",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.93,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328629941",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T03:30:00.000Z",
+      "description": "Disapproval — Employee → Employer near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Employee",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreaherald.com/article/10907118",
+      "gdelt": {
+        "globalEventId": "1328629941",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.93,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328630729",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T03:45:00.000Z",
+      "description": "Disapproval — Ministry → Unspecified near Masan, Cholla-namdo, South Korea. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 34.8642,
+      "lng": 127.18,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Ministry",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Masan, Cholla-namdo, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://vietnamnews.vn/brandinfo/1802290/masan-s-national-brands-bolster-global-expansion.html",
+      "gdelt": {
+        "globalEventId": "1328630729",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 5.25,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328630890",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T03:45:00.000Z",
+      "description": "Disapproval — South Korea → Unspecified near Masan, Cholla-namdo, South Korea. Machine-coded by GDELT 2.1 (9 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 34.8642,
+      "lng": 127.18,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Masan, Cholla-namdo, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://vietnamnews.vn/brandinfo/1802290/masan-s-national-brands-bolster-global-expansion.html",
+      "gdelt": {
+        "globalEventId": "1328630890",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 5.25,
+        "mentions": 9,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328631808",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Fight — Police Officer → Unspecified near Incheon, Inch'on-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37.4536,
+      "lng": 126.732,
+      "action": "Fight (GDELT 190)",
+      "actor": "Police Officer",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Incheon, Inch'on-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/did-south-korean-authorities-have-chance-to-stop-incheon-knife-attacker/",
+      "gdelt": {
+        "globalEventId": "1328631808",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -11.05,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328631826",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Fight — Criminal → Landlord near Incheon, Inch'on-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37.4536,
+      "lng": 126.732,
+      "action": "Fight (GDELT 190)",
+      "actor": "Criminal",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Incheon, Inch'on-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/did-south-korean-authorities-have-chance-to-stop-incheon-knife-attacker/",
+      "gdelt": {
+        "globalEventId": "1328631826",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -11.05,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328631996",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Protest — Hospital → Unspecified near Incheon, Inch'on-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.4536,
+      "lng": 126.732,
+      "action": "Protest (GDELT 141)",
+      "actor": "Hospital",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Incheon, Inch'on-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/did-south-korean-authorities-have-chance-to-stop-incheon-knife-attacker/",
+      "gdelt": {
+        "globalEventId": "1328631996",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -11.05,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328631999",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Protest — Hospital → Incheon near Incheon, Inch'on-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.4536,
+      "lng": 126.732,
+      "action": "Protest (GDELT 141)",
+      "actor": "Hospital",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Incheon, Inch'on-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/did-south-korean-authorities-have-chance-to-stop-incheon-knife-attacker/",
+      "gdelt": {
+        "globalEventId": "1328631999",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -11.05,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328632140",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Disapproval — South Korea → Unspecified near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (20 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 114)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/foreign-passengers-in-seoul-file-6000-complaints-for-taxi-overcharging-in-5-years/",
+      "gdelt": {
+        "globalEventId": "1328632140",
+        "eventCode": "114",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -9.26,
+        "mentions": 20,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328632141",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Fight — Incheon → Unspecified near Incheon, Inch'on-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37.4536,
+      "lng": 126.732,
+      "action": "Fight (GDELT 190)",
+      "actor": "Incheon",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Incheon, Inch'on-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/did-south-korean-authorities-have-chance-to-stop-incheon-knife-attacker/",
+      "gdelt": {
+        "globalEventId": "1328632141",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -11.05,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328632143",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Reduced relations — South Korea → Japan near Dokdo, Cholla-namdo, South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 34.6989,
+      "lng": 126.386,
+      "action": "Reduced relations (GDELT 161)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dokdo, Cholla-namdo, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/seoul-seeks-way-out-of-north-korean-pow-dispute-with-ukraine-as-apology-standoff-persists/",
+      "gdelt": {
+        "globalEventId": "1328632143",
+        "eventCode": "161",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -2.14,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328632144",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Reduced relations — South Korea → Japan near Dokdo, Cholla-namdo, South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 34.6989,
+      "lng": 126.386,
+      "action": "Reduced relations (GDELT 161)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dokdo, Cholla-namdo, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/seoul-seeks-way-out-of-north-korean-pow-dispute-with-ukraine-as-apology-standoff-persists/",
+      "gdelt": {
+        "globalEventId": "1328632144",
+        "eventCode": "161",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -2.14,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328632149",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Disapproval — South Korea → North Korea near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/seoul-seeks-way-out-of-north-korean-pow-dispute-with-ukraine-as-apology-standoff-persists/",
+      "gdelt": {
+        "globalEventId": "1328632149",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.14,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328632152",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Disapproval — South Korea → North Korea near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/seoul-seeks-way-out-of-north-korean-pow-dispute-with-ukraine-as-apology-standoff-persists/",
+      "gdelt": {
+        "globalEventId": "1328632152",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.14,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328632161",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Reduced relations — South Korea → Ukraine near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Reduced relations (GDELT 161)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/seoul-seeks-way-out-of-north-korean-pow-dispute-with-ukraine-as-apology-standoff-persists/",
+      "gdelt": {
+        "globalEventId": "1328632161",
+        "eventCode": "161",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -2.14,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328632354",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Disapproval — North Korea → South Korea near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/seoul-seeks-way-out-of-north-korean-pow-dispute-with-ukraine-as-apology-standoff-persists/",
+      "gdelt": {
+        "globalEventId": "1328632354",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.14,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328632357",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Disapproval — North Korea → South Korea near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/seoul-seeks-way-out-of-north-korean-pow-dispute-with-ukraine-as-apology-standoff-persists/",
+      "gdelt": {
+        "globalEventId": "1328632357",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.14,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328632444",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T04:00:00.000Z",
+      "description": "Rejection — Ukraine → South Korea near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/seoul-seeks-way-out-of-north-korean-pow-dispute-with-ukraine-as-apology-standoff-persists/",
+      "gdelt": {
+        "globalEventId": "1328632444",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -2.14,
+        "mentions": 6,
         "sources": 1
       }
     },
@@ -7679,177 +8584,6 @@
       "locationStr": "Korea Times",
       "source": "Korea Times",
       "sourceUrl": "https://www.koreatimes.co.kr/southkorea/20261016/defense-ministry-refutes-pyongyangs-claim-questioning-seouls-test-of-hypersonic-glide-vehicle?utm_source=rss"
-    },
-    {
-      "id": "news-3s5pa1",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T04:02:05.000Z",
-      "description": "Defense Ministry refutes Pyongyang's claim questioning Seoul's test of hypersonic glide vehicle - Korea JoongAng Daily (Korea JoongAng Daily, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea JoongAng Daily",
-      "axis": "Other",
-      "tags": [
-        "Korea JoongAng Daily",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea JoongAng Daily",
-      "source": "Korea JoongAng Daily",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZVQxNFFjUDlvM08wX3R1TkxheG5Vd3MtbVFWUkZHV2VQcnlTYTRad0l4eURNSl9QN1F2OUFNYmVndEpqVnZEZkstZnEtQm9rNHRrU1ZvVmdCcl9tOGh5OFBTOHh0aTZEUWItYlBJaGZxdnJhSzVNbmNDckxVZnNvdkFiMXN1akExdmI3X1dWdXVfM2dXeWM3TWRKZEZjTlJoQ1ZfS2FPb0duVXo1YmJnUGVKOHFURGY5RFUxbDJhMWw5T3RKTXZ6WE92dF80MlhOREE0UXdsLU9Ga1k?oc=5"
-    },
-    {
-      "id": "news-1qfrurn",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T03:25:48.000Z",
-      "description": "Main opposition slams gov't over S. Korea-U.S. gap on OPCON transfer (Yonhap, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261016004300315"
-    },
-    {
-      "id": "news-3x0t5v",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T03:21:30.000Z",
-      "description": "Seoul dismisses Pyongyang's scepticism over hypersonic weapon test - RFI (RFI, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "RFI",
-      "axis": "Other",
-      "tags": [
-        "RFI",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "RFI",
-      "source": "RFI",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb3U1SkVpci1NOV9QZGlhcmlGM2lnUlAzQzRzVWpGSVlERGdtNzFfVUZiRkRTYWFPMGJFZDJnSTJObmRnT2FUTmdMd21jR2dFeEpabDU1azRFNkltMzdwN2VDWEpna0hUXzdVOTBUR2pWTVRYTDBSa2VvVUp6aVZQVFRxSFZDaURFdFBKT1BkeDdPNmg5NzRZRHNxTk1vQVhPaUVMb2NGYzEyTGFQUTJITEtTanhKc00?oc=5"
-    },
-    {
-      "id": "news-17fjduf",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T03:19:45.000Z",
-      "description": "What do North Korea’s sub missile tests really prove? - Asia Times (Asia Times, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Asia Times",
-      "axis": "Other",
-      "tags": [
-        "Asia Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Asia Times",
-      "source": "Asia Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWTdRSkdNMkhQQlJFaDBWLWRwQjVZQUhqOHRha2lTR3lkYUg0Vk5FaU9KSGUtbXBaVloxeVpyR01jWmFfaU9SeWJURnpqNVBaSG04alZ5dlpqZWdYRHVKa0VfeUJEUUVlTGVTWGJMa0p1VHRtamc3V2hhaE83YVBxRUdlR2VuOWZiNlE?oc=5"
-    },
-    {
-      "id": "news-reu630",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T03:19:27.000Z",
-      "description": "North Korean GPS jamming along border has plummeted this year, data shows (NK News, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NK News",
-      "axis": "Other",
-      "tags": [
-        "NK News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NK News",
-      "source": "NK News",
-      "sourceUrl": "https://www.nknews.org/2026/10/north-korean-gps-jamming-along-border-has-plummeted-this-year-data-shows/"
-    },
-    {
-      "id": "news-vrvtww",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T03:16:30.000Z",
-      "description": "North Korea fires multiple ballistic missiles, adding to streak of weapons tests - Bluefield Daily Telegraph (Bluefield Daily Telegraph, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Bluefield Daily Telegraph",
-      "axis": "Other",
-      "tags": [
-        "Bluefield Daily Telegraph",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Bluefield Daily Telegraph",
-      "source": "Bluefield Daily Telegraph",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPZk5zcG1nQ2l5bWVHVlAySG82c0M1a3JYU1VHVEYxcnRPREpsWjBheVprcWc0SkJiVElXbnpLMFlUV0dvUl9OT1B3NmdudktCaHhydUV0LWxZZnRBeEFPWjJjeFFDVE5jbW14ZjYwaVdxSkR1SWxBa3hQMjlaVVItTnJsajdFXzY5Qjh2M05KUjZWY012VXdtQlQ4a3hwa2hKQlF6aUlTZVgyUlBxSmcyMW9Fc1hYcWpXeGxCTDMxdWJmcFZIRGVZU3FjOXNVa2p4MlpaLUZ0OEFLVzhhdFBQcnBEOTJCQnc1M09rNlZVNVctNm0wZ2lyMWZtaXRvTlBGOFJGdFpGSXg?oc=5"
-    },
-    {
-      "id": "news-14fkenx",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T03:00:02.000Z",
-      "description": "Foreigners turn to net sellers of Korean stocks in Sept. (Yonhap, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261016003200320"
-    },
-    {
-      "id": "news-18yo23o",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T02:38:09.000Z",
-      "description": "Seoul stocks extend gains late Fri. morning on bargain hunting (Yonhap, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261016003900320"
-    },
-    {
-      "id": "news-mb5sw5",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T02:20:24.000Z",
-      "description": "S. Korea to hold declaration ceremony for 2029 Invictus Games (Yonhap, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261016002700315"
     }
   ]
 }
