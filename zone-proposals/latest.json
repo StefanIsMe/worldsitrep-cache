@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-18T21:50:01.431Z",
+  "collectedAt": "2026-10-19T00:00:01.960Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 240,
+  "coarseGdeltDropped": 222,
   "outsideTheatreDropped": 4,
   "proposals": [
     {
@@ -15,16 +15,16 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 659,
+      "eventCount": 656,
       "kinds": {
-        "other": 458,
-        "combat": 174,
-        "strike": 27
+        "other": 451,
+        "combat": 176,
+        "strike": 29
       },
       "tierCounts": {
-        "approximate": 659
+        "approximate": 656
       },
-      "combatCount": 201,
+      "combatCount": 205,
       "newestIsoDate": "2026-10-18T19:34:00.000Z",
       "samples": [
         {
@@ -44,10 +44,10 @@
         }
       ],
       "centroid": {
-        "lat": 50.3751,
-        "lng": 30.2019
+        "lat": 50.3741,
+        "lng": 30.2056
       },
-      "radiusKm": 44.4
+      "radiusKm": 43.9
     },
     {
       "zoneId": "occ-kherson",
@@ -56,18 +56,23 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 61,
+      "eventCount": 60,
       "kinds": {
         "other": 33,
-        "combat": 24,
+        "combat": 23,
         "strike": 4
       },
       "tierCounts": {
-        "approximate": 61
+        "approximate": 60
       },
-      "combatCount": 28,
-      "newestIsoDate": "2026-10-18T00:00:00.000Z",
+      "combatCount": 27,
+      "newestIsoDate": "2026-10-18T22:25:00.000Z",
       "samples": [
+        {
+          "id": "news-1rfes8a",
+          "isoDate": "2026-10-18T22:25:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175631-fifteen-people-evacuated-from-beryslav-in-kherson-region.html"
+        },
         {
           "id": "gdelt-1328503415",
           "isoDate": "2026-10-18T00:00:00.000Z",
@@ -77,18 +82,13 @@
           "id": "gdelt-1328503419",
           "isoDate": "2026-10-18T00:00:00.000Z",
           "sourceUrl": "https://www.eldoradonews.com/news/2026/oct/17/zelenskyy-urges-support-for-new-us-sanctions-on/"
-        },
-        {
-          "id": "gdelt-1328506495",
-          "isoDate": "2026-10-18T00:00:00.000Z",
-          "sourceUrl": "https://www.2news.com/news/world/zelenskyy-urges-support-for-new-us-sanctions-on-russia-put-on-hold-by-trump/article_13f50e0a-37ec-57c9-a316-02f233378807.html"
         }
       ],
       "centroid": {
-        "lat": 46.6956,
-        "lng": 32.3481
+        "lat": 46.6877,
+        "lng": 32.3879
       },
-      "radiusKm": 40.1
+      "radiusKm": 35.8
     },
     {
       "zoneId": "lib-snake",
@@ -132,47 +132,6 @@
       "radiusKm": 32.4
     },
     {
-      "zoneId": "occ-donetsk",
-      "region": "Donetsk Oblast",
-      "center": {
-        "lat": 47.8,
-        "lng": 37.5
-      },
-      "eventCount": 36,
-      "kinds": {
-        "other": 26,
-        "combat": 9,
-        "strike": 1
-      },
-      "tierCounts": {
-        "approximate": 36
-      },
-      "combatCount": 10,
-      "newestIsoDate": "2026-10-18T20:53:00.000Z",
-      "samples": [
-        {
-          "id": "news-c65b0f",
-          "isoDate": "2026-10-18T20:53:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175727-war-update-173-clashes-on-front-line-fiercest-fighting-in-pokrovsk-sector.html"
-        },
-        {
-          "id": "news-104dpxs",
-          "isoDate": "2026-10-18T09:52:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175614-ukrainian-forces-strike-russian-drone-launch-site-near-donetsk.html"
-        },
-        {
-          "id": "gdelt-1328520319",
-          "isoDate": "2026-10-18T00:00:00.000Z",
-          "sourceUrl": "https://jowhar.com/russia-says-ukraines-territorial-gains-are-an-illusion-officials-claim/"
-        }
-      ],
-      "centroid": {
-        "lat": 48.4757,
-        "lng": 37.5984
-      },
-      "radiusKm": 39.3
-    },
-    {
       "zoneId": "occ-kharkiv",
       "region": "Kharkiv Oblast",
       "center": {
@@ -212,6 +171,47 @@
         "lng": 36.5369
       },
       "radiusKm": 46
+    },
+    {
+      "zoneId": "occ-crimea",
+      "region": "Crimea",
+      "center": {
+        "lat": 45.3453,
+        "lng": 34.4997
+      },
+      "eventCount": 36,
+      "kinds": {
+        "combat": 20,
+        "other": 13,
+        "strike": 3
+      },
+      "tierCounts": {
+        "approximate": 36
+      },
+      "combatCount": 23,
+      "newestIsoDate": "2026-10-18T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1328535661",
+          "isoDate": "2026-10-18T00:00:00.000Z",
+          "sourceUrl": "https://www.aol.co.uk/articles/putins-home-town-fire-major-071500000.html"
+        },
+        {
+          "id": "gdelt-1328535972",
+          "isoDate": "2026-10-18T00:00:00.000Z",
+          "sourceUrl": "https://www.aol.co.uk/articles/putins-home-town-fire-major-071500000.html"
+        },
+        {
+          "id": "gdelt-1328535979",
+          "isoDate": "2026-10-18T00:00:00.000Z",
+          "sourceUrl": "https://www.aol.co.uk/articles/putins-home-town-fire-major-071500000.html"
+        }
+      ],
+      "centroid": {
+        "lat": 45.6158,
+        "lng": 33.7957
+      },
+      "radiusKm": 33.2
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -255,45 +255,45 @@
       "radiusKm": 33.1
     },
     {
-      "zoneId": "occ-crimea",
-      "region": "Crimea",
+      "zoneId": "occ-donetsk",
+      "region": "Donetsk Oblast",
       "center": {
-        "lat": 45.3453,
-        "lng": 34.4997
+        "lat": 47.8,
+        "lng": 37.5
       },
-      "eventCount": 24,
+      "eventCount": 29,
       "kinds": {
-        "combat": 17,
-        "other": 6,
+        "other": 22,
+        "combat": 6,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 24
+        "approximate": 29
       },
-      "combatCount": 18,
-      "newestIsoDate": "2026-10-18T00:00:00.000Z",
+      "combatCount": 7,
+      "newestIsoDate": "2026-10-18T20:53:00.000Z",
       "samples": [
         {
-          "id": "gdelt-1328535661",
-          "isoDate": "2026-10-18T00:00:00.000Z",
-          "sourceUrl": "https://www.aol.co.uk/articles/putins-home-town-fire-major-071500000.html"
+          "id": "news-c65b0f",
+          "isoDate": "2026-10-18T20:53:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175727-war-update-173-clashes-on-front-line-fiercest-fighting-in-pokrovsk-sector.html"
         },
         {
-          "id": "gdelt-1328535972",
-          "isoDate": "2026-10-18T00:00:00.000Z",
-          "sourceUrl": "https://www.aol.co.uk/articles/putins-home-town-fire-major-071500000.html"
+          "id": "news-104dpxs",
+          "isoDate": "2026-10-18T09:52:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4175614-ukrainian-forces-strike-russian-drone-launch-site-near-donetsk.html"
         },
         {
-          "id": "gdelt-1328535979",
+          "id": "gdelt-1328520319",
           "isoDate": "2026-10-18T00:00:00.000Z",
-          "sourceUrl": "https://www.aol.co.uk/articles/putins-home-town-fire-major-071500000.html"
+          "sourceUrl": "https://jowhar.com/russia-says-ukraines-territorial-gains-are-an-illusion-officials-claim/"
         }
       ],
       "centroid": {
-        "lat": 45.5181,
-        "lng": 33.8347
+        "lat": 48.416,
+        "lng": 37.6086
       },
-      "radiusKm": 43.5
+      "radiusKm": 43.7
     },
     {
       "zoneId": "lib-sumy",
