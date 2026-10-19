@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-19T04:28:59.186Z",
+  "collectedAt": "2026-10-19T07:00:52.690Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 20
+      "count": 5
     },
     {
       "id": "gcaptain",
@@ -21,7 +21,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
       "status": "ok",
       "count": 12,
-      "filtered": 24
+      "filtered": 25
     },
     {
       "id": "gnews-houthis",
@@ -41,8 +41,8 @@
       "id": "splash247",
       "url": "https://splash247.com/feed/",
       "status": "ok",
-      "count": 4,
-      "filtered": 6
+      "count": 5,
+      "filtered": 5
     },
     {
       "id": "loadstar",
@@ -80,8 +80,46 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 593,
+  "count": 594,
   "events": [
+    {
+      "id": "news-m0ba12",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T06:11:05.000Z",
+      "description": "Chemikalien Seetransport down to one LR1 tanker (Splash247, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Splash247",
+      "axis": "Other",
+      "tags": [
+        "Splash247",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Splash247",
+      "source": "Splash247",
+      "sourceUrl": "https://splash247.com/chemikalien-seetransport-down-to-one-lr1-tanker/"
+    },
+    {
+      "id": "news-1j3ikpt",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T06:08:36.000Z",
+      "description": "Tanker earnings defy all historical comparisons (Splash247, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Splash247",
+      "axis": "Other",
+      "tags": [
+        "Splash247",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Splash247",
+      "source": "Splash247",
+      "sourceUrl": "https://splash247.com/tanker-earnings-defy-all-historical-comparisons/"
+    },
     {
       "id": "news-c5yli2",
       "kind": "news",
@@ -104,6 +142,29 @@
       "lat": 12.78,
       "lng": 45.04,
       "coordsNote": "Headline gazetteer match: \"Aden\" (city); verify via source article."
+    },
+    {
+      "id": "news-zmtnzq",
+      "kind": "news",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:17:00.000Z",
+      "description": "Saudi Arabia intercepts missile near Red Sea oil hub - https://www.irishsun.com/ (https://www.irishsun.com/, 2026-10-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "https://www.irishsun.com/",
+      "axis": "Other",
+      "tags": [
+        "https://www.irishsun.com/",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Red Sea",
+      "source": "https://www.irishsun.com/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNem9hazdLQ2tTaFZPd2VXOV95RnI5ZnhLZnRNRlB0dk1xa2hWQUpfckFQTVlWUXZ5TldnOC14cjdIY29RcEZpSmpTaVFHWkx2ZFlLTmlBOWQzdFJKa1VPUmlRTk1SV0hYbldzZE9XZVlHS2UxbWxhMERmckE2bFdIMWpfOFlRbWpzM1NKQ2ZBd3FoM0VJRGxn?oc=5",
+      "lat": 15.5,
+      "lng": 41.5,
+      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
     },
     {
       "id": "gdelt-1328613874",
@@ -1326,6 +1387,176 @@
         "goldstein": -4.4,
         "tone": -5.48,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328638046",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T05:15:00.000Z",
+      "description": "Threat — Civilian → Saudi Arabia near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Threat (GDELT 138)",
+      "actor": "Civilian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.asiaone.com/asia/egypts-top-security-body-agrees-help-saudi-arabia-defend-itself-against-houthi-attacks",
+      "gdelt": {
+        "globalEventId": "1328638046",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -5.48,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328638047",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T05:15:00.000Z",
+      "description": "Fight — Civilian → Saudi Arabia near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Civilian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.asiaone.com/asia/egypts-top-security-body-agrees-help-saudi-arabia-defend-itself-against-houthi-attacks",
+      "gdelt": {
+        "globalEventId": "1328638047",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.48,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328638049",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T05:15:00.000Z",
+      "description": "Threat — Civilian → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Threat (GDELT 138)",
+      "actor": "Civilian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.asiaone.com/asia/egypts-top-security-body-agrees-help-saudi-arabia-defend-itself-against-houthi-attacks",
+      "gdelt": {
+        "globalEventId": "1328638049",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -5.48,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328638051",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T05:15:00.000Z",
+      "description": "Fight — Civilian → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Civilian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.asiaone.com/asia/egypts-top-security-body-agrees-help-saudi-arabia-defend-itself-against-houthi-attacks",
+      "gdelt": {
+        "globalEventId": "1328638051",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.48,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328643648",
+      "kind": "event",
+      "date": "2026-10-19",
+      "isoDate": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T06:15:00.000Z",
+      "description": "Fight — Civilian → Unspecified near Yemen. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Fight (GDELT 194)",
+      "actor": "Civilian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thenationalnews.com/news/us/2026/10/19/who-is-hasan-piker-the-twitch-streamer-who-has-praised-the-houthis/",
+      "gdelt": {
+        "globalEventId": "1328643648",
+        "eventCode": "194",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.79,
+        "mentions": 6,
         "sources": 1
       }
     },
@@ -19001,143 +19232,6 @@
       "locationStr": "Splash247",
       "source": "Splash247",
       "sourceUrl": "https://splash247.com/splash-wrap-a-missile-from-riyadh/"
-    },
-    {
-      "id": "news-pa28r4",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T07:00:37.000Z",
-      "description": "Drone strikes in the Black Sea raise fears of Russian escalation to test NATO's response - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ABC News - Breaking News, Latest News and Videos",
-      "axis": "Other",
-      "tags": [
-        "ABC News - Breaking News, Latest News and Videos",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV2YtNmVlYWxBQmwxSmVqMnVvN1BndGZhc1U1aEVwb19faXNfNVgtbVVDOFlsZThuSFJDdExPQXpDRHpNemlRWTZQdzYtXzRkTlFOeUFYdWxvek1oT3N6blZjRWNUTU82R2l6RHhsdGJUM3dpaFpFX2Fqb1VkQUM2UE95MVhqdW5WNWhoQS1pVW9sTmxET0dlaWhCbFpKS2laZkFaVk1R0gGrAUFVX3lxTE9FNmpuVXV5Yy13Sjg5NjktUkUxYUJzRi1raWZJcHZKSktBcndIM19IY09UM3cwZzczaGZoOW9xWW1aV1pDMUlubjBxaFg0MXRQX0tkT1VseHhjV2JjNFVnampURk1mQWVlaTZqbU01dFMzWDFYbTBtNDdTc0l0UjlfeW8wR2VRM1hhdXNrUlFqMWV6MEtDYXo2N2N1MTktS0hjc09lMkp0Q2gyOA?oc=5"
-    },
-    {
-      "id": "news-7p1uom",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T06:25:42.000Z",
-      "description": "HMM commits $1.6bn to 12 more containerships (Splash247, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Splash247",
-      "axis": "Other",
-      "tags": [
-        "Splash247",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Splash247",
-      "source": "Splash247",
-      "sourceUrl": "https://splash247.com/hmm-commits-1-6bn-to-12-more-containerships/"
-    },
-    {
-      "id": "news-1397dbb",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T05:44:11.000Z",
-      "description": "Maen Abdulmalik Saeed Warns Houthi Siege Of Taiz Would Threaten Bab Al-Mandab And Aden Road - NewsCord (NewsCord, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NewsCord",
-      "axis": "Other",
-      "tags": [
-        "NewsCord",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Aden",
-      "source": "NewsCord",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQXMtZzVWRndzU29vOThFNjVKUEVaYjB5ZWNyVEZtNlRwNHRERmlGTTNCNzctWkdzdGJUZXdqSEpFQlFDM0t1elc1MVp5RkQtSlFQMGhMQmo2bXlyMEIyUDNwLUZEQ015bFlwYm01OTl6SmctT0dVdnR5OXYxZHpka1JrSlRrcGFKSWpNZkp6UUtKTmVocnp4QlR4ZV9YZkxQaUx5NWkwWkRLNkNmQW5xdnhpU09FTmUwbFV3VlR2T2tRS0l1Q0ltTFExYnFka3F2a3l2VjRjQzQ1Z2gxOHhHV1pOdERQVk5VVmc?oc=5",
-      "lat": 12.78,
-      "lng": 45.04,
-      "coordsNote": "Headline gazetteer match: \"Aden\" (city); verify via source article."
-    },
-    {
-      "id": "news-1yywbnf",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T05:43:00.000Z",
-      "description": "Liquimar lines up suezmax trio at New Hantong (Splash247, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Splash247",
-      "axis": "Other",
-      "tags": [
-        "Splash247",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Splash247",
-      "source": "Splash247",
-      "sourceUrl": "https://splash247.com/liquimar-lines-up-suezmax-trio-at-new-hantong/"
-    },
-    {
-      "id": "news-178npil",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T05:07:00.000Z",
-      "description": "Chemnav steps up suezmax bet with Jinglu pair (Splash247, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Splash247",
-      "axis": "Other",
-      "tags": [
-        "Splash247",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Splash247",
-      "source": "Splash247",
-      "sourceUrl": "https://splash247.com/chemnav-steps-up-suezmax-bet-with-jinglu-pair/"
-    },
-    {
-      "id": "news-1actixb",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T04:36:00.000Z",
-      "description": "Five killed, 16 wounded as Houthis launch deadly attack on Yemen presidential palace - Saudi Gazette (Saudi Gazette, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Saudi Gazette",
-      "axis": "Other",
-      "tags": [
-        "Saudi Gazette",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Saudi Gazette",
-      "source": "Saudi Gazette",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE50ZFphVkxUVE9pME5ORWl2bTVTWFVLLXBZZ3JzNFhuMTk2bUpPekRHcUdsc0hZZEJMVkR4bzJMdHQxb282amJ5Ulg2VkxTTGpXNGJYNA?oc=5"
-    },
-    {
-      "id": "news-1f9w1ed",
-      "kind": "news",
-      "date": "2026-10-16",
-      "isoDate": "2026-10-16T04:36:00.000Z",
-      "description": "Five killed, 16 wounded as Houthis launch deadly attack on Yemen presidential palace - Saudi Gazette (Saudi Gazette, 2026-10-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Saudi Gazette",
-      "axis": "Other",
-      "tags": [
-        "Saudi Gazette",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Saudi Gazette",
-      "source": "Saudi Gazette",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLTU5VmtPRmpsaFdDVUNEeGhGcXJSQ0JPa1pIYXNaelMwalp3bi00X1NHeVo5VDIwZ0hjRUFqcnc3SERYbnhqSktpaVVsRUprMTNIS1ZKTm1YNnNINllxLTdlczczM2dSdGMxQ0hsZTlzcHNNTW1nclZsbjdLejc1Q1VyUDM3RlVPM0ZFMHl6bmUzMEV5NkRnVDRDU25wN1RSV0s4eHZqa3NqdHhDMW1KSV9BU1BVZXBaYXNKcHZB?oc=5"
     }
   ]
 }
