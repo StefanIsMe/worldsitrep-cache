@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-20T05:25:08.590Z",
+  "collectedAt": "2026-10-20T10:27:52.667Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 5
+      "count": 7
     },
     {
       "id": "aa-mali",
@@ -56,7 +56,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 33
+      "filtered": 32
     },
     {
       "id": "africanews",
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 213,
+  "count": 219,
   "events": [
     {
       "id": "gdelt-1328793221",
@@ -270,6 +270,244 @@
         "goldstein": -10,
         "tone": -2.52,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328851016",
+      "kind": "event",
+      "date": "2026-10-20",
+      "isoDate": "2026-10-20T00:00:00.000Z",
+      "observedAt": "2026-10-20T08:15:00.000Z",
+      "description": "Assault — Unspecified → Civilian near Menaka, Gao, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "action": "Assault (GDELT 180)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Menaka, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ewn.co.za/2026/10/20/gunmen-kill-more-than-40-civilians-in-mali-security-and-community-sources",
+      "gdelt": {
+        "globalEventId": "1328851016",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -8.15,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328851201",
+      "kind": "event",
+      "date": "2026-10-20",
+      "isoDate": "2026-10-20T00:00:00.000Z",
+      "observedAt": "2026-10-20T08:15:00.000Z",
+      "description": "Disapproval — Assailant → Islamic near Menaka, Gao, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Assailant",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Menaka, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ewn.co.za/2026/10/20/gunmen-kill-more-than-40-civilians-in-mali-security-and-community-sources",
+      "gdelt": {
+        "globalEventId": "1328851201",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.15,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328851544",
+      "kind": "event",
+      "date": "2026-10-20",
+      "isoDate": "2026-10-20T00:00:00.000Z",
+      "observedAt": "2026-10-20T08:15:00.000Z",
+      "description": "Fight — Mali → Civilian near Menaka, Gao, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "action": "Fight (GDELT 190)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Menaka, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ewn.co.za/2026/10/20/gunmen-kill-more-than-40-civilians-in-mali-security-and-community-sources",
+      "gdelt": {
+        "globalEventId": "1328851544",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.15,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328851722",
+      "kind": "event",
+      "date": "2026-10-20",
+      "isoDate": "2026-10-20T00:00:00.000Z",
+      "observedAt": "2026-10-20T08:15:00.000Z",
+      "description": "Fight — Armed Men → Unspecified near Menaka, Gao, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "action": "Fight (GDELT 190)",
+      "actor": "Armed Men",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Menaka, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ewn.co.za/2026/10/20/gunmen-kill-more-than-40-civilians-in-mali-security-and-community-sources",
+      "gdelt": {
+        "globalEventId": "1328851722",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.15,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328851723",
+      "kind": "event",
+      "date": "2026-10-20",
+      "isoDate": "2026-10-20T00:00:00.000Z",
+      "observedAt": "2026-10-20T08:15:00.000Z",
+      "description": "Fight — Armed Men → Civilian near Menaka, Gao, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "action": "Fight (GDELT 190)",
+      "actor": "Armed Men",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Menaka, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ewn.co.za/2026/10/20/gunmen-kill-more-than-40-civilians-in-mali-security-and-community-sources",
+      "gdelt": {
+        "globalEventId": "1328851723",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.15,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328851725",
+      "kind": "event",
+      "date": "2026-10-20",
+      "isoDate": "2026-10-20T00:00:00.000Z",
+      "observedAt": "2026-10-20T08:15:00.000Z",
+      "description": "Assault — Armed Men → Mali near Menaka, Gao, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "action": "Assault (GDELT 180)",
+      "actor": "Armed Men",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Menaka, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ewn.co.za/2026/10/20/gunmen-kill-more-than-40-civilians-in-mali-security-and-community-sources",
+      "gdelt": {
+        "globalEventId": "1328851725",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -8.15,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1328851726",
+      "kind": "event",
+      "date": "2026-10-20",
+      "isoDate": "2026-10-20T00:00:00.000Z",
+      "observedAt": "2026-10-20T08:15:00.000Z",
+      "description": "Fight — Armed Men → Mali near Menaka, Gao, Mali. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "action": "Fight (GDELT 190)",
+      "actor": "Armed Men",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Menaka, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ewn.co.za/2026/10/20/gunmen-kill-more-than-40-civilians-in-mali-security-and-community-sources",
+      "gdelt": {
+        "globalEventId": "1328851726",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.15,
+        "mentions": 8,
         "sources": 1
       }
     },
@@ -7149,25 +7387,6 @@
         "mentions": 6,
         "sources": 1
       }
-    },
-    {
-      "id": "news-mc312a",
-      "kind": "news",
-      "date": "2026-10-17",
-      "isoDate": "2026-10-17T06:00:00.000Z",
-      "description": "ECOWAS opens talks with 3 Russia-backed Sahel nations as Nigeria moves to repair Africa’s biggest political split - Business Insider Africa (Business Insider Africa, 2026-10-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Business Insider Africa",
-      "axis": "Other",
-      "tags": [
-        "Business Insider Africa",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Business Insider Africa",
-      "source": "Business Insider Africa",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2lfSUVHeGNhSGpGSGNiVElrbGtSNFh5NXUxTWc2UTd5eGhwSG5Na0FWaTRBa1NicXdsZ0xBVUk3RFFUNzVQTmJTQl9oMEVaY3NuSkVFRTBxVjI3bFRYMWNSVXZfcHdKMG9LRk1TaW15eVdjcTMyZUd1RFZTSkNGT01ycTJIY1FieUN1aDNMWEwwMnBsMDJFZ2pLamctd3hUUnRtUzBodWd4eE8wOWVPekZFbmlTOXZTYU1tMWppMnNwM0lUY2FrS3RxQnIyQ1htQXlDYg?oc=5"
     }
   ]
 }
