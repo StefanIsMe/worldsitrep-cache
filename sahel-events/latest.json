@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-21T06:38:45.996Z",
+  "collectedAt": "2026-10-21T12:28:58.610Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 14
     },
     {
       "id": "aa-mali",
@@ -56,7 +56,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 33
+      "filtered": 34
     },
     {
       "id": "africanews",
@@ -101,8 +101,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 271,
+  "count": 285,
   "events": [
+    {
+      "id": "news-11rs89e",
+      "kind": "news",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T10:58:00.000Z",
+      "description": "ECOWAS, Sahel Bloc Agree To Negotiate Formal Cooperation Deal - TVC News (TVC News, 2026-10-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "TVC News",
+      "axis": "Other",
+      "tags": [
+        "TVC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "TVC News",
+      "source": "TVC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaU1kSFB3ZEk3dnExMU5qWm56UFIzcVlBNzVGLWpZd25IZmRTZFpFbHJ5VEpnTkJleEc2VERfVmVaZmNYaTVSdElGdV8tNHlqdzZxNTRkUXF1bjJpc2pFRnU1anhlMnJydnRjQmUzc2szeDBlMU9sSUVfbk9xOUhBNDREZXdrV3lMcG1xXw?oc=5"
+    },
     {
       "id": "news-uz8lh3",
       "kind": "news",
@@ -121,6 +140,482 @@
       "locationStr": "Africanews",
       "source": "Africanews",
       "sourceUrl": "http://www.africanews.com/2026/10/21/burkina-faso-reinstates-death-penalty-justice-ministry/"
+    },
+    {
+      "id": "gdelt-1329042013",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T07:15:00.000Z",
+      "description": "Fight — Military → Mali near Mali. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 17,
+      "lng": -4,
+      "action": "Fight (GDELT 192)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://theheraldghana.com/15-years-after-gaddafi-libyas-ruins-the-sahels-guns-and-africas-unfinished-business/",
+      "gdelt": {
+        "globalEventId": "1329042013",
+        "eventCode": "192",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -5.42,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329047571",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T08:00:00.000Z",
+      "description": "Disapproval — Unspecified → Ruler near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://blueprint.ng/santurakin-nupe-warns-pdp-against-politicising-niger-traditional-rulers/",
+      "gdelt": {
+        "globalEventId": "1329047571",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 3.06,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329048020",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T08:00:00.000Z",
+      "description": "Threat — Ruler → Niger near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Threat (GDELT 130)",
+      "actor": "Ruler",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://blueprint.ng/santurakin-nupe-warns-pdp-against-politicising-niger-traditional-rulers/",
+      "gdelt": {
+        "globalEventId": "1329048020",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 3.06,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329048027",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T08:00:00.000Z",
+      "description": "Threat — Prince → Politician near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Threat (GDELT 130)",
+      "actor": "Prince",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://blueprint.ng/santurakin-nupe-warns-pdp-against-politicising-niger-traditional-rulers/",
+      "gdelt": {
+        "globalEventId": "1329048027",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 3.06,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329055174",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T08:45:00.000Z",
+      "description": "Fight — Senate → Unspecified near Niger. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16,
+      "lng": 8,
+      "action": "Fight (GDELT 192)",
+      "actor": "Senate",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://leadership.ng/senate-confirms-sani-ndanusa-as-non-career-ambassador-designate/",
+      "gdelt": {
+        "globalEventId": "1329055174",
+        "eventCode": "192",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": 4.24,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329055255",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T08:45:00.000Z",
+      "description": "Fight — Niger → Senate near Niger. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16,
+      "lng": 8,
+      "action": "Fight (GDELT 192)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://leadership.ng/senate-confirms-sani-ndanusa-as-non-career-ambassador-designate/",
+      "gdelt": {
+        "globalEventId": "1329055255",
+        "eventCode": "192",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": 4.24,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329060862",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T09:30:00.000Z",
+      "description": "Disapproval — Criminal → President near Burkina Faso. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 1121)",
+      "actor": "Criminal",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.opinionnigeria.com/sowore-sticks-stones-and-the-test-of-consistency-by-victor-sunday/",
+      "gdelt": {
+        "globalEventId": "1329060862",
+        "eventCode": "1121",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.09,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329061419",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T09:30:00.000Z",
+      "description": "Disapproval — Niger → President near Burkina Faso. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 1121)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.opinionnigeria.com/sowore-sticks-stones-and-the-test-of-consistency-by-victor-sunday/",
+      "gdelt": {
+        "globalEventId": "1329061419",
+        "eventCode": "1121",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.09,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329089841",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T12:15:00.000Z",
+      "description": "Assault — Amnesty International → Burkina Faso near Burkina Faso. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 13,
+      "lng": -2,
+      "action": "Assault (GDELT 186)",
+      "actor": "Amnesty International",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.channelafrica.co.za/channelafrica/news/burkina-faso-parliament-votes-to-restore-death-penalty/",
+      "gdelt": {
+        "globalEventId": "1329089841",
+        "eventCode": "186",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.96,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329089842",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T12:15:00.000Z",
+      "description": "Disapproval — Human Rights Watch → Government Forces near Djibo, Region du Sahel, Burkina Faso. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 14.1012,
+      "lng": -1.62793,
+      "action": "Disapproval (GDELT 1123)",
+      "actor": "Human Rights Watch",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Djibo, Region du Sahel, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/21/burkina-fasos-parliament-unanimously-votes-to-reinstate-the-death-penalty",
+      "gdelt": {
+        "globalEventId": "1329089842",
+        "eventCode": "1123",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -10.67,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329089867",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T12:15:00.000Z",
+      "description": "Disapproval — Dissident → Mali near Djibo, Region du Sahel, Burkina Faso. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 14.1012,
+      "lng": -1.62793,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Dissident",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Djibo, Region du Sahel, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/21/burkina-fasos-parliament-unanimously-votes-to-reinstate-the-death-penalty",
+      "gdelt": {
+        "globalEventId": "1329089867",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -10.67,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329089868",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T12:15:00.000Z",
+      "description": "Coercion — Dissident → Mali near Djibo, Region du Sahel, Burkina Faso. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 14.1012,
+      "lng": -1.62793,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Dissident",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Djibo, Region du Sahel, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/21/burkina-fasos-parliament-unanimously-votes-to-reinstate-the-death-penalty",
+      "gdelt": {
+        "globalEventId": "1329089868",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -10.67,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329090047",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T12:15:00.000Z",
+      "description": "Disapproval — Militant → Al Qaida near Djibo, Region du Sahel, Burkina Faso. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 14.1012,
+      "lng": -1.62793,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Militant",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Djibo, Region du Sahel, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/21/burkina-fasos-parliament-unanimously-votes-to-reinstate-the-death-penalty",
+      "gdelt": {
+        "globalEventId": "1329090047",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -10.67,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329090048",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T12:15:00.000Z",
+      "description": "Disapproval — Militant → Muslim near Djibo, Region du Sahel, Burkina Faso. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 14.1012,
+      "lng": -1.62793,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Militant",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Djibo, Region du Sahel, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/21/burkina-fasos-parliament-unanimously-votes-to-reinstate-the-death-penalty",
+      "gdelt": {
+        "globalEventId": "1329090048",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -10.67,
+        "mentions": 5,
+        "sources": 1
+      }
     },
     {
       "id": "news-z4ugwd",
@@ -9050,25 +9545,6 @@
       "locationStr": "BBC",
       "source": "BBC",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nYVJVZVZVbzduQjJtY21adlFsT240ME9LNHRtbkQ2Qy1Dc3hDaHk3OHBwYjNqVlc1SlJOelRNQlV6SFdJaDJsRGNoLTdmcVktbW5kXzZDaWdJaDZtcGfSAWNBVV95cUxOMWd2UGJtZGJWcVBzVjRNM0NDYkVpSFVLenVkMklsRDgtSDN3Z2FsZ2VoNmVPNDFMWEFTUTFBVEdIdV9YVXRsREs1SkVTWUF2T2U3aFVYSnJlOXdmX2FjN2J6d2s?oc=5"
-    },
-    {
-      "id": "news-1lhwf72",
-      "kind": "news",
-      "date": "2026-10-18",
-      "isoDate": "2026-10-18T06:59:30.000Z",
-      "description": "Burkina Faso, Niger, Mali restart dialogue with ECOWAS - TRT Afrika (TRT Afrika, 2026-10-18. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "TRT Afrika",
-      "axis": "Other",
-      "tags": [
-        "TRT Afrika",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "TRT Afrika",
-      "source": "TRT Afrika",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE85d1BYTk5FY0ZabWlGUzJTTm1pNTdMaHdSWC13akJHdjlZbHZWVU02bjNoMXVRbWhfNzBIamlNa3U2elBZVGNweTRNREFJQmhwQmdCaWduV2pBNEZybjNqRXc3Y1A?oc=5"
     }
   ]
 }
