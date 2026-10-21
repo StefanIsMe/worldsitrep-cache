@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-21T17:42:18.955Z",
+  "collectedAt": "2026-10-21T20:56:02.521Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 7
+      "count": 12
     },
     {
       "id": "taipei-times",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 30,
+      "count": 44,
       "filtered": 0
     },
     {
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 308,
+  "count": 322,
   "events": [
     {
       "id": "news-1129zzy",
@@ -290,6 +290,44 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://www.taipeitimes.com/News/biz/archives/2026/10/22/2003866386"
+    },
+    {
+      "id": "news-5zbhqa",
+      "kind": "news",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T20:36:57.000Z",
+      "description": "Top Democrat says chip restrictions are ‘key lever’ for US AI edge over China (SCMP, 2026-10-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3371692/top-democrat-says-chip-restrictions-are-key-lever-us-ai-edge-over-china"
+    },
+    {
+      "id": "news-pafb3c",
+      "kind": "news",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T19:38:29.000Z",
+      "description": "US colleges scale back cooperation with Chinese institutions after Pentagon’s push (SCMP, 2026-10-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/us/article/3371690/us-colleges-scale-back-cooperation-chinese-institutions-after-pentagons-push"
     },
     {
       "id": "news-1qfxs90",
@@ -1960,6 +1998,414 @@
         "quadClass": 4,
         "goldstein": -8,
         "tone": -6.08,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329147533",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T17:45:00.000Z",
+      "description": "Disapproval — Unspecified → Airline near Lienchiang, Lianjiang Xian, Taiwan. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 26.1642,
+      "lng": 119.959,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Lienchiang, Lianjiang Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/10/22/2003866405",
+      "gdelt": {
+        "globalEventId": "1329147533",
+        "eventCode": "112",
+        "geoType": 5,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.59,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329147850",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T17:45:00.000Z",
+      "description": "Fight — China → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Fight (GDELT 190)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asia.nikkei.com/business/technology/china-s-oppo-pushes-premium-smartphones-to-combat-component-crunch",
+      "gdelt": {
+        "globalEventId": "1329147850",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -7.55,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329147863",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T17:45:00.000Z",
+      "description": "Reduced relations — China → Taiwan near Shimen, Kao-hsiung, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 22.9566,
+      "lng": 120.606,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Shimen, Kao-hsiung, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/10/22/2003866405",
+      "gdelt": {
+        "globalEventId": "1329147863",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -3.59,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329148592",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T17:45:00.000Z",
+      "description": "Threat — Legislature → Unspecified near Yunlin County, Yunlin Xian, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 23.707,
+      "lng": 120.385,
+      "action": "Threat (GDELT 138)",
+      "actor": "Legislature",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Yunlin County, Yunlin Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/feat/archives/2026/10/22/2003866399",
+      "gdelt": {
+        "globalEventId": "1329148592",
+        "eventCode": "138",
+        "geoType": 5,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -2.07,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329148995",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T17:45:00.000Z",
+      "description": "Fight — Taiwan → Unspecified near Sishu, Tainan Municipality, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 22.9397,
+      "lng": 120.177,
+      "action": "Fight (GDELT 193)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sishu, Tainan Municipality, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/editorials/archives/2026/10/22/2003866393",
+      "gdelt": {
+        "globalEventId": "1329148995",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.18,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329148997",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T17:45:00.000Z",
+      "description": "Reduced relations — Taiwan → Okinawa near Lienchiang, Lianjiang Xian, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 26.1642,
+      "lng": 119.959,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Lienchiang, Lianjiang Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/10/22/2003866405",
+      "gdelt": {
+        "globalEventId": "1329148997",
+        "eventCode": "160",
+        "geoType": 5,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -3.59,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329149377",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T17:45:00.000Z",
+      "description": "Force posture — The Us → Luzon Strait near Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Force posture (GDELT 154)",
+      "actor": "The Us",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/10/22/2003866404",
+      "gdelt": {
+        "globalEventId": "1329149377",
+        "eventCode": "154",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -4.73,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329162033",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T19:00:00.000Z",
+      "description": "Disapproval — Taiwan → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.manilatimes.net/2026/10/22/world/asia-oceania/chinese-cyberattacks-disinfo-rise-ahead-of-taiwan-polls/2450796",
+      "gdelt": {
+        "globalEventId": "1329162033",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.19,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329167568",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T19:45:00.000Z",
+      "description": "Disapproval — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/arts-and-life/entertainment/2026/10/21/taiwan-prosecutors-indict-5-suspects-in-alleged-paid-plot-to-injure-anti-ccp-comedian",
+      "gdelt": {
+        "globalEventId": "1329167568",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.33,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329168226",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T19:45:00.000Z",
+      "description": "Threat — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 134)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/arts-and-life/entertainment/2026/10/21/taiwan-prosecutors-indict-5-suspects-in-alleged-paid-plot-to-injure-anti-ccp-comedian",
+      "gdelt": {
+        "globalEventId": "1329168226",
+        "eventCode": "134",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5.8,
+        "tone": -6.33,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329170362",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T20:00:00.000Z",
+      "description": "Disapproval — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cp24.com/news/world/2026/10/21/taiwan-prosecutors-indict-5-suspects-in-alleged-paid-plot-to-injure-anti-ccp-comedian/",
+      "gdelt": {
+        "globalEventId": "1329170362",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.93,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329171030",
+      "kind": "event",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T00:00:00.000Z",
+      "observedAt": "2026-10-21T20:00:00.000Z",
+      "description": "Coercion — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cp24.com/news/world/2026/10/21/taiwan-prosecutors-indict-5-suspects-in-alleged-paid-plot-to-injure-anti-ccp-comedian/",
+      "gdelt": {
+        "globalEventId": "1329171030",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -5.93,
         "mentions": 10,
         "sources": 1
       }
