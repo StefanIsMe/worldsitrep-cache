@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-10-22T15:34:30.872Z",
+  "collectedAt": "2026-10-22T15:41:44.862Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 216
+      "count": 65
     },
     {
       "id": "gnews-france-protests",
@@ -26,9 +26,9 @@
     {
       "id": "france24-en",
       "url": "https://www.france24.com/en/rss",
-      "status": "ok",
-      "count": 1,
-      "filtered": 23
+      "status": "failed",
+      "count": 0,
+      "error": "RSS france24-en request failed with HTTP 403"
     },
     {
       "id": "bbc-france",
@@ -42,7 +42,7 @@
       "url": "https://www.rfi.fr/en/rss",
       "status": "ok",
       "count": 0,
-      "filtered": 22
+      "filtered": 19
     },
     {
       "id": "reliefweb",
@@ -54,6 +54,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-fjn04i",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T15:06:31.000Z",
+      "description": "French students demonstrate again, despite school holidays - France 24 (France 24, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24",
+      "axis": "Other",
+      "tags": [
+        "France 24",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "France 24",
+      "source": "France 24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX3VSTmZja3JKc01KVzE2RXZLS3VLZWR1d0RoYTRYYkpFcXZiTmVRdDBuRVg1dVF1TjZwcjkySk9HMVQzVVNuMGs0U1ZxZlFpMVdRNkdZN2dYbmtuMHhwRXRTZDM4QThEQW04c1ExOU9QeS1XNUp5Q1ZINkd5MEIxWjVKWHE3MzMyaHYtanRR?oc=5"
+    },
     {
       "id": "news-14pxudp",
       "kind": "news",
@@ -49826,40 +49845,6 @@
         "goldstein": -5,
         "tone": -8.07,
         "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1328829567",
-      "kind": "event",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T00:00:00.000Z",
-      "observedAt": "2026-10-20T05:15:00.000Z",
-      "description": "Rejection — French → Prison near Cambrai, Nord-Pas-de-Calais, France. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 50.1772,
-      "lng": 3.23383,
-      "action": "Rejection (GDELT 1241)",
-      "actor": "French",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Cambrai, Nord-Pas-de-Calais, France",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://allafrica.com/stories/202610200125.html",
-      "gdelt": {
-        "globalEventId": "1328829567",
-        "eventCode": "1241",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -4,
-        "tone": -8.07,
-        "mentions": 1,
         "sources": 1
       }
     }
