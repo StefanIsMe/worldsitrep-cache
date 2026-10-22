@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-22T10:29:48.679Z",
+  "collectedAt": "2026-10-22T10:41:29.436Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 33
+      "count": 13
     },
     {
       "id": "gcaptain",
@@ -40,9 +40,9 @@
     {
       "id": "splash247",
       "url": "https://splash247.com/feed/",
-      "status": "ok",
-      "count": 4,
-      "filtered": 6
+      "status": "failed",
+      "count": 0,
+      "error": "RSS splash247 request failed with HTTP 415"
     },
     {
       "id": "loadstar",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 688,
+  "count": 693,
   "events": [
     {
       "id": "news-1f1f4tc",
@@ -123,6 +123,25 @@
       "locationStr": "Splash247",
       "source": "Splash247",
       "sourceUrl": "https://splash247.com/maersk-tankers-lines-up-eu-backing-for-four-vlac-ammonia-conversions/"
+    },
+    {
+      "id": "news-1nmzpe1",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T09:14:53.000Z",
+      "description": "Two killed in attack on airport in eastern Saudi Arabia, authorities say - Yahoo (Yahoo, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yahoo",
+      "axis": "Other",
+      "tags": [
+        "Yahoo",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yahoo",
+      "source": "Yahoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTWQ3OXZBUEdzN0JIa1ljeWkzcDB6X3F5LTJmZjZiNlFCN0NjVVlhcmZ4dU1rYWQ0T255N3ctcUhvOTdHZk54RWg3Q0Y1Njl5WjAxeFcwMDdQVHgwSWEyQm91OFBEV1BIUlp5OFJyQ1VxdXNrYVkya05iR3N4dFRJbXk1bDk3RlBHT0pYM21PWXRhLXh1?oc=5"
     },
     {
       "id": "news-1v3jbv0",
@@ -260,6 +279,25 @@
       "locationStr": "BBC",
       "source": "BBC",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmeWNaNkZfMWgyVENuck5jTjBjUTZKNWE4V29DcW8xMURzclJjUFJsQk5Jb1pwTFNtcnJsU3R3RXI1YW8wVUxtejV2bFVkXzZrUF94M2tpbm5nQVU?oc=5"
+    },
+    {
+      "id": "news-1a4ltpp",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T01:06:00.000Z",
+      "description": "One Person Killed and 8 Injured in Airport Attack in Saudi Arabia - WSJ (WSJ, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSJ",
+      "axis": "Other",
+      "tags": [
+        "WSJ",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WSJ",
+      "source": "WSJ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdDNBT1lDRldBUTNwM040VzhsS1ptVTNiZzR6ZkhKZmhRRUd1NU5xc3hEc0JkUEswTVB6WVhqd0xSNEk2cS1uWkV3MW40bi1MbmRTYzZya2hmdWplSDZGUTFaQldFVzJZMHRLNGNjVGxULWNnWk5ReUI2dlpYRk14d3J0M2NJTmM0UHg0UUthWnFrX2otUWJUd2VnOUp6QVNtbWhZdkJUajhqZjBpUHVpZTJB?oc=5"
     },
     {
       "id": "gdelt-1329199673",
@@ -2880,6 +2918,40 @@
       }
     },
     {
+      "id": "gdelt-1329276624",
+      "kind": "event",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T00:00:00.000Z",
+      "observedAt": "2026-10-22T10:30:00.000Z",
+      "description": "Fight — Military → Correspondent near Mukalla, ?a?ramawt, Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 14.5425,
+      "lng": 49.1242,
+      "action": "Fight (GDELT 190)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Mukalla, ?a?ramawt, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/houthis-strike-yemens-al-rayyan-airport-several-times-in-hours",
+      "gdelt": {
+        "globalEventId": "1329276624",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.85,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-ccjdaf",
       "kind": "news",
       "date": "2026-10-21",
@@ -3129,6 +3201,29 @@
       "locationStr": "Ynetnews",
       "source": "Ynetnews",
       "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05MVQtTkpfejA2WGVyczg0Z21MRjY5b21WYVNScWhEb3RmeHhvV0EybU9Cd1ZfZWp6ZjVIenJWWU8xaGd5dlluNlNuZUlURUxqY01YVF9kZU4tcjZTR2MwbVBoOUUtd2w2ZEYzelVn?oc=5"
+    },
+    {
+      "id": "news-11b75w3",
+      "kind": "news",
+      "date": "2026-10-21",
+      "isoDate": "2026-10-21T03:01:00.000Z",
+      "description": "Houthis strike besieged city in Yemen that UN warns is at ‘grave risk’ - The Times of Israel (The Times of Israel, 2026-10-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times of Israel",
+      "axis": "Other",
+      "tags": [
+        "The Times of Israel",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Yemen",
+      "source": "The Times of Israel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdWxLYTRCdkNnSEVIQXc5RW83VEhnOVYyR1FjYlhXN1dDREJmOWs1WjZHUTJNSzhERHFYN2VWdzhrRmNUQVF1ODZXeTJ1Vk8wMXpXTDJtSFg1cFlScEl3TFNTZjJQdjItSDZMM1ZCOW5KWXprZE9QUFFaTEtKR0hCeDVVcm1iSWtBdkZxWGtPbDdkdGNISmpKMkdFLXBvbm4t0gGmAUFVX3lxTE5iclpwcXdpY0M3bG9FMmVPTHN6Y2FIb09KWEo1RDVDSDE3bmxXZUwzMzd6dExRQ2kzd2l3c05LUGFlOHdETU8xTldsZTd4ZUJ0Q3dSSXBwd2IxNzdvbXRfQ2dxMnlWcmE3cUJZTTNPa1lYZENrMmxHWnUwWXpGVnJzYVlrenNrTE1vQmJqZVpSTm5HNm81MktDWkFMS3hCTmtJOFFpbkE?oc=5",
+      "lat": 16.34712,
+      "lng": 47.89153,
+      "coordsNote": "OSM geocode: matched \"Yemen\" → Yemen; © OpenStreetMap contributors."
     },
     {
       "id": "news-1hia9hr",
@@ -11142,6 +11237,25 @@
       "coordsNote": "Headline gazetteer match: \"Taiz\" (city); verify via source article."
     },
     {
+      "id": "news-1r29bjv",
+      "kind": "news",
+      "date": "2026-10-20",
+      "isoDate": "2026-10-20T14:58:59.000Z",
+      "description": "How new capacity is raising rates in chaotic ocean market - FreightWaves (FreightWaves, 2026-10-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "FreightWaves",
+      "axis": "Other",
+      "tags": [
+        "FreightWaves",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "FreightWaves",
+      "source": "FreightWaves",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSV9lN0JoZjhkNDdkaUdVRXB1TWU1bVBwSkRUcmtvaEpjdmlrMEVxM2I5dTM4cmZ0eXdZaUxkSmh5RXItT0VYRl9UN1hFX3N5RXBtdTRVWXBIaHFucmk4SUw4N1liYVJxdHdjakFiVk51LW15ajkwN0VJT2J6eDhXOUlBbDhYTlloM205VFJrblR4QlhFMHc?oc=5"
+    },
+    {
       "id": "news-17wa9hq",
       "kind": "news",
       "date": "2026-10-20",
@@ -11309,7 +11423,7 @@
       "id": "news-s33aks",
       "kind": "news",
       "date": "2026-10-20",
-      "isoDate": "2026-10-20T12:52:00.000Z",
+      "isoDate": "2026-10-20T13:00:38.000Z",
       "description": "Death toll from Houthi attack on Yemen training camp rises to 73 - Reuters (Reuters, 2026-10-20. Headline + link only.)",
       "type": "other",
       "action": "News report",
