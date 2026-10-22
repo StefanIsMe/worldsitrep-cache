@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-22T19:34:03.149Z",
+  "collectedAt": "2026-10-22T22:48:19.049Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 14
+      "count": 2
     },
     {
       "id": "taipei-times",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 31,
+      "count": 44,
       "filtered": 0
     },
     {
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 329,
+  "count": 323,
   "events": [
     {
       "id": "news-13u7zdv",
@@ -176,6 +176,82 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/10/23/2003866462"
+    },
+    {
+      "id": "news-1nk26lr",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T21:56:45.000Z",
+      "description": "China-made cancer drug to go on sale in US after Americans travel to buy it (SCMP, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/us/article/3371835/china-made-cancer-drug-go-sale-us-after-americans-travel-buy-it"
+    },
+    {
+      "id": "news-dwca44",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T21:12:59.000Z",
+      "description": "Han Kuang 42 Debrief - Taiwan Security Monitor (Taiwan Security Monitor, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Taiwan Security Monitor",
+      "axis": "Other",
+      "tags": [
+        "Taiwan Security Monitor",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Taiwan Security Monitor",
+      "source": "Taiwan Security Monitor",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KTHRSMEx0aWRDS2FXOFdSQWRxNnc5M0RNYTFXdlpUdHFtWURLZWgweFFzdkVYU3RhRGJiUGNVdWQtdHZTUmx1NGJRYzR6MUIxczJrLVFDUHVlZHc?oc=5"
+    },
+    {
+      "id": "news-pawori",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T20:32:36.000Z",
+      "description": "EU mulls sanctions reprieve for Chinese fabric-maker accused of aiding Russia (SCMP, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/article/3371832/eu-mulls-sanctions-reprieve-chinese-fabric-maker-accused-aiding-russia"
+    },
+    {
+      "id": "news-1u7ybt9",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T20:26:03.000Z",
+      "description": "16 killed, 32 hurt after magnitude 7 earthquake strikes China’s Tibet (SCMP, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/article/3371831/casualties-reported-after-70-quake-strikes-chinas-tibet"
     },
     {
       "id": "news-1j8ajbi",
@@ -2976,6 +3052,74 @@
         "goldstein": -7.2,
         "tone": -0.78,
         "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329370742",
+      "kind": "event",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T00:00:00.000Z",
+      "observedAt": "2026-10-22T20:15:00.000Z",
+      "description": "Fight — Naval → Taiwan near Tsoying, Kao-hsiung, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 22.6886,
+      "lng": 120.293,
+      "action": "Fight (GDELT 195)",
+      "actor": "Naval",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tsoying, Kao-hsiung, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://maritime-executive.com/editorials/unexplained-ship-clusters-anchoring-off-taiwan",
+      "gdelt": {
+        "globalEventId": "1329370742",
+        "eventCode": "195",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.73,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329378929",
+      "kind": "event",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T00:00:00.000Z",
+      "observedAt": "2026-10-22T21:15:00.000Z",
+      "description": "Coercion — Prisoner Of War → Army near Taiwan. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Prisoner Of War",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kdrv.com/news/local/ww2-army-major-identified-80-years-after-death-burial-in-central-point/article_b860b32d-4d87-4658-ad23-fd9edacf31c0.html",
+      "gdelt": {
+        "globalEventId": "1329378929",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -5.83,
+        "mentions": 5,
         "sources": 1
       }
     },
@@ -9118,234 +9262,6 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://www.taipeitimes.com/News/sport/archives/2026/10/20/2003866281"
-    },
-    {
-      "id": "news-1t3opy7",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T22:36:07.000Z",
-      "description": "US sanctions 5 Chinese entities over ex-Google engineer’s AI trade secrets theft (SCMP, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3371434/us-sanctions-5-chinese-entities-over-ex-google-engineers-ai-trade-secrets-theft"
-    },
-    {
-      "id": "news-32ofn0",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T22:36:07.000Z",
-      "description": "US sanctions 5 Chinese entities over ex-Google engineer’s AI trade secrets theft (SCMP, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3371434/us-sanctions-5-chinese-entities-over-ex-google-engineers-ai-trade-secrets-theft?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1ail97i",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T22:00:06.000Z",
-      "description": "US-China negotiators race to nail down concrete deals as Shenzhen Apec looms (SCMP, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3371413/us-china-negotiators-race-nail-down-concrete-deals-shenzhen-apec-looms"
-    },
-    {
-      "id": "news-1eynhuz",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T22:00:06.000Z",
-      "description": "US-China negotiators race to nail down concrete deals as Shenzhen Apec looms (SCMP, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3371413/us-china-negotiators-race-nail-down-concrete-deals-shenzhen-apec-looms?utm_source=rss_feed"
-    },
-    {
-      "id": "news-1pxnzfn",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T21:30:05.000Z",
-      "description": "US-China AI talks must ensure safety of both tech and business (SCMP, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/opinion/china-opinion/article/3370909/us-china-ai-talks-must-ensure-safety-both-tech-and-business?utm_source=rss_feed"
-    },
-    {
-      "id": "news-4tggd2",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T21:30:05.000Z",
-      "description": "US-China AI talks must ensure safety of both tech and business (SCMP, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/opinion/china-opinion/article/3370909/us-china-ai-talks-must-ensure-safety-both-tech-and-business"
-    },
-    {
-      "id": "news-psg7g5",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T20:20:55.000Z",
-      "description": "Trump says he’s open to meeting Xi and Putin in China for nuclear talks (SCMP, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/us/article/3371428/trump-says-hes-open-xi-putin-meeting-china-nuclear-talks?utm_source=rss_feed"
-    },
-    {
-      "id": "news-rfbhig",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T20:20:55.000Z",
-      "description": "Trump says he’s open to meeting Xi and Putin in China for nuclear talks (SCMP, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/us/article/3371428/trump-says-hes-open-xi-putin-meeting-china-nuclear-talks"
-    },
-    {
-      "id": "news-1s4ulde",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T19:44:08.000Z",
-      "description": "China’s flag carrier scrambles to fly stranded passengers out of fuel-starved Cuba (SCMP, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/article/3371426/chinas-flag-carrier-scrambles-fly-stranded-passengers-out-fuel-starved-cuba?utm_source=rss_feed"
-    },
-    {
-      "id": "news-jym0h1",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T19:44:08.000Z",
-      "description": "China’s flag carrier scrambles to fly stranded passengers out of fuel-starved Cuba (SCMP, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/article/3371426/chinas-flag-carrier-scrambles-fly-stranded-passengers-out-fuel-starved-cuba"
-    },
-    {
-      "id": "news-1ydh0w6",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T19:43:05.000Z",
-      "description": "Honduras targets Chinese shops, state builder as President Asfura sits on Taiwan pledge (SCMP, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3371425/honduras-targets-chinese-shops-and-state-builder-president-sits-taiwan-pledge?utm_source=rss_feed"
-    },
-    {
-      "id": "news-pi5uk9",
-      "kind": "news",
-      "date": "2026-10-19",
-      "isoDate": "2026-10-19T19:43:05.000Z",
-      "description": "Honduras targets Chinese shops, state builder as President Asfura sits on Taiwan pledge (SCMP, 2026-10-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3371425/honduras-targets-chinese-shops-and-state-builder-president-sits-taiwan-pledge"
     }
   ]
 }

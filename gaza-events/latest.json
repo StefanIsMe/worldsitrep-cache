@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "gaza",
-  "collectedAt": "2026-10-22T19:34:03.149Z",
+  "collectedAt": "2026-10-22T22:48:19.049Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 371
+      "count": 251
     },
     {
       "id": "bbc-me",
@@ -20,8 +20,8 @@
       "id": "jpost",
       "url": "https://www.jpost.com/rss/rssfeedsfrontpage.aspx",
       "status": "ok",
-      "count": 18,
-      "filtered": 8
+      "count": 20,
+      "filtered": 6
     },
     {
       "id": "gnews-gaza",
@@ -34,15 +34,15 @@
       "id": "gnews-ceasefire",
       "url": "https://news.google.com/rss/search?q=Gaza%20ceasefire%20hostages%20aid&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 31,
       "filtered": 0
     },
     {
       "id": "aljazeera",
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "status": "ok",
-      "count": 6,
-      "filtered": 19
+      "count": 2,
+      "filtered": 23
     },
     {
       "id": "guardian-me",
@@ -90,6 +90,71 @@
   "count": 1500,
   "events": [
     {
+      "id": "news-a94udp",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T22:55:22.000Z",
+      "description": "Hapoel Tel Aviv rallies in Euroleague basketball, Jerusalem stays perfect in EuroCup (Jerusalem Post, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Tel Aviv",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/sports/article-912626",
+      "lat": 32.08,
+      "lng": 34.78,
+      "coordsNote": "Headline gazetteer match: \"Tel Aviv\" (city); verify via source article."
+    },
+    {
+      "id": "news-a94udo",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T22:47:16.000Z",
+      "description": "From preseason disaster to title contender: How Barak Bachar turned Maccabi Haifa around (Jerusalem Post, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Haifa",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/sports/article-912625",
+      "lat": 32.82,
+      "lng": 34.99,
+      "coordsNote": "Headline gazetteer match: \"Haifa\" (city); verify via source article."
+    },
+    {
+      "id": "news-vmbna6",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T22:44:40.000Z",
+      "description": "Ahmad Tibi outlines plan to oust Netanyahu after elections if neither bloc forms majority (Jerusalem Post, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jerusalem Post",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-election-2026/article-912624"
+    },
+    {
       "id": "news-e9eyc9",
       "kind": "news",
       "date": "2026-10-22",
@@ -132,7 +197,7 @@
       "kind": "news",
       "date": "2026-10-22",
       "isoDate": "2026-10-22T20:39:20.000Z",
-      "description": "'Post' sees letter requesting West Bank trip coordination despite IDF denial - exclusive (Jerusalem Post, 2026-10-22. Headline + link only.)",
+      "description": "IDF sources: Detention of US lawmaker nominee, 90 West Bank volunteers was complex - exclusive (Jerusalem Post, 2026-10-22. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Jerusalem Post",
@@ -225,6 +290,25 @@
       "locationStr": "The Times of Israel",
       "source": "The Times of Israel",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZkpQMzhyR3piVVRJM1V2Y0hweE11dE9OcXJ1SGFFbjJuYmxocUNJc3o5c0xtV3JabkdsdlI3XzlibHRTakl4SW1RajFydG9sVWY4a1paeTV5WTl1M3hCRU5NbE9reFVOMTVsTDM4MFdQMDQ0QTNPYmgxd1FxTnRCQklKM1hhbS13MmJYMzBwUzUtYWhHNjJsRVdlQTRrSWFHNjhlZUxHMHBJb29ja01N0gG0AUFVX3lxTFBCWTAwcHBHMG5KbjFIaTg2NjQtOS1zV2tndFBNM1N6d0tWLXhxaHhsWTlrRzU1NnlPMi1jaFBndjBBSFgyM0dLUXptVmxlaXhNdGVxVFByRnpUUEI0TTAyMEJDclhHcXBldi1Ta2FlaEVOQ0tNemp1NmNvakxTTHVrM0JHNk1fVVlrUFBnT3gtZjZUaW1Ba0VNQi1HVGljOTdmOTdsMjdzbDV4VUxBbWdJUDZyZQ?oc=5"
+    },
+    {
+      "id": "news-z9vfl7",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T18:21:00.000Z",
+      "description": "Report: Israel tells US Hamas doesn’t plan to disarm and is rebuilding its forces - The Times of Israel (The Times of Israel, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times of Israel",
+      "axis": "Other",
+      "tags": [
+        "The Times of Israel",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Times of Israel",
+      "source": "The Times of Israel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZkpQMzhyR3piVVRJM1V2Y0hweE11dE9OcXJ1SGFFbjJuYmxocUNJc3o5c0xtV3JabkdsdlI3XzlibHRTakl4SW1RajFydG9sVWY4a1paeTV5WTl1M3hCRU5NbE9reFVOMTVsTDM4MFdQMDQ0QTNPYmgxd1FxTnRCQklKM1hhbS13MmJYMzBwUzUtYWhHNjJsRVdlQTRrSWFHNjhlZUxHMHBJb29ja01N?oc=5"
     },
     {
       "id": "news-1yzt7wp",
@@ -390,7 +474,7 @@
       "id": "news-42djzr",
       "kind": "news",
       "date": "2026-10-22",
-      "isoDate": "2026-10-22T16:44:33.000Z",
+      "isoDate": "2026-10-22T16:43:42.000Z",
       "description": "In the War Room: The Inside Story of Israel's Fight Against Hamas and the Iranian Axis - The Investigative Project on Terrorism (The Investigative Project on Terrorism, 2026-10-22. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -451,7 +535,7 @@
       "id": "news-ph1xd8",
       "kind": "news",
       "date": "2026-10-22",
-      "isoDate": "2026-10-22T15:45:00.000Z",
+      "isoDate": "2026-10-22T15:49:45.000Z",
       "description": "Global conflicts, local consequences: Cities confront rising threats, violence sparked by international events - Smart Cities Dive (Smart Cities Dive, 2026-10-22. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -488,6 +572,25 @@
       "lat": 31.5,
       "lng": 34.47,
       "coordsNote": "Headline gazetteer match: \"Gaza\" (city); verify via source article."
+    },
+    {
+      "id": "news-1fwwudn",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T15:30:00.000Z",
+      "description": "Report: Hamas planning another strike similar to Oct. 7 massacre - Washington Times (Washington Times, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Washington Times",
+      "axis": "Other",
+      "tags": [
+        "Washington Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Washington Times",
+      "source": "Washington Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNel9vMnpLanBja3N6cjNJTDV1akh3UFBHTmZYRDIxaFZZYkkxYmh2NEFoUHNFTDdpRHNjYm1RVk1mSjhEVklCVVRSbF91T3lYdVRUUlhBWmxkZFdGb2hFeGQ1Ui1DOUh4SjhBU180SFM3MVFlZjlCaWNlTUc0dkNsQ3NRNkg0R1phZkVnQkZGWnBFa25VNkh2UklHS1VNLTdON3RVb1U1eGFubHMtc3c?oc=5"
     },
     {
       "id": "news-1eedz6q",
@@ -1115,6 +1218,25 @@
       "coordsNote": "Headline gazetteer match: \"Gaza\" (city); verify via source article."
     },
     {
+      "id": "news-kbto72",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T09:27:52.000Z",
+      "description": "Katz says opposition will bear blame for future attacks on Israel after ignoring warnings (Jerusalem Post, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jerusalem Post",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-912501"
+    },
+    {
       "id": "news-fmo88p",
       "kind": "news",
       "date": "2026-10-22",
@@ -1175,7 +1297,7 @@
       "id": "news-1gw122i",
       "kind": "news",
       "date": "2026-10-22",
-      "isoDate": "2026-10-22T08:49:17.000Z",
+      "isoDate": "2026-10-22T08:47:00.000Z",
       "description": "Israel said to give US intel that Hamas has no plans to disarm, is prepping for new war - The Times of Israel (The Times of Israel, 2026-10-22. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -1393,7 +1515,7 @@
       "kind": "news",
       "date": "2026-10-22",
       "isoDate": "2026-10-22T03:18:33.000Z",
-      "description": "US, Israel plan renewed Iran strikes after US midterms, focusing on short, intense attacks - report (Jerusalem Post, 2026-10-22. Headline + link only.)",
+      "description": "US, Israel plan renewed Iran strikes after midterms, focusing on short, intense attacks - report (Jerusalem Post, 2026-10-22. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Jerusalem Post",
@@ -49885,210 +50007,6 @@
         "goldstein": -4,
         "tone": -8.1,
         "mentions": 8,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329364883",
-      "kind": "event",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T00:00:00.000Z",
-      "observedAt": "2026-10-22T19:30:00.000Z",
-      "description": "Fight — Military → Unspecified near Khan Yunis, Gaza Strip (general), Gaza Strip. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.3402,
-      "lng": 34.3063,
-      "action": "Fight (GDELT 196)",
-      "actor": "Military",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Khan Yunis, Gaza Strip (general), Gaza Strip",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.israelnationalnews.com/news/435026",
-      "gdelt": {
-        "globalEventId": "1329364883",
-        "eventCode": "196",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -9.5,
-        "tone": -5.79,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329364884",
-      "kind": "event",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T00:00:00.000Z",
-      "observedAt": "2026-10-22T19:30:00.000Z",
-      "description": "Fight — Military → Unspecified near Israel. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.5,
-      "lng": 34.75,
-      "action": "Fight (GDELT 196)",
-      "actor": "Military",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.israelnationalnews.com/news/435026",
-      "gdelt": {
-        "globalEventId": "1329364884",
-        "eventCode": "196",
-        "geoType": 1,
-        "quadClass": 4,
-        "goldstein": -9.5,
-        "tone": -5.79,
-        "mentions": 8,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329364971",
-      "kind": "event",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T00:00:00.000Z",
-      "observedAt": "2026-10-22T19:30:00.000Z",
-      "description": "Disapproval — Palestinians → Unspecified near Khan Yunis, Gaza Strip (general), Gaza Strip. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.3402,
-      "lng": 34.3063,
-      "action": "Disapproval (GDELT 112)",
-      "actor": "Palestinians",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Khan Yunis, Gaza Strip (general), Gaza Strip",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.israelnationalnews.com/news/435026",
-      "gdelt": {
-        "globalEventId": "1329364971",
-        "eventCode": "112",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -5.79,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329364974",
-      "kind": "event",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T00:00:00.000Z",
-      "observedAt": "2026-10-22T19:30:00.000Z",
-      "description": "Fight — Palestinians → Israel near Beilinson, HaMerkaz, Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 32.0839,
-      "lng": 34.9156,
-      "action": "Fight (GDELT 190)",
-      "actor": "Palestinians",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Beilinson, HaMerkaz, Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.ijn.com/west-bank-arrests-violence-against-reporter-diplomats/",
-      "gdelt": {
-        "globalEventId": "1329364974",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -8.1,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329364975",
-      "kind": "event",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T00:00:00.000Z",
-      "observedAt": "2026-10-22T19:30:00.000Z",
-      "description": "Fight — Palestinians → Israel near Tel Aviv, Tel Aviv, Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 32.0667,
-      "lng": 34.7667,
-      "action": "Fight (GDELT 190)",
-      "actor": "Palestinians",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Tel Aviv, Tel Aviv, Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.ijn.com/west-bank-arrests-violence-against-reporter-diplomats/",
-      "gdelt": {
-        "globalEventId": "1329364975",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -8.1,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329364976",
-      "kind": "event",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T00:00:00.000Z",
-      "observedAt": "2026-10-22T19:30:00.000Z",
-      "description": "Fight — Palestinians → Israel near Ramallah, West Bank (general), West Bank. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.9026,
-      "lng": 35.1955,
-      "action": "Fight (GDELT 190)",
-      "actor": "Palestinians",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Ramallah, West Bank (general), West Bank",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.ijn.com/west-bank-arrests-violence-against-reporter-diplomats/",
-      "gdelt": {
-        "globalEventId": "1329364976",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -8.1,
-        "mentions": 2,
         "sources": 1
       }
     }
