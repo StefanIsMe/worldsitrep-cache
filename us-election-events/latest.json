@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-23T17:30:40.479Z",
+  "collectedAt": "2026-10-23T20:40:41.174Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -13,8 +13,8 @@
       "id": "npr-politics",
       "url": "https://feeds.npr.org/1014/rss.xml",
       "status": "ok",
-      "count": 9,
-      "filtered": 1
+      "count": 10,
+      "filtered": 0
     },
     {
       "id": "eac",
@@ -27,8 +27,8 @@
       "id": "gnews-election",
       "url": "https://news.google.com/rss/search?q=US%20election%20Trump%202028&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 43,
-      "filtered": 7
+      "count": 45,
+      "filtered": 5
     },
     {
       "id": "gnews-policy",
@@ -41,8 +41,8 @@
       "id": "thehill",
       "url": "https://thehill.com/feed/",
       "status": "ok",
-      "count": 31,
-      "filtered": 19
+      "count": 32,
+      "filtered": 18
     },
     {
       "id": "politico-congress",
@@ -62,15 +62,15 @@
       "id": "rollcall-congress",
       "url": "https://rollcall.com/section/congress/rss",
       "status": "ok",
-      "count": 7,
-      "filtered": 3
+      "count": 6,
+      "filtered": 4
     },
     {
       "id": "axios",
       "url": "https://api.axios.com/feed/",
       "status": "ok",
-      "count": 22,
-      "filtered": 28
+      "count": 23,
+      "filtered": 27
     },
     {
       "id": "gnews-protest",
@@ -101,13 +101,158 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 452,
+  "count": 445,
   "events": [
+    {
+      "id": "news-wjen3k",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T20:20:46.000Z",
+      "description": "Collins says certain Canadian goods now tariff-exempt (The Hill, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Canadian",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/business/trade/6169025-maine-collins-exempts-canadian-products-tariffs/",
+      "lat": 35.54381,
+      "lng": -98.00315,
+      "coordsNote": "OSM geocode: matched \"Canadian\" → Canadian County, Oklahoma, United States; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1yzdl5q",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T20:17:48.000Z",
+      "description": "Ukraine: Starlink still isn&#8217;t working after Trump restoration promise (The Hill, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/policy/defense/6169204-ukraine-starlink-zelensky-trump-musk/"
+    },
+    {
+      "id": "news-1qt2ieh",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T20:16:57.000Z",
+      "description": "DOJ has monitored elections for decades. Here's why some state officials are concerned this year (PBS NewsHour, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "PBS NewsHour",
+      "axis": "Other",
+      "tags": [
+        "PBS NewsHour",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "PBS NewsHour",
+      "source": "PBS NewsHour",
+      "sourceUrl": "https://www.pbs.org/newshour/politics/doj-has-monitored-elections-for-decades-heres-why-some-state-officials-are-concerned-this-year"
+    },
+    {
+      "id": "news-w9c4yr",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T20:16:01.000Z",
+      "description": "Treasury moves to ease access to single-family home purchases ahead of midterms (The Hill, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/business/6168995-treasury-bans-institutional-home-buys/"
+    },
+    {
+      "id": "news-1iogq6p",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T20:08:08.000Z",
+      "description": "Live updates: Trump stumps in Florida, boosting Donalds and criticizing Omar (The Hill, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Florida",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6167503-live-updates-donald-trump-midterm-elections/",
+      "lat": 27.75677,
+      "lng": -81.46398,
+      "coordsNote": "OSM geocode: matched \"Florida\" → Florida, United States; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1bdo0bq",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T20:00:00.000Z",
+      "description": "New poll shows Susan Collins in a neck-and-neck battle to win a sixth term - NJ.com (NJ.com, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NJ.com",
+      "axis": "Other",
+      "tags": [
+        "NJ.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NJ.com",
+      "source": "NJ.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdTE1MmxQakZkbHpya3cwTERXa2NfbXVYTC1rMUpNMHhTazBydkpXc2dWZzNCZ0xSdDhWZG14X2dFS3B4RmoycE5memZwTDBOVXNETkZmeVNQa0tYOEp1dGFleTFQUy0xMExMcmtsYlV6a21JZC1oZ3k4Rjc0dVhkbDhUdmRJaVcwdUc1Q2ZsU0RmT3dJRjFORTVZWVVUblVoUU83QldtYVJSY2ZSTHdDNzFJdkhVZw?oc=5"
+    },
+    {
+      "id": "news-g9yycf",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T19:47:46.000Z",
+      "description": "Who Is Ahead in Idaho's 2nd Congressional District? - The New York Times (The New York Times, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95ZXVES2NQWFhFUkpEcExLUnlCdnJDZlBueGhNS3B4dy1sb2FRYmpHME1CdTUtMURIdUNXS3V5RDNlWFBSMkpLeGQ2WTNvMnlfVmJrYXJueE9UbG1hVkJuSllvQ0UyUEFVNnpYQ0d6YW1FYzNYbFk4M3NiQXp1QTQ?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
     {
       "id": "news-urooij",
       "kind": "news",
       "date": "2026-10-23",
-      "isoDate": "2026-10-23T17:29:43.000Z",
+      "isoDate": "2026-10-23T19:45:07.000Z",
       "description": "2026 Senate Battleground Polls: Midterm Primary Trends - NBC News (NBC News, 2026-10-23. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -121,6 +266,455 @@
       "locationStr": "NBC News",
       "source": "NBC News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JVUJocWhHTDlYQ1pMMkt0bWZ2VnNsWXZiOFdsVERnQVRERDFvV0FyanpkRWpKWVlNU3kzT18wcURiWjRWcm8xV01SS3FqV3hWYXcyUFlSZ1lsRzdWcnVDenBWUTY2MGpiWEZZbnpiQS1reDVBZ0ZpclBzWExSZw?oc=5"
+    },
+    {
+      "id": "news-anz3fn",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T19:41:55.000Z",
+      "description": "EVS 7.1.0.0 (EAC, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "EAC",
+      "axis": "Other",
+      "tags": [
+        "EAC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "EAC",
+      "source": "EAC",
+      "sourceUrl": "https://www.eac.gov/voting-equipment/evs-7100"
+    },
+    {
+      "id": "news-1v78ps4",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T19:41:02.000Z",
+      "description": "Bipartisan lawmakers press Hegseth to expand Ukraine’s access to Starshield (The Hill, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/house/6169094-lawmakers-press-trump-hegseth-starshield-ukraine/"
+    },
+    {
+      "id": "news-1uni44f",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T19:34:00.000Z",
+      "description": "DeSantis gifts Trump gold coin with engraved image of him &#8216;flipping the bird&#8217; (The Hill, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/campaign/6169066-desantis-trump-gold-coin-florida/"
+    },
+    {
+      "id": "news-6doxvc",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T19:32:21.000Z",
+      "description": "Midterm polls that caught our eye this week show Democratic gains among voters - The Washington Post (The Washington Post, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Washington Post",
+      "axis": "Other",
+      "tags": [
+        "The Washington Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Washington Post",
+      "source": "The Washington Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPelRtZEk4NFY2MmhId2hTTzRmQ24wdFRGME85U0VndGlvRGJmLWNOVXZwTVNnTUVlYjc1ZkpHdWcwcDduVFpYV1ByWC1selZDYjhwYWs1Q2pHOWRUZS1rczRvcnFCcUUtVnVCMVRIYVNVbkxXSmJITmV5YkgwSVctQ3dNNlFrRGdCaHVra0NJSms5amxKeElnc0R6Ulc2a2YxcndLNE5UM3VENThpOFM4ZlpscnVQSjV4VTB5QkRHVzhxNml2aGJWekpn?oc=5"
+    },
+    {
+      "id": "news-1qv3va5",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T19:31:15.000Z",
+      "description": "The Pentagon's guidelines for \"responsible AI\" aren't always followed, report shows (NPR, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/23/nx-s1-6012296/ai-department-of-defense-war"
+    },
+    {
+      "id": "news-1aaov8y",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T19:23:31.000Z",
+      "description": "Trump on Alaska election lawsuit: &#8216;I&#8217;m the one who said do it&#8217; (The Hill, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6168997-donald-trump-justice-alaska-senate-lawsuit/"
+    },
+    {
+      "id": "news-h1lfv9",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T19:22:41.000Z",
+      "description": "Trump says wind turbine part imports cause national security issue, but doesn&#8217;t impose tariffs (The Hill, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/policy/energy-environment/6169061-trump-wind-turbine-parts-national-security/"
+    },
+    {
+      "id": "news-1pcoy2o",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T19:21:32.000Z",
+      "description": "Most Voters Believe the Midterm Elections Will Be Accurate, Poll Finds - The New York Times (The New York Times, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb3N0MmNXSlhBOHN6cXo5ME1jWHFWLXdDekJMbUVDMUI2eGxtSzZidFlURkU3aElEZWFIb1pjb1pTeUFOQVk4VkZKWGVFS1I5QkgzQXVxcmFscHBIVjBkVlhFRFY4aHN6OVlnNERtV0xEam5tOWFzY1RpU2tIVlVtQ3dLSU1zUm9U?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
+      "id": "news-1h2sw4u",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T19:15:34.000Z",
+      "description": "\"People are tired of theater\": The left sours on \"performative\" Trump impeachment (Axios, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/10/23/trump-impeachment-democrats-darializa-tlaib-left"
+    },
+    {
+      "id": "news-jbfpwy",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T19:02:52.000Z",
+      "description": "Trump administration sues to block Alaska Senate certification if Republican Sen. Dan Sullivan loses in November - NBC News (NBC News, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcWxpNC1vU1lhdHpzWHZjN2JvZzVUVlVhWFA3MlJvVkMtOS0ybGR1NWVnRzJOUm1TdXZqcjJhSzdjQjEwazM0cXZXTnN0bGhYMlJteERaQVAzcVR0LU5TVTNJSHpta0doRWJCLWtibE4tTjJ3ekFmVHI3MGVFV092b0lRZUtIVnF6OXp2ZEV4TC1MQ1BKWThKdTJvdy1VQzJJeHJUUnFGbw?oc=5"
+    },
+    {
+      "id": "news-1qh0uqv",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T19:02:12.000Z",
+      "description": "GOP lawmaker says he will move to expel Omar (The Hill, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/house/6168993-fine-omar-expulsion-resolution/"
+    },
+    {
+      "id": "news-1cz0pxm",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T18:56:29.000Z",
+      "description": "Trump administration stopped sharing evidence in Good and Pretti killings, Minnesota officials say (PBS NewsHour, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "PBS NewsHour",
+      "axis": "Other",
+      "tags": [
+        "PBS NewsHour",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Good",
+      "source": "PBS NewsHour",
+      "sourceUrl": "https://www.pbs.org/newshour/nation/trump-administration-stopped-sharing-evidence-in-good-and-pretti-killings-minnesota-officials-say",
+      "lat": 39.3576,
+      "lng": -78.36112,
+      "coordsNote": "OSM geocode: matched \"Good\" → Good, Frederick County, Virginia; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1sjlxkd",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T18:43:41.000Z",
+      "description": "DOJ sues to delay Alaska election results if GOP incumbent loses (Axios, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/10/23/trump-administration-sues-alaska-dan-sullivan"
+    },
+    {
+      "id": "news-1v8zl2h",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T18:35:06.000Z",
+      "description": "JD Vance ‘BREAKS UP’ With Trump? How VP Is Using Netanyahu 'DIVIDE' To Reshape 2028 Dream - The Times of India (The Times of India, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times of India",
+      "axis": "Other",
+      "tags": [
+        "The Times of India",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Times of India",
+      "source": "The Times of India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNb1dYUWZRaUxob0JPTGh0MHNHZ2lGcDE1UUFycnU3QjVldVV6dFh2T2VPZVEyUVJ2TmNBV2lwSkpQV2piQmtQalVTenZWQ2RlbmdPX2xkNlJXa3FJeUg2U3prN3c3ZXVrRVdzUHp4bG9wMXFHSUtidTRVYTZvb0tpRWduRXdKWkZWaE4zLVFoZlZHNFRLTU1GR0JEWGFkOTk2Ry03TDVvRmh2Z3VhaEh0NlVOTTNMdWxBTkViOXNGUXJpVHlqUGh2aGNOYmJTZWNzcHF5blJHMFZiMExrTWNMQ3NyUVNGem5fN0lnMmR0LXBGZ3VlNmx3dNIB_gFBVV95cUxOMmYzSVozTUtPVFY2aWlPRks3OWdWNlhNS1VmOGtJVWxTSUZXcldYT29IODJEZkhWWFJzYm14X0t1U0tKaTdtZW81M25NbTZrTXlLa0JVUjJVY3F5enpUVXp2bXNCMjFpdGtfY2gwaEpVMGtLdWZ6M092b19iUDBQRFNEcm1xZ1lQMGZYU0d3TFdQYXZoUWNnMnlkTDhDX3dNczRxcjdYOGV0YVNHdm5MZTFYVXVUNzF5X1hzdDBRWUNjODZsdzBfU1hLTW1EMWdLRmZ6RTRsaVJtRmt2SVlpTVVRYklQMUpHX1pZcXQ2UzdyMDcySHBzeHNCT0k2Zw?oc=5"
+    },
+    {
+      "id": "news-15f7c7k",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T18:30:00.000Z",
+      "description": "Ohio could decide control of the Senate. Its rural voters might decide the winner (NPR, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/23/nx-s1-6012809/ohio-senate-governor-election-rural-voters"
+    },
+    {
+      "id": "news-svx61",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T18:19:18.000Z",
+      "description": "US court: President Trump illegally deployed National Guard in California — The Hill - UA.NEWS (UA.NEWS, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "UA.NEWS",
+      "axis": "Other",
+      "tags": [
+        "UA.NEWS",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "California",
+      "source": "UA.NEWS",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbm96Ykh3Y0ItcFFJM3VCd1YzRzM1VVBQWXl0eUY5aF9yRGNWX2l3SXNxeUtUOGxYYzNmX3NhR2lKZXBZd0FTVWtfS21qcnlTbURscUZscHg2ZmdnNHEwOU5yOGthUWtwOXBVaVlLN0JTdm8tMmgwWDZJb2RIb0ZpVS01U09DSXpnWVlndmVlaXZSRFZxZVM4amZERlRVVVlzaEs3S0dFWUo?oc=5",
+      "lat": 36.70146,
+      "lng": -118.756,
+      "coordsNote": "OSM geocode: matched \"California\" → California, United States; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1pru168",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T18:06:00.000Z",
+      "description": "Trump says he ordered DoJ to file lawsuit to block Alaska Senate results certification - The Guardian (The Guardian, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Guardian",
+      "axis": "Other",
+      "tags": [
+        "The Guardian",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Guardian",
+      "source": "The Guardian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdmFWVGdIS19YcFBZczhtNHZ1V1g1MUR4VEQwV0ZheEZXbk40ZEpwdlZRNkM3S2hqaGtuSnlFSkJRODcwQ0FQcG5jTmUtdmNmVkdTVVJNOUtzODRkczg1c2ctUVVBdS1HUUJvaG9fQWY1Y3F5dXRWUzg5YTl3UEZkWkRFSFpIVXBhaW5TMXFOd19YVUtQcWpN?oc=5"
+    },
+    {
+      "id": "news-84vshh",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T17:54:09.000Z",
+      "description": "Vance becomes a hurricane as it nears Mexico (The Hill, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/policy/energy-environment/6168757-hurricane-vance-intensifying-mexico/"
+    },
+    {
+      "id": "news-z66968",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T17:44:00.000Z",
+      "description": "Trump again invokes claim he has the ‘right’ to run for third term as president - The Guardian (The Guardian, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Guardian",
+      "axis": "Other",
+      "tags": [
+        "The Guardian",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Guardian",
+      "source": "The Guardian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hSlAtRFRhc3dmMW0yVUI3M3VpdExGVFlQUVlzQ1Q0NXBkbXJqUE5keURmdzA3a3l6dHZrZjJFOVpQNjFScERLNWJJaWNiQTRfM292cXJ1dEJPcVBvOUtHV0I1eUM5M1RvTzk2NUlNTWtrQQ?oc=5"
+    },
+    {
+      "id": "news-zdg3nm",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T17:40:47.000Z",
+      "description": "Watch live: Decision Desk ‘26 Midterm Preview powered by 2WAY and The Hill (The Hill, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/6168746-watch-live-decision-desk-26-midterm-preview-powered-by-2way-and-the-hill/"
+    },
+    {
+      "id": "news-had3zx",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T17:39:11.000Z",
+      "description": "Appeals court rules Trump unlawfully deployed National Guard to California (The Hill, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/regulation/court-battles/6168756-trump-los-angeles-deployment-unlawful-appeals-court-ruling/"
+    },
+    {
+      "id": "news-uaccpd",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T17:35:14.000Z",
+      "description": "A D.C. park was made 'for the pleasure of the people.' Trump's plan would change that (NPR, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/23/nx-s1-6010488/east-potomac-trump-golf-hains-point"
+    },
+    {
+      "id": "news-1xise08",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T17:31:57.000Z",
+      "description": "Frequently asked questions about the 2026 midterm elections - Protect Democracy (Protect Democracy, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Protect Democracy",
+      "axis": "Other",
+      "tags": [
+        "Protect Democracy",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Protect Democracy",
+      "source": "Protect Democracy",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaGc2YzZlb2ZjZmFHdmFUZ2o2eGtYX0phYl9lWUcxaHVFV2N2NlIzbjFsejdlMUJLdnZoclpkakw0d2U1VjlTODBETDVXNW9iWmZGMU93R2lRRy1iYW50eXZmQnduUmhlZWRZbWlPNlRkQ1IzTmdTTjM2T21kTnhZdHlhYlVROEFVY1NGN3ZDRVZGVENsTTVzYk9n?oc=5"
     },
     {
       "id": "news-1qf7qr8",
@@ -165,6 +759,25 @@
       "sourceUrl": "https://thehill.com/homenews/administration/6168640-former-fbi-officials-charged-lying-congress/"
     },
     {
+      "id": "news-1bz4dk0",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T17:07:00.000Z",
+      "description": "As midterms loom, Trump and his allies try to change the subject - The Guardian (The Guardian, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Guardian",
+      "axis": "Other",
+      "tags": [
+        "The Guardian",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Guardian",
+      "source": "The Guardian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTDY3NHFPb2plUHUwWVk4QUduZFpXZmVZRmxoeGp3amUzemMyVWN4UVpGbzJMUGRJTzVJLVhUYV94UHp6NjNVT0lpUUl3cDE1QTNpWjdtdFNIZExyekNadExyQkkzZWxrczVtSWtKS3VxNTJEeDhQNEJVNGhRWU02WWh5Y2dyTmF6S2Vrek1zU1g?oc=5"
+    },
+    {
       "id": "news-jli1o0",
       "kind": "news",
       "date": "2026-10-23",
@@ -205,25 +818,6 @@
       "locationStr": "Yahoo",
       "source": "Yahoo",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNdHhTNlV5cVdhM1dsVkxJcGpWSE5DMERzYWYwYnpPV1YzM0hBS3lEVWpoeVc1Y3R4aUdKOHlBdDZ2Zkw2eTN3dlBST3ZKdHZvTmsxQ2V3bjlaNUtOMFVlLWdGbDAtMmNRQV91bUxnWDZXQWFLbldLd05HUXo0UUFKdXVaYU9TaUt4Z1hJQmozTGxjcndHSVpTR0Fqc05yZFVrTXIwWXNYc3ZxOEktNWFCQ1laTDVkRXJHeEs0cEV4b2JPUG5wMjhkUHhaZWlLc2ZaOHZlZEQ1TGZ4UXJsY2tHa3IzdlZ3dnNSMlVBd3J0MjhjVU9VWTR0aDhpQWQ5azR3SHBKM3RyVGJfUQ?oc=5"
-    },
-    {
-      "id": "news-1iogq6p",
-      "kind": "news",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T16:58:31.000Z",
-      "description": "Live updates: Trump leans into Ramaswamy ad controversy, heads to Florida rally (The Hill, 2026-10-23. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6167503-live-updates-donald-trump-midterm-elections/"
     },
     {
       "id": "news-100y7cb",
@@ -283,23 +877,46 @@
       "sourceUrl": "https://thehill.com/newsletters/1230-report/6168562-trump-looks-for-some-midterm-sunshine/"
     },
     {
-      "id": "news-1sjlxkd",
+      "id": "news-1c48bsv",
       "kind": "news",
       "date": "2026-10-23",
-      "isoDate": "2026-10-23T16:29:41.000Z",
-      "description": "DOJ sues to block Alaska election results if GOP incumbent loses (Axios, 2026-10-23. Headline + link only.)",
+      "isoDate": "2026-10-23T16:30:21.000Z",
+      "description": "Idaho Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-23. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Axios",
+      "actor": "NBC News",
       "axis": "Other",
       "tags": [
-        "Axios",
+        "NBC News",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/10/23/trump-administration-sues-alaska-dan-sullivan"
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DdS1RZFNwdzZyVThqSUsyNEZQQUNJbWV6VkZDZ182cGRIVGV1ak15UnJRaVhTTWNBSTlnY2Z2YXdjYzVFREdjWWtXUTBjM1hOVmRlZy1yQ3cxRU4weTJEWV8yU0tMVnY5WFdVX3Bn?oc=5"
+    },
+    {
+      "id": "news-qxigj3",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T16:28:33.000Z",
+      "description": "North Carolina 9th Congressional District 2026: Latest Polls - The New York Times (The New York Times, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdGZqVHYwWUs2M2d1Y1E0Z01pMGdPbWJBbl9KaE5KWFB6TkNXQU5ISTN1WWU4Z0gwSHNLMnpSU3RWWmpnVDVXRHBvajE4REhfMkZOeGFQdWtrZEIxVlZ6Tmp4czl6UTdtcWlqQXNCOXJxQWNORXcybHNueExEaUNLOVgtNXpzTmU5YWFv?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
       "id": "news-apcd5f",
@@ -344,6 +961,29 @@
       "sourceUrl": "https://thehill.com/homenews/administration/6168553-donald-trump-vivek-ramaswamy-ad-nbc-reporter/"
     },
     {
+      "id": "news-1rbd1tr",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T16:22:40.000Z",
+      "description": "Maine 2nd Congressional District 2026: Latest Polls - The New York Times (The New York Times, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfOFBRQzJ3REZKZmQyVFlCNmFsOU92WHdNSUFpcGpxMkpyLWVuckxvcW1YbWhmcDdSOTNsdUUyX2lQbkFpMmZGZ0dYMndZSFY3ZmJqOGZvSDZJR2pZaktLQnoxbkJfUnh5ZFl5T3NEdXRQbDFrQWw0NWpEMUhwNmc?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
       "id": "news-1i6f4jn",
       "kind": "news",
       "date": "2026-10-23",
@@ -367,23 +1007,19 @@
       "kind": "news",
       "date": "2026-10-23",
       "isoDate": "2026-10-23T16:00:00.000Z",
-      "description": "Republican gerrymanders in Texas threaten to fall flat, poll finds - The Washington Post (The Washington Post, 2026-10-23. Headline + link only.)",
+      "description": "Republicans could lose Texas seats they redrew in their favor, poll finds - The Washington Post (The Washington Post, 2026-10-23. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "The Washington Post",
       "axis": "Other",
       "tags": [
         "The Washington Post",
-        "headline",
-        "headline-geocoded"
+        "headline"
       ],
-      "coordsTier": "approximate",
-      "locationStr": "Texas",
+      "coordsTier": "unplaced",
+      "locationStr": "The Washington Post",
       "source": "The Washington Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRnRIdU95TGl0TjQwS0ZKS3RwaWR5QlJhU0dmY2gydEpyeXRMMWdFcEFLTGxsLWE0NFVTdFRLMlNOajBIRS1pb3FhX1lvQWZJalZiMk45NTFTY19yYkdBcW55M1pHSzMxb0JqaFRkUXRwTkR4MjBJNlZaOVpsaGt1VkFCMkU1SzFmWjZUa3pwOG5aXzgzYk80Tm53eWlIUTgyWEt4Yk9kNllneExYV2F6d25GYjBTV2xh?oc=5",
-      "lat": 31.26389,
-      "lng": -98.54561,
-      "coordsNote": "OSM geocode: matched \"Texas\" → Texas, United States; © OpenStreetMap contributors."
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRnRIdU95TGl0TjQwS0ZKS3RwaWR5QlJhU0dmY2gydEpyeXRMMWdFcEFLTGxsLWE0NFVTdFRLMlNOajBIRS1pb3FhX1lvQWZJalZiMk45NTFTY19yYkdBcW55M1pHSzMxb0JqaFRkUXRwTkR4MjBJNlZaOVpsaGt1VkFCMkU1SzFmWjZUa3pwOG5aXzgzYk80Tm53eWlIUTgyWEt4Yk9kNllneExYV2F6d25GYjBTV2xh?oc=5"
     },
     {
       "id": "news-1v5ztxe",
@@ -523,7 +1159,7 @@
       "kind": "news",
       "date": "2026-10-23",
       "isoDate": "2026-10-23T15:14:18.000Z",
-      "description": "Trump administration files lawsuit to block possible Democratic win in Alaska Senate race (PBS NewsHour, 2026-10-23. Headline + link only.)",
+      "description": "WATCH: Trump says he ordered DOJ lawsuit over Alaska Senate race (PBS NewsHour, 2026-10-23. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "PBS NewsHour",
@@ -576,6 +1212,29 @@
       "sourceUrl": "https://thehill.com/policy/international/6167822-melania-trump-oleshky-ceasefire/"
     },
     {
+      "id": "news-b5rheo",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T14:52:24.000Z",
+      "description": "Latest Governor Polls: Election 2026 - The New York Times (The New York Times, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxQ1V3Wmo0azVsV1dIb0Y3Qjd2ZGptMDZEVF9MeU43MXFpY0k0U2NLejlfeXBqS0lUSlpwWGhuY2ZpM0RJNmxRNzZnVUV3TDRXSjNVMUROX3JwZ3M2dGdmcXM2X2lwTU1mZ1BzeHpTNUlWTGkt?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
       "id": "news-14e2azq",
       "kind": "news",
       "date": "2026-10-23",
@@ -612,25 +1271,6 @@
       "locationStr": "Silver Bulletin",
       "source": "Silver Bulletin",
       "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5"
-    },
-    {
-      "id": "news-1xise08",
-      "kind": "news",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T14:30:16.000Z",
-      "description": "Frequently asked questions about the 2026 midterm elections - Protect Democracy (Protect Democracy, 2026-10-23. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Protect Democracy",
-      "axis": "Other",
-      "tags": [
-        "Protect Democracy",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Protect Democracy",
-      "source": "Protect Democracy",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaGc2YzZlb2ZjZmFHdmFUZ2o2eGtYX0phYl9lWUcxaHVFV2N2NlIzbjFsejdlMUJLdnZoclpkakw0d2U1VjlTODBETDVXNW9iWmZGMU93R2lRRy1iYW50eXZmQnduUmhlZWRZbWlPNlRkQ1IzTmdTTjM2T21kTnhZdHlhYlVROEFVY1NGN3ZDRVZGVENsTTVzYk9n?oc=5"
     },
     {
       "id": "news-1jbzel3",
@@ -846,6 +1486,29 @@
       "sourceUrl": "https://thehill.com/opinion/congress-blog/foreign-policy/6165896-trump-tariffs-midterm-voters/"
     },
     {
+      "id": "news-6bbf8r",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T13:22:38.000Z",
+      "description": "Latest Senate Polls: Midterm Elections 2026 - The New York Times (The New York Times, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
       "id": "news-pgv20b",
       "kind": "news",
       "date": "2026-10-23",
@@ -979,52 +1642,6 @@
       "sourceUrl": "https://thehill.com/homenews/administration/6167459-reflecting-pool-vandalism-cameras-installed/"
     },
     {
-      "id": "news-b5rheo",
-      "kind": "news",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T11:42:26.000Z",
-      "description": "Latest Governor Polls: Election 2026 - The New York Times (The New York Times, 2026-10-23. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxQ1V3Wmo0azVsV1dIb0Y3Qjd2ZGptMDZEVF9MeU43MXFpY0k0U2NLejlfeXBqS0lUSlpwWGhuY2ZpM0RJNmxRNzZnVUV3TDRXSjNVMUROX3JwZ3M2dGdmcXM2X2lwTU1mZ1BzeHpTNUlWTGkt?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
-    },
-    {
-      "id": "news-6bbf8r",
-      "kind": "news",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T11:42:15.000Z",
-      "description": "Latest Senate Polls: Midterm Elections 2026 - The New York Times (The New York Times, 2026-10-23. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
-    },
-    {
       "id": "news-4p6ftr",
       "kind": "news",
       "date": "2026-10-23",
@@ -1061,29 +1678,6 @@
       "locationStr": "NPR",
       "source": "NPR",
       "sourceUrl": "https://www.npr.org/2026/10/23/g-s1-149514/up-first-newsletter-iran-war-midterm-voting-trump-bbc"
-    },
-    {
-      "id": "news-1pcoy2o",
-      "kind": "news",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T11:15:48.000Z",
-      "description": "Most Voters Believe the Midterm Elections Will Be Accurate, Poll Finds - The New York Times (The New York Times, 2026-10-23. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb3N0MmNXSlhBOHN6cXo5ME1jWHFWLXdDekJMbUVDMUI2eGxtSzZidFlURkU3aElEZWFIb1pjb1pTeUFOQVk4VkZKWGVFS1I5QkgzQXVxcmFscHBIVjBkVlhFRFY4aHN6OVlnNERtV0xEam5tOWFzY1RpU2tIVlVtQ3dLSU1zUm9U?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
       "id": "news-1og0qs9",
@@ -1278,6 +1872,25 @@
       "locationStr": "NPR",
       "source": "NPR",
       "sourceUrl": "https://www.npr.org/2026/10/23/nx-s1-6012308/midterm-elections-early-voting-data"
+    },
+    {
+      "id": "news-1x6zcwi",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T08:42:03.000Z",
+      "description": "What's behind the early voting surge? It's more than voter enthusiasm, expert says - NPR (NPR, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS1BDOUhHZS0tTHlYeWd0eER0bzhMX2hWTDkzMmZ4aVdaWlRUMG9ObE5LaThiOWYyU19ocHlGTm1oQ0lqX09sZmNmM0t5cU1nR3NVXzAzNWg4c29PN2hzcUpUbUhuZzhFM3V0THFLQmlVYUxsd0NTYzI4Mkl0ZHFjTnJVMUVEWFE?oc=5"
     },
     {
       "id": "news-1s42tt1",
@@ -2006,25 +2619,6 @@
       "sourceUrl": "https://www.pbs.org/newshour/politics/watch-trump-defends-ramaswamys-attack-ad-against-acton-amid-bipartisan-criticism"
     },
     {
-      "id": "news-1c48bsv",
-      "kind": "news",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T21:30:21.000Z",
-      "description": "Idaho Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DdS1RZFNwdzZyVThqSUsyNEZQQUNJbWV6VkZDZ182cGRIVGV1ak15UnJRaVhTTWNBSTlnY2Z2YXdjYzVFREdjWWtXUTBjM1hOVmRlZy1yQ3cxRU4weTJEWV8yU0tMVnY5WFdVX3Bn?oc=5"
-    },
-    {
       "id": "news-1r511hk",
       "kind": "news",
       "date": "2026-10-22",
@@ -2200,18 +2794,18 @@
       "kind": "news",
       "date": "2026-10-22",
       "isoDate": "2026-10-22T20:07:58.000Z",
-      "description": "Trump Punts on Wind Turbine Tariffs, Allows 180 Days for Talks - Bloomberg.com (Bloomberg.com, 2026-10-22. Headline + link only.)",
+      "description": "Trump Punts on Wind Turbine Tariffs, Allows 180 Days for Talks - Bloomberg (Bloomberg, 2026-10-22. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Bloomberg.com",
+      "actor": "Bloomberg",
       "axis": "Other",
       "tags": [
-        "Bloomberg.com",
+        "Bloomberg",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Bloomberg.com",
-      "source": "Bloomberg.com",
+      "locationStr": "Bloomberg",
+      "source": "Bloomberg",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOGpoQklQcElFSEt1c2t3S0NibFRHRFZsanBOU1VRU3JNcmNQREJXZVNEd0JVMWEzNXVKdHJybnFVbEtfRW9pWURBQ19uQTBIOTBzQUdpSzJRYV9rMFF3Uk1wN2NBUmpJMnBValJ2OW81QlV1Qm5xcWtBTkpBd3BFenlwUEpWUjFpVFNYTXBaMG96VUpKU0w0RVJaSm5OUERVS1RYZVRTU29VUGJCVUFhQlp3?oc=5"
     },
     {
@@ -2734,6 +3328,25 @@
       "lat": 39.95,
       "lng": -75.17,
       "coordsNote": "Headline gazetteer match: \"Philadelphia\" (city); verify via source article."
+    },
+    {
+      "id": "news-1l0k4tc",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T17:47:00.000Z",
+      "description": "JD Vance may have to betray his best friend to become President in 2028 - Newsweek (Newsweek, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Newsweek",
+      "axis": "Other",
+      "tags": [
+        "Newsweek",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Newsweek",
+      "source": "Newsweek",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaC1STnNnTG05ZXpEVS1odjdiQWQ0N3I1RFdVdFZuOTdkU2VnX2NqQmw1bTNXWE1NUUIyQVBGMDFKTTRqUkZwbDFYZlZTZXRzcm9ibFhWWDE1bF9XQUk4Zk5uME1xZ1dvY2ZPWmM3OS1SYlh6M2I1REZZeGFIWDNxcHlFVXBEWmlpYm1RMUVWWQ?oc=5"
     },
     {
       "id": "news-1u3hg86",
@@ -6073,29 +6686,6 @@
       "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
-      "id": "news-1rbd1tr",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T15:48:05.000Z",
-      "description": "Maine 2nd Congressional District 2026: Latest Polls - The New York Times (The New York Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfOFBRQzJ3REZKZmQyVFlCNmFsOU92WHdNSUFpcGpxMkpyLWVuckxvcW1YbWhmcDdSOTNsdUUyX2lQbkFpMmZGZ0dYMndZSFY3ZmJqOGZvSDZJR2pZaktLQnoxbkJfUnh5ZFl5T3NEdXRQbDFrQWw0NWpEMUhwNmc?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
-    },
-    {
       "id": "news-pxian5",
       "kind": "news",
       "date": "2026-10-21",
@@ -7413,29 +8003,6 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdUJrZmNWQ0x2SHpjOWdjcThfSEVzaUVPMXhEbFpENjFXVjZGZTFSVDhyeGhtNkZJQjF5WTJwMjlMeW91a1FKRm9SYlJlUG1JZGQ2WTQzMGo2em44eEJ2dlhkWDVSYm9oLTVZTjYyNVMxU3dVbXpiUF80VENKdldtSHlvX21ENzU5ZDk4OGNR?oc=5"
     },
     {
-      "id": "news-qxigj3",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T07:54:44.000Z",
-      "description": "North Carolina 9th Congressional District 2026: Latest Polls - The New York Times (The New York Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdGZqVHYwWUs2M2d1Y1E0Z01pMGdPbWJBbl9KaE5KWFB6TkNXQU5ISTN1WWU4Z0gwSHNLMnpSU3RWWmpnVDVXRHBvajE4REhfMkZOeGFQdWtrZEIxVlZ6Tmp4czl6UTdtcWlqQXNCOXJxQWNORXcybHNueExEaUNLOVgtNXpzTmU5YWFv?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
-    },
-    {
       "id": "news-1vuvcp7",
       "kind": "news",
       "date": "2026-10-21",
@@ -8210,706 +8777,6 @@
       "locationStr": "PBS NewsHour",
       "source": "PBS NewsHour",
       "sourceUrl": "https://www.pbs.org/newshour/politics/how-the-trump-administrations-crackdown-on-international-students-could-affect-the-economy"
-    },
-    {
-      "id": "news-1e6zt8k",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T20:33:54.000Z",
-      "description": "WATCH: Trump doesn't commit to endorsing Vance for president in 2028 yet (PBS NewsHour, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/watch-trump-doesnt-commit-to-endorsing-vance-for-president-in-2028-yet"
-    },
-    {
-      "id": "news-1wckx6t",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T20:30:21.000Z",
-      "description": "Arkansas Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RWEVYd0ZRZUdjemp1ak9aNGVTQ005eEp0VnRIRUJfcjdkd0FuSHhJNlJRcFYtckZKdFBqYTJzYm9mZFNSdDlzZ3hJS2JKc09Kb2RWRVpBMmxaM3VXVGtsLWhPcS1DTFhmdUtSNFVSWmpoQQ?oc=5"
-    },
-    {
-      "id": "news-1tenrkw",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T20:27:33.000Z",
-      "description": "Trump says he&#8217;s spent $300M in midterms so far (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/6161109-trump-spent-300-million-midterm-elections/"
-    },
-    {
-      "id": "news-1qhc1tr",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T20:10:54.000Z",
-      "description": "CNN threatens Trump&#8217;s DOJ with further legal action over Air Force One blocks (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/media/6161064-cnn-threatens-doj-legal-action/"
-    },
-    {
-      "id": "news-1wx5kxz",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T20:06:18.000Z",
-      "description": "Trump campaigning in Republican strongholds amid slide in polls - France 24 (France 24, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "France 24",
-      "axis": "Other",
-      "tags": [
-        "France 24",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Republican",
-      "source": "France 24",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOamFCUThwNy1rc3h1SUtQX21zZE5YMmRtN2FjOUtCVUFSLTR1N1pwclNqb2lZalZHakRCYmF2eVVyQkRlU2xZUENPMkNIX0xJaXd4dGRUZXhJS0lzTWp1YUhhaGxFeUZJbERIak9GVUt3Nl9tbUVvSUpSYkhVUDdmaWs3bkJmb3h2TjQ3TWZEcTFSOUxfN0E?oc=5",
-      "lat": 36.08238,
-      "lng": -77.05996,
-      "coordsNote": "OSM geocode: matched \"Republican\" → Republican, Bertie County, North Carolina; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-1nsg9bw",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T20:04:41.000Z",
-      "description": "President Trump did not say whether he would support Vice President Vance in 2028 — The Hill - UA.NEWS (UA.NEWS, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "UA.NEWS",
-      "axis": "Other",
-      "tags": [
-        "UA.NEWS",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "UA.NEWS",
-      "source": "UA.NEWS",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUW93VzJITTg2OVUwMkdFMnF5bndVbzI4ZTBiM01YeVAzUlpvSXZiSWt1anl5emVVUzRBZVFiSlNBazhrQm14VnhtQmFXNkRUcWlFN2ZkR0t6YkZOaVhsS19nVUJnQVM3LTZSNmVIdURGSmVJdUFwT2RhWGQ5MUNtNWs4REJKQWxxWl82VlpaVzNHSWhOMWQzVHdqVG5iSC13T3pXeGMyRWI5UkhRYVE?oc=5"
-    },
-    {
-      "id": "news-1mra360",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:55:51.000Z",
-      "description": "Nonpartisan coalition of religious leaders plans to counter voter intimidation on Election Day (PBS NewsHour, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/nonpartisan-coalition-of-religious-leaders-plans-to-counter-voter-intimidation-on-election-day"
-    },
-    {
-      "id": "news-15prvmj",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:53:59.000Z",
-      "description": "Trump teases release of Stephen Hubbard, American man jailed in Russia (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6160973-trump-stephen-hubbard-release/"
-    },
-    {
-      "id": "news-vlc9lf",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:51:56.000Z",
-      "description": "Trump finds ominous campaign message in French riots (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "French",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6160848-trump-warns-france-midterm-chaos/",
-      "lat": 46.28802,
-      "lng": -96.20173,
-      "coordsNote": "OSM geocode: matched \"French\" → French, Carlisle Township, Otter Tail County; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-vpwsah",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:49:27.000Z",
-      "description": "Vance reveals the Trump dilemma that could complicate his 2028 White House ambitions - Fox News (Fox News, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Fox News",
-      "axis": "Other",
-      "tags": [
-        "Fox News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Fox News",
-      "source": "Fox News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLTQyQnZxYnNXWmR4UldpSUV0dGc0M3NNQ21yV09XRHhkOG0xOVhiWGVVZnZTcHRvZ2lacTMzSzlwRWx6LUowR2N1eDVZdHpEem9QdklYeWVXRmxBdFV1dm9xbUpnZGI1d2lTT1NjemlvSmY4Tkp1akpGTUZhSFJmdUJ0ellweW5YajBvR3J6U2VqV2tUdEFTMUZpYjllZTDSAaQBQVVfeXFMTVdPckZLYnVVbXkwU3BJZHR3bWF6S0JnOEwtRFJkQ3ItclhYVFB0aWFXVEVYTjdEVFpzdFJXNDFkemZEN2RfNmY5S1FWb1p6QXRPTC0xb09yZVJiSVVwVE5STTJac3pRZ3VtVERUQU5zczkxb1pIeDIwX00zV0JjS2xGemRpMWozOURSSGZxWVVpeXZVc1RlUjhyNEhsSzc2TDF4bTM?oc=5"
-    },
-    {
-      "id": "news-1fkwz9z",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:47:51.000Z",
-      "description": "Karl Rove and David Axelrod give their predictions for 12 key midterm races (PBS NewsHour, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/karl-rove-and-david-axelrod-give-their-predictions-for-12-key-midterm-races"
-    },
-    {
-      "id": "news-3wvxik",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:47:51.000Z",
-      "description": "Karl Rove and David Axelrod give their predictions for 12 key midterm races - PBS (PBS, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS",
-      "axis": "Other",
-      "tags": [
-        "PBS",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS",
-      "source": "PBS",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMHhBWUcxMHhPWnlDcE9qMDYzRWhMcGlGcUxFNzdwdUMtVmtJMDEwM2I3bXI2TmNVQ29QaDJRMzNHQjlVR0NVSGR4cE5BV3lYS0ZrYnFTUm5uYXpmd2J1Z1ZrbFMwd19xY0VzS0FYbS0wY3dCcXJjOGdsdFl3cjdNcURWMTl2X3V2NzE0SkV1WjhWczBUellSazVOZlkxcUNPYk5WdjV6M1I2U0tuUWpSUGJQMNIBuAFBVV95cUxNVXdEOWQ4UWh0a282aWpNbm9aY3FfcVFsVW9yWTlzdDJiLWpuVThHNFVUS01MOG5NTWZ4X1I5aHpKMmZaV052YXBhWGJsbGVOWGpUVzVCazA2VHdKMXZaLXBGaW9lRkVoX09JSE9yN3ZYSlNINzlYczhKdWtLRkhwbHB2a1l6M1BqakQ2NG85V1d6YzlxY0F5WWpWRldwcnRUQUFVaGROMFNISFc2NnZMcHFOdGExcnJx?oc=5"
-    },
-    {
-      "id": "news-13ft8d",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:44:20.000Z",
-      "description": "Trump deflects on potential Vance endorsement (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6161025-trump-vance-2028-endorsement/"
-    },
-    {
-      "id": "news-bna2lm",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:44:00.000Z",
-      "description": "Trump deflects on potential Vance endorsement - The Hill (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPclRzVFgwYXNSeVoyaXdTdTl5bXQxQ3U1LXBlem1CLWpOeVJPYm1jc1V1UUpaNkNfQU5fampmaDRXRDlmSmltTXhDWlpweGRMNV9ERDVDX3dLSmtPMk5lSnhYY1A0VGh1dFZ3eFF4WmxFZk9CSmFuMTdQSEx0NnZlcnJXc2F4bHpY0gGOAUFVX3lxTE1UYzRHZUxBZlRNS19Odm1Na1BfaEtnSFg3S3Btall3M3Z5bGs5SDEyWFV0ZXM3VUU3SUQtQjNTbmVaMzBvamhUd294bkU5TFJtaTR6aEl2djBKVlJadFpjZXV4TzFOWG9rRDBRQ2FUNEM3ekY3VXM0WVRMVVp6V3pkRkk3R3FWTmlqU1ZvaWc?oc=5"
-    },
-    {
-      "id": "news-ofxtqv",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:43:50.000Z",
-      "description": "Democratic super PAC to launch Senate ad campaign in Mississippi (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Mississippi",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/6160980-dem-pac-mississippi-senate-ads/",
-      "lat": 32.97153,
-      "lng": -89.73485,
-      "coordsNote": "OSM geocode: matched \"Mississippi\" → Mississippi, United States; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-1aesitq",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:34:42.000Z",
-      "description": "Trump goes full apocalypse in anti-Dems midterms message (Axios, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/10/20/trump-democrats-elections-rallies-comments-vote"
-    },
-    {
-      "id": "news-av2fs9",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:30:05.000Z",
-      "description": "Trump sued over Canadian tariffs in latest legal challenge - BBC (BBC, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC",
-      "axis": "Other",
-      "tags": [
-        "BBC",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "BBC",
-      "source": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14NzhpSVRoLW1NSVJpUDNPX1hfMHE5SjdqZW5pUjk3SEU4V0tjdzE0OGlSMUJzdDFFR2Jub1F1T1FhNGpLV2lZbmxYMVdVd3JCYVRMd2otcUM5bE9Nb2c?oc=5"
-    },
-    {
-      "id": "news-18uelio",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:28:00.000Z",
-      "description": "Live updates: Trump, Vance roll out fraud initiative that pays whistleblowers (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6159401-live-updates-trump-midterm-elections-ukraine-russia/"
-    },
-    {
-      "id": "news-og4qg1",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:23:07.000Z",
-      "description": "Sabato&#8217;s Crystal Ball moves nearly 3 dozen House races in Democrats favor (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/6160820-sabatos-crystal-ball-house-democrats/"
-    },
-    {
-      "id": "news-1b0yrbl",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:22:49.000Z",
-      "description": "Former NATO commander: &#8216;No balance&#8217; to Trump decision &#8216;to give in to Russia&#8217; (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/policy/defense/6160655-wesley-clark-donald-trump-russia-sanction-diesel/"
-    },
-    {
-      "id": "news-l3dz4r",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:18:52.000Z",
-      "description": "Vance on 2028 presidential race: 'I think if I run, the president will endorse me' - KOKH (KOKH, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "KOKH",
-      "axis": "Other",
-      "tags": [
-        "KOKH",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "KOKH",
-      "source": "KOKH",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxORUZHVE1QY2pIOWtwRWQ3VTdFYmJuUWF0V1RSRWxmOFRxZGpfcVNqRFE4c2V4QWNZY1pnNkoxcFhoLURjN0pnRGNCaEJwcF80TTBkd2UwOUhwcjh4OEpuXzN2V0I1NUc1dlRFc3RfVWZmQVBsWFJ1ZlVfNktWeDI4Um8zRzJqeE9vSWkzMG55Q0NZZGlHTWVfSVVQdUo2N3ZKSHRuZnFZWFdDMFh4Znk3NEVQMEI5UWZkNlJhMlphMVd5Qmt1OENQZnJlamZ1bklCMTZHTGFEQUw5QUp4ZjVkTG51WWtISHNMY192MmtUbFJZWTd4UHlnSGY2WXBIWGVKNHVMSmFJYzU?oc=5"
-    },
-    {
-      "id": "news-i8dyw9",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T19:14:28.000Z",
-      "description": "Could disillusioned Kansas voters send their first Democrat to the US Senate in 94 years? - Reuters (Reuters, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcEJELWFtUTE0T2VDN01rLWlrOWRYTHN6WVNqQ1JORFVhM0FDd2FpRG8zdWUzbjRJSktYaFhJc2ZUaFFBdHZyaldRZGExdGx2dXEzS0pLeERlWG5EM04xWmhnMWlkLTVjclBWbjRvZjluc3d6ZUVRYTJRSDVhNVRTWjBVc3VaaE53TV9YSjhkNEZEeFp1YTRSbUY2MzJRcnZIZXk0MzdGLThBMEoyRlhsZHFRZkVDQWlsSDJRd1dYRTY?oc=5"
-    },
-    {
-      "id": "news-1c9ol6a",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T18:57:37.000Z",
-      "description": "Senate Democrats launch first ad in Mississippi as their midterm optimism spreads in the South (PBS NewsHour, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Mississippi",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/senate-democrats-launch-first-ad-in-mississippi-as-their-midterm-optimism-spreads-in-the-south",
-      "lat": 32.97153,
-      "lng": -89.73485,
-      "coordsNote": "OSM geocode: matched \"Mississippi\" → Mississippi, United States; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-1tss91v",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T18:57:10.000Z",
-      "description": "Vance on 2028 presidential race: 'I think if I run, the president will endorse me' - 13wham.com (13wham.com, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "13wham.com",
-      "axis": "Other",
-      "tags": [
-        "13wham.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "13wham.com",
-      "source": "13wham.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOd29Od1hsbktCNFh3T1dlb0dmZW9wUU5pSmNNdVAxZGVtV0lsTGdmTjhqVmY0NksyVGxaQkxLUHhYUi1pT0IwTUZ4Wm82M3NCS2s3dENMRjg0SjZYZzlnZWgwd1h6MXB5Vnl1QmZ0dlJWclFEcnBMX2FmOHQ4SzREMlpUckptR3ZScnlzNGN2TEk4dlB6VEpKajNpTmxicUlweUFsWTFJenRGY2RFR1JBWVJodHJaQ3N3dmhULTdrc0hfZXp2WU5mVmNma3Z3WGFZNzZYN0NVaVJsMXkxRlNaUlJvQU9xRXhXVVUyeFVmMTZvemNyc3JCaWtDZno2eW1vNjVrMmN4ZWk?oc=5"
-    },
-    {
-      "id": "news-1ybio6h",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T18:56:20.000Z",
-      "description": "Mystery mailings put Congress and election offices on edge (Axios, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/10/20/white-powder-letters-congress-election-offices"
-    },
-    {
-      "id": "news-1x3zpkp",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T18:55:29.000Z",
-      "description": "Vance on 2028 presidential race: 'I think if I run, the president will endorse me' - KEYE (KEYE, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "KEYE",
-      "axis": "Other",
-      "tags": [
-        "KEYE",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "KEYE",
-      "source": "KEYE",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOQ3Azd2NhWlp5MG44ZUg0OG9NdVVkY1NDWC12aktNMlk5UzVTdWlCQWJkWGVyMUxhdjIzMktqZmlWajNfWEM5UmFleXJaQVlZYmtWZzgycWhKN0RpdnViZHVNbTVSZ0RTdy00LWpuNTJIQXBzUEpfek83RFE3aFdyQTczcV96bEFQblNDOEl1d1gzaXEzcVVMakVyNl9sZEIwU0duTnlsWUsxN1Q3RjRMSEduUFluNDNvNkk4TV9rZ1hGZUI1TlJKSTVjU1BEVkZndGVGUTc3c0dHQXNjSlo2SFhKbW9lUjFrX3dSckdsZWNlMjBpZ0ZQSlJTT1NZbjA4TXVSdE5Oa2RSWE50?oc=5"
-    },
-    {
-      "id": "news-12k56ke",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T18:54:42.000Z",
-      "description": "Trump launches $25 million whistleblower incentive program; Nick Shirley receives first payout (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6160787-trump-vance-whistleblower-program/"
-    },
-    {
-      "id": "news-1er6je",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T18:53:51.000Z",
-      "description": "Vance on 2028 presidential race: 'I think if I run, the president will endorse me' - The National Desk (The National Desk, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The National Desk",
-      "axis": "Other",
-      "tags": [
-        "The National Desk",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The National Desk",
-      "source": "The National Desk",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPUFNPaF9oYkZ3czBLY29WUS1xOGZ3Q1JPb2RfUTlrbWdKdDJnTUhhX3E0SXVlSHBlV1RvTEYtU3ZBTHE2ekduQTdvVEpzSVA1S0VBTjJuOUg1d2dtV09yelRJMnp2bDktSU1TbXNpMXo4RlZyUVdXbjduNFE1RGZqODNvMXdmbXdWNmpNYXByTHFCN0dMRVFVN0pseVNoRnp0aDFadnpWZ0t3Snd5ZGpteDZ0MzJYTzE2VnQyRDhuVnNuMnltNTRGbGI2ZUhrSG43WXRzcmhoajB0dmthZmFpWFF1Q0NIaTN0enZkbFFBSk1ud0FwQThBbzB6akRWY0o5OVIxb2tRaXlhWm9SdncxbmU5bnlvMnNtLWY0?oc=5"
-    },
-    {
-      "id": "news-5r74ye",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T18:44:16.000Z",
-      "description": "Cook Political Report shifts 2 Senate races toward Democrats, 1 toward GOP (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/6160752-cook-political-report-moves-races/"
-    },
-    {
-      "id": "news-6ld9m8",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T18:37:17.000Z",
-      "description": "Gingrich: GOP &#8216;dedicated to being inarticulate&#8217; (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/6160717-gingrich-criticizes-gop-midterm-messaging/"
-    },
-    {
-      "id": "news-1wsx454",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T18:31:11.000Z",
-      "description": "Broad Public Confidence in Elections in the U.S. – but Partisans Differ Over Concerns About Access, Security - Pew Research Center (Pew Research Center, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Pew Research Center",
-      "axis": "Other",
-      "tags": [
-        "Pew Research Center",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Pew Research Center",
-      "source": "Pew Research Center",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQSWNLOHhYcERBMlp1am5YUDZQVEs0YXlaeXFLdkNPd0NvbTRaSURpTVZyaTlQTGRKU0Q2bWlkZUY3VkVVb0RTZTY2Y25EYW1mWVVTV1dncHc3Q3Nia09WdHJXLWtjWTVtX0ducUduRmZpX3BsYkNhMDVsV2t1MjZUNy1PRzFMdDljQnFxMkxiaGdNR0xaWXZMRjh0bTNYdDFYdTNsNUpDcXNCalFyeHU2MXlVVmphSTRZZk95NVc0NERESkRnbzRpRTVxTVJlakZiTmlqdi1rYzhGY2E0ZHU5cU9jT3FnNEpU?oc=5"
-    },
-    {
-      "id": "news-s31m57",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T18:14:39.000Z",
-      "description": "A Dozen Numbers That Explain the Midterms - Council on Foreign Relations (Council on Foreign Relations, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Council on Foreign Relations",
-      "axis": "Other",
-      "tags": [
-        "Council on Foreign Relations",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Council on Foreign Relations",
-      "source": "Council on Foreign Relations",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1GTnFJTThNTlpwNFBNVGpyeWlHOWFJYzN0dmwzNFFjQzVnWndsLUZJNzBEM1RNNUx4dXIyaE9jV2RQbkNPTGNjQWpVa0EyekpHTlphczBIY3N5Q2VSRDNQY0pSMm12R05aNDdJRnA2dm92Z0VPRXRPR3Bn?oc=5"
-    },
-    {
-      "id": "news-1c3vz2a",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T18:13:56.000Z",
-      "description": "Tracking US Senate Odds with Midterms Two Weeks Away - Federal News Network (Federal News Network, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Federal News Network",
-      "axis": "Other",
-      "tags": [
-        "Federal News Network",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Federal News Network",
-      "source": "Federal News Network",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOckhNUUQtZ2N0cGY1dzRhTm5OOC01MWV5enZaS25DSWpONkFBWEJmUEtMNEh2YzN5Y0VVQnVWNHQyVVpfTU9HX3pmd3lveWpTbXdqMEVwb05ac3B3VVR3VjE5OTJtaFBpX2ZlWUdaWWtOQ1ljbWtLVHo2R044SEpjMnduaF9Oak9FSFBrWGpFbkFIMnlxNFc3X0Z5cWdTcGNBbkJvSFZiQl90dw?oc=5"
-    },
-    {
-      "id": "news-1vtab42",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T17:59:25.000Z",
-      "description": "Trump ties ethanol boon for farmers to a Marshall win (Roll Call, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Roll Call",
-      "axis": "Other",
-      "tags": [
-        "Roll Call",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Roll Call",
-      "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/10/20/trump-ties-ethanol-boon-for-farmers-to-a-marshall-win/"
-    },
-    {
-      "id": "news-ir53in",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T17:56:42.000Z",
-      "description": "Prospects looking &#8216;bleak&#8217; for New Jersey Republican who went missing for months (The Hill, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/6160111-kean-house-race-ads-canceled/"
-    },
-    {
-      "id": "news-158fipn",
-      "kind": "news",
-      "date": "2026-10-20",
-      "isoDate": "2026-10-20T17:40:15.000Z",
-      "description": "Bipartisan pushback swells against Trump&#8217;s Ukraine moves (Roll Call, 2026-10-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Roll Call",
-      "axis": "Other",
-      "tags": [
-        "Roll Call",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Roll Call",
-      "source": "Roll Call",
-      "sourceUrl": "https://rollcall.com/2026/10/20/bipartisan-pushback-swells-against-trumps-ukraine-moves/"
     }
   ]
 }
