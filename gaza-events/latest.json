@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "gaza",
-  "collectedAt": "2026-10-23T20:40:41.174Z",
+  "collectedAt": "2026-10-23T23:34:36.356Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 264
+      "count": 237
     },
     {
       "id": "bbc-me",
@@ -20,8 +20,8 @@
       "id": "jpost",
       "url": "https://www.jpost.com/rss/rssfeedsfrontpage.aspx",
       "status": "ok",
-      "count": 18,
-      "filtered": 8
+      "count": 17,
+      "filtered": 9
     },
     {
       "id": "gnews-gaza",
@@ -41,8 +41,8 @@
       "id": "aljazeera",
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "status": "ok",
-      "count": 4,
-      "filtered": 21
+      "count": 6,
+      "filtered": 19
     },
     {
       "id": "guardian-me",
@@ -56,7 +56,7 @@
       "url": "https://rss.nytimes.com/services/xml/rss/nyt/MiddleEast.xml",
       "status": "ok",
       "count": 18,
-      "filtered": 6
+      "filtered": 5
     },
     {
       "id": "gnews-flotilla",
@@ -90,11 +90,167 @@
   "count": 1500,
   "events": [
     {
+      "id": "news-kbtp7u",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:41:23.000Z",
+      "description": "IDF, Shin Bet launch multi-day counterterrorism operation in Hebron after deadly Hamas attack (Jerusalem Post, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Hebron",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-912675",
+      "lat": 31.53,
+      "lng": 35.09,
+      "coordsNote": "Headline gazetteer match: \"Hebron\" (city); verify via source article."
+    },
+    {
+      "id": "news-180nodi",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T23:53:15.000Z",
+      "description": "Without seed capital: Four young Israeli entrepreneurs sell AI startup for millions of shekels (Jerusalem Post, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jerusalem Post",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/business-and-innovation/article-912661"
+    },
+    {
+      "id": "news-ptnqme",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T23:47:38.000Z",
+      "description": "Barack Obama’s Belfast speech was a shameful, distorted rewrite of Israel's history - opinion (Jerusalem Post, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jerusalem Post",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/opinion/article-912519"
+    },
+    {
+      "id": "news-1y1b0me",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T23:25:11.000Z",
+      "description": "Macklemore: ‘I say free Palestine’ as he kicks off a new tour (Al Jazeera, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/10/23/macklemore-i-say-free-palestine-as-he-kicks-off-a-new-tour?traffic_source=rss"
+    },
+    {
+      "id": "news-rjg84s",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T22:01:52.000Z",
+      "description": "Why is Israel increasing its presence in the Balkans? (Al Jazeera, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/10/23/why-is-israel-increasing-its-presence-in-the-balkans?traffic_source=rss"
+    },
+    {
+      "id": "news-yr5r6k",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T20:52:32.000Z",
+      "description": "‘Generation Right’: Israeli youth show strong support for the right (Al Jazeera, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/23/generation-right-israeli-youth-show-strong-support-for-the-right?traffic_source=rss"
+    },
+    {
+      "id": "news-ptnpze",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T20:23:11.000Z",
+      "description": "Israel’s ballot box or Pandora’s box? - opinion (Jerusalem Post, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jerusalem Post",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/opinion/article-912496"
+    },
+    {
+      "id": "news-ptnqrr",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T20:17:38.000Z",
+      "description": "Israel’s election campaign lacks substance, fresh leadership, and vision - opinion (Jerusalem Post, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jerusalem Post",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/opinion/article-912574"
+    },
+    {
       "id": "news-1f9lhp7",
       "kind": "news",
       "date": "2026-10-23",
       "isoDate": "2026-10-23T20:03:52.000Z",
-      "description": "Iran threatens to sever Gulf internet cables in retaliation for renewed US, Israeli attacks (Jerusalem Post, 2026-10-23. Headline + link only.)",
+      "description": "Iran threatens to sever Gulf internet cables in retaliation if US, Israel renew attacks (Jerusalem Post, 2026-10-23. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Jerusalem Post",
@@ -50091,278 +50247,6 @@
         "quadClass": 4,
         "goldstein": -5,
         "tone": -2.94,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329527179",
-      "kind": "event",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T00:00:00.000Z",
-      "observedAt": "2026-10-23T16:45:00.000Z",
-      "description": "Threat — West Bank → Manila near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Threat (GDELT 138)",
-      "actor": "West Bank",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.manilatimes.net/2026/10/24/world/americas-emea/west-bank-lockdown-ordered-after-attack/2452813",
-      "gdelt": {
-        "globalEventId": "1329527179",
-        "eventCode": "138",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -7,
-        "tone": -6.16,
-        "mentions": 10,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329527180",
-      "kind": "event",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T00:00:00.000Z",
-      "observedAt": "2026-10-23T16:45:00.000Z",
-      "description": "Fight — Palestinians → Palestinians near Hebron, Israel (general), Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.5333,
-      "lng": 35.1,
-      "action": "Fight (GDELT 190)",
-      "actor": "Palestinians",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Hebron, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.manilatimes.net/2026/10/24/world/americas-emea/west-bank-lockdown-ordered-after-attack/2452813",
-      "gdelt": {
-        "globalEventId": "1329527180",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -6.16,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329528727",
-      "kind": "event",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T00:00:00.000Z",
-      "observedAt": "2026-10-23T17:00:00.000Z",
-      "description": "Coercion — Residents → Unspecified near Asira, West Bank (general), West Bank. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32.2512,
-      "lng": 35.2672,
-      "action": "Coercion (GDELT 172)",
-      "actor": "Residents",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Asira, West Bank (general), West Bank",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/23/israeli-roadblocks-disrupt-schools-and-medical-care-in-west-bank-village",
-      "gdelt": {
-        "globalEventId": "1329528727",
-        "eventCode": "172",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -6.11,
-        "mentions": 8,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329529056",
-      "kind": "event",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T00:00:00.000Z",
-      "observedAt": "2026-10-23T17:00:00.000Z",
-      "description": "Force posture — Israel → Unspecified near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Force posture (GDELT 154)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Force posture"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.middleeastmonitor.com/20261023-3-palestinians-killed-others-injured-in-fresh-israeli-attacks-on-gaza/",
-      "gdelt": {
-        "globalEventId": "1329529056",
-        "eventCode": "154",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -7.2,
-        "tone": -6.14,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329529062",
-      "kind": "event",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T00:00:00.000Z",
-      "observedAt": "2026-10-23T17:00:00.000Z",
-      "description": "Coercion — Israel → Israel near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Coercion (GDELT 1712)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.middleeastmonitor.com/20261023-3-palestinians-killed-others-injured-in-fresh-israeli-attacks-on-gaza/",
-      "gdelt": {
-        "globalEventId": "1329529062",
-        "eventCode": "1712",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -9.2,
-        "tone": -6.14,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329529063",
-      "kind": "event",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T00:00:00.000Z",
-      "observedAt": "2026-10-23T17:00:00.000Z",
-      "description": "Disapproval — Israel → Israel near Jerusalem, Israel (general), Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.7667,
-      "lng": 35.2333,
-      "action": "Disapproval (GDELT 112)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Jerusalem, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/23/israeli-roadblocks-disrupt-schools-and-medical-care-in-west-bank-village",
-      "gdelt": {
-        "globalEventId": "1329529063",
-        "eventCode": "112",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -6.11,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329529068",
-      "kind": "event",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T00:00:00.000Z",
-      "observedAt": "2026-10-23T17:00:00.000Z",
-      "description": "Fight — Israel → Lebanon near Tel Aviv, Tel Aviv, Israel. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 32.0667,
-      "lng": 34.7667,
-      "action": "Fight (GDELT 193)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Tel Aviv, Tel Aviv, Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.middleeastmonitor.com/20261023-israeli-airstrikes-artillery-shelling-hit-southern-lebanon-amid-intensified-drone-activity/",
-      "gdelt": {
-        "globalEventId": "1329529068",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -3.26,
-        "mentions": 5,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329529070",
-      "kind": "event",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T00:00:00.000Z",
-      "observedAt": "2026-10-23T17:00:00.000Z",
-      "description": "Fight — Israel → West Bank near Ashkelon, HaDarom, Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.6693,
-      "lng": 34.5715,
-      "action": "Fight (GDELT 193)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Ashkelon, HaDarom, Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://dailypost.ng/2026/10/23/two-israeli-soldiers-killed-in-shooting-at-west-bank-checkpoint/",
-      "gdelt": {
-        "globalEventId": "1329529070",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -8.04,
         "mentions": 2,
         "sources": 1
       }
