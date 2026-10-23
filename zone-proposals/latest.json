@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-23T17:48:02.518Z",
+  "collectedAt": "2026-10-23T18:41:02.032Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 206,
-  "outsideTheatreDropped": 11,
+  "coarseGdeltDropped": 207,
+  "outsideTheatreDropped": 12,
   "proposals": [
     {
       "zoneId": "lib-kyiv",
@@ -15,16 +15,16 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 526,
+      "eventCount": 516,
       "kinds": {
         "other": 376,
-        "strike": 16,
-        "combat": 134
+        "strike": 15,
+        "combat": 125
       },
       "tierCounts": {
-        "approximate": 526
+        "approximate": 516
       },
-      "combatCount": 150,
+      "combatCount": 140,
       "newestIsoDate": "2026-10-23T16:12:23.000Z",
       "samples": [
         {
@@ -44,10 +44,51 @@
         }
       ],
       "centroid": {
-        "lat": 50.3475,
-        "lng": 30.0742
+        "lat": 50.3459,
+        "lng": 30.0656
       },
-      "radiusKm": 61.4
+      "radiusKm": 62.5
+    },
+    {
+      "zoneId": "occ-kherson",
+      "region": "Kherson Oblast",
+      "center": {
+        "lat": 46.6354,
+        "lng": 32.6169
+      },
+      "eventCount": 72,
+      "kinds": {
+        "other": 47,
+        "combat": 18,
+        "strike": 7
+      },
+      "tierCounts": {
+        "approximate": 72
+      },
+      "combatCount": 25,
+      "newestIsoDate": "2026-10-23T18:00:00.000Z",
+      "samples": [
+        {
+          "id": "news-nhnys3",
+          "isoDate": "2026-10-23T18:00:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4177623-ukrainian-forces-to-implement-decisions-on-humanitarian-mission-in-oleshky-general-staff.html"
+        },
+        {
+          "id": "news-1sb8u7y",
+          "isoDate": "2026-10-23T17:53:55.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSEhSbmRkRDN4bmtUN25lZzlCMUtUcDJ4RGpFM3RJLWVuMkpKQlhJMi1zbHpjaC03ZmMzVjJYbjhEZ1RrdnZUYWtuZTZPUmQ3ZHFuMVdBaWFtTUNGV3dYWG9Za20zS0hNOVFTM0ZOcnhNeGRjUHlKNFhhYUx0YmtoakhOeUoxMTVSV0QycG1KZUNhVTRGaF9OMkkydXhOT2tPb1ZpUU4wWHhDRWpHQmxRRjNVck5RWmRBX1ZjRHJWeUdLSHRTLUkxa21TbUxoMXFyYjIycXotVVB2QQ?oc=5"
+        },
+        {
+          "id": "news-z4ggn3",
+          "isoDate": "2026-10-23T17:53:55.000Z",
+          "sourceUrl": "https://kyivindependent.com/ukraine-war-latest-ukraine-russia-agree-to-local-ceasefire-for-russian-occupied-oleshky-mediated-by-melania-trump/"
+        }
+      ],
+      "centroid": {
+        "lat": 46.7143,
+        "lng": 32.2625
+      },
+      "radiusKm": 80
     },
     {
       "zoneId": "occ-kharkiv",
@@ -56,16 +97,16 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 68,
+      "eventCount": 64,
       "kinds": {
         "other": 50,
-        "combat": 17,
+        "combat": 13,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 68
+        "approximate": 64
       },
-      "combatCount": 18,
+      "combatCount": 14,
       "newestIsoDate": "2026-10-23T14:10:00.000Z",
       "samples": [
         {
@@ -85,51 +126,10 @@
         }
       ],
       "centroid": {
-        "lat": 49.7726,
-        "lng": 36.8952
+        "lat": 49.7596,
+        "lng": 36.9353
       },
-      "radiusKm": 72.7
-    },
-    {
-      "zoneId": "occ-kherson",
-      "region": "Kherson Oblast",
-      "center": {
-        "lat": 46.6354,
-        "lng": 32.6169
-      },
-      "eventCount": 66,
-      "kinds": {
-        "other": 41,
-        "combat": 18,
-        "strike": 7
-      },
-      "tierCounts": {
-        "approximate": 66
-      },
-      "combatCount": 25,
-      "newestIsoDate": "2026-10-23T17:39:02.000Z",
-      "samples": [
-        {
-          "id": "news-qur09p",
-          "isoDate": "2026-10-23T17:39:02.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/general/1225489.html"
-        },
-        {
-          "id": "news-1q0e8zb",
-          "isoDate": "2026-10-23T15:48:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/23/8059456/"
-        },
-        {
-          "id": "news-1q0e7bq",
-          "isoDate": "2026-10-23T13:41:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/23/8059437/"
-        }
-      ],
-      "centroid": {
-        "lat": 46.7212,
-        "lng": 32.2255
-      },
-      "radiusKm": 80
+      "radiusKm": 74.6
     },
     {
       "zoneId": "occ-luhansk",
@@ -219,14 +219,14 @@
         "lat": 45.2551,
         "lng": 30.2033
       },
-      "eventCount": 31,
+      "eventCount": 29,
       "kinds": {
-        "other": 17,
+        "other": 15,
         "combat": 12,
         "strike": 2
       },
       "tierCounts": {
-        "approximate": 31
+        "approximate": 29
       },
       "combatCount": 14,
       "newestIsoDate": "2026-10-23T17:21:00.000Z",
@@ -248,10 +248,10 @@
         }
       ],
       "centroid": {
-        "lat": 46.4503,
-        "lng": 30.2859
+        "lat": 46.4494,
+        "lng": 30.2546
       },
-      "radiusKm": 56
+      "radiusKm": 58.2
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -300,15 +300,15 @@
         "lat": 50.9077,
         "lng": 34.7981
       },
-      "eventCount": 24,
+      "eventCount": 23,
       "kinds": {
         "other": 19,
-        "combat": 5
+        "combat": 4
       },
       "tierCounts": {
-        "approximate": 24
+        "approximate": 23
       },
-      "combatCount": 5,
+      "combatCount": 4,
       "newestIsoDate": "2026-10-23T12:19:00.000Z",
       "samples": [
         {
@@ -328,10 +328,10 @@
         }
       ],
       "centroid": {
-        "lat": 50.7283,
-        "lng": 34.7214
+        "lat": 50.7199,
+        "lng": 34.718
       },
-      "radiusKm": 43.5
+      "radiusKm": 45
     },
     {
       "zoneId": "occ-crimea",
@@ -340,37 +340,38 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 7,
+      "eventCount": 9,
       "kinds": {
+        "combat": 2,
         "other": 7
       },
       "tierCounts": {
-        "approximate": 7
+        "approximate": 9
       },
-      "combatCount": 0,
-      "newestIsoDate": "2026-10-22T16:45:00.000Z",
+      "combatCount": 2,
+      "newestIsoDate": "2026-10-23T00:00:00.000Z",
       "samples": [
+        {
+          "id": "gdelt-1329540485",
+          "isoDate": "2026-10-23T00:00:00.000Z",
+          "sourceUrl": "https://www.eurasiareview.com/23102026-ukrainian-drone-firsts-since-russias-invasion-from-deep-strikes-to-evacuating-wounded-oped/"
+        },
+        {
+          "id": "gdelt-1329540616",
+          "isoDate": "2026-10-23T00:00:00.000Z",
+          "sourceUrl": "https://www.eurasiareview.com/23102026-ukrainian-drone-firsts-since-russias-invasion-from-deep-strikes-to-evacuating-wounded-oped/"
+        },
         {
           "id": "news-2q3r04",
           "isoDate": "2026-10-22T16:45:00.000Z",
           "sourceUrl": "https://kyivindependent.com/russia-sentences-77-year-old-crimean-activist-to-18-years-over-alleged-plot-to-kill-moscows-proxy/"
-        },
-        {
-          "id": "news-1ovzfyq",
-          "isoDate": "2026-10-22T12:21:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/22/8059236/"
-        },
-        {
-          "id": "news-ni7j78",
-          "isoDate": "2026-10-22T11:21:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4177085-zelensky-if-there-had-been-an-order-to-retake-crimea-in-2014-there-would-have-been-no-fullscale-war.html"
         }
       ],
       "centroid": {
-        "lat": 45.046,
-        "lng": 34.7721
+        "lat": 44.9349,
+        "lng": 34.6624
       },
-      "radiusKm": 80
+      "radiusKm": 76.3
     },
     {
       "zoneId": "lib-chernihiv",
