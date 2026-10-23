@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-23T01:02:04.228Z",
+  "collectedAt": "2026-10-23T06:34:55.480Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 6
     },
     {
       "id": "aa-mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
       "status": "ok",
-      "count": 15,
+      "count": 16,
       "filtered": 12
     },
     {
@@ -27,7 +27,7 @@
       "id": "aa-niger",
       "url": "https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf",
       "status": "ok",
-      "count": 9,
+      "count": 8,
       "filtered": 4
     },
     {
@@ -56,14 +56,14 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 1,
-      "filtered": 33
+      "filtered": 32
     },
     {
       "id": "africanews",
       "url": "https://www.africanews.com/feed/",
       "status": "ok",
-      "count": 2,
-      "filtered": 48
+      "count": 1,
+      "filtered": 49
     },
     {
       "id": "dw-africa",
@@ -90,7 +90,7 @@
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 46,
+      "count": 10,
       "filtered": 0
     },
     {
@@ -101,8 +101,231 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 90,
+  "count": 97,
   "events": [
+    {
+      "id": "news-hmqdb3",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T05:08:26.000Z",
+      "description": "Army, Russia's 'Africa Corps' Commit New Abuses (AllAfrica Mali, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AllAfrica Mali",
+      "axis": "Other",
+      "tags": [
+        "AllAfrica Mali",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AllAfrica Mali",
+      "source": "AllAfrica Mali",
+      "sourceUrl": "https://allafrica.com/stories/202610230063.html"
+    },
+    {
+      "id": "gdelt-1329419294",
+      "kind": "event",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T00:00:00.000Z",
+      "observedAt": "2026-10-23T03:45:00.000Z",
+      "description": "Disapproval — Human Rights Watch → Government Forces near Burkina Faso. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 1123)",
+      "actor": "Human Rights Watch",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.latimes.com/world-nation/story/2026-10-21/burkina-fasos-parliament-unanimously-votes-to-reinstate-death-penalty",
+      "gdelt": {
+        "globalEventId": "1329419294",
+        "eventCode": "1123",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -11.74,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329419303",
+      "kind": "event",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T00:00:00.000Z",
+      "observedAt": "2026-10-23T03:45:00.000Z",
+      "description": "Disapproval — Dissident → Mali near Burkina Faso. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Dissident",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.latimes.com/world-nation/story/2026-10-21/burkina-fasos-parliament-unanimously-votes-to-reinstate-death-penalty",
+      "gdelt": {
+        "globalEventId": "1329419303",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -11.74,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329419304",
+      "kind": "event",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T00:00:00.000Z",
+      "observedAt": "2026-10-23T03:45:00.000Z",
+      "description": "Coercion — Dissident → Mali near Burkina Faso. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Dissident",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.latimes.com/world-nation/story/2026-10-21/burkina-fasos-parliament-unanimously-votes-to-reinstate-death-penalty",
+      "gdelt": {
+        "globalEventId": "1329419304",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -11.74,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329419377",
+      "kind": "event",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T00:00:00.000Z",
+      "observedAt": "2026-10-23T03:45:00.000Z",
+      "description": "Disapproval — Militant → Al Qaida near Burkina Faso. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Militant",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.latimes.com/world-nation/story/2026-10-21/burkina-fasos-parliament-unanimously-votes-to-reinstate-death-penalty",
+      "gdelt": {
+        "globalEventId": "1329419377",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -11.74,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329419378",
+      "kind": "event",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T00:00:00.000Z",
+      "observedAt": "2026-10-23T03:45:00.000Z",
+      "description": "Disapproval — Militant → Muslim near Burkina Faso. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Militant",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.latimes.com/world-nation/story/2026-10-21/burkina-fasos-parliament-unanimously-votes-to-reinstate-death-penalty",
+      "gdelt": {
+        "globalEventId": "1329419378",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -11.74,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329423041",
+      "kind": "event",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T00:00:00.000Z",
+      "observedAt": "2026-10-23T04:30:00.000Z",
+      "description": "Assault — Civilian → Military near Mopti, Mopti, Mali. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 14.4891,
+      "lng": -4.19283,
+      "action": "Assault (GDELT 182)",
+      "actor": "Civilian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Mopti, Mopti, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/23102026-mali-army-russias-africa-corps-commit-new-abuses-hrw-says/",
+      "gdelt": {
+        "globalEventId": "1329423041",
+        "eventCode": "182",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -5.27,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
     {
       "id": "news-o8q5sk",
       "kind": "news",
