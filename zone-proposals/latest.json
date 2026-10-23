@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-23T18:41:02.032Z",
+  "collectedAt": "2026-10-23T21:11:10.678Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 207,
+  "coarseGdeltDropped": 210,
   "outsideTheatreDropped": 12,
   "proposals": [
     {
@@ -15,16 +15,16 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 516,
+      "eventCount": 485,
       "kinds": {
-        "other": 376,
+        "other": 357,
         "strike": 15,
-        "combat": 125
+        "combat": 113
       },
       "tierCounts": {
-        "approximate": 516
+        "approximate": 485
       },
-      "combatCount": 140,
+      "combatCount": 128,
       "newestIsoDate": "2026-10-23T16:12:23.000Z",
       "samples": [
         {
@@ -44,10 +44,10 @@
         }
       ],
       "centroid": {
-        "lat": 50.3459,
-        "lng": 30.0656
+        "lat": 50.3535,
+        "lng": 30.0742
       },
-      "radiusKm": 62.5
+      "radiusKm": 61
     },
     {
       "zoneId": "occ-kherson",
@@ -56,16 +56,16 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 72,
+      "eventCount": 79,
       "kinds": {
-        "other": 47,
+        "other": 55,
         "combat": 18,
-        "strike": 7
+        "strike": 6
       },
       "tierCounts": {
-        "approximate": 72
+        "approximate": 79
       },
-      "combatCount": 25,
+      "combatCount": 24,
       "newestIsoDate": "2026-10-23T18:00:00.000Z",
       "samples": [
         {
@@ -85,10 +85,10 @@
         }
       ],
       "centroid": {
-        "lat": 46.7143,
-        "lng": 32.2625
+        "lat": 46.6953,
+        "lng": 32.364
       },
-      "radiusKm": 80
+      "radiusKm": 75.9
     },
     {
       "zoneId": "occ-kharkiv",
@@ -97,16 +97,15 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 64,
+      "eventCount": 59,
       "kinds": {
-        "other": 50,
-        "combat": 13,
-        "strike": 1
+        "other": 51,
+        "combat": 8
       },
       "tierCounts": {
-        "approximate": 64
+        "approximate": 59
       },
-      "combatCount": 14,
+      "combatCount": 8,
       "newestIsoDate": "2026-10-23T14:10:00.000Z",
       "samples": [
         {
@@ -126,10 +125,10 @@
         }
       ],
       "centroid": {
-        "lat": 49.7596,
-        "lng": 36.9353
+        "lat": 49.7961,
+        "lng": 36.7681
       },
-      "radiusKm": 74.6
+      "radiusKm": 64.9
     },
     {
       "zoneId": "occ-luhansk",
@@ -138,13 +137,13 @@
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 43,
+      "eventCount": 48,
       "kinds": {
-        "other": 36,
+        "other": 41,
         "combat": 7
       },
       "tierCounts": {
-        "approximate": 43
+        "approximate": 48
       },
       "combatCount": 7,
       "newestIsoDate": "2026-10-23T09:53:44.000Z",
@@ -166,51 +165,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.522,
-        "lng": 38.8172
+        "lat": 48.5184,
+        "lng": 38.7671
       },
-      "radiusKm": 29.3
-    },
-    {
-      "zoneId": "occ-donetsk",
-      "region": "Donetsk Oblast",
-      "center": {
-        "lat": 47.8,
-        "lng": 37.5
-      },
-      "eventCount": 32,
-      "kinds": {
-        "other": 24,
-        "combat": 2,
-        "strike": 6
-      },
-      "tierCounts": {
-        "approximate": 32
-      },
-      "combatCount": 8,
-      "newestIsoDate": "2026-10-23T14:54:00.000Z",
-      "samples": [
-        {
-          "id": "news-1q0e852",
-          "isoDate": "2026-10-23T14:54:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/23/8059446/"
-        },
-        {
-          "id": "news-lpu8l3",
-          "isoDate": "2026-10-23T14:38:28.000Z",
-          "sourceUrl": "https://www.rferl.org/a/dodging-russian-drones-on-ukrainian-road-to-frontline-druzhkivka/33883054.html"
-        },
-        {
-          "id": "news-jatrky",
-          "isoDate": "2026-10-23T11:05:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4177457-defense-forces-strike-drone-launch-site-near-donetsk-and-russian-warehouses.html"
-        }
-      ],
-      "centroid": {
-        "lat": 48.227,
-        "lng": 37.2711
-      },
-      "radiusKm": 57.1
+      "radiusKm": 27.2
     },
     {
       "zoneId": "lib-snake",
@@ -252,6 +210,47 @@
         "lng": 30.2546
       },
       "radiusKm": 58.2
+    },
+    {
+      "zoneId": "occ-donetsk",
+      "region": "Donetsk Oblast",
+      "center": {
+        "lat": 47.8,
+        "lng": 37.5
+      },
+      "eventCount": 29,
+      "kinds": {
+        "other": 24,
+        "combat": 3,
+        "strike": 2
+      },
+      "tierCounts": {
+        "approximate": 29
+      },
+      "combatCount": 5,
+      "newestIsoDate": "2026-10-23T14:54:00.000Z",
+      "samples": [
+        {
+          "id": "news-1q0e852",
+          "isoDate": "2026-10-23T14:54:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/23/8059446/"
+        },
+        {
+          "id": "news-lpu8l3",
+          "isoDate": "2026-10-23T14:38:28.000Z",
+          "sourceUrl": "https://www.rferl.org/a/dodging-russian-drones-on-ukrainian-road-to-frontline-druzhkivka/33883054.html"
+        },
+        {
+          "id": "news-jatrky",
+          "isoDate": "2026-10-23T11:05:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4177457-defense-forces-strike-drone-launch-site-near-donetsk-and-russian-warehouses.html"
+        }
+      ],
+      "centroid": {
+        "lat": 48.1757,
+        "lng": 37.2416
+      },
+      "radiusKm": 57.4
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -300,15 +299,16 @@
         "lat": 50.9077,
         "lng": 34.7981
       },
-      "eventCount": 23,
+      "eventCount": 26,
       "kinds": {
-        "other": 19,
-        "combat": 4
+        "other": 21,
+        "combat": 4,
+        "strike": 1
       },
       "tierCounts": {
-        "approximate": 23
+        "approximate": 26
       },
-      "combatCount": 4,
+      "combatCount": 5,
       "newestIsoDate": "2026-10-23T12:19:00.000Z",
       "samples": [
         {
@@ -328,10 +328,10 @@
         }
       ],
       "centroid": {
-        "lat": 50.7199,
-        "lng": 34.718
+        "lat": 50.692,
+        "lng": 34.7178
       },
-      "radiusKm": 45
+      "radiusKm": 48.3
     },
     {
       "zoneId": "occ-crimea",
@@ -340,13 +340,13 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 9,
+      "eventCount": 12,
       "kinds": {
         "combat": 2,
-        "other": 7
+        "other": 10
       },
       "tierCounts": {
-        "approximate": 9
+        "approximate": 12
       },
       "combatCount": 2,
       "newestIsoDate": "2026-10-23T00:00:00.000Z",
@@ -362,16 +362,16 @@
           "sourceUrl": "https://www.eurasiareview.com/23102026-ukrainian-drone-firsts-since-russias-invasion-from-deep-strikes-to-evacuating-wounded-oped/"
         },
         {
-          "id": "news-2q3r04",
-          "isoDate": "2026-10-22T16:45:00.000Z",
-          "sourceUrl": "https://kyivindependent.com/russia-sentences-77-year-old-crimean-activist-to-18-years-over-alleged-plot-to-kill-moscows-proxy/"
+          "id": "gdelt-1329551680",
+          "isoDate": "2026-10-23T00:00:00.000Z",
+          "sourceUrl": "https://whbl.com/2026/10/23/zelenskiy-says-ukrainian-russian-and-us-negotiators-to-meet-in-early-november-in-abu-dhabi/"
         }
       ],
       "centroid": {
-        "lat": 44.9349,
-        "lng": 34.6624
+        "lat": 44.9512,
+        "lng": 34.4968
       },
-      "radiusKm": 76.3
+      "radiusKm": 62.6
     },
     {
       "zoneId": "lib-chernihiv",
