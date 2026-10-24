@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-24T16:17:22.850Z",
+  "collectedAt": "2026-10-24T19:04:59.925Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 24
+      "count": 7
     },
     {
       "id": "gcaptain",
@@ -40,9 +40,9 @@
     {
       "id": "splash247",
       "url": "https://splash247.com/feed/",
-      "status": "ok",
-      "count": 1,
-      "filtered": 9
+      "status": "failed",
+      "count": 0,
+      "error": "RSS splash247 request failed with HTTP 522"
     },
     {
       "id": "loadstar",
@@ -55,8 +55,8 @@
       "id": "france24-me",
       "url": "https://www.france24.com/en/middle-east/rss",
       "status": "ok",
-      "count": 4,
-      "filtered": 26
+      "count": 5,
+      "filtered": 25
     },
     {
       "id": "gnews-hodeidah",
@@ -80,13 +80,55 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 496,
+  "count": 504,
   "events": [
+    {
+      "id": "news-vrt4ua",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T17:50:25.000Z",
+      "description": "Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia (France 24 Middle East, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24 Middle East",
+      "axis": "Other",
+      "tags": [
+        "France 24 Middle East",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "France 24 Middle East",
+      "source": "France 24 Middle East",
+      "sourceUrl": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia"
+    },
+    {
+      "id": "news-1punfc",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T17:03:00.000Z",
+      "description": "Heavy airstrikes hit Houthi-held Sanaa, Mocha amid escalating Yemen conflict - 巴士的報 (巴士的報, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "巴士的報",
+      "axis": "Other",
+      "tags": [
+        "巴士的報",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Mokha",
+      "source": "巴士的報",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdjJoTXpRc2dWOGNfVC1leldXTTYyc2poN2FYcGx2akdzQVdXY1BOTk55T1lMVXBCa2FwZnU1RE11NXNHQVBOeWpPbWFtOTNoSHlpVnVJZWljRjg4S1RPOEtPc3Q2d2FWU3pzcFhmOHJSNXVnMGtoZlBUbnRVMVNlb3EzM3AzankzLUNneWg5ZjlXMHE5SzdKb1RQd09DUDJrd1N4bGc5aFBrU1prTFNwM3k3R1l3VVluVWdZd05BWGROZVh0ZHc?oc=5",
+      "lat": 13.32,
+      "lng": 43.25,
+      "coordsNote": "Headline gazetteer match: \"Mocha\" (city); verify via source article."
+    },
     {
       "id": "news-1ar4myr",
       "kind": "news",
       "date": "2026-10-24",
-      "isoDate": "2026-10-24T15:46:42.000Z",
+      "isoDate": "2026-10-24T15:46:20.000Z",
       "description": "Houthis attack Yemen's Aden, say Saudi strikes kill 16 - Bangladesh Sangbad Sangstha (BSS) (Bangladesh Sangbad Sangstha (BSS), 2026-10-24. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -173,6 +215,25 @@
       "lat": 15.35,
       "lng": 44.21,
       "coordsNote": "Headline gazetteer match: \"Sanaa\" (city); verify via source article."
+    },
+    {
+      "id": "news-1eaidas",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T12:45:44.000Z",
+      "description": "Middle East war: US prepares fresh strikes on Iran; Houthi missile targets Riyadh; Tankers hit mines near Hormuz - Gulf News (Gulf News, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Gulf News",
+      "axis": "Other",
+      "tags": [
+        "Gulf News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Gulf News",
+      "source": "Gulf News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSUQ1Q2h2RUtMaEhVd2lTZTVqd2xENXlFWWQ2UU5EQzQybkN5R0J4RFk5b3hyLWlwbHE0MklsNlRGUF9zQUUxbC02VmIzakZUMHBrY2VxcWtBS3hHa2hWbDZ3RjFzcnV3UHVYNmNhWUotMW5Ib3dfN19RZENtNWJoOUc1YjFsSnI2MmFKY3g5SUFjeFZpYlpQOHJXdUhIX2JmZE1FUWdLODlhdnVsWkx5aV9tRlYtUHBCVEVZ0gHOAUFVX3lxTE04X3BXbGVwNTMwcW5tUWkwUUJrMEp3MXVYUnpwYlRrNE55aXMtWHdXU3BCVGRMX0VWRVBIdm4wVmZyNEpsYjFPNWFEczNBTVpLSmJ6UWRSVW41VkgwWkkzc08yVklPMlFpMk9Fb0l0cXFZLTNsYVdWbzFRaHVCdFJyTUxnSmV0Qk1sX041SGJ3ZW5OR3RVYUpfTVFnTmNia0lCR1pwZDZqSk90VHZPdEVqZlk3eWx4OS1sOEY2VzZHRXFzTXhIRTA2b3RLRGt3?oc=5"
     },
     {
       "id": "news-12v5ycl",
@@ -2820,6 +2881,244 @@
       }
     },
     {
+      "id": "gdelt-1329675277",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T17:00:00.000Z",
+      "description": "Rejection — Turkiye → Yemen near Yemen. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Turkiye",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/international/world-news/iran-remains-open-to-talks-with-us-under-pakistan-brokered-deal/articleshow/135173562.cms",
+      "gdelt": {
+        "globalEventId": "1329675277",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 0,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329677939",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T17:30:00.000Z",
+      "description": "Threat — Ministry → Yemen near Tawahi, Adan, Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.7847,
+      "lng": 44.9802,
+      "action": "Threat (GDELT 130)",
+      "actor": "Ministry",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tawahi, Adan, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://econotimes.com/Yemen-Says-Missiles-Targeted-Coast-Guard-Sites-Airport-and-Port-in-Aden-1762639",
+      "gdelt": {
+        "globalEventId": "1329677939",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -2.97,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329678854",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T17:45:00.000Z",
+      "description": "Fight — Unspecified → Civilian near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.pakistantoday.com.pk/2026/10/24/saudi-led-coalition-says-it-destroyed-houthi-ballistic-missiles-fired-towards-yanbu-taif",
+      "gdelt": {
+        "globalEventId": "1329678854",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.55,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329679283",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T17:45:00.000Z",
+      "description": "Threat — Saudi Arabia → Unspecified near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Threat (GDELT 130)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.pakistantoday.com.pk/2026/10/24/saudi-led-coalition-says-it-destroyed-houthi-ballistic-missiles-fired-towards-yanbu-taif",
+      "gdelt": {
+        "globalEventId": "1329679283",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -4.55,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329679389",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T17:45:00.000Z",
+      "description": "Threat — The Us → Iran near Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Threat (GDELT 138)",
+      "actor": "The Us",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.odnako.org/the-us-and-israel-ready-to-attack-iran-after-the-midterms-hamas-threatens-another-october-7th/",
+      "gdelt": {
+        "globalEventId": "1329679389",
+        "eventCode": "138",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -4.63,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329679464",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T17:45:00.000Z",
+      "description": "Fight — Yemen → Iran near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (20 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.jpost.com/middle-east/article-912716",
+      "gdelt": {
+        "globalEventId": "1329679464",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.8,
+        "mentions": 20,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329679465",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T17:45:00.000Z",
+      "description": "Fight — Yemen → Mecca near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 194)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.jpost.com/middle-east/article-912716",
+      "gdelt": {
+        "globalEventId": "1329679465",
+        "eventCode": "194",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.8,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-3nhsv1",
       "kind": "news",
       "date": "2026-10-23",
@@ -2837,6 +3136,25 @@
       "locationStr": "Eurasia Review",
       "source": "Eurasia Review",
       "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9odGpSeXZkMWZheFhKeHEwOU5BdWd2cVdJNHd4OE9vZHJ6UGZxVHVUblBmOElna25SS3hZLS15YUVMV1BwZUdmaGJiSmFMS3dlT2sxZ25MSEdScWxOVjBKT2EwLXJod1dFTnlZOUxod1h5bUo2ZkFZ?oc=5"
+    },
+    {
+      "id": "news-1cbla52",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T20:56:00.000Z",
+      "description": "Saudi Arabia, Egypt, Pakistan, Turkey slam Israel, call for end to Houthi attacks - Al Arabiya English (Al Arabiya English, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Arabiya English",
+      "axis": "Other",
+      "tags": [
+        "Al Arabiya English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Arabiya English",
+      "source": "Al Arabiya English",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMFFXeEpzRDdJYzNLU3hqZE85ZG9VNEFTbWx0OFBkODZZNGdhQXFuTGNVZ1Nkal9VRjYyR0MtWWM0aTVsN3dxbXl2dk8tdmlTTDNYbW9oVHU2MktaRl9ycW9KM01LS0h1NXBJZW8wblBnTUo5WHFteW10MG9HRTJvaVBZbnJtcTVDZ1huZUFZR2FPaElnUGYza1JPYi1GZklwa0R1ckhnNHJydjFPdG40NlZ3ZmFoX3k0eWsxMHkzODdmc1M0dnYyMjc5V2U2dTY00gHWAUFVX3lxTFBSa3d5cy1WYjUxeW5jUmNpS1pZZTBtNnBwU18tWGoyeU1JX2I0cF9ocDg2VGpUS1dhcHRNcW1Gd0NaM2ZHcXJvWS1YWEozcWdYcFpDenY2MTBsVmxMQ3V6MjktMHZlMVZnTVZqUWJvQUh2R3lUczZxeUhnOHhwN1ZTZFFlNmdOM1QzTWVmbDRLSkhCc1VQLUZoMHY5Q1RtRmYwb1QyQjVZSUItMTFkcjRCNXJVTl8yZXZ6eFV5ZGluUjE2aXFKVXA0MWd0Z05XZnViRl9ZWEE?oc=5"
     },
     {
       "id": "news-bwkfqb",
@@ -15659,67 +15977,6 @@
       "locationStr": "gCaptain",
       "source": "gCaptain",
       "sourceUrl": "https://gcaptain.com/the-navy-is-making-progress-on-unmanned-vessels-now-its-time-to-put-them-to-work/"
-    },
-    {
-      "id": "news-da79db",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T18:50:13.000Z",
-      "description": "Houthis Hold Mayyun Island as Bab el-Mandeb Transits Fall 47% - https://houseofsaud.com/ (https://houseofsaud.com/, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "https://houseofsaud.com/",
-      "axis": "Other",
-      "tags": [
-        "https://houseofsaud.com/",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Bab el-Mandeb",
-      "source": "https://houseofsaud.com/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmQVBKZE9fWm9NOEdCdXViNnUtTUpHNWV6U3BsM2UyUXd4TXhORjBGbThoWEJBeU9PU1NRemgtTFhzTXVadm8wTUdRUWZPc0ZTMHhDb0tsaFozUEZyM2VhQkI4cTRRdDA?oc=5",
-      "lat": 12.6,
-      "lng": 43.4,
-      "coordsNote": "Headline gazetteer match: \"Bab el-Mandeb\" (region); verify via source article."
-    },
-    {
-      "id": "news-z36py5",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T17:54:00.000Z",
-      "description": "U.S. Sanctions Law Firm, Shipping Agents and Nine Vessels in Iran Shadow Fleet Crackdown (gCaptain, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "gCaptain",
-      "axis": "Other",
-      "tags": [
-        "gCaptain",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "gCaptain",
-      "source": "gCaptain",
-      "sourceUrl": "https://gcaptain.com/u-s-sanctions-law-firm-shipping-agents-and-nine-vessels-in-iran-shadow-fleet-crackdown/"
-    },
-    {
-      "id": "news-19zb9ey",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T17:46:00.000Z",
-      "description": "Saudi Arabia spends billions on its military. Why can't it stop deadly attacks by Iran's Houthi allies? - CBS News (CBS News, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "CBS News",
-      "axis": "Other",
-      "tags": [
-        "CBS News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "CBS News",
-      "source": "CBS News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWFhHV3RLU0x0aE5pb0d4QmltWmRTalhZMVoyTmJHYTJDd29OSkc2LTNvS2d0bGZpcEIzZXVBWENSSVBaXzRXSzFnYWJOWHBiRTVDS2JEZFF6YXBQRW5YdDl3VTctbFhscGw0WkhIOHZYSk1rcmttcXhvNVRJQThadVdKeUtPZmEwMm9DdkJCZ0lsWlF5a3NabTZmb09LQQ?oc=5"
     }
   ]
 }
