@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-24T02:01:34.957Z",
+  "collectedAt": "2026-10-24T04:12:05.945Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 6
+      "count": 4
     },
     {
       "id": "taipei-times",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 32,
+      "count": 45,
       "filtered": 0
     },
     {
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 290,
+  "count": 289,
   "events": [
+    {
+      "id": "news-pjx5o2",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T04:00:11.000Z",
+      "description": "China carries out in-depth investigation of Turkey’s largest rare earth deposit (SCMP, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/science/article/3371800/china-carries-out-depth-investigation-turkeys-largest-rare-earth-deposit"
+    },
     {
       "id": "news-8xsvar",
       "kind": "news",
@@ -302,6 +321,142 @@
         "goldstein": -2,
         "tone": -4.4,
         "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329597199",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T02:30:00.000Z",
+      "description": "Coercion — Los Angeles → China near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Los Angeles",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://mynewsla.com/crime/2026/10/23/irvine-woman-charged-with-espionage-pleads-not-guilty-2/",
+      "gdelt": {
+        "globalEventId": "1329597199",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -8.51,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329597933",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T02:45:00.000Z",
+      "description": "Fight — Government → Village near Kinmen, Jinmen Xian, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 24.4367,
+      "lng": 118.318,
+      "action": "Fight (GDELT 190)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kinmen, Jinmen Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://brudirect.com/post/Typhoon-Champi:-Hundreds-of-flights-cancelled-as-storm-shuts-Taiwan",
+      "gdelt": {
+        "globalEventId": "1329597933",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.94,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329602158",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T03:45:00.000Z",
+      "description": "Fight — China → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Fight (GDELT 192)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thestar.com.my/news/world/2026/10/24/typhoon-champi-sweeps-past-taiwan-one-dead-and-500-injured",
+      "gdelt": {
+        "globalEventId": "1329602158",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -6.53,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329603571",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T04:00:00.000Z",
+      "description": "Coercion — Aerospace → Taichung near Shuinan, T'ai-chung, Taiwan. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24.1751,
+      "lng": 120.667,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Aerospace",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Shuinan, T'ai-chung, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.digitimes.com/news/a20261023PD221/aidc-industrial-taiwan-electricity-management.html",
+      "gdelt": {
+        "globalEventId": "1329603571",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": 2.08,
+        "mentions": 6,
         "sources": 1
       }
     },
@@ -8069,120 +8224,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/east-asia/foreign-arrivals-in-china-surge-in-third-quarter-fuelled-by-visa-free-policy"
-    },
-    {
-      "id": "news-u4ioi8",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T04:00:32.000Z",
-      "description": "China builds the world’s smallest wearable brain monitor with a cortex-wide view (SCMP, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3371534/china-builds-worlds-smallest-wearable-brain-monitor-cortex-wide-view"
-    },
-    {
-      "id": "news-7i7kzd",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T03:57:00.000Z",
-      "description": "TSMC says four construction workers killed at Taiwan site, halting work (Straits Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/tsmc-says-four-construction-workers-killed-at-taiwan-site-halting-work"
-    },
-    {
-      "id": "news-ssl61b",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T03:56:00.000Z",
-      "description": "China Deploys Recon Drones and Aircraft to Monitor U.S. and Japan’s Taiwan War Drills - Military Watch Magazine (Military Watch Magazine, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Military Watch Magazine",
-      "axis": "Other",
-      "tags": [
-        "Military Watch Magazine",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Military Watch Magazine",
-      "source": "Military Watch Magazine",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNHNLdXhscHdkZU5mbDdlWWFzcEw4d2lJSkVWRk1JeFJKd1VfUER6V2VKS2puNXFBYURqRmZtMHdHYVBwdXZrZWtiMU45TFBLMjFheU9TWXh5Ym9DV1lUcGNVdnNfRlY2dmE3ckF3SXZnLTQ1alhpbUl3UDRkSG1uTE1pM3FSa3hfcExmVDMxOUIxUQ?oc=5"
-    },
-    {
-      "id": "news-lygdv5",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T03:46:17.000Z",
-      "description": "China says it is ‘safeguarding order’ around Taiwan-controlled South China Sea atoll (Straits Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/china-says-it-is-safeguarding-order-around-taiwan-controlled-south-china-sea-atoll"
-    },
-    {
-      "id": "news-zgafzq",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T02:51:16.000Z",
-      "description": "Taiwan security agency flags rise in Chinese disinformation ahead of local elections (Straits Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/taiwan-security-agency-flags-rise-in-chinese-disinformation-ahead-of-local-elections"
-    },
-    {
-      "id": "news-11adjte",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T02:21:55.000Z",
-      "description": "Taiwan confirms funding for US observers at Han Kuang drills — South China Morning Post - UA.NEWS (UA.NEWS, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "UA.NEWS",
-      "axis": "Other",
-      "tags": [
-        "UA.NEWS",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "UA.NEWS",
-      "source": "UA.NEWS",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMmpDX1F3UW9nNDZvZDdEUzVyM1hZLTljdy1lajFjcnp1TFNmc29tc3p5d3lIWndoUXlRcE1Qd3lWSEd6NXdxMzdzRDBjNmlJb1JjQVZweFBUa3hOWVpEcDl1NDJVUVhxX3hVWFg3WHBzRWd2WmN2dUx0ZFBEVDFRdmRlZHloY1V6VUtXSVlSdmNzNWtkakJyY3hpSE9wem80eVdYdXZtcmFQblEtX3pTeHROSlBvRlhyQm11Zi1uOVJyVXd5SjdsSmNjTGpOeExm?oc=5"
     }
   ]
 }
