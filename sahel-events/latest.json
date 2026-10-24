@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-24T04:12:05.945Z",
+  "collectedAt": "2026-10-24T07:37:40.527Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 2
     },
     {
       "id": "aa-mali",
@@ -55,8 +55,8 @@
       "id": "bbc-africa",
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
-      "count": 1,
-      "filtered": 32
+      "count": 0,
+      "filtered": 33
     },
     {
       "id": "africanews",
@@ -90,7 +90,7 @@
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 10,
+      "count": 46,
       "filtered": 0
     },
     {
@@ -101,8 +101,76 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 89,
+  "count": 90,
   "events": [
+    {
+      "id": "gdelt-1329613846",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T06:15:00.000Z",
+      "description": "Fight — Bandit → Residents near Niger. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16,
+      "lng": 8,
+      "action": "Fight (GDELT 190)",
+      "actor": "Bandit",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.premiumtimesng.com/features-and-interviews/919711-inside-zamfara-communities-where-residents-bear-brunt-of-reprisal-attacks-by-bandits.html",
+      "gdelt": {
+        "globalEventId": "1329613846",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.71,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329613857",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T06:15:00.000Z",
+      "description": "Assault — Bandit → Niger near Niger. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Bandit",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.premiumtimesng.com/features-and-interviews/919711-inside-zamfara-communities-where-residents-bear-brunt-of-reprisal-attacks-by-bandits.html",
+      "gdelt": {
+        "globalEventId": "1329613857",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -6.71,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
     {
       "id": "news-2fhwq3",
       "kind": "news",
@@ -2990,25 +3058,6 @@
       "locationStr": "TVC News",
       "source": "TVC News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaU1kSFB3ZEk3dnExMU5qWm56UFIzcVlBNzVGLWpZd25IZmRTZFpFbHJ5VEpnTkJleEc2VERfVmVaZmNYaTVSdElGdV8tNHlqdzZxNTRkUXF1bjJpc2pFRnU1anhlMnJydnRjQmUzc2szeDBlMU9sSUVfbk9xOUhBNDREZXdrV3lMcG1xXw?oc=5"
-    },
-    {
-      "id": "news-uz8lh3",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T04:49:50.000Z",
-      "description": "Burkina Faso reinstates death penalty: Justice ministry (Africanews, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Africanews",
-      "axis": "Other",
-      "tags": [
-        "Africanews",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Africanews",
-      "source": "Africanews",
-      "sourceUrl": "http://www.africanews.com/2026/10/21/burkina-faso-reinstates-death-penalty-justice-ministry/"
     }
   ]
 }
