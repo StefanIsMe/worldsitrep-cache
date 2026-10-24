@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-10-24T19:04:59.925Z",
+  "collectedAt": "2026-10-24T21:46:53.038Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "id": "rci-arctic",
@@ -34,8 +34,8 @@
       "id": "adn-alaska",
       "url": "https://www.adn.com/arc/outboundfeeds/rss/",
       "status": "ok",
-      "count": 2,
-      "filtered": 23
+      "count": 0,
+      "filtered": 25
     },
     {
       "id": "cryopolitics",
@@ -55,7 +55,7 @@
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 28,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 632,
+  "count": 633,
   "events": [
     {
       "id": "news-3qr3zn",
@@ -3002,6 +3002,97 @@
         "mentions": 1,
         "sources": 1
       }
+    },
+    {
+      "id": "gdelt-1329686424",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T19:15:00.000Z",
+      "description": "Disapproval — Iceland → Unspecified near Iceland. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 65,
+      "lng": -18,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Iceland",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iceland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.visir.is/g/20262953265d/protocol-35-could-iceland-be-right-after-all-",
+      "gdelt": {
+        "globalEventId": "1329686424",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.37,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329695121",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T21:30:00.000Z",
+      "description": "Fight — Britain → Unspecified near Redland, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.1,
+      "lng": -3.06667,
+      "action": "Fight (GDELT 190)",
+      "actor": "Britain",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Redland, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.redlandcitybulletin.com.au/story/9379136/mark-kenny-attack-on-helen-haines-is-a-warning-we-cant-ignore/",
+      "gdelt": {
+        "globalEventId": "1329695121",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.09,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "news-6gc55t",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T18:28:34.000Z",
+      "description": "Denmark sends conscripts to Greenland as Arctic tensions grow - Awani International (Awani International, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Awani International",
+      "axis": "Other",
+      "tags": [
+        "Awani International",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Greenland",
+      "source": "Awani International",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYklDaDNZdVNUbnVNelViRTJpLTh0eG1JcV9CU3lzNXhQemxhM2d6dmV5TDFfeXVwcFYyeGlfSmk1eldoVzdvOTM4T2Rmdmtpa0N2bEpsR3JvdEstcTFrVlEycHpCcWF6QWFYUkFRX1NpSS1uY3BaUHBBRmpmX2ozVXRpcFlwb1p3RUFXaTlvMTl5akNHcGtOU3NzY19TV1EwdUhCWTkxQQ?oc=5",
+      "lat": 72,
+      "lng": -40,
+      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
     },
     {
       "id": "news-1p7w0s6",
@@ -21038,44 +21129,6 @@
         "mentions": 5,
         "sources": 1
       }
-    },
-    {
-      "id": "news-1fw56ec",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T19:51:26.000Z",
-      "description": "Blog: Alone Together – The Many Solitudes of Arctic Circle 2026 – Eye on the Arctic - Radio-Canada (Radio-Canada, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Radio-Canada",
-      "axis": "Other",
-      "tags": [
-        "Radio-Canada",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Radio-Canada",
-      "source": "Radio-Canada",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbW9SNUtUcjhvVXhMSF85TDFlUHZtZGFFT2ZEUmZPX1hWa2R5T1ZFTE43X1pMWXN0X1RESDBBRFNDOUdYTTVRQV9aVC1KS1E2ZEZaVEZjOWZIRTkyQnd4T0d5UUNma1hoMnZYSnVEeE93RVlUQ2VyQkUyTzQ1UXpCMnlwbUk0a3E0aE1kdmo4SkpVUHFNNGpQWjQ5SkNvWnYtMVB3MmhzQzZ0aTN5NUQyelJn?oc=5"
-    },
-    {
-      "id": "news-1yfdgv7",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T19:51:26.000Z",
-      "description": "Blog: Alone Together – The Many Solitudes of Arctic Circle 2026 (Eye on the Arctic, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Eye on the Arctic",
-      "axis": "Other",
-      "tags": [
-        "Eye on the Arctic",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Eye on the Arctic",
-      "source": "Eye on the Arctic",
-      "sourceUrl": "https://www.rcinet.ca/eye-on-the-arctic/2026/10/21/blog-alone-together-the-many-solitudes-of-arctic-circle-2026/"
     }
   ]
 }
