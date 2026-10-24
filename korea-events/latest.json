@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
   "theatre": "korea",
-  "collectedAt": "2026-10-24T12:15:21.593Z",
+  "collectedAt": "2026-10-24T16:17:22.850Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 19
+      "count": 15
     },
     {
       "id": "yna-nk",
       "url": "https://en.yna.co.kr/RSS/nk.xml",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS yna-nk request failed: fetch failed"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "yna-news",
       "url": "https://en.yna.co.kr/RSS/news.xml",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS yna-news request failed: fetch failed"
+      "status": "ok",
+      "count": 36,
+      "filtered": 14
     },
     {
       "id": "korea-times",
       "url": "https://feed.koreatimes.co.kr/k/allnews.xml",
       "status": "ok",
-      "count": 15,
-      "filtered": 26
+      "count": 3,
+      "filtered": 2
     },
     {
       "id": "gnews-korea",
@@ -94,8 +94,126 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 677,
+  "count": 680,
   "events": [
+    {
+      "id": "news-1mhuf59",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T16:17:03.000Z",
+      "description": "N. Korean leader Kim Jong-un visits China to inaugurate a new cross-border bridge (Korea Times, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261025/n-korean-leader-kim-jong-un-visits-china-to-inaugurate-a-new-cross-border-bridge?utm_source=rss"
+    },
+    {
+      "id": "news-1roa7z",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T16:17:03.000Z",
+      "description": "Granddaughter of Korean independence fighter brings Korean history to US schools (Korea Times, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/20261025/granddaughter-of-korean-independence-fighter-brings-korean-history-to-us-schools?utm_source=rss"
+    },
+    {
+      "id": "news-1sfi8c9",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T16:17:03.000Z",
+      "description": "Cattle farmers in Korea reeling from solar panel policy (Korea Times, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Korea",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/20261025/cattle-farmers-in-korea-reeling-from-solar-panel-policy?utm_source=rss",
+      "lat": 36.63839,
+      "lng": 127.69612,
+      "coordsNote": "OSM geocode: matched \"Korea\" → South Korea; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1eip0qn",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T15:00:00.000Z",
+      "description": "Kim Jong Un Visits China as new border bridge signals expanding trade - Straight Arrow (Straight Arrow, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straight Arrow",
+      "axis": "Other",
+      "tags": [
+        "Straight Arrow",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straight Arrow",
+      "source": "Straight Arrow",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdVR4V1YtR0RLb2gtN0piSzZiVW9rZXhVZmZPSEV0TTBPcGNoV1Y4NnZmaUl5eEFabE9WTEFNYi1nOWNiZEI3Ri1XT3BSbFpHVWE2cDRVTElZdHlfM3pGNEVSM2wtS18xQ2RYZ2tIa1p6TUM2SHBzaHNNUTVMUjk1d1lkczdwb3ExLThKR0c4SU5QRVk?oc=5"
+    },
+    {
+      "id": "news-1m102cb",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T14:30:19.000Z",
+      "description": "North Korean leader Kim Jong Un visits China to inaugurate a new cross-border bridge - PBS (PBS, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "PBS",
+      "axis": "Other",
+      "tags": [
+        "PBS",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "PBS",
+      "source": "PBS",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONWY3VHc1VXdyNjV5MzFNaThEdzZYakNuWlVQVndDakpDcllaNkIxWEsyOW1VbnVFXzAzbEFJYnNRb0FUN2c5a3hudG14cmQ0cU9ZMHhBZnh4dmE4S3JtUjktUzlVdmsweUpUQ2N3cUZ0TkFxaGptdzlXXzRCWWg2eU5PQUQ3V2hOZ2ZPN2RFRVpvMFRRLS15M3hCZ0dwclYzcUpFeUYxd3FwdnRtNDZDd1UteDRtSzFXRFVV0gHAAUFVX3lxTFAxbDdvSHZQY3YwLWxSM3Bycm04dzA5YldPcXA0endDam1tV0w0QmxEd2ZUUk9hQmxkLTg2QUhaakFaTm1zeWtTT1ZkbWV3TGh5OG1lWGVnZ2szdFNQTms0RW1jRnRHcTVpRHhRbGo3amhLVXBMZDhkUzZrQU1aRU5BNy1ZQWVNa2M4by0xaFExYURiaEswLTZyNUYwZHBva1BYbHgzeXl0SUxrUlBhd3VOeDVRSXJnSDR6U2JQTzBFUA?oc=5"
+    },
+    {
+      "id": "news-113w9v0",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T12:26:04.000Z",
+      "description": "(5th LD) N. Korean leader Kim Jong-un visits China, meets senior official amid ties push (Yonhap, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261024001956320"
+    },
     {
       "id": "news-1dny8u5",
       "kind": "news",
@@ -390,10 +508,86 @@
       "sourceUrl": "https://www.koreatimes.co.kr/southkorea/20261024/birdwatching-takes-off-among-young-koreans?utm_source=rss"
     },
     {
+      "id": "news-1erg9dw",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T11:22:10.000Z",
+      "description": "(URGENT) N. Korean leader Kim Jong-un leaves Dandong, seen off by China's top political adviser: Xinhua (Yonhap, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261024005800320"
+    },
+    {
+      "id": "news-t3t6xe",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T10:07:00.000Z",
+      "description": "North Korea’s Kim calls for training world’s ‘strongest’ military - Vanguard News (Vanguard News, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Vanguard News",
+      "axis": "Other",
+      "tags": [
+        "Vanguard News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Vanguard News",
+      "source": "Vanguard News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRmxlZGZFaEpKa3oyREhhMFBIaXFDT2VNRTJDTHZqVC1wV0d5amVGbXY1WlpyUnJ3dkxmRzdLYVlQdFdCOW9NQkVQQ3pWZUVOVDlsc0U3MUxlcEZQOWVUZWZzWkMzenNpc0JNdUJsczhEY05BWUdfb2xNMC02Mk9PeTdKcWEwQ2VVZmxUdS1KUG5iUXd3ZURyMjh4dGdkZE3SAaQBQVVfeXFMTW5WWDlDYUdmNVpqM0NsMHpKYTRPRnB4YXJmLTg2dS0xclA3RnJyUzByQV9ueDFjWmNpcDlNMmZkbWFkQjhGeU5tQm5XTHBpa0MtaS01SVBUMFplSTNRaWF6WUlwNEJOYTZNcVZlaXFueDlIemZkUDExZllyZGxxZkxxZFlmYTBZRUJIQ2V5RVZQWk05N2FEa0czUm5QSTE1T1o0c1c?oc=5"
+    },
+    {
+      "id": "news-113vi4r",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T09:51:14.000Z",
+      "description": "(4th LD) N. Korea's Kim arrives in China's Dandong via newly opened bridge (Yonhap, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261024001955320"
+    },
+    {
+      "id": "news-1dgun8m",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T09:08:36.000Z",
+      "description": "FC Seoul boss Kim Gi-dong happy to deliver on championship promise (Yonhap, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261024005600315"
+    },
+    {
       "id": "news-1isftwy",
       "kind": "news",
       "date": "2026-10-24",
-      "isoDate": "2026-10-24T08:29:24.000Z",
+      "isoDate": "2026-10-24T08:50:37.000Z",
       "description": "North Korea's Kim urges military to become world's strongest - Latest news from Azerbaijan (Latest news from Azerbaijan, 2026-10-24. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -407,6 +601,101 @@
       "locationStr": "Latest news from Azerbaijan",
       "source": "Latest news from Azerbaijan",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdzdXRWY1d2hfRjgyTlZWMDlSWU45WGV1LUtpUy1oLVo4VWxDbFB2bWZ3cG9GSWlvMGg4Y1FwSl9FblJWSUtZZXpINklLZHIzbWNhVUhIM01uOGZwRGotajJVOWlDUXdXdmNLZ3QzWndSRmxwbkNzU3RHR3ctcU4za3NKa0YxMVJN?oc=5"
+    },
+    {
+      "id": "news-113uqei",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T08:42:07.000Z",
+      "description": "(3rd LD) N. Korea's Kim arrives in China's Dandong via newly opened bridge (Yonhap, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261024001954320"
+    },
+    {
+      "id": "news-1gmzsoz",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T08:16:51.000Z",
+      "description": "(LEAD) FC Seoul crowned K League 1 champions (Yonhap, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261024002051315"
+    },
+    {
+      "id": "news-1biy81v",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T08:12:03.000Z",
+      "description": "Ryu Hae-ran builds 4-shot lead at LPGA event in S. Korea (Yonhap, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261024005300315"
+    },
+    {
+      "id": "news-113tyo9",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T07:41:26.000Z",
+      "description": "(2nd LD) N. Korea's Kim arrives in China's Dandong via newly opened bridge (Yonhap, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261024001953320"
+    },
+    {
+      "id": "news-1ihccv0",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T07:39:18.000Z",
+      "description": "(URGENT) N. Korea's Kim appears to be planning to return home Saturday after visiting China's Dandong: ruling party source (Yonhap, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261024002300320"
     },
     {
       "id": "news-1g43ld4",
@@ -2117,6 +2406,516 @@
         "quadClass": 3,
         "goldstein": -2,
         "tone": -1.71,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329651642",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T12:45:00.000Z",
+      "description": "Force posture — South Korea → Unspecified near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Force posture (GDELT 154)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hngn.com/articles/273583/20261024/kim-jong-un-crosses-new-yalu-bridge-surprise-china-visit.htm",
+      "gdelt": {
+        "globalEventId": "1329651642",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -1.07,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329651643",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T12:45:00.000Z",
+      "description": "Force posture — South Korea → Unspecified near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Force posture (GDELT 154)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hngn.com/articles/273583/20261024/kim-jong-un-crosses-new-yalu-bridge-surprise-china-visit.htm",
+      "gdelt": {
+        "globalEventId": "1329651643",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -1.07,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329651772",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T12:45:00.000Z",
+      "description": "Force posture — North Korea → Unspecified near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Force posture (GDELT 154)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hngn.com/articles/273583/20261024/kim-jong-un-crosses-new-yalu-bridge-surprise-china-visit.htm",
+      "gdelt": {
+        "globalEventId": "1329651772",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -1.07,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329651775",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T12:45:00.000Z",
+      "description": "Force posture — North Korea → South Korea near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Force posture (GDELT 154)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hngn.com/articles/273583/20261024/kim-jong-un-crosses-new-yalu-bridge-surprise-china-visit.htm",
+      "gdelt": {
+        "globalEventId": "1329651775",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -1.07,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329651776",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T12:45:00.000Z",
+      "description": "Force posture — North Korea → South Korea near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Force posture (GDELT 154)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hngn.com/articles/273583/20261024/kim-jong-un-crosses-new-yalu-bridge-surprise-china-visit.htm",
+      "gdelt": {
+        "globalEventId": "1329651776",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -1.07,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329654210",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T13:15:00.000Z",
+      "description": "Protest — Chun Doo Hwan → University near Ye-Ji, Kyongsang-bukto, South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 36.1484,
+      "lng": 128.062,
+      "action": "Protest (GDELT 141)",
+      "actor": "Chun Doo Hwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Ye-Ji, Kyongsang-bukto, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theverge.com/entertainment/1017888/possible-love-lee-chang-dong-director-interview",
+      "gdelt": {
+        "globalEventId": "1329654210",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -1.16,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329655419",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T13:30:00.000Z",
+      "description": "Disapproval — Regime → Unspecified near North Korea. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 40,
+      "lng": 127,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Regime",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailystar.co.uk/news/latest-news/brought-dying-kim-jong-un-37803959",
+      "gdelt": {
+        "globalEventId": "1329655419",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.39,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329655420",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T13:30:00.000Z",
+      "description": "Disapproval — Regime → Unspecified near North Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 40,
+      "lng": 127,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Regime",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailystar.co.uk/news/latest-news/brought-dying-kim-jong-un-37803959",
+      "gdelt": {
+        "globalEventId": "1329655420",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.39,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329655422",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T13:30:00.000Z",
+      "description": "Rejection — Embassy → Unspecified near North Korea. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 40,
+      "lng": 127,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Embassy",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailystar.co.uk/news/latest-news/brought-dying-kim-jong-un-37803959",
+      "gdelt": {
+        "globalEventId": "1329655422",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -0.39,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329655423",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T13:30:00.000Z",
+      "description": "Rejection — Embassy → Unspecified near South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Embassy",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailystar.co.uk/news/latest-news/brought-dying-kim-jong-un-37803959",
+      "gdelt": {
+        "globalEventId": "1329655423",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -0.39,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329658510",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T14:00:00.000Z",
+      "description": "Fight — China → Unspecified near North Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 40,
+      "lng": 127,
+      "action": "Fight (GDELT 192)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://cedarnews.net/newstasks/1094855/kim-jong-un-crosses-newly-opened-bridge/",
+      "gdelt": {
+        "globalEventId": "1329658510",
+        "eventCode": "192",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": 0,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329665805",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T15:15:00.000Z",
+      "description": "Rejection — North Korea → South Korea near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Rejection (GDELT 120)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailysabah.com/world/asia-pacific/kims-surprise-china-trip-raises-hopes-of-renewed-us-talks",
+      "gdelt": {
+        "globalEventId": "1329665805",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -0.76,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329665806",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T15:15:00.000Z",
+      "description": "Rejection — North Korea → South Korea near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Rejection (GDELT 120)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailysabah.com/world/asia-pacific/kims-surprise-china-trip-raises-hopes-of-renewed-us-talks",
+      "gdelt": {
+        "globalEventId": "1329665806",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -0.76,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329665807",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T15:15:00.000Z",
+      "description": "Reduced relations — North Korea → South Korea near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailysabah.com/world/asia-pacific/kims-surprise-china-trip-raises-hopes-of-renewed-us-talks",
+      "gdelt": {
+        "globalEventId": "1329665807",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -0.76,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329665808",
+      "kind": "event",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T00:00:00.000Z",
+      "observedAt": "2026-10-24T15:15:00.000Z",
+      "description": "Reduced relations — North Korea → South Korea near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailysabah.com/world/asia-pacific/kims-surprise-china-trip-raises-hopes-of-renewed-us-talks",
+      "gdelt": {
+        "globalEventId": "1329665808",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -0.76,
         "mentions": 1,
         "sources": 1
       }
@@ -18910,543 +19709,6 @@
       "locationStr": "Yonhap",
       "source": "Yonhap",
       "sourceUrl": "https://en.yna.co.kr/view/AEN20261022000200315"
-    },
-    {
-      "id": "news-oa4ngd",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T15:53:54.000Z",
-      "description": "Nvidia adds Samsung Electro-Mechanics to substrate supply chain, plans capacity expansion in S. Korea (Yonhap, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261021011300315"
-    },
-    {
-      "id": "news-11v77ze",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T14:14:55.000Z",
-      "description": "Kim Jong-un’s sister announces tough new North Korean measures against South in the DMZ - Washington Times (Washington Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Washington Times",
-      "axis": "Other",
-      "tags": [
-        "Washington Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "DMZ",
-      "source": "Washington Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeGZ4WEw5TWRjSUNfSk9aUDh5T2dhNDZKYjFZQzRyZUNZQ2E5T05iN3AxT29IZjdoUUh6UGhlSXM1aFdsRHluSm8tVE83TldGX3ZvREFNNVNWX3BpWkx1NUpaOFFmNXpQRm5IT2FqOE4zSmFlcXI2QmVUa0ktd191d2k3ZlE4NjFYaU5FTlBLdmtzR2taOThDb05DdG9wV2lOTjFQQVlKVDlQdzlIc3V4XzdiYWVqSWty?oc=5",
-      "lat": 38.32,
-      "lng": 127,
-      "coordsNote": "Headline gazetteer match: \"DMZ\" (region); verify via source article."
-    },
-    {
-      "id": "news-19f54pm",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T14:00:11.000Z",
-      "description": "Japan-ROK technology cooperation reinforces trilateral missile-tracking network with U.S. - Indo-Pacific Defense FORUM (Indo-Pacific Defense FORUM, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Indo-Pacific Defense FORUM",
-      "axis": "Other",
-      "tags": [
-        "Indo-Pacific Defense FORUM",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Indo-Pacific Defense FORUM",
-      "source": "Indo-Pacific Defense FORUM",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbGl4UWR5eWJyVVcyN0pyWHJISEJWV3NSTTN3bmcwbkZEc1V6bzlCMlNEdGNXczZpYnZRWGcwSDNlb004QVdHcG9UTnliUDVsUllJbW1vRDl4Ny0yUENfUkpLWmg4cDk4RGN3cEpYRTJjX09jLWdRSXEyVDBwakt2Z1piS2phYUhBYkJhWXJpZG1VSldPcFVDalQzckV6TjhqZ3VrWG94MkdtWnlCSEtMMGp5R0UzQlFkU0E1YWpRNXVuUQ?oc=5"
-    },
-    {
-      "id": "news-fnk38a",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:52:05.000Z",
-      "description": "EXPLAINER - How hypersonic missiles and AI are fueling a new arms race on Korean Peninsula - Anadolu Ajansı (Anadolu Ajansı, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Anadolu Ajansı",
-      "axis": "Other",
-      "tags": [
-        "Anadolu Ajansı",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Anadolu Ajansı",
-      "source": "Anadolu Ajansı",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPa2czYXlVY2QtUUkyWUpkOU9iUTlJVmZ6X1dkVFQ2a1RaTnU5Tm5lYlM0TUpGWjRheWdCZVJRa3BWc3ptUmdNSE5wamt3LW84a3M1U3J6VXM2RFRBbFpkSmFlLWQwdWNEMVZSXy1WcDh3ejVTLTJNU3lXNll1U3dKR1ZOWmVyTExBN3BsSzhGYlFlUmpQR1VMVGJNRWhXSW95OGp4clNYbXM5azlSQW1pVmhYZVVFRnlVWk1hOTVlZUFLdHQ5QVlfbU5TVHRqZ3c?oc=5"
-    },
-    {
-      "id": "news-26vyed",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:33:34.000Z",
-      "description": "(LEAD) Police seek arrest warrant for man over Seoul arson attacks that injured 19 (Yonhap, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Seoul",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261021003451315",
-      "lat": 37.57,
-      "lng": 126.98,
-      "coordsNote": "Headline gazetteer match: \"Seoul\" (city); verify via source article."
-    },
-    {
-      "id": "news-12ueupc",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Players predict wind will be key factor in LPGA event at Korean seaside course (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/sports/20261021/players-predict-wind-will-be-key-factor-in-lpga-event-at-korean-seaside-course?utm_source=rss"
-    },
-    {
-      "id": "news-19j2inr",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Incheon locals oppose plan to move  Overseas Koreans Agency to Sejong (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Incheon",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/foreignaffairs/20261021/incheon-locals-oppose-plan-to-move-overseas-koreans-agency-to-sejong?utm_source=rss",
-      "lat": 37.46,
-      "lng": 126.71,
-      "coordsNote": "Headline gazetteer match: \"Incheon\" (city); verify via source article."
-    },
-    {
-      "id": "news-19nr4wp",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "USFK commander calls for more frequent combined drills with S. Korea throughout year (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/defense/20261021/usfk-commander-calls-for-more-frequent-combined-drills-with-s-korea-throughout-year?utm_source=rss"
-    },
-    {
-      "id": "news-1dz88zs",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "N. Korea to resume propaganda loudspeaker broadcasts toward S. Korea: Kim Yo-jong (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261021/n-korea-to-resume-propaganda-loudspeaker-broadcasts-toward-s-korea-kim-yo-jong?utm_source=rss"
-    },
-    {
-      "id": "news-1etqt12",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "[VIDEO] Beyond the cup: Korea's evolving cafe industry (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/video/howdykorea/20261021/video-beyond-the-cup-koreas-evolving-cafe-industry?utm_source=rss"
-    },
-    {
-      "id": "news-1u6ywo2",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Seoul stocks rebound over 3% on eased AI spending woes (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/economy/20261021/seoul-stocks-rebound-over-3-on-eased-ai-spending-woes?utm_source=rss"
-    },
-    {
-      "id": "news-1uttjns",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "High tech, universal access propel Seoul subway to top of global rankings (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/20261021/high-tech-universal-access-propel-seoul-subway-to-top-of-global-rankings?utm_source=rss"
-    },
-    {
-      "id": "news-3hh1e0",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Korean doctor operates remotely from Seoul on pig in Shanghai (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/health/20261021/korean-doctor-operates-remotely-from-seoul-on-pig-in-shanghai?utm_source=rss"
-    },
-    {
-      "id": "news-6fjd3m",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Court sentences 3 ex-officials to suspended prison terms over 2019 deportation of N. Koreans (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/law-crime/20261021/court-sentences-3-ex-officials-to-suspended-prison-terms-over-2019-deportation-of-n-koreans?utm_source=rss"
-    },
-    {
-      "id": "news-6xbxsv",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Almonty Korea donates $9,000 to rural high school in Gangwon Province (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Gangwon Province",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261021/almonty-korea-donates-9000-to-rural-high-school-in-gangwon-province?utm_source=rss",
-      "lat": 37.77253,
-      "lng": 128.38207,
-      "coordsNote": "OSM geocode: matched \"Gangwon Province\" → Gangwon State, South Korea; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-8vw2ar",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Korean won extends gains against US dollar on strong exports (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/economy/20261021/korean-won-extends-gains-against-us-dollar-on-strong-exports?utm_source=rss"
-    },
-    {
-      "id": "news-d8p6lv",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Apple to make Siri AI available in Korea this month: sources (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Korea",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261021/apple-to-make-siri-ai-available-in-korea-this-month-sources?utm_source=rss",
-      "lat": 36.63839,
-      "lng": 127.69612,
-      "coordsNote": "OSM geocode: matched \"Korea\" → South Korea; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-hbjv6c",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Busan authorities guide shark out of canal on third attempt (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Busan",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/society/20261021/busan-authorities-guide-shark-out-of-canal-on-third-attempt?utm_source=rss",
-      "lat": 35.18,
-      "lng": 129.08,
-      "coordsNote": "Headline gazetteer match: \"Busan\" (city); verify via source article."
-    },
-    {
-      "id": "news-hftcjn",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Solidigm's potential Nasdaq IPO: Can Korean regulators intervene? (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/business/20261021/solidigms-potential-nasdaq-ipo-can-korean-regulators-intervene?utm_source=rss"
-    },
-    {
-      "id": "news-jgvpob",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Korea space agency joins int'l satellite alliance for global disaster relief (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/20261021/korea-space-agency-joins-intl-satellite-alliance-for-global-disaster-relief?utm_source=rss"
-    },
-    {
-      "id": "news-jqjvo1",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Seoul eyes long-term digital infrastructure projects via sovereign wealth fund (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/20261021/seoul-eyes-long-term-digital-infrastructure-projects-via-sovereign-wealth-fund?utm_source=rss"
-    },
-    {
-      "id": "news-k72hqo",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Korea's crypto tax faces 4th delay as gov't turns cautious amid low approval ratings (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/economy/cryptocurrency/20261021/koreas-crypto-tax-faces-4th-delay-as-govt-turns-cautious-amid-low-approval-ratings?utm_source=rss"
-    },
-    {
-      "id": "news-kek6sc",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Mercedes-Benz Korea promotes safer driving with Beyond Driving campaign (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261021/mercedes-benz-korea-promotes-safer-driving-with-beyond-driving-campaign?utm_source=rss"
-    },
-    {
-      "id": "news-mvf87n",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Top US envoy cites 'turbulence' in S. Korea-US alliance amid rift in security, trade priorities (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/foreignaffairs/20261021/top-us-envoy-cites-turbulence-in-s-korea-us-alliance-amid-rift-in-security-trade-priorities?utm_source=rss"
-    },
-    {
-      "id": "news-pzrs5c",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "Seoul Wellness Travel Week brings meditation, food, art to city (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/lifestyle/people-events/20261021/seoul-wellness-travel-week-brings-meditation-food-art-to-city?utm_source=rss"
-    },
-    {
-      "id": "news-uk4kfp",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "IVE turns Seoul's futuristic DDP into K-pop comeback stage (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/lifestyle/people-events/20261021/ive-turns-seouls-futuristic-ddp-into-k-pop-comeback-stage?utm_source=rss"
-    },
-    {
-      "id": "news-wyyp8p",
-      "kind": "news",
-      "date": "2026-10-21",
-      "isoDate": "2026-10-21T12:27:02.000Z",
-      "description": "[COVER STORY] French residents of Korea blame unresponsive gov't for unrest (Korea Times, 2026-10-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/world/20261021/cover-story-french-residents-of-korea-blame-unresponsive-govt-for-unrest?utm_source=rss"
     }
   ]
 }
