@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "iran",
-  "collectedAt": "2026-10-25T10:03:01.279Z",
+  "collectedAt": "2026-10-25T10:13:00.290Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 96
+      "count": 40
     },
     {
       "id": "gnews-iran",
@@ -82,6 +82,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-vayonl",
+      "kind": "news",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T10:09:10.000Z",
+      "description": "Iran remains fully united, on high alert: Official (IRNA English, 2026-10-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "IRNA English",
+      "axis": "Other",
+      "tags": [
+        "IRNA English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "IRNA English",
+      "source": "IRNA English",
+      "sourceUrl": "https://en.irna.ir/news/86302768/Iran-remains-fully-united-on-high-alert-Official"
+    },
     {
       "id": "news-1rpel0e",
       "kind": "news",
@@ -48594,40 +48613,6 @@
         "goldstein": -10,
         "tone": -6.7,
         "mentions": 3,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329535776",
-      "kind": "event",
-      "date": "2026-10-23",
-      "isoDate": "2026-10-23T00:00:00.000Z",
-      "observedAt": "2026-10-23T17:45:00.000Z",
-      "description": "Rejection — Belgium → Parliament near Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Rejection (GDELT 120)",
-      "actor": "Belgium",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://irannewsupdate.com/news/infightings/belgian-parliament-foreign-affairs-chief-opposes-invitation-to-reza-pahlavi-warns-against-taking-sides-in-irans-opposition/",
-      "gdelt": {
-        "globalEventId": "1329535776",
-        "eventCode": "120",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -4,
-        "tone": -0.62,
-        "mentions": 2,
         "sources": 1
       }
     }

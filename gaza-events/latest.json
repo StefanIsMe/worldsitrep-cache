@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "gaza",
-  "collectedAt": "2026-10-25T10:03:01.279Z",
+  "collectedAt": "2026-10-25T10:13:00.290Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 283
+      "count": 112
     },
     {
       "id": "bbc-me",
@@ -69,7 +69,7 @@
       "id": "gnews-westbank",
       "url": "https://news.google.com/rss/search?q=West%20Bank%20Jenin%20raid%20settlers&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 23,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -191,6 +191,48 @@
       "locationStr": "Jerusalem Post",
       "source": "Jerusalem Post",
       "sourceUrl": "https://www.jpost.com/opinion/article-912759"
+    },
+    {
+      "id": "news-1c7wuyu",
+      "kind": "news",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T10:07:27.000Z",
+      "description": "IDF slays two Hamas financiers in Gaza - JNS.org (JNS.org, 2026-10-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "JNS.org",
+      "axis": "Other",
+      "tags": [
+        "JNS.org",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Gaza City",
+      "source": "JNS.org",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR0FVZldMNDNacXk0MUJzQUxubzdacUFxMWFrNEFuQ0V6cHlRb1RYZWZ2dzBkR05EMEhqRGk4cks0SHNWeEZGaW01VDhBYnUwZVJqTWlCeDJXa2ZPbkNTdWdzZm5rMFhMMDJRdzN3YUxzSVk3UE15Ym0wMlh6M3lsYw?oc=5",
+      "lat": 31.5,
+      "lng": 34.47,
+      "coordsNote": "Headline gazetteer match: \"Gaza\" (city); verify via source article."
+    },
+    {
+      "id": "news-174hazh",
+      "kind": "news",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T10:04:13.000Z",
+      "description": "Hamas threatens to carry out repeat of October 7 massacre in 'unprecedented' warning: report - National Post (National Post, 2026-10-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "National Post",
+      "axis": "Other",
+      "tags": [
+        "National Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "National Post",
+      "source": "National Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZnFVQkcteUtiS1ZJQ1BqUUlybW8xX3RjM19PT2JyYllUMmdDRW9UUHJVYkQtR0dJbnB1Zi1sM1hSZnlfbW9lX1pURmY4S3FlUXlaQlJjbW41WmZsNGROMXNVb3ozRmRwZExseW1ZVks4cVBUcy1VRFhXalhRUjdfSl9ZVXpzcV9xS0dKWEw1eXRiaFlhVlV4anM1TGw5blZfeTg2NUNibHRocGpHRWFTT0hMUUtzR25HOVc1cWVOdXFUNEE?oc=5"
     },
     {
       "id": "news-uyvno5",
@@ -49712,74 +49754,6 @@
         "quadClass": 4,
         "goldstein": -10,
         "tone": -6.39,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329660418",
-      "kind": "event",
-      "date": "2026-10-24",
-      "isoDate": "2026-10-24T00:00:00.000Z",
-      "observedAt": "2026-10-24T14:15:00.000Z",
-      "description": "Demand — Governor → Palestinians near Hebron, Israel (general), Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.5333,
-      "lng": 35.1,
-      "action": "Demand (GDELT 100)",
-      "actor": "Governor",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Demand"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Hebron, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/more-1500-palestinians-driven-homes-hebron-friday",
-      "gdelt": {
-        "globalEventId": "1329660418",
-        "eventCode": "100",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -5,
-        "tone": -3.33,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329660419",
-      "kind": "event",
-      "date": "2026-10-24",
-      "isoDate": "2026-10-24T00:00:00.000Z",
-      "observedAt": "2026-10-24T14:15:00.000Z",
-      "description": "Demand — Governor → Palestinians near West Bank. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.66667,
-      "lng": 35.25,
-      "action": "Demand (GDELT 100)",
-      "actor": "Governor",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Demand"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "West Bank",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.middleeasteye.net/live-blog/live-blog-update/more-1500-palestinians-driven-homes-hebron-friday",
-      "gdelt": {
-        "globalEventId": "1329660419",
-        "eventCode": "100",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -5,
-        "tone": -3.33,
         "mentions": 2,
         "sources": 1
       }
