@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-10-25T00:05:49.709Z",
+  "collectedAt": "2026-10-25T00:35:43.610Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 9
+      "count": 8
     },
     {
       "id": "rci-arctic",
@@ -40,9 +40,9 @@
     {
       "id": "cryopolitics",
       "url": "https://www.cryopolitics.com/feed/",
-      "status": "ok",
-      "count": 3,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS cryopolitics request timed out after 25000 ms"
     },
     {
       "id": "gnews-svalbard",
@@ -73,8 +73,280 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 327,
+  "count": 336,
   "events": [
+    {
+      "id": "gdelt-1329704347",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T00:15:00.000Z",
+      "description": "Fight — Killers → Scottish near Kirkwall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 58.9667,
+      "lng": -2.95,
+      "action": "Fight (GDELT 190)",
+      "actor": "Killers",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kirkwall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.odt.co.nz/canterbury/christchurch/pauline-parker-of-infamous-christchurch-heavenly-creatures-case-dies-aged-88-v15onjt2",
+      "gdelt": {
+        "globalEventId": "1329704347",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.24,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329704348",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T00:15:00.000Z",
+      "description": "Fight — Killers → Scottish near Kirkwall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 58.9667,
+      "lng": -2.95,
+      "action": "Fight (GDELT 190)",
+      "actor": "Killers",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kirkwall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.odt.co.nz/canterbury/christchurch/pauline-parker-of-infamous-christchurch-heavenly-creatures-case-dies-aged-88-v15onjt2",
+      "gdelt": {
+        "globalEventId": "1329704348",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.24,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329704602",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T00:15:00.000Z",
+      "description": "Coercion — Christchurch → Unspecified near Kirkwall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 58.9667,
+      "lng": -2.95,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Christchurch",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kirkwall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.odt.co.nz/canterbury/christchurch/pauline-parker-of-infamous-christchurch-heavenly-creatures-case-dies-aged-88-v15onjt2",
+      "gdelt": {
+        "globalEventId": "1329704602",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -5.24,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329704603",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T00:15:00.000Z",
+      "description": "Coercion — Christchurch → Unspecified near Kirkwall, Orkney Islands, United Kingdom. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 58.9667,
+      "lng": -2.95,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Christchurch",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kirkwall, Orkney Islands, United Kingdom",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.odt.co.nz/canterbury/christchurch/pauline-parker-of-infamous-christchurch-heavenly-creatures-case-dies-aged-88-v15onjt2",
+      "gdelt": {
+        "globalEventId": "1329704603",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -5.24,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329705469",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T00:30:00.000Z",
+      "description": "Fight — President → Criminal near Severnaya Verf, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.8747,
+      "lng": 30.2303,
+      "action": "Fight (GDELT 192)",
+      "actor": "President",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Severnaya Verf, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.strategypage.com/htmw/htintel/articles/20261024173934.aspx",
+      "gdelt": {
+        "globalEventId": "1329705469",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -5.82,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329705474",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T00:30:00.000Z",
+      "description": "Demand — President → Prosecutor near Severnaya Verf, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.8747,
+      "lng": 30.2303,
+      "action": "Demand (GDELT 1014)",
+      "actor": "President",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Severnaya Verf, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.strategypage.com/htmw/htintel/articles/20261024173934.aspx",
+      "gdelt": {
+        "globalEventId": "1329705474",
+        "eventCode": "1014",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -5.82,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329705540",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T00:30:00.000Z",
+      "description": "Fight — Russia → Unspecified near Severnaya Verf, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.8747,
+      "lng": 30.2303,
+      "action": "Fight (GDELT 192)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Severnaya Verf, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.strategypage.com/htmw/htintel/articles/20261024173934.aspx",
+      "gdelt": {
+        "globalEventId": "1329705540",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -5.82,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329705541",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T00:30:00.000Z",
+      "description": "Reduced relations — Russia → European near Severnaya Verf, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.8747,
+      "lng": 30.2303,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Severnaya Verf, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.strategypage.com/htmw/htintel/articles/20261024173934.aspx",
+      "gdelt": {
+        "globalEventId": "1329705541",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -5.82,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
     {
       "id": "news-1ea3kr6",
       "kind": "news",
@@ -10375,6 +10647,25 @@
         "mentions": 2,
         "sources": 1
       }
+    },
+    {
+      "id": "news-10cevvu",
+      "kind": "news",
+      "date": "2026-10-22",
+      "isoDate": "2026-10-22T22:00:00.000Z",
+      "description": "EU's Arctic Strategy Excludes Oil and Gas - Crude Oil Prices Today | OilPrice.com (Crude Oil Prices Today | OilPrice.com, 2026-10-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Crude Oil Prices Today | OilPrice.com",
+      "axis": "Other",
+      "tags": [
+        "Crude Oil Prices Today | OilPrice.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMWtWTnBJelFUaHJNT05hc3lzVUpKQjJxSHVvNXdVS1g0U2ZfRW1GSzFvaHQtUG5GcnB5TDhnb0pKSDRNRXBPUEJvTWpnUDE2azZMeE5oN1E2X25OZ25WRW1ObjBNLUNiSWVOSHhUZlBOSGt6Szd3OGhHM0RxQWpkTW4zWjNEMmNkMk53YTdn0gGTAUFVX3lxTE42T0ZRc2dObmpxR2NaMFAwclZDNEJUbFpmUEZWaGZ2ZmZBVVZ3cnZlMy0xY2d0aVF1VXhlUGFBRFR1bklFZzl5ZU5MZkVHZUU2ZW9telBpR09nWENUMllhQVFLV1JDYXdTVjV6THNmcXZhSFR5UjFORkxvRzZNbHdiQkRUWHF1cDRwaElhNllOUHNCQQ?oc=5"
     },
     {
       "id": "news-1acsw57",
