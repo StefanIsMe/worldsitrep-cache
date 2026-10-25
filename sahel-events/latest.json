@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-25T10:03:01.279Z",
+  "collectedAt": "2026-10-25T14:31:13.696Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 5
     },
     {
       "id": "aa-mali",
@@ -56,7 +56,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 33
+      "filtered": 32
     },
     {
       "id": "africanews",
@@ -90,7 +90,7 @@
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 46,
+      "count": 47,
       "filtered": 0
     },
     {
@@ -101,13 +101,13 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 41,
+  "count": 44,
   "events": [
     {
       "id": "news-1174w9k",
       "kind": "news",
       "date": "2026-10-25",
-      "isoDate": "2026-10-25T09:14:11.000Z",
+      "isoDate": "2026-10-25T10:47:38.000Z",
       "description": "Niger imposes curfew on petrol sales amid national fuel shortage (Africanews, 2026-10-25. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -187,6 +187,176 @@
         "goldstein": -10,
         "tone": -8.59,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329751124",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T11:30:00.000Z",
+      "description": "Coercion — Operative → Niger near Niger. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Operative",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.vanguardngr.com/2026/10/ndlea-arrests-us-based-grandma-south-african-woman-with-large-cocaine-loud-shipments/",
+      "gdelt": {
+        "globalEventId": "1329751124",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -2.71,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329752575",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T11:45:00.000Z",
+      "description": "Coercion — Texas → Operative near Niger. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Texas",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dailypost.ng/2026/10/25/ndlea-arrests-south-african-woman-us-based-grandma-with-large-cocaine-loud-shipments/",
+      "gdelt": {
+        "globalEventId": "1329752575",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -3.81,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329757963",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T12:45:00.000Z",
+      "description": "Coercion — Niger → Unspecified near Niamey, Niamey, Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5167,
+      "lng": 2.11667,
+      "action": "Coercion (GDELT 1723)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Niamey, Niamey, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africanews.com/2026/10/25/niger-imposes-curfew-on-petrol-sales-amid-national-fuel-shortage/",
+      "gdelt": {
+        "globalEventId": "1329757963",
+        "eventCode": "1723",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -2.84,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329759161",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T13:00:00.000Z",
+      "description": "Coercion — Government → Niger near Niger. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/us-based-grandma-with-loud-cocaine-shipments-arrested-by-ndlea/",
+      "gdelt": {
+        "globalEventId": "1329759161",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -3.97,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329759162",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T13:00:00.000Z",
+      "description": "Coercion — Government → Niger near Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/us-based-grandma-with-loud-cocaine-shipments-arrested-by-ndlea/",
+      "gdelt": {
+        "globalEventId": "1329759162",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -3.97,
+        "mentions": 1,
         "sources": 1
       }
     },
@@ -1372,48 +1542,6 @@
       "locationStr": "Africanews",
       "source": "Africanews",
       "sourceUrl": "http://www.africanews.com/2026/10/22/swiss-and-austrian-women-in-libya-after-release-from-niger-kidnap-ordeal/"
-    },
-    {
-      "id": "news-1ngdf7d",
-      "kind": "news",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T13:36:49.000Z",
-      "description": "Is Bilateral Cooperation the Future of West African Security? - allAfrica.com (allAfrica.com, 2026-10-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "allAfrica.com",
-      "axis": "Other",
-      "tags": [
-        "allAfrica.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "allAfrica.com",
-      "source": "allAfrica.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3ZVBVV0x3ZFpoMDVXYUl5YjZXNC1tYjdBQ054LVJ1OFJSQkFEX21VSU9Yc3RVb1h6Z2htRlRlM3RETGp5RGIzaXNacDFySVlTbUx2MFRTb25ZZVRodm9sN1Fqb2c5Y3Q5LVRZ?oc=5"
-    },
-    {
-      "id": "news-1k2y29y",
-      "kind": "news",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T13:22:39.000Z",
-      "description": "Two European women held captive for more than a year in Niger freed in Libya (BBC Africa, 2026-10-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC Africa",
-      "axis": "Other",
-      "tags": [
-        "BBC Africa",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Niger",
-      "source": "BBC Africa",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss",
-      "lat": 17.73562,
-      "lng": 9.32384,
-      "coordsNote": "OSM geocode: matched \"Niger\" → Niger; © OpenStreetMap contributors."
     }
   ]
 }

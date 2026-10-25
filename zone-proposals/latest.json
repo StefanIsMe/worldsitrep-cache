@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-25T12:44:19.714Z",
+  "collectedAt": "2026-10-25T14:31:12.975Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 242,
+  "coarseGdeltDropped": 226,
   "outsideTheatreDropped": 3,
   "proposals": [
     {
@@ -15,18 +15,23 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 401,
+      "eventCount": 393,
       "kinds": {
-        "other": 284,
-        "combat": 103,
-        "strike": 14
+        "other": 282,
+        "combat": 99,
+        "strike": 12
       },
       "tierCounts": {
-        "approximate": 401
+        "approximate": 393
       },
-      "combatCount": 117,
-      "newestIsoDate": "2026-10-25T11:37:00.000Z",
+      "combatCount": 111,
+      "newestIsoDate": "2026-10-25T13:44:00.000Z",
       "samples": [
+        {
+          "id": "news-zflmsh",
+          "isoDate": "2026-10-25T13:44:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4178008-overnight-russian-attack-damages-homes-in-two-districts-of-vinnytsia.html"
+        },
         {
           "id": "news-1fx4x8m",
           "isoDate": "2026-10-25T11:37:00.000Z",
@@ -36,16 +41,11 @@
           "id": "news-1s965me",
           "isoDate": "2026-10-25T11:23:00.000Z",
           "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/25/8059624/"
-        },
-        {
-          "id": "news-1s964t2",
-          "isoDate": "2026-10-25T10:11:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/25/8059615/"
         }
       ],
       "centroid": {
-        "lat": 50.2918,
-        "lng": 29.7493
+        "lat": 50.2979,
+        "lng": 29.8606
       },
       "radiusKm": 80
     },
@@ -56,16 +56,16 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 96,
+      "eventCount": 88,
       "kinds": {
-        "other": 68,
+        "other": 63,
         "strike": 5,
-        "combat": 23
+        "combat": 20
       },
       "tierCounts": {
-        "approximate": 96
+        "approximate": 88
       },
-      "combatCount": 28,
+      "combatCount": 25,
       "newestIsoDate": "2026-10-25T11:31:00.000Z",
       "samples": [
         {
@@ -85,10 +85,10 @@
         }
       ],
       "centroid": {
-        "lat": 46.6554,
-        "lng": 32.3561
+        "lat": 46.6805,
+        "lng": 32.3165
       },
-      "radiusKm": 43.4
+      "radiusKm": 44.8
     },
     {
       "zoneId": "occ-kharkiv",
@@ -97,39 +97,80 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 73,
+      "eventCount": 77,
       "kinds": {
-        "other": 50,
+        "other": 51,
         "strike": 7,
-        "combat": 16
+        "combat": 19
       },
       "tierCounts": {
-        "approximate": 73
+        "approximate": 77
       },
-      "combatCount": 23,
-      "newestIsoDate": "2026-10-25T11:55:16.000Z",
+      "combatCount": 26,
+      "newestIsoDate": "2026-10-25T13:30:00.000Z",
       "samples": [
         {
-          "id": "news-18ino3t",
-          "isoDate": "2026-10-25T11:55:16.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUUNaT28tOUZTaFV2MXlGWGRjWEtIYVBIdFllMXRWSFo5MjRZdnJ2VV9pTUN6NUhqcU9yT3J3M3NKd2hVRlcydUdZUndGMzgtelhVa1ZhNVMtbERqLTFYTDN3d0s2UVZIOEJYeU9iYkRwMzFNZ180V2V6Q0ZYa3BBZmRpMzNjc01qYWY0a0cxd1lYUk5FVFNYNldPMzdxVVl2Mi1tTm13SUxCZw?oc=5"
+          "id": "news-1xdyfz8",
+          "isoDate": "2026-10-25T13:30:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/88124"
+        },
+        {
+          "id": "news-1m0zsm0",
+          "isoDate": "2026-10-25T13:23:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4178007-missile-strike-hits-russian-defense-plant-energia-in-lipetsk-region-media.html"
         },
         {
           "id": "news-oyjwxk",
-          "isoDate": "2026-10-25T11:51:20.000Z",
+          "isoDate": "2026-10-25T13:01:15.000Z",
           "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQ3ZQc1czYTlwYXZpSjZ4dFRQUGlKZlFLWlBWNGJFUWRIUXVmTVd1SFQtMnBkTXYxdVFBbnBCVzFwdmhNSVdVMTlWcWotUkZRMDFxOFozQl9ZMDJqM3pRYVE2MmhVYTlhdWtIQmhGalBWNlVQSWdfRDlMX0lzcTVIQ21YblY1N3VFcFI4UkkzWkc5WGdDZWNuOG11VEVmMlJ0a2M5S2dtTENVN2l6bkMzRGRmc1RHMW0tVC01MEZFTW1HN29VNHNnNTNzSnFnRUh3TS1xbktmMFc?oc=5"
-        },
-        {
-          "id": "news-q41b57",
-          "isoDate": "2026-10-25T09:15:31.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1WUHgtbHlUZTI3MDZUdGdKaXBZUVpfb2phWjZoYWtuOEJhdjFnOUNKdU5RMk0ydlBqWlVicHhXaHdRcWRwN21sSnBlUQ?oc=5"
         }
       ],
       "centroid": {
-        "lat": 49.9829,
-        "lng": 36.4981
+        "lat": 50.1161,
+        "lng": 36.5469
       },
-      "radiusKm": 46.3
+      "radiusKm": 57.9
+    },
+    {
+      "zoneId": "occ-zaporizhzhia",
+      "region": "Zaporizhzhia Oblast",
+      "center": {
+        "lat": 47,
+        "lng": 35.5
+      },
+      "eventCount": 54,
+      "kinds": {
+        "other": 20,
+        "combat": 29,
+        "strike": 5
+      },
+      "tierCounts": {
+        "approximate": 54
+      },
+      "combatCount": 34,
+      "newestIsoDate": "2026-10-25T07:49:00.000Z",
+      "samples": [
+        {
+          "id": "news-1445orb",
+          "isoDate": "2026-10-25T07:49:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4177931-russia-strikes-critical-infrastructure-in-dnipro.html"
+        },
+        {
+          "id": "news-1s963w2",
+          "isoDate": "2026-10-25T07:21:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/25/8059602/"
+        },
+        {
+          "id": "news-1s95jst",
+          "isoDate": "2026-10-25T05:36:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/25/8059595/"
+        }
+      ],
+      "centroid": {
+        "lat": 48.0514,
+        "lng": 35.2774
+      },
+      "radiusKm": 61.5
     },
     {
       "zoneId": "occ-donetsk",
@@ -138,14 +179,14 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 50,
+      "eventCount": 47,
       "kinds": {
         "strike": 17,
         "combat": 7,
-        "other": 26
+        "other": 23
       },
       "tierCounts": {
-        "approximate": 50
+        "approximate": 47
       },
       "combatCount": 24,
       "newestIsoDate": "2026-10-25T00:00:00.000Z",
@@ -167,51 +208,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.3076,
-        "lng": 37.5453
+        "lat": 48.281,
+        "lng": 37.5445
       },
-      "radiusKm": 59.1
-    },
-    {
-      "zoneId": "occ-zaporizhzhia",
-      "region": "Zaporizhzhia Oblast",
-      "center": {
-        "lat": 47,
-        "lng": 35.5
-      },
-      "eventCount": 41,
-      "kinds": {
-        "other": 18,
-        "combat": 21,
-        "strike": 2
-      },
-      "tierCounts": {
-        "approximate": 41
-      },
-      "combatCount": 23,
-      "newestIsoDate": "2026-10-25T07:49:00.000Z",
-      "samples": [
-        {
-          "id": "news-1445orb",
-          "isoDate": "2026-10-25T07:49:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4177931-russia-strikes-critical-infrastructure-in-dnipro.html"
-        },
-        {
-          "id": "news-1s963w2",
-          "isoDate": "2026-10-25T07:21:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/25/8059602/"
-        },
-        {
-          "id": "news-1s95jst",
-          "isoDate": "2026-10-25T05:36:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/25/8059595/"
-        }
-      ],
-      "centroid": {
-        "lat": 47.9209,
-        "lng": 35.353
-      },
-      "radiusKm": 65.7
+      "radiusKm": 61.3
     },
     {
       "zoneId": "lib-snake",
@@ -255,6 +255,46 @@
       "radiusKm": 42.5
     },
     {
+      "zoneId": "lib-sumy",
+      "region": "Sumy Oblast",
+      "center": {
+        "lat": 50.9077,
+        "lng": 34.7981
+      },
+      "eventCount": 28,
+      "kinds": {
+        "other": 21,
+        "combat": 7
+      },
+      "tierCounts": {
+        "approximate": 28
+      },
+      "combatCount": 7,
+      "newestIsoDate": "2026-10-25T14:10:00.000Z",
+      "samples": [
+        {
+          "id": "news-chj4wm",
+          "isoDate": "2026-10-25T14:10:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4178014-russian-attacks-spark-fires-in-sumy-region-one-person-injured.html"
+        },
+        {
+          "id": "news-1xdyfya",
+          "isoDate": "2026-10-25T10:35:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/88113"
+        },
+        {
+          "id": "news-1jfa2av",
+          "isoDate": "2026-10-25T10:17:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4177970-russian-drone-strikes-epicenter-shopping-center-in-poltava-injuring-one-person.html"
+        }
+      ],
+      "centroid": {
+        "lat": 50.6801,
+        "lng": 34.7555
+      },
+      "radiusKm": 43.6
+    },
+    {
       "zoneId": "occ-crimea",
       "region": "Crimea",
       "center": {
@@ -296,59 +336,19 @@
       "radiusKm": 21.9
     },
     {
-      "zoneId": "lib-sumy",
-      "region": "Sumy Oblast",
-      "center": {
-        "lat": 50.9077,
-        "lng": 34.7981
-      },
-      "eventCount": 27,
-      "kinds": {
-        "other": 20,
-        "combat": 7
-      },
-      "tierCounts": {
-        "approximate": 27
-      },
-      "combatCount": 7,
-      "newestIsoDate": "2026-10-25T10:35:00.000Z",
-      "samples": [
-        {
-          "id": "news-1xdyfya",
-          "isoDate": "2026-10-25T10:35:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/88113"
-        },
-        {
-          "id": "news-1jfa2av",
-          "isoDate": "2026-10-25T10:17:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4177970-russian-drone-strikes-epicenter-shopping-center-in-poltava-injuring-one-person.html"
-        },
-        {
-          "id": "news-1sahyuu",
-          "isoDate": "2026-10-25T09:04:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4177953-russian-drone-strikes-shopping-center-in-poltava.html"
-        }
-      ],
-      "centroid": {
-        "lat": 50.6716,
-        "lng": 34.7539
-      },
-      "radiusKm": 44.9
-    },
-    {
       "zoneId": "occ-luhansk",
       "region": "Luhansk Oblast",
       "center": {
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 27,
+      "eventCount": 26,
       "kinds": {
         "combat": 5,
-        "other": 22
+        "other": 21
       },
       "tierCounts": {
-        "approximate": 27
+        "approximate": 26
       },
       "combatCount": 5,
       "newestIsoDate": "2026-10-25T00:00:00.000Z",
@@ -370,10 +370,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.4633,
-        "lng": 38.5444
+        "lat": 48.4919,
+        "lng": 38.5619
       },
-      "radiusKm": 15.5
+      "radiusKm": 19.4
     },
     {
       "zoneId": "lib-chernihiv",
