@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "korea",
-  "collectedAt": "2026-10-25T17:55:01.838Z",
+  "collectedAt": "2026-10-25T21:07:06.741Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "id": "yna-nk",
@@ -28,7 +28,7 @@
       "url": "https://feed.koreatimes.co.kr/k/allnews.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 1
+      "filtered": 2
     },
     {
       "id": "gnews-korea",
@@ -94,7 +94,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 481,
+  "count": 482,
   "events": [
     {
       "id": "news-147qjp3",
@@ -548,6 +548,25 @@
       "locationStr": "Korea Times",
       "source": "Korea Times",
       "sourceUrl": "https://www.koreatimes.co.kr/business/banking-finance/20261025/aia-life-korea-hosts-k-pop-concert-for-customers-employees?utm_source=rss"
+    },
+    {
+      "id": "news-1daz9dh",
+      "kind": "news",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T12:37:33.000Z",
+      "description": "Kim Jong Un Returns From Dandong After Korean War Memorial Visit, Crossing New Yalu River Bridge - NewsCord (NewsCord, 2026-10-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NewsCord",
+      "axis": "Other",
+      "tags": [
+        "NewsCord",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NewsCord",
+      "source": "NewsCord",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNY1dsUzlWMm9HbmJKVDRVT0xqREJTUWVVX0FnUk1IZmt6NS0ybzhxX19HelptM1U5c1Q4SG1TXzhTbTRVU1BiTk50STJXNDdXNjRmWmJGYmdjcmZLTWNGX0xjSUx3TkpxVGViV1pjdWJpOFBPcFd5ZVptWTlxMmc5R04tdmVrcWowdXlWYkFOTmpiTFdvNDJyeTJabWxCdWdndzhiZmk0c2RmN0dzQU1IbnRncHBQM1JMOW85aTZ5WHFmM3p5NWVxNDlJTHVJWC1CV2dJWE9WV0FESHVQOEJjSnF0OEZ2WWliRUE?oc=5"
     },
     {
       "id": "news-16zw509",
@@ -2668,6 +2687,74 @@
       }
     },
     {
+      "id": "gdelt-1329787905",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T18:15:00.000Z",
+      "description": "Threat — Japan → Unspecified near South Korea. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Threat (GDELT 130)",
+      "actor": "Japan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.moneycontrol.com/news/business/it-s-a-speed-program-not-a-brute-force-problem-nikesh-arora-warns-ai-cyberattacks-could-outpace-defences-14059615.html",
+      "gdelt": {
+        "globalEventId": "1329787905",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.15,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329788856",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T18:30:00.000Z",
+      "description": "Fight — China → North Korea near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Fight (GDELT 190)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.manilatimes.net/2026/10/26/world/asia-oceania/north-koreas-kim-concludes-visit-to-china/2453453",
+      "gdelt": {
+        "globalEventId": "1329788856",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 1.84,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-cvwalb",
       "kind": "news",
       "date": "2026-10-24",
@@ -3434,6 +3521,25 @@
       "locationStr": "Yonhap",
       "source": "Yonhap",
       "sourceUrl": "https://en.yna.co.kr/view/AEN20261024001900320"
+    },
+    {
+      "id": "news-m7vvk4",
+      "kind": "news",
+      "date": "2026-10-24",
+      "isoDate": "2026-10-24T05:45:05.000Z",
+      "description": "North Korea’s Kim Jong-un calls for training world’s ‘strongest’ military - South China Morning Post (South China Morning Post, 2026-10-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "South China Morning Post",
+      "axis": "Other",
+      "tags": [
+        "South China Morning Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "South China Morning Post",
+      "source": "South China Morning Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNV3J1amZyRklQTml2aDFvOGgzSUNjdHVhZDJvdzc3S1FXdGtDZGNWM0s4aGR0T0pPT0xvcUxIcjFOYmEwY05TYi1LWjlOcURIM0ZiRzNHdGFtOGZNdkxHeDI4RFVhZVdKVkNKOHA0MVFDV0MyQVBiNnZZZFFPRnluN3V2bGFpYlhOcGk5ZVZ1SXpLbkQ0ZXhfUlpoamhQeVFkanhVMkZYUU00YlhfSi1nMDhldHpTekV5YkNrdDktVEtpMmFGVTA5dXZKbljSAcwBQVVfeXFMTnVkVnRQQ21Gc3M3clhoUG56Mkk2WjI4UF9RTFJkV01LaWZndnl6a2FRLU1IV0lWbHhhV3ZDWVZTY2J6Q2xvQTdrVHhxYS03Ym1vNHR6eTdyTUlWOHpKZFFEcjgyczZxSWlmWHJsNFFvWkRRVzFUZmxGOHFsWEUyOVJRSW03ZWp4NGpVM0lBZ2twcVF5RWtzdWM2Vk05UmZzUDRwSENqYTRpWEJWQ0VoVncwT09KLTJSckpxWkdLaUtFd2c3bTByMkU0V0t4?oc=5"
     },
     {
       "id": "news-v6jam0",
@@ -6605,6 +6711,29 @@
       "locationStr": "Yonhap",
       "source": "Yonhap",
       "sourceUrl": "https://en.yna.co.kr/view/AEN20261023002351315"
+    },
+    {
+      "id": "news-1nsq53d",
+      "kind": "news",
+      "date": "2026-10-23",
+      "isoDate": "2026-10-23T11:13:28.000Z",
+      "description": "North Korea has laid almost 1 million mines along the DMZ since 2024, says South Korea - Washington Times (Washington Times, 2026-10-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Washington Times",
+      "axis": "Other",
+      "tags": [
+        "Washington Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "DMZ",
+      "source": "Washington Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaHJJWFhjWnFRZXd4bEFUSEswVXBSR3BDMWRrRWluZUFhZDZ1bkpDRVV0NjlISllCQnF1enVqT0hGX0tXemNFcGg3Q3ZzRGk5aEVKcWNvS0lra245R3NScEJ4WmtYdHFnSnJoeEEzRjFZbzNyQmVMQ3ZCY0tPT1NPNUFwd1NIbnRIMi1ZUDc3MnBGcktOQW83LVpTT2pxclFTQkROblExWUZaUUk1SG91MnV2RjlVdw?oc=5",
+      "lat": 38.32,
+      "lng": 127,
+      "coordsNote": "Headline gazetteer match: \"DMZ\" (region); verify via source article."
     },
     {
       "id": "news-12sw2bo",
@@ -13595,86 +13724,6 @@
       "locationStr": "Hindustan Times",
       "source": "Hindustan Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNc0M5THRlSXNDdkNTZ0QyNWppQnJvZ2c0YWNONTRTSnBjX3VvQlNmUnZFeHdaTHVFT2RTak5FUVlMZG5wYlVvUGdUR3VDVGpwc1VkclVIMTk3N0MyWWVfTTgtY2YxZGItdkRrM1puZXJvNEpnUzRRN0tWTGFWUEVVM3FMQmZ3RlRDZ3F3cmFYSEpRNVhsWm9kdEdOUVFQT1FEcFAzR2plZ1lwazhqZnpBYnNzM3RKdjB4RlNMb3E3ekV0QTUzSmp2bW9tNDBtRHhOc2xIM192VmVkMGxqTjk1MUpvdE1mLXlFU05nVkZaSzQ5c21nWVdpV2oyY9IBgAJBVV95cUxQemg2UXc4U3E1RUVIREhUTThNdVJDdGQyNW92cW9qdzNmSlhWUml3QWV1eVlWdnlLVGJHYVdqSXVyczJtQnEybWpydENqMWRlREpES3J3bnB4Ukd2MEltWTV4cHNFdFVJZ1NHX1hscTNZajA2cjkzQTBaLVd4YjhUNTdQUDBaM3F5dzVtdy1zMC1hVXBPQ045ajM1QmJrSjY4emlDbnlfUnIycEgxUWhBb1NsU2JKNk80WnloRkttUlZ4ZkIxdkNBTDgyNTFaTWtKdFN3QkZsYUJLbkNjc3Z6WTZKdE5MVFJLUEZTcnowS0hNY09SSUplR093SHZHRXht?oc=5"
-    },
-    {
-      "id": "news-an5uu5",
-      "kind": "news",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T21:03:07.000Z",
-      "description": "Trump-Kim summit unlikely in near future amid N. Korean demands: U.S. experts (Yonhap, 2026-10-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261023000300315"
-    },
-    {
-      "id": "news-6aju7s",
-      "kind": "news",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T20:19:50.000Z",
-      "description": "North Korea: Will Trump-Kim talks happen anytime soon? - DW.com (DW.com, 2026-10-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DW.com",
-      "axis": "Other",
-      "tags": [
-        "DW.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "DW.com",
-      "source": "DW.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZjd1VEIzM051eUFBbjQtOHdaa3ZRSVFwWFd4MHFRWUhtX1hIWFltcVM0MnhFLVhxbzdSSXR5Rk9pS2hqZmpUclNkaVREOUFPS1VPSUpkd1htNlFVcnV2aEM4ak9jZjJHZkVhb05aNWdJQmFlblBJMVcyTkQwZnA5M1BHZXFtOTBzNXhhRy1CRG1EdWoyZWUzZnRKVEJ0QdIBngFBVV95cUxOcVdlQ0JjUUxVVHppMENVN2xfUkYwYzVDcFNiakw0ZzdfTlo5MDZacGt0Zk4yVUMyck9USXRraXlKRkltMEltYzJQQTVWVjQ4bmpPMUJQbVItUFVNeWhzcG5HWFUtOUNvVm0weDdudVQtTElVMjMtcVdVOGxCSkg1WGU4b1pSb3VNT2NKMmRMdll5QzRXeWJhTjNtRTJxQQ?oc=5"
-    },
-    {
-      "id": "news-9zv1rw",
-      "kind": "news",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T19:46:57.000Z",
-      "description": "S. Korea sends letter to UNSC urging N. Korea to take responsibility for DMZ mine blasts (Yonhap, 2026-10-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "DMZ",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261023000200315",
-      "lat": 38.32,
-      "lng": 127,
-      "coordsNote": "Headline gazetteer match: \"DMZ\" (region); verify via source article."
-    },
-    {
-      "id": "news-1areie7",
-      "kind": "news",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T18:11:45.000Z",
-      "description": "U.S. envoy highlights shipbuilding cooperation with S. Korea in visit to Samsung Heavy's Geoje shipyard (Yonhap, 2026-10-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261022012300315"
     }
   ]
 }
