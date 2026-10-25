@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "korea",
-  "collectedAt": "2026-10-25T14:31:13.696Z",
+  "collectedAt": "2026-10-25T17:55:01.838Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 10
+      "count": 3
     },
     {
       "id": "yna-nk",
@@ -27,8 +27,8 @@
       "id": "korea-times",
       "url": "https://feed.koreatimes.co.kr/k/allnews.xml",
       "status": "ok",
-      "count": 23,
-      "filtered": 27
+      "count": 0,
+      "filtered": 1
     },
     {
       "id": "gnews-korea",
@@ -94,7 +94,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 480,
+  "count": 481,
   "events": [
     {
       "id": "news-147qjp3",
@@ -2562,6 +2562,108 @@
         "goldstein": -5,
         "tone": 4.21,
         "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329780984",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T17:00:00.000Z",
+      "description": "Fight — Chinese → North Korea near South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Fight (GDELT 190)",
+      "actor": "Chinese",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.globaltimes.cn/page/202610/1372944.shtml",
+      "gdelt": {
+        "globalEventId": "1329780984",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 1.71,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329781363",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T17:00:00.000Z",
+      "description": "Fight — Media → North Korea near South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Fight (GDELT 190)",
+      "actor": "Media",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.globaltimes.cn/page/202610/1372944.shtml",
+      "gdelt": {
+        "globalEventId": "1329781363",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 1.71,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329782205",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T17:15:00.000Z",
+      "description": "Fight — Chinese → North Korea near South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Fight (GDELT 192)",
+      "actor": "Chinese",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.co.uk/kim-jong-un-alive-north-korean-leader-makes-rare-china-trip-across-bridge-that-took-12-years-1827677",
+      "gdelt": {
+        "globalEventId": "1329782205",
+        "eventCode": "192",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -1.89,
+        "mentions": 1,
         "sources": 1
       }
     },
@@ -13573,44 +13675,6 @@
       "locationStr": "Yonhap",
       "source": "Yonhap",
       "sourceUrl": "https://en.yna.co.kr/view/AEN20261022012300315"
-    },
-    {
-      "id": "news-qnec89",
-      "kind": "news",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T15:16:00.000Z",
-      "description": "This Time, the Korean Loudspeaker Standoff Is Different (The Diplomat, 2026-10-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Diplomat",
-      "axis": "Other",
-      "tags": [
-        "The Diplomat",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Diplomat",
-      "source": "The Diplomat",
-      "sourceUrl": "https://thediplomat.com/2026/10/this-time-the-korean-loudspeaker-standoff-is-different/"
-    },
-    {
-      "id": "news-e50zb6",
-      "kind": "news",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T15:04:35.000Z",
-      "description": "Can North Korea’s nukes really be called defensive? - Korea JoongAng Daily (Korea JoongAng Daily, 2026-10-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea JoongAng Daily",
-      "axis": "Other",
-      "tags": [
-        "Korea JoongAng Daily",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea JoongAng Daily",
-      "source": "Korea JoongAng Daily",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSWJ2STZ1VHM0dEpTbUc3RTlzU2hZMWFKQmhjZXppS1B4QmtOTlhuWFlwQVRXNjZuaTQyZVFUN2twZTZLajhBWXFkR0gxRDl2TXhHanNKbklXOHRGY0dENXRnVzlWblZ2dWVLZ0JnUzFpNGx1ZkgwbGN5Nnh1VzF4MU1ZSkhOck1kSjRsbER1UldpSlBIN1hpcmhXNWU3eEtKWW1R?oc=5"
     }
   ]
 }
