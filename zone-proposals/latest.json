@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-25T05:08:13.500Z",
+  "collectedAt": "2026-10-25T06:48:13.443Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 279,
+  "coarseGdeltDropped": 272,
   "outsideTheatreDropped": 3,
   "proposals": [
     {
@@ -15,16 +15,16 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 440,
+      "eventCount": 421,
       "kinds": {
-        "combat": 115,
-        "other": 310,
+        "combat": 120,
+        "other": 286,
         "strike": 15
       },
       "tierCounts": {
-        "approximate": 440
+        "approximate": 421
       },
-      "combatCount": 130,
+      "combatCount": 135,
       "newestIsoDate": "2026-10-25T00:00:00.000Z",
       "samples": [
         {
@@ -44,8 +44,8 @@
         }
       ],
       "centroid": {
-        "lat": 50.3323,
-        "lng": 29.894
+        "lat": 50.316,
+        "lng": 29.8576
       },
       "radiusKm": 80
     },
@@ -56,18 +56,23 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 101,
+      "eventCount": 104,
       "kinds": {
-        "other": 73,
-        "combat": 26,
-        "strike": 2
+        "other": 76,
+        "strike": 5,
+        "combat": 23
       },
       "tierCounts": {
-        "approximate": 101
+        "approximate": 104
       },
       "combatCount": 28,
-      "newestIsoDate": "2026-10-25T00:00:00.000Z",
+      "newestIsoDate": "2026-10-25T06:06:00.000Z",
       "samples": [
+        {
+          "id": "news-25mgug",
+          "isoDate": "2026-10-25T06:06:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4177907-russian-invaders-attack-mykolaiv-region-with-drones-over-past-day-causing-damage.html"
+        },
         {
           "id": "gdelt-1329709492",
           "isoDate": "2026-10-25T00:00:00.000Z",
@@ -77,18 +82,13 @@
           "id": "gdelt-1329709493",
           "isoDate": "2026-10-25T00:00:00.000Z",
           "sourceUrl": "https://www.manilatimes.net/2026/10/25/world/americas-emea/what-to-know-about-the-melania-trump-brokered-ceasefire-in-russian-occupied-oleshky/2453372"
-        },
-        {
-          "id": "gdelt-1329709522",
-          "isoDate": "2026-10-25T00:00:00.000Z",
-          "sourceUrl": "https://www.manilatimes.net/2026/10/25/world/americas-emea/what-to-know-about-the-melania-trump-brokered-ceasefire-in-russian-occupied-oleshky/2453372"
         }
       ],
       "centroid": {
-        "lat": 46.6961,
-        "lng": 32.3417
+        "lat": 46.6117,
+        "lng": 32.4724
       },
-      "radiusKm": 64.3
+      "radiusKm": 45.5
     },
     {
       "zoneId": "occ-kharkiv",
@@ -100,8 +100,8 @@
       "eventCount": 53,
       "kinds": {
         "other": 40,
-        "strike": 5,
-        "combat": 8
+        "strike": 6,
+        "combat": 7
       },
       "tierCounts": {
         "approximate": 53
@@ -126,10 +126,10 @@
         }
       ],
       "centroid": {
-        "lat": 49.9178,
-        "lng": 36.5288
+        "lat": 49.9129,
+        "lng": 36.5542
       },
-      "radiusKm": 51.6
+      "radiusKm": 53.7
     },
     {
       "zoneId": "occ-donetsk",
@@ -138,39 +138,80 @@
         "lat": 47.8,
         "lng": 37.5
       },
+      "eventCount": 49,
+      "kinds": {
+        "strike": 17,
+        "combat": 7,
+        "other": 25
+      },
+      "tierCounts": {
+        "approximate": 49
+      },
+      "combatCount": 24,
+      "newestIsoDate": "2026-10-25T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1329724889",
+          "isoDate": "2026-10-25T00:00:00.000Z",
+          "sourceUrl": "http://www.rightspeak.net/2026/10/117-combat-clashes-14-pokrovsk-11.html"
+        },
+        {
+          "id": "gdelt-1329724890",
+          "isoDate": "2026-10-25T00:00:00.000Z",
+          "sourceUrl": "http://www.rightspeak.net/2026/10/117-combat-clashes-14-pokrovsk-11.html"
+        },
+        {
+          "id": "gdelt-1329724966",
+          "isoDate": "2026-10-25T00:00:00.000Z",
+          "sourceUrl": "http://www.rightspeak.net/2026/10/117-combat-clashes-14-pokrovsk-11.html"
+        }
+      ],
+      "centroid": {
+        "lat": 48.2991,
+        "lng": 37.545
+      },
+      "radiusKm": 59.8
+    },
+    {
+      "zoneId": "occ-zaporizhzhia",
+      "region": "Zaporizhzhia Oblast",
+      "center": {
+        "lat": 47,
+        "lng": 35.5
+      },
       "eventCount": 40,
       "kinds": {
-        "other": 26,
-        "combat": 5,
-        "strike": 9
+        "other": 17,
+        "combat": 21,
+        "strike": 2
       },
       "tierCounts": {
         "approximate": 40
       },
-      "combatCount": 14,
-      "newestIsoDate": "2026-10-24T21:34:00.000Z",
+      "combatCount": 23,
+      "newestIsoDate": "2026-10-25T05:36:00.000Z",
       "samples": [
         {
-          "id": "news-a33bgv",
-          "isoDate": "2026-10-24T21:34:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-crime/4177719-sbu-detains-donetsk-woman-who-fought-for-russia-and-planned-to-leave-for-eu.html"
+          "id": "news-1s95jst",
+          "isoDate": "2026-10-25T05:36:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/25/8059595/"
         },
         {
-          "id": "news-14590e3",
-          "isoDate": "2026-10-24T10:48:27.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/general/1225595.html"
+          "id": "news-1s95jqz",
+          "isoDate": "2026-10-25T04:28:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/25/8059593/"
         },
         {
-          "id": "news-100tb6a",
-          "isoDate": "2026-10-24T08:33:03.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNkRaQ1lvSl8wSExwUXh3aUdpeDdOY3ZBMnZULTJ5UUhwQTRqYXM4QWRlVkQwQllxcU12YlFqdnV2MlM3LUZXeXNIbFc5X3JRZ053anJpZGs3a2ZmQTY4akxjQW05dFg4enU5aFBfdlRGN2pHVXV0SDR3anBrN3NUcUxjcmhGUDNRNnhfVmwwZ3haeXljTG9oTlJGekVqd3F1VWpMVzRjN3MyYVdJanQ1ZVRfd2FSdll2MGc?oc=5"
+          "id": "gdelt-1329725548",
+          "isoDate": "2026-10-25T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/24/800117342/community/1704/"
         }
       ],
       "centroid": {
-        "lat": 48.151,
-        "lng": 37.5213
+        "lat": 47.9075,
+        "lng": 35.3606
       },
-      "radiusKm": 75
+      "radiusKm": 65.8
     },
     {
       "zoneId": "occ-luhansk",
@@ -179,13 +220,13 @@
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 40,
+      "eventCount": 38,
       "kinds": {
-        "other": 35,
+        "other": 33,
         "combat": 5
       },
       "tierCounts": {
-        "approximate": 40
+        "approximate": 38
       },
       "combatCount": 5,
       "newestIsoDate": "2026-10-24T17:24:00.000Z",
@@ -207,51 +248,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.4836,
-        "lng": 38.6321
+        "lat": 48.4792,
+        "lng": 38.5961
       },
-      "radiusKm": 21.4
-    },
-    {
-      "zoneId": "occ-zaporizhzhia",
-      "region": "Zaporizhzhia Oblast",
-      "center": {
-        "lat": 47,
-        "lng": 35.5
-      },
-      "eventCount": 36,
-      "kinds": {
-        "other": 19,
-        "combat": 16,
-        "strike": 1
-      },
-      "tierCounts": {
-        "approximate": 36
-      },
-      "combatCount": 17,
-      "newestIsoDate": "2026-10-24T21:42:59.000Z",
-      "samples": [
-        {
-          "id": "news-16sxrti",
-          "isoDate": "2026-10-24T21:42:59.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWEtUQ2pTajlLSXZOa2JjUjJaVFBZV1RaVHd5djlFUjlQZWdDSkoxOWo4MmtLdWh3aGpQX2tMekR0UTlXaEg5SFM2WmExbFZoTzBNUjFLQlNrbnpUVDlfdEdRS3JESml1T1RZNUgzQlFtN1phMlRPWG51Z1gxbWtpaUhFU1oySzI3OV9oVFh5ZEg2ME1vLVpPYzZLUTE0TjJiRHNRQlVxY1JjMDBpbWtiSDJKbVp4RHZLNl85UVBn?oc=5"
-        },
-        {
-          "id": "news-dagofw",
-          "isoDate": "2026-10-24T21:42:59.000Z",
-          "sourceUrl": "https://kyivindependent.com/deadly-russian-drone-strike-targets-apartment-in-dnipropetrovsk-oblast-killing-3-injuring-12/"
-        },
-        {
-          "id": "news-1r4sa5z",
-          "isoDate": "2026-10-24T17:11:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/24/8059572/"
-        }
-      ],
-      "centroid": {
-        "lat": 47.8351,
-        "lng": 35.4222
-      },
-      "radiusKm": 79
+      "radiusKm": 18.2
     },
     {
       "zoneId": "lib-snake",
@@ -260,39 +260,39 @@
         "lat": 45.2551,
         "lng": 30.2033
       },
-      "eventCount": 29,
+      "eventCount": 33,
       "kinds": {
-        "combat": 19,
+        "combat": 23,
         "strike": 2,
         "other": 8
       },
       "tierCounts": {
-        "approximate": 29
+        "approximate": 33
       },
-      "combatCount": 21,
-      "newestIsoDate": "2026-10-24T00:00:00.000Z",
+      "combatCount": 25,
+      "newestIsoDate": "2026-10-25T00:00:00.000Z",
       "samples": [
         {
-          "id": "gdelt-1329617456",
-          "isoDate": "2026-10-24T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/10/23/800116623/community/1703/"
+          "id": "gdelt-1329724904",
+          "isoDate": "2026-10-25T00:00:00.000Z",
+          "sourceUrl": "http://www.rightspeak.net/2026/10/117-combat-clashes-14-pokrovsk-11.html"
         },
         {
-          "id": "gdelt-1329618201",
-          "isoDate": "2026-10-24T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/10/23/800116623/community/1703/"
+          "id": "gdelt-1329725025",
+          "isoDate": "2026-10-25T00:00:00.000Z",
+          "sourceUrl": "http://www.rightspeak.net/2026/10/117-combat-clashes-14-pokrovsk-11.html"
         },
         {
-          "id": "gdelt-1329618203",
-          "isoDate": "2026-10-24T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/10/23/800116623/community/1703/"
+          "id": "gdelt-1329725547",
+          "isoDate": "2026-10-25T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/24/800117342/community/1704/"
         }
       ],
       "centroid": {
-        "lat": 46.5641,
-        "lng": 30.293
+        "lat": 46.5607,
+        "lng": 30.1738
       },
-      "radiusKm": 43.4
+      "radiusKm": 51.4
     },
     {
       "zoneId": "lib-sumy",
@@ -341,15 +341,16 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 25,
+      "eventCount": 27,
       "kinds": {
-        "other": 19,
-        "combat": 6
+        "other": 20,
+        "combat": 6,
+        "strike": 1
       },
       "tierCounts": {
-        "approximate": 25
+        "approximate": 27
       },
-      "combatCount": 6,
+      "combatCount": 7,
       "newestIsoDate": "2026-10-25T02:37:00.000Z",
       "samples": [
         {
@@ -369,10 +370,10 @@
         }
       ],
       "centroid": {
-        "lat": 45.12,
-        "lng": 34.16
+        "lat": 45.1111,
+        "lng": 34.1481
       },
-      "radiusKm": 22
+      "radiusKm": 21.4
     },
     {
       "zoneId": "lib-chernihiv",
