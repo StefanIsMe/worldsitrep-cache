@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-25T00:05:49.709Z",
+  "collectedAt": "2026-10-25T05:08:14.048Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 3
     },
     {
       "id": "aa-mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
       "status": "ok",
-      "count": 16,
+      "count": 15,
       "filtered": 13
     },
     {
       "id": "aa-burkina",
       "url": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
       "status": "ok",
-      "count": 4,
-      "filtered": 8
+      "count": 3,
+      "filtered": 7
     },
     {
       "id": "aa-niger",
       "url": "https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf",
       "status": "ok",
-      "count": 7,
+      "count": 6,
       "filtered": 4
     },
     {
@@ -70,7 +70,7 @@
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 0,
-      "filtered": 6
+      "filtered": 7
     },
     {
       "id": "gnews-jnim",
@@ -103,6 +103,74 @@
   ],
   "count": 40,
   "events": [
+    {
+      "id": "gdelt-1329711094",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T01:45:00.000Z",
+      "description": "Disapproval — Military → Unspecified near Menaka, Gao, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Menaka, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.sierraleonetimes.com/news/279396694/malian-army-says-54-civilian-bodies-found-near-menaka",
+      "gdelt": {
+        "globalEventId": "1329711094",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.55,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329719380",
+      "kind": "event",
+      "date": "2026-10-25",
+      "isoDate": "2026-10-25T00:00:00.000Z",
+      "observedAt": "2026-10-25T04:30:00.000Z",
+      "description": "Fight — Unspecified → Community near Menaka, Gao, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "action": "Fight (GDELT 193)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Menaka, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thehindu.com/news/international/military-ups-death-toll-in-mali-attack-to-54/article71622485.ece",
+      "gdelt": {
+        "globalEventId": "1329719380",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.59,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
     {
       "id": "gdelt-1329613846",
       "kind": "event",
@@ -1324,52 +1392,6 @@
       "locationStr": "Niger",
       "source": "BBC Africa",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss",
-      "lat": 17.73562,
-      "lng": 9.32384,
-      "coordsNote": "OSM geocode: matched \"Niger\" → Niger; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-1fs222h",
-      "kind": "news",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T04:52:32.000Z",
-      "description": "The Palace Guard Against the Trenches - What the Mutiny in Niamey Revealed (AllAfrica Mali, 2026-10-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AllAfrica Mali",
-      "axis": "Other",
-      "tags": [
-        "AllAfrica Mali",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Niamey",
-      "source": "AllAfrica Mali",
-      "sourceUrl": "https://allafrica.com/stories/202610220013.html",
-      "lat": 13.51,
-      "lng": 2.11,
-      "coordsNote": "Headline gazetteer match: \"Niamey\" (city); verify via source article."
-    },
-    {
-      "id": "news-g868l1",
-      "kind": "news",
-      "date": "2026-10-22",
-      "isoDate": "2026-10-22T02:54:00.000Z",
-      "description": "Austrian, Swiss women kidnapped in Niger are freed — report (DW Africa, 2026-10-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DW Africa",
-      "axis": "Other",
-      "tags": [
-        "DW Africa",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Niger",
-      "source": "DW Africa",
-      "sourceUrl": "https://www.dw.com/en/austrian-swiss-women-kidnapped-in-niger-are-freed-report/a-79727419?maca=en-rss-en-africa-8291-xml-mrss",
       "lat": 17.73562,
       "lng": 9.32384,
       "coordsNote": "OSM geocode: matched \"Niger\" → Niger; © OpenStreetMap contributors."
