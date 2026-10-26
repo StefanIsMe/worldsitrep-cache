@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-26T14:35:53.673Z",
+  "collectedAt": "2026-10-26T20:11:54.155Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 33
+      "count": 20
     },
     {
       "id": "aa-mali",
@@ -56,7 +56,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 1,
-      "filtered": 31
+      "filtered": 30
     },
     {
       "id": "africanews",
@@ -69,8 +69,8 @@
       "id": "dw-africa",
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
-      "count": 0,
-      "filtered": 4
+      "count": 1,
+      "filtered": 3
     },
     {
       "id": "gnews-jnim",
@@ -83,7 +83,7 @@
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 29,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -101,13 +101,13 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 93,
+  "count": 111,
   "events": [
     {
       "id": "news-10nzeej",
       "kind": "news",
       "date": "2026-10-26",
-      "isoDate": "2026-10-26T13:18:57.000Z",
+      "isoDate": "2026-10-26T17:00:09.000Z",
       "description": "Algeria to send troops to Niger in first foreign deployment since 1973 (BBC Africa, 2026-10-26. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -121,6 +121,29 @@
       "locationStr": "BBC Africa",
       "source": "BBC Africa",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4g14n1e5wko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "news-xos7gt",
+      "kind": "news",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T14:58:00.000Z",
+      "description": "Why Ukraine may be involved in Mali&#039;s conflict (DW Africa, 2026-10-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW Africa",
+      "axis": "Other",
+      "tags": [
+        "DW Africa",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Mali",
+      "source": "DW Africa",
+      "sourceUrl": "https://www.dw.com/en/why-ukraine-may-be-involved-in-mali-s-conflict/a-79743423?maca=en-rss-en-africa-8291-xml-mrss",
+      "lat": 16.37004,
+      "lng": -2.29002,
+      "coordsNote": "OSM geocode: matched \"Mali\" → Mali; © OpenStreetMap contributors."
     },
     {
       "id": "news-11lgmvv",
@@ -2026,6 +2049,584 @@
         "quadClass": 3,
         "goldstein": -5,
         "tone": -5.57,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329919368",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T15:30:00.000Z",
+      "description": "Disapproval — Burkina Faso → Mali near Burkina Faso. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dw.com/en/why-ukraine-may-be-involved-in-malis-conflict/a-79743423",
+      "gdelt": {
+        "globalEventId": "1329919368",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.81,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329919371",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T15:30:00.000Z",
+      "description": "Disapproval — Burkina Faso → Niger near Burkina Faso. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dw.com/en/why-ukraine-may-be-involved-in-malis-conflict/a-79743423",
+      "gdelt": {
+        "globalEventId": "1329919371",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.81,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329920141",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T15:30:00.000Z",
+      "description": "Disapproval — Mali → Burkina Faso near Burkina Faso. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dw.com/en/why-ukraine-may-be-involved-in-malis-conflict/a-79743423",
+      "gdelt": {
+        "globalEventId": "1329920141",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.81,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329920146",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T15:30:00.000Z",
+      "description": "Disapproval — Mali → Niger near Burkina Faso. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dw.com/en/why-ukraine-may-be-involved-in-malis-conflict/a-79743423",
+      "gdelt": {
+        "globalEventId": "1329920146",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.81,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329920148",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T15:30:00.000Z",
+      "description": "Rejection — Mali → Unspecified near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dw.com/en/why-ukraine-may-be-involved-in-malis-conflict/a-79743423",
+      "gdelt": {
+        "globalEventId": "1329920148",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -2.81,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329920149",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T15:30:00.000Z",
+      "description": "Rejection — Mali → Mali near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dw.com/en/why-ukraine-may-be-involved-in-malis-conflict/a-79743423",
+      "gdelt": {
+        "globalEventId": "1329920149",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -2.81,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329920169",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T15:30:00.000Z",
+      "description": "Disapproval — Niger → Burkina Faso near Burkina Faso. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dw.com/en/why-ukraine-may-be-involved-in-malis-conflict/a-79743423",
+      "gdelt": {
+        "globalEventId": "1329920169",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.81,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329920172",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T15:30:00.000Z",
+      "description": "Disapproval — Niger → Mali near Burkina Faso. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dw.com/en/why-ukraine-may-be-involved-in-malis-conflict/a-79743423",
+      "gdelt": {
+        "globalEventId": "1329920172",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.81,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329934964",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T17:00:00.000Z",
+      "description": "Fight — Mali → Unspecified near Menaka, Gao, Mali. Machine-coded by GDELT 2.1 (14 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "action": "Fight (GDELT 190)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Menaka, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.sierraleonetimes.com/news/279397796/mali-military-reports-54-dead-after-attacks-in-northeast",
+      "gdelt": {
+        "globalEventId": "1329934964",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -7.04,
+        "mentions": 14,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329934965",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T17:00:00.000Z",
+      "description": "Fight — Mali → Mali near Menaka, Gao, Mali. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "action": "Fight (GDELT 190)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Menaka, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.sierraleonetimes.com/news/279397796/mali-military-reports-54-dead-after-attacks-in-northeast",
+      "gdelt": {
+        "globalEventId": "1329934965",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -7.04,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329947040",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T18:15:00.000Z",
+      "description": "Assault — Population → Unspecified near Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 17,
+      "lng": -4,
+      "action": "Assault (GDELT 180)",
+      "actor": "Population",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://newsbusters.org/blogs/nb/nicholas-spinnato/2026/10/26/maga-coded-60-minutes-bashes-deportation-illegal-immigrant",
+      "gdelt": {
+        "globalEventId": "1329947040",
+        "eventCode": "180",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.82,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329947042",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T18:15:00.000Z",
+      "description": "Assault — Population → Unspecified near Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 17,
+      "lng": -4,
+      "action": "Assault (GDELT 180)",
+      "actor": "Population",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://newsbusters.org/blogs/nb/nicholas-spinnato/2026/10/26/maga-coded-60-minutes-bashes-deportation-illegal-immigrant",
+      "gdelt": {
+        "globalEventId": "1329947042",
+        "eventCode": "180",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.82,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329948004",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T18:15:00.000Z",
+      "description": "Assault — United States → Unspecified near Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 17,
+      "lng": -4,
+      "action": "Assault (GDELT 180)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://pjmedia.com/catherinesalgado/2026/10/26/60-minutes-features-wife-and-kids-of-illegal-alien-who-said-hes-gay-to-avoid-deportation-n4958700",
+      "gdelt": {
+        "globalEventId": "1329948004",
+        "eventCode": "180",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -7.57,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329952238",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T18:45:00.000Z",
+      "description": "Reduced relations — Niger → Algiers near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Reduced relations (GDELT 161)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.aawsat.com/world/5333962-algeria-deploy-army-units-niger-protect-energy-and-economic-interests",
+      "gdelt": {
+        "globalEventId": "1329952238",
+        "eventCode": "161",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": 0,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329952241",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T18:45:00.000Z",
+      "description": "Fight — Niger → Insurgent near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16,
+      "lng": 8,
+      "action": "Fight (GDELT 190)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.aawsat.com/world/5333962-algeria-deploy-army-units-niger-protect-energy-and-economic-interests",
+      "gdelt": {
+        "globalEventId": "1329952241",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 0,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329952362",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T18:45:00.000Z",
+      "description": "Fight — Insurgent → Niger near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16,
+      "lng": 8,
+      "action": "Fight (GDELT 190)",
+      "actor": "Insurgent",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.aawsat.com/world/5333962-algeria-deploy-army-units-niger-protect-energy-and-economic-interests",
+      "gdelt": {
+        "globalEventId": "1329952362",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 0,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329953871",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T19:00:00.000Z",
+      "description": "Force posture — Algeria → Niger near Niger. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Algeria",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.middleeastmonitor.com/20261026-algeria-to-deploy-troops-to-niger-to-protect-shared-energy-economic-interests/",
+      "gdelt": {
+        "globalEventId": "1329953871",
+        "eventCode": "154",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": 4.32,
         "mentions": 4,
         "sources": 1
       }
