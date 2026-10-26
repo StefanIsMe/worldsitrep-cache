@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-26T01:35:05.083Z",
+  "collectedAt": "2026-10-26T01:49:24.724Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 11
+      "count": 5
     },
     {
       "id": "gcaptain",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 391,
+  "count": 392,
   "events": [
     {
       "id": "gdelt-1329812887",
@@ -453,6 +453,40 @@
         "goldstein": -4.4,
         "tone": -5.53,
         "mentions": 30,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1329822094",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T01:45:00.000Z",
+      "description": "Fight — Military → Yemen near Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Fight (GDELT 194)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://article.wn.com/view/2026/10/25/Suspected_Houthi_missile_hits_near_military_headquarters_in_/",
+      "gdelt": {
+        "globalEventId": "1329822094",
+        "eventCode": "194",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.9,
+        "mentions": 10,
         "sources": 1
       }
     },
