@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-27T16:17:05.537Z",
+  "collectedAt": "2026-10-27T16:53:07.270Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 9
+      "count": 1
     },
     {
       "id": "aa-mali",
@@ -83,7 +83,7 @@
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 25,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 134,
+  "count": 135,
   "events": [
     {
       "id": "news-1r59r8d",
@@ -886,6 +886,40 @@
         "goldstein": -5,
         "tone": -9.32,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330121785",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:30:00.000Z",
+      "description": "Disapproval — Niger → Unspecified near Niamey, Niamey, Niger. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5167,
+      "lng": 2.11667,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Niamey, Niamey, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.newsecuritybeat.org/2026/10/what-stands-apart-in-nigers-newest-ndc-qa-with-sani-ayouba/",
+      "gdelt": {
+        "globalEventId": "1330121785",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.15,
+        "mentions": 4,
         "sources": 1
       }
     },

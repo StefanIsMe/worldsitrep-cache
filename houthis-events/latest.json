@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-27T16:17:05.537Z",
+  "collectedAt": "2026-10-27T16:53:07.270Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 49
+      "count": 13
     },
     {
       "id": "gcaptain",
@@ -69,7 +69,7 @@
       "id": "gnews-mandeb",
       "url": "https://news.google.com/rss/search?q=Bab%20el-Mandeb%20vessel%20drone%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 32,
       "filtered": 0
     },
     {
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 541,
+  "count": 555,
   "events": [
+    {
+      "id": "news-is1xoo",
+      "kind": "news",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T15:41:15.000Z",
+      "description": "Houthis attack Saudi Arabia’s Ras Tanura refinery amid $1 billion ceasefire offer reports - The Economic Times (The Economic Times, 2026-10-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Economic Times",
+      "axis": "Other",
+      "tags": [
+        "The Economic Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Economic Times",
+      "source": "The Economic Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRUp6TFJMT3BlNWNXSmlzdDV5UnFkWGRLVzZQUl9BZEh2UUV4R1hTeUx3eER6Z3dtZEUxRDlNZGU2Y3RFSUJEVjFfVUNtcUpCSXZKYW5aZ0d1UVkwS21QVzZjS3BfZTVYc19HVjRMTjlOUHRCOVJIVnFLSWdSbnhRY2RieDhraTJfX2o0OURGYm9zUk41OVFhWHNOd1NxV2IxYUs4ckJvVG50TExJcDJNVkNRaVQ0ZVFpd0Z5Y2RFMDZhQmYtS0F4QWZqajBsNHZJdWtEaGd1RU02RDFoeXJib3BoWnhzbjFNRzhaN0lOY0vSAfYBQVVfeXFMTWlpVlFKQXpFTzhCYnJqV0VTTHY0OWpvT1g4alpyVFZFUjM1Nl96Y0Zrdks0aGxRMnNEcldVX25LQzZTVGtPT0ZrWWtoakV5eng0QjNKck9NdGhPN0RkdS1VbFZWbTd0ZGNEb0xmZXZQeU1SMHIzT0Q1a0ppY3l2b0ZYNTlYQlBINm9mQ2l2clBMOHFucGlMeGgwWHhoX0NRRXZzY01vVkpxT1lzVjhGS1A2V0Vib0RBX3FOdkNwTndYYzlzLU16ZXZESFI0bmVheXQ3V3NrMEtnMnBydl8zbWM2MlhIUHFVSzNPRmRJVXRMQkx6WC13?oc=5"
+    },
     {
       "id": "news-149u7ok",
       "kind": "news",
@@ -3889,6 +3908,448 @@
         "goldstein": -5,
         "tone": -3.08,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330116807",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:00:00.000Z",
+      "description": "Assault — Yemen → Saudi Arabia near Yemen. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Assault (GDELT 180)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://nltimes.nl/2026/10/27/klm-cancels-dubai-flights-six-months-war-concerns",
+      "gdelt": {
+        "globalEventId": "1330116807",
+        "eventCode": "180",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -5.16,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330119327",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:15:00.000Z",
+      "description": "Rejection — Voter → Unspecified near Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Voter",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.rappler.com/philippines/mindanao/sulu-new-teaching-positions-dbm-approval-october-2026/",
+      "gdelt": {
+        "globalEventId": "1330119327",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 0.99,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330120171",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:15:00.000Z",
+      "description": "Fight — Saudi Arabia → Saudi Arabia near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/world/egypt-authorizes-military-support-for-saudi-arabia-as-houthi-attacks-escalate-6109250",
+      "gdelt": {
+        "globalEventId": "1330120171",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -0.97,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330121076",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:30:00.000Z",
+      "description": "Fight — Djibouti → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 191)",
+      "actor": "Djibouti",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/27/779325/Iran-SNSC-chief-Rezaei-meeting-Yemen-s-ambassador",
+      "gdelt": {
+        "globalEventId": "1330121076",
+        "eventCode": "191",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -2.23,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330121077",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:30:00.000Z",
+      "description": "Fight — Djibouti → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 191)",
+      "actor": "Djibouti",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/27/779325/Iran-SNSC-chief-Rezaei-meeting-Yemen-s-ambassador",
+      "gdelt": {
+        "globalEventId": "1330121077",
+        "eventCode": "191",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -2.23,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330121078",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:30:00.000Z",
+      "description": "Fight — Djibouti → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 191)",
+      "actor": "Djibouti",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/27/779325/Iran-SNSC-chief-Rezaei-meeting-Yemen-s-ambassador",
+      "gdelt": {
+        "globalEventId": "1330121078",
+        "eventCode": "191",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -2.23,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330121993",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:30:00.000Z",
+      "description": "Threat — Saudi Arabia → Unspecified near Mokha, Taizz, Yemen. Machine-coded by GDELT 2.1 (12 mentions, 2 sources); open the source article for details.",
+      "type": "other",
+      "lat": 13.3195,
+      "lng": 43.2448,
+      "action": "Threat (GDELT 130)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Mokha, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.thegazette.com/news/national/explosions-heard-over-riyadh-as-saudi-authorities-say-houthi-missiles-downed-and-other-mideast-news/article_9775e2ef-a957-585c-9c8c-4732f05ce7ae.html",
+      "gdelt": {
+        "globalEventId": "1330121993",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -6.18,
+        "mentions": 12,
+        "sources": 2
+      }
+    },
+    {
+      "id": "gdelt-1330122019",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:30:00.000Z",
+      "description": "Rejection — Saudi Arabia → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/27/779328/Saudi-Arabia--Ras-Tanura%C2%A0Yemen-Yahya-Saree--",
+      "gdelt": {
+        "globalEventId": "1330122019",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -6.76,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330122419",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:30:00.000Z",
+      "description": "Fight — Yemen → Saudi Arabia near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/27/779325/Iran-SNSC-chief-Rezaei-meeting-Yemen-s-ambassador",
+      "gdelt": {
+        "globalEventId": "1330122419",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.23,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330122420",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:30:00.000Z",
+      "description": "Fight — Yemen → Saudi Arabia near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/27/779328/Saudi-Arabia--Ras-Tanura%C2%A0Yemen-Yahya-Saree--",
+      "gdelt": {
+        "globalEventId": "1330122420",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.76,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330122421",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:30:00.000Z",
+      "description": "Fight — Yemen → Saudi Arabia near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/27/779328/Saudi-Arabia--Ras-Tanura%C2%A0Yemen-Yahya-Saree--",
+      "gdelt": {
+        "globalEventId": "1330122421",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.76,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330122426",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:30:00.000Z",
+      "description": "Threat — Yemen → Saudi Arabia near Taizz, Taizz, Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5795,
+      "lng": 44.0209,
+      "action": "Threat (GDELT 138)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taizz, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/27/779328/Saudi-Arabia--Ras-Tanura%C2%A0Yemen-Yahya-Saree--",
+      "gdelt": {
+        "globalEventId": "1330122426",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -6.76,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330122428",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T16:30:00.000Z",
+      "description": "Fight — Yemen → Saudi Arabia near Taizz, Taizz, Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.5795,
+      "lng": 44.0209,
+      "action": "Fight (GDELT 193)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taizz, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/27/779328/Saudi-Arabia--Ras-Tanura%C2%A0Yemen-Yahya-Saree--",
+      "gdelt": {
+        "globalEventId": "1330122428",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.76,
+        "mentions": 1,
         "sources": 1
       }
     },
