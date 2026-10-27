@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-27T20:51:58.343Z",
+  "collectedAt": "2026-10-27T21:30:03.301Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 4
+      "count": 11
     },
     {
       "id": "taipei-times",
@@ -34,8 +34,8 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 45,
-      "filtered": 5
+      "count": 44,
+      "filtered": 6
     },
     {
       "id": "dw-asia",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 46,
+      "count": 28,
       "filtered": 0
     },
     {
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 179,
+  "count": 188,
   "events": [
     {
       "id": "news-10pvrye",
@@ -294,6 +294,25 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://www.taipeitimes.com/News/editorials/archives/2026/10/28/2003866725"
+    },
+    {
+      "id": "news-nk0ahv",
+      "kind": "news",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T20:58:44.000Z",
+      "description": "5 things to watch out for in 2027 US defence bill aimed at countering China (SCMP, 2026-10-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3372355/5-things-watch-out-2027-us-defence-bill-aimed-countering-china"
     },
     {
       "id": "news-s814gz",
@@ -1261,6 +1280,108 @@
         "quadClass": 4,
         "goldstein": -5,
         "tone": -6.44,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330168247",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T21:30:00.000Z",
+      "description": "Disapproval — Voter → Government near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Voter",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/28/2003866755",
+      "gdelt": {
+        "globalEventId": "1330168247",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 4.73,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330168759",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T21:30:00.000Z",
+      "description": "Assault — Taiwan → Company near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Assault (GDELT 186)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/biz/archives/2026/10/28/2003866720",
+      "gdelt": {
+        "globalEventId": "1330168759",
+        "eventCode": "186",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 1.78,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330168762",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T21:30:00.000Z",
+      "description": "Coercion — Taiwan → Authorities near Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/28/2003866754",
+      "gdelt": {
+        "globalEventId": "1330168762",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -8.05,
         "mentions": 10,
         "sources": 1
       }
@@ -3482,6 +3603,176 @@
         "goldstein": -4.4,
         "tone": -3.13,
         "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330167910",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-27T21:30:00.000Z",
+      "description": "Disapproval — Employer → Migrant Worker near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Employer",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/28/2003866753",
+      "gdelt": {
+        "globalEventId": "1330167910",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.25,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330167912",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-27T21:30:00.000Z",
+      "description": "Disapproval — Migrant Worker → Employer near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Migrant Worker",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/28/2003866753",
+      "gdelt": {
+        "globalEventId": "1330167912",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.25,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330167914",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-27T21:30:00.000Z",
+      "description": "Protest — Migrant → Migrant near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Protest (GDELT 141)",
+      "actor": "Migrant",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/28/2003866753",
+      "gdelt": {
+        "globalEventId": "1330167914",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -3.25,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330167916",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-27T21:30:00.000Z",
+      "description": "Protest — Migrant Worker → Government near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Protest (GDELT 140)",
+      "actor": "Migrant Worker",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/28/2003866753",
+      "gdelt": {
+        "globalEventId": "1330167916",
+        "eventCode": "140",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -3.25,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330167923",
+      "kind": "event",
+      "date": "2026-10-26",
+      "isoDate": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-27T21:30:00.000Z",
+      "description": "Assault — Taiwan → Company near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Assault (GDELT 186)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/biz/archives/2026/10/28/2003866720",
+      "gdelt": {
+        "globalEventId": "1330167923",
+        "eventCode": "186",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 1.78,
+        "mentions": 1,
         "sources": 1
       }
     },
