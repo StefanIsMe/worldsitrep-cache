@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-27T00:01:25.979Z",
+  "collectedAt": "2026-10-27T05:25:38.370Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 5
+      "count": 3
     },
     {
       "id": "aa-mali",
@@ -27,7 +27,7 @@
       "id": "aa-niger",
       "url": "https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf",
       "status": "ok",
-      "count": 6,
+      "count": 4,
       "filtered": 4
     },
     {
@@ -70,7 +70,7 @@
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 1,
-      "filtered": 3
+      "filtered": 2
     },
     {
       "id": "gnews-jnim",
@@ -90,7 +90,7 @@
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 47,
+      "count": 10,
       "filtered": 0
     },
     {
@@ -101,8 +101,110 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 110,
+  "count": 113,
   "events": [
+    {
+      "id": "gdelt-1330011824",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T02:45:00.000Z",
+      "description": "Coercion — Administration → Mali near Mali. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Coercion (GDELT 174)",
+      "actor": "Administration",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.foxnews.com/media/deported-migrant-60-minutes-painted-sympathetic-family-man-claimed-gay-asylum-application",
+      "gdelt": {
+        "globalEventId": "1330011824",
+        "eventCode": "174",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -6,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330025440",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T05:15:00.000Z",
+      "description": "Force posture — Algeria → Egypt near Kafra, Agadez, Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 19.0596,
+      "lng": 12.3403,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Algeria",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kafra, Agadez, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.namibian.com.na/algeria-to-send-troops-to-niger-in-first-foreign-deployment-since-1973/",
+      "gdelt": {
+        "globalEventId": "1330025440",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": 1.35,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330025820",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-27T05:15:00.000Z",
+      "description": "Reduced relations — Niger → Algiers near Kafra, Agadez, Niger. Machine-coded by GDELT 2.1 (13 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 19.0596,
+      "lng": 12.3403,
+      "action": "Reduced relations (GDELT 161)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kafra, Agadez, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.namibian.com.na/algeria-to-send-troops-to-niger-in-first-foreign-deployment-since-1973/",
+      "gdelt": {
+        "globalEventId": "1330025820",
+        "eventCode": "161",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": 1.35,
+        "mentions": 13,
+        "sources": 1
+      }
+    },
     {
       "id": "news-10nzeej",
       "kind": "news",
