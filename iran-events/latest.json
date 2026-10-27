@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "iran",
-  "collectedAt": "2026-10-27T10:49:33.937Z",
+  "collectedAt": "2026-10-27T11:05:35.404Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 156
+      "count": 7
     },
     {
       "id": "gnews-iran",
@@ -27,7 +27,7 @@
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Tehran%20sanctions%20oil&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 41,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -69,7 +69,7 @@
       "id": "gnews-natanz",
       "url": "https://news.google.com/rss/search?q=Iran%20Natanz%20Fordow%20enrichment%20IAEA&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 22,
       "filtered": 0
     },
     {
@@ -82,6 +82,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-1kpj0lz",
+      "kind": "news",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T11:04:52.000Z",
+      "description": "Leader of Islamic Revolution meets with Secretary of Iran’s Supreme National Security Council (IRNA English, 2026-10-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "IRNA English",
+      "axis": "Other",
+      "tags": [
+        "IRNA English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "IRNA English",
+      "source": "IRNA English",
+      "sourceUrl": "https://en.irna.ir/news/86304987/Leader-of-Islamic-Revolution-meets-with-Secretary-of-Iran-s-Supreme"
+    },
     {
       "id": "news-qnww8x",
       "kind": "news",
@@ -48105,40 +48124,6 @@
         "goldstein": -5,
         "tone": -4.56,
         "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1329718083",
-      "kind": "event",
-      "date": "2026-10-25",
-      "isoDate": "2026-10-25T00:00:00.000Z",
-      "observedAt": "2026-10-25T04:00:00.000Z",
-      "description": "Fight — Government → Syrian near Hormuz, Fars, Iran. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 27.5026,
-      "lng": 54.2839,
-      "action": "Fight (GDELT 192)",
-      "actor": "Government",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Hormuz, Fars, Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://peakoil.com/publicpolicy/syrias-energy-comeback-could-reshape-middle-east-oil-and-gas",
-      "gdelt": {
-        "globalEventId": "1329718083",
-        "eventCode": "192",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -9.5,
-        "tone": 0.98,
-        "mentions": 10,
         "sources": 1
       }
     }
