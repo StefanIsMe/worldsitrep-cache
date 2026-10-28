@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-28T00:42:34.305Z",
+  "collectedAt": "2026-10-28T06:06:31.852Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 220,
+  "coarseGdeltDropped": 209,
   "outsideTheatreDropped": 0,
   "proposals": [
     {
@@ -15,18 +15,23 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 532,
+      "eventCount": 500,
       "kinds": {
-        "combat": 164,
-        "other": 348,
-        "strike": 20
+        "other": 323,
+        "combat": 158,
+        "strike": 19
       },
       "tierCounts": {
-        "approximate": 532
+        "approximate": 500
       },
-      "combatCount": 184,
-      "newestIsoDate": "2026-10-28T00:00:00.000Z",
+      "combatCount": 177,
+      "newestIsoDate": "2026-10-28T02:50:11.000Z",
       "samples": [
+        {
+          "id": "news-mhfyc5",
+          "isoDate": "2026-10-28T02:50:11.000Z",
+          "sourceUrl": "https://kyivindependent.com/russia-launched-over-100-ballistic-missiles-against-kyiv-in-past-two-weeks/"
+        },
         {
           "id": "gdelt-1330183715",
           "isoDate": "2026-10-28T00:00:00.000Z",
@@ -36,18 +41,13 @@
           "id": "gdelt-1330185517",
           "isoDate": "2026-10-28T00:00:00.000Z",
           "sourceUrl": "https://www.aol.com/articles/ukraines-zelenskiy-says-territory-recaptured-221604000.html"
-        },
-        {
-          "id": "gdelt-1330185526",
-          "isoDate": "2026-10-28T00:00:00.000Z",
-          "sourceUrl": "https://dunyanews.tv/en/World/979950-two-nordic-leaders-urge-putin-to-end-ukraine-war-in-rare-direct-contac"
         }
       ],
       "centroid": {
-        "lat": 50.3776,
-        "lng": 30.1847
+        "lat": 50.3746,
+        "lng": 30.2155
       },
-      "radiusKm": 46.2
+      "radiusKm": 42.3
     },
     {
       "zoneId": "occ-kharkiv",
@@ -56,39 +56,39 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 121,
+      "eventCount": 119,
       "kinds": {
-        "combat": 56,
-        "other": 62,
+        "other": 65,
+        "combat": 51,
         "strike": 3
       },
       "tierCounts": {
-        "approximate": 121
+        "approximate": 119
       },
-      "combatCount": 59,
-      "newestIsoDate": "2026-10-28T00:00:00.000Z",
+      "combatCount": 54,
+      "newestIsoDate": "2026-10-28T05:30:00.000Z",
       "samples": [
         {
-          "id": "gdelt-1330187794",
-          "isoDate": "2026-10-28T00:00:00.000Z",
-          "sourceUrl": "https://japantoday.com/category/world/us-brokered-truce-appears-to-hold-in-ukrainian-town-close-to-starvation"
+          "id": "news-1w9rub3",
+          "isoDate": "2026-10-28T05:30:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4178806-injury-toll-from-russian-attack-on-kharkiv-rises-to-five.html"
         },
         {
-          "id": "gdelt-1330187809",
-          "isoDate": "2026-10-28T00:00:00.000Z",
-          "sourceUrl": "https://japantoday.com/category/world/us-brokered-truce-appears-to-hold-in-ukrainian-town-close-to-starvation"
+          "id": "news-9tv97k",
+          "isoDate": "2026-10-28T04:27:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4178802-fire-reported-at-steelworks-in-russias-lipetsk-after-attack-social-media.html"
         },
         {
-          "id": "news-1xdyhrd",
-          "isoDate": "2026-10-27T23:08:57.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/88363"
+          "id": "news-1w337fq",
+          "isoDate": "2026-10-28T00:15:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/28/8060010/"
         }
       ],
       "centroid": {
-        "lat": 50.1463,
-        "lng": 36.7202
+        "lat": 50.2043,
+        "lng": 36.8001
       },
-      "radiusKm": 76.3
+      "radiusKm": 80
     },
     {
       "zoneId": "occ-kherson",
@@ -97,16 +97,16 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 98,
+      "eventCount": 100,
       "kinds": {
-        "other": 62,
-        "combat": 32,
-        "strike": 4
+        "other": 63,
+        "combat": 31,
+        "strike": 6
       },
       "tierCounts": {
-        "approximate": 98
+        "approximate": 100
       },
-      "combatCount": 36,
+      "combatCount": 37,
       "newestIsoDate": "2026-10-28T00:00:00.000Z",
       "samples": [
         {
@@ -126,51 +126,10 @@
         }
       ],
       "centroid": {
-        "lat": 46.5948,
-        "lng": 32.5381
+        "lat": 46.5992,
+        "lng": 32.5842
       },
-      "radiusKm": 15.9
-    },
-    {
-      "zoneId": "occ-zaporizhzhia",
-      "region": "Zaporizhzhia Oblast",
-      "center": {
-        "lat": 47,
-        "lng": 35.5
-      },
-      "eventCount": 33,
-      "kinds": {
-        "other": 19,
-        "combat": 13,
-        "strike": 1
-      },
-      "tierCounts": {
-        "approximate": 33
-      },
-      "combatCount": 14,
-      "newestIsoDate": "2026-10-27T16:49:27.000Z",
-      "samples": [
-        {
-          "id": "news-1goli7n",
-          "isoDate": "2026-10-27T16:49:27.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQTR5Q2U0b1VheldPSHIxVUJNTkNIc2IxdmM5blB6NVpCSEpVLUJGN0JDWVk4aWE0aXlyX0pjNzNuZVpYMnhKY0JnM0pQaDh3dE5NNDdvcGRrbkVacVc1SUY0SVZCUk5Wc2NlUWw3SmdBdTRvNllVUTBpcHZiWUE5aUdFcENOUldFZXdvVF9rS3otcWZLREdIS0t0cmU5NUlPTEFqUHFla3Z1Zw?oc=5"
-        },
-        {
-          "id": "news-11dyupz",
-          "isoDate": "2026-10-27T15:45:45.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdTFlV0Z4MTVQWnN6WnpPcGpHcjY1UUZtNkcyMHE4bmFyZ1pxcExhcXJiNFA2a0VqUi1Vb0pNQkFiSXFPU0xGYURkUGl0emRtenVpSWxXSl9GUU01Mk1YWWRoQU5COTJZRmN1R1RBenppQkJ2cEV4MHRNbzlQQTgzU2ZBd0QycFkwQnctaS01TWY1RlM5S1lGZ3B4SGNscmttODdlSXMxdw?oc=5"
-        },
-        {
-          "id": "news-14zqn4j",
-          "isoDate": "2026-10-27T15:45:45.000Z",
-          "sourceUrl": "https://kyivindependent.com/kyiv-approves-alternative-dnipro-crossings-after-russian-strikes-on-bridges/"
-        }
-      ],
-      "centroid": {
-        "lat": 47.9879,
-        "lng": 35.2575
-      },
-      "radiusKm": 58.9
+      "radiusKm": 18.4
     },
     {
       "zoneId": "occ-donetsk",
@@ -179,39 +138,80 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 32,
+      "eventCount": 50,
       "kinds": {
-        "other": 15,
-        "strike": 7,
-        "combat": 10
+        "other": 17,
+        "combat": 17,
+        "strike": 16
       },
       "tierCounts": {
-        "approximate": 32
+        "approximate": 50
       },
-      "combatCount": 17,
-      "newestIsoDate": "2026-10-27T21:17:00.000Z",
+      "combatCount": 33,
+      "newestIsoDate": "2026-10-28T00:00:00.000Z",
       "samples": [
         {
-          "id": "news-k2c7x",
-          "isoDate": "2026-10-27T21:17:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4178777-war-update-178-clashes-on-front-line-pokrovsk-sector-remains-hottest.html"
+          "id": "gdelt-1330203047",
+          "isoDate": "2026-10-28T00:00:00.000Z",
+          "sourceUrl": "https://vancouversun.com:443/news/bc-animal-rescuer-jesse-adams-killed-by-drone-in-ukraine"
         },
         {
-          "id": "news-1uhyztn",
-          "isoDate": "2026-10-27T15:11:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/27/8059960/"
+          "id": "gdelt-1330203703",
+          "isoDate": "2026-10-28T00:00:00.000Z",
+          "sourceUrl": "https://www.cp24.com/news/canada/2026/10/27/canadian-animal-rescuer-killed-in-drone-strike-in-ukraine-charity-says/"
         },
         {
-          "id": "news-1sj6t01",
-          "isoDate": "2026-10-27T14:34:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4178672-ukraines-defense-forces-strike-russian-ammunition-depots-in-luhansk-and-donetsk-regions.html"
+          "id": "gdelt-1330203722",
+          "isoDate": "2026-10-28T00:00:00.000Z",
+          "sourceUrl": "https://www.cp24.com/news/canada/2026/10/27/canadian-animal-rescuer-killed-in-drone-strike-in-ukraine-charity-says/"
         }
       ],
       "centroid": {
-        "lat": 48.4642,
-        "lng": 37.1686
+        "lat": 48.3845,
+        "lng": 37.1307
       },
-      "radiusKm": 53.3
+      "radiusKm": 59.3
+    },
+    {
+      "zoneId": "occ-zaporizhzhia",
+      "region": "Zaporizhzhia Oblast",
+      "center": {
+        "lat": 47,
+        "lng": 35.5
+      },
+      "eventCount": 37,
+      "kinds": {
+        "other": 21,
+        "combat": 15,
+        "strike": 1
+      },
+      "tierCounts": {
+        "approximate": 37
+      },
+      "combatCount": 16,
+      "newestIsoDate": "2026-10-28T05:57:00.000Z",
+      "samples": [
+        {
+          "id": "news-lrxxnj",
+          "isoDate": "2026-10-28T05:57:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4178811-russian-forces-strike-zaporizhzhia-region-846-times-over-past-24-hours-two-injured.html"
+        },
+        {
+          "id": "news-wgdtab",
+          "isoDate": "2026-10-28T03:27:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4178698-kyiv-to-allocate-uah-1-bn-for-water-crossings-over-the-dnipro-klitschko-says.html"
+        },
+        {
+          "id": "gdelt-1330221648",
+          "isoDate": "2026-10-28T00:00:00.000Z",
+          "sourceUrl": "http://www.rightspeak.net/2026/10/178-combat-clashes-27-n-slobozhanskyi.html"
+        }
+      ],
+      "centroid": {
+        "lat": 47.9167,
+        "lng": 35.2504
+      },
+      "radiusKm": 63.3
     },
     {
       "zoneId": "occ-luhansk",
@@ -220,15 +220,15 @@
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 27,
+      "eventCount": 32,
       "kinds": {
-        "other": 18,
-        "combat": 9
+        "other": 15,
+        "combat": 17
       },
       "tierCounts": {
-        "approximate": 27
+        "approximate": 32
       },
-      "combatCount": 9,
+      "combatCount": 17,
       "newestIsoDate": "2026-10-28T00:00:00.000Z",
       "samples": [
         {
@@ -248,10 +248,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.5245,
-        "lng": 38.6738
+        "lat": 48.529,
+        "lng": 38.7488
       },
-      "radiusKm": 22.8
+      "radiusKm": 27.3
     },
     {
       "zoneId": "lib-snake",
@@ -260,39 +260,39 @@
         "lat": 45.2551,
         "lng": 30.2033
       },
-      "eventCount": 23,
+      "eventCount": 20,
       "kinds": {
-        "other": 7,
-        "strike": 1,
-        "combat": 15
+        "strike": 3,
+        "combat": 11,
+        "other": 6
       },
       "tierCounts": {
-        "approximate": 23
+        "approximate": 20
       },
-      "combatCount": 16,
-      "newestIsoDate": "2026-10-27T09:51:44.000Z",
+      "combatCount": 14,
+      "newestIsoDate": "2026-10-28T00:00:00.000Z",
       "samples": [
         {
-          "id": "news-14ayz6i",
-          "isoDate": "2026-10-27T09:51:44.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUVlaZ2hpMGVhRHBqZXA1OWk2UHo5dkdJX05ROVVoMkFibmU0VnppTmdpU21NVE1NNUxFbXNseXdiNVBiTEI5X1duMXpMdHozQTVDaDluQnlNNUIwWVBjS2taeHZrczBvdjBWQmNoUGE2TlIyQjU1UkxqNmxtN2ZkNmo2VG1felFkWmJvNF9GWThqbm8x?oc=5"
+          "id": "gdelt-1330221342",
+          "isoDate": "2026-10-28T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/27/800118705/community/ukraine-invasion-day-1707-putin-claims-nato-expansion-is-a-root-cause-rather-than-ru-incursions/"
         },
         {
-          "id": "gdelt-1330027094",
-          "isoDate": "2026-10-27T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/10/26/800118153/community/1706/"
+          "id": "gdelt-1330221343",
+          "isoDate": "2026-10-28T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/27/800118705/community/ukraine-invasion-day-1707-putin-claims-nato-expansion-is-a-root-cause-rather-than-ru-incursions/"
         },
         {
-          "id": "gdelt-1330027218",
-          "isoDate": "2026-10-27T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/10/26/800118153/community/1706/"
+          "id": "gdelt-1330221549",
+          "isoDate": "2026-10-28T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/27/800118705/community/ukraine-invasion-day-1707-putin-claims-nato-expansion-is-a-root-cause-rather-than-ru-incursions/"
         }
       ],
       "centroid": {
-        "lat": 46.4398,
-        "lng": 30.5461
+        "lat": 46.4098,
+        "lng": 30.1818
       },
-      "radiusKm": 28.3
+      "radiusKm": 59.7
     },
     {
       "zoneId": "lib-sumy",
@@ -341,13 +341,13 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 10,
+      "eventCount": 9,
       "kinds": {
-        "other": 8,
+        "other": 7,
         "combat": 2
       },
       "tierCounts": {
-        "approximate": 10
+        "approximate": 9
       },
       "combatCount": 2,
       "newestIsoDate": "2026-10-27T20:36:41.000Z",
@@ -369,10 +369,10 @@
         }
       ],
       "centroid": {
-        "lat": 45.221,
-        "lng": 34.239
+        "lat": 45.2456,
+        "lng": 34.2656
       },
-      "radiusKm": 25.6
+      "radiusKm": 24.1
     },
     {
       "zoneId": "lib-chernihiv",
