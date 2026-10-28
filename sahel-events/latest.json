@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-28T13:35:37.712Z",
+  "collectedAt": "2026-10-28T19:00:49.496Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 1
+      "count": 17
     },
     {
       "id": "aa-mali",
@@ -62,15 +62,15 @@
       "id": "africanews",
       "url": "https://www.africanews.com/feed/",
       "status": "ok",
-      "count": 1,
-      "filtered": 49
+      "count": 2,
+      "filtered": 48
     },
     {
       "id": "dw-africa",
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 0,
-      "filtered": 5
+      "filtered": 4
     },
     {
       "id": "gnews-jnim",
@@ -83,14 +83,14 @@
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 26,
+      "count": 27,
       "filtered": 0
     },
     {
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 10,
+      "count": 46,
       "filtered": 0
     },
     {
@@ -101,8 +101,46 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 145,
+  "count": 164,
   "events": [
+    {
+      "id": "news-icn6q3",
+      "kind": "news",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T18:09:53.000Z",
+      "description": "Recreatrales festival transforms Ouagadougou neighbourhood (Africanews, 2026-10-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Africanews",
+      "axis": "Other",
+      "tags": [
+        "Africanews",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Africanews",
+      "source": "Africanews",
+      "sourceUrl": "http://www.africanews.com/2026/10/28/recreatrales-festival-transforms-ouagadougou-neighbourhood/"
+    },
+    {
+      "id": "news-1b8676v",
+      "kind": "news",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T13:42:38.000Z",
+      "description": "Niger accuses Chad of drone attack that killed two civilians (Africanews, 2026-10-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Africanews",
+      "axis": "Other",
+      "tags": [
+        "Africanews",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Africanews",
+      "source": "Africanews",
+      "sourceUrl": "http://www.africanews.com/2026/10/27/niger-accuses-chad-of-drone-attack-that-killed-two-civilians/"
+    },
     {
       "id": "gdelt-1330194543",
       "kind": "event",
@@ -610,6 +648,550 @@
         "goldstein": -9,
         "tone": -1.8,
         "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330304452",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T15:15:00.000Z",
+      "description": "Disapproval — Africa → Unspecified near Niger. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Africa",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/cabo-verde-markets-give-president-86-odds/",
+      "gdelt": {
+        "globalEventId": "1330304452",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.62,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330304690",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T15:15:00.000Z",
+      "description": "Reduced relations — Cape Verde → Parliament near Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Cape Verde",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/cabo-verde-markets-give-president-86-odds/",
+      "gdelt": {
+        "globalEventId": "1330304690",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": 0.62,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330304691",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T15:15:00.000Z",
+      "description": "Reduced relations — Cape Verde → National Assembly near Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Cape Verde",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/cabo-verde-markets-give-president-86-odds/",
+      "gdelt": {
+        "globalEventId": "1330304691",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": 0.62,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330307932",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T15:30:00.000Z",
+      "description": "Fight — Mali → Civilian near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Fight (GDELT 190)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/28/mali-drone-strike-kills-13-civilians-activists-say-army-says-it-targeted-militants",
+      "gdelt": {
+        "globalEventId": "1330307932",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.34,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330307933",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T15:30:00.000Z",
+      "description": "Threat — Mali → Terrorist near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Threat (GDELT 130)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/28/mali-drone-strike-kills-13-civilians-activists-say-army-says-it-targeted-militants",
+      "gdelt": {
+        "globalEventId": "1330307933",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -6.34,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330307934",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T15:30:00.000Z",
+      "description": "Fight — Mali → Civilian near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Fight (GDELT 190)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/28/mali-drone-strike-kills-13-civilians-activists-say-army-says-it-targeted-militants",
+      "gdelt": {
+        "globalEventId": "1330307934",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.34,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330307935",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T15:30:00.000Z",
+      "description": "Threat — Mali → Terrorist near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Threat (GDELT 130)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/28/mali-drone-strike-kills-13-civilians-activists-say-army-says-it-targeted-militants",
+      "gdelt": {
+        "globalEventId": "1330307935",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -6.34,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330326178",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T17:15:00.000Z",
+      "description": "Rejection — Mali → Unspecified near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://avherald.com/h?article=545a2af1&opt=0",
+      "gdelt": {
+        "globalEventId": "1330326178",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -5.26,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330327967",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T17:30:00.000Z",
+      "description": "Fight — Unspecified → Fighter near Tessit, Gao, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.2238,
+      "lng": 0.2925,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tessit, Gao, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://slguardian.org/mali-retakes-kidal-as-jihadist-threat-intensifies-across-sahel/",
+      "gdelt": {
+        "globalEventId": "1330327967",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.23,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330328016",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T17:30:00.000Z",
+      "description": "Fight — Africa → Unspecified near Dioura, Mopti, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 14.8252,
+      "lng": -5.2547,
+      "action": "Fight (GDELT 190)",
+      "actor": "Africa",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dioura, Mopti, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://slguardian.org/mali-retakes-kidal-as-jihadist-threat-intensifies-across-sahel/",
+      "gdelt": {
+        "globalEventId": "1330328016",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.23,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330328957",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T17:30:00.000Z",
+      "description": "Assault — Military → Unspecified near Dioura, Mopti, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 14.8252,
+      "lng": -5.2547,
+      "action": "Assault (GDELT 180)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dioura, Mopti, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://slguardian.org/mali-retakes-kidal-as-jihadist-threat-intensifies-across-sahel/",
+      "gdelt": {
+        "globalEventId": "1330328957",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -6.23,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330328966",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T17:30:00.000Z",
+      "description": "Fight — Commander → Jihadist groups near Ndaki, Tombouctou, Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3584,
+      "lng": -0.9241,
+      "action": "Fight (GDELT 190)",
+      "actor": "Commander",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Ndaki, Tombouctou, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://slguardian.org/mali-retakes-kidal-as-jihadist-threat-intensifies-across-sahel/",
+      "gdelt": {
+        "globalEventId": "1330328966",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.23,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330328967",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T17:30:00.000Z",
+      "description": "Fight — Commander → Jihadist groups near Ndaki, Tombouctou, Mali. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3584,
+      "lng": -0.9241,
+      "action": "Fight (GDELT 190)",
+      "actor": "Commander",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Ndaki, Tombouctou, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://slguardian.org/mali-retakes-kidal-as-jihadist-threat-intensifies-across-sahel/",
+      "gdelt": {
+        "globalEventId": "1330328967",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.23,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330329107",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T17:30:00.000Z",
+      "description": "Force posture — Russia / Africa Corps → Africa near Burkina Faso. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Russia / Africa Corps",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.opinionnigeria.com/russia-deepens-military-ties-with-sahel-states-as-france-retreats-by-kester-kenn-klomegah/",
+      "gdelt": {
+        "globalEventId": "1330329107",
+        "eventCode": "154",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -1.56,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330329109",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T17:30:00.000Z",
+      "description": "Force posture — Russia / Africa Corps → Africa near Burkina Faso. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Russia / Africa Corps",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.opinionnigeria.com/russia-deepens-military-ties-with-sahel-states-as-france-retreats-by-kester-kenn-klomegah/",
+      "gdelt": {
+        "globalEventId": "1330329109",
+        "eventCode": "154",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -1.56,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330333150",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T18:00:00.000Z",
+      "description": "Fight — Azerbaijan → Azerbaijan near Burkina Faso. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13,
+      "lng": -2,
+      "action": "Fight (GDELT 190)",
+      "actor": "Azerbaijan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://en.apa.az/foreign-policy/baku-hosts-meeting-of-heads-of-anti-corruption-agencies-of-oic-member-states-updated-1-photo-532630",
+      "gdelt": {
+        "globalEventId": "1330333150",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.7,
+        "mentions": 1,
         "sources": 1
       }
     },
@@ -2279,6 +2861,40 @@
         "quadClass": 3,
         "goldstein": -2,
         "tone": 0.5,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330304300",
+      "kind": "event",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T00:00:00.000Z",
+      "observedAt": "2026-10-28T15:15:00.000Z",
+      "description": "Disapproval — Niger → France near Niger. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/sudan-geneva-peace-talks-end-without-deal/",
+      "gdelt": {
+        "globalEventId": "1330304300",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.84,
         "mentions": 3,
         "sources": 1
       }

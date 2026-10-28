@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-28T14:25:28.585Z",
+  "collectedAt": "2026-10-28T19:00:48.812Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 163,
-  "outsideTheatreDropped": 1,
+  "coarseGdeltDropped": 203,
+  "outsideTheatreDropped": 2,
   "proposals": [
     {
       "zoneId": "lib-kyiv",
@@ -15,39 +15,80 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 443,
+      "eventCount": 458,
       "kinds": {
-        "other": 293,
-        "combat": 139,
-        "strike": 11
+        "other": 299,
+        "combat": 147,
+        "strike": 12
       },
       "tierCounts": {
-        "approximate": 443
+        "approximate": 458
       },
-      "combatCount": 150,
-      "newestIsoDate": "2026-10-28T13:33:54.000Z",
+      "combatCount": 159,
+      "newestIsoDate": "2026-10-28T18:37:00.000Z",
       "samples": [
+        {
+          "id": "news-1w343f2",
+          "isoDate": "2026-10-28T18:37:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/28/8060162/"
+        },
+        {
+          "id": "news-1w342oh",
+          "isoDate": "2026-10-28T18:10:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/28/8060156/"
+        },
         {
           "id": "news-16ybuus",
           "isoDate": "2026-10-28T13:33:54.000Z",
           "sourceUrl": "https://en.interfax.com.ua/news/general/1227460.html"
-        },
-        {
-          "id": "news-mhfyc5",
-          "isoDate": "2026-10-28T02:50:11.000Z",
-          "sourceUrl": "https://kyivindependent.com/russia-launched-over-100-ballistic-missiles-against-kyiv-in-past-two-weeks/"
-        },
-        {
-          "id": "gdelt-1330183715",
-          "isoDate": "2026-10-28T00:00:00.000Z",
-          "sourceUrl": "https://www.aol.com/articles/ukraines-zelenskiy-says-territory-recaptured-221604000.html"
         }
       ],
       "centroid": {
-        "lat": 50.3812,
-        "lng": 30.2639
+        "lat": 50.3819,
+        "lng": 30.2471
       },
-      "radiusKm": 36.4
+      "radiusKm": 38.5
+    },
+    {
+      "zoneId": "occ-kherson",
+      "region": "Kherson Oblast",
+      "center": {
+        "lat": 46.6354,
+        "lng": 32.6169
+      },
+      "eventCount": 111,
+      "kinds": {
+        "other": 71,
+        "combat": 36,
+        "strike": 4
+      },
+      "tierCounts": {
+        "approximate": 111
+      },
+      "combatCount": 40,
+      "newestIsoDate": "2026-10-28T16:42:00.000Z",
+      "samples": [
+        {
+          "id": "news-1w340zz",
+          "isoDate": "2026-10-28T16:42:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/28/8060136/"
+        },
+        {
+          "id": "news-1w340y5",
+          "isoDate": "2026-10-28T16:16:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/28/8060134/"
+        },
+        {
+          "id": "news-z9f656",
+          "isoDate": "2026-10-28T13:49:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4179022-ukrainian-russian-forces-observing-ceasefire-in-oleshky-lubinets.html"
+        }
+      ],
+      "centroid": {
+        "lat": 46.6147,
+        "lng": 32.6092
+      },
+      "radiusKm": 15
     },
     {
       "zoneId": "occ-kharkiv",
@@ -56,18 +97,23 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 116,
+      "eventCount": 97,
       "kinds": {
-        "other": 73,
-        "combat": 42,
+        "other": 57,
+        "combat": 39,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 116
+        "approximate": 97
       },
-      "combatCount": 43,
-      "newestIsoDate": "2026-10-28T12:47:00.000Z",
+      "combatCount": 40,
+      "newestIsoDate": "2026-10-28T17:03:00.000Z",
       "samples": [
+        {
+          "id": "news-1w3412q",
+          "isoDate": "2026-10-28T17:03:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/28/8060139/"
+        },
         {
           "id": "news-1kitgo8",
           "isoDate": "2026-10-28T12:47:00.000Z",
@@ -77,59 +123,13 @@
           "id": "news-onc54s",
           "isoDate": "2026-10-28T12:10:54.000Z",
           "sourceUrl": "https://en.interfax.com.ua/news/general/1227387.html"
-        },
-        {
-          "id": "news-1w33cnn",
-          "isoDate": "2026-10-28T11:46:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/28/8060077/"
         }
       ],
       "centroid": {
-        "lat": 50.2375,
-        "lng": 36.7909
+        "lat": 50.0329,
+        "lng": 36.5249
       },
-      "radiusKm": 80
-    },
-    {
-      "zoneId": "occ-kherson",
-      "region": "Kherson Oblast",
-      "center": {
-        "lat": 46.6354,
-        "lng": 32.6169
-      },
-      "eventCount": 104,
-      "kinds": {
-        "other": 69,
-        "combat": 31,
-        "strike": 4
-      },
-      "tierCounts": {
-        "approximate": 104
-      },
-      "combatCount": 35,
-      "newestIsoDate": "2026-10-28T13:49:00.000Z",
-      "samples": [
-        {
-          "id": "news-z9f656",
-          "isoDate": "2026-10-28T13:49:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4179022-ukrainian-russian-forces-observing-ceasefire-in-oleshky-lubinets.html"
-        },
-        {
-          "id": "news-1p7mnw9",
-          "isoDate": "2026-10-28T11:26:21.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/general/1227339.html"
-        },
-        {
-          "id": "news-1xdyih1",
-          "isoDate": "2026-10-28T11:09:27.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/88413"
-        }
-      ],
-      "centroid": {
-        "lat": 46.6136,
-        "lng": 32.6107
-      },
-      "radiusKm": 15
+      "radiusKm": 44
     },
     {
       "zoneId": "occ-donetsk",
@@ -138,39 +138,39 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 54,
+      "eventCount": 52,
       "kinds": {
-        "other": 19,
+        "other": 17,
         "combat": 18,
         "strike": 17
       },
       "tierCounts": {
-        "approximate": 54
+        "approximate": 52
       },
       "combatCount": 35,
-      "newestIsoDate": "2026-10-28T11:27:00.000Z",
+      "newestIsoDate": "2026-10-28T17:37:00.000Z",
       "samples": [
+        {
+          "id": "news-9ta8qe",
+          "isoDate": "2026-10-28T17:37:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-society/4179127-1746-children-remain-in-mandatory-evacuation-zone-in-donetsk-region.html"
+        },
+        {
+          "id": "news-1w341qk",
+          "isoDate": "2026-10-28T17:20:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/28/8060142/"
+        },
         {
           "id": "news-1w33clt",
           "isoDate": "2026-10-28T11:27:00.000Z",
           "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/28/8060075/"
-        },
-        {
-          "id": "news-h9zcum",
-          "isoDate": "2026-10-28T11:01:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4178950-russian-forces-step-up-assaults-on-huliaipole-axis-national-guard-says.html"
-        },
-        {
-          "id": "news-8359py",
-          "isoDate": "2026-10-28T07:00:00.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTTZTd2VCRWFoaVdkYUFlU0s1V1RfRzQ2ZG1Ra00xYnJTV3NGT0FnckdIWVRBdVN2UzRGYjhFaXQ1b21xMUk3NHFvZVFMSzNFNEtmaFlIQl9jSFRpSjRKVDBPdmdaZ3NxdFJ1SURTaDNzOE9BcVNyVmk0TThtcTlzUURRc01nMndJYmVFZVI4S0VaZ0RDdFJSTm84SWt4bXhfTWtOLTY1SjdvSjJTTWVoOVlXd05oRUNIcDdGZHRtdGNmY0lpNHFLVmdhc0NlU051dHhGOVhoTGJyUdIB3wFBVV95cUxQZExhb2gzTGdGTkIxM0tjMnUzdTVCNjQ0NTIySWc4bHZsOWROdDRLM1FyZkQ3WWk4SDk3SWJGZ1dEUkplbGdHRkFkUjRDWGR3S3JtSV9MLS1DX1JWNEFOUUdIQ0VGMXNhNzFWMC1nMW91YS1lcjR5VDZibUxJZ0NfRnJWZWRfUUhJZ2ZMR0c1R3lFbllaaWhlMWlKS0Q1bG53bWJSOHA4NnB5RlhkdGFVT2RsX0RYN1RjeGgtVVJFN0ZBTlJ1THVhZVNkSFZVMlo0cVIwNTN5RGp5NE1QNXAw?oc=5"
         }
       ],
       "centroid": {
-        "lat": 48.3488,
-        "lng": 37.091
+        "lat": 48.3378,
+        "lng": 37.0922
       },
-      "radiusKm": 59.1
+      "radiusKm": 61.2
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -179,39 +179,39 @@
         "lat": 47,
         "lng": 35.5
       },
-      "eventCount": 38,
+      "eventCount": 35,
       "kinds": {
-        "other": 23,
-        "combat": 14,
+        "other": 21,
+        "combat": 13,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 38
+        "approximate": 35
       },
-      "combatCount": 15,
-      "newestIsoDate": "2026-10-28T07:11:29.000Z",
+      "combatCount": 14,
+      "newestIsoDate": "2026-10-28T18:00:00.000Z",
       "samples": [
         {
-          "id": "news-4utirz",
-          "isoDate": "2026-10-28T07:11:29.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/general/1227104.html"
+          "id": "news-1w342kt",
+          "isoDate": "2026-10-28T18:00:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/28/8060152/"
         },
         {
-          "id": "news-lrxxnj",
-          "isoDate": "2026-10-28T05:57:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4178811-russian-forces-strike-zaporizhzhia-region-846-times-over-past-24-hours-two-injured.html"
+          "id": "news-squykw",
+          "isoDate": "2026-10-28T17:06:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4179125-russian-attacks-target-four-districts-in-dnipropetrovsk-region-injuring-five-people.html"
         },
         {
-          "id": "news-erifuh",
-          "isoDate": "2026-10-28T03:27:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-economy/4178698-kyiv-to-allocate-uah-1-bn-for-water-crossings-over-the-dnipro-klitschko-says.html"
+          "id": "news-1w3406n",
+          "isoDate": "2026-10-28T15:41:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/28/8060127/"
         }
       ],
       "centroid": {
-        "lat": 47.9084,
-        "lng": 35.2685
+        "lat": 47.9851,
+        "lng": 35.2692
       },
-      "radiusKm": 60.8
+      "radiusKm": 68.7
     },
     {
       "zoneId": "occ-luhansk",
@@ -220,13 +220,13 @@
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 28,
+      "eventCount": 31,
       "kinds": {
-        "other": 16,
+        "other": 19,
         "combat": 12
       },
       "tierCounts": {
-        "approximate": 28
+        "approximate": 31
       },
       "combatCount": 12,
       "newestIsoDate": "2026-10-28T13:28:49.000Z",
@@ -248,10 +248,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.4704,
-        "lng": 38.8505
+        "lat": 48.4754,
+        "lng": 38.843
       },
-      "radiusKm": 39.2
+      "radiusKm": 38
     },
     {
       "zoneId": "lib-snake",
@@ -260,16 +260,16 @@
         "lat": 45.2551,
         "lng": 30.2033
       },
-      "eventCount": 16,
+      "eventCount": 22,
       "kinds": {
         "strike": 3,
-        "combat": 5,
+        "combat": 11,
         "other": 8
       },
       "tierCounts": {
-        "approximate": 16
+        "approximate": 22
       },
-      "combatCount": 8,
+      "combatCount": 14,
       "newestIsoDate": "2026-10-28T00:00:00.000Z",
       "samples": [
         {
@@ -289,10 +289,10 @@
         }
       ],
       "centroid": {
-        "lat": 46.3963,
-        "lng": 30.0426
+        "lat": 46.3726,
+        "lng": 30.1642
       },
-      "radiusKm": 66
+      "radiusKm": 62.6
     },
     {
       "zoneId": "lib-sumy",
@@ -301,38 +301,38 @@
         "lat": 50.9077,
         "lng": 34.7981
       },
-      "eventCount": 10,
+      "eventCount": 12,
       "kinds": {
-        "other": 5,
+        "other": 7,
         "combat": 5
       },
       "tierCounts": {
-        "approximate": 10
+        "approximate": 12
       },
       "combatCount": 5,
-      "newestIsoDate": "2026-10-28T13:31:00.000Z",
+      "newestIsoDate": "2026-10-28T18:44:30.000Z",
       "samples": [
+        {
+          "id": "news-f641uk",
+          "isoDate": "2026-10-28T18:44:30.000Z",
+          "sourceUrl": "https://en.interfax.com.ua/news/general/1227657.html"
+        },
+        {
+          "id": "news-1w3411t",
+          "isoDate": "2026-10-28T16:49:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/28/8060138/"
+        },
         {
           "id": "news-ci5cyz",
           "isoDate": "2026-10-28T13:31:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-ato/4179016-ukrainian-forces-deny-russian-claims-of-capturing-barylivka-in-sumy-region.html"
-        },
-        {
-          "id": "gdelt-1330285336",
-          "isoDate": "2026-10-28T00:00:00.000Z",
-          "sourceUrl": "https://www.military.com/iran-and-drone-swarms-are-driving-a-new-underground-warfare-race-based-on-survivability"
-        },
-        {
-          "id": "news-3jwz0x",
-          "isoDate": "2026-10-27T14:39:36.000Z",
-          "sourceUrl": "https://kyivindependent.com/blackout-in-konotop-enters-fourth-day-with-no-end-in-sight/"
         }
       ],
       "centroid": {
-        "lat": 50.7928,
-        "lng": 34.6952
+        "lat": 50.8123,
+        "lng": 34.7126
       },
-      "radiusKm": 31.4
+      "radiusKm": 26.8
     },
     {
       "zoneId": "occ-crimea",
@@ -341,12 +341,12 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 8,
+      "eventCount": 7,
       "kinds": {
-        "other": 8
+        "other": 7
       },
       "tierCounts": {
-        "approximate": 8
+        "approximate": 7
       },
       "combatCount": 0,
       "newestIsoDate": "2026-10-28T09:10:43.000Z",
@@ -368,10 +368,10 @@
         }
       ],
       "centroid": {
-        "lat": 45.1513,
-        "lng": 34.3413
+        "lat": 45.13,
+        "lng": 34.3329
       },
-      "radiusKm": 37
+      "radiusKm": 40.8
     },
     {
       "zoneId": "lib-chernihiv",
