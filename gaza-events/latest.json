@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "gaza",
-  "collectedAt": "2026-10-28T23:08:18.305Z",
+  "collectedAt": "2026-10-28T23:39:18.140Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 312
+      "count": 55
     },
     {
       "id": "bbc-me",
@@ -20,8 +20,8 @@
       "id": "jpost",
       "url": "https://www.jpost.com/rss/rssfeedsfrontpage.aspx",
       "status": "ok",
-      "count": 20,
-      "filtered": 6
+      "count": 18,
+      "filtered": 8
     },
     {
       "id": "gnews-gaza",
@@ -34,7 +34,7 @@
       "id": "gnews-ceasefire",
       "url": "https://news.google.com/rss/search?q=Gaza%20ceasefire%20hostages%20aid&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 32,
       "filtered": 0
     },
     {
@@ -62,14 +62,14 @@
       "id": "gnews-flotilla",
       "url": "https://news.google.com/rss/search?q=Gaza%20aid%20flotilla%20Rafah%20crossing&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 10,
+      "count": 50,
       "filtered": 0
     },
     {
       "id": "gnews-westbank",
       "url": "https://news.google.com/rss/search?q=West%20Bank%20Jenin%20raid%20settlers&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 26,
+      "count": 28,
       "filtered": 0
     },
     {
@@ -89,6 +89,67 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-56ch41",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T01:01:12.000Z",
+      "description": "How the Cinema South Festival has survived and thrived in Sderot for 25 years (Jerusalem Post, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Sderot",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/culture/article-913170",
+      "lat": 31.52,
+      "lng": 34.59,
+      "coordsNote": "Headline gazetteer match: \"Sderot\" (city); verify via source article."
+    },
+    {
+      "id": "news-vmcawy",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:34:49.000Z",
+      "description": "Ehud Olmert backs Eisenkot, says Netanyahu is 'on wrong side of history' (Jerusalem Post, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jerusalem Post",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-election-2026/article-913168"
+    },
+    {
+      "id": "news-1k1d6af",
+      "kind": "news",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T23:22:38.000Z",
+      "description": "Surprise Showing by Arab Parties in Israeli Vote Puts Them in Spotlight (NYT Middle East, 2026-10-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NYT Middle East",
+      "axis": "Other",
+      "tags": [
+        "NYT Middle East",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NYT Middle East",
+      "source": "NYT Middle East",
+      "sourceUrl": "https://www.nytimes.com/2026/10/28/world/middleeast/israel-election-arab-parties.html"
+    },
     {
       "id": "news-vmcawu",
       "kind": "news",
@@ -492,7 +553,7 @@
       "id": "news-q32mlv",
       "kind": "news",
       "date": "2026-10-28",
-      "isoDate": "2026-10-28T16:20:12.000Z",
+      "isoDate": "2026-10-28T16:07:00.000Z",
       "description": "IDF: 6 Hamas operatives, including 3 Oct. 7 terrorists, killed in recent Gaza strikes - The Times of Israel (The Times of Israel, 2026-10-28. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -49868,108 +49929,6 @@
         "quadClass": 4,
         "goldstein": -5,
         "tone": -2.28,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1330336795",
-      "kind": "event",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T00:00:00.000Z",
-      "observedAt": "2026-10-28T18:15:00.000Z",
-      "description": "Unconventional mass violence — Israel → Palestinians near Jerusalem, Israel (general), Israel. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "strike",
-      "lat": 31.7667,
-      "lng": 35.2333,
-      "action": "Unconventional mass violence (GDELT 203)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Unconventional mass violence"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Jerusalem, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.middleeasteye.net/explainers/who-are-palestinian-citizens-israel",
-      "gdelt": {
-        "globalEventId": "1330336795",
-        "eventCode": "203",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -5.81,
-        "mentions": 10,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1330336805",
-      "kind": "event",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T00:00:00.000Z",
-      "observedAt": "2026-10-28T18:15:00.000Z",
-      "description": "Rejection — Israel → Unspecified near Kafr Qasim, HaMerkaz, Israel. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32.1142,
-      "lng": 34.9739,
-      "action": "Rejection (GDELT 120)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Kafr Qasim, HaMerkaz, Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.middleeasteye.net/explainers/who-are-palestinian-citizens-israel",
-      "gdelt": {
-        "globalEventId": "1330336805",
-        "eventCode": "120",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -4,
-        "tone": -5.81,
-        "mentions": 6,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1330336806",
-      "kind": "event",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T00:00:00.000Z",
-      "observedAt": "2026-10-28T18:15:00.000Z",
-      "description": "Demand — Israel → United Arab Emirates near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Demand (GDELT 100)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Demand"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://whbl.com/2026/10/28/analysis-israels-election-gives-survivor-netanyahu-a-path-to-keep-power/",
-      "gdelt": {
-        "globalEventId": "1330336806",
-        "eventCode": "100",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -5,
-        "tone": -3.15,
         "mentions": 2,
         "sources": 1
       }
