@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "ukraine",
-  "collectedAt": "2026-10-28T00:19:21.201Z",
+  "collectedAt": "2026-10-28T00:42:04.386Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 62
+      "count": 31
     },
     {
       "id": "kyiv-independent",
@@ -67,7 +67,7 @@
       "id": "gnews-frontline",
       "url": "https://news.google.com/rss/search?q=Ukraine%20frontline%20Pokrovsk%20Kupiansk%20offensive&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50
+      "count": 11
     },
     {
       "id": "gnews-blackout",
@@ -98,6 +98,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-18s6l0i",
+      "kind": "news",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:23:18.000Z",
+      "description": "Ukraine-Russia war latest: European leaders break ranks to hold ‘frank’ phone call with Vladimir Putin - The Independent (The Independent, 2026-10-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Independent",
+      "axis": "Other",
+      "tags": [
+        "The Independent",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Independent",
+      "source": "The Independent",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWG1mSXZnQTdOSkNkeU00dm9aM3ZvM0tRSkxwQnhXQVZ6TEJSUlJ1Wks1UGlNVG9JSVNwekpxbDdRT2J6cE1QZWpyanFPRkV6SWtXREhSTDdlSzhVT1Q4UkdEMUxyeHFhaVJRQTdOSGRSS3RIRnlWMjUzNVhxLTlGX2dRZFA0SzJzWkdONk1yTm5wSEN6M0hQMmJEdjBnVnRnSU4tOUdJeWJmdVJfOFNORHJsNUNUMUp6NWNiNnZhQzByUnM?oc=5"
+    },
     {
       "id": "gdelt-1330183715",
       "kind": "event",
@@ -677,6 +696,108 @@
       }
     },
     {
+      "id": "gdelt-1330190130",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T00:30:00.000Z",
+      "description": "Fight — Ukraine → Unspecified near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 193)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kezi.com/news/national/melania-trump-says-ceasefire-has-expanded-as-it-takes-effect-around-russian-occupied-city-of/article_677b47ba-320c-522e-a978-406a1a5aa193.html",
+      "gdelt": {
+        "globalEventId": "1330190130",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.45,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330190132",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T00:30:00.000Z",
+      "description": "Assault — Ukraine → Civilian near Kherson, Khersons'ka Oblast', Ukraine. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 46.6558,
+      "lng": 32.6178,
+      "action": "Assault (GDELT 182)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kherson, Khersons'ka Oblast', Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kezi.com/news/national/melania-trump-says-ceasefire-has-expanded-as-it-takes-effect-around-russian-occupied-city-of/article_677b47ba-320c-522e-a978-406a1a5aa193.html",
+      "gdelt": {
+        "globalEventId": "1330190132",
+        "eventCode": "182",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -2.45,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330190133",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-28T00:30:00.000Z",
+      "description": "Fight — Ukraine → Civilian near Kherson, Khersons'ka Oblast', Ukraine. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 46.6558,
+      "lng": 32.6178,
+      "action": "Fight (GDELT 190)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kherson, Khersons'ka Oblast', Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kezi.com/news/national/melania-trump-says-ceasefire-has-expanded-as-it-takes-effect-around-russian-occupied-city-of/article_677b47ba-320c-522e-a978-406a1a5aa193.html",
+      "gdelt": {
+        "globalEventId": "1330190133",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.45,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-vpjhk8",
       "kind": "news",
       "date": "2026-10-27",
@@ -774,25 +895,6 @@
       "locationStr": "Reuters",
       "source": "Reuters",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR2g4YXlhMGFuazRpZ0pOWmZpaFBZWGpCNWMzb3JOQkFMWjFVQ1c3bVo4MjJGZDZPS1h5Z3FUMUxEZllDODNtd2NkSWRUQ1hZNzR5X19OVVphRlEyZTYzb3dqclBOd0hrNXRPLVdWZ1M3YzF4TUtJSWhXZjgteXZuM2pfTTR1b1h5UGJiNW5NV2xDbFhzcDdXTDRlaWlpbnZCaXgyNU9wSzZ5UDhmalJtUXhR?oc=5"
-    },
-    {
-      "id": "news-18s6l0i",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T22:53:18.000Z",
-      "description": "Ukraine war latest: European leaders hold ‘frank’ phone call with Vladimir Putin - The Independent (The Independent, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Independent",
-      "axis": "Other",
-      "tags": [
-        "The Independent",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Independent",
-      "source": "The Independent",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWG1mSXZnQTdOSkNkeU00dm9aM3ZvM0tRSkxwQnhXQVZ6TEJSUlJ1Wks1UGlNVG9JSVNwekpxbDdRT2J6cE1QZWpyanFPRkV6SWtXREhSTDdlSzhVT1Q4UkdEMUxyeHFhaVJRQTdOSGRSS3RIRnlWMjUzNVhxLTlGX2dRZFA0SzJzWkdONk1yTm5wSEN6M0hQMmJEdjBnVnRnSU4tOUdJeWJmdVJfOFNORHJsNUNUMUp6NWNiNnZhQzByUnM?oc=5"
     },
     {
       "id": "news-7sipca",
@@ -1254,6 +1356,25 @@
       "locationStr": "Financial Times",
       "source": "Financial Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSlZrMHRhQWxzdDR0VmtsaUs4THFGSDBTODl6YWRVRXJGVVRoa0UtZjBtZmhrQVJfa2JIWVlGZWxxc1I1bm1GeEZYV2gtdlYyWXFacGU2WnpleTU4THJaTFBjVm5XZzU0WjFHTlZVd1dOX1pTTy04V2JZNDZraFpUWkJaZW4?oc=5"
+    },
+    {
+      "id": "news-1qow0wy",
+      "kind": "news",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T19:04:01.000Z",
+      "description": "'Ceasefire has commenced': Melania Trump announces Russia-Ukraine truce - Rediff (Rediff, 2026-10-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Rediff",
+      "axis": "Other",
+      "tags": [
+        "Rediff",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Rediff",
+      "source": "Rediff",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVzVYbjBCNWhIUHBjeEtFTVJ6cVV4T0FrUnZVNWxBNWVtUmxjZGdJR2VUVFppQTdGa0Y3UDV2ZTJlcHdzT0V6dWpzRlJCamszQjZtcmViQkhRQ1FqYkh5enF3YTBMbXhsdk9tZVIxbV9WZzhIZ0dYeFdBZWk0TmxHUEZNcHFScXBOdzkwYU9IOFpZVGx1TUtVWG1wbWxxbXZMaUprZDFhQmc4V05Tb04ybEFBdFpodXPSAboBQVVfeXFMT292SU1yWGN4RjRZV2h2SDYwVkJxTHhLUnhxNkJvcFNxYnRkNkNTYmY0TnkwSmk3R3d5b1JWOUZqdUY2NXhxdF9GMUF2SDRfMUJHMWpCZWw2cUNJTENwNG5BTFNRMGVGajZZNWVuYkh0NE1LbzNoNGJUWGVod1lTSGRCMHVKV3NJLXoxbWpjMDhYb01ERndXajMwZFpYM0VYZXdEb3M5NTUtUFFVN1BEY3M2QW8wMUN2akl3?oc=5"
     },
     {
       "id": "news-voxkj3",
@@ -1800,6 +1921,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb3dLYWRhMU9fOTlUWUlhOTFMVElJU2o5bWU1WGJUQ2tzYTgyMlRuRTRxeXFNSHhBWEVKblRyenNJd2sxS3Q4NUZyOHdpcWhsUnVlX1hKUUppWUUtU1F1YUFoY1BETlNWbnhad3VYSVI3cFZKbE5EYmN1T25aOFZSbkp5eHhHd2lkLWtrVEhEam95YU84OXNfRmhjOEFNNTg?oc=5"
     },
     {
+      "id": "news-16272s0",
+      "kind": "news",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T17:30:00.000Z",
+      "description": "Ukraine says Starshield back to normal, Musk says Kyiv violated terms - Arizona Digital Free Press (Arizona Digital Free Press, 2026-10-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Arizona Digital Free Press",
+      "axis": "Other",
+      "tags": [
+        "Arizona Digital Free Press",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Arizona Digital Free Press",
+      "source": "Arizona Digital Free Press",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcHdURXotVnd3cjJlZm9uMjY0ZV9NT2Vidzd5Smd0THJjU2hHWS1uek1zZi1zVENONW92eGJBMW1GaGtLM1lSVlhwZnE0VUd2R2JkQm9Bc1EwcTBYbUtndnhWaG5QVDVRdl9SUTZJYnhwXzlpeVhSc2dZZU9KZXdxMHBBc1pUNHdDb0toUTZaVnc3ZEoteHJaMkFPaHNEemF3eHRRUkdvQlE?oc=5"
+    },
+    {
       "id": "news-1xdyhpm",
       "kind": "news",
       "date": "2026-10-27",
@@ -2099,6 +2239,25 @@
       "locationStr": "Ukrinform",
       "source": "Ukrinform",
       "sourceUrl": "https://www.ukrinform.net/rubric-economy/4178714-why-ukraines-bars-cruise-missiledrone-has-caught-germanys-interest.html"
+    },
+    {
+      "id": "news-15812zh",
+      "kind": "news",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T16:28:00.000Z",
+      "description": "Localized Ukraine ceasefire brokered by Melania Trump starts as Nordic leaders speak to Putin - AP News (AP News, 2026-10-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AP News",
+      "axis": "Other",
+      "tags": [
+        "AP News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AP News",
+      "source": "AP News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVkZvYUdad3FWZ0VGLUk4emZUR3RUODJqUlhVbEJzSkdIU25PaGgzU2ZhNUN5c0dzY3dLcXpDOU5ZUU5kRUU4TEFtSTdVVUZKTlBTNUpESldXYXMxaW1RZy0wTnc4MjFpY21DZTh1S0l5dHNDbU43TmVIb01UUzFDdFRDSmpyajZMalhCdg?oc=5"
     },
     {
       "id": "news-1g7c4r4",
@@ -2749,6 +2908,25 @@
       "sourceUrl": "https://en.interfax.com.ua/news/general/1226857.html"
     },
     {
+      "id": "news-1ackg9o",
+      "kind": "news",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T14:40:32.000Z",
+      "description": "How the Seizure of a Russian Vessel Brought the Ukraine War to the Arctic - WSJ (WSJ, 2026-10-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSJ",
+      "axis": "Other",
+      "tags": [
+        "WSJ",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WSJ",
+      "source": "WSJ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSW05UHQ5YjRDajJGVFZOdDRXWVM4YWZ0ZVZEakU1R2xFWk02Z1MwWHBic3Q0ZW1BUVk0YXFRLUpwd3d1MTAtdkxsNjVxenAtLVpJakpZTDJXOEVxSHFOYVotNjc3QWE4MEhEbWktZ3cycndLc0dERDJzaU01N1EyRGJwSU1pVXliOG13TmZUZllNU1c1ak00TWVoRDlFSFFEWXBuSlBYd1pnckJKdUJQTWNqa2Y2Zw?oc=5"
+    },
+    {
       "id": "news-ibuwxj",
       "kind": "news",
       "date": "2026-10-27",
@@ -2919,25 +3097,6 @@
       "locationStr": "Ukrainska Pravda",
       "source": "Ukrainska Pravda",
       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/27/8059951/"
-    },
-    {
-      "id": "news-1ackg9o",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T14:01:56.000Z",
-      "description": "How the Seizure of a Russian Vessel Brought the Ukraine War to the Arctic - WSJ (WSJ, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "WSJ",
-      "axis": "Other",
-      "tags": [
-        "WSJ",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "WSJ",
-      "source": "WSJ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSW05UHQ5YjRDajJGVFZOdDRXWVM4YWZ0ZVZEakU1R2xFWk02Z1MwWHBic3Q0ZW1BUVk0YXFRLUpwd3d1MTAtdkxsNjVxenAtLVpJakpZTDJXOEVxSHFOYVotNjc3QWE4MEhEbWktZ3cycndLc0dERDJzaU01N1EyRGJwSU1pVXliOG13TmZUZllNU1c1ak00TWVoRDlFSFFEWXBuSlBYd1pnckJKdUJQTWNqa2Y2Zw?oc=5"
     },
     {
       "id": "news-bqjpch",
@@ -4964,6 +5123,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObW81Sy1zOHNhYU9LVHAtUEE1RzRqQ2pPNndUSEVjY3IyWHA2MUMtMy1SZ3ZIWnZ1UVoySC1oTW9tTVVCTUxNeG0wcDk5V1FMUHpTUmJNam84Z3o3YVZiaEhudFB4VmhUbUdfbVBNblplNjRPYmlaaEhTSHlqekNwUGZMdDVoOGt0VS0tN21UU1VXZVR1M3JnTzhuUGFLZFdBN0hMRUZicTI0OFREdXZIelpLeldia0JoMXFTNU5ldlM0clkzX25zb2c2d1pWR2pE?oc=5"
     },
     {
+      "id": "news-olsa7a",
+      "kind": "news",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T09:02:44.000Z",
+      "description": "Russia-Ukraine Ceasefire Begins In Oleshky To Allow Humanitarian Aid - Outlook India (Outlook India, 2026-10-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Outlook India",
+      "axis": "Other",
+      "tags": [
+        "Outlook India",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Outlook India",
+      "source": "Outlook India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcTBsRUt0aExUOTZzS3hibjJrblZuMjBUeTR1VWFGWW9Kb2c4ZUlHcExmeHBWczRTT2FOWjNYX0xDUWhZUk1oX0JhQzVxM19kWEVyYk1UUUp6NmRqV1NobWhFeXdLNzVYWDB5NDRhT2huZ1U0bGNXUFdWOFBrNW5NUDMyVEF3bHJLa21fS2xjaUw5N0RCMlo5MXlmWWRSd0VySG13Uy1sZ3FpUDlVN1lKbdIBvgFBVV95cUxQbmxkdlg5TDQ3cDFDNUpLS1o2b1B2UldpbTkwY01lSWg2WlFzQ1phRElEbXdRU3QwdmNsQ3lqdElFU2xBeksyaXRmSFNsb3JPTTVEaTNkU0lmNDYwWVZJclFyZ0hSc1JWVkVvMUZ1VmdoNEVOeVIwVWJYVlhITXYxTnNhQl9wcWM2YUExbDZQR1hOUThzVkYtRnh2c2JfeVQ2bjJKTVQtelBtZEFwUWZSRVJyT2F4cUxOU0ZzWWFB?oc=5"
+    },
+    {
       "id": "news-16552jd",
       "kind": "news",
       "date": "2026-10-27",
@@ -5235,23 +5413,19 @@
       "kind": "news",
       "date": "2026-10-27",
       "isoDate": "2026-10-27T08:18:03.000Z",
-      "description": "Ukraine Downs 2 Ballistic Missiles, 255 Russian Drones in Overnight Attack Targeting Kyiv - Kyiv Post (Kyiv Post, 2026-10-27. Headline + link only.)",
+      "description": "Ukraine Downs 257 Russian Targets, Including 2 Ballistic Missiles and 255 Drones in Overnight Attack - Kyiv Post (Kyiv Post, 2026-10-27. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Kyiv Post",
       "axis": "Other",
       "tags": [
         "Kyiv Post",
-        "headline",
-        "headline-geocoded"
+        "headline"
       ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Post",
       "source": "Kyiv Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBadE5leWI3aTF4Z3gybDJKNXFRaTJUX2ZsaXMydkI2WGZXUzZ1YTV6MFByN0RCeHdBNzJyTENvSV9fMVVWSTdSdEVKbw?oc=5",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBadE5leWI3aTF4Z3gybDJKNXFRaTJUX2ZsaXMydkI2WGZXUzZ1YTV6MFByN0RCeHdBNzJyTENvSV9fMVVWSTdSdEVKbw?oc=5"
     },
     {
       "id": "news-1vgqhru",
@@ -6503,25 +6677,6 @@
       "locationStr": "Ukrainska Pravda",
       "source": "Ukrainska Pravda",
       "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/27/8059844/"
-    },
-    {
-      "id": "news-15812zh",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T01:26:06.000Z",
-      "description": "Localized Ukraine ceasefire brokered by Melania Trump starts as Nordic leaders speak to Putin - AP News (AP News, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AP News",
-      "axis": "Other",
-      "tags": [
-        "AP News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVkZvYUdad3FWZ0VGLUk4emZUR3RUODJqUlhVbEJzSkdIU25PaGgzU2ZhNUN5c0dzY3dLcXpDOU5ZUU5kRUU4TEFtSTdVVUZKTlBTNUpESldXYXMxaW1RZy0wTnc4MjFpY21DZTh1S0l5dHNDbU43TmVIb01UUzFDdFRDSmpyajZMalhCdg?oc=5"
     },
     {
       "id": "news-jvgkjx",
@@ -43348,120 +43503,6 @@
       "lat": 49.42,
       "lng": 26.99,
       "coordsNote": "Headline gazetteer match: \"Khmelnytskyi\" (region); verify via source article."
-    },
-    {
-      "id": "news-1yn8cod",
-      "kind": "news",
-      "date": "2026-10-25",
-      "isoDate": "2026-10-25T23:20:29.000Z",
-      "description": "Zelenskiy says US fully resumes warnings on ballistic strikes - Reuters (Reuters, 2026-10-25. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVlJXU0EwamQyaDFJX05mT0UxSlNjMlBZTG9DN184ejRsOWMtSmJiVUtsVW1fV2NlVFBmUG1TVV9UVmRYZm5WcFhpOU9EV3hZWXF4R2ZFMVFkOUFPUmxOQTRMR2R6WGlFVVIyTDZJNTZqajFxaVphUjlhM3JqMkVRUUJKWTJqbm5aT0pkYmJqU3poanNDM0tkRkVvOUwySmx1UUdsZkR5MlVQVjRRU18ycnRDbDBscmpxTDdHYUFrUQ?oc=5"
-    },
-    {
-      "id": "news-qwl8nv",
-      "kind": "news",
-      "date": "2026-10-25",
-      "isoDate": "2026-10-25T23:00:00.000Z",
-      "description": "Ukraine War News Today - Top Stories and Breaking Updates from Kyiv Post (Kyiv Post, 2026-10-25. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Post",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://www.kyivpost.com/thread/88129"
-    },
-    {
-      "id": "news-1tdjhq5",
-      "kind": "news",
-      "date": "2026-10-25",
-      "isoDate": "2026-10-25T22:38:00.000Z",
-      "description": "Ukraine's foreign minister: Russia is not ready for serious negotiations (Ukrainska Pravda, 2026-10-25. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/26/8059675/"
-    },
-    {
-      "id": "news-1vt42dq",
-      "kind": "news",
-      "date": "2026-10-25",
-      "isoDate": "2026-10-25T22:34:00.000Z",
-      "description": "Ukraine receives over 230,000 doses of inactivated polio vaccine (Ukrinform, 2026-10-25. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrinform",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-society/4177911-ukraine-receives-over-230000-doses-of-inactivated-polio-vaccine.html"
-    },
-    {
-      "id": "news-13dq7dn",
-      "kind": "news",
-      "date": "2026-10-25",
-      "isoDate": "2026-10-25T22:05:05.000Z",
-      "description": "Meeting between Ukraine, Russia and US to be held next month, Zelenskyy says - Sky News (Sky News, 2026-10-25. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Sky News",
-      "axis": "Other",
-      "tags": [
-        "Sky News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Sky News",
-      "source": "Sky News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYmVzcG5NVXdibnNyOXkyckgtbmtxa0laTl9ETFpHelpHUDEtWmlLQmJ4UVBkRWdpZlNxNFlyMkZ2T0Vab0dtdVNFcFB5VEhxYU1RWlBnS0wtekRaQ3h2T1ZBcXp6dnRhY2lRSGFfTTVkMTVYMHZBZkh5RUNGQXhXS2VsNE9wMU1uUDlrQVpHZUdVUV9kTWFTcHZ2NVdOejlqb1Y3MF85cTdLNmZ5MW5R?oc=5"
-    },
-    {
-      "id": "news-ebd4t4",
-      "kind": "news",
-      "date": "2026-10-25",
-      "isoDate": "2026-10-25T21:57:28.000Z",
-      "description": "Zelensky says Serbia faces 'new chapter' after Vucic concedes defeat (Kyiv Independent, 2026-10-25. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Independent",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Independent",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Independent",
-      "source": "Kyiv Independent",
-      "sourceUrl": "https://kyivindependent.com/russian-friendly-vucic-concedes-defeat-to-student-protest-movement-in-serbian-election/"
     }
   ]
 }
