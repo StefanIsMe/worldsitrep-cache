@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-29T09:38:30.883Z",
+  "collectedAt": "2026-10-29T10:27:34.815Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 32
+      "count": 5
     },
     {
       "id": "taipei-times",
@@ -34,8 +34,8 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 47,
-      "filtered": 3
+      "count": 48,
+      "filtered": 2
     },
     {
       "id": "dw-asia",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 29,
+      "count": 44,
       "filtered": 0
     },
     {
@@ -80,8 +80,69 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 249,
+  "count": 250,
   "events": [
+    {
+      "id": "news-ky9bcl",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T09:54:00.000Z",
+      "description": "Penghu opens two new Coast Guard inspection offices - Taiwan News (Taiwan News, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Taiwan News",
+      "axis": "Other",
+      "tags": [
+        "Taiwan News",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Penghu",
+      "source": "Taiwan News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Jb25OOXJxMTByQTg4aFZ1R2gtYVBNb0JvclpreThHYlQyVElUZnFpMm1FQ204VGhlVlNZQk0tMFRFc1AzOWlpM0VZV1l2UmlKVU0tc2gtWFc?oc=5",
+      "lat": 23.57,
+      "lng": 119.59,
+      "coordsNote": "Headline gazetteer match: \"Penghu\" (city); verify via source article."
+    },
+    {
+      "id": "news-azq6km",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T09:48:24.000Z",
+      "description": "China promotes General Zhang Shengmin to Politburo (SCMP, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/military/article/3372591/china-promotes-general-zhang-shengmin-politburo"
+    },
+    {
+      "id": "news-w477ir",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T09:47:54.000Z",
+      "description": "Hegseth pitches new US-Asean defence framework, but doubts run deep (SCMP, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3372590/hegseth-pitches-new-us-asean-defence-framework-doubts-run-deep"
+    },
     {
       "id": "news-1v69o22",
       "kind": "news",
@@ -6726,44 +6787,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3372192/death-former-pm-yasuo-fukuda-leaves-void-fraught-china-japan-relations"
-    },
-    {
-      "id": "news-8fkft3",
-      "kind": "news",
-      "date": "2026-10-26",
-      "isoDate": "2026-10-26T10:19:46.000Z",
-      "description": "Why China’s new estimate on Greenland ice loss speed is 55% lower than America’s (SCMP, 2026-10-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3372129/why-chinas-new-estimate-greenland-ice-loss-speed-55-lower-americas"
-    },
-    {
-      "id": "news-k2021m",
-      "kind": "news",
-      "date": "2026-10-26",
-      "isoDate": "2026-10-26T09:58:00.000Z",
-      "description": "China condemns US designation of Confucius Institutes as threat (Straits Times, 2026-10-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/china-condemns-us-designation-of-confucius-institutes-as-threat"
     }
   ]
 }

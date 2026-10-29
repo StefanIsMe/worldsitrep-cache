@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-29T09:38:30.883Z",
+  "collectedAt": "2026-10-29T10:27:34.815Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 20
+      "count": 0
     },
     {
       "id": "aa-mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS aa-mali request failed: fetch failed"
+      "status": "ok",
+      "count": 15,
+      "filtered": 15
     },
     {
       "id": "aa-burkina",
       "url": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS aa-burkina request failed: fetch failed"
+      "status": "ok",
+      "count": 3,
+      "filtered": 6
     },
     {
       "id": "aa-niger",
       "url": "https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS aa-niger request failed: fetch failed"
+      "status": "ok",
+      "count": 5,
+      "filtered": 6
     },
     {
       "id": "gnews-sahel",
@@ -62,8 +62,8 @@
       "id": "africanews",
       "url": "https://www.africanews.com/feed/",
       "status": "ok",
-      "count": 2,
-      "filtered": 48
+      "count": 1,
+      "filtered": 49
     },
     {
       "id": "dw-africa",
@@ -103,6 +103,25 @@
   ],
   "count": 113,
   "events": [
+    {
+      "id": "news-2jbcf3",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T05:07:50.000Z",
+      "description": "Prominent Journalist 'Disappeared' for 2 Months (AllAfrica Niger, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AllAfrica Niger",
+      "axis": "Other",
+      "tags": [
+        "AllAfrica Niger",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AllAfrica Niger",
+      "source": "AllAfrica Niger",
+      "sourceUrl": "https://allafrica.com/stories/202610290120.html"
+    },
     {
       "id": "gdelt-1330389430",
       "kind": "event",
@@ -3824,25 +3843,6 @@
       "lat": 16.37004,
       "lng": -2.29002,
       "coordsNote": "OSM geocode: matched \"Mali\" → Mali; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-11lgmvv",
-      "kind": "news",
-      "date": "2026-10-26",
-      "isoDate": "2026-10-26T10:10:40.000Z",
-      "description": "Algeria to send troops to Niger in first foreign deployment in over 50 years (France 24 Africa, 2026-10-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "France 24 Africa",
-      "axis": "Other",
-      "tags": [
-        "France 24 Africa",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "France 24 Africa",
-      "source": "France 24 Africa",
-      "sourceUrl": "https://www.france24.com/en/africa/20261026-algeria-to-send-troops-to-niger-in-first-foreign-deployment-in-over-50-years"
     }
   ]
 }
