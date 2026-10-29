@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-29T02:56:34.909Z",
+  "collectedAt": "2026-10-29T09:38:30.883Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 20
     },
     {
       "id": "aa-mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
-      "status": "ok",
-      "count": 15,
-      "filtered": 15
+      "status": "failed",
+      "count": 0,
+      "error": "RSS aa-mali request failed: fetch failed"
     },
     {
       "id": "aa-burkina",
       "url": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
-      "status": "ok",
-      "count": 3,
-      "filtered": 6
+      "status": "failed",
+      "count": 0,
+      "error": "RSS aa-burkina request failed: fetch failed"
     },
     {
       "id": "aa-niger",
       "url": "https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf",
-      "status": "ok",
-      "count": 4,
-      "filtered": 5
+      "status": "failed",
+      "count": 0,
+      "error": "RSS aa-niger request failed: fetch failed"
     },
     {
       "id": "gnews-sahel",
@@ -70,7 +70,7 @@
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 0,
-      "filtered": 4
+      "filtered": 5
     },
     {
       "id": "gnews-jnim",
@@ -90,7 +90,7 @@
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 9,
+      "count": 46,
       "filtered": 0
     },
     {
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 94,
+  "count": 113,
   "events": [
     {
       "id": "gdelt-1330389430",
@@ -168,6 +168,482 @@
         "goldstein": -5,
         "tone": -6.68,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330415259",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T05:00:00.000Z",
+      "description": "Threat — President → Unspecified near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Threat (GDELT 139)",
+      "actor": "President",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dailytrust.com/on-ecowas-aes-rapprochement/",
+      "gdelt": {
+        "globalEventId": "1330415259",
+        "eventCode": "139",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -1.62,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330415292",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T05:00:00.000Z",
+      "description": "Threat — President → Mali near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Threat (GDELT 139)",
+      "actor": "President",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dailytrust.com/on-ecowas-aes-rapprochement/",
+      "gdelt": {
+        "globalEventId": "1330415292",
+        "eventCode": "139",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -1.62,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330415484",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T05:00:00.000Z",
+      "description": "Threat — Military Led → Military near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Threat (GDELT 138)",
+      "actor": "Military Led",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dailytrust.com/on-ecowas-aes-rapprochement/",
+      "gdelt": {
+        "globalEventId": "1330415484",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -1.62,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330415485",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T05:00:00.000Z",
+      "description": "Threat — Military Led → Military near Niger. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Threat (GDELT 138)",
+      "actor": "Military Led",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dailytrust.com/on-ecowas-aes-rapprochement/",
+      "gdelt": {
+        "globalEventId": "1330415485",
+        "eventCode": "138",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -1.62,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330415486",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T05:00:00.000Z",
+      "description": "Protest — Military Led → Niger near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Protest (GDELT 141)",
+      "actor": "Military Led",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dailytrust.com/on-ecowas-aes-rapprochement/",
+      "gdelt": {
+        "globalEventId": "1330415486",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -1.62,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330415487",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T05:00:00.000Z",
+      "description": "Protest — Military Led → Niger near Burkina Faso. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Protest (GDELT 141)",
+      "actor": "Military Led",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dailytrust.com/on-ecowas-aes-rapprochement/",
+      "gdelt": {
+        "globalEventId": "1330415487",
+        "eventCode": "141",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -1.62,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330417838",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T05:30:00.000Z",
+      "description": "Threat — Unspecified → Niger near Adamawa, Zinder, Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.1442,
+      "lng": 8.39926,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Adamawa, Zinder, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://leadership.ng/the-dangerous-plan-to-sublet-our-security/",
+      "gdelt": {
+        "globalEventId": "1330417838",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.03,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330425588",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T06:45:00.000Z",
+      "description": "Fight — Unspecified → Christian near Burkina Faso. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13,
+      "lng": -2,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.heraldmalaysia.com/news/acn-report-220-million-christians-face-persecution-worldwide/92778/1",
+      "gdelt": {
+        "globalEventId": "1330425588",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -10.79,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330425589",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T06:45:00.000Z",
+      "description": "Fight — Unspecified → Christian near Burkina Faso. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13,
+      "lng": -2,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.heraldmalaysia.com/news/acn-report-220-million-christians-face-persecution-worldwide/92778/1",
+      "gdelt": {
+        "globalEventId": "1330425589",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -10.79,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330426244",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T06:45:00.000Z",
+      "description": "Coercion — Niger → Journalist near Niamey, Niamey, Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5167,
+      "lng": 2.11667,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Niamey, Niamey, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610290120.html",
+      "gdelt": {
+        "globalEventId": "1330426244",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -7.12,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330430829",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T07:30:00.000Z",
+      "description": "Rejection — Government → Unspecified near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Rejection (GDELT 1233)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610290173.html",
+      "gdelt": {
+        "globalEventId": "1330430829",
+        "eventCode": "1233",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -5.22,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330431229",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T07:30:00.000Z",
+      "description": "Disapproval — Human Rights Watch → Amnesty International near Niger. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Human Rights Watch",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610290173.html",
+      "gdelt": {
+        "globalEventId": "1330431229",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.22,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330431265",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T07:30:00.000Z",
+      "description": "Disapproval — The Opposition → Niger near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "The Opposition",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610290173.html",
+      "gdelt": {
+        "globalEventId": "1330431265",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.22,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330431267",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T07:30:00.000Z",
+      "description": "Disapproval — The Opposition → Samia Suluhu near Niger. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "The Opposition",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202610290173.html",
+      "gdelt": {
+        "globalEventId": "1330431267",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.22,
+        "mentions": 8,
         "sources": 1
       }
     },
@@ -1328,6 +1804,210 @@
         "goldstein": -4,
         "tone": -4.42,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330413619",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-29T04:45:00.000Z",
+      "description": "Disapproval — Niger → France near Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/sudan-accuses-ethiopia-hosting-drones/",
+      "gdelt": {
+        "globalEventId": "1330413619",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.56,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330413620",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-29T04:45:00.000Z",
+      "description": "Disapproval — Niger → France near Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/sudan-accuses-ethiopia-hosting-drones/",
+      "gdelt": {
+        "globalEventId": "1330413620",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.56,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330413621",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-29T04:45:00.000Z",
+      "description": "Disapproval — Niger → France near Niger. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/sudan-accuses-ethiopia-hosting-drones/",
+      "gdelt": {
+        "globalEventId": "1330413621",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.56,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330413622",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-29T04:45:00.000Z",
+      "description": "Disapproval — Niger → Chad near Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/sudan-accuses-ethiopia-hosting-drones/",
+      "gdelt": {
+        "globalEventId": "1330413622",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.56,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330413623",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-29T04:45:00.000Z",
+      "description": "Disapproval — Niger → Chad near Niger. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/sudan-accuses-ethiopia-hosting-drones/",
+      "gdelt": {
+        "globalEventId": "1330413623",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.56,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330413624",
+      "kind": "event",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:00:00.000Z",
+      "observedAt": "2026-10-29T04:45:00.000Z",
+      "description": "Disapproval — Niger → Chad near Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/sudan-accuses-ethiopia-hosting-drones/",
+      "gdelt": {
+        "globalEventId": "1330413624",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.56,
+        "mentions": 1,
         "sources": 1
       }
     },
@@ -3163,25 +3843,6 @@
       "locationStr": "France 24 Africa",
       "source": "France 24 Africa",
       "sourceUrl": "https://www.france24.com/en/africa/20261026-algeria-to-send-troops-to-niger-in-first-foreign-deployment-in-over-50-years"
-    },
-    {
-      "id": "news-cretgq",
-      "kind": "news",
-      "date": "2026-10-26",
-      "isoDate": "2026-10-26T09:02:33.000Z",
-      "description": "Niger imposes overnight fuel sales curfew amid nationwide shortage (Africanews, 2026-10-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Africanews",
-      "axis": "Other",
-      "tags": [
-        "Africanews",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Africanews",
-      "source": "Africanews",
-      "sourceUrl": "http://www.africanews.com/2026/10/25/niger-imposes-overnight-fuel-sales-curfew-amid-nationwide-shortage/"
     }
   ]
 }
