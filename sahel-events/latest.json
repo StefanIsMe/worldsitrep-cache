@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-29T16:45:32.144Z",
+  "collectedAt": "2026-10-29T17:07:19.691Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 9
+      "count": 0
     },
     {
       "id": "aa-mali",
@@ -33,9 +33,9 @@
     {
       "id": "gnews-sahel",
       "url": "https://news.google.com/rss/search?q=Sahel%20Mali%20Burkina%20Niger&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-sahel request failed with HTTP 503"
     },
     {
       "id": "rfi-africa",
@@ -47,9 +47,9 @@
     {
       "id": "france24-africa",
       "url": "https://www.france24.com/en/africa/rss",
-      "status": "ok",
-      "count": 3,
-      "filtered": 27
+      "status": "failed",
+      "count": 0,
+      "error": "RSS france24-africa request failed with HTTP 403"
     },
     {
       "id": "bbc-africa",
@@ -75,23 +75,23 @@
     {
       "id": "gnews-jnim",
       "url": "https://news.google.com/rss/search?q=Mali%20Bamako%20JNIM%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-jnim request failed with HTTP 503"
     },
     {
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-burkina request failed with HTTP 503"
     },
     {
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 10,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-niger request failed with HTTP 503"
     },
     {
       "id": "reliefweb",
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 122,
+  "count": 121,
   "events": [
     {
       "id": "news-icn6q3",
@@ -4126,25 +4126,6 @@
         "mentions": 3,
         "sources": 1
       }
-    },
-    {
-      "id": "news-10nzeej",
-      "kind": "news",
-      "date": "2026-10-26",
-      "isoDate": "2026-10-26T17:00:09.000Z",
-      "description": "Algeria to send troops to Niger in first foreign deployment since 1973 (BBC Africa, 2026-10-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC Africa",
-      "axis": "Other",
-      "tags": [
-        "BBC Africa",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "BBC Africa",
-      "source": "BBC Africa",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4g14n1e5wko?at_medium=RSS&at_campaign=rss"
     }
   ]
 }

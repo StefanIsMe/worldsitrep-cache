@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-29T16:45:32.144Z",
+  "collectedAt": "2026-10-29T17:07:19.691Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 43
+      "count": 5
     },
     {
       "id": "gcaptain",
@@ -26,16 +26,16 @@
     {
       "id": "gnews-houthis",
       "url": "https://news.google.com/rss/search?q=Houthis%20Yemen%20Red%20Sea&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-houthis request failed with HTTP 503"
     },
     {
       "id": "gnews-shipping",
       "url": "https://news.google.com/rss/search?q=Red%20Sea%20shipping%20Houthi%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-shipping request failed with HTTP 503"
     },
     {
       "id": "splash247",
@@ -61,16 +61,16 @@
     {
       "id": "gnews-hodeidah",
       "url": "https://news.google.com/rss/search?q=Hodeidah%20Sanaa%20airstrike%20Houthi&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-hodeidah request failed with HTTP 503"
     },
     {
       "id": "gnews-mandeb",
       "url": "https://news.google.com/rss/search?q=Bab%20el-Mandeb%20vessel%20drone%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-mandeb request failed with HTTP 503"
     },
     {
       "id": "reliefweb",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 406,
+  "count": 405,
   "events": [
     {
       "id": "news-17lgu4j",
@@ -12689,25 +12689,6 @@
       "lat": 15.5,
       "lng": 41.5,
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
-    },
-    {
-      "id": "news-1ts8hfx",
-      "kind": "news",
-      "date": "2026-10-26",
-      "isoDate": "2026-10-26T17:05:09.000Z",
-      "description": "Saudi-led coalition says it destroyed Houthi missile facilities, and other Mideast news - Newsday (Newsday, 2026-10-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Newsday",
-      "axis": "Other",
-      "tags": [
-        "Newsday",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Newsday",
-      "source": "Newsday",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5jQThDNHh3RGlrWDVoRHFlNEl6TWpkOWhaRjBqN0lCMG8tS0tEQ0RkeGlreFc4akhiajRONDhmVmQ0YktUWmRlN2hsemVDdnptSlk0OFRnMzMxb0NudV9UeXFwZnNHcTBjLU82MFoyanc3VUVaY0E1OHJBRQ?oc=5"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-29T16:45:32.144Z",
+  "collectedAt": "2026-10-29T17:07:19.691Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -26,23 +26,23 @@
     {
       "id": "gnews-election",
       "url": "https://news.google.com/rss/search?q=US%20election%20Trump%202028&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 45,
-      "filtered": 5
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-election request failed with HTTP 503"
     },
     {
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Trump%20tariffs%20executive%20order&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 49,
-      "filtered": 1
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-policy request failed with HTTP 503"
     },
     {
       "id": "thehill",
       "url": "https://thehill.com/feed/",
       "status": "ok",
-      "count": 29,
-      "filtered": 21
+      "count": 30,
+      "filtered": 20
     },
     {
       "id": "politico-congress",
@@ -61,9 +61,9 @@
     {
       "id": "rollcall-congress",
       "url": "https://rollcall.com/section/congress/rss",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS rollcall-congress request timed out after 25000 ms"
+      "status": "ok",
+      "count": 4,
+      "filtered": 6
     },
     {
       "id": "axios",
@@ -75,23 +75,23 @@
     {
       "id": "gnews-protest",
       "url": "https://news.google.com/rss/search?q=Trump%20protest%20National%20Guard%20deployment&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-protest request failed with HTTP 503"
     },
     {
       "id": "gnews-courts",
       "url": "https://news.google.com/rss/search?q=federal%20judge%20blocks%20executive%20order%20ruling&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-courts request failed with HTTP 503"
     },
     {
       "id": "gnews-midterms",
       "url": "https://news.google.com/rss/search?q=US%20midterm%20elections%202026%20polls&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 49,
-      "filtered": 1
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-midterms request failed with HTTP 503"
     },
     {
       "id": "reliefweb",
@@ -101,8 +101,103 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 519,
+  "count": 517,
   "events": [
+    {
+      "id": "news-1qgj2v6",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T17:10:02.000Z",
+      "description": "CNN, MSNOW and Politico ask court to make Trump access order permanent (PBS NewsHour, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "PBS NewsHour",
+      "axis": "Other",
+      "tags": [
+        "PBS NewsHour",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "PBS NewsHour",
+      "source": "PBS NewsHour",
+      "sourceUrl": "https://www.pbs.org/newshour/politics/cnn-msnow-and-politico-ask-court-to-make-trump-access-order-permanent"
+    },
+    {
+      "id": "news-dbrtns",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T17:07:19.000Z",
+      "description": "Vance undecided on whether Peltola should be prosecuted (The Hill, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6181657-vance-peltola-alaska-senate-prosecution/"
+    },
+    {
+      "id": "news-smkinh",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T17:00:00.000Z",
+      "description": "The race for Texas governor will decide control of the House (The Hill, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/opinion/campaign/6179939-texas-governor-race-house-redistricting/"
+    },
+    {
+      "id": "news-hrflgh",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T16:54:46.000Z",
+      "description": "West Virginia sues TikTok, alleging app is &#8216;harming kids&#8217; (The Hill, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/policy/technology/6181606-west-virginia-sues-tiktok/"
+    },
+    {
+      "id": "news-1p1gzt4",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T16:53:41.000Z",
+      "description": "Republican committee chair wants testimony from operatives accused of meddling in Alaska Senate race (Politico, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Politico",
+      "axis": "Other",
+      "tags": [
+        "Politico",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Politico",
+      "source": "Politico",
+      "sourceUrl": "https://www.politico.com/live-updates/2026/10/29/congress/house-probes-alaska-senate-race-01140772"
+    },
     {
       "id": "news-1dqhr7t",
       "kind": "news",
@@ -10034,143 +10129,6 @@
       "locationStr": "Axios",
       "source": "Axios",
       "sourceUrl": "https://www.axios.com/2026/10/26/eisenkot-netanyahu-israel-elections"
-    },
-    {
-      "id": "news-9rqshj",
-      "kind": "news",
-      "date": "2026-10-26",
-      "isoDate": "2026-10-26T17:07:16.000Z",
-      "description": "Greene says &#8216;Trump has become a curse to Republican candidates&#8217; ahead of Election Day (The Hill, 2026-10-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6172800-greene-criticizes-trump-midterms/"
-    },
-    {
-      "id": "news-r8zhq8",
-      "kind": "news",
-      "date": "2026-10-26",
-      "isoDate": "2026-10-26T17:06:34.000Z",
-      "description": "&#8216;Cheesecake Factory&#8217;: Obama trashes Trump despite numerous failures (The Hill, 2026-10-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/opinion/robbys-radar/6172875-obama-trump-cheesecake-factory/"
-    },
-    {
-      "id": "news-1tc9evo",
-      "kind": "news",
-      "date": "2026-10-26",
-      "isoDate": "2026-10-26T17:03:00.000Z",
-      "description": "Trump admin illegally fired Maurene Comey, judge rules - Politico (Politico, 2026-10-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Politico",
-      "axis": "Other",
-      "tags": [
-        "Politico",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Politico",
-      "source": "Politico",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBTUF9IN2t4cFNTUG80d0dsem4yWE8tUEtweWswUm92dko0M25wTEtIUlBPUnRHS2NWWk0xd3FyaDJ0cS1lWXJqbk14U3FlUjdHSUd5RmY2ZERMN182M2p3ejYtRVZTVkJQaThIcmpRYmhCakRReXNF?oc=5"
-    },
-    {
-      "id": "news-ihw5qs",
-      "kind": "news",
-      "date": "2026-10-26",
-      "isoDate": "2026-10-26T17:02:53.000Z",
-      "description": "Asian voters are swinging toward Talarico in Texas. Dems still say more outreach is needed. (Politico, 2026-10-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Politico",
-      "axis": "Other",
-      "tags": [
-        "Politico",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Texas",
-      "source": "Politico",
-      "sourceUrl": "https://www.politico.com/live-updates/2026/10/26/congress/asian-american-voters-texas-talarico-01135267",
-      "lat": 31.26389,
-      "lng": -98.54561,
-      "coordsNote": "OSM geocode: matched \"Texas\" → Texas, United States; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-14kl40a",
-      "kind": "news",
-      "date": "2026-10-26",
-      "isoDate": "2026-10-26T17:02:12.000Z",
-      "description": "Trump administration sued over refugee policy changes (The Hill, 2026-10-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/regulation/court-battles/6172794-advocacy-groups-sue-trump-refugee-policy/"
-    },
-    {
-      "id": "news-16ayvqt",
-      "kind": "news",
-      "date": "2026-10-26",
-      "isoDate": "2026-10-26T17:00:00.000Z",
-      "description": "California has become unaffordable — but Congress can do something about it (The Hill, 2026-10-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/opinion/congress-blog/6171529-vessel-at-berth-rule-cost-relief/"
-    },
-    {
-      "id": "news-19oqu5g",
-      "kind": "news",
-      "date": "2026-10-26",
-      "isoDate": "2026-10-26T16:53:37.000Z",
-      "description": "What are the US midterms? A simple guide - BBC (BBC, 2026-10-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC",
-      "axis": "Other",
-      "tags": [
-        "BBC",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "BBC",
-      "source": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wd0RneUNSNlg5bGN0R0hkTUduOVprdWhJQWpMM1NScmZrb0F0YzFaY0NybUs3OGxHQ2J3em94M1gtOWpaVXFVaFF3WEV3RkhnSzZCdlY0ZldlRnM?oc=5"
     }
   ]
 }
