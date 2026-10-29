@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-29T02:42:50.658Z",
+  "collectedAt": "2026-10-29T02:56:34.909Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 16
+      "count": 0
     },
     {
       "id": "taipei-times",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 11,
-      "filtered": 39
+      "count": 12,
+      "filtered": 38
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 29,
+      "count": 45,
       "filtered": 0
     },
     {
@@ -80,8 +80,31 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 205,
+  "count": 207,
   "events": [
+    {
+      "id": "news-1cmg8li",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T02:48:00.000Z",
+      "description": "US bans imports from 3 Chinese genomics companies, citing ties to forced labour in Xinjiang (Straits Times, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Xinjiang",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/us-bans-imports-from-3-chinese-genomics-companies-citing-ties-to-forced-labour-in-xinjiang",
+      "lat": 22.63555,
+      "lng": 120.30362,
+      "coordsNote": "OSM geocode: matched \"Xinjiang\" → Xinjiang Village, Xinxing District, Kaohsiung; © OpenStreetMap contributors."
+    },
     {
       "id": "news-14cwv9c",
       "kind": "news",
@@ -100,6 +123,25 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/taiwan-flags-obvious-threat-from-50-chinese-vessels-in-wide-sweep-of-waters"
+    },
+    {
+      "id": "news-1pjrenb",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T02:26:09.000Z",
+      "description": "Taiwan flags ‘obvious’ threat from 50 Chinese vessels in wide sweep of waters (Straits Times, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/taiwan-flags-obvious-threat-from-50-chinese-vessels-in-wide-sweep-of-waters"
     },
     {
       "id": "news-izjex8",

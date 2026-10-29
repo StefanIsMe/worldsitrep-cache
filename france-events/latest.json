@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-10-29T02:42:50.658Z",
+  "collectedAt": "2026-10-29T02:56:34.909Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 39
+      "count": 17
     },
     {
       "id": "gnews-france-protests",
@@ -20,7 +20,7 @@
       "id": "gnews-lycees",
       "url": "https://news.google.com/rss/search?q=France%20lyc%C3%A9es%20blockades&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 37,
+      "count": 13,
       "filtered": 0
     },
     {
@@ -52,7 +52,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 824,
+  "count": 827,
   "events": [
     {
       "id": "gdelt-1330381412",
@@ -1313,6 +1313,74 @@
       }
     },
     {
+      "id": "gdelt-1330402500",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T02:45:00.000Z",
+      "description": "Protest — Paris → Jerusalem near Paris, France (general), France. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Protest (GDELT 141)",
+      "actor": "Paris",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://openthemagazine.com/world/israel-election-deadlock-netanyahu-short-of-majority-arab-parties-hold-the-key",
+      "gdelt": {
+        "globalEventId": "1330402500",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -3.77,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330402502",
+      "kind": "event",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T02:45:00.000Z",
+      "description": "Coercion — Paris → Jerusalem near Paris, France (general), France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Paris",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/world/middle-east/from-the-river-to-the-sea-hundreds-rally-across-israel-for-jewish-arab-government-as-election-count-continues/articleshow/135286444.cms",
+      "gdelt": {
+        "globalEventId": "1330402502",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -2.64,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-18ki6pu",
       "kind": "news",
       "date": "2026-10-28",
@@ -1657,6 +1725,25 @@
       "locationStr": "France 24",
       "source": "France 24",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQU3Uyd1ZndkhOZGotQVlGNW1MdzFJNGRjQkoxWk1VOEYwbDZkcjZoaHYwMVJfUWpDNzlUc1hVSWxZX3VWcFZsZ3dFYzFDcWJOVW1QNk83ZndwcWdDemtLMktvdVpTdUFPZUY4aWVCX3Z4OWtLS25vN2dzNzZGYld2eFFUbHJGUDA3Y1JiamxVOHYzNkJOb0VYNWpRem56X1N4WXF5dWZCcVNnQTJLZEtseC15RQ?oc=5"
+    },
+    {
+      "id": "news-1sg460c",
+      "kind": "news",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T00:10:35.000Z",
+      "description": "French Senate backs 'make rioters pay' bill despite rights concerns - France 24 (France 24, 2026-10-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24",
+      "axis": "Other",
+      "tags": [
+        "France 24",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "France 24",
+      "source": "France 24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNY2MzVTVlUWw5NXZIaXM4WWtuOXJDVUxIcVBnMFM2UW82YV9tbVVqT3BmYjJiM1k3NWVseUdjb0lLWF9WejJ1eVpXaGs0YTNlRVBVQnNvX1NMV3JSS0U5U1djNk83MkQ1bVJwLTBCUjFnZU5oVGpUbG1ndjc5YmtiUmdna1Bhb3JFRXFxYTZLdFBNZFktNXRRZ2dONXU4QnRXbi16ODR5VjgxU29yV0MtQ2lHb3N0OWtpTl9IQ0NwMzJVWWpiVV80ZUs3Qm8?oc=5"
     },
     {
       "id": "news-2eq3bf",
