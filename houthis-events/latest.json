@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-10-30T15:13:38.196Z",
+  "collectedAt": "2026-10-30T16:17:11.205Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 32
+      "count": 2
     },
     {
       "id": "gcaptain",
@@ -69,7 +69,7 @@
       "id": "gnews-mandeb",
       "url": "https://news.google.com/rss/search?q=Bab%20el-Mandeb%20vessel%20drone%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 32,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 363,
+  "count": 369,
   "events": [
+    {
+      "id": "news-1s751cu",
+      "kind": "news",
+      "date": "2026-10-30",
+      "isoDate": "2026-10-30T15:41:02.000Z",
+      "description": "Saudi Arabia Plans Multi-Front Houthi Assault as Egypt Authorizes Support - https://houseofsaud.com/ (https://houseofsaud.com/, 2026-10-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "https://houseofsaud.com/",
+      "axis": "Other",
+      "tags": [
+        "https://houseofsaud.com/",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "https://houseofsaud.com/",
+      "source": "https://houseofsaud.com/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zMGJBTEVHZFc2clZwYnE1b29QZTFNbnBjMXJqSFBNSWdrcVpQaVhGckhySloyYkdPNDhBd2FYbVl5QWZBcnItQXNqZERjVi1rWFV1Z1RFakhDdVNRVGZqRkxNQQ?oc=5"
+    },
     {
       "id": "news-1nwch0u",
       "kind": "news",
@@ -2672,6 +2691,74 @@
       }
     },
     {
+      "id": "gdelt-1330690886",
+      "kind": "event",
+      "date": "2026-10-30",
+      "isoDate": "2026-10-30T00:00:00.000Z",
+      "observedAt": "2026-10-30T16:15:00.000Z",
+      "description": "Fight — Government Forces → Yemen near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Fight (GDELT 192)",
+      "actor": "Government Forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://en.shafaqna.com/488269/unhcr-over-280000-people-have-now-been-displaced-in-yemen/",
+      "gdelt": {
+        "globalEventId": "1330690886",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -14.48,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330691173",
+      "kind": "event",
+      "date": "2026-10-30",
+      "isoDate": "2026-10-30T00:00:00.000Z",
+      "observedAt": "2026-10-30T16:15:00.000Z",
+      "description": "Fight — Fighter → Yemen near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Fight (GDELT 192)",
+      "actor": "Fighter",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://en.shafaqna.com/488269/unhcr-over-280000-people-have-now-been-displaced-in-yemen/",
+      "gdelt": {
+        "globalEventId": "1330691173",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -14.48,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-2smt11",
       "kind": "news",
       "date": "2026-10-29",
@@ -2714,10 +2801,29 @@
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
     },
     {
+      "id": "news-gydlj",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T17:09:38.000Z",
+      "description": "Israeli-owned cargo ship sinks in Black Sea after being struck by drones - The Jewish Chronicle (The Jewish Chronicle, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Jewish Chronicle",
+      "axis": "Other",
+      "tags": [
+        "The Jewish Chronicle",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Jewish Chronicle",
+      "source": "The Jewish Chronicle",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUFR5VnY0eHYyNllBZU1vSkJjY1BWWjdVZk9PWXZRaGFfcGVCRTBCVUg5Y1dFLWNfRnJxWWpRa2FCbGtqNkdvRWhqdkhzYXhfQlhjcHJZRnphLWp0RkxKTi1sMFpDcDNNM0QwSDRXMXZGa3hoSEEtQWJ5bTNQbXNwM1BQc0JzQlhKMFEtM3F2X2YzR09NaUw1aHpjaFphUUJaSkZMV3F5SnVRQUlYd3c0RW1HX0p2Zw?oc=5"
+    },
+    {
       "id": "news-6cs0op",
       "kind": "news",
       "date": "2026-10-29",
-      "isoDate": "2026-10-29T14:37:00.000Z",
+      "isoDate": "2026-10-29T16:30:49.000Z",
       "description": "Naval Drones Sink Israeli-operated Cargo Ship Off Bulgaria's Black Sea Coast - i24NEWS (i24NEWS, 2026-10-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -2731,6 +2837,25 @@
       "locationStr": "i24NEWS",
       "source": "i24NEWS",
       "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS2oyT2JkdV85eEZJc0Q5N1JpOE5qUm1QaHh1cFpFZnlzdWJkSFNEYklaMUxsWW5udldTSTVrRU9RZTBMTUl5UGtkZjN3WlQtd1JfV1NjRkJETUtTWkZtUWhXUFQ5bWRaLWpmZ3h6QWQtOTlLVnBsRlhwQjh2VmNndHdUSmdaM0VHdzFUU0hBbkpPdEp2Ui1MZUFVRWVnWk9hUVNxT0ozTTItQVp0V3NjWDBLTVluRUpzOEVCLWg3TWhqYXVPZ3V0VnB2Z2Rtdw?oc=5"
+    },
+    {
+      "id": "news-1bbj6ld",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T15:26:34.000Z",
+      "description": "Ship reported on fire off Oman as Iran escalation fears mount - DW.com (DW.com, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW.com",
+      "axis": "Other",
+      "tags": [
+        "DW.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DW.com",
+      "source": "DW.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ2dRc0I2TV95T3NwVVpjTTlfdEVFRmhtSVNodHJldWJPRmlIc0FSaEZDT1dDc1EyRXFzS2wyZ2plbUR0a2VJYlJVcTI1cC1pQkxJLWVoVUxVMEpwV3pzNWJuZkVZYWhzTGlzM2xNM0NMSDFBU3pZdHRFZTcydmlqTi1KS0JweldPZkE1NXBmVVNjeGI3bnA1Njd30gGaAUFVX3lxTE83SUhOOGxnaFlXcHhMZXdtLWRab2tqczRxeXNWdkVMSEYwc3NIWTBDZzJ1N1J2aFZnSnZMWU1ncmgtMnZISEtWQ1p4RXNGZ1FBazlKYWlGVmxZSWNBX0pOOHRCSjRQZ2FwbWh5SmdnOUlmVTJsT1FiZDlKbjJkMl9MM1Y4dEw0Z2dDSGRTZnBQRVZHeUVVZFVObmc?oc=5"
     },
     {
       "id": "news-1nmzupt",
@@ -2813,6 +2938,25 @@
       "sourceUrl": "https://theloadstar.com/vessel-operators-need-to-prepare-for-compliance-as-uk-ets-looms/"
     },
     {
+      "id": "news-f0um2q",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T11:29:45.000Z",
+      "description": "ZIM-operated cargo ship sinks in Black Sea after drone attack - www.israelhayom.com (www.israelhayom.com, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "www.israelhayom.com",
+      "axis": "Other",
+      "tags": [
+        "www.israelhayom.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "www.israelhayom.com",
+      "source": "www.israelhayom.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVU9lLXBBVzdhdldhaWpLOGQzWTRMQ2IzWi1KVldMYTBsSjRpTzMwOU5VMHlVWnp1Q3FWaHRWRXh0cW45c0FldlN0T2dleEJzX2hFRDRoMGRuWWtGSFJFZHZhMVNlenVaZlpHVG5iY0l3emZBblNsd29vYlM4SVd4YnpQVk5USFdCM2ZjSk5QS3NYRk9ENTNiTWpONmNFUkJDWEZrOWpOeHQ?oc=5"
+    },
+    {
       "id": "news-1p7mloq",
       "kind": "news",
       "date": "2026-10-29",
@@ -2855,23 +2999,23 @@
       "sourceUrl": "https://gcaptain.com/taiwan-flags-obvious-threat-from-50-chinese-vessels-in-wide-sweep-of-waters/"
     },
     {
-      "id": "news-1bbj6ld",
+      "id": "news-fn05qy",
       "kind": "news",
       "date": "2026-10-29",
-      "isoDate": "2026-10-29T10:10:11.000Z",
-      "description": "Ship reported on fire off Oman as Iran escalation fears mount - DW.com (DW.com, 2026-10-29. Headline + link only.)",
+      "isoDate": "2026-10-29T09:54:06.000Z",
+      "description": "Ship sinks off Bulgaria’s Black Sea coast after being hit by drones - FOX 5 San Diego & KUSI News (FOX 5 San Diego &amp; KUSI News, 2026-10-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "DW.com",
+      "actor": "FOX 5 San Diego &amp; KUSI News",
       "axis": "Other",
       "tags": [
-        "DW.com",
+        "FOX 5 San Diego &amp; KUSI News",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "DW.com",
-      "source": "DW.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ2dRc0I2TV95T3NwVVpjTTlfdEVFRmhtSVNodHJldWJPRmlIc0FSaEZDT1dDc1EyRXFzS2wyZ2plbUR0a2VJYlJVcTI1cC1pQkxJLWVoVUxVMEpwV3pzNWJuZkVZYWhzTGlzM2xNM0NMSDFBU3pZdHRFZTcydmlqTi1KS0JweldPZkE1NXBmVVNjeGI3bnA1Njd30gGaAUFVX3lxTE83SUhOOGxnaFlXcHhMZXdtLWRab2tqczRxeXNWdkVMSEYwc3NIWTBDZzJ1N1J2aFZnSnZMWU1ncmgtMnZISEtWQ1p4RXNGZ1FBazlKYWlGVmxZSWNBX0pOOHRCSjRQZ2FwbWh5SmdnOUlmVTJsT1FiZDlKbjJkMl9MM1Y4dEw0Z2dDSGRTZnBQRVZHeUVVZFVObmc?oc=5"
+      "locationStr": "FOX 5 San Diego &amp; KUSI News",
+      "source": "FOX 5 San Diego &amp; KUSI News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVWlXQUg2WExrcW9XdXJQeWJ6MW1tUXl6cm40bk1nbVdCaDJPRkZpeE9pU3lhb2ozLVRoNTJxNThJQW55YWE5dDJmVl9WbjItcVdlV3lmRlFvX3E4UHp1bGdTVWhDY1dUcWdOTDFSUFNTN1dtM0ZTUFhLcHhvWDBndmdaUElZdEdwM0g0bHVVbDJrMDJHamJkM05FTUZaZUgyQXg2c0dsazFhQkdDV3dVX3FSb0ExeE1mN21NbENIUnNPbWZleHI00gHMAUFVX3lxTE51VFdBbFBVejhoaXNYVWMyMk9iejdtLUMxX1hUMERXUXVKZTY1em9ndUp6WnFPY2xIRnozeWJ5VjIyT0U5MVNoWVBFZDI0Z2JuU1dHZk93QUIxcXF0djk0MC1rZ2NSU2R6Y3JHWGNXSnBrMVJOd0wxUUxtMlpCX0ZuNjZtZ2JMa3dza0xWZGtnaVhHcTFVbGtYUkxITXZpOFBxY3pzX1dDNlNOWmUwTkE4dTNVX1QzYXZ2LW1SWUQwd0YyLXF1MWtCNGI4Mg?oc=5"
     },
     {
       "id": "news-sygosz",
@@ -2986,6 +3130,25 @@
       "locationStr": "Responsible Statecraft",
       "source": "Responsible Statecraft",
       "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MN1dDTjhWRlpCaVRyYWVMaXF6azN5cnkwRzFXd19OelFJNTc1S1R0a0VyM3Fnc1ZfOXdPMVFqSnhVSG5rYVVXTXU4a2hHVWw0UFFhZEJ6cm5jNVozWW5qWG4yMlNSclp2ZmNHZnFB?oc=5"
+    },
+    {
+      "id": "news-wr0bke",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T04:36:00.000Z",
+      "description": "Drones strike a container ship off Bulgaria's Black Sea coast and its crew members are rescued - AP News (AP News, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AP News",
+      "axis": "Other",
+      "tags": [
+        "AP News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AP News",
+      "source": "AP News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWFVkeGE0Tmxsa1RWWmRlM2g0Y29GRTNfUmxoUm5qME01RFhJbVd5YjlDdUpVS3FDakd0WHphVmkyQXV5Ry1xZTl4RnJtcEJFX1ZxMGxlYlhLbmE2dmdiQkt6OEhmSVNOa0RkQVhuVGFzNVN1Uk5qbVk4TXdMSkdmcEhWaE5BOHREajl3bnQ0UmE0bkRzRHdYX1g4ODdTdzdjTjRhZFhOTjI2Zw?oc=5"
     },
     {
       "id": "news-18b04ik",
@@ -7096,29 +7259,10 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYnMwajhYMmNaQ1NYb3h5aTJISDRUbHQySzJPNmE5THR0bjdObzlsYlBaUUM3N05CLTJJTEYyOTdxLXRqVFhueTdzd0VBbzdNdmRuZTlPUWZGUHlrUWNMNFcwUGlQS0RmdTRpd0lOdGp3NFZyVXRXX0lYM2E4SG1oUm1Sb3o0QlkwZVIwdEVxa3pxWHZISzFFeXp3akE2S1BnWmFnTXVLdnJDUFRFcTI1SE13?oc=5"
     },
     {
-      "id": "news-wr0bke",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T15:58:00.000Z",
-      "description": "Drone attack hits container ship off Bulgaria’s Black Sea coast; all crew members rescued - AP News (AP News, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AP News",
-      "axis": "Other",
-      "tags": [
-        "AP News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWFVkeGE0Tmxsa1RWWmRlM2g0Y29GRTNfUmxoUm5qME01RFhJbVd5YjlDdUpVS3FDakd0WHphVmkyQXV5Ry1xZTl4RnJtcEJFX1ZxMGxlYlhLbmE2dmdiQkt6OEhmSVNOa0RkQVhuVGFzNVN1Uk5qbVk4TXdMSkdmcEhWaE5BOHREajl3bnQ0UmE0bkRzRHdYX1g4ODdTdzdjTjRhZFhOTjI2Zw?oc=5"
-    },
-    {
       "id": "news-7ns9ch",
       "kind": "news",
       "date": "2026-10-28",
-      "isoDate": "2026-10-28T14:22:20.000Z",
+      "isoDate": "2026-10-28T14:19:47.000Z",
       "description": "French Frigate Intercepts Ballistic Missile in Red Sea - Мілітарний (Мілітарний, 2026-10-28. Headline + link only.)",
       "type": "other",
       "action": "News report",
