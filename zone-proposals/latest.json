@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-10-30T01:43:15.491Z",
+  "collectedAt": "2026-10-30T06:21:36.524Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 222,
+  "coarseGdeltDropped": 206,
   "outsideTheatreDropped": 13,
   "proposals": [
     {
@@ -15,39 +15,39 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 335,
+      "eventCount": 315,
       "kinds": {
-        "combat": 105,
-        "other": 224,
-        "strike": 6
+        "other": 210,
+        "combat": 100,
+        "strike": 5
       },
       "tierCounts": {
-        "approximate": 335
+        "approximate": 315
       },
-      "combatCount": 111,
-      "newestIsoDate": "2026-10-30T00:00:00.000Z",
+      "combatCount": 105,
+      "newestIsoDate": "2026-10-30T05:26:00.000Z",
       "samples": [
         {
+          "id": "news-p383kd",
+          "isoDate": "2026-10-30T05:26:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/30/8060384/"
+        },
+        {
+          "id": "news-wv6lbg",
+          "isoDate": "2026-10-30T01:12:48.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBOOVhxRGZoT3VNeFhKZlJLR09PSnBHMFlBdGhtNTY2enR0Q2RpeVhDakZTV0k2LUZkb2psZkZZN2FCeGY5RnU0aWFuMA?oc=5"
+        },
+        {
           "id": "gdelt-1330573174",
-          "isoDate": "2026-10-30T00:00:00.000Z",
-          "sourceUrl": "https://jowhar.com/russian-strike-on-ukrainian-train-station-leaves-14-dead/"
-        },
-        {
-          "id": "gdelt-1330573213",
-          "isoDate": "2026-10-30T00:00:00.000Z",
-          "sourceUrl": "https://jowhar.com/russian-strike-on-ukrainian-train-station-leaves-14-dead/"
-        },
-        {
-          "id": "gdelt-1330573216",
           "isoDate": "2026-10-30T00:00:00.000Z",
           "sourceUrl": "https://jowhar.com/russian-strike-on-ukrainian-train-station-leaves-14-dead/"
         }
       ],
       "centroid": {
-        "lat": 50.4371,
-        "lng": 30.3592
+        "lat": 50.4415,
+        "lng": 30.3321
       },
-      "radiusKm": 21.8
+      "radiusKm": 25.4
     },
     {
       "zoneId": "occ-kherson",
@@ -56,16 +56,16 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 149,
+      "eventCount": 159,
       "kinds": {
-        "other": 92,
-        "combat": 46,
-        "strike": 11
+        "other": 94,
+        "combat": 51,
+        "strike": 14
       },
       "tierCounts": {
-        "approximate": 149
+        "approximate": 159
       },
-      "combatCount": 57,
+      "combatCount": 65,
       "newestIsoDate": "2026-10-30T00:00:00.000Z",
       "samples": [
         {
@@ -85,10 +85,51 @@
         }
       ],
       "centroid": {
-        "lat": 46.5686,
-        "lng": 32.4881
+        "lat": 46.5612,
+        "lng": 32.471
       },
-      "radiusKm": 17.6
+      "radiusKm": 17.3
+    },
+    {
+      "zoneId": "occ-zaporizhzhia",
+      "region": "Zaporizhzhia Oblast",
+      "center": {
+        "lat": 47,
+        "lng": 35.5
+      },
+      "eventCount": 70,
+      "kinds": {
+        "other": 53,
+        "combat": 16,
+        "strike": 1
+      },
+      "tierCounts": {
+        "approximate": 70
+      },
+      "combatCount": 17,
+      "newestIsoDate": "2026-10-30T05:28:39.000Z",
+      "samples": [
+        {
+          "id": "news-1xdyk5l",
+          "isoDate": "2026-10-30T05:28:39.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/88615"
+        },
+        {
+          "id": "news-1wnfxit",
+          "isoDate": "2026-10-30T04:20:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4179579-russian-attacks-leave-over-350000-without-power-in-dnipro-and-surrounding-area.html"
+        },
+        {
+          "id": "news-1ht4kr1",
+          "isoDate": "2026-10-30T02:34:32.000Z",
+          "sourceUrl": "https://kyivindependent.com/drone-attack-reportedly-kills-worker-at-russian-occupied-zaporizhzhia-nuclear-power-plant/"
+        }
+      ],
+      "centroid": {
+        "lat": 48.1649,
+        "lng": 35.1276
+      },
+      "radiusKm": 42.4
     },
     {
       "zoneId": "occ-kharkiv",
@@ -97,15 +138,15 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 68,
+      "eventCount": 63,
       "kinds": {
-        "other": 47,
-        "combat": 21
+        "other": 45,
+        "combat": 18
       },
       "tierCounts": {
-        "approximate": 68
+        "approximate": 63
       },
-      "combatCount": 21,
+      "combatCount": 18,
       "newestIsoDate": "2026-10-30T00:00:00.000Z",
       "samples": [
         {
@@ -125,51 +166,10 @@
         }
       ],
       "centroid": {
-        "lat": 49.9893,
-        "lng": 36.5193
+        "lat": 49.99,
+        "lng": 36.5404
       },
-      "radiusKm": 41.1
-    },
-    {
-      "zoneId": "occ-zaporizhzhia",
-      "region": "Zaporizhzhia Oblast",
-      "center": {
-        "lat": 47,
-        "lng": 35.5
-      },
-      "eventCount": 60,
-      "kinds": {
-        "other": 46,
-        "combat": 13,
-        "strike": 1
-      },
-      "tierCounts": {
-        "approximate": 60
-      },
-      "combatCount": 14,
-      "newestIsoDate": "2026-10-29T23:36:48.000Z",
-      "samples": [
-        {
-          "id": "news-1bjfjrj",
-          "isoDate": "2026-10-29T23:36:48.000Z",
-          "sourceUrl": "https://kyivindependent.com/russian-night-attacks-kill-1-in-kyiv-leave-350-000-in-dnipro-without-power/"
-        },
-        {
-          "id": "news-1mj5rbm",
-          "isoDate": "2026-10-29T23:36:48.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcHlGMEZneUNqdjR6TG03Mk9McFN5ZW1PNS03dEM1Umh4RXVSd0xCWlU4SlYtUDZLU2ZRbW5NNnVMWkVnY3Bmd19FVGVMc1NVcVVKSUs2R0gtMlQwT0xTb0VmUldOOWIzVDRFdnQ1cHQwcnJibU5tLUtscmk3cURQV2ROeU1Pa0JHbnVIcnR3?oc=5"
-        },
-        {
-          "id": "news-169d4rr",
-          "isoDate": "2026-10-29T19:34:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4179535-russian-attack-on-humanitarian-mission-bus-in-zaporizhzhia-region-kills-woman-injures-three.html"
-        }
-      ],
-      "centroid": {
-        "lat": 48.1874,
-        "lng": 35.1083
-      },
-      "radiusKm": 41.1
+      "radiusKm": 43.8
     },
     {
       "zoneId": "lib-chernihiv",
@@ -178,16 +178,16 @@
         "lat": 51.4982,
         "lng": 31.2893
       },
-      "eventCount": 47,
+      "eventCount": 54,
       "kinds": {
         "strike": 11,
-        "combat": 13,
+        "combat": 20,
         "other": 23
       },
       "tierCounts": {
-        "approximate": 47
+        "approximate": 54
       },
-      "combatCount": 24,
+      "combatCount": 31,
       "newestIsoDate": "2026-10-30T00:00:00.000Z",
       "samples": [
         {
@@ -207,10 +207,10 @@
         }
       ],
       "centroid": {
-        "lat": 51.5648,
-        "lng": 31.3833
+        "lat": 51.6136,
+        "lng": 31.4546
       },
-      "radiusKm": 18.1
+      "radiusKm": 29.2
     },
     {
       "zoneId": "occ-donetsk",
@@ -219,18 +219,23 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 45,
+      "eventCount": 44,
       "kinds": {
-        "other": 19,
-        "combat": 16,
+        "other": 20,
+        "combat": 14,
         "strike": 10
       },
       "tierCounts": {
-        "approximate": 45
+        "approximate": 44
       },
-      "combatCount": 26,
-      "newestIsoDate": "2026-10-29T08:02:50.000Z",
+      "combatCount": 24,
+      "newestIsoDate": "2026-10-30T05:03:00.000Z",
       "samples": [
+        {
+          "id": "news-1k16drc",
+          "isoDate": "2026-10-30T05:03:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4179582-national-guard-troops-strike-russian-molniya13-mothership-drone-over-donetsk-region.html"
+        },
         {
           "id": "news-4zte59",
           "isoDate": "2026-10-29T08:02:50.000Z",
@@ -240,18 +245,13 @@
           "id": "news-1rmkdyd",
           "isoDate": "2026-10-29T07:58:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-ato/4179253-defense-forces-repel-42-attacks-in-pokrovsk-sector-as-189-clashes-reported-along-front-line-in-past-24-hours.html"
-        },
-        {
-          "id": "news-1x7hyrt",
-          "isoDate": "2026-10-29T07:46:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/29/8060210/"
         }
       ],
       "centroid": {
-        "lat": 48.3295,
-        "lng": 37.1038
+        "lat": 48.3046,
+        "lng": 37.099
       },
-      "radiusKm": 58.1
+      "radiusKm": 58.3
     },
     {
       "zoneId": "occ-luhansk",
@@ -260,13 +260,13 @@
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 38,
+      "eventCount": 35,
       "kinds": {
-        "other": 19,
+        "other": 16,
         "combat": 19
       },
       "tierCounts": {
-        "approximate": 38
+        "approximate": 35
       },
       "combatCount": 19,
       "newestIsoDate": "2026-10-29T00:00:00.000Z",
@@ -288,51 +288,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.4882,
-        "lng": 38.7681
+        "lat": 48.4853,
+        "lng": 38.7678
       },
-      "radiusKm": 32.1
-    },
-    {
-      "zoneId": "lib-snake",
-      "region": "Snake Island",
-      "center": {
-        "lat": 45.2551,
-        "lng": 30.2033
-      },
-      "eventCount": 33,
-      "kinds": {
-        "other": 10,
-        "combat": 20,
-        "strike": 3
-      },
-      "tierCounts": {
-        "approximate": 33
-      },
-      "combatCount": 23,
-      "newestIsoDate": "2026-10-29T08:02:23.000Z",
-      "samples": [
-        {
-          "id": "news-1gpt565",
-          "isoDate": "2026-10-29T08:02:23.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcFM3VktFV2xZRFQ2eXBDa2hJSkVTRjVhYkRNdGdGUWNKUXFhV1R2eERfMXlvYzNtb0xELW9sNXVvd1NqQ1FsNlhuenk0QXJucEhZXzVKYzZ5eVZNb2JwWXJ1eVotcGdnWC16QVphVmtEVS1DSjZrWU1veHAtRzN1SlRMazBZNzItTVVTaGR3WkZkXzdKM0c3SlI5VQ?oc=5"
-        },
-        {
-          "id": "gdelt-1330410640",
-          "isoDate": "2026-10-29T00:00:00.000Z",
-          "sourceUrl": "https://www.pentictonherald.ca/opinion/letters_to_editor/article_2a04256f-04e8-4d2e-a124-3289f814c4e6.html"
-        },
-        {
-          "id": "gdelt-1330422618",
-          "isoDate": "2026-10-29T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/10/28/800119299/community/ukraine-invasion-day-1708l/"
-        }
-      ],
-      "centroid": {
-        "lat": 46.3871,
-        "lng": 30.3803
-      },
-      "radiusKm": 46.7
+      "radiusKm": 32.5
     },
     {
       "zoneId": "lib-sumy",
@@ -341,39 +300,80 @@
         "lat": 50.9077,
         "lng": 34.7981
       },
-      "eventCount": 25,
+      "eventCount": 26,
       "kinds": {
-        "combat": 8,
-        "other": 15,
+        "other": 17,
+        "combat": 7,
         "strike": 2
       },
       "tierCounts": {
-        "approximate": 25
+        "approximate": 26
       },
-      "combatCount": 10,
-      "newestIsoDate": "2026-10-30T00:00:00.000Z",
+      "combatCount": 9,
+      "newestIsoDate": "2026-10-30T04:41:00.000Z",
       "samples": [
+        {
+          "id": "news-1afiypx",
+          "isoDate": "2026-10-30T04:41:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4179580-russian-forces-attack-industrial-facility-in-kremenchuk-district.html"
+        },
+        {
+          "id": "news-p382q4",
+          "isoDate": "2026-10-30T01:48:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/10/30/8060374/"
+        },
         {
           "id": "gdelt-1330577612",
           "isoDate": "2026-10-30T00:00:00.000Z",
           "sourceUrl": "https://news.antiwar.com/2026/10/29/russian-strike-kills-14-at-ukrainian-train-station-as-ukraine-launches-over-1200-drones-into-russia/"
-        },
-        {
-          "id": "news-14ev985",
-          "isoDate": "2026-10-29T12:53:02.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/general/1228109.html"
-        },
-        {
-          "id": "news-12710cw",
-          "isoDate": "2026-10-29T11:25:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4179336-two-dead-as-russian-drone-hits-apartment-building-in-kremenchuk.html"
         }
       ],
       "centroid": {
-        "lat": 49.8155,
-        "lng": 33.9451
+        "lat": 49.7335,
+        "lng": 33.9464
       },
       "radiusKm": 80
+    },
+    {
+      "zoneId": "lib-snake",
+      "region": "Snake Island",
+      "center": {
+        "lat": 45.2551,
+        "lng": 30.2033
+      },
+      "eventCount": 25,
+      "kinds": {
+        "combat": 15,
+        "strike": 6,
+        "other": 4
+      },
+      "tierCounts": {
+        "approximate": 25
+      },
+      "combatCount": 21,
+      "newestIsoDate": "2026-10-30T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1330603984",
+          "isoDate": "2026-10-30T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/29/800119793/community/1709/"
+        },
+        {
+          "id": "gdelt-1330604529",
+          "isoDate": "2026-10-30T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/29/800119793/community/1709/"
+        },
+        {
+          "id": "gdelt-1330604530",
+          "isoDate": "2026-10-30T00:00:00.000Z",
+          "sourceUrl": "https://www.dailykos.com/stories/2026/10/29/800119793/community/1709/"
+        }
+      ],
+      "centroid": {
+        "lat": 46.3062,
+        "lng": 30.0405
+      },
+      "radiusKm": 69.3
     }
   ]
 }
