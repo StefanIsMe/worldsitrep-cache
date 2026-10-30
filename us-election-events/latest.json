@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-10-30T08:19:36.361Z",
+  "collectedAt": "2026-10-30T09:04:34.143Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -27,15 +27,15 @@
       "id": "gnews-election",
       "url": "https://news.google.com/rss/search?q=US%20election%20Trump%202028&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 47,
-      "filtered": 3
+      "count": 44,
+      "filtered": 6
     },
     {
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Trump%20tariffs%20executive%20order&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 49,
-      "filtered": 1
+      "count": 23,
+      "filtered": 3
     },
     {
       "id": "thehill",
@@ -69,8 +69,8 @@
       "id": "axios",
       "url": "https://api.axios.com/feed/",
       "status": "ok",
-      "count": 32,
-      "filtered": 18
+      "count": 31,
+      "filtered": 19
     },
     {
       "id": "gnews-protest",
@@ -83,8 +83,8 @@
       "id": "gnews-courts",
       "url": "https://news.google.com/rss/search?q=federal%20judge%20blocks%20executive%20order%20ruling&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 43,
-      "filtered": 0
+      "count": 49,
+      "filtered": 1
     },
     {
       "id": "gnews-midterms",
@@ -101,8 +101,103 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 498,
+  "count": 494,
   "events": [
+    {
+      "id": "news-tplf0g",
+      "kind": "news",
+      "date": "2026-10-30",
+      "isoDate": "2026-10-30T09:00:00.000Z",
+      "description": "Websites pretending to be local news are boosting Democratic candidates (NPR, 2026-10-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/30/nx-s1-6014548/midterms-chatgpt-local-news-democrats"
+    },
+    {
+      "id": "news-ysok1j",
+      "kind": "news",
+      "date": "2026-10-30",
+      "isoDate": "2026-10-30T09:00:00.000Z",
+      "description": "2026 midterm election voter guides: Find local resources in your community (NPR, 2026-10-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NPR",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/30/g-s1-149560/2026-vote-midterm-election-local-voter-guides"
+    },
+    {
+      "id": "news-3g2fy6",
+      "kind": "news",
+      "date": "2026-10-30",
+      "isoDate": "2026-10-30T08:45:00.000Z",
+      "description": "‘Look what I brought home for you’: GOP embraces earmark revival as Election Day looms (Politico, 2026-10-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Politico",
+      "axis": "Other",
+      "tags": [
+        "Politico",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Politico",
+      "source": "Politico",
+      "sourceUrl": "https://www.politico.com/news/2026/10/30/earmarks-democrats-midterms-campaigns-01141343"
+    },
+    {
+      "id": "news-dfycwo",
+      "kind": "news",
+      "date": "2026-10-30",
+      "isoDate": "2026-10-30T08:45:00.000Z",
+      "description": "GOP lawmakers start contemplating a diminished Donald Trump (Politico, 2026-10-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Politico",
+      "axis": "Other",
+      "tags": [
+        "Politico",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Politico",
+      "source": "Politico",
+      "sourceUrl": "https://www.politico.com/news/2026/10/30/donald-trump-congress-lame-duck-01141874"
+    },
+    {
+      "id": "news-15zev9z",
+      "kind": "news",
+      "date": "2026-10-30",
+      "isoDate": "2026-10-30T07:58:45.000Z",
+      "description": "Who will win the 2026 midterm elections? Polls and predictions - The Times (The Times, 2026-10-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times",
+      "axis": "Other",
+      "tags": [
+        "The Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Times",
+      "source": "The Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5"
+    },
     {
       "id": "news-1m0s9s6",
       "kind": "news",
@@ -146,6 +241,63 @@
       "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
+      "id": "news-12olopt",
+      "kind": "news",
+      "date": "2026-10-30",
+      "isoDate": "2026-10-30T07:30:21.000Z",
+      "description": "Tracking the 2026 Early Vote: Midterm Elections - NBC News (NBC News, 2026-10-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5"
+    },
+    {
+      "id": "news-1y1zl3c",
+      "kind": "news",
+      "date": "2026-10-30",
+      "isoDate": "2026-10-30T07:12:11.000Z",
+      "description": "Elon Musk warns ‘game over’ if Democrats sweep 2028 elections - The Economic Times (The Economic Times, 2026-10-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Economic Times",
+      "axis": "Other",
+      "tags": [
+        "The Economic Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Economic Times",
+      "source": "The Economic Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRUhvcVJQaWt4RXZ2MFlMTE9pWkJHb2k4TzBteHRmYWtFdGNqZjFPR0d0UWJDVWt1blpjcDZTVkMyejBUdV9HR3U2b0xfY0hONWx0TW1qNF9iSVBaRURHWE9rWVZsQ3hhX1NPVjkweDhDbmNodkZiYjJuWEhpdXgxbm9GcjlHa2tTZUFOVGJ2SXRUNHBsZmlQSjh6SUVRYUEzVGJRWGdpeUk5OTVWTkczd1d0LWd0czVJQ3UzblR3bWZiTi1nS3BWT3JxdW1GenF4bEpEWF8wdTM0aE3SAeABQVVfeXFMTkNOejJtUzRINDh5OE9VZ3VHODBwcURIQnYwZmVhX3hRY3JCZFlnTmtaQ3J6NW5RRUJROXFXUm4yY1hSdTYySFVSVEFINHpWZ2l1TE1LZkNqZDZoc1dkeU9qRHBOSWtSWDFSM0RPRFVDVEdfYnZwOXhPLVlxTG9JWHg4RThLTGRVYUZHdXNMZVJwSmJvQTZ3R2ZhRkJtYS1ONXJWTmo2aVRQYS1yUnQ0a0EwbWxmNTRxMVNOTVFLUkR5VGVDZExlMDNpc0wxdHFkZ0owcWpJUjdLeDZHWExJa1c?oc=5"
+    },
+    {
+      "id": "news-cyggpl",
+      "kind": "news",
+      "date": "2026-10-30",
+      "isoDate": "2026-10-30T07:00:21.000Z",
+      "description": "Minnesota Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tcm9zOTJpaDhaUmRNYzJwNFRudHdjd05icGVNNmJjLTUyYVBuWFZoTm5jNDI0Um1XX1dxS3NvbFVnaU1mR0JPaDJNNUtpS1lURjQ1X2FrZ1M5UXY4eEVhLWVhR2tXN0FlQXUySjlLbXp1Nm8?oc=5"
+    },
+    {
       "id": "news-12cyvv7",
       "kind": "news",
       "date": "2026-10-30",
@@ -163,6 +315,25 @@
       "locationStr": "Al Jazeera",
       "source": "Al Jazeera",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYzZHYkc5SWNGUjZUWk9GOEN4WlpGR01QTGNzMnQ5c1BBSGxiTXZJRDRRR2RWbjhhc2VVaTNBbV9PaDZ4OWxTZThXdGN2LWFzYnN6NWFhb3FQWU5sZHhfSDFaZkZXYUttTmo0N3liM3Jwd3NvenNydjRUTmtNQzdUN19EcWYyYnhfLXY0TmFlNTQwaWREa0daOEdiWHFabEY3dlBwdTVmZE41OFRiRmVaYl9BSkbSAboBQVVfeXFMT1RTa1RLUTZsTUxra1FmcmRsajM3dnMweENFOTBDSG9HOHYzLW9QN0xzdEVxTVZmVUszRGVYQXViZ1BUaUtwYmNPY0xRYUd0T2l0NW4xd3BQRWRMVGRGQkJlT3p3UzZxUG03VmF5cml3SmVXS0U1NFZhX2RCLXV6Q3lNaFpSZHNGVGVqSkpCY0FtX01pMVI4RHlneEI5TUVTS0IwOGtPRU1TNDRiTUdncERYOFl5Q1pYQzFn?oc=5"
+    },
+    {
+      "id": "news-1wz0cay",
+      "kind": "news",
+      "date": "2026-10-30",
+      "isoDate": "2026-10-30T06:30:21.000Z",
+      "description": "Vermont Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-30. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZaUR6X3ZrTzBIdEhVY1RkUEhNMnNUb05YTjJoaFRXbWtGdlVYZnVvVWlyUGlhQm84aHhUNU9BOFVsam1VR3l1alJrM3BVa3dFMDhwRFNjZm05Rm00N1hOdFozX2pLX2lXQmRwVjQ3cXA?oc=5"
     },
     {
       "id": "news-xqnv3y",
@@ -184,23 +355,23 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5"
     },
     {
-      "id": "news-15zev9z",
+      "id": "news-2vcd52",
       "kind": "news",
       "date": "2026-10-30",
-      "isoDate": "2026-10-30T05:47:21.000Z",
-      "description": "Who will win the 2026 midterm elections? Polls and predictions - The Times (The Times, 2026-10-30. Headline + link only.)",
+      "isoDate": "2026-10-30T06:00:21.000Z",
+      "description": "Ohio Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-30. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Times",
+      "actor": "NBC News",
       "axis": "Other",
       "tags": [
-        "The Times",
+        "NBC News",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Times",
-      "source": "The Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5"
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aYnktTFVvVC14X2pyUEYwRzZGaU5IWDFFdUt2eXo1ZzVheDJGU2xmb185dVJzb1FqaXBWNy1XdHdtTnVuUnZUOVFPWGw5cnYza045eVAwQm5QLUdCbEtNTmh5eElITjFFRU0zXw?oc=5"
     },
     {
       "id": "news-1wckx6t",
@@ -264,11 +435,11 @@
       "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
-      "id": "news-12olopt",
+      "id": "news-1xjueqn",
       "kind": "news",
       "date": "2026-10-30",
       "isoDate": "2026-10-30T04:00:21.000Z",
-      "description": "Tracking the 2026 Early Vote: Midterm Elections - NBC News (NBC News, 2026-10-30. Headline + link only.)",
+      "description": "New Hampshire Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-30. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "NBC News",
@@ -280,26 +451,7 @@
       "coordsTier": "unplaced",
       "locationStr": "NBC News",
       "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5"
-    },
-    {
-      "id": "news-cyggpl",
-      "kind": "news",
-      "date": "2026-10-30",
-      "isoDate": "2026-10-30T04:00:21.000Z",
-      "description": "Minnesota Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tcm9zOTJpaDhaUmRNYzJwNFRudHdjd05icGVNNmJjLTUyYVBuWFZoTm5jNDI0Um1XX1dxS3NvbFVnaU1mR0JPaDJNNUtpS1lURjQ1X2FrZ1M5UXY4eEVhLWVhR2tXN0FlQXUySjlLbXp1Nm8?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lU1YtMjAySm1TN3ZFSFhLVmZKRTV1eHdHODhHV1lzNlRXbEVBSUtkNjB0eUJQWG4zeXZIQ0pRSHdDd0d2M2d0S2I2eTBsZlV3YTZTcTl4OGJfMUpNOUd0anlCSURLVDNEUE52d3BrcUNUS0NoZlBsWQ?oc=5"
     },
     {
       "id": "news-1f8tik",
@@ -338,25 +490,6 @@
       "locationStr": "NBC News",
       "source": "NBC News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yc1RyWjJRekZSVHZENndtUHN1cmZ4ZFVKVVowN1ZkZEVMZVd6UXRsVEZURGQ1TndJNUZhYkRwaTJIZE44YTlLRjBzckRiUjNuN1hVekRUUTJnQXVjLTF0RXJvTnZMZ3Zja3hoaUhvWXRsZw?oc=5"
-    },
-    {
-      "id": "news-2vcd52",
-      "kind": "news",
-      "date": "2026-10-30",
-      "isoDate": "2026-10-30T03:30:21.000Z",
-      "description": "Ohio Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-30. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aYnktTFVvVC14X2pyUEYwRzZGaU5IWDFFdUt2eXo1ZzVheDJGU2xmb185dVJzb1FqaXBWNy1XdHdtTnVuUnZUOVFPWGw5cnYza045eVAwQm5QLUdCbEtNTmh5eElITjFFRU0zXw?oc=5"
     },
     {
       "id": "news-30zbhx",
@@ -1401,6 +1534,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeDNyTi1Ja2NOYWpjZ1ZaYU1hNkc4bEVESlVFbVc1Q2ROLWVpMU1aVkUxMnk2ZERTU1FUVHhadzdrdVQ1ZXdKWkR4MnJrbE5wME9XWDZkTEgwVUZxbkdWMWxYMFNzNFdaWVZxNnExbDN0TkdVMWVLcXJ0ZkRMbnpkNEFCNllrVzV0WHVCY3BtdW14VHdkNGtQZDlBZlMtU2Vyd0VLTkpXQlRTMWJjXzFzTXdLVzQtaHU1eXc?oc=5"
     },
     {
+      "id": "news-1c1xe89",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T21:00:01.000Z",
+      "description": "Schumer blames Trump tariffs for rising Oswego prices, touts End Trump’s Tariffs Act - WSTM (WSTM, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSTM",
+      "axis": "Other",
+      "tags": [
+        "WSTM",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WSTM",
+      "source": "WSTM",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVF9mdk0weVZ3Z29wdE5fa1laTTRRMWZiSFlWd2dCaVNQT01DSkQ5THY5aVBGMEpSSU81TFcwdjA0OHdGd3NkUU1yenFDX3dSNkFxclBGYTRMMERHNzJlekpWZ3RmUWE2OHdZTGN4NldLR2l6a0ZOSERGWFA3eEVLTXdFNE1mYVhTTEJqVmtuWHpaLVZPcVMzN0VkVWtFS1JvTVF5aWlaYkRWS2xhdFdZZjBPWDluTG8?oc=5"
+    },
+    {
       "id": "news-rla0d7",
       "kind": "news",
       "date": "2026-10-29",
@@ -1730,6 +1882,25 @@
       "lat": 29.8494,
       "lng": -81.31704,
       "coordsNote": "OSM geocode: matched \"South\" → St. Augustine South, Saint Johns County, Florida; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-i4mgl7",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T19:34:35.000Z",
+      "description": "Can MAGA survive beyond Trump? Todd Starnes weighs in on GOP divisions and 2028 contenders - KATV (KATV, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "KATV",
+      "axis": "Other",
+      "tags": [
+        "KATV",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "KATV",
+      "source": "KATV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPVGllalVnU3dzMlVjdDJmelVGV1lxdnlsZVZUVm8za0ZNenRiRE9ZYXN4cWJxRjF0MHFuSnhFNU5OUFNOUlo1S29EMkNlWHpHcjB6RnNWT1praGRzSmdWQXF1bVh1c19nZ1BlMEg3NDFZVkZkRDM1dkVmdVJlUlJfMkNpNGRNbktFSmxENkVVQkM5ZXBoTWFSSHRmdEVMTW9qUUJ6b0ItWXozSlFFalNUeURDTkRXN0FvMVp1NldLQ1l0WEtBWFl3eUFMNDNyNkxBMWlGWm9ZYmdsMjVySEh4ZGpUNjliVEtzVEJ6dUxJZGZ5Zi13QlRHWGxUT1Q3RmF5ejU1U3dDQkk2azNSc2VTaFVqYWhIWXFYSlZWUHhLaVBKRTI4UEtrSGg1ZHBrR0ZqQ1lZVDJLc1FyWUROVGhLV0JfUVNoNGNLYXVjVVFyalVLcE1kcXc?oc=5"
     },
     {
       "id": "news-2hmhtj",
@@ -2548,25 +2719,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/blogs/in-the-know/6181242-smith-new-york-knicks-dolan-white-house/"
-    },
-    {
-      "id": "news-1xjueqn",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T16:00:21.000Z",
-      "description": "New Hampshire Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1lU1YtMjAySm1TN3ZFSFhLVmZKRTV1eHdHODhHV1lzNlRXbEVBSUtkNjB0eUJQWG4zeXZIQ0pRSHdDd0d2M2d0S2I2eTBsZlV3YTZTcTl4OGJfMUpNOUd0anlCSURLVDNEUE52d3BrcUNUS0NoZlBsWQ?oc=5"
     },
     {
       "id": "news-1vihnym",
@@ -8872,6 +9024,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQLWF6QjJJR3RYblFzYWswQ090UG0yQWpSVTR1S1c3MjRWRkpZdEszenF0ZThUazR1SWxtaTJMeGRQTjA3U256TlpISnVNOVJHbHBzSGpMa244NWF3cFQ2TGhvb2hXaUttV0ZtYnBaRzIzc1ZxNzhMVFM0Z3dwYUdvaFYzUDhwak82Vm83RzIyONIBlAFBVV95cUxNQVotQmpqZDUzUlpWN2NvSWNpNkl0TGJ5SGltVUhJb0JVWWl1WTZBYXlRUm5SWnU0cWtkRmdaeVNCeldiTVlBNVJWblU0R290QjRsdXdOeXpoaUQyS1FSMHRSWlgwbFhRYVZJVEhvWE1BN25pbGZoeGx0bmFMQzdJR2h5VXUwUmNNOWlQa3FCdkhicHY5?oc=5"
     },
     {
+      "id": "news-1rxwe66",
+      "kind": "news",
+      "date": "2026-10-27",
+      "isoDate": "2026-10-27T14:01:50.000Z",
+      "description": "Trump tweaks Canada tariffs, removing certain goods while adding others - Construction Dive (Construction Dive, 2026-10-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Construction Dive",
+      "axis": "Other",
+      "tags": [
+        "Construction Dive",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Construction Dive",
+      "source": "Construction Dive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNV3RiNEdKV0U1UGV2RFVVRjk5RGJiM2NyZEFXSWpyLXNtbm1jRjdiOTE0U3hGZ2NZWmEzb3c1RnZHazNPbl84cnNoU1FTd0Nob2hYYmw4YnRvM0FsMnQ4VWRfVkEtTm1yeHhPUU1hNEljZm1SU0toTUxhaXI5ZmFmdTVhc3RhM3FmVEUwSTFOY0wzYnhLcjNrUWhzV2pCWWd1dC1TZ1VzXzY0VnpoYkJr?oc=5"
+    },
+    {
       "id": "news-112q6ls",
       "kind": "news",
       "date": "2026-10-27",
@@ -9501,257 +9672,6 @@
       "locationStr": "Axios",
       "source": "Axios",
       "sourceUrl": "https://www.axios.com/2026/10/27/israel-election-netanyahu-eisenkot"
-    },
-    {
-      "id": "news-69tc0x",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T09:01:24.000Z",
-      "description": "Polls, Analysis, Learning, and More - Marist Poll (Marist Poll, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Marist Poll",
-      "axis": "Other",
-      "tags": [
-        "Marist Poll",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Marist Poll",
-      "source": "Marist Poll",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFByZnpVU3JjU1BFdjdCdHBSUUFUNV9NbHBudzFTckU0SGtLVnFEbjVTa2dkaFY0WWZsQk04SHBJci15ZC1oQTV4V1Y3RzlRVFV2cjRtZ21XbjFfMTlDSEpSNHc1bHptSW1OTnpCUVpFRlp0eE1MSGlFaDVQNA?oc=5"
-    },
-    {
-      "id": "news-14udab3",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T09:00:33.000Z",
-      "description": "What our final poll before Election Day says about midterms and Trump (PBS NewsHour, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/politics/poll-likely-voters-favor-democrats-as-trump-disapproval-drives-early-turnout"
-    },
-    {
-      "id": "news-1f19lr4",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T09:00:33.000Z",
-      "description": "What our final poll before Election Day says about midterms and Trump - PBS (PBS, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS",
-      "axis": "Other",
-      "tags": [
-        "PBS",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS",
-      "source": "PBS",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSHFKaGdYNWxiaEgyUGE0ekdtbHNxRE5Qc2hXNXFWLS1SaU9wQXF5bXFaWFc5V3huWU55bzVzMXhSSWlWQTc2clhsekpoakVmTUExM3ROc3kxTnl1WWQwcjc4SzRPcmhVcEJkYzNYUnNUM3l1SEVnVndtTXdJcFdDX0EtNlpFUzdCNlZnZzF1bXNyazZ5UnpWbUVLMm1maXlBbEhGN1Z5WnpOQmhybjRuclp3UlXSAboBQVVfeXFMUHFiT0NWa1V0TUFPaHFNUVlzTnd2ZzdtUm1uV3IwVlQ1cUt5SEpjVlVGcmI4Tms0bWZNUFlITG1IT3g0aWhLcllsR3ltdnI0OXplWWdYV0FKOEs5LXZyVERVQmFNZWFMSVhxRktmR0d3c2l4RE9odjZGR0RhalFLbVdRb3RWVmFxQnQtTjlWR0VXbi1BR2VBMmZCeFdFc0N6Ym1EMVhwTGZSNzlkbVRBX1dsVzFUNVI5RWx3?oc=5"
-    },
-    {
-      "id": "news-6apy5f",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T09:00:21.000Z",
-      "description": "New York Midterm Elections 2026: Key Races, Candidates and Past Results - NBC News (NBC News, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TZmdsOV9FVTN2WW16QzNPNUxIVlNWamo1aHdPQ1BWam53UUNzS0lPUzRnX0NiSkdGYkRuM2tEWDdIOVBKSWduVGVyZG5QQmVkcEJfT3VFZDJzZXZBRi1xUHJlRmlxXzFObFlGREtQTWViZw?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
-    },
-    {
-      "id": "news-1pukz2h",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T09:00:00.000Z",
-      "description": "Democrats still poised to make gains, but poll shows warning signs for just how many - NPR (NPR, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPakl0OXhmQ1hYbC1oQ0RRSV9CRXdHdlVCYlhVVTNZQW9lVzdqdjM4YTZvRW1FdHdWLWtWNjdHZkN5RS1QUTBFa3BPT2Y2NlFjak9CcWtHdmxCeElMWFVQWWxxUk1Lc293NE1XOWNkVWtPbzA3TXVCT3lWRUtZR0JiWVdsODctWFNkcTdQZEVzWW9UYURQVGNj?oc=5"
-    },
-    {
-      "id": "news-8xz52e",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T09:00:00.000Z",
-      "description": "Can Black voting power and Trump fatigue break Mississippi's red wall? (NPR, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/27/nx-s1-6018592/mississippi-senate-trump-colom-black-voter-turnout"
-    },
-    {
-      "id": "news-kqwf6t",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T09:00:00.000Z",
-      "description": "Can Black voting power and Trump fatigue break Mississippi's red wall? - NPR (NPR, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNzBJZWE4bHd3bFpZQ25WTVM1WUxCc0x3TjlmTl85aTM0aDV6RjF2QkxLSEJ4bEJ6TzNPcXFDMkpWbE1BSERpSzVtUHFmaHRaSDJhS2xkWnVERF9CV0pWWVV5TTlfNExnQlE3V1VvR1pULXVhUnlqalBUQjI2ajNGbWlTNDVwbVJkcFA1WTBkdWtpQzQwRW9qT0EtZw?oc=5"
-    },
-    {
-      "id": "news-ni0e4o",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T09:00:00.000Z",
-      "description": "Polymarket has investigated 'dozens' of election-related cases (NPR, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/27/nx-s1-6012304/polymarket-election-betting-surveillance"
-    },
-    {
-      "id": "news-nn0f29",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T09:00:00.000Z",
-      "description": "Democrats still poised to make gains, but poll shows warning signs for just how many (NPR, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/27/nx-s1-6017479/2026-midterms-npr-poll-democrats-trump-approval"
-    },
-    {
-      "id": "news-gk9h8m",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T08:48:04.000Z",
-      "description": "How congressional Democrats are preparing for claims of election fraud by Trump (NPR, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/27/nx-s1-6013555/congressional-democrats-are-forming-a-task-force-to-protect-election-results"
-    },
-    {
-      "id": "news-16gqsvo",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T08:45:52.000Z",
-      "description": "Data centers are a hot-button issue for Ohioans as midterms near (NPR, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/27/nx-s1-5989174/candidates-work-to-ease-concerns-as-data-centers-become-hot-button-issue-for-ohioans"
-    },
-    {
-      "id": "news-1sh9dbl",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T08:45:44.000Z",
-      "description": "As campaign rhetoric escalates, Michigan voters say they're burned out (NPR, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NPR",
-      "axis": "Other",
-      "tags": [
-        "NPR",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NPR",
-      "source": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/27/nx-s1-6018541/michigan-voters-election-fatigue-campaign-rhetoric"
-    },
-    {
-      "id": "news-1p5r8l6",
-      "kind": "news",
-      "date": "2026-10-27",
-      "isoDate": "2026-10-27T08:45:00.000Z",
-      "description": "Democrats fracture on transgender rights as voters demand affordability focus (Politico, 2026-10-27. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Politico",
-      "axis": "Other",
-      "tags": [
-        "Politico",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Politico",
-      "source": "Politico",
-      "sourceUrl": "https://www.politico.com/news/2026/10/27/democrats-trans-rights-congress-01135671"
     }
   ]
 }
