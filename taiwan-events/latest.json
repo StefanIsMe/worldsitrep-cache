@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-31T11:04:59.712Z",
+  "collectedAt": "2026-10-31T13:55:15.114Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 1
+      "count": 7
     },
     {
       "id": "taipei-times",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 42,
+      "count": 29,
       "filtered": 0
     },
     {
@@ -80,8 +80,65 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 254,
+  "count": 260,
   "events": [
+    {
+      "id": "news-9iqic3",
+      "kind": "news",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T13:30:06.000Z",
+      "description": "Chinese archaeologists set for hi-tech excavations with AI and deep-sea robots (SCMP, 2026-10-31. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/science/article/3372841/chinese-archaeologists-set-hi-tech-excavations-ai-and-deep-sea-robots"
+    },
+    {
+      "id": "news-19wnigl",
+      "kind": "news",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T13:00:06.000Z",
+      "description": "Soft power on display as China’s first lady Peng Liyuan hosts German counterpart (SCMP, 2026-10-31. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3372840/soft-power-display-chinas-first-lady-peng-liyuan-hosts-german-counterpart"
+    },
+    {
+      "id": "news-14d3bzo",
+      "kind": "news",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T12:00:09.000Z",
+      "description": "Is Beijing’s 2027 military milestone now a US readiness deadline over Taiwan? (SCMP, 2026-10-31. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/military/article/3372829/beijings-2027-military-milestone-now-us-readiness-deadline-over-taiwan"
+    },
     {
       "id": "news-1inkjvp",
       "kind": "news",
@@ -521,6 +578,244 @@
         "quadClass": 4,
         "goldstein": -5,
         "tone": 0.7,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330814071",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T12:00:00.000Z",
+      "description": "Rejection — Police → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Rejection (GDELT 128)",
+      "actor": "Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/31/tens-of-thousands-gather-to-celebrate-inclusivity-at-taiwan-pride-parade",
+      "gdelt": {
+        "globalEventId": "1330814071",
+        "eventCode": "128",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": 3.96,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330814072",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T12:00:00.000Z",
+      "description": "Coercion — Police → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/31/tens-of-thousands-gather-to-celebrate-inclusivity-at-taiwan-pride-parade",
+      "gdelt": {
+        "globalEventId": "1330814072",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": 3.96,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330814099",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T12:00:00.000Z",
+      "description": "Coercion — Community → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Community",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/31/tens-of-thousands-gather-to-celebrate-inclusivity-at-taiwan-pride-parade",
+      "gdelt": {
+        "globalEventId": "1330814099",
+        "eventCode": "172",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": 3.96,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330814100",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T12:00:00.000Z",
+      "description": "Fight — Community → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Fight (GDELT 190)",
+      "actor": "Community",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/31/tens-of-thousands-gather-to-celebrate-inclusivity-at-taiwan-pride-parade",
+      "gdelt": {
+        "globalEventId": "1330814100",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 3.96,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330814356",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T12:00:00.000Z",
+      "description": "Disapproval — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/politics/202610310011",
+      "gdelt": {
+        "globalEventId": "1330814356",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.84,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330814357",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T12:00:00.000Z",
+      "description": "Rejection — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/politics/202610310011",
+      "gdelt": {
+        "globalEventId": "1330814357",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -8.84,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330814358",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T12:00:00.000Z",
+      "description": "Protest — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Protest (GDELT 141)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/10/31/tens-of-thousands-gather-to-celebrate-inclusivity-at-taiwan-pride-parade",
+      "gdelt": {
+        "globalEventId": "1330814358",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": 3.96,
         "mentions": 10,
         "sources": 1
       }
@@ -3255,25 +3550,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3372511/brussels-wants-industry-ditch-chinese-suppliers-businesses-are-pushing-back"
-    },
-    {
-      "id": "news-wnc3cg",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T03:16:22.000Z",
-      "description": "PLA unlikely to attack Taiwan in 2027, but grey-zone pressure could intensify - 联合早报 (联合早报, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "联合早报",
-      "axis": "Other",
-      "tags": [
-        "联合早报",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "联合早报",
-      "source": "联合早报",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMWRPaWZsV0JaTjJGczMzRFpfbS04ZmtRUHN5MFlndWlQRExEdzYxT214RzlkcVNYY0JmUi05UFdhVVY2SUdFaEpMUU1zcWRwWmh1ZG5wdGY1ZXpMOUNHNTVrdW9JS2o3cndNTmtTZTZkQ2Z6bXN2WTJqZHdRXzc0Tkt4UTd6dTZoVUt2cVY0dDI0dlY3Y3NxOW9EU0FIOEtDQzJRWkpZYW1idw?oc=5"
     },
     {
       "id": "news-1cmg8li",
@@ -6702,6 +6978,25 @@
       "sourceUrl": "https://www.taipeitimes.com/News/sport/archives/2026/10/29/2003866809"
     },
     {
+      "id": "news-wnc3cg",
+      "kind": "news",
+      "date": "2026-10-28",
+      "isoDate": "2026-10-28T23:09:40.000Z",
+      "description": "PLA unlikely to attack Taiwan in 2027, but grey-zone pressure could intensify - 联合早报 (联合早报, 2026-10-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "联合早报",
+      "axis": "Other",
+      "tags": [
+        "联合早报",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "联合早报",
+      "source": "联合早报",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMWRPaWZsV0JaTjJGczMzRFpfbS04ZmtRUHN5MFlndWlQRExEdzYxT214RzlkcVNYY0JmUi05UFdhVVY2SUdFaEpMUU1zcWRwWmh1ZG5wdGY1ZXpMOUNHNTVrdW9JS2o3cndNTmtTZTZkQ2Z6bXN2WTJqZHdRXzc0Tkt4UTd6dTZoVUt2cVY0dDI0dlY3Y3NxOW9EU0FIOEtDQzJRWkpZYW1idw?oc=5"
+    },
+    {
       "id": "news-wzq7of",
       "kind": "news",
       "date": "2026-10-28",
@@ -6814,82 +7109,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/science/article/3372402/chinese-astronomers-find-planets-somehow-avoided-death-red-giant-stars"
-    },
-    {
-      "id": "news-134hr2o",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T13:00:13.000Z",
-      "description": "In China gene-editing trial, 2 children improved and 1 died (SCMP, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3372452/china-gene-editing-trial-2-children-improved-1-died-and-1-withdrew"
-    },
-    {
-      "id": "news-ihfddh",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T12:30:14.000Z",
-      "description": "Why Kim Jong-un’s border trip to China differs from past pre-summit playbooks (SCMP, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3372396/why-kim-jong-uns-border-trip-china-differs-past-pre-summit-playbooks"
-    },
-    {
-      "id": "news-1vd77nv",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T12:01:05.000Z",
-      "description": "US warns China is expanding its space toolkit with spaceplane and energy weapons (SCMP, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/military/article/3372459/us-warns-china-expanding-its-space-toolkit-spaceplane-and-energy-weapons"
-    },
-    {
-      "id": "news-qk7xs8",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T11:43:40.000Z",
-      "description": "China’s military holds talks in France and Germany despite rising trade tensions (SCMP, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/military/article/3372465/chinas-military-holds-talks-france-and-germany-despite-rising-trade-tensions"
     }
   ]
 }
