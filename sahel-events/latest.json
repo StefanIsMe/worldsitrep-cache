@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-10-31T01:06:32.991Z",
+  "collectedAt": "2026-10-31T05:20:37.259Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 4
     },
     {
       "id": "aa-mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
       "status": "ok",
-      "count": 15,
+      "count": 14,
       "filtered": 15
     },
     {
@@ -101,8 +101,144 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 87,
+  "count": 91,
   "events": [
+    {
+      "id": "gdelt-1330772247",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T03:30:00.000Z",
+      "description": "Rejection — Niger → Unspecified near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://punchng.com/n70000-allowance-labour-turns-heat-on-govs/",
+      "gdelt": {
+        "globalEventId": "1330772247",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 0.72,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330775635",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T04:30:00.000Z",
+      "description": "Coercion — Unspecified → Gang near Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.echo-news.co.uk/news/26676397.southend-county-lines-gang-jailed-60-years/",
+      "gdelt": {
+        "globalEventId": "1330775635",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -5.17,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330775810",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T04:30:00.000Z",
+      "description": "Fight — Police → Unspecified near Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 17,
+      "lng": -4,
+      "action": "Fight (GDELT 190)",
+      "actor": "Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.echo-news.co.uk/news/26676397.southend-county-lines-gang-jailed-60-years/",
+      "gdelt": {
+        "globalEventId": "1330775810",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.17,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330775824",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T04:30:00.000Z",
+      "description": "Fight — Gang → Police near Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 17,
+      "lng": -4,
+      "action": "Fight (GDELT 190)",
+      "actor": "Gang",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.echo-news.co.uk/news/26676397.southend-county-lines-gang-jailed-60-years/",
+      "gdelt": {
+        "globalEventId": "1330775824",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.17,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
     {
       "id": "news-n519qz",
       "kind": "news",

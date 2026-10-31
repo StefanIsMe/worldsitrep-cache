@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-31T01:06:32.991Z",
+  "collectedAt": "2026-10-31T05:20:37.259Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 4
+      "count": 1
     },
     {
       "id": "taipei-times",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 14,
-      "filtered": 36
+      "count": 13,
+      "filtered": 37
     },
     {
       "id": "gnews-arms",
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 259,
+  "count": 254,
   "events": [
+    {
+      "id": "news-etf0ht",
+      "kind": "news",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T04:00:07.000Z",
+      "description": "Mao vs Rao: Cell Press probe clears editor but Chinese biologist keeps up pressure (SCMP, 2026-10-31. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/science/article/3372707/mao-vs-rao-cell-press-probe-clears-editor-chinese-biologist-keeps-pressure"
+    },
     {
       "id": "news-1hpfiqh",
       "kind": "news",
@@ -253,6 +272,40 @@
         "goldstein": -10,
         "tone": -4.53,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330766228",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T02:15:00.000Z",
+      "description": "Protest — Taiwan → Community near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (16 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Protest (GDELT 141)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/society/202610310002",
+      "gdelt": {
+        "globalEventId": "1330766228",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -0.76,
+        "mentions": 16,
         "sources": 1
       }
     },
@@ -6788,139 +6841,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/chinas-old-age-dependency-ratio-overtakes-children-for-first-time"
-    },
-    {
-      "id": "news-4q3v01",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T05:00:07.000Z",
-      "description": "EU plans high-level China currency talks as fears of new trade shock mount (SCMP, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3372373/eu-plans-high-level-china-currency-talks-fears-new-trade-shock-mount"
-    },
-    {
-      "id": "news-gruzy",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T04:26:00.000Z",
-      "description": "Chinese EV imports surge in Thailand ahead of planned excise tax (Straits Times, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/se-asia/chinese-ev-imports-surge-in-thailand-ahead-of-planned-excise-tax"
-    },
-    {
-      "id": "news-1adlep9",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T04:20:52.000Z",
-      "description": "China dismisses Taiwan’s accusations of involvement in comedian attack (Straits Times, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/china-dismisses-taiwans-accusations-of-involvement-in-comedian-attack"
-    },
-    {
-      "id": "news-1kc2rk0",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T04:00:10.000Z",
-      "description": "China formally launches project to build aircraft carrier-sized ‘science island’ (SCMP, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3372330/china-formally-launches-project-build-aircraft-carrier-sized-science-island"
-    },
-    {
-      "id": "news-1c0611z",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T02:30:00.000Z",
-      "description": "China downgrades envoy to South-east Asian meeting after sea row (Straits Times, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/china-downgrades-envoy-to-south-east-asian-meeting-after-sea-row"
-    },
-    {
-      "id": "news-1vogiab",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T02:00:08.000Z",
-      "description": "Why has Beijing appointed a propaganda veteran to lead a border province? (SCMP, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3372341/why-has-beijing-appointed-propaganda-veteran-lead-border-province"
-    },
-    {
-      "id": "news-1hyrtvv",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T01:30:07.000Z",
-      "description": "Manila speaks with 2 voices on China (SCMP, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/opinion/asia-opinion/article/3372147/manila-speaks-2-voices-china"
     }
   ]
 }
