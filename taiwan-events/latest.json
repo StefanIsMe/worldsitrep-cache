@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-31T18:50:57.327Z",
+  "collectedAt": "2026-10-31T21:57:37.138Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 10
+      "count": 1
     },
     {
       "id": "taipei-times",
@@ -34,8 +34,8 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 44,
-      "filtered": 6
+      "count": 43,
+      "filtered": 7
     },
     {
       "id": "dw-asia",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 11,
-      "filtered": 39
+      "count": 13,
+      "filtered": 37
     },
     {
       "id": "gnews-arms",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 287,
+  "count": 288,
   "events": [
     {
       "id": "news-120wga1",
@@ -277,6 +277,44 @@
       "sourceUrl": "https://www.taipeitimes.com/News/feat/archives/2026/11/01/2003866943"
     },
     {
+      "id": "news-yz2adq",
+      "kind": "news",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T21:51:38.000Z",
+      "description": "North Korea says defence research institutes tested major weapon system (Straits Times, 2026-10-31. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/north-korea-says-defence-research-institutes-tested-major-weapon-system"
+    },
+    {
+      "id": "news-1784umb",
+      "kind": "news",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T21:00:00.000Z",
+      "description": "Coffee beans, patrol boats and Mandarin: China’s evolving role in Timor-Leste (Straits Times, 2026-10-31. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/se-asia/coffee-beans-mandarin-and-patrol-boats-chinas-evolving-role-in-timor-leste"
+    },
+    {
       "id": "news-1up8il9",
       "kind": "news",
       "date": "2026-10-31",
@@ -446,6 +484,25 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/taipei-mayor-gets-angry-reception-at-pride-after-gay-bar-raid"
+    },
+    {
+      "id": "news-9a4zeb",
+      "kind": "news",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T10:41:38.000Z",
+      "description": "Taipei mayor gets angry reception at Pride after gay bar raid (Straits Times, 2026-10-31. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/taipei-mayor-gets-angry-reception-at-pride-after-gay-bar-raid"
     },
     {
       "id": "news-ie0hft",
@@ -1612,6 +1669,40 @@
         "goldstein": -2,
         "tone": -2.04,
         "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330856188",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T19:45:00.000Z",
+      "description": "Coercion — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5625329",
+      "gdelt": {
+        "globalEventId": "1330856188",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -4.52,
+        "mentions": 8,
         "sources": 1
       }
     },
@@ -7809,63 +7900,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3372466/australia-returns-ancient-stone-heads-china-after-more-30-years"
-    },
-    {
-      "id": "news-1uqj9u2",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T21:30:08.000Z",
-      "description": "What China’s best new cultural spaces have in common: the light touch (SCMP, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/opinion/china-opinion/article/3372232/what-chinas-best-new-cultural-spaces-have-common-light-touch"
-    },
-    {
-      "id": "news-mfmo03",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T21:20:22.000Z",
-      "description": "Hegseth pledges stronger military framework with Philippines, but lacks details (SCMP, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/us/diplomacy/article/3372492/hegseth-pledges-stronger-military-framework-philippines-lacks-details"
-    },
-    {
-      "id": "news-1856xwc",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T20:26:16.000Z",
-      "description": "Huawei opens defence in US criminal trial, touting its record of innovation (SCMP, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/us/article/3372491/huawei-opens-defence-us-criminal-trial-touting-its-record-innovation"
     }
   ]
 }
