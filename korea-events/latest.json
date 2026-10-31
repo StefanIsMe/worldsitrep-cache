@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "korea",
-  "collectedAt": "2026-10-31T13:55:15.114Z",
+  "collectedAt": "2026-10-31T16:14:14.693Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 11
+      "count": 8
     },
     {
       "id": "yna-nk",
@@ -27,8 +27,8 @@
       "id": "korea-times",
       "url": "https://feed.koreatimes.co.kr/k/allnews.xml",
       "status": "ok",
-      "count": 11,
-      "filtered": 29
+      "count": 1,
+      "filtered": 3
     },
     {
       "id": "gnews-korea",
@@ -94,8 +94,50 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 1075,
+  "count": 1084,
   "events": [
+    {
+      "id": "news-hzru40",
+      "kind": "news",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T16:12:03.000Z",
+      "description": "Korea's top diplomat discusses ties with German, Polish counterparts (Korea Times, 2026-10-31. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/foreignaffairs/20261101/koreas-top-diplomat-discusses-ties-with-german-polish-counterparts?utm_source=rss"
+    },
+    {
+      "id": "news-l2lkme",
+      "kind": "news",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T13:54:06.000Z",
+      "description": "(LEAD) Up to 125,000 gather in Seoul's Hongdae area on Halloween; 30,000 in Itaewon: data (Yonhap, 2026-10-31. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Seoul",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261031002951320",
+      "lat": 37.57,
+      "lng": 126.98,
+      "coordsNote": "Headline gazetteer match: \"Seoul\" (city); verify via source article."
+    },
     {
       "id": "news-10r8c2g",
       "kind": "news",
@@ -3443,6 +3485,278 @@
         "goldstein": -5,
         "tone": -5.54,
         "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330830951",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T15:00:00.000Z",
+      "description": "Force posture — Military → Unspecified near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Force posture (GDELT 150)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/north-korea-nuclear-status-denuclearisation-explained-2026/",
+      "gdelt": {
+        "globalEventId": "1330830951",
+        "eventCode": "150",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -3.18,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330830985",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T15:00:00.000Z",
+      "description": "Rejection — North Korea → Regime near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Rejection (GDELT 120)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/north-korea-nuclear-status-denuclearisation-explained-2026/",
+      "gdelt": {
+        "globalEventId": "1330830985",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -3.18,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330830988",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T15:00:00.000Z",
+      "description": "Rejection — North Korea → Japanese near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Rejection (GDELT 120)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/north-korea-nuclear-status-denuclearisation-explained-2026/",
+      "gdelt": {
+        "globalEventId": "1330830988",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -3.18,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330830989",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T15:00:00.000Z",
+      "description": "Rejection — North Korea → Japan near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Rejection (GDELT 120)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/north-korea-nuclear-status-denuclearisation-explained-2026/",
+      "gdelt": {
+        "globalEventId": "1330830989",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -3.18,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330833267",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T15:30:00.000Z",
+      "description": "Fight — Unspecified → South Korea near Busan, Pusan-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 35.1028,
+      "lng": 129.04,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Busan, Pusan-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://collider.com/netflix-dead-end-job-streaming-success-october-2026/",
+      "gdelt": {
+        "globalEventId": "1330833267",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -1.43,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330833274",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T15:30:00.000Z",
+      "description": "Reduced relations — Unspecified → Website near Busan, Pusan-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.1028,
+      "lng": 129.04,
+      "action": "Reduced relations (GDELT 164)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Busan, Pusan-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://collider.com/netflix-dead-end-job-streaming-success-october-2026/",
+      "gdelt": {
+        "globalEventId": "1330833274",
+        "eventCode": "164",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7,
+        "tone": -1.43,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330833732",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T15:30:00.000Z",
+      "description": "Reduced relations — Website → Unspecified near Busan, Pusan-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.1028,
+      "lng": 129.04,
+      "action": "Reduced relations (GDELT 164)",
+      "actor": "Website",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Busan, Pusan-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://collider.com/netflix-dead-end-job-streaming-success-october-2026/",
+      "gdelt": {
+        "globalEventId": "1330833732",
+        "eventCode": "164",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7,
+        "tone": -1.43,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330836329",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T16:00:00.000Z",
+      "description": "Threat — Company → Security Check near North Korea. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 40,
+      "lng": 127,
+      "action": "Threat (GDELT 130)",
+      "actor": "Company",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.moneycontrol.com/news/business/binance-says-90-of-stolen-crypto-assets-replenished-after-6-3-billion-security-breach-14065136.html",
+      "gdelt": {
+        "globalEventId": "1330836329",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.89,
+        "mentions": 5,
         "sources": 1
       }
     },
@@ -16155,6 +16469,25 @@
       "locationStr": "The News International",
       "source": "The News International",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcEdpbncxak5IendiVmxQeHNuUWtKZVJSN0E0UVEwS0ZaUWtuV1FlejhXM3ZEUW1OZ0doeHRXcHVqX1kzbzc0U21Pc3BhQnFiWFlBVFhWOFhvR0djeFgzN3NsY3ZXVzZRRUhEOHVudHpKNkdRcUx1amN3NmV1YjVsVzhCVVlPamllWm0zTExtek1sV20wTWlYdE9kOVZFMUE4OEhDWl9XSlJva0JwMk5kS25yNDc3VTY3NUxBNG1ONk5qOUVnWTF4Yk5FZTBRZTFBRnfSAc4BQVVfeXFMUDRCU3NBcVIwdkppVWFwZzFLdmdPd1JsbS1MeEpvLVJOSnpnYldBOUNMMjJ4eW1VMWoxVEE0NThPVHlBMDNnYU8wU1FsdzVBdGZtM0ZNOGY2WmhiUFMtSG52eGRneHo0eW44MmdkMkRSalJmeVkxdUZQR3htTDFiUHZnX1hJRlZoTkhLbVEtcGpBYUliYVlzZjU5MU5TdEE1alJpejBCdEUtc2l5QjI1NE96Sk42LVo3cjhqM21ZN3ZMa0pRQXdSWDc0WTFuT2c?oc=5"
+    },
+    {
+      "id": "news-1u80cba",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T14:58:00.000Z",
+      "description": "North Korea’s New Heavy Stealth Drone Poised to Transform its Air Combat Capabilities - Military Watch Magazine (Military Watch Magazine, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Military Watch Magazine",
+      "axis": "Other",
+      "tags": [
+        "Military Watch Magazine",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Military Watch Magazine",
+      "source": "Military Watch Magazine",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbzBrMndHcnMxcHZZSXd6SXF1N0JoOXBFWUY4WjVtWnJTZzRoSFNqaDVYdmlQSFpkZm1jQlVvczZVV0dCeThial9rd0kxd1pHdzRiWHlHN2FuVTZnSG1GVUlDbXk2M2txTjdBT2hXdHpkeUY1TGJreThqLVdmaFMwaXBjd1htRzhlNUNCRmlUNUFoT3FlX1FKaA?oc=5"
     },
     {
       "id": "news-1t7pors",
@@ -31105,44 +31438,6 @@
       "locationStr": "Modern Ghana",
       "source": "Modern Ghana",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53ZnJrMFBkcVNsbjZJV1UxYjk4R21tREVfWjRrSDAyNE5VTHdiYnFwejFnNTh0WkNMLTNQUWdHYWlWR2VxcGZWVVg1OTl3M0prWjQ1dExRVGJRQ3V5QW1MVkw2RXFhQdIBXkFVX3lxTE5ULUZLMXpfLUlSWWdPUnZtbEIzUm1sUkFMZFpqeUoxNy15b2xpeVctYzdwdERIdDY1bG9KY0JqOU5aTnJPRUp0dVpUOUJ4RXRhek1JcHk3eFhTV0JDMGc?oc=5"
-    },
-    {
-      "id": "news-uqz3du",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T15:36:10.000Z",
-      "description": "North Korea Builds Up Forces Above the Line With South Korea While Staging Record Number of Missile Tests - The New York Sun (The New York Sun, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Sun",
-      "axis": "Other",
-      "tags": [
-        "The New York Sun",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New York Sun",
-      "source": "The New York Sun",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSlAwMlR2aHcxRi1FRHRqcUNKbkRjRWFFbFVMRTltYkowbTBVbllkVk8wMDVhcUJwUkZ2Mk9qNTY4S0VoT0dEbkJjVXdvYmdKUjNNc0lXbEVVaXFNTVNxTHhHTXpxcW0wWVJCeFZqSXZyay1LNXY0cllsVWY2bXE1dUVxa29ma01xZk9iMXN0blpVVjdya1lDajY4ek55YnRNQUZzUXJpU0szWUFMU3pfU2tWMWdwdE00MXhNaW5QdjdfbGltdUZ3MWwyaU1hTFRN?oc=5"
-    },
-    {
-      "id": "news-hgvx2h",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T15:30:11.000Z",
-      "description": "Belarusian hackers increasingly acting as proxies for Russia amid war in Ukraine - The Record from Recorded Future News (The Record from Recorded Future News, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Record from Recorded Future News",
-      "axis": "Other",
-      "tags": [
-        "The Record from Recorded Future News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Record from Recorded Future News",
-      "source": "The Record from Recorded Future News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9oaUdhT1l5WFhoNi1WdHJzR09nTllod3NWOXZ2Nl94WTVTQW51NDNHalV3UENMZ3BnT2NhXzZmcTctemhXQ0sxdzlmcTg0cEpsWTE4X3RfbWdBLV9SZGFEcVFYYno5bGxhRFE?oc=5"
     }
   ]
 }
