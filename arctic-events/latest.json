@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-10-31T05:20:37.259Z",
+  "collectedAt": "2026-10-31T07:34:04.116Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 11
+      "count": 2
     },
     {
       "id": "rci-arctic",
@@ -55,7 +55,7 @@
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 26,
       "filtered": 0
     },
     {
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 440,
+  "count": 441,
   "events": [
     {
       "id": "news-1dwv5ue",
@@ -930,6 +930,74 @@
         "goldstein": -2,
         "tone": -6.17,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330781436",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T05:45:00.000Z",
+      "description": "Rejection — Russia → Unspecified near Stockholm, Stockholm, Sweden. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.3333,
+      "lng": 18.05,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Stockholm, Stockholm, Sweden",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://localnews8.com/news/national-world/cnn-world/2026/10/30/putin-wants-africa-on-his-side-african-leaders-are-playing-their-own-game/",
+      "gdelt": {
+        "globalEventId": "1330781436",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -1.21,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330783289",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T06:15:00.000Z",
+      "description": "Demand — Companies → Scientist near Norway. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Demand (GDELT 100)",
+      "actor": "Companies",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.moneycontrol.com/science/how-wendy-schmidt-s-1-4-million-oil-cleanup-challenge-produced-a-skimmer-that-could-recover-4-670-gallons-of-oil-per-minute-article-14064952.html",
+      "gdelt": {
+        "globalEventId": "1330783289",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": 0.62,
+        "mentions": 3,
         "sources": 1
       }
     },
@@ -8397,7 +8465,7 @@
       "id": "news-1albayd",
       "kind": "news",
       "date": "2026-10-29",
-      "isoDate": "2026-10-29T12:57:04.000Z",
+      "isoDate": "2026-10-29T12:54:00.000Z",
       "description": "Trump is picking a fight with Norway again – is this the real reason why? - The Independent (The Independent, 2026-10-29. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -14169,25 +14237,6 @@
       "locationStr": "Cryopolitics",
       "source": "Cryopolitics",
       "sourceUrl": "https://www.cryopolitics.com/2026/10/28/china-is-coming-to-the-arctic-overland/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=china-is-coming-to-the-arctic-overland"
-    },
-    {
-      "id": "news-1yqn34h",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T07:08:49.000Z",
-      "description": "Arctic shipping routes: Russia and China join forces to 'open the way', Europe faces a strategic challenge. - Vietnam.vn (Vietnam.vn, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Vietnam.vn",
-      "axis": "Other",
-      "tags": [
-        "Vietnam.vn",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Vietnam.vn",
-      "source": "Vietnam.vn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxON0NrX1JHdzkxczI2QkxiMFZvX1M4dWYwbnB5bXVxWi1vRzE2Qm9SZzBwdndRSHJTb1R5aG8weFB6LUhfZ0VKeUV4dWxhYV83cFVtSG1lQXBLQ3BRZHZOci1Wc0JUT3lxcUt5YzlGd2w0ZFFqZm5PZXZ5Q21hWGw4YTVXRW9zOXkwV3ZmbVY2VEhtaVYzb2xkZ3NRR0NaMGYwSVFrV3JwRk5COU56cFMxTlYwUUZXVGJhSWpGRGVWODY?oc=5"
     }
   ]
 }

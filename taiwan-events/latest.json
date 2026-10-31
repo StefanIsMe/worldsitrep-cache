@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-10-31T05:20:37.259Z",
+  "collectedAt": "2026-10-31T07:34:04.116Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 1
+      "count": 2
     },
     {
       "id": "taipei-times",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 13,
-      "filtered": 37
+      "count": 12,
+      "filtered": 38
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 29,
+      "count": 42,
       "filtered": 0
     },
     {
@@ -82,6 +82,44 @@
   ],
   "count": 254,
   "events": [
+    {
+      "id": "news-1yu7tst",
+      "kind": "news",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T06:01:12.000Z",
+      "description": "Beijing blasts US ban on device testing in China, warns of supply chain disruptions (SCMP, 2026-10-31. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3372816/beijing-blasts-us-ban-device-testing-china-warns-supply-chain-disruptions"
+    },
+    {
+      "id": "news-1u9cfom",
+      "kind": "news",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T05:06:00.000Z",
+      "description": "India news: Tanker carrying 27 Indians attacked in Strait of Hormuz (DW, 2026-10-31. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW",
+      "axis": "Other",
+      "tags": [
+        "DW",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DW",
+      "source": "DW",
+      "sourceUrl": "https://www.dw.com/en/india-news-tanker-carrying-27-indians-attacked-in-strait-of-hormuz/live-79814329?maca=en-rss-en-asia-5133-rdf"
+    },
     {
       "id": "news-etf0ht",
       "kind": "news",
@@ -306,6 +344,74 @@
         "goldstein": -6.5,
         "tone": -0.76,
         "mentions": 16,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330782253",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T06:00:00.000Z",
+      "description": "Disapproval — China → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cna.com.tw:443/youtube/fMXGveoBios.aspx",
+      "gdelt": {
+        "globalEventId": "1330782253",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 2,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330782259",
+      "kind": "event",
+      "date": "2026-10-31",
+      "isoDate": "2026-10-31T00:00:00.000Z",
+      "observedAt": "2026-10-31T06:00:00.000Z",
+      "description": "Disapproval — China → Xi Jinping near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/31102026-online-post-purportedly-by-chinese-students-calls-for-restoring-term-limits-for-xi/",
+      "gdelt": {
+        "globalEventId": "1330782259",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.38,
+        "mentions": 2,
         "sources": 1
       }
     },
@@ -2670,6 +2776,29 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/se-asia/philippines-china-tensions-resurface-at-the-close-of-asean-defence-gathering"
+    },
+    {
+      "id": "news-1e58uh5",
+      "kind": "news",
+      "date": "2026-10-29",
+      "isoDate": "2026-10-29T09:54:00.000Z",
+      "description": "Penghu opens two new Coast Guard inspection offices - Taiwan News (Taiwan News, 2026-10-29. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Taiwan News",
+      "axis": "Other",
+      "tags": [
+        "Taiwan News",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Penghu",
+      "source": "Taiwan News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91U1plYW9pd1ozelVsYkJsOWJWXy1Jc25oWFl0aVlET2VKTVYtVE90SjFVLXFrTzFYQzJXMkRxVTZnVkFTTGxuS2M0b1ZTMnhjQ2g2Uw?oc=5",
+      "lat": 23.57,
+      "lng": 119.59,
+      "coordsNote": "Headline gazetteer match: \"Penghu\" (city); verify via source article."
     },
     {
       "id": "news-ky9bcl",
@@ -6746,101 +6875,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/east-asia/chinas-new-export-curbs-draw-a-line-around-its-ai-crown-jewels"
-    },
-    {
-      "id": "news-dv1if9",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T06:47:00.000Z",
-      "description": "Mainland condemns DPP's use of public funds for US observers at Taiwan drills - China Daily (China Daily, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "China Daily",
-      "axis": "Other",
-      "tags": [
-        "China Daily",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "China Daily",
-      "source": "China Daily",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1jRWJzaHBmZXhPWnJzY1dBalNVMWZfWE5sMGdaeXU1WndmLS1WVl8zUUZWVmNQRUpUanhBXzJNd3BkLVQxb1VQNEE3c01ZcU0wMnF6ellJbXBtNTNTNm5sOUtYU1E2WXRlUktDSkM4YXRNb19RejhlY055Q0tOdw?oc=5"
-    },
-    {
-      "id": "news-1tkbsfg",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T06:35:52.000Z",
-      "description": "AUKUS on track for Australia nuclear-powered subs in early 2030s: Defence Minister (Straits Times, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/australianz/aukus-on-track-for-australia-subs-in-early-2030s-marles-says"
-    },
-    {
-      "id": "news-131rm83",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T06:30:31.000Z",
-      "description": "Chinese anti-scam blogger killed by criminals hired online to silence his work (SCMP, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3372403/chinese-anti-scam-blogger-killed-contractors-hired-online-silence-his-work"
-    },
-    {
-      "id": "news-6f414f",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T06:05:52.000Z",
-      "description": "China’s old-age dependency ratio overtakes children for first time (Straits Times, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/chinas-old-age-dependency-ratio-overtakes-children-for-first-time"
-    },
-    {
-      "id": "news-n704p4",
-      "kind": "news",
-      "date": "2026-10-28",
-      "isoDate": "2026-10-28T06:05:52.000Z",
-      "description": "China's old-age dependency ratio overtakes children for first time (Straits Times, 2026-10-28. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/chinas-old-age-dependency-ratio-overtakes-children-for-first-time"
     }
   ]
 }
