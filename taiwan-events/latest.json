@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-01T05:08:16.724Z",
+  "collectedAt": "2026-11-01T08:13:04.112Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 6
+      "count": 4
     },
     {
       "id": "taipei-times",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 30,
+      "count": 44,
       "filtered": 0
     },
     {
@@ -80,8 +80,46 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 181,
+  "count": 184,
   "events": [
+    {
+      "id": "news-1l0fbi6",
+      "kind": "news",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T07:32:10.000Z",
+      "description": "Beijing ramps up maritime patrols around Taiwan, prompting Taipei to shadow ships (SCMP, 2026-11-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3372875/beijing-ramps-maritime-patrols-around-taiwan-prompting-taipei-shadow-ships"
+    },
+    {
+      "id": "news-nw4b8c",
+      "kind": "news",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T06:00:18.000Z",
+      "description": "Could Taipei’s unexpectedly tight mayoral race add to cross-strait tensions? (SCMP, 2026-11-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3372865/could-taipeis-unexpectedly-tight-mayoral-race-add-cross-strait-tensions"
+    },
     {
       "id": "news-1kjouil",
       "kind": "news",
@@ -340,6 +378,142 @@
         "goldstein": -4.4,
         "tone": -2.42,
         "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330893544",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T05:15:00.000Z",
+      "description": "Coercion — Police → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.starobserver.com.au/news/a-massive-150000-people-joined-taiwan-pride-following-controversial-gay-bar-raid/244854",
+      "gdelt": {
+        "globalEventId": "1330893544",
+        "eventCode": "172",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -2.57,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330893546",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T05:15:00.000Z",
+      "description": "Fight — Police → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 24,
+      "lng": 121,
+      "action": "Fight (GDELT 190)",
+      "actor": "Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.starobserver.com.au/news/a-massive-150000-people-joined-taiwan-pride-following-controversial-gay-bar-raid/244854",
+      "gdelt": {
+        "globalEventId": "1330893546",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.57,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330901599",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T07:15:00.000Z",
+      "description": "Disapproval — Air Force → Unspecified near Tien Lung, Nantou Xian, Taiwan. Machine-coded by GDELT 2.1 (20 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 23.8615,
+      "lng": 120.87,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Air Force",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tien Lung, Nantou Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/politics/202611010005",
+      "gdelt": {
+        "globalEventId": "1330901599",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.01,
+        "mentions": 20,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330901601",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T07:15:00.000Z",
+      "description": "Fight — Air Force → Unspecified near Tien Lung, Nantou Xian, Taiwan. Machine-coded by GDELT 2.1 (20 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 23.8615,
+      "lng": 120.87,
+      "action": "Fight (GDELT 190)",
+      "actor": "Air Force",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tien Lung, Nantou Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/politics/202611010005",
+      "gdelt": {
+        "globalEventId": "1330901601",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -1.01,
+        "mentions": 20,
         "sources": 1
       }
     },
@@ -4545,63 +4719,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/hong-kong/series/3372572/chinas-currency-goes-global"
-    },
-    {
-      "id": "news-yeygag",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T07:53:28.000Z",
-      "description": "Japan and US strike deal on missile assembly as Tokyo expands long-range arsenal (SCMP, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/military/article/3372564/japan-and-us-strike-deal-missile-assembly-tokyo-expands-long-range-arsenal"
-    },
-    {
-      "id": "news-176212w",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T07:48:43.000Z",
-      "description": "Germany does not want China decoupling but must defend its interests, president warns (SCMP, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3372562/we-dont-want-china-decoupling-we-must-defend-our-interests-german-president-warns"
-    },
-    {
-      "id": "news-1sgnsrl",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T06:07:00.000Z",
-      "description": "Taiwan suspects China behind brief Pakistan airspace ban (Straits Times, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/taiwan-suspects-china-behind-brief-pakistan-airspace-ban"
     }
   ]
 }

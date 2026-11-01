@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-11-01T05:08:16.724Z",
+  "collectedAt": "2026-11-01T08:13:04.112Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "id": "rci-arctic",
@@ -55,7 +55,7 @@
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 24,
+      "count": 25,
       "filtered": 0
     },
     {
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 346,
+  "count": 343,
   "events": [
     {
       "id": "news-1hrn1cb",
@@ -93,6 +93,29 @@
       "locationStr": "Financial Times",
       "source": "Financial Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQnhNSjlmdWdKRkhjbUNxaTU2U0ZhZ1hjTXA4ZVJqN1JveUVhZy1qeHl2TUU3R2NEek5ZM1U1TnBxbnpURnZ3Smd1QWotdGczZXlTcW1NUUoyMXJydVpJZTVXMzhkSTBvcHhwOG9IWllfYWVpTFFRQjB5blR1NjN4NlJ3OF8?oc=5"
+    },
+    {
+      "id": "news-19osh8h",
+      "kind": "news",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:44:47.000Z",
+      "description": "American Speculators and Prospectors Find It’s Hard to Make Money in Greenland - WSJ (WSJ, 2026-11-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSJ",
+      "axis": "Other",
+      "tags": [
+        "WSJ",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Greenland",
+      "source": "WSJ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOclRDaVlvRjdRcm56RUJ1MDRoYUh2LXV3VEo1YmZNZWxQal9qNnF2WWJNcVNSdnBBNkdlNlBzQjNfcmtKeFBNS0hmY0dTUU5MTmlOSk12WGR6aktqbkxYZmpzcmZjMzdyVThfQnRvOVd0QkVOSkM2bEdWVWg4MlVwbWVQanVncE14WC05VUFYLU1BQXp5MWtrM3RBT1lLQ1Q1dnpHd0ZGRjczWlpSV2JBbmt4RVc0QQ?oc=5",
+      "lat": 72,
+      "lng": -40,
+      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
     },
     {
       "id": "gdelt-1330876149",
@@ -333,6 +356,40 @@
       }
     },
     {
+      "id": "gdelt-1330898655",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T06:30:00.000Z",
+      "description": "Threat — Stockholm → Unspecified near Stockholm, Stockholm, Sweden. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.3333,
+      "lng": 18.05,
+      "action": "Threat (GDELT 130)",
+      "actor": "Stockholm",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Stockholm, Stockholm, Sweden",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thewestmorlandgazette.co.uk/news/26681904.11-autumn-walking-breaks-manchester-airport-31/",
+      "gdelt": {
+        "globalEventId": "1330898655",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 1.43,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-d0dasb",
       "kind": "news",
       "date": "2026-10-31",
@@ -350,29 +407,6 @@
       "locationStr": "Anchorage Daily News",
       "source": "Anchorage Daily News",
       "sourceUrl": "https://www.adn.com/arts/books/2026/10/31/book-review-weighted-with-wonder-and-sadness-frostlines-investigates-arctic-mysteries-and-realities/"
-    },
-    {
-      "id": "news-19osh8h",
-      "kind": "news",
-      "date": "2026-10-31",
-      "isoDate": "2026-10-31T16:02:09.000Z",
-      "description": "American Speculators and Prospectors Find It’s Hard to Make Money in Greenland - WSJ (WSJ, 2026-10-31. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "WSJ",
-      "axis": "Other",
-      "tags": [
-        "WSJ",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "WSJ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOclRDaVlvRjdRcm56RUJ1MDRoYUh2LXV3VEo1YmZNZWxQal9qNnF2WWJNcVNSdnBBNkdlNlBzQjNfcmtKeFBNS0hmY0dTUU5MTmlOSk12WGR6aktqbkxYZmpzcmZjMzdyVThfQnRvOVd0QkVOSkM2bEdWVWg4MlVwbWVQanVncE14WC05VUFYLU1BQXp5MWtrM3RBT1lLQ1Q1dnpHd0ZGRjczWlpSV2JBbmt4RVc0QQ?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
     },
     {
       "id": "news-ctbw52",
@@ -3650,23 +3684,19 @@
       "kind": "news",
       "date": "2026-10-30",
       "isoDate": "2026-10-30T16:08:09.000Z",
-      "description": "New International Airport Debuts in Greenland above Arctic Circle - Aviation International News (Aviation International News, 2026-10-30. Headline + link only.)",
+      "description": "New International Airport Debuts above Arctic Circle - Aviation International News (Aviation International News, 2026-10-30. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Aviation International News",
       "axis": "Other",
       "tags": [
         "Aviation International News",
-        "headline",
-        "headline-geocoded"
+        "headline"
       ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
+      "coordsTier": "unplaced",
+      "locationStr": "Aviation International News",
       "source": "Aviation International News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZk0yVUxuM2ozemY1VEpmOGdVR1lkS0VwYWVDc1RsbWlmNUlzd3pHM2p3cG5vbTFlQWFqTFppVHBza1g4SHVWa2ZSVzQzaTA0bWE3RndCZWc0dDVQenYwaUE5T0ZnNlhvNEtWbEttSk5TU21JVnN6MXRUNHNsZHVWdmNqUWpoakZtZy15X0V4SDRNOXlLNEdoZTAxeEMwZy0yaGhZSG1hVVdmc01CMXhuVGxnTFhCa0ZJ?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZk0yVUxuM2ozemY1VEpmOGdVR1lkS0VwYWVDc1RsbWlmNUlzd3pHM2p3cG5vbTFlQWFqTFppVHBza1g4SHVWa2ZSVzQzaTA0bWE3RndCZWc0dDVQenYwaUE5T0ZnNlhvNEtWbEttSk5TU21JVnN6MXRUNHNsZHVWdmNqUWpoakZtZy15X0V4SDRNOXlLNEdoZTAxeEMwZy0yaGhZSG1hVVdmc01CMXhuVGxnTFhCa0ZJ?oc=5"
     },
     {
       "id": "news-fk5ays",
@@ -11055,90 +11085,6 @@
       "locationStr": "Greenland",
       "source": "Macau Business",
       "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QUjJhZHBLamd0M2ZzMDNQTkR4akpXN3ktZ0RGT2dGdFZDNlhIdWZIZFpvY29CZGpjQjRhWEptb3JGS2NRczcxVkxWXzl4SGItRHNjWl9fbElTVnd2X3NSZVNBbVhoSHBKSmtzQ1VWZmh1R3RHYzNF?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
-    },
-    {
-      "id": "news-1ex94cv",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T07:17:45.000Z",
-      "description": "South Korea suspected of rapprochement with Russia amid the war - FT - Українські Національні Новини (УНН) (Українські Національні Новини (УНН), 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Українські Національні Новини (УНН)",
-      "axis": "Other",
-      "tags": [
-        "Українські Національні Новини (УНН)",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Українські Національні Новини (УНН)",
-      "source": "Українські Національні Новини (УНН)",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNazRETERiMjR3ZkxRcXhEWHZ0djVzajV4cXlrQTNMV0t1bVZlWXhweVJBbUhicnVqUUZvcWRlaEVxbU9fUS01WmZMeWpCZjJlZWd5SzRUdDNxLUdMY215a1hTaFBDdlpKQ3ZzU2VFSWViY3lWOVhnUVQ0Z18wcGZuTFdRZ09HUmV0NDU5NXkwbDBtdkXSAZIBQVVfeXFMTkczV01MaW9fOFJoczIwcXlKM2NvX2wyT3dtc3AyaldJblE1YUMxclg2TkVMWFUzc250cWxMd1JWeUhNM1Utc0VFUUxIZVhFVlZlbFNxMnpmS3U2VlpmZW50WFA5a2s3X3dlRzFLeGVhS0M2TFI2Q3BkRnRXVWUxeWNoWWNHS1czcWVwbk1lSUlxUkE?oc=5"
-    },
-    {
-      "id": "news-1wzhkp6",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T07:00:00.000Z",
-      "description": "Press Release: Greenland’s Ilulissat Airport opens for business - Runway Girl (Runway Girl, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Runway Girl",
-      "axis": "Other",
-      "tags": [
-        "Runway Girl",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Ilulissat",
-      "source": "Runway Girl",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSHpQRTVPdXF4QlVncnJwWDl5UFdoRWJDaEJhUzVfdDhLZnVib0NlU1ZuRFpYTFBmS1hjVjV6cW5wVzFTNDRhWW03T2dFSmswVDk1R3Q1MUJIWkZZSWFnZWl2MlQwTmd3ZlpkM0ZlWm1hYy1OU2dLamZfc2p3OFJEaUM1eTZEdzY1ZGNHYVNlVQ?oc=5",
-      "lat": 69.22,
-      "lng": -51.1,
-      "coordsNote": "Headline gazetteer match: \"Ilulissat\" (city); verify via source article."
-    },
-    {
-      "id": "news-1rp5iti",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T06:52:10.000Z",
-      "description": "Russia targets year-round Arctic shipping from early 2027 - Splash247 (Splash247, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Splash247",
-      "axis": "Other",
-      "tags": [
-        "Splash247",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Splash247",
-      "source": "Splash247",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMnFLZHdCUmVUakRCZWhxSVpPdUZpNGN6M0l0dzdpOEx0NFNqWmprUjNOWllPQmg2dFk0TjZVNjJDSDBEa0gzeE5yUm8tblU1cWphM0xabnJ4VGRIMlN2TTR0N0xKQmJyZ0w3YWJESkNZS2NrNGNQMTBiUjBBaHlTM1ZWQmFZS0k?oc=5"
-    },
-    {
-      "id": "news-hqht0b",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T06:26:23.000Z",
-      "description": "EU pushes direct Greenland subsea cable with Canada, South Korea and Japan link plan - 디지털투데이 (디지털투데이, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "디지털투데이",
-      "axis": "Other",
-      "tags": [
-        "디지털투데이",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "디지털투데이",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ0poSXhWYU1UVEFZZTYzNTJfc042cE1SX3JqcWR5QVZESkQxMWtkU3drakRnaktWeTVfWHVNYXNTdUZNTnZVVFlOSGZ4WlNCLUxQWVFLMGgzRVo5TC1OTzBOdDlYNlp4U2FKTWNSVlpJbXBHV2JPNW9FR0hUd1YtOHhTRDN1U0E3OGoyMDZCTVR0ZURvMk43bmk0T2YyX3NGdjZtQ2QyMjdBcXhYZmpucmlZMEtfWGtteXBXajl6T0pZWlU?oc=5",
       "lat": 72,
       "lng": -40,
       "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
