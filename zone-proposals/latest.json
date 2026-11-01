@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-11-01T05:08:16.196Z",
+  "collectedAt": "2026-11-01T06:45:20.002Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 219,
+  "coarseGdeltDropped": 221,
   "outsideTheatreDropped": 8,
   "proposals": [
     {
@@ -17,14 +17,14 @@
       },
       "eventCount": 369,
       "kinds": {
-        "other": 246,
-        "combat": 108,
+        "other": 243,
+        "combat": 111,
         "strike": 15
       },
       "tierCounts": {
         "approximate": 369
       },
-      "combatCount": 123,
+      "combatCount": 126,
       "newestIsoDate": "2026-11-01T00:00:00.000Z",
       "samples": [
         {
@@ -44,7 +44,7 @@
         }
       ],
       "centroid": {
-        "lat": 50.4128,
+        "lat": 50.4126,
         "lng": 30.3821
       },
       "radiusKm": 21.6
@@ -56,18 +56,23 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 183,
+      "eventCount": 181,
       "kinds": {
-        "other": 102,
-        "combat": 73,
+        "other": 103,
+        "combat": 70,
         "strike": 8
       },
       "tierCounts": {
-        "approximate": 183
+        "approximate": 181
       },
-      "combatCount": 81,
-      "newestIsoDate": "2026-11-01T03:40:49.000Z",
+      "combatCount": 78,
+      "newestIsoDate": "2026-11-01T05:22:00.000Z",
       "samples": [
+        {
+          "id": "news-4ecs2l",
+          "isoDate": "2026-11-01T05:22:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-polytics/4180158-zelensky-thanks-melania-trump-for-mediation-in-securing-ceasefire-in-oleshky.html"
+        },
         {
           "id": "news-14jyvd0",
           "isoDate": "2026-11-01T03:40:49.000Z",
@@ -77,59 +82,13 @@
           "id": "gdelt-1330873612",
           "isoDate": "2026-11-01T00:00:00.000Z",
           "sourceUrl": "https://www.messenger-inquirer.com/news/national/evacuees-reunite-with-family-at-the-ukrainian-belarusian-border-after-fleeing-oleshky/article_5174ffa4-0c03-5909-91e9-4a43b628d014.html"
-        },
-        {
-          "id": "gdelt-1330873613",
-          "isoDate": "2026-11-01T00:00:00.000Z",
-          "sourceUrl": "https://www.messenger-inquirer.com/news/national/evacuees-reunite-with-family-at-the-ukrainian-belarusian-border-after-fleeing-oleshky/article_5174ffa4-0c03-5909-91e9-4a43b628d014.html"
         }
       ],
       "centroid": {
-        "lat": 46.5699,
-        "lng": 32.5012
+        "lat": 46.5706,
+        "lng": 32.5039
       },
-      "radiusKm": 17.4
-    },
-    {
-      "zoneId": "occ-zaporizhzhia",
-      "region": "Zaporizhzhia Oblast",
-      "center": {
-        "lat": 47,
-        "lng": 35.5
-      },
-      "eventCount": 67,
-      "kinds": {
-        "other": 54,
-        "combat": 11,
-        "strike": 2
-      },
-      "tierCounts": {
-        "approximate": 67
-      },
-      "combatCount": 13,
-      "newestIsoDate": "2026-10-31T16:43:00.000Z",
-      "samples": [
-        {
-          "id": "news-arfq0t",
-          "isoDate": "2026-10-31T16:43:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4180086-russian-forces-attack-coal-mining-facilities-in-dnipropetrovsk-region-casualties-reported.html"
-        },
-        {
-          "id": "news-tv13vh",
-          "isoDate": "2026-10-31T12:59:09.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/general/1229188.html"
-        },
-        {
-          "id": "news-l9ql1r",
-          "isoDate": "2026-10-31T11:10:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4180002-energy-equipment-seriously-damaged-in-russian-attacks-in-dnipropetrovsk-region.html"
-        }
-      ],
-      "centroid": {
-        "lat": 48.2099,
-        "lng": 35.231
-      },
-      "radiusKm": 43.6
+      "radiusKm": 17.5
     },
     {
       "zoneId": "lib-chernihiv",
@@ -138,16 +97,16 @@
         "lat": 51.4982,
         "lng": 31.2893
       },
-      "eventCount": 66,
+      "eventCount": 72,
       "kinds": {
-        "combat": 38,
+        "combat": 44,
         "other": 19,
         "strike": 9
       },
       "tierCounts": {
-        "approximate": 66
+        "approximate": 72
       },
-      "combatCount": 47,
+      "combatCount": 53,
       "newestIsoDate": "2026-11-01T00:00:00.000Z",
       "samples": [
         {
@@ -167,10 +126,51 @@
         }
       ],
       "centroid": {
-        "lat": 51.5542,
-        "lng": 31.416
+        "lat": 51.5502,
+        "lng": 31.4051
       },
-      "radiusKm": 19.5
+      "radiusKm": 18.1
+    },
+    {
+      "zoneId": "occ-zaporizhzhia",
+      "region": "Zaporizhzhia Oblast",
+      "center": {
+        "lat": 47,
+        "lng": 35.5
+      },
+      "eventCount": 64,
+      "kinds": {
+        "other": 51,
+        "combat": 11,
+        "strike": 2
+      },
+      "tierCounts": {
+        "approximate": 64
+      },
+      "combatCount": 13,
+      "newestIsoDate": "2026-11-01T05:58:00.000Z",
+      "samples": [
+        {
+          "id": "news-12qlq41",
+          "isoDate": "2026-11-01T05:58:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4180161-russian-forces-strike-zaporizhzhia-region-699-times-in-past-24-hours-six-injured.html"
+        },
+        {
+          "id": "news-arfq0t",
+          "isoDate": "2026-10-31T16:43:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4180086-russian-forces-attack-coal-mining-facilities-in-dnipropetrovsk-region-casualties-reported.html"
+        },
+        {
+          "id": "news-tv13vh",
+          "isoDate": "2026-10-31T12:59:09.000Z",
+          "sourceUrl": "https://en.interfax.com.ua/news/general/1229188.html"
+        }
+      ],
+      "centroid": {
+        "lat": 48.1885,
+        "lng": 35.2409
+      },
+      "radiusKm": 45.2
     },
     {
       "zoneId": "occ-kharkiv",
