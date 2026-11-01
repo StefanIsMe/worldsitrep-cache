@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-01T01:30:50.400Z",
+  "collectedAt": "2026-11-01T05:08:16.724Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 4
     },
     {
       "id": "aa-mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
       "status": "ok",
-      "count": 14,
-      "filtered": 15
+      "count": 13,
+      "filtered": 12
     },
     {
       "id": "aa-burkina",
       "url": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
       "status": "ok",
-      "count": 3,
-      "filtered": 6
+      "count": 2,
+      "filtered": 4
     },
     {
       "id": "aa-niger",
       "url": "https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf",
       "status": "ok",
       "count": 5,
-      "filtered": 5
+      "filtered": 3
     },
     {
       "id": "gnews-sahel",
@@ -83,14 +83,14 @@
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 24,
       "filtered": 0
     },
     {
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 46,
+      "count": 10,
       "filtered": 0
     },
     {
@@ -101,8 +101,144 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 67,
+  "count": 70,
   "events": [
+    {
+      "id": "gdelt-1330890632",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T04:15:00.000Z",
+      "description": "Demand — Unspecified → Africa near Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Demand (GDELT 100)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.newvision.co.ug/category/news/sahel-states-seek-deeper-russian-security-inf-NV_243297_112026",
+      "gdelt": {
+        "globalEventId": "1330890632",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": 0.77,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330891019",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T04:15:00.000Z",
+      "description": "Demand — Commentator → Africa near Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Demand (GDELT 100)",
+      "actor": "Commentator",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.newvision.co.ug/category/news/sahel-states-seek-deeper-russian-security-inf-NV_243297_112026",
+      "gdelt": {
+        "globalEventId": "1330891019",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": 0.77,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330891530",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T04:30:00.000Z",
+      "description": "Disapproval — Deputy → Niger near Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Deputy",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://leadership.ng/army-denies-withdrawal-as-residents-raise-alarm-over-lakurawa-return-to-sokoto-forest/",
+      "gdelt": {
+        "globalEventId": "1330891530",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.84,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330891532",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T04:30:00.000Z",
+      "description": "Disapproval — Deputy → Niger near Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Deputy",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://leadership.ng/army-denies-withdrawal-as-residents-raise-alarm-over-lakurawa-return-to-sokoto-forest/",
+      "gdelt": {
+        "globalEventId": "1330891532",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.84,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
     {
       "id": "gdelt-1330772247",
       "kind": "event",
@@ -2301,25 +2437,6 @@
       "locationStr": "France 24 Africa",
       "source": "France 24 Africa",
       "sourceUrl": "https://www.france24.com/en/video/20261029-niger-guards-accused-of-cruel-inhuman-treatment-after-33-die-in-detention"
-    },
-    {
-      "id": "news-2jbcf3",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T05:07:50.000Z",
-      "description": "Prominent Journalist 'Disappeared' for 2 Months (AllAfrica Niger, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AllAfrica Niger",
-      "axis": "Other",
-      "tags": [
-        "AllAfrica Niger",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AllAfrica Niger",
-      "source": "AllAfrica Niger",
-      "sourceUrl": "https://allafrica.com/stories/202610290120.html"
     }
   ]
 }
