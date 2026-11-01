@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-01T15:29:44.787Z",
+  "collectedAt": "2026-11-01T17:53:02.505Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 17
+      "count": 11
     },
     {
       "id": "gcaptain",
       "url": "https://gcaptain.com/feed/",
       "status": "ok",
-      "count": 4,
-      "filtered": 8
+      "count": 2,
+      "filtered": 10
     },
     {
       "id": "bbc-yemen",
       "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
       "status": "ok",
-      "count": 3,
+      "count": 4,
       "filtered": 20
     },
     {
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 326,
+  "count": 334,
   "events": [
+    {
+      "id": "news-1gpzw6k",
+      "kind": "news",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T17:06:32.000Z",
+      "description": "Israeli strikes in Gaza kill eight including child, hospitals say (BBC, 2026-11-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BBC",
+      "axis": "Other",
+      "tags": [
+        "BBC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "BBC",
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
+    },
     {
       "id": "news-1yuwbct",
       "kind": "news",
@@ -2572,6 +2591,380 @@
         "quadClass": 3,
         "goldstein": -5,
         "tone": -2.82,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330943718",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T15:30:00.000Z",
+      "description": "Disapproval — Yemen → Military near Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.siasat.com/saudi-targets-resources-supporting-houthi-attacks-in-yemen-3568309/",
+      "gdelt": {
+        "globalEventId": "1330943718",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.46,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330944338",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T15:45:00.000Z",
+      "description": "Threat — Unspecified → Combatant near Raymah, Sadah, Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16.9915,
+      "lng": 43.2784,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Raymah, Sadah, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.jpost.com/middle-east/article-913473",
+      "gdelt": {
+        "globalEventId": "1330944338",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -4.88,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330944797",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T15:45:00.000Z",
+      "description": "Assault — Government Forces → Unspecified near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Assault (GDELT 181)",
+      "actor": "Government Forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.jpost.com/middle-east/article-913473",
+      "gdelt": {
+        "globalEventId": "1330944797",
+        "eventCode": "181",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.88,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330944798",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T15:45:00.000Z",
+      "description": "Assault — Government Forces → Unspecified near Marib, Ma'rib, Yemen. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 15.461,
+      "lng": 45.3253,
+      "action": "Assault (GDELT 181)",
+      "actor": "Government Forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Marib, Ma'rib, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.jpost.com/middle-east/article-913473",
+      "gdelt": {
+        "globalEventId": "1330944798",
+        "eventCode": "181",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.88,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330945149",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T15:45:00.000Z",
+      "description": "Coercion — Al Hudaydah → Media near Al Hudaydah, Al ?udaydah, Yemen. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 14.7978,
+      "lng": 42.9545,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Al Hudaydah",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Al Hudaydah, Al ?udaydah, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.jpost.com/middle-east/article-913473",
+      "gdelt": {
+        "globalEventId": "1330945149",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -4.88,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330946402",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T16:00:00.000Z",
+      "description": "Disapproval — Rebel → Saudi Arabia near Hodeida, Al ?udaydah, Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 14.7978,
+      "lng": 42.9545,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Rebel",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Hodeida, Al ?udaydah, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.goskagit.com/news/ap_business/irans-top-diplomat-hopes-u-s-shows-rationality-and-other-mideast-news/article_0ae2822d-e952-5a34-aa1f-4a9d3aff2563.html",
+      "gdelt": {
+        "globalEventId": "1330946402",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.68,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330948647",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T16:30:00.000Z",
+      "description": "Fight — Actor → Unspecified near Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Fight (GDELT 194)",
+      "actor": "Actor",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.strategypage.com/htmw/htterr/articles/20261101082628.aspx",
+      "gdelt": {
+        "globalEventId": "1330948647",
+        "eventCode": "194",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 2.05,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330950016",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T16:45:00.000Z",
+      "description": "Disapproval — Senator → Illinois near Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Senator",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://kdhnews.com/opinion/letters/belton-reader-criticizes-efforts-to-smear-arab-americans-muslims/article_1b04dc4b-dcd2-483c-a649-baf981469ede.html",
+      "gdelt": {
+        "globalEventId": "1330950016",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.28,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330951165",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T17:00:00.000Z",
+      "description": "Fight — United Kingdom → Militia near Marib, Ma'rib, Yemen. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.461,
+      "lng": 45.3253,
+      "action": "Fight (GDELT 190)",
+      "actor": "United Kingdom",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Marib, Ma'rib, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.arabnews.com/middle-east/yemeni-forces-report-1272-strikes-on-houthis-in-24-hours-retake-positions-in-al-jawf-3009284",
+      "gdelt": {
+        "globalEventId": "1330951165",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 0,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330953652",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T17:30:00.000Z",
+      "description": "Rejection — Company → Unspecified near Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Company",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/business/investors-look-past-profits-as-big-tech-burns-cash-amid-heavy-ai-spending-6111681",
+      "gdelt": {
+        "globalEventId": "1330953652",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 0.45,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330953972",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T17:30:00.000Z",
+      "description": "Disapproval — Microsoft → Unspecified near Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Microsoft",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/business/investors-look-past-profits-as-big-tech-burns-cash-amid-heavy-ai-spending-6111681",
+      "gdelt": {
+        "globalEventId": "1330953972",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.45,
         "mentions": 10,
         "sources": 1
       }
@@ -10476,86 +10869,6 @@
       "locationStr": "Haaretz",
       "source": "Haaretz",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcl9MYTVzWG1JTDd3TlE1ak15V1FwdW9VTjRiOXMyQi1lWVBJQXl2TXJhQmNQVlp4cWtSLUlnLWRhYXpqYWtaRGowQ0M2MW5TWWtPWGgyTWpicUxfNExWQTdwOHk1ejBDdlBhMzlWMnN4MElVdllBaW5vNnQwMWRqUTVoMko2MHFMNm1tTkMwclNNeFBMX2xjd241c1hJVVFUMHdySFI1eFI1aGxRVjdFSEtoOGhZUkswWEJUYmE2WnZ4dTFRN1FGN1hERW1WUEtYNlU2SVVtOHZROS1TNE5sek9Xcm9zbkNNNk12QlZVZ2M2U01ORXhTeVpxTDJBVnd3WkE?oc=5"
-    },
-    {
-      "id": "news-1b2srh9",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T17:42:37.000Z",
-      "description": "Greek container ship sinks after drone attack off Bulgaria - Reuters (Reuters, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZDBoQmhOeXpHRkV2bGdQRVY0dWpCdG9wSk1rM2hvSmhLYmpXOFNYYU9ONTFaVmwybDBNTmQ1bTItWXByOW80YzVObnJUamFzc1VBbTB4cHJ3Z19QWHQ2a1lfSGt2X0NVWEJaVWY0XzNyNFMxU3YzOTFpUmMxNkhfTWhoSkhWRTR6TkZMbTJ2dlZJbHEyeHFsYmNseFZNX1NkVF9nQUw1S0NoU2c?oc=5"
-    },
-    {
-      "id": "news-d95lob",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T17:28:54.000Z",
-      "description": "Houthis and Iran hijack new tech to threaten Red Sea and Hormuz shipping, Bahrain warns - Arab News (Arab News, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Arab News",
-      "axis": "Other",
-      "tags": [
-        "Arab News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Red Sea",
-      "source": "Arab News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOGFEMDRVZzRfR2VZYldUeFJTT2tYZGt2Wm5wVUk2SVNKdU5MUGFNalNWdnlXS1F0Smx5TG81WXpwUTFGbWpsbW1vR0VwUHFyQWVITFY2djFKNVpyVHkycVlSS3JpT09WSk9aaUdnWkVUbW0zUHk2UHNia1VNOS1DTzdaeU92a1JZajdNdDRrdU9weGdTU2ZiQzVZc0dXYkg2d0hrOFZCNlkzWVZRbENmUEJfZm1JVnVMYzBpVDhUcnVUTVpFczF3TDZWdw?oc=5",
-      "lat": 15.5,
-      "lng": 41.5,
-      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
-    },
-    {
-      "id": "news-gydlj",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T17:09:38.000Z",
-      "description": "Israeli-owned cargo ship sinks in Black Sea after being struck by drones - The Jewish Chronicle (The Jewish Chronicle, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Jewish Chronicle",
-      "axis": "Other",
-      "tags": [
-        "The Jewish Chronicle",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Jewish Chronicle",
-      "source": "The Jewish Chronicle",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUFR5VnY0eHYyNllBZU1vSkJjY1BWWjdVZk9PWXZRaGFfcGVCRTBCVUg5Y1dFLWNfRnJxWWpRa2FCbGtqNkdvRWhqdkhzYXhfQlhjcHJZRnphLWp0RkxKTi1sMFpDcDNNM0QwSDRXMXZGa3hoSEEtQWJ5bTNQbXNwM1BQc0JzQlhKMFEtM3F2X2YzR09NaUw1aHpjaFphUUJaSkZMV3F5SnVRQUlYd3c0RW1HX0p2Zw?oc=5"
-    },
-    {
-      "id": "news-1sj4ncb",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T16:53:00.000Z",
-      "description": "ZIM vessel sinks in Black Sea after being hit by 3 suicide boat drones; no injuries - The Times of Israel (The Times of Israel, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Times of Israel",
-      "axis": "Other",
-      "tags": [
-        "The Times of Israel",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Times of Israel",
-      "source": "The Times of Israel",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQzVKRnphNWtKdU8zQ1lQcEt1U3hBbl9iZEw2XzhSRUR3S2hySlJ4WmpkN0VfNEVSNlhieWRPbnoxVlFCU3ZyYjdYQVBCX1dXcEhlbVB6ZXZ2SWYyRDZGcDl6eE1LSkh0VVp2ZWlTbWdtU1hqNm5VWUtvVlRJRWhjMmlpM0FZNzEtanpnUE9WWkFEajAzQnJmdWhXak9RNjBYd1ZoOWRvWGRNZnVRRVVVRHY1d9IBuAFBVV95cUxNN3FERG9DRUhyV0QzbXFSQ3BkSWY5b1RmRGdFWFY1NllFNktyNkRKZkpJeDUxOVpZdkNUUVBpWjVDRkdMX0xPbk1DcGVicDA0RUNkRjVCV3hOakRwX3VIbnFzTWNMdmFwT21jajh5dUNQZDRFOTI1M2FfU1ZrRUQ1R201WGhNNy1JRHZhMXJnUWZtZ2YzUy1ZWkZ1d2F6TFduanRLTUFmbEdYODh3M1dZeUZEMGNWOXJs?oc=5"
     }
   ]
 }
