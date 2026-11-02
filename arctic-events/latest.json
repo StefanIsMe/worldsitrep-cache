@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-11-01T21:51:09.855Z",
+  "collectedAt": "2026-11-01T23:57:16.474Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 2
     },
     {
       "id": "rci-arctic",
@@ -55,7 +55,7 @@
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 26,
       "filtered": 0
     },
     {
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 370,
+  "count": 371,
   "events": [
     {
       "id": "news-1ackg9o",
@@ -93,6 +93,29 @@
       "locationStr": "WSJ",
       "source": "WSJ",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSW05UHQ5YjRDajJGVFZOdDRXWVM4YWZ0ZVZEakU1R2xFWk02Z1MwWHBic3Q0ZW1BUVk0YXFRLUpwd3d1MTAtdkxsNjVxenAtLVpJakpZTDJXOEVxSHFOYVotNjc3QWE4MEhEbWktZ3cycndLc0dERDJzaU01N1EyRGJwSU1pVXliOG13TmZUZllNU1c1ak00TWVoRDlFSFFEWXBuSlBYd1pnckJKdUJQTWNqa2Y2Zw?oc=5"
+    },
+    {
+      "id": "news-19osh8h",
+      "kind": "news",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T15:31:18.000Z",
+      "description": "American Speculators and Prospectors Find It’s Hard to Make Money in Greenland - WSJ (WSJ, 2026-11-01. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSJ",
+      "axis": "Other",
+      "tags": [
+        "WSJ",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Greenland",
+      "source": "WSJ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOclRDaVlvRjdRcm56RUJ1MDRoYUh2LXV3VEo1YmZNZWxQal9qNnF2WWJNcVNSdnBBNkdlNlBzQjNfcmtKeFBNS0hmY0dTUU5MTmlOSk12WGR6aktqbkxYZmpzcmZjMzdyVThfQnRvOVd0QkVOSkM2bEdWVWg4MlVwbWVQanVncE14WC05VUFYLU1BQXp5MWtrM3RBT1lLQ1Q1dnpHd0ZGRjczWlpSV2JBbmt4RVc0QQ?oc=5",
+      "lat": 72,
+      "lng": -40,
+      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
     },
     {
       "id": "news-py95fe",
@@ -1388,27 +1411,72 @@
       }
     },
     {
-      "id": "news-19osh8h",
-      "kind": "news",
-      "date": "2026-10-31",
-      "isoDate": "2026-10-31T21:31:17.000Z",
-      "description": "American Speculators and Prospectors Find It’s Hard to Make Money in Greenland - WSJ (WSJ, 2026-10-31. Headline + link only.)",
+      "id": "gdelt-1330975126",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T22:00:00.000Z",
+      "description": "Threat — Unspecified → Europe near Stockholm, Stockholm, Sweden. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
       "type": "other",
-      "action": "News report",
-      "actor": "WSJ",
+      "lat": 59.3333,
+      "lng": 18.05,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
       "axis": "Other",
       "tags": [
-        "WSJ",
-        "headline",
-        "headline-geocoded"
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
       ],
       "coordsTier": "approximate",
-      "locationStr": "Greenland",
-      "source": "WSJ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOclRDaVlvRjdRcm56RUJ1MDRoYUh2LXV3VEo1YmZNZWxQal9qNnF2WWJNcVNSdnBBNkdlNlBzQjNfcmtKeFBNS0hmY0dTUU5MTmlOSk12WGR6aktqbkxYZmpzcmZjMzdyVThfQnRvOVd0QkVOSkM2bEdWVWg4MlVwbWVQanVncE14WC05VUFYLU1BQXp5MWtrM3RBT1lLQ1Q1dnpHd0ZGRjczWlpSV2JBbmt4RVc0QQ?oc=5",
-      "lat": 72,
-      "lng": -40,
-      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Stockholm, Stockholm, Sweden",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theyeshivaworld.com/news/general/2617435/chilling-antisemitism-jew-free-zone-sign-displayed-on-stockholm-shoe-store-door.html",
+      "gdelt": {
+        "globalEventId": "1330975126",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -7.27,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1330978740",
+      "kind": "event",
+      "date": "2026-11-01",
+      "isoDate": "2026-11-01T00:00:00.000Z",
+      "observedAt": "2026-11-01T23:00:00.000Z",
+      "description": "Reduced relations — Federal Judge → Alaska near Petersburg, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.8944,
+      "lng": 30.2642,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Federal Judge",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petersburg, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.zerohedge.com/markets/no-workable-plan-obama-judge-throws-out-doj-bid-halt-alaska-certification-if-real-sullivan",
+      "gdelt": {
+        "globalEventId": "1330978740",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -3.59,
+        "mentions": 10,
+        "sources": 1
+      }
     },
     {
       "id": "news-d0dasb",
@@ -12080,25 +12148,6 @@
         "mentions": 2,
         "sources": 1
       }
-    },
-    {
-      "id": "news-5otgpj",
-      "kind": "news",
-      "date": "2026-10-29",
-      "isoDate": "2026-10-29T21:58:28.000Z",
-      "description": "Russian Bases, Chinese Activity and the Northern Sea Route, 2018-2026 - https://economy.ac/ (https://economy.ac/, 2026-10-29. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "https://economy.ac/",
-      "axis": "Other",
-      "tags": [
-        "https://economy.ac/",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "https://economy.ac/",
-      "source": "https://economy.ac/",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1NG1KSTNwcnpJU1NyOExMbVdrVDlyU211VUJvSnM1amZ1Um1LbjBWOGFleG9la2E5cVB3T2VHaWJOWXRzRldkQmhvTnhvbHRuX1lIaUF2RG9WWWM?oc=5"
     }
   ]
 }
