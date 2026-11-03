@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-03T00:05:16.896Z",
+  "collectedAt": "2026-11-03T07:18:26.874Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 10
+      "count": 11
     },
     {
       "id": "taipei-times",
@@ -34,22 +34,22 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 43,
-      "filtered": 7
+      "count": 42,
+      "filtered": 8
     },
     {
       "id": "dw-asia",
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
       "count": 0,
-      "filtered": 11
+      "filtered": 12
     },
     {
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 11,
-      "filtered": 39
+      "count": 12,
+      "filtered": 38
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 31,
+      "count": 45,
       "filtered": 0
     },
     {
@@ -80,8 +80,107 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 189,
+  "count": 201,
   "events": [
+    {
+      "id": "news-1wpgq5f",
+      "kind": "news",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T03:59:52.000Z",
+      "description": "‘Speak last’: China’s fifth plenum moves to rein in Communist Party leaders (SCMP, 2026-11-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3373028/speak-last-chinas-fifth-plenum-moves-rein-regional-leaders"
+    },
+    {
+      "id": "news-1cghd0q",
+      "kind": "news",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T03:15:00.000Z",
+      "description": "Sea drone makers compete in Taiwan for soaring investment (Straits Times, 2026-11-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Taiwan",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/sea-drone-makers-compete-in-taiwan-for-soaring-investment",
+      "lat": 23.97394,
+      "lng": 120.98202,
+      "coordsNote": "OSM geocode: matched \"Taiwan\" → Taiwan; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1bop3nf",
+      "kind": "news",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T02:45:00.000Z",
+      "description": "China vows to boost yuan liquidity, back Hong Kong markets (Straits Times, 2026-11-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/chinas-he-lifeng-says-will-support-free-open-economy-in-hong-kong"
+    },
+    {
+      "id": "news-itybk5",
+      "kind": "news",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T01:00:10.000Z",
+      "description": "China’s Communist Party plenum targets passive ‘nice’ guys in anti-corruption push (SCMP, 2026-11-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3373017/chinas-communist-party-plenum-targets-passive-nice-guys-anti-corruption-push"
+    },
+    {
+      "id": "news-13bb9gn",
+      "kind": "news",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:32:00.000Z",
+      "description": "North Korea test fires strategic cruise missiles: KCNA (Straits Times, 2026-11-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/north-korea-test-fires-strategic-cruise-missiles-kcna"
+    },
     {
       "id": "news-1vwze1d",
       "kind": "news",
@@ -102,6 +201,25 @@
       "sourceUrl": "https://www.scmp.com/news/us/article/3373052/openai-executive-urges-caution-us-china-ai-talks-warns-distillation-threats"
     },
     {
+      "id": "news-1yjnifl",
+      "kind": "news",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:03:51.000Z",
+      "description": "OpenAI executive urges caution in China-US AI talks, warns of distillation threats (SCMP, 2026-11-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/us/article/3373052/openai-executive-urges-caution-china-us-ai-talks-warns-distillation-threats"
+    },
+    {
       "id": "news-1e2lrnj",
       "kind": "news",
       "date": "2026-11-03",
@@ -119,6 +237,380 @@
       "locationStr": "The New York Times",
       "source": "The New York Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2amlOSVlsU01Gc1A3azhQQldEZHJsSXRHaFdfRmNkU3BvR3VKdUtuYWE3djM2M2RNMDJveWhQcmg1YzZrRXFLU05yUUQ3VmhOQzFReFFoTUhCZVBiU01wMHV0TXE3R0FYZDBicHZOTXJJbFpm?oc=5"
+    },
+    {
+      "id": "gdelt-1331177150",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T04:15:00.000Z",
+      "description": "Fight — Unspecified → Central Bank near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/society/202611030004",
+      "gdelt": {
+        "globalEventId": "1331177150",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 0.97,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331177550",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T04:15:00.000Z",
+      "description": "Fight — Central Bank → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Fight (GDELT 190)",
+      "actor": "Central Bank",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/society/202611030004",
+      "gdelt": {
+        "globalEventId": "1331177550",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 0.97,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331177821",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T04:15:00.000Z",
+      "description": "Coercion — Malaysian → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Malaysian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/over-600-malaysians-imprisoned-in-taiwan-for-acting-as-money-mules/",
+      "gdelt": {
+        "globalEventId": "1331177821",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -5.6,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331177822",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T04:15:00.000Z",
+      "description": "Coercion — Malaysian → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Malaysian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://asianews.network/over-600-malaysians-imprisoned-in-taiwan-for-acting-as-money-mules/",
+      "gdelt": {
+        "globalEventId": "1331177822",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -5.6,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331179078",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T04:30:00.000Z",
+      "description": "Disapproval — Taiwan → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/11/03/sea-drone-makers-compete-in-taiwan-for-soaring-investment",
+      "gdelt": {
+        "globalEventId": "1331179078",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.01,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331181287",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T05:00:00.000Z",
+      "description": "Fight — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Fight (GDELT 192)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.manilatimes.net/2026/11/03/tmt-newswire/pr-newswire/is-egfr-alone-enough-to-assess-kidney-function-indoxyl-sulfate-reveals-hidden-toxin-burden/2460215",
+      "gdelt": {
+        "globalEventId": "1331181287",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -2.05,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331185552",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T05:45:00.000Z",
+      "description": "Reduced relations — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Reduced relations (GDELT 163)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.rfa.org/english/southchinasea/2026/11/03/taiwan-pratas-south-china-sea/",
+      "gdelt": {
+        "globalEventId": "1331185552",
+        "eventCode": "163",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -8,
+        "tone": -4.79,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331185554",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T05:45:00.000Z",
+      "description": "Disapproval — Taiwan → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.rfa.org/english/southchinasea/2026/11/03/taiwan-pratas-south-china-sea/",
+      "gdelt": {
+        "globalEventId": "1331185554",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.79,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331189890",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T06:30:00.000Z",
+      "description": "Coercion — Taiwan → Indonesian near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/society/202611030012",
+      "gdelt": {
+        "globalEventId": "1331189890",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -12.84,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331189891",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T06:30:00.000Z",
+      "description": "Coercion — Taiwan → Indonesian near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/society/202611030012",
+      "gdelt": {
+        "globalEventId": "1331189891",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -12.84,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331189892",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T06:30:00.000Z",
+      "description": "Coercion — Taiwan → Prosecutor near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/society/202611030012",
+      "gdelt": {
+        "globalEventId": "1331189892",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -12.84,
+        "mentions": 4,
+        "sources": 1
+      }
     },
     {
       "id": "news-153jyzl",
@@ -5014,101 +5506,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/science/article/3372510/ai-could-turn-chinas-social-credit-system-surveillance-tool-government-funded-study"
-    },
-    {
-      "id": "news-1yu7tst",
-      "kind": "news",
-      "date": "2026-10-31",
-      "isoDate": "2026-10-31T06:01:12.000Z",
-      "description": "Beijing blasts US ban on device testing in China, warns of supply chain disruptions (SCMP, 2026-10-31. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3372816/beijing-blasts-us-ban-device-testing-china-warns-supply-chain-disruptions"
-    },
-    {
-      "id": "news-1u9cfom",
-      "kind": "news",
-      "date": "2026-10-31",
-      "isoDate": "2026-10-31T05:06:00.000Z",
-      "description": "India news: Tanker carrying 27 Indians attacked in Strait of Hormuz (DW, 2026-10-31. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DW",
-      "axis": "Other",
-      "tags": [
-        "DW",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "DW",
-      "source": "DW",
-      "sourceUrl": "https://www.dw.com/en/india-news-tanker-carrying-27-indians-attacked-in-strait-of-hormuz/live-79814329?maca=en-rss-en-asia-5133-rdf"
-    },
-    {
-      "id": "news-etf0ht",
-      "kind": "news",
-      "date": "2026-10-31",
-      "isoDate": "2026-10-31T04:00:07.000Z",
-      "description": "Mao vs Rao: Cell Press probe clears editor but Chinese biologist keeps up pressure (SCMP, 2026-10-31. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3372707/mao-vs-rao-cell-press-probe-clears-editor-chinese-biologist-keeps-pressure"
-    },
-    {
-      "id": "news-fplwve",
-      "kind": "news",
-      "date": "2026-10-31",
-      "isoDate": "2026-10-31T02:09:28.000Z",
-      "description": "PLA activities in the waters and airspace around Taiwan - 中華民國國防部- 全球資訊網 (中華民國國防部- 全球資訊網, 2026-10-31. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "中華民國國防部- 全球資訊網",
-      "axis": "Other",
-      "tags": [
-        "中華民國國防部- 全球資訊網",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "中華民國國防部- 全球資訊網",
-      "source": "中華民國國防部- 全球資訊網",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PT2dJb29ud1hNYmFCU05LODlrLWREQnVSdUV0YTNXTnJZSW1xQ3hDYXVMLWk2NkJ0TldVT254OEgtQ2hBU21ZQzRVU3ctbmVFV21vZzl3?oc=5"
-    },
-    {
-      "id": "news-1hpfiqh",
-      "kind": "news",
-      "date": "2026-10-31",
-      "isoDate": "2026-10-31T01:00:09.000Z",
-      "description": "China’s fifth plenum: are the latest Communist Party promotions sign of new political trend? (SCMP, 2026-10-31. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3372766/are-latest-communist-party-promotions-sign-new-political-trend-china"
     }
   ]
 }
