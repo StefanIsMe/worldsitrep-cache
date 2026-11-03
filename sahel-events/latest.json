@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-03T07:18:26.874Z",
+  "collectedAt": "2026-11-03T15:29:50.145Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 15
+      "count": 17
     },
     {
       "id": "aa-mali",
@@ -41,22 +41,22 @@
       "id": "rfi-africa",
       "url": "https://www.rfi.fr/en/africa/rss",
       "status": "ok",
-      "count": 1,
-      "filtered": 29
+      "count": 0,
+      "filtered": 30
     },
     {
       "id": "france24-africa",
       "url": "https://www.france24.com/en/africa/rss",
       "status": "ok",
-      "count": 3,
-      "filtered": 27
+      "count": 2,
+      "filtered": 28
     },
     {
       "id": "bbc-africa",
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 32
+      "filtered": 33
     },
     {
       "id": "africanews",
@@ -83,7 +83,7 @@
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 23,
       "filtered": 0
     },
     {
@@ -101,8 +101,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 57,
+  "count": 75,
   "events": [
+    {
+      "id": "news-8217pg",
+      "kind": "news",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T09:41:00.000Z",
+      "description": "JNIM Claims IED Attack on Malian Army and Africa Corps Vehicle Between Sévaré and Konna - Modern Ghana (Modern Ghana, 2026-11-03. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Modern Ghana",
+      "axis": "Other",
+      "tags": [
+        "Modern Ghana",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Modern Ghana",
+      "source": "Modern Ghana",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOFoxZ0ZPb1Q4bXd0R04xTUVweVZTcm4tNGFDa1RCaEtfNEZ6WmxYNW96WVNmUUQxZDFUM0loWG0yY1QtTW5aN2gySVlpRjV2Vk85YzhfYk5Scm9iY1F1RDMyM2NfV25YczlWcWNPSXBjN0xJLXZDUjg1dEJ2bDBTVXBpcnlfU3RTZk9qRXdyQi1wWEJlell1RWVR?oc=5"
+    },
     {
       "id": "news-1cavd4t",
       "kind": "news",
@@ -629,6 +648,584 @@
         "goldstein": -10,
         "tone": -11.3,
         "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331211197",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T09:30:00.000Z",
+      "description": "Assault — Bandit → Pupil near Niger. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Bandit",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.premiumtimesng.com/regional/north-central/922299-bandits-abduct-14-islamic-school-pupils-teacher-in-niger-police-confirm.html",
+      "gdelt": {
+        "globalEventId": "1331211197",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.08,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331211244",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T09:30:00.000Z",
+      "description": "Assault — Pupil → Unspecified near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Pupil",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.premiumtimesng.com/regional/north-central/922299-bandits-abduct-14-islamic-school-pupils-teacher-in-niger-police-confirm.html",
+      "gdelt": {
+        "globalEventId": "1331211244",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.08,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331211638",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T09:30:00.000Z",
+      "description": "Assault — Niger → Unspecified near Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.premiumtimesng.com/regional/north-central/922299-bandits-abduct-14-islamic-school-pupils-teacher-in-niger-police-confirm.html",
+      "gdelt": {
+        "globalEventId": "1331211638",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.08,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331211735",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T09:30:00.000Z",
+      "description": "Rejection — Politician → Unspecified near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Politician",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.premiumtimesng.com/news/top-news/922304-2027-politics-watch-battle-for-place-on-ballot-kano-question-inec-yet-to-answer.html",
+      "gdelt": {
+        "globalEventId": "1331211735",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -4,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331211736",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T09:30:00.000Z",
+      "description": "Rejection — Politician → Unspecified near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Politician",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.premiumtimesng.com/news/top-news/922304-2027-politics-watch-battle-for-place-on-ballot-kano-question-inec-yet-to-answer.html",
+      "gdelt": {
+        "globalEventId": "1331211736",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -4,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331211766",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T09:30:00.000Z",
+      "description": "Assault — Gunmen → Pupil near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Gunmen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.premiumtimesng.com/regional/north-central/922299-bandits-abduct-14-islamic-school-pupils-teacher-in-niger-police-confirm.html",
+      "gdelt": {
+        "globalEventId": "1331211766",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.08,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331211770",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T09:30:00.000Z",
+      "description": "Assault — Gunmen → Staff Member near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Gunmen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.premiumtimesng.com/regional/north-central/922299-bandits-abduct-14-islamic-school-pupils-teacher-in-niger-police-confirm.html",
+      "gdelt": {
+        "globalEventId": "1331211770",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.08,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331230704",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T12:00:00.000Z",
+      "description": "Disapproval — Investor → Unspecified near Niger. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Investor",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://nationalaccordnewspaper.com/borno-is-safe-stable-and-ready-for-investment-zulum-tells-investors/",
+      "gdelt": {
+        "globalEventId": "1331230704",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 6.25,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331231038",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T12:00:00.000Z",
+      "description": "Disapproval — Chief Of Staff → Investor near Niger. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Chief Of Staff",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://nationalaccordnewspaper.com/borno-is-safe-stable-and-ready-for-investment-zulum-tells-investors/",
+      "gdelt": {
+        "globalEventId": "1331231038",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 6.25,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331238060",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T12:45:00.000Z",
+      "description": "Assault — Farmer → Unspecified near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Farmer",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://blueprint.ng/bandits-abduct-14-islamic-school-students-in-fresh-niger-attack/",
+      "gdelt": {
+        "globalEventId": "1331238060",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.15,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331238061",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T12:45:00.000Z",
+      "description": "Assault — Farmer → Police near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Farmer",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://blueprint.ng/bandits-abduct-14-islamic-school-students-in-fresh-niger-attack/",
+      "gdelt": {
+        "globalEventId": "1331238061",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.15,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331238233",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T12:45:00.000Z",
+      "description": "Assault — Police → Farmer near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://blueprint.ng/bandits-abduct-14-islamic-school-students-in-fresh-niger-attack/",
+      "gdelt": {
+        "globalEventId": "1331238233",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.15,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331238237",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T12:45:00.000Z",
+      "description": "Assault — Police → Student near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://blueprint.ng/bandits-abduct-14-islamic-school-students-in-fresh-niger-attack/",
+      "gdelt": {
+        "globalEventId": "1331238237",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.15,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331238280",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T12:45:00.000Z",
+      "description": "Assault — Bandit → Islamic near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Bandit",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://blueprint.ng/bandits-abduct-14-islamic-school-students-in-fresh-niger-attack/",
+      "gdelt": {
+        "globalEventId": "1331238280",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.15,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331238323",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T12:45:00.000Z",
+      "description": "Assault — Village → Islamic near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Village",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://blueprint.ng/bandits-abduct-14-islamic-school-students-in-fresh-niger-attack/",
+      "gdelt": {
+        "globalEventId": "1331238323",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.15,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331245726",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T13:30:00.000Z",
+      "description": "Demand — Amnesty International → Mali near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Demand (GDELT 1014)",
+      "actor": "Amnesty International",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africanews.com/2026/11/03/ngos-urge-malian-authorities-for-transparency-on-abduction-of-mountaga-tall/",
+      "gdelt": {
+        "globalEventId": "1331245726",
+        "eventCode": "1014",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -5.26,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331245727",
+      "kind": "event",
+      "date": "2026-11-03",
+      "isoDate": "2026-11-03T00:00:00.000Z",
+      "observedAt": "2026-11-03T13:30:00.000Z",
+      "description": "Demand — Amnesty International → Mali near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Demand (GDELT 1014)",
+      "actor": "Amnesty International",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africanews.com/2026/11/03/ngos-urge-malian-authorities-for-transparency-on-abduction-of-mountaga-tall/",
+      "gdelt": {
+        "globalEventId": "1331245727",
+        "eventCode": "1014",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -5.26,
+        "mentions": 6,
         "sources": 1
       }
     },
