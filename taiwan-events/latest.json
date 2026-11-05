@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-05T18:55:46.212Z",
+  "collectedAt": "2026-11-05T19:04:17.609Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 35
+      "count": 4
     },
     {
       "id": "taipei-times",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 258,
+  "count": 262,
   "events": [
     {
       "id": "news-atb14w",
@@ -195,6 +195,25 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/11/06/2003867245"
+    },
+    {
+      "id": "news-1knlqz",
+      "kind": "news",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T19:00:07.000Z",
+      "description": "Chinese scientists chill atoms to record low on Tiangong space station (SCMP, 2026-11-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/science/article/3373343/chinese-scientists-chill-atoms-record-low-tiangong-space-station"
     },
     {
       "id": "news-13o9o0i",
@@ -2434,6 +2453,108 @@
         "tone": -5,
         "mentions": 8,
         "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331679573",
+      "kind": "event",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T00:00:00.000Z",
+      "observedAt": "2026-11-05T19:00:00.000Z",
+      "description": "Threat — Unspecified → Taiwan near Republic Of China, Taiwan (general), Taiwan. Machine-coded by GDELT 2.1 (12 mentions, 3 sources); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Republic Of China, Taiwan (general), Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.asiabulletin.com/news/279414811/china-targeted-131-people-in-149-transnational-repression-incidents-against-taiwan-since-2005",
+      "gdelt": {
+        "globalEventId": "1331679573",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -9.21,
+        "mentions": 12,
+        "sources": 3
+      }
+    },
+    {
+      "id": "gdelt-1331680664",
+      "kind": "event",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T00:00:00.000Z",
+      "observedAt": "2026-11-05T19:00:00.000Z",
+      "description": "Disapproval — Taiwan → China near Republic Of China, Taiwan (general), Taiwan. Machine-coded by GDELT 2.1 (12 mentions, 3 sources); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Republic Of China, Taiwan (general), Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.asiabulletin.com/news/279414811/china-targeted-131-people-in-149-transnational-repression-incidents-against-taiwan-since-2005",
+      "gdelt": {
+        "globalEventId": "1331680664",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -9.21,
+        "mentions": 12,
+        "sources": 3
+      }
+    },
+    {
+      "id": "gdelt-1331680665",
+      "kind": "event",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T00:00:00.000Z",
+      "observedAt": "2026-11-05T19:00:00.000Z",
+      "description": "Disapproval — Taiwan → China near Republic Of China, Taiwan (general), Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 3 sources); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Republic Of China, Taiwan (general), Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.asiabulletin.com/news/279414811/china-targeted-131-people-in-149-transnational-repression-incidents-against-taiwan-since-2005",
+      "gdelt": {
+        "globalEventId": "1331680665",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -9.21,
+        "mentions": 3,
+        "sources": 3
       }
     },
     {

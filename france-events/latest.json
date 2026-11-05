@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-11-05T18:55:46.212Z",
+  "collectedAt": "2026-11-05T19:04:17.609Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 248
+      "count": 40
     },
     {
       "id": "gnews-france-protests",
@@ -20,7 +20,7 @@
       "id": "gnews-lycees",
       "url": "https://news.google.com/rss/search?q=France%20lyc%C3%A9es%20blockades&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 22,
+      "count": 23,
       "filtered": 0
     },
     {
@@ -52,8 +52,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 1122,
+  "count": 1131,
   "events": [
+    {
+      "id": "news-1ewm2q2",
+      "kind": "news",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T19:00:05.000Z",
+      "description": "'By brandishing the French flag, young protesters reclaim the Revolution's symbols from their adversaries' - Le Monde.fr (Le Monde.fr, 2026-11-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Le Monde.fr",
+      "axis": "Other",
+      "tags": [
+        "Le Monde.fr",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Le Monde.fr",
+      "source": "Le Monde.fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNcUJXVzNtTGlsSS15SW5sX2ZHNmc1NkhiWmx1VGw2bW51bkwxWERVclZWd01UMXJnRHpzb0xLcXVBcEJ3SVhyX210SU5hTVp3T3loQ1Axa1RxYU4yb0ZCUTVfVElhbDUzckNoSG1jVG00Z2lIYVQybE1NNk04NmxLOG5FazA2OWk0eWk4bEkzM09CODNxbDhiXy1FZ3Y5czZRWWZST21rVGw0cVZhS2ItTldfWmNqNmFPc1VMRDVGRk1WOWVLZ1dQdjQzX2xNNDFPS3poNk9uaXFFZmtGSGxXbWM0WXVIODc5WGl4NlZDa2YzbnVoektMMGdZT2ZwbWh6clE?oc=5"
+    },
     {
       "id": "news-ja9gd2",
       "kind": "news",
@@ -226,6 +245,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeWhFZWE0NnVNdmFLYW1pSWRPNHVNbzlaZ3RVd0l1Yy15RTRNakJadXk0eGJVRWJ6V28tZHlIMFJoel9tVjdVNG5YWEdZOWtIMGhaVWNYRVpqTGtOcU10eXBGYVBYd2FENUkyTXRZUjFFdWVWNWxVYnVLbmNMaWdLVXNzUWZidnpCVzFEdjMxRm90Tl9xUVE5Wnp1M3VNekxaTnNnbV80UnYwU3BzMmdrSGhYaw?oc=5"
     },
     {
+      "id": "news-10yv9ww",
+      "kind": "news",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T15:54:20.000Z",
+      "description": "Hundreds of thousands strike across France for higher wages and to back students - The Batesville Daily Guard (The Batesville Daily Guard, 2026-11-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Batesville Daily Guard",
+      "axis": "Other",
+      "tags": [
+        "The Batesville Daily Guard",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Batesville Daily Guard",
+      "source": "The Batesville Daily Guard",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQM0Q0U01IbHQ0NTlIR1RKdjVDV2NnY3pWbmFLMl9kR0dSUGl6RE9wWm1DUnI2T0dfd3RMRHFkQlJXZndYSlZPbmgzM09scjM5OEpVa3laZzJjN1NrV3ZBZWYxTzRCLUdLc09hVmRjTWdSMzQ3MjlhNXlqTXdDMVZ4bkozZndNd1d4d0tTbm9pSkZLSW9LSUd4OHB6bWpPdmRwYTJINEtuclAwUVFwUTVwSl80Ulh3WXpPTUNiUEVacHZvOWQzTmpkdm1VMEttQ1JFSHRIUFdEU2ZoMDlwTDhqTk5HTnJ4cjBkbTh5Z1JoSm1IVUI5b2FINlUzZkw5Zw?oc=5"
+    },
+    {
       "id": "news-g3xqlm",
       "kind": "news",
       "date": "2026-11-05",
@@ -300,6 +338,25 @@
       "locationStr": "The Times",
       "source": "The Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeTJQZDRVX3JXX0c2YjNiZGRfQmlzX0ozX3pGMGVCeVluQWwySHc5eUkxVnNkbks5VDJ2eVlwZVZDRkxYa21IOVdvVGdua1hYUWhWSUVXYVR2NjE5Si1qRVVzZlFEUjRUVENxRnoycDZZajRObjNOTHNZd0pkRkNlTXJ5UTQxU1prRk5oVEpvWHBIY3kzRVozSTJWZ1BhZ3NBMThKbUhXZWMzLVpUcXdSWklVSTVZRnVFWmRzbA?oc=5"
+    },
+    {
+      "id": "news-kj175h",
+      "kind": "news",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T14:27:59.000Z",
+      "description": "France bracing for 220 protests nationwide on Thursday, interior minister says - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-11-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ABC News - Breaking News, Latest News and Videos",
+      "axis": "Other",
+      "tags": [
+        "ABC News - Breaking News, Latest News and Videos",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQanpQQWFybE5KS3hRTFZ0RWRCNC1MWWxzWFlXdFRnbGNRdzNucVk0TjhST0tTVUFEY1dxMkEwY0NjaTFscnJRVlpsLVZnZ0pnTFVsUUxrV2JaMWN5ZXN0QUJMSUFmRllhb2hQa1dpU0Z2TGtXN3R4UVVCRUJBcUpGRUdnQXZHQjRpOGJSNG9JT2JxVTV0MHo3VFUxaXdJWlh5cnF1UEh2QUs4cUdKZ2tINlFOOVR0TUJadkHSAb8BQVVfeXFMTVVwMlVyUmVFUkZad29RSWdaLVJ1YzNuclhEckQ3Q0JhQXJTNm5MV3IzUmpiRkQyNWV5RXdVbHY1WkJTbUpBM2lTQlRTaWd6QW5rZHVoa1JhY1dIeWVYU3l2T3RKNHBPbHVlWTJGOG1QTFkzV21UTWM0S2cwUWZobjBBNWxSb3RIeFpsMGFwM05WVXQxWmszMDhGNmdpbDJKZk1jSVVoTjlnc1NKRUV0LWs3MWZ5dUZFUWloOGNaMGc?oc=5"
     },
     {
       "id": "news-12ldk9s",
@@ -16165,6 +16222,210 @@
         "goldstein": -2,
         "tone": -4.02,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331679769",
+      "kind": "event",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T00:00:00.000Z",
+      "observedAt": "2026-11-05T19:00:00.000Z",
+      "description": "Disapproval — Canadian → Unspecified near France. Machine-coded by GDELT 2.1 (2 mentions, 2 sources); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Canadian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theguardian.com/books/2026/nov/05/winner-of-the-prix-goncourt-literary-prize-admits-to-using-ai-philippe-jaenada",
+      "gdelt": {
+        "globalEventId": "1331679769",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.7,
+        "mentions": 2,
+        "sources": 2
+      }
+    },
+    {
+      "id": "gdelt-1331680015",
+      "kind": "event",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T00:00:00.000Z",
+      "observedAt": "2026-11-05T19:00:00.000Z",
+      "description": "Reduced relations — France → Unspecified near France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://skift.com/2026/11/05/bomb-hoaxes-test-europes-airlines-as-geopolitical-pressures-mount/",
+      "gdelt": {
+        "globalEventId": "1331680015",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -4.59,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331680083",
+      "kind": "event",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T00:00:00.000Z",
+      "observedAt": "2026-11-05T19:00:00.000Z",
+      "description": "Protest — Authorities → Unspecified near Rennes, Bretagne, France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.112,
+      "lng": -1.67429,
+      "action": "Protest (GDELT 145)",
+      "actor": "Authorities",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Rennes, Bretagne, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.rockymounttelegram.com/news/world/mass-protests-sweep-france-as-huge-crowds-demand-higher-wages-back-students-demands/article_6f9912c7-eeb0-5ef9-8c8d-9eb08a06262e.html",
+      "gdelt": {
+        "globalEventId": "1331680083",
+        "eventCode": "145",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7.5,
+        "tone": -6.05,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331680183",
+      "kind": "event",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T00:00:00.000Z",
+      "observedAt": "2026-11-05T19:00:00.000Z",
+      "description": "Threat — Defence Minist → Unspecified near France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Threat (GDELT 1383)",
+      "actor": "Defence Minist",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.midwestradio.ie/news/flights-grounded-over-hoax-bomb-threats-really-concerning/",
+      "gdelt": {
+        "globalEventId": "1331680183",
+        "eventCode": "1383",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -8.11,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331680480",
+      "kind": "event",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T00:00:00.000Z",
+      "observedAt": "2026-11-05T19:00:00.000Z",
+      "description": "Assault — Writer → Unspecified near France. Machine-coded by GDELT 2.1 (12 mentions, 2 sources); open the source article for details.",
+      "type": "strike",
+      "lat": 46,
+      "lng": 2,
+      "action": "Assault (GDELT 182)",
+      "actor": "Writer",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theguardian.com/books/2026/nov/05/winner-of-the-prix-goncourt-literary-prize-admits-to-using-ai-philippe-jaenada",
+      "gdelt": {
+        "globalEventId": "1331680480",
+        "eventCode": "182",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": 1.7,
+        "mentions": 12,
+        "sources": 2
+      }
+    },
+    {
+      "id": "gdelt-1331680724",
+      "kind": "event",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T00:00:00.000Z",
+      "observedAt": "2026-11-05T19:00:00.000Z",
+      "description": "Disapproval — United States → Unspecified near France. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://5280.com/before-after-ouray-st-elmo-hotel-gets-1-million-makeover/",
+      "gdelt": {
+        "globalEventId": "1331680724",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 2.61,
+        "mentions": 1,
         "sources": 1
       }
     },
