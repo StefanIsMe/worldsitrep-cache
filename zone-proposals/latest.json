@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-11-06T00:32:05.952Z",
+  "collectedAt": "2026-11-06T06:22:04.317Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 261,
+  "coarseGdeltDropped": 257,
   "outsideTheatreDropped": 2,
   "proposals": [
     {
@@ -15,18 +15,23 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 389,
+      "eventCount": 396,
       "kinds": {
-        "other": 249,
-        "combat": 107,
-        "strike": 33
+        "other": 259,
+        "combat": 105,
+        "strike": 32
       },
       "tierCounts": {
-        "approximate": 389
+        "approximate": 396
       },
-      "combatCount": 140,
-      "newestIsoDate": "2026-11-06T00:00:00.000Z",
+      "combatCount": 137,
+      "newestIsoDate": "2026-11-06T05:10:00.000Z",
       "samples": [
+        {
+          "id": "news-dvqzpk",
+          "isoDate": "2026-11-06T05:10:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/06/8061500/"
+        },
         {
           "id": "gdelt-1331718354",
           "isoDate": "2026-11-06T00:00:00.000Z",
@@ -36,18 +41,13 @@
           "id": "gdelt-1331718841",
           "isoDate": "2026-11-06T00:00:00.000Z",
           "sourceUrl": "https://www.watfordobserver.co.uk/news/national/26704229.trump-says-big-beautiful-agreement-ukraine-might-involve-europe/"
-        },
-        {
-          "id": "gdelt-1331719589",
-          "isoDate": "2026-11-06T00:00:00.000Z",
-          "sourceUrl": "https://www.watfordobserver.co.uk/news/national/26704229.trump-says-big-beautiful-agreement-ukraine-might-involve-europe/"
         }
       ],
       "centroid": {
-        "lat": 50.3881,
-        "lng": 30.1638
+        "lat": 50.3888,
+        "lng": 30.2089
       },
-      "radiusKm": 50.7
+      "radiusKm": 45.2
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -56,16 +56,16 @@
         "lat": 47,
         "lng": 35.5
       },
-      "eventCount": 124,
+      "eventCount": 114,
       "kinds": {
-        "combat": 65,
-        "other": 50,
+        "combat": 56,
+        "other": 49,
         "strike": 9
       },
       "tierCounts": {
-        "approximate": 124
+        "approximate": 114
       },
-      "combatCount": 74,
+      "combatCount": 65,
       "newestIsoDate": "2026-11-06T00:00:00.000Z",
       "samples": [
         {
@@ -85,10 +85,10 @@
         }
       ],
       "centroid": {
-        "lat": 47.7886,
-        "lng": 35.5127
+        "lat": 47.7603,
+        "lng": 35.5399
       },
-      "radiusKm": 27.7
+      "radiusKm": 31.9
     },
     {
       "zoneId": "occ-kherson",
@@ -97,16 +97,16 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 89,
+      "eventCount": 90,
       "kinds": {
-        "combat": 28,
-        "other": 52,
+        "combat": 26,
+        "other": 55,
         "strike": 9
       },
       "tierCounts": {
-        "approximate": 89
+        "approximate": 90
       },
-      "combatCount": 37,
+      "combatCount": 35,
       "newestIsoDate": "2026-11-06T00:00:00.000Z",
       "samples": [
         {
@@ -126,10 +126,10 @@
         }
       ],
       "centroid": {
-        "lat": 46.6837,
-        "lng": 32.4267
+        "lat": 46.6317,
+        "lng": 32.4009
       },
-      "radiusKm": 37.7
+      "radiusKm": 30.1
     },
     {
       "zoneId": "occ-donetsk",
@@ -138,16 +138,16 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 50,
+      "eventCount": 43,
       "kinds": {
-        "other": 22,
-        "combat": 20,
+        "other": 18,
+        "combat": 17,
         "strike": 8
       },
       "tierCounts": {
-        "approximate": 50
+        "approximate": 43
       },
-      "combatCount": 28,
+      "combatCount": 25,
       "newestIsoDate": "2026-11-05T13:23:00.000Z",
       "samples": [
         {
@@ -167,10 +167,51 @@
         }
       ],
       "centroid": {
-        "lat": 48.1517,
-        "lng": 37.528
+        "lat": 48.1673,
+        "lng": 37.4305
       },
       "radiusKm": 80
+    },
+    {
+      "zoneId": "occ-luhansk",
+      "region": "Luhansk Oblast",
+      "center": {
+        "lat": 48.574,
+        "lng": 39.3078
+      },
+      "eventCount": 38,
+      "kinds": {
+        "combat": 7,
+        "other": 24,
+        "strike": 7
+      },
+      "tierCounts": {
+        "approximate": 38
+      },
+      "combatCount": 14,
+      "newestIsoDate": "2026-11-06T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1331719053",
+          "isoDate": "2026-11-06T00:00:00.000Z",
+          "sourceUrl": "http://www.sitkasentinel.com/stories/russia-and-ukraine-trade-airstrikes-as-reconstruction-and-security-talks-resume-in-brussels,184101"
+        },
+        {
+          "id": "gdelt-1331738966",
+          "isoDate": "2026-11-06T00:00:00.000Z",
+          "sourceUrl": "https://yourdemocracy.net/drupal/node/61727"
+        },
+        {
+          "id": "gdelt-1331738967",
+          "isoDate": "2026-11-06T00:00:00.000Z",
+          "sourceUrl": "https://yourdemocracy.net/drupal/node/61727"
+        }
+      ],
+      "centroid": {
+        "lat": 48.5219,
+        "lng": 38.8423
+      },
+      "radiusKm": 29.4
     },
     {
       "zoneId": "occ-kharkiv",
@@ -179,16 +220,16 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 40,
+      "eventCount": 35,
       "kinds": {
         "other": 10,
-        "strike": 9,
-        "combat": 21
+        "strike": 6,
+        "combat": 19
       },
       "tierCounts": {
-        "approximate": 40
+        "approximate": 35
       },
-      "combatCount": 30,
+      "combatCount": 25,
       "newestIsoDate": "2026-11-05T13:58:00.000Z",
       "samples": [
         {
@@ -208,51 +249,10 @@
         }
       ],
       "centroid": {
-        "lat": 49.9175,
-        "lng": 36.4807
+        "lat": 49.9704,
+        "lng": 36.4154
       },
-      "radiusKm": 36.2
-    },
-    {
-      "zoneId": "occ-luhansk",
-      "region": "Luhansk Oblast",
-      "center": {
-        "lat": 48.574,
-        "lng": 39.3078
-      },
-      "eventCount": 33,
-      "kinds": {
-        "combat": 11,
-        "other": 15,
-        "strike": 7
-      },
-      "tierCounts": {
-        "approximate": 33
-      },
-      "combatCount": 18,
-      "newestIsoDate": "2026-11-06T00:00:00.000Z",
-      "samples": [
-        {
-          "id": "gdelt-1331719053",
-          "isoDate": "2026-11-06T00:00:00.000Z",
-          "sourceUrl": "http://www.sitkasentinel.com/stories/russia-and-ukraine-trade-airstrikes-as-reconstruction-and-security-talks-resume-in-brussels,184101"
-        },
-        {
-          "id": "gdelt-1331573195",
-          "isoDate": "2026-11-05T00:00:00.000Z",
-          "sourceUrl": "https://original.antiwar.com/david_stockman/2026/11/04/how-the-ukrainian-soviet-socialist-republic-became-a-country/"
-        },
-        {
-          "id": "gdelt-1331573196",
-          "isoDate": "2026-11-05T00:00:00.000Z",
-          "sourceUrl": "https://original.antiwar.com/david_stockman/2026/11/04/how-the-ukrainian-soviet-socialist-republic-became-a-country/"
-        }
-      ],
-      "centroid": {
-        "lat": 48.5293,
-        "lng": 38.9437
-      },
-      "radiusKm": 30
+      "radiusKm": 26.2
     },
     {
       "zoneId": "lib-snake",
@@ -261,16 +261,16 @@
         "lat": 45.2551,
         "lng": 30.2033
       },
-      "eventCount": 33,
+      "eventCount": 31,
       "kinds": {
-        "other": 21,
-        "combat": 11,
+        "other": 20,
+        "combat": 10,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 33
+        "approximate": 31
       },
-      "combatCount": 12,
+      "combatCount": 11,
       "newestIsoDate": "2026-11-05T07:37:00.000Z",
       "samples": [
         {
@@ -290,10 +290,10 @@
         }
       ],
       "centroid": {
-        "lat": 46.283,
-        "lng": 30.3172
+        "lat": 46.2708,
+        "lng": 30.2902
       },
-      "radiusKm": 60.1
+      "radiusKm": 62.7
     },
     {
       "zoneId": "occ-crimea",
@@ -302,39 +302,39 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 15,
+      "eventCount": 17,
       "kinds": {
-        "other": 10,
+        "other": 12,
         "combat": 4,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 15
+        "approximate": 17
       },
       "combatCount": 5,
-      "newestIsoDate": "2026-11-05T17:54:22.000Z",
+      "newestIsoDate": "2026-11-06T00:00:00.000Z",
       "samples": [
+        {
+          "id": "gdelt-1331744184",
+          "isoDate": "2026-11-06T00:00:00.000Z",
+          "sourceUrl": "https://cimsec.org/the-strategic-dimensions-of-the-sea-of-azov/"
+        },
+        {
+          "id": "gdelt-1331744186",
+          "isoDate": "2026-11-06T00:00:00.000Z",
+          "sourceUrl": "https://cimsec.org/the-strategic-dimensions-of-the-sea-of-azov/"
+        },
         {
           "id": "news-1a971d1",
           "isoDate": "2026-11-05T17:54:22.000Z",
           "sourceUrl": "https://kyivindependent.com/ukrainian-woman-dies-in-illegal-russian-detention-in-crimea/"
-        },
-        {
-          "id": "gdelt-1331673109",
-          "isoDate": "2026-11-05T00:00:00.000Z",
-          "sourceUrl": "http://www.europesun.com/news/279414680/ukraine-hunting-children-with-drone-dropped-mines-moscow"
-        },
-        {
-          "id": "gdelt-1331673111",
-          "isoDate": "2026-11-05T00:00:00.000Z",
-          "sourceUrl": "http://www.europesun.com/news/279414680/ukraine-hunting-children-with-drone-dropped-mines-moscow"
         }
       ],
       "centroid": {
-        "lat": 45.283,
-        "lng": 34.119
+        "lat": 45.2497,
+        "lng": 34.105
       },
-      "radiusKm": 37.1
+      "radiusKm": 36.4
     },
     {
       "zoneId": "lib-sumy",
