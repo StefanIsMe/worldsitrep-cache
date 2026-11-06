@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "gaza",
-  "collectedAt": "2026-11-06T20:45:16.819Z",
+  "collectedAt": "2026-11-06T21:06:39.402Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 306
+      "count": 41
     },
     {
       "id": "bbc-me",
@@ -41,8 +41,8 @@
       "id": "aljazeera",
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "status": "ok",
-      "count": 6,
-      "filtered": 19
+      "count": 5,
+      "filtered": 20
     },
     {
       "id": "guardian-me",
@@ -89,6 +89,67 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-s9xwrl",
+      "kind": "news",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T22:36:35.000Z",
+      "description": "Man seriusly injured in Haifa crime-related stabbing as police search for suspect (Jerusalem Post, 2026-11-06. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Haifa",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/crime-in-israel/article-914082",
+      "lat": 32.82,
+      "lng": 34.99,
+      "coordsNote": "Headline gazetteer match: \"Haifa\" (city); verify via source article."
+    },
+    {
+      "id": "news-1amecvk",
+      "kind": "news",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T22:27:11.000Z",
+      "description": "UN appoints Israeli for auditing mechanisms, financial controls, for first time in history (Jerusalem Post, 2026-11-06. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jerusalem Post",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/israel-news/article-914090"
+    },
+    {
+      "id": "news-e9gcyi",
+      "kind": "news",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T21:58:31.000Z",
+      "description": "Three newly elected Jewish congressmen urge Israel to release detained Palestinian journalist (Jerusalem Post, 2026-11-06. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jerusalem Post",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/diaspora/article-914091"
+    },
     {
       "id": "news-qjvhxg",
       "kind": "news",
@@ -49630,108 +49691,6 @@
         "goldstein": -10,
         "tone": -10.71,
         "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331596782",
-      "kind": "event",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T00:00:00.000Z",
-      "observedAt": "2026-11-05T10:15:00.000Z",
-      "description": "Fight — Israel → Unspecified near Gaza City, Israel (general), Israel. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Fight (GDELT 193)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza City, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.dailysabah.com/world/mid-east/israel-kills-man-to-push-gaza-truce-violation-death-toll-past-1600",
-      "gdelt": {
-        "globalEventId": "1331596782",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -10.71,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331596783",
-      "kind": "event",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T00:00:00.000Z",
-      "observedAt": "2026-11-05T10:15:00.000Z",
-      "description": "Fight — Israel → Israel near Gaza City, Israel (general), Israel. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Fight (GDELT 193)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza City, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.dailysabah.com/world/mid-east/israel-kills-man-to-push-gaza-truce-violation-death-toll-past-1600",
-      "gdelt": {
-        "globalEventId": "1331596783",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -10.71,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331596785",
-      "kind": "event",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T00:00:00.000Z",
-      "observedAt": "2026-11-05T10:15:00.000Z",
-      "description": "Fight — Israel → Palestinians near Gaza City, Israel (general), Israel. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Fight (GDELT 193)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza City, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.dailysabah.com/world/mid-east/israel-kills-man-to-push-gaza-truce-violation-death-toll-past-1600",
-      "gdelt": {
-        "globalEventId": "1331596785",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -10.71,
-        "mentions": 6,
         "sources": 1
       }
     }
