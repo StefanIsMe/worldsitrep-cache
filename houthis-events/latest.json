@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-06T14:32:02.839Z",
+  "collectedAt": "2026-11-06T15:24:49.138Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 46
+      "count": 20
     },
     {
       "id": "gcaptain",
       "url": "https://gcaptain.com/feed/",
       "status": "ok",
-      "count": 2,
-      "filtered": 10
+      "count": 1,
+      "filtered": 11
     },
     {
       "id": "bbc-yemen",
@@ -54,9 +54,9 @@
     {
       "id": "france24-me",
       "url": "https://www.france24.com/en/middle-east/rss",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS france24-me request failed with HTTP 403"
+      "status": "ok",
+      "count": 1,
+      "filtered": 29
     },
     {
       "id": "gnews-hodeidah",
@@ -69,7 +69,7 @@
       "id": "gnews-mandeb",
       "url": "https://news.google.com/rss/search?q=Bab%20el-Mandeb%20vessel%20drone%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 31,
       "filtered": 0
     },
     {
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 323,
+  "count": 337,
   "events": [
     {
       "id": "news-1cq0roi",
@@ -123,6 +123,48 @@
       "locationStr": "RealClearWorld",
       "source": "RealClearWorld",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbFNOdHpac3lLVnowVFhlYzBZeUNRakcxNWtIVEZBcHBWTDJxdkR0TFpkY2Z5a3FGSkNZelVxc1d2MmFudjVaNlQ5T0p6VnB5VmFxVHNWYkEyNFo3eEYyS25aalU5RnRBdjVVY2x1czEyX3BlSThpTEpKOF9MdE1nOTYxLUhKMGRKcFYxQ09vRzg2M1NCMlRDd1puSW4zWjEwb0xXaWFWY2daWEJ6Qjg1U0dPcmQ5UzRiWTZpTlNNdGJFblE?oc=5"
+    },
+    {
+      "id": "news-mbnewh",
+      "kind": "news",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T13:31:16.000Z",
+      "description": "Airstrikes on a market in southwestern Yemen kill at least 20, Houthis say - News4JAX (News4JAX, 2026-11-06. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "News4JAX",
+      "axis": "Other",
+      "tags": [
+        "News4JAX",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "News4JAX",
+      "source": "News4JAX",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM3pMUUZ6UXFDamZKNmdMNGV4cEoydmtPVzZXem5acGU2a2xUcXVGLXV6R1pSSGhWa29BRjhiRjM5STdld295a25sM3BVcTVJSTBUOS1TU3Vmcm5EeUt6RVlnQW1idjFZNllyaFUxTTBPZFlENjFtM1Iyd0hHUnF0REVjMUtBWG84VHc0QkowZmlINFhqaDd4SjlqODhOd3Z2NkdwN0NaTVFTUnAtQjhWQklscUpPN2lNcTM4?oc=5"
+    },
+    {
+      "id": "news-1xuywfh",
+      "kind": "news",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T10:30:00.000Z",
+      "description": "To Cross the Red Sea, Shippers Email Houthi Rebels. Read Their Inbox. - WSJ (WSJ, 2026-11-06. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSJ",
+      "axis": "Other",
+      "tags": [
+        "WSJ",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Red Sea",
+      "source": "WSJ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWnBubG96c1ktVkN2VE9wYXM4SjRCQXQ1c0RDTkNQLXVsaHhwcU1MSzI0RUYtVVphWFdleXB0VHVpY3piZktaNUw0NmpUQ3Zxa2RUMmRHby13S3kySXZTQ1dLQnJfY2J3Vm9mcmMtWU5ITkl2c01EMEx0OXQzTVFGOHpDWWtnbklfb1RQaVp6ak9TWFV4ZWJWb1FZZ1EtWHhtcTdrNWI1OE5VZ2lNWFFxSFpEQQ?oc=5",
+      "lat": 15.5,
+      "lng": 41.5,
+      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
     },
     {
       "id": "news-12csigh",
@@ -2196,27 +2238,446 @@
       }
     },
     {
-      "id": "news-1xuywfh",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T23:51:24.000Z",
-      "description": "To Cross the Red Sea, Shippers Email Houthi Rebels. Read Their Inbox. - WSJ (WSJ, 2026-11-05. Headline + link only.)",
+      "id": "gdelt-1331828598",
+      "kind": "event",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-06T14:45:00.000Z",
+      "description": "Demand — Rights Group → Militia near Jabal Sabr, Taizz, Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
       "type": "other",
-      "action": "News report",
-      "actor": "WSJ",
+      "lat": 13.5149,
+      "lng": 44.0517,
+      "action": "Demand (GDELT 1014)",
+      "actor": "Rights Group",
       "axis": "Other",
       "tags": [
-        "WSJ",
-        "headline",
-        "headline-geocoded"
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
       ],
       "coordsTier": "approximate",
-      "locationStr": "Red Sea",
-      "source": "WSJ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWnBubG96c1ktVkN2VE9wYXM4SjRCQXQ1c0RDTkNQLXVsaHhwcU1MSzI0RUYtVVphWFdleXB0VHVpY3piZktaNUw0NmpUQ3Zxa2RUMmRHby13S3kySXZTQ1dLQnJfY2J3Vm9mcmMtWU5ITkl2c01EMEx0OXQzTVFGOHpDWWtnbklfb1RQaVp6ak9TWFV4ZWJWb1FZZ1EtWHhtcTdrNWI1OE5VZ2lNWFFxSFpEQQ?oc=5",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Jabal Sabr, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://sana.sy/en/middle-east/2356509/",
+      "gdelt": {
+        "globalEventId": "1331828598",
+        "eventCode": "1014",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -10.28,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331828599",
+      "kind": "event",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-06T14:45:00.000Z",
+      "description": "Disapproval — Rights Group → Militia near Jabal Sabr, Taizz, Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5149,
+      "lng": 44.0517,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Rights Group",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Jabal Sabr, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://sana.sy/en/middle-east/2356509/",
+      "gdelt": {
+        "globalEventId": "1331828599",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -10.28,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331829072",
+      "kind": "event",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-06T14:45:00.000Z",
+      "description": "Disapproval — Militia → Yemen near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Militia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://sana.sy/en/middle-east/2356509/",
+      "gdelt": {
+        "globalEventId": "1331829072",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -10.28,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331829262",
+      "kind": "event",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-06T14:45:00.000Z",
+      "description": "Disapproval — Yemen → Unspecified near Al-Misrakh, Taizz, Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.4606,
+      "lng": 44.0204,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Al-Misrakh, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://sana.sy/en/middle-east/2356509/",
+      "gdelt": {
+        "globalEventId": "1331829262",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -10.28,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331829263",
+      "kind": "event",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-06T14:45:00.000Z",
+      "description": "Disapproval — Yemen → Unspecified near Al-Misrakh, Taizz, Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.4606,
+      "lng": 44.0204,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Al-Misrakh, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://sana.sy/en/middle-east/2356509/",
+      "gdelt": {
+        "globalEventId": "1331829263",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -10.28,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331829265",
+      "kind": "event",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-06T14:45:00.000Z",
+      "description": "Disapproval — Yemen → Authorities near Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
       "lat": 15.5,
-      "lng": 41.5,
-      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/world/middle-east/at-least-20-killed-in-saudi-strikes-on-yemen-market-say-houthis-bodies-scattered-across-streets/articleshow/135610122.cms",
+      "gdelt": {
+        "globalEventId": "1331829265",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -12.14,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331829266",
+      "kind": "event",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-06T14:45:00.000Z",
+      "description": "Assault — Yemen → Military near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Assault (GDELT 182)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://sana.sy/en/middle-east/2356509/",
+      "gdelt": {
+        "globalEventId": "1331829266",
+        "eventCode": "182",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -10.28,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331830637",
+      "kind": "event",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-06T15:00:00.000Z",
+      "description": "Fight — Cairo → Iran near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Fight (GDELT 195)",
+      "actor": "Cairo",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.com/articles/iran-backed-houthi-rebels-health-133116000.html",
+      "gdelt": {
+        "globalEventId": "1331830637",
+        "eventCode": "195",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.42,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331830747",
+      "kind": "event",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-06T15:00:00.000Z",
+      "description": "Disapproval — Authorities → Unspecified near Shabwa, La?ij, Yemen. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5167,
+      "lng": 44.4333,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Authorities",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Shabwa, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.com/articles/iran-backed-houthi-rebels-health-133116000.html",
+      "gdelt": {
+        "globalEventId": "1331830747",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.42,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331830748",
+      "kind": "event",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-06T15:00:00.000Z",
+      "description": "Disapproval — Authorities → Unspecified near Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Authorities",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.com/articles/trump-discusses-middle-east-escalation-121856000.html",
+      "gdelt": {
+        "globalEventId": "1331830748",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.62,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331831113",
+      "kind": "event",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-06T15:00:00.000Z",
+      "description": "Threat — Media → Civilian near Shabwa, La?ij, Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5167,
+      "lng": 44.4333,
+      "action": "Threat (GDELT 130)",
+      "actor": "Media",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Shabwa, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.com/articles/iran-backed-houthi-rebels-health-133116000.html",
+      "gdelt": {
+        "globalEventId": "1331831113",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -6.42,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331831114",
+      "kind": "event",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-06T15:00:00.000Z",
+      "description": "Fight — Media → Civilian near Shabwa, La?ij, Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.5167,
+      "lng": 44.4333,
+      "action": "Fight (GDELT 194)",
+      "actor": "Media",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Shabwa, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.com/articles/iran-backed-houthi-rebels-health-133116000.html",
+      "gdelt": {
+        "globalEventId": "1331831114",
+        "eventCode": "194",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.42,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331831228",
+      "kind": "event",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T00:00:00.000Z",
+      "observedAt": "2026-11-06T15:00:00.000Z",
+      "description": "Fight — Medina → Unspecified near Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Fight (GDELT 194)",
+      "actor": "Medina",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.egyptindependent.com/egypt-condemns-missile-attack-targeting-medina-reaffirms-support-for-saudi-arabia/",
+      "gdelt": {
+        "globalEventId": "1331831228",
+        "eventCode": "194",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.47,
+        "mentions": 2,
+        "sources": 1
+      }
     },
     {
       "id": "news-fdorh0",
