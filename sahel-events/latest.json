@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-05T18:55:46.212Z",
+  "collectedAt": "2026-11-05T23:58:53.366Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 2
     },
     {
       "id": "aa-mali",
@@ -56,14 +56,14 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 33
+      "filtered": 34
     },
     {
       "id": "africanews",
       "url": "https://www.africanews.com/feed/",
       "status": "ok",
-      "count": 2,
-      "filtered": 48
+      "count": 1,
+      "filtered": 49
     },
     {
       "id": "dw-africa",
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 114,
+  "count": 116,
   "events": [
     {
       "id": "news-dbs90h",
@@ -121,6 +121,25 @@
       "locationStr": "Africanews",
       "source": "Africanews",
       "sourceUrl": "http://www.africanews.com/2026/11/05/guinea-expels-burkinabe-gold-miners-draws-ougadougous-fury/"
+    },
+    {
+      "id": "news-1u22z6f",
+      "kind": "news",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T18:24:57.000Z",
+      "description": "Algeria's Niger deployment redraws the Sahel's fault lines - thecradle.co (thecradle.co, 2026-11-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "thecradle.co",
+      "axis": "Other",
+      "tags": [
+        "thecradle.co",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "thecradle.co",
+      "source": "thecradle.co",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObEZ3OUVMRUhZRkdVOU9ELVBGOEVwMXozOS13NDJpdFptUndmaVQxQ1pMdGFhOEpITDEzRE94UEp1R2FFanF2QTVXR0c5M0dEb3ZGcjZidFEyS0pxMHBZYU11bnY1OXRzbGR1WVB1ZnNsNVlZQzBJYTBzOTlpdTBJem9tSmR1RTNWTjRvamd3TQ?oc=5"
     },
     {
       "id": "news-1dli1mv",
@@ -206,6 +225,74 @@
         "goldstein": -5,
         "tone": -6.47,
         "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331701840",
+      "kind": "event",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T00:00:00.000Z",
+      "observedAt": "2026-11-05T21:30:00.000Z",
+      "description": "Disapproval — Sana → Burkina Faso near Burkina Faso. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Sana",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africanews.com/2026/11/05/guinea-expels-burkinabe-gold-miners-draws-ougadougous-fury/",
+      "gdelt": {
+        "globalEventId": "1331701840",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.07,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331701841",
+      "kind": "event",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T00:00:00.000Z",
+      "observedAt": "2026-11-05T21:30:00.000Z",
+      "description": "Disapproval — Sana → Burkina Faso near Burkina Faso. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Sana",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africanews.com/2026/11/05/guinea-expels-burkinabe-gold-miners-draws-ougadougous-fury/",
+      "gdelt": {
+        "globalEventId": "1331701841",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.07,
+        "mentions": 3,
         "sources": 1
       }
     },
@@ -3839,29 +3926,6 @@
         "mentions": 10,
         "sources": 1
       }
-    },
-    {
-      "id": "news-143lbjz",
-      "kind": "news",
-      "date": "2026-11-02",
-      "isoDate": "2026-11-02T19:20:18.000Z",
-      "description": "Niger: Algerian military personnel have arrived in Agadez [Africanews Today] (Africanews, 2026-11-02. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Africanews",
-      "axis": "Other",
-      "tags": [
-        "Africanews",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Agadez",
-      "source": "Africanews",
-      "sourceUrl": "http://www.africanews.com/2026/11/02/niger-algerian-military-personnel-have-arrived-in-agadez-africanews-today/",
-      "lat": 16.97,
-      "lng": 7.99,
-      "coordsNote": "Headline gazetteer match: \"Agadez\" (city); verify via source article."
     }
   ]
 }
