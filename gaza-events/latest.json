@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "gaza",
-  "collectedAt": "2026-11-07T18:31:59.608Z",
+  "collectedAt": "2026-11-07T19:05:16.458Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 125
+      "count": 39
     },
     {
       "id": "bbc-me",
@@ -69,7 +69,7 @@
       "id": "gnews-westbank",
       "url": "https://news.google.com/rss/search?q=West%20Bank%20Jenin%20raid%20settlers&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 27,
+      "count": 26,
       "filtered": 0
     },
     {
@@ -187,6 +187,29 @@
       "locationStr": "Jerusalem Post",
       "source": "Jerusalem Post",
       "sourceUrl": "https://www.jpost.com/travel/article-914086"
+    },
+    {
+      "id": "news-vdivt2",
+      "kind": "news",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T18:17:04.000Z",
+      "description": "Heavy rains flood tents in Gaza housing displaced Palestinians: \"The mattresses are wet, so we sleep on the ground\" - vijesti.me (vijesti.me, 2026-11-07. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "vijesti.me",
+      "axis": "Other",
+      "tags": [
+        "vijesti.me",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Gaza City",
+      "source": "vijesti.me",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOYlhTWklqU1Nrdk5VNzVJSWxkTXJYX1c2Z3NqVGhXM3ZDV0tIekRoTUhiOV9fdF9wM1NWZ0tKYTdGdGs0M2V6QmNzTFZyd1pKdF9JNEhZamF6cFJoazM0UEJFa0FLVnJDaDJ4bzk3ZGhiclcxU3hnbkNIODZiSHd2c01NVkoyNEthRUZycXY0ZHg5NkpEMkYxV29STmJkN2F5QzVrNEk3Y0ZNcnZ0eUUwdTBwWThsTFhzSGkxM21OMjU2Q3RHYm1UY1BhQzVJNXNPZHNib0U5MzFfbDVJRHRfVlZvLXNCU0xjNDFZa2Fmd3RiSXVnM3VtckNuUHBlSGtsTDRPZHhKSHRZZ3dodnfSAf8BQVVfeXFMUHg5YVZjaEJJOHJQWWxvZmVUSGdFeTJZTzNjNF9PaWlpeWJMMm5XcHB6QjAxRnN4Mnh1cUs5VVBEMmdBbXpIXzU1MWg2ZjFzX1pYRWktLVUyYzVLOFBzcnBWNGFKMnFFaGd3VGtqXzJmSFFrY2NYSDJ0ampjUm5JMlZhQUFybXBOYUg4bGY2X0ItRmx3VlFnbF9BVGpNUFZKNlFSZXE4dmw1ZWtIY29pQXh2VklZUWMyTnVLcF8zUFhtb2s2b2l5eEJsblFndTgtejQwRmx1UUIzTDVkMmlDOHdDV2JSc2FweGNYUDdrQWduaHUyV1J1MFE5VUZ4eDdZ?oc=5",
+      "lat": 31.5,
+      "lng": 34.47,
+      "coordsNote": "Headline gazetteer match: \"Gaza\" (city); verify via source article."
     },
     {
       "id": "news-ktcemz",
@@ -18977,6 +19000,74 @@
         "quadClass": 4,
         "goldstein": -9.5,
         "tone": -6.12,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331999342",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T18:45:00.000Z",
+      "description": "Reduced relations — President → Israel near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 31.4167,
+      "lng": 34.3333,
+      "action": "Reduced relations (GDELT 162)",
+      "actor": "President",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Gaza, Israel (general), Israel",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cp24.com/news/world/2026/11/07/iran-says-it-has-lifted-its-self-imposed-limit-on-missile-ranges-and-other-mideast-news/",
+      "gdelt": {
+        "globalEventId": "1331999342",
+        "eventCode": "162",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5.6,
+        "tone": -3.98,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331999391",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T18:45:00.000Z",
+      "description": "Disapproval — Congress → Unspecified near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 31.4167,
+      "lng": 34.3333,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Congress",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Gaza, Israel (general), Israel",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.newindianexpress.com/india/2026/Nov/07/bjp-targets-sonia-gandhi-over-babri-masjid-demolition-remark-says-babar-remains-in-congresss-heart",
+      "gdelt": {
+        "globalEventId": "1331999391",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.73,
         "mentions": 2,
         "sources": 1
       }
@@ -49704,108 +49795,6 @@
         "goldstein": -2,
         "tone": -1.76,
         "mentions": 8,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331876148",
-      "kind": "event",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T00:00:00.000Z",
-      "observedAt": "2026-11-06T20:15:00.000Z",
-      "description": "Disapproval — Palestinians → Israel near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Disapproval (GDELT 110)",
-      "actor": "Palestinians",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://truthout.org/articles/aipac-has-lost-over-30-of-its-midterm-races-so-far-in-sign-of-major-shift/",
-      "gdelt": {
-        "globalEventId": "1331876148",
-        "eventCode": "110",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -1.76,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331876705",
-      "kind": "event",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T00:00:00.000Z",
-      "observedAt": "2026-11-06T20:30:00.000Z",
-      "description": "Coercion — Companies → Unspecified near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Coercion (GDELT 1721)",
-      "actor": "Companies",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://nypost.com/2026/11/06/us-news/sensitive-man-cries-himself-to-sleep-because-nyt-wont-call-israel-hamas-war-a-genocide/",
-      "gdelt": {
-        "globalEventId": "1331876705",
-        "eventCode": "1721",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -8.79,
-        "mentions": 5,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331877120",
-      "kind": "event",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T00:00:00.000Z",
-      "observedAt": "2026-11-06T20:30:00.000Z",
-      "description": "Threat — Israel → Iran near Israel. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.5,
-      "lng": 34.75,
-      "action": "Threat (GDELT 138)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://en.apa.az/america/trump-says-stopping-irans-nuclear-ambitions-saved-entire-middle-east-534615",
-      "gdelt": {
-        "globalEventId": "1331877120",
-        "eventCode": "138",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -7,
-        "tone": 4.55,
-        "mentions": 1,
         "sources": 1
       }
     }
