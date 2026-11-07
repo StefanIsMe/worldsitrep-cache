@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-11-07T07:44:13.281Z",
+  "collectedAt": "2026-11-07T13:48:24.930Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 251,
-  "outsideTheatreDropped": 2,
+  "coarseGdeltDropped": 218,
+  "outsideTheatreDropped": 9,
   "proposals": [
     {
       "zoneId": "lib-kyiv",
@@ -15,39 +15,80 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 419,
+      "eventCount": 407,
       "kinds": {
-        "other": 281,
-        "combat": 116,
-        "strike": 22
+        "other": 282,
+        "combat": 108,
+        "strike": 17
       },
       "tierCounts": {
-        "approximate": 419
+        "approximate": 407
       },
-      "combatCount": 138,
-      "newestIsoDate": "2026-11-07T07:37:38.000Z",
+      "combatCount": 125,
+      "newestIsoDate": "2026-11-07T13:13:00.000Z",
       "samples": [
         {
+          "id": "news-1xdzaa0",
+          "isoDate": "2026-11-07T13:13:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/89442"
+        },
+        {
           "id": "news-1q1xpld",
-          "isoDate": "2026-11-07T07:37:38.000Z",
+          "isoDate": "2026-11-07T13:12:35.000Z",
           "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeW52V0RqOFNTQWtEaDRwMDNGbmZIWWplMFV6YmVfX2hRWVFTQ0VzbG9DRE1uZVNESW11cUF3RzVDWkMxTF9vQ0VYRi1wV1lRSG9UWHpGM3ZSZEIzRFNybVVXeERvVjdGRU9ScTFmblB6YUVYVzZ1MGpKUjFZSkdINXNJTUJjVlNrMlE?oc=5"
         },
         {
-          "id": "news-nyl38o",
-          "isoDate": "2026-11-07T07:34:11.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FTDBMMWRRbTIxNmFnN0JxTTV1VE1sY0xDOC01RS1nZndwY1VmMUk0SnhtT3N4RkJMTVgtUFhYYWxuMTlmVXcyMXJPVlQyR0lRSEpOelVZNGtGZkp1VzlvejVn?oc=5"
-        },
-        {
-          "id": "news-w6oaxy",
-          "isoDate": "2026-11-07T07:06:23.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQN2J4MVJDWXF6VnlBZ21HdEw0NC12ZW1HbWE1ckRpNW1BMXM4RDB3dWF0OHFSNnUzeVhFb25HbUpGRjZfUE1CVzNMZnpvR19xQmlZZm1qYUZFS28tbmc5a195dTg1eWlfX2VhTl9vaEJieWdzQU4tVy1VYjhTTWhPbE03YXJLd2JUU1c1Mk1qQWV3VmxwMmRaYlBTcVdXOHN5dEVFcEtHdm52Y2JNbjQ3Ng?oc=5"
+          "id": "news-k11771",
+          "isoDate": "2026-11-07T13:08:00.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM0lpek9iZm84OUZ4RVJHWUVLWGFjdTByQnkycDB2dzB3cVFSczVDcjNXVmRTUmZabFZNTTFkUjRKbzROalFFbGpxUzd5SmdzeXdFMnB1WUx3UVQ3SEJtY0UzQnAtTEdwWWNXXzlLZm9vMDIyZS1iT3pia2VNelZJbTFzaXYyQkF1eUUyNkh4cklVZ0hSeWFoekVWUG9XWl8tdnE5ck5nRHA3Y3dD?oc=5"
         }
       ],
       "centroid": {
-        "lat": 50.3775,
-        "lng": 30.2341
+        "lat": 50.3755,
+        "lng": 30.2416
       },
-      "radiusKm": 43.6
+      "radiusKm": 42.2
+    },
+    {
+      "zoneId": "occ-kherson",
+      "region": "Kherson Oblast",
+      "center": {
+        "lat": 46.6354,
+        "lng": 32.6169
+      },
+      "eventCount": 85,
+      "kinds": {
+        "other": 58,
+        "combat": 24,
+        "strike": 3
+      },
+      "tierCounts": {
+        "approximate": 85
+      },
+      "combatCount": 27,
+      "newestIsoDate": "2026-11-07T10:43:00.000Z",
+      "samples": [
+        {
+          "id": "news-f05r75",
+          "isoDate": "2026-11-07T10:43:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/07/8061706/"
+        },
+        {
+          "id": "news-f05638",
+          "isoDate": "2026-11-07T06:28:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/07/8061682/"
+        },
+        {
+          "id": "gdelt-1331900843",
+          "isoDate": "2026-11-07T00:00:00.000Z",
+          "sourceUrl": "http://www.bgnes.com/conflicts/zelensky-warns-of-new-russian-strike-on-ukraine-s-energy-infrastructure"
+        }
+      ],
+      "centroid": {
+        "lat": 46.7205,
+        "lng": 32.3343
+      },
+      "radiusKm": 56.8
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -56,15 +97,15 @@
         "lat": 47,
         "lng": 35.5
       },
-      "eventCount": 92,
+      "eventCount": 84,
       "kinds": {
-        "combat": 46,
-        "other": 46
+        "combat": 45,
+        "other": 39
       },
       "tierCounts": {
-        "approximate": 92
+        "approximate": 84
       },
-      "combatCount": 46,
+      "combatCount": 45,
       "newestIsoDate": "2026-11-07T00:00:00.000Z",
       "samples": [
         {
@@ -84,51 +125,10 @@
         }
       ],
       "centroid": {
-        "lat": 47.8589,
-        "lng": 35.4071
+        "lat": 47.8661,
+        "lng": 35.3934
       },
-      "radiusKm": 41.8
-    },
-    {
-      "zoneId": "occ-kherson",
-      "region": "Kherson Oblast",
-      "center": {
-        "lat": 46.6354,
-        "lng": 32.6169
-      },
-      "eventCount": 89,
-      "kinds": {
-        "other": 62,
-        "combat": 24,
-        "strike": 3
-      },
-      "tierCounts": {
-        "approximate": 89
-      },
-      "combatCount": 27,
-      "newestIsoDate": "2026-11-07T06:28:00.000Z",
-      "samples": [
-        {
-          "id": "news-f05638",
-          "isoDate": "2026-11-07T06:28:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/07/8061682/"
-        },
-        {
-          "id": "gdelt-1331900843",
-          "isoDate": "2026-11-07T00:00:00.000Z",
-          "sourceUrl": "http://www.bgnes.com/conflicts/zelensky-warns-of-new-russian-strike-on-ukraine-s-energy-infrastructure"
-        },
-        {
-          "id": "gdelt-1331906422",
-          "isoDate": "2026-11-07T00:00:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/89396"
-        }
-      ],
-      "centroid": {
-        "lat": 46.7215,
-        "lng": 32.3528
-      },
-      "radiusKm": 54.6
+      "radiusKm": 43
     },
     {
       "zoneId": "occ-donetsk",
@@ -139,37 +139,78 @@
       },
       "eventCount": 41,
       "kinds": {
-        "other": 21,
-        "strike": 12,
-        "combat": 8
+        "other": 24,
+        "strike": 11,
+        "combat": 6
       },
       "tierCounts": {
         "approximate": 41
       },
-      "combatCount": 20,
-      "newestIsoDate": "2026-11-07T04:38:00.000Z",
+      "combatCount": 17,
+      "newestIsoDate": "2026-11-07T13:46:57.000Z",
       "samples": [
+        {
+          "id": "news-e3uugo",
+          "isoDate": "2026-11-07T13:46:57.000Z",
+          "sourceUrl": "https://en.interfax.com.ua/news/general/1232837.html"
+        },
+        {
+          "id": "news-shj7wr",
+          "isoDate": "2026-11-07T08:30:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4182363-diu-identifies-russian-military-personnel-involved-in-airstrike-on-komyshuvakha.html"
+        },
         {
           "id": "news-f0558z",
           "isoDate": "2026-11-07T04:38:00.000Z",
           "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/07/8061672/"
-        },
-        {
-          "id": "gdelt-1331931312",
-          "isoDate": "2026-11-07T00:00:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/89408"
-        },
-        {
-          "id": "gdelt-1331931313",
-          "isoDate": "2026-11-07T00:00:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/89408"
         }
       ],
       "centroid": {
-        "lat": 48.3046,
-        "lng": 37.4574
+        "lat": 48.2841,
+        "lng": 37.4329
       },
-      "radiusKm": 64.5
+      "radiusKm": 65.4
+    },
+    {
+      "zoneId": "occ-kharkiv",
+      "region": "Kharkiv Oblast",
+      "center": {
+        "lat": 49.8,
+        "lng": 37.6
+      },
+      "eventCount": 24,
+      "kinds": {
+        "other": 10,
+        "combat": 10,
+        "strike": 4
+      },
+      "tierCounts": {
+        "approximate": 24
+      },
+      "combatCount": 14,
+      "newestIsoDate": "2026-11-07T12:55:00.000Z",
+      "samples": [
+        {
+          "id": "news-1o4hgcq",
+          "isoDate": "2026-11-07T12:55:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4182427-russian-attack-on-kharkiv-leaves-two-injured.html"
+        },
+        {
+          "id": "news-1ovll4f",
+          "isoDate": "2026-11-07T10:38:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4182397-russians-strike-kharkiv-with-banderol-drones-damaging-houses-trolleybuses-and-cars.html"
+        },
+        {
+          "id": "gdelt-1331921033",
+          "isoDate": "2026-11-07T00:00:00.000Z",
+          "sourceUrl": "https://www.eurasiareview.com/07112026-how-ukraines-security-service-sought-access-to-the-anti-corruption-courts-restricted-database-analysis/"
+        }
+      ],
+      "centroid": {
+        "lat": 49.8195,
+        "lng": 36.7815
+      },
+      "radiusKm": 53.6
     },
     {
       "zoneId": "occ-luhansk",
@@ -178,16 +219,16 @@
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 30,
+      "eventCount": 24,
       "kinds": {
         "other": 22,
-        "combat": 5,
-        "strike": 3
+        "combat": 1,
+        "strike": 1
       },
       "tierCounts": {
-        "approximate": 30
+        "approximate": 24
       },
-      "combatCount": 8,
+      "combatCount": 2,
       "newestIsoDate": "2026-11-07T00:00:00.000Z",
       "samples": [
         {
@@ -207,51 +248,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.5507,
-        "lng": 38.8621
+        "lat": 48.5494,
+        "lng": 38.7824
       },
-      "radiusKm": 29.6
-    },
-    {
-      "zoneId": "occ-kharkiv",
-      "region": "Kharkiv Oblast",
-      "center": {
-        "lat": 49.8,
-        "lng": 37.6
-      },
-      "eventCount": 27,
-      "kinds": {
-        "other": 8,
-        "combat": 14,
-        "strike": 5
-      },
-      "tierCounts": {
-        "approximate": 27
-      },
-      "combatCount": 19,
-      "newestIsoDate": "2026-11-07T00:00:00.000Z",
-      "samples": [
-        {
-          "id": "gdelt-1331921033",
-          "isoDate": "2026-11-07T00:00:00.000Z",
-          "sourceUrl": "https://www.eurasiareview.com/07112026-how-ukraines-security-service-sought-access-to-the-anti-corruption-courts-restricted-database-analysis/"
-        },
-        {
-          "id": "gdelt-1331921333",
-          "isoDate": "2026-11-07T00:00:00.000Z",
-          "sourceUrl": "https://www.eurasiareview.com/07112026-how-ukraines-security-service-sought-access-to-the-anti-corruption-courts-restricted-database-analysis/"
-        },
-        {
-          "id": "gdelt-1331933848",
-          "isoDate": "2026-11-07T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/11/6/800124501/community/1717/"
-        }
-      ],
-      "centroid": {
-        "lat": 49.8367,
-        "lng": 36.7245
-      },
-      "radiusKm": 50.8
+      "radiusKm": 27.1
     },
     {
       "zoneId": "lib-snake",
@@ -260,16 +260,16 @@
         "lat": 45.2551,
         "lng": 30.2033
       },
-      "eventCount": 22,
+      "eventCount": 19,
       "kinds": {
-        "other": 9,
+        "other": 8,
         "strike": 5,
-        "combat": 8
+        "combat": 6
       },
       "tierCounts": {
-        "approximate": 22
+        "approximate": 19
       },
-      "combatCount": 13,
+      "combatCount": 11,
       "newestIsoDate": "2026-11-07T00:36:00.000Z",
       "samples": [
         {
@@ -289,10 +289,10 @@
         }
       ],
       "centroid": {
-        "lat": 46.5362,
-        "lng": 30.3829
+        "lat": 46.5476,
+        "lng": 30.3267
       },
-      "radiusKm": 45.6
+      "radiusKm": 49.9
     },
     {
       "zoneId": "lib-sumy",
@@ -301,36 +301,36 @@
         "lat": 50.9077,
         "lng": 34.7981
       },
-      "eventCount": 14,
+      "eventCount": 17,
       "kinds": {
-        "other": 8,
-        "combat": 6
+        "other": 15,
+        "combat": 2
       },
       "tierCounts": {
-        "approximate": 14
+        "approximate": 17
       },
-      "combatCount": 6,
-      "newestIsoDate": "2026-11-06T21:51:00.000Z",
+      "combatCount": 2,
+      "newestIsoDate": "2026-11-07T13:17:16.000Z",
       "samples": [
         {
-          "id": "news-1tn0o8p",
-          "isoDate": "2026-11-06T21:51:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4182280-injury-toll-after-russian-attack-on-sumy-rises-to-seven.html"
+          "id": "news-ct98c6",
+          "isoDate": "2026-11-07T13:17:16.000Z",
+          "sourceUrl": "https://en.interfax.com.ua/news/general/1232835.html"
         },
         {
-          "id": "news-rkwaeq",
-          "isoDate": "2026-11-06T18:37:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4182237-russian-forces-strike-sumy-with-glide-bombs-three-injured.html"
+          "id": "news-f05sr2",
+          "isoDate": "2026-11-07T12:50:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/07/8061721/"
         },
         {
-          "id": "news-dvrsct",
-          "isoDate": "2026-11-06T16:17:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/06/8061613/"
+          "id": "news-1wdjd57",
+          "isoDate": "2026-11-07T12:28:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4182426-russian-drones-attack-businesses-in-poltava-region-four-people-injured.html"
         }
       ],
       "centroid": {
-        "lat": 50.4639,
-        "lng": 34.2812
+        "lat": 51.3953,
+        "lng": 34.9723
       },
       "radiusKm": 80
     },
@@ -341,15 +341,15 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 10,
+      "eventCount": 8,
       "kinds": {
         "other": 5,
-        "combat": 5
+        "combat": 3
       },
       "tierCounts": {
-        "approximate": 10
+        "approximate": 8
       },
-      "combatCount": 5,
+      "combatCount": 3,
       "newestIsoDate": "2026-11-07T00:56:37.000Z",
       "samples": [
         {
@@ -369,10 +369,10 @@
         }
       ],
       "centroid": {
-        "lat": 45.1793,
-        "lng": 34.2546
+        "lat": 45.1002,
+        "lng": 34.1995
       },
-      "radiusKm": 43.6
+      "radiusKm": 45
     },
     {
       "zoneId": "lib-chernihiv",
@@ -381,38 +381,38 @@
         "lat": 51.4982,
         "lng": 31.2893
       },
-      "eventCount": 6,
+      "eventCount": 7,
       "kinds": {
-        "combat": 5,
-        "other": 1
+        "other": 3,
+        "combat": 4
       },
       "tierCounts": {
-        "approximate": 6
+        "approximate": 7
       },
-      "combatCount": 5,
-      "newestIsoDate": "2026-11-07T00:00:00.000Z",
+      "combatCount": 4,
+      "newestIsoDate": "2026-11-07T11:46:45.000Z",
       "samples": [
         {
+          "id": "news-136nl01",
+          "isoDate": "2026-11-07T11:46:45.000Z",
+          "sourceUrl": "https://en.interfax.com.ua/news/general/1232812.html"
+        },
+        {
+          "id": "news-f05r4e",
+          "isoDate": "2026-11-07T10:10:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/07/8061703/"
+        },
+        {
           "id": "gdelt-1331934934",
-          "isoDate": "2026-11-07T00:00:00.000Z",
-          "sourceUrl": "http://www.rightspeak.net/2026/11/180-combat-clashes-15-kostiantynivka-8.html"
-        },
-        {
-          "id": "gdelt-1331935360",
-          "isoDate": "2026-11-07T00:00:00.000Z",
-          "sourceUrl": "http://www.rightspeak.net/2026/11/180-combat-clashes-15-kostiantynivka-8.html"
-        },
-        {
-          "id": "gdelt-1331935362",
           "isoDate": "2026-11-07T00:00:00.000Z",
           "sourceUrl": "http://www.rightspeak.net/2026/11/180-combat-clashes-15-kostiantynivka-8.html"
         }
       ],
       "centroid": {
-        "lat": 51.5561,
-        "lng": 31.9634
+        "lat": 51.5444,
+        "lng": 31.8679
       },
-      "radiusKm": 31.5
+      "radiusKm": 34.7
     }
   ]
 }
