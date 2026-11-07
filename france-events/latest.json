@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-11-07T22:33:14.437Z",
+  "collectedAt": "2026-11-07T23:07:30.579Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 42
+      "count": 5
     },
     {
       "id": "gnews-france-protests",
@@ -52,7 +52,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 1285,
+  "count": 1292,
   "events": [
     {
       "id": "news-12q6q7y",
@@ -72,6 +72,25 @@
       "locationStr": "The New York Times",
       "source": "The New York Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GYnoxd1dncFRldUlCNW5vMDEydGR3U1VpY1RtQVNQdGJGTlItUVpoR1U2dUwyNVNoQU1uQzBDNU5LWUl2UTc2REswb3QzQjVpcFlEVGZhOWxJd3J0RTlIbU4xeUN2RmtIU1IyLWxaaGctZw?oc=5"
+    },
+    {
+      "id": "news-1luhb3r",
+      "kind": "news",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T21:21:03.000Z",
+      "description": "France Sees Round of Student Protests, 146,000 Join Nationwide - JournalArta (JournalArta, 2026-11-07. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "JournalArta",
+      "axis": "Other",
+      "tags": [
+        "JournalArta",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "JournalArta",
+      "source": "JournalArta",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZWJUWGc1NUJCRk1nSXZWXzdVeXIxanM3S0JXdzlPZVdsd1BSRlgtN1VEWkdGMGJSaV9WOEdsa21oclZVTEI3dmNiSTdabUdnOFFobHRBYUpDT29HTU5IVUh0aHMxc29aUXl1Q2JqRk1wU05ZTm50dVRLbHU2Z2RkU29JTQ?oc=5"
     },
     {
       "id": "news-18kqrem",
@@ -110,6 +129,29 @@
       "locationStr": "France 24 English",
       "source": "France 24 English",
       "sourceUrl": "https://www.france24.com/en/tv-shows/spotlight/20261107-france-unbowed-s-m%C3%A9lenchon-unveils-a-shared-future-manifesto-ahead-of-2027-presidential-race"
+    },
+    {
+      "id": "news-radjsx",
+      "kind": "news",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T19:32:27.000Z",
+      "description": "Paris agitators defy police orders, renew nationwide protests centered in Paris - Fox News (Fox News, 2026-11-07. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Fox News",
+      "axis": "Other",
+      "tags": [
+        "Fox News",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Paris",
+      "source": "Fox News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMHFKVEptdWVYVkNvazdmMDVOa00xN0RiNEQ2Z090WUZPOGJWTG94X0pmSG5sXzFsYWd0eEUxRFNoS3l4Ni1nQ0NzR1liNzBiXy1pQXNLLWVBME9vbm1SdVZnTVNjTFhTeVg2OHQ5cmJjTWFBR3lNTEhzaUxNajNtX0ZGS2NVT3lqYlFqZmMzUkE0ODNzQlFXWEVjcGtoeEdWMFV5SGF1LXc?oc=5",
+      "lat": 48.86,
+      "lng": 2.35,
+      "coordsNote": "Headline gazetteer match: \"Paris\" (city); verify via source article."
     },
     {
       "id": "news-vlqjul",
@@ -8294,6 +8336,176 @@
         "goldstein": -10,
         "tone": -4.38,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332015849",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T22:45:00.000Z",
+      "description": "Protest — Dominican Republic → France near Paris, France (general), France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Protest (GDELT 141)",
+      "actor": "Dominican Republic",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dominicanrepublicpost.com/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france/",
+      "gdelt": {
+        "globalEventId": "1332015849",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -4.69,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332015866",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T22:45:00.000Z",
+      "description": "Threat — France → Authorities near Paris, France (general), France. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Threat (GDELT 130)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dominicanrepublicpost.com/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france/",
+      "gdelt": {
+        "globalEventId": "1332015866",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -4.69,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332015867",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T22:45:00.000Z",
+      "description": "Threat — France → Authorities near Paris, France (general), France. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Threat (GDELT 130)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dominicanrepublicpost.com/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france/",
+      "gdelt": {
+        "globalEventId": "1332015867",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -4.69,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332016035",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T22:45:00.000Z",
+      "description": "Disapproval — Al Jazeera → Unspecified near Paris, France (general), France. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dominicanrepublicpost.com/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france/",
+      "gdelt": {
+        "globalEventId": "1332016035",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.69,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332016036",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T22:45:00.000Z",
+      "description": "Disapproval — Al Jazeera → France near Paris, France (general), France. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dominicanrepublicpost.com/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france/",
+      "gdelt": {
+        "globalEventId": "1332016036",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.69,
+        "mentions": 1,
         "sources": 1
       }
     },
