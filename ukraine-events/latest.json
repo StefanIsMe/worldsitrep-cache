@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "ukraine",
-  "collectedAt": "2026-11-07T00:43:14.793Z",
+  "collectedAt": "2026-11-07T01:07:45.254Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 27
+      "count": 18
     },
     {
       "id": "kyiv-independent",
@@ -24,14 +24,16 @@
     {
       "id": "gnews-war",
       "url": "https://news.google.com/rss/search?q=Ukraine%20war&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-war request failed with HTTP 503"
     },
     {
       "id": "gnews-strikes",
       "url": "https://news.google.com/rss/search?q=Ukraine%20drones%20OR%20missiles%20OR%20Kyiv%20strike&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-strikes request failed with HTTP 503"
     },
     {
       "id": "kyiv-post",
@@ -66,20 +68,23 @@
     {
       "id": "gnews-frontline",
       "url": "https://news.google.com/rss/search?q=Ukraine%20frontline%20Pokrovsk%20Kupiansk%20offensive&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 10
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-frontline request failed with HTTP 503"
     },
     {
       "id": "gnews-blackout",
       "url": "https://news.google.com/rss/search?q=Ukraine%20blackout%20energy%20grid%20strikes&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-blackout request failed with HTTP 503"
     },
     {
       "id": "gnews-peace",
       "url": "https://news.google.com/rss/search?q=Ukraine%20peace%20talks%20ceasefire%20negotiations&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 49
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-peace request failed with HTTP 503"
     },
     {
       "id": "isw-assessments",
@@ -98,6 +103,29 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-1xdza6f",
+      "kind": "news",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:56:37.000Z",
+      "description": "‘We Don’t Want Yalta 2.0’: Zelensky Warns Trump’s Russia-Europe Security Deal Could Be ‘Dangerous’ (Kyiv Post, 2026-11-07. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Post",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Post",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Yalta",
+      "source": "Kyiv Post",
+      "sourceUrl": "https://www.kyivpost.com/post/89405",
+      "lat": 44.5,
+      "lng": 34.17,
+      "coordsNote": "Headline gazetteer match: \"Yalta\" (city); verify via source article."
+    },
     {
       "id": "news-1tixm5a",
       "kind": "news",
@@ -376,6 +404,380 @@
         "tone": -4.31,
         "mentions": 8,
         "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331906422",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T00:45:00.000Z",
+      "description": "Rejection — Russian forces → Unspecified near Dnipro, Ukraine (general), Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46.4975,
+      "lng": 32.3086,
+      "action": "Rejection (GDELT 125)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dnipro, Ukraine (general), Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kyivpost.com/post/89396",
+      "gdelt": {
+        "globalEventId": "1331906422",
+        "eventCode": "125",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -5.34,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331906423",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T00:45:00.000Z",
+      "description": "Rejection — Russian forces → Unspecified near Dnipro, Ukraine (general), Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46.4975,
+      "lng": 32.3086,
+      "action": "Rejection (GDELT 125)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dnipro, Ukraine (general), Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kyivpost.com/post/89396",
+      "gdelt": {
+        "globalEventId": "1331906423",
+        "eventCode": "125",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -5.34,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331906435",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T00:45:00.000Z",
+      "description": "Rejection — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kyivpost.com/post/89396",
+      "gdelt": {
+        "globalEventId": "1331906435",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -5.34,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331906436",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T00:45:00.000Z",
+      "description": "Rejection — Russian forces → Ukraine near Dnipro, Ukraine (general), Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46.4975,
+      "lng": 32.3086,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dnipro, Ukraine (general), Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kyivpost.com/post/89396",
+      "gdelt": {
+        "globalEventId": "1331906436",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -5.34,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331906441",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T00:45:00.000Z",
+      "description": "Fight — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kyivpost.com/post/89396",
+      "gdelt": {
+        "globalEventId": "1331906441",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.34,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331906442",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T00:45:00.000Z",
+      "description": "Fight — Russian forces → Ukraine near Dnipro, Ukraine (general), Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 46.4975,
+      "lng": 32.3086,
+      "action": "Fight (GDELT 190)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dnipro, Ukraine (general), Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kyivpost.com/post/89396",
+      "gdelt": {
+        "globalEventId": "1331906442",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.34,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331906443",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T00:45:00.000Z",
+      "description": "Fight — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kyivpost.com/post/89396",
+      "gdelt": {
+        "globalEventId": "1331906443",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.34,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331906468",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T00:45:00.000Z",
+      "description": "Rejection — Ukraine → Unspecified near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kyivpost.com/post/89396",
+      "gdelt": {
+        "globalEventId": "1331906468",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -5.34,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331906470",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T00:45:00.000Z",
+      "description": "Assault — Ukraine → Abu Dhabi near Budanov, Ternopil's'ka Oblast', Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 49.1623,
+      "lng": 25.7093,
+      "action": "Assault (GDELT 181)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Budanov, Ternopil's'ka Oblast', Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kyivpost.com/post/89400",
+      "gdelt": {
+        "globalEventId": "1331906470",
+        "eventCode": "181",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -2.16,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331906471",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T00:45:00.000Z",
+      "description": "Assault — Ukraine → Abu Dhabi near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Assault (GDELT 181)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kyivpost.com/post/89396",
+      "gdelt": {
+        "globalEventId": "1331906471",
+        "eventCode": "181",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -5.34,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1331906483",
+      "kind": "event",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T00:00:00.000Z",
+      "observedAt": "2026-11-07T00:45:00.000Z",
+      "description": "Fight — Ukraine → Russian forces near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (6 mentions, 2 sources); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.centralwesterndaily.com.au/story/9387416/ukraine-continues-attacks-on-russian-oil-refineries/",
+      "gdelt": {
+        "globalEventId": "1331906483",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.22,
+        "mentions": 6,
+        "sources": 2
       }
     },
     {
@@ -41688,242 +42090,6 @@
       "lat": 48.85,
       "lng": 37.6,
       "coordsNote": "Headline gazetteer match: \"Sloviansk\" (city); verify via source article."
-    },
-    {
-      "id": "news-bmyeq5",
-      "kind": "news",
-      "date": "2026-11-04",
-      "isoDate": "2026-11-04T16:47:00.000Z",
-      "description": "Military video shows drone striking state-of-the-art US$45m Russian Buk-M3 system (Ukrainska Pravda, 2026-11-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/04/8061273/"
-    },
-    {
-      "id": "news-xaiolz",
-      "kind": "news",
-      "date": "2026-11-04",
-      "isoDate": "2026-11-04T16:46:13.000Z",
-      "description": "Zelensky lands in Spain to discuss air defense (Kyiv Independent, 2026-11-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Independent",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Independent",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Independent",
-      "source": "Kyiv Independent",
-      "sourceUrl": "https://kyivindependent.com/zelensky-lands-in-spain-to-discuss-air-defense/"
-    },
-    {
-      "id": "news-bk9tij",
-      "kind": "news",
-      "date": "2026-11-04",
-      "isoDate": "2026-11-04T16:46:00.000Z",
-      "description": "Zelensky arrives in Spain (Ukrinform, 2026-11-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrinform",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-polytics/4181489-zelensky-arrives-in-spain.html"
-    },
-    {
-      "id": "news-1e24yg",
-      "kind": "news",
-      "date": "2026-11-04",
-      "isoDate": "2026-11-04T16:43:56.000Z",
-      "description": "Zelenskyy announces talks in Madrid on strengthening air defense, defense cooperation with Spain (Interfax-Ukraine, 2026-11-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Interfax-Ukraine",
-      "axis": "Other",
-      "tags": [
-        "Interfax-Ukraine",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Interfax-Ukraine",
-      "source": "Interfax-Ukraine",
-      "sourceUrl": "https://en.interfax.com.ua/news/general/1231298.html"
-    },
-    {
-      "id": "news-1uxaibt",
-      "kind": "news",
-      "date": "2026-11-04",
-      "isoDate": "2026-11-04T16:42:56.000Z",
-      "description": "Komyshuvakha school strike: at least 40 killed in Zaporizhzhia region - Around Prague (Around Prague, 2026-11-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Around Prague",
-      "axis": "Other",
-      "tags": [
-        "Around Prague",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Zaporizhzhia region",
-      "source": "Around Prague",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObTh2U3kxaGtXeFRGNWs2V3lHU2ZoVlRZZ2U1a0xBeEZpS0c1VHFoZ1luYlRnVmpuNFAzSDRFNmtRWUpncWQwOGRRTmVrNWk2V2dEZlg0bUVzUlIxa2NobXJmbUt3SDAyMmQtenJKb09KV3k3dmFLeTZOZ1d5bnBoYnRwSml0NXViclg0UUlaT0NEUnNKTjVYaXdqNnVYOWg0c21OdHVyTHBGZnZSRTAwMFR2UlU5OFN2d1JJ?oc=5",
-      "lat": 47.84,
-      "lng": 35.14,
-      "coordsNote": "Headline gazetteer match: \"Zaporizhzhia\" (region); verify via source article."
-    },
-    {
-      "id": "news-19tnskn",
-      "kind": "news",
-      "date": "2026-11-04",
-      "isoDate": "2026-11-04T16:34:10.000Z",
-      "description": "Russia Ukraine War - Post Register (Post Register, 2026-11-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Post Register",
-      "axis": "Other",
-      "tags": [
-        "Post Register",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Post Register",
-      "source": "Post Register",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLUJZVjN4WUtIX0dfZWJjTGJUelJDTEQ1cnFXOG1IN3NMQmJSaVlQWDA4blRtZ3k0Z2RkMTRBM1BTUWJHYkN4bXpYQ0FTVEktNFMxRXBnNmd5U0w4Y2JWY3VZenpVUm8zSG5aNV9VWFlMX25KRjdPYXhPc1JXSEZrbmZYT2xtRkdaYUd2OXo1aUVqZUM5RUhyX29BVTlqbFpBcHVXclhpTHJFUQ?oc=5"
-    },
-    {
-      "id": "news-7np35i",
-      "kind": "news",
-      "date": "2026-11-04",
-      "isoDate": "2026-11-04T16:30:00.000Z",
-      "description": "Koretskyi comments on EU enlargement report, outlines Ukraine's next goal (Ukrinform, 2026-11-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrinform",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-polytics/4181482-koretskyi-comments-on-eu-enlargement-report-outlines-ukraines-next-goal.html"
-    },
-    {
-      "id": "news-1f29jvb",
-      "kind": "news",
-      "date": "2026-11-04",
-      "isoDate": "2026-11-04T16:26:46.000Z",
-      "description": "Ukrainian language included in UK's updated school curriculum – Zaluzhny (Interfax-Ukraine, 2026-11-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Interfax-Ukraine",
-      "axis": "Other",
-      "tags": [
-        "Interfax-Ukraine",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Interfax-Ukraine",
-      "source": "Interfax-Ukraine",
-      "sourceUrl": "https://en.interfax.com.ua/news/general/1231288.html"
-    },
-    {
-      "id": "news-n7eh9j",
-      "kind": "news",
-      "date": "2026-11-04",
-      "isoDate": "2026-11-04T16:26:12.000Z",
-      "description": "Russian Strike on Komyshuvakha School: Death Toll Rises to 40, Dozens Still Missing - Kyiv Post (Kyiv Post, 2026-11-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Post",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5kMzQ3V0JsQUM4QUN3UkhVemFTQm11cVF1ZXdZWHZtdDV0aDlPcTN0T29YRi1vbnFmRE5oanN5ZW1UV3Roby1YRVM5Yw?oc=5"
-    },
-    {
-      "id": "news-1l8490n",
-      "kind": "news",
-      "date": "2026-11-04",
-      "isoDate": "2026-11-04T16:24:07.000Z",
-      "description": "Ukrainian strikes kill three in Russia’s Belgorod region - Al Jazeera (Al Jazeera, 2026-11-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Al Jazeera",
-      "axis": "Other",
-      "tags": [
-        "Al Jazeera",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Belgorod region",
-      "source": "Al Jazeera",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVXlISWpnN3MwdFZyWXByWEtNeWJrSF9sTjI1TUpnMEE5dXNhbFREUW4waHZTYjA0S2E2UUs5VDBoeGJERS1KaldhTXNGdmNOV3NteVhiOXJVY3h4clI4c1N0a0NCN1dLR21WVVh1cE1LWFAxaGlYZVZDSkkyVnU5YTUzbTBwVEJ3Snd2a0MzUzhqNzJqUTlMWGlsbDXSAaIBQVVfeXFMT18tbTNKYTdHYmw2WHNQOXpuMVN1ODYxNEN2UnRMcTVub1BMTk5QaE5Ob1UwNi1vR1ZtamJjYkFfMkE5RkswcjlMVTdUaV9TRjBFbE9iazdKQXZ5dW1wRmV1bXdVbVdWN3E5WXpEOHJyUDljcWdQbDNBX1NFMVZzZVhQRlJ3YkZVNGlMc0lqM3pXdlQ5dHhINWE2bGRZQjFqdVlR?oc=5",
-      "lat": 50.6,
-      "lng": 36.59,
-      "coordsNote": "Headline gazetteer match: \"Belgorod\" (region); verify via source article."
-    },
-    {
-      "id": "news-1xdz7s8",
-      "kind": "news",
-      "date": "2026-11-04",
-      "isoDate": "2026-11-04T16:22:00.000Z",
-      "description": "Moldova Pulls Ahead of Ukraine in EU Membership Talks (Kyiv Post, 2026-11-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Post",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://www.kyivpost.com/post/89154"
-    },
-    {
-      "id": "news-1hl6tou",
-      "kind": "news",
-      "date": "2026-11-04",
-      "isoDate": "2026-11-04T16:20:00.000Z",
-      "description": "Will Democratic surge in US midterms change Putin’s calculations on Ukraine? - The Times (The Times, 2026-11-04. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Times",
-      "axis": "Other",
-      "tags": [
-        "The Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Times",
-      "source": "The Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbi1sWDBaS2twZXZWUTdSeGVRQmVIZHpoNEJzSVVvYmtyZXc1QWdFOUZkNkxhWUh5SVJ4NzFiXy1UVjV5alhpTFNNUVdqM1I2QmVia0VMdTU3Ym1RUmdXMlNYekpZaURjT1d4cS05Qm10STNuNnRLREFhcnpNQUpiTEpJYk03V3R1MXZnMmVvZGFBZ2JaaUtUVjl5dmdFOFhlUllXNFA4clJObm8zV1lRQWc4SjVGUQ?oc=5"
     }
   ]
 }
