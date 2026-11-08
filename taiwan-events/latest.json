@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-08T02:45:45.838Z",
+  "collectedAt": "2026-11-08T09:23:15.561Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 5
     },
     {
       "id": "taipei-times",
@@ -42,14 +42,14 @@
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
       "count": 1,
-      "filtered": 13
+      "filtered": 9
     },
     {
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 8,
-      "filtered": 42
+      "count": 6,
+      "filtered": 44
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 31,
+      "count": 32,
       "filtered": 0
     },
     {
@@ -80,8 +80,65 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 207,
+  "count": 202,
   "events": [
+    {
+      "id": "news-taj67",
+      "kind": "news",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T09:09:21.000Z",
+      "description": "Plugged in, not locked in: middle powers navigate US-China AI rivalry (SCMP, 2026-11-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3373682/plugged-not-locked-middle-powers-navigate-us-china-ai-rivalry"
+    },
+    {
+      "id": "news-190006k",
+      "kind": "news",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T04:00:32.000Z",
+      "description": "Only a fraction of World Heritage sites are in Africa. China wants to fix that (SCMP, 2026-11-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3373662/only-fraction-world-heritage-sites-are-africa-china-wants-fix"
+    },
+    {
+      "id": "news-18dvd4",
+      "kind": "news",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T03:53:29.000Z",
+      "description": "Astellas employee jailed in China for espionage to be released in December: Japanese media (Straits Times, 2026-11-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/astellas-employee-imprisoned-in-china-to-be-released-in-december-japanese-media-report"
+    },
     {
       "id": "news-j146d1",
       "kind": "news",
@@ -186,6 +243,176 @@
         "tone": 1.97,
         "mentions": 42,
         "sources": 6
+      }
+    },
+    {
+      "id": "gdelt-1332032828",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T03:15:00.000Z",
+      "description": "Disapproval — Colorado → Lawmaker near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Colorado",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.asiaone.com:443/world/who-paraguays-new-president-pedro-alliana",
+      "gdelt": {
+        "globalEventId": "1332032828",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.75,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332035077",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T04:00:00.000Z",
+      "description": "Threat — China → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 1384)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/world/rest-of-world/taiwan-detects-4-chinese-military-aircraft-8-ships-around-island-in-24-hours/articleshow/135649926.cms",
+      "gdelt": {
+        "globalEventId": "1332035077",
+        "eventCode": "1384",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -3.05,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332039738",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T05:30:00.000Z",
+      "description": "Coercion — Samsung → Us Government near Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Samsung",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreaherald.com/article/10929626",
+      "gdelt": {
+        "globalEventId": "1332039738",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -1.09,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332041963",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T06:15:00.000Z",
+      "description": "Disapproval — China → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.whittierdailynews.com/2026/11/07/election-2026-west-covina-city-councilman-tony-wu-concedes-to-challenger-fredrick-sykes/",
+      "gdelt": {
+        "globalEventId": "1332041963",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.25,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332045891",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T07:15:00.000Z",
+      "description": "Fight — Unspecified → Kaohsiung near Renwu, Kao-hsiung, Taiwan. Machine-coded by GDELT 2.1 (20 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 22.7013,
+      "lng": 120.343,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Renwu, Kao-hsiung, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/society/202611080005",
+      "gdelt": {
+        "globalEventId": "1332045891",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.29,
+        "mentions": 20,
+        "sources": 1
       }
     },
     {
@@ -429,18 +656,18 @@
       "kind": "news",
       "date": "2026-11-07",
       "isoDate": "2026-11-07T18:31:00.000Z",
-      "description": "Taiwan seeks progress on stalled $14 billion US arms deal - www.irishsun.com (www.irishsun.com, 2026-11-07. Headline + link only.)",
+      "description": "Taiwan seeks progress on stalled $14 billion US arms deal - https://www.irishsun.com/ (https://www.irishsun.com/, 2026-11-07. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "www.irishsun.com",
+      "actor": "https://www.irishsun.com/",
       "axis": "Other",
       "tags": [
-        "www.irishsun.com",
+        "https://www.irishsun.com/",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "www.irishsun.com",
-      "source": "www.irishsun.com",
+      "locationStr": "https://www.irishsun.com/",
+      "source": "https://www.irishsun.com/",
       "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbVlKWmdZYWh4U2Etal9kUmZTMmZtYTd3UjVrekdTY1I4ZGlFQk5scFZjZG1xT1IweFRRTFEwbFpiZnBRVzFRQmNEaE9kWXZnYV9STzRWRHBRRFo1YVNiTUxOVmh0UEZzdHFZbXFfVUNJTk9CUnNxNGM0a1N6OXJQVTJVYUh0Ym5leTdXX0haajRsR3ExeXY4N3ZFRERCUDUw?oc=5"
     },
     {
@@ -5306,253 +5533,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/south-asia/india-in-final-stage-talks-to-expand-brahmos-missile-sale-to-philippines-sources-say"
-    },
-    {
-      "id": "news-k0d3c1",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T09:01:01.000Z",
-      "description": "Chinese and North Korean officials step up diplomatic drive in wake of Kim Jong-un visit (SCMP, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3373385/chinese-and-north-korean-officials-step-diplomatic-drive-wake-kim-jong-un-visit"
-    },
-    {
-      "id": "news-h2fkr6",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T08:33:19.000Z",
-      "description": "China says US farm purchases hinge on tariff-cut deal (Straits Times, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/china-says-us-farm-purchases-hinge-on-tariff-cut-deal"
-    },
-    {
-      "id": "news-jrrodp",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T08:30:00.000Z",
-      "description": "US midterms: Will Trump take a tougher stance on China after his election setback? (Straits Times, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/us-midterms-will-trump-take-a-tougher-stance-on-china-after-his-election-setback"
-    },
-    {
-      "id": "news-t0wqyj",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T08:13:23.000Z",
-      "description": "Trump's political humbling signals short-term gain, long-term pain for China (Straits Times, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/trumps-political-humbling-signals-short-term-gain-long-term-pain-for-china"
-    },
-    {
-      "id": "news-1jro4he",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T07:33:04.000Z",
-      "description": "Fu Pengming: 'US will actually resume the arms sale to Taiwan' in parts - India Today - India Today (India Today, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "India Today",
-      "axis": "Other",
-      "tags": [
-        "India Today",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "India Today",
-      "source": "India Today",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOX2dhZ1NuU3JiNXJWVUNXbEZVODJLdUN6a1Q1MVZNSnBWSXNEeXFPWlJBeUpTZ21GeTVyX0lVVmxUWGxqc2ZMMWYyeWMxQ0NTdXJvUi1Sakt2d1Vic01oZmR2MHRtM0IyaVU0aWdzNVZtUFozYzR1dG54Z2liUGIzeXZwNGkzajRmdTkxMUJRUzJ6b0JhQUhndEs5YTZzZ3RTYVBfdzg5bUVTV1N4NEJkQkxWdnlNQ1RzdnhEcXpHcmtvYnRtbTVLdnVn0gHPAUFVX3lxTE1CZmxDWmhLRW1IZy0xb1Vub3NvbERSZDc3YjdIOWdsZmVHR0xkOVJPWllQOHBtZ19VOU11SzB2VkdaVnRWQTRVWGtaTElvTEdNV2pva0o3MjJINVFXNUk3b0NyTFkwWl9pbjh5WGNzOWZaU3FCUHNCOUZMUVBjVWhRdUZxU0NpdUJhRHcwU3ZaZ2Fub2VIb3pxRWRfZHJUVVpMSThzS1M1RUJrcE9PV2pfaTVwc0l5Zlg5eTN3S1hLZ0tvdmc5dHFYbThzOXpVZw?oc=5"
-    },
-    {
-      "id": "news-1aq7mxp",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T07:29:33.000Z",
-      "description": "China’s fifth plenum resolution (SCMP, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/plus/news/china/politics/article/3373366/chinas-fifth-plenum-resolution"
-    },
-    {
-      "id": "news-1jjrbgu",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T06:10:19.000Z",
-      "description": "Ex-armed police chief Wang Ning ousted from China’s top advisory body (SCMP, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/military/article/3373352/ex-armed-police-chief-wang-ning-ousted-chinas-top-advisory-body"
-    },
-    {
-      "id": "news-1mb3p3f",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T05:19:17.000Z",
-      "description": "Taiwan Sees Bipartisan US Support For Defence Despite US$14 Billion Arms Deal Delay - BusinessToday Malaysia (BusinessToday Malaysia, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BusinessToday Malaysia",
-      "axis": "Other",
-      "tags": [
-        "BusinessToday Malaysia",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "BusinessToday Malaysia",
-      "source": "BusinessToday Malaysia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSmxURmNmeEVEeG5uMEtEWHBBN2JOY1h5T3E1Y1ZyOE9YQUlxMXk1ZHBydFY1emZxekdfaHBabkRrRGYwTjQ0Nzk5SGRJUm4yLU4wcEtYN3c4N01DVEhDYnA5QTRGcjYtZ3pXNzdVTmtXZFhsT05GcHVlbFUwUHBvUGNUcWlWMGNxS2x6OVUzMVZ4b3dLeWl6MERXUjZleDZEeEk5Q2JoQXhVMEVpWWYyRTBxX0xKNWlhMTYycVUwUE8xOV9CcGc?oc=5"
-    },
-    {
-      "id": "news-x4pocw",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T05:11:46.000Z",
-      "description": "Will Democrats’ Midterm Victory Change US Arms Sales to Taiwan? - Modern Diplomacy (Modern Diplomacy, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Modern Diplomacy",
-      "axis": "Other",
-      "tags": [
-        "Modern Diplomacy",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Modern Diplomacy",
-      "source": "Modern Diplomacy",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMTN1NFFzUzFaNHIzeHlfTEFyZDJmSGFWd3VHaU44RFhBQWlyVVJXS0dBdVFVRVJnMk1HVkdYLVZwOUFPQ2xpeFJydUlTRzhQbTRYSTY0YVZXci15NXpkazVwaldOQTZvYUJ6cXZsYXRMRUN2OTFfUmN3WDN0cGxhR3VwRDRaSFRWRGNGSjh1WXpvNms1TG80ZWI2clQ5TmtVQWc?oc=5"
-    },
-    {
-      "id": "news-tjo3xp",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T05:03:28.000Z",
-      "description": "What the US midterms mean for ties with China - Free Malaysia Today (Free Malaysia Today, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Free Malaysia Today",
-      "axis": "Other",
-      "tags": [
-        "Free Malaysia Today",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Free Malaysia Today",
-      "source": "Free Malaysia Today",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQWpwVkV2el9EVWI4YjN2dnVqdk1lMnFScEhnWThYZVE2M0FQQUJndF9zMXBOcC1Yck12QTd6UmtSMGgxVFpGUjRzRjVKVWU2RjVTbDZrRkd3cTRyb2JoMjhSaGlvbHYxWG1RNkNzbTY4RFVrTFlseklQdEh0YU8taUlXWng3aHhEN3JlVTdVbVk2dzU0RU43NjhXZ1hybHZYUnZBMU84ZkV3R1lBZ3c?oc=5"
-    },
-    {
-      "id": "news-13wmvfc",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T04:57:13.000Z",
-      "description": "Taiwan’s defense minister cites bipartisan support in US Congress — Channel NewsAsia - UA.NEWS (UA.NEWS, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "UA.NEWS",
-      "axis": "Other",
-      "tags": [
-        "UA.NEWS",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "UA.NEWS",
-      "source": "UA.NEWS",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbUJCU1NIM1F2OWItSDZwdDhURHJwOFRpM0R2X2Jubi1DZUtKOFZWejJxVEhJV2hjemdzYVhfalpfT1p4enVfRDBGRjlsSnQzeGZ3NTJSc0dMczJTd2tGdDZ1cjB0TVNQeWQwX2xOZXY2XzhRZW9VbUd2TmxkWS1SOUZuRkVBaGo1dDZhVnJ0aWlyTnNLM2tKRkFZejVlUEItVG85UmhWY2NKV3dZTmhDUUJkQm1kXzBQN2ROYmFNZE1VUQ?oc=5"
-    },
-    {
-      "id": "news-xibsd5",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T04:37:33.000Z",
-      "description": "What the US midterms mean for ties with China - Kuwait Times (Kuwait Times, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kuwait Times",
-      "axis": "Other",
-      "tags": [
-        "Kuwait Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kuwait Times",
-      "source": "Kuwait Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTTc1RDYtYXIyZEVfOTF0dnlqeVpHQ3NqVHV4YkM1b3lHM2pRTzBHbnIyV3Nja2NweUgxUG9iekN2Q2FfVXFDal9IWDhmd3dkc2VnLS02bWZhVTl4VHNvb1RhSEN6MVRHdVN2UmU1enkwUEJoclBOVlNJQ2hRMXdmVnBEaWJKLU1rampTaWl6endVNUM40gGYAUFVX3lxTE9ET3JwcjlZYm9XYVVyU3RaTnVrcXdvYi1JZVFabnhVX3VyVDk0V1VpTnBGOW1UWVNqUi1fZVd3NEMwbl9weUNOYW05bzJOZXBGRUhFcEQ1bllSMG40bVRqdElWZTJESkU3cTd5MnVyX25LZmZ1b00zelBxSGxqZ2NCNnFVMGU2MGFENHlXZWNDdlZRUzN6elk4?oc=5"
-    },
-    {
-      "id": "news-n1alpz",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T03:52:46.000Z",
-      "description": "China indicts ex-Politburo member Ma Xingrui for bribery (Straits Times, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/china-indicts-ex-politburo-member-ma-xingrui-for-bribery"
     }
   ]
 }
