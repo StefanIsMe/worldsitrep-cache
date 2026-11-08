@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "iran",
-  "collectedAt": "2026-11-08T02:08:42.297Z",
+  "collectedAt": "2026-11-08T02:45:45.838Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 70
+      "count": 23
     },
     {
       "id": "gnews-iran",
@@ -62,7 +62,7 @@
       "id": "gnews-irgc",
       "url": "https://news.google.com/rss/search?q=Iran%20IRGC%20missile%20strike%20Israel&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 48,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -82,6 +82,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-rvh2uh",
+      "kind": "news",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T02:37:30.000Z",
+      "description": "Iran war live: US moves to block land supply routes; UAE rescues 22 sailors - Al Jazeera (Al Jazeera, 2026-11-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ2pabWZfN2E3YU9qRklmaHc0MzBjOTdPZHk2S1hhT01UUXNNV0tuRWx3eU5RNG5LenJsckVSRFZkM1VsM3FwQVR2dUFDMV9ZUG1tb1ZkMDcwNzFOMGp3Skt1eGV2YWplU0JuREhFdTl1OTJNUS11dHpsNEZ4VFdhS0U3UnlpVHJTamZjYlE0VUE1YWhwemlYelZKWUE0ZDJtMXV2Z2NhVDhXMm9SamYzZTRodTRSVVhuVkh3NlRR0gHDAUFVX3lxTE5OaGh3UU1EdDgzNloyMU51dWowWDhrby1kSXBpNFFPa1hwdFQ4Wi15X09VTTJNbThrTjBRWTdDUGFKeGMyM1NQdTllYm1RMUdXOVA2UVRzODdPTGhta2RvcmxyanEwbnd6c1VYWGFFcjZKemkzaE95RjlWc2lzaDZIRWdyb3ZPT0hTZnM1SVlRUmFsYmhpeXBka1BSVzJveUR3OXZQUXFPaWZuenRrRHoyNHlEN2l6UjR3V2hoMko0Y05UMA?oc=5"
+    },
     {
       "id": "news-1xjaw2s",
       "kind": "news",
@@ -123,25 +142,6 @@
       "lat": 26.57,
       "lng": 56.25,
       "coordsNote": "Headline gazetteer match: \"Strait of Hormuz\" (region); verify via source article."
-    },
-    {
-      "id": "news-48h7sl",
-      "kind": "news",
-      "date": "2026-11-08",
-      "isoDate": "2026-11-08T00:03:38.000Z",
-      "description": "US Forces Disable Ship Seeking To Break Iran Blockade - Radio Free Europe/Radio Liberty (Radio Free Europe/Radio Liberty, 2026-11-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Radio Free Europe/Radio Liberty",
-      "axis": "Other",
-      "tags": [
-        "Radio Free Europe/Radio Liberty",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Radio Free Europe/Radio Liberty",
-      "source": "Radio Free Europe/Radio Liberty",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5"
     },
     {
       "id": "gdelt-1332019640",
@@ -1912,6 +1912,278 @@
       }
     },
     {
+      "id": "gdelt-1332029226",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T02:15:00.000Z",
+      "description": "Fight — Iran → Unspecified near Qeshm, Kordestan, Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 35.4421,
+      "lng": 47.3506,
+      "action": "Fight (GDELT 190)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Qeshm, Kordestan, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://politicaldog101.com/2026/11/the-middle-east-11-7-2026-qatar-working-peace-efforts-in-the-gulf/",
+      "gdelt": {
+        "globalEventId": "1332029226",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -0.73,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332029227",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T02:15:00.000Z",
+      "description": "Fight — Iran → Unspecified near Qeshm, Kordestan, Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 35.4421,
+      "lng": 47.3506,
+      "action": "Fight (GDELT 190)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Qeshm, Kordestan, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://politicaldog101.com/2026/11/the-middle-east-11-7-2026-qatar-working-peace-efforts-in-the-gulf/",
+      "gdelt": {
+        "globalEventId": "1332029227",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -0.73,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332029238",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T02:15:00.000Z",
+      "description": "Threat — Iran → Us Official near Qeshm, Kordestan, Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.4421,
+      "lng": 47.3506,
+      "action": "Threat (GDELT 131)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Qeshm, Kordestan, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://politicaldog101.com/2026/11/the-middle-east-11-7-2026-qatar-working-peace-efforts-in-the-gulf/",
+      "gdelt": {
+        "globalEventId": "1332029238",
+        "eventCode": "131",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5.8,
+        "tone": -0.73,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332029239",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T02:15:00.000Z",
+      "description": "Threat — Iran → Us Official near Qeshm, Kordestan, Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.4421,
+      "lng": 47.3506,
+      "action": "Threat (GDELT 131)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Qeshm, Kordestan, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://politicaldog101.com/2026/11/the-middle-east-11-7-2026-qatar-working-peace-efforts-in-the-gulf/",
+      "gdelt": {
+        "globalEventId": "1332029239",
+        "eventCode": "131",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5.8,
+        "tone": -0.73,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332029461",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T02:15:00.000Z",
+      "description": "Coercion — Houthis → Houthis near Qeshm, Kordestan, Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.4421,
+      "lng": 47.3506,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Houthis",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Qeshm, Kordestan, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://politicaldog101.com/2026/11/the-middle-east-11-7-2026-qatar-working-peace-efforts-in-the-gulf/",
+      "gdelt": {
+        "globalEventId": "1332029461",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -0.73,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332029986",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T02:30:00.000Z",
+      "description": "Threat — Israel → Government near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.75,
+      "lng": 51.5148,
+      "action": "Threat (GDELT 130)",
+      "actor": "Israel",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tehran, Tehran, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.israelherald.com/news/279418908/israeli-president-instructs-netanyahu-rival-to-form-government",
+      "gdelt": {
+        "globalEventId": "1332029986",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -0.41,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332030104",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T02:30:00.000Z",
+      "description": "Threat — Hamas → Government near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.75,
+      "lng": 51.5148,
+      "action": "Threat (GDELT 130)",
+      "actor": "Hamas",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Tehran, Tehran, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.israelherald.com/news/279418908/israeli-president-instructs-netanyahu-rival-to-form-government",
+      "gdelt": {
+        "globalEventId": "1332030104",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -0.41,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332030711",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T02:45:00.000Z",
+      "description": "Disapproval — Iran → Unspecified near Iran. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32,
+      "lng": 53,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://organiser.org/2026/11/08/424959/bharat/iranian-born-activist-exposes-leftist-hypocrisy-quits-pro-palestinian-movement-over-silence-on-iranian-womens-rights/",
+      "gdelt": {
+        "globalEventId": "1332030711",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.24,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-pykroq",
       "kind": "news",
       "date": "2026-11-07",
@@ -1929,6 +2201,44 @@
       "locationStr": "Mehr News English",
       "source": "Mehr News English",
       "sourceUrl": "https://en.mehrnews.com/news/249224/Iran-Russia-stressed-deepening-defense-defense-cooperation"
+    },
+    {
+      "id": "news-16k92ir",
+      "kind": "news",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T21:00:00.000Z",
+      "description": "Live Updates: U.S. expands naval blockade to include task force on disrupting ground transport - CBS News (CBS News, 2026-11-07. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "CBS News",
+      "axis": "Other",
+      "tags": [
+        "CBS News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "CBS News",
+      "source": "CBS News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTGRhLVU1VTVqNWp4WUduNU5uT1pwOEUwYnV1RmlnODdlUzduZDdsLTQzMkZLeVdiYlhBT09pMTI5RGN1a0NYVTl4Y3NDcmV2Q3BKZHJBZ1hEMTZsVXAwZkRyMGxZNDRYVXoyVV9qUXFoaDZrcHNmdXZwaEhMSE9raDJoSlM3a0Z4UVE?oc=5"
+    },
+    {
+      "id": "news-4g6sor",
+      "kind": "news",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T19:55:40.000Z",
+      "description": "Explosions heard on Qeshm Island, multiple locations in Iran, state media says - report - The Jerusalem Post (The Jerusalem Post, 2026-11-07. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "The Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Jerusalem Post",
+      "source": "The Jerusalem Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96OUdicS1vRHlsNmhSSW1Ic2hYbXF5OUM1dUllOWNETFRtT256VW9nMVNqeVIwNmRzN3pQWk9CWmwzczh2bERTRE50dmpkNk9LVWV2c3oyLVg5U3ItU1N4YmdlSmVxMVk4NFE?oc=5"
     },
     {
       "id": "news-1hdv1iv",
@@ -2298,25 +2608,6 @@
       "locationStr": "Mehr News English",
       "source": "Mehr News English",
       "sourceUrl": "https://en.mehrnews.com/news/249219/Iraqis-continue-to-protest-closure-of-border-gate-with-Iran"
-    },
-    {
-      "id": "news-16k92ir",
-      "kind": "news",
-      "date": "2026-11-07",
-      "isoDate": "2026-11-07T14:23:00.000Z",
-      "description": "Live Updates: U.S. expands naval blockade to include task force on disrupting ground transport - CBS News (CBS News, 2026-11-07. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "CBS News",
-      "axis": "Other",
-      "tags": [
-        "CBS News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "CBS News",
-      "source": "CBS News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTGRhLVU1VTVqNWp4WUduNU5uT1pwOEUwYnV1RmlnODdlUzduZDdsLTQzMkZLeVdiYlhBT09pMTI5RGN1a0NYVTl4Y3NDcmV2Q3BKZHJBZ1hEMTZsVXAwZkRyMGxZNDRYVXoyVV9qUXFoaDZrcHNmdXZwaEhMSE9raDJoSlM3a0Z4UVE?oc=5"
     },
     {
       "id": "news-17tqajz",
@@ -3006,6 +3297,25 @@
       "locationStr": "IRNA English",
       "source": "IRNA English",
       "sourceUrl": "https://en.irna.ir/news/86314589/Iran-rebuilds-1-288-schools-damaged-in-recent-aggression-Education"
+    },
+    {
+      "id": "news-48h7sl",
+      "kind": "news",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T08:03:52.000Z",
+      "description": "US Offers $20 Million Reward For Information On Iran Nuclear Program - Radio Free Europe/Radio Liberty (Radio Free Europe/Radio Liberty, 2026-11-07. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Radio Free Europe/Radio Liberty",
+      "axis": "Other",
+      "tags": [
+        "Radio Free Europe/Radio Liberty",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Radio Free Europe/Radio Liberty",
+      "source": "Radio Free Europe/Radio Liberty",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5"
     },
     {
       "id": "news-kkcbp",
@@ -25515,25 +25825,6 @@
       }
     },
     {
-      "id": "news-14nczh3",
-      "kind": "news",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T23:13:29.000Z",
-      "description": "Iran war latest: Mediation efforts remain on track, says Qatar - The National (The National, 2026-11-06. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The National",
-      "axis": "Other",
-      "tags": [
-        "The National",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The National",
-      "source": "The National",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5"
-    },
-    {
       "id": "news-1avhfhu",
       "kind": "news",
       "date": "2026-11-06",
@@ -26656,23 +26947,23 @@
       "sourceUrl": "https://en.irna.ir/news/86313820/Republicans-defeat-reflects-Trump-s-lack-of-foresight-says"
     },
     {
-      "id": "news-1quuepk",
+      "id": "news-14nczh3",
       "kind": "news",
       "date": "2026-11-06",
       "isoDate": "2026-11-06T08:00:00.000Z",
-      "description": "Iran reportedly sends US nuclear proposal but demands seven conditions before talks | LIVE BLOG - i24NEWS (i24NEWS, 2026-11-06. Headline + link only.)",
+      "description": "Iran war latest: Mediation efforts remain on track, says Qatar - The National (The National, 2026-11-06. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "i24NEWS",
+      "actor": "The National",
       "axis": "Other",
       "tags": [
-        "i24NEWS",
+        "The National",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "i24NEWS",
-      "source": "i24NEWS",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQXQwbFFSeVBvcDdVcnRTdDJoZUFsMnRaNmx0LWd5NFgzc2Q0MjVUbktCaUZWOE1McTVqTlA3b2xGUGFjUXJCd3N4UEV3cVF0YzBBaVNxTDFGWTRNSjZObzVRMlBjLW5oN2w3ZUIwVmVGSGJvNFFDNDBMUHdXQy1kbU1kbnJYalNLNUpfdm1oaEZIS3c3MlBYVXpJbXBvSWd3elBDOW1ZdllYZ0lnMlBiSlJneW1DUmFDaXhvd0RMQXdZOEV0QkpHM1RhaVRFOW8?oc=5"
+      "locationStr": "The National",
+      "source": "The National",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5"
     },
     {
       "id": "news-17yqdmk",
@@ -26825,6 +27116,25 @@
       "locationStr": "Mehr News English",
       "source": "Mehr News English",
       "sourceUrl": "https://en.mehrnews.com/news/249189/Two-other-MQM-170-reconnaissance-drones-downed-over-Qeshm"
+    },
+    {
+      "id": "news-1quuepk",
+      "kind": "news",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T04:29:00.000Z",
+      "description": "Iran Sends US Nuclear Proposal But Demands Seven Conditions Before Talks | LIVE BLOG - i24NEWS (i24NEWS, 2026-11-06. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "i24NEWS",
+      "axis": "Other",
+      "tags": [
+        "i24NEWS",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "i24NEWS",
+      "source": "i24NEWS",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQXQwbFFSeVBvcDdVcnRTdDJoZUFsMnRaNmx0LWd5NFgzc2Q0MjVUbktCaUZWOE1McTVqTlA3b2xGUGFjUXJCd3N4UEV3cVF0YzBBaVNxTDFGWTRNSjZObzVRMlBjLW5oN2w3ZUIwVmVGSGJvNFFDNDBMUHdXQy1kbU1kbnJYalNLNUpfdm1oaEZIS3c3MlBYVXpJbXBvSWd3elBDOW1ZdllYZ0lnMlBiSlJneW1DUmFDaXhvd0RMQXdZOEV0QkpHM1RhaVRFOW8?oc=5"
     },
     {
       "id": "news-1xfryki",
@@ -48576,346 +48886,6 @@
         "goldstein": -10,
         "tone": -5.42,
         "mentions": 10,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331886922",
-      "kind": "event",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T00:00:00.000Z",
-      "observedAt": "2026-11-06T21:45:00.000Z",
-      "description": "Rejection — Iran → Israel near Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Rejection (GDELT 128)",
-      "actor": "Iran",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.npr.org/2026/11/06/nx-s1-6032602/cyberattack-blood-bank-healthcare",
-      "gdelt": {
-        "globalEventId": "1331886922",
-        "eventCode": "128",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -5,
-        "tone": -3.85,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331887051",
-      "kind": "event",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T00:00:00.000Z",
-      "observedAt": "2026-11-06T21:45:00.000Z",
-      "description": "Threat — Media → Migrant near Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Threat (GDELT 130)",
-      "actor": "Media",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://nypost.com/2026/11/06/us-news/dsa-wave-storms-congress-and-radical-comments-on-9-11-abolishing-police-and-arresting-enemies-come-into-the-spotlight/",
-      "gdelt": {
-        "globalEventId": "1331887051",
-        "eventCode": "130",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -4.4,
-        "tone": -4.67,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331887056",
-      "kind": "event",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T00:00:00.000Z",
-      "observedAt": "2026-11-06T21:45:00.000Z",
-      "description": "Disapproval — Spokesman → Iran near Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Disapproval (GDELT 112)",
-      "actor": "Spokesman",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.alternet.org/hegseth-2678314725/",
-      "gdelt": {
-        "globalEventId": "1331887056",
-        "eventCode": "112",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -5.42,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331887411",
-      "kind": "event",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T00:00:00.000Z",
-      "observedAt": "2026-11-06T21:45:00.000Z",
-      "description": "Coercion — Kentucky → Iran near Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Coercion (GDELT 173)",
-      "actor": "Kentucky",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Coercion"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wkyt.com/2026/11/06/zach-dembo-names-medicaid-cuts-iran-war-tariffs-first-priorities-congress/",
-      "gdelt": {
-        "globalEventId": "1331887411",
-        "eventCode": "173",
-        "geoType": 1,
-        "quadClass": 4,
-        "goldstein": -5,
-        "tone": -1.84,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331887427",
-      "kind": "event",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T00:00:00.000Z",
-      "observedAt": "2026-11-06T21:45:00.000Z",
-      "description": "Rejection — United States → Lawmaker near Iran. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Rejection (GDELT 122)",
-      "actor": "United States",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://nypost.com/2026/11/06/us-news/dsa-wave-storms-congress-and-radical-comments-on-9-11-abolishing-police-and-arresting-enemies-come-into-the-spotlight/",
-      "gdelt": {
-        "globalEventId": "1331887427",
-        "eventCode": "122",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -4,
-        "tone": -4.67,
-        "mentions": 5,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331887625",
-      "kind": "event",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T00:00:00.000Z",
-      "observedAt": "2026-11-06T22:00:00.000Z",
-      "description": "Fight — Unspecified → Riyadh near Iran. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 32,
-      "lng": 53,
-      "action": "Fight (GDELT 193)",
-      "actor": "Unspecified",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.arabnews.com/saudi-arabia/saudi-air-defenses-intercept-drone-in-riyadh-region-3010236",
-      "gdelt": {
-        "globalEventId": "1331887625",
-        "eventCode": "193",
-        "geoType": 1,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -0.9,
-        "mentions": 8,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331888140",
-      "kind": "event",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T00:00:00.000Z",
-      "observedAt": "2026-11-06T22:00:00.000Z",
-      "description": "Reduced relations — Administration → Unspecified near Iran. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Reduced relations (GDELT 160)",
-      "actor": "Administration",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Reduced relations"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.rawstory.com/raw-investigates/stephen-miller-chief-of-staff/",
-      "gdelt": {
-        "globalEventId": "1331888140",
-        "eventCode": "160",
-        "geoType": 1,
-        "quadClass": 4,
-        "goldstein": -4,
-        "tone": -7.33,
-        "mentions": 8,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331888217",
-      "kind": "event",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T00:00:00.000Z",
-      "observedAt": "2026-11-06T22:00:00.000Z",
-      "description": "Disapproval — Defense Secretary → Iran near Iran. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Disapproval (GDELT 112)",
-      "actor": "Defense Secretary",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html",
-      "gdelt": {
-        "globalEventId": "1331888217",
-        "eventCode": "112",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -2.65,
-        "mentions": 3,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331888263",
-      "kind": "event",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T00:00:00.000Z",
-      "observedAt": "2026-11-06T22:00:00.000Z",
-      "description": "Disapproval — Iran → Regime near Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Disapproval (GDELT 110)",
-      "actor": "Iran",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://irannewsupdate.com/news/iranian-opposition/robert-torricelli-the-claim-that-iran-has-no-democratic-alternative-is-false/",
-      "gdelt": {
-        "globalEventId": "1331888263",
-        "eventCode": "110",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -6.63,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1331888275",
-      "kind": "event",
-      "date": "2026-11-06",
-      "isoDate": "2026-11-06T00:00:00.000Z",
-      "observedAt": "2026-11-06T22:00:00.000Z",
-      "description": "Threat — Israel → Iran near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 35.75,
-      "lng": 51.5148,
-      "action": "Threat (GDELT 130)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Tehran, Tehran, Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wsws.org/en/articles/2026/11/06/upzh-n06.html",
-      "gdelt": {
-        "globalEventId": "1331888275",
-        "eventCode": "130",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -4.4,
-        "tone": -0.43,
-        "mentions": 3,
         "sources": 1
       }
     }

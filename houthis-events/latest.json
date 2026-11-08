@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-08T02:08:42.297Z",
+  "collectedAt": "2026-11-08T02:45:45.838Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 22
+      "count": 8
     },
     {
       "id": "gcaptain",
@@ -69,7 +69,7 @@
       "id": "gnews-mandeb",
       "url": "https://news.google.com/rss/search?q=Bab%20el-Mandeb%20vessel%20drone%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 32,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -80,13 +80,13 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 411,
+  "count": 418,
   "events": [
     {
       "id": "news-1xuywfh",
       "kind": "news",
       "date": "2026-11-08",
-      "isoDate": "2026-11-08T00:52:25.000Z",
+      "isoDate": "2026-11-08T02:34:26.000Z",
       "description": "To Cross the Red Sea, Shippers Email Houthi Rebels. Read Their Inbox. - WSJ (WSJ, 2026-11-08. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -104,6 +104,25 @@
       "lat": 15.5,
       "lng": 41.5,
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+    },
+    {
+      "id": "news-fdorh0",
+      "kind": "news",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:19:19.000Z",
+      "description": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica (Britannica, 2026-11-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Britannica",
+      "axis": "Other",
+      "tags": [
+        "Britannica",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Britannica",
+      "source": "Britannica",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
     },
     {
       "id": "news-1pqou4d",
@@ -839,6 +858,176 @@
         "goldstein": -2,
         "tone": -7.6,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332029459",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T02:15:00.000Z",
+      "description": "Fight — Yemen → Health Minist near Jawf, Abyan, Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.8378,
+      "lng": 45.8349,
+      "action": "Fight (GDELT 195)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Jawf, Abyan, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://politicaldog101.com/2026/11/the-middle-east-11-7-2026-qatar-working-peace-efforts-in-the-gulf/",
+      "gdelt": {
+        "globalEventId": "1332029459",
+        "eventCode": "195",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -0.73,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332029462",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T02:15:00.000Z",
+      "description": "Coercion — Yemen → Yemen near Jawf, Abyan, Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.8378,
+      "lng": 45.8349,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Jawf, Abyan, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://politicaldog101.com/2026/11/the-middle-east-11-7-2026-qatar-working-peace-efforts-in-the-gulf/",
+      "gdelt": {
+        "globalEventId": "1332029462",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -0.73,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332029463",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T02:15:00.000Z",
+      "description": "Coercion — Yemen → Unspecified near Jawf, Abyan, Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.8378,
+      "lng": 45.8349,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Jawf, Abyan, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://politicaldog101.com/2026/11/the-middle-east-11-7-2026-qatar-working-peace-efforts-in-the-gulf/",
+      "gdelt": {
+        "globalEventId": "1332029463",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -0.73,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332029464",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T02:15:00.000Z",
+      "description": "Coercion — Yemen → Yemen near Jawf, Abyan, Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.8378,
+      "lng": 45.8349,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Jawf, Abyan, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://politicaldog101.com/2026/11/the-middle-east-11-7-2026-qatar-working-peace-efforts-in-the-gulf/",
+      "gdelt": {
+        "globalEventId": "1332029464",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -0.73,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332030207",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T02:30:00.000Z",
+      "description": "Assault — Yemen → Military near Hadramawt, ?a?ramawt, Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 15,
+      "lng": 50,
+      "action": "Assault (GDELT 180)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Hadramawt, ?a?ramawt, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://spacewar.com/yemen-army-plane-makes-emergency-landing-crew-abducted-999/",
+      "gdelt": {
+        "globalEventId": "1332030207",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -4.42,
+        "mentions": 2,
         "sources": 1
       }
     },
@@ -1857,25 +2046,6 @@
       "lat": 12.6,
       "lng": 43.4,
       "coordsNote": "Headline gazetteer match: \"Bab el-Mandeb\" (region); verify via source article."
-    },
-    {
-      "id": "news-fdorh0",
-      "kind": "news",
-      "date": "2026-11-07",
-      "isoDate": "2026-11-07T05:07:03.000Z",
-      "description": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica (Britannica, 2026-11-07. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Britannica",
-      "axis": "Other",
-      "tags": [
-        "Britannica",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Britannica",
-      "source": "Britannica",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
     },
     {
       "id": "gdelt-1331902210",
@@ -6706,23 +6876,27 @@
       }
     },
     {
-      "id": "news-14nczh3",
+      "id": "news-1jjmpjs",
       "kind": "news",
       "date": "2026-11-06",
-      "isoDate": "2026-11-06T23:13:29.000Z",
-      "description": "Iran war latest: Mediation efforts remain on track, says Qatar - The National (The National, 2026-11-06. Headline + link only.)",
+      "isoDate": "2026-11-06T21:57:11.000Z",
+      "description": "Houthis Claim Seizure of Kahboub Range Near Bab al-Mandeb - https://houseofsaud.com/ (https://houseofsaud.com/, 2026-11-06. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The National",
+      "actor": "https://houseofsaud.com/",
       "axis": "Other",
       "tags": [
-        "The National",
-        "headline"
+        "https://houseofsaud.com/",
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "The National",
-      "source": "The National",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5"
+      "coordsTier": "approximate",
+      "locationStr": "Bab el-Mandeb",
+      "source": "https://houseofsaud.com/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLSGlCNzVBZ3dHWkVneWZUdVpFUi1kazYwWC1kdmZodlBSbEFkWVZXQlJtMGlJTjhIU1dNZUdKN29Uak9qNUNmekdxUi1NbmRKOUVfeTY0b2l3YWNVbDg0MnZDRU4yUHdfdXN1TA?oc=5",
+      "lat": 12.6,
+      "lng": 43.4,
+      "coordsNote": "Headline gazetteer match: \"Mandeb\" (region); verify via source article."
     },
     {
       "id": "news-1o8mj3r",
@@ -7104,6 +7278,25 @@
       "locationStr": "Splash247",
       "source": "Splash247",
       "sourceUrl": "https://splash247.com/seafarer-missing-in-gulf-tanker-strike-as-iran-redraws-hormuz-blacklist/"
+    },
+    {
+      "id": "news-14nczh3",
+      "kind": "news",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T08:00:00.000Z",
+      "description": "Iran war latest: Mediation efforts remain on track, says Qatar - The National (The National, 2026-11-06. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The National",
+      "axis": "Other",
+      "tags": [
+        "The National",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The National",
+      "source": "The National",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5"
     },
     {
       "id": "news-6ch43z",
@@ -12271,7 +12464,7 @@
       "id": "news-f2bhuo",
       "kind": "news",
       "date": "2026-11-05",
-      "isoDate": "2026-11-05T19:22:00.000Z",
+      "isoDate": "2026-11-05T19:29:53.000Z",
       "description": "Saudi Arabia Has No Easy Choices as It Weighs How to Combat Houthi Threat - WSJ (WSJ, 2026-11-05. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -12487,6 +12680,25 @@
       "lat": 13.97749,
       "lng": 44.04834,
       "coordsNote": "OSM geocode: matched \"Medina\" → Ar Rida'i, Al Udayn District, Ibb Governorate; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1lqvqwd",
+      "kind": "news",
+      "date": "2026-11-05",
+      "isoDate": "2026-11-05T11:33:52.000Z",
+      "description": "Saudi Arabia warns of potential danger in Yanbu oil hub as Houthi attacks continue - Reuters (Reuters, 2026-11-05. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Reuters",
+      "axis": "Other",
+      "tags": [
+        "Reuters",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Reuters",
+      "source": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQR1J2UXI1T2psd21CTE9jNjdvWmZpaktQTVh0Vzg1VGNzZndWZVNab0JhcFNkMEZSRlF1R0d1Vm9EVmZVMDhfUThrOG84Q2VQaTZocklZaEV4end3cjBUYWFTTWxWZFc4WjBLV1MtOFQ3c0d1bHRvODdrQTFTT01MLVFvTlA1eXI3T3JnMzlXNmpXcGNsWE1KQ3hQRDZCRG8xZjBZMTJSRHZqMmNuVkFWZTVXLXRqdkoxaUlvQUVmcVoxTW9FdFE?oc=5"
     },
     {
       "id": "news-a2lt9h",
