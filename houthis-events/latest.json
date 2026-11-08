@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-08T16:12:59.456Z",
+  "collectedAt": "2026-11-08T16:23:52.459Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 54
+      "count": 3
     },
     {
       "id": "gcaptain",
@@ -55,8 +55,8 @@
       "id": "france24-me",
       "url": "https://www.france24.com/en/middle-east/rss",
       "status": "ok",
-      "count": 3,
-      "filtered": 27
+      "count": 4,
+      "filtered": 26
     },
     {
       "id": "gnews-hodeidah",
@@ -69,7 +69,7 @@
       "id": "gnews-mandeb",
       "url": "https://news.google.com/rss/search?q=Bab%20el-Mandeb%20vessel%20drone%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 32,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -80,8 +80,31 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 523,
+  "count": 528,
   "events": [
+    {
+      "id": "news-9gglhk",
+      "kind": "news",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T14:35:57.000Z",
+      "description": "Middle East latest: Saudi Aramco building in Riyadh damaged in attempted attack - The National (The National, 2026-11-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The National",
+      "axis": "Other",
+      "tags": [
+        "The National",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Riyadh",
+      "source": "The National",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNME42cE40Mk9sODA3dHc5LWNWZTRab1JhY1RmcVA0WklGQ0VOUlRUSkhXc0x2eThQM3lCVE43VlpnSWgwVUFSb29RVW5oZnBPMjFzWXkxYXAxSEUtTHpRcmRFR3pBTUxIX1F4clI5clBrTVNodTRPOHl2c3dlREFqdW9ROWx3R2xoS1JLMWVPSXI?oc=5",
+      "lat": 14.11962,
+      "lng": 46.93065,
+      "coordsNote": "OSM geocode: matched \"Riyadh\" → Ar Riyadh, Al Mahfad District, Abyan Governorate; © OpenStreetMap contributors."
+    },
     {
       "id": "news-1jma8gq",
       "kind": "news",
@@ -100,6 +123,44 @@
       "locationStr": "France 24 Middle East",
       "source": "France 24 Middle East",
       "sourceUrl": "https://www.france24.com/en/yemen-s-humanitarian-crisis-worsens"
+    },
+    {
+      "id": "news-qmu9te",
+      "kind": "news",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T14:00:00.000Z",
+      "description": "Iconic Saudi Tower Hit as Yemen’s Houthis Target Riyadh - WSJ (WSJ, 2026-11-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSJ",
+      "axis": "Other",
+      "tags": [
+        "WSJ",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WSJ",
+      "source": "WSJ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSUtxYmp1UFN6dHhjdnM2X24xYm05OVFCNWJGSWJ4V2t6bm80VDhVQXpmWnZ5TzE4Mk1FTHdBSnVFTlUxN3ZzVFF3cTUzYUNuMGVYYkwwbENfMmpXdy1GeTdpaUFFLUs0aFQzaU4tZVdYc0ZDX1N6Q0NEYkFsT25FdFc3dUl2X1FXd3RrZlpvajJyZFBkbXB0QXRBX1JqTVhyUElr?oc=5"
+    },
+    {
+      "id": "news-r8pv5h",
+      "kind": "news",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T11:13:42.000Z",
+      "description": "Yemen's Houthis claim attack on Riyadh financial district, Aramco skyscraper damaged - Le Monde.fr (Le Monde.fr, 2026-11-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Le Monde.fr",
+      "axis": "Other",
+      "tags": [
+        "Le Monde.fr",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Le Monde.fr",
+      "source": "Le Monde.fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdVpESFR5V1lpV3h4X2tUUU5JX1c4QUtYRUFaYTJVRnJKZngzTXdfX081VjNpYk55S21MYkpsaHhWNWtPeDhNN2Z2eGUxTzFPbVcwQkNrMXNXME5rOVlVUl80TWVlS2ZqZjZ1U1B1UjRZcTAwM3QtODZaYkc0RG9KQldta1laUl9vbEJiRU5oV0VHWmVraXVJZGFOQnVnZHJnZjZkRC1MajFKaGlrZjdHRDlwNkNDRVVWLUpheTBxNGM5akpXZVBVT25wSGxNQXpvZGdWQUVDaThCR0FkTThBYS1SOFpvRUM5?oc=5"
     },
     {
       "id": "news-1hv3v9c",
@@ -123,25 +184,6 @@
       "lat": 15.35,
       "lng": 44.21,
       "coordsNote": "Headline gazetteer match: \"Sanaa\" (city); verify via source article."
-    },
-    {
-      "id": "news-fdorh0",
-      "kind": "news",
-      "date": "2026-11-08",
-      "isoDate": "2026-11-08T09:36:33.000Z",
-      "description": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica (Britannica, 2026-11-08. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Britannica",
-      "axis": "Other",
-      "tags": [
-        "Britannica",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Britannica",
-      "source": "Britannica",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
     },
     {
       "id": "news-f7010s",
@@ -180,6 +222,29 @@
       "locationStr": "The New Indian Express",
       "source": "The New Indian Express",
       "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPV05fNEkwbGxTa25DdnhHczZCaGZTY2tIVzZKSUNVZmhaM21PZkZoNUN4SFBVSm9FUy00UjdxMVJiMnExcWNmcDFrY250U190OXVkaWRvLWpfemk4Wm9wUFFWVVdOenRPM0JDTkpwTDhER2lRblViMDhMSjlGTmxrRUZwSm85aHFOa2J4bHJsa2NyUWRVMFFkN2hVSjZaVWxfeGRlMnZ2WmNEam53bE9MbURkSmZIY2Q2X3lfeTRIREhodzFqdFFZbk9CNFF6TnfSAdwBQVVfeXFMTldMUFM5ZDQtRmlzLTRiVnZvdHBoSWNqaEhUYmpLZWlHd2xjNkJUSDcwU0ZFN1M2Yl9MN1d6Wm4wajdGT2ROUVFnSGZiVVlqSmNEX1dTTlk1eHFzOWtyZF9OdHFrdFJTc0t4dy1XQXktZ2NkYzFCc25Mc0hBUWthbjNOaDRqcnhDOHlHWmVnblhNSVRWTi1Da2VTRE55NmdkOU9QLUVXdXZfNG5mdl9KWVp5VkJWajNobThBR1lhX2xYblRHRlNlazNDOGZiYXhpTUQ3ejFCQmlkczNOSw?oc=5"
+    },
+    {
+      "id": "news-ftnlde",
+      "kind": "news",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T08:11:54.000Z",
+      "description": "Yemen's Houthis claim attack on Aramco building in Riyadh's financial district (France 24 Middle East, 2026-11-08. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24 Middle East",
+      "axis": "Other",
+      "tags": [
+        "France 24 Middle East",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Riyadh's",
+      "source": "France 24 Middle East",
+      "sourceUrl": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district",
+      "lat": 14.11962,
+      "lng": 46.93065,
+      "coordsNote": "OSM geocode: matched \"Riyadh's\" → Ar Riyadh, Al Mahfad District, Abyan Governorate; © OpenStreetMap contributors."
     },
     {
       "id": "news-1be51it",
@@ -5992,6 +6057,25 @@
       "coordsNote": "Headline gazetteer match: \"Bab el-Mandeb\" (region); verify via source article."
     },
     {
+      "id": "news-fdorh0",
+      "kind": "news",
+      "date": "2026-11-07",
+      "isoDate": "2026-11-07T08:00:00.000Z",
+      "description": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica (Britannica, 2026-11-07. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Britannica",
+      "axis": "Other",
+      "tags": [
+        "Britannica",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Britannica",
+      "source": "Britannica",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
+    },
+    {
       "id": "gdelt-1331902210",
       "kind": "event",
       "date": "2026-11-07",
@@ -10818,6 +10902,25 @@
         "mentions": 4,
         "sources": 1
       }
+    },
+    {
+      "id": "news-oislyd",
+      "kind": "news",
+      "date": "2026-11-06",
+      "isoDate": "2026-11-06T22:11:31.000Z",
+      "description": "Airstrikes on a market in southwestern Yemen kill at least 30, Houthis say - NBC News (NBC News, 2026-11-06. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR1R2a3Q0UWFfSHRaQzlnMm5NM1RXM0pZNXU0alJvMGdDSXhtdVE1c21WcVFHTU9YYXRISnpodmNOUTA1cElkQVlNdE5PSEE0SHZaMThHY3hLU2Zpdm1xTVZuWUc5MGdOT2plSzV6TG9STEdhUGMwakZVNmZobWZ2QnM1cnRHYVhORkNTeG15ZFkzZXNzSHNKSHBvV2hjbEdPZVBLZWV6TnRvV3lkbWc?oc=5"
     },
     {
       "id": "news-1jjmpjs",
