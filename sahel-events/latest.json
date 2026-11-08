@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-08T16:23:52.459Z",
+  "collectedAt": "2026-11-08T20:42:39.462Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 5
+      "count": 1
     },
     {
       "id": "aa-mali",
@@ -56,7 +56,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 31
+      "filtered": 29
     },
     {
       "id": "africanews",
@@ -70,7 +70,7 @@
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 0,
-      "filtered": 6
+      "filtered": 7
     },
     {
       "id": "gnews-jnim",
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 60,
+  "count": 59,
   "events": [
     {
       "id": "gdelt-1332050360",
@@ -542,6 +542,40 @@
         "goldstein": -2,
         "tone": 1.17,
         "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332103340",
+      "kind": "event",
+      "date": "2026-11-08",
+      "isoDate": "2026-11-08T00:00:00.000Z",
+      "observedAt": "2026-11-08T19:15:00.000Z",
+      "description": "Coercion — Village → Unspecified near Binoni, Zinder, Niger. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.1461,
+      "lng": 8.56285,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Village",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Binoni, Zinder, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.vanguardngr.com/2026/11/military-neutralises-60-terrorists-rescues-42-kidnap-victims/",
+      "gdelt": {
+        "globalEventId": "1332103340",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -7.13,
+        "mentions": 8,
         "sources": 1
       }
     },
@@ -2059,44 +2093,6 @@
         "mentions": 4,
         "sources": 1
       }
-    },
-    {
-      "id": "news-dbs90h",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T18:36:11.000Z",
-      "description": "Guinea expels Burkinabé gold miners, draws Ougadougou's fury (Africanews, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Africanews",
-      "axis": "Other",
-      "tags": [
-        "Africanews",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Africanews",
-      "source": "Africanews",
-      "sourceUrl": "http://www.africanews.com/2026/11/05/guinea-expels-burkinabe-gold-miners-draws-ougadougous-fury/"
-    },
-    {
-      "id": "news-1u22z6f",
-      "kind": "news",
-      "date": "2026-11-05",
-      "isoDate": "2026-11-05T18:24:57.000Z",
-      "description": "Algeria's Niger deployment redraws the Sahel's fault lines - thecradle.co (thecradle.co, 2026-11-05. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "thecradle.co",
-      "axis": "Other",
-      "tags": [
-        "thecradle.co",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "thecradle.co",
-      "source": "thecradle.co",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObEZ3OUVMRUhZRkdVOU9ELVBGOEVwMXozOS13NDJpdFptUndmaVQxQ1pMdGFhOEpITDEzRE94UEp1R2FFanF2QTVXR0c5M0dEb3ZGcjZidFEyS0pxMHBZYU11bnY1OXRzbGR1WVB1ZnNsNVlZQzBJYTBzOTlpdTBJem9tSmR1RTNWTjRvamd3TQ?oc=5"
     }
   ]
 }
