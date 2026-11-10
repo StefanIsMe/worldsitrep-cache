@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-10T08:52:22.778Z",
+  "collectedAt": "2026-11-10T16:40:20.208Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 5
+      "count": 14
     },
     {
       "id": "aa-mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
       "status": "ok",
-      "count": 10,
+      "count": 11,
       "filtered": 10
     },
     {
@@ -62,15 +62,15 @@
       "id": "africanews",
       "url": "https://www.africanews.com/feed/",
       "status": "ok",
-      "count": 0,
-      "filtered": 50
+      "count": 1,
+      "filtered": 49
     },
     {
       "id": "dw-africa",
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 0,
-      "filtered": 5
+      "filtered": 6
     },
     {
       "id": "gnews-jnim",
@@ -101,8 +101,46 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 53,
+  "count": 69,
   "events": [
+    {
+      "id": "news-1g4n01p",
+      "kind": "news",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T15:55:33.000Z",
+      "description": "Lyon exhibition celebrates Mali’s Sogo bò heritage (Africanews, 2026-11-10. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Africanews",
+      "axis": "Other",
+      "tags": [
+        "Africanews",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Africanews",
+      "source": "Africanews",
+      "sourceUrl": "http://www.africanews.com/2026/11/10/lyon-exhibition-celebrates-malis-sogo-bo-heritage/"
+    },
+    {
+      "id": "news-1pi90sd",
+      "kind": "news",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T15:17:37.000Z",
+      "description": "Amavubi Players Upbeat Ahead of Bamako Showdown (AllAfrica Mali, 2026-11-10. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AllAfrica Mali",
+      "axis": "Other",
+      "tags": [
+        "AllAfrica Mali",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AllAfrica Mali",
+      "source": "AllAfrica Mali",
+      "sourceUrl": "https://allafrica.com/stories/202611100541.html"
+    },
     {
       "id": "gdelt-1332313382",
       "kind": "event",
@@ -270,6 +308,482 @@
         "goldstein": -2,
         "tone": -1.32,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332387194",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T12:30:00.000Z",
+      "description": "Disapproval — School → Unspecified near Niger. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "School",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.euronews.com/2026/11/10/inside-the-japanese-programme-using-school-committees-and-remedial-classes-to-improve-lear",
+      "gdelt": {
+        "globalEventId": "1332387194",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 2.33,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332404899",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T14:15:00.000Z",
+      "description": "Threat — Unspecified → Niger near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/nearly-64-000-flee-violence-in-northern-nigeria-for-niger",
+      "gdelt": {
+        "globalEventId": "1332404899",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -8.1,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332406055",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T14:15:00.000Z",
+      "description": "Threat — Muslim → Christianity near Mali. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Threat (GDELT 138)",
+      "actor": "Muslim",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.lgbtqnation.com/2026/10/fake-gay-administrations-homophobic-response-to-60-minutes-report/",
+      "gdelt": {
+        "globalEventId": "1332406055",
+        "eventCode": "138",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -5.19,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332406057",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T14:15:00.000Z",
+      "description": "Threat — Muslim → Mali near Mali. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Threat (GDELT 138)",
+      "actor": "Muslim",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.lgbtqnation.com/2026/10/fake-gay-administrations-homophobic-response-to-60-minutes-report/",
+      "gdelt": {
+        "globalEventId": "1332406057",
+        "eventCode": "138",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -5.19,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332410336",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T14:45:00.000Z",
+      "description": "Assault — Austrian → Niger near Agadez, Agadez, Niger. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16.9733,
+      "lng": 7.99111,
+      "action": "Assault (GDELT 181)",
+      "actor": "Austrian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Agadez, Agadez, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.swissinfo.ch/eng/swiss-diplomacy/cash-and-drones-secured-swiss-hostages-release-from-niger-report/92355620",
+      "gdelt": {
+        "globalEventId": "1332410336",
+        "eventCode": "181",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -3.11,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332410465",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T14:45:00.000Z",
+      "description": "Assault — Swiss → Niger near Agadez, Agadez, Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16.9733,
+      "lng": 7.99111,
+      "action": "Assault (GDELT 181)",
+      "actor": "Swiss",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Agadez, Agadez, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.swissinfo.ch/eng/swiss-diplomacy/cash-and-drones-secured-swiss-hostages-release-from-niger-report/92355620",
+      "gdelt": {
+        "globalEventId": "1332410465",
+        "eventCode": "181",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -3.11,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332411271",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T14:45:00.000Z",
+      "description": "Assault — Niger → Unspecified near Agadez, Agadez, Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16.9733,
+      "lng": 7.99111,
+      "action": "Assault (GDELT 181)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Agadez, Agadez, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.swissinfo.ch/eng/swiss-diplomacy/cash-and-drones-secured-swiss-hostages-release-from-niger-report/92355620",
+      "gdelt": {
+        "globalEventId": "1332411271",
+        "eventCode": "181",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -3.11,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332411761",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T14:45:00.000Z",
+      "description": "Assault — Tuareg → Libya near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Tuareg",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.swissinfo.ch/eng/swiss-diplomacy/cash-and-drones-secured-swiss-hostages-release-from-niger-report/92355620",
+      "gdelt": {
+        "globalEventId": "1332411761",
+        "eventCode": "181",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -3.11,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332411763",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T14:45:00.000Z",
+      "description": "Assault — Tuareg → American near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Tuareg",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.swissinfo.ch/eng/swiss-diplomacy/cash-and-drones-secured-swiss-hostages-release-from-niger-report/92355620",
+      "gdelt": {
+        "globalEventId": "1332411763",
+        "eventCode": "181",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -3.11,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332416090",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T15:15:00.000Z",
+      "description": "Fight — Niger → Unspecified near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Fight (GDELT 190)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africa-newsroom.com/press/tens-of-thousands-flee-violence-in-nigeria-and-face-growing-crisis-in-niger",
+      "gdelt": {
+        "globalEventId": "1332416090",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.98,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332416091",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T15:15:00.000Z",
+      "description": "Fight — Niger → Unspecified near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Fight (GDELT 192)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africa-newsroom.com/press/tens-of-thousands-flee-violence-in-nigeria-and-face-growing-crisis-in-niger",
+      "gdelt": {
+        "globalEventId": "1332416091",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -6.98,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332416092",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T15:15:00.000Z",
+      "description": "Fight — Niger → Unspecified near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Fight (GDELT 192)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africa-newsroom.com/press/tens-of-thousands-flee-violence-in-nigeria-and-face-growing-crisis-in-niger",
+      "gdelt": {
+        "globalEventId": "1332416092",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -6.98,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332418090",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T15:30:00.000Z",
+      "description": "Demand — Business → Mali near Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Demand (GDELT 100)",
+      "actor": "Business",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://metro.co.uk/2026/11/10/pro-vinted-seller-takes-marketplace-court-thousands-locked-account-29781515/",
+      "gdelt": {
+        "globalEventId": "1332418090",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -0.59,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332423352",
+      "kind": "event",
+      "date": "2026-11-10",
+      "isoDate": "2026-11-10T00:00:00.000Z",
+      "observedAt": "2026-11-10T16:00:00.000Z",
+      "description": "Demand — Government → Unspecified near Burkina Faso. Machine-coded by GDELT 2.1 (9 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Demand (GDELT 100)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.businessghana.com/site/news/General/359381/Govt-lifts-curfew-on-Hamile",
+      "gdelt": {
+        "globalEventId": "1332423352",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -8.04,
+        "mentions": 9,
         "sources": 1
       }
     },
