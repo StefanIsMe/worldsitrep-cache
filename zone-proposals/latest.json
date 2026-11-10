@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-11-10T01:45:24.503Z",
+  "collectedAt": "2026-11-10T02:54:09.817Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 197,
-  "outsideTheatreDropped": 10,
+  "coarseGdeltDropped": 198,
+  "outsideTheatreDropped": 9,
   "proposals": [
     {
       "zoneId": "lib-kyiv",
@@ -17,14 +17,14 @@
       },
       "eventCount": 437,
       "kinds": {
-        "other": 314,
-        "combat": 98,
+        "other": 307,
+        "combat": 105,
         "strike": 25
       },
       "tierCounts": {
         "approximate": 437
       },
-      "combatCount": 123,
+      "combatCount": 130,
       "newestIsoDate": "2026-11-10T00:00:00.000Z",
       "samples": [
         {
@@ -44,10 +44,10 @@
         }
       ],
       "centroid": {
-        "lat": 50.4165,
-        "lng": 30.1384
+        "lat": 50.4159,
+        "lng": 30.1481
       },
-      "radiusKm": 50.3
+      "radiusKm": 49.2
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -173,20 +173,60 @@
       "radiusKm": 36.7
     },
     {
+      "zoneId": "occ-luhansk",
+      "region": "Luhansk Oblast",
+      "center": {
+        "lat": 48.574,
+        "lng": 39.3078
+      },
+      "eventCount": 38,
+      "kinds": {
+        "combat": 7,
+        "other": 31
+      },
+      "tierCounts": {
+        "approximate": 38
+      },
+      "combatCount": 7,
+      "newestIsoDate": "2026-11-10T00:00:00.000Z",
+      "samples": [
+        {
+          "id": "gdelt-1332302385",
+          "isoDate": "2026-11-10T00:00:00.000Z",
+          "sourceUrl": "https://www.theglobeandmail.com/world/article-russia-ukraine-war-peace-talks-2/"
+        },
+        {
+          "id": "gdelt-1332303326",
+          "isoDate": "2026-11-10T00:00:00.000Z",
+          "sourceUrl": "https://www.theglobeandmail.com/world/article-russia-ukraine-war-peace-talks-2/"
+        },
+        {
+          "id": "gdelt-1332310444",
+          "isoDate": "2026-11-10T00:00:00.000Z",
+          "sourceUrl": "https://www.brisbanetimes.com.au/world/europe/voters-told-trump-what-they-think-now-europe-wants-to-stop-him-being-a-patsy-for-putin-20261110-p61cu3.html"
+        }
+      ],
+      "centroid": {
+        "lat": 48.3413,
+        "lng": 38.7465
+      },
+      "radiusKm": 43.3
+    },
+    {
       "zoneId": "lib-sumy",
       "region": "Sumy Oblast",
       "center": {
         "lat": 50.9077,
         "lng": 34.7981
       },
-      "eventCount": 35,
+      "eventCount": 33,
       "kinds": {
-        "other": 26,
+        "other": 24,
         "strike": 7,
         "combat": 2
       },
       "tierCounts": {
-        "approximate": 35
+        "approximate": 33
       },
       "combatCount": 9,
       "newestIsoDate": "2026-11-09T19:23:00.000Z",
@@ -208,50 +248,51 @@
         }
       ],
       "centroid": {
-        "lat": 50.2878,
-        "lng": 34.4339
+        "lat": 50.1252,
+        "lng": 34.3351
       },
       "radiusKm": 80
     },
     {
-      "zoneId": "occ-luhansk",
-      "region": "Luhansk Oblast",
+      "zoneId": "occ-donetsk",
+      "region": "Donetsk Oblast",
       "center": {
-        "lat": 48.574,
-        "lng": 39.3078
+        "lat": 47.8,
+        "lng": 37.5
       },
-      "eventCount": 34,
+      "eventCount": 30,
       "kinds": {
-        "combat": 7,
-        "other": 27
+        "other": 26,
+        "strike": 2,
+        "combat": 2
       },
       "tierCounts": {
-        "approximate": 34
+        "approximate": 30
       },
-      "combatCount": 7,
-      "newestIsoDate": "2026-11-10T00:00:00.000Z",
+      "combatCount": 4,
+      "newestIsoDate": "2026-11-09T19:56:22.000Z",
       "samples": [
         {
-          "id": "gdelt-1332302385",
-          "isoDate": "2026-11-10T00:00:00.000Z",
-          "sourceUrl": "https://www.theglobeandmail.com/world/article-russia-ukraine-war-peace-talks-2/"
+          "id": "news-677a0l",
+          "isoDate": "2026-11-09T19:56:22.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5OQ1NwUUY0aG5OUXREdjJyNDloTHdJY3FSVTZvcnBUcjZoY0hONXQxeE9zR21fQ09pdnZxWUp0MHNRMm5Ib1ZpY24xcw?oc=5"
         },
         {
-          "id": "gdelt-1332303326",
-          "isoDate": "2026-11-10T00:00:00.000Z",
-          "sourceUrl": "https://www.theglobeandmail.com/world/article-russia-ukraine-war-peace-talks-2/"
+          "id": "news-1niaw52",
+          "isoDate": "2026-11-09T18:57:28.000Z",
+          "sourceUrl": "https://en.interfax.com.ua/news/general/1233708.html"
         },
         {
-          "id": "gdelt-1332138608",
-          "isoDate": "2026-11-09T00:00:00.000Z",
-          "sourceUrl": "https://econotimes.com/French-Rivals-Rebuke-Melenchon-Over-Ukraine-Territory-Proposal-1773481"
+          "id": "news-bbuw8l",
+          "isoDate": "2026-11-09T17:20:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4183053-ukraines-usf-strike-russian-solntsepyok-heavy-flamethrower-system-in-occupied-donetsk-region.html"
         }
       ],
       "centroid": {
-        "lat": 48.3226,
-        "lng": 38.7755
+        "lat": 48.2744,
+        "lng": 37.3447
       },
-      "radiusKm": 47.1
+      "radiusKm": 53.6
     },
     {
       "zoneId": "lib-snake",
@@ -293,47 +334,6 @@
         "lng": 30.4602
       },
       "radiusKm": 38.9
-    },
-    {
-      "zoneId": "occ-donetsk",
-      "region": "Donetsk Oblast",
-      "center": {
-        "lat": 47.8,
-        "lng": 37.5
-      },
-      "eventCount": 29,
-      "kinds": {
-        "other": 25,
-        "strike": 2,
-        "combat": 2
-      },
-      "tierCounts": {
-        "approximate": 29
-      },
-      "combatCount": 4,
-      "newestIsoDate": "2026-11-09T18:57:28.000Z",
-      "samples": [
-        {
-          "id": "news-1niaw52",
-          "isoDate": "2026-11-09T18:57:28.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/general/1233708.html"
-        },
-        {
-          "id": "news-bbuw8l",
-          "isoDate": "2026-11-09T17:20:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4183053-ukraines-usf-strike-russian-solntsepyok-heavy-flamethrower-system-in-occupied-donetsk-region.html"
-        },
-        {
-          "id": "news-h9g7u2",
-          "isoDate": "2026-11-09T15:39:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/09/8062003/"
-        }
-      ],
-      "centroid": {
-        "lat": 48.3148,
-        "lng": 37.3372
-      },
-      "radiusKm": 50
     },
     {
       "zoneId": "lib-chernihiv",
