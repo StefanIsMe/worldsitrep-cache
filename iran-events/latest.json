@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "iran",
-  "collectedAt": "2026-11-11T02:11:45.438Z",
+  "collectedAt": "2026-11-11T02:18:11.763Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 265
+      "count": 21
     },
     {
       "id": "gnews-iran",
@@ -19,16 +19,16 @@
     {
       "id": "gnews-unrest",
       "url": "https://news.google.com/rss/search?q=Iran%20protests%20Khamenei&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-unrest request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Tehran%20sanctions%20oil&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-policy request failed with HTTP 503"
+      "status": "ok",
+      "count": 44,
+      "filtered": 0
     },
     {
       "id": "iranintl",
@@ -62,7 +62,7 @@
       "id": "gnews-irgc",
       "url": "https://news.google.com/rss/search?q=Iran%20IRGC%20missile%20strike%20Israel&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 47,
       "filtered": 0
     },
     {
@@ -82,6 +82,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-1y0xkpd",
+      "kind": "news",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T02:11:51.000Z",
+      "description": "Trump wants to keep Iran blockade. Can the Persian Gulf sustain the standoff? (Iran International, 2026-11-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Iran International",
+      "axis": "Other",
+      "tags": [
+        "Iran International",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Iran International",
+      "source": "Iran International",
+      "sourceUrl": "https://www.iranintl.com/en/202611101010"
+    },
     {
       "id": "news-1y0zyik",
       "kind": "news",
@@ -49611,40 +49630,6 @@
         "goldstein": -2,
         "tone": -5.72,
         "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1332475741",
-      "kind": "event",
-      "date": "2026-11-10",
-      "isoDate": "2026-11-10T00:00:00.000Z",
-      "observedAt": "2026-11-10T21:45:00.000Z",
-      "description": "Fight — Iran → Iran near Iran. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 32,
-      "lng": 53,
-      "action": "Fight (GDELT 190)",
-      "actor": "Iran",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.arabnews.com/middle-east/could-iran-linked-cyberattacks-reach-europes-homes-and-critical-infrastructure-3010925",
-      "gdelt": {
-        "globalEventId": "1332475741",
-        "eventCode": "190",
-        "geoType": 1,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -5.72,
-        "mentions": 10,
         "sources": 1
       }
     }
