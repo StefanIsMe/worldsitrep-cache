@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-11-11T17:46:19.610Z",
+  "collectedAt": "2026-11-11T18:08:37.993Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 164
+      "count": 17
     },
     {
       "id": "gnews-france-protests",
@@ -52,7 +52,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 1300,
+  "count": 1301,
   "events": [
     {
       "id": "news-1rjmqo9",
@@ -9882,6 +9882,40 @@
         "goldstein": -10,
         "tone": -1.86,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332641366",
+      "kind": "event",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T00:00:00.000Z",
+      "observedAt": "2026-11-11T18:00:00.000Z",
+      "description": "Threat — Rabat → School near France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Threat (GDELT 1383)",
+      "actor": "Rabat",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.moroccoworldnews.com/2026/11/345952/italy-evacuates-hundreds-of-schools-following-wave-of-false-bomb-threats/",
+      "gdelt": {
+        "globalEventId": "1332641366",
+        "eventCode": "1383",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -8.7,
+        "mentions": 10,
         "sources": 1
       }
     },
