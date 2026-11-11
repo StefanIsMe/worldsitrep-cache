@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-11T09:45:56.056Z",
+  "collectedAt": "2026-11-11T09:54:05.894Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 73
+      "count": 16
     },
     {
       "id": "gcaptain",
@@ -54,9 +54,9 @@
     {
       "id": "france24-me",
       "url": "https://www.france24.com/en/middle-east/rss",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS france24-me request failed with HTTP 403"
+      "status": "ok",
+      "count": 5,
+      "filtered": 25
     },
     {
       "id": "gnews-hodeidah",
@@ -69,7 +69,7 @@
       "id": "gnews-mandeb",
       "url": "https://news.google.com/rss/search?q=Bab%20el-Mandeb%20vessel%20drone%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 32,
       "filtered": 0
     },
     {
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 417,
+  "count": 418,
   "events": [
+    {
+      "id": "news-1q6peop",
+      "kind": "news",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T09:55:32.000Z",
+      "description": "Monjasa seals biggest-ever fleet deal with five-tanker swoop (Splash247, 2026-11-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Splash247",
+      "axis": "Other",
+      "tags": [
+        "Splash247",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Splash247",
+      "source": "Splash247",
+      "sourceUrl": "https://splash247.com/monjasa-seals-biggest-ever-fleet-deal-with-five-tanker-swoop/"
+    },
     {
       "id": "news-jic25i",
       "kind": "news",
