@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-11T02:18:11.763Z",
+  "collectedAt": "2026-11-11T09:45:56.056Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 9
     },
     {
       "id": "aa-mali",
@@ -27,8 +27,8 @@
       "id": "aa-niger",
       "url": "https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf",
       "status": "ok",
-      "count": 1,
-      "filtered": 4
+      "count": 2,
+      "filtered": 5
     },
     {
       "id": "gnews-sahel",
@@ -56,14 +56,14 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 32
+      "filtered": 30
     },
     {
       "id": "africanews",
       "url": "https://www.africanews.com/feed/",
       "status": "ok",
-      "count": 1,
-      "filtered": 49
+      "count": 2,
+      "filtered": 48
     },
     {
       "id": "dw-africa",
@@ -101,8 +101,356 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 65,
+  "count": 76,
   "events": [
+    {
+      "id": "news-x7mb95",
+      "kind": "news",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T07:57:09.000Z",
+      "description": "Gold miners expelled by Guinea start leaving assembly site in Mali (Africanews, 2026-11-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Africanews",
+      "axis": "Other",
+      "tags": [
+        "Africanews",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Mali",
+      "source": "Africanews",
+      "sourceUrl": "http://www.africanews.com/2026/11/11/gold-miners-expelled-by-guinea-start-leaving-assembly-site-in-mali/",
+      "lat": 16.37004,
+      "lng": -2.29002,
+      "coordsNote": "OSM geocode: matched \"Mali\" → Mali; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-cv10e1",
+      "kind": "news",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T04:53:17.000Z",
+      "description": "Nearly 64,000 Flee Nigeria for Niger Where a Humanitarian Crisis Is Deepening (AllAfrica Niger, 2026-11-11. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AllAfrica Niger",
+      "axis": "Other",
+      "tags": [
+        "AllAfrica Niger",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AllAfrica Niger",
+      "source": "AllAfrica Niger",
+      "sourceUrl": "https://allafrica.com/stories/202611110140.html"
+    },
+    {
+      "id": "gdelt-1332524503",
+      "kind": "event",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T00:00:00.000Z",
+      "observedAt": "2026-11-11T04:30:00.000Z",
+      "description": "Threat — United Nations → Niger near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Threat (GDELT 130)",
+      "actor": "United Nations",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/why-are-nearly-64-000-nigerians-fleeing-to-niger-as-violence-spreads-across-the-border",
+      "gdelt": {
+        "globalEventId": "1332524503",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -9.69,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332524510",
+      "kind": "event",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T00:00:00.000Z",
+      "observedAt": "2026-11-11T04:30:00.000Z",
+      "description": "Fight — Unhcr → Niger near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Fight (GDELT 192)",
+      "actor": "Unhcr",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/why-are-nearly-64-000-nigerians-fleeing-to-niger-as-violence-spreads-across-the-border",
+      "gdelt": {
+        "globalEventId": "1332524510",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -9.69,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332524722",
+      "kind": "event",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T00:00:00.000Z",
+      "observedAt": "2026-11-11T04:30:00.000Z",
+      "description": "Fight — Niger → Unspecified near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Fight (GDELT 192)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/why-are-nearly-64-000-nigerians-fleeing-to-niger-as-violence-spreads-across-the-border",
+      "gdelt": {
+        "globalEventId": "1332524722",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -9.69,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332524859",
+      "kind": "event",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T00:00:00.000Z",
+      "observedAt": "2026-11-11T04:30:00.000Z",
+      "description": "Fight — Militant → Niger near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Fight (GDELT 192)",
+      "actor": "Militant",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/why-are-nearly-64-000-nigerians-fleeing-to-niger-as-violence-spreads-across-the-border",
+      "gdelt": {
+        "globalEventId": "1332524859",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -9.69,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332529674",
+      "kind": "event",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T00:00:00.000Z",
+      "observedAt": "2026-11-11T05:15:00.000Z",
+      "description": "Fight — Niger → Unspecified near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Fight (GDELT 190)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202611110140.html",
+      "gdelt": {
+        "globalEventId": "1332529674",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.94,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332551470",
+      "kind": "event",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T00:00:00.000Z",
+      "observedAt": "2026-11-11T08:30:00.000Z",
+      "description": "Threat — The Un → Niger near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Threat (GDELT 130)",
+      "actor": "The Un",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.vanguardngr.com/2026/11/nearly-64000-nigerians-flee-to-niger-over-insecurity-unhcr/",
+      "gdelt": {
+        "globalEventId": "1332551470",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -8.53,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332551778",
+      "kind": "event",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T00:00:00.000Z",
+      "observedAt": "2026-11-11T08:30:00.000Z",
+      "description": "Demand — Niger → Refugee near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Demand (GDELT 100)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202611110272.html",
+      "gdelt": {
+        "globalEventId": "1332551778",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -7.34,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332551793",
+      "kind": "event",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T00:00:00.000Z",
+      "observedAt": "2026-11-11T08:30:00.000Z",
+      "description": "Demand — Niger → Niger near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Demand (GDELT 100)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202611110272.html",
+      "gdelt": {
+        "globalEventId": "1332551793",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -7.34,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332551794",
+      "kind": "event",
+      "date": "2026-11-11",
+      "isoDate": "2026-11-11T00:00:00.000Z",
+      "observedAt": "2026-11-11T08:30:00.000Z",
+      "description": "Demand — Niger → Niger near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Demand (GDELT 100)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202611110272.html",
+      "gdelt": {
+        "globalEventId": "1332551794",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -7.34,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
     {
       "id": "news-1g4n01p",
       "kind": "news",
