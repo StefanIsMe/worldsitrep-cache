@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-12T01:04:05.474Z",
+  "collectedAt": "2026-11-12T07:34:42.305Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 5
     },
     {
       "id": "aa-mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
       "status": "ok",
       "count": 11,
-      "filtered": 11
+      "filtered": 12
     },
     {
       "id": "aa-burkina",
@@ -56,7 +56,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 33
+      "filtered": 32
     },
     {
       "id": "africanews",
@@ -83,7 +83,7 @@
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 23,
+      "count": 24,
       "filtered": 0
     },
     {
@@ -101,8 +101,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 65,
+  "count": 71,
   "events": [
+    {
+      "id": "news-1kf4ruv",
+      "kind": "news",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T02:04:06.000Z",
+      "description": "Rival Terror Groups Devastate The Sahel - Eurasia Review (Eurasia Review, 2026-11-12. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Eurasia Review",
+      "axis": "Other",
+      "tags": [
+        "Eurasia Review",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Eurasia Review",
+      "source": "Eurasia Review",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZUZJZnR1YS1id01XeTY2bHp5NXprZ1JTVncta1FySHYtX3hFbDFuUjhBUXFvRlpFZjd1YlFYRTU4ODc4MzM4NmR6MjY4RVQ2RW9ISnN0a29fSkM0cE5wMHNxNUlTamJfZmtaSmpKOHNXMWc5akFtY1BGN3llSGhTaDBhUXJodw?oc=5"
+    },
     {
       "id": "gdelt-1332689992",
       "kind": "event",
@@ -202,6 +221,176 @@
         "goldstein": -5,
         "tone": -1.85,
         "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332708573",
+      "kind": "event",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T00:00:00.000Z",
+      "observedAt": "2026-11-12T02:30:00.000Z",
+      "description": "Reduced relations — Mali → Unspecified near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Reduced relations (GDELT 162)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/us-africa-command-chief-offers-mali-help-2026/",
+      "gdelt": {
+        "globalEventId": "1332708573",
+        "eventCode": "162",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5.6,
+        "tone": 1.05,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332708574",
+      "kind": "event",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T00:00:00.000Z",
+      "observedAt": "2026-11-12T02:30:00.000Z",
+      "description": "Reduced relations — Mali → Unspecified near Koulouba, Mali (general), Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.6667,
+      "lng": -8,
+      "action": "Reduced relations (GDELT 162)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Koulouba, Mali (general), Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/us-africa-command-chief-offers-mali-help-2026/",
+      "gdelt": {
+        "globalEventId": "1332708574",
+        "eventCode": "162",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5.6,
+        "tone": 1.05,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332708575",
+      "kind": "event",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T00:00:00.000Z",
+      "observedAt": "2026-11-12T02:30:00.000Z",
+      "description": "Reduced relations — Mali → Unspecified near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Reduced relations (GDELT 164)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/us-africa-command-chief-offers-mali-help-2026/",
+      "gdelt": {
+        "globalEventId": "1332708575",
+        "eventCode": "164",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7,
+        "tone": 1.05,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332715933",
+      "kind": "event",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T00:00:00.000Z",
+      "observedAt": "2026-11-12T03:45:00.000Z",
+      "description": "Fight — Niger → Unspecified near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Fight (GDELT 190)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/12112026-nearly-64000-flee-nigeria-for-niger-where-a-humanitarian-crisis-is-deepening/",
+      "gdelt": {
+        "globalEventId": "1332715933",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.57,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332715934",
+      "kind": "event",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T00:00:00.000Z",
+      "observedAt": "2026-11-12T03:45:00.000Z",
+      "description": "Fight — Niger → Unspecified near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (9 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Fight (GDELT 192)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/12112026-nearly-64000-flee-nigeria-for-niger-where-a-humanitarian-crisis-is-deepening/",
+      "gdelt": {
+        "globalEventId": "1332715934",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -8.57,
+        "mentions": 9,
         "sources": 1
       }
     },
