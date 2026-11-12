@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-12T00:16:12.243Z",
+  "collectedAt": "2026-11-12T01:04:05.474Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 10
+      "count": 4
     },
     {
       "id": "taipei-times",
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 254,
+  "count": 257,
   "events": [
+    {
+      "id": "news-qwbe63",
+      "kind": "news",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T01:00:05.000Z",
+      "description": "China has more than 20 small nuclear reactor start-ups. Should the US worry? (SCMP, 2026-11-12. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/science/article/3374063/china-has-more-20-small-nuclear-reactor-start-ups-should-us-worry"
+    },
     {
       "id": "gdelt-1332686808",
       "kind": "event",
@@ -147,6 +166,74 @@
         "goldstein": -2,
         "tone": -0.47,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332693459",
+      "kind": "event",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T00:00:00.000Z",
+      "observedAt": "2026-11-12T00:30:00.000Z",
+      "description": "Disapproval — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://nypost.com/2026/11/11/tech/from-nursing-school-to-nvidias-billionaire-boss-lover-the-mysterious-rise-of-alleged-chinese-spy-alice-huang-as-her-past-vanishes/",
+      "gdelt": {
+        "globalEventId": "1332693459",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.55,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332693460",
+      "kind": "event",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T00:00:00.000Z",
+      "observedAt": "2026-11-12T00:30:00.000Z",
+      "description": "Coercion — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://nypost.com/2026/11/11/tech/from-nursing-school-to-nvidias-billionaire-boss-lover-the-mysterious-rise-of-alleged-chinese-spy-alice-huang-as-her-past-vanishes/",
+      "gdelt": {
+        "globalEventId": "1332693460",
+        "eventCode": "172",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": 0.55,
+        "mentions": 3,
         "sources": 1
       }
     },

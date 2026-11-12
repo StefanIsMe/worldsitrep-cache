@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-11-12T00:16:12.243Z",
+  "collectedAt": "2026-11-12T01:04:05.474Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 89
+      "count": 6
     },
     {
       "id": "gnews-france-protests",
@@ -52,7 +52,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 957,
+  "count": 959,
   "events": [
     {
       "id": "gdelt-1332687208",
@@ -187,6 +187,74 @@
         "goldstein": -5,
         "tone": -3.73,
         "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332695001",
+      "kind": "event",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T00:00:00.000Z",
+      "observedAt": "2026-11-12T00:45:00.000Z",
+      "description": "Disapproval — France → Unspecified near France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "France",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.morningadvertiser.co.uk/Article/2026/11/12/wells-co-launches-beer-beyond-collective-for-future-growth/",
+      "gdelt": {
+        "globalEventId": "1332695001",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 5.31,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332696694",
+      "kind": "event",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T00:00:00.000Z",
+      "observedAt": "2026-11-12T01:00:00.000Z",
+      "description": "Demand — Unspecified → Intelligence near France. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Demand (GDELT 100)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thejournal.ie/epc-summit-thursday-7222713-Nov2026/",
+      "gdelt": {
+        "globalEventId": "1332696694",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -2.05,
+        "mentions": 1,
         "sources": 1
       }
     },
