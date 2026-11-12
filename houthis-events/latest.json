@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-12T16:41:32.283Z",
+  "collectedAt": "2026-11-12T17:46:40.764Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 45
+      "count": 3
     },
     {
       "id": "gcaptain",
@@ -21,7 +21,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
       "status": "ok",
       "count": 4,
-      "filtered": 23
+      "filtered": 24
     },
     {
       "id": "gnews-houthis",
@@ -54,9 +54,9 @@
     {
       "id": "france24-me",
       "url": "https://www.france24.com/en/middle-east/rss",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS france24-me request failed with HTTP 403"
+      "status": "ok",
+      "count": 4,
+      "filtered": 26
     },
     {
       "id": "gnews-hodeidah",
@@ -80,13 +80,13 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 403,
+  "count": 406,
   "events": [
     {
       "id": "news-1milmbk",
       "kind": "news",
       "date": "2026-11-12",
-      "isoDate": "2026-11-12T14:27:30.000Z",
+      "isoDate": "2026-11-12T16:54:12.000Z",
       "description": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says (BBC, 2026-11-12. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -2328,6 +2328,108 @@
         "goldstein": -10,
         "tone": -6.6,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332825670",
+      "kind": "event",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T00:00:00.000Z",
+      "observedAt": "2026-11-12T16:45:00.000Z",
+      "description": "Fight — Saudi Arabia → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.islamicinvitationturkey.com/brutal-saudi-attacks-martyr-359-in-yemen-ministry-says/",
+      "gdelt": {
+        "globalEventId": "1332825670",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -14.86,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332830603",
+      "kind": "event",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T00:00:00.000Z",
+      "observedAt": "2026-11-12T17:15:00.000Z",
+      "description": "Demand — Saudi Arabia → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Demand (GDELT 100)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.straitstimes.com/world/europe/saudi-arabia-puts-pressure-on-eu-to-label-yemens-houthis-a-terrorist-group",
+      "gdelt": {
+        "globalEventId": "1332830603",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -5.08,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1332830604",
+      "kind": "event",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T00:00:00.000Z",
+      "observedAt": "2026-11-12T17:15:00.000Z",
+      "description": "Demand — Saudi Arabia → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Demand (GDELT 100)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.straitstimes.com/world/europe/saudi-arabia-puts-pressure-on-eu-to-label-yemens-houthis-a-terrorist-group",
+      "gdelt": {
+        "globalEventId": "1332830604",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -5.08,
+        "mentions": 6,
         "sources": 1
       }
     },
