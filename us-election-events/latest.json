@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-11-12T22:39:22.651Z",
+  "collectedAt": "2026-11-12T22:53:51.824Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -27,8 +27,8 @@
       "id": "gnews-election",
       "url": "https://news.google.com/rss/search?q=US%20election%20Trump%202028&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 39,
-      "filtered": 11
+      "count": 38,
+      "filtered": 12
     },
     {
       "id": "gnews-policy",
@@ -41,8 +41,8 @@
       "id": "thehill",
       "url": "https://thehill.com/feed/",
       "status": "ok",
-      "count": 31,
-      "filtered": 19
+      "count": 32,
+      "filtered": 18
     },
     {
       "id": "politico-congress",
@@ -101,8 +101,50 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 455,
+  "count": 456,
   "events": [
+    {
+      "id": "news-1n4rtq7",
+      "kind": "news",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T22:52:49.000Z",
+      "description": "Cindy Holscher wins in Kansas, holding governor's office for Democrats (NPR, 2026-11-12. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NPR",
+      "axis": "Other",
+      "tags": [
+        "NPR",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kansas",
+      "source": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/11/12/g-s1-151187/holscher-kansas-masterson-governor-midterms",
+      "lat": 38.27312,
+      "lng": -98.58219,
+      "coordsNote": "OSM geocode: matched \"Kansas\" → Kansas, United States; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-l5o0ww",
+      "kind": "news",
+      "date": "2026-11-12",
+      "isoDate": "2026-11-12T22:45:59.000Z",
+      "description": "GOP lawmaker says party is focusing on &#8216;political power&#8217; rather than people (The Hill, 2026-11-12. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/house/6217576-gop-lawmaker-says-party-is-focusing-on-political-power-rather-than-people/"
+    },
     {
       "id": "news-1g0f6ax",
       "kind": "news",
@@ -8824,25 +8866,6 @@
       "locationStr": "Axios",
       "source": "Axios",
       "sourceUrl": "https://www.axios.com/2026/11/09/trump-iran-war-qatar-negotiations-attacks-unlikely"
-    },
-    {
-      "id": "news-y0erwa",
-      "kind": "news",
-      "date": "2026-11-09",
-      "isoDate": "2026-11-09T22:40:36.000Z",
-      "description": "Dana White takes podium at White House press briefing (The Hill, 2026-11-09. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6209270-dana-white-press-briefing-trump/"
     }
   ]
 }
