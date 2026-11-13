@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-11-13T18:41:52.930Z",
+  "collectedAt": "2026-11-13T18:49:03.483Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 153
+      "count": 11
     },
     {
       "id": "gnews-france-protests",
@@ -26,9 +26,9 @@
     {
       "id": "france24-en",
       "url": "https://www.france24.com/en/rss",
-      "status": "failed",
+      "status": "ok",
       "count": 0,
-      "error": "RSS france24-en request failed with HTTP 403"
+      "filtered": 24
     },
     {
       "id": "bbc-france",
@@ -52,7 +52,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 1007,
+  "count": 1012,
   "events": [
     {
       "id": "news-v668ap",
@@ -9054,6 +9054,176 @@
         "goldstein": -6.5,
         "tone": -4.87,
         "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333025783",
+      "kind": "event",
+      "date": "2026-11-13",
+      "isoDate": "2026-11-13T00:00:00.000Z",
+      "observedAt": "2026-11-13T18:30:00.000Z",
+      "description": "Fight — Unspecified → Fighter near France. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 46,
+      "lng": 2,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.khaama.com/afghan-fatemiyoun-fighters-southeastern-iran/",
+      "gdelt": {
+        "globalEventId": "1333025783",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.16,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333026309",
+      "kind": "event",
+      "date": "2026-11-13",
+      "isoDate": "2026-11-13T00:00:00.000Z",
+      "observedAt": "2026-11-13T18:30:00.000Z",
+      "description": "Rejection — Rome → Jerusalem near Paris, France (general), France. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 48.8667,
+      "lng": 2.33333,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Rome",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Paris, France (general), France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ancient-origins.net/news-history-archaeology/roman-triumphal-arches-titus-constantine-paris-00128395",
+      "gdelt": {
+        "globalEventId": "1333026309",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 3.58,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333026603",
+      "kind": "event",
+      "date": "2026-11-13",
+      "isoDate": "2026-11-13T00:00:00.000Z",
+      "observedAt": "2026-11-13T18:30:00.000Z",
+      "description": "Fight — Fighter → Unspecified near France. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 46,
+      "lng": 2,
+      "action": "Fight (GDELT 190)",
+      "actor": "Fighter",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.khaama.com/afghan-fatemiyoun-fighters-southeastern-iran/",
+      "gdelt": {
+        "globalEventId": "1333026603",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -3.16,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333027753",
+      "kind": "event",
+      "date": "2026-11-13",
+      "isoDate": "2026-11-13T00:00:00.000Z",
+      "observedAt": "2026-11-13T18:45:00.000Z",
+      "description": "Threat — Unspecified → Residents near France. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.wmal.com/2026/11/13/hundreds-arrested-in-dark-web-drug-crackdown/",
+      "gdelt": {
+        "globalEventId": "1333027753",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.97,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333027754",
+      "kind": "event",
+      "date": "2026-11-13",
+      "isoDate": "2026-11-13T00:00:00.000Z",
+      "observedAt": "2026-11-13T18:45:00.000Z",
+      "description": "Threat — Unspecified → Residents near France. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.wmal.com/2026/11/13/hundreds-arrested-in-dark-web-drug-crackdown/",
+      "gdelt": {
+        "globalEventId": "1333027754",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.97,
+        "mentions": 2,
         "sources": 1
       }
     },
