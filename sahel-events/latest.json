@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-14T07:05:51.673Z",
+  "collectedAt": "2026-11-14T14:00:25.413Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 6
     },
     {
       "id": "aa-mali",
@@ -56,21 +56,21 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 32
+      "filtered": 29
     },
     {
       "id": "africanews",
       "url": "https://www.africanews.com/feed/",
       "status": "ok",
-      "count": 1,
-      "filtered": 49
+      "count": 2,
+      "filtered": 48
     },
     {
       "id": "dw-africa",
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 0,
-      "filtered": 5
+      "filtered": 6
     },
     {
       "id": "gnews-jnim",
@@ -83,7 +83,7 @@
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 24,
+      "count": 23,
       "filtered": 0
     },
     {
@@ -101,8 +101,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 155,
+  "count": 162,
   "events": [
+    {
+      "id": "news-5k967j",
+      "kind": "news",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T10:51:15.000Z",
+      "description": "Burkina Faso issues arrest warrants for around 20 people, including journalists (Africanews, 2026-11-14. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Africanews",
+      "axis": "Other",
+      "tags": [
+        "Africanews",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Africanews",
+      "source": "Africanews",
+      "sourceUrl": "http://www.africanews.com/2026/11/14/burkina-faso-issues-arrest-warrants-for-around-20-people/"
+    },
     {
       "id": "gdelt-1333063859",
       "kind": "event",
@@ -202,6 +221,210 @@
         "goldstein": -6.5,
         "tone": -1.5,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333113636",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T09:15:00.000Z",
+      "description": "Disapproval — Foreign Minist → Television near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Foreign Minist",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/sahel-ministers-protest-guinea-expulsions-2026/",
+      "gdelt": {
+        "globalEventId": "1333113636",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.64,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333113887",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T09:15:00.000Z",
+      "description": "Disapproval — Mali → Television near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/sahel-ministers-protest-guinea-expulsions-2026/",
+      "gdelt": {
+        "globalEventId": "1333113887",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.64,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333130468",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T12:15:00.000Z",
+      "description": "Coercion — Burkina Faso → Unspecified near Ouagadougou, Kadiogo, Burkina Faso. Machine-coded by GDELT 2.1 (14 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.3703,
+      "lng": -1.52472,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Ouagadougou, Kadiogo, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africanews.com/2026/11/14/burkina-faso-issues-arrest-warrants-for-around-20-people/",
+      "gdelt": {
+        "globalEventId": "1333130468",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -9.06,
+        "mentions": 14,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333130470",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T12:15:00.000Z",
+      "description": "Coercion — Burkina Faso → Unspecified near Ouagadougou, Kadiogo, Burkina Faso. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.3703,
+      "lng": -1.52472,
+      "action": "Coercion (GDELT 175)",
+      "actor": "Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Ouagadougou, Kadiogo, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africanews.com/2026/11/14/burkina-faso-issues-arrest-warrants-for-around-20-people/",
+      "gdelt": {
+        "globalEventId": "1333130470",
+        "eventCode": "175",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -9.06,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333130473",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T12:15:00.000Z",
+      "description": "Coercion — Burkina Faso → Journalist near Ouagadougou, Kadiogo, Burkina Faso. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.3703,
+      "lng": -1.52472,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Ouagadougou, Kadiogo, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africanews.com/2026/11/14/burkina-faso-issues-arrest-warrants-for-around-20-people/",
+      "gdelt": {
+        "globalEventId": "1333130473",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -9.06,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333130475",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T12:15:00.000Z",
+      "description": "Coercion — Burkina Faso → Journalist near Ouagadougou, Kadiogo, Burkina Faso. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.3703,
+      "lng": -1.52472,
+      "action": "Coercion (GDELT 175)",
+      "actor": "Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Ouagadougou, Kadiogo, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.africanews.com/2026/11/14/burkina-faso-issues-arrest-warrants-for-around-20-people/",
+      "gdelt": {
+        "globalEventId": "1333130475",
+        "eventCode": "175",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -9.06,
+        "mentions": 5,
         "sources": 1
       }
     },
