@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-11-14T19:03:09.337Z",
+  "collectedAt": "2026-11-14T19:31:30.527Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 11
+      "count": 2
     },
     {
       "id": "rci-arctic",
@@ -34,8 +34,8 @@
       "id": "adn-alaska",
       "url": "https://www.adn.com/arc/outboundfeeds/rss/",
       "status": "ok",
-      "count": 0,
-      "filtered": 25
+      "count": 1,
+      "filtered": 24
     },
     {
       "id": "cryopolitics",
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 494,
+  "count": 496,
   "events": [
     {
       "id": "news-uk1x6p",
@@ -2071,6 +2071,74 @@
         "goldstein": -2,
         "tone": 0.22,
         "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333168736",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T19:00:00.000Z",
+      "description": "Rejection — Russia → Politician near Estonia. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59,
+      "lng": 26,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Estonia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kyivpost.com/post/89968",
+      "gdelt": {
+        "globalEventId": "1333168736",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -2.06,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333169839",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T19:15:00.000Z",
+      "description": "Rejection — Congress → Ministry near Oslo, Oslo, Norway. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.9167,
+      "lng": 10.75,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Congress",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Oslo, Oslo, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.newindianexpress.com/india/2026/Nov/14/india-no-longer-a-democracy-under-bjp-led-regime-rahul-gandhi-at-bharat-summit",
+      "gdelt": {
+        "globalEventId": "1333169839",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -2.9,
+        "mentions": 8,
         "sources": 1
       }
     },
