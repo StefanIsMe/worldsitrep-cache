@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-14T14:00:25.413Z",
+  "collectedAt": "2026-11-14T14:33:27.361Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 15
+      "count": 3
     },
     {
       "id": "taipei-times",
@@ -41,7 +41,7 @@
       "id": "dw-asia",
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
-      "count": 4,
+      "count": 3,
       "filtered": 10
     },
     {
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 380,
+  "count": 381,
   "events": [
     {
       "id": "news-e7qmvr",
@@ -1157,6 +1157,40 @@
         "goldstein": -5,
         "tone": 0,
         "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333144138",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T14:30:00.000Z",
+      "description": "Demand — Taiwan → Citizen near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Demand (GDELT 100)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw:443/politics/202611140013",
+      "gdelt": {
+        "globalEventId": "1333144138",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": 1.84,
+        "mentions": 4,
         "sources": 1
       }
     },

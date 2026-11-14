@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "gaza",
-  "collectedAt": "2026-11-14T14:00:25.413Z",
+  "collectedAt": "2026-11-14T14:33:27.361Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 255
+      "count": 33
     },
     {
       "id": "bbc-me",
@@ -20,8 +20,8 @@
       "id": "jpost",
       "url": "https://www.jpost.com/rss/rssfeedsfrontpage.aspx",
       "status": "ok",
-      "count": 13,
-      "filtered": 13
+      "count": 12,
+      "filtered": 14
     },
     {
       "id": "gnews-gaza",
@@ -94,7 +94,7 @@
       "kind": "news",
       "date": "2026-11-14",
       "isoDate": "2026-11-14T14:53:16.000Z",
-      "description": "Four wounded, one critically, from grenade explosion in northern Israel's Kafr Manda (Jerusalem Post, 2026-11-14. Headline + link only.)",
+      "description": "One killed, three wounded in grenade explosion in northern Israel's Kafr Manda (Jerusalem Post, 2026-11-14. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Jerusalem Post",
@@ -107,6 +107,48 @@
       "locationStr": "Jerusalem Post",
       "source": "Jerusalem Post",
       "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-914861"
+    },
+    {
+      "id": "news-qjvomb",
+      "kind": "news",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T14:44:07.000Z",
+      "description": "Israeli police arrest Bat Yam man wanted by Bulgaria over killing of 83-year-old in Sofia (Jerusalem Post, 2026-11-14. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jerusalem Post",
+      "source": "Jerusalem Post",
+      "sourceUrl": "https://www.jpost.com/international/article-914860"
+    },
+    {
+      "id": "news-13e64y8",
+      "kind": "news",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T13:00:00.000Z",
+      "description": "When the reporters become the story: Inside the harrowing reality of covering the Gaza war - IOL (IOL, 2026-11-14. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "IOL",
+      "axis": "Other",
+      "tags": [
+        "IOL",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Gaza City",
+      "source": "IOL",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeEdxQzdleXVFYmtXSjgxWVpnQzZtQ0dRNmlUd1VfdGpWeThDU2FocEt0b2ZTT3Z6WnZOTlJMdWxkZlhBYVE0OHFockVIa2lTSTBPUkRPR2RYcndBOEpwaXhaUXFzbFlYMy0xbVRaNWZNNFM3WFA5aXJ2U2RTRkVlUTJLamt3SGI5djdfb2dseWhFLUpMQ0hVVlFKdVZFeXpBbjE2c0F2OFhiU1pvUGNtRlg4U1hMb0V5eFdkaDE3QU1FUzZDaVBVODF3?oc=5",
+      "lat": 31.5,
+      "lng": 34.47,
+      "coordsNote": "Headline gazetteer match: \"Gaza\" (city); verify via source article."
     },
     {
       "id": "news-114cjj0",
@@ -16428,6 +16470,199 @@
       }
     },
     {
+      "id": "gdelt-1333142407",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T14:15:00.000Z",
+      "description": "Fight — Israel → Palestinians near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 31.4167,
+      "lng": 34.3333,
+      "action": "Fight (GDELT 190)",
+      "actor": "Israel",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Gaza, Israel (general), Israel",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.wsls.com/news/2026/11/14/israeli-drone-strike-kills-2-palestinians-in-gaza-and-other-mideast-news/",
+      "gdelt": {
+        "globalEventId": "1333142407",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.36,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333143789",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T14:30:00.000Z",
+      "description": "Demand — Minist → Israel near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 31.4167,
+      "lng": 34.3333,
+      "action": "Demand (GDELT 100)",
+      "actor": "Minist",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Gaza, Israel (general), Israel",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://thepeninsulaqatar.com/article/14/11/2026/18-arab-and-islamic-states-condemn-israeli-airstrike-on-the-nasser-medical-complex-in-khan-younis",
+      "gdelt": {
+        "globalEventId": "1333143789",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -3.15,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333143985",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T14:30:00.000Z",
+      "description": "Disapproval — Islamic → Nasser near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (9 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 31.4167,
+      "lng": 34.3333,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Islamic",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Gaza, Israel (general), Israel",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://thepeninsulaqatar.com/article/14/11/2026/18-arab-and-islamic-states-condemn-israeli-airstrike-on-the-nasser-medical-complex-in-khan-younis",
+      "gdelt": {
+        "globalEventId": "1333143985",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.15,
+        "mentions": 9,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333144211",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T14:30:00.000Z",
+      "description": "Threat — United States → Israel near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 31.4167,
+      "lng": 34.3333,
+      "action": "Threat (GDELT 130)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Gaza, Israel (general), Israel",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.independent.co.uk/news/world/americas/christian-nationalist-trump-alex-jones-calvin-robinson-b3084573.html",
+      "gdelt": {
+        "globalEventId": "1333144211",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -2.89,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333144217",
+      "kind": "event",
+      "date": "2026-11-14",
+      "isoDate": "2026-11-14T00:00:00.000Z",
+      "observedAt": "2026-11-14T14:30:00.000Z",
+      "description": "Disapproval — United States → Extremist near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 31.4167,
+      "lng": 34.3333,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Gaza, Israel (general), Israel",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.independent.co.uk/news/world/americas/christian-nationalist-trump-alex-jones-calvin-robinson-b3084573.html",
+      "gdelt": {
+        "globalEventId": "1333144217",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.89,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "news-fe0gsk",
+      "kind": "news",
+      "date": "2026-11-13",
+      "isoDate": "2026-11-13T23:59:16.000Z",
+      "description": "How disputes between Israel and Hamas have contributed to the worsening humanitarian situation in Gaza - DW.com (DW.com, 2026-11-13. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW.com",
+      "axis": "Other",
+      "tags": [
+        "DW.com",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Gaza City",
+      "source": "DW.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcWxsS3l6RnFYUVNjMDk0OUFoMWVpcF9wbjJoLWVMdmozeXp5am1QR2MwT1N5Z1NIbElUd2NFbzlhUnJYUnFxcnhfc3hQRUxicVhnd3NCUWFXbTBHVmRIU3hZZG9TTnVKeFg3ekEzdDA3b0loY1JNdG5HekQtdTJpNEc2bVF5dGl5MTJqeE01Skx3XzhFa1F6Vy0yY9IBmwFBVV95cUxOVkU5OGNIcnBIWV84c0ZzODVmbi1qVk9FVGtrODU2Z1NMT3U2Um1JdmRULWVnREVBVVBuV3B6XzZ6YWJZY0RzS3B5Tk1ScG54Sm1nZEQ2cHVVMWVjdDdxOUVtV0dIUEtnR0ZpTzNmcjA4YzhMYkZsRkZrWFJhNGJPSFlDeTNvQTR2MDljU2s3LXRHSHVfV184eTN2MA?oc=5",
+      "lat": 31.5,
+      "lng": 34.47,
+      "coordsNote": "Headline gazetteer match: \"Gaza\" (city); verify via source article."
+    },
+    {
       "id": "news-ptpaa6",
       "kind": "news",
       "date": "2026-11-13",
@@ -17292,29 +17527,6 @@
       "lat": 31.9,
       "lng": 35.25,
       "coordsNote": "Headline gazetteer match: \"West Bank\" (region); verify via source article."
-    },
-    {
-      "id": "news-fe0gsk",
-      "kind": "news",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T11:04:00.000Z",
-      "description": "How disputes between Israel and Hamas have contributed to the worsening humanitarian situation in Gaza - DW.com (DW.com, 2026-11-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DW.com",
-      "axis": "Other",
-      "tags": [
-        "DW.com",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Gaza City",
-      "source": "DW.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcWxsS3l6RnFYUVNjMDk0OUFoMWVpcF9wbjJoLWVMdmozeXp5am1QR2MwT1N5Z1NIbElUd2NFbzlhUnJYUnFxcnhfc3hQRUxicVhnd3NCUWFXbTBHVmRIU3hZZG9TTnVKeFg3ekEzdDA3b0loY1JNdG5HekQtdTJpNEc2bVF5dGl5MTJqeE01Skx3XzhFa1F6Vy0yY9IBmwFBVV95cUxOVkU5OGNIcnBIWV84c0ZzODVmbi1qVk9FVGtrODU2Z1NMT3U2Um1JdmRULWVnREVBVVBuV3B6XzZ6YWJZY0RzS3B5Tk1ScG54Sm1nZEQ2cHVVMWVjdDdxOUVtV0dIUEtnR0ZpTzNmcjA4YzhMYkZsRkZrWFJhNGJPSFlDeTNvQTR2MDljU2s3LXRHSHVfV184eTN2MA?oc=5",
-      "lat": 31.5,
-      "lng": 34.47,
-      "coordsNote": "Headline gazetteer match: \"Gaza\" (city); verify via source article."
     },
     {
       "id": "news-e3wcna",
@@ -49736,244 +49948,6 @@
         "goldstein": -5.8,
         "tone": -4.01,
         "mentions": 10,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333034951",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T19:30:00.000Z",
-      "description": "Disapproval — Israel → Unspecified near Tamra, Ha?afon, Israel. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32.853,
-      "lng": 35.1987,
-      "action": "Disapproval (GDELT 111)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Tamra, Ha?afon, Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.jpost.com/opinion/article-914687",
-      "gdelt": {
-        "globalEventId": "1333034951",
-        "eventCode": "111",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -3.61,
-        "mentions": 8,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333034953",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T19:30:00.000Z",
-      "description": "Disapproval — Israel → Civilian near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Disapproval (GDELT 111)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.jpost.com/opinion/article-914687",
-      "gdelt": {
-        "globalEventId": "1333034953",
-        "eventCode": "111",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -3.61,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333034954",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T19:30:00.000Z",
-      "description": "Rejection — Israel → Citizen near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Rejection (GDELT 120)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.jpost.com/opinion/article-914687",
-      "gdelt": {
-        "globalEventId": "1333034954",
-        "eventCode": "120",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -4,
-        "tone": -3.61,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333034957",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T19:30:00.000Z",
-      "description": "Disapproval — Israel → Government near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Disapproval (GDELT 112)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.jpost.com/opinion/article-914687",
-      "gdelt": {
-        "globalEventId": "1333034957",
-        "eventCode": "112",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -3.61,
-        "mentions": 4,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333034965",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T19:30:00.000Z",
-      "description": "Rejection — Israel → Palestinians near Gaza City, Israel (general), Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Rejection (GDELT 120)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza City, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.christianpost.com/news/gazan-christian-reveals-horrors-amid-crackdown-under-hamas-rule.html",
-      "gdelt": {
-        "globalEventId": "1333034965",
-        "eventCode": "120",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -4,
-        "tone": -4.75,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333034966",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T19:30:00.000Z",
-      "description": "Rejection — Israel → Palestinians near Gaza City, Israel (general), Israel. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Rejection (GDELT 120)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza City, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.christianpost.com/news/gazan-christian-reveals-horrors-amid-crackdown-under-hamas-rule.html",
-      "gdelt": {
-        "globalEventId": "1333034966",
-        "eventCode": "120",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -4,
-        "tone": -4.75,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333034985",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T19:30:00.000Z",
-      "description": "Fight — Jewish → Army near Gaza, Israel (general), Israel. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.4167,
-      "lng": 34.3333,
-      "action": "Fight (GDELT 193)",
-      "actor": "Jewish",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Gaza, Israel (general), Israel",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.jpost.com/opinion/article-914687",
-      "gdelt": {
-        "globalEventId": "1333034985",
-        "eventCode": "193",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
-        "tone": -3.61,
-        "mentions": 8,
         "sources": 1
       }
     }
