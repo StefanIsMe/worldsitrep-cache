@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "korea",
-  "collectedAt": "2026-11-15T11:33:36.063Z",
+  "collectedAt": "2026-11-15T17:37:45.069Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 1
+      "count": 5
     },
     {
       "id": "yna-nk",
@@ -27,8 +27,8 @@
       "id": "korea-times",
       "url": "https://feed.koreatimes.co.kr/k/allnews.xml",
       "status": "ok",
-      "count": 9,
-      "filtered": 34
+      "count": 0,
+      "filtered": 1
     },
     {
       "id": "gnews-korea",
@@ -62,8 +62,8 @@
       "id": "bbc-asia",
       "url": "https://feeds.bbci.co.uk/news/world/asia/rss.xml",
       "status": "ok",
-      "count": 1,
-      "filtered": 16
+      "count": 2,
+      "filtered": 15
     },
     {
       "id": "gnews-missile",
@@ -94,8 +94,65 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 322,
+  "count": 324,
   "events": [
+    {
+      "id": "news-6vexfj",
+      "kind": "news",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T13:47:41.000Z",
+      "description": "RT @anneapplebaum: North Korea sends soldiers to fight with Russia against Ukraine - Forth.News (Forth.News, 2026-11-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Forth.News",
+      "axis": "Other",
+      "tags": [
+        "Forth.News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Forth.News",
+      "source": "Forth.News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44LVFmcFRPSWlmdlNEcVJYRmxLVXByb3c4VHhLYk1DZzc2Tm94eDVzSFZZbWhkYWtfTnRKZ2Z1SS15UWpPUEtNQW9ZTWlCVy1jSzFXbkxtdkI4U0FUWTVFYlI4RDJrTFdBaFFwSUZkZTA?oc=5"
+    },
+    {
+      "id": "news-1ytv3nz",
+      "kind": "news",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T13:37:45.000Z",
+      "description": "South Korea's top scorer in tax accountancy exam admits cheating (BBC, 2026-11-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BBC",
+      "axis": "Other",
+      "tags": [
+        "BBC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "BBC",
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "news-1iu1yro",
+      "kind": "news",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T13:20:34.000Z",
+      "description": "S. Korea loses to Japan for 3rd straight runner-up finish at regional baseball tournament (Yonhap, 2026-11-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261115003500315"
+    },
     {
       "id": "news-153gyi",
       "kind": "news",
@@ -1859,6 +1916,176 @@
         "goldstein": -5,
         "tone": -8.88,
         "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333237295",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T11:45:00.000Z",
+      "description": "Demand — South Korea → Unspecified near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Demand (GDELT 1014)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/politics/20261115/factional-infighting-puts-dpk-chief-in-leadership-crisis",
+      "gdelt": {
+        "globalEventId": "1333237295",
+        "eventCode": "1014",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -5.01,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333239541",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T12:15:00.000Z",
+      "description": "Reduced relations — Actor → Unspecified near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Actor",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hindustantimes.com/entertainment/others/reply-1988-actor-go-kyung-pyo-apologises-after-drunk-driving-accident-in-seoul-announces-break-from-work-amid-police-investigation-101794741472080.html",
+      "gdelt": {
+        "globalEventId": "1333239541",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -2.66,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333242204",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T12:45:00.000Z",
+      "description": "Fight — Unspecified → South Korea near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Fight (GDELT 190)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreaherald.com/article/10937751",
+      "gdelt": {
+        "globalEventId": "1333242204",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.21,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333250358",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T14:15:00.000Z",
+      "description": "Disapproval — Student → Unspecified near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Student",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://thepeninsulaqatar.com/article/15/11/2026/ai-cheating-case-raises-scrutiny-over-test-administration-ahead-of-suneung",
+      "gdelt": {
+        "globalEventId": "1333250358",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.17,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333250577",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T14:15:00.000Z",
+      "description": "Disapproval — South Korea → Unspecified near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 114)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://thepeninsulaqatar.com/article/15/11/2026/ai-cheating-case-raises-scrutiny-over-test-administration-ahead-of-suneung",
+      "gdelt": {
+        "globalEventId": "1333250577",
+        "eventCode": "114",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.17,
+        "mentions": 2,
         "sources": 1
       }
     },
@@ -9081,120 +9308,6 @@
       "locationStr": "Yonhap",
       "source": "Yonhap",
       "sourceUrl": "https://en.yna.co.kr/view/AEN20261113000200315"
-    },
-    {
-      "id": "news-1vq10nd",
-      "kind": "news",
-      "date": "2026-11-12",
-      "isoDate": "2026-11-12T15:58:48.000Z",
-      "description": "G7 Condemns North Korea's Russia Military Support - 조선일보 (조선일보, 2026-11-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "조선일보",
-      "axis": "Other",
-      "tags": [
-        "조선일보",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "조선일보",
-      "source": "조선일보",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZkx6cG94TUNEcUlub0NnVE5hZWs2cFktWWE3NXRxRTFha293RVRXTmlJQ0luWTJCb3FpNmJ1cDl1d0tRaHZvVmtIVGZBQWp3dVZKSmpwYjVjOHRmLU84c3ZJUEZIZ1NmU2VwM0pta0pRV3kzbVU5bzZqSVZVZmpFMVp4TG4?oc=5"
-    },
-    {
-      "id": "news-z0wdf4",
-      "kind": "news",
-      "date": "2026-11-12",
-      "isoDate": "2026-11-12T15:10:11.000Z",
-      "description": "North Korea modifies national flag in break with decades-old design (NK News, 2026-11-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NK News",
-      "axis": "Other",
-      "tags": [
-        "NK News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NK News",
-      "source": "NK News",
-      "sourceUrl": "https://www.nknews.org/2026/11/north-korea-modifies-national-flag-in-break-with-decades-old-design/"
-    },
-    {
-      "id": "news-pa52g2",
-      "kind": "news",
-      "date": "2026-11-12",
-      "isoDate": "2026-11-12T15:00:24.000Z",
-      "description": "U.S. House passes bill to protect small businesses from foreign adversaries, including N. Korea (Yonhap, 2026-11-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261112012600315"
-    },
-    {
-      "id": "news-ijt0sv",
-      "kind": "news",
-      "date": "2026-11-12",
-      "isoDate": "2026-11-12T13:47:00.000Z",
-      "description": "MEP says North Korea, like Belarus, is helping Russia abduct Ukrainian children - Yahoo (Yahoo, 2026-11-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yahoo",
-      "axis": "Other",
-      "tags": [
-        "Yahoo",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yahoo",
-      "source": "Yahoo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRWJSVXhRdloxdUROYWtFWjYyRUREVWJFaS1WWVZvUkl4S1lUT0xHZ19BZzlES2xTYjFQY25ieFZ3UEVqUlQ0b2tEN09oSldGTU1QYnR5WU1KbXk4MFpTRmdRNGx4VW5sYnBZR1AycVNzNk14LWxoN2paeEJzT1FDRGN4UDl4SG9lNFNwUzFPX1JUQQ?oc=5"
-    },
-    {
-      "id": "news-14aa5my",
-      "kind": "news",
-      "date": "2026-11-12",
-      "isoDate": "2026-11-12T12:46:00.000Z",
-      "description": "Japan’s ‘Denial Defense Capabilities’ and the Debate Over Port Calls by Nuclear-Armed US Ships (The Diplomat, 2026-11-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Diplomat",
-      "axis": "Other",
-      "tags": [
-        "The Diplomat",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Diplomat",
-      "source": "The Diplomat",
-      "sourceUrl": "https://thediplomat.com/2026/11/japans-denial-defense-capabilities-and-the-debate-over-port-calls-by-nuclear-armed-us-ships/"
-    },
-    {
-      "id": "news-1uwgrvz",
-      "kind": "news",
-      "date": "2026-11-12",
-      "isoDate": "2026-11-12T12:06:42.000Z",
-      "description": "South Korea Keeps Ukraine Aid Flowing Despite Diplomatic Row Over North Korean POWs - Kyiv Post (Kyiv Post, 2026-11-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Post",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1FMllQOUMyelV5d2pMOE9RMGpkN2owemEycTVKb0J5V0hKa2NNZldxOWlaTEs2SFZTSE9UUEN3dnZScV9TbG44aW5Udw?oc=5"
     }
   ]
 }
