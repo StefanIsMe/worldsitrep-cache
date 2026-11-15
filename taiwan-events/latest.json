@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-15T10:41:08.162Z",
+  "collectedAt": "2026-11-15T11:33:36.063Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 16
+      "count": 2
     },
     {
       "id": "taipei-times",
       "url": "https://www.taipeitimes.com/xml/index.rss",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS taipei-times request failed with HTTP 403"
+      "status": "ok",
+      "count": 6,
+      "filtered": 40
     },
     {
       "id": "gnews-strait",
@@ -48,7 +48,7 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 12,
+      "count": 11,
       "filtered": 38
     },
     {
@@ -82,6 +82,25 @@
   ],
   "count": 251,
   "events": [
+    {
+      "id": "news-1i4r4y7",
+      "kind": "news",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T11:31:07.000Z",
+      "description": "South China Sea code of conduct: can Beijing and Asean meet 2026 deadline? (SCMP, 2026-11-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3374495/south-china-sea-code-conduct-can-beijing-and-asean-meet-2026-deadline"
+    },
     {
       "id": "news-1g88y2h",
       "kind": "news",
@@ -7412,25 +7431,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/chinas-premier-calls-for-broader-fairer-and-more-sustainable-social-security-coverage"
-    },
-    {
-      "id": "news-4fhvmy",
-      "kind": "news",
-      "date": "2026-11-12",
-      "isoDate": "2026-11-12T10:46:45.000Z",
-      "description": "On Sun Yat-sen anniversary, Xi calls for dialogue on Taiwan with ‘people of vision’ (SCMP, 2026-11-12. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3374228/xi-jinping-calls-dialogue-taiwan-reunification-people-vision"
     }
   ]
 }
