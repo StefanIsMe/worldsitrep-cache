@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-15T18:00:40.384Z",
+  "collectedAt": "2026-11-15T22:38:05.305Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "id": "aa-mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS aa-mali request failed: fetch failed"
+      "status": "ok",
+      "count": 11,
+      "filtered": 9
     },
     {
       "id": "aa-burkina",
       "url": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS aa-burkina request failed: fetch failed"
+      "status": "ok",
+      "count": 2,
+      "filtered": 5
     },
     {
       "id": "aa-niger",
       "url": "https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS aa-niger request failed: fetch failed"
+      "status": "ok",
+      "count": 2,
+      "filtered": 5
     },
     {
       "id": "gnews-sahel",
@@ -90,7 +90,7 @@
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 9,
+      "count": 10,
       "filtered": 0
     },
     {
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 126,
+  "count": 127,
   "events": [
     {
       "id": "gdelt-1333195564",
@@ -508,6 +508,40 @@
         "goldstein": -5,
         "tone": -10.3,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333287619",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T21:30:00.000Z",
+      "description": "Coercion — Police → Niger near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dailypost.ng/2026/11/15/police-arrest-seven-suspected-political-thugs-in-niger-recover-dangerous-weapons/",
+      "gdelt": {
+        "globalEventId": "1333287619",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -9.41,
+        "mentions": 10,
         "sources": 1
       }
     },

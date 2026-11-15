@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-11-15T17:57:31.167Z",
+  "collectedAt": "2026-11-15T22:38:04.768Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 141,
+  "coarseGdeltDropped": 131,
   "outsideTheatreDropped": 20,
   "proposals": [
     {
@@ -15,39 +15,39 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 391,
+      "eventCount": 375,
       "kinds": {
-        "other": 284,
-        "combat": 93,
-        "strike": 14
+        "other": 275,
+        "combat": 79,
+        "strike": 21
       },
       "tierCounts": {
-        "approximate": 391
+        "approximate": 375
       },
-      "combatCount": 107,
-      "newestIsoDate": "2026-11-15T17:05:00.000Z",
+      "combatCount": 100,
+      "newestIsoDate": "2026-11-15T22:02:00.000Z",
       "samples": [
+        {
+          "id": "news-m59ez4",
+          "isoDate": "2026-11-15T22:02:00.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYVcyOXpmbUpkdy1hNTlKY1ZHUHQ4Zkk5NkRkSEN2aVBCQThuU0xEOEd5cDZXZktub3dnYm5BM2RyVEctUkJUX1BzX2Y3dTNBc1ZyTVgzeHAwendkZVFFUThCMDV0SXFHM1BCZTYySlY1UFlONTlmOU9aclNSMXdfdXZCTmVEZmZPN1JxMkdhMGRoUXk3OXQ2MUFOTUZkeDE3UGhr?oc=5"
+        },
+        {
+          "id": "news-1dsaom2",
+          "isoDate": "2026-11-15T17:36:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/15/8062985/"
+        },
         {
           "id": "news-105sljt",
           "isoDate": "2026-11-15T17:05:00.000Z",
           "sourceUrl": "https://kyivindependent.com/prince-harry-visits-lviv-to-support-ukrainian-veterans-at-invictus-games/"
-        },
-        {
-          "id": "news-13ly36s",
-          "isoDate": "2026-11-15T16:58:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4184935-auto-dealership-damaged-in-russian-attack-in-kyiv-region.html"
-        },
-        {
-          "id": "news-18sgut8",
-          "isoDate": "2026-11-15T15:28:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4184912-russians-strike-warehouses-in-vyshhorod-district-leaving-one-injured.html"
         }
       ],
       "centroid": {
-        "lat": 50.3761,
-        "lng": 30.2395
+        "lat": 50.3878,
+        "lng": 30.1764
       },
-      "radiusKm": 41
+      "radiusKm": 47.2
     },
     {
       "zoneId": "occ-luhansk",
@@ -56,14 +56,14 @@
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 147,
+      "eventCount": 146,
       "kinds": {
-        "other": 119,
+        "other": 118,
         "combat": 24,
         "strike": 4
       },
       "tierCounts": {
-        "approximate": 147
+        "approximate": 146
       },
       "combatCount": 28,
       "newestIsoDate": "2026-11-15T12:55:59.000Z",
@@ -85,10 +85,51 @@
         }
       ],
       "centroid": {
-        "lat": 48.3519,
-        "lng": 38.6458
+        "lat": 48.3509,
+        "lng": 38.6468
       },
-      "radiusKm": 35.4
+      "radiusKm": 35.6
+    },
+    {
+      "zoneId": "occ-zaporizhzhia",
+      "region": "Zaporizhzhia Oblast",
+      "center": {
+        "lat": 47,
+        "lng": 35.5
+      },
+      "eventCount": 60,
+      "kinds": {
+        "other": 47,
+        "strike": 4,
+        "combat": 9
+      },
+      "tierCounts": {
+        "approximate": 60
+      },
+      "combatCount": 13,
+      "newestIsoDate": "2026-11-15T19:00:00.000Z",
+      "samples": [
+        {
+          "id": "news-1xgicbq",
+          "isoDate": "2026-11-15T19:00:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4184955-power-supply-restored-in-zaporizhzhia-region-after-russian-attack.html"
+        },
+        {
+          "id": "news-12u3a1j",
+          "isoDate": "2026-11-15T14:24:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4184888-russian-forces-attack-infrastructure-facility-in-zaporizhzhia-injuring-one-person.html"
+        },
+        {
+          "id": "news-10429i5",
+          "isoDate": "2026-11-15T13:54:00.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONVN6Z0szeDQzR1lPdG1TcmxjTDlwVnI0dU95YVkzcWtxUGRvaC1TdHFTLUNxMUhjaW55UEFOSE9RaU85MldkNGIwdjM5aW4zTXp6c1ptVEZaQWJhbGhOWHZORkJIOURtVVBkdmVfbDY1N0hHRGt2ZWFjOGhncmdJODdxODZLeFZpOEhjTGlaZnV2TXMwc21z?oc=5"
+        }
+      ],
+      "centroid": {
+        "lat": 47.7773,
+        "lng": 35.2783
+      },
+      "radiusKm": 36.6
     },
     {
       "zoneId": "occ-donetsk",
@@ -97,16 +138,16 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 65,
+      "eventCount": 55,
       "kinds": {
-        "other": 48,
-        "combat": 12,
+        "other": 43,
+        "combat": 7,
         "strike": 5
       },
       "tierCounts": {
-        "approximate": 65
+        "approximate": 55
       },
-      "combatCount": 17,
+      "combatCount": 12,
       "newestIsoDate": "2026-11-15T13:22:00.000Z",
       "samples": [
         {
@@ -126,51 +167,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.3494,
-        "lng": 37.367
+        "lat": 48.3063,
+        "lng": 37.3134
       },
-      "radiusKm": 52
-    },
-    {
-      "zoneId": "occ-zaporizhzhia",
-      "region": "Zaporizhzhia Oblast",
-      "center": {
-        "lat": 47,
-        "lng": 35.5
-      },
-      "eventCount": 59,
-      "kinds": {
-        "other": 46,
-        "strike": 4,
-        "combat": 9
-      },
-      "tierCounts": {
-        "approximate": 59
-      },
-      "combatCount": 13,
-      "newestIsoDate": "2026-11-15T14:24:00.000Z",
-      "samples": [
-        {
-          "id": "news-12u3a1j",
-          "isoDate": "2026-11-15T14:24:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4184888-russian-forces-attack-infrastructure-facility-in-zaporizhzhia-injuring-one-person.html"
-        },
-        {
-          "id": "news-10429i5",
-          "isoDate": "2026-11-15T13:54:00.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONVN6Z0szeDQzR1lPdG1TcmxjTDlwVnI0dU95YVkzcWtxUGRvaC1TdHFTLUNxMUhjaW55UEFOSE9RaU85MldkNGIwdjM5aW4zTXp6c1ptVEZaQWJhbGhOWHZORkJIOURtVVBkdmVfbDY1N0hHRGt2ZWFjOGhncmdJODdxODZLeFZpOEhjTGlaZnV2TXMwc21z?oc=5"
-        },
-        {
-          "id": "news-1dsamvq",
-          "isoDate": "2026-11-15T13:54:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/15/8062963/"
-        }
-      ],
-      "centroid": {
-        "lat": 47.7762,
-        "lng": 35.2807
-      },
-      "radiusKm": 37.1
+      "radiusKm": 55.4
     },
     {
       "zoneId": "lib-snake",
@@ -179,39 +179,39 @@
         "lat": 45.2551,
         "lng": 30.2033
       },
-      "eventCount": 46,
+      "eventCount": 50,
       "kinds": {
-        "other": 21,
+        "other": 24,
         "combat": 21,
-        "strike": 4
+        "strike": 5
       },
       "tierCounts": {
-        "approximate": 46
+        "approximate": 50
       },
-      "combatCount": 25,
-      "newestIsoDate": "2026-11-15T14:53:00.000Z",
+      "combatCount": 26,
+      "newestIsoDate": "2026-11-15T18:02:19.000Z",
       "samples": [
+        {
+          "id": "news-1ok92wu",
+          "isoDate": "2026-11-15T18:02:19.000Z",
+          "sourceUrl": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/"
+        },
+        {
+          "id": "news-wrvt1t",
+          "isoDate": "2026-11-15T18:02:19.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSzQxUEZEQjZIdEJYemtTUzVoOHBIOWdXMUMwV2UxRi02UlM2N2xiZEdsdGJqVlc4VTNxUVlVTjM0N0VOcnBzNF8tbXhwdFFQLVVqdGpMVnNKZjdlbXdJUFFZOWJCaTNyckl1aEx4QkJ0cm14X2lEQll0bDhHX293by1IQzRHTGwyWi1ZOGhxOThiU0MweTc2WV9JR2ZyR2xZR3JiWUpsMFJVZWd5R051THBnRWxQaWlWS2I5MWhJaUxQSWNHbEtJbF9DbnliUS0xd01obnQyckJnNWFMT1JjTA?oc=5"
+        },
         {
           "id": "news-1hxi8rc",
           "isoDate": "2026-11-15T14:53:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-ato/4184892-russians-attack-odesa-damaging-infrastructure.html"
-        },
-        {
-          "id": "news-1dsamyh",
-          "isoDate": "2026-11-15T14:38:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/15/8062966/"
-        },
-        {
-          "id": "news-151e826",
-          "isoDate": "2026-11-15T09:33:15.000Z",
-          "sourceUrl": "https://kyivindependent.com/russia-launches-mass-attack-on-odesa-oblast-as-strikes-kill-4-injure-69-across-ukraine-over-past-day/"
         }
       ],
       "centroid": {
-        "lat": 46.5031,
-        "lng": 30.5633
+        "lat": 46.4835,
+        "lng": 30.6017
       },
-      "radiusKm": 25.8
+      "radiusKm": 20.6
     },
     {
       "zoneId": "occ-kherson",
@@ -220,18 +220,23 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 44,
+      "eventCount": 45,
       "kinds": {
-        "other": 26,
+        "other": 27,
         "strike": 7,
         "combat": 11
       },
       "tierCounts": {
-        "approximate": 44
+        "approximate": 45
       },
       "combatCount": 18,
-      "newestIsoDate": "2026-11-15T11:52:00.000Z",
+      "newestIsoDate": "2026-11-15T22:34:00.000Z",
       "samples": [
+        {
+          "id": "news-7y8qr7",
+          "isoDate": "2026-11-15T22:34:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4184839-residents-warned-of-possible-russian-mining-of-area-in-kherson.html"
+        },
         {
           "id": "news-1dsalzn",
           "isoDate": "2026-11-15T11:52:00.000Z",
@@ -241,16 +246,11 @@
           "id": "news-g1tbi2",
           "isoDate": "2026-11-15T10:28:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-ato/4184828-two-injured-in-russian-drone-strike-on-bilozerka.html"
-        },
-        {
-          "id": "news-10m2k7o",
-          "isoDate": "2026-11-15T10:10:11.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBET21NX0lKcktBOExldVlhMlY0Z0libFRfYm9pUlVBYnBrcDVpU1VVX2Y2cF9aa0htNGJjdldXMFYtM3lHMGhOcmI5MA?oc=5"
         }
       ],
       "centroid": {
-        "lat": 46.8133,
-        "lng": 32.2131
+        "lat": 46.8094,
+        "lng": 32.2222
       },
       "radiusKm": 80
     },
@@ -261,17 +261,22 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 29,
+      "eventCount": 30,
       "kinds": {
-        "other": 21,
-        "combat": 8
+        "other": 23,
+        "combat": 7
       },
       "tierCounts": {
-        "approximate": 29
+        "approximate": 30
       },
-      "combatCount": 8,
-      "newestIsoDate": "2026-11-15T17:20:00.000Z",
+      "combatCount": 7,
+      "newestIsoDate": "2026-11-15T21:37:00.000Z",
       "samples": [
+        {
+          "id": "news-18qlnr9",
+          "isoDate": "2026-11-15T21:37:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4184978-russian-drone-hits-childrens-educational-facility-in-kharkiv.html"
+        },
         {
           "id": "news-g4pmnn",
           "isoDate": "2026-11-15T17:20:00.000Z",
@@ -281,18 +286,13 @@
           "id": "news-dd29u7",
           "isoDate": "2026-11-15T16:38:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-ato/4184936-fpv-drone-strikes-in-kharkiv-leave-three-injured.html"
-        },
-        {
-          "id": "news-1xch88y",
-          "isoDate": "2026-11-15T14:37:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4184890-russian-forces-attack-car-with-drone-in-kharkiv-injuring-three-people.html"
         }
       ],
       "centroid": {
-        "lat": 49.9117,
-        "lng": 36.8061
+        "lat": 49.8919,
+        "lng": 36.6982
       },
-      "radiusKm": 80
+      "radiusKm": 76.7
     },
     {
       "zoneId": "lib-sumy",
