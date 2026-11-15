@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-11-15T02:58:50.343Z",
+  "collectedAt": "2026-11-15T03:11:08.559Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 34
+      "count": 1
     },
     {
       "id": "gnews-france-protests",
@@ -52,13 +52,13 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 575,
+  "count": 576,
   "events": [
     {
       "id": "news-1t4vdiz",
       "kind": "news",
       "date": "2026-11-15",
-      "isoDate": "2026-11-15T01:08:55.000Z",
+      "isoDate": "2026-11-15T00:59:24.000Z",
       "description": "Tens of thousands continue to protest across France - DW.com (DW.com, 2026-11-15. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -1177,6 +1177,40 @@
         "goldstein": -6.5,
         "tone": -6.25,
         "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333197247",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T02:30:00.000Z",
+      "description": "Force posture — Government → Security forces near La Bastille, RhôAlpes, France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 45.1998,
+      "lng": 5.72534,
+      "action": "Force posture (GDELT 153)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "La Bastille, RhôAlpes, France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://countercurrents.org/2026/11/french-protests-continue-on-multiple-issues/",
+      "gdelt": {
+        "globalEventId": "1333197247",
+        "eventCode": "153",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -4.27,
+        "mentions": 10,
         "sources": 1
       }
     },

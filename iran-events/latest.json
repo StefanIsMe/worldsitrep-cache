@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "iran",
-  "collectedAt": "2026-11-15T02:58:50.343Z",
+  "collectedAt": "2026-11-15T03:11:08.559Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 67
+      "count": 11
     },
     {
       "id": "gnews-iran",
@@ -27,7 +27,7 @@
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Tehran%20sanctions%20oil&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 39,
+      "count": 41,
       "filtered": 0
     },
     {
@@ -69,7 +69,7 @@
       "id": "gnews-natanz",
       "url": "https://news.google.com/rss/search?q=Iran%20Natanz%20Fordow%20enrichment%20IAEA&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 23,
+      "count": 22,
       "filtered": 0
     },
     {
@@ -82,6 +82,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-1y4gu03",
+      "kind": "news",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T02:59:00.000Z",
+      "description": "Iran’s Janfada campaign gives Basij recruitment a patriotic banner (Iran International, 2026-11-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Iran International",
+      "axis": "Other",
+      "tags": [
+        "Iran International",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Iran International",
+      "source": "Iran International",
+      "sourceUrl": "https://www.iranintl.com/en/202611151752"
+    },
     {
       "id": "news-12w6c86",
       "kind": "news",
@@ -1662,6 +1681,244 @@
         "goldstein": -10,
         "tone": -0.76,
         "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333196533",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T02:15:00.000Z",
+      "description": "Threat — Iran → President near Iran. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32,
+      "lng": 53,
+      "action": "Threat (GDELT 130)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ksl.com:443/article/51645735/romney-has-a-2028-prediction--but-theres-a-catch",
+      "gdelt": {
+        "globalEventId": "1333196533",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -0.65,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333197108",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T02:30:00.000Z",
+      "description": "Disapproval — Unspecified → United States near Mohammad Ali, Kermanshah, Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 34.4694,
+      "lng": 45.7753,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Mohammad Ali, Kermanshah, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://countercurrents.org/2026/11/nehru-refused-to-meet-mussolini-modi-embraced-netanyahu/",
+      "gdelt": {
+        "globalEventId": "1333197108",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.73,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333197325",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T02:30:00.000Z",
+      "description": "Fight — Israel → Palestinian near Bandar Abbas, Hormozgan, Iran. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 27.1865,
+      "lng": 56.2808,
+      "action": "Fight (GDELT 190)",
+      "actor": "Israel",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bandar Abbas, Hormozgan, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.asiaone.com:443/world/israeli-drone-strike-kills-2-palestinians-gaza-and-other-mideast-news",
+      "gdelt": {
+        "globalEventId": "1333197325",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.68,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333197370",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T02:30:00.000Z",
+      "description": "Threat — Navy → Iran near Bandar Abbas, Hormozgan, Iran. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 27.1865,
+      "lng": 56.2808,
+      "action": "Threat (GDELT 130)",
+      "actor": "Navy",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bandar Abbas, Hormozgan, Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.asiaone.com:443/world/israeli-drone-strike-kills-2-palestinians-gaza-and-other-mideast-news",
+      "gdelt": {
+        "globalEventId": "1333197370",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -5.68,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333198418",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T03:00:00.000Z",
+      "description": "Demand — Iran → President near Iran. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32,
+      "lng": 53,
+      "action": "Demand (GDELT 100)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.wlky.com/article/rep-thomas-massie-house-vote-end-iran-war-kentucky/74431258",
+      "gdelt": {
+        "globalEventId": "1333198418",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -5.19,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333198430",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T03:00:00.000Z",
+      "description": "Threat — Jerusalem → Iran near Iran. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32,
+      "lng": 53,
+      "action": "Threat (GDELT 130)",
+      "actor": "Jerusalem",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://ianslive.in/netanyahu-urges-unity-government-to-confront-iran-nuclear-threat--20261115070904",
+      "gdelt": {
+        "globalEventId": "1333198430",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -4.11,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333198431",
+      "kind": "event",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T00:00:00.000Z",
+      "observedAt": "2026-11-15T03:00:00.000Z",
+      "description": "Threat — Jerusalem → Iran near Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 32,
+      "lng": 53,
+      "action": "Threat (GDELT 130)",
+      "actor": "Jerusalem",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iran",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://ianslive.in/netanyahu-urges-unity-government-to-confront-iran-nuclear-threat--20261115070904",
+      "gdelt": {
+        "globalEventId": "1333198431",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -4.11,
+        "mentions": 2,
         "sources": 1
       }
     },
@@ -48417,278 +48674,6 @@
         "tone": -4.03,
         "mentions": 4,
         "sources": 4
-      }
-    },
-    {
-      "id": "gdelt-1333039385",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T20:00:00.000Z",
-      "description": "Demand — Iran → Israel near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (4 mentions, 4 sources); open the source article for details.",
-      "type": "other",
-      "lat": 35.75,
-      "lng": 51.5148,
-      "action": "Demand (GDELT 1056)",
-      "actor": "Iran",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Demand"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Tehran, Tehran, Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.wxxinews.org/npr-news/2026-11-13/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
-      "gdelt": {
-        "globalEventId": "1333039385",
-        "eventCode": "1056",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -5,
-        "tone": -4.03,
-        "mentions": 4,
-        "sources": 4
-      }
-    },
-    {
-      "id": "gdelt-1333039391",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T20:00:00.000Z",
-      "description": "Rejection — Iran → Us Official near Iran. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Rejection (GDELT 120)",
-      "actor": "Iran",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.riotimesonline.com/angola-oil-brent-rebounds-iran-budget/",
-      "gdelt": {
-        "globalEventId": "1333039391",
-        "eventCode": "120",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -4,
-        "tone": 0.1,
-        "mentions": 10,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333040100",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T20:00:00.000Z",
-      "description": "Disapproval — United States → Worker near Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Disapproval (GDELT 111)",
-      "actor": "United States",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://socialistworker.co.uk/alex-callinicos/alex-callinicos-trump-dug-his-own-grave-in-midterms/",
-      "gdelt": {
-        "globalEventId": "1333040100",
-        "eventCode": "111",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -3.58,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333040101",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T20:00:00.000Z",
-      "description": "Disapproval — United States → Worker near Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Disapproval (GDELT 111)",
-      "actor": "United States",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://socialistworker.co.uk/alex-callinicos/alex-callinicos-trump-dug-his-own-grave-in-midterms/",
-      "gdelt": {
-        "globalEventId": "1333040101",
-        "eventCode": "111",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -3.58,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333041500",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T20:15:00.000Z",
-      "description": "Threat — Iran → Unspecified near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 35.75,
-      "lng": 51.5148,
-      "action": "Threat (GDELT 138)",
-      "actor": "Iran",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Tehran, Tehran, Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.theamericanconservative.com/iran-war-day-259-mossad-chief-visits-u-s-pushes-for-war/",
-      "gdelt": {
-        "globalEventId": "1333041500",
-        "eventCode": "138",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -7,
-        "tone": -5.76,
-        "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333041508",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T20:15:00.000Z",
-      "description": "Demand — Iran → Iran near Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Demand (GDELT 100)",
-      "actor": "Iran",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Demand"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://wrjn.com/news/2026/11/13/us-senator-tammy-baldwin-joined-seven-other-colleagues-in-pressing-federal-trade-commission-ftc-chairman-andrew-ferguson-to-investigate-major-corporations-pocketing-government-tariff-refunds",
-      "gdelt": {
-        "globalEventId": "1333041508",
-        "eventCode": "100",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -5,
-        "tone": -3.17,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333042013",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T20:15:00.000Z",
-      "description": "Demand — United States → Iran near Tehran, Tehran, Iran. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 35.75,
-      "lng": 51.5148,
-      "action": "Demand (GDELT 100)",
-      "actor": "United States",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Demand"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Tehran, Tehran, Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.theamericanconservative.com/iran-war-day-259-mossad-chief-visits-u-s-pushes-for-war/",
-      "gdelt": {
-        "globalEventId": "1333042013",
-        "eventCode": "100",
-        "geoType": 4,
-        "quadClass": 3,
-        "goldstein": -5,
-        "tone": -5.76,
-        "mentions": 2,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333043296",
-      "kind": "event",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T00:00:00.000Z",
-      "observedAt": "2026-11-13T20:30:00.000Z",
-      "description": "Disapproval — Retired → Military near Iran. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Disapproval (GDELT 110)",
-      "actor": "Retired",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.dailymail.com/news/article-16279455/lauren-boebert-loses-reelection-trump.html",
-      "gdelt": {
-        "globalEventId": "1333043296",
-        "eventCode": "110",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -7.64,
-        "mentions": 1,
-        "sources": 1
       }
     }
   ]
