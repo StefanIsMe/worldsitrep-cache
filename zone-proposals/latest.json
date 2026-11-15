@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-11-15T17:37:44.539Z",
+  "collectedAt": "2026-11-15T17:57:31.167Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 146,
+  "coarseGdeltDropped": 141,
   "outsideTheatreDropped": 20,
   "proposals": [
     {
@@ -15,18 +15,23 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 394,
+      "eventCount": 391,
       "kinds": {
         "other": 284,
-        "combat": 96,
+        "combat": 93,
         "strike": 14
       },
       "tierCounts": {
-        "approximate": 394
+        "approximate": 391
       },
-      "combatCount": 110,
-      "newestIsoDate": "2026-11-15T16:58:00.000Z",
+      "combatCount": 107,
+      "newestIsoDate": "2026-11-15T17:05:00.000Z",
       "samples": [
+        {
+          "id": "news-105sljt",
+          "isoDate": "2026-11-15T17:05:00.000Z",
+          "sourceUrl": "https://kyivindependent.com/prince-harry-visits-lviv-to-support-ukrainian-veterans-at-invictus-games/"
+        },
         {
           "id": "news-13ly36s",
           "isoDate": "2026-11-15T16:58:00.000Z",
@@ -36,18 +41,13 @@
           "id": "news-18sgut8",
           "isoDate": "2026-11-15T15:28:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-ato/4184912-russians-strike-warehouses-in-vyshhorod-district-leaving-one-injured.html"
-        },
-        {
-          "id": "news-1dsan18",
-          "isoDate": "2026-11-15T15:27:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/15/8062969/"
         }
       ],
       "centroid": {
-        "lat": 50.3781,
-        "lng": 30.2581
+        "lat": 50.3761,
+        "lng": 30.2395
       },
-      "radiusKm": 38.6
+      "radiusKm": 41
     },
     {
       "zoneId": "occ-luhansk",
@@ -56,14 +56,14 @@
         "lat": 48.574,
         "lng": 39.3078
       },
-      "eventCount": 142,
+      "eventCount": 147,
       "kinds": {
-        "other": 114,
+        "other": 119,
         "combat": 24,
         "strike": 4
       },
       "tierCounts": {
-        "approximate": 142
+        "approximate": 147
       },
       "combatCount": 28,
       "newestIsoDate": "2026-11-15T12:55:59.000Z",
@@ -85,10 +85,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.3467,
-        "lng": 38.651
+        "lat": 48.3519,
+        "lng": 38.6458
       },
-      "radiusKm": 36.4
+      "radiusKm": 35.4
     },
     {
       "zoneId": "occ-donetsk",
@@ -374,6 +374,45 @@
         "lng": 31.8395
       },
       "radiusKm": 50
+    },
+    {
+      "zoneId": "occ-crimea",
+      "region": "Crimea",
+      "center": {
+        "lat": 45.3453,
+        "lng": 34.4997
+      },
+      "eventCount": 3,
+      "kinds": {
+        "other": 3
+      },
+      "tierCounts": {
+        "approximate": 3
+      },
+      "combatCount": 0,
+      "newestIsoDate": "2026-11-15T17:08:46.000Z",
+      "samples": [
+        {
+          "id": "news-1b6of65",
+          "isoDate": "2026-11-15T17:08:46.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbmhPTmNwaXlOQ20tQUl0SFpSQmc3VHNiRm1ZMk9pVHVqRDEwd0x4REpxRjJndVhycDFlYmJ4SHh1UWtfVWlIakpsdDhuT2M5RlJnbS1JLXZHdlhHcGxPc0RJamdoeHl0YXJuellreWVFT3JNWHpEMnNCVWFQN2cxemlQT3IyX2dtUmlRRmR1TmoxeUhJeVBQMTBxT0xWOU9MRVo0NzEzTWVJS2tnMVBGd29Pa2lSRkw4MWZNakpFTlozc3dMWkFFSnB4bG5DZzhIWFBUTFBWM3VGVjFJcldEQw?oc=5"
+        },
+        {
+          "id": "news-wybz84",
+          "isoDate": "2026-11-15T00:40:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-crime/4184577-four-more-former-crimean-prosecutors-sentenced-for-treason.html"
+        },
+        {
+          "id": "gdelt-1333115244",
+          "isoDate": "2026-11-14T00:00:00.000Z",
+          "sourceUrl": "https://www.asiaone.com/world/russia-and-ukraine-hold-nearly-4-hours-us-mediated-talks-abu-dhabi"
+        }
+      ],
+      "centroid": {
+        "lat": 45.2,
+        "lng": 34.2667
+      },
+      "radiusKm": 20.4
     }
   ]
 }
