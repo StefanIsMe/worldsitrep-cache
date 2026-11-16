@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "myanmar",
-  "collectedAt": "2026-11-16T20:52:04.989Z",
+  "collectedAt": "2026-11-16T22:34:40.684Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 0
     },
     {
       "id": "irrawaddy",
@@ -40,9 +40,9 @@
     {
       "id": "gnews-myanmar",
       "url": "https://news.google.com/rss/search?q=Myanmar&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-myanmar request failed with HTTP 429"
     },
     {
       "id": "gnews-war",
@@ -54,9 +54,9 @@
     {
       "id": "gnews-rakhine",
       "url": "https://news.google.com/rss/search?q=Rakhine%20Arakan%20Army&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-rakhine request failed with HTTP 429"
     },
     {
       "id": "reliefweb",
@@ -66,7 +66,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 206,
+  "count": 205,
   "events": [
     {
       "id": "news-162jrc7",
@@ -4413,25 +4413,6 @@
       "locationStr": "DVB English",
       "source": "DVB English",
       "sourceUrl": "https://english.dvb.no/myanmar-migrant-leader-surrenders-to-thai-police-after-arrest-warrant-issued/"
-    },
-    {
-      "id": "news-1ft0gqi",
-      "kind": "news",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T21:42:45.000Z",
-      "description": "Myanmar pushes US to invest in its rare earths sector - Narinjara News (Narinjara News, 2026-11-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Narinjara News",
-      "axis": "Other",
-      "tags": [
-        "Narinjara News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Narinjara News",
-      "source": "Narinjara News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1NM0lIcFJJVEpNRU05N0M2anpXcGFRZm5Vbnl6MEtNNXVURUZpaDcwbjJDd0NRWUpYRkdza0hxdHlKWWNyZWhJTGx2RzRjeEwyR19TdGNueFhFV1ViaXlwTFZDbHlZVmpWa3FBZUk1OHJuVjJOQUNDZzBpOA?oc=5"
     }
   ]
 }

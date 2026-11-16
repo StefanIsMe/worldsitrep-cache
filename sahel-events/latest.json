@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-16T20:52:04.989Z",
+  "collectedAt": "2026-11-16T22:34:40.684Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 10
+      "count": 3
     },
     {
       "id": "aa-mali",
@@ -33,9 +33,9 @@
     {
       "id": "gnews-sahel",
       "url": "https://news.google.com/rss/search?q=Sahel%20Mali%20Burkina%20Niger&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-sahel request failed with HTTP 429"
     },
     {
       "id": "rfi-africa",
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 52,
+  "count": 55,
   "events": [
     {
       "id": "gdelt-1333305548",
@@ -746,6 +746,108 @@
         "goldstein": -10,
         "tone": -6.26,
         "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333466807",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T22:30:00.000Z",
+      "description": "Force posture — Algeria → Moscow near Niamey, Niamey, Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.5167,
+      "lng": 2.11667,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Algeria",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Niamey, Niamey, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.scoop.co.nz/stories/WO2611/S00145/amid-war-strains-washington-and-moscow-experiment-with-a-new-tactic.htm",
+      "gdelt": {
+        "globalEventId": "1333466807",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -0.6,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333467257",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T22:30:00.000Z",
+      "description": "Demand — Mali → Government near Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Demand (GDELT 100)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.scoop.co.nz/stories/WO2611/S00145/amid-war-strains-washington-and-moscow-experiment-with-a-new-tactic.htm",
+      "gdelt": {
+        "globalEventId": "1333467257",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -0.6,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333467258",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T22:30:00.000Z",
+      "description": "Demand — Mali → Government near Mali. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Demand (GDELT 100)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.scoop.co.nz/stories/WO2611/S00145/amid-war-strains-washington-and-moscow-experiment-with-a-new-tactic.htm",
+      "gdelt": {
+        "globalEventId": "1333467258",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -0.6,
+        "mentions": 8,
         "sources": 1
       }
     },
