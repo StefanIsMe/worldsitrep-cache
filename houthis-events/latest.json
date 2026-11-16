@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-16T10:48:49.230Z",
+  "collectedAt": "2026-11-16T12:06:33.455Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 56
+      "count": 20
     },
     {
       "id": "gcaptain",
@@ -41,8 +41,8 @@
       "id": "splash247",
       "url": "https://splash247.com/feed/",
       "status": "ok",
-      "count": 3,
-      "filtered": 7
+      "count": 2,
+      "filtered": 8
     },
     {
       "id": "loadstar",
@@ -62,7 +62,7 @@
       "id": "gnews-hodeidah",
       "url": "https://news.google.com/rss/search?q=Hodeidah%20Sanaa%20airstrike%20Houthi&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 48,
+      "count": 47,
       "filtered": 0
     },
     {
@@ -80,8 +80,69 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 394,
+  "count": 410,
   "events": [
+    {
+      "id": "news-1yxhvuq",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T11:51:00.000Z",
+      "description": "Iran live updates: Tanker attacked in Strait of Hormuz, UKMTO says - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ABC News - Breaking News, Latest News and Videos",
+      "axis": "Other",
+      "tags": [
+        "ABC News - Breaking News, Latest News and Videos",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS3V1VW00MDA5bHloakZKSy1tTXFqWXVkR09sV1ppd01Pb2JmMlRWR3lTd2dLNzBzekVFTllIeDlKMHp1RFZNMHU0cGp0V2YzYjE3MU9vc0VTU0MzN2hZTHF6aG1TdUdwbmNTckpjcWdXdGRPbk9HVDlmWDBWRUVZZDNJQ1VWUXA5XzNIZEluX19BMlVGcktNV1lGSUZub2NUVUNHY25zT0c0ei1MVWROQ2ZUdXjSAboBQVVfeXFMTVlDanlSMThGWUtuQ3NIVEU1QlhRRURfdEhrbjFST20tdXBGXzN1X3VRM3pvZHJncGUxNVJpS1lkZmFlYlZadVJrbXJGUHZ4UTNYXzBvdWRyNzQzWndTMVFFTmNRQmc3TGFrRFAydzVOYmFzVG5WdjZXVDVJZXo3bFpvUkNHcjBsV0UtNzljX1BBeUcyOVJQLUttNnFqRW1naHBFOThLUWRtY2RfUnR5dlFTRmU4X1ZKb3Rn?oc=5"
+    },
+    {
+      "id": "news-pbos6x",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T11:09:38.000Z",
+      "description": "Yemeni forces retreat to defend port city from Houthis (BBC, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BBC",
+      "axis": "Other",
+      "tags": [
+        "BBC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "BBC",
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "news-1d1w6zi",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T10:53:43.000Z",
+      "description": "Yemeni Forces Withdraw From Bab Al-Mandab, Leaving Houthis In Control Of Key Red Sea Gateway - Arise News (Arise News, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Arise News",
+      "axis": "Other",
+      "tags": [
+        "Arise News",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Red Sea",
+      "source": "Arise News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcDZ1WHVSdzdYYWVKN1lES3NVUnlGMUZnVTk3X0JVREdUZzAyNkdySUNoX0NiVFA1Y3VQLWRVYk9BWUFBYW5kaTZvM0FSU1lYaV9ESlRSYzJtVmQ1cnZLbzdGTFZ2LWduS1RRTDg1NWwwVkNrU1JUQ25rMDVqVjBDRlRReEI1OUNJZFFiMWtaQUVYSTR6V0R3QnNOSWw3cV9PLXdzQVFkTThRcnJxZGdJaF9Oaw?oc=5",
+      "lat": 15.5,
+      "lng": 41.5,
+      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+    },
     {
       "id": "news-1n3qgk5",
       "kind": "news",
@@ -204,29 +265,6 @@
       "locationStr": "Red Sea",
       "source": "BBC",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QSU4xRGwtcXZCcnlOeGhhQzJTLUk2VGx0QkhtTExBbDk5aUdJZkZUQjJlNk4tMW1tX05xUU9xeGRtTkhoQWhEbTgyOVdhX0dRb1NTbGZnc0RMZVk?oc=5",
-      "lat": 15.5,
-      "lng": 41.5,
-      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
-    },
-    {
-      "id": "news-pbos6x",
-      "kind": "news",
-      "date": "2026-11-16",
-      "isoDate": "2026-11-16T07:23:23.000Z",
-      "description": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway (BBC, 2026-11-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC",
-      "axis": "Other",
-      "tags": [
-        "BBC",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Red Sea",
-      "source": "BBC",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
       "lat": 15.5,
       "lng": 41.5,
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
@@ -2932,6 +2970,482 @@
         "goldstein": -10,
         "tone": -9.56,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333364071",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:15:00.000Z",
+      "description": "Fight — Kingdom → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (40 mentions, 4 sources); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 194)",
+      "actor": "Kingdom",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.therecord.com/news/world/houthis-accuse-saudi-arabia-of-strikes-that-killed-3-including-a-child-and-other-mideast-news/article_83e4e8c9-35cd-533b-9627-f56a2e529d90.html",
+      "gdelt": {
+        "globalEventId": "1333364071",
+        "eventCode": "194",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -7.28,
+        "mentions": 40,
+        "sources": 4
+      }
+    },
+    {
+      "id": "gdelt-1333364610",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:15:00.000Z",
+      "description": "Fight — Saudi Arabia → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.winnipegfreepress.com/world/2026/11/16/houthis-accuse-saudi-arabia-of-strikes-that-killed-3-including-a-child-and-other-mideast-news",
+      "gdelt": {
+        "globalEventId": "1333364610",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -7.27,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333364770",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:15:00.000Z",
+      "description": "Fight — Yemen → Saudi Arabia near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (40 mentions, 4 sources); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.therecord.com/news/world/houthis-accuse-saudi-arabia-of-strikes-that-killed-3-including-a-child-and-other-mideast-news/article_83e4e8c9-35cd-533b-9627-f56a2e529d90.html",
+      "gdelt": {
+        "globalEventId": "1333364770",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -7.28,
+        "mentions": 40,
+        "sources": 4
+      }
+    },
+    {
+      "id": "gdelt-1333367392",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:30:00.000Z",
+      "description": "Fight — Yemen → Saudi Arabia near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.naharnet.com/stories/en/323796-0houthis-accuse-saudi-arabia-of-strikes-that-killed-3-including-child",
+      "gdelt": {
+        "globalEventId": "1333367392",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -7.22,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333368991",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:45:00.000Z",
+      "description": "Fight — Civilian → Yemen near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Fight (GDELT 195)",
+      "actor": "Civilian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.islamicinvitationturkey.com/saudi-arabia-bombs-school-market-and-hodeidah-airport-in-yemen/",
+      "gdelt": {
+        "globalEventId": "1333368991",
+        "eventCode": "195",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -1.71,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333369609",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:45:00.000Z",
+      "description": "Force posture — Military → Fighter near Dhubab, Taizz, Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.9431,
+      "lng": 43.4102,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dhubab, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.com/houthis-advance-toward-aden-government-forces-withdraw-3809785",
+      "gdelt": {
+        "globalEventId": "1333369609",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -2.69,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333369610",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:45:00.000Z",
+      "description": "Fight — Military → Fighter near Dhubab, Taizz, Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 12.9431,
+      "lng": 43.4102,
+      "action": "Fight (GDELT 192)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dhubab, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.com/houthis-advance-toward-aden-government-forces-withdraw-3809785",
+      "gdelt": {
+        "globalEventId": "1333369610",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -2.69,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333369620",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:45:00.000Z",
+      "description": "Force posture — Military → Yemen near Dhubab, Taizz, Yemen. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.9431,
+      "lng": 43.4102,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dhubab, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.com/houthis-advance-toward-aden-government-forces-withdraw-3809785",
+      "gdelt": {
+        "globalEventId": "1333369620",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -2.69,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333369622",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:45:00.000Z",
+      "description": "Fight — Armed Forces → Yemen near Dhubab, Taizz, Yemen. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 12.9431,
+      "lng": 43.4102,
+      "action": "Fight (GDELT 190)",
+      "actor": "Armed Forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dhubab, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.com/houthis-advance-toward-aden-government-forces-withdraw-3809785",
+      "gdelt": {
+        "globalEventId": "1333369622",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.69,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333369623",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:45:00.000Z",
+      "description": "Fight — Military → Yemen near Dhubab, Taizz, Yemen. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 12.9431,
+      "lng": 43.4102,
+      "action": "Fight (GDELT 192)",
+      "actor": "Military",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dhubab, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.com/houthis-advance-toward-aden-government-forces-withdraw-3809785",
+      "gdelt": {
+        "globalEventId": "1333369623",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -2.69,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333369762",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:45:00.000Z",
+      "description": "Fight — Saudi Arabia → Yemen near Dhubab, Taizz, Yemen. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 12.9431,
+      "lng": 43.4102,
+      "action": "Fight (GDELT 190)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dhubab, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.com/houthis-advance-toward-aden-government-forces-withdraw-3809785",
+      "gdelt": {
+        "globalEventId": "1333369762",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.69,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333369763",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:45:00.000Z",
+      "description": "Fight — Saudi Arabia → Yemen near Dhubab, Taizz, Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 12.9431,
+      "lng": 43.4102,
+      "action": "Fight (GDELT 190)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Dhubab, Taizz, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.com/houthis-advance-toward-aden-government-forces-withdraw-3809785",
+      "gdelt": {
+        "globalEventId": "1333369763",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.69,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333369915",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:45:00.000Z",
+      "description": "Fight — Yemen → Unspecified near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.com/houthis-advance-toward-aden-government-forces-withdraw-3809785",
+      "gdelt": {
+        "globalEventId": "1333369915",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.69,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333369916",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:45:00.000Z",
+      "description": "Fight — Yemen → Unspecified near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.com/houthis-advance-toward-aden-government-forces-withdraw-3809785",
+      "gdelt": {
+        "globalEventId": "1333369916",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.69,
+        "mentions": 8,
         "sources": 1
       }
     },

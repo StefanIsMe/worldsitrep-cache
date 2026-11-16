@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-16T10:48:49.230Z",
+  "collectedAt": "2026-11-16T12:06:33.455Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 25
+      "count": 1
     },
     {
       "id": "taipei-times",
@@ -34,15 +34,15 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 36,
-      "filtered": 14
+      "count": 37,
+      "filtered": 13
     },
     {
       "id": "dw-asia",
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
       "count": 3,
-      "filtered": 8
+      "filtered": 7
     },
     {
       "id": "st-asia",
@@ -80,8 +80,69 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 214,
+  "count": 217,
   "events": [
+    {
+      "id": "news-chq6ww",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T12:00:08.000Z",
+      "description": "Why many Chinese Nvidia employees are staying on the sidelines as Huang leaves (SCMP, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/science/article/3374605/why-many-chinese-nvidia-employees-are-staying-sidelines-huang-leaves"
+    },
+    {
+      "id": "news-8ubqc8",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T11:28:20.000Z",
+      "description": "Taiwan unveils 17% budget boost to upgrade new F-16V fighter fleet (SCMP, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3374614/taiwan-unveils-17-budget-boost-upgrade-new-f-16v-fighter-fleet"
+    },
+    {
+      "id": "news-13daxpu",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T11:25:33.000Z",
+      "description": "For Trump in Shenzhen or Zhuhai air show? PLA’s J-10C aerobatic team seen in South China (SCMP, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Shenzhen",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/military/article/3374613/trump-shenzhen-or-zhuhai-air-show-plas-j-10c-aerobatic-team-seen-south-china",
+      "lat": 24.95694,
+      "lng": 121.01222,
+      "coordsNote": "OSM geocode: matched \"Shenzhen\" → Shenzhen, Shenzun Village, Xinwu District; © OpenStreetMap contributors."
+    },
     {
       "id": "news-1unqdqh",
       "kind": "news",
@@ -1467,6 +1528,40 @@
         "goldstein": -4,
         "tone": 0.67,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333362171",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T11:00:00.000Z",
+      "description": "Threat — Taiwan → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 138)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/defence/international/hope-i-was-wrong-us-admirals-chilling-2027-china-warning-returns-as-taiwan-defence-gaps-persist/articleshow/135883625.cms",
+      "gdelt": {
+        "globalEventId": "1333362171",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -6.93,
+        "mentions": 1,
         "sources": 1
       }
     },
@@ -6030,25 +6125,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3374381/us-china-ai-safety-talks-face-hurdle-over-how-define-serious-incidents-analysts"
-    },
-    {
-      "id": "news-1i3otc7",
-      "kind": "news",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T11:19:25.000Z",
-      "description": "COVID-era Wuhan party boss under investigation, says China's anti-graft watchdog (Straits Times, 2026-11-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/covid-era-wuhan-party-boss-under-investigation-says-chinas-anti-graft-watchdog"
     }
   ]
 }
