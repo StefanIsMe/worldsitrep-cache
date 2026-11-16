@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-16T02:38:40.184Z",
+  "collectedAt": "2026-11-16T03:15:35.080Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 7
+      "count": 2
     },
     {
       "id": "taipei-times",
@@ -34,8 +34,8 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 37,
-      "filtered": 13
+      "count": 36,
+      "filtered": 14
     },
     {
       "id": "dw-asia",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 7,
-      "filtered": 42
+      "count": 6,
+      "filtered": 44
     },
     {
       "id": "gnews-arms",
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 183,
+  "count": 184,
   "events": [
+    {
+      "id": "news-1slsx88",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T03:03:05.000Z",
+      "description": "Vuk Jeremic on US-Europe fracture, EU-China tensions and adjusting to a multipolar world (SCMP, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/plus/news/china/diplomacy/article/3374534/vuk-jeremic-us-europe-fracture-eu-china-tensions-and-adjusting-multipolar-world"
+    },
     {
       "id": "news-1drh4ik",
       "kind": "news",
@@ -393,6 +412,40 @@
         "goldstein": -4,
         "tone": -1.9,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333309658",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T02:45:00.000Z",
+      "description": "Disapproval — China → Iran near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.kxxv.com/politics/trump-heads-to-asia-with-hopes-of-shifting-the-momentum-after-midterm-setbacks-hurt-him-at-home",
+      "gdelt": {
+        "globalEventId": "1333309658",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.83,
+        "mentions": 2,
         "sources": 1
       }
     },
@@ -5051,25 +5104,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/china-stages-unannounced-pacific-drills-in-silent-intimidation-of-taiwan-officials-say"
-    },
-    {
-      "id": "news-h7u9hz",
-      "kind": "news",
-      "date": "2026-11-13",
-      "isoDate": "2026-11-13T03:00:00.000Z",
-      "description": "Takaichi to attend APEC in first China trip as Japan PM (Straits Times, 2026-11-13. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/takaichi-to-attend-apec-in-first-china-trip-as-japan-pm"
     }
   ]
 }

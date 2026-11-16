@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-16T02:38:40.184Z",
+  "collectedAt": "2026-11-16T03:15:35.080Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 13
+      "count": 4
     },
     {
       "id": "gcaptain",
@@ -80,8 +80,50 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 326,
+  "count": 329,
   "events": [
+    {
+      "id": "news-1xtlppx",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T03:08:31.000Z",
+      "description": "Yemeni forces' retreat leaves Houthis in control of key Red Sea waterway - BBC (BBC, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BBC",
+      "axis": "Other",
+      "tags": [
+        "BBC",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Red Sea",
+      "source": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qTkNnRFZrMXp4T0RaZE5iNHpsMkZqVU9XNGRVSWpDWEItZVd1Q1Q5Q2RUU1JVQzAyWDJfQ1M0TnhCVVNMNDl4MVU3SklvT2JMdjJlY1VrdXFEOTFaN1E?oc=5",
+      "lat": 15.5,
+      "lng": 41.5,
+      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+    },
+    {
+      "id": "news-33t1yg",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T02:26:15.000Z",
+      "description": "Iran Update, November 15, 2026 - Institute for the Study of War (Institute for the Study of War, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Institute for the Study of War",
+      "axis": "Other",
+      "tags": [
+        "Institute for the Study of War",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Institute for the Study of War",
+      "source": "Institute for the Study of War",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYkpGTlg3ekg1dWVwU1BicDN1WWxTTFpxRENpaGxnQ0IzaFFaVEt4SHF1UjhXSE5aNk84UlF5TXZhQ2QxYjhVSFdLQnJyV2RJVFhsMXNJOVJMZmp3YXVDV2lsaXBoWnJfbEpQM0ZPTW0tUERzc2xRMGhCb3FYOTR0N2RqanhzUQ?oc=5"
+    },
     {
       "id": "news-1x8x37",
       "kind": "news",
@@ -586,6 +628,74 @@
       }
     },
     {
+      "id": "gdelt-1333311069",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T03:00:00.000Z",
+      "description": "Disapproval — Saudi Arabia → Yemen near Yemen. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.zawya.com/en/capital-markets/mideast-stocks-gulf-bourses-slide-as-hormuz-tensions-and-houthi-strikes-rattle-traders-2277612",
+      "gdelt": {
+        "globalEventId": "1333311069",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.25,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333312017",
+      "kind": "event",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T00:00:00.000Z",
+      "observedAt": "2026-11-16T03:15:00.000Z",
+      "description": "Demand — Saudi Arabia → Government near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Demand (GDELT 100)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.mangalorean.com/houthis-advance-to-positions-70-km-from-yemens-aden/",
+      "gdelt": {
+        "globalEventId": "1333312017",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -4.76,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-1t5tkir",
       "kind": "news",
       "date": "2026-11-15",
@@ -607,25 +717,6 @@
       "lat": 12.6,
       "lng": 43.4,
       "coordsNote": "Headline gazetteer match: \"Bab el-Mandeb\" (region); verify via source article."
-    },
-    {
-      "id": "news-33t1yg",
-      "kind": "news",
-      "date": "2026-11-15",
-      "isoDate": "2026-11-15T23:11:30.000Z",
-      "description": "Iran Update, November 15, 2026 - Institute for the Study of War (Institute for the Study of War, 2026-11-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Institute for the Study of War",
-      "axis": "Other",
-      "tags": [
-        "Institute for the Study of War",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Institute for the Study of War",
-      "source": "Institute for the Study of War",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYkpGTlg3ekg1dWVwU1BicDN1WWxTTFpxRENpaGxnQ0IzaFFaVEt4SHF1UjhXSE5aNk84UlF5TXZhQ2QxYjhVSFdLQnJyV2RJVFhsMXNJOVJMZmp3YXVDV2lsaXBoWnJfbEpQM0ZPTW0tUERzc2xRMGhCb3FYOTR0N2RqanhzUQ?oc=5"
     },
     {
       "id": "news-5rpcug",
@@ -651,25 +742,6 @@
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
     },
     {
-      "id": "news-q2ic8t",
-      "kind": "news",
-      "date": "2026-11-15",
-      "isoDate": "2026-11-15T22:26:25.000Z",
-      "description": "Iran Update, November 15, 2026 - Critical Threats (Critical Threats, 2026-11-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Critical Threats",
-      "axis": "Other",
-      "tags": [
-        "Critical Threats",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Critical Threats",
-      "source": "Critical Threats",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOR2NuR0hQOWU3V0xBMGU2aEdHTFdMZGgzYnY0YXBJaks1T202UWVrb0QxUmdLTHBVMXppNU9XQTJOVDlBY1VqM3ZITnp5RXkzS1pjelVOQzhaYlo4ZVo3VU56RENyU1RHSExSOFZEbmVQOExHTTVEMDdtejd6dzlCNEJHX2VhMUVCRWtR?oc=5"
-    },
-    {
       "id": "news-19ra0iq",
       "kind": "news",
       "date": "2026-11-15",
@@ -687,6 +759,25 @@
       "locationStr": "Fox News",
       "source": "Fox News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNWFwSG1nWWQtQk4wQ01GS3NiSTFEQVhUOE5KbDdSLTdZUDlzaDNzeFhqU0ZJeXV2NU5tS3Rpc0ppdk1jamN2UUthQmFDQVVrSjh4UlBMZUxhUVN5b2JHU1NyQjlNYlp3bldwdzhLVVpyS3cwM3pnSFpqRTR6QUdsNWtkODV1S1c2R2dEUWNnS2dVZ3NGUl9nZGRR?oc=5"
+    },
+    {
+      "id": "news-q2ic8t",
+      "kind": "news",
+      "date": "2026-11-15",
+      "isoDate": "2026-11-15T21:48:43.000Z",
+      "description": "Iran Update, November 15, 2026 - Critical Threats (Critical Threats, 2026-11-15. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Critical Threats",
+      "axis": "Other",
+      "tags": [
+        "Critical Threats",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Critical Threats",
+      "source": "Critical Threats",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOR2NuR0hQOWU3V0xBMGU2aEdHTFdMZGgzYnY0YXBJaks1T202UWVrb0QxUmdLTHBVMXppNU9XQTJOVDlBY1VqM3ZITnp5RXkzS1pjelVOQzhaYlo4ZVo3VU56RENyU1RHSExSOFZEbmVQOExHTTVEMDdtejd6dzlCNEJHX2VhMUVCRWtR?oc=5"
     },
     {
       "id": "news-1vyml7d",
@@ -738,7 +829,7 @@
       "id": "news-1pg2nb6",
       "kind": "news",
       "date": "2026-11-15",
-      "isoDate": "2026-11-15T20:52:58.000Z",
+      "isoDate": "2026-11-15T20:55:49.000Z",
       "description": "Saudi ships face new hurdles after Houthis win back Bab el-Mandeb strait - TradeWinds News (TradeWinds News, 2026-11-15. Headline + link only.)",
       "type": "other",
       "action": "News report",
