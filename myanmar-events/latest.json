@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "myanmar",
-  "collectedAt": "2026-11-17T21:36:23.625Z",
+  "collectedAt": "2026-11-17T22:42:03.197Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 24
+      "count": 3
     },
     {
       "id": "irrawaddy",
@@ -66,8 +66,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 244,
+  "count": 248,
   "events": [
+    {
+      "id": "news-1qt1vk",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T21:44:01.000Z",
+      "description": "Myanmar's president addresses parliamentary committee on constitutional amendments - ConstitutionNet (ConstitutionNet, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ConstitutionNet",
+      "axis": "Other",
+      "tags": [
+        "ConstitutionNet",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "ConstitutionNet",
+      "source": "ConstitutionNet",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRHdzOUVsWU12aDJ1X29Vc0Y5YUF0ZGp1bVNINmliQW10ajlKZUIyT2RJSnFoZDVKM0NuNTRKYk5zZHpjU2xBM3lVbU9hYTB6QW10ZUJNT1VsakxYNlQyS3lJRUlKc3Jvd0xPSk1EdXk4MGtaUHZFT1pGUGc5ZUREV1Z5LVlmSTZ2RktqeUdaeC1YSUEwOUNBcU1kUmlxQjJjZ1h1MjZ1elRjdWZnTUJIUA?oc=5"
+    },
     {
       "id": "news-1cnry8z",
       "kind": "news",
@@ -1929,6 +1948,108 @@
         "quadClass": 4,
         "goldstein": -9.5,
         "tone": -10.62,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333664338",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T21:45:00.000Z",
+      "description": "Fight — Myanmar → Unspecified near Kuki, Sagain, Myanmar. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.3667,
+      "lng": 94.8167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kuki, Sagain, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thesangaiexpress.com/Encyc/2026/11/18/brigadier-l-ibotombi-singh-ysm-retired-out-of-a-total-state-population-of-332-lakh-the-density-of-population-b.html",
+      "gdelt": {
+        "globalEventId": "1333664338",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.82,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333664341",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T21:45:00.000Z",
+      "description": "Fight — Myanmar → Naga near Kuki, Sagain, Myanmar. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.3667,
+      "lng": 94.8167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kuki, Sagain, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thesangaiexpress.com/Encyc/2026/11/18/brigadier-l-ibotombi-singh-ysm-retired-out-of-a-total-state-population-of-332-lakh-the-density-of-population-b.html",
+      "gdelt": {
+        "globalEventId": "1333664341",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.82,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333664758",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T21:45:00.000Z",
+      "description": "Fight — Naga → Myanmar near Kuki, Sagain, Myanmar. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.3667,
+      "lng": 94.8167,
+      "action": "Fight (GDELT 190)",
+      "actor": "Naga",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kuki, Sagain, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thesangaiexpress.com/Encyc/2026/11/18/brigadier-l-ibotombi-singh-ysm-retired-out-of-a-total-state-population-of-332-lakh-the-density-of-population-b.html",
+      "gdelt": {
+        "globalEventId": "1333664758",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.82,
         "mentions": 6,
         "sources": 1
       }
