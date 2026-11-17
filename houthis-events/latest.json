@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-17T03:31:22.524Z",
+  "collectedAt": "2026-11-17T04:49:46.845Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 17
+      "count": 3
     },
     {
       "id": "gcaptain",
@@ -33,9 +33,9 @@
     {
       "id": "gnews-shipping",
       "url": "https://news.google.com/rss/search?q=Red%20Sea%20shipping%20Houthi%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-shipping request failed with HTTP 429"
     },
     {
       "id": "splash247",
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 441,
+  "count": 447,
   "events": [
+    {
+      "id": "news-uoatj8",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T04:26:06.000Z",
+      "description": "Why Trump’s midterm loss could aid Houthi advance - The Australian (The Australian, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Australian",
+      "axis": "Other",
+      "tags": [
+        "The Australian",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Australian",
+      "source": "The Australian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNal9TUUpfUGd4RWlIWmI5X1ppazFhU1N5ZHJWdGhvMVhmNmtJN2NVZVdKbml5b2RkTy1pX3p4RFhBaF9pOHVrSWFtUlBYczVpXzhra0ttS0FGQVlKNGJmMlJwLWpKajlzNmFUdFEzWEFoZHNLMVlJRm9yWEd3cm00Xy14LUhlSlY4MWhlNGx0R3hhVEYzY05iWlNHMEpkRjg2Y2N5cTVCd0ZBVmdyR1Q2X1JqaEg4ejlvRTVjcEpBbjk2YTdma08yWXpCQVFvc0ZCZUhPX2pSSHFnWGROa19PNk5CQzlPZ0E?oc=5"
+    },
     {
       "id": "news-15mf8sb",
       "kind": "news",
@@ -128,7 +147,7 @@
       "id": "news-gk0lsg",
       "kind": "news",
       "date": "2026-11-17",
-      "isoDate": "2026-11-17T00:55:27.000Z",
+      "isoDate": "2026-11-17T00:38:46.000Z",
       "description": "Iran Update, November 16, 2026 - Critical Threats (Critical Threats, 2026-11-17. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -484,6 +503,108 @@
       }
     },
     {
+      "id": "gdelt-1333505606",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:00:00.000Z",
+      "description": "Fight — Government → Yemen near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 192)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.zerohedge.com/geopolitical/king-salman-fires-commander-anti-houthi-coalition-amid-disastrous-setbacks",
+      "gdelt": {
+        "globalEventId": "1333505606",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -4.66,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333507283",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:15:00.000Z",
+      "description": "Fight — Iran → Yemen near Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Fight (GDELT 190)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.santafenewmexican.com/ap/national/third-american-aircraft-carrier-arrives-in-the-middle-east-and-other-mideast-news/article_c7224ec0-39f7-5ed4-acb1-e822829458f0.html",
+      "gdelt": {
+        "globalEventId": "1333507283",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.73,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333507786",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:15:00.000Z",
+      "description": "Fight — Yemen → Iran near Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Fight (GDELT 190)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.santafenewmexican.com/ap/national/third-american-aircraft-carrier-arrives-in-the-middle-east-and-other-mideast-news/article_c7224ec0-39f7-5ed4-acb1-e822829458f0.html",
+      "gdelt": {
+        "globalEventId": "1333507786",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.73,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-1g83pfm",
       "kind": "news",
       "date": "2026-11-17",
@@ -713,6 +834,25 @@
       "sourceUrl": "https://gcaptain.com/armed-skiff-approaches-tanker-far-out-in-arabian-sea/"
     },
     {
+      "id": "news-8lplwt",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T19:02:57.000Z",
+      "description": "Cargo ship sinks in Bulgaria's Black Sea after reported drone attack, all 12 crew rescued - The Kyiv Independent (The Kyiv Independent, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "The Kyiv Independent",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Kyiv Independent",
+      "source": "The Kyiv Independent",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUkxbHJEb0traG93eGQwTHI1LTJqWnpDWDZLc29jdm5heHBSR3RGZXlFcVVxT2xzWFRMNzlELW9wQU4wQ0VHV3ZvZXFHSVB5dlNoMVpjMHprUkZyTThtNkx1UEpSVy1FQ2s4TEJXR0haQnhQSHFIT3o1NDdfNTRMbUJ4a0hWbGpXd0JnaDgwUDMxNzF2RWpSWEJ4aXVIdEdTbEtkdnowY0t3Y3dLXzJQUDhENjZUTTQ?oc=5"
+    },
+    {
       "id": "news-9e72ke",
       "kind": "news",
       "date": "2026-11-16",
@@ -755,19 +895,19 @@
       "kind": "news",
       "date": "2026-11-16",
       "isoDate": "2026-11-16T18:22:30.000Z",
-      "description": "Yemen: Anti-Houthi forces pull back from Bab el-Mandeb Strait as rebels advance towards Aden - DW.com (DW.com, 2026-11-16. Headline + link only.)",
+      "description": "Yemen: Anti-Houthi forces pull back from Bab el-Mandeb Strait as rebels advance towards Aden - DW (DW, 2026-11-16. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "DW.com",
+      "actor": "DW",
       "axis": "Other",
       "tags": [
-        "DW.com",
+        "DW",
         "headline",
         "headline-geocoded"
       ],
       "coordsTier": "approximate",
       "locationStr": "Bab el-Mandeb",
-      "source": "DW.com",
+      "source": "DW",
       "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTS1tSGlzRkpkUW5oZzB4LTdKQllabHFIOUczNV9WeXMwLWJJOEhTN2RaQVVKbGowMjdMbXFydkluV0VUcDZ4OS1SNXd0azJXVmhZMjVtZDBGZjFZakR6Z05xajNRQ0JKandKYklnbVJ5YnFrbXFtbzhWZnlIZTZoLVY4UVVnSUVOMk5KOWV30gGOAUFVX3lxTE4xUFgzZURkM3gtYjlndThTLXk0WUVpT1VsTVJqeUVZbE5RUHRYdWtJUFVFM0hUcWlMcGVkcGJxSVlYTWNwVTd3NVo2ZXBKQW1YU3VEV3pXelY3VThVSzZGYk9SQm4xZWt4aGRMLWtuYUN1dkl6SUhIZnQwd1JhT0s1UDhDbERCb3oyMUtmYnc?oc=5",
       "lat": 12.6,
       "lng": 43.4,
@@ -1340,6 +1480,25 @@
       "lat": 15.5,
       "lng": 41.5,
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+    },
+    {
+      "id": "news-1pnf523",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T06:39:11.000Z",
+      "description": "Middle East latest: USS Theodore Roosevelt aircraft carrier arrives in region - The National (The National, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The National",
+      "axis": "Other",
+      "tags": [
+        "The National",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The National",
+      "source": "The National",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWXQ4WVBBcmQ5UDdnZzk1d0FuNW0zZHJRYnFVXy16eWEwYlM0RzBiRzRScm1TN2doRW1DTUJsVDZjbFc4bVRXdUFCLVF4T3hTR3ZfSllLQnhMTFFldkk2OFZQdm9VQnR2d2Vwdld2S0N6Z3Z5UkU0ZkRHOFByX1o0MERfQWdwdUF1WHhFYVN6ZzVJb0tqTnFOM3F3?oc=5"
     },
     {
       "id": "news-1s8dvnm",
