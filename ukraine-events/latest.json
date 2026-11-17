@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "ukraine",
-  "collectedAt": "2026-11-17T03:30:44.991Z",
+  "collectedAt": "2026-11-17T04:44:20.487Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 81
+      "count": 11
     },
     {
       "id": "kyiv-independent",
@@ -30,8 +30,9 @@
     {
       "id": "gnews-strikes",
       "url": "https://news.google.com/rss/search?q=Ukraine%20drones%20OR%20missiles%20OR%20Kyiv%20strike&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-strikes request failed with HTTP 429"
     },
     {
       "id": "kyiv-post",
@@ -43,7 +44,7 @@
       "id": "ukrinform-en",
       "url": "https://www.ukrinform.net/rss/block-lastnews",
       "status": "ok",
-      "count": 26
+      "count": 25
     },
     {
       "id": "interfax-ukraine",
@@ -99,6 +100,185 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-df2e64",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T04:33:06.000Z",
+      "description": "The Latest: Trump says he plans to talk about war in Ukraine during meeting with Xi and Putin - Dallas News (Dallas News, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Dallas News",
+      "axis": "Other",
+      "tags": [
+        "Dallas News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Dallas News",
+      "source": "Dallas News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRE1yeHdOaVRERGV1WVpJaWRRdHE1ck1HdTNOSWZoY2NCNEtZVlZyS1lud2tFYm1Cb04xc3RHTzAycmIwYm8xdUNXZGZmSnRsWUdRS3U1WnQxQjV6NndIc0VxaThuTmtCSW1HS0RuLWRaQVZFbTZObUFiX1NRVlRhenI5a1hObURmOWtERF9kVk9VajVGSUxKUUtaLUNzam5XTTQyMG5NUjZUMlVtMnc?oc=5"
+    },
+    {
+      "id": "news-10k3e2j",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T04:24:00.000Z",
+      "description": "Evacuation continues in 96 settlements in Kharkiv region (Ukrinform, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrinform",
+      "axis": "Other",
+      "tags": [
+        "Ukrinform",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kharkiv region",
+      "source": "Ukrinform",
+      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4185379-evacuation-continues-in-96-settlements-in-kharkiv-region.html",
+      "lat": 49.99,
+      "lng": 36.23,
+      "coordsNote": "Headline gazetteer match: \"Kharkiv\" (region); verify via source article."
+    },
+    {
+      "id": "news-1krjyk6",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T04:23:49.000Z",
+      "description": "Fire reported at major Russian petrochemical complex in Bashkortostan amid drone attack (Kyiv Independent, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Independent",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Independent",
+      "source": "Kyiv Independent",
+      "sourceUrl": "https://kyivindependent.com/fire-reported-at-major-russian-petrochemical-complex-in-bashkortostan-amid-drone-attack/"
+    },
+    {
+      "id": "news-189ohn6",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T04:23:31.000Z",
+      "description": "Kyiv metro's above-ground infrastructure damaged in Russian attack, Green Line services suspended (Ukrinform, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrinform",
+      "axis": "Other",
+      "tags": [
+        "Ukrinform",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrinform",
+      "source": "Ukrinform",
+      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4185373-kyiv-metros-aboveground-infrastructure-damaged-in-russian-attack-green-line-services-suspended.html"
+    },
+    {
+      "id": "news-qu3kue",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T04:02:56.000Z",
+      "description": "Ukraine war live: Explosions in Kyiv hours after Trump says Putin ‘backing down’ - The Independent (The Independent, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Independent",
+      "axis": "Other",
+      "tags": [
+        "The Independent",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kyiv",
+      "source": "The Independent",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ3BhOWZxdUNZd3BrQXA1STV6cnFEbVBFVlRqSTJnVTQ1dGZsb1I3V1FqbWdIUTJUMUt4dEV0VmZMNnFJRFdEZHdiOVBfbVEzcl9kbDl4ekNFSXI4MnZGcGZNQmNZMC0wNi1tbVNqSG90aVEzaFVSOWNkX2M0M253MElkbnZERklEMmxGMzJMcTg4dXZSRU9TVFNDM2ZCQkMyS2hFc0NhTlVIY0xrelFZ?oc=5",
+      "lat": 50.45,
+      "lng": 30.52,
+      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
+    },
+    {
+      "id": "news-1l4327v",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T03:46:56.000Z",
+      "description": "Two major Kyiv bridges hit in Russian attack, mayor says - BBC (BBC, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BBC",
+      "axis": "Other",
+      "tags": [
+        "BBC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "BBC",
+      "source": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSRU00UVItWVBVOXhnT1ozc2E0NXk5V3VNTlN4eERVeGVRRlJKc3dHLUMxbTRISm5RbEhoeEJUdEhCbldiU0txRExramJVWF9OcVdIV3dBOEo3czA?oc=5"
+    },
+    {
+      "id": "news-ihlw56",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T03:31:00.000Z",
+      "description": "Scheduled power outages to affect some regions of Ukraine on Tuesday (Ukrinform, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ukrinform",
+      "axis": "Other",
+      "tags": [
+        "Ukrinform",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ukrinform",
+      "source": "Ukrinform",
+      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4185347-scheduled-power-outages-to-affect-some-regions-of-ukraine-on-tuesday.html"
+    },
+    {
+      "id": "news-1xehqu3",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T03:29:40.000Z",
+      "description": "Russian Aircraft Violate Japanese Airspace, Triggering Fighter Jet Scramble (Kyiv Post, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Post",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Post",
+      "source": "Kyiv Post",
+      "sourceUrl": "https://www.kyivpost.com/post/90302"
+    },
+    {
+      "id": "news-azd6rq",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T03:26:35.000Z",
+      "description": "South Korea scrambles fighter jets after Russian military aircraft enter air defense zone (Kyiv Independent, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Independent",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Independent",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Independent",
+      "source": "Kyiv Independent",
+      "sourceUrl": "https://kyivindependent.com/south-korea-scrambles-fighter-jets-after-russian-military-aircraft-enter-air-defense-zone/"
+    },
     {
       "id": "news-8u2r5t",
       "kind": "news",
@@ -207,25 +387,6 @@
       "coordsNote": "Headline gazetteer match: \"Zaporizhzhia\" (city); verify via source article."
     },
     {
-      "id": "news-tnco4u",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T02:38:28.000Z",
-      "description": "Ukraine war latest: Kyiv mayor warns ballistic missile attack is under way - Sky News (Sky News, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Sky News",
-      "axis": "Other",
-      "tags": [
-        "Sky News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Sky News",
-      "source": "Sky News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN194QW0tb1BJblZuN0dybWtuLVIwdVNmdVgxWE9Kb1paNlFGWmFpSmk1QXg0RW1id0tBV1hXYldsMkdYZlZuanQxc2dVTXZRYk1jRGNZTjR3NVFTVzBJQWpBSXJVYXoyaDZ0cEdISnZRdDBJZ3lmTGJjaV9ibEdOcllDSmhfUzc5Si1sdDVTQQ?oc=5"
-    },
-    {
       "id": "news-1ewnngc",
       "kind": "news",
       "date": "2026-11-17",
@@ -304,29 +465,6 @@
       "locationStr": "Kyiv Independent",
       "source": "Kyiv Independent",
       "sourceUrl": "https://kyivindependent.com/estonia-plans-to-send-over-70-locomotives-to-ukraine-first-deliveries-possible-this-year/"
-    },
-    {
-      "id": "news-qu3kue",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T02:03:56.000Z",
-      "description": "Ukraine war live: Explosions in Kyiv hours after Trump says Putin ‘backing down’ - The Independent (The Independent, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Independent",
-      "axis": "Other",
-      "tags": [
-        "The Independent",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "The Independent",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ3BhOWZxdUNZd3BrQXA1STV6cnFEbVBFVlRqSTJnVTQ1dGZsb1I3V1FqbWdIUTJUMUt4dEV0VmZMNnFJRFdEZHdiOVBfbVEzcl9kbDl4ekNFSXI4MnZGcGZNQmNZMC0wNi1tbVNqSG90aVEzaFVSOWNkX2M0M253MElkbnZERklEMmxGMzJMcTg4dXZSRU9TVFNDM2ZCQkMyS2hFc0NhTlVIY0xrelFZ?oc=5",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
     },
     {
       "id": "news-57yzg4",
@@ -420,7 +558,7 @@
       "id": "news-16jjkzt",
       "kind": "news",
       "date": "2026-11-17",
-      "isoDate": "2026-11-17T00:45:44.000Z",
+      "isoDate": "2026-11-17T00:52:46.000Z",
       "description": "Ukraine holds peace talks with US, Europe as conflict escalates - Al Jazeera (Al Jazeera, 2026-11-17. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -2723,6 +2861,380 @@
       }
     },
     {
+      "id": "gdelt-1333505106",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:00:00.000Z",
+      "description": "Disapproval — Unspecified → Russian forces near Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://krdo.com/news/national-world/cnn-world/2026/11/16/estonia-to-shut-its-border-with-russia-blaming-the-kremlin-for-failed-arson-attack/",
+      "gdelt": {
+        "globalEventId": "1333505106",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.09,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333505108",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:00:00.000Z",
+      "description": "Threat — Unspecified → Russian forces near Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://krdo.com/news/national-world/cnn-world/2026/11/16/estonia-to-shut-its-border-with-russia-blaming-the-kremlin-for-failed-arson-attack/",
+      "gdelt": {
+        "globalEventId": "1333505108",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -6.09,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333505890",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:00:00.000Z",
+      "description": "Protest — Protester → Tagalog near Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Protest (GDELT 140)",
+      "actor": "Protester",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://tribune.net.ph/2026/11/17/trump-en-route-to-manila-for-asean-summit",
+      "gdelt": {
+        "globalEventId": "1333505890",
+        "eventCode": "140",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -0.69,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333505992",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:00:00.000Z",
+      "description": "Threat — Russian forces → Unspecified near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Threat (GDELT 138)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/17/ukraine-war-briefing-crimea-bridge-attacked-again-after-russia-strikes-major-kyiv-bridges",
+      "gdelt": {
+        "globalEventId": "1333505992",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -0.93,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333505993",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:00:00.000Z",
+      "description": "Fight — Russian forces → Unspecified near Crimea, Krym, Avtonomna Respublika, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 45,
+      "lng": 34,
+      "action": "Fight (GDELT 190)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Crimea, Krym, Avtonomna Respublika, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.rte.ie/news/2026/1117/1599488-russia-ukraine-strikes/",
+      "gdelt": {
+        "globalEventId": "1333505993",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.43,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333506354",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:00:00.000Z",
+      "description": "Demand — Tagalog → Protester near Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Demand (GDELT 1053)",
+      "actor": "Tagalog",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://tribune.net.ph/2026/11/17/trump-en-route-to-manila-for-asean-summit",
+      "gdelt": {
+        "globalEventId": "1333506354",
+        "eventCode": "1053",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -0.69,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333506355",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:00:00.000Z",
+      "description": "Demand — Tagalog → Protester near Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Demand (GDELT 1053)",
+      "actor": "Tagalog",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://tribune.net.ph/2026/11/17/trump-en-route-to-manila-for-asean-summit",
+      "gdelt": {
+        "globalEventId": "1333506355",
+        "eventCode": "1053",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -0.69,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333506361",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:00:00.000Z",
+      "description": "Coercion — Tagalog → Protester near Ukraine. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Coercion (GDELT 175)",
+      "actor": "Tagalog",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://tribune.net.ph/2026/11/17/trump-en-route-to-manila-for-asean-summit",
+      "gdelt": {
+        "globalEventId": "1333506361",
+        "eventCode": "175",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -0.69,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333507586",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:15:00.000Z",
+      "description": "Fight — Russian forces → Ukraine near Kyiv, Kyyiv, Misto, Ukraine. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 50.4333,
+      "lng": 30.5167,
+      "action": "Fight (GDELT 195)",
+      "actor": "Russian forces",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kyiv, Kyyiv, Misto, Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://yalibnan.com/2026/11/17/live-russian-attacks-target-bridges-in-kyiv-knocking-out-heating-and-water/",
+      "gdelt": {
+        "globalEventId": "1333507586",
+        "eventCode": "195",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.26,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333509111",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:30:00.000Z",
+      "description": "Disapproval — The Us → Moscow near Ukraine. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "The Us",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/17112026-amid-war-strains-washington-and-moscow-experiment-with-a-new-tactic-analysis/",
+      "gdelt": {
+        "globalEventId": "1333509111",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.72,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333509112",
+      "kind": "event",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T00:00:00.000Z",
+      "observedAt": "2026-11-17T04:30:00.000Z",
+      "description": "Disapproval — The Us → Russian forces near Ukraine. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 49,
+      "lng": 32,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "The Us",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Ukraine",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/17112026-amid-war-strains-washington-and-moscow-experiment-with-a-new-tactic-analysis/",
+      "gdelt": {
+        "globalEventId": "1333509112",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.72,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-g355he",
       "kind": "news",
       "date": "2026-11-16",
@@ -2769,7 +3281,7 @@
       "kind": "news",
       "date": "2026-11-16",
       "isoDate": "2026-11-16T22:49:40.000Z",
-      "description": "Russian Missiles Hit Two Major Kyiv Bridges, Damage Critical Infrastructure After Zelensky’s Warning (Kyiv Post, 2026-11-16. Headline + link only.)",
+      "description": "Russian Missiles Hit 2 Major Kyiv Bridges, Damage Critical Infrastructure After Zelensky’s Warning (Kyiv Post, 2026-11-16. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Kyiv Post",
@@ -4877,6 +5389,25 @@
       "locationStr": "Interfax-Ukraine",
       "source": "Interfax-Ukraine",
       "sourceUrl": "https://en.interfax.com.ua/news/general/1237341.html"
+    },
+    {
+      "id": "news-ru201v",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T16:07:35.000Z",
+      "description": "EU accuses Russia of stalling Ukraine peace talks to target power plants as winter nears - PBS (PBS, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "PBS",
+      "axis": "Other",
+      "tags": [
+        "PBS",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "PBS",
+      "source": "PBS",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTUpJX2MyV3JUQ1FMUnhnTGRDNHhyWEl0amZ6bzJOQkdGejNpRUZjbnM5NkNscktTSlZOZFN3aEg2ZkcybHNmdl9XbDd1SjRpd1dNM3p3cDJtREU2WXNiQzNOWURORHpBM1UwV0F2enRCbmVBTmg4dzRYLVVZZmR3WGF5NWd6Snc4bHp2SnhjNk1IcXZhSTFmazBoZVBQMEpoeFhHaFlzWEp3c3k1amFKRXNjYVduenlzbHFVVmJZbmXSAcYBQVVfeXFMT3dHcGNvRkNfOE51TUxlcUN4dmRyNlJLdEhXaUk2WmNlUmFHWUl0NkI4NjFVY2xpTndtdFVQei1OaUhpN2NxNmVQVGhwVmpUN0hmSXlhc1Y2dEp5SDQ4Nng4ZzBJZVU3ejJtVDdnVGdFY2s5VWNqaFN1WTVUZ3dkTkh5Yk1FYnluYXo0T3NyOE5EV0lFSmF3UHlSUnp5NjJXNFhLdHFESDdxRlFsVEtZbmxCMkVjWm1aOWpqOXNLUXM4N01CTlJR?oc=5"
     },
     {
       "id": "news-1epg1t7",
@@ -8516,6 +9047,25 @@
       "coordsNote": "Headline gazetteer match: \"Dnipro\" (city); verify via source article."
     },
     {
+      "id": "news-tnco4u",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T07:08:28.000Z",
+      "description": "Ukraine war latest: Kyiv mayor warns ballistic missile attack is under way - Sky News (Sky News, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Sky News",
+      "axis": "Other",
+      "tags": [
+        "Sky News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Sky News",
+      "source": "Sky News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN194QW0tb1BJblZuN0dybWtuLVIwdVNmdVgxWE9Kb1paNlFGWmFpSmk1QXg0RW1id0tBV1hXYldsMkdYZlZuanQxc2dVTXZRYk1jRGNZTjR3NVFTVzBJQWpBSXJVYXoyaDZ0cEdISnZRdDBJZ3lmTGJjaV9ibEdOcllDSmhfUzc5Si1sdDVTQQ?oc=5"
+    },
+    {
       "id": "news-wlnoy5",
       "kind": "news",
       "date": "2026-11-16",
@@ -9265,6 +9815,25 @@
       "locationStr": "The SOFX Report",
       "source": "The SOFX Report",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVzNOeW9HeU5oYkFmMlljd1ozZGJMaE9vbUViMUlzREp3UFgwbDZQZlpUVldhWUtCcDMzT2ZMaHE1ZkhTQ1lCdlBUWTl1NmMzN2RRS09heTFqQXhEYzhRN1FVWGpOSG1iZllCdGo3aGRkWDVPQ3IxSFV3X1BkXzJBcmZfQVVLUXd6WHNSa3J3aFNQeEtCRThieG9IYmlqQXJLOHZtbll1ejk?oc=5"
+    },
+    {
+      "id": "news-wm0o6",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T04:00:00.000Z",
+      "description": "First Person: Managing risk on Ukraine’s frontline - UN News (UN News, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "UN News",
+      "axis": "Other",
+      "tags": [
+        "UN News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "UN News",
+      "source": "UN News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Tc0gxZ0xlR201Z25oa1VxRWh1VFZnYkdtMGUyTFRIejZvZm02NWM4UUFIcWVPR1MwUmtRRUJnUUlpTjRTQ2FtU0Rtc0dSRFpwMGYwZXVzOA?oc=5"
     },
     {
       "id": "news-1ex6822",
@@ -41471,429 +42040,6 @@
       "lat": 48.53168,
       "lng": 35.87037,
       "coordsNote": "OSM geocode: matched \"Pavlohrad\" → Pavlohrad, Павлоградська міська громада, Pavlohrad Raion; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-wqdufl",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T14:56:00.000Z",
-      "description": "Estonian military reveals details of Ukrainian drone strike on Russian missile ship in Gulf of Finland - The New Voice of Ukraine (The New Voice of Ukraine, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New Voice of Ukraine",
-      "axis": "Other",
-      "tags": [
-        "The New Voice of Ukraine",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New Voice of Ukraine",
-      "source": "The New Voice of Ukraine",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRGRScllYSnJ0cE9ZbEJnSmpMVWhhbDdzVzlfSXBXazVvNTVKNW1kdkYyWEw3V2ZQSUhWeTdLMU0zeU5pYzBQLS1keDNZVnUyVmhWWlFaZ0dfbjhXeWRMVmFwYjRjUENZeFh0UnFFbEJIcUMwbEtYd0stTGpldHRLSDFObWlCc2I5aTBycElweFZLRjhzbGFPb0pGajZxZG92ZDMxWU14Y9IBowFBVV95cUxNbF9vbHZVdl9QMURRNF9xc0dSUkNMUk9ta19xNFFkX3pHTlcwVk96eHI4RXJaaXZIdkVtNUZ6UmE4NWExaWNUYlFpekFONC0yQy1ZTFlMMFdLdHhWSDR0bjBiS3czV0tZci01X0hTckxjZ19SdlByS1N2NDZEWGIzdk1QQVJqdFRjc0hlT2tHcVlVMnlfZ1lZRzZQS3BXYXRVcGo0?oc=5"
-    },
-    {
-      "id": "news-d1pkvl",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T14:54:43.000Z",
-      "description": "US asked if Ukraine would give up parts of Donbas for NATO membership, Zelenskyy says - Sky News (Sky News, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Sky News",
-      "axis": "Other",
-      "tags": [
-        "Sky News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Donbas",
-      "source": "Sky News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUFR4U0ZNUWxvdTlBSEY2ckpkZGV5RTRBaTRDZWRPM0s0WmExV1lfM2NNTnVQM3hQWWVBcW1jajVuU1hNREU2M3Z4ZDA3R1dMTjljajBkVkw1ckxLT1VNdDU3aHBvc1JTUmk5UFlTNFBGeVlLbnVDTmNiS3hpaC1nMWJSZ29DckdzY3pVSUFaXzJLMGQxYVJGa0RRVjJlSFJmTl85azVaY1Zpa3pfZnQtRGRwQkZZYTRES0RB?oc=5",
-      "lat": 48.3,
-      "lng": 38.3,
-      "coordsNote": "Headline gazetteer match: \"Donbas\" (region); verify via source article."
-    },
-    {
-      "id": "news-13axi5y",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T14:43:52.000Z",
-      "description": "Bulgaria cannot provide financial aid to Ukraine but is not obstructing decisions by other states – PM (Interfax-Ukraine, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Interfax-Ukraine",
-      "axis": "Other",
-      "tags": [
-        "Interfax-Ukraine",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Interfax-Ukraine",
-      "source": "Interfax-Ukraine",
-      "sourceUrl": "https://en.interfax.com.ua/news/general/1236615.html"
-    },
-    {
-      "id": "news-1xehp8b",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T14:38:00.000Z",
-      "description": "Poland Declines to Fund US Arms for Ukraine Under PURL (Kyiv Post, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Post",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://www.kyivpost.com/post/90131"
-    },
-    {
-      "id": "news-1cnwo2b",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T14:37:00.000Z",
-      "description": "Zelenskyy: Ukraine needs two and a half times as many F-16s in the air at any one time (Ukrainska Pravda, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/14/8062871/"
-    },
-    {
-      "id": "news-ur09jm",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T14:36:18.000Z",
-      "description": "Ukraine Strikes Key Russian Urals Oil Export Hub and Damages Military Airfield in Lipetsk - UNITED24 Media (UNITED24 Media, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "UNITED24 Media",
-      "axis": "Other",
-      "tags": [
-        "UNITED24 Media",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Lipetsk",
-      "source": "UNITED24 Media",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN09td21oQ2lTanUyNXN4Zlh0RFJ4OGw4bElIOEZVZVpEZGtmZGVKWjBDQjgxaDk1Vi1wLUIzdnQwRXRBbF9JMm1KMWVNc1FaSnVUSWxub1A2eFV4R0k4SnB5RWhsd2RrMmM1ZnR0RUxpbk1mVmdLNjhiWEpnemJ0WGh2aXhjUlM2OTJGcjBCalJ4MzQ4aDJld1RYRXNJdzloN2hfa0VfQ1VrNTlFNmN1eG04ZDlfSExSUmwzcXY3Wk9aMmkwX0hRckJzeEl1TGJfalE?oc=5",
-      "lat": 52.69352,
-      "lng": 39.11227,
-      "coordsNote": "OSM geocode: matched \"Lipetsk\" → Lipetsk Oblast, Central Federal District, Russia; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-pcjuvp",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T14:33:47.000Z",
-      "description": "Vlasne Misto, E-HUB Energy to create decentralised energy island near Kyiv; 1st phase to attract EUR 75 mln in investment (Interfax-Ukraine, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Interfax-Ukraine",
-      "axis": "Other",
-      "tags": [
-        "Interfax-Ukraine",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Kyiv",
-      "source": "Interfax-Ukraine",
-      "sourceUrl": "https://en.interfax.com.ua/news/investments/1236612.html",
-      "lat": 50.45,
-      "lng": 30.52,
-      "coordsNote": "Headline gazetteer match: \"Kyiv\" (city); verify via source article."
-    },
-    {
-      "id": "news-quimlx",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T14:24:00.000Z",
-      "description": "Russian drones attack Naftogaz facility in Poltava region (Ukrinform, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Poltava region",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-ato/4184687-russian-drones-attack-naftogaz-facility-in-poltava-region.html",
-      "lat": 49.59,
-      "lng": 34.55,
-      "coordsNote": "Headline gazetteer match: \"Poltava\" (region); verify via source article."
-    },
-    {
-      "id": "news-1cnwneh",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T14:16:00.000Z",
-      "description": "Russian drone strike kills man on scooter in Zaporizhzhia Oblast (Ukrainska Pravda, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Zaporizhzhia region",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/14/8062868/",
-      "lat": 47.84,
-      "lng": 35.14,
-      "coordsNote": "Headline gazetteer match: \"Zaporizhzhia\" (region); verify via source article."
-    },
-    {
-      "id": "news-1wdns3l",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T14:10:59.000Z",
-      "description": "Air defense forces neutralize 81 out of 96 drones during russian overnight attack; hits recorded at 8 locations - Ukrainian News Agency (Ukrainian News Agency, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainian News Agency",
-      "axis": "Other",
-      "tags": [
-        "Ukrainian News Agency",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainian News Agency",
-      "source": "Ukrainian News Agency",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbWJ3V1RYRG5Cc3FlSjVPc1Uzckg1eXdrY2gtMHc2dHFWUVZQU05mcGdSTzFvVEg1eWMtMFg5dFRLdDZtR3V6cm00UDZ2YnVkd1ZvT1RNcWpRejVfTjY0cnNubG5QNkZiRXdyeDFzRkZxclFHX1VBSFlLWjVhUmFBeVpGVllHd2M0c3E3TGZRR3d1dy1uSGZyYnZYOXJOcE0wRmhzZG5vcmNDMzFhS1lpR1hidXZBVC1vLW11Wmo0RHd2WUZxNkJnSmpCdXdhbGRz0gHTAUFVX3lxTE8yVGphdF9wQTFWY19mNUFjU1VIa1BRbm15WjZPOXZBT05HNjM5eXBybGlOdklhZS1JWFBxNEpESXJiMjZmUURFbXlEdU9nWnNkOGZfdmRLLXlfY2t1UmFwb2xzWVBnSXkwWnRfTnE4VVhteWtzbFMyZ1lvMUFLaFFjelJCZ3JyWklpVWVOb3NHVGVpVnI0TmZ5MXQwYVNZUWhBTGJmcjRac2pQTW1FUzdTSF90dlRYZ2QtT0gwQkMwck11M19QWWR2QzkzOHY5WmRUbjQ?oc=5"
-    },
-    {
-      "id": "news-1cnwncn",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T13:56:00.000Z",
-      "description": "Ukraine's Security Service strikes key Russian oil export preparation hub (Ukrainska Pravda, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/14/8062866/"
-    },
-    {
-      "id": "news-7sddrb",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T13:56:00.000Z",
-      "description": "Ukraine's Security Service strikes key Russian oil export preparation hub - Українська правда (Українська правда, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Українська правда",
-      "axis": "Other",
-      "tags": [
-        "Українська правда",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Українська правда",
-      "source": "Українська правда",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4Z2xvRXJ3UjB1NExscjhlNGJLWU9nX0NUREpmbVZfZUZwOVRGcnplVVFIV3VjbldEc3k5d2JYN2w3Si00SU1EdHNPVGNLRi0yXzdFMVpnYlFUVmtMQTVCR2ZVLWzSAXBBVV95cUxPUjQ2cnlqd0hHUXVzYklsTjlWRFdsVVRRR0ZrUTBOYXpwaUpEZ185NjJQRTc2MXJIU2l4OUx1ZTNJZHFlTV9WcjJtNlpTMkFGZHdDTlBxNVVQSUhMdWZ6THR0Y2VGNElSTTlnWkl1YnV0?oc=5"
-    },
-    {
-      "id": "news-17mb150",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T13:51:27.000Z",
-      "description": "US floated NATO membership for Ukraine, Zelenskyy says - ABC News & Headlines – Australian Broadcasting Corporation (ABC News &amp; Headlines – Australian Broadcasting Corporation, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ABC News &amp; Headlines – Australian Broadcasting Corporation",
-      "axis": "Other",
-      "tags": [
-        "ABC News &amp; Headlines – Australian Broadcasting Corporation",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ABC News &amp; Headlines – Australian Broadcasting Corporation",
-      "source": "ABC News &amp; Headlines – Australian Broadcasting Corporation",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd0Yta2l6WGZyVmxzZFdpYTNDSWRxSWszWUJIQTVCTS11Z3RfNkxpWGF5ckRVaHdIQXZXeWlyU3pQaHhHekhMOGJYMVhQbGt1dlhDa2hsU2U2bW9EUlZQLVVnS1V4QnhRWElFS1NvbFpnQ2p5OFlTOVRJUVdUUmFYMXYxVkRmd3VQMUVNV1JNREZLcUhwblBqQUhtNGJkQW9kN1lOWkpNSQ?oc=5"
-    },
-    {
-      "id": "news-1n2988d",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T13:49:28.000Z",
-      "description": "U.S. floated idea of Ukraine ceding Donbas for NATO membership, Zelenskyy says - NBC News (NBC News, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Donbas",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQjVFVEFtdTBKVzFnT2s3RkJrS2lpYXZyalJwZWdpc1U1aTJxT2s1NnRmNEVkUXQ1X3FPY0FVWE9oMVU3Ung4STZvZzJCNnpaMFpQcGV4YVRUZV84Q1lMbHZ5MnBXaUY4LWJIN1BwMVNOY05RUFNzRHI3YWh2WVJrUVZ3TjEzMHR3Uld6MkNrTFFjaWttUkxjYmVPMWV5YW45YnRmaEo3S3I5aHZLMGRnN09R?oc=5",
-      "lat": 48.3,
-      "lng": 38.3,
-      "coordsNote": "Headline gazetteer match: \"Donbas\" (region); verify via source article."
-    },
-    {
-      "id": "news-1xehp7m",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T13:44:00.000Z",
-      "description": "Ukraine’s FREYJA Anti-Ballistic Missile Ready as Denmark Completes Radar (Kyiv Post, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Post",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://www.kyivpost.com/post/90129"
-    },
-    {
-      "id": "news-1lhprji",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T13:29:02.000Z",
-      "description": "Ukraine hits key Russian oil hub, military airbase in latest long-range strikes - The Kyiv Independent (The Kyiv Independent, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Kyiv Independent",
-      "axis": "Other",
-      "tags": [
-        "The Kyiv Independent",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Kyiv Independent",
-      "source": "The Kyiv Independent",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPREdVN2lkREJIaFF5ZDlqa0NIaGhxZnpnMXQ1OHhIa1NyaHo4T2JkcGIzdTJ1T051WEF4M05UTFp2ODQ0ZkN3ZnNQWW5IN0h4WThtY0hOcUZwWFJJWGtrUlhsVGwwS2hvc2FDNnRNb09KSVpMWW1EQ0hycEJ1VURRNmtFZUthdnNySzFqQWgyTGRybVFhSl80NkY3WXJGcDNEa3g3RE9SNzM3NVU?oc=5"
-    },
-    {
-      "id": "news-1suepig",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T13:29:02.000Z",
-      "description": "Ukraine hits key Russian oil hub, military airbase in latest long-range strikes (Kyiv Independent, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Independent",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Independent",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Independent",
-      "source": "Kyiv Independent",
-      "sourceUrl": "https://kyivindependent.com/ukraine-hits-key-russian-oil-hub-military-airbase-in-latest-long-range-strikes/"
-    },
-    {
-      "id": "news-gnf8z7",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T13:28:31.000Z",
-      "description": "Ukrainian defenders strike Samara LVDC, hangar at Lipetsk-2 airfield (Interfax-Ukraine, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Interfax-Ukraine",
-      "axis": "Other",
-      "tags": [
-        "Interfax-Ukraine",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Interfax-Ukraine",
-      "source": "Interfax-Ukraine",
-      "sourceUrl": "https://en.interfax.com.ua/news/general/1236603.html"
-    },
-    {
-      "id": "news-1cnwn9w",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T13:28:00.000Z",
-      "description": "Zelenskyy: Revising Europe's security architecture would be dangerous (Ukrainska Pravda, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrainska Pravda",
-      "axis": "Other",
-      "tags": [
-        "Ukrainska Pravda",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrainska Pravda",
-      "source": "Ukrainska Pravda",
-      "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/14/8062863/"
-    },
-    {
-      "id": "news-1oi8b91",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T13:28:00.000Z",
-      "description": "Bulgaria halts arms and ammunition supplies to Ukraine from its military stockpiles (Ukrinform, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Ukrinform",
-      "axis": "Other",
-      "tags": [
-        "Ukrinform",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Ukrinform",
-      "source": "Ukrinform",
-      "sourceUrl": "https://www.ukrinform.net/rubric-polytics/4184679-bulgaria-halts-arms-and-ammunition-supplies-to-ukraine-from-its-military-stockpiles.html"
-    },
-    {
-      "id": "news-1xehp7i",
-      "kind": "news",
-      "date": "2026-11-14",
-      "isoDate": "2026-11-14T13:17:00.000Z",
-      "description": "Ukraine, Russia Agree to Swap Up to 1,300 POWs, Europe to Join Talks (Kyiv Post, 2026-11-14. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Kyiv Post",
-      "axis": "Other",
-      "tags": [
-        "Kyiv Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Kyiv Post",
-      "source": "Kyiv Post",
-      "sourceUrl": "https://www.kyivpost.com/post/90125"
     }
   ]
 }
