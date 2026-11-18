@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-11-18T12:07:51.833Z",
+  "collectedAt": "2026-11-18T14:30:10.250Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 226,
-  "outsideTheatreDropped": 1,
+  "coarseGdeltDropped": 221,
+  "outsideTheatreDropped": 2,
   "proposals": [
     {
       "zoneId": "lib-kyiv",
@@ -15,18 +15,23 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 497,
+      "eventCount": 479,
       "kinds": {
-        "other": 317,
-        "combat": 164,
+        "other": 303,
+        "combat": 160,
         "strike": 16
       },
       "tierCounts": {
-        "approximate": 497
+        "approximate": 479
       },
-      "combatCount": 180,
-      "newestIsoDate": "2026-11-18T10:52:14.000Z",
+      "combatCount": 176,
+      "newestIsoDate": "2026-11-18T12:45:00.000Z",
       "samples": [
+        {
+          "id": "news-19okr3a",
+          "isoDate": "2026-11-18T12:45:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4186004-russian-attack-on-kyiv-region-leaves-four-injured-including-child.html"
+        },
         {
           "id": "news-1c2y00o",
           "isoDate": "2026-11-18T10:52:14.000Z",
@@ -36,18 +41,13 @@
           "id": "news-x3ians",
           "isoDate": "2026-11-18T10:52:00.000Z",
           "sourceUrl": "https://www.ukrinform.net/rubric-ato/4185951-agricultural-enterprise-gas-station-damaged-in-russian-attack-on-vinnytsia-region.html"
-        },
-        {
-          "id": "news-1h5zrle",
-          "isoDate": "2026-11-18T10:20:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/18/8063424/"
         }
       ],
       "centroid": {
-        "lat": 50.3208,
-        "lng": 30.0993
+        "lat": 50.3221,
+        "lng": 30.0832
       },
-      "radiusKm": 64.3
+      "radiusKm": 66.6
     },
     {
       "zoneId": "occ-crimea",
@@ -56,16 +56,16 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 192,
+      "eventCount": 191,
       "kinds": {
-        "other": 138,
-        "combat": 47,
+        "other": 140,
+        "combat": 44,
         "strike": 7
       },
       "tierCounts": {
-        "approximate": 192
+        "approximate": 191
       },
-      "combatCount": 54,
+      "combatCount": 51,
       "newestIsoDate": "2026-11-18T11:23:00.000Z",
       "samples": [
         {
@@ -85,10 +85,10 @@
         }
       ],
       "centroid": {
-        "lat": 45.1971,
-        "lng": 34.4567
+        "lat": 45.2,
+        "lng": 34.472
       },
-      "radiusKm": 40.9
+      "radiusKm": 41.9
     },
     {
       "zoneId": "occ-zaporizhzhia",
@@ -97,16 +97,16 @@
         "lat": 47,
         "lng": 35.5
       },
-      "eventCount": 63,
+      "eventCount": 62,
       "kinds": {
         "other": 35,
         "combat": 24,
-        "strike": 4
+        "strike": 3
       },
       "tierCounts": {
-        "approximate": 63
+        "approximate": 62
       },
-      "combatCount": 28,
+      "combatCount": 27,
       "newestIsoDate": "2026-11-18T09:10:37.000Z",
       "samples": [
         {
@@ -126,10 +126,51 @@
         }
       ],
       "centroid": {
-        "lat": 47.8804,
-        "lng": 35.26
+        "lat": 47.8831,
+        "lng": 35.2557
       },
-      "radiusKm": 54.5
+      "radiusKm": 54.9
+    },
+    {
+      "zoneId": "lib-snake",
+      "region": "Snake Island",
+      "center": {
+        "lat": 45.2551,
+        "lng": 30.2033
+      },
+      "eventCount": 43,
+      "kinds": {
+        "other": 20,
+        "combat": 22,
+        "strike": 1
+      },
+      "tierCounts": {
+        "approximate": 43
+      },
+      "combatCount": 23,
+      "newestIsoDate": "2026-11-18T13:41:00.000Z",
+      "samples": [
+        {
+          "id": "news-64sevw",
+          "isoDate": "2026-11-18T13:41:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-polytics/4186028-zelensky-on-strikes-on-odesa-those-who-want-peace-do-not-step-up-killing.html"
+        },
+        {
+          "id": "news-ohbzkt",
+          "isoDate": "2026-11-18T12:37:42.000Z",
+          "sourceUrl": "https://en.interfax.com.ua/news/general/1238575.html"
+        },
+        {
+          "id": "news-9acv85",
+          "isoDate": "2026-11-18T12:03:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4185995-russian-forces-strike-central-odesa-for-third-time-death-toll-rises-to-four.html"
+        }
+      ],
+      "centroid": {
+        "lat": 46.4295,
+        "lng": 30.6503
+      },
+      "radiusKm": 15.2
     },
     {
       "zoneId": "occ-kherson",
@@ -138,18 +179,23 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 41,
+      "eventCount": 39,
       "kinds": {
-        "other": 18,
+        "other": 16,
         "combat": 22,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 41
+        "approximate": 39
       },
       "combatCount": 23,
-      "newestIsoDate": "2026-11-18T02:25:00.000Z",
+      "newestIsoDate": "2026-11-18T13:12:00.000Z",
       "samples": [
+        {
+          "id": "news-1rf20ao",
+          "isoDate": "2026-11-18T13:12:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4186017-situation-for-civilians-in-oleshky-will-worsen-as-russia-increases-troop-presence-press-officer.html"
+        },
         {
           "id": "news-o0tkkg",
           "isoDate": "2026-11-18T02:25:00.000Z",
@@ -159,59 +205,13 @@
           "id": "gdelt-1333682642",
           "isoDate": "2026-11-18T00:00:00.000Z",
           "sourceUrl": "https://www.kyivpost.com/post/90411"
-        },
-        {
-          "id": "gdelt-1333683172",
-          "isoDate": "2026-11-18T00:00:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/90411"
         }
       ],
       "centroid": {
-        "lat": 46.6399,
-        "lng": 32.3956
+        "lat": 46.634,
+        "lng": 32.4109
       },
-      "radiusKm": 28.7
-    },
-    {
-      "zoneId": "lib-snake",
-      "region": "Snake Island",
-      "center": {
-        "lat": 45.2551,
-        "lng": 30.2033
-      },
-      "eventCount": 39,
-      "kinds": {
-        "other": 17,
-        "combat": 21,
-        "strike": 1
-      },
-      "tierCounts": {
-        "approximate": 39
-      },
-      "combatCount": 22,
-      "newestIsoDate": "2026-11-18T11:15:14.000Z",
-      "samples": [
-        {
-          "id": "news-1h9cgio",
-          "isoDate": "2026-11-18T11:15:14.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/general/1238488.html"
-        },
-        {
-          "id": "news-1ov1eda",
-          "isoDate": "2026-11-18T10:33:21.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/general/1238459.html"
-        },
-        {
-          "id": "news-7hxhcf",
-          "isoDate": "2026-11-18T10:24:11.000Z",
-          "sourceUrl": "https://kyivindependent.com/russian-strikes-central-odesa-kills-3-injures-7/"
-        }
-      ],
-      "centroid": {
-        "lat": 46.4248,
-        "lng": 30.6419
-      },
-      "radiusKm": 16.7
+      "radiusKm": 28.3
     },
     {
       "zoneId": "occ-kharkiv",
@@ -260,37 +260,37 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 26,
+      "eventCount": 31,
       "kinds": {
-        "other": 17,
-        "combat": 7,
+        "other": 23,
+        "combat": 6,
         "strike": 2
       },
       "tierCounts": {
-        "approximate": 26
+        "approximate": 31
       },
-      "combatCount": 9,
-      "newestIsoDate": "2026-11-18T09:39:56.000Z",
+      "combatCount": 8,
+      "newestIsoDate": "2026-11-18T12:42:47.000Z",
       "samples": [
+        {
+          "id": "news-r2j7tt",
+          "isoDate": "2026-11-18T12:42:47.000Z",
+          "sourceUrl": "https://en.interfax.com.ua/news/general/1238579.html"
+        },
+        {
+          "id": "news-1kvdnlf",
+          "isoDate": "2026-11-18T09:59:41.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZXpxUXJrdzR1RW5zcGlLc3pZZ09IblY0S0V0a0RvWGJuUmdMZkFuSllDLVVTbExVQ1NoaUpLZWNWNm9aeENZVm45bXBuM0pSX2pVN2tXbzd3TVhVeG05U2pBTzRGTTRjdzlHaUk3UDI0cW44ejduWmFUWVIwdm83V01NQlo1R3c1REhRMkdOdG03UXZrb1REVGdVUlVPbkVlakRUY0dNUQ?oc=5"
+        },
         {
           "id": "news-ln0vv4",
           "isoDate": "2026-11-18T09:39:56.000Z",
           "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQmZfTjUtbzc3bVl0UUx2LVNqQ2luX3U1U2ZmXzQ4eE5CakFNeERROExibzkwZDk5S0dLa0ZPYjJyUnBvRU84empGSkdTT3pvTDcyVWwtaWFxdjBYN2lGbFBqZGY0MGRWRHFnNjFnWUJEWmFrU1BaNy1WdXFDSFNOREduOVh1bjBnaFVFZGZVNjFnSEZjaXRLWkp4MHg1Vmxmcnc?oc=5"
-        },
-        {
-          "id": "news-1h5z4ze",
-          "isoDate": "2026-11-18T06:42:00.000Z",
-          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/18/8063387/"
-        },
-        {
-          "id": "news-1ibfelr",
-          "isoDate": "2026-11-18T04:56:50.000Z",
-          "sourceUrl": "https://kyivindependent.com/2-russian-oil-refineries-reportedly-targeted-in-overnight-drone-attack-on-krasnodar-krai/"
         }
       ],
       "centroid": {
-        "lat": 47.8544,
-        "lng": 37.1995
+        "lat": 47.7657,
+        "lng": 37.207
       },
       "radiusKm": 80
     },
@@ -303,16 +303,21 @@
       },
       "eventCount": 23,
       "kinds": {
-        "other": 11,
-        "combat": 11,
+        "other": 12,
+        "combat": 10,
         "strike": 1
       },
       "tierCounts": {
         "approximate": 23
       },
-      "combatCount": 12,
-      "newestIsoDate": "2026-11-18T00:00:00.000Z",
+      "combatCount": 11,
+      "newestIsoDate": "2026-11-18T12:07:00.000Z",
       "samples": [
+        {
+          "id": "news-1h5zt82",
+          "isoDate": "2026-11-18T12:07:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/18/8063442/"
+        },
         {
           "id": "gdelt-1333683938",
           "isoDate": "2026-11-18T00:00:00.000Z",
@@ -322,18 +327,13 @@
           "id": "gdelt-1333699183",
           "isoDate": "2026-11-18T00:00:00.000Z",
           "sourceUrl": "https://yourdemocracy.net/drupal/node/61884"
-        },
-        {
-          "id": "gdelt-1333731685",
-          "isoDate": "2026-11-18T00:00:00.000Z",
-          "sourceUrl": "https://tribune.com.pk/story/2640892/russian-literary-work-finds-urdu-voice-in-pakistan"
         }
       ],
       "centroid": {
-        "lat": 48.5146,
-        "lng": 38.6776
+        "lat": 48.5147,
+        "lng": 38.6769
       },
-      "radiusKm": 20.7
+      "radiusKm": 20.6
     },
     {
       "zoneId": "lib-sumy",
@@ -342,38 +342,38 @@
         "lat": 50.9077,
         "lng": 34.7981
       },
-      "eventCount": 8,
+      "eventCount": 9,
       "kinds": {
-        "other": 6,
+        "other": 7,
         "combat": 2
       },
       "tierCounts": {
-        "approximate": 8
+        "approximate": 9
       },
       "combatCount": 2,
-      "newestIsoDate": "2026-11-18T11:31:48.000Z",
+      "newestIsoDate": "2026-11-18T12:52:00.000Z",
       "samples": [
+        {
+          "id": "news-1618g3a",
+          "isoDate": "2026-11-18T12:52:00.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE93MXRKZ3JSOHNDeVNpWENOU2ZoaXBLNDVTZEowd3pPLTMyS3UwV1hQQ3FHMVRsZ3ZNNlpVcHZENzEweW1MR2F3MUh2MFEwZm92Y0V1eWxIY2t5MkNPZXJqalVPa2XSAXBBVV95cUxNSEo3Mzg2aXdvQTByVzFfNkJZcDhPN3lVaWdlcm05d3B6a2hOQWc3elloY2tWb3VlWm5ua01NQXdUTW5mNmdYcTdrUXRjQU5BbkxtNWhrb2dUUDN1ai05TU96aHYwTDd6U25TcnYwY0oz?oc=5"
+        },
+        {
+          "id": "news-1h5zu0h",
+          "isoDate": "2026-11-18T12:52:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/18/8063450/"
+        },
         {
           "id": "news-fqlzys",
           "isoDate": "2026-11-18T11:31:48.000Z",
           "sourceUrl": "https://en.interfax.com.ua/news/general/1238503.html"
-        },
-        {
-          "id": "gdelt-1333724211",
-          "isoDate": "2026-11-18T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/11/17/800129813/community/1728/"
-        },
-        {
-          "id": "gdelt-1333724214",
-          "isoDate": "2026-11-18T00:00:00.000Z",
-          "sourceUrl": "https://www.dailykos.com/stories/2026/11/17/800129813/community/1728/"
         }
       ],
       "centroid": {
-        "lat": 50.8908,
-        "lng": 34.9764
+        "lat": 50.5996,
+        "lng": 34.9013
       },
-      "radiusKm": 68
+      "radiusKm": 80
     },
     {
       "zoneId": "lib-chernihiv",
