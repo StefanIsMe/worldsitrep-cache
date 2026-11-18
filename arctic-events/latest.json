@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-11-18T03:26:19.348Z",
+  "collectedAt": "2026-11-18T03:54:45.318Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 18
+      "count": 6
     },
     {
       "id": "rci-arctic",
@@ -40,9 +40,9 @@
     {
       "id": "cryopolitics",
       "url": "https://www.cryopolitics.com/feed/",
-      "status": "ok",
-      "count": 3,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS cryopolitics request failed: fetch failed"
     },
     {
       "id": "gnews-svalbard",
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 492,
+  "count": 493,
   "events": [
     {
       "id": "gdelt-1333678777",
@@ -513,6 +513,40 @@
         "quadClass": 4,
         "goldstein": -5,
         "tone": -1.05,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333707703",
+      "kind": "event",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T00:00:00.000Z",
+      "observedAt": "2026-11-18T03:30:00.000Z",
+      "description": "Coercion — Norway → School near Norway. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 62,
+      "lng": 10,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Norway",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thehindu.com/education/as-the-west-hits-pause-on-ai-in-schools-india-rushes-in-without-a-debate/article71707975.ece",
+      "gdelt": {
+        "globalEventId": "1333707703",
+        "eventCode": "172",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -6.25,
         "mentions": 10,
         "sources": 1
       }

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-18T03:26:19.348Z",
+  "collectedAt": "2026-11-18T03:54:45.318Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 11
+      "count": 6
     },
     {
       "id": "taipei-times",
@@ -34,8 +34,8 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 33,
-      "filtered": 17
+      "count": 32,
+      "filtered": 18
     },
     {
       "id": "dw-asia",
@@ -80,8 +80,46 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 269,
+  "count": 272,
   "events": [
+    {
+      "id": "news-cuwson",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T03:48:00.000Z",
+      "description": "China bolsters South China Sea push with new island runway: Analysts (Straits Times, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/china-bolsters-south-china-sea-push-with-new-island-runway-analysts"
+    },
+    {
+      "id": "news-19k0gtn",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T03:25:00.000Z",
+      "description": "China’s Xi calls for free and open trade at APEC summit (Straits Times, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/chinas-xi-calls-for-free-and-open-trade-at-apec-summit"
+    },
     {
       "id": "news-1tqob61",
       "kind": "news",
@@ -412,6 +450,40 @@
         "goldstein": -7.2,
         "tone": -1.58,
         "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333707821",
+      "kind": "event",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T00:00:00.000Z",
+      "observedAt": "2026-11-18T03:30:00.000Z",
+      "description": "Rejection — Taiwan → China near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/politics/202611180004",
+      "gdelt": {
+        "globalEventId": "1333707821",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 3.04,
+        "mentions": 2,
         "sources": 1
       }
     },
