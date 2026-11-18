@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-18T12:07:52.361Z",
+  "collectedAt": "2026-11-18T13:30:20.114Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 38
+      "count": 6
     },
     {
       "id": "gcaptain",
@@ -20,8 +20,8 @@
       "id": "bbc-yemen",
       "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
       "status": "ok",
-      "count": 5,
-      "filtered": 23
+      "count": 6,
+      "filtered": 21
     },
     {
       "id": "gnews-houthis",
@@ -33,9 +33,9 @@
     {
       "id": "gnews-shipping",
       "url": "https://news.google.com/rss/search?q=Red%20Sea%20shipping%20Houthi%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-shipping request failed with HTTP 429"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "splash247",
@@ -62,7 +62,7 @@
       "id": "gnews-hodeidah",
       "url": "https://news.google.com/rss/search?q=Hodeidah%20Sanaa%20airstrike%20Houthi&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 46,
+      "count": 47,
       "filtered": 0
     },
     {
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 462,
+  "count": 472,
   "events": [
+    {
+      "id": "news-12qyw32",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T13:04:48.000Z",
+      "description": "Kuwait says it repelled first Iranian attack in two months after US strikes island (BBC, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BBC",
+      "axis": "Other",
+      "tags": [
+        "BBC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "BBC",
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss"
+    },
     {
       "id": "news-1p2p0ky",
       "kind": "news",
@@ -119,6 +138,25 @@
       "locationStr": "The Times of India",
       "source": "The Times of India",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNRUctV0pCa1hZbDg3bUJ0UnVWUmxaWXNScnBOWnlGZXh0WWdjbW1BTnZsUFRkZUpBa1F4cHFqaHFUeFg1Ylc3UE9WbWV1UzYtbVJienBxWTB6RTVDNWhrQ1VpRk5BNmdGbXRfdHVLMkRFc2g0eHZUQlhwOUFjcy1rM0tZb1h2NTBjcDVtbEhWTXlyejBhYnhpcTljMEFUZ2F3TW11ZVVTV0syS0JSYmlmTW9hSGRaQVFVNGY5U3d3VUFLNHcyOEFVRDVXbHA4eF9xaE5sUUZLbFRreUFCUGNpMGprM0JyM1JSSFpwSWNkLVE5MVhIV3FwclZDdHBoX1RMQlVQbklwdXp2YTROd2k2TndJM2lIRGM3SnRIUEJfRkdxTWpL?oc=5"
+    },
+    {
+      "id": "news-d2yg5a",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T11:10:05.000Z",
+      "description": "Saudi-Backed Forces in Yemen Step Up Attacks on Houthis - Bloomberg.com (Bloomberg.com, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Bloomberg.com",
+      "axis": "Other",
+      "tags": [
+        "Bloomberg.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Bloomberg.com",
+      "source": "Bloomberg.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPanZPTTZ6QzdLcEd4bzlITmRjVl9GOUxMaHczSGd1MkNfTDl0UnBzYWt1cl94SkNXQS0zZWZhSTZwVjBNUVd1X2JSVXpHNEJPVm1yZ0ZvZkUxM2VneHpwQ1pnc3VUT0FxQlJLR1FnLS1UOU9nOUNnYWhpUVRSdnA4TzFjUjRpLVhxai0yTkp4VlhTdGhXRWx5em50QXR4RVRvWW5MNi1OZUZQdw?oc=5"
     },
     {
       "id": "news-10dafwy",
@@ -178,6 +216,25 @@
       "sourceUrl": "https://gcaptain.com/uaes-adnoc-ls-says-one-crew-member-missing-after-attack-on-its-vessel-in-hormuz/"
     },
     {
+      "id": "news-vf0bwt",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T08:34:05.000Z",
+      "description": "Saudi-backed forces launch major attack on Houthis, and other Mideast news - Jacksonville Journal-Courier (Jacksonville Journal-Courier, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Jacksonville Journal-Courier",
+      "axis": "Other",
+      "tags": [
+        "Jacksonville Journal-Courier",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Jacksonville Journal-Courier",
+      "source": "Jacksonville Journal-Courier",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNzE2RTJabEg4WFQwQ2Ywc3JZZEVDU2VPV0ZucU0xcVcza0hjeGc4dC15aTkxSFZYNlgzWWtoZmdCejFzZm9WVEFZOHktRExTYmwzZDJvZUNxZS02dE5tN2tMdnFURjBIekxlMHRxTndtQlI4YnBDcGswNjlvdlA2eU1KMm1mTUVsSkVTVHhJS0ZYeU8yTGk0WTEyT2JxaURWQlNV?oc=5"
+    },
+    {
       "id": "news-1pogljd",
       "kind": "news",
       "date": "2026-11-18",
@@ -197,6 +254,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONXlENHBqQ01YRGxJX28ySWpieFlKQVFyUUl5OHlSazRCY1lxY2ZBTWR1Nm93aEhfNWdyUGdrdlozNXEtRTYzdktBalpPNmk0Mi0yT0o5OVAxVWd5cUd2TWdWdXRGSXYxUzMzcm83VDBHNXFsMW1oVUxoaENDTHNUNHAtSWswcVNhTXBGZnN6UGxLS2lvM0M3c2czR1RqWllYNDhWcE9lN1J5VkNxRFUtWldRZ3NETE5QSGRiRHk3eFcwZw?oc=5"
     },
     {
+      "id": "news-1l7g7wu",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T08:06:56.000Z",
+      "description": "Saudi-backed forces launch major attack on Houthis, and other Mideast news - WRAL (WRAL, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WRAL",
+      "axis": "Other",
+      "tags": [
+        "WRAL",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WRAL",
+      "source": "WRAL",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZUo0TkRrOVhNNk8tX285QXFVNVBkSzAzM3lhUDJFOEN0MzNUS196ZExNN0pLNzRmWGVFZE8xUmF6dWhsdFFQYjJ3Z2h0eXlYT2xWT2phR0pGV3hmYXZyNklVV2pJLXA4UXpCRWpfT3A5UHFKNFJCUVIxZGszVDZQN0w4cDQ1akVFY24wZFdtclVRZ21wWW1kMXI1M3djZnQ2S3RqeHBjNkJPTC1Eemc?oc=5"
+    },
+    {
       "id": "news-1mkjec5",
       "kind": "news",
       "date": "2026-11-18",
@@ -214,6 +290,25 @@
       "locationStr": "News4JAX",
       "source": "News4JAX",
       "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVWd4WVIzRGZmSGxFZlpZYmxmSUMxaVFtWXRCc2VsSnR3WG1ZdGR5MURlcnpaYzhsUVNTM2pjTnNORjBfUVF1MFc5VV9hQmw4ZF9PVC11Y2RYQ2s3ZTBCNXpEWGo0YnEtNmo1dXQ0bWx0Y1RRcGxqTnJEQ2laeTE5ZkF3dll5ZjNyeVBuRXFlbm5uOVhNR1JGem5ENkJiNnZYdDZYUGs2c2tHYkMzdXMwTktyWVZUMUVhaWEtamtn?oc=5"
+    },
+    {
+      "id": "news-cd9pt3",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T07:44:29.000Z",
+      "description": "Ecuadorian fishermen sue U.S. over drone attack they say sank their boat - The Washington Post (The Washington Post, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Washington Post",
+      "axis": "Other",
+      "tags": [
+        "The Washington Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Washington Post",
+      "source": "The Washington Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ3g4ODh6X3JMRUl6OE9MNzNFclBLM09acm5ZbmJsdDRlMmRMS0RzVDJBRFhxT3ZhR09TcEJ5WmVKTWdqM3F1bko4UnloVHpIR09Ja2NyX1h3TWM2emZtSDlUWEE1UnNaR01ZT0FaZ05hcHpiQ0hpUk5VWWtKVVlzYjNmY0tVamJld3QzUjNHQTA0ZDg5MXd3VFJKN0szNUpKaU9JRlVZY1NPcnRUdXZUeE1GbVN3THZOV0cyMVg0VQ?oc=5"
     },
     {
       "id": "news-mskw31",
@@ -1765,11 +1860,215 @@
       }
     },
     {
+      "id": "gdelt-1333781153",
+      "kind": "event",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T00:00:00.000Z",
+      "observedAt": "2026-11-18T12:45:00.000Z",
+      "description": "Fight — Terrorist → Saudi Arabia near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 194)",
+      "actor": "Terrorist",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.naharnet.com:443/stories/en/323856-saudi-coalition-says-intercepted-houthi-cruise-missile",
+      "gdelt": {
+        "globalEventId": "1333781153",
+        "eventCode": "194",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.23,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333781380",
+      "kind": "event",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T00:00:00.000Z",
+      "observedAt": "2026-11-18T12:45:00.000Z",
+      "description": "Disapproval — Yemen → Rebel near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Disapproval (GDELT 1123)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.naharnet.com:443/stories/en/323856-saudi-coalition-says-intercepted-houthi-cruise-missile",
+      "gdelt": {
+        "globalEventId": "1333781380",
+        "eventCode": "1123",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.23,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333781381",
+      "kind": "event",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T00:00:00.000Z",
+      "observedAt": "2026-11-18T12:45:00.000Z",
+      "description": "Fight — Yemen → Rebel near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Fight (GDELT 190)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.naharnet.com:443/stories/en/323856-saudi-coalition-says-intercepted-houthi-cruise-missile",
+      "gdelt": {
+        "globalEventId": "1333781381",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.23,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333783107",
+      "kind": "event",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T00:00:00.000Z",
+      "observedAt": "2026-11-18T13:00:00.000Z",
+      "description": "Disapproval — School → Unspecified near Lahj, La?ij, Yemen. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13.0567,
+      "lng": 44.8819,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "School",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Lahj, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.miragenews.com/dozens-more-children-killed-as-yemen-1779549/",
+      "gdelt": {
+        "globalEventId": "1333783107",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.76,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333784498",
+      "kind": "event",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T00:00:00.000Z",
+      "observedAt": "2026-11-18T13:00:00.000Z",
+      "description": "Fight — Yemen → Saudi Arabia near Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Fight (GDELT 190)",
+      "actor": "Yemen",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.al-monitor.com/originals/2026/11/iran-fires-kuwait-after-us-strike-iranian-island",
+      "gdelt": {
+        "globalEventId": "1333784498",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.46,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333786172",
+      "kind": "event",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T00:00:00.000Z",
+      "observedAt": "2026-11-18T13:15:00.000Z",
+      "description": "Fight — Iran → Kuwait near Yemen. Machine-coded by GDELT 2.1 (6 mentions, 2 sources); open the source article for details.",
+      "type": "combat",
+      "lat": 15.5,
+      "lng": 47.5,
+      "action": "Fight (GDELT 195)",
+      "actor": "Iran",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://isp.netscape.com:443/pf/story/0001/20261118/b1f0b530cffe951e6fcc1e27b2e1af94",
+      "gdelt": {
+        "globalEventId": "1333786172",
+        "eventCode": "195",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.74,
+        "mentions": 6,
+        "sources": 2
+      }
+    },
+    {
       "id": "news-xrfu8s",
       "kind": "news",
       "date": "2026-11-17",
       "isoDate": "2026-11-17T23:59:00.000Z",
-      "description": "Live Updates: U.S. launches strikes on Iran's Qeshm Island in Strait of Hormuz - CBS News (CBS News, 2026-11-17. Headline + link only.)",
+      "description": "U.S. launches strikes on Iran's Qeshm Island in Strait of Hormuz - CBS News (CBS News, 2026-11-17. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "CBS News",
@@ -1839,6 +2138,25 @@
       "locationStr": "gCaptain",
       "source": "gCaptain",
       "sourceUrl": "https://gcaptain.com/u-s-military-strikes-iranian-missile-site-near-strait-of-hormuz/"
+    },
+    {
+      "id": "news-1andvfh",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T20:06:46.000Z",
+      "description": "A 2-month lull ends with Iran’s third strike on US targets in Bahrain, and US retaliation - WSB-TV (WSB-TV, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSB-TV",
+      "axis": "Other",
+      "tags": [
+        "WSB-TV",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WSB-TV",
+      "source": "WSB-TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX0tIT052bUtSNUhrYVN5bTd5Sl90VHJSdEhCNy0xUVV6M0E4WUFacWt5XzVQOXptWDNtSURHNmlLbkhJbkFvNnZaYnNqNFhSa3JDbzJSOWkzd1FyVDBEQTNVaVlvV0RWd0dNSEFQNjVLS3dTa0JaWmJMQ2tOcExydm51U0RDT0Zz0gGcAUFVX3lxTE9lcmtjZWNNZ05oOGJETmJFejBxVWhRMm1KNDZyaXI2UnF2Y3I2ZjAxSGk2bmFMa3A2UXA0QTBsLUI5ZHo2N1VUbVlWWlBBb3QydU5MVkNBMmVyN3dYT0VhV0x3QkFkYzVzS3ZXNjBHY3JOVnJ1eTJUWHB5Q2NXRW93TENtOG9LTEtpanNHRWc5VTF1S3RTWWJ1NEFHYQ?oc=5"
     },
     {
       "id": "news-1dpz0b3",
@@ -2123,6 +2441,25 @@
       "sourceUrl": "https://gcaptain.com/second-strike-on-lpg-tanker-in-strait-of-hormuz-leaves-one-missing-two-injured/"
     },
     {
+      "id": "news-u85ln",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T14:57:32.000Z",
+      "description": "Iran Attacks US Military Radar System in Bahrain Despite Talks With Mediators - U.S. News & World Report (U.S. News &amp; World Report, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "U.S. News &amp; World Report",
+      "axis": "Other",
+      "tags": [
+        "U.S. News &amp; World Report",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "U.S. News &amp; World Report",
+      "source": "U.S. News &amp; World Report",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUHhpMXdJcGUxYmNMRjc4YUZsampwdlBOYVIzRW83YllkeVhvOTVNcDVVUkEzUWNyZkRTWm9LdzI3TVYwVVlyazFXQlBiTHk1QmtkTURmS3N1LVY4YVVZSUV2d3dKUDlhSUs5Zm5DblZibHZ4U2VocXpmUl9UaGZuQl9SbU05MmNCaXpZY2tFdjRQV25aT2tQZDJiUTY3YlZxUFh6TDdIeTIweDJzOGlySW9KQUFJMlFhTU9zMEhR?oc=5"
+    },
+    {
       "id": "news-s4lwhy",
       "kind": "news",
       "date": "2026-11-17",
@@ -2243,6 +2580,29 @@
       "locationStr": "Yahoo",
       "source": "Yahoo",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQV0hhZW9id2pDWkhhN2RjWHBGdlI3eUZHWjJVeVdabEZ2bmR2NURNVzg0M25PNjVOdEV2VnpRbFViYmp0TFpramdxc05vb0RnMGRBbmRJQlhmb0pHTy10S0VVZlNpZWJpVFlMZmE0cFNlUHE5Yl9ZMC1CcjZyTGpzV2N3dkE4aTN2cTh1LU9tQ2p5RlZY?oc=5"
+    },
+    {
+      "id": "news-1poik97",
+      "kind": "news",
+      "date": "2026-11-17",
+      "isoDate": "2026-11-17T12:13:02.000Z",
+      "description": "Daily Briefing Nov. 17 – Houthi chokehold on Red Sea strait sends Saudis scrambling - The Times of Israel (The Times of Israel, 2026-11-17. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times of Israel",
+      "axis": "Other",
+      "tags": [
+        "The Times of Israel",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Red Sea",
+      "source": "The Times of Israel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaGVlRWpmMXRNZEQxMmNDVXVZd3NUdjNtVXZiYnBuMDQyeDY3a01IVzFsZGI4UUlLNWUzbDFhOVZnYUJCTWtNbUdxb1VLS3lzeUQ1bWszM244b1FKMlRfd2hhUG44aXE4WE1NTUZ5T0lVUXFsY2lNOFVWVzdmUzEtYWdMS3B4M1lDZk5rbENWZ0VLZDd6RmQzQUVMLUQ3ZmJtT0ZfTEVqd000REpmSXotR9IBtgFBVV95cUxNeVVUYmpmWmZteGhxdEVhMXdFMWxfYWRMUlFWUFprWlM4OTRxem44TEJVdGNsamxxWk5VWmMzNlBRbVNuYWwxYnJNaGZiTEl3U3U4N2lsZDlXaUJ6Q1gwS19NUmt0cWNtYVpZa3dOWUpWeFhsWTdpOXF4ZjBsT0wwVEtLQ21OM2dJaHhhT1dCaXQyZ0dLZVI5M05uenhfbFg4THFVTTVodWRxMUk0TUVfZHVzZTRSQQ?oc=5",
+      "lat": 15.5,
+      "lng": 41.5,
+      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
     },
     {
       "id": "news-11fkq9m",
@@ -7267,6 +7627,29 @@
       "coordsNote": "Headline gazetteer match: \"Aden\" (city); verify via source article."
     },
     {
+      "id": "news-1jg1vwd",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T19:31:00.000Z",
+      "description": "Houthis Advance Toward Aden - World Politics Review (World Politics Review, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "World Politics Review",
+      "axis": "Other",
+      "tags": [
+        "World Politics Review",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Aden",
+      "source": "World Politics Review",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBENjNpT0Q0ZzZ5czBGVVlablRBdVJnZFkxYnUwM1FCTGRzMXloUExrbF9lUnk2Nm8zaGo0ZUZNUnF2WTZ0eUpjNzFRUGRsU29ZaUoyWW5WQzRDcnlJbTlNb0lZWHFJSEFQWVFYVksteUVmcnVDNDlicGw0Y1RUUQ?oc=5",
+      "lat": 12.78,
+      "lng": 45.04,
+      "coordsNote": "Headline gazetteer match: \"Aden\" (city); verify via source article."
+    },
+    {
       "id": "news-7wizqv",
       "kind": "news",
       "date": "2026-11-16",
@@ -7827,25 +8210,6 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRTVaUTVSaWVYaXpRWXpicjk1RERWcnZFcFhBUnBqTmpERzFQQmFVQmRqeDl3ZW0yS1hULW1QMGRNSkliX0tyYV9UUHNuRlFXT3RDdWtmcXZUTHAzbEdOYnVlRC1JQ0NWTmdPRHlIZlhpcHBxY0JOWkM2aktFZVYtT1JBRVdWQ3FFM25JT2lESnEyRVBFbVl6MTFac2tOYWYtS0dTREJSbU5mSVpQRmJHS1FEZ3ZZMlA3X2V0ZlNYTHJoODJIYkh5RTZmWDJGbXVqNlNvTmo1eEpjeFFfOGJ30gHkAUFVX3lxTE56bDRlakJUVjcxM3hDaUNMVm5UUG1UdEpJNXV3MzRfbC0yWEJvLW5NdmdjQWlSeGpsVmtsMFN4Smd3a1VfSm4zVFcyWG1Za2J6bkpFTUYxVG1pWWhTenM2akRlWXhuR09wUEVyeENvRk5ZVUdhTG84RnJFV3FmaTB5VUxDVUJRRXh2Q1J4YWJiYXdCb2tYZFdCck5nelRZZ1dvYTU1TkZJOE5ZZVVwSldQMjNEek00ejhhNGJGUmRhcExmOHBHRmdENFp0Ymw5UXJTeFp1SVJnYndtalFteVkwODc2aQ?oc=5"
     },
     {
-      "id": "news-149bmma",
-      "kind": "news",
-      "date": "2026-11-16",
-      "isoDate": "2026-11-16T10:24:21.000Z",
-      "description": "Middle East latest: Tanker struck by unknown projectile in Strait of Hormuz, UKMTO says - The National (The National, 2026-11-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The National",
-      "axis": "Other",
-      "tags": [
-        "The National",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The National",
-      "source": "The National",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUhsb2pnODdZNmUya1pnTkFma1Rsb0ozYnVkNGRzd0M0Q0VHT2xuVHhkaFc1NlREdnBiT2d0aW1oTjNRXzVOWkxnRmdzX1pvcmx4dWRIQmJySzFSOG52ZHZ3S0FpWTZOcFllRFRaaTg0ZEFsam8zdHlkME9rdFZGbWdxaVZtMDB6THQ2aGdCaEdLZjRMeTZfNURNZEUyWGoycVBkTg?oc=5"
-    },
-    {
       "id": "news-l6cvxs",
       "kind": "news",
       "date": "2026-11-16",
@@ -7890,6 +8254,25 @@
       "lat": 15.5,
       "lng": 41.5,
       "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
+    },
+    {
+      "id": "news-149bmma",
+      "kind": "news",
+      "date": "2026-11-16",
+      "isoDate": "2026-11-16T08:00:00.000Z",
+      "description": "Middle East latest: Crew missing after huge blast on tanker off Oman - The National (The National, 2026-11-16. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The National",
+      "axis": "Other",
+      "tags": [
+        "The National",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The National",
+      "source": "The National",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUhsb2pnODdZNmUya1pnTkFma1Rsb0ozYnVkNGRzd0M0Q0VHT2xuVHhkaFc1NlREdnBiT2d0aW1oTjNRXzVOWkxnRmdzX1pvcmx4dWRIQmJySzFSOG52ZHZ3S0FpWTZOcFllRFRaaTg0ZEFsam8zdHlkME9rdFZGbWdxaVZtMDB6THQ2aGdCaEdLZjRMeTZfNURNZEUyWGoycVBkTg?oc=5"
     },
     {
       "id": "news-88gy15",
@@ -13868,109 +14251,6 @@
       "locationStr": "BBC",
       "source": "BBC",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54d1BneWo3NFRhV3MxVkVJa1p4SXJkTE5rbFZvUTVTWkM0UDFrVWp2WWloenJjMmcwTDBKdkV1N3QtRVgxWV91NEpXN2pCbUxtTFNaSjBQM0t6dEk?oc=5"
-    },
-    {
-      "id": "news-13z8gi8",
-      "kind": "news",
-      "date": "2026-11-15",
-      "isoDate": "2026-11-15T13:16:00.000Z",
-      "description": "Romania slams ‘unacceptable’ drone strikes on Black Sea ships - POLITICO.eu (POLITICO.eu, 2026-11-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "POLITICO.eu",
-      "axis": "Other",
-      "tags": [
-        "POLITICO.eu",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "POLITICO.eu",
-      "source": "POLITICO.eu",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSVg2YVp5TTVyWHlNOVdqa2NmOUJMbnAtU3lDVnJucXo0dnZoNkZBM2ZpbksxS2FQcEdmMFF2NFFOclZublJjVmZKZHdCSkhlaVNFMXZ0eUR3SVpMeEhaNWdvZktnOFNYQlZJVV9JSS14QV9BR19MTXk2dk01TUE2LTliMk5RbjAtQmxrMVk2WlBQRVNXOFByQWEzVWI?oc=5"
-    },
-    {
-      "id": "news-jj2w9z",
-      "kind": "news",
-      "date": "2026-11-15",
-      "isoDate": "2026-11-15T12:42:41.000Z",
-      "description": "Yemen government forces withdraw from area near Bab el Mandeb strait, Houthis in control - NBC News (NBC News, 2026-11-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Bab el-Mandeb",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZmM1amUxamVQU2FSQkEtR3A3blhMZjNRVUsyMUxZZ0VEUUJlY3JSbUF4aTI1VVJCamhDMWJ0dTBnSmdOMVFseHI1dG03bEhOZHhDbUt4S3N3U2NEQnFZaWZyMlZ3S1lxOTRnS3UtcDZWamdyeHYyVkF0UGhtcjhXV2hod0FjSkYzNDZncmFhdHNteUM2bWM1S2xGV2VxZTRQS3JmYw?oc=5",
-      "lat": 12.6,
-      "lng": 43.4,
-      "coordsNote": "Headline gazetteer match: \"Bab el Mandeb\" (region); verify via source article."
-    },
-    {
-      "id": "news-11peh5i",
-      "kind": "news",
-      "date": "2026-11-15",
-      "isoDate": "2026-11-15T12:41:50.000Z",
-      "description": "Drone strikes reportedly hit 3 commercial ships near Romania's Black Sea coast - Anadolu Ajansı (Anadolu Ajansı, 2026-11-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Anadolu Ajansı",
-      "axis": "Other",
-      "tags": [
-        "Anadolu Ajansı",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Anadolu Ajansı",
-      "source": "Anadolu Ajansı",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUkhSVzdaTktpS2RUS0pfVngybktBbm5ldEFCQVAwaXBBMGlwbjlyUGUtUWZTTGxBRllVRWhWT3VaalZaRTRodFo4S29Vclg4ZnI2V2N2M0k3YzhQYmRUUjdHSWZMQmxmZ09QTTJkRGtRSFByQkw0aDF6YjFNdGZhYWdJNmppdVNwdmVQQV9RWnh3SmkzTnZDaUotZ3lmeEFnM0NwOVY1WWQ5MWFoV1NEOE9vWDI3LW1kRjE0bG5sNA?oc=5"
-    },
-    {
-      "id": "news-1ujodby",
-      "kind": "news",
-      "date": "2026-11-15",
-      "isoDate": "2026-11-15T12:32:21.000Z",
-      "description": "Saudi-backed Yemeni forces retreat from Red Sea in win for Houthis - Financial Times (Financial Times, 2026-11-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Financial Times",
-      "axis": "Other",
-      "tags": [
-        "Financial Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Red Sea",
-      "source": "Financial Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNc2ZhbkloS1VjeGxGQUFobEtNWlU2Sk5CYWV0cndHckx0VXRSdlFHYV82OFZIbDFYdEl0WnNrY3pZLWZteWw5bnJ3dUNkMU9YSVB6emdsa19FMm5xdkxNcEhGczZuWDBKblZlazhLRmU2QktBUl9aQnBjSURsckFmclVaUEw?oc=5",
-      "lat": 15.5,
-      "lng": 41.5,
-      "coordsNote": "Headline gazetteer match: \"Red Sea\" (region); verify via source article."
-    },
-    {
-      "id": "news-1sb68x6",
-      "kind": "news",
-      "date": "2026-11-15",
-      "isoDate": "2026-11-15T12:07:58.000Z",
-      "description": "Saudi intercepts missiles as Houthis widen strikes on kingdom - The Arab Weekly (The Arab Weekly, 2026-11-15. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Arab Weekly",
-      "axis": "Other",
-      "tags": [
-        "The Arab Weekly",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Arab Weekly",
-      "source": "The Arab Weekly",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU3JtLU1MZ3l4TmRCTmdsV183S2oxT0dVNXVwbmZkVEktZkdkeUh1QmJ4YU45U1h3dkxjaXVPeXN0ZGpJSzY3MFJROU5oOTl5azlFSUJfamVnNExkVXNBdm01VVEtdVFHdkJ0MDVvbFZVajZvaW5ZdW1JWXNESGJQOWc0WXRMTGZZ?oc=5"
     }
   ]
 }
