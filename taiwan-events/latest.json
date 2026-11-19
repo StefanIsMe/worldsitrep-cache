@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-19T02:51:12.382Z",
+  "collectedAt": "2026-11-19T10:40:15.956Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 1
+      "count": 32
     },
     {
       "id": "taipei-times",
@@ -26,30 +26,30 @@
     {
       "id": "gnews-defense",
       "url": "https://news.google.com/rss/search?q=Taiwan%20PLA%20military%20drills&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-defense request failed with HTTP 429"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 22,
-      "filtered": 28
+      "count": 27,
+      "filtered": 23
     },
     {
       "id": "dw-asia",
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
       "count": 3,
-      "filtered": 11
+      "filtered": 9
     },
     {
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 8,
-      "filtered": 42
+      "count": 12,
+      "filtered": 38
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 34,
+      "count": 33,
       "filtered": 0
     },
     {
@@ -80,8 +80,415 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 271,
+  "count": 315,
   "events": [
+    {
+      "id": "news-96cxqc",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T10:01:54.000Z",
+      "description": "Presidents of Mexico, Peru enchanted by Chinese tech advances in musical instruments (SCMP, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3375081/presidents-mexico-peru-enchanted-chinese-tech-advances-musical-instruments"
+    },
+    {
+      "id": "news-172a8ie",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T09:10:14.000Z",
+      "description": "China’s Xi says US should do ‘right thing’ on Taiwan to avoid setbacks in relations (Straits Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/chinas-xi-says-us-should-do-right-thing-on-taiwan-to-avoid-setbacks-in-relations"
+    },
+    {
+      "id": "news-1f1mcpp",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T09:07:00.000Z",
+      "description": "Iran balances ties with China and Russia as Trump ramps up pressure (DW, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW",
+      "axis": "Other",
+      "tags": [
+        "DW",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DW",
+      "source": "DW",
+      "sourceUrl": "https://www.dw.com/en/iran-balances-ties-with-china-and-russia-as-trump-ramps-up-pressure/a-79979920?maca=en-rss-en-asia-5133-rdf"
+    },
+    {
+      "id": "news-vwlm08",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T08:40:11.000Z",
+      "description": "How Japan PM's Taiwan remarks sparked a year-long rift with China (Straits Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/how-japan-pms-taiwan-remarks-sparked-a-year-long-rift-with-china"
+    },
+    {
+      "id": "news-1bhde4s",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T08:29:35.000Z",
+      "description": "Qatar-gifted Boeing 747 makes China debut as Air Force One in Shenzhen (SCMP, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Shenzhen",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3375056/qatar-gifted-boeing-747-makes-china-debut-air-force-one-shenzhen",
+      "lat": 24.95694,
+      "lng": 121.01222,
+      "coordsNote": "OSM geocode: matched \"Shenzhen\" → Shenzhen, Shenzun Village, Xinwu District; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-18iv61",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T08:12:15.000Z",
+      "description": "Was China’s choice of welcome song for Philippine leader sending a subtle message? (SCMP, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3375050/was-chinas-choice-welcome-song-philippine-leader-sending-subtle-message"
+    },
+    {
+      "id": "news-1cts4fg",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T08:07:28.000Z",
+      "description": "Danny Quah on Asean’s middle course and a prisoner’s dilemma for US, China (SCMP, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/plus/economy/china-economy/article/3375048/danny-quah-aseans-middle-course-and-prisoners-dilemma-us-china"
+    },
+    {
+      "id": "news-1bdhgih",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T08:00:16.000Z",
+      "description": "Japan’s position on Taiwan has not changed, PM Takaichi says (Straits Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/japans-position-on-taiwan-has-not-changed-pm-takaichi-says"
+    },
+    {
+      "id": "news-1ayqhjp",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T07:42:43.000Z",
+      "description": "‘Toy paradise’: Elon Musk says his 6-year-old son loves China (SCMP, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3375042/elon-musk-says-his-6-year-old-son-loves-china-because-its-toy-paradise"
+    },
+    {
+      "id": "news-1lsqzgz",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T07:10:34.000Z",
+      "description": "Taiwan reports two Russian military aircraft nearby, second time this week (Straits Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/taiwan-reports-two-russian-military-aircraft-nearby-second-time-this-week"
+    },
+    {
+      "id": "news-s2k0am",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T06:59:01.000Z",
+      "description": "Apec summit finds Marco Rubio again admiring Chinese architecture (SCMP, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3375032/apec-summit-finds-marco-rubio-again-admiring-chinese-architecture"
+    },
+    {
+      "id": "news-l443l7",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T06:46:43.000Z",
+      "description": "Homo erectus teeth found in China’s rainforest topple theory of human evolution (SCMP, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/science/article/3374985/homo-erectus-teeth-found-chinas-rainforest-topple-theory-human-evolution"
+    },
+    {
+      "id": "news-1gsczel",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T06:42:36.000Z",
+      "description": "US, China can help end Ukraine war, Trump tells Xi before trilateral with Putin (Straits Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/trump-says-historic-summit-with-xi-putin-already-a-win-before-event"
+    },
+    {
+      "id": "news-1r1gudf",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T06:25:14.000Z",
+      "description": "Trump says Board of Trade has brought 'greater balance' to US-China ties (Straits Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/trump-says-board-of-trade-has-brought-greater-balance-to-us-china-ties"
+    },
+    {
+      "id": "news-1q75cur",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T06:24:25.000Z",
+      "description": "Xi tells Trump to ‘do the right thing’ on Taiwan; urges two sides to manage differences (SCMP, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3375023/talks-xi-get-under-way-trump-asks-china-do-more-us-farmers"
+    },
+    {
+      "id": "news-hicbwl",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T03:40:31.000Z",
+      "description": "Apec leaders suit up with Chinese-style scarves for family photo in Shenzhen (SCMP, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Shenzhen",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3374995/apec-leaders-suit-scarf-family-photo-shenzhen",
+      "lat": 24.95694,
+      "lng": 121.01222,
+      "coordsNote": "OSM geocode: matched \"Shenzhen\" → Shenzhen, Shenzun Village, Xinwu District; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-16dihc5",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T03:40:08.000Z",
+      "description": "Hong Kong drops case against Chinese sea captain over Baltic pipeline damage (Straits Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/hong-kong-drops-case-against-chinese-sea-captain-over-baltic-pipeline-damage"
+    },
+    {
+      "id": "news-118jb94",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T03:31:00.000Z",
+      "description": "Trump suggests US can sell Blackwell chips to China in future (Straits Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/trump-suggests-us-can-sell-blackwell-chips-to-china-in-future"
+    },
+    {
+      "id": "news-bmfk0v",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T03:30:17.000Z",
+      "description": "Japan says PM Takaichi, Putin held talks at APEC summit in China (Straits Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/japan-says-pm-takaichi-putin-held-talks-at-apec-summit-in-china"
+    },
+    {
+      "id": "news-bme51t",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T03:19:00.000Z",
+      "description": "China embassy warns against off-season Mount Fuji climbs as $97k reward for missing man draws concern (Straits Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/china-embassy-warns-against-off-season-mount-fuji-climbs-as-97k-reward-for-missing-man-draws-concern"
+    },
+    {
+      "id": "news-43w756",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T03:14:45.000Z",
+      "description": "Chinese onlookers get a glimpse of Trump as he takes in the view of Shenzhen (SCMP, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3374994/chinese-onlookers-get-new-view-trump-he-takes-view-shenzhen"
+    },
     {
       "id": "news-ig5x6k",
       "kind": "news",
@@ -119,6 +526,25 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3374980/natural-enemies-trump-china-russia-ties-he-plays-down-nvidia-tragedy"
+    },
+    {
+      "id": "news-lhkqf2",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T01:32:46.000Z",
+      "description": "Xi tells Trump, Putin: China, Russia, US should maintain regular talks to manage differences (SCMP, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3374977/world-leaders-gather-talk-trade-and-investment-apec-chinas-tech-hub-shenzhen"
     },
     {
       "id": "news-130nvbu",
@@ -276,6 +702,1026 @@
         "goldstein": -2,
         "tone": 3.42,
         "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333912533",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T03:15:00.000Z",
+      "description": "Disapproval — China → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.businesstimes.com.sg/international/global/china-airport-greetings-show-how-xi-views-trump-putin-takaichi",
+      "gdelt": {
+        "globalEventId": "1333912533",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 2.55,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333912535",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T03:15:00.000Z",
+      "description": "Disapproval — China → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.businesstimes.com.sg/international/global/china-airport-greetings-show-how-xi-views-trump-putin-takaichi",
+      "gdelt": {
+        "globalEventId": "1333912535",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 2.55,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333912582",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T03:15:00.000Z",
+      "description": "Disapproval — China → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.businesstimes.com.sg/international/global/china-airport-greetings-show-how-xi-views-trump-putin-takaichi",
+      "gdelt": {
+        "globalEventId": "1333912582",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 2.55,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333912583",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T03:15:00.000Z",
+      "description": "Disapproval — China → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.businesstimes.com.sg/international/global/china-airport-greetings-show-how-xi-views-trump-putin-takaichi",
+      "gdelt": {
+        "globalEventId": "1333912583",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 2.55,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333921706",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T04:45:00.000Z",
+      "description": "Disapproval — Lawmaker → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Lawmaker",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.politico.eu/article/eu-lawmakers-accuse-chinese-officials-of-intimidation-over-taiwan/",
+      "gdelt": {
+        "globalEventId": "1333921706",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.31,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333931336",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T06:15:00.000Z",
+      "description": "Demand — China → Paraguay near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Demand (GDELT 100)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/opinion/china-sees-an-opening-as-scandal-topples-the-president-of-taiwans-last-south-american-ally-6125863",
+      "gdelt": {
+        "globalEventId": "1333931336",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -2.87,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333931504",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T06:15:00.000Z",
+      "description": "Reduced relations — Minist → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Minist",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/opinion/china-sees-an-opening-as-scandal-topples-the-president-of-taiwans-last-south-american-ally-6125863",
+      "gdelt": {
+        "globalEventId": "1333931504",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -2.87,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333931546",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T06:15:00.000Z",
+      "description": "Disapproval — Asean → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Asean",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.abc.net.au/news/2026-11-19/trump-xi-putin-meeting-live-blog-apec-summit/107394202",
+      "gdelt": {
+        "globalEventId": "1333931546",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.78,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333931631",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T06:15:00.000Z",
+      "description": "Disapproval — South Korean → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "South Korean",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.abc.net.au/news/2026-11-19/trump-xi-putin-meeting-live-blog-apec-summit/107394202",
+      "gdelt": {
+        "globalEventId": "1333931631",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.78,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333931745",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T06:15:00.000Z",
+      "description": "Coercion — Paraguayan → Paraguay near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Paraguayan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/opinion/china-sees-an-opening-as-scandal-topples-the-president-of-taiwans-last-south-american-ally-6125863",
+      "gdelt": {
+        "globalEventId": "1333931745",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -2.87,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333931806",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T06:15:00.000Z",
+      "description": "Disapproval — Taiwan → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/world/russian-bombers-arrive-in-vietnam-as-xi-putin-discuss-military-cooperation-6126769",
+      "gdelt": {
+        "globalEventId": "1333931806",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.13,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333931807",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T06:15:00.000Z",
+      "description": "Disapproval — Taiwan → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/world/russian-bombers-arrive-in-vietnam-as-xi-putin-discuss-military-cooperation-6126769",
+      "gdelt": {
+        "globalEventId": "1333931807",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.13,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333931808",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T06:15:00.000Z",
+      "description": "Coercion — Taiwan → Nvidia near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/opinion/the-neocloud-and-transshipment-how-china-sneaks-ai-compute-from-the-world-6125337",
+      "gdelt": {
+        "globalEventId": "1333931808",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -2.96,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333931809",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T06:15:00.000Z",
+      "description": "Coercion — Taiwan → Nvidia near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/opinion/the-neocloud-and-transshipment-how-china-sneaks-ai-compute-from-the-world-6125337",
+      "gdelt": {
+        "globalEventId": "1333931809",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -2.96,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333933350",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T06:30:00.000Z",
+      "description": "Threat — Military Force → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 138)",
+      "actor": "Military Force",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.theepochtimes.com/china/trump-meets-with-xi-after-sit-down-with-putin-6125906",
+      "gdelt": {
+        "globalEventId": "1333933350",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -0.19,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333937298",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T07:00:00.000Z",
+      "description": "Demand — Unspecified → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Demand (GDELT 100)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/19/2003868031",
+      "gdelt": {
+        "globalEventId": "1333937298",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -4.86,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333937440",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T07:00:00.000Z",
+      "description": "Disapproval — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/19/2003868031",
+      "gdelt": {
+        "globalEventId": "1333937440",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.86,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333943269",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T07:45:00.000Z",
+      "description": "Coercion — Prison → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (20 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Prison",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/society/202611190007",
+      "gdelt": {
+        "globalEventId": "1333943269",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -11.85,
+        "mentions": 20,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333943774",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T07:45:00.000Z",
+      "description": "Threat — Prosecutor → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 130)",
+      "actor": "Prosecutor",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/society/202611190007",
+      "gdelt": {
+        "globalEventId": "1333943774",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -11.85,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333944076",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T07:45:00.000Z",
+      "description": "Protest — Tainan → Unspecified near Changnan, Yunlin Xian, Taiwan. Machine-coded by GDELT 2.1 (20 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 23.6969,
+      "lng": 120.26,
+      "action": "Protest (GDELT 141)",
+      "actor": "Tainan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Changnan, Yunlin Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/society/202611190008",
+      "gdelt": {
+        "globalEventId": "1333944076",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": 0.78,
+        "mentions": 20,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333944077",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T07:45:00.000Z",
+      "description": "Coercion — Taiwan → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://focustaiwan.tw/society/202611190007",
+      "gdelt": {
+        "globalEventId": "1333944077",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -11.85,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333947319",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T08:15:00.000Z",
+      "description": "Disapproval — China → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cna.com.tw:443/youtube/6owUenXdCu8.aspx",
+      "gdelt": {
+        "globalEventId": "1333947319",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.85,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333949653",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T08:30:00.000Z",
+      "description": "Reduced relations — Prime Minister → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Prime Minister",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thenational.com.pg/closing-taiwan-office-not-easy/",
+      "gdelt": {
+        "globalEventId": "1333949653",
+        "eventCode": "160",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": 2.37,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333958563",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T09:30:00.000Z",
+      "description": "Disapproval — China → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thejournal.ie/donald-trump-xi-jinping-and-vladimir-putin-begin-unprecedented-summit-in-china-7231005-Nov2026/",
+      "gdelt": {
+        "globalEventId": "1333958563",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.76,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333958915",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T09:30:00.000Z",
+      "description": "Reduced relations — President → China near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Reduced relations (GDELT 164)",
+      "actor": "President",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thejournal.ie/donald-trump-xi-jinping-and-vladimir-putin-begin-unprecedented-summit-in-china-7231005-Nov2026/",
+      "gdelt": {
+        "globalEventId": "1333958915",
+        "eventCode": "164",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -7,
+        "tone": 0.76,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333959478",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T09:30:00.000Z",
+      "description": "Demand — Taiwan → The Us near Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Demand (GDELT 100)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thejournal.ie/donald-trump-xi-jinping-and-vladimir-putin-begin-unprecedented-summit-in-china-7231005-Nov2026/",
+      "gdelt": {
+        "globalEventId": "1333959478",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": 0.76,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333959569",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T09:30:00.000Z",
+      "description": "Disapproval — United States → China near Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.news.cn/20261119/37bc6d12436d47de8ed9577a1a8f855a/c.html",
+      "gdelt": {
+        "globalEventId": "1333959569",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.25,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333959633",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T09:30:00.000Z",
+      "description": "Disapproval — United States → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.news.cn/20261119/37bc6d12436d47de8ed9577a1a8f855a/c.html",
+      "gdelt": {
+        "globalEventId": "1333959633",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.25,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333964112",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T10:00:00.000Z",
+      "description": "Demand — Taiwan → The Us near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Demand (GDELT 100)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://lufkindailynews.com/news_reuters/top_news/trump-xi-putin-begin-historic-meeting-with-ukraine-war-on-agenda/article_e5c1dbaf-fab8-53b5-86d1-bb74467d0948.html",
+      "gdelt": {
+        "globalEventId": "1333964112",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -1.26,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333964113",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T10:00:00.000Z",
+      "description": "Demand — Taiwan → The Us near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Demand (GDELT 100)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://lufkindailynews.com/news_reuters/top_news/trump-xi-putin-begin-historic-meeting-with-ukraine-war-on-agenda/article_e5c1dbaf-fab8-53b5-86d1-bb74467d0948.html",
+      "gdelt": {
+        "globalEventId": "1333964113",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -1.26,
+        "mentions": 4,
         "sources": 1
       }
     },
@@ -539,7 +1985,7 @@
       "kind": "news",
       "date": "2026-11-18",
       "isoDate": "2026-11-18T17:56:30.000Z",
-      "description": "A Chinese executive is convicted in a case linked to a Bangkok building collapse (Straits Times, 2026-11-18. Headline + link only.)",
+      "description": "Chinese executive convicted in case linked to  Bangkok building collapse (Straits Times, 2026-11-18. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Straits Times",
@@ -3035,6 +4481,40 @@
         "goldstein": -4,
         "tone": -2.62,
         "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333965390",
+      "kind": "event",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T00:00:00.000Z",
+      "observedAt": "2026-11-19T10:15:00.000Z",
+      "description": "Fight — Jilin → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Fight (GDELT 190)",
+      "actor": "Jilin",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/19/2003868038",
+      "gdelt": {
+        "globalEventId": "1333965390",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.3,
+        "mentions": 5,
         "sources": 1
       }
     },
@@ -7229,177 +8709,6 @@
       "lat": 24.95694,
       "lng": 121.01222,
       "coordsNote": "OSM geocode: matched \"Shenzhen\" → Shenzhen, Shenzun Village, Xinwu District; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-1unqdqh",
-      "kind": "news",
-      "date": "2026-11-16",
-      "isoDate": "2026-11-16T08:23:49.000Z",
-      "description": "Why Xi and Takaichi will not repeat the 2014 Apec summit’s China-Japan diplomatic thaw (SCMP, 2026-11-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3374582/why-xi-and-takaichi-will-not-repeat-2014-apec-summits-china-japan-diplomatic-thaw"
-    },
-    {
-      "id": "news-1ajpvq",
-      "kind": "news",
-      "date": "2026-11-16",
-      "isoDate": "2026-11-16T07:50:05.000Z",
-      "description": "China says Xi-Putin-Trump meeting has 'groundbreaking significance' (Straits Times, 2026-11-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/china-says-xi-putin-trump-meeting-has-groundbreaking-significance"
-    },
-    {
-      "id": "news-lgzhr2",
-      "kind": "news",
-      "date": "2026-11-16",
-      "isoDate": "2026-11-16T07:49:53.000Z",
-      "description": "UN ready to support any denuclearisation effort from US, China, Russia talks (Straits Times, 2026-11-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/se-asia/un-ready-to-support-any-denuclearisation-effort-from-us-china-russia-talks"
-    },
-    {
-      "id": "news-1s1px6d",
-      "kind": "news",
-      "date": "2026-11-16",
-      "isoDate": "2026-11-16T07:09:26.000Z",
-      "description": "Japan’s fighter jet scrambles near 5-year high as China ramps up Pacific patrols (SCMP, 2026-11-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/military/article/3374567/japan-faces-near-5-year-high-fighter-jet-scrambles-china-ramps-pacific-patrols"
-    },
-    {
-      "id": "news-2dmlyx",
-      "kind": "news",
-      "date": "2026-11-16",
-      "isoDate": "2026-11-16T07:00:00.000Z",
-      "description": "​​Jensen Huang ​saga ​will not derail ​Trump-Xi-Putin ‘G3’ ​talks​ at APEC: China expert Bert Hofman (Straits Times, 2026-11-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/jensen-huang-saga-wont-crush-g-3-apec-summits-china-expert"
-    },
-    {
-      "id": "news-y7mfd8",
-      "kind": "news",
-      "date": "2026-11-16",
-      "isoDate": "2026-11-16T06:20:10.000Z",
-      "description": "Chinese Premier lauds ‘extraordinary’ ties with ASEAN ahead of Trump visit (Straits Times, 2026-11-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/se-asia/chinese-premier-lauds-extraordinary-ties-with-asean-ahead-of-trump-visit"
-    },
-    {
-      "id": "news-66tdpi",
-      "kind": "news",
-      "date": "2026-11-16",
-      "isoDate": "2026-11-16T05:03:00.000Z",
-      "description": "Philippines stresses diplomacy as Marcos heads to China for APEC (Straits Times, 2026-11-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/se-asia/philippines-stresses-diplomacy-as-marcos-heads-to-china-for-apec"
-    },
-    {
-      "id": "news-1b5lwc6",
-      "kind": "news",
-      "date": "2026-11-16",
-      "isoDate": "2026-11-16T04:30:00.000Z",
-      "description": "Washington turns to Tokyo to boost missile reserves, triggering talk over Taiwan (Straits Times, 2026-11-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/operation-supercharge-a-plan-to-assemble-us-amraam-missiles-in-japan-draws-chinas-pushback"
-    },
-    {
-      "id": "news-1slsx88",
-      "kind": "news",
-      "date": "2026-11-16",
-      "isoDate": "2026-11-16T03:03:05.000Z",
-      "description": "Vuk Jeremic on US-Europe fracture, EU-China tensions and adjusting to a multipolar world (SCMP, 2026-11-16. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/plus/news/china/diplomacy/article/3374534/vuk-jeremic-us-europe-fracture-eu-china-tensions-and-adjusting-multipolar-world"
     }
   ]
 }

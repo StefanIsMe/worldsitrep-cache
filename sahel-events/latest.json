@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-19T02:51:12.382Z",
+  "collectedAt": "2026-11-19T10:40:15.956Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 0
+      "count": 7
     },
     {
       "id": "aa-mali",
@@ -20,7 +20,7 @@
       "id": "aa-burkina",
       "url": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
       "status": "ok",
-      "count": 2,
+      "count": 3,
       "filtered": 5
     },
     {
@@ -56,7 +56,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 32
+      "filtered": 31
     },
     {
       "id": "africanews",
@@ -101,8 +101,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 82,
+  "count": 90,
   "events": [
+    {
+      "id": "news-96rkck",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T05:20:18.000Z",
+      "description": "Burkina Faso Targets Critics in Exile (AllAfrica Burkina Faso, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AllAfrica Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "AllAfrica Burkina Faso",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AllAfrica Burkina Faso",
+      "source": "AllAfrica Burkina Faso",
+      "sourceUrl": "https://allafrica.com/stories/202611190035.html"
+    },
     {
       "id": "gdelt-1333893984",
       "kind": "event",
@@ -134,6 +153,244 @@
         "goldstein": -10,
         "tone": -4.01,
         "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333913072",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T03:15:00.000Z",
+      "description": "Rejection — Coup Leader → Niger near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Coup Leader",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/19112026-africa-coup-leaders-promises-fall-short/",
+      "gdelt": {
+        "globalEventId": "1333913072",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -3.88,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333913951",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T03:15:00.000Z",
+      "description": "Fight — Tuareg → Government near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16,
+      "lng": 8,
+      "action": "Fight (GDELT 192)",
+      "actor": "Tuareg",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.eurasiareview.com/19112026-africa-coup-leaders-promises-fall-short/",
+      "gdelt": {
+        "globalEventId": "1333913951",
+        "eventCode": "192",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -3.88,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333926511",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T05:30:00.000Z",
+      "description": "Rejection — Ghana → Unspecified near Burkina Faso. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Ghana",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ghanamma.com/2026/11/19/acheampongs-posthumous-restoration-of-general-rank-would-legitimise-coup-kabila/",
+      "gdelt": {
+        "globalEventId": "1333926511",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -3.21,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333955870",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T09:15:00.000Z",
+      "description": "Disapproval — Burkina Faso → Employee near Burkina Faso. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.swissinfo.ch/eng/international-cooperation/switzerland-funds-protection-for-aid-workers-in-chad/92398856",
+      "gdelt": {
+        "globalEventId": "1333955870",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.94,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333955871",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T09:15:00.000Z",
+      "description": "Disapproval — Burkina Faso → Employee near Burkina Faso. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.swissinfo.ch/eng/international-cooperation/switzerland-funds-protection-for-aid-workers-in-chad/92398856",
+      "gdelt": {
+        "globalEventId": "1333955871",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.94,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333955872",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T09:15:00.000Z",
+      "description": "Coercion — Burkina Faso → Employee near Burkina Faso. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.swissinfo.ch/eng/international-cooperation/switzerland-funds-protection-for-aid-workers-in-chad/92398856",
+      "gdelt": {
+        "globalEventId": "1333955872",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -3.94,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1333955873",
+      "kind": "event",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T00:00:00.000Z",
+      "observedAt": "2026-11-19T09:15:00.000Z",
+      "description": "Coercion — Burkina Faso → Employee near Burkina Faso. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 13,
+      "lng": -2,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Burkina Faso",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.swissinfo.ch/eng/international-cooperation/switzerland-funds-protection-for-aid-workers-in-chad/92398856",
+      "gdelt": {
+        "globalEventId": "1333955873",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -3.94,
+        "mentions": 8,
         "sources": 1
       }
     },
