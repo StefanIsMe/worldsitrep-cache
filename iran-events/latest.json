@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "iran",
-  "collectedAt": "2026-11-19T02:23:55.174Z",
+  "collectedAt": "2026-11-19T02:51:12.382Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 221
+      "count": 39
     },
     {
       "id": "gnews-iran",
@@ -20,7 +20,7 @@
       "id": "gnews-unrest",
       "url": "https://news.google.com/rss/search?q=Iran%20protests%20Khamenei&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 48,
+      "count": 49,
       "filtered": 0
     },
     {
@@ -82,6 +82,25 @@
   ],
   "count": 1500,
   "events": [
+    {
+      "id": "news-h3gehg",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T01:59:53.000Z",
+      "description": "Netanyahu pushes for 4-7 day Iran war as Trump hesitates, NYT reports - Ynetnews (Ynetnews, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ynetnews",
+      "axis": "Other",
+      "tags": [
+        "Ynetnews",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ynetnews",
+      "source": "Ynetnews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13MGJlaEZyM3daZlJoUkdER0t3bHhlVEZISDY2S1Vodnl0bVhvZk02WFp4RjluQlBEelVvQ3hfbUQ4bXpOQ3NwT1cyTHdTWXlVTk43S3NR?oc=5"
+    },
     {
       "id": "news-1y7b92g",
       "kind": "news",
@@ -5802,6 +5821,25 @@
       "locationStr": "Tehran Times",
       "source": "Tehran Times",
       "sourceUrl": "https://www.tehrantimes.com/news/532316/Basij-ideology-has-thwarted-US-objectives-against-Iran-IRGC"
+    },
+    {
+      "id": "news-1ah8c7l",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T17:56:25.000Z",
+      "description": "US Warns Iranian Plots Pose Growing Threat At Home And Abroad - i24NEWS (i24NEWS, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "i24NEWS",
+      "axis": "Other",
+      "tags": [
+        "i24NEWS",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "i24NEWS",
+      "source": "i24NEWS",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa1NMeWMwb21ucGlFb2c1bktEdmlKUnQ5Wjc4R29vSHY4Ri1mWU5NNUhtR0pmS2NwWGtadUYwVVNsSktJRjctRTQ5Q0FWNlBWNVFCYVhOdDJtUWo0cTNQLWxqM3d6aWhtaXZoa293SlRROEVPbXJrUEJPUTRxeGRQOGRLM1g4QUo2dDRXbUJTc3BQel9za2R2aVlGaGZWcHVlc1JxQ0NYcGFYLWY4b1EwYjNES08xSDBPRlFEbQ?oc=5"
     },
     {
       "id": "news-1de5vjh",
@@ -49809,74 +49847,6 @@
         "goldstein": -6.5,
         "tone": -8.02,
         "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333875858",
-      "kind": "event",
-      "date": "2026-11-18",
-      "isoDate": "2026-11-18T00:00:00.000Z",
-      "observedAt": "2026-11-18T22:30:00.000Z",
-      "description": "Disapproval — Bahrain → Iran near Iran. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Disapproval (GDELT 111)",
-      "actor": "Bahrain",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.gdnonline.com:443/Details/1413278",
-      "gdelt": {
-        "globalEventId": "1333875858",
-        "eventCode": "111",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -16.18,
-        "mentions": 5,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1333876667",
-      "kind": "event",
-      "date": "2026-11-18",
-      "isoDate": "2026-11-18T00:00:00.000Z",
-      "observedAt": "2026-11-18T22:30:00.000Z",
-      "description": "Threat — The Us → Military near Iran. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 32,
-      "lng": 53,
-      "action": "Threat (GDELT 138)",
-      "actor": "The Us",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Threat"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Iran",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.middleeasteye.net/trending/critics-accuse-new-york-times-promoting-iran-war-propaganda",
-      "gdelt": {
-        "globalEventId": "1333876667",
-        "eventCode": "138",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -7,
-        "tone": -5.98,
-        "mentions": 8,
         "sources": 1
       }
     }

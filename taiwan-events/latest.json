@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-19T02:23:55.174Z",
+  "collectedAt": "2026-11-19T02:51:12.382Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 6
+      "count": 1
     },
     {
       "id": "taipei-times",
@@ -26,9 +26,9 @@
     {
       "id": "gnews-defense",
       "url": "https://news.google.com/rss/search?q=Taiwan%20PLA%20military%20drills&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-defense request failed with HTTP 429"
     },
     {
       "id": "scmp-china",
