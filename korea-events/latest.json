@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "korea",
-  "collectedAt": "2026-11-20T18:02:52.131Z",
+  "collectedAt": "2026-11-20T23:48:54.231Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 7
+      "count": 18
     },
     {
       "id": "yna-nk",
@@ -27,8 +27,8 @@
       "id": "korea-times",
       "url": "https://feed.koreatimes.co.kr/k/allnews.xml",
       "status": "ok",
-      "count": 1,
-      "filtered": 9
+      "count": 3,
+      "filtered": 15
     },
     {
       "id": "gnews-korea",
@@ -55,8 +55,8 @@
       "id": "diplomat",
       "url": "https://thediplomat.com/feed/",
       "status": "ok",
-      "count": 6,
-      "filtered": 44
+      "count": 7,
+      "filtered": 43
     },
     {
       "id": "bbc-asia",
@@ -94,13 +94,55 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 824,
+  "count": 836,
   "events": [
+    {
+      "id": "news-18m39oo",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T23:47:02.000Z",
+      "description": "Robots patrol parks, serve meals in Seoul's wealthy Gangnam District (Korea Times, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Seoul",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/others/20261121/robots-patrol-parks-serve-meals-in-seouls-wealthy-gangnam-district?utm_source=rss",
+      "lat": 37.57,
+      "lng": 126.98,
+      "coordsNote": "Headline gazetteer match: \"Seoul\" (city); verify via source article."
+    },
+    {
+      "id": "news-1b1oc8e",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T23:47:02.000Z",
+      "description": "Mexican novelist explores Korea through AI dolls, shamans, beauty in 'Peeling' (Korea Times, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Korea Times",
+      "axis": "Other",
+      "tags": [
+        "Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Korea Times",
+      "source": "Korea Times",
+      "sourceUrl": "https://www.koreatimes.co.kr/lifestyle/books/20261121/mexican-novelist-explores-korea-through-ai-dolls-shamans-beauty-in-peeling?utm_source=rss"
+    },
     {
       "id": "news-1k69ihi",
       "kind": "news",
       "date": "2026-11-20",
-      "isoDate": "2026-11-20T17:57:02.000Z",
+      "isoDate": "2026-11-20T23:47:02.000Z",
       "description": "Love, conflict and the paradox of choice: Inside Korea's dating show boom (Korea Times, 2026-11-20. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -114,6 +156,44 @@
       "locationStr": "Korea Times",
       "source": "Korea Times",
       "sourceUrl": "https://www.koreatimes.co.kr/entertainment/20261121/love-conflict-and-the-paradox-of-choice-inside-koreas-dating-show-boom?utm_source=rss"
+    },
+    {
+      "id": "news-ljxv",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T23:06:31.000Z",
+      "description": "Analysis: North Korea’s nuclear expansion raises the stakes for Washington - WTOP News (WTOP News, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WTOP News",
+      "axis": "Other",
+      "tags": [
+        "WTOP News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WTOP News",
+      "source": "WTOP News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTnpqeDZyNUhiRkFLNlV4RG5ZNFMzemdJMGtiQzJqSElKa3hoZHR0VFRzYllhNFdOS3ViUHhCUmlmQUNRNFFHOEZ2VV9VNnpDb2E2b0JXYWxEZk1BNDZ3Q1FmLS13RXNJa1IwX0QtdWRzSllnWEtyNTJtazBITVZ6LTBtRHZEb01XRnFMdlpSRkEtZ1NXUkFNeV9BaE04Mm5hZEVnRkxKb1MwWjdUVy1xR1lqYzJMNHZZbkVETDR6Q1Y4Vnc?oc=5"
+    },
+    {
+      "id": "news-17o9i6h",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T17:58:00.000Z",
+      "description": "Russia’s Changing Positions on North Korea Sanctions and Denuclearization (The Diplomat, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Diplomat",
+      "axis": "Other",
+      "tags": [
+        "The Diplomat",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Diplomat",
+      "source": "The Diplomat",
+      "sourceUrl": "https://thediplomat.com/2026/11/russias-changing-positions-on-north-korea-sanctions-and-denuclearization/"
     },
     {
       "id": "news-96xyvc",
@@ -939,25 +1019,6 @@
       "locationStr": "Yonhap",
       "source": "Yonhap",
       "sourceUrl": "https://en.yna.co.kr/view/AEN20261120004100315"
-    },
-    {
-      "id": "news-vcqt23",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T01:59:41.000Z",
-      "description": "North Korea expands uranium enrichment facility as UN nuclear watchdog raises alarm - Stars and Stripes (Stars and Stripes, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Stars and Stripes",
-      "axis": "Other",
-      "tags": [
-        "Stars and Stripes",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Stars and Stripes",
-      "source": "Stars and Stripes",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUDBPbE5VVFh1YkZiM2tTeFQ0RUg5eGRqRmRBdW9YQTdWa0plcHV4amo1b2RVX0VRTTZMM3VkYlV6ZmN1b1VuNXdJMmZjd1NxV1U2U21UWUFEZDVZeU5OUV9PUHNhV0syWWI2T3BDMERuZjZEanZIUFJmUlFoWG9CcUU3VlU2eFoxS2hXZWhqanpGRFhZTHQ0cnlVVVRCY2ZGNnFGMWgwQWxwdm5IWTVN?oc=5"
     },
     {
       "id": "news-1i6m1cn",
@@ -6168,6 +6229,584 @@
       }
     },
     {
+      "id": "gdelt-1334247688",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T18:30:00.000Z",
+      "description": "Disapproval — Unspecified → Criminal near North Korea. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 40,
+      "lng": 127,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.newsweek.com/cyber-attack-winter-shield-riptide-fbi-12748446",
+      "gdelt": {
+        "globalEventId": "1334247688",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.16,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334248674",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T18:30:00.000Z",
+      "description": "Coercion — North Korea → United States near North Korea. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 40,
+      "lng": 127,
+      "action": "Coercion (GDELT 173)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.newsweek.com/cyber-attack-winter-shield-riptide-fbi-12748446",
+      "gdelt": {
+        "globalEventId": "1334248674",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -5.16,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334254229",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T19:15:00.000Z",
+      "description": "Fight — Detective → Japan near South Korea. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Fight (GDELT 190)",
+      "actor": "Detective",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.indiatimes.com/trending/the-blue-road-ending-explained-who-was-the-real-mastermind-behind-the-murders-and-how-did-kim-seok-discover-his-familys-darkest-secret/articleshow/136034674.html",
+      "gdelt": {
+        "globalEventId": "1334254229",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.48,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334254234",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T19:15:00.000Z",
+      "description": "Fight — Detective → South Korea near South Korea. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Fight (GDELT 190)",
+      "actor": "Detective",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.indiatimes.com/trending/the-blue-road-ending-explained-who-was-the-real-mastermind-behind-the-murders-and-how-did-kim-seok-discover-his-familys-darkest-secret/articleshow/136034674.html",
+      "gdelt": {
+        "globalEventId": "1334254234",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.48,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334254693",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T19:15:00.000Z",
+      "description": "Fight — South Korea → Japan near South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Fight (GDELT 190)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.indiatimes.com/trending/the-blue-road-ending-explained-who-was-the-real-mastermind-behind-the-murders-and-how-did-kim-seok-discover-his-familys-darkest-secret/articleshow/136034674.html",
+      "gdelt": {
+        "globalEventId": "1334254693",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.48,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334254694",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T19:15:00.000Z",
+      "description": "Fight — South Korea → Japan near South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Fight (GDELT 190)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.indiatimes.com/trending/the-blue-road-ending-explained-who-was-the-real-mastermind-behind-the-murders-and-how-did-kim-seok-discover-his-familys-darkest-secret/articleshow/136034674.html",
+      "gdelt": {
+        "globalEventId": "1334254694",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.48,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334258974",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T19:45:00.000Z",
+      "description": "Fight — Doctor → Saga near South Korea. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Fight (GDELT 192)",
+      "actor": "Doctor",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.superherohype.com/comics/707987-spider-man-luke-skywalker-marvel-star-wars-crossover-first-look",
+      "gdelt": {
+        "globalEventId": "1334258974",
+        "eventCode": "192",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": 6.16,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334258975",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T19:45:00.000Z",
+      "description": "Fight — Doctor → South Korea near South Korea. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Fight (GDELT 192)",
+      "actor": "Doctor",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.superherohype.com/comics/707987-spider-man-luke-skywalker-marvel-star-wars-crossover-first-look",
+      "gdelt": {
+        "globalEventId": "1334258975",
+        "eventCode": "192",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": 6.16,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334258992",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T19:45:00.000Z",
+      "description": "Disapproval — Tamil Nadu → Unspecified near South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Disapproval (GDELT 114)",
+      "actor": "Tamil Nadu",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thehindu.com/news/national/tamil-nadu/state-govt-should-clarify-on-dismissal-of-guidance-employees-anbumani/article71725029.ece",
+      "gdelt": {
+        "globalEventId": "1334258992",
+        "eventCode": "114",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.94,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334266397",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T20:45:00.000Z",
+      "description": "Disapproval — Voter → Administration near South Korea. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Voter",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.hani.co.kr/arti/english_edition/english_editorials/1021619.html",
+      "gdelt": {
+        "globalEventId": "1334266397",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.1,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334266702",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T20:45:00.000Z",
+      "description": "Coercion — South Korea → Voter near South Korea. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Coercion (GDELT 173)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.hani.co.kr/arti/english_edition/english_editorials/1021619.html",
+      "gdelt": {
+        "globalEventId": "1334266702",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -2.1,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334266826",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T20:45:00.000Z",
+      "description": "Coercion — Political Parties → Voter near South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Political Parties",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://english.hani.co.kr/arti/english_edition/english_editorials/1021619.html",
+      "gdelt": {
+        "globalEventId": "1334266826",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -2.1,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334269494",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T21:00:00.000Z",
+      "description": "Demand — North Korea → Washington near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Demand (GDELT 100)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.newsweek.com/why-the-fourth-trump-and-kim-jong-un-summit-keeps-not-happening-12746937",
+      "gdelt": {
+        "globalEventId": "1334269494",
+        "eventCode": "100",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -0.26,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334271003",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T21:15:00.000Z",
+      "description": "Disapproval — School → South Korea near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (8 mentions, 2 sources); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "School",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.tspr.org/npr-news/2026-11-20/school-for-north-korean-defectors-sparks-opposition-in-seoul",
+      "gdelt": {
+        "globalEventId": "1334271003",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.89,
+        "mentions": 8,
+        "sources": 2
+      }
+    },
+    {
+      "id": "gdelt-1334271007",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T21:15:00.000Z",
+      "description": "Disapproval — School → South Korea near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (4 mentions, 2 sources); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "School",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.tspr.org/npr-news/2026-11-20/school-for-north-korean-defectors-sparks-opposition-in-seoul",
+      "gdelt": {
+        "globalEventId": "1334271007",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.89,
+        "mentions": 4,
+        "sources": 2
+      }
+    },
+    {
+      "id": "gdelt-1334271008",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T21:15:00.000Z",
+      "description": "Disapproval — School → South Korea near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (4 mentions, 2 sources); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "School",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.tspr.org/npr-news/2026-11-20/school-for-north-korean-defectors-sparks-opposition-in-seoul",
+      "gdelt": {
+        "globalEventId": "1334271008",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.89,
+        "mentions": 4,
+        "sources": 2
+      }
+    },
+    {
+      "id": "gdelt-1334271009",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T21:15:00.000Z",
+      "description": "Disapproval — School → South Korea near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (4 mentions, 2 sources); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "School",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.tspr.org/npr-news/2026-11-20/school-for-north-korean-defectors-sparks-opposition-in-seoul",
+      "gdelt": {
+        "globalEventId": "1334271009",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -8.89,
+        "mentions": 4,
+        "sources": 2
+      }
+    },
+    {
       "id": "news-o3ilc0",
       "kind": "news",
       "date": "2026-11-19",
@@ -6341,6 +6980,25 @@
       "locationStr": "The Diplomat",
       "source": "The Diplomat",
       "sourceUrl": "https://thediplomat.com/2026/11/south-koreas-coal-use-is-surging-and-not-just-because-of-the-iran-war/"
+    },
+    {
+      "id": "news-vcqt23",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T19:59:41.000Z",
+      "description": "North Korea expands uranium enrichment facility as UN nuclear watchdog raises alarm - Stars and Stripes (Stars and Stripes, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Stars and Stripes",
+      "axis": "Other",
+      "tags": [
+        "Stars and Stripes",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Stars and Stripes",
+      "source": "Stars and Stripes",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUDBPbE5VVFh1YkZiM2tTeFQ0RUg5eGRqRmRBdW9YQTdWa0plcHV4amo1b2RVX0VRTTZMM3VkYlV6ZmN1b1VuNXdJMmZjd1NxV1U2U21UWUFEZDVZeU5OUV9PUHNhV0syWWI2T3BDMERuZjZEanZIUFJmUlFoWG9CcUU3VlU2eFoxS2hXZWhqanpGRFhZTHQ0cnlVVVRCY2ZGNnFGMWgwQWxwdm5IWTVN?oc=5"
     },
     {
       "id": "news-dlii05",
@@ -8162,6 +8820,25 @@
       "locationStr": "New York Post",
       "source": "New York Post",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZkJCbjFxTDJFNDZ6R21zYkFrTDh4aDd4VWxOOV9QT3FieENvaUlUbVhQOW5vVkxDeWN5blBBQThfa2dzbjVCYnI1R0xTb0RSaWFUeFZ5S3FDSzFoZHFSVFFyekZjWEZzTThCTEk4Ym1lbFNiaVczdzRfdmxJT1VidENKNFA4NlloM0JLUjVHY3FKR3dHRXZTQTk1VFdkdUUwX184QWt1aHl5VnpxVV9Md0JFUTNnQ29mSWJkd3lPcFFOcmVhcUhIWA?oc=5"
+    },
+    {
+      "id": "news-gf05vm",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T02:42:05.000Z",
+      "description": "N. Korean leader's close aide returns home after trip to Russia - The Korea Times (The Korea Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Korea Times",
+      "axis": "Other",
+      "tags": [
+        "The Korea Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Korea Times",
+      "source": "The Korea Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOHRxNC1LREdQZy10b1A3X0pUUE00S0JSTm1VQXBMUzR6ZGxCOVhyV2cxbFhSRkdzWGk1aVJOUHE0QmdYZWRmeWM0Mk5nU0k3TEg2X2hMYzFLbnJnOFkybk9UR0F5YkhlSEFlTWIzekF4VWFVWW55V1h3bktvY0tMMFQtTnIyRllsc0pxazRHMlBTV0lpeGZFNjQydVhRbXdwRUdkT3FnYnpJNGJCNzhpOHFBUUxTbDAzSUo0ZTVEb2pJNjDSAcgBQVVfeXFMTXRsemxwV2lxdGpNdlNfZzB6QkZnaUhiMDQ3ZkxIaW53WF9zZWRDVy1xS1NUMmQ2QjBzOGM2RGZoQk9udmRoY25DUmFTV3VyanZtZjhhbGc5S25DX1lza2hmTV9CaHZsMzRTeTE5RVg5YmhjdndHTlFHdGpsMnVZbUd6NG5lSjkzeTE5MjhBLXB4Ymkxc01CcVZuV2MtRFE5NlVBdDctX0RoMkpJbFdWdkcxNmJMR1JVbm00SWxpcTVwbGo2RG5aRGE?oc=5"
     },
     {
       "id": "news-724745",
@@ -23434,196 +24111,6 @@
         "mentions": 2,
         "sources": 1
       }
-    },
-    {
-      "id": "news-grxyf7",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T23:44:25.000Z",
-      "description": "S. Korea issues cybersecurity advisory after flaws discovered in Java platform (Yonhap, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261118001700320"
-    },
-    {
-      "id": "news-1u2bxuk",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T23:19:59.000Z",
-      "description": "Russia to unveil monument honoring N. Korean troops' contribution in Kursk this year: KCNA - Yonhap News Agency (Yonhap News Agency, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap News Agency",
-      "axis": "Other",
-      "tags": [
-        "Yonhap News Agency",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap News Agency",
-      "source": "Yonhap News Agency",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uSjU4Y0FpV0R6bGtvR1daWHpiWndRc09Zc2EzRThTam5rcXJrNWFJTl9TWFVRVWdkX3JiSDBWem5yZ1BPU0VYSmlaaFJ5OGxYSVBQUVR0VWVkZw?oc=5"
-    },
-    {
-      "id": "news-e6qq5f",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T23:19:59.000Z",
-      "description": "Russia to unveil monument honoring N. Korean troops' contribution in Kursk this year: KCNA (Yonhap, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261118001300315"
-    },
-    {
-      "id": "news-1oo64cs",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T22:42:03.000Z",
-      "description": "S. Korea defeat Qatar in final match of year (Korea Times, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/sports/20261118/s-korea-defeat-qatar-in-final-match-of-year?utm_source=rss"
-    },
-    {
-      "id": "news-4w3z4g",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T22:42:03.000Z",
-      "description": "3.6 magnitude earthquake hits city in southeastern S. Korea: weather agency (Korea Times, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/20261118/36-magnitude-earthquake-hits-city-in-southeastern-s-korea-weather-agency?utm_source=rss"
-    },
-    {
-      "id": "news-c8uayo",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T21:58:14.000Z",
-      "description": "(EDITORIAL from Korea JoongAng Daily on Nov. 18) (Yonhap, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261118001000315"
-    },
-    {
-      "id": "news-1vqqzfs",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T21:57:39.000Z",
-      "description": "(EDITORIAL from Korea Times on Nov. 18) (Yonhap, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261118000900315"
-    },
-    {
-      "id": "news-1v3g6dj",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T21:57:07.000Z",
-      "description": "(EDITORIAL from Korea Herald on Nov. 18) (Yonhap, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261118000800315"
-    },
-    {
-      "id": "news-1ug5dba",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T21:56:47.000Z",
-      "description": "Top headlines in major S. Korean newspapers (Yonhap, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261118000700315"
-    },
-    {
-      "id": "news-1c150l7",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T20:12:20.000Z",
-      "description": "North Korea missile funding — Kim Jong-un’s Silicon Valley Operation - The Korea Daily (The Korea Daily, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Korea Daily",
-      "axis": "Other",
-      "tags": [
-        "The Korea Daily",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Korea Daily",
-      "source": "The Korea Daily",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLUEV6RHZ4R1YycXVUWkVLb1JRZ3FQTzctakVNQ29ndUVWdEZlRTBpdkNSblBCSjNKbXVWVldzM29pNkxnbURxTU9QVjBLcmhsWlpzV1VXUmNHb3ZTaEhlTGJ4ZzNMYzE1cEJTb0VFcF95aUFZSV9mVQ?oc=5"
     }
   ]
 }
