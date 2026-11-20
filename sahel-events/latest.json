@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-20T09:14:04.648Z",
+  "collectedAt": "2026-11-20T17:43:48.342Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 1
+      "count": 5
     },
     {
       "id": "aa-mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
       "status": "ok",
       "count": 7,
-      "filtered": 8
+      "filtered": 9
     },
     {
       "id": "aa-burkina",
@@ -47,9 +47,9 @@
     {
       "id": "france24-africa",
       "url": "https://www.france24.com/en/africa/rss",
-      "status": "ok",
+      "status": "failed",
       "count": 0,
-      "filtered": 30
+      "error": "RSS france24-africa request failed with HTTP 403"
     },
     {
       "id": "bbc-africa",
@@ -70,7 +70,7 @@
       "url": "https://rss.dw.com/xml/rss-en-africa",
       "status": "ok",
       "count": 0,
-      "filtered": 2
+      "filtered": 3
     },
     {
       "id": "gnews-jnim",
@@ -83,14 +83,14 @@
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 29,
+      "count": 27,
       "filtered": 0
     },
     {
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 45,
+      "count": 10,
       "filtered": 0
     },
     {
@@ -101,8 +101,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 98,
+  "count": 104,
   "events": [
+    {
+      "id": "news-1g3zh9j",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T12:33:10.000Z",
+      "description": "FEATURES: Bridging the Sahel divide: Can ECOWAS, AES unite against terror? - 21st CENTURY CHRONICLE (21st CENTURY CHRONICLE, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "21st CENTURY CHRONICLE",
+      "axis": "Other",
+      "tags": [
+        "21st CENTURY CHRONICLE",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "21st CENTURY CHRONICLE",
+      "source": "21st CENTURY CHRONICLE",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORURJSktNeUdOeUFaZ0lNdGlvUWM1NTNBRHZBUjBVRmZsXzQwWGVCNVF0dk5kaVluYmF1WFM0ODJEdVkxTjhjZGdRZWpJRHlTVDZkd1plaXYxaV9kcDNnWF9oTDFqdjlrclNwZEdoOUdBczRKSlRJdXhtQXQ0TWFtRFh6NmI0NUpDQzRwSDNRNGZhd2FDcHpPajlVSVEwQXhTb0RfZVp2OA?oc=5"
+    },
     {
       "id": "news-1egst95",
       "kind": "news",
@@ -550,6 +569,176 @@
         "goldstein": -4,
         "tone": -4.52,
         "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334167948",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T10:00:00.000Z",
+      "description": "Coercion — Africa → Burkina Faso near Ouagadougou, Kadiogo, Burkina Faso. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.3703,
+      "lng": -1.52472,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Africa",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Ouagadougou, Kadiogo, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/burkina-faso-dissolves-pharmacists-union-medicine-prices/",
+      "gdelt": {
+        "globalEventId": "1334167948",
+        "eventCode": "172",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -0.08,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334168458",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T10:00:00.000Z",
+      "description": "Disapproval — Council Of Ministers → Unspecified near Ouagadougou, Kadiogo, Burkina Faso. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.3703,
+      "lng": -1.52472,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Council Of Ministers",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Ouagadougou, Kadiogo, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/burkina-faso-dissolves-pharmacists-union-medicine-prices/",
+      "gdelt": {
+        "globalEventId": "1334168458",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.08,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334169480",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T10:00:00.000Z",
+      "description": "Disapproval — The Us → Uemoa near Ouagadougou, Kadiogo, Burkina Faso. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.3703,
+      "lng": -1.52472,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "The Us",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Ouagadougou, Kadiogo, Burkina Faso",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/burkina-faso-dissolves-pharmacists-union-medicine-prices/",
+      "gdelt": {
+        "globalEventId": "1334169480",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.08,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334192904",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T12:45:00.000Z",
+      "description": "Coercion — Anglican → Niger near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Anglican",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thisdaylive.com/2026/11/20/david-mark-wants-fut-minna-renamed-after-pioneer-vc-prof-jonathan-ndagi/",
+      "gdelt": {
+        "globalEventId": "1334192904",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -1.43,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334193467",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T12:45:00.000Z",
+      "description": "Coercion — Niger → Niger near Niger. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thisdaylive.com/2026/11/20/david-mark-wants-fut-minna-renamed-after-pioneer-vc-prof-jonathan-ndagi/",
+      "gdelt": {
+        "globalEventId": "1334193467",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -1.43,
+        "mentions": 6,
         "sources": 1
       }
     },
