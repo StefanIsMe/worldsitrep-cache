@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-20T17:43:48.342Z",
+  "collectedAt": "2026-11-20T18:02:52.131Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 42
+      "count": 8
     },
     {
       "id": "gcaptain",
@@ -26,9 +26,9 @@
     {
       "id": "gnews-houthis",
       "url": "https://news.google.com/rss/search?q=Houthis%20Yemen%20Red%20Sea&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-houthis request failed with HTTP 429"
     },
     {
       "id": "gnews-shipping",
@@ -486,6 +486,29 @@
       "lat": 15.35386,
       "lng": 44.20588,
       "coordsNote": "OSM geocode: matched \"Yemen’s Sanaa\" → Sana'a, At Tahrir District, Amanat Al Asimah; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1399ti5",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T08:20:23.000Z",
+      "description": "Iran war live: Houthis demand evacuation of Saudi ports after Hodeidah hit - Al Jazeera (Al Jazeera, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Hodeidah",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYmF2dkVFWEswbHFzSmtxS2taNHhUbTdPVVJfQ0tsT3doMXE5eGdtNGdQR2VMT2lUVG84WG4wdmhqTTF4dmxHN0EzQmt0Z1ljZVNlbUVIdGt6VkVxSEdYc3ZtaWlZUHpqMDBmX3ZVZ19yWmpyWHdlX1VRSnVsWEU4aFRISExDb2NOWEUzZXlZVU5DcTAxUWRmOUp6X293dTNVY0pPWXRWMFUtQdIBrwFBVV95cUxNLVJKT29zWTlLdG9hRU1fYjZ2aE1uV0ZiV1MxbkxGNWozSzh0cUlHRnEzV0YyYWpVYnpVZU5pX0wwSkRoRlRIbU1LQzNWNzBZX29HNE4wZEpXa0JQTU1oSHRXT01acTdiOW5neHZRVU5iRTR0UDFDdGFpOU56UDJsVTNwT1F5MXBMN3pxam13LWlZaUJYOUluWDhZSUJ4VWtiVlNEemJWU0ZzUld1NEJF?oc=5",
+      "lat": 14.8,
+      "lng": 42.95,
+      "coordsNote": "Headline gazetteer match: \"Hodeidah\" (city); verify via source article."
     },
     {
       "id": "news-1vqe2xa",
@@ -13600,29 +13623,6 @@
       "locationStr": "gCaptain",
       "source": "gCaptain",
       "sourceUrl": "https://gcaptain.com/ntsb-warned-of-mississippi-river-passenger-vessel-collision-risks-nearly-30-years-ago/"
-    },
-    {
-      "id": "news-ra13j2",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T17:50:08.000Z",
-      "description": "Houthi advance on Aden may spur resurgence of Yemen’s southern separatists - Al Jazeera (Al Jazeera, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Al Jazeera",
-      "axis": "Other",
-      "tags": [
-        "Al Jazeera",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Aden",
-      "source": "Al Jazeera",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb1hZRnZtQ2Z2ZTQ5SmpDWnVlZmhieU94Uy1TY2U4aUdFa0gzQkRJTVRIWmlYU2dnZlRuaE4wclF3Zy0ydjdxeVl4eXFacHZ5N21JLUpxeHBZa09NanFVejRHa2JTTEVnZ3dkMDNfNVkybUFuNHRKQ3g0ZVRSSTBoM0tYTEJKQ1NDendZcWNDZGcwcTNWR1dMcHRPNUZ6bmtrcUc1ci14SC11SDk1a25GcHNUUdIBuAFBVV95cUxNWGtCckJsSk85VnRCMlY5R1dJWVhNLXV5UGNkT2hyT0Vrck45eHVRckMyRHFheFpGMWZ5aFF3eU4xNXFuR3BQTXZBTDd6eGJWanBFcGU3eUtEMlVDT1dzMnNtODdORG1LbGpwQVNuOUlVQ0Z5aEUzVERTdWtHNTNvNzlnTml5Vzh5X19YWmRXUktFTzdqTC1nN1U5U2FIZENtUFBlY2J5YmRic3ZRSkZ6S19aVm00XzU3?oc=5",
-      "lat": 12.78,
-      "lng": 45.04,
-      "coordsNote": "Headline gazetteer match: \"Aden\" (city); verify via source article."
     }
   ]
 }

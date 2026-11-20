@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-20T17:43:48.342Z",
+  "collectedAt": "2026-11-20T18:02:52.131Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 43
+      "count": 1
     },
     {
       "id": "taipei-times",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 34,
+      "count": 33,
       "filtered": 0
     },
     {
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 333,
+  "count": 334,
   "events": [
     {
       "id": "news-1lzavz2",
@@ -3059,6 +3059,40 @@
         "goldstein": -4,
         "tone": -2.08,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334241012",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T17:45:00.000Z",
+      "description": "Fight — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Fight (GDELT 190)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cnbcafrica.com/2026/u-s-china-trade-taiwan-and-tech-tensions-remain-unresolved-as-trump-returns-from-asia",
+      "gdelt": {
+        "globalEventId": "1334241012",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -0.56,
+        "mentions": 1,
         "sources": 1
       }
     },

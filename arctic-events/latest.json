@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-11-20T17:43:48.342Z",
+  "collectedAt": "2026-11-20T18:02:52.131Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 113
+      "count": 15
     },
     {
       "id": "rci-arctic",
@@ -47,16 +47,16 @@
     {
       "id": "gnews-svalbard",
       "url": "https://news.google.com/rss/search?q=Svalbard%20Norway%20Russia%20Arctic&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-svalbard request failed with HTTP 429"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-greenland request failed with HTTP 429"
+      "status": "ok",
+      "count": 22,
+      "filtered": 0
     },
     {
       "id": "gnews-nsr",
@@ -73,8 +73,31 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 510,
+  "count": 521,
   "events": [
+    {
+      "id": "news-1u3sy78",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T17:41:29.000Z",
+      "description": "Denmark approves new US defence zones in Greenland - The Avenue Mail (The Avenue Mail, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Avenue Mail",
+      "axis": "Other",
+      "tags": [
+        "The Avenue Mail",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Greenland",
+      "source": "The Avenue Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jdHhQeWozLTU1TFR3UUJSNFE2eEVEUzlTeGFiRkpEQU41Ykx4cmFaZWR5V09OWjlIRFZMZUh2ejdUNmtmQTBReThBejVMTzNTR00xVlpOTk50ODJTR1BuT192WFpSNXJSWS1MVWRPYkxLT2tyODdB?oc=5",
+      "lat": 72,
+      "lng": -40,
+      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
+    },
     {
       "id": "news-1ieaowp",
       "kind": "news",
@@ -4963,6 +4986,346 @@
         "goldstein": -5,
         "tone": -7.94,
         "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334241214",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T17:45:00.000Z",
+      "description": "Threat — Finland → Unspecified near Helsinki, Eteläuomen Läi, Finland. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 60.1756,
+      "lng": 24.9342,
+      "action": "Threat (GDELT 138)",
+      "actor": "Finland",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Helsinki, Eteläuomen Läi, Finland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.justsecurity.org/162319/multifunctional-seabed/",
+      "gdelt": {
+        "globalEventId": "1334241214",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -0.85,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334241216",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T17:45:00.000Z",
+      "description": "Disapproval — Helsinki → United Nations near Helsinki, Eteläuomen Läi, Finland. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 60.1756,
+      "lng": 24.9342,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Helsinki",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Helsinki, Eteläuomen Läi, Finland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.justsecurity.org/162319/multifunctional-seabed/",
+      "gdelt": {
+        "globalEventId": "1334241216",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.85,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334243170",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T18:00:00.000Z",
+      "description": "Coercion — Unspecified → Deputy near Petrozavodsk, Kareliya, Russia. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 61.7961,
+      "lng": 34.3493,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petrozavodsk, Kareliya, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thebarentsobserver.com/news/miss-prison-guard-contest-held-in-karelia-notorious-for-its-torture-colonies/462353",
+      "gdelt": {
+        "globalEventId": "1334243170",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -7.4,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334243190",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T18:00:00.000Z",
+      "description": "Coercion — Unspecified → Governor near Petrozavodsk, Kareliya, Russia. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 61.7961,
+      "lng": 34.3493,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petrozavodsk, Kareliya, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thebarentsobserver.com/news/miss-prison-guard-contest-held-in-karelia-notorious-for-its-torture-colonies/462353",
+      "gdelt": {
+        "globalEventId": "1334243190",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -7.4,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334243236",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T18:00:00.000Z",
+      "description": "Coercion — Unspecified → Russia near Petrozavodsk, Kareliya, Russia. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 61.7961,
+      "lng": 34.3493,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petrozavodsk, Kareliya, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thebarentsobserver.com/news/miss-prison-guard-contest-held-in-karelia-notorious-for-its-torture-colonies/462353",
+      "gdelt": {
+        "globalEventId": "1334243236",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -7.4,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334243427",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T18:00:00.000Z",
+      "description": "Disapproval — Prison → Karelia near Petrozavodsk, Kareliya, Russia. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 61.7961,
+      "lng": 34.3493,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Prison",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petrozavodsk, Kareliya, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thebarentsobserver.com/news/miss-prison-guard-contest-held-in-karelia-notorious-for-its-torture-colonies/462353",
+      "gdelt": {
+        "globalEventId": "1334243427",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -7.4,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334243428",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T18:00:00.000Z",
+      "description": "Coercion — Deputy → Russia near Petrozavodsk, Kareliya, Russia. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 61.7961,
+      "lng": 34.3493,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Deputy",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petrozavodsk, Kareliya, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thebarentsobserver.com/news/miss-prison-guard-contest-held-in-karelia-notorious-for-its-torture-colonies/462353",
+      "gdelt": {
+        "globalEventId": "1334243428",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -7.4,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334243429",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T18:00:00.000Z",
+      "description": "Assault — Prison → Karelia near Karelia, Kareliya, Russia. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 64,
+      "lng": 32.5,
+      "action": "Assault (GDELT 1822)",
+      "actor": "Prison",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Karelia, Kareliya, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thebarentsobserver.com/news/miss-prison-guard-contest-held-in-karelia-notorious-for-its-torture-colonies/462353",
+      "gdelt": {
+        "globalEventId": "1334243429",
+        "eventCode": "1822",
+        "geoType": 5,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -7.4,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334244068",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T18:00:00.000Z",
+      "description": "Coercion — Prisoner → Unspecified near Petrozavodsk, Kareliya, Russia. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 61.7961,
+      "lng": 34.3493,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Prisoner",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petrozavodsk, Kareliya, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thebarentsobserver.com/news/miss-prison-guard-contest-held-in-karelia-notorious-for-its-torture-colonies/462353",
+      "gdelt": {
+        "globalEventId": "1334244068",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -7.4,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334244145",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T18:00:00.000Z",
+      "description": "Coercion — Russia → Governor near Petrozavodsk, Kareliya, Russia. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 61.7961,
+      "lng": 34.3493,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petrozavodsk, Kareliya, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thebarentsobserver.com/news/miss-prison-guard-contest-held-in-karelia-notorious-for-its-torture-colonies/462353",
+      "gdelt": {
+        "globalEventId": "1334244145",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -7.4,
+        "mentions": 2,
         "sources": 1
       }
     },
