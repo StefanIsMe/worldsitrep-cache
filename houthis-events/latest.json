@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-20T08:59:03.256Z",
+  "collectedAt": "2026-11-20T09:14:04.648Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 25
+      "count": 2
     },
     {
       "id": "gcaptain",
@@ -33,9 +33,9 @@
     {
       "id": "gnews-shipping",
       "url": "https://news.google.com/rss/search?q=Red%20Sea%20shipping%20Houthi%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-shipping request failed with HTTP 429"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "splash247",
@@ -80,8 +80,46 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 397,
+  "count": 398,
   "events": [
+    {
+      "id": "news-7qtehm",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T05:06:49.000Z",
+      "description": "Contaminated petrol leaves Yemeni drivers struggling to make ends meet - Al Jazeera (Al Jazeera, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdThGdzJJajg5dHB2WVVzNDI1MXVuYkM5Wk1DZjZYYUkxT3BrdV9yOWhhWlJDbFl3UnF6ZllZQmFXZjhKcXg2OEdzVFhEYk9rNTdOZXhJQzhLbDBzckNhajMwZTdpZFg2Sk9aTmw2RmxHenhRM1hTd1ZzVGQtRWxDRXgxQWxyWUFzVlhpcmw2SHVhSDdDN1c0dlFBbk1MX2Q4alo5R2VrWWdQb19MMzE3VGFn0gG3AUFVX3lxTE1yOW9DSnc2WUtrSGlJNWFnTVMxVDYyRl9aX2JyaTBwOTIyOFNSNEVKZXVSN2l4amJUUmg1WGVEZkN0X3YzNWtoTFJBTXMwWTdDVEgzUGlabERiS2FrVk5UYzhJWHJPSFAyQkJTT0lSNml1dG5zRVJfNEp0TVlNeXhoSXBlR3hCQVlJYWhaVFppVk53eHR4QVVaS2VMTzBZMlpfdWVqOVRkdktHcjB1Znh3dm9PS3BYSQ?oc=5"
+    },
+    {
+      "id": "news-1o5mq30",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T01:42:00.000Z",
+      "description": "Houthi Attack Damages Saudi Capital’s Tallest Tower - WSJ (WSJ, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSJ",
+      "axis": "Other",
+      "tags": [
+        "WSJ",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WSJ",
+      "source": "WSJ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa0hZSmpRQXJwM2pNbUxHY01JZUd1TkdjdU5YNGZYd1hqMmNES3RoTWRCVm9GYjMwX0x5NkMwb2FicHNjWkhMZ1dQUVNsUW1hblVuQjVLVkhlVUZZRDFiMlcxdWNweTV0NjR6TG43MmFYMjczckZ1SmhzSlZtOFdtZVVsNHZpSk1UVWdRZ0phakNPT05NRUxmOFFmNGtMZw?oc=5"
+    },
     {
       "id": "news-bvwoot",
       "kind": "news",
@@ -1451,25 +1489,6 @@
       "locationStr": "Bloomberg.com",
       "source": "Bloomberg.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbEw3N05iRHRYajhscWVvNGpPMVBKWnVwMXNmVV96X25VeWd4dnI2eW9UdWxIS3F1ZkcyU202Y2J0cm1oX01mQ0VkUXg0Vk9Yb2Frb2otY0oyNWdBNkdLSTItci13R1lFcUh2aUc5Q2NzcXRCTnRQWFpRck9qcFd0MnpQVU1MVlhEeHZ6akl3MndVUC1Lbjh5QXV0QktmcXlGQzE5MUFpck5XODUtREE?oc=5"
-    },
-    {
-      "id": "news-1o5mq30",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T15:32:00.000Z",
-      "description": "Houthi Attack Damages Saudi Capital’s Tallest Tower - WSJ (WSJ, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "WSJ",
-      "axis": "Other",
-      "tags": [
-        "WSJ",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "WSJ",
-      "source": "WSJ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa0hZSmpRQXJwM2pNbUxHY01JZUd1TkdjdU5YNGZYd1hqMmNES3RoTWRCVm9GYjMwX0x5NkMwb2FicHNjWkhMZ1dQUVNsUW1hblVuQjVLVkhlVUZZRDFiMlcxdWNweTV0NjR6TG43MmFYMjczckZ1SmhzSlZtOFdtZVVsNHZpSk1UVWdRZ0phakNPT05NRUxmOFFmNGtMZw?oc=5"
     },
     {
       "id": "news-16cxoq6",

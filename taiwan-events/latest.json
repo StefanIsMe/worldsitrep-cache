@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-20T08:59:03.256Z",
+  "collectedAt": "2026-11-20T09:14:04.648Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 22
+      "count": 6
     },
     {
       "id": "taipei-times",
@@ -34,8 +34,8 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 23,
-      "filtered": 27
+      "count": 24,
+      "filtered": 26
     },
     {
       "id": "dw-asia",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 15,
-      "filtered": 35
+      "count": 16,
+      "filtered": 34
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 33,
+      "count": 34,
       "filtered": 0
     },
     {
@@ -80,8 +80,46 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 286,
+  "count": 289,
   "events": [
+    {
+      "id": "news-xuw8m0",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T09:04:05.000Z",
+      "description": "China-US-Russia talks, economy concerns, Auto Guangzhou (SCMP, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/plus/economy/china-economy/article/3375227/china-us-russia-talks-economy-concerns-auto-guangzhou"
+    },
+    {
+      "id": "news-12nzvfu",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T09:00:00.000Z",
+      "description": "Tackling doubt and distrust: Taiwan cracks down on disinformation ahead of local elections (Straits Times, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/tackling-doubt-and-distrust-taiwan-cracks-down-on-disinformation-ahead-of-local-elections"
+    },
     {
       "id": "news-1vfiy3b",
       "kind": "news",
@@ -1225,6 +1263,74 @@
         "goldstein": -2,
         "tone": -1.7,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334161044",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T09:00:00.000Z",
+      "description": "Disapproval — China → Prime Minister near Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/11/20/china-says-japan-must-change-attitude-after-xi-snub-of-takaichi",
+      "gdelt": {
+        "globalEventId": "1334161044",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.66,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334161045",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T09:00:00.000Z",
+      "description": "Disapproval — China → Prime Minister near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.freemalaysiatoday.com/category/world/2026/11/20/china-says-japan-must-change-attitude-after-xi-snub-of-takaichi",
+      "gdelt": {
+        "globalEventId": "1334161045",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -5.66,
+        "mentions": 2,
         "sources": 1
       }
     },
@@ -7902,25 +8008,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/chinese-envoy-says-chip-equipment-export-curbs-threaten-eu-china-trade-thaw"
-    },
-    {
-      "id": "news-t48pn3",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T09:11:00.000Z",
-      "description": "China taps US AI models to train home-grown rivals as chip curbs bite (Straits Times, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/china-taps-us-ai-models-to-train-homegrown-rivals-as-chip-curbs-bite"
     }
   ]
 }

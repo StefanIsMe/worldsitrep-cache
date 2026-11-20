@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-11-20T08:59:03.256Z",
+  "collectedAt": "2026-11-20T09:14:04.648Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -33,9 +33,9 @@
     {
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Trump%20tariffs%20executive%20order&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-policy request failed with HTTP 429"
+      "status": "ok",
+      "count": 14,
+      "filtered": 2
     },
     {
       "id": "thehill",
@@ -89,9 +89,9 @@
     {
       "id": "gnews-midterms",
       "url": "https://news.google.com/rss/search?q=US%20midterm%20elections%202026%20polls&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-midterms request failed with HTTP 429"
+      "status": "ok",
+      "count": 49,
+      "filtered": 1
     },
     {
       "id": "reliefweb",
@@ -101,8 +101,84 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 419,
+  "count": 428,
   "events": [
+    {
+      "id": "news-12olopt",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T08:30:21.000Z",
+      "description": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News (NBC News, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5"
+    },
+    {
+      "id": "news-11q6vj9",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T08:28:56.000Z",
+      "description": "2026 Arizona Midterm Election Results - AP News (AP News, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AP News",
+      "axis": "Other",
+      "tags": [
+        "AP News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AP News",
+      "source": "AP News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXZmpsZ3hhUzB4QUo1cVdmaGFCWTZTR2lhN3NRNzFFZDNaSXI2RGJxYzBwTy1SYVNFZ3VKUFZnMS1RSE9rTG01dkZFY1R4dHNHU2VLUTVCeHJYM1J4d2FBS1g3VGxySklybkZv?oc=5"
+    },
+    {
+      "id": "news-n6pzzs",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T08:18:00.000Z",
+      "description": "Governors | 2026 State Election Results - MultiState (MultiState, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "MultiState",
+      "axis": "Other",
+      "tags": [
+        "MultiState",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "MultiState",
+      "source": "MultiState",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5"
+    },
+    {
+      "id": "news-xqnv3y",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T08:00:20.000Z",
+      "description": "Midterm Elections 2026: Congress Polls, Charts and More - NBC News (NBC News, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5"
+    },
     {
       "id": "news-ls37ah",
       "kind": "news",
@@ -180,6 +256,29 @@
       "sourceUrl": "https://thehill.com/regulation/court-battles/6232324-doj-seeks-alaska-senate-lawsuit-dismissal/"
     },
     {
+      "id": "news-xquvr4",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T03:13:22.000Z",
+      "description": "Live 2026 Election Results for Illinois and Chicago - Chicago Sun-Times (Chicago Sun-Times, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Chicago Sun-Times",
+      "axis": "Other",
+      "tags": [
+        "Chicago Sun-Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Chicago",
+      "source": "Chicago Sun-Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbnVseGY3SVNlUG9KVnlSWjkydWxrM0MzanBaZ0FZTWxtMHc1NkJxYjdRWVBjQTE1SmxSVWdMRXEyQnB2bXd4clJEWGljX1FJdXRLM0RiajlfZmZQdEdVUTdubFd5LVhkTzM0dlo5Szg3Y2c1Ni1wTFZSZWE5T0N0UjlMbHJJUWdiYU5nQndNeGhZaUhyUWRFekdJZ0h5ankxNDFTclRyY2F2dmpkaEFOSjlpTzNuUTI3ekRNOU1n?oc=5",
+      "lat": 41.88,
+      "lng": -87.63,
+      "coordsNote": "Headline gazetteer match: \"Chicago\" (city); verify via source article."
+    },
+    {
       "id": "news-g6yho0",
       "kind": "news",
       "date": "2026-11-20",
@@ -254,6 +353,25 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/administration/6231922-senate-holds-losapio-cisa-nomination/"
+    },
+    {
+      "id": "news-1ff92u2",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T02:12:36.000Z",
+      "description": "Majority of Maine voters say Collins is too supportive of Trump: Preliminary Voter Poll - ABC7 Bay Area (ABC7 Bay Area, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ABC7 Bay Area",
+      "axis": "Other",
+      "tags": [
+        "ABC7 Bay Area",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "ABC7 Bay Area",
+      "source": "ABC7 Bay Area",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AdBVV95cUxQVGRwRlJrc0lwOVZvT1FYenVPRUVwbVltQkJHcUhmaUlYYWVBeHprZXJJNHZNRG9WQUt5SmxBajlzdGlERjhhME0teTdRV1V6OWxmWjdscXpPQlFFa0xkLVVaZW5UWmNzd1JxY2pIbVJYLTV2bjdMV1BGMGR2YlI4MjJ4bFhES3RTSGcxTV94U1BLR2tRblJ1LUVZaE5YZTZlbUFwV2pIX2tQNl92UjBjSzhpQ2dqWUloSFpqY3piMWx5YkxzMWhOS19vVEVoZXRiLWFpd2FlaDlRNlBiTEswZWlZeW12Z1V6b3FWcDJpXzVybk0tMUxydWg2NUFVVXNwY1lzcWxGX0tyZVU0VFpEQk0zNWt5US1KcXljd2stOXpzS18zYnA2M2taMmtfWGotLTV0dHplZS05RTBRaDEzeVFINEJCWXdSWXJGa3FQREdmY3NiS2tCVFFuS1NxbnJ2VlFJSHRTUTFGamJONDN1cFNmRmg2V2ZuVzlDM3ZOLVAwSmdudUM2OWJ3RTZKQnZYMG80cEFkSWRGZ053SkJHUzdSUjh3S1lnMjVTQVJfQWhNMm5RbG41ZlFVVzlUakNtQ2ZYQU1LdVE0aG1qemVEZ2xLUTBYTmJLNnhRcXpMOHN6UkNtY3JtRlJRVFRrU21Jb3ptbkpMLTVBbnh1YTZ2MTBDQjNRSzlmYk5kZXNHUG16Vmg5WUY3Z0t3dk5md2dZWmRnOENocFlCQ0JLd2pOYlJpVE9CampjNEtjS0RVU0R4aDhqX29ZOXVpMVRKRFprNWpmc0M5MlBxQ1lnc3BfNDFZdlF0djBGekx3cEJCMnUtRXZYTG5YM1VnWlNNV255eTNLTlRFcE1kaW9rNDRjYVBwVUc4VlptcGtaRG5FWkRRT29hckg0bzZKQWVMUGpibEFpeEhWUzZWUWF1bU94b1I3b2VBRzVVV0IxQTRPMlotM1pZVWRLZ29iSkpydzdmN3V1enhXajlfLVZuOVhfMDFUY1gtUjhWYVh1SWRKNjBFQndzVlF4MmZlVHBpVVVfRV9RTkc2dlhPNC1RYXlTVl9jZVBGQ0ZNMnlJWDNwNXNHbEJLaGJBRDlFbml3Vk9VRWFOcXI0NjdlaHpHbUFERkNkSS1SLTRCWWllVEwxcVFNd0JJRWc0MGYtQzFaTmhuTWhjbHFKT1RlOENIMmNjdnVxdkxTenhHMC1QU05TVkhrTzdfdGhieURqUjcySVpXNG45MGRZNUl5c3EtZEV4MElfc05HbkhUdXFkdHVKVEh0dWxzUi1xQzk5ODFCa044?oc=5"
     },
     {
       "id": "news-e3lphq",
@@ -408,25 +526,6 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaDY5TktZaXNuT3YydW1Zb1doVG5tUHBsLVV4UUs5cG9tTmlTWXZZeEVtZFJfSVhrTnQ3cWJ2VGFIdEhObnk4cXdJYTl1R21iR0d3V2pGN3p3eDFaWmVyNkZ2ZzZiZVl4ck9YVkhlWU9fcEUwR2ZKRmZVekZBMllHRVZ0TGdEUGZBdVZLZk9Odll5QjZSOGxfRFJMN0plZE9wVjRxNzZ1UTQ0MmtLVy1J?oc=5"
     },
     {
-      "id": "news-xqnv3y",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T00:00:25.000Z",
-      "description": "Midterm Elections 2026: Congress Polls, Charts and More - NBC News (NBC News, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5"
-    },
-    {
       "id": "news-jwbj3e",
       "kind": "news",
       "date": "2026-11-19",
@@ -444,6 +543,25 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/administration/6231938-sean-cairncross-resigns-cyber-director/"
+    },
+    {
+      "id": "news-1s6wbz3",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T23:54:00.000Z",
+      "description": "'No demolition': Judge defangs Trump's Kennedy Center threats with demand for secret texts - Raw Story (Raw Story, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Raw Story",
+      "axis": "Other",
+      "tags": [
+        "Raw Story",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Raw Story",
+      "source": "Raw Story",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBWWEJ0dTRQLWpYd1p5UFZSR1FWMXZLN1ljTkVhaEpuaW51em1ESk1HWkhscW5vODF6RHZMcjBldHVhV3lSR3N5WGEzeVrSAV9BVV95cUxPUV9wMmdsREczTS1DalNTSUdsYVlVZWs1bmdISnEyd19RNTE4OU15dnl2ZFQ5bF9xV0N1M2tVbERTUFplc2tkREVhbXczOUhZVXVBT3FrMFBoU3VILVY0RQ?oc=5"
     },
     {
       "id": "news-11lon5h",
@@ -600,6 +718,25 @@
       "locationStr": "PBS NewsHour",
       "source": "PBS NewsHour",
       "sourceUrl": "https://www.pbs.org/newshour/politics/judge-issues-14-day-extension-of-order-blocking-trumps-triumphal-arch-construction"
+    },
+    {
+      "id": "news-riermz",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T22:39:21.000Z",
+      "description": "Judge issues 14-day extension of order blocking Trump's triumphal arch construction - PBS (PBS, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "PBS",
+      "axis": "Other",
+      "tags": [
+        "PBS",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "PBS",
+      "source": "PBS",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa2swT0h6dmQxanUyZDFDVjN2aXRDTXoxX25TWW1DbGdNMDVva2g3U2JqMVJ5Rlo0TjBDcUtfUjMySk5yVDZUTFJIYkk1V2lUdTZyaE0zQWlISU5hd0tQUW05ZEIyMnZlMWl5ZW5ERzhJT3ZsNG5GVVNvY24tQ1dlUzZFTHA4c1UxQWR1TTI1UEZuTmhqLVkxcVNfNkxVUGx3SmtkSWVaSUhnemo5cjJ5bVVSaExyU0ZwUTdRSdIBwgFBVV95cUxQd0o0ejhTTGRZU0NjMkxpbFdOS1BVWEV3ZDY3NEg0WWEwZEs2M3FZZVVVZHlfdExoRDhDbnVaU0w1LVJDNnJuTEFrUVNDN09TYjZJeml3SzlhMTZJdXFQTC1YSkVLZklQcXZpVThTZF9EcjJTVWVmOG1uVC1FdnZtNHBCWjVjTlNVMFk1X1U1QXQxMDZ4RG03TXV3YTdRZ0l4Qm1NYks1Mlc3WjFZSXhHUzhibjltZnJIYnI3MUNib1lSZw?oc=5"
     },
     {
       "id": "news-1ggcuii",
@@ -794,6 +931,25 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/policy/technology/6231677-trump-approves-ai-chip-sales/"
+    },
+    {
+      "id": "news-cwyoqk",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T21:45:00.000Z",
+      "description": "Trump administration urges judge to lift order blocking Kennedy Center’s two-year closure - AP News (AP News, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AP News",
+      "axis": "Other",
+      "tags": [
+        "AP News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AP News",
+      "source": "AP News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX2pNS0hkZ3dVeHNNdC1RcldvejVCTGNucmgydTkwYU9paDNlRmtkcERmU3JZRXltS25CdVVTX25wTkNPczU3Sm41Y1dEamJldnQxR2NnYlVaOEJuLUhUZHdFaHJzMUNjSlo5MUtrZDNZMXAzeWM0N2RHQ1U2RHVmSzVnME5jYkdZcTFTR2ZIcUxXX05hNlBUWA?oc=5"
     },
     {
       "id": "news-1a4ntwx",
@@ -2245,6 +2401,25 @@
       "sourceUrl": "https://www.axios.com/2026/11/19/energy-permitting-bill-senate-politics"
     },
     {
+      "id": "news-zd4lk9",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T13:04:03.000Z",
+      "description": "Federal judge throws out plan to limit how long international students can stay in U.S. - Times Union (Times Union, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Times Union",
+      "axis": "Other",
+      "tags": [
+        "Times Union",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Times Union",
+      "source": "Times Union",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLXFRRWEzbDVWaW5iTGdzYUNEcllLVUcyTDYwVDA5aGdjcWs3OEFEWE9abmJ4VEdtQkZMMFQtcTlUai1kSXB1YlNkOUR6M3NLUWpqZGdZWFV1WnVCb0RyRVgxa0M1NVhZbWdDR3AtNXNlaVlwcGt5TFlaZ2hUdTZTU3VzNlQ5SFJtbGNGTUdrYm9UTnBUUUV2VHlheW1Sd3Ff?oc=5"
+    },
+    {
       "id": "news-1pqj2sd",
       "kind": "news",
       "date": "2026-11-19",
@@ -2720,6 +2895,29 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUHNFWElOc29fM0F2cmxHTnF3eDhvR0VCUXJkNEpVVUZtMDljSGoxdF83cm9DWGVoeE1SVWNYakNVa2tITjdycUNiSjhaR3JMd1hIR3g4eVRtLUNMUlhicHpOOXhLeVNhT0hCRHB1cEt6b1kwNDB1Nk5CM051LXllUXF0dlBMOEQ2M1kyOGpoSGV2OG9TRXpEdmtZY3VLRjVFSG1YM1VPMDY0MkluclU0NUw3MnN5WXN0UWlXYjdXWTRVNzVrcHctRXZYendWelZFRkt3VmV6U0RCSExHT3ZhVUVrcktnZw?oc=5"
     },
     {
+      "id": "news-1o5hkjv",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T05:07:14.000Z",
+      "description": "Five Takeaways From the Most Detailed Data We Have on Midterm Voters - The New York Times (The New York Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMWpSMGdVRGdjLTJVX1VSczVhSnNINUttVFh0U18xc1Y4QVZrc0ExWm1vUXVmLXY4VHRqSTU2VjA1NW5kVmtqX3lvV09IVUJZcnNpbk9lRGpwaW1YdWlicnRycXVHYmhwa0Z3dFY1M1NUeXZZX0J3d2dfTHUwekRiM2lmdWJWdjg?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
       "id": "news-199rzt5",
       "kind": "news",
       "date": "2026-11-19",
@@ -2870,25 +3068,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/homenews/campaign/6184657-nick-begich-alaska-house-district/"
-    },
-    {
-      "id": "news-11q6vj9",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T02:26:51.000Z",
-      "description": "2026 Arizona Midterm Election Results - AP News (AP News, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AP News",
-      "axis": "Other",
-      "tags": [
-        "AP News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXZmpsZ3hhUzB4QUo1cVdmaGFCWTZTR2lhN3NRNzFFZDNaSXI2RGJxYzBwTy1SYVNFZ3VKUFZnMS1RSE9rTG01dkZFY1R4dHNHU2VLUTVCeHJYM1J4d2FBS1g3VGxySklybkZv?oc=5"
     },
     {
       "id": "news-zxy6my",
@@ -3642,6 +3821,29 @@
       "locationStr": "PBS NewsHour",
       "source": "PBS NewsHour",
       "sourceUrl": "https://www.pbs.org/newshour/politics/dot-secretary-sean-duffy-keeps-blaming-l3harris-after-faa-ground-stop-even-as-cause-remains-unknown"
+    },
+    {
+      "id": "news-szsp2f",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T20:50:00.000Z",
+      "description": "NY Election Results 2026: Governor, Congress, Legislature - New York Focus (New York Focus, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "New York Focus",
+      "axis": "Other",
+      "tags": [
+        "New York Focus",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "New York",
+      "source": "New York Focus",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoYUNCZW4wYnRVRkIwZGg2MFBRTlc2ZnRMVERKclpXVXNTREluajRCaVBpUXF4NDNHeEJVSVBOUnkwVDQxLUlzNWdwWmF5RVFZZTN2Qk05ak5hbGJkLXFHaGxtYzl3Vlk?oc=5",
+      "lat": 40.71,
+      "lng": -74,
+      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
       "id": "news-1agww33",
@@ -4488,29 +4690,6 @@
       "sourceUrl": "https://thehill.com/homenews/campaign/6227734-senate-democrats-generational-change/"
     },
     {
-      "id": "news-xquvr4",
-      "kind": "news",
-      "date": "2026-11-18",
-      "isoDate": "2026-11-18T16:07:22.000Z",
-      "description": "Live 2026 Election Results for Illinois and Chicago - Chicago Sun-Times (Chicago Sun-Times, 2026-11-18. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Chicago Sun-Times",
-      "axis": "Other",
-      "tags": [
-        "Chicago Sun-Times",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Chicago",
-      "source": "Chicago Sun-Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbnVseGY3SVNlUG9KVnlSWjkydWxrM0MzanBaZ0FZTWxtMHc1NkJxYjdRWVBjQTE1SmxSVWdMRXEyQnB2bXd4clJEWGljX1FJdXRLM0RiajlfZmZQdEdVUTdubFd5LVhkTzM0dlo5Szg3Y2c1Ni1wTFZSZWE5T0N0UjlMbHJJUWdiYU5nQndNeGhZaUhyUWRFekdJZ0h5ankxNDFTclRyY2F2dmpkaEFOSjlpTzNuUTI3ekRNOU1n?oc=5",
-      "lat": 41.88,
-      "lng": -87.63,
-      "coordsNote": "Headline gazetteer match: \"Chicago\" (city); verify via source article."
-    },
-    {
       "id": "news-1c2g7c7",
       "kind": "news",
       "date": "2026-11-18",
@@ -4853,6 +5032,25 @@
       "sourceUrl": "https://www.politico.com/live-updates/2026/11/18/congress/ted-lieu-democratic-caucus-chair-01172200"
     },
     {
+      "id": "news-1pruufa",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T14:39:00.000Z",
+      "description": "US midterms 2026: live results - The Economist (The Economist, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Economist",
+      "axis": "Other",
+      "tags": [
+        "The Economist",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Economist",
+      "source": "The Economist",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5veVBJOU1BQW5yR0p6MVlhaEMxZkZCQnVqNjZQemw4M0VJMEpsdmZnWWdmLW9EbWtyUUhFNjJrNnlWU3R4NGZOLWR6blp6RGlfby1QRzQ3UFlfNGNXNG9raWw2Rm95UXctMkN0UGM1c2FLQnZ3bVJhNnNR?oc=5"
+    },
+    {
       "id": "news-15iiw0l",
       "kind": "news",
       "date": "2026-11-18",
@@ -5036,25 +5234,6 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNlBFdDgtNnN0b3R6WGRvZHJyMS1YNFZRRXBObEFPeFY1NUx3ak9kVzQySHlqa2NEaXV4eWpKRzlVbVFzWUk5NjlqYmZEVGJFQUZ0R1piX2xVZGJ3bC03XzBqRXg1QkZIUjcwODY3ajEtUlhjZXVTRlVwVHMtemhuWlVQei1LTEZzZnN4RGZjc3RqVDVWTF9RUEpRUTVaUlFuUmhlVHRaQ2kxcTR1ZjVhNkNNcGhJUDcySXNkeGdFUTQ5dU05REE?oc=5"
     },
     {
-      "id": "news-12olopt",
-      "kind": "news",
-      "date": "2026-11-18",
-      "isoDate": "2026-11-18T12:30:21.000Z",
-      "description": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News (NBC News, 2026-11-18. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5"
-    },
-    {
       "id": "news-6r3hr9",
       "kind": "news",
       "date": "2026-11-18",
@@ -5091,25 +5270,6 @@
       "locationStr": "NPR",
       "source": "NPR",
       "sourceUrl": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai"
-    },
-    {
-      "id": "news-1pruufa",
-      "kind": "news",
-      "date": "2026-11-18",
-      "isoDate": "2026-11-18T12:00:00.000Z",
-      "description": "US midterms 2026: live results - The Economist (The Economist, 2026-11-18. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Economist",
-      "axis": "Other",
-      "tags": [
-        "The Economist",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Economist",
-      "source": "The Economist",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5veVBJOU1BQW5yR0p6MVlhaEMxZkZCQnVqNjZQemw4M0VJMEpsdmZnWWdmLW9EbWtyUUhFNjJrNnlWU3R4NGZOLWR6blp6RGlfby1QRzQ3UFlfNGNXNG9raWw2Rm95UXctMkN0UGM1c2FLQnZ3bVJhNnNR?oc=5"
     },
     {
       "id": "news-1q6y4e0",
@@ -5452,6 +5612,44 @@
       "locationStr": "AP News",
       "source": "AP News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zQm9vbkNhNjZDWDVDRkt1S0JGLWhFOHhxdGJyYzFncGgwckVJb0huSldQOVR0VUZwZGZjTWZhTmpmV2RNVHF1cnRKZ28ySnpUeHNXY2dmMk1DM2dPcWFkaU9CVDFjMDZqQmY1Mg?oc=5"
+    },
+    {
+      "id": "news-1bd2eq9",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T08:00:00.000Z",
+      "description": "2026 Ohio Midterm Election Results - AP News (AP News, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AP News",
+      "axis": "Other",
+      "tags": [
+        "AP News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AP News",
+      "source": "AP News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoRXFabEpDYThvalh6ektrQXRqYldZRzNvMzFBRTFrZDlablN2aTRvWkdoQi1QdUx2Z0ZMTUVxQ3BFUk1XUFA3LTNGOWtfS1l0N2Nhd25TZlZkZzRiZEE1a0JwV0lNN2M?oc=5"
+    },
+    {
+      "id": "news-z5hqm6",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T08:00:00.000Z",
+      "description": "Pennsylvania Governor Election Live Results 2026 - AP News (AP News, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AP News",
+      "axis": "Other",
+      "tags": [
+        "AP News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AP News",
+      "source": "AP News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RMnFiVVY0cHY3dHM2M0FiUzljSHh2QjY1X0pPOVk2RTdsYzcwU1dDTS1BNHMxRXBWajhnRUZKYWJ4XzdvWHhpSmhqdFJMUERKY0xGbFQ1MDMtV1ZsQVB1eUlnY3g3ZVAzWmpXd2J0YW1oWDdDcGltaXFDZmhmdw?oc=5"
     },
     {
       "id": "news-n8577h",
@@ -7053,29 +7251,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/the-120/6225589-kelly-democratic-early-senate-leader-vote/"
-    },
-    {
-      "id": "news-szsp2f",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T17:55:00.000Z",
-      "description": "NY Election Results 2026: Governor, Congress, Legislature - New York Focus (New York Focus, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "New York Focus",
-      "axis": "Other",
-      "tags": [
-        "New York Focus",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "New York Focus",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoYUNCZW4wYnRVRkIwZGg2MFBRTlc2ZnRMVERKclpXVXNTREluajRCaVBpUXF4NDNHeEJVSVBOUnkwVDQxLUlzNWdwWmF5RVFZZTN2Qk05ak5hbGJkLXFHaGxtYzl3Vlk?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
       "id": "news-15q5236",
