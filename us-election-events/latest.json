@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-11-20T01:24:53.613Z",
+  "collectedAt": "2026-11-20T08:59:03.256Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -33,23 +33,23 @@
     {
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Trump%20tariffs%20executive%20order&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 15,
-      "filtered": 1
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-policy request failed with HTTP 429"
     },
     {
       "id": "thehill",
       "url": "https://thehill.com/feed/",
       "status": "ok",
-      "count": 33,
-      "filtered": 17
+      "count": 35,
+      "filtered": 15
     },
     {
       "id": "politico-congress",
       "url": "https://rss.politico.com/congress.xml",
       "status": "ok",
-      "count": 23,
-      "filtered": 7
+      "count": 24,
+      "filtered": 6
     },
     {
       "id": "pbs-politics",
@@ -69,8 +69,8 @@
       "id": "axios",
       "url": "https://api.axios.com/feed/",
       "status": "ok",
-      "count": 27,
-      "filtered": 23
+      "count": 28,
+      "filtered": 22
     },
     {
       "id": "gnews-protest",
@@ -89,9 +89,9 @@
     {
       "id": "gnews-midterms",
       "url": "https://news.google.com/rss/search?q=US%20midterm%20elections%202026%20polls&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 48,
-      "filtered": 2
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-midterms request failed with HTTP 429"
     },
     {
       "id": "reliefweb",
@@ -101,8 +101,179 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 431,
+  "count": 419,
   "events": [
+    {
+      "id": "news-ls37ah",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T04:36:06.000Z",
+      "description": "Tillis to block Trump’s comptroller general pick from confirmation in year-end package (Politico, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Politico",
+      "axis": "Other",
+      "tags": [
+        "Politico",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Politico",
+      "source": "Politico",
+      "sourceUrl": "https://www.politico.com/live-updates/2026/11/19/congress/tillis-to-block-ueland-01177685"
+    },
+    {
+      "id": "news-mbyun2",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T04:23:02.000Z",
+      "description": "Melania Trump marks world premiere of Prime Video docuseries (The Hill, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/blogs/in-the-know/6232403-melania-trump-prime-video-series/"
+    },
+    {
+      "id": "news-wxy0bq",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T03:57:32.000Z",
+      "description": "Army postpones controlled lead detonation after pleas from Iowa lawmakers (The Hill, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/state-watch/6232362-army-postpones-iowa-detonations/"
+    },
+    {
+      "id": "news-1mbytyp",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T03:25:33.000Z",
+      "description": "DOJ looks to dismiss Alaska Senate lawsuit (The Hill, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/regulation/court-battles/6232324-doj-seeks-alaska-senate-lawsuit-dismissal/"
+    },
+    {
+      "id": "news-g6yho0",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T03:09:11.000Z",
+      "description": "Senate approves key permitting reform bill, sends to House (The Hill, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/senate/6229829-senate-passes-permitting-reform/"
+    },
+    {
+      "id": "news-15v47wx",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T03:08:28.000Z",
+      "description": "Senate passes Trump-backed permitting bill (Axios, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/11/20/senate-passes-energy-permitting-bill"
+    },
+    {
+      "id": "news-46p3br",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T02:43:46.000Z",
+      "description": "Factbox-Here are the Democrats emerging as potential 2028 US presidential candidates - Internazionale (Internazionale, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Internazionale",
+      "axis": "Other",
+      "tags": [
+        "Internazionale",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Internazionale",
+      "source": "Internazionale",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZndoMEZnWVk3bWZzdXJNRjFJRXVURmVkVDFlakJjZkF1NHVxZTc3V00xaWNmNk1MTGVKV1l2d3ZjUzZTaVBVVUdxTTJON2VadzA5aFRNQTNvV1FZZURHZlJaZ0N4dUQwVHZaM3NoYWFOLUY3NFQwejZ0bmFCYURXSmJRc1RTeERrNTJkRWZNSV9wajhqcEVsUkthZHU5S0RtU0hTT2lWaFFsZmd2c3lqNGhXY2tzYWdGb2dWOFltcnlSejZCRDZmMVhMR3JMNldEaG1lWlV4Vk9LX2JBdl93TEVR?oc=5"
+    },
+    {
+      "id": "news-14oaali",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T02:29:35.000Z",
+      "description": "Trump&#8217;s CISA nominee ducks questions on 2020 election results, Jan. 6 Capitol attack (The Hill, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/homenews/administration/6231922-senate-holds-losapio-cisa-nomination/"
+    },
+    {
+      "id": "news-e3lphq",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T01:30:59.000Z",
+      "description": "Trump tells skeptical Europeans: \"Putin wants to end the war\" (Axios, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/11/20/trump-pushes-putin-ukraine-war-deal"
+    },
     {
       "id": "news-cfaokb",
       "kind": "news",
@@ -127,7 +298,7 @@
       "kind": "news",
       "date": "2026-11-20",
       "isoDate": "2026-11-20T01:05:38.000Z",
-      "description": "California AG issues subpoena to Nvidia over chip sales to China (The Hill, 2026-11-20. Headline + link only.)",
+      "description": "California attorney general issues subpoena to Nvidia over chip sales to China (The Hill, 2026-11-20. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "The Hill",
@@ -159,6 +330,25 @@
       "locationStr": "AP News",
       "source": "AP News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14bVg1ZTNrVFo3SDJDbXl0d1licVRfTVU4bW5reHlkYXhGR0FGR2lGb1Nab2RXZ1hiSmtndjc5NWl5aWZ3YkhaUVNZTDZyVGJqZ21QaXFsQ1NmM0RuOGxzeTRkZllCV0RaQ01qUzdSMGlVS0ZTNkZZRGdyTQ?oc=5"
+    },
+    {
+      "id": "news-1sqr7ud",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:16:04.000Z",
+      "description": "Reagan-Appointed Judge Blocks Trump HIV Funding Rules - Newsmax (Newsmax, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Newsmax",
+      "axis": "Other",
+      "tags": [
+        "Newsmax",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Newsmax",
+      "source": "Newsmax",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tQnp3TUNwSnJwdzFPbW1XYWdJb2ZudlRZX2FLVFZXOWl5UkNmSlV0aXlxUmtnWElpUGZleGVDUUh3a1VqVk1ZamI0NnQ2V1VON1F2ZlA5MW5iNml2a1JQa2hVYzVYZ3RnYjRDaE5xRVJ2aHhlWlZZVExBU3Jadw?oc=5"
     },
     {
       "id": "news-1r81nlz",
@@ -241,7 +431,7 @@
       "kind": "news",
       "date": "2026-11-19",
       "isoDate": "2026-11-19T23:56:47.000Z",
-      "description": "White House lets go of national cyber director, official says (The Hill, 2026-11-19. Headline + link only.)",
+      "description": "White House lets go of national cyber director, names acting replacement (The Hill, 2026-11-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "The Hill",
@@ -311,25 +501,6 @@
       "locationStr": "PBS NewsHour",
       "source": "PBS NewsHour",
       "sourceUrl": "https://www.pbs.org/newshour/show/tennessee-democrat-describes-how-she-won-a-trump-district-with-almost-no-ad-money"
-    },
-    {
-      "id": "news-46p3br",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T23:09:16.000Z",
-      "description": "Factbox-Here are the Democrats emerging as potential 2028 US presidential candidates - Internazionale (Internazionale, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Internazionale",
-      "axis": "Other",
-      "tags": [
-        "Internazionale",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Internazionale",
-      "source": "Internazionale",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZndoMEZnWVk3bWZzdXJNRjFJRXVURmVkVDFlakJjZkF1NHVxZTc3V00xaWNmNk1MTGVKV1l2d3ZjUzZTaVBVVUdxTTJON2VadzA5aFRNQTNvV1FZZURHZlJaZ0N4dUQwVHZaM3NoYWFOLUY3NFQwejZ0bmFCYURXSmJRc1RTeERrNTJkRWZNSV9wajhqcEVsUkthZHU5S0RtU0hTT2lWaFFsZmd2c3lqNGhXY2tzYWdGb2dWOFltcnlSejZCRDZmMVhMR3JMNldEaG1lWlV4Vk9LX2JBdl93TEVR?oc=5"
     },
     {
       "id": "news-1qljgsp",
@@ -549,6 +720,25 @@
       "sourceUrl": "https://thehill.com/policy/healthcare/6231695-outgoing-senators-rebuke-trump/"
     },
     {
+      "id": "news-mf2pe",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T21:54:50.000Z",
+      "description": "Trump administration urges judge to lift order blocking Kennedy Center's two-year closure - WRAL (WRAL, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WRAL",
+      "axis": "Other",
+      "tags": [
+        "WRAL",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WRAL",
+      "source": "WRAL",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUG1pZExacjBDQVZIWVBDMlhyanpZRER2ek5KWEhtWEk0U1RqVFdpMVZEV2Z3MHloQTlXc3RsWWhadmxsVU9Kb1E0VUhaZEV5VGlkbnVBbGJLQnpITkhfVTRpQnFTck1wQ0lIVlB6ZXFzNDVjYUNNVFhlcElrWWQ5bGRnVWNzZVg2RlFWRENzSnhDbmVJSEhkbnVYY2wxdnR2LUZMT2RQdUJidW1faUJqeTVhdEZSTlZ6eVBhZERIWDhkZw?oc=5"
+    },
+    {
       "id": "news-1xdba0a",
       "kind": "news",
       "date": "2026-11-19",
@@ -604,6 +794,25 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/policy/technology/6231677-trump-approves-ai-chip-sales/"
+    },
+    {
+      "id": "news-1a4ntwx",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T21:43:23.000Z",
+      "description": "Judge blocks Trump’s transgender-related limits on HIV funding - WSAU (WSAU, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSAU",
+      "axis": "Other",
+      "tags": [
+        "WSAU",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WSAU",
+      "source": "WSAU",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTjdyNVZsWXV0WXdhd21rUzR6eDdORFR5aGU1SXNFcXlCWXZqVVBqVDA1bGwyR0Z4MHdrQTdZaWlsRGE4S3d3RUVpaFlEMjdFYXhSTXVTLVZEbDFlcGc1NHVXQnJxSnBNb3ZsMEFRdnZvMjFtdXVyMXlyM1d4bGo1cHZVempIVW1jT2FZc2hXTnJOekFB?oc=5"
     },
     {
       "id": "news-17488y2",
@@ -1846,6 +2055,25 @@
       "sourceUrl": "https://thehill.com/homenews/campaign/6229970-elon-musk-claims-not-maga/"
     },
     {
+      "id": "news-15t0jzo",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T15:01:44.000Z",
+      "description": "AOC leaves door open to 2028 presidential bid, says she hopes to work with Trump - Mezha.net (Mezha.net, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Mezha.net",
+      "axis": "Other",
+      "tags": [
+        "Mezha.net",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Mezha.net",
+      "source": "Mezha.net",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0ajFRU3R2S1BPYU1DbGxhc1NOVk1jb2pTclFib09sTHR5T2plUWVNN2pFZ1k3enJDN3g4aWxVX2R4cEVmcVE0NEhRM0N0NWM5NFpYMDhBMkE4QW1GeUpuUE9zMy1ITjRJbjlNbXY2c1ZTd2tuVEIwZWRyWlNqZmM?oc=5"
+    },
+    {
       "id": "news-tggse",
       "kind": "news",
       "date": "2026-11-19",
@@ -2262,6 +2490,25 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQ0c1WDR3OW5WaFNOUFpEY3BfZWlUaHlJZ0p3bExkeVd0YUFQREo1b1RFTTVhRW1oa2NCN2ZQTDhEMTRoTi1BbnpBa2RnelRESmtwbEg5MGprTEE1ejlGb0o5NVpidXNpWlVkdWl4Q2EzcnhmN3pMcWJyZjRyVE5vU1VsQdIBiAFBVV95cUxNemFDZ3lBNzM2QXBERkpTeUdKVzlhMUluT2laZnRrZVNicHp1NWxzUk5NNlpRQ3ZBOUdnUmdoTE50dlA4LUN3RzlZa0RGcVFjVnlYRktHWmdiT21nQTFNSDRGelE1U0NvYnluMW9FMEs5TlREa3JpWWpFSTNLNjhqcmhBdXpOYlN0?oc=5"
+    },
+    {
+      "id": "news-19b7c1y",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T10:29:25.000Z",
+      "description": "Federal judges block two Trump administration restrictions on international students - The Stanford Daily (The Stanford Daily, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Stanford Daily",
+      "axis": "Other",
+      "tags": [
+        "The Stanford Daily",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Stanford Daily",
+      "source": "The Stanford Daily",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeHp4M0twYldJaFZfaVcxcUFJNkZGRDhQbG9zYlNpcDl2S0ZMT3psOUpONnVQLWNKWkJwSkx6NlFqUTJXam1HcFBQZTJ6TTMtcnlHaXJscGlHOHpPeUNfZWlpMC1NVFVXS05YTFk5Zi15RmpkYk1iUnFtb3dYWjdiTg?oc=5"
     },
     {
       "id": "news-1s3lvx6",
@@ -3068,6 +3315,25 @@
       "locationStr": "PBS NewsHour",
       "source": "PBS NewsHour",
       "sourceUrl": "https://www.pbs.org/newshour/politics/ap-report-bernie-sanders-unveils-how-hell-push-for-medicare-for-all-when-democrats-take-power"
+    },
+    {
+      "id": "news-1lg8chi",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T22:27:00.000Z",
+      "description": "Federal judge extends order blocking President Trump's proposed arch - WUSA9 (WUSA9, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WUSA9",
+      "axis": "Other",
+      "tags": [
+        "WUSA9",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WUSA9",
+      "source": "WUSA9",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVVllUE5hMXBidGRNQV9kVkQ2NVU2emZUTG1tWWdmQ0F6TE4zLWg5X0V1cl9RYjdteXZ0bm8xcDR4NzlrcWdINjdKVnlaY2JPanVKU3llX2paeVNjOUFkOU9ObGl2c3VIaDFUUDBweTdXMm5IbHBBX2tzWkJuNUN4NWtkaDE5MHFTZnRmZXhfckk0QXFlSHRqTnlkWWRSNllIVlhYSGZzM0VJdHNYSXNIVTlCSTU0YmtuZHdMUXd0YzlROWFnVVZyeVBRd0M3eGlvSm5nNUhnOUY1MGt4RWFjdnFnTTdkbW5mdE8zMW9YMmE0WDhyQVFUeTc1dw?oc=5"
     },
     {
       "id": "news-1mgpe4l",
@@ -7905,500 +8171,6 @@
       "locationStr": "NPR",
       "source": "NPR",
       "sourceUrl": "https://www.npr.org/2026/11/17/nx-s1-6036795/after-democrats-midterm-wins-some-hope-attacks-on-dei-will-ease"
-    },
-    {
-      "id": "news-1f8qgum",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T08:00:00.000Z",
-      "description": "2026 Texas Midterm Election Results - AP News (AP News, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AP News",
-      "axis": "Other",
-      "tags": [
-        "AP News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01ekZMQkpEN0tQTUl1N0o5UXBMWXVSWHV4aG1ZYnNuT2lCRllyUlhTV3JmeHdaMnY1d3lQZ0xsR1Q0LXhmNlNKTUdxeVhrMWgtZXlwRTQtQXZQbExjUUZENXFId3Z0dy1O?oc=5"
-    },
-    {
-      "id": "news-1p6kcn4",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T08:00:00.000Z",
-      "description": "2026 Mississippi Midterm Election Results - AP News (AP News, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AP News",
-      "axis": "Other",
-      "tags": [
-        "AP News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tMUprSkJTbVc5cUtIT0hsZzlyaFdMcE1mTlBnMk9rTUZmd0M3RGRzZ1hFd29CS0NsSjVhY2dscXVZMVZ2Z3VjTTBaLVZtam1DdjdOeWxjNHRGS3NvdE9VWHZ0SUMxQUZYMkphTzNsekw?oc=5"
-    },
-    {
-      "id": "news-1vpzchz",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T08:00:00.000Z",
-      "description": "California Governor Election Live Results 2026 - AP News (AP News, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AP News",
-      "axis": "Other",
-      "tags": [
-        "AP News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9lMV9EckR4NlllNDdMY0tPZzhleG1YMVg3ZHZJY2NyTDBkVHpVMnVEZHcyV25XSFJCMDJmNk5qaUZONC16NnN4aXg3VERnNHY0MERvd1Jvbl93STZ1ZE01SWFjYkdEczNadGphU1V2S3dLYU8tVW1meHdpSQ?oc=5"
-    },
-    {
-      "id": "news-lder6r",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T08:00:00.000Z",
-      "description": "Mississippi U.S. Senate Election Live Results 2026 - AP News (AP News, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AP News",
-      "axis": "Other",
-      "tags": [
-        "AP News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40QzF6VWVSbVp6Zkx1Q0I1OGU4aG5UVTdmMDM5UTdIVTNDd0t5RmJ1RHUxVW9DMmVialI4TWxCMERpUy1pTk1la01IS1ZVdFJJUnJGNmdBX29GU2M5ZlVqaDJ5VFctbUZtRXpLbVlpNGlYNDdkdkM0UEhod0Jmdw?oc=5"
-    },
-    {
-      "id": "news-tjg9hp",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T08:00:00.000Z",
-      "description": "2026 U.S. House Election Results - AP News (AP News, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AP News",
-      "axis": "Other",
-      "tags": [
-        "AP News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5"
-    },
-    {
-      "id": "news-v3k22y",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T08:00:00.000Z",
-      "description": "2026 U.S. Senate Election Results - AP News (AP News, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AP News",
-      "axis": "Other",
-      "tags": [
-        "AP News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ycUhlZzZ2V1lhd2pzVExlRFNUOVV5M0N6VHB5a2FuNFU2NDNaV0dSTV9hUVZTZHZCeVRjeWRWMnh0NUVIRW1vbmhfNFRsSVRqSWIwM21iUmMxTE4zYzhocm81ajd4U0x2R0R0Q1Bn?oc=5"
-    },
-    {
-      "id": "news-ytslao",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T08:00:00.000Z",
-      "description": "New Jersey U.S. Senate Election Live Results 2026 - AP News (AP News, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AP News",
-      "axis": "Other",
-      "tags": [
-        "AP News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53M0hqNnczakEycHlZcXJVcXpxR016U1AxY3JHci1WbzdRQm5xcjIzNUdjb24tRFFZMmt3akxuMTRlZzRJSkwyd293RzVkZkpObkxoWHNhSEJXZkl0SmxMSVNzNW5UdG12bWYxVlZaT3JTV1IwNEM2bnJsWEw?oc=5"
-    },
-    {
-      "id": "news-422hvr",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T06:48:00.000Z",
-      "description": "US Senate 2026: live results - The Economist (The Economist, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Economist",
-      "axis": "Other",
-      "tags": [
-        "The Economist",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Economist",
-      "source": "The Economist",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04RUJ2REhGRlZURlJyeWRaVGVua0E2SmQ1SFZFWjI1ZjE3elpIZ2daTDBwVHFDaHRfRjdIaTVMazh6NlFGVTl3Tm1lOEM3eTlxOEhXM0RPYXNTWFlHYXl6QkJOb0NGaXYwWlU5UXNndzJ6Q0hCR2JNNg?oc=5"
-    },
-    {
-      "id": "news-1ufrt6n",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T06:27:56.000Z",
-      "description": "Trump approval holds near career low at 32%, Reuters/Ipsos poll finds - Reuters (Reuters, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Reuters",
-      "axis": "Other",
-      "tags": [
-        "Reuters",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Reuters",
-      "source": "Reuters",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRUpsOFJNT0Q1TUExNXF1cUJ6b1ExaTFpTFptdnluUVRMR1RvNDFkQlpLa3ZxeUxRM0kxOEJyQVJkeTJIOHBxTjhlQ05nUmp6dVQ2emVBclZ3TTJLbERHeUpRTkIwMmFLaG1VeVA1UU91Yk5UZFFaU2dZVFFCNzY1RXNTRjFCTHhpRGhWQksxQndNNHZZT1hGX1RQMGtVS25GNGQ4T2VmOHZmSHNl?oc=5"
-    },
-    {
-      "id": "news-18r5lji",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T04:57:34.000Z",
-      "description": "Trump Admin, Led by Bessent, Tightening China's Ability to Get Most Advanced Chips; Long Overdue: Hudson Institute Fellow - NTD News (NTD News, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NTD News",
-      "axis": "Other",
-      "tags": [
-        "NTD News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NTD News",
-      "source": "NTD News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcmh5MktOWjJWekg1MEZkZzJ4NmduRHk0NTVTeGl5bzVvd0libHU4NktWeDJmckhPLVNLOG9nVTNZSC1GWWhyQjVXQVR1YmNtZ2tPWmJPd01Ea05VRHZSc2xmWVdyVV9iX3E0dFpsNWlSZW15WFVzdkRhQVUtZ2drTTRXUFo2b2E3SGVLOFpVVzh5dVNXRGJLNnhqNnVZRDRxUGtfWi1VYm4xLWF5QWMxd09DTENfRVAxMDNtWHhraVl5N3lOVmsyZ3JkM3dLdFI3dGd5QnJMd3gyTVF4dFNkMTVOTXU4Y1phcGo1eTNR?oc=5"
-    },
-    {
-      "id": "news-2ss2d9",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T04:41:15.000Z",
-      "description": "Federal Court Invalidates Trump Visa Stay Policy - 조선일보 (조선일보, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "조선일보",
-      "axis": "Other",
-      "tags": [
-        "조선일보",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "조선일보",
-      "source": "조선일보",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN2dxanlrbHZzMXE0a1ZvTlhRR1RvUDRoN3BSd09fb2dkTmNGVlhhM2NTdVNQUEdaNmc0eXpFMS0zN2RqY015TUo5UFF0YXpsWHhVOEthWG92TjRoal9XbUE2TE9UalpwM3JEc2hJMzNKdW05dEdBV1h1WThDRGJMeWhOaUc?oc=5"
-    },
-    {
-      "id": "news-rchlme",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T03:49:38.000Z",
-      "description": "Peltola expands lead over Sullivan in latest ballot drop (The Hill, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/6224075-peltola-leads-alaska-senate-race/"
-    },
-    {
-      "id": "news-ecvssb",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T03:29:36.000Z",
-      "description": "Trump says he's prepared to use 'tremendous power' if Dems control Congress - ABC7 Bay Area (ABC7 Bay Area, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ABC7 Bay Area",
-      "axis": "Other",
-      "tags": [
-        "ABC7 Bay Area",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ABC7 Bay Area",
-      "source": "ABC7 Bay Area",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwhBVV95cUxNZkZxVmJzb1ZQakZHamo3ZnoxclRuenBmdDBUbU5FS1dPSjVzOGNDZzVPWlYxcXdpcWxDVk0xQkkwbkhRU0kwcmc2cVpXeXlRNzdBRGRvR1UzNTQxRmZDUFotdWZBWi1iRnBNTUlmbTZIOUllM2xKbVM3ZXhIZWxId1BPdkM1cmdzQjVUT0tRSXloUDVyeUdweTB4UTEzaDBtNFZSaHZuV3FSeFVsVW10blplalVmWUVSVi1Vc2FvNVNmLVoxUUpjOVlncHBuVmlYeEtxUjhOVGJwWkR6aEgwR3g0ejVRb2h2MFYtNkQ5eEM1VlN2b2pLVnB1amgyQTd6VnZNZ0pVcHdqUFRRUlZYcWY2S0IxazZTTElwWTNVMTBzd1FwTFRFT3RkRG5pRjU5T2dnWnhkNFNObVZOdTM2X2k4RkxhNG5zTTNCcGtmcEllOUxFWk5lTlg1OUZHVlRqaC1lNEFsbkh0Y0lmU0NyeUVDTEx1TndRN01zT283b0otREtqTzc3Q1pTMnFPZl9zVVJsM0lWVGpnWDZVdVh4VmxQeVY5OFY5T0JNZVRwUWd4NG9ZenFjS2RkNGxfWGk2T0NmYXVqTmRuZG05MlpSeUs4aUxvNkJRMzd0aVphWG5fVS01TlVrMHRiVXczM203ZzJ5Yl94dk1zd2JJeU95NlNucWxTMlZkSVFkN1NlbXR4ckZkU0ZBeGNESnFKanZZaWdYLVJFTmxlU2xIUk1NdFBESmJoM3R0cGJZYzE3UEdEMG1MQUkwMVdQbWp3cng0cmVibHB5Mlc4OW5wMklHM0w5TnFzNV9EVFduOTQzcVFkRlVLLTJJTHl3Z3dqc3Z4NjB1dHNWYnRheVFZWVRQLXdFb1RwblJ0alZsa0YtNHBjRHZrWDVodXhTaFU1dGNwLVRqa19HYjl1S1dXTXU2WFQ0TnVrekFqcUs5MURLcndVMjB2eDN5NGZtcllIUTd2bUEwR01rbFMyYm5TdGdfRF9nQk14Z1FNczRxZFBGYTdZSlFSazZ4eGw2dkJQXzRrdXRodmppdkx1MXdQWHUtY2lWd3pYUU16Zy1jbDRkMG8teWJHUVRqUFpqWWJXaUhwNXNwUkxXYVVLSUFkdVRhWDIyeXI2WWVqeVNaRVpGeXlySUxZcGhaY1RvZlB4TWJpWGttczhfQ0ZYSFNpc1JEQXRueUFrajVLaWtSeGI3Zzh1VUJmQnZQWUVJTjZmbkJOdm1EUFRiSFpMei1yekVCSy1pVUswZVR1bjU2NDExUTZlYjRPUFZjZkRSbmhvTWhySlBnYkJqZnVBaDY5WjJyaDdMY1VoRWtReTdrcG5SN2pod2Fpa3VXMjhIVjBfbGhmYmg5b1ZuZTlvS0U?oc=5"
-    },
-    {
-      "id": "news-kyds4o",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T03:14:00.000Z",
-      "description": "Trump Heads To Asia Amid Nvidia Scandal, 2027 Grammy Nominations Released: Live Updates - HuffPost (HuffPost, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "HuffPost",
-      "axis": "Other",
-      "tags": [
-        "HuffPost",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "HuffPost",
-      "source": "HuffPost",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoR1NYWWhKQ21nbXVWSzRBTXdkMXZmNHVZUFZTMkUzcHpYQjdDaXlQZWpTQUZRZnpaTmhDaHh5aF9ZbWJNY0RlZVU5RGVJQW9tbjJSTlliSS1YWWNYUGgtNmI2bGM0M3JvbmttZG1kN3J0SWtfTndWR0t30gF_QVVfeXFMTUFXaUpfckUxT0dNWHhaQ1p3MFpVV19JREVwVXVNamlEZk5LU0VvZ1FxejQwQ2FBZHFMclRUMEdScnd5YlgwYUU2aEpENk5SZTh1WW94YTU1Tm1VeGltNG05NExjR2JET3Bmd0lscDFjdl85SHd6NXlTblNYVEwxcw?oc=5"
-    },
-    {
-      "id": "news-hhltse",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T03:07:31.000Z",
-      "description": "Comer announces bid for Kentucky governor (The Hill, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/campaign/6224056-james-comer-kentucky-governor-run/"
-    },
-    {
-      "id": "news-mrxk3b",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T03:07:23.000Z",
-      "description": "Vance says he will decide 'sometime next year' about 2028 US presidential run - BBC (BBC, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC",
-      "axis": "Other",
-      "tags": [
-        "BBC",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "BBC",
-      "source": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1pck5nTDB0bXUwNFBVeFdwOFJ3aFl2eGI5WGV2Slk4OEtUazZlUmwzZ1RZSTZOdkc1S1kwSHJWOHYyMFBGRFVwZ0hBOXhjRGVrV2dQVXFRUWEwNXV5MUE?oc=5"
-    },
-    {
-      "id": "news-wplmql",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T03:07:23.000Z",
-      "description": "Vance says he will decide 'sometime next year' about 2028 US presidential run - BBC (BBC, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC",
-      "axis": "Other",
-      "tags": [
-        "BBC",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "BBC",
-      "source": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWblphSXBHVnI5eXpoM24zbGhiYy0wYWNKaUQwWDhQb2IzTnotSlJjVzQtNEdEWTRZX1RocGhaaWhhWHllR09rVG1qcWo0YXN3Y3ZnQ0kycHB4LTA?oc=5"
-    },
-    {
-      "id": "news-xy3dmv",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T02:57:13.000Z",
-      "description": "Top Trump aides to meet with Europeans, Ukrainians on peace plan (Axios, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/11/17/witkoff-kushner-ukraine-europe-russia-berlin-meeting"
-    },
-    {
-      "id": "news-w3ypqa",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T02:46:42.000Z",
-      "description": "Senate Democrats reject quick exit from Schumer vs. Van Hollen fight (Politico, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Politico",
-      "axis": "Other",
-      "tags": [
-        "Politico",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Politico",
-      "source": "Politico",
-      "sourceUrl": "https://www.politico.com/news/2026/11/16/schumer-van-hollen-election-timing-01169090"
-    },
-    {
-      "id": "news-px836x",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T02:40:00.000Z",
-      "description": "US judge strikes down Trump rule restricting stays for foreign students, journalists - The Times of India (The Times of India, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Times of India",
-      "axis": "Other",
-      "tags": [
-        "The Times of India",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Times of India",
-      "source": "The Times of India",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWklvMnlMNC0ta1MxczRvNzJsenprSWpJSkxHMld1dEdVNXlJSnRSaVZRWm1pck0zQk1ySUtlNXhuUGw0WFRzVEQ3M0d1ekg2eTVBeVNoWFcwOU4xNHFCNzA0cFhxSFBncnF1VmN2RTgzQU5aV05pNTFZUHRCWUR6Z3VDQ0Nab0l3a2MtdVQ4aC1UcHExVkRseVVmUEVYM2hKdVpWTjgtQnlwaUdWSFJMWmQ1dXE5UnJ6eV9wR0haRFp6eWU5YUNQMUgtMzl1Vm9QYWYyeGhZckN3ZnFKZU5nZ1VFRHJtblZLYWfSAe8BQVVfeXFMTTRZck1ELUV4M0NXd2VIeW8zY2FDV2x1bE5xTFNBWVk5WWh1WGJqQjk1X3RKVEZpaEFqUGQxMXZ3RnY0VlY2RlYzX3JPb0ZDclRDTDBYcVFzMG5JVFF0aFZidUh4RUdpN0w2Z2ptUXVQWUUxemF6ZzJXU1h6YS1aMGNjUDh4aTNKQkotajBJU1RmU3ViYWotc1NzeUJzU2FPLXdHWmxINE9BekEyZ3JBa1lrYWJFbjdtY3dFYjcySlJibUxpTmJFQy1EaFZHYUI1c2RleDdzTGVIcnYtWDdoeEJBU0M3Z25WZXBYVzZkbDg?oc=5"
-    },
-    {
-      "id": "news-uw5ivr",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T02:38:08.000Z",
-      "description": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show? - BBC (BBC, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC",
-      "axis": "Other",
-      "tags": [
-        "BBC",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "BBC",
-      "source": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vbXFXUWsxanRDclZUbV9abTdzc2VfT0xBSjU1d0JDUGI4bUVRZ0Ryc2dweWRoOVF5b2o0bGlkbkdXXzd1S2sxdFRtWnNQUnIyZktFMzg5dlJCUUk?oc=5"
-    },
-    {
-      "id": "news-juhifk",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T02:28:07.000Z",
-      "description": "Preliminary Voter Poll results in Senate races - ABC7 Bay Area (ABC7 Bay Area, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ABC7 Bay Area",
-      "axis": "Other",
-      "tags": [
-        "ABC7 Bay Area",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ABC7 Bay Area",
-      "source": "ABC7 Bay Area",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipwhBVV95cUxOYk02a0ZfZVNwN3dROGJhUWNyZ3hQbkJUZXg5NDVfbWFLOVBrQnltYl9ndWxLVFFhMllaYlpTTFF3YkFBbzNPTkRfOHR6eTk1SGlJTkNEdTJUYXFCbUxnLWhtRHlWOW96STJJdUo1QzJtQ1Q4REl1Z2RqVmhtbG8za1BVU2xpSTZLczRlTHFXN0thUDRVV3hySThlTmRKMjVkR3ZVMkptdXAtLU5Db3g4R2Jnd1hLdy05aDgtUzhVYlhFVUpzd3F3UjlORjdJMFFDNzdTM3NiNHRFQU12ZEtCUVo3R0J6YVExSWhJN2t1Vml6NUhkYU9jWjFra29uZzJ5WGdlNkt2U3hwNXIwNmdiXzBNeGw5VnR6SVUwU0VjWjdNa2Q0ZVJseEdCenFHNkFWeUhvLUdDU3BZUEpkSU9jVVk1cEF3dnZyaEE0aDA5SEVrTFdEQWZUOUlnbG1JR3JTUmJBNndaenZqaHlpRVo4SGtfM2JaWWZfTlRoRVc3eGpZZ1llTUQ2NkhwNFhJc2w0SVNRYXFfcFNITTNDMUZQQi1HMU9oZkRLbWZDOVlfcTlCa3NkeDEzR3VBM0lNcVNpckVBUy10VDFQTGRiZ05KdlhzaUhjV2tkWnkzSlBrSkNJZ0dIbVRWS2FUYlBUaVBwQkdXNkpVaHBvc1pManNYLWxvZ0NpREhZVzFwaGVYcFRYQ0pmZDgzNDVrYXoxWmJfVmlwenc0eTRlN3l6d210eDVXbmc2X3poNWZSMUdsMnRxVWExQ1k4eEI0QXBTV2FlRUZmOUE4eF93bmNmLTBTR0NQbG1YNW1kRWtoQTlmZUFVM1k0M3RUOXI2NGprTWprTk1VbWN4UVUybWh0QVJSZXpkRVl3RWdRMmVaTC0wRkxwTHBMWUpueFFrRXdoRzJ3N2xLbGFqTV9DVlNnb0ZjM0dtNUF5anlxWUJKSVg3TUdMWUI3NFkzZHAtcXhVam5yVndDelZaenRHR2hWcU5sdThvSHJSUzZURUwxX0ZjNTJyYk82WC1aTFI4dG03V1ZjUERBU2hxZmFDbGRfM3lDMUFySzZEYkcwYm5vTTZBZDdlOVlvcVhrVmpxVzdVd19yQVhuUUVSanNQaE5OejV5LU55Zl9yZU9RQkZQc2Y1eTBGNHhiTXY1cWJlZnR5TDdXY2F3aVZZRDB1V0pfLUZOc2QtcDgzdm01bldMcWxDMUgtQnRfRmxqOHR6RVZFOWlOcVY2M1V5ZHJvQmNJY01wM3pFVzVTbExIOHZWTERCbFJVdHRrSklzOUM0bjJUUV9STTBPTnZfbjJsbE54RzJaQmlJYmpkT3pvQUpySGR5dlRYZ1J3dERsQWwwY1M3bW5OXzNOWTFPYUZWczFYc3FLMDNuYzFWaHMxSERHZE5aR1pDX0FSZy0w?oc=5"
-    },
-    {
-      "id": "news-10ow73d",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T02:16:58.000Z",
-      "description": "Senate GOP unveils nearly $1.1T defense appropriations bill (The Hill, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/senate/6224030-senate-gop-defense-appropriations-bill/"
-    },
-    {
-      "id": "news-1th4qr8",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T02:06:38.000Z",
-      "description": "Vance mocks Democrats for accusing Trump of being ‘soft on China’ (The Hill, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6224034-vance-mocks-china-softness-accusations/"
-    },
-    {
-      "id": "news-1n79r0z",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T02:04:00.000Z",
-      "description": "DOJ Attempt to Pause Essayli Disqualification Order Denied - Bloomberg Law News (Bloomberg Law News, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Bloomberg Law News",
-      "axis": "Other",
-      "tags": [
-        "Bloomberg Law News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Bloomberg Law News",
-      "source": "Bloomberg Law News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMXJBQ1JidmtFTUVvVHlvbXgzOEcyMnVqdTh0QzFuSFYxYzRHWS0tcFpkbTNCRGRGZDNpWjQtZVNvSXZyeXQ2Xy1xY3lBTXVxbnNHX0RJRWxFa2Jhb1JfVndNaU9USHV1dnRnaDc3ZzNfWWdGNXp0c0tMN2hmMTh1ZHBjdnZxSEJpUjBuWEFJNzNUODR6TzdnTFI1MGVBZkhq?oc=5"
-    },
-    {
-      "id": "news-113lvu2",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T01:28:00.000Z",
-      "description": "Trump admin’s attack on foreign students shredded by conservative judge: report - Raw Story (Raw Story, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Raw Story",
-      "axis": "Other",
-      "tags": [
-        "Raw Story",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Raw Story",
-      "source": "Raw Story",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRRnljZXRuRDVNZ2tOeE5icGpKckREcnJDUUVJM1NsVEs2R0x2eEFlTnJnLWpuaDJSOENvRWRlaDAzdWJZTUtFWEY2aF8xVEJDTUFxQVFYT1Rtd3FR0gFvQVVfeXFMT01ZdGlXd0dDcnd4ei14WGpjSnJEMTcwcDJFMkpPdGFTZWl3U29FWHFBdEhVdDlDdy16WUljcXJRbk9TWUZYbUdQejA1MmMwUWdORXdXYkxFeFU0YjNzNG9KaUNFZU00SjBic2RJTGVz?oc=5"
     }
   ]
 }

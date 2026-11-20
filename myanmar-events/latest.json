@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "myanmar",
-  "collectedAt": "2026-11-20T01:24:53.613Z",
+  "collectedAt": "2026-11-20T08:59:03.256Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 16
+      "count": 20
     },
     {
       "id": "irrawaddy",
@@ -54,9 +54,9 @@
     {
       "id": "gnews-rakhine",
       "url": "https://news.google.com/rss/search?q=Rakhine%20Arakan%20Army&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-rakhine request failed with HTTP 429"
     },
     {
       "id": "reliefweb",
@@ -66,8 +66,411 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 376,
+  "count": 402,
   "events": [
+    {
+      "id": "news-1cl9sis",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T08:59:50.000Z",
+      "description": "Myanmar junta rejects ICJ genocide ruling as unfair, invokes Trump, Xi, and Putin (Myanmar Now, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Myanmar Now",
+      "axis": "Other",
+      "tags": [
+        "Myanmar Now",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Myanmar Now",
+      "source": "Myanmar Now",
+      "sourceUrl": "https://myanmar-now.org/en/news/myanmar-junta-rejects-icj-genocide-ruling-as-unfair-invokes-trump-xi-and-putin/"
+    },
+    {
+      "id": "news-13q4e3i",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T08:50:12.000Z",
+      "description": "ICJ's Myanmar genocide ruling raises concerns in Israel over Gaza case: Report - Anadolu Ajansı (Anadolu Ajansı, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Anadolu Ajansı",
+      "axis": "Other",
+      "tags": [
+        "Anadolu Ajansı",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Anadolu Ajansı",
+      "source": "Anadolu Ajansı",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOW12U2VFc2RXaDRsMUJNbDB2VkE4NXlLQTRQVmJiOEhRS1pkMmViXzV6ZmNFcXdKc0pKbFdqLW1VRW40SnF0MlQyZzMtZ0M1QzFoTWY4T3FMSHFuS3hSeFI0MkJick1uTXBuNmRnd0pRRkZfcVhDdDFsWmFmLUEzQUxGeVBYR3JnUkwyc25sSWJuY2Zydk81UW02MGRtck02aXlnVUdBNjZ5dmRQOUFZSDZ6WWtRV0hqM0hCWFdB?oc=5"
+    },
+    {
+      "id": "news-kw2ch9",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T08:49:41.000Z",
+      "description": "Myanmar calls ICJ ruling on genocide 'unfair' - Reuters (Reuters, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Reuters",
+      "axis": "Other",
+      "tags": [
+        "Reuters",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Reuters",
+      "source": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOazVmQWNON0pUR1lkMG9ESFlrYjhtOUtQRGNJREZ0cWpPNWIxYTNYaWxjQUN4cUxHU3BVX05BTUc0SlBsblFmQmJ5YjJiOUhHV1RuQTk0OGNLWTFoaWhudm9XS193THFlcU9xbHZqS2w0TGlyOEpRU2Y2dXhDcmFLZXhncDNHa1ctVGFoRFhRcXZROVpYdzZrTWdYbw?oc=5"
+    },
+    {
+      "id": "news-iuymaf",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T08:46:41.000Z",
+      "description": "Myanmar journalists fight for truth from exile - DW.com (DW.com, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW.com",
+      "axis": "Other",
+      "tags": [
+        "DW.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DW.com",
+      "source": "DW.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT0JuTmVUUnFUQlU5bGFvMERMalNqUTRrQzRKdUlJdmVPRWpWNldlZjdrMk1TaHBXclljNV9oS1ZCTFZCcFEybmRYNVQyUm1MQV81bFRVRE5jU2VSQ01ocVNaTDBPQklTemctQ3hxMXpSMnllNm5DdDRjSWY2SGRoWGNPakxlUUNWN2YxLQ?oc=5"
+    },
+    {
+      "id": "news-1myv2q8",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T08:23:55.000Z",
+      "description": "China Defends Myanmar as ICJ Rules Rohingya Crackdown Was Genocide - The China-Global South Project (The China-Global South Project, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The China-Global South Project",
+      "axis": "Other",
+      "tags": [
+        "The China-Global South Project",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The China-Global South Project",
+      "source": "The China-Global South Project",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS2paOGQ0b25Xa25kVmhEaU44SUZuMHYxNnV2aE1OTGVlb2owdFpGUkpxa1NpS3QzWVpyNjVJdWZWV2d0dlNnZWhJYVhsM1ZBTDc4V0t1TUhZX1NaZGNNdk8yT0pra2xpTXRlaVFhVHpjYUppc001eGxsTEFsZjVkZFpJY2tjV0lvMVY5dVdvTHJSV09xaEE?oc=5"
+    },
+    {
+      "id": "news-1ncle5m",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T08:13:18.000Z",
+      "description": "Myanmar dismisses UN court ruling finding country responsible of Rohingya genocide as 'unfair' - WINK News - Southwest Florida (WINK News - Southwest Florida, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WINK News - Southwest Florida",
+      "axis": "Other",
+      "tags": [
+        "WINK News - Southwest Florida",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WINK News - Southwest Florida",
+      "source": "WINK News - Southwest Florida",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOQ3FRZExKM1Qta3RqcDdrWDZwUXlBUHluaGx4cU5heEhUY1dlamdCclB4ZnhBcXhNV0x3MkZVT1cxQ0pPXy0weF9sd21aamFjODdyUjMzUG5mU2lRYlpZVnluMXBYQmNYYjhpeF91NVN0NjJoQ2owQmZVeVA4NVVGMUxsS1RhbmZCTXFJMXNBV2JNYk1rdUVUbjN6c3NpaXI2UHFOMl9ZRTdidE5uLW9ZSTNNSERiaDhkQ0twNl9VbTBwaGw2RGJpWjBieFN2SUZXZVdoVElCTU5fdjRQRTB4ZDFYX2c4SUI0c2tBVTN3SVQzUXl4UEU4N3ZzRWRndVoyU1E3Rm5FLU5FZDFaRzBncGVQTzU?oc=5"
+    },
+    {
+      "id": "news-1owd6bx",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T08:09:24.000Z",
+      "description": "UNHCR statement on the International Court of Justice Judgment in “The Gambia v. Myanmar” - UNHCR - The UN Refugee Agency (UNHCR - The UN Refugee Agency, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "UNHCR - The UN Refugee Agency",
+      "axis": "Other",
+      "tags": [
+        "UNHCR - The UN Refugee Agency",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "UNHCR - The UN Refugee Agency",
+      "source": "UNHCR - The UN Refugee Agency",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaW5raHc1X1V2akl1Qmd6N2NwSk0zcndDTXBnMW9zVW56cXBFMVU1RGFqSlR2dmVwZjBGcVJWeXhXZ21NeTBwU09MRV9ZTjVDQ25ldEJpeWdZQ3lyRFNnMll4cm9COVVsWUVsYXlaOXFQM3pVVFZWZzFVNkNZM0ZBMGRmWG53Y09nN3diVTZQUkFUN2drT1VFZFpMZzVnbXdUY0pvLU9iSFdwVEczMDFmbWwtOUg1YkJjRGpNdA?oc=5"
+    },
+    {
+      "id": "news-lpe6d3",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T07:54:47.000Z",
+      "description": "Rohingya in Bangladesh welcome UN court's genocide verdict but say they want to go home to Myanmar - The Washington Post (The Washington Post, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Washington Post",
+      "axis": "Other",
+      "tags": [
+        "The Washington Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Washington Post",
+      "source": "The Washington Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZk1JdVF0VUhUY0NYWEpCREVXNEJkRnE3M2JmcmpNeVhVMm0xejVJeWl5SDlPNzZlLWF1cUVlblgxMERydzd5emY2OHc2anY1Wk9acFV6Tk1uTUNlZFkxNHZJTjdnUTQwN2l5U19nRzdfUTZBMUNTMWNIVVJjOTllSHA0TWpDYnk2U3Y2VFlaSzVHTlNGMGFFUThfUnh2YjhLU2xqeUhLM2Zuc1hPMnZZUnlTeHpISWN1SHNSNGNjaUY?oc=5"
+    },
+    {
+      "id": "news-1n63dl7",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T07:22:06.000Z",
+      "description": "As ICJ delivers genocide ruling, Myanmar junta leader welcomes diplomatic role in regional bloc (Myanmar Now, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Myanmar Now",
+      "axis": "Other",
+      "tags": [
+        "Myanmar Now",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Myanmar Now",
+      "source": "Myanmar Now",
+      "sourceUrl": "https://myanmar-now.org/en/news/as-icj-delivers-genocide-ruling-myanmar-junta-leader-welcomes-diplomatic-role-in-regional-bloc/"
+    },
+    {
+      "id": "news-aj58zn",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T07:13:31.000Z",
+      "description": "Rohingya in Bangladesh welcome ICJ genocide verdict and want to return to Myanmar (DVB English, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DVB English",
+      "axis": "Other",
+      "tags": [
+        "DVB English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DVB English",
+      "source": "DVB English",
+      "sourceUrl": "https://english.dvb.no/rohingya-in-bangladesh-welcome-icj-genocide-verdict-and-want-to-return-to-myanmar/"
+    },
+    {
+      "id": "news-zpa4ek",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T07:02:16.000Z",
+      "description": "UN General Assembly chief tells Myanmar to 'bring Rohingya home' - France 24 (France 24, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24",
+      "axis": "Other",
+      "tags": [
+        "France 24",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "France 24",
+      "source": "France 24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOUE0dGcxOWV3cXBnRDNRbHdaYzhrOTdFTHJSb1ptYzU4U3k4ZklhR3ZPUDlkcFMtZTN3akhUSnBydHBGX3lVXzc5ZndBMHoxdU9DWHZHVmdDYkpaZk40TWhnRW1FNkhyX0huS0V2ZWRVeXFWYTByZGszUGFIN2lveFpfRVBxUGlFMTliQzc3S2JqOS1uNXFEVktWR1QydUY4MmhCLXdyNGhobDluVGc?oc=5"
+    },
+    {
+      "id": "news-1on6xe9",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T06:07:30.000Z",
+      "description": "US Warns Against &#8216;Politicization&#8217; of ICJ, Studying Myanmar Ruling (The Irrawaddy, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Irrawaddy",
+      "axis": "Other",
+      "tags": [
+        "The Irrawaddy",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Irrawaddy",
+      "source": "The Irrawaddy",
+      "sourceUrl": "https://www.irrawaddy.com/news/us-warns-against-politicization-of-icj-studying-myanmar-ruling.html"
+    },
+    {
+      "id": "news-1ew8g7m",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T06:04:52.000Z",
+      "description": "Five Key Points From Historic ICJ Rohingya Genocide Ruling (The Irrawaddy, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Irrawaddy",
+      "axis": "Other",
+      "tags": [
+        "The Irrawaddy",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Irrawaddy",
+      "source": "The Irrawaddy",
+      "sourceUrl": "https://www.irrawaddy.com/news/burma/five-key-points-from-historic-icj-rohingya-genocide-ruling.html"
+    },
+    {
+      "id": "news-4ags1x",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T04:59:13.000Z",
+      "description": "UK orders expulsion of Myanmar defence attaché after ICJ genocide ruling (Myanmar Now, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Myanmar Now",
+      "axis": "Other",
+      "tags": [
+        "Myanmar Now",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Myanmar Now",
+      "source": "Myanmar Now",
+      "sourceUrl": "https://myanmar-now.org/en/news/uk-orders-expulsion-of-myanmar-defence-attache-after-icj-genocide-ruling/"
+    },
+    {
+      "id": "news-rpkwbt",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T03:59:58.000Z",
+      "description": "Genocide must be proven, not proclaimed, the ICJ ruling on Myanmar shows - editorial - The Jerusalem Post (The Jerusalem Post, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "The Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Jerusalem Post",
+      "source": "The Jerusalem Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1pQmd0SFl3R2dfTnJqUXYtRkVNbGNCMG5SVFBEeWd5OEp5a3dtUzNoV0xmS2VDRzdhZUdYSzJPTHhuM3RUTlRzMldyd0JwbEJJZGxlbEVaUQ?oc=5"
+    },
+    {
+      "id": "news-19dlred",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T02:30:03.000Z",
+      "description": "Washington Post. . The International Court of Justice ruled that Myanmar committed genocide against the Rohingya minority. It is the first time the U.N.’s top court has ruled that a state violated the 1948 Genocide Convention. The ruling could weigh on other ca - Facebook (Facebook, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Facebook",
+      "axis": "Other",
+      "tags": [
+        "Facebook",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Facebook",
+      "source": "Facebook",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbk9sQXZKaEFhYkV3Rk82SzZ5VkNlbVU4QU9idWF1MEszNWxYWVNPV2NZTTB1bFA0MTdOZlV3TzJSRnJST3ViYUFENVdMUWI2cUxyYXBkZVB5b0w2d1RQNWNtRHhaWU9HajJRdG1yZ2hYU2FpcU5PZW1CWlRMcU9tOEg1MU92WS05eXVXRkJLa0VhUEFTR3V3NFV3RlpqeVFaOFpqUnBWc3lGN2JDN3k5OU1BSDRBVGstRjBQOXU3MlhWdGs0LUQ0TEdJMnB5SG13X1QxWDZvN0hLdjh6bHc?oc=5"
+    },
+    {
+      "id": "news-do6zed",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T02:19:00.000Z",
+      "description": "Min Aung Hlaing’s words could have contributed to Myanmar genocide, court says - The Japan Times (The Japan Times, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Japan Times",
+      "axis": "Other",
+      "tags": [
+        "The Japan Times",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Aung Hlaing’s",
+      "source": "The Japan Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVXJVX21xOTB1WFRZeVVucjd3MFdYbVlqRFRZVGFZMzlHSnk4T2Z2bk9vRk02Ml9xNEo3RkNWY3lqdWJGNmRDelZueV9SZFZoTFhtUWZ4U3J5b2tkb1UzNDlkRTlMR0s0NFM4ZmJTNWFyTWdkamNrb1M4SlllZVhlcWpmMlhiU1hyeEtxUEd1dDBRcS1fbi1pRWVZRUtxZjdycE1ZcA?oc=5",
+      "lat": 16.14845,
+      "lng": 95.18462,
+      "coordsNote": "OSM geocode: matched \"Aung Hlaing’s\" → Aung Hlaing, Mawlamyinegyun, Labutta; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1o0zm6i",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T02:09:00.000Z",
+      "description": "Rohingya crisis remains unresolved as ICJ rules on Myanmar - The Japan Times (The Japan Times, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Japan Times",
+      "axis": "Other",
+      "tags": [
+        "The Japan Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Japan Times",
+      "source": "The Japan Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRGhqdHBQRWIxYnFneU9DTjRYOUh5YkZQODhSeHNRWUdiRFVKWW1aQUd6TkY4WFFhdGJWbDdLQlI5TFRHNFpKY3dHM0kzWVJNeDNjVGd6cU1fOXRXa3htUUV0dlVKUXF1UmlkeVNSak9yUUtJTExvSnlqNG9zcUFlWlFfYWlueWdtUV9FWVZqbW9tbGctRkk4aUJmaw?oc=5"
+    },
+    {
+      "id": "news-2n0ik5",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T01:45:00.000Z",
+      "description": "Live Updates: U.N. Court Rules Myanmar Committed Genocide Against Rohingya - The New York Times (The New York Times, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The New York Times",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qLUhZWS1IeE93REZvbWFfdUpvcnEyOG1kZjU5M2dMV3N2TFFtZEZsVll5eUx4MWxhcTRaWFlqSndxaVhtRWNrel94QVVCcWgtSGdvd2xvRHZNdm9rNDhJbmhpeWNmSW41bnRZaHo1a0xuRTZmODVXc3Yxemh3QQ?oc=5"
+    },
+    {
+      "id": "news-16s6can",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T01:15:04.000Z",
+      "description": "World’s top court finds Myanmar guilty of genocide against Rohingya (DVB English, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DVB English",
+      "axis": "Other",
+      "tags": [
+        "DVB English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DVB English",
+      "source": "DVB English",
+      "sourceUrl": "https://english.dvb.no/worlds-top-court-finds-myanmar-guilty-of-genocide-against-rohingya/"
+    },
+    {
+      "id": "news-gh2mst",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:35:00.000Z",
+      "description": "A seismic ICJ ruling has found Myanmar responsible for genocide. But will it help the Rohingya? - The Conversation (The Conversation, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Conversation",
+      "axis": "Other",
+      "tags": [
+        "The Conversation",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Conversation",
+      "source": "The Conversation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObU9halJiWS0xU1pDTjhnZGo1eGVlaGREVkVEODRjbmRlU0xZSlZiVjYzMHBzTk1qdGZRb0lUR2JEU0xOdHdockhWZlZrNnlfTlg3OTc0cDN5S2w0QV8zM0d5SWlEMGNiekd6QThKQWx1NC1QVlpwNDZZNnFJbFRnbGVFR1FsMUNHYWdMcHZfLXpyaTk5OXVhZVY0UFpHNFp2OE9FMG9KYmFmZXg1UDU4TlktWjYzOEtXV3Y0SzBuZFJuMl9BUzIw?oc=5"
+    },
     {
       "id": "news-f6mk4i",
       "kind": "news",
@@ -122,6 +525,705 @@
       }
     },
     {
+      "id": "gdelt-1334110589",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T01:30:00.000Z",
+      "description": "Fight — Myanmar → Security Personnel near Yangon, Yangon, Myanmar. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16.8053,
+      "lng": 96.1561,
+      "action": "Fight (GDELT 190)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Yangon, Yangon, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.thejakartapost.com/world/2026/11/20/myanmar-guilty-of-genocide-against-rohingya-says-top-un-court",
+      "gdelt": {
+        "globalEventId": "1334110589",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.58,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334110590",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T01:30:00.000Z",
+      "description": "Fight — Myanmar → Security Personnel near Yangon, Yangon, Myanmar. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16.8053,
+      "lng": 96.1561,
+      "action": "Fight (GDELT 190)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Yangon, Yangon, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.thejakartapost.com/world/2026/11/20/myanmar-guilty-of-genocide-against-rohingya-says-top-un-court",
+      "gdelt": {
+        "globalEventId": "1334110590",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.58,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334110592",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T01:30:00.000Z",
+      "description": "Coercion — Myanmar → Muslim near Yangon, Yangon, Myanmar. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16.8053,
+      "lng": 96.1561,
+      "action": "Coercion (GDELT 170)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Yangon, Yangon, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.thejakartapost.com/world/2026/11/20/myanmar-guilty-of-genocide-against-rohingya-says-top-un-court",
+      "gdelt": {
+        "globalEventId": "1334110592",
+        "eventCode": "170",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7,
+        "tone": -5.58,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334110678",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T01:30:00.000Z",
+      "description": "Rejection — Terrorist → Unspecified near Yangon, Yangon, Myanmar. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16.8053,
+      "lng": 96.1561,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Terrorist",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Yangon, Yangon, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.thejakartapost.com/world/2026/11/20/myanmar-guilty-of-genocide-against-rohingya-says-top-un-court",
+      "gdelt": {
+        "globalEventId": "1334110678",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -5.58,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334112517",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T01:45:00.000Z",
+      "description": "Fight — Security Force → Population near Rakhine State, Rakhine State, Myanmar. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 19,
+      "lng": 94.25,
+      "action": "Fight (GDELT 190)",
+      "actor": "Security Force",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Rakhine State, Rakhine State, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hindustantimes.com/world-news/myanmar-guilty-of-genocide-against-rohingya-rules-icj-101795135701101.html",
+      "gdelt": {
+        "globalEventId": "1334112517",
+        "eventCode": "190",
+        "geoType": 5,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.38,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334112667",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T01:45:00.000Z",
+      "description": "Rejection — Gambia → The Un near Rakhine State, Rakhine State, Myanmar. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 19,
+      "lng": 94.25,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Gambia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Rakhine State, Rakhine State, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hindustantimes.com/world-news/myanmar-guilty-of-genocide-against-rohingya-rules-icj-101795135701101.html",
+      "gdelt": {
+        "globalEventId": "1334112667",
+        "eventCode": "120",
+        "geoType": 5,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -5.38,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334112842",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T01:45:00.000Z",
+      "description": "Rejection — The Un → Gambia near Rakhine State, Rakhine State, Myanmar. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 19,
+      "lng": 94.25,
+      "action": "Rejection (GDELT 120)",
+      "actor": "The Un",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Rakhine State, Rakhine State, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hindustantimes.com/world-news/myanmar-guilty-of-genocide-against-rohingya-rules-icj-101795135701101.html",
+      "gdelt": {
+        "globalEventId": "1334112842",
+        "eventCode": "120",
+        "geoType": 5,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -5.38,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334112843",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T01:45:00.000Z",
+      "description": "Rejection — The Un → Gambia near Rakhine State, Rakhine State, Myanmar. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 19,
+      "lng": 94.25,
+      "action": "Rejection (GDELT 120)",
+      "actor": "The Un",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Rakhine State, Rakhine State, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hindustantimes.com/world-news/myanmar-guilty-of-genocide-against-rohingya-rules-icj-101795135701101.html",
+      "gdelt": {
+        "globalEventId": "1334112843",
+        "eventCode": "120",
+        "geoType": 5,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -5.38,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334113003",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T01:45:00.000Z",
+      "description": "Demand — Myanmar → Unspecified near Rakhine State, Rakhine State, Myanmar. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 19,
+      "lng": 94.25,
+      "action": "Demand (GDELT 100)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Rakhine State, Rakhine State, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hindustantimes.com/world-news/myanmar-guilty-of-genocide-against-rohingya-rules-icj-101795135701101.html",
+      "gdelt": {
+        "globalEventId": "1334113003",
+        "eventCode": "100",
+        "geoType": 5,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -5.38,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334113010",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T01:45:00.000Z",
+      "description": "Fight — Myanmar → Insurgent Group near Rakhine State, Rakhine State, Myanmar. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 19,
+      "lng": 94.25,
+      "action": "Fight (GDELT 190)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Rakhine State, Rakhine State, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hindustantimes.com/world-news/myanmar-guilty-of-genocide-against-rohingya-rules-icj-101795135701101.html",
+      "gdelt": {
+        "globalEventId": "1334113010",
+        "eventCode": "190",
+        "geoType": 5,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.38,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334119029",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T02:45:00.000Z",
+      "description": "Protest — Mandalay → Unspecified near Mandalay, Mandalay, Myanmar. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 22,
+      "lng": 96.0833,
+      "action": "Protest (GDELT 141)",
+      "actor": "Mandalay",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Mandalay, Mandalay, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.hotelnewsresource.com/article143841.html",
+      "gdelt": {
+        "globalEventId": "1334119029",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": 13.98,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334128592",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T04:15:00.000Z",
+      "description": "Rejection — Terrorist → Unspecified near Aung Hlaing, Ayeyarwady, Myanmar. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.7667,
+      "lng": 94.9833,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Terrorist",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Aung Hlaing, Ayeyarwady, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.sbs.com.au/news/article/australia-considers-implications-of-landmark-icj-ruling-on-myanmar-genocide/ti3ie4omf",
+      "gdelt": {
+        "globalEventId": "1334128592",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -4.7,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334133443",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T05:15:00.000Z",
+      "description": "Rejection — Myanmar → Unspecified near Rakhine State, Rakhine State, Myanmar. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 19,
+      "lng": 94.25,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Rakhine State, Rakhine State, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://srilankamirror.com/2026/11/20/news/myanmar-committed-genocide-against-rohingya-minority-top-un-court-rules",
+      "gdelt": {
+        "globalEventId": "1334133443",
+        "eventCode": "120",
+        "geoType": 5,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -8.46,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334133578",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T05:15:00.000Z",
+      "description": "Fight — Fighter → Police Post near Rakhine State, Rakhine State, Myanmar. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 19,
+      "lng": 94.25,
+      "action": "Fight (GDELT 190)",
+      "actor": "Fighter",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Rakhine State, Rakhine State, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://srilankamirror.com/2026/11/20/news/myanmar-committed-genocide-against-rohingya-minority-top-un-court-rules",
+      "gdelt": {
+        "globalEventId": "1334133578",
+        "eventCode": "190",
+        "geoType": 5,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -8.46,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334140654",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T06:30:00.000Z",
+      "description": "Fight — Myanmar junta → Village near Myetnikwin, Bago, Myanmar. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 18.6,
+      "lng": 96.4667,
+      "action": "Fight (GDELT 190)",
+      "actor": "Myanmar junta",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Myetnikwin, Bago, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.bnionline.net/en/news/myanmar-junta-troops-advance-west-sittaung-river-forcing-civilians-flee",
+      "gdelt": {
+        "globalEventId": "1334140654",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.19,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334140655",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T06:30:00.000Z",
+      "description": "Fight — Myanmar junta → Village near Myetnikwin, Bago, Myanmar. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 18.6,
+      "lng": 96.4667,
+      "action": "Fight (GDELT 190)",
+      "actor": "Myanmar junta",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Myetnikwin, Bago, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.bnionline.net/en/news/myanmar-junta-troops-advance-west-sittaung-river-forcing-civilians-flee",
+      "gdelt": {
+        "globalEventId": "1334140655",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.19,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334140656",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T06:30:00.000Z",
+      "description": "Fight — Myanmar junta → Village near Myetnikwin, Bago, Myanmar. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 18.6,
+      "lng": 96.4667,
+      "action": "Fight (GDELT 190)",
+      "actor": "Myanmar junta",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Myetnikwin, Bago, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.bnionline.net/en/news/myanmar-junta-troops-advance-west-sittaung-river-forcing-civilians-flee",
+      "gdelt": {
+        "globalEventId": "1334140656",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.19,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334140954",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T06:30:00.000Z",
+      "description": "Fight — Myanmar junta → Village near Nyaunglebin, Sagain, Myanmar. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 21.85,
+      "lng": 95.5667,
+      "action": "Fight (GDELT 193)",
+      "actor": "Myanmar junta",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Nyaunglebin, Sagain, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.bnionline.net/en/news/myanmar-junta-troops-advance-west-sittaung-river-forcing-civilians-flee",
+      "gdelt": {
+        "globalEventId": "1334140954",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.19,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334140960",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T06:30:00.000Z",
+      "description": "Fight — Myanmar → Village near Sittaung River, Mon State, Myanmar. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 17.1667,
+      "lng": 96.9667,
+      "action": "Fight (GDELT 192)",
+      "actor": "Myanmar",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sittaung River, Mon State, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.bnionline.net/en/news/myanmar-junta-troops-advance-west-sittaung-river-forcing-civilians-flee",
+      "gdelt": {
+        "globalEventId": "1334140960",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -6.19,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334154543",
+      "kind": "event",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T00:00:00.000Z",
+      "observedAt": "2026-11-20T08:15:00.000Z",
+      "description": "Coercion — International Court Of Justice → Myanmar near Rakhine State, Rakhine State, Myanmar. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 19,
+      "lng": 94.25,
+      "action": "Coercion (GDELT 173)",
+      "actor": "International Court Of Justice",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Rakhine State, Rakhine State, Myanmar",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thechronicle.com.gh/myanmar-committed-genocide-against-rohingya-minority-top-un-court-rules/",
+      "gdelt": {
+        "globalEventId": "1334154543",
+        "eventCode": "173",
+        "geoType": 5,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -7.82,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "news-qevvsg",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T23:46:21.000Z",
+      "description": "Rohingya: Historic International Court of Justice ruling finds Myanmar guilty of genocide - Le Monde.fr (Le Monde.fr, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Le Monde.fr",
+      "axis": "Other",
+      "tags": [
+        "Le Monde.fr",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Le Monde.fr",
+      "source": "Le Monde.fr",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNVkJYZUIyQTZLaUJBZk55RGpqa1E2MjViNXotTmRGNGpiZ0FKZ1VKZnRQNWpNcnFqNEU4N3lsa1BhSzBxMGlQR0pfNjh0aXM4MU9FTTRYam1rb0xlSHotZDlPVmFEd2FoVDRnSjhSWUdMVzZYYWJtVWpaOFk5ZlVwaXlkbGVWd05TVFJWejFkTmFZYXNtNlhwTW9yUjRRMG53Z2pjU1hEUk1nZUFWZzNvSUxaazByRU10WHNVaEMtWnhkSkJiR01yeVA4aXE5SVRfcWRqaUVzaUpHOElBVXNTTzZaNENFdVpLRW9xTnc3cFgzLWxt?oc=5"
+    },
+    {
       "id": "news-1ez02te",
       "kind": "news",
       "date": "2026-11-19",
@@ -139,6 +1241,25 @@
       "locationStr": "PBS",
       "source": "PBS",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWmFHaDFidEtRS0VGVllrakpQQmxVQUxKS3RVRlJ0aWZJbG9yUTExRjNaX1R6RmpsV0RtQnVmMjc3cVF6OGNTQ0xOVGRJTk4zZVpaTVd0cVhBQjBRS0ZYU0hsd09CNDM2QlNOdC1CWkhGRWlHaGp4MGUzYlZqbXVkSEhNUnVhVW1CTnVUZklmOVdMSE9taG5NN1RwRDZGRktNQUNQdWxFd3g2RkxhaGd3UF9fY2M?oc=5"
+    },
+    {
+      "id": "news-8zv756",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T23:30:00.000Z",
+      "description": "Myanmar committed genocide against Rohingya minority, top U.N. court rules - The Washington Post (The Washington Post, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Washington Post",
+      "axis": "Other",
+      "tags": [
+        "The Washington Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Washington Post",
+      "source": "The Washington Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZUJJYWdxLVpXUWxIM1J4YkNvWXNfM2RtQktxZldfWjZKUWJZS1VrOU5vcmpnLTQ2aVhOdDVUT1JfV3l0V0dQX0dkaFJ6VlotcjBCQXZ3ampET0NWV2h3cW5ZRHBTTU9oT3haQmtYbWw2dlpxckswd19wLTlCY2EzbGtBMTJ3ZkFPcElvMGQ5Y2ZRRjZ0R2kxZjRvSWhMYmZDSHpJaWxpQll0aVBMeXZwMlNVaGhqcTN4ZWczcg?oc=5"
     },
     {
       "id": "news-b4y5lp",
@@ -202,7 +1323,7 @@
       "kind": "news",
       "date": "2026-11-19",
       "isoDate": "2026-11-19T22:49:22.000Z",
-      "description": "Top UN court finds Myanmar committed genocide against Muslim Rohingya (DVB English, 2026-11-19. Headline + link only.)",
+      "description": "Top UN court finds Myanmar committed genocide against Rohingya (DVB English, 2026-11-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "DVB English",
@@ -215,6 +1336,25 @@
       "locationStr": "DVB English",
       "source": "DVB English",
       "sourceUrl": "https://english.dvb.no/top-un-court-finds-myanmar-committed-genocide-against-muslim-rohingya/"
+    },
+    {
+      "id": "news-eachlg",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T22:46:32.000Z",
+      "description": "International Court of Justice ruling on Myanmar - Australian Minister for Foreign Affairs (Australian Minister for Foreign Affairs, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Australian Minister for Foreign Affairs",
+      "axis": "Other",
+      "tags": [
+        "Australian Minister for Foreign Affairs",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Australian Minister for Foreign Affairs",
+      "source": "Australian Minister for Foreign Affairs",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV2xQM3hXX2poZFF4WGNwVWw2S2c5Tm51cUViVlJTZ09MME1PSzczT2pWcktmNl9xZTZlVGdpenpHODFWRnZWYUNsbnpsZWFXaHl2V3NjalRFMGVtR20tN2U4ZWYtOGdkd3U3MzQ5Y1E1a1V4ZmtXbmhhdzRMZ3dFcmJMaHJmX2VCM2w2d2FnOE5RN1MtMlNNWXRwa2o3SUYxMWx6MzNJZUZ3VDJzSUdVdQ?oc=5"
     },
     {
       "id": "news-1llijsx",
@@ -312,61 +1452,23 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUWFwSzdrT1UtekhYeUpBZS1zc1Ayb1RKZ1ZFZllVSlMxb2VTbzdwbUlDbmcxQ1BmRzdaXzFMcUY2RUlkZ1JSNEFMWjAtV1lXZXYwR0VXMFhwTXFPdnJSNnRqVl9DbVFocUNIaHhtLW5uMEJ5czI5NTIyTGF1TUtNbUl6RmJVcC1zZXhCQ2FzMF9sa0pDVVItTGxn?oc=5"
     },
     {
-      "id": "news-2n0ik5",
+      "id": "news-lcqt21",
       "kind": "news",
       "date": "2026-11-19",
-      "isoDate": "2026-11-19T21:38:09.000Z",
-      "description": "U.N. Court Rules Myanmar Committed Genocide Against Rohingya - The New York Times (The New York Times, 2026-11-19. Headline + link only.)",
+      "isoDate": "2026-11-19T21:31:19.000Z",
+      "description": "Myanmar becomes first state found responsible for genocide by UN court - Axios (Axios, 2026-11-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The New York Times",
+      "actor": "Axios",
       "axis": "Other",
       "tags": [
-        "The New York Times",
+        "Axios",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The New York Times",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qLUhZWS1IeE93REZvbWFfdUpvcnEyOG1kZjU5M2dMV3N2TFFtZEZsVll5eUx4MWxhcTRaWFlqSndxaVhtRWNrel94QVVCcWgtSGdvd2xvRHZNdm9rNDhJbmhpeWNmSW41bnRZaHo1a0xuRTZmODVXc3Yxemh3QQ?oc=5"
-    },
-    {
-      "id": "news-mjnz5o",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T21:17:12.000Z",
-      "description": "Myanmar Genocide Ruling Sets Up Court Fight Over Israel and Gaza - The New York Times (The New York Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New York Times",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40ZDhxQnJhZHdOVHhnbGlIc2VINXJ4dlhzaDlaMnhodVh2LWROWlpkczVSSmxmSUFQRFdrMTk1cmJ0bTh0bm1JQkhyUHI2ZFlrdXZ2LVBweldOUFA5TWg4WWhEc1BENkpxTDJUdFlLU1ZUaWxvNHc?oc=5"
-    },
-    {
-      "id": "news-1703qx",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T21:09:00.000Z",
-      "description": "Myanmar ruling gives new relevance to genocide convention and is ‘full of messages’ for Israel - The Guardian (The Guardian, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Guardian",
-      "axis": "Other",
-      "tags": [
-        "The Guardian",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Guardian",
-      "source": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ3NpZEp2dmlxVFQ0UHdkQ0hqMW1YQ0RVaTBxa09KN3hiOXZMbVJaM3ptRkFTTHQ4d1NpWkNQVU9PWHRDQW12alB1a0tFd3cwQnlMUXNSWDZwZ3R1bFl4RFVoZHppZWFlN0hXV05UVHFGVU5SNVZsSUtFdFZLeXVWVldwR3hMT003QTZPSlItS3BuRGpTNXJVaEQ3YTNObmMxdVNQN2RCbmQxUWNX?oc=5"
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OeTBHVmpPZzUyYWl4RGxKSDFGSzB6VDVQdEVJUE80VDZTMUpOM0JDNmVTX2JfQmtLMTJDV0had18xZmN0QTd5OGx5ZDEzNUV6WU1lUWVTUUtsUVV5UlY0VC1jLWtObnkxbUJnbXpwNEpUZkF3MHA5LS10RlJSSlE?oc=5"
     },
     {
       "id": "news-4uf7b7",
@@ -390,25 +1492,6 @@
       "lat": 17.17505,
       "lng": 95.99997,
       "coordsNote": "OSM geocode: matched \"Myanmar\" → Myanmar; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-1vqan6z",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T21:00:00.000Z",
-      "description": "What to Know About the Myanmar Genocide Case at the World Court - The New York Times (The New York Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New York Times",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMHJpYkFmNFJ4WWUwUDA2YU5nWGJGRUFsZnZHOEtPSndaT01CYTI1MVNVWTdDbG1PSFJYTWgweXBNb3ZkeUx2RWNGZVpERi1WNzlxRTNVbEtnRU56LVJrUG5fVXdCaWdKeS1JMG1Rd1FuZi0zRmlJdU0zaHZrNVBJZ3ZoRVRlSnMwNVh5Vms5SlJ6YWN2Ri1fNmdRRQ?oc=5"
     },
     {
       "id": "news-aycpjv",
@@ -468,6 +1551,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUTNtSzZvVTVMVDVvY1BOaDBDZ1ZEOGNkdFZBTTRFbUZIU2hlYTcxOTBsMWFfMExjQWJTTl9zMGFkRHRwX3FZeEZDQkN0bVpudVh4Z2R5UFRvZDlHVV9jVWgwR3VRUnIzeV82YTlDWFdVcUdBOUg1SGZ3MVFpODI2TUVsY3BtU2UxMXlibm5YNFBIVVJzRkhYcXFZR09DNEVTRldteW9qZnBhS0R0WmNXRw?oc=5"
     },
     {
+      "id": "news-mjnz5o",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T20:21:12.000Z",
+      "description": "Myanmar Genocide Ruling Sets Up Court Fight Over Israel and Gaza - The New York Times (The New York Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The New York Times",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40ZDhxQnJhZHdOVHhnbGlIc2VINXJ4dlhzaDlaMnhodVh2LWROWlpkczVSSmxmSUFQRFdrMTk1cmJ0bTh0bm1JQkhyUHI2ZFlrdXZ2LVBweldOUFA5TWg4WWhEc1BENkpxTDJUdFlLU1ZUaWxvNHc?oc=5"
+    },
+    {
       "id": "news-84ysnh",
       "kind": "news",
       "date": "2026-11-19",
@@ -504,6 +1606,25 @@
       "locationStr": "BBC Asia",
       "source": "BBC Asia",
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "news-11yp4hb",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T20:07:00.000Z",
+      "description": "ICJ ruling on Myanmar presents new difficulties for Israel’s fight against genocide charges - The Times of Israel (The Times of Israel, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times of Israel",
+      "axis": "Other",
+      "tags": [
+        "The Times of Israel",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Times of Israel",
+      "source": "The Times of Israel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbFcxM0R5ZDJtR1h3X3ZaVjRtSG5MNHBJMlB0MnU0RGlEX2pFc3VtUFRXQkZaLUpBY1Q3c2lSWi1nWlM3RGdaY0NOOXFaOEN6TzM5NWFwMlRCX3B3VlhsOUdRQkZaMV93SndVblppTExUaU41a3ZhbGNfa2l3LVU4T29sTHFaWF9wQVFObkM4OTl0dDY4MUJmbUI4WkVWOTBHSXlrYThKcTFmbGxjYU8zeEtJQU9uY1hOOXA0cDJn0gHDAUFVX3lxTE9RZkpOcTFxNXRLQUxMRncxbkJubDVVMWoxVnpqZnhLUVdZTF9WNWtnX3FWNnl5dVpFd3pkbTNYcXBCUzM3Nm5OY2tZOEQtUGphSS1MRVRiMm8waTIxS0p5aWYzRGhqcERqQWhRNkkwTk9EUDJjZV9ZRmhtLTVaYXRKZ0l3Y1R4WWh3VEFiYWlQdlg4MHRpT0llcy01UlRNczBCc3Z6R0kwNWhRcl9yZ0F1aERsLUZ3RzhTeW5pWVVpSHhicw?oc=5"
     },
     {
       "id": "news-mn9u1y",
@@ -548,18 +1669,18 @@
       "kind": "news",
       "date": "2026-11-19",
       "isoDate": "2026-11-19T19:47:38.000Z",
-      "description": "The Genocide Ruling Against Myanmar Is a Remarkable Moment for the Rohingya – and Global Justice - Zeteo | Substack (Zeteo | Substack, 2026-11-19. Headline + link only.)",
+      "description": "The Genocide Ruling Against Myanmar Is a Remarkable Moment for the Rohingya – and Global Justice - Zeteo (Zeteo, 2026-11-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Zeteo | Substack",
+      "actor": "Zeteo",
       "axis": "Other",
       "tags": [
-        "Zeteo | Substack",
+        "Zeteo",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Zeteo | Substack",
-      "source": "Zeteo | Substack",
+      "locationStr": "Zeteo",
+      "source": "Zeteo",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYRldyaVNGT2dQeXB0Z19yRHc0THhUdmlSUjI5WmR2T18xcW5oQzdsWXR5RTc5SmtjbmF0ZTBmZlY5ZzYzV0UzVWtHc1VjMDdBQTNrUWxObWtkTWdFZm16el94NjEzQQ?oc=5"
     },
     {
@@ -580,6 +1701,25 @@
       "locationStr": "Inter Press Service",
       "source": "Inter Press Service",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQUZCSkdzSEVOcnFabkZheEluVUlxc3ZFeHBibTQtd0JjZTNKUzJVOEtBemJsQlJkWXR0bVNuTjM3eWU2UVFESUY3aW9aMWtRSHhEMEw1QUJIZEhGOEVDN2RXUEZjQ2E1M2RUZ0RtTGgwN1h3RGd4bjJsMktMNUZ4QmpaOUJBdFlnb2x6eVVEWE9QaENEclg3ag?oc=5"
+    },
+    {
+      "id": "news-1vqan6z",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T19:13:29.000Z",
+      "description": "What to Know About the Myanmar Genocide Case at the World Court - The New York Times (The New York Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The New York Times",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMHJpYkFmNFJ4WWUwUDA2YU5nWGJGRUFsZnZHOEtPSndaT01CYTI1MVNVWTdDbG1PSFJYTWgweXBNb3ZkeUx2RWNGZVpERi1WNzlxRTNVbEtnRU56LVJrUG5fVXdCaWdKeS1JMG1Rd1FuZi0zRmlJdU0zaHZrNVBJZ3ZoRVRlSnMwNVh5Vms5SlJ6YWN2Ri1fNmdRRQ?oc=5"
     },
     {
       "id": "news-1ov2bmg",
@@ -656,25 +1796,6 @@
       "locationStr": "Center for International Policy",
       "source": "Center for International Policy",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZU9QaTc2a3ZKbTlrMU1wckVWeEQ0X2VJN253Vm0yS0xlczQ5aWEtbXZIM1c0dUQ0VHNlWFZsMm9iLXNKakl5QXhsdjAtOUxlblN4ZHVwOWhzUnRqQzhCd0tHbWVadndVV3otVjc2bEc5OTZ1TzFibXpkSW1FSUtYa3Rab09CTEpFOU1mMGI2UEpwTWx6MGV0N1ZfOG1EMGZnXy10SHR3NWZTcEVrMXNjU0JJVUZ3V2ZrOVF6QlJpYW5nTnZvVTU1eV91LUNiaGhmc1VDc0VQci1SSTd5Y3lJdXRMcDk5a0JucURvcg?oc=5"
-    },
-    {
-      "id": "news-15dqkq5",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T18:27:57.000Z",
-      "description": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds - The New York Times (The New York Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The New York Times",
-      "axis": "Other",
-      "tags": [
-        "The New York Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The New York Times",
-      "source": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQmhFRFFBc3duc2NLLWctWmR1RUExSDFJV1lxRVY1UXhlaW0xS0xILUJNRGJmMjFacnhDeHdBVXFkVHdQdTRqWEJoVk5weFNBRnEyV0RENEJTWTFKQWxnU3hxYjlCVVFLcTdQbGVWTElDdkdGVE9ENjcyMFNBVXQ2Z01aaERfQzJQVDMw?oc=5"
     },
     {
       "id": "news-gg4nil",
@@ -772,6 +1893,63 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTHNqVnRpaGlBX3ptcGJnbVpEWlZVRktjNTNlTGVpX3hMWjRMdkdlTFRzaXFNSHM5XzU3ZUxCN2tMMDN2d1BTMEtiRmlzOWtpclppTlB2alJrQklTU3AwcnFRMG5JSGxqZ3J5ZmlfQVFCSGN4NmljR1hrRndOZWhfSlh6TFJBRnA4MUE?oc=5"
     },
     {
+      "id": "news-15dqkq5",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T17:55:23.000Z",
+      "description": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds - The New York Times (The New York Times, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New York Times",
+      "axis": "Other",
+      "tags": [
+        "The New York Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The New York Times",
+      "source": "The New York Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQmhFRFFBc3duc2NLLWctWmR1RUExSDFJV1lxRVY1UXhlaW0xS0xILUJNRGJmMjFacnhDeHdBVXFkVHdQdTRqWEJoVk5weFNBRnEyV0RENEJTWTFKQWxnU3hxYjlCVVFLcTdQbGVWTElDdkdGVE9ENjcyMFNBVXQ2Z01aaERfQzJQVDMw?oc=5"
+    },
+    {
+      "id": "news-1h8ky65",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T17:43:42.000Z",
+      "description": "ICJ ruling on Myanmar genocide raises new legal challenges for Israel - The Jerusalem Post (The Jerusalem Post, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Jerusalem Post",
+      "axis": "Other",
+      "tags": [
+        "The Jerusalem Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Jerusalem Post",
+      "source": "The Jerusalem Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZMkpobWkwSGFJNkRUbWNIRUlsdlBIa0diZi1TXzZnQ0xudHpjS0RJTE5pOHJWdHh4Tm5rRFpVa0JESUZ5ZWhVYW5zdmUxUlVBTFUzRm56WkMwVEdaWEdJ?oc=5"
+    },
+    {
+      "id": "news-1486qpd",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T17:35:05.000Z",
+      "description": "Rohingya genocide: What was said in court and what happens now? - BBC (BBC, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "BBC",
+      "axis": "Other",
+      "tags": [
+        "BBC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "BBC",
+      "source": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBGYmJOMHpwXzUzQ2p1Zmo0MGNYYXpudWoxdjB6eVhnSGZSUGNmUVhlXzVBOTYxTFdPQWJRQ0RPWkRKMlR6VXZ6ZEZNNnM3MXRfRTZCUnZnMjE?oc=5"
+    },
+    {
       "id": "news-hajxs8",
       "kind": "news",
       "date": "2026-11-19",
@@ -827,6 +2005,25 @@
       "locationStr": "Courthouse News",
       "source": "Courthouse News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTU1saGUyWGhmTTJBMFBna00tcy1vOG9iNFIyODJlRkRFaml6R1hXdEdmNVJhVU4zTGVUeVBCdExaRjBuSDVlcEdGUVM2akF4NDI5SzhWamlyc3h4ZG82ek1GSXZMUEhoaDFWRmFtUENwdmNSVjhYOTZ1VUxrTWR6dlVRU0twa3Q2a1ZlNUVfWEtLOFAtc3JCdjJ6Tk8?oc=5"
+    },
+    {
+      "id": "news-1703qx",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T17:14:00.000Z",
+      "description": "Myanmar ruling gives new relevance to genocide convention and is ‘full of messages’ for Israel - The Guardian (The Guardian, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Guardian",
+      "axis": "Other",
+      "tags": [
+        "The Guardian",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Guardian",
+      "source": "The Guardian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ3NpZEp2dmlxVFQ0UHdkQ0hqMW1YQ0RVaTBxa09KN3hiOXZMbVJaM3ptRkFTTHQ4d1NpWkNQVU9PWHRDQW12alB1a0tFd3cwQnlMUXNSWDZwZ3R1bFl4RFVoZHppZWFlN0hXV05UVHFGVU5SNVZsSUtFdFZLeXVWVldwR3hMT003QTZPSlItS3BuRGpTNXJVaEQ3YTNObmMxdVNQN2RCbmQxUWNX?oc=5"
     },
     {
       "id": "news-1n5xix",
@@ -960,25 +2157,6 @@
       "locationStr": "Vatican News",
       "source": "Vatican News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWklRUU5MLU13NFVwT3d5b2RqTEJTZjE5YkxpU1FtZHhwRU55MWFIczctLUgzeV9zMVlpZDhRVVR3X3pfVTlNQ1lPVkxobVVNWURacnNMQnBaTW9SREQzaFBNRkdPczI4YUlpRlFjcUlWLUNxc1JPemNnQUExdU9mX3NqSWZMS01GcWIwSlFwN2NIU3NobWdrSlR5azYwcjFTMjUxLXlFVk4zQ0Z5bExZ?oc=5"
-    },
-    {
-      "id": "news-1w51hq7",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T16:35:08.000Z",
-      "description": "UN top court rules Myanmar committed genocide against its minority Muslim Rohingya population in 2017 - DW.com (DW.com, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DW.com",
-      "axis": "Other",
-      "tags": [
-        "DW.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "DW.com",
-      "source": "DW.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNkFwX05HbWozazNLZzhRN0N6VVhiVjhzNUs4Y0VPZTlKNkc0aHNIX0czaHFPcDMybHZFQnYzN0YydS1pM3lGZmJGQ3JCeUVoc0dBY2p6U1dlUi1hbm9EZGlJbGw3RHBDbEtTdDE0LVNwbG9IWGlOcXhuYjhGelZxUEFMR3ZFNVZ0RDFoa2F2OGdabWszeDU0cTFBY9IBmwFBVV95cUxNYi1DaHpYcExFQ3Z5S2tWVldIaVpWOUpjdktlNFYyamNXSEF0OWZDVEV5bV8zdXVTajdQNzd5MFZIdTVGODUzYlNXT2xPTENnUkk1MHlSNGtWSjdoQy13YXU5eGl0VmVyQzdsanEtWmR5bHUwN1ZsY182NUdhajF3OUk3LUpXRDhEUFZsYUNrajZrMU5QdGg0SDhhZw?oc=5"
     },
     {
       "id": "news-1vwigvo",
@@ -1304,6 +2482,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVDZ4bWplOEhNeVcwa3d6cVF1ckY3bDBMcFRQS0dNM2NONEJLenJDSFdwd0lDVnl4NHpJZldadGdRNVZubGRYWEZDTEM3WkZUOThkNTdmLUpEOVpZRTI4RTcteTNRWDJlS2dtT2g5a1laQVBhSllEWnRYQld2a04zOHo0MUhXUjVWdkRBa19rQjhZZjAzX2dEaXk0c1AtY1paOC0w?oc=5"
     },
     {
+      "id": "news-1w51hq7",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T12:47:00.000Z",
+      "description": "UN top court rules Myanmar committed genocide against its minority Muslim Rohingya population in 2017 - DW.com (DW.com, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW.com",
+      "axis": "Other",
+      "tags": [
+        "DW.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DW.com",
+      "source": "DW.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNkFwX05HbWozazNLZzhRN0N6VVhiVjhzNUs4Y0VPZTlKNkc0aHNIX0czaHFPcDMybHZFQnYzN0YydS1pM3lGZmJGQ3JCeUVoc0dBY2p6U1dlUi1hbm9EZGlJbGw3RHBDbEtTdDE0LVNwbG9IWGlOcXhuYjhGelZxUEFMR3ZFNVZ0RDFoa2F2OGdabWszeDU0cTFBY9IBmwFBVV95cUxNYi1DaHpYcExFQ3Z5S2tWVldIaVpWOUpjdktlNFYyamNXSEF0OWZDVEV5bV8zdXVTajdQNzd5MFZIdTVGODUzYlNXT2xPTENnUkk1MHlSNGtWSjdoQy13YXU5eGl0VmVyQzdsanEtWmR5bHUwN1ZsY182NUdhajF3OUk3LUpXRDhEUFZsYUNrajZrMU5QdGg0SDhhZw?oc=5"
+    },
+    {
       "id": "news-wu43yp",
       "kind": "news",
       "date": "2026-11-19",
@@ -1399,6 +2596,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOHVhOXZJckQwZHVKTl95bzkyLU8wVHhvUEFnQnZoTHlkcVJ3ZC12VUlwZ05ZMU9oc09LNzBsVjJQTDhkMEU3V1lIZ1ZFRTcwcEx6MF9oRGwzb0lVUm0xWGpKVEpwOFpyMXhrS1ZIdnR2cUhrZi16eWhKVFpvLXlrNVpacw?oc=5"
     },
     {
+      "id": "news-evhdw0",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T12:02:19.000Z",
+      "description": "Myanmar guilty of genocide against Rohingya, says top UN court - AFP.com (AFP.com, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AFP.com",
+      "axis": "Other",
+      "tags": [
+        "AFP.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AFP.com",
+      "source": "AFP.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRGNNVTlWdmlVb3lHV19iOGVVNERUQkY2ZldaeEc0RW5WeHRpSTZvUmNUVnB2bjFQY2ZFQ0FEa3hfbUdPSFU2MGs5S1JiSlc2N2pHVnlpMkt2Y0huZmxzLWVpVkpDQnBucVJSbmM5WnJZbHZRWHd3cjhVMmtRZFhWNTRMaEItUW5Y?oc=5"
+    },
+    {
       "id": "news-x9som3",
       "kind": "news",
       "date": "2026-11-19",
@@ -1437,6 +2653,25 @@
       "sourceUrl": "https://myanmar-now.org/en/news/world-court-rules-myanmar-responsible-for-genocide-against-rohingya/"
     },
     {
+      "id": "news-8dus3e",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T11:55:00.000Z",
+      "description": "Myanmar found guilty of genocide. What happens next? - CNN (CNN, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "CNN",
+      "axis": "Other",
+      "tags": [
+        "CNN",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "CNN",
+      "source": "CNN",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOFg1ZmpMVE96Vk5BekNEdU1qSk1jWmdiUXVHU1lYb05IYndMaTc5R25NaUhDU0szeVNZOGp2dkpSOVFSV2gyYjdZSE9QVm1OalhSN3ppeWZOWUtJN0dFREZ4cHVlbXBhWlVJbG52MkVNR0w5WEtiU19hbGJKOUNKVHRXQjJPeGdqbVhsSU9DVWRkTWQtclNWYk03TEtYVnMtMl9mbXloZWxLMXpVX3c?oc=5"
+    },
+    {
       "id": "news-6fvhts",
       "kind": "news",
       "date": "2026-11-19",
@@ -1456,23 +2691,23 @@
       "sourceUrl": "https://www.irrawaddy.com/news/burma/regime-media-censor-min-aung-hlaings-swipes-at-china-thailand.html"
     },
     {
-      "id": "news-1h8ky65",
+      "id": "news-zpuz7v",
       "kind": "news",
       "date": "2026-11-19",
-      "isoDate": "2026-11-19T11:46:20.000Z",
-      "description": "ICJ ruling on Myanmar genocide raises new legal challenges for Israel - The Jerusalem Post (The Jerusalem Post, 2026-11-19. Headline + link only.)",
+      "isoDate": "2026-11-19T11:39:59.000Z",
+      "description": "In historic first, UN top court rules a country committed genocide - CNN (CNN, 2026-11-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The Jerusalem Post",
+      "actor": "CNN",
       "axis": "Other",
       "tags": [
-        "The Jerusalem Post",
+        "CNN",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The Jerusalem Post",
-      "source": "The Jerusalem Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZMkpobWkwSGFJNkRUbWNIRUlsdlBIa0diZi1TXzZnQ0xudHpjS0RJTE5pOHJWdHh4Tm5rRFpVa0JESUZ5ZWhVYW5zdmUxUlVBTFUzRm56WkMwVEdaWEdJ?oc=5"
+      "locationStr": "CNN",
+      "source": "CNN",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkxJZ3ZYcV96ZVltVE5YNDVVMFdrcWNicHdfcmFvNzRrUHdIeGYzNEZKaXFmZW1yVUhWMThQZU96Y3RreEU2U2pmTU54Nml4VV9iQnkzN3Z5bWJWOTk2TGFWZ0xBcnZ0NXRQdUhGTGZ0dEdITWZER1N2VnduS3VXbTh1c3JJb0dO?oc=5"
     },
     {
       "id": "news-i7165i",
@@ -4923,7 +6158,7 @@
       "kind": "news",
       "date": "2026-11-18",
       "isoDate": "2026-11-18T23:06:00.000Z",
-      "description": "Top UN court to rule on alleged genocide of Myanmar's Rohingya - Reuters (Reuters, 2026-11-18. Headline + link only.)",
+      "description": "Top UN court finds Myanmar committed genocide against Muslim Rohingya - Reuters (Reuters, 2026-11-18. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Reuters",
@@ -5069,25 +6304,6 @@
       "locationStr": "Foreign Policy",
       "source": "Foreign Policy",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWWZfY2Z5ZWZzNWw0LTFGSjNZU2IzSWJtYjdWTkIzZ3pGX2J5dVlVZWFQWU01bU9hejZqUmtJSl84S2xQT19kNmVEUUtPOFFaZ3YzLTRKV3dqZGpwQmtNTmsyZHdKaXJBZFRlTmxSVkdlcms2YnFSTHpDOTVzSDFVeE5IOFU3UkNVOVc4NWw4a1oySnpjWFhLa1pYNnhOdWhtNWVr?oc=5"
-    },
-    {
-      "id": "news-1qftxj6",
-      "kind": "news",
-      "date": "2026-11-18",
-      "isoDate": "2026-11-18T20:21:00.000Z",
-      "description": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling - The Guardian (The Guardian, 2026-11-18. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Guardian",
-      "axis": "Other",
-      "tags": [
-        "The Guardian",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Guardian",
-      "source": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQclp0b010ckFVZG5HS1FJZktRcmg2ZmVvbEt1bFUyT0cyN29IdE92bERQN3VQLWlvajByUkJPczNzT2VOZzc2MmFzaGlWVDgweTNFR0RGN1RPdlZobVFjWDFzOGtWSV9SUDhRRVFLX21HZEg3c2s5ZV9jZ2Qtcm1iTjRUUHNIRnRZSFgwTi1oY283M1BpZDFQd0k2TVByMV9CMm1tVWRNWHpkbGhpUGNqWQ?oc=5"
     },
     {
       "id": "news-1bgaf7p",
@@ -5948,6 +7164,25 @@
       "lat": 19.53172,
       "lng": 93.99668,
       "coordsNote": "OSM geocode: matched \"Arakan\" → Rakhine, Myanmar; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1qftxj6",
+      "kind": "news",
+      "date": "2026-11-18",
+      "isoDate": "2026-11-18T09:58:00.000Z",
+      "description": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling - The Guardian (The Guardian, 2026-11-18. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Guardian",
+      "axis": "Other",
+      "tags": [
+        "The Guardian",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Guardian",
+      "source": "The Guardian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQclp0b010ckFVZG5HS1FJZktRcmg2ZmVvbEt1bFUyT0cyN29IdE92bERQN3VQLWlvajByUkJPczNzT2VOZzc2MmFzaGlWVDgweTNFR0RGN1RPdlZobVFjWDFzOGtWSV9SUDhRRVFLX21HZEg3c2s5ZV9jZ2Qtcm1iTjRUUHNIRnRZSFgwTi1oY283M1BpZDFQd0k2TVByMV9CMm1tVWRNWHpkbGhpUGNqWQ?oc=5"
     },
     {
       "id": "news-nye2df",
@@ -7904,451 +9139,6 @@
       "locationStr": "Thai PBS World",
       "source": "Thai PBS World",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xbk1QZHVYVldQTEpfWGJEdC13WGFvRlR1MkZoZnhIZnktZkdrRVVqY0h0YmFkeG8yRXdmakdOb3VMUDBlZnR2SENFZHd1Z2FKcG5oZ1ZWelhac0RQakdEcw?oc=5"
-    },
-    {
-      "id": "news-1u8hq6b",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T08:57:48.000Z",
-      "description": "Four Myanmar brokers arrested for smuggling 23 migrants to Malaysia - Khaosod English (Khaosod English, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Khaosod English",
-      "axis": "Other",
-      "tags": [
-        "Khaosod English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Khaosod English",
-      "source": "Khaosod English",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYmJpRzJLVnFLWUhoZ005SHVJNUxUX3V2eDRnNnV3YmNnQmwwb2NQOFpiQzNSa3IyYlFTNWYtSGp0YWJLM05yMHNzUnp4cE85dFdsQ2NsNUVBSVRaVGoyMkNSY0t5MC1yMUdkY0RwTWsxSGRzZ2liUkR5Y0lKWG9CSldpOE5hMkdYSElyYmpuVzBtSWI2RG81QTNERlRfdTNzZXRkYXk4bXRleGlYcEhGWVNVcEZQZWpmLTJSQ0RORWJpcXdJbUJCX9IBzgFBVV95cUxNWkp4elhvSS1aTkRETEQtTUVrR3JkWGMzcENURWR3clRrQm5CMzRlOEpNbV9nZ2l3Mll5VXljTXRQbGxZeTRkdmNWa2pwUkwtLXhFb1hIcjVIQW1SQldEMW9ILTJyd1ZTUTdIVkdVOWQ0T25EanZDeTROdTlBc3lZTkNuWkxGOHkzS3o0R0pCeFBiRXdWeTZ2TnRwMEJ3dUlZRHA3QW04dzZpOERwcThVTjhjQ3M3dVlvNlhRamJmZmN3YmtYdlNZY1JCUDFWZw?oc=5"
-    },
-    {
-      "id": "news-5t8ev2",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T08:34:19.000Z",
-      "description": "Floodwaters recede in Southern Shan State after 2,000 acres of paddy destroyed and 700 displaced (DVB English, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DVB English",
-      "axis": "Other",
-      "tags": [
-        "DVB English",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Shan State",
-      "source": "DVB English",
-      "sourceUrl": "https://english.dvb.no/floodwaters-recede-in-southern-shan-state-after-2000-acres-of-paddy-destroyed-and-700-displaced/",
-      "lat": 21.5,
-      "lng": 98,
-      "coordsNote": "Headline gazetteer match: \"Shan State\" (region); verify via source article."
-    },
-    {
-      "id": "news-1nco09e",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T08:08:31.000Z",
-      "description": "Three Myanmar suspects arrested over armed phone robberies of university students - Khaosod English (Khaosod English, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Khaosod English",
-      "axis": "Other",
-      "tags": [
-        "Khaosod English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Khaosod English",
-      "source": "Khaosod English",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUUVJRllaY2ZYZGZEWUhrOEtXWmtwY0gwRmRQd250cU5zWFQzUHpoUGo4SWhaek1HSUtfeHpaaFRIYXNTUHhiVG5tcW1ZTkUwUWM3RUtqcXVtRWRkcjd5dTBqUjhVWk80WTFvd1IteDZ6N0RDdTNFMUg5b194ei1CWWpCVkFfUEd4eG5RMzFmZXIzdFdOM1FySEdpZDJ3WWhLZmhEOURaZHdvdjNfNjJzSGdfSWJURVVLcDdSZDhtNlNUVWF0cTZrYdIBzgFBVV95cUxNTUF6Q0FCb2dEQ1p4X0ZmYUFjbDg1WTRRNlFqVUc4N1BQckxCMHgzOGRwY1RlckxzZUsyclQ4Wk5Xc3hESmpHSDZxa2NsMDJWNGhOajRsQVV4blNFdE9xRTB4Y0hTRmVEWUxHa2FyVlNSVXdoUUtmOC1XZ0tuX09FakZ5dkFrTzl3eVVxX1IxTEpFbkVPMUtrRXY5VGV3LWFGM3ZwcXVIb0oyeVFUbkJQaEMxTFJLLW1HVVRyQlNYRC1wOFh1VmFZU0ZYWXFzZw?oc=5"
-    },
-    {
-      "id": "news-1xmcsyx",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T08:05:00.000Z",
-      "description": "Gold is funding resistance in Myanmar - but at a steep cost - Nikkei Asia (Nikkei Asia, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Nikkei Asia",
-      "axis": "Other",
-      "tags": [
-        "Nikkei Asia",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "Myanmar",
-      "source": "Nikkei Asia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOUhpSk5WcDVTeHZwVHlUc2Q2Q1BLQTk3YVg5VTM1QkxRSXlHMVl1SGRGM2NkajRGbDQ2RVBkN05GOGtZV0x0U1dQeE91anRrM0NCY01GckFqTGc2RGJ4aGVyeVo3dkJLVTFCVnpacHdROU5YWXJuV0RpM2RYeHBBMW9KWjk5WWlqTUNtdXFvalNBQnc?oc=5",
-      "lat": 17.17505,
-      "lng": 95.99997,
-      "coordsNote": "OSM geocode: matched \"Myanmar\" → Myanmar; © OpenStreetMap contributors."
-    },
-    {
-      "id": "news-1sglryo",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T08:00:00.000Z",
-      "description": "Myanmar civil war nears rare window for talks - 朝日新聞 (朝日新聞, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "朝日新聞",
-      "axis": "Other",
-      "tags": [
-        "朝日新聞",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "朝日新聞",
-      "source": "朝日新聞",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiM3RVOUdkRGtyRDhCWExYamJSei1MMlNBeC11TDRUc1EteFdOWHcydlIzZTBDRktRTmF2N0tZU082aEhnRWNBR1dXRHp6UlpveHdaZ2Zja0FPUjlqRkE?oc=5"
-    },
-    {
-      "id": "news-1gw7dv5",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T07:47:00.000Z",
-      "description": "Myanmar migrant leader denied bail in Thailand; Colleagues lose contact in detention (DVB English, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DVB English",
-      "axis": "Other",
-      "tags": [
-        "DVB English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "DVB English",
-      "source": "DVB English",
-      "sourceUrl": "https://english.dvb.no/myanmar-migrant-leader-denied-bail-in-thailand-colleagues-lose-contact-in-detention/"
-    },
-    {
-      "id": "news-dz824r",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T07:21:31.000Z",
-      "description": "Myanmar begins 30th military conscription intake amid bribery and quota-filling scheme (DVB English, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DVB English",
-      "axis": "Other",
-      "tags": [
-        "DVB English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "DVB English",
-      "source": "DVB English",
-      "sourceUrl": "https://english.dvb.no/myanmar-begins-30th-military-conscription-intake-amid-bribery-and-quota-filling-scheme/"
-    },
-    {
-      "id": "news-174awiz",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T07:08:00.000Z",
-      "description": "Myanmar ex-political prisoner Bo Kyi receives Ramon Magsaysay Award - Bangkok Post (Bangkok Post, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Bangkok Post",
-      "axis": "Other",
-      "tags": [
-        "Bangkok Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Bangkok Post",
-      "source": "Bangkok Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWjVUc3NwU0s1a2tCb29NOHZZTXZVWEhxeHA1Qmo5Z0k5eFREUDJQNTFYcEdzcmtiVFUzLURwUEZnLWcwZjQ0RmdDeVdfU0F4VmRnTzl6eHJYMUloclA2RWpsUHItTHFRMDhsc183akFTUXNyZk5qb3dyMzRwQ2trSFVUUGROSUluV0dUN0xvMVVpdGFBVEV6bXhCdjBEa2dqVXY0Qi03VWlOSHls?oc=5"
-    },
-    {
-      "id": "news-135gnuv",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T07:03:00.000Z",
-      "description": "Rohingya genocide case: What is Myanmar accused of at the ICJ? - New Age BD (New Age BD, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "New Age BD",
-      "axis": "Other",
-      "tags": [
-        "New Age BD",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "New Age BD",
-      "source": "New Age BD",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbVg4QVpmVEs3Yi10WDU0QlYxTEZGaURmQ1Y2bmc2SmpRRWhZdkxnSzBlQV9YUV95RmNBeEEwbWRpM2E2RkVVWndCLTJzTnd5OTNBNlIwZkc2eC1LUXhxWW1NT1h1M0FEbHRfNnVjaFlBNW1DVHNnS1dORlNlTHI3WDhsSUJROU9GWUpXYjBKZWR5STNxbzg5dUhCOG9DNktnOWRoWjF5VUtSMUx1M1ZJ?oc=5"
-    },
-    {
-      "id": "news-1k9rtjd",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T06:53:36.000Z",
-      "description": "Deutsche Bank’s Halliburton financing linked to Myanmar military ‘should have been rejected’: leaked documents - Myanmar Now (Myanmar Now, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Myanmar Now",
-      "axis": "Other",
-      "tags": [
-        "Myanmar Now",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Myanmar Now",
-      "source": "Myanmar Now",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSHZ5Z0pWTkstVl9aNE1QM1BGQ1RCTWhMNzJWVlp4Qkl6S09hTnFEdENvckljMVVSakozUno5YWZUOE9VV29WX2RWeml3RHJPQTFRWklQNWdaSXNDWldxMDRFbUxYdUJ0dGkxUkU2S1N3RWl6ejE3UjBMZDhqazlPVVFybWxzQW9ScmpSb1JXVmtsSTRlNlpBRkN5SVFXMW5qMWFEZjM5TzFIOE5vTkVTc1lGYnlnY1hDc0preHNzekYxUkhsSVl5SWdMOXUzdnplS3ZBY2F3?oc=5"
-    },
-    {
-      "id": "news-1fdbd8r",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T06:47:15.000Z",
-      "description": "Deutsche Bank’s Halliburton financing linked to Myanmar military ‘should have been rejected’: leaked documents (Myanmar Now, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Myanmar Now",
-      "axis": "Other",
-      "tags": [
-        "Myanmar Now",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Myanmar Now",
-      "source": "Myanmar Now",
-      "sourceUrl": "https://myanmar-now.org/en/news/deutsche-banks-halliburton-financing-linked-to-myanmar-military-should-have-been-rejected-leaked-documents/"
-    },
-    {
-      "id": "news-1tlkvi6",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T06:15:34.000Z",
-      "description": "ASEAN maintains limits on Myanmar’s representation at summits and foreign ministers’ meetings - Jurist.org (Jurist.org, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Jurist.org",
-      "axis": "Other",
-      "tags": [
-        "Jurist.org",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Jurist.org",
-      "source": "Jurist.org",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMHBna2w2eTZFcDN6d2w1U0lpQUh6S0UyTFZlYzk3RkR1TGNnZGRBampGRmxwR2dhMmNiQzg3eXpVbEtYT2p1UGJ3TGxxSVFtaTVyUUlqYVhmX0Zva2dBSmtaSy1zck53Y0pfZ0doZEJJTVJRVElDcEVxQXVyZ19xVUc1ckJ0cFV0R21kM2VFemRNa2VKUjRpaEdIenBXdjdjRVJOWUtYZXBFREpzRndRT1dvaHREbzBPSVVmSG5felNhTm1SaHFF?oc=5"
-    },
-    {
-      "id": "news-16pkezx",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T05:45:00.000Z",
-      "description": "Thailand to establish team to address pollution from Myanmar mines - Nation Thailand (Nation Thailand, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Nation Thailand",
-      "axis": "Other",
-      "tags": [
-        "Nation Thailand",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Nation Thailand",
-      "source": "Nation Thailand",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5OdlpVZGNvbkhJYXhLSTQtMENNcmtOZHNDalVveDFnUWVPa1BVZzd0bGRhY2dCTS02a3ZTeUt2TlhlLVY1cG0ycTl0Rm9RWG9md0pfMlFnalgxcWNKaWF0NV93?oc=5"
-    },
-    {
-      "id": "news-1ty1kww",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T05:38:10.000Z",
-      "description": "KNU and KNPP reject separate peace talks, insist Thai-mediated dialogue must be with SCEF (DVB English, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DVB English",
-      "axis": "Other",
-      "tags": [
-        "DVB English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "DVB English",
-      "source": "DVB English",
-      "sourceUrl": "https://english.dvb.no/knu-and-knpp-reject-separate-peace-talks-insist-thai-mediated-dialogue-must-be-with-scef/"
-    },
-    {
-      "id": "news-oqge7l",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T05:33:56.000Z",
-      "description": "Climate index names Honduras, Dominica and Myanmar as hardest hit — Tagesschau - UA.NEWS (UA.NEWS, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "UA.NEWS",
-      "axis": "Other",
-      "tags": [
-        "UA.NEWS",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "UA.NEWS",
-      "source": "UA.NEWS",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNN3R3UXVBSzktSl9qSWUwMm93YWhtZmZnX25qSWxxNDJhNjhXSDNWemd0M2thQzdheExCMnZTb05pYl9Mb3ZVSDQ4RnZqYXJvazhWU01yR1FhZ0RHY2J1d0NPQ2lqRTl5SVFlRXd6Wk1TR1JGcGZsT1NwMHFDeUhMMlhmQXZfV2FKZEZFRFVxemxxbnlMeEVPOVdrTUE3S24ybFZoT25WV0NtMlB2dENsM3hiOVFKWVdBb3c?oc=5"
-    },
-    {
-      "id": "news-1lydwu7",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T05:21:44.000Z",
-      "description": "Japan overtakes China as Myanmar's largest state lender - IntelliNews (IntelliNews, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "IntelliNews",
-      "axis": "Other",
-      "tags": [
-        "IntelliNews",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "IntelliNews",
-      "source": "IntelliNews",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbW44cHROMG8xWVBTemdMUlpGbWNPQno4dzJPb3BKTjN0SFYxVWNSN3ZJZHRRRWlQTjJOdzBteE1iTklmUVVScVY0bnlYelBnbFJHdWFsb0xveGVsa1BKWFRscnlHT01zM1hzMzNSTnlKVV9PVGg3ZWptVkE5bVNlTXUtYU9FYlBnbnJBamdJOWNVQVJxOXc?oc=5"
-    },
-    {
-      "id": "news-hbnluh",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T04:52:16.000Z",
-      "description": "UN Chief Backs Engagement With Myanmar But ‘Violence Needs to Stop’ (The Irrawaddy, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Irrawaddy",
-      "axis": "Other",
-      "tags": [
-        "The Irrawaddy",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Irrawaddy",
-      "source": "The Irrawaddy",
-      "sourceUrl": "https://www.irrawaddy.com/news/myanmar-china-watch/un-chief-backs-engagement-with-myanmar-but-violence-needs-to-stop.html"
-    },
-    {
-      "id": "news-1ppzy1g",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T04:49:55.000Z",
-      "description": "UN chief backs engagement with Myanmar but ‘violence needs to stop’ (Myanmar Now, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Myanmar Now",
-      "axis": "Other",
-      "tags": [
-        "Myanmar Now",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Myanmar Now",
-      "source": "Myanmar Now",
-      "sourceUrl": "https://myanmar-now.org/en/news/un-chief-backs-engagement-with-myanmar-but-violence-needs-to-stop/"
-    },
-    {
-      "id": "news-76daht",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T03:46:25.000Z",
-      "description": "Thailand-Myanmar river pollution agreement was weakened, then signed. China remains silent - news - Mongabay (news - Mongabay, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "news - Mongabay",
-      "axis": "Other",
-      "tags": [
-        "news - Mongabay",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "news - Mongabay",
-      "source": "news - Mongabay",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeVJPOFg0ZTNTdmxkQWN1cVdGQ1dVZmFNX0N6VjduVGpXLVJTNmpINHFXZlp2WmFzcWd1TUJQQzExS2xCdU91ZlBfOUdzRjF0aThKaGFLSEpzaEpSNVpEOVpoUnd6V3ctTGx3MnJDc2JjUm5vU01hcjhXY2dWX3JwOWc3RmNmelN0dnROT2VRZ0NkSC1tNnB1TUhZbHRQUTRNQUdOLUtqSmZmT3A5VDhON2FZNGcwenl6THVRdjZ6SWHSAcYBQVVfeXFMTUU1TUFBZ2NZbk9LTmJzTF9Kc3k4X204LVNRWkt0NGFfRDhMaFBWTDd3RDB3WU0yVDBKZWRUcXUyZHFfZThLR2RkRWtINk1UM2VBVnh2ZHFVSzZfR0ZHMGJiMkpvRkktWmZPMmk0N3lVR1UzUkRLS2lXSkFvRGtmUmRtYmtqenVrZjc4ZUZ3akNWRjQ0b0RuX1V3QXVqeUdGakN0SmdvUk9fTElWVC1PR3dFWHRGTzNDdVZtemF4WU8zeWM1c3JR?oc=5"
-    },
-    {
-      "id": "news-r5mmvl",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T03:18:37.000Z",
-      "description": "Two Thai F-16 fighters sent to Mae Hong Son in response to Myanmar air force activity near border - Thai PBS World (Thai PBS World, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Thai PBS World",
-      "axis": "Other",
-      "tags": [
-        "Thai PBS World",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Thai PBS World",
-      "source": "Thai PBS World",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43VVNvdGZYTmx0UFJ4THZwTkRxU0Q5ajBuM0U1ZEJuU0RLZ04wRVJldllkQXFfeUJ0VzVoejJJb2FvNG0zYlFuTGJRN2hYZ09kNFdwN3d3WktFaWQ4RTdURQ?oc=5"
-    },
-    {
-      "id": "news-1jn3bfd",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T02:50:59.000Z",
-      "description": "Malaysia calls for intensified ASEAN engagement with Myanmar at 49th Summit (DVB English, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DVB English",
-      "axis": "Other",
-      "tags": [
-        "DVB English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "DVB English",
-      "source": "DVB English",
-      "sourceUrl": "https://english.dvb.no/malaysia-calls-for-intensified-asean-engagement-with-myanmar-at-49th-summit/"
-    },
-    {
-      "id": "news-1yzvl7v",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T02:21:43.000Z",
-      "description": "Bo Kyi backs war crimes case against Myanmar military in the Philippines (DVB English, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DVB English",
-      "axis": "Other",
-      "tags": [
-        "DVB English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "DVB English",
-      "source": "DVB English",
-      "sourceUrl": "https://english.dvb.no/bo-kyi-backs-war-crimes-case-against-myanmar-military-in-the-philippines/"
-    },
-    {
-      "id": "news-27cldb",
-      "kind": "news",
-      "date": "2026-11-17",
-      "isoDate": "2026-11-17T02:16:41.000Z",
-      "description": "UN Secretary-General attends 49th ASEAN Summit, re-expresses concern for Myanmar (DVB English, 2026-11-17. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "DVB English",
-      "axis": "Other",
-      "tags": [
-        "DVB English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "DVB English",
-      "source": "DVB English",
-      "sourceUrl": "https://english.dvb.no/un-secretary-general-attends-49th-asean-summit-re-expresses-concern-for-myanmar/"
     }
   ]
 }
