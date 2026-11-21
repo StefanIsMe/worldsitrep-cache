@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-11-21T11:41:04.766Z",
+  "collectedAt": "2026-11-21T14:53:23.438Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 263,
+  "coarseGdeltDropped": 253,
   "outsideTheatreDropped": 2,
   "proposals": [
     {
@@ -15,18 +15,23 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 612,
+      "eventCount": 574,
       "kinds": {
-        "other": 382,
-        "combat": 195,
-        "strike": 35
+        "other": 359,
+        "combat": 186,
+        "strike": 29
       },
       "tierCounts": {
-        "approximate": 612
+        "approximate": 574
       },
-      "combatCount": 230,
-      "newestIsoDate": "2026-11-21T09:58:00.000Z",
+      "combatCount": 215,
+      "newestIsoDate": "2026-11-21T14:10:00.000Z",
       "samples": [
+        {
+          "id": "news-1xehrtx",
+          "isoDate": "2026-11-21T14:10:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/90465"
+        },
         {
           "id": "news-nb5yxl",
           "isoDate": "2026-11-21T09:58:00.000Z",
@@ -34,20 +39,55 @@
         },
         {
           "id": "news-1qeclgc",
-          "isoDate": "2026-11-21T09:33:45.000Z",
+          "isoDate": "2026-11-21T09:41:22.000Z",
           "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xXzJnSkZOUDZFQlF6amdyTkpNWmpxY1loa3Y5OFhhRFlONmctUkQ2enFpYkktVzdkUEFUNnppd3Fud2VTYVR3SGMtUQ?oc=5"
-        },
-        {
-          "id": "news-1wqflez",
-          "isoDate": "2026-11-21T09:15:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4187081-russian-forces-strike-civilian-and-energy-infrastructure-in-zhytomyr-region-two-people-injured.html"
         }
       ],
       "centroid": {
-        "lat": 50.3336,
-        "lng": 29.4213
+        "lat": 50.3348,
+        "lng": 29.4824
       },
       "radiusKm": 80
+    },
+    {
+      "zoneId": "occ-crimea",
+      "region": "Crimea",
+      "center": {
+        "lat": 45.3453,
+        "lng": 34.4997
+      },
+      "eventCount": 61,
+      "kinds": {
+        "other": 44,
+        "combat": 17
+      },
+      "tierCounts": {
+        "approximate": 61
+      },
+      "combatCount": 17,
+      "newestIsoDate": "2026-11-21T13:39:09.000Z",
+      "samples": [
+        {
+          "id": "news-1b1sg2s",
+          "isoDate": "2026-11-21T13:39:09.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNelJtQndCTmRzbmlNNEpiV2lHdlg0VXE4VUZVS2dzNVFhZVVxMEFLNWJkNTVERUZMeGNOWVI0NVFFUVRkb2U2NzEtUWpLNWprMjh2MFREWlRsSU1EcHZPMGpnQ0h5enA2eUZvbE1oS25GZDB5dm1KUFRab1BsYi1lc2U5OFRVZVJnVmxIeDUxZEhBbm1wcUprS0RoU3d4aG84ejlzY0dpY0ZUM1pVbEh0ZzVlZFZBSWl0aUMxckc4WEFIZkJKLUVkenowWUViQi1rMWgw?oc=5"
+        },
+        {
+          "id": "news-1xehv2g",
+          "isoDate": "2026-11-21T13:27:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/90819"
+        },
+        {
+          "id": "news-1eotbfg",
+          "isoDate": "2026-11-21T12:28:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4187137-zelensky-russia-attacked-ukrainian-bridges-109-times-before-ukraine-struck-kerch-bridge.html"
+        }
+      ],
+      "centroid": {
+        "lat": 45.2103,
+        "lng": 34.3715
+      },
+      "radiusKm": 43.2
     },
     {
       "zoneId": "occ-kherson",
@@ -56,16 +96,16 @@
         "lat": 46.6354,
         "lng": 32.6169
       },
-      "eventCount": 62,
+      "eventCount": 58,
       "kinds": {
         "other": 37,
-        "combat": 18,
-        "strike": 7
+        "combat": 16,
+        "strike": 5
       },
       "tierCounts": {
-        "approximate": 62
+        "approximate": 58
       },
-      "combatCount": 25,
+      "combatCount": 21,
       "newestIsoDate": "2026-11-21T09:35:00.000Z",
       "samples": [
         {
@@ -85,50 +125,10 @@
         }
       ],
       "centroid": {
-        "lat": 47.1016,
-        "lng": 32.5935
+        "lat": 46.9901,
+        "lng": 32.5317
       },
       "radiusKm": 80
-    },
-    {
-      "zoneId": "occ-crimea",
-      "region": "Crimea",
-      "center": {
-        "lat": 45.3453,
-        "lng": 34.4997
-      },
-      "eventCount": 55,
-      "kinds": {
-        "other": 40,
-        "combat": 15
-      },
-      "tierCounts": {
-        "approximate": 55
-      },
-      "combatCount": 15,
-      "newestIsoDate": "2026-11-21T11:33:19.000Z",
-      "samples": [
-        {
-          "id": "news-13atcjt",
-          "isoDate": "2026-11-21T11:33:19.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xM0daSHhYdUNuNHBSWnJ6R1dzWTZ6SExuWnVHQVFXWTJCYTE0cm1aeEg0SExEZXk2RV9veXBNdTRCNERfV3Nydzc3VQ?oc=5"
-        },
-        {
-          "id": "news-pivl9u",
-          "isoDate": "2026-11-21T11:33:08.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/general/1240256.html"
-        },
-        {
-          "id": "news-1xehv27",
-          "isoDate": "2026-11-21T11:31:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/90810"
-        }
-      ],
-      "centroid": {
-        "lat": 45.2019,
-        "lng": 34.3831
-      },
-      "radiusKm": 39.9
     },
     {
       "zoneId": "occ-kharkiv",
@@ -137,16 +137,16 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 44,
+      "eventCount": 53,
       "kinds": {
-        "other": 20,
-        "strike": 9,
-        "combat": 15
+        "other": 22,
+        "strike": 10,
+        "combat": 21
       },
       "tierCounts": {
-        "approximate": 44
+        "approximate": 53
       },
-      "combatCount": 24,
+      "combatCount": 31,
       "newestIsoDate": "2026-11-21T08:02:00.000Z",
       "samples": [
         {
@@ -166,8 +166,8 @@
         }
       ],
       "centroid": {
-        "lat": 49.9782,
-        "lng": 36.2713
+        "lat": 49.9787,
+        "lng": 36.2682
       },
       "radiusKm": 15
     },
@@ -178,13 +178,13 @@
         "lat": 47.8,
         "lng": 37.5
       },
-      "eventCount": 38,
+      "eventCount": 37,
       "kinds": {
-        "other": 28,
+        "other": 27,
         "strike": 10
       },
       "tierCounts": {
-        "approximate": 38
+        "approximate": 37
       },
       "combatCount": 10,
       "newestIsoDate": "2026-11-21T07:51:00.000Z",
@@ -206,10 +206,10 @@
         }
       ],
       "centroid": {
-        "lat": 48.1335,
-        "lng": 37.0778
+        "lat": 48.1359,
+        "lng": 37.0866
       },
-      "radiusKm": 42.4
+      "radiusKm": 43
     },
     {
       "zoneId": "lib-snake",
@@ -218,15 +218,15 @@
         "lat": 45.2551,
         "lng": 30.2033
       },
-      "eventCount": 36,
+      "eventCount": 32,
       "kinds": {
-        "combat": 11,
-        "other": 25
+        "combat": 9,
+        "other": 23
       },
       "tierCounts": {
-        "approximate": 36
+        "approximate": 32
       },
-      "combatCount": 11,
+      "combatCount": 9,
       "newestIsoDate": "2026-11-21T00:00:00.000Z",
       "samples": [
         {
@@ -235,21 +235,62 @@
           "sourceUrl": "https://www.decaturdaily.com/news/other_news/international/ukraine-reports-russian-missile-blitz-after-putin-met-with-trump/article_2e07b990-3c80-4af5-bf53-60cb935f58a2.html"
         },
         {
-          "id": "news-1bhcyt8",
-          "isoDate": "2026-11-20T17:18:09.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQV1NueHV5ck92Z1VaY3BTQXlLak1OVzdxNm1BZkg4ZXYyckdrNi1ZOVgzTTFITGZYUWZBMzFVYU9zc0xHLThHVzZyWVgzaHJLWlRUQzROZ056WVVpcnRXaENPOHI4UzFuaVBCbkhPMGVpSjhBQldzNVNkdnlHWG5DMU5TMEQxemE4LUQycERYTTlKWFJCaFhDSDJITmJmdHliVXBSeDBSdm9uRzYwYTBwVkY4VUJyN3F2WHhHdnlrT2dDWlVMVmZvbFB6YWNDZzl6T0JmMQ?oc=5"
+          "id": "gdelt-1334362082",
+          "isoDate": "2026-11-21T00:00:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/90819"
         },
         {
-          "id": "news-12eflch",
-          "isoDate": "2026-11-20T12:31:16.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1nLVRtSmtxYU5sWE9FOGRzcW1qaklZTXh4dHR3c3VET0hHWWpVUjNxRUFOZXNFbUpLc2lQZVpvNkY1M2tWTTBhNmM4WQ?oc=5"
+          "id": "gdelt-1334362469",
+          "isoDate": "2026-11-21T00:00:00.000Z",
+          "sourceUrl": "https://sana.sy/en/international/2360527/"
         }
       ],
       "centroid": {
-        "lat": 46.479,
-        "lng": 30.5098
+        "lat": 46.5033,
+        "lng": 30.4477
       },
-      "radiusKm": 31
+      "radiusKm": 38.3
+    },
+    {
+      "zoneId": "occ-zaporizhzhia",
+      "region": "Zaporizhzhia Oblast",
+      "center": {
+        "lat": 47,
+        "lng": 35.5
+      },
+      "eventCount": 31,
+      "kinds": {
+        "other": 19,
+        "strike": 3,
+        "combat": 9
+      },
+      "tierCounts": {
+        "approximate": 31
+      },
+      "combatCount": 12,
+      "newestIsoDate": "2026-11-21T13:53:01.000Z",
+      "samples": [
+        {
+          "id": "news-31yg23",
+          "isoDate": "2026-11-21T13:53:01.000Z",
+          "sourceUrl": "https://en.interfax.com.ua/news/general/1240312.html"
+        },
+        {
+          "id": "news-8kdnzh",
+          "isoDate": "2026-11-21T10:38:14.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9wdGh6YjE4ZERsU3VvQ29ZTFYxMU0wUGZZYjVhRmlJbGkzcDk0dDhYVWQzY1gxM1lpR2dDTG1EN2trelhaWmJqU2Fuaw?oc=5"
+        },
+        {
+          "id": "news-tw2ht7",
+          "isoDate": "2026-11-21T10:13:52.000Z",
+          "sourceUrl": "https://en.interfax.com.ua/news/general/1240222.html"
+        }
+      ],
+      "centroid": {
+        "lat": 48.1107,
+        "lng": 35.1332
+      },
+      "radiusKm": 42.5
     },
     {
       "zoneId": "occ-luhansk",
@@ -260,14 +301,13 @@
       },
       "eventCount": 28,
       "kinds": {
-        "other": 19,
-        "combat": 8,
-        "strike": 1
+        "other": 21,
+        "combat": 7
       },
       "tierCounts": {
         "approximate": 28
       },
-      "combatCount": 9,
+      "combatCount": 7,
       "newestIsoDate": "2026-11-21T10:28:00.000Z",
       "samples": [
         {
@@ -281,57 +321,55 @@
           "sourceUrl": "https://www.bankingnews.gr/diethni/articles/912449/russian-general-warns-putin-will-launch-shock-strike-within-48-hours-we-are-watching-you"
         },
         {
-          "id": "news-udtc0h",
-          "isoDate": "2026-11-20T17:48:44.000Z",
-          "sourceUrl": "https://kyivindependent.com/why-a-donbas-for-nato-deal-wont-work/"
+          "id": "gdelt-1334357812",
+          "isoDate": "2026-11-21T00:00:00.000Z",
+          "sourceUrl": "https://english.news.cn/20261121/8679d0a2fd0545608686915c846fb0e3/c.html"
         }
       ],
       "centroid": {
-        "lat": 48.5026,
-        "lng": 38.6894
+        "lat": 48.5098,
+        "lng": 38.7769
       },
-      "radiusKm": 23.8
+      "radiusKm": 29.1
     },
     {
-      "zoneId": "occ-zaporizhzhia",
-      "region": "Zaporizhzhia Oblast",
+      "zoneId": "lib-sumy",
+      "region": "Sumy Oblast",
       "center": {
-        "lat": 47,
-        "lng": 35.5
+        "lat": 50.9077,
+        "lng": 34.7981
       },
-      "eventCount": 28,
+      "eventCount": 9,
       "kinds": {
-        "other": 16,
-        "strike": 3,
-        "combat": 9
+        "other": 9
       },
       "tierCounts": {
-        "approximate": 28
+        "approximate": 9
       },
-      "combatCount": 12,
-      "newestIsoDate": "2026-11-21T10:13:52.000Z",
+      "combatCount": 0,
+      "newestIsoDate": "2026-11-21T14:32:00.000Z",
       "samples": [
         {
-          "id": "news-tw2ht7",
-          "isoDate": "2026-11-21T10:13:52.000Z",
-          "sourceUrl": "https://en.interfax.com.ua/news/general/1240222.html"
+          "id": "news-1hkxsku",
+          "isoDate": "2026-11-21T14:32:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4187177-russia-drone-crashes-on-grounds-of-industrial-enterprise-in-poltava-region.html"
         },
         {
-          "id": "news-1m0bk4z",
-          "isoDate": "2026-11-21T06:59:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4187053-russian-forces-attack-dnipropetrovsk-region-nearly-10-times-since-evening-two-killed-55-injured.html"
+          "id": "news-t10f0z",
+          "isoDate": "2026-11-21T13:52:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4187171-russian-drone-strikes-private-enterprise-in-poltava-region.html"
         },
         {
-          "id": "news-10xjbv4",
-          "isoDate": "2026-11-21T05:15:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4187032-kindergarten-hit-in-russian-attack-on-zaporizhzhia-man-injured.html"
+          "id": "news-1hzzg6e",
+          "isoDate": "2026-11-21T13:18:00.000Z",
+          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4187164-russian-drone-strikes-residential-area-in-poltava-region.html"
         }
       ],
       "centroid": {
-        "lat": 47.9709,
-        "lng": 35.2152
+        "lat": 50.6535,
+        "lng": 35.0256
       },
-      "radiusKm": 51.6
+      "radiusKm": 80
     },
     {
       "zoneId": "lib-chernihiv",
@@ -373,45 +411,6 @@
         "lng": 31.7948
       },
       "radiusKm": 35.4
-    },
-    {
-      "zoneId": "lib-sumy",
-      "region": "Sumy Oblast",
-      "center": {
-        "lat": 50.9077,
-        "lng": 34.7981
-      },
-      "eventCount": 5,
-      "kinds": {
-        "other": 5
-      },
-      "tierCounts": {
-        "approximate": 5
-      },
-      "combatCount": 0,
-      "newestIsoDate": "2026-11-21T07:36:00.000Z",
-      "samples": [
-        {
-          "id": "news-1rh57i8",
-          "isoDate": "2026-11-21T07:36:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4187056-russian-attacks-in-sumy-region-leaves-three-injured-over-past-day.html"
-        },
-        {
-          "id": "news-4pphf8",
-          "isoDate": "2026-11-20T11:05:06.000Z",
-          "sourceUrl": "https://kyivindependent.com/ukrainian-forces-strike-russian-elite-rubicon-drone-unit-deployment-site-in-russian-kursk-oblast/"
-        },
-        {
-          "id": "news-mp2pfd",
-          "isoDate": "2026-11-20T11:05:06.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbi0zWWVDMjJEd2t1SDJnNi1BUVJFQUszLWhpTzRCMU9oTEM2djZraHhVT3RSNGttUlhQdlIxSW9Qd191WExYLWlmVmlHaXdQWXh1aDFJVXRoM2x0eDA1Ym9IZl9ZVVBBcy02Zl9aeUk0OGFwN1RIV1hDOVc1YXJReTFrWE1fZVRrS2x1YUJfWHBveGxLVmpIb3F5enViSlFDbVBhaHAycFdIUnFEMDk0dmVjbGFvVTBBLUR4UEc1Rng4dlk?oc=5"
-        }
-      ],
-      "centroid": {
-        "lat": 51.2403,
-        "lng": 35.3561
-      },
-      "radiusKm": 63.7
     }
   ]
 }
