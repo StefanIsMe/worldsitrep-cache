@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-21T14:53:23.939Z",
+  "collectedAt": "2026-11-21T15:40:41.031Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 17
+      "count": 5
     },
     {
       "id": "aa-mali",
@@ -83,7 +83,7 @@
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 26,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 95,
+  "count": 100,
   "events": [
     {
       "id": "gdelt-1334295650",
@@ -745,6 +745,176 @@
         "quadClass": 4,
         "goldstein": -9,
         "tone": -7.38,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334371340",
+      "kind": "event",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T00:00:00.000Z",
+      "observedAt": "2026-11-21T15:30:00.000Z",
+      "description": "Assault — Farmer → Unspecified near Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Farmer",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.vanguardngr.com/2026/11/military-%E2%81%A0%E2%81%A0%E2%81%A0%E2%81%A0kills-21-iswap-fight/",
+      "gdelt": {
+        "globalEventId": "1334371340",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -7.58,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334371342",
+      "kind": "event",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T00:00:00.000Z",
+      "observedAt": "2026-11-21T15:30:00.000Z",
+      "description": "Assault — Farmer → Niger near Niger. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 181)",
+      "actor": "Farmer",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.vanguardngr.com/2026/11/military-%E2%81%A0%E2%81%A0%E2%81%A0%E2%81%A0kills-21-iswap-fight/",
+      "gdelt": {
+        "globalEventId": "1334371342",
+        "eventCode": "181",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -7.58,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334371613",
+      "kind": "event",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T00:00:00.000Z",
+      "observedAt": "2026-11-21T15:30:00.000Z",
+      "description": "Rejection — Government → Unspecified near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/horror-in-niger-as-bandits-invade-community-behead-village-head-burn-his-household/",
+      "gdelt": {
+        "globalEventId": "1334371613",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -7.03,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334371999",
+      "kind": "event",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T00:00:00.000Z",
+      "observedAt": "2026-11-21T15:30:00.000Z",
+      "description": "Fight — Worshipper → Unspecified near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16,
+      "lng": 8,
+      "action": "Fight (GDELT 190)",
+      "actor": "Worshipper",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/horror-in-niger-as-bandits-invade-community-behead-village-head-burn-his-household/",
+      "gdelt": {
+        "globalEventId": "1334371999",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -7.03,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334372258",
+      "kind": "event",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T00:00:00.000Z",
+      "observedAt": "2026-11-21T15:30:00.000Z",
+      "description": "Fight — Fulani → Government near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 16,
+      "lng": 8,
+      "action": "Fight (GDELT 190)",
+      "actor": "Fulani",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thesun.ng/horror-in-niger-as-bandits-invade-community-behead-village-head-burn-his-household/",
+      "gdelt": {
+        "globalEventId": "1334372258",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -7.03,
         "mentions": 10,
         "sources": 1
       }
