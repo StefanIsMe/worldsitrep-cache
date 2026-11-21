@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-11-21T20:49:33.045Z",
+  "collectedAt": "2026-11-21T21:14:19.025Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 99
+      "count": 13
     },
     {
       "id": "rci-arctic",
@@ -55,7 +55,7 @@
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 23,
       "filtered": 0
     },
     {
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 654,
+  "count": 655,
   "events": [
     {
       "id": "news-7o3tjf",
@@ -6790,6 +6790,40 @@
         "goldstein": -2,
         "tone": -2.95,
         "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334399566",
+      "kind": "event",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T00:00:00.000Z",
+      "observedAt": "2026-11-21T21:00:00.000Z",
+      "description": "Fight — Worker → Sweden near Sweden. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 62,
+      "lng": 15,
+      "action": "Fight (GDELT 192)",
+      "actor": "Worker",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Sweden",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.stockandland.com.au/story/9394823/restored-birchip-cottage-tackles-housing-for-harvest-workers/",
+      "gdelt": {
+        "globalEventId": "1334399566",
+        "eventCode": "192",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": 3.73,
+        "mentions": 2,
         "sources": 1
       }
     },
