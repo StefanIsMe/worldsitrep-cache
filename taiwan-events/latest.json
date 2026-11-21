@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-21T06:17:03.109Z",
+  "collectedAt": "2026-11-21T07:46:15.902Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 8
+      "count": 1
     },
     {
       "id": "taipei-times",
@@ -34,8 +34,8 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 26,
-      "filtered": 24
+      "count": 27,
+      "filtered": 23
     },
     {
       "id": "dw-asia",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 14,
-      "filtered": 36
+      "count": 12,
+      "filtered": 38
     },
     {
       "id": "gnews-arms",
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 279,
+  "count": 280,
   "events": [
+    {
+      "id": "news-i9wqjw",
+      "kind": "news",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T07:17:15.000Z",
+      "description": "Xi, Trump agree military AI decisions must involve humans, Bessent says (SCMP, 2026-11-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3375321/xi-trump-agree-military-ai-decisions-must-involve-humans-bessent-says"
+    },
     {
       "id": "news-v0za1t",
       "kind": "news",
@@ -427,6 +446,40 @@
         "goldstein": -4,
         "tone": -0.09,
         "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334323315",
+      "kind": "event",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T00:00:00.000Z",
+      "observedAt": "2026-11-21T06:30:00.000Z",
+      "description": "Disapproval — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/from-streamers-to-car-sweeps-taipei-mayoral-candidates-pull-out-all-stops-to-sway-voters",
+      "gdelt": {
+        "globalEventId": "1334323315",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 2.41,
+        "mentions": 4,
         "sources": 1
       }
     },
@@ -7877,25 +7930,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/opinion/china-opinion/article/3374572/chinas-local-officials-feel-financial-stick-long-seeing-carrot"
-    },
-    {
-      "id": "news-jvn88q",
-      "kind": "news",
-      "date": "2026-11-18",
-      "isoDate": "2026-11-18T07:45:05.000Z",
-      "description": "Chinese spaceplanes’ global reach, a study on erectile dysfunction: 7 science highlights (SCMP, 2026-11-18. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/science/article/3374870/chinese-spaceplanes-global-reach-study-erectile-dysfunction-7-science-highlights"
     }
   ]
 }
