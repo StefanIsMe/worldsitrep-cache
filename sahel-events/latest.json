@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-21T15:40:41.031Z",
+  "collectedAt": "2026-11-21T20:49:33.045Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 5
+      "count": 2
     },
     {
       "id": "aa-mali",
@@ -83,14 +83,14 @@
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 26,
       "filtered": 0
     },
     {
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 10,
+      "count": 9,
       "filtered": 0
     },
     {
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 100,
+  "count": 102,
   "events": [
     {
       "id": "gdelt-1334295650",
@@ -915,6 +915,74 @@
         "quadClass": 4,
         "goldstein": -10,
         "tone": -7.03,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334390327",
+      "kind": "event",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T00:00:00.000Z",
+      "observedAt": "2026-11-21T19:00:00.000Z",
+      "description": "Disapproval — Sudan → Malawi near Niger. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Sudan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://malawi24.com/2026/11/21/malawis-filling-stations-rebrand-as-overnight-campgrounds/",
+      "gdelt": {
+        "globalEventId": "1334390327",
+        "eventCode": "112",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -11.56,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334394706",
+      "kind": "event",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T00:00:00.000Z",
+      "observedAt": "2026-11-21T20:00:00.000Z",
+      "description": "Threat — Niger → Unspecified near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Threat (GDELT 130)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://newnigerianpolitics.com/why-it-was-easy-for-me-to-concede-to-buhari-jonathan/",
+      "gdelt": {
+        "globalEventId": "1334394706",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 2.09,
         "mentions": 10,
         "sources": 1
       }
