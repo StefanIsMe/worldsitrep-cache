@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-22T16:59:05.124Z",
+  "collectedAt": "2026-11-22T17:26:27.073Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 26
+      "count": 3
     },
     {
       "id": "gcaptain",
@@ -26,16 +26,16 @@
     {
       "id": "gnews-houthis",
       "url": "https://news.google.com/rss/search?q=Houthis%20Yemen%20Red%20Sea&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-houthis request failed with HTTP 429"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-shipping",
       "url": "https://news.google.com/rss/search?q=Red%20Sea%20shipping%20Houthi%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-shipping request failed with HTTP 429"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "splash247",
@@ -62,7 +62,7 @@
       "id": "gnews-hodeidah",
       "url": "https://news.google.com/rss/search?q=Hodeidah%20Sanaa%20airstrike%20Houthi&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 49,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -80,8 +80,65 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 379,
+  "count": 383,
   "events": [
+    {
+      "id": "news-1d9fi1o",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T16:59:21.000Z",
+      "description": "Yemen's Houthis say they attacked Saudi Rabigh oil refinery - Deccan Herald (Deccan Herald, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Deccan Herald",
+      "axis": "Other",
+      "tags": [
+        "Deccan Herald",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Deccan Herald",
+      "source": "Deccan Herald",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVzF4VE1NOHdxUVo5QWk1V2dJZ0ZZU1Z6YUhxMVJFVU9ZN3B6RXV0cWR4Q2hsT243eHBFa0JQTFQ3bWpTLWhsendGSk5uM1FYalVweHc3eGlwWDhSVFNJdTV6emVpaGlFS1c1Uy1ZdmJRMXdNV1lrcGlFTjhWZEhmWnVRWlQ1QkhyYUhuSEk4NndXMms1clduSXk4TlFac29lNXl3RFJUYjZzV0ZpbFE?oc=5"
+    },
+    {
+      "id": "news-1sz5t78",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T16:56:16.000Z",
+      "description": "Airstrikes, Houthi Drone Attack Kill 5, Injure 18 Across Yemen: Sources - Ommcom News (Ommcom News, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Ommcom News",
+      "axis": "Other",
+      "tags": [
+        "Ommcom News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Ommcom News",
+      "source": "Ommcom News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMkJEVHQ0OXkyQmVWZmVOWEoxNzU0bXVHYm9DdW1DeWx5dll6UU5lTWJJOWJibzhXaWlXbkZOcldFNE9WajZLeEpmNWhBUmxrOTIxelFDOWJNVjBVcGlvZzVnSkg3NlY3b1RHVlBCWmJlSWFOOER6dDV5MnRYS2lGS0ZoZjdaNnhsb3hvSE1BVFdjM2xsSGswcmQxY002X0o5dy1LQ1NR?oc=5"
+    },
+    {
+      "id": "news-163tsef",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T16:38:33.000Z",
+      "description": "Russian vessel docked in Libya hit in suspected drone attack, authorities say - CNN (CNN, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "CNN",
+      "axis": "Other",
+      "tags": [
+        "CNN",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "CNN",
+      "source": "CNN",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOamhUZkJwenh5LXdfUnM3WDZZZTNMak93ZWhPTzNUXzBoQlhJMlNXdUdWemVYdFRHVGxCVE8wNEZlT1czaElmQ2JuZ05JV1VfNVVsZzZEMFNpcEc0MEk2YUY2UTByeFRxWTZUWFh0UEt5WlA5WE1SZzIzLWVjUGszQWZIcDhPSkRrUlBsUzRJMA?oc=5"
+    },
     {
       "id": "news-lbzrld",
       "kind": "news",
@@ -121,6 +178,67 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41cFpHQ1c5UGkxOHAtM0l0YU9jQ0F5bVliLVRCV3oyV21LT0ZyVTZaYlRob01BRzVMc2tOS1NDOVE3THlvSXBkY3RhUXlsLWxsQlg0b1puZHpWY01rU3VR?oc=5"
     },
     {
+      "id": "news-17rqy8t",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T14:22:00.000Z",
+      "description": "Russian cargo ship set ablaze in Baltic Sea drifts into Gulf of Finland - The Hill (The Hill, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVkpmQ3o4M2k5b2FtWjhaMGhUVUJVWUhtMm1vaEUzQjN4NWxzYzZBTWN5ZDVabWNsQ1BJNXNFc0FZTnNBVTA3M0RzNjdHbVdrcnFGZldYMU01WXlrSm5WNHdndWVfcVBsYUVmM2s5aDNpSF9FQkR5cFg2dmJoNnQwY0padUxmZ25n0gGOAUFVX3lxTE94OE9mM29yWWozQkVaV0lSZ2o0Q0VTSHl0bm5sU29VRkFvSm9HRVBfaU5IYTN5aGtCZUV6Y0NvZU10RUU2MDhONVhMWDJYQlBzZVNmSzF0Y21OV3JGZVJCRHh3allRQ25Yd2syT0M3TVdfeTdHNnNwNU5WNXVaRU1xckgzc3pwdkxSbkwxUUE?oc=5"
+    },
+    {
+      "id": "news-1oc7xgk",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T14:09:45.000Z",
+      "description": "Yemen Warns of Growing Houthi Threat, Iranian Interference - ASHARQ AL-AWSAT English (ASHARQ AL-AWSAT English, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ASHARQ AL-AWSAT English",
+      "axis": "Other",
+      "tags": [
+        "ASHARQ AL-AWSAT English",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "ASHARQ AL-AWSAT English",
+      "source": "ASHARQ AL-AWSAT English",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT2xDc0Y5ak9nZHRkZFUyLTRTUE9LSGg5aFNIUVBQenlxNm85SUtpOVBUOXUxd1RTbE5ZWUxlOW5yaEhpcFBWd3hIeXZ4LVV1N0xfSTdSZUk1d0N3azhUWDNCaVVLTUNjRGdUbnd5UjV6Vk82MDEzTk5NSjNuYkdrY3NBSXlDaHlyU1dHSGRHZXg1d3BNaEVYc3czTlV0ZjhMeHc?oc=5"
+    },
+    {
+      "id": "news-90mqwi",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T13:17:16.000Z",
+      "description": "Saudi Arabia intercepts drone, missile as Houthis report attack on Sanaa - Al Jazeera (Al Jazeera, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Sanaa",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcndOTTl3bzZwNVZ4ZWstZXBZdnVkbUhPanQ5VlhUVEJaSTRVdnc1YzVUdEhEd2M0QXdFVGxzRFVLeThYd0FfaGEzMnQzbWIzemFuZzRqSGJCQ2M5LVBzV0dadVlwUXpXR1hfMTllR2NsWmNuRnk4RmRSVVlraElfS3NjNFlJa0FWTGNRRS1XQTFxM3JoTVRYZEluNkVJUXZSdk1TSmFfWUfSAa4BQVVfeXFMTmplOTVHYzVsandyeWw3aS1QcWJiLWt5NXNnWHhYazFVV1pMZmdWdFdIdWxYSTRXNDJkWlYxdXJpOW1scUJTVUxJOWlqbDVST3VZcmR4U2RSdXVpc3NZczU2RVlZc0Jrd3BFcVQ3djE0TldnZk9KWi1ybXlwM0Ryb2NvWmJCRFZOX19xd0JDT2xPQy1VSDZBQ283ZUF1Z3JRaTRJd0VoYzF1SXVDdktn?oc=5",
+      "lat": 15.35,
+      "lng": 44.21,
+      "coordsNote": "Headline gazetteer match: \"Sanaa\" (city); verify via source article."
+    },
+    {
       "id": "news-u7bak2",
       "kind": "news",
       "date": "2026-11-22",
@@ -138,25 +256,6 @@
       "locationStr": "Yahoo",
       "source": "Yahoo",
       "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMVM2bjRLSXRQWGMxa3dubGNPRTY0TUJyT3lzd3ZpeUpMa1MyNUdfOWFXajVTV2FHdHA0MFp2MFFRZUlZeVVKMGVIT0E1U09ocjVDV3hUakFOSmpCODZCT1lSalBzN2p3VGVCRENXekZRYWowN293ekIwaUFfOC1TYW4yS0NtbnhxRW5ueVY0UU54dw?oc=5"
-    },
-    {
-      "id": "news-1oc7xgk",
-      "kind": "news",
-      "date": "2026-11-22",
-      "isoDate": "2026-11-22T08:47:20.000Z",
-      "description": "Yemen Warns of Growing Houthi Threat, Iranian Interference - ASHARQ AL-AWSAT English (ASHARQ AL-AWSAT English, 2026-11-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ASHARQ AL-AWSAT English",
-      "axis": "Other",
-      "tags": [
-        "ASHARQ AL-AWSAT English",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ASHARQ AL-AWSAT English",
-      "source": "ASHARQ AL-AWSAT English",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT2xDc0Y5ak9nZHRkZFUyLTRTUE9LSGg5aFNIUVBQenlxNm85SUtpOVBUOXUxd1RTbE5ZWUxlOW5yaEhpcFBWd3hIeXZ4LVV1N0xfSTdSZUk1d0N3azhUWDNCaVVLTUNjRGdUbnd5UjV6Vk82MDEzTk5NSjNuYkdrY3NBSXlDaHlyU1dHSGRHZXg1d3BNaEVYc3czTlV0ZjhMeHc?oc=5"
     },
     {
       "id": "news-snj01a",
@@ -2386,6 +2485,29 @@
       "lat": 14.8,
       "lng": 42.95,
       "coordsNote": "Headline gazetteer match: \"Hodeidah\" (city); verify via source article."
+    },
+    {
+      "id": "news-ge5p6f",
+      "kind": "news",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T05:40:01.000Z",
+      "description": "Yemen’s Houthis launch strikes on Riyadh after Saudi coalition ‘special operation’ - South China Morning Post (South China Morning Post, 2026-11-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "South China Morning Post",
+      "axis": "Other",
+      "tags": [
+        "South China Morning Post",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Riyadh",
+      "source": "South China Morning Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaUJrTmg4MkdlNHpKekZYeDliYWxKQUw0NlhaRUZhajQxMXloUnB4R0VqUzhSeEhSM2d6VXZ4QXhQbS1BbVpJN0ZTc3ZNb0hMbnp4cWdqaFBRV3dteUYtbGN5Y1Q4Y0xUM3J6a1ljZzRxTFNTWUNfbmk2WW9JWVV4cWZueUJXWjZHTVNjVXVnREVuTUxHQy1PZjRKQlBib2ltOV8wenpuVkFqX3F4ZzN5cXpXbnFYYkY3dUpuRmF5c1J4ZXlSSjNINDczeTlsRmJ1YnfSAdIBQVVfeXFMT3hVZUtNQnZnMWxNd2FMek5KU1llRkVaUUhodTgweE5MdnREYUFiNExZRnRIQndac1A1NFZhR1VCMTFWTE96Y0RZMGNZRjhCeGZEQXVaOWpPMXRYU05hVHJhYTNLdUpDQjJodW1BRUZ3Y2w5QVN0U1RsN010QWdZQXk5LTR5d3VqTUVubzE4NDM1RlpkbnhYTUZ5Nkw0emhRZE5TU3JGSFl3Z0FYMU5vcXJEdHpyTE1VUUpJT2h1YW4tY0lrVWxqeWhla2VhbUEtR0VR?oc=5",
+      "lat": 14.11962,
+      "lng": 46.93065,
+      "coordsNote": "OSM geocode: matched \"Riyadh\" → Ar Riyadh, Al Mahfad District, Abyan Governorate; © OpenStreetMap contributors."
     },
     {
       "id": "news-geh2t1",
@@ -5983,25 +6105,6 @@
       "coordsNote": "Headline gazetteer match: \"Hodeidah\" (city); verify via source article."
     },
     {
-      "id": "news-1ec0u89",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T22:53:58.000Z",
-      "description": "Trump says Iran wants a deal, Saudi Arabia and Yemen’s Houthis exchange fire and other Mideast news - NewsNation (NewsNation, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NewsNation",
-      "axis": "Other",
-      "tags": [
-        "NewsNation",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NewsNation",
-      "source": "NewsNation",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSmdIeDliclRrMlVtdlNwOXgxY0pfUTZ5T01acmRqaUZ5OVNlMVNGY0F5NFdCT3k2OFdtQVMwVXU3QldBbk1TVkdpc1cxMml5bVhwTlo3NmQ1V3lfU19DbUVLTGc1NFphdGRPMDR2SmRHcmktVnZSQmQ2OF9OTkhDeGRJR3QxdUMxWlUyTW5oVzRNbnVwRlJfbUpjaDFFV0NtZFZyRS1yMXA2WVVZejZocXpJYW5HSmZIX1JBRENzdmN2d9IBxwFBVV95cUxQZVRmYXZWR3lnWFVGX0w4dFlMLVVLMWVVLWVPNno5eEpWY0FDbkZFZ0ZTX0JFVXBWU3ZiSnhqRkVkZnlWMkZuNzN6ampFTjZlNXNJTlFtdTJEQlZ1NEgxUGlnWkEzdW14SXFSZGVHOHdaOUFZdWo5N1NEVXo5MWJ4UmdJSThRV3lPWEktQWhxekpjSHJmTGpselpoellKTkRNWlE3Q1h6WUIwNTJlU01zUTFMc2N4Yi1JTkFGdklmOWFrSEp4XzZJ?oc=5"
-    },
-    {
       "id": "news-spp1w6",
       "kind": "news",
       "date": "2026-11-20",
@@ -6061,6 +6164,25 @@
       "lat": 16.34712,
       "lng": 47.89153,
       "coordsNote": "OSM geocode: matched \"Yemeni\" → Yemen; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-1ec0u89",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T20:47:46.000Z",
+      "description": "Trump says Iran wants a deal, Saudi Arabia and Yemen’s Houthis exchange fire and other Mideast news - NewsNation (NewsNation, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NewsNation",
+      "axis": "Other",
+      "tags": [
+        "NewsNation",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NewsNation",
+      "source": "NewsNation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSmdIeDliclRrMlVtdlNwOXgxY0pfUTZ5T01acmRqaUZ5OVNlMVNGY0F5NFdCT3k2OFdtQVMwVXU3QldBbk1TVkdpc1cxMml5bVhwTlo3NmQ1V3lfU19DbUVLTGc1NFphdGRPMDR2SmRHcmktVnZSQmQ2OF9OTkhDeGRJR3QxdUMxWlUyTW5oVzRNbnVwRlJfbUpjaDFFV0NtZFZyRS1yMXA2WVVZejZocXpJYW5HSmZIX1JBRENzdmN2d9IBxwFBVV95cUxQZVRmYXZWR3lnWFVGX0w4dFlMLVVLMWVVLWVPNno5eEpWY0FDbkZFZ0ZTX0JFVXBWU3ZiSnhqRkVkZnlWMkZuNzN6ampFTjZlNXNJTlFtdTJEQlZ1NEgxUGlnWkEzdW14SXFSZGVHOHdaOUFZdWo5N1NEVXo5MWJ4UmdJSThRV3lPWEktQWhxekpjSHJmTGpselpoellKTkRNWlE3Q1h6WUIwNTJlU01zUTFMc2N4Yi1JTkFGdklmOWFrSEp4XzZJ?oc=5"
     },
     {
       "id": "news-17vcd1v",
@@ -11601,44 +11723,6 @@
       "locationStr": "Al Jazeera",
       "source": "Al Jazeera",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN2dSRXcyNzdIa2VEZW4zd1NlS2pyb2gwaTkzVUw1aDQ5VDVsdjJDeFJfekYtekhlNFgzRHE0VnNxVXN6dC1ZNUoxaXA1SDZ5VW9QLUl2REU0d3VDdEpFSXNCWDJIaWZtMUJKanU4amNhWExFY29pZzE0RXpnQmVhbFQySl90STgxdkFzTzllTkNUYnBlWWhGSXdOaWRmS0hQUVFVZkw5S0dNbXpZSXpBd184Yll6QdIBuwFBVV95cUxQYmoxb3ZGV0R2YVcycm1LM3phc2FRaWJoTXhMc19TVjhISWJ1ZERTNE9Ra2Exbjg3QjNuZEJMcGltNWZ6Y2N2cHJ4bUcxcWw0aU04Y1RPV3l4dEh6cXVLRDlxSGJubGloeGVSbGZrUTRJcjk2YlRiWGVTT1Znb19xdmgyYlZHYVZua2NvcXlfNW1TdHJ3YmhEOHRzOVpKMkpObTh4Qkw3RUp5OHBlMDRIZ1ZYTVo0X1dxa2s0?oc=5"
-    },
-    {
-      "id": "news-stm8zw",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T17:26:25.000Z",
-      "description": "Iran Intensifies Hormuz Tanker Attacks Just as Oil Prices Slide (gCaptain, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "gCaptain",
-      "axis": "Other",
-      "tags": [
-        "gCaptain",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "gCaptain",
-      "source": "gCaptain",
-      "sourceUrl": "https://gcaptain.com/iran-intensifies-hormuz-tanker-attacks-just-as-oil-prices-slide/"
-    },
-    {
-      "id": "news-1omjh1a",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T17:07:50.000Z",
-      "description": "Hanwha Philly Shipyard Begins Construction of First of Four Jones Act Tankers (gCaptain, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "gCaptain",
-      "axis": "Other",
-      "tags": [
-        "gCaptain",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "gCaptain",
-      "source": "gCaptain",
-      "sourceUrl": "https://gcaptain.com/hanwha-philly-shipyard-begins-construction-of-first-of-four-jones-act-tankers/"
     }
   ]
 }

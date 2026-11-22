@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "korea",
-  "collectedAt": "2026-11-22T16:59:05.124Z",
+  "collectedAt": "2026-11-22T17:26:27.073Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 25
+      "count": 1
     },
     {
       "id": "yna-nk",
@@ -68,9 +68,9 @@
     {
       "id": "gnews-missile",
       "url": "https://news.google.com/rss/search?q=North%20Korea%20missile%20launch&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-missile request failed with HTTP 429"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-nkru",
@@ -94,8 +94,46 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 391,
+  "count": 390,
   "events": [
+    {
+      "id": "news-1ue6yk6",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T17:18:30.000Z",
+      "description": "New Satellite Photos Show Expansion of North Korean Uranium-Enrichment Plant - WSJ (WSJ, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSJ",
+      "axis": "Other",
+      "tags": [
+        "WSJ",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WSJ",
+      "source": "WSJ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcGM3SEI3NjBHTkRmZGJaLTJFVldMYzJyUDI4emU5bDZLQl9yS1NtN3VRajVYU1VkYVlFSkRyUVVrenZCUXRZV3NFX3d2cmhHa3JRZ3A2bVdaR25KMU05MjJkSUoyQU1TOWk2enVhRmhNUjJvZFQ2M2FvQnNJbXZUc3NFMFh3ZDRieDJaZlN0dXVhZ09wMUhrQUJtMEdlUWp3N0NJd1FHaHYwUFNRR09PbjJtRmQtbWs?oc=5"
+    },
+    {
+      "id": "news-15vrij1",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T16:22:52.000Z",
+      "description": "How Kim Jong Un Gets Away With Building Nukes and Ghosting Trump - WSJ (WSJ, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSJ",
+      "axis": "Other",
+      "tags": [
+        "WSJ",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WSJ",
+      "source": "WSJ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hWHMyLURHX3hOZjhTbW5pRC0zWTduOWJpQS1hME9uSGhoZkF2MTFTcFZjYXhzejVkWTlmaWNHWjAyNURsTFJLcEFBdEk0UDhuRnJQT1BWOWQwMjl3VVcyT0NWTS1ORm1HVVQ0ZHk1OWVGZTlyVjVCSA?oc=5"
+    },
     {
       "id": "news-898bnz",
       "kind": "news",
@@ -627,25 +665,6 @@
       "locationStr": "Yonhap",
       "source": "Yonhap",
       "sourceUrl": "https://en.yna.co.kr/view/AEN20261122000500320"
-    },
-    {
-      "id": "news-15vrij1",
-      "kind": "news",
-      "date": "2026-11-22",
-      "isoDate": "2026-11-22T02:00:00.000Z",
-      "description": "How Kim Jong Un Gets Away With Building Nukes and Ghosting Trump - WSJ (WSJ, 2026-11-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "WSJ",
-      "axis": "Other",
-      "tags": [
-        "WSJ",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "WSJ",
-      "source": "WSJ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hWHMyLURHX3hOZjhTbW5pRC0zWTduOWJpQS1hME9uSGhoZkF2MTFTcFZjYXhzejVkWTlmaWNHWjAyNURsTFJLcEFBdEk0UDhuRnJQT1BWOWQwMjl3VVcyT0NWTS1ORm1HVVQ0ZHk1OWVGZTlyVjVCSA?oc=5"
     },
     {
       "id": "gdelt-1334421205",
@@ -4641,25 +4660,6 @@
       "locationStr": "DW.com",
       "source": "DW.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZjd1VEIzM051eUFBbjQtOHdaa3ZRSVFwWFd4MHFRWUhtX1hIWFltcVM0MnhFLVhxbzdSSXR5Rk9pS2hqZmpUclNkaVREOUFPS1VPSUpkd1htNlFVcnV2aEM4ak9jZjJHZkVhb05aNWdJQmFlblBJMVcyTkQwZnA5M1BHZXFtOTBzNXhhRy1CRG1EdWoyZWUzZnRKVEJ0QdIBngFBVV95cUxOcVdlQ0JjUUxVVHppMENVN2xfUkYwYzVDcFNiakw0ZzdfTlo5MDZacGt0Zk4yVUMyck9USXRraXlKRkltMEltYzJQQTVWVjQ4bmpPMUJQbVItUFVNeWhzcG5HWFUtOUNvVm0weDdudVQtTElVMjMtcVdVOGxCSkg1WGU4b1pSb3VNT2NKMmRMdll5QzRXeWJhTjNtRTJxQQ?oc=5"
-    },
-    {
-      "id": "news-1ue6yk6",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T20:16:00.000Z",
-      "description": "New Satellite Photos Show Expansion of North Korean Uranium-Enrichment Plant - WSJ (WSJ, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "WSJ",
-      "axis": "Other",
-      "tags": [
-        "WSJ",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "WSJ",
-      "source": "WSJ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcGM3SEI3NjBHTkRmZGJaLTJFVldMYzJyUDI4emU5bDZLQl9yS1NtN3VRajVYU1VkYVlFSkRyUVVrenZCUXRZV3NFX3d2cmhHa3JRZ3A2bVdaR25KMU05MjJkSUoyQU1TOWk2enVhRmhNUjJvZFQ2M2FvQnNJbXZUc3NFMFh3ZDRieDJaZlN0dXVhZ09wMUhrQUJtMEdlUWp3N0NJd1FHaHYwUFNRR09PbjJtRmQtbWs?oc=5"
     },
     {
       "id": "news-17o9i6h",
@@ -11590,25 +11590,6 @@
       "locationStr": "The Diplomat",
       "source": "The Diplomat",
       "sourceUrl": "https://thediplomat.com/2026/11/south-koreas-coal-use-is-surging-and-not-just-because-of-the-iran-war/"
-    },
-    {
-      "id": "news-dlii05",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T17:14:39.000Z",
-      "description": "North Korea Expanded Uranium Enrichment Facility in Yongbyon - Militarnyi (Militarnyi, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Militarnyi",
-      "axis": "Other",
-      "tags": [
-        "Militarnyi",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Militarnyi",
-      "source": "Militarnyi",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbVRXVkpvUHIzWkFTWF9pZG5NcTMzUEd2TVM3V3F4bXhUSWYwSTVseGlUbmYzZnVjbk80bC1IbzdSNXNRVWVMZl9WY2tMekNmalRwSkU0Vkdlel94aGxYNzdkN0JJRUZTQ08zanFfWkdCM2RBVl9vX3N3ZUUzRlVOUjhZWnhXaHc?oc=5"
     }
   ]
 }

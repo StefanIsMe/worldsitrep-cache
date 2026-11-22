@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "gaza",
-  "collectedAt": "2026-11-22T16:59:05.124Z",
+  "collectedAt": "2026-11-22T17:26:27.073Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 661
+      "count": 64
     },
     {
       "id": "bbc-me",
@@ -41,8 +41,8 @@
       "id": "aljazeera",
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "status": "ok",
-      "count": 4,
-      "filtered": 21
+      "count": 5,
+      "filtered": 20
     },
     {
       "id": "guardian-me",
@@ -187,6 +187,25 @@
       "locationStr": "Jerusalem Post",
       "source": "Jerusalem Post",
       "sourceUrl": "https://www.jpost.com/israel-news/article-915732"
+    },
+    {
+      "id": "news-fabojz",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T16:50:48.000Z",
+      "description": "Israeli settlers attack multiple Palestinian villages as pogroms surge (Al Jazeera, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Al Jazeera",
+      "axis": "Other",
+      "tags": [
+        "Al Jazeera",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Al Jazeera",
+      "source": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/22/israeli-settlers-attack-multiple-palestinian-villages-as-pogroms-surge?traffic_source=rss"
     },
     {
       "id": "news-1amfabd",
@@ -50030,40 +50049,6 @@
         "geoType": 4,
         "quadClass": 4,
         "goldstein": -5,
-        "tone": -9.78,
-        "mentions": 6,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1334370166",
-      "kind": "event",
-      "date": "2026-11-21",
-      "isoDate": "2026-11-21T00:00:00.000Z",
-      "observedAt": "2026-11-21T15:15:00.000Z",
-      "description": "Fight — Israel → West Bank near Dura Al-Qar, West Bank (general), West Bank. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
-      "type": "combat",
-      "lat": 31.9586,
-      "lng": 35.2271,
-      "action": "Fight (GDELT 190)",
-      "actor": "Israel",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Fight"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
-      "locationStr": "Dura Al-Qar, West Bank (general), West Bank",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza",
-      "gdelt": {
-        "globalEventId": "1334370166",
-        "eventCode": "190",
-        "geoType": 4,
-        "quadClass": 4,
-        "goldstein": -10,
         "tone": -9.78,
         "mentions": 6,
         "sources": 1
