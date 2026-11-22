@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-11-22T01:02:27.355Z",
+  "collectedAt": "2026-11-22T01:42:03.587Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 67
+      "count": 8
     },
     {
       "id": "rci-arctic",
@@ -40,9 +40,9 @@
     {
       "id": "cryopolitics",
       "url": "https://www.cryopolitics.com/feed/",
-      "status": "ok",
-      "count": 3,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS cryopolitics request failed: fetch failed"
     },
     {
       "id": "gnews-svalbard",
@@ -55,7 +55,7 @@
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 23,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 542,
+  "count": 549,
   "events": [
     {
       "id": "gdelt-1334410659",
@@ -480,6 +480,176 @@
         "goldstein": -7.2,
         "tone": -4.02,
         "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334416273",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T01:30:00.000Z",
+      "description": "Fight — Governor → Russia near Leningrad, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.8944,
+      "lng": 30.2642,
+      "action": "Fight (GDELT 190)",
+      "actor": "Governor",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Leningrad, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://yalibnan.com/2026/11/21/russian-cargo-ship-ablaze-in-baltic-sea-after-drone-strike/",
+      "gdelt": {
+        "globalEventId": "1334416273",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.76,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334416483",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T01:30:00.000Z",
+      "description": "Force posture — Russia → Finnish near Helsinki, Eteläuomen Läi, Finland. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 60.1756,
+      "lng": 24.9342,
+      "action": "Force posture (GDELT 150)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Helsinki, Eteläuomen Läi, Finland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.channelnewsasia.com/world/russian-cargo-ship-hit-drones-in-baltic-finland-tightens-security-6571981",
+      "gdelt": {
+        "globalEventId": "1334416483",
+        "eventCode": "150",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -4.14,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334416484",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T01:30:00.000Z",
+      "description": "Force posture — Russia → Finnish near Helsinki, Eteläuomen Läi, Finland. Machine-coded by GDELT 2.1 (9 mentions, 2 sources); open the source article for details.",
+      "type": "other",
+      "lat": 60.1756,
+      "lng": 24.9342,
+      "action": "Force posture (GDELT 150)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Helsinki, Eteläuomen Läi, Finland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://yalibnan.com/2026/11/21/russian-cargo-ship-ablaze-in-baltic-sea-after-drone-strike/",
+      "gdelt": {
+        "globalEventId": "1334416484",
+        "eventCode": "150",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -4.69,
+        "mentions": 9,
+        "sources": 2
+      }
+    },
+    {
+      "id": "gdelt-1334416496",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T01:30:00.000Z",
+      "description": "Fight — Russia → Russia near Helsinki, Eteläuomen Läi, Finland. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 60.1756,
+      "lng": 24.9342,
+      "action": "Fight (GDELT 190)",
+      "actor": "Russia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Helsinki, Eteläuomen Läi, Finland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://yalibnan.com/2026/11/21/russian-cargo-ship-ablaze-in-baltic-sea-after-drone-strike/",
+      "gdelt": {
+        "globalEventId": "1334416496",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -4.76,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334416512",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T01:30:00.000Z",
+      "description": "Force posture — Ukraine → Military near Helsinki, Eteläuomen Läi, Finland. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 60.1756,
+      "lng": 24.9342,
+      "action": "Force posture (GDELT 154)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Helsinki, Eteläuomen Läi, Finland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://yalibnan.com/2026/11/21/russian-cargo-ship-ablaze-in-baltic-sea-after-drone-strike/",
+      "gdelt": {
+        "globalEventId": "1334416512",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -4.76,
+        "mentions": 2,
         "sources": 1
       }
     },
@@ -16206,6 +16376,29 @@
       "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
     },
     {
+      "id": "news-1ub0z9z",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T15:01:20.000Z",
+      "description": "Denmark approves security deal with U.S. and Greenland, seeking to finally ease tensions with Trump - CTV News (CTV News, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "CTV News",
+      "axis": "Other",
+      "tags": [
+        "CTV News",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Greenland",
+      "source": "CTV News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaEZDQmllNGtYN2g0LUdVQzgtempPZ0VzZ2ZxZjNXR3dMbm1BbzZLNHF2emxkOUdYcEdhVzhBdWNwa1JONWktbm12YnRVdmJEQWMwSDFzYUJITGluSWZsZlA2bDk4SEZ5bUh3emlFb1gtM2JtdUtDTVo5Nzczb3RIUHBkcXVPUjBzSFZqUEJ0VVVSWGFhR0ZHNmlvbldYdV9Nbnk4aG4ySXlIVl9lZ09veDVwanNBS01YMDhFV296azN5aGpJMzd5VmpmLTBHTjA?oc=5",
+      "lat": 72,
+      "lng": -40,
+      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
+    },
+    {
       "id": "news-kjuo32",
       "kind": "news",
       "date": "2026-11-19",
@@ -16699,6 +16892,29 @@
       "locationStr": "Greenland",
       "source": "Informat.ro",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMk9HajlkQU5KbzNyTl9QNV8tM3JRZkpTWnB6ZVhfZDlNaTNSYUcxc3JlMFBRUEx4RFpUOFhJUE9DXzBXWERtdkI3WnhKMlhUVWdjbmRQejNibkxXSFRqeThrOGk2N0dvc2JjWF85cTlvOFhtREw1bEF6OFVkc29IMGJ5eTROd3lHSGgyZHBRb0QxOHRoR2lobE5PdzFCR0k1VWlzeFVxLVJoTGpKQjBBeExnLUEzUQ?oc=5",
+      "lat": 72,
+      "lng": -40,
+      "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
+    },
+    {
+      "id": "news-177593z",
+      "kind": "news",
+      "date": "2026-11-19",
+      "isoDate": "2026-11-19T10:10:39.000Z",
+      "description": "Danish parliament approves deal with Greenland and US to strengthen Arctic and North Atlantic security - kens5.com (kens5.com, 2026-11-19. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "kens5.com",
+      "axis": "Other",
+      "tags": [
+        "kens5.com",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Greenland",
+      "source": "kens5.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOMjJUMFdweUxRQlN2amFFekQxZUkxaFpncWZJcFZGMnE3cXA1dkhTRTB4X1BmQ2RIS1l4NnZLalZCYnpxUTIwRW5HQWFvRldvVFJLS1Njem5hbnlQNDREcVM0UnFYdGR4b1VIOGlybE15UVJsbHYwTTNVMHVGdDdIQXN1bWY1Z3RYY0ZTblluVGk2cWk0LTB3M3RtT3pha3BOVnRkcl9Uc3psSkFGaEpXMk1NUjBPNnFqN0IxdktFT1JVRzFhWXN5SjJfVnRDSVc4S2VzNV9hQW90WFZleFZHWl8tVGhaQ3NXa0w5a3lqZ213X24teHNrMGFGYU8xaTlXdkxnOHR6bTJKRkRyUEJTeEhuTW8zQnFFYzd0ZlFrQ01uSGtwOTYzSg?oc=5",
       "lat": 72,
       "lng": -40,
       "coordsNote": "Headline gazetteer match: \"Greenland\" (region); verify via source article."
