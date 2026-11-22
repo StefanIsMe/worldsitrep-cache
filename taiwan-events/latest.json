@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-22T17:26:27.073Z",
+  "collectedAt": "2026-11-22T22:23:59.119Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 3
+      "count": 20
     },
     {
       "id": "taipei-times",
@@ -27,15 +27,15 @@
       "id": "gnews-defense",
       "url": "https://news.google.com/rss/search?q=Taiwan%20PLA%20military%20drills&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 0,
       "filtered": 0
     },
     {
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 32,
-      "filtered": 18
+      "count": 33,
+      "filtered": 17
     },
     {
       "id": "dw-asia",
@@ -48,7 +48,7 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 8,
+      "count": 7,
       "filtered": 36
     },
     {
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 249,
+  "count": 265,
   "events": [
     {
       "id": "news-127dbk7",
@@ -237,6 +237,25 @@
       "locationStr": "Taipei Times",
       "source": "Taipei Times",
       "sourceUrl": "https://www.taipeitimes.com/News/feat/archives/2026/11/23/2003868214"
+    },
+    {
+      "id": "news-1jutvim",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T20:03:17.000Z",
+      "description": "US seeks answers on Nvidia’s sale of chips to China, Bessent says (SCMP, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says"
     },
     {
       "id": "news-1updto1",
@@ -1399,6 +1418,686 @@
         "quadClass": 3,
         "goldstein": -2,
         "tone": -2.7,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334488128",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T17:30:00.000Z",
+      "description": "Protest — China → Hsinchu County near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Protest (GDELT 141)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868207",
+      "gdelt": {
+        "globalEventId": "1334488128",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": 2.68,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334488132",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T17:30:00.000Z",
+      "description": "Coercion — China → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868207",
+      "gdelt": {
+        "globalEventId": "1334488132",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": 2.68,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334488861",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T17:30:00.000Z",
+      "description": "Reduced relations — Taiwan → Unspecified near Kinmen, Jinmen Xian, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24.4367,
+      "lng": 118.318,
+      "action": "Reduced relations (GDELT 160)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Reduced relations"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Kinmen, Jinmen Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868209",
+      "gdelt": {
+        "globalEventId": "1334488861",
+        "eventCode": "160",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -4,
+        "tone": -5.92,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334488863",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T17:30:00.000Z",
+      "description": "Threat — Taiwan → Canada near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Threat (GDELT 130)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/11/23/2003868216",
+      "gdelt": {
+        "globalEventId": "1334488863",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.44,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334488864",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T17:30:00.000Z",
+      "description": "Threat — Taiwan → Canada near Taiwan. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Threat (GDELT 130)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/11/23/2003868216",
+      "gdelt": {
+        "globalEventId": "1334488864",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.44,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334488865",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T17:30:00.000Z",
+      "description": "Threat — Taiwan → Canada near Taiwan. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Threat (GDELT 130)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/11/23/2003868216",
+      "gdelt": {
+        "globalEventId": "1334488865",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.44,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334488866",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T17:30:00.000Z",
+      "description": "Threat — Taiwan → Canada near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Threat (GDELT 130)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/11/23/2003868216",
+      "gdelt": {
+        "globalEventId": "1334488866",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.44,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334488871",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T17:30:00.000Z",
+      "description": "Threat — Taiwan → China near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Threat (GDELT 130)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/front/archives/2026/11/23/2003868216",
+      "gdelt": {
+        "globalEventId": "1334488871",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.44,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334488873",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T17:30:00.000Z",
+      "description": "Disapproval — Taiwan → Tourist near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868230",
+      "gdelt": {
+        "globalEventId": "1334488873",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.19,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334488882",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T17:30:00.000Z",
+      "description": "Rejection — Miaoli County → Minist Of Finance near Miaoli County, Miaoli Xian, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24.4897,
+      "lng": 120.906,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Miaoli County",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Miaoli County, Miaoli Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/feat/archives/2026/11/23/2003868214",
+      "gdelt": {
+        "globalEventId": "1334488882",
+        "eventCode": "120",
+        "geoType": 5,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -6.41,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334488883",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T17:30:00.000Z",
+      "description": "Rejection — Miaoli County → Minist Of Finance near Miaoli County, Miaoli Xian, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24.4897,
+      "lng": 120.906,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Miaoli County",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Miaoli County, Miaoli Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/feat/archives/2026/11/23/2003868214",
+      "gdelt": {
+        "globalEventId": "1334488883",
+        "eventCode": "120",
+        "geoType": 5,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -6.41,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334488884",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T17:30:00.000Z",
+      "description": "Threat — Kaohsiung → Mayor near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 130)",
+      "actor": "Kaohsiung",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/feat/archives/2026/11/23/2003868214",
+      "gdelt": {
+        "globalEventId": "1334488884",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -6.41,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334488891",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T17:30:00.000Z",
+      "description": "Rejection — Miaoli County → Minist Of Finance near Miaoli County, Miaoli Xian, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24.4897,
+      "lng": 120.906,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Miaoli County",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 5); verify via source article.",
+      "locationStr": "Miaoli County, Miaoli Xian, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/feat/archives/2026/11/23/2003868214",
+      "gdelt": {
+        "globalEventId": "1334488891",
+        "eventCode": "120",
+        "geoType": 5,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -6.41,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334499467",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T19:45:00.000Z",
+      "description": "Threat — Taiwan → Canada near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 130)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5649965",
+      "gdelt": {
+        "globalEventId": "1334499467",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -2.91,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334499468",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T19:45:00.000Z",
+      "description": "Threat — Taiwan → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Threat (GDELT 130)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.ltn.com.tw/news/focus/breakingnews/5649965",
+      "gdelt": {
+        "globalEventId": "1334499468",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -2.91,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334499474",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T19:45:00.000Z",
+      "description": "Disapproval — Taiwan → Nvidia near Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.indiatimes.com/trending/is-elon-musk-acquiring-50-of-nvidia-to-reinstate-jensen-huang-after-an-affair-scandal-exit-heres-the-truth/articleshow/136075813.html",
+      "gdelt": {
+        "globalEventId": "1334499474",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -0.49,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334503293",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T20:45:00.000Z",
+      "description": "Coercion — Investor → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 1712)",
+      "actor": "Investor",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/biz/archives/2026/11/23/2003868205",
+      "gdelt": {
+        "globalEventId": "1334503293",
+        "eventCode": "1712",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.2,
+        "tone": -4.5,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334503885",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T20:45:00.000Z",
+      "description": "Protest — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Protest (GDELT 141)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868210",
+      "gdelt": {
+        "globalEventId": "1334503885",
+        "eventCode": "141",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": 1.7,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334503886",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T20:45:00.000Z",
+      "description": "Fight — Taiwan → Unspecified near Beitou, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.1303,
+      "lng": 121.502,
+      "action": "Fight (GDELT 193)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Beitou, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868210",
+      "gdelt": {
+        "globalEventId": "1334503886",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 1.7,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334503887",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T20:45:00.000Z",
+      "description": "Fight — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Fight (GDELT 193)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/editorials/archives/2026/11/23/2003868210",
+      "gdelt": {
+        "globalEventId": "1334503887",
+        "eventCode": "193",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": 1.7,
         "mentions": 2,
         "sources": 1
       }
@@ -7006,101 +7705,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/east-asia/trump-says-aide-raised-with-chinese-side-detention-of-two-americans"
-    },
-    {
-      "id": "news-1on3oda",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T22:07:55.000Z",
-      "description": "US crackdown on scam networks connected to Chinese-born tycoon Chen Zhi ramps up (SCMP, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3375133/us-crackdown-scam-networks-connected-chinese-born-tycoon-chen-zhi-ramps"
-    },
-    {
-      "id": "news-1de0t4s",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T21:00:00.000Z",
-      "description": "Once unthinkable, Trump-Xi-Putin summit makes Russia and Beijing the biggest winners (Straits Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/once-unthinkable-trump-xi-putin-summit-makes-russia-and-beijing-the-biggest-winners"
-    },
-    {
-      "id": "news-125bbgs",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T20:05:44.000Z",
-      "description": "China-centred order or host duties? Experts weigh in on Xi-Trump-Putin seating (SCMP, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/article/3375131/china-centred-order-or-host-duties-experts-weigh-xi-trump-putin-seating"
-    },
-    {
-      "id": "news-vc4vbh",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T18:45:18.000Z",
-      "description": "ECB's Panetta hopes US-Russia-China summit yields little, given EU absence (Straits Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/ecbs-panetta-hopes-us-russia-china-summit-yields-little-given-eu-absence"
-    },
-    {
-      "id": "news-x309x5",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T18:21:18.000Z",
-      "description": "US acts against Chinese telecoms firms hours after Trump-Xi meeting (SCMP, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3375128/fcc-votes-ban-chinese-telecoms-direct-access-us-phone-numbers"
     }
   ]
 }
