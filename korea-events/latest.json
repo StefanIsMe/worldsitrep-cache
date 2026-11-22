@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "korea",
-  "collectedAt": "2026-11-22T08:55:01.389Z",
+  "collectedAt": "2026-11-22T16:59:05.124Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 10
+      "count": 25
     },
     {
       "id": "yna-nk",
@@ -20,15 +20,15 @@
       "id": "yna-news",
       "url": "https://en.yna.co.kr/RSS/news.xml",
       "status": "ok",
-      "count": 17,
-      "filtered": 33
+      "count": 12,
+      "filtered": 38
     },
     {
       "id": "korea-times",
       "url": "https://feed.koreatimes.co.kr/k/allnews.xml",
       "status": "ok",
-      "count": 15,
-      "filtered": 28
+      "count": 0,
+      "filtered": 0
     },
     {
       "id": "gnews-korea",
@@ -68,9 +68,9 @@
     {
       "id": "gnews-missile",
       "url": "https://news.google.com/rss/search?q=North%20Korea%20missile%20launch&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-missile request failed with HTTP 429"
     },
     {
       "id": "gnews-nkru",
@@ -94,8 +94,122 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 397,
+  "count": 391,
   "events": [
+    {
+      "id": "news-898bnz",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T15:50:22.000Z",
+      "description": "Kim ignores Trump’s calls, returns his letter unopened: Report - FlipItMoney (FlipItMoney, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "FlipItMoney",
+      "axis": "Other",
+      "tags": [
+        "FlipItMoney",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "FlipItMoney",
+      "source": "FlipItMoney",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM19MWFZBVXhjdklqZUZ2aG9KM1Q4U1J5Skt4dFYzaVJ3Zl96bEs0M0VneTcxanQtNjZpM3hGZDYzaWZ4bUJZVy0wdE9FMkF2NmNiaC1Hb2QzcHhMb0RKZVBPSWhYOW5FOFZKV0ZzN2JQa1oyS3lrWl9aOThjTG5ZUkZXLUVNTVhXWGJ3RDlNVQ?oc=5"
+    },
+    {
+      "id": "news-16fzy3h",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T12:55:00.000Z",
+      "description": "Russia fired 165 missiles at Ukraine this week, including North Korean ballistic weapons — Zelenskyy - The New Voice of Ukraine (The New Voice of Ukraine, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New Voice of Ukraine",
+      "axis": "Other",
+      "tags": [
+        "The New Voice of Ukraine",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The New Voice of Ukraine",
+      "source": "The New Voice of Ukraine",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWU5nR0d3dkUtekd0UVYxQ2dLem16RHhTUF95dnVnWWdieGpuek42dG1WYkZMeVF0OGdhNDFHVlFDU2o3UWVLak5UVnZrY3JPbGRWbzE5V2VSYWRwaXR5Q01YRkRRQmRnMnllRnRtNFFTNENVRkRoQ21iS000XzdKdVA3RkpVdXRyeXZCa2xoYmFMcmp2TGhvVHZVbUZCOEdabUl3UjZNSTExeHpKc3BBOEs5SGd0akwzQU9SdFRhekPSAbYBQVVfeXFMTnVvUmlRaUNJMTNkbURBX1ZMV29TWmZESzlFS21sUTBFT1JyOWJoRVJKSHk2RGR3M1pYeWg5TXI4Qy1HeXNSbmFnbU1FczVMbXFBS2tnOHB3T1dvSGRMOFJEV2JwckwwRW5KeXRNd2wyVmZjVGJ2UWVnTHdIc2d4VjFoblJUWUVzdGRXeExGcjB3dFFkczM0ZVpCaTRYTXFHM1U2aklpQnRudmlTMkJCdWpZQkprdUE?oc=5"
+    },
+    {
+      "id": "news-1xpd49x",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T12:18:22.000Z",
+      "description": "N. Korean leader receives credentials from Russian ambassador in protocol shift after 30 yrs (Yonhap, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261122002900315"
+    },
+    {
+      "id": "news-1vw75v7",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T10:50:28.000Z",
+      "description": "Trump Dangles Nuclear Concessions To Meet Kim; North Korean Diplomat Dumps His Personal Letter - The Times of India (The Times of India, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times of India",
+      "axis": "Other",
+      "tags": [
+        "The Times of India",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Times of India",
+      "source": "The Times of India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZ3F6X2w5SVNHaVA1RXg1X1RvRGhDOFVBd21ITlZPTlFETlVELURSOFUyNDBlOHh1NV91bkJCUnl6M3BwRmZ2X1I3a1V2cUFyWGh1ZW11U0tfbGx0UFVKTzNDRXljeFozWUI3dzNNTEhfcDdMZUxLVkw4em5uQnVMWFZjZGdzcnFBZ3AtMmt5WFdBMWlmaW1oUkNDTThPcnd1QjQwWkVQMV9KS1psVGJSaVpZQzhzR19BLXlXUEdaX0JyVmlOTXA3eTRUVWwxY1hQcXA1cm45eFFCS29jbXBqV19mSXJhTmY5Y1FXZkxWSThCaUstVFJiNGxuRmFSRDNfSUZFdNIBigJBVV95cUxOUzlEdlJvZWgwbzVJWXZERWlJSFNNTDZhQzNicHZQQi02QV9TLUx1ZVhkVkp6MFNNTWRxeHk2LTVYZV9FYUdnUVZUZ3l1TmZxY2U1bE1XRlZJWnc5Mms3UDNPenFxSWN2Y0NPRlh1cHZnNG0yZGVsbXdKTldmYzZGYXlsLU5IS3E5Y0RhU3JWTHRXUGVuenFyY21NelhVbnhlbGVZRHlBekRqQjcwdnh2OGlDdmVPc3hjakZwWHN1eG1hbnZHWmhJMUV5OEt2eUJqN1RObk1vdUotMnZJN3NSZ3luTloyMUwydHVmLVB6OFJocklvZ2RqVnYwVUYxQnMxOTZSX09Ma1p3dw?oc=5"
+    },
+    {
+      "id": "news-1ukey06",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T10:12:13.000Z",
+      "description": "(LEAD) Host S. Korea wins men's relay gold on final day of Short Track World Tour (Yonhap, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261122002451315"
+    },
+    {
+      "id": "news-1ugv2yo",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T09:18:05.000Z",
+      "description": "Host S. Korea wins men's relay gold on final day of Short Track World Tour (Yonhap, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yonhap",
+      "axis": "Other",
+      "tags": [
+        "Yonhap",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yonhap",
+      "source": "Yonhap",
+      "sourceUrl": "https://en.yna.co.kr/view/AEN20261122002400315"
+    },
     {
       "id": "news-15f71wn",
       "kind": "news",
@@ -442,8 +556,8 @@
       "id": "news-zdf83k",
       "kind": "news",
       "date": "2026-11-22",
-      "isoDate": "2026-11-22T05:58:30.000Z",
-      "description": "North Korea: Kim Jong Un ignores Trump despite his attempts to resume nuclear dialogue - report - i24NEWS (i24NEWS, 2026-11-22. Headline + link only.)",
+      "isoDate": "2026-11-22T05:54:00.000Z",
+      "description": "North Korea: Kim Jong-un Ignores Trump Despite His Attempts To Resume Dialogue - i24NEWS (i24NEWS, 2026-11-22. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "i24NEWS",
@@ -456,25 +570,6 @@
       "locationStr": "i24NEWS",
       "source": "i24NEWS",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdHo1eHlDZ1pjelJUUGM3VzFTeXBKcGgzOS1UWjFDOGktZHRNb1R0Zk5sTkRBZ1l0QXhyRWZ2NjVWTzB2WG9iOC1FbHJBVXZxbU1US2lZbW9ZSW4tRVhabHEtbUFkVXVRQ212akNxUTNXNmJOWlFnZWhtUUl3NEM2STNEb1BZYWhJY1gwU1p0M3hja3ZNZFc5ckpDR0szZ1M2OTcxUmJ6czJvN0J6NW13SGt6c2hUbFlzbkNTVGRKZ0JiaEVsc3hXYXdVT2lBOXR3RGc?oc=5"
-    },
-    {
-      "id": "news-15vrij1",
-      "kind": "news",
-      "date": "2026-11-22",
-      "isoDate": "2026-11-22T05:21:52.000Z",
-      "description": "How Kim Jong Un Gets Away With Building Nukes and Ghosting Trump - WSJ (WSJ, 2026-11-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "WSJ",
-      "axis": "Other",
-      "tags": [
-        "WSJ",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "WSJ",
-      "source": "WSJ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hWHMyLURHX3hOZjhTbW5pRC0zWTduOWJpQS1hME9uSGhoZkF2MTFTcFZjYXhzejVkWTlmaWNHWjAyNURsTFJLcEFBdEk0UDhuRnJQT1BWOWQwMjl3VVcyT0NWTS1ORm1HVVQ0ZHk1OWVGZTlyVjVCSA?oc=5"
     },
     {
       "id": "news-n3qzrx",
@@ -532,6 +627,25 @@
       "locationStr": "Yonhap",
       "source": "Yonhap",
       "sourceUrl": "https://en.yna.co.kr/view/AEN20261122000500320"
+    },
+    {
+      "id": "news-15vrij1",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T02:00:00.000Z",
+      "description": "How Kim Jong Un Gets Away With Building Nukes and Ghosting Trump - WSJ (WSJ, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WSJ",
+      "axis": "Other",
+      "tags": [
+        "WSJ",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WSJ",
+      "source": "WSJ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hWHMyLURHX3hOZjhTbW5pRC0zWTduOWJpQS1hME9uSGhoZkF2MTFTcFZjYXhzejVkWTlmaWNHWjAyNURsTFJLcEFBdEk0UDhuRnJQT1BWOWQwMjl3VVcyT0NWTS1ORm1HVVQ0ZHk1OWVGZTlyVjVCSA?oc=5"
     },
     {
       "id": "gdelt-1334421205",
@@ -1448,6 +1562,856 @@
         "goldstein": -5,
         "tone": -6.74,
         "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334444593",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T09:15:00.000Z",
+      "description": "Assault — Prison → North Korea near North Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 40,
+      "lng": 127,
+      "action": "Assault (GDELT 186)",
+      "actor": "Prison",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://thecatholicherald.com/article/north-korean-defector-tells-students-how-a-prison-gangster-led-him-to-christ",
+      "gdelt": {
+        "globalEventId": "1334444593",
+        "eventCode": "186",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -2.88,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334445039",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T09:15:00.000Z",
+      "description": "Rejection — North Korea → United States near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Rejection (GDELT 120)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.azernews.az/region/267872.html",
+      "gdelt": {
+        "globalEventId": "1334445039",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -1.99,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334450892",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T10:30:00.000Z",
+      "description": "Disapproval — South Korea → Pakistani near Busan, Pusan-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.1028,
+      "lng": 129.04,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Busan, Pusan-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://theasian.asia/archives/205628",
+      "gdelt": {
+        "globalEventId": "1334450892",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.03,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334450896",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T10:30:00.000Z",
+      "description": "Threat — South Korea → Fighter near Busan, Pusan-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.1028,
+      "lng": 129.04,
+      "action": "Threat (GDELT 130)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Busan, Pusan-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://theasian.asia/archives/205628",
+      "gdelt": {
+        "globalEventId": "1334450896",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 1.03,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334450897",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T10:30:00.000Z",
+      "description": "Threat — South Korea → Fighter near Busan, Pusan-gwangyoksi, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 35.1028,
+      "lng": 129.04,
+      "action": "Threat (GDELT 130)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Busan, Pusan-gwangyoksi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://theasian.asia/archives/205628",
+      "gdelt": {
+        "globalEventId": "1334450897",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 1.03,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334453377",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T11:00:00.000Z",
+      "description": "Coercion — Investor → Unspecified near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Investor",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreatimes.co.kr/economy/20261122/kospi-rout-fuels-calls-for-bolder-stabilization-measures",
+      "gdelt": {
+        "globalEventId": "1334453377",
+        "eventCode": "172",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -4.89,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334453777",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T11:00:00.000Z",
+      "description": "Fight — Judge → Daegu near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Fight (GDELT 190)",
+      "actor": "Judge",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/politics/20261122/ruling-party-outlines-grounds-to-impeach-chief-justice",
+      "gdelt": {
+        "globalEventId": "1334453777",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -1.29,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334453831",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T11:00:00.000Z",
+      "description": "Force posture — South Korea → Government near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Force posture (GDELT 154)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreatimes.co.kr/economy/20261122/kospi-rout-fuels-calls-for-bolder-stabilization-measures",
+      "gdelt": {
+        "globalEventId": "1334453831",
+        "eventCode": "154",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -4.89,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334453839",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T11:00:00.000Z",
+      "description": "Demand — South Korea → National Assembly near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Demand (GDELT 1044)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/politics/20261122/ruling-party-outlines-grounds-to-impeach-chief-justice",
+      "gdelt": {
+        "globalEventId": "1334453839",
+        "eventCode": "1044",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -1.29,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334453840",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T11:00:00.000Z",
+      "description": "Fight — Daegu → Judge near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Fight (GDELT 190)",
+      "actor": "Daegu",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/politics/20261122/ruling-party-outlines-grounds-to-impeach-chief-justice",
+      "gdelt": {
+        "globalEventId": "1334453840",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -1.29,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334453864",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T11:00:00.000Z",
+      "description": "Demand — National Assembly → Democratic Party near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Demand (GDELT 1044)",
+      "actor": "National Assembly",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/politics/20261122/ruling-party-outlines-grounds-to-impeach-chief-justice",
+      "gdelt": {
+        "globalEventId": "1334453864",
+        "eventCode": "1044",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -1.29,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334455099",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T11:15:00.000Z",
+      "description": "Coercion — Government → Unspecified near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://tribune.com.pk/story/2641688/south-korean-education-minister-offers-to-resign-amid-ai-assisted-cheating-controversy",
+      "gdelt": {
+        "globalEventId": "1334455099",
+        "eventCode": "172",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -6.25,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334455226",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T11:15:00.000Z",
+      "description": "Assault — South Korea → University near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (7 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Assault (GDELT 182)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://tribune.com.pk/story/2641688/south-korean-education-minister-offers-to-resign-amid-ai-assisted-cheating-controversy",
+      "gdelt": {
+        "globalEventId": "1334455226",
+        "eventCode": "182",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -6.25,
+        "mentions": 7,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334459242",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T12:00:00.000Z",
+      "description": "Rejection — The Us → Unspecified near South Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Rejection (GDELT 120)",
+      "actor": "The Us",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.abc.net.au/news/2026-11-22/us-loses-influence-in-asia-as-china-gains-in-lowy-power-index/107411514",
+      "gdelt": {
+        "globalEventId": "1334459242",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -1.16,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334461721",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T12:30:00.000Z",
+      "description": "Disapproval — Unspecified → North Korea near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.moneycontrol.com/world/trump-s-attempts-to-reach-kim-jong-un-go-unanswered-as-north-korea-expands-nuclear-arsenal-report-article-14086564.html",
+      "gdelt": {
+        "globalEventId": "1334461721",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.93,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334461723",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T12:30:00.000Z",
+      "description": "Disapproval — Unspecified → North Korea near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.moneycontrol.com/world/trump-s-attempts-to-reach-kim-jong-un-go-unanswered-as-north-korea-expands-nuclear-arsenal-report-article-14086564.html",
+      "gdelt": {
+        "globalEventId": "1334461723",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.93,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334462077",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T12:30:00.000Z",
+      "description": "Demand — Education Minist → University near South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Demand (GDELT 100)",
+      "actor": "Education Minist",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.moneycontrol.com/world/south-korea-education-minister-quits-after-ai-cheating-scandal-rocks-suneung-exam-article-14086588.html",
+      "gdelt": {
+        "globalEventId": "1334462077",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -7.99,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334462078",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T12:30:00.000Z",
+      "description": "Protest — Education Minist → University near South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Protest (GDELT 141)",
+      "actor": "Education Minist",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.moneycontrol.com/world/south-korea-education-minister-quits-after-ai-cheating-scandal-rocks-suneung-exam-article-14086588.html",
+      "gdelt": {
+        "globalEventId": "1334462078",
+        "eventCode": "141",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -6.5,
+        "tone": -7.99,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334463455",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T12:45:00.000Z",
+      "description": "Coercion — Student → Unspecified near South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Student",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aol.co.uk/articles/south-korea-education-minister-resigns-121208000.html",
+      "gdelt": {
+        "globalEventId": "1334463455",
+        "eventCode": "172",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -6.11,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334473995",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T14:45:00.000Z",
+      "description": "Disapproval — South Korea → College near Seoul, Soul-t'ukpyolsi, South Korea. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37.5664,
+      "lng": 127,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "South Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Seoul, Soul-t'ukpyolsi, South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.netnewsledger.com/2026/11/22/south-koreas-education-minister-resigns-after-exam-rule-confusion/",
+      "gdelt": {
+        "globalEventId": "1334473995",
+        "eventCode": "111",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -4.42,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334476496",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T15:15:00.000Z",
+      "description": "Rejection — North Korea → United States near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Rejection (GDELT 120)",
+      "actor": "North Korea",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.com/trump-kim-jong-un-outreach-rebuffed-3810058",
+      "gdelt": {
+        "globalEventId": "1334476496",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 0.85,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334476591",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T15:15:00.000Z",
+      "description": "Rejection — The White House → Unspecified near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Rejection (GDELT 120)",
+      "actor": "The White House",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.com/trump-kim-jong-un-outreach-rebuffed-3810058",
+      "gdelt": {
+        "globalEventId": "1334476591",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 0.85,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334476596",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T15:15:00.000Z",
+      "description": "Rejection — The White House → United States near Pyongyang, P'yongyang-si, North Korea. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 39.0194,
+      "lng": 125.755,
+      "action": "Rejection (GDELT 120)",
+      "actor": "The White House",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Pyongyang, P'yongyang-si, North Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.ibtimes.com/trump-kim-jong-un-outreach-rebuffed-3810058",
+      "gdelt": {
+        "globalEventId": "1334476596",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 0.85,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334479186",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T15:45:00.000Z",
+      "description": "Rejection — Education Minist → Unspecified near South Korea. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Education Minist",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.inquisitr.com/choi-kyo-jin-resignation-suneung/",
+      "gdelt": {
+        "globalEventId": "1334479186",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": -4.32,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334484201",
+      "kind": "event",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T00:00:00.000Z",
+      "observedAt": "2026-11-22T16:45:00.000Z",
+      "description": "Coercion — Government → Unspecified near South Korea. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 37,
+      "lng": 127.5,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Government",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "South Korea",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.investmentwatchblog.com/asian-governments-are-stepping-in-to-prop-up-stock-markets-taiwan-is-restricting-short-selling-china-is-making-it-easier-to-borrow-south-korea-is-preparing-a-rescue-fund/",
+      "gdelt": {
+        "globalEventId": "1334484201",
+        "eventCode": "172",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -3.15,
+        "mentions": 5,
         "sources": 1
       }
     },
@@ -10631,723 +11595,20 @@
       "id": "news-dlii05",
       "kind": "news",
       "date": "2026-11-19",
-      "isoDate": "2026-11-19T18:04:22.000Z",
-      "description": "North Korea Expanded Uranium Enrichment Facility in Yongbyon - Мілітарний (Мілітарний, 2026-11-19. Headline + link only.)",
+      "isoDate": "2026-11-19T17:14:39.000Z",
+      "description": "North Korea Expanded Uranium Enrichment Facility in Yongbyon - Militarnyi (Militarnyi, 2026-11-19. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "Мілітарний",
+      "actor": "Militarnyi",
       "axis": "Other",
       "tags": [
-        "Мілітарний",
+        "Militarnyi",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "Мілітарний",
-      "source": "Мілітарний",
+      "locationStr": "Militarnyi",
+      "source": "Militarnyi",
       "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbVRXVkpvUHIzWkFTWF9pZG5NcTMzUEd2TVM3V3F4bXhUSWYwSTVseGlUbmYzZnVjbk80bC1IbzdSNXNRVWVMZl9WY2tMekNmalRwSkU0Vkdlel94aGxYNzdkN0JJRUZTQ08zanFfWkdCM2RBVl9vX3N3ZUUzRlVOUjhZWnhXaHc?oc=5"
-    },
-    {
-      "id": "news-1m9cg1k",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T15:26:00.000Z",
-      "description": "China, Russia, US Talk UN Reform, Nuclear Risks, and Ukraine at Trilateral Summit (The Diplomat, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Diplomat",
-      "axis": "Other",
-      "tags": [
-        "The Diplomat",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Diplomat",
-      "source": "The Diplomat",
-      "sourceUrl": "https://thediplomat.com/2026/11/china-russia-us-talk-un-reform-nuclear-risks-and-ukraine-at-trilateral-summit/"
-    },
-    {
-      "id": "news-fet769",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T13:54:34.000Z",
-      "description": "(8th LD) Trump, Xi, Putin agree to hold dialogue on nuclear risks; Korean Peninsula reportedly discussed (Yonhap, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261119001358315"
-    },
-    {
-      "id": "news-1yv8n9b",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T13:43:00.000Z",
-      "description": "At APEC, Lee Urges Asia-Pacific Leaders to Back Talks With North Korea (The Diplomat, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Diplomat",
-      "axis": "Other",
-      "tags": [
-        "The Diplomat",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Diplomat",
-      "source": "The Diplomat",
-      "sourceUrl": "https://thediplomat.com/2026/11/at-apec-lee-urges-asia-pacific-leaders-to-back-talks-with-north-korea/"
-    },
-    {
-      "id": "news-ymp01l",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T13:39:17.000Z",
-      "description": "North Korea is expanding its original uranium enrichment facility, UN nuclear watchdog says - myMotherLode.com (myMotherLode.com, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "myMotherLode.com",
-      "axis": "Other",
-      "tags": [
-        "myMotherLode.com",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "myMotherLode.com",
-      "source": "myMotherLode.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdjVwRHhJNjVaUWZUTUlKMUNyQnhEQ092V3pWeFVyUWJXRjQ0ZlRmR3JzV3V4emFJVnFFaWRhVzYtYXV4RFh6YVdlcTJaSTU3UVVVY1NiY28wTDE0QzFTeUZ6anVxMWU5eGwxblhmaGUzUHFfaXpoYVJJS1FfT09CWGVacWtXMzZfVXRkVXZ0VHZZa0dRb3VSVjhfZ1ZlclNibnh3U2g5TWp2VVUzeHczQm1uSGczNEVPd0paTVhzcWkyNi1uczN4ZTEtRjNPVTVTemxsZnc4RDlwSmPSAdsBQVVfeXFMUHY1cER4STY1WlFmVE1JSjFDckJ4RENPdld6VnhVclFiV0Y0NGZUZkdyc1d1eHphSVZxRWlkYVc2LWF1eERYemFXZXEyWkk1N1FVVWNTYmNvMEwxNEMxU3lGemp1cTFlOXhsMW5YZmhlM1BxX2l6aGFSSUtRX09PQlhlWnFrVzM2X1V0ZFV2dFR2WWtHUW91UlY4X2dWZXJTYm54d1NoOU1qdlVVM3h3M0JtbkhnMzRFT3dKWk1Yc3FpMjYtbnMzeGUxLUYzT1U1U3psbGZ3OEQ5cEpj?oc=5"
-    },
-    {
-      "id": "news-1pg0dfr",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T12:51:14.000Z",
-      "description": "Trump wraps up Asia trip without meeting N. Korean leader following widespread speculation (Yonhap, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261119010600315"
-    },
-    {
-      "id": "news-fesfg0",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T11:45:34.000Z",
-      "description": "(7th LD) Trump, Xi, Putin agree to hold dialogue on nuclear risks, make no mention of N.K. nukes in joint declaration (Yonhap, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261119001357315"
-    },
-    {
-      "id": "news-11xj3xp",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Korean tech giants take different paths in humanoid robot race (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/business/tech-science/20261119/korean-tech-giants-take-different-paths-in-humanoid-robot-race?utm_source=rss"
-    },
-    {
-      "id": "news-12qyz7t",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "[COVER STORY] Students resentful of chaos caused by AI cheating fears at Korea's college entrance exam (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/society/20261119/cover-story-students-resentful-of-chaos-caused-by-ai-cheating-fears-at-koreas-college-entrance-exam?utm_source=rss"
-    },
-    {
-      "id": "news-154ujpf",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "What Korea can learn from California's 10-flagship university system (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/education/20261119/what-korea-can-learn-from-californias-10-flagship-university-system?utm_source=rss"
-    },
-    {
-      "id": "news-1cstj5f",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Korea, US, 11 other countries issue statement on cooperation against online scams (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20261119/korea-us-11-other-countries-issue-statement-on-cooperation-against-online-scams?utm_source=rss"
-    },
-    {
-      "id": "news-1f6q9f1",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Korea's research rising, but universities must break down silos: WUN chief (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/education/20261119/koreas-research-rising-but-universities-must-break-down-silos-wun-chief?utm_source=rss"
-    },
-    {
-      "id": "news-1ihpbgz",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Foreign investment in S. Korea sharply drops in Q3 on stock slump (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/economy/20261119/foreign-investment-in-s-korea-sharply-drops-in-q3-on-stock-slump?utm_source=rss"
-    },
-    {
-      "id": "news-1l17efn",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Korea becomes world's 4th country to reach $1 tril. in annual exports (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/economy/policy/20261119/korea-becomes-worlds-4th-country-to-reach-1-tril-in-annual-exports?utm_source=rss"
-    },
-    {
-      "id": "news-1njwqbt",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "University of Seoul promotes global cooperation through geospatial technology (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/education/20261119/university-of-seoul-promotes-global-cooperation-through-geospatial-technology?utm_source=rss"
-    },
-    {
-      "id": "news-1o8mfia",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Korean tenants turn to credit cards for paying rent amid rising housing costs (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/economy/others/20261119/korean-tenants-turn-to-credit-cards-for-paying-rent-amid-rising-housing-costs?utm_source=rss"
-    },
-    {
-      "id": "news-1qpd435",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Diageo Korea unveils 2027 Year of the Red Sheep Johnnie Walker Blue Label (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261119/diageo-korea-unveils-2027-year-of-the-red-sheep-johnnie-walker-blue-label?utm_source=rss"
-    },
-    {
-      "id": "news-1uay51t",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "IAEA issues first report on Korea's nuclear-powered sub project (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/foreignaffairs/others/20261119/iaea-issues-first-report-on-koreas-nuclear-powered-sub-project?utm_source=rss"
-    },
-    {
-      "id": "news-1v8xwcs",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "P&G Korea donates 20,000 diapers to support vulnerable families (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261119/pg-korea-donates-20000-diapers-to-support-vulnerable-families?utm_source=rss"
-    },
-    {
-      "id": "news-1x4djom",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Expanding Korea-China\ncultural exchanges (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/opinion/editorial/20261119/ed-expanding-korea-china-cultural-exchanges?utm_source=rss"
-    },
-    {
-      "id": "news-7iknef",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Korean brands eye China comeback, but face tougher local rivals (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/economy/20261119/korean-brands-eye-china-comeback-but-face-tougher-local-rivals?utm_source=rss"
-    },
-    {
-      "id": "news-99vi24",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "National Museum of Korea sets annual attendance record (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/20261119/national-museum-of-korea-sets-annual-attendance-record?utm_source=rss"
-    },
-    {
-      "id": "news-a0cyrc",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Silent DJ party draws 2,000 dancers to Seoul's Mount Nam (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/lifestyle/people-events/20261119/silent-dj-party-draws-2000-dancers-to-seouls-mount-nam?utm_source=rss"
-    },
-    {
-      "id": "news-eq6r4e",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Korean National Symphony Orchestra Academy caps yearlong training with 'Soar' concert (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/entertainment/music/20261119/korean-national-symphony-orchestra-academy-caps-yearlong-training-with-soar-concert?utm_source=rss"
-    },
-    {
-      "id": "news-fbv9jm",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Korean Cultural Center opens new state-owned home in Bangkok (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/lifestyle/people-events/20261119/korean-cultural-center-opens-new-state-owned-home-in-bangkok?utm_source=rss"
-    },
-    {
-      "id": "news-ifzmyr",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "'Phantom of the Opera' composer eager to explore Korea's homegrown musicals (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/lifestyle/arts-theater/20261119/phantom-of-the-opera-composer-eager-to-explore-koreas-homegrown-musicals?utm_source=rss"
-    },
-    {
-      "id": "news-mva6v0",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Upgraded FTA expected to boost Korea-China tourism ties, experts say (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/lifestyle/travel-food/20261119/upgraded-fta-expected-to-boost-korea-china-tourism-ties-experts-say?utm_source=rss"
-    },
-    {
-      "id": "news-qmby9u",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Korea's largest game show G-STAR at crossroads as top studios look abroad (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/business/20261119/koreas-largest-game-show-g-star-at-crossroads-as-top-studios-look-abroad?utm_source=rss"
-    },
-    {
-      "id": "news-r79whi",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Seoul City Hall observatory extends evening hours, opens Sundays (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/others/20261119/seoul-city-hall-observatory-extends-evening-hours-opens-sundays?utm_source=rss"
-    },
-    {
-      "id": "news-r92hh0",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Lee urges APEC leaders to help reopen dialogue with North Korea (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/foreignaffairs/20261119/lee-urges-apec-leaders-to-help-reopen-dialogue-with-north-korea?utm_source=rss"
-    },
-    {
-      "id": "news-xonyhb",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:47:02.000Z",
-      "description": "Kolmar Group secures Red Bull's Korean distribution rights (Korea Times, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Korea Times",
-      "axis": "Other",
-      "tags": [
-        "Korea Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Korea Times",
-      "source": "Korea Times",
-      "sourceUrl": "https://www.koreatimes.co.kr/business/companies/20261119/kolmar-group-secures-red-bulls-korean-distribution-rights?utm_source=rss"
-    },
-    {
-      "id": "news-1lzgedh",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:45:15.000Z",
-      "description": "North Korea expands uranium enrichment facility at Yongbyon nuclear complex: IAEA chief - A News (A News, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "A News",
-      "axis": "Other",
-      "tags": [
-        "A News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "A News",
-      "source": "A News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRUhiR2pCNTlQTzZZT1hQVGxxZUtYNzRfMTQ1SnZUcHFTR056UWxMQ0dXM1QwX1FtVVlNdmlNN2Vwa0FqMG1ac1prZm1KVmVCSXVVcm9SMFRZdVRZcUkyX1ZvWVVmaDdBMzhrYzhCaVExQkR2S25XV25WMUlSTzdzWnJ4S0M0VG1IcDZtZUlGU1RsR3dYVWJIWXl6bGg4OGJmekJ3Q0ItSFlsRklhNHBQMWRxQkktTzAyNENjenY5V1RTWUVXT3fSAcsBQVVfeXFMT18wS2Zwc2Jsc2pBQmp3MDJ2TzhodlNGVkZvaGM4NGcwbURHbWYtRVZxM2h2aXdlc0E4aHByX01CMXVfVVJpeUI2NUloX0gwUGQtcVdrbHpaMks5SndJUGFJQl9jaGFoY0RiNDFMODh0eWV1MzFiRi1rQTVEYUVHTGwtMlhkZV90eUttS0tMY3pOZ2F5RjI4dXZXM2hMekgtMmhPMWZhUm5YQ3liMEd3OVZQeXIydEtvWXkxWS11YVlYRGw2Uld2Wm5uaGc?oc=5"
-    },
-    {
-      "id": "news-tkvu4s",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:45:15.000Z",
-      "description": "North Korea expands uranium enrichment facility at Yongbyon nuclear complex: IAEA chief - A News (A News, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "A News",
-      "axis": "Other",
-      "tags": [
-        "A News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "A News",
-      "source": "A News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPXzBLZnBzYmxzakFCancwMnZPOGh2U0ZWRm9oYzg0ZzBtREdtZi1FVnEzaHZpd2VzQThocHJfTUIxdV9VUml5QjY1SWhfSDBQZC1xV2tseloySzlKd0lQYUlCX2NoYWhjRGI0MUw4OHR5ZXUzMWJGLWtBNURhRUdMbC0yWGRlX3R5S21LS0xjek5nYXlGMjh1dlczaEx6SC0yaE8xZmFSblhDeWIwR3c5VlB5cjJ0S29ZeTFZLXVhWVhEbDZSV3Zabm5oZ9IBywFBVV95cUxPXzBLZnBzYmxzakFCancwMnZPOGh2U0ZWRm9oYzg0ZzBtREdtZi1FVnEzaHZpd2VzQThocHJfTUIxdV9VUml5QjY1SWhfSDBQZC1xV2tseloySzlKd0lQYUlCX2NoYWhjRGI0MUw4OHR5ZXUzMWJGLWtBNURhRUdMbC0yWGRlX3R5S21LS0xjek5nYXlGMjh1dlczaEx6SC0yaE8xZmFSblhDeWIwR3c5VlB5cjJ0S29ZeTFZLXVhWVhEbDZSV3Zabm5oZw?oc=5"
-    },
-    {
-      "id": "news-fernpr",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:42:42.000Z",
-      "description": "(6th LD) Trump, Xi, Putin hold unprecedented 3-way summit with nuclear arms reduction in focus (Yonhap, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261119001356315"
-    },
-    {
-      "id": "news-1i6guqf",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T10:38:51.000Z",
-      "description": "North Korea expands uranium enrichment facility at Yongbyon nuclear complex: IAEA chief - US Muslims (US Muslims, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "US Muslims",
-      "axis": "Other",
-      "tags": [
-        "US Muslims",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "US Muslims",
-      "source": "US Muslims",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV2tLN3BOb2c2ajZIbE1iVlczN2J2S3lLOHhISEl2LV91cDZjY3Q1YVliOEE5a0xScVFGR3hQenRNWGhlamFHeERyZ1llNXZhd3RrYmlmenE3SUtFeTkwdUNUS04xcUx3T3J5MjZLQUVSQUwyZHdsQ21rS0NrLVFyUHZNTm5TTE5JNjVBVWZlbFBYX1NPR1FoQWZzekttYkoxdmhlSmlPT2RzQWpnUENzNUxISTgwMEpETnfSAcoBQVVfeXFMUERmWHBBRG9zbk5ORHgtMzF4em5pVXk3YW1nLTlIeV9wU0Q5TGo2N2pyenFySFZFa0djdzlscURKVlBTaTV3am1rblR6MXRkZC1Bd0VwUkxVNEl6MC1OWlZnaEs1QWRDY3dFdXd2NU9HUWxJekNDVVJPbld0UTZxTzdOb0c1SXUxejNuVzA5M3l6VTUtOG16YmVxbUhNM3pxZURpb1FlbWxaYUtnNU8wamRWMDlOQnQ1cUZQRVg3dHR2eDlrS3FNMzhMZw?oc=5"
-    },
-    {
-      "id": "news-feqvzi",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T09:52:11.000Z",
-      "description": "(5th LD) Trump, Xi, Putin hold unprecedented 3-way summit with nuclear arms reduction in focus (Yonhap, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261119001355315"
-    },
-    {
-      "id": "news-hg1eck",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T09:18:18.000Z",
-      "description": "North Korea expanding uranium enrichment facility, UN nuclear watchdog says - Al Jazeera (Al Jazeera, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Al Jazeera",
-      "axis": "Other",
-      "tags": [
-        "Al Jazeera",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Al Jazeera",
-      "source": "Al Jazeera",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOd19ZRjF0c3NGcTZJYkV4aWZmbUR1My1adUJCY25yTmJMT0FJWG5JalhnQ2E0QUc1MERwdnhKeFJTLWIwSF9VWkI3Y0JMTklsREtJNEVqRmpld1JPdm04ZTlZQkxnUDZzaEF2R0xoUE5Rc1NaUHZlRDZESFlxWV9keE9kSVNqcENWYm8zaTVxdzhXTGVRdVhSbENsRmxzN1ZPYzlLTVFxVGV0NGpEMVZfaHJaaFZRRG_SAbwBQVVfeXFMT2hFWWRlYXl0WVptckRuSG05RWtDdVZIeVFRcmFRYkw2RDRtcGZyWVhWeC15TnJKYU5fb0NBbHVjUENoUUZ2OXRnRmU0ODN5VkcyUXZsY0hRY0lpcU5lMUtYVjliYUJuRjAtMzZ6UUFDYWZpb2hPLWU5T21FUlcxdmlMTWZNTDdBXzVRWHhuNHdNY0hHQUFyMjd3cmgyLUNGbkE3VWVsTlZBcWh0MEZVd0c5Q3ZXaHp3Wm5OUGs?oc=5"
-    },
-    {
-      "id": "news-feq499",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T09:07:07.000Z",
-      "description": "(4th LD) Trump, Xi, Putin hold unprecedented 3-way summit with nuclear arms reduction in focus (Yonhap, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yonhap",
-      "axis": "Other",
-      "tags": [
-        "Yonhap",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yonhap",
-      "source": "Yonhap",
-      "sourceUrl": "https://en.yna.co.kr/view/AEN20261119001354315"
     }
   ]
 }
