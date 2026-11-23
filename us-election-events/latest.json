@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-11-22T22:51:26.076Z",
+  "collectedAt": "2026-11-23T02:59:29.192Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -26,16 +26,16 @@
     {
       "id": "gnews-election",
       "url": "https://news.google.com/rss/search?q=US%20election%20Trump%202028&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 46,
-      "filtered": 4
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-election request failed with HTTP 503"
     },
     {
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Trump%20tariffs%20executive%20order&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 21,
-      "filtered": 2
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-policy request failed with HTTP 503"
     },
     {
       "id": "thehill",
@@ -69,29 +69,29 @@
       "id": "axios",
       "url": "https://api.axios.com/feed/",
       "status": "ok",
-      "count": 30,
-      "filtered": 20
+      "count": 31,
+      "filtered": 19
     },
     {
       "id": "gnews-protest",
       "url": "https://news.google.com/rss/search?q=Trump%20protest%20National%20Guard%20deployment&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 49,
-      "filtered": 1
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-protest request failed with HTTP 503"
     },
     {
       "id": "gnews-courts",
       "url": "https://news.google.com/rss/search?q=federal%20judge%20blocks%20executive%20order%20ruling&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-courts request failed with HTTP 503"
     },
     {
       "id": "gnews-midterms",
       "url": "https://news.google.com/rss/search?q=US%20midterm%20elections%202026%20polls&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 49,
-      "filtered": 1
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-midterms request failed with HTTP 503"
     },
     {
       "id": "reliefweb",
@@ -101,8 +101,65 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 262,
+  "count": 245,
   "events": [
+    {
+      "id": "news-vrna4c",
+      "kind": "news",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T02:55:10.000Z",
+      "description": "Kennedy calls Trump, Putin and Xi meeting a &#8216;good thing&#8217; (The Hill, 2026-11-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/policy/international/6236521-kennedy-calls-trump-putin-and-xi-meeting-a-good-thing/"
+    },
+    {
+      "id": "news-1ubeboa",
+      "kind": "news",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T02:09:55.000Z",
+      "description": "Van Hollen says Democrats have a &#8216;generational opportunity&#8217; in the Senate, but the party is &#8216;on probation&#8217; (The Hill, 2026-11-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Hill",
+      "axis": "Other",
+      "tags": [
+        "The Hill",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Hill",
+      "source": "The Hill",
+      "sourceUrl": "https://thehill.com/the-120/6236489-van-hollen-democrats-have-a-generational-opportunity-in-the-senate-but-the-party-is-on-probation/"
+    },
+    {
+      "id": "news-10troxp",
+      "kind": "news",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T00:31:32.000Z",
+      "description": "Trump's top intelligence official is also taking charge of cyber policy (Axios, 2026-11-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Axios",
+      "axis": "Other",
+      "tags": [
+        "Axios",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Axios",
+      "source": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/11/23/jay-clayton-acting-national-cyber-director"
+    },
     {
       "id": "news-xqnv3y",
       "kind": "news",
@@ -842,7 +899,7 @@
       "kind": "news",
       "date": "2026-11-22",
       "isoDate": "2026-11-22T03:10:53.000Z",
-      "description": "Van Hollen says it&#8217;s still a &#8216;wide-open race&#8217; for majority leader (The Hill, 2026-11-22. Headline + link only.)",
+      "description": "Van Hollen: It&#8217;s still a &#8216;wide-open race&#8217; for majority leader (The Hill, 2026-11-22. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "The Hill",
@@ -4764,390 +4821,6 @@
       "locationStr": "Axios",
       "source": "Axios",
       "sourceUrl": "https://www.axios.com/2026/11/20/senate-passes-energy-permitting-bill"
-    },
-    {
-      "id": "news-14oaali",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T02:29:35.000Z",
-      "description": "Trump&#8217;s CISA nominee ducks questions on 2020 election results, Jan. 6 Capitol attack (The Hill, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6231922-senate-holds-losapio-cisa-nomination/"
-    },
-    {
-      "id": "news-1ff92u2",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T02:12:36.000Z",
-      "description": "Majority of Maine voters say Collins is too supportive of Trump: Preliminary Voter Poll - ABC7 Bay Area (ABC7 Bay Area, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ABC7 Bay Area",
-      "axis": "Other",
-      "tags": [
-        "ABC7 Bay Area",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ABC7 Bay Area",
-      "source": "ABC7 Bay Area",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AdBVV95cUxQVGRwRlJrc0lwOVZvT1FYenVPRUVwbVltQkJHcUhmaUlYYWVBeHprZXJJNHZNRG9WQUt5SmxBajlzdGlERjhhME0teTdRV1V6OWxmWjdscXpPQlFFa0xkLVVaZW5UWmNzd1JxY2pIbVJYLTV2bjdMV1BGMGR2YlI4MjJ4bFhES3RTSGcxTV94U1BLR2tRblJ1LUVZaE5YZTZlbUFwV2pIX2tQNl92UjBjSzhpQ2dqWUloSFpqY3piMWx5YkxzMWhOS19vVEVoZXRiLWFpd2FlaDlRNlBiTEswZWlZeW12Z1V6b3FWcDJpXzVybk0tMUxydWg2NUFVVXNwY1lzcWxGX0tyZVU0VFpEQk0zNWt5US1KcXljd2stOXpzS18zYnA2M2taMmtfWGotLTV0dHplZS05RTBRaDEzeVFINEJCWXdSWXJGa3FQREdmY3NiS2tCVFFuS1NxbnJ2VlFJSHRTUTFGamJONDN1cFNmRmg2V2ZuVzlDM3ZOLVAwSmdudUM2OWJ3RTZKQnZYMG80cEFkSWRGZ053SkJHUzdSUjh3S1lnMjVTQVJfQWhNMm5RbG41ZlFVVzlUakNtQ2ZYQU1LdVE0aG1qemVEZ2xLUTBYTmJLNnhRcXpMOHN6UkNtY3JtRlJRVFRrU21Jb3ptbkpMLTVBbnh1YTZ2MTBDQjNRSzlmYk5kZXNHUG16Vmg5WUY3Z0t3dk5md2dZWmRnOENocFlCQ0JLd2pOYlJpVE9CampjNEtjS0RVU0R4aDhqX29ZOXVpMVRKRFprNWpmc0M5MlBxQ1lnc3BfNDFZdlF0djBGekx3cEJCMnUtRXZYTG5YM1VnWlNNV255eTNLTlRFcE1kaW9rNDRjYVBwVUc4VlptcGtaRG5FWkRRT29hckg0bzZKQWVMUGpibEFpeEhWUzZWUWF1bU94b1I3b2VBRzVVV0IxQTRPMlotM1pZVWRLZ29iSkpydzdmN3V1enhXajlfLVZuOVhfMDFUY1gtUjhWYVh1SWRKNjBFQndzVlF4MmZlVHBpVVVfRV9RTkc2dlhPNC1RYXlTVl9jZVBGQ0ZNMnlJWDNwNXNHbEJLaGJBRDlFbml3Vk9VRWFOcXI0NjdlaHpHbUFERkNkSS1SLTRCWWllVEwxcVFNd0JJRWc0MGYtQzFaTmhuTWhjbHFKT1RlOENIMmNjdnVxdkxTenhHMC1QU05TVkhrTzdfdGhieURqUjcySVpXNG45MGRZNUl5c3EtZEV4MElfc05HbkhUdXFkdHVKVEh0dWxzUi1xQzk5ODFCa044?oc=5"
-    },
-    {
-      "id": "news-e3lphq",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T01:30:59.000Z",
-      "description": "Trump tells skeptical Europeans: \"Putin wants to end the war\" (Axios, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/11/20/trump-pushes-putin-ukraine-war-deal"
-    },
-    {
-      "id": "news-cfaokb",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T01:15:17.000Z",
-      "description": "Fetterman says Van Hollen will lose majority leader race: &#8216;I&#8217;m not sure why that&#8217;s news&#8217; (The Hill, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/senate/6232158-fetterman-criticizes-van-hollen-senate/"
-    },
-    {
-      "id": "news-17zxuf3",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T01:05:38.000Z",
-      "description": "California attorney general issues subpoena to Nvidia over chip sales to China (The Hill, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/state-watch/6232059-california-bonta-subpoenas-nvidia-ai-chips/"
-    },
-    {
-      "id": "news-puaryb",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T00:54:05.000Z",
-      "description": "New Jersey U.S. House Election Live Results 2026 - AP News (AP News, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "AP News",
-      "axis": "Other",
-      "tags": [
-        "AP News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "AP News",
-      "source": "AP News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14bVg1ZTNrVFo3SDJDbXl0d1licVRfTVU4bW5reHlkYXhGR0FGR2lGb1Nab2RXZ1hiSmtndjc5NWl5aWZ3YkhaUVNZTDZyVGJqZ21QaXFsQ1NmM0RuOGxzeTRkZllCV0RaQ01qUzdSMGlVS0ZTNkZZRGdyTQ?oc=5"
-    },
-    {
-      "id": "news-1sqr7ud",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T00:16:04.000Z",
-      "description": "Reagan-Appointed Judge Blocks Trump HIV Funding Rules - Newsmax (Newsmax, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Newsmax",
-      "axis": "Other",
-      "tags": [
-        "Newsmax",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Newsmax",
-      "source": "Newsmax",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tQnp3TUNwSnJwdzFPbW1XYWdJb2ZudlRZX2FLVFZXOWl5UkNmSlV0aXlxUmtnWElpUGZleGVDUUh3a1VqVk1ZamI0NnQ2V1VON1F2ZlA5MW5iNml2a1JQa2hVYzVYZ3RnYjRDaE5xRVJ2aHhlWlZZVExBU3Jadw?oc=5"
-    },
-    {
-      "id": "news-1r81nlz",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T00:16:00.000Z",
-      "description": "Reagan-Appointed Judge Blocks Trump HIV Funding Rules - Yahoo (Yahoo, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Yahoo",
-      "axis": "Other",
-      "tags": [
-        "Yahoo",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Yahoo",
-      "source": "Yahoo",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYXlyTzRmSnpfdldEZWJZWDZwTENnMzgxOXdCVEFoYUZrcHdLNHZMWW1rMWxUWEFZRzcwS0cxY1FkZDJ4TVlfMldkQnJUd2gtclF3b3djT29QWXFPSm5lV2dsMS1IWE04S0VQNVhZLUQ5UmRXQmZLcm5WeHlrTHZ0SFJnYjdTbERxMjB6TXJVLVhzblU2am42NERZTQ?oc=5"
-    },
-    {
-      "id": "news-1hpjnnz",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T00:15:23.000Z",
-      "description": "Slotkin picks Van Hollen over Schumer in leadership race (The Hill, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/senate/6232111-senate-leadership-race-updates/"
-    },
-    {
-      "id": "news-7gxg2w",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T00:13:28.000Z",
-      "description": "Rubio edges ahead of Vance in GOP 2028 presidential polls after midterms - Boston Herald (Boston Herald, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Boston Herald",
-      "axis": "Other",
-      "tags": [
-        "Boston Herald",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Boston Herald",
-      "source": "Boston Herald",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdzBCcThtN3F2UEtlWVh5ZXdvU1kybXhMSXRVWkFOQk4tVHR4eUxSc05sMllnczdPRHBoTlZPdVBiakNpeWZZVkhMdUtSWmp0TUxCRGZud1ZEVE4zX0NyY1lBb3JJQkRjWGJGZ2FZMWJHT2ZvdVZwNS1pbVdwOVJRMkx3?oc=5"
-    },
-    {
-      "id": "news-1gc5adg",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T00:00:34.000Z",
-      "description": "Column | Are Republican voters still loyal to Trump? What new polls say. - The Washington Post (The Washington Post, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Washington Post",
-      "axis": "Other",
-      "tags": [
-        "The Washington Post",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Washington Post",
-      "source": "The Washington Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaDY5TktZaXNuT3YydW1Zb1doVG5tUHBsLVV4UUs5cG9tTmlTWXZZeEVtZFJfSVhrTnQ3cWJ2VGFIdEhObnk4cXdJYTl1R21iR0d3V2pGN3p3eDFaWmVyNkZ2ZzZiZVl4ck9YVkhlWU9fcEUwR2ZKRmZVekZBMllHRVZ0TGdEUGZBdVZLZk9Odll5QjZSOGxfRFJMN0plZE9wVjRxNzZ1UTQ0MmtLVy1J?oc=5"
-    },
-    {
-      "id": "news-jwbj3e",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T23:56:47.000Z",
-      "description": "White House lets go of national cyber director, names acting replacement (The Hill, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/administration/6231938-sean-cairncross-resigns-cyber-director/"
-    },
-    {
-      "id": "news-1s6wbz3",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T23:54:00.000Z",
-      "description": "'No demolition': Judge defangs Trump's Kennedy Center threats with demand for secret texts - Raw Story (Raw Story, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Raw Story",
-      "axis": "Other",
-      "tags": [
-        "Raw Story",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Raw Story",
-      "source": "Raw Story",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBWWEJ0dTRQLWpYd1p5UFZSR1FWMXZLN1ljTkVhaEpuaW51em1ESk1HWkhscW5vODF6RHZMcjBldHVhV3lSR3N5WGEzeVrSAV9BVV95cUxPUV9wMmdsREczTS1DalNTSUdsYVlVZWs1bmdISnEyd19RNTE4OU15dnl2ZFQ5bF9xV0N1M2tVbERTUFplc2tkREVhbXczOUhZVXVBT3FrMFBoU3VILVY0RQ?oc=5"
-    },
-    {
-      "id": "news-11lon5h",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T23:49:15.000Z",
-      "description": "Next GOP battle: Who defends Trump on House Oversight (Axios, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/11/19/republicans-house-oversight-gill-fallon"
-    },
-    {
-      "id": "news-1qye7y7",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T23:46:03.000Z",
-      "description": "House Democrats recoil at forcing December shutdown to cut Iran war funding (Axios, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/11/19/government-shutdown-funding-iran-democrat"
-    },
-    {
-      "id": "news-16wv9jo",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T23:30:05.000Z",
-      "description": "Tennessee Democrat describes how she won a Trump district with almost no ad money (PBS NewsHour, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/show/tennessee-democrat-describes-how-she-won-a-trump-district-with-almost-no-ad-money"
-    },
-    {
-      "id": "news-1qljgsp",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T22:59:11.000Z",
-      "description": "Van Hollen backs populism in challenge to Schumer (The Hill, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/newsletters/business-economy/6231869-van-hollen-backs-populism-in-challenge-to-schumer/"
-    },
-    {
-      "id": "news-1ik7l16",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T22:58:31.000Z",
-      "description": "3 takeaways from Trump, Xi and Putin's historic summit (PBS NewsHour, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "PBS NewsHour",
-      "axis": "Other",
-      "tags": [
-        "PBS NewsHour",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "PBS NewsHour",
-      "source": "PBS NewsHour",
-      "sourceUrl": "https://www.pbs.org/newshour/world/3-takeaways-from-trump-xi-and-putins-historic-summit"
-    },
-    {
-      "id": "news-1d0yzd4",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T22:55:09.000Z",
-      "description": "Marco Rubio surges past JD Vance to lead 2028 Republican primary race: poll - New York Post (New York Post, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "New York Post",
-      "axis": "Other",
-      "tags": [
-        "New York Post",
-        "headline",
-        "headline-geocoded"
-      ],
-      "coordsTier": "approximate",
-      "locationStr": "New York",
-      "source": "New York Post",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdVRyanJVNlg2NTBrSjcxZnprY3hwTDFOUFVyd3BjUkt1UGdQYWNwdDJ0dUVYSVlhMFhicmFveUVJazZkY0RoMldmSE82TmZacTYwWEEzR21ZQWt3VmpDTGVCTkJIS0Y1LWY3ZzZsZEEtOElmMDNham9sLWcwMGdWYVVjYXJ2VnRvOWI0b1dTU0R3Smota2MyWk5KWFU0QjNpS0J2RUVEY0xUWlRvc2J3dDY5QQ?oc=5",
-      "lat": 40.71,
-      "lng": -74,
-      "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
-    },
-    {
-      "id": "news-17gl67f",
-      "kind": "news",
-      "date": "2026-11-19",
-      "isoDate": "2026-11-19T22:53:06.000Z",
-      "description": "Lawmakers urge Army to postpone Iowa lead detonation, citing late communication (The Hill, 2026-11-19. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/state-watch/6231845-iowa-lawmakers-urge-army-postponement/"
     }
   ]
 }
