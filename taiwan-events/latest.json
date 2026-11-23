@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-23T02:59:29.192Z",
+  "collectedAt": "2026-11-23T03:17:58.588Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 2
+      "count": 0
     },
     {
       "id": "taipei-times",
@@ -19,16 +19,16 @@
     {
       "id": "gnews-strait",
       "url": "https://news.google.com/rss/search?q=Taiwan%20Strait%20China%20PLA&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-strait request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-defense",
       "url": "https://news.google.com/rss/search?q=Taiwan%20PLA%20military%20drills&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-defense request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "scmp-china",
@@ -54,23 +54,23 @@
     {
       "id": "gnews-arms",
       "url": "https://news.google.com/rss/search?q=Taiwan%20US%20arms%20sale&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-arms request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-kinmen request failed with HTTP 503"
+      "status": "ok",
+      "count": 35,
+      "filtered": 0
     },
     {
       "id": "gnews-hankuang",
       "url": "https://news.google.com/rss/search?q=Taiwan%20Han%20Kuang%20military%20drills&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-hankuang request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 166,
+  "count": 165,
   "events": [
     {
       "id": "news-1hdr604",
@@ -4530,25 +4530,6 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/australianz/xi-hails-comprehensive-turnaround-in-china-australia-ties"
-    },
-    {
-      "id": "news-1jsmz49",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T03:16:47.000Z",
-      "description": "China-Russia-US trilateral summit declaration towards peace (SCMP, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/plus/news/china/article/3375154/china-russia-us-trilateral-summit-declaration-towards-peace"
     }
   ]
 }

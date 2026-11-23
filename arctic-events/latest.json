@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-11-23T02:59:29.192Z",
+  "collectedAt": "2026-11-23T03:17:58.588Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 44
+      "count": 1
     },
     {
       "id": "rci-arctic",
@@ -19,9 +19,9 @@
     {
       "id": "gnews-arctic",
       "url": "https://news.google.com/rss/search?q=Arctic%20Greenland&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-arctic request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "guardian-arctic",
@@ -40,30 +40,30 @@
     {
       "id": "cryopolitics",
       "url": "https://www.cryopolitics.com/feed/",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS cryopolitics request failed: fetch failed"
+      "status": "ok",
+      "count": 3,
+      "filtered": 0
     },
     {
       "id": "gnews-svalbard",
       "url": "https://news.google.com/rss/search?q=Svalbard%20Norway%20Russia%20Arctic&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-svalbard request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-greenland request failed with HTTP 503"
+      "status": "ok",
+      "count": 23,
+      "filtered": 0
     },
     {
       "id": "gnews-nsr",
       "url": "https://news.google.com/rss/search?q=Northern%20Sea%20Route%20Russia%20Arctic&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-nsr request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 578,
+  "count": 579,
   "events": [
     {
       "id": "gdelt-1334517069",
@@ -956,6 +956,40 @@
         "goldstein": -5,
         "tone": -5.45,
         "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334526976",
+      "kind": "event",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T00:00:00.000Z",
+      "observedAt": "2026-11-23T02:30:00.000Z",
+      "description": "Rejection — Unspecified → Male near Finland. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 64,
+      "lng": 26,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Finland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.dailymail.com/news/article-16314015/seal-cam-live.html",
+      "gdelt": {
+        "globalEventId": "1334526976",
+        "eventCode": "120",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 2.6,
+        "mentions": 10,
         "sources": 1
       }
     },

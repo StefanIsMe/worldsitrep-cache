@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "us-election",
-  "collectedAt": "2026-11-23T02:59:29.192Z",
+  "collectedAt": "2026-11-23T03:17:58.588Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -26,16 +26,16 @@
     {
       "id": "gnews-election",
       "url": "https://news.google.com/rss/search?q=US%20election%20Trump%202028&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-election request failed with HTTP 503"
+      "status": "ok",
+      "count": 45,
+      "filtered": 5
     },
     {
       "id": "gnews-policy",
       "url": "https://news.google.com/rss/search?q=Trump%20tariffs%20executive%20order&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-policy request failed with HTTP 503"
+      "status": "ok",
+      "count": 49,
+      "filtered": 1
     },
     {
       "id": "thehill",
@@ -75,23 +75,23 @@
     {
       "id": "gnews-protest",
       "url": "https://news.google.com/rss/search?q=Trump%20protest%20National%20Guard%20deployment&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-protest request failed with HTTP 503"
+      "status": "ok",
+      "count": 49,
+      "filtered": 1
     },
     {
       "id": "gnews-courts",
       "url": "https://news.google.com/rss/search?q=federal%20judge%20blocks%20executive%20order%20ruling&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-courts request failed with HTTP 503"
+      "status": "ok",
+      "count": 49,
+      "filtered": 0
     },
     {
       "id": "gnews-midterms",
       "url": "https://news.google.com/rss/search?q=US%20midterm%20elections%202026%20polls&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-midterms request failed with HTTP 503"
+      "status": "ok",
+      "count": 49,
+      "filtered": 1
     },
     {
       "id": "reliefweb",
@@ -101,7 +101,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 245,
+  "count": 251,
   "events": [
     {
       "id": "news-vrna4c",
@@ -123,6 +123,25 @@
       "sourceUrl": "https://thehill.com/policy/international/6236521-kennedy-calls-trump-putin-and-xi-meeting-a-good-thing/"
     },
     {
+      "id": "news-xqnv3y",
+      "kind": "news",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T02:30:21.000Z",
+      "description": "Midterm Elections 2026: Congress Polls, Charts and More - NBC News (NBC News, 2026-11-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5"
+    },
+    {
       "id": "news-1ubeboa",
       "kind": "news",
       "date": "2026-11-23",
@@ -140,6 +159,44 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/the-120/6236489-van-hollen-democrats-have-a-generational-opportunity-in-the-senate-but-the-party-is-on-probation/"
+    },
+    {
+      "id": "news-1ssm167",
+      "kind": "news",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T01:42:00.000Z",
+      "description": "Poll shows media ripples of midterm blue wave — and Rogan’s lasting appeal - Yahoo (Yahoo, 2026-11-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yahoo",
+      "axis": "Other",
+      "tags": [
+        "Yahoo",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yahoo",
+      "source": "Yahoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU3o0aUdzN3FtNkhnRGNOam45NmFxd1NyUVY3OElUczR6ZDZkTFYzUVNrN0M3dEhUdVNNc2Q1Yzk0YTZFejQ2N0tKZE0ybkZhejd5V282TjE2WktwMG1ZeE1iT2dCNHl4RUdOV2tncll5Ti1uTG45bFE2QkVtVk5qN21UOG9QZ2NpeFJhZ3ozbWx1ODdTZXJR?oc=5"
+    },
+    {
+      "id": "news-12olopt",
+      "kind": "news",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T01:13:19.000Z",
+      "description": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News (NBC News, 2026-11-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "NBC News",
+      "axis": "Other",
+      "tags": [
+        "NBC News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "NBC News",
+      "source": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5"
     },
     {
       "id": "news-10troxp",
@@ -161,42 +218,23 @@
       "sourceUrl": "https://www.axios.com/2026/11/23/jay-clayton-acting-national-cyber-director"
     },
     {
-      "id": "news-xqnv3y",
+      "id": "news-13b34w5",
       "kind": "news",
       "date": "2026-11-22",
-      "isoDate": "2026-11-22T22:00:22.000Z",
-      "description": "Midterm Elections 2026: Congress Polls, Charts and More - NBC News (NBC News, 2026-11-22. Headline + link only.)",
+      "isoDate": "2026-11-22T22:29:00.000Z",
+      "description": "Democrats capture at least 258 House seats in largest sweep since 1992 - The Guardian (The Guardian, 2026-11-22. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "NBC News",
+      "actor": "The Guardian",
       "axis": "Other",
       "tags": [
-        "NBC News",
+        "The Guardian",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5"
-    },
-    {
-      "id": "news-12olopt",
-      "kind": "news",
-      "date": "2026-11-22",
-      "isoDate": "2026-11-22T22:00:21.000Z",
-      "description": "Tracking the 2026 Early Vote: Midterm Election Results - NBC News (NBC News, 2026-11-22. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "NBC News",
-      "axis": "Other",
-      "tags": [
-        "NBC News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "NBC News",
-      "source": "NBC News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5"
+      "locationStr": "The Guardian",
+      "source": "The Guardian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc25YTnV4Nml0WXBrdWVvc2laNDdtWmh6NjFRVGhub0NHSF9tRDFpQi0xZ1NjbU5MYjgwSTQ2VWdzaGlEcW9pdHhxRTNZQUFpUXpGV3hiYzYzYkh3NVNGTU9sYWVpNU5YcjV3aVhER3ljTkVpR2JfdmNpX3l1T05hVldyYXE?oc=5"
     },
     {
       "id": "news-1h76h81",
@@ -547,6 +585,44 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/opinion/campaign/6232755-trump-impact-republican-defeats/"
+    },
+    {
+      "id": "news-cihx3g",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T17:00:00.000Z",
+      "description": "Opinion - Republicans are lucky 2026 wasn’t 2028 - Yahoo (Yahoo, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yahoo",
+      "axis": "Other",
+      "tags": [
+        "Yahoo",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yahoo",
+      "source": "Yahoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYjZmOUwyQWdUUmVfMEVDOTNKdnV6cUZ2M01vN09CY3Z1OVVIWUNONFVSbGE4QTRnX1lUOGhsQ2dpdy1Gb1plVmxDNzFZTzRIYzNJbzAwM3JVYW5IYkhwNTd4UjFEQjRKOWY4eTM3d3p2cEsyOUVodzVzU2tBdURYZDc0SzNpN1hwbmdLN3YwZlc5bDNaUHlEUHlKbw?oc=5"
+    },
+    {
+      "id": "news-1pnt7fb",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T16:00:57.000Z",
+      "description": "Young men abandoned Trump’s GOP in 2026 midterms, new analysis shows - Yahoo (Yahoo, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Yahoo",
+      "axis": "Other",
+      "tags": [
+        "Yahoo",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Yahoo",
+      "source": "Yahoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV29QbUI2MEFSY0l3ajFiMUROX3duYnQ1M1RBaXZBVnBfTjZ6MEs3WHlJUTFOS21XZk82UklXdTV4VjRnVnB6OWx3VC1tclVFemY2Qk5zUV9JLVNNc1NfNllncW1uaEROeHlORmRZY28wZnhSTzMzQkhrRDlyWGw4ejM5UnZ5c2VHRERfTTFNdHJVSmM?oc=5"
     },
     {
       "id": "news-1w3smyg",
@@ -1412,6 +1488,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOaVdrSlpVSE1sNTI1akFLWDJ6U3ZrNnFkNUZKX3ZPYkJkbVpSWURJNjdFSmtLS2dOSDJlcFI5RlJnOFVTVlpyWWRBZjNkOUF5VXRDMzgxRUhLRnlqeHBkLWZYZ2U3czREZndnUDN1c3FVbHd4aHlqd1VOX1VWUHYwbXRNc1NnckR0MzhmVWtaWlpNVXFJVldJamRHblBweTFxM2dZWVdHT2FKazdnTFpTVDRTMHVSRjlSbXpuTm9iMXc0T0ZCejItU3BFSTdwR09RWnpXMWFKUDNINVJpWUxMVm1SR0txWU9OSi1SZ0czam1tcElfSEtJRmRuRmF1enZ0ZnFDdU1PbHRFT1psYlJNdHE2aUYwQQ?oc=5"
     },
     {
+      "id": "news-wouipn",
+      "kind": "news",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T17:00:15.000Z",
+      "description": "Republicans seeking an alternative to JD Vance ask: How about a governor? - CNN (CNN, 2026-11-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "CNN",
+      "axis": "Other",
+      "tags": [
+        "CNN",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "CNN",
+      "source": "CNN",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTBwWEFVM0w4UXlmVmQ3SkFYbXNUUkE2UzdrVFNYTWV2TklBbDh6dWFEMVpfLXJfWDgyRjFDWlI1SjJQTDBIYzJTSHBSX1ZWS0luUGVQbW9adjZDV3c5bmtELWlyejExTnlBSWZHNXRrdUxpVkduXzZYMnh3N0lNaFN4UUVEWi04VWJjcHZaaFI3UjZOY3RzOWJrUEk?oc=5"
+    },
+    {
       "id": "news-17w3xgf",
       "kind": "news",
       "date": "2026-11-21",
@@ -1505,25 +1600,6 @@
       "locationStr": "Axios",
       "source": "Axios",
       "sourceUrl": "https://www.axios.com/2026/11/21/trump-credit-cards-rates-warren"
-    },
-    {
-      "id": "news-1byqa3y",
-      "kind": "news",
-      "date": "2026-11-21",
-      "isoDate": "2026-11-21T16:24:03.000Z",
-      "description": "Federal judge lifts all blocks on Trump mail-in ballots executive order - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-11-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ABC News - Breaking News, Latest News and Videos",
-      "axis": "Other",
-      "tags": [
-        "ABC News - Breaking News, Latest News and Videos",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRy04Q2xhT2NLTnYwZ3c5UTlQZUhjejc5WTN0U2F1TEpFdm0wOHJ3WHZmQ3lZbG5jdV9ISkZucmMxUHdvZnczMHBydGV6OUNVUU9yRVI3YzZuUkF6UTA4MjlwRWdpTDZfZ3B6ZjZldHYzWjQ2T0NNcmt2c0pEdWtUQ0k3R09VNXBRSHh3b1VyYnZrODVxaDE1aXpWak5hd1Rja0I2Zlp30gGrAUFVX3lxTE14RXJENTlqSkFXc3Qycmd5YnBZNkFVVjRmWTBuN1NWVXQ3d3kwcjd5LUhRY2xWQ25qWS1BVDNHM0YzeXJhRmFuMV96elpWakMxVmtyUUlEdXlpejhXTW5wUmljWXV1LUpxZVMyU0dDQTdNb2tjdVN6eGZYZlpyX21UbVNia3U4UzhSUzlfWGk3YktncnBTWEZLclhOOUxWWk5vVFlPWmRqMW8xRQ?oc=5"
     },
     {
       "id": "news-tm37zx",
@@ -1857,25 +1933,6 @@
       "sourceUrl": "https://thehill.com/policy/healthcare/6231776-democrats-expand-medicare-coverage/"
     },
     {
-      "id": "news-1pruufa",
-      "kind": "news",
-      "date": "2026-11-21",
-      "isoDate": "2026-11-21T10:42:00.000Z",
-      "description": "US midterms 2026: live results - The Economist (The Economist, 2026-11-21. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Economist",
-      "axis": "Other",
-      "tags": [
-        "The Economist",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Economist",
-      "source": "The Economist",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5veVBJOU1BQW5yR0p6MVlhaEMxZkZCQnVqNjZQemw4M0VJMEpsdmZnWWdmLW9EbWtyUUhFNjJrNnlWU3R4NGZOLWR6blp6RGlfby1QRzQ3UFlfNGNXNG9raWw2Rm95UXctMkN0UGM1c2FLQnZ3bVJhNnNR?oc=5"
-    },
-    {
       "id": "news-1tlevin",
       "kind": "news",
       "date": "2026-11-21",
@@ -2032,6 +2089,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oVzRXcGpOaWh3dEotajdkSng5LTAwUWYyM3lKSkd2Yy1wejF6ZmcwZUJXS21uNE56bnpGVGphbDF1dzJXX3VfU2dSM24wOERxUmItekRBcmN2aU9paUo0cUhpdUJ1Um1RbGxQQg?oc=5"
     },
     {
+      "id": "news-1f8qgum",
+      "kind": "news",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T08:00:00.000Z",
+      "description": "2026 Texas Midterm Election Results - AP News (AP News, 2026-11-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "AP News",
+      "axis": "Other",
+      "tags": [
+        "AP News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "AP News",
+      "source": "AP News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01ekZMQkpEN0tQTUl1N0o5UXBMWXVSWHV4aG1ZYnNuT2lCRllyUlhTV3JmeHdaMnY1d3lQZ0xsR1Q0LXhmNlNKTUdxeVhrMWgtZXlwRTQtQXZQbExjUUZENXFId3Z0dy1O?oc=5"
+    },
+    {
       "id": "news-18om4nv",
       "kind": "news",
       "date": "2026-11-21",
@@ -2068,6 +2144,25 @@
       "locationStr": "ABC7 Bay Area",
       "source": "ABC7 Bay Area",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi0gdBVV95cUxOQnZwS1VVbHo2R2hwSG1KeUprVzl6dll2SzgtczdySW5jeUl4aDRMR0hPNy01UFVTYVFSb0ZvM3N5R08zRHp6NGFZZk1Na0NsQUpWWnhuLTJRNnpxY3NhSGpSQ3I1NzdKX0RlQUNBSVpYZHhFSkRaTVBDYW8ybjZrVUJETERTbF9qelVVR19GT2JPZ2ljSk9uWFhVbG53dnF2U2l4Sk1QUjVtUXkxMTFSSnFsdl9DdkhJMXVueU96OVVGUFRUUU5IMGRsWjNHWHV3aktWWGlBUTBUdGR3WU9zNC1IMGtpMnUtTTNFWVJTcW5GMi14X2dqS0dqcFFIbDktamZRNHBNOVFXVUUwendvNXMwazhmRjdJcjJoLUR4VlhYSmRDYTRsYzU4VUlCQk94OThSYmJrMTVoQTBwZ29XclpGdDFNeFdENFVCcXBkWE1yNkZzSGhiV2VfTnZlT1RadERva2pZb1otM2ZoWUhZTE9ZclV4OTdjU1FmYWs5ZFJqUW5aa0IyUlJBUnlsRDdxZWlBcmFoOHBHdG5YM2J3VTcxXzJkTzZmUEFYQXNsVmZjZV9EaWFKVjVVaElpSlY3WUlUT0xIdkhZQU5Xd2oxYm04U3VfbnE5TXFSNXZZN1lPaExQQ0RxSkRWY2JDcjJnYVpPcjhzZ2lqX0VibG5EX2NyUmcyUWMwOTZURUFhWXhOSVZlQ0RjOVNiY2kxRDdDWHJXNFYzaXBueG1FU1dVZ2xvcnhkd3poUEkwQmstUVBrUmdxZWpiS3hxQVkyVGpVZWVDdzN4VVJxcHExQWVFT1Npa096SEl4UmthTERoR0NOa0toMXRHWDNyNDBQNHZRT2tySUppM3gydzJXSlJOSFVaSUZSeDVaYWJhN0ltWXMtangxMkwwcW5fdXlmM0J5QzZaMGlucFJEQUdDMnFsN2lvazJ6RTAxRE0zVEVqQm9ZVWJzNDNZbVpBcXROMWtQcUE2NzVfN1lHN0oyeWt1eFZPRUFHSjZRdmVvLVo4V1c0czlQTUlJcmtjV2xiZVh3MWZub3cyR3FkdW9sSmxPUVhoNWpTYkJETXRKZkZIMklrQ1FWNDdVbkNRWXQ3MUtSVFBTSmp0MWh5Y0draXQ5d2djTzVoSWc5UXZXdkM1UWl0ekNHNkFmOE05QmxfQ1RrQ1hZeGhHVFgwVWpBQVRoNklfcDRqZHBFY1FxaHRPR3pQMzFwTVp1NERFd0FhcTN3VjlBdm9kOTBsaGdRYTFrUVE0LV9PZnVJalVlT2EzS2ZSSXYxZzk1Zk12U1I2aGtaaXc?oc=5"
+    },
+    {
+      "id": "news-7whiqb",
+      "kind": "news",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T07:08:44.000Z",
+      "description": "Trump slaps 100% tariff on some pharmaceutical drugs via executive order - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-11-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ABC News - Breaking News, Latest News and Videos",
+      "axis": "Other",
+      "tags": [
+        "ABC News - Breaking News, Latest News and Videos",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVHNjYmZWRzV1Rno1QnBJdlAxR1Jjd1dGLTdTRHlUQnRUQmpCOUFJSDc0cFdCSy1heGE1SUc5R1k3WWJkZGFKZ01vYUQyaTM0bzgxSWJ5R2RVYjdQNjU2NjhVZ2lUZGtUM1Ffa0RQRjFPb2tvOFFCVXN1M1pPUnN1UTYwZVlWdXZWSkppX014QkJPQ0U4VDAzMzJGYnlKRURCemFWMVd6SVZTVGfSAbABQVVfeXFMT3pWWlhKeVJ4NHJNZ3Y4TWNzT0RTYi1UajFQcnJlVDUxLWpOY0N4bTFNWVlRaDVnRjYxaS1tMVVMNkZUYlhmTFJlT1BvSmpEMWVvelhIRXhIeUQtS0d2V2NlZ3ZLTXFpYXlDT0VPQkRLRjA5eXNKZnlzSGRrajJUeEtUUWRYNnhlRHVXYldaU3NBdG1VTVBqcXRtY3ViMHQ1MjJzVlhIRzNFNHhUeVI3dWI?oc=5"
     },
     {
       "id": "news-viuhid",
@@ -2239,6 +2334,25 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/regulation/court-battles/6234774-justice-sotomayor-midterm-safeguards/"
+    },
+    {
+      "id": "news-1byqa3y",
+      "kind": "news",
+      "date": "2026-11-21",
+      "isoDate": "2026-11-21T00:21:18.000Z",
+      "description": "Federal judge lifts all blocks on Trump mail-in ballots executive order - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-11-21. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ABC News - Breaking News, Latest News and Videos",
+      "axis": "Other",
+      "tags": [
+        "ABC News - Breaking News, Latest News and Videos",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRy04Q2xhT2NLTnYwZ3c5UTlQZUhjejc5WTN0U2F1TEpFdm0wOHJ3WHZmQ3lZbG5jdV9ISkZucmMxUHdvZnczMHBydGV6OUNVUU9yRVI3YzZuUkF6UTA4MjlwRWdpTDZfZ3B6ZjZldHYzWjQ2T0NNcmt2c0pEdWtUQ0k3R09VNXBRSHh3b1VyYnZrODVxaDE1aXpWak5hd1Rja0I2Zlp30gGrAUFVX3lxTE14RXJENTlqSkFXc3Qycmd5YnBZNkFVVjRmWTBuN1NWVXQ3d3kwcjd5LUhRY2xWQ25qWS1BVDNHM0YzeXJhRmFuMV96elpWakMxVmtyUUlEdXlpejhXTW5wUmljWXV1LUpxZVMyU0dDQTdNb2tjdVN6eGZYZlpyX21UbVNia3U4UzhSUzlfWGk3YktncnBTWEZLclhOOUxWWk5vVFlPWmRqMW8xRQ?oc=5"
     },
     {
       "id": "news-10qtcj7",
@@ -3610,6 +3724,25 @@
       "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
     },
     {
+      "id": "news-14vnyh9",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T17:01:56.000Z",
+      "description": "Trust in Elections Surges for Majority of Americans After 2026 Midterms - UC San Diego Today (UC San Diego Today, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "UC San Diego Today",
+      "axis": "Other",
+      "tags": [
+        "UC San Diego Today",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "UC San Diego Today",
+      "source": "UC San Diego Today",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNkZrM2FfdGtIeXRSYUFzbTQ3ZzYwUFZpSGc1NjZ4MkR5VXBvcHZPV2tWdWt6SG16OExmUlFWbjFXZWxvMG80RzMtQXZxMUQ5Sk1JYVlsRGhocTBtQmpVU1VGZmxrN2U4WnNGOWpsdFZQNXVKMXlWWF9STng5QnlmRDUtSzdoeDZKUTRZWUtoakJBa3dfQmc3Xy1ubDJrbTNQN0E?oc=5"
+    },
+    {
       "id": "news-1gup39a",
       "kind": "news",
       "date": "2026-11-20",
@@ -4458,7 +4591,7 @@
       "kind": "news",
       "date": "2026-11-20",
       "isoDate": "2026-11-20T10:03:58.000Z",
-      "description": "Ron DeSantis Ponders a Presidential Run in a Post-Trump World - The New York Times (The New York Times, 2026-11-20. Headline + link only.)",
+      "description": "Is There Room for Ron DeSantis in a Post-Trump World? He Seems to Think So. - The New York Times (The New York Times, 2026-11-20. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "The New York Times",
@@ -4475,6 +4608,25 @@
       "lat": 40.71,
       "lng": -74,
       "coordsNote": "Headline gazetteer match: \"New York\" (city); verify via source article."
+    },
+    {
+      "id": "news-1pruufa",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T10:00:00.000Z",
+      "description": "US midterms 2026: live results - The Economist (The Economist, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Economist",
+      "axis": "Other",
+      "tags": [
+        "The Economist",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Economist",
+      "source": "The Economist",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5veVBJOU1BQW5yR0p6MVlhaEMxZkZCQnVqNjZQemw4M0VJMEpsdmZnWWdmLW9EbWtyUUhFNjJrNnlWU3R4NGZOLWR6blp6RGlfby1QRzQ3UFlfNGNXNG9raWw2Rm95UXctMkN0UGM1c2FLQnZ3bVJhNnNR?oc=5"
     },
     {
       "id": "news-46p3br",
@@ -4783,44 +4935,6 @@
       "locationStr": "The Hill",
       "source": "The Hill",
       "sourceUrl": "https://thehill.com/regulation/court-battles/6232324-doj-seeks-alaska-senate-lawsuit-dismissal/"
-    },
-    {
-      "id": "news-g6yho0",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T03:09:11.000Z",
-      "description": "Senate approves key permitting reform bill, sends to House (The Hill, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "The Hill",
-      "axis": "Other",
-      "tags": [
-        "The Hill",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "The Hill",
-      "source": "The Hill",
-      "sourceUrl": "https://thehill.com/homenews/senate/6229829-senate-passes-permitting-reform/"
-    },
-    {
-      "id": "news-15v47wx",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T03:08:28.000Z",
-      "description": "Senate passes Trump-backed permitting bill (Axios, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Axios",
-      "axis": "Other",
-      "tags": [
-        "Axios",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Axios",
-      "source": "Axios",
-      "sourceUrl": "https://www.axios.com/2026/11/20/senate-passes-energy-permitting-bill"
     }
   ]
 }

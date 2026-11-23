@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-23T02:59:29.192Z",
+  "collectedAt": "2026-11-23T03:17:58.588Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 5
+      "count": 0
     },
     {
       "id": "gcaptain",
@@ -26,16 +26,16 @@
     {
       "id": "gnews-houthis",
       "url": "https://news.google.com/rss/search?q=Houthis%20Yemen%20Red%20Sea&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-houthis request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "gnews-shipping",
       "url": "https://news.google.com/rss/search?q=Red%20Sea%20shipping%20Houthi%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-shipping request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "splash247",
@@ -68,9 +68,9 @@
     {
       "id": "gnews-mandeb",
       "url": "https://news.google.com/rss/search?q=Bab%20el-Mandeb%20vessel%20drone%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-mandeb request failed with HTTP 503"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -80,8 +80,65 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 286,
+  "count": 291,
   "events": [
+    {
+      "id": "news-1mbug14",
+      "kind": "news",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T02:38:56.000Z",
+      "description": "Yemen’s Houthis claim strikes on Saudi oil refinery - The Avenue Mail (The Avenue Mail, 2026-11-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Avenue Mail",
+      "axis": "Other",
+      "tags": [
+        "The Avenue Mail",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Avenue Mail",
+      "source": "The Avenue Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQb1VFeWM5Y1VQbEZvVy1PVl92Mmg0ZzVGclNndGpFUHFGQzE4WHgtYnhiMFhSYmlOa3UzVFJNaGQ0c1VkRVpHMnVyajBISkhmRHBOT3cxMGJpZHBUeHJUb3NxOE5tYkxneTZEazB6RGNFZkUxOTdEeFFTdWJHMENQamluVGxLUnpPRDdNMA?oc=5"
+    },
+    {
+      "id": "news-e9m98j",
+      "kind": "news",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T00:39:38.000Z",
+      "description": "UN condemns drone attacks off Libya coast, urges investigation - The Times of Israel (The Times of Israel, 2026-11-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Times of Israel",
+      "axis": "Other",
+      "tags": [
+        "The Times of Israel",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Times of Israel",
+      "source": "The Times of Israel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSkpHc2FWWDJMM2dhZmJEMXUxaXdZMXZoazFOSHlLMV9Cam1xM2lGNEM3S2d3YUFWQU53aEI0X3Y1NXY0ajFMOHlja1Z4NjNWaVRwV0ViazM4S3pjT0ZtT0daZDVYaDJpbVJBdnBTU2xPazJCWnBCb05aTHNyS0ozSzg1aHJDY1FSYnpRcW9GRlU4TTE1VDc2WlltRjhXcVZsQUdwdUYyQjR5eFk?oc=5"
+    },
+    {
+      "id": "news-1kejd40",
+      "kind": "news",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T00:23:31.000Z",
+      "description": "Yemen's Houthis attack Saudi Arabia's Rabigh oil refinery - The New Arab (The New Arab, 2026-11-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The New Arab",
+      "axis": "Other",
+      "tags": [
+        "The New Arab",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The New Arab",
+      "source": "The New Arab",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVmFVLTlvczdRWVpRQ1hIOWhIblUza3c5Q2lDX3Ewdk95Y0JkOF83aldZU0VXMEJ4bTNHcUlrUkpGZFFyVXVVQXpFckpOd1BkOVJKa2oxWEZsb0piLUJuTk5KdGxxc2M2Uy1ocUc2clpCWE1SMndkaTUtQ0hkUGRjdkNTRmRoeXhnRXlNNdIBkgFBVV95cUxNc2NJRnFIZWVnZWRlcFl4eXd4aUZCaWxCYWIyVExRcU5KVklLMWtoTmZoYWxJT2szN2VhRmw2VWl3bFk4eU9iM0NzcHpic3BNSlA3ZUw5bFk5WnZwdktrSEtxQnRuR1U0Q0FNV1Q3akxOZ0dfeDM0aUt3cHBvQXh4RV9HMlNXR0NuNHZONDUyLU9Qdw?oc=5"
+    },
     {
       "id": "gdelt-1334516349",
       "kind": "event",
@@ -333,23 +390,23 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RYTdJa3FLUUotRjRtWmFYcWsyT29UT0FCVDUycVp4MmlCMUkzUVR3cVJUVTJWNDlQX0JLbk01S29SZEtLM0lXZHdzX2U4N2JBVDdhVjN2TEdlczg?oc=5"
     },
     {
-      "id": "news-1g1gnon",
+      "id": "news-1ojrhab",
       "kind": "news",
       "date": "2026-11-22",
-      "isoDate": "2026-11-22T20:04:20.000Z",
-      "description": "Middle East latest: Tanker incident reported in Gulf as Iran claims two ships catch fire - The National (The National, 2026-11-22. Headline + link only.)",
+      "isoDate": "2026-11-22T19:59:18.000Z",
+      "description": "Houthis Claim Direct Hit on Rabigh Refinery, No Saudi Damage Confirmation - https://houseofsaud.com/ (https://houseofsaud.com/, 2026-11-22. Headline + link only.)",
       "type": "other",
       "action": "News report",
-      "actor": "The National",
+      "actor": "https://houseofsaud.com/",
       "axis": "Other",
       "tags": [
-        "The National",
+        "https://houseofsaud.com/",
         "headline"
       ],
       "coordsTier": "unplaced",
-      "locationStr": "The National",
-      "source": "The National",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUHN2cW4tcHM0SnF6VTliWkZvYnptOHl1T19RT0p4TlZKNUd0VlNQd3hWR2lNbUh4UEN2cmZzZGNnTjRya1FJOV9WZmd3dkU1bmNJdFZwVEhIMmhhT0hkZkYtWVZ3QXU5R25JRTVNTVVpaFp6VHNQaW9rV3hsYVR1UjAwclM0NWhqZkE?oc=5"
+      "locationStr": "https://houseofsaud.com/",
+      "source": "https://houseofsaud.com/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBENWpFV3cwaHRNZFdabkNCcU9xNFJZcG9mamZHdmpGbDg2U3VyRnhGekZyR2lwZlRfTGdwZVlXOWswUFoxa1V4UHFyMF9QYmNLZFFoNGt1U3Y2dW44a0wwRGVUMnE?oc=5"
     },
     {
       "id": "news-1oc7xgk",
@@ -700,6 +757,25 @@
       "locationStr": "Yahoo",
       "source": "Yahoo",
       "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMVM2bjRLSXRQWGMxa3dubGNPRTY0TUJyT3lzd3ZpeUpMa1MyNUdfOWFXajVTV2FHdHA0MFp2MFFRZUlZeVVKMGVIT0E1U09ocjVDV3hUakFOSmpCODZCT1lSalBzN2p3VGVCRENXekZRYWowN293ekIwaUFfOC1TYW4yS0NtbnhxRW5ueVY0UU54dw?oc=5"
+    },
+    {
+      "id": "news-1g1gnon",
+      "kind": "news",
+      "date": "2026-11-22",
+      "isoDate": "2026-11-22T09:04:17.000Z",
+      "description": "Middle East latest: Tanker incident reported in Gulf as Iran claims two ships catch fire - The National (The National, 2026-11-22. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The National",
+      "axis": "Other",
+      "tags": [
+        "The National",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The National",
+      "source": "The National",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUHN2cW4tcHM0SnF6VTliWkZvYnptOHl1T19RT0p4TlZKNUd0VlNQd3hWR2lNbUh4UEN2cmZzZGNnTjRya1FJOV9WZmd3dkU1bmNJdFZwVEhIMmhhT0hkZkYtWVZ3QXU5R25JRTVNTVVpaFp6VHNQaW9rV3hsYVR1UjAwclM0NWhqZkE?oc=5"
     },
     {
       "id": "news-snj01a",
@@ -7686,6 +7762,25 @@
       "locationStr": "France 24 Middle East",
       "source": "France 24 Middle East",
       "sourceUrl": "https://www.france24.com/en/middle-east/20261120-yemen-s-houthis-target-riyadh-after-saudi-coalition-s-special-operation"
+    },
+    {
+      "id": "news-hnt6mm",
+      "kind": "news",
+      "date": "2026-11-20",
+      "isoDate": "2026-11-20T18:36:15.000Z",
+      "description": "Yemen's Houthis target Riyadh after Saudi coalition's 'special operation' - France 24 (France 24, 2026-11-20. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "France 24",
+      "axis": "Other",
+      "tags": [
+        "France 24",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "France 24",
+      "source": "France 24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM3BmNkV0RnNFODVuMEgzbEZWaVRzRWFTdDFuNno5dzZEaXdNSFRqNVhqY0dSWFJkUlBnY3FCMl8xajZJcHNzRHFmNzJWMGFTc3RfYWVZeVhRM29FaTgzc1VOeUxaLWl5NnQ4a011ZEJobGc1X1ZFY2NnREY5VFNoNnJ6YlhQTkRZc24wMnVPUk5yTjcyX29XYndZZkZJV1pzQWIzdlJaM0Ntb0tiejVVT1l4T2x4V3M4Q2h0dg?oc=5"
     },
     {
       "id": "news-njmpd3",
