@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-23T12:14:27.990Z",
+  "collectedAt": "2026-11-23T13:43:50.194Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 14
+      "count": 2
     },
     {
       "id": "taipei-times",
@@ -42,14 +42,14 @@
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
       "count": 3,
-      "filtered": 8
+      "filtered": 7
     },
     {
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 6,
-      "filtered": 44
+      "count": 7,
+      "filtered": 43
     },
     {
       "id": "gnews-arms",
@@ -80,8 +80,65 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 173,
+  "count": 175,
   "events": [
+    {
+      "id": "news-s7rhpa",
+      "kind": "news",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T13:33:00.000Z",
+      "description": "After Japan's APEC snub, what's ahead for China ties? (DW, 2026-11-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW",
+      "axis": "Other",
+      "tags": [
+        "DW",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DW",
+      "source": "DW",
+      "sourceUrl": "https://www.dw.com/en/after-japan-s-apec-snub-what-s-ahead-for-china-ties/a-80020823?maca=en-rss-en-asia-5133-rdf"
+    },
+    {
+      "id": "news-1uzehkn",
+      "kind": "news",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T13:00:07.000Z",
+      "description": "China’s advanced Type 055 destroyer to make its Zhuhai air show debut (SCMP, 2026-11-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/military/article/3375499/chinas-advanced-type-055-destroyer-make-its-zhuhai-air-show-debut"
+    },
+    {
+      "id": "news-1o3f3bo",
+      "kind": "news",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T12:32:21.000Z",
+      "description": "Chinese official sentenced to death for leaking secrets to foreign country (Straits Times, 2026-11-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/chinese-official-sentenced-to-death-for-leaking-secrets-to-foreign-country"
+    },
     {
       "id": "news-vly2fw",
       "kind": "news",
@@ -755,6 +812,74 @@
         "quadClass": 4,
         "goldstein": -5,
         "tone": -8.44,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334590566",
+      "kind": "event",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T00:00:00.000Z",
+      "observedAt": "2026-11-23T13:00:00.000Z",
+      "description": "Demand — Unspecified → Community near Taiwan. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Demand (GDELT 100)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Demand"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://bworldonline.com/the-nation/2026/11/23/796137/asian-media-leaders-urge-stronger-communities-to-counter-disinformation/",
+      "gdelt": {
+        "globalEventId": "1334590566",
+        "eventCode": "100",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -5,
+        "tone": -4.91,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334590646",
+      "kind": "event",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T00:00:00.000Z",
+      "observedAt": "2026-11-23T13:00:00.000Z",
+      "description": "Threat — Unspecified → Taiwan near Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Threat (GDELT 130)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.guitarworld.com/gear/guitar-pedals/zachary-vex-zvex-pedals-interview",
+      "gdelt": {
+        "globalEventId": "1334590646",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -1.61,
         "mentions": 10,
         "sources": 1
       }
@@ -4835,63 +4960,6 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3375277/how-beijings-south-china-sea-stance-benefits-rare-joint-warning-icc"
-    },
-    {
-      "id": "news-1128k9n",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T13:25:44.000Z",
-      "description": "Why China is unwilling to be the world's next climate leader (Straits Times, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Straits Times",
-      "axis": "Other",
-      "tags": [
-        "Straits Times",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
-      "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/why-china-is-unwilling-to-be-the-worlds-next-climate-leader"
-    },
-    {
-      "id": "news-1ymj7ir",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T13:05:33.000Z",
-      "description": "US and China hold maritime security talks in parallel with Xi-Trump meetings (SCMP, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/news/china/military/article/3375274/us-and-china-hold-maritime-security-talks-parallel-trump-xi-meetings"
-    },
-    {
-      "id": "news-t7nzfe",
-      "kind": "news",
-      "date": "2026-11-20",
-      "isoDate": "2026-11-20T12:30:06.000Z",
-      "description": "China didn’t just host an Apec summit. It ran a year-long campaign (SCMP, 2026-11-20. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "SCMP",
-      "axis": "Other",
-      "tags": [
-        "SCMP",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "SCMP",
-      "source": "SCMP",
-      "sourceUrl": "https://www.scmp.com/opinion/china-opinion/article/3375119/china-didnt-just-host-apec-summit-it-ran-year-long-campaign"
     }
   ]
 }
