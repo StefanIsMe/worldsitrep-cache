@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-24T10:18:27.983Z",
+  "collectedAt": "2026-11-24T11:40:23.733Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 38
+      "count": 2
     },
     {
       "id": "taipei-times",
@@ -19,9 +19,9 @@
     {
       "id": "gnews-strait",
       "url": "https://news.google.com/rss/search?q=Taiwan%20Strait%20China%20PLA&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-strait request failed with HTTP 429"
     },
     {
       "id": "gnews-defense",
@@ -34,8 +34,8 @@
       "id": "scmp-china",
       "url": "https://www.scmp.com/rss/4/feed",
       "status": "ok",
-      "count": 40,
-      "filtered": 10
+      "count": 39,
+      "filtered": 11
     },
     {
       "id": "dw-asia",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 35,
       "filtered": 0
     },
     {
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 219,
+  "count": 222,
   "events": [
+    {
+      "id": "news-1mrc80u",
+      "kind": "news",
+      "date": "2026-11-24",
+      "isoDate": "2026-11-24T10:42:00.000Z",
+      "description": "EU imposes import quotas for hybrid vehicles from China (DW, 2026-11-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW",
+      "axis": "Other",
+      "tags": [
+        "DW",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DW",
+      "source": "DW",
+      "sourceUrl": "https://www.dw.com/en/eu-imposes-import-quotas-for-hybrid-vehicles-from-china/a-80029981?maca=en-rss-en-asia-5133-rdf"
+    },
     {
       "id": "news-1tw2prs",
       "kind": "news",
@@ -1592,6 +1611,74 @@
         "goldstein": -5,
         "tone": -5.68,
         "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334764648",
+      "kind": "event",
+      "date": "2026-11-24",
+      "isoDate": "2026-11-24T00:00:00.000Z",
+      "observedAt": "2026-11-24T11:15:00.000Z",
+      "description": "Threat — Japan → China near Taiwan Strait, Taiwan (general), Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 119,
+      "action": "Threat (GDELT 138)",
+      "actor": "Japan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taiwan Strait, Taiwan (general), Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://fortune.com/2026/11/24/takaichi-xi-apec-handshake-china-japan-tensions/",
+      "gdelt": {
+        "globalEventId": "1334764648",
+        "eventCode": "138",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -0.94,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334765058",
+      "kind": "event",
+      "date": "2026-11-24",
+      "isoDate": "2026-11-24T00:00:00.000Z",
+      "observedAt": "2026-11-24T11:15:00.000Z",
+      "description": "Disapproval — United States → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "United States",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/24/2003868315",
+      "gdelt": {
+        "globalEventId": "1334765058",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0,
+        "mentions": 2,
         "sources": 1
       }
     },
