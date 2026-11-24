@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-24T20:47:15.198Z",
+  "collectedAt": "2026-11-24T21:34:10.868Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 34
+      "count": 2
     },
     {
       "id": "aa-mali",
@@ -83,7 +83,7 @@
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 26,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 162,
+  "count": 164,
   "events": [
     {
       "id": "gdelt-1334726036",
@@ -1561,6 +1561,74 @@
         "quadClass": 4,
         "goldstein": -10,
         "tone": -2.23,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334855964",
+      "kind": "event",
+      "date": "2026-11-24",
+      "isoDate": "2026-11-24T00:00:00.000Z",
+      "observedAt": "2026-11-24T21:15:00.000Z",
+      "description": "Assault — Niger → Tourist near Niger. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 180)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202611240495.html",
+      "gdelt": {
+        "globalEventId": "1334855964",
+        "eventCode": "180",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -1.46,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334855965",
+      "kind": "event",
+      "date": "2026-11-24",
+      "isoDate": "2026-11-24T00:00:00.000Z",
+      "observedAt": "2026-11-24T21:15:00.000Z",
+      "description": "Assault — Niger → Tourist near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 180)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://allafrica.com/stories/202611240495.html",
+      "gdelt": {
+        "globalEventId": "1334855965",
+        "eventCode": "180",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -1.46,
         "mentions": 2,
         "sources": 1
       }
