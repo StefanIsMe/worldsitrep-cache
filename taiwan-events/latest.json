@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-25T14:10:37.793Z",
+  "collectedAt": "2026-11-25T15:02:14.250Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 37
+      "count": 1
     },
     {
       "id": "taipei-times",
@@ -41,15 +41,15 @@
       "id": "dw-asia",
       "url": "https://rss.dw.com/rdf/rss-en-asia",
       "status": "ok",
-      "count": 6,
-      "filtered": 9
+      "count": 4,
+      "filtered": 10
     },
     {
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 20,
-      "filtered": 30
+      "count": 19,
+      "filtered": 31
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 34,
+      "count": 35,
       "filtered": 0
     },
     {
@@ -80,14 +80,14 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 266,
+  "count": 269,
   "events": [
     {
       "id": "news-16sszc7",
       "kind": "news",
       "date": "2026-11-25",
       "isoDate": "2026-11-25T14:03:18.000Z",
-      "description": "US proposes new 20% tariffs on China a week after Trump-Xi summit (SCMP, 2026-11-25. Headline + link only.)",
+      "description": "US proposes new tariffs on China a week after Trump-Xi summit (SCMP, 2026-11-25. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "SCMP",
@@ -195,6 +195,25 @@
       "locationStr": "Straits Times",
       "source": "Straits Times",
       "sourceUrl": "https://www.straitstimes.com/asia/xis-graft-probe-of-shanghai-rising-star-upends-traditional-path-to-power-in-china"
+    },
+    {
+      "id": "news-1o6fffr",
+      "kind": "news",
+      "date": "2026-11-25",
+      "isoDate": "2026-11-25T12:46:40.000Z",
+      "description": "Xi’s graft probe of Shanghai rising star Chen Jining upends traditional path to power in China (Straits Times, 2026-11-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/xis-graft-probe-of-shanghai-rising-star-upends-traditional-path-to-power-in-china"
     },
     {
       "id": "news-12l3hj9",
@@ -1964,6 +1983,40 @@
         "goldstein": -5,
         "tone": -8.15,
         "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1334985428",
+      "kind": "event",
+      "date": "2026-11-25",
+      "isoDate": "2026-11-25T00:00:00.000Z",
+      "observedAt": "2026-11-25T14:15:00.000Z",
+      "description": "Threat — Administration → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Threat (GDELT 138)",
+      "actor": "Administration",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.933thedrive.com/2026/11/25/us-proposes-new-tariffs-on-14-trading-partners-to-fight-excess-factory-capacity/",
+      "gdelt": {
+        "globalEventId": "1334985428",
+        "eventCode": "138",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -2.86,
+        "mentions": 2,
         "sources": 1
       }
     },
@@ -5028,6 +5081,25 @@
       "locationStr": "SCMP",
       "source": "SCMP",
       "sourceUrl": "https://www.scmp.com/news/us/article/3375472/how-us-restrictions-china-are-reshaping-science-race"
+    },
+    {
+      "id": "news-kh3v64",
+      "kind": "news",
+      "date": "2026-11-23",
+      "isoDate": "2026-11-23T21:33:11.000Z",
+      "description": "What China’s Recent Military Surge Was—and Wasn’t - CSIS | Center for Strategic and International Studies (CSIS | Center for Strategic and International Studies, 2026-11-23. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "CSIS | Center for Strategic and International Studies",
+      "axis": "Other",
+      "tags": [
+        "CSIS | Center for Strategic and International Studies",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "CSIS | Center for Strategic and International Studies",
+      "source": "CSIS | Center for Strategic and International Studies",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObWhORFRMQ1N1MEpVbGFJRUpwaVotWVlSdXhTMDNkWkVKUHhKRlNYbkk5ekV4SWZ6YTVqcWNBOHNXaWVOMFN0WTZCQTV2dDJCcUM0cmI4amxYalVMMGo1MUJtMWM0MlpOVWxKS3BFX3U3MWVKa1JGb2xJUlpaVzR1SHM5SQ?oc=5"
     },
     {
       "id": "news-ee0x1o",
