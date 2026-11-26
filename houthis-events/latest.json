@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-26T15:38:44.095Z",
+  "collectedAt": "2026-11-26T15:50:48.592Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 39
+      "count": 5
     },
     {
       "id": "gcaptain",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 522,
+  "count": 530,
   "events": [
     {
       "id": "news-2op0ai",
@@ -104,6 +104,48 @@
       "lat": 14.8,
       "lng": 42.95,
       "coordsNote": "Headline gazetteer match: \"Hodeidah\" (city); verify via source article."
+    },
+    {
+      "id": "news-1fv4bad",
+      "kind": "news",
+      "date": "2026-11-26",
+      "isoDate": "2026-11-26T14:10:38.000Z",
+      "description": "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National (The National, 2026-11-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The National",
+      "axis": "Other",
+      "tags": [
+        "The National",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The National",
+      "source": "The National",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjlZcjNRWExvSC0zaURTVmE2YjJuTHI5Z3ZQb3dxMGtCS09EMEVwNVc3T1hzTnZ5Z3czZGhqWDRNU2tNb1RTTFZOempjZHFKNE95SG54NjBGSlBHb2VqVlRqTTlwd3h0UUcyd3lGMDZuejRyamV5cmg5cVBlNlVZeVdNTDlyXzRhRjR1Qm1pbWI?oc=5"
+    },
+    {
+      "id": "news-un1oq0",
+      "kind": "news",
+      "date": "2026-11-26",
+      "isoDate": "2026-11-26T12:45:42.000Z",
+      "description": "Saudi airstrikes hit Sanaa after Houthi attacks on Saudi ports - مركز سوث24 (مركز سوث24, 2026-11-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "مركز سوث24",
+      "axis": "Other",
+      "tags": [
+        "مركز سوث24",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Sanaa",
+      "source": "مركز سوث24",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnB6eEJSaEVaaEI3NzVCTS12X0hicjY1aW9pTGI1YVo2QlNRc0tQV0I1NmYteV9ad0FMV3ZUeVVZLW1GeERUdTNvMmdfUE1PbUw0Q01BcktqWWxmdkJuRDZpVGpFLXQ5ZERGVXVmYmY0eGZINVJvSkFhdTJIUXNrZnoxclhoV1VpTXlvVWttVWg2OVZLNklHckllb2NSWDNqeXpsV0NabUhlXzg5Z0x2bg?oc=5",
+      "lat": 15.35,
+      "lng": 44.21,
+      "coordsNote": "Headline gazetteer match: \"Sanaa\" (city); verify via source article."
     },
     {
       "id": "news-hbwgtp",
@@ -2236,6 +2278,108 @@
       }
     },
     {
+      "id": "gdelt-1335177310",
+      "kind": "event",
+      "date": "2026-11-26",
+      "isoDate": "2026-11-26T00:00:00.000Z",
+      "observedAt": "2026-11-26T15:30:00.000Z",
+      "description": "Fight — Unspecified → Yemen near Al-Maqatirah, La?ij, Yemen. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.2,
+      "lng": 44.1833,
+      "action": "Fight (GDELT 192)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Al-Maqatirah, La?ij, Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://moderntokyotimes.com/yemen-crisis-houthi-forward-gains-near-aden/",
+      "gdelt": {
+        "globalEventId": "1335177310",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -1.79,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335178115",
+      "kind": "event",
+      "date": "2026-11-26",
+      "isoDate": "2026-11-26T00:00:00.000Z",
+      "observedAt": "2026-11-26T15:30:00.000Z",
+      "description": "Threat — Saudi Arabia → Pakistan near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Threat (GDELT 134)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://tribune.com.pk/story/2642495/makkah-pact-nations-to-discuss-yemen-in-islamabad-meeting-khawaja-asif",
+      "gdelt": {
+        "globalEventId": "1335178115",
+        "eventCode": "134",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5.8,
+        "tone": -2.93,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335178118",
+      "kind": "event",
+      "date": "2026-11-26",
+      "isoDate": "2026-11-26T00:00:00.000Z",
+      "observedAt": "2026-11-26T15:30:00.000Z",
+      "description": "Threat — Saudi Arabia → Turkiye near Sanaa, Sana', Yemen. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 15.3547,
+      "lng": 44.2067,
+      "action": "Threat (GDELT 134)",
+      "actor": "Saudi Arabia",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanaa, Sana', Yemen",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://tribune.com.pk/story/2642495/makkah-pact-nations-to-discuss-yemen-in-islamabad-meeting-khawaja-asif",
+      "gdelt": {
+        "globalEventId": "1335178118",
+        "eventCode": "134",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -5.8,
+        "tone": -2.93,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-1nadkzy",
       "kind": "news",
       "date": "2026-11-25",
@@ -2408,6 +2552,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWi15cnVqUFo4TTd3YncwMHNSUmozcllSMnczMlZ5bEk1MmNjYzJsUDFmNVhLdjQ5QWVPSWd3d0ZKSjZwWEJQdnllNmFta1VsMm84Y1BvZFNTQXhKNHdnMHdVVmFEVWlqams5bU1fZDF3ZnVzclNmS2R5OWltRmFLVE1mVk54T3NLdklXX01NWGpnamtjUHFDSEdZXzBBbFd2VmxZZzN2NFZuWUE4ZTJucE5nQ19hbWVEMnBsYUhCR0VkMXAzQ2ZRS25RYlA3cGJORGliQ0pITUVnai1O0gHiAUFVX3lxTE92LVFXdkpCUGhKaUVvN2F3enZFM2M1a3p0aV9oT0xoeldsVzMxU1ZyZWdMdjN3bElmZFVsbmxNQ3FWZHF6dU1aLUJIRkthdVFpay1vaUk5dVpSbHpNWW9GMmFUY0pCT19od0hSc19RdzI1Q08xb0lsZWVCTm9sOTRwQmxsd18wbWZTWUNPdUEyclBGazQ5S0RSQ0tXWjlKam9tUzBBOS1mc2tmV3B0ZDIwcHI0aDViMkxzTGNsMW1QNTBFbHlrdE9GaDFyWlp4d1N6RTdERWFLT0J4MW9LVks5UGc?oc=5"
     },
     {
+      "id": "news-bkpurs",
+      "kind": "news",
+      "date": "2026-11-25",
+      "isoDate": "2026-11-25T20:40:27.000Z",
+      "description": "Libyan officers die after Ukrainian strike, a highway fire in Egypt kills 30, and other Mideast news - WKBN.com (WKBN.com, 2026-11-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "WKBN.com",
+      "axis": "Other",
+      "tags": [
+        "WKBN.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "WKBN.com",
+      "source": "WKBN.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVWZIV0R5TGlRR0VEMnZnMWdmTFpIZG5PdHNPbHBnamxVVGRrYkZ4cEMzbXg2eHJiR3VucTdLU2RMWklXRjkyOEdDbFNmMzhyT1FOVkNzZWNfWlNNMmxYZWpGaDYxbUtxeE8temJTMEFXeWdmd280bDU4cy1SWFV3TDZDYXV1Y0NfUEU0QURtd0tUdVNjd0xLZ0RxSk9wY1kzNmtlemNqbHkwbzhrYldfTTNIcmpRcnlrUEN5a2twZ1JHQWxTMGZVT1lLVmstME5kQmJWU3FDcU95b1XSAeABQVVfeXFMUF9HMGM5Q3hEV2t6TG5KMEIzUVZJYjY0S09pVktiUVBWcWZiUVluV1g1bHhhaEdkR1c1YWtkcjU1YTF3Mk9MNXJfanFLZC1FMnU0eUMzSm8tQjVpUnZ0dVpNVWhIb2tUSkdwUzVvd0FQNFBlcV9lajd0ZFFIdGwtTG1tSTA3ano2R0F1QlAzejFQOFRQbVREZjVibkJraHBSaVFMUzgxVGpNR3RGQ2s4MmV4eVdqZEpzSmZJM3I0Y0dHcTFYWUtPcEE1b0ZfRVg4T21DV2NTc3VERmZOSmJucUE?oc=5"
+    },
+    {
       "id": "news-1h68bc5",
       "kind": "news",
       "date": "2026-11-25",
@@ -2448,25 +2611,6 @@
       "lat": 12.78,
       "lng": 45.04,
       "coordsNote": "Headline gazetteer match: \"Aden\" (city); verify via source article."
-    },
-    {
-      "id": "news-1gx06r4",
-      "kind": "news",
-      "date": "2026-11-25",
-      "isoDate": "2026-11-25T19:56:01.000Z",
-      "description": "Yemen's Houthis claim attack on major Saudi oil refinery - CBC (CBC, 2026-11-25. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "CBC",
-      "axis": "Other",
-      "tags": [
-        "CBC",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "CBC",
-      "source": "CBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE10XzNGbllicGZQM29nWlVLYk5rRXozbVVtZktuQW9zQmdPWG91UUhoYnliRXZVNXZjSzlzX0VHVEFVMFFOZUxfcnhPS0t4bVBieE1UREh0ZUpsV1BmRjFpYVEwdTlONWVvVkhyVnhvUFNLNk95NDF1dzFvQXE2UQ?oc=5"
     },
     {
       "id": "news-1lwapvf",
@@ -2574,6 +2718,25 @@
       "lat": 14.8,
       "lng": 42.95,
       "coordsNote": "Headline gazetteer match: \"Hodeidah\" (city); verify via source article."
+    },
+    {
+      "id": "news-a7dzct",
+      "kind": "news",
+      "date": "2026-11-25",
+      "isoDate": "2026-11-25T18:21:28.000Z",
+      "description": "Libya: 2 dead after Ukrainian attack on Russian warship in Benghazi - DW.com (DW.com, 2026-11-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "DW.com",
+      "axis": "Other",
+      "tags": [
+        "DW.com",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "DW.com",
+      "source": "DW.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1uZzI4ZWN4anJaYTctNGhWS2lzQnR6bHU0Sk1LWjBpeDVIekhIZDZTRmQ5a09DYl9OWl9jS3g4RzFDY1FEV2psVmVoQVpFWlNQbDNHUDVXOU5OalFuYTJhTUhvZ0RNZ25BZHJrNHlzc3lOT01XLVNqVFI5MNIBe0FVX3lxTE1nS3p5SkUxa1NoWWVoX3o2M0Q2X0JZTjl1TmhCeks4enhQVEJiX3hGSmU3OW1ZRTJSYmxSQWJGSXNVOFB4Q2VDNnZPMjBUalVfNlQyMktIS1RWVW1iQ3ptSDVvR2ozaEhOcS02Mm1SSWQxOFY3ajVSaXpwMA?oc=5"
     },
     {
       "id": "news-hd39eg",
@@ -2719,6 +2882,44 @@
       "locationStr": "Gulf News",
       "source": "Gulf News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTkZBRXFDX29hX2JzNnlGTFpJNFZQSC1FZ2JOVlBoZUxDWmxldy14M0pOU3pDLUwyUXpSSzlGTjQ4TVNBMWVrWjRvZF9zckRHXzE2NnRlZmFMdHRsRXlLU29WVDd2dU12cUJIRmpKSHdVTUNpNGR1a1RXZjVRbzNTYU1sNm41Zjd6eXp0VkhpSUhiYi1ITTlQZU9VdmtzcnJ1RnpoMkE0LVBWcjJnUVRr0gHEAUFVX3lxTE16czBHZ3hRZ1JNMEhnaWoyLVNaY1c1bUtnZkVTQzBVRGMteW43NDBqbThSNU45UWVJMkFzQ0Z4LW5EWklHU3VfSFNJV003RW05aXhsZ0F2aG5KeXZUVGtGTll6MmpFaUthMzJHNkV6SjA2MzBNYWF4WkQ4ZFgzZzFvZHRrMGgteXZCeEZfTXNIcjdRT0FzVV80cFRlNTVmWXRhUjRDZXhsa0FDN2tiRlAtc3VKcXVBeXlPSmY1RURvSTAzb1g?oc=5"
+    },
+    {
+      "id": "news-1gx06r4",
+      "kind": "news",
+      "date": "2026-11-25",
+      "isoDate": "2026-11-25T15:04:00.000Z",
+      "description": "Yemen's Houthis claim attack on major Saudi oil refinery - CBC (CBC, 2026-11-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "CBC",
+      "axis": "Other",
+      "tags": [
+        "CBC",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "CBC",
+      "source": "CBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE10XzNGbllicGZQM29nWlVLYk5rRXozbVVtZktuQW9zQmdPWG91UUhoYnliRXZVNXZjSzlzX0VHVEFVMFFOZUxfcnhPS0t4bVBieE1UREh0ZUpsV1BmRjFpYVEwdTlONWVvVkhyVnhvUFNLNk95NDF1dzFvQXE2UQ?oc=5"
+    },
+    {
+      "id": "news-wv2n3n",
+      "kind": "news",
+      "date": "2026-11-25",
+      "isoDate": "2026-11-25T14:56:00.000Z",
+      "description": "Libya Rages at Ukraine Over Ship Strike: ‘Tantamount to Declaration of War’ - Newsweek (Newsweek, 2026-11-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Newsweek",
+      "axis": "Other",
+      "tags": [
+        "Newsweek",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Newsweek",
+      "source": "Newsweek",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYkFCaFZ2RmtVa1I3SnZHeGluU0ZCQzBpQ1UxMVNia1lTM3pfd1Rsd05rTElmTFh2eEZPNHhiUU96aFctVzFDM2FoQjFjbkJpNWxMT3ozenplMmdqdTRVeWJxcDZsRGJwWmtHbjNUZERhTDlRcEo3clh5WlhOcVIwVnRiLTl0c2JiOU9iWUh4aThQZDNvSXFPUWRlTXNlZmJfNHZ2TFplWTlaZw?oc=5"
     },
     {
       "id": "news-s9t4vh",
@@ -9355,6 +9556,25 @@
       "lat": 16.34712,
       "lng": 47.89153,
       "coordsNote": "OSM geocode: matched \"Yemen\" → Yemen; © OpenStreetMap contributors."
+    },
+    {
+      "id": "news-6dklr8",
+      "kind": "news",
+      "date": "2026-11-24",
+      "isoDate": "2026-11-24T12:24:04.000Z",
+      "description": "Ukraine Strikes Again: Naval Drone Attack Sinks Russian Warship in Libya - The National Interest (The National Interest, 2026-11-24. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The National Interest",
+      "axis": "Other",
+      "tags": [
+        "The National Interest",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The National Interest",
+      "source": "The National Interest",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTDkwZGNpUVVFckhUb3d4TFpJR1pvWTJuNWZjRDZPWVcwRHJxblowRUQ1ZVpPT2xzd3ZjcFRoREhTNDRwX2ZlbzJRTU9Ma2w3UGZlSERYRjlJSEdCQ25Eb1dqdUdSN2ZtSWpBaVBsV2VsTlBqWEZWbTRTbGh2NUlQNFZUTnV4azhycHlPUlh0MVU3SEJvRHJKSEZYMG1OVTh3bnpKdEd1bkE0ZjJ4YUR3dVRub0lTeHdaeDJoLQ?oc=5"
     },
     {
       "id": "news-130r55b",
@@ -16147,25 +16367,6 @@
       "locationStr": "Business Insider",
       "source": "Business Insider",
       "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORjlHbHJjOG1ZWDBlLUxUVXYwdTFQOUZNNTRfTF82V0t6ejMtUmlrT19VbEhKWlNCZjNZOENWek5IR0F0bldSSkpISkowNGZQV3hya1pRbXhVVGd0RUZsZ01GUVdWcHhxcWtob25EZHBFRWMyLXVGLTEyVUpUcUJ3MDNpbWJOQVF2TWdXWTNOanp6SWJXMlFEMi13YmMzZndfTWEtcmkzaFVTYWdqVjNyTWln?oc=5"
-    },
-    {
-      "id": "news-lbzrld",
-      "kind": "news",
-      "date": "2026-11-23",
-      "isoDate": "2026-11-23T15:41:23.000Z",
-      "description": "Russian warship hit by Ukrainian drones in Libya, Zelensky says - BBC (BBC, 2026-11-23. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "BBC",
-      "axis": "Other",
-      "tags": [
-        "BBC",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "BBC",
-      "source": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RYTdJa3FLUUotRjRtWmFYcWsyT29UT0FCVDUycVp4MmlCMUkzUVR3cVJUVTJWNDlQX0JLbk01S29SZEtLM0lXZHdzX2U4N2JBVDdhVjN2TEdlczg?oc=5"
     }
   ]
 }
