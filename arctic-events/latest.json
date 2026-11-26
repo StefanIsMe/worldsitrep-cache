@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-11-26T05:20:24.797Z",
+  "collectedAt": "2026-11-26T05:31:48.668Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 20
+      "count": 2
     },
     {
       "id": "rci-arctic",
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 517,
+  "count": 519,
   "events": [
     {
       "id": "news-s9tf30",
@@ -770,6 +770,74 @@
         "quadClass": 4,
         "goldstein": -10,
         "tone": -5.78,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335096009",
+      "kind": "event",
+      "date": "2026-11-26",
+      "isoDate": "2026-11-26T00:00:00.000Z",
+      "observedAt": "2026-11-26T05:15:00.000Z",
+      "description": "Coercion — Bank → Prison near Petersburg, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 59.8944,
+      "lng": 30.2642,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Bank",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Petersburg, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.polygon.com/10-classic-books-worth-reading-over-and-over/",
+      "gdelt": {
+        "globalEventId": "1335096009",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -3.61,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335096449",
+      "kind": "event",
+      "date": "2026-11-26",
+      "isoDate": "2026-11-26T00:00:00.000Z",
+      "observedAt": "2026-11-26T05:15:00.000Z",
+      "description": "Fight — Ukraine → Russia near Norway. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 62,
+      "lng": 10,
+      "action": "Fight (GDELT 190)",
+      "actor": "Ukraine",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.flightglobal.com/fixed-wing/2026/11/ukraine-hits-russian-combat-aircraft-on-the-ground/",
+      "gdelt": {
+        "globalEventId": "1335096449",
+        "eventCode": "190",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -5.35,
         "mentions": 2,
         "sources": 1
       }

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-26T05:20:24.797Z",
+  "collectedAt": "2026-11-26T05:31:48.668Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 18
+      "count": 10
     },
     {
       "id": "taipei-times",
@@ -68,9 +68,9 @@
     {
       "id": "gnews-hankuang",
       "url": "https://news.google.com/rss/search?q=Taiwan%20Han%20Kuang%20military%20drills&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-hankuang request failed with HTTP 429"
     },
     {
       "id": "reliefweb",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 248,
+  "count": 250,
   "events": [
     {
       "id": "news-1nwm3vm",
@@ -786,6 +786,74 @@
         "goldstein": -5,
         "tone": -7.33,
         "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335095228",
+      "kind": "event",
+      "date": "2026-11-26",
+      "isoDate": "2026-11-26T00:00:00.000Z",
+      "observedAt": "2026-11-26T05:00:00.000Z",
+      "description": "Disapproval — Taiwan → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.asiaone.com/asia/taiwan-comedian-shoots-punch-lines-combat-chinas-anger-his-jokes",
+      "gdelt": {
+        "globalEventId": "1335095228",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -3.91,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335097217",
+      "kind": "event",
+      "date": "2026-11-26",
+      "isoDate": "2026-11-26T00:00:00.000Z",
+      "observedAt": "2026-11-26T05:30:00.000Z",
+      "description": "Coercion — Company → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Coercion (GDELT 173)",
+      "actor": "Company",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.manilatimes.net/2026/11/26/tmt-newswire/pr-newswire/jelly-formats-enter-a-growth-window-as-tcis-jellie-draws-buyers-from-65-countries/2478435",
+      "gdelt": {
+        "globalEventId": "1335097217",
+        "eventCode": "173",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": 3.63,
+        "mentions": 10,
         "sources": 1
       }
     },

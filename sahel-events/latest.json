@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-26T05:20:24.797Z",
+  "collectedAt": "2026-11-26T05:31:48.668Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
@@ -83,7 +83,7 @@
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 26,
+      "count": 50,
       "filtered": 0
     },
     {
@@ -101,7 +101,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 103,
+  "count": 104,
   "events": [
     {
       "id": "gdelt-1335079262",
@@ -304,6 +304,40 @@
         "goldstein": -10,
         "tone": -12.85,
         "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335095108",
+      "kind": "event",
+      "date": "2026-11-26",
+      "isoDate": "2026-11-26T00:00:00.000Z",
+      "observedAt": "2026-11-26T05:00:00.000Z",
+      "description": "Fight — Niger → Unspecified near Baroua, Diffa, Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.8807,
+      "lng": 13.1731,
+      "action": "Fight (GDELT 190)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Baroua, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.nigeriasun.com/news/279454750/attackers-kill-11-niger-soldiers-in-diffa-region",
+      "gdelt": {
+        "globalEventId": "1335095108",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -7.14,
+        "mentions": 10,
         "sources": 1
       }
     },
