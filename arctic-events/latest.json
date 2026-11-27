@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-11-27T08:58:14.760Z",
+  "collectedAt": "2026-11-27T09:10:00.232Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 20
+      "count": 8
     },
     {
       "id": "rci-arctic",
@@ -55,7 +55,7 @@
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 47,
+      "count": 48,
       "filtered": 0
     },
     {
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 394,
+  "count": 395,
   "events": [
     {
       "id": "gdelt-1335237660",
@@ -684,6 +684,40 @@
         "goldstein": -10,
         "tone": -7.03,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335285944",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T09:00:00.000Z",
+      "description": "Fight — Ukrainian → Russia near Leningrad, Sankt-Peterburg, Russia. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.8944,
+      "lng": 30.2642,
+      "action": "Fight (GDELT 190)",
+      "actor": "Ukrainian",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Leningrad, Sankt-Peterburg, Russia",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://news.az/news/ukraine-targets-rocket-fuel-plant-in-russia-s-tula-as-drones-strike-st-petersburg",
+      "gdelt": {
+        "globalEventId": "1335285944",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -6.77,
+        "mentions": 10,
         "sources": 1
       }
     },

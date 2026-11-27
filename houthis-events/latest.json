@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "houthis",
-  "collectedAt": "2026-11-27T08:58:14.760Z",
+  "collectedAt": "2026-11-27T09:10:00.232Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 23
+      "count": 6
     },
     {
       "id": "gcaptain",
@@ -40,9 +40,9 @@
     {
       "id": "splash247",
       "url": "https://splash247.com/feed/",
-      "status": "ok",
-      "count": 2,
-      "filtered": 8
+      "status": "failed",
+      "count": 0,
+      "error": "RSS splash247 request failed with HTTP 415"
     },
     {
       "id": "loadstar",
@@ -68,9 +68,9 @@
     {
       "id": "gnews-mandeb",
       "url": "https://news.google.com/rss/search?q=Bab%20el-Mandeb%20vessel%20drone%20attack&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "failed",
-      "count": 0,
-      "error": "RSS gnews-mandeb request failed with HTTP 429"
+      "status": "ok",
+      "count": 50,
+      "filtered": 0
     },
     {
       "id": "reliefweb",
@@ -80,7 +80,7 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 423,
+  "count": 427,
   "events": [
     {
       "id": "news-1ej94xb",
@@ -157,6 +157,44 @@
       "locationStr": "BBC",
       "source": "BBC",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kbWxTd24wdUFwYTdDYURxbEFHVGVaLUhiNW9CeV80ak00SFhjTUpsT2pXcExVQmhVc1JjUDlmc0c4Tm9ZV3prSUlRaFRTRTRhQ3cyVUpnblNHT2c?oc=5"
+    },
+    {
+      "id": "news-1xutrm8",
+      "kind": "news",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T05:01:48.000Z",
+      "description": "Houthi missile strike on Aramco refinery in Saudi’s Jazan kills Nepali worker - The Indian Express (The Indian Express, 2026-11-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Indian Express",
+      "axis": "Other",
+      "tags": [
+        "The Indian Express",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "The Indian Express",
+      "source": "The Indian Express",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORUFzNkZiZlE4U25yN1hkUlN0THN3WDRDQmVIZE00bjdwUTV3OWRzdUM4X1ZEX3NFUG1ocjdzM2xkMlcyTHdJVTRKUjE3a2tOLVVubk8yQTF3T3p3ejNBblFnenY2dmc2MUZ4cUI2VGJSbE9QR3VxNU9qMWZhUl92N0dJUUdrY3hnaV9MZy1oZ2g4c1dVUnFDbTVBenA0bzBuMll4VlM0WXNFQXlDNl9XMy1WZUhKVnRrQlVLRjBNMjJrcnFadEYybHRNM2ROZ01peXFV0gHaAUFVX3lxTE9FMThkSW9vTUdHclJzMVB5MzFKYWd2ajQycnNRQnlZT0N0WkxXbWRVVktKX1Y3OEtiamRmMXNIT2tYY3d6SGV6NnEtRTFmUWNTRFZZWnhtTktid1MyOEV5dDBZUXFtbEd5YWhmSlFDNjg3OTRSYlZLQ0ZhYlNCdWwwNFlhT3dmUzRZU2h6Yk5fd0R4TUpTNnp5ZElfYnoydDQ0dzJ0T0RpVWpzVkF6Qm0xZmc1Q0hMalhqT2l0WE1zeWFKVFdvMWxMLTdTb2k3QWZCeE1aSGhHRGt3?oc=5"
+    },
+    {
+      "id": "news-563w0f",
+      "kind": "news",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T02:28:00.000Z",
+      "description": "Live Updates: Iran accused of deadly drone attack in Kuwait that sparks EU call to step up pressure on Tehran - CBS News (CBS News, 2026-11-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "CBS News",
+      "axis": "Other",
+      "tags": [
+        "CBS News",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "CBS News",
+      "source": "CBS News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05bmJOWEtxU1hnYmlGcXV2cHM2SzlfUnBhVUk3QklXMzFEd3Eyd1BhRmhORDBNM21BZmhfMnZObENxQTB4QWFDWnJwX0xhdnFUQmVkT1FSYnlBWUNsc0dtc1hVZTk5eDBMbEJDV2hNcl9qN2tEX2Q0RUl6N3pFdw?oc=5"
     },
     {
       "id": "news-y3ma4z",
@@ -1038,25 +1076,6 @@
       "locationStr": "Al Jazeera",
       "source": "Al Jazeera",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGZnZjhfSVBOMkp2VnNxeTh6ZHVxQmQ4X09jMnFmMFg1VUlhQ3RSTlVUN09RZEZpUlZFeV96MlpENFFwTHhoS0dEWTk5Q0U0Y2F0QS1Zb0Q0amNWMkw3cEs3S0d3Rml4QTV0ZExPXzVBaVRaTkZHVUpmYVVIbVk2SGtkcWtJLXVTUkk4Y2gxelVuUGtnU1BxM0gtN2J6ZF92SnJvczdjaGQxQkZad0RzZF9pb9IBuAFBVV95cUxPbDVuYThMckJDbU1vT3VsN21LaEc5ZVVQZVZKUjZzMWQ3UnlhbmxQZlZkVzdFUWZFbzVEZ1FkZ3hJSFMzY1dHRzdkYUF4MDIxOEpNckdiZHpHTXIxWGxQb3hHbFBGZ3VEZjdPZXBPVWJEejNFaHMzaVpBeER5aEZKYzZlVFVWSEVnLWpsSHA3cTBvY0pqM3YySXRNZGxhS1hGN0Z0VEtBb3dPNnFwQ2JXWnA5TFl2dDNX?oc=5"
-    },
-    {
-      "id": "news-563w0f",
-      "kind": "news",
-      "date": "2026-11-26",
-      "isoDate": "2026-11-26T20:35:00.000Z",
-      "description": "Live Updates: Iran accused of deadly drone attack in Kuwait that sparks EU call to step up pressure on Tehran - CBS News (CBS News, 2026-11-26. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "CBS News",
-      "axis": "Other",
-      "tags": [
-        "CBS News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "CBS News",
-      "source": "CBS News",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05bmJOWEtxU1hnYmlGcXV2cHM2SzlfUnBhVUk3QklXMzFEd3Eyd1BhRmhORDBNM21BZmhfMnZObENxQTB4QWFDWnJwX0xhdnFUQmVkT1FSYnlBWUNsc0dtc1hVZTk5eDBMbEJDV2hNcl9qN2tEX2Q0RUl6N3pFdw?oc=5"
     },
     {
       "id": "news-1ydu4y2",
@@ -5355,6 +5374,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWi15cnVqUFo4TTd3YncwMHNSUmozcllSMnczMlZ5bEk1MmNjYzJsUDFmNVhLdjQ5QWVPSWd3d0ZKSjZwWEJQdnllNmFta1VsMm84Y1BvZFNTQXhKNHdnMHdVVmFEVWlqams5bU1fZDF3ZnVzclNmS2R5OWltRmFLVE1mVk54T3NLdklXX01NWGpnamtjUHFDSEdZXzBBbFd2VmxZZzN2NFZuWUE4ZTJucE5nQ19hbWVEMnBsYUhCR0VkMXAzQ2ZRS25RYlA3cGJORGliQ0pITUVnai1O0gHiAUFVX3lxTE92LVFXdkpCUGhKaUVvN2F3enZFM2M1a3p0aV9oT0xoeldsVzMxU1ZyZWdMdjN3bElmZFVsbmxNQ3FWZHF6dU1aLUJIRkthdVFpay1vaUk5dVpSbHpNWW9GMmFUY0pCT19od0hSc19RdzI1Q08xb0lsZWVCTm9sOTRwQmxsd18wbWZTWUNPdUEyclBGazQ5S0RSQ0tXWjlKam9tUzBBOS1mc2tmV3B0ZDIwcHI0aDViMkxzTGNsMW1QNTBFbHlrdE9GaDFyWlp4d1N6RTdERWFLT0J4MW9LVks5UGc?oc=5"
     },
     {
+      "id": "news-1vl3rdu",
+      "kind": "news",
+      "date": "2026-11-25",
+      "isoDate": "2026-11-25T20:40:27.000Z",
+      "description": "Libyan officers die after Ukrainian strike, a highway fire in Egypt kills 30, and other Mideast news - Fox 59 (Fox 59, 2026-11-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Fox 59",
+      "axis": "Other",
+      "tags": [
+        "Fox 59",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Fox 59",
+      "source": "Fox 59",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQd1h0ZEhOWE1YWlVmTmlPa3FVUVcwbThBZzY4akJHbktqUGdpMGMtOGRQQWpvdDNqTWhoY1pSOUtPblB3dGV5UDJnUnF0RmtzbTVYcmxEWkRjaUhHWGFlUjB6dG93RVFTYVhmVkZrZEJ0bFAtWmoxbEpwalY1ZzV6amtFaEkyRGFwYkdNaXFjQURuQ0hhQzRPR1h0TDFibUZ0SWVjaUJVaGNOd2U3Z3ZZV0c3dW9udUlqVFZrUFROXzljS3gwSFpKSkFGZEpOQmtPM09kVk5MRdIB3AFBVV95cUxOMFRVOVEzMVh2UmZ3b3FkQWQyaU1Tai1EVEtWMXNya1hhcTdPVkZodzhnYkc1SklSQ0RuVWtYNlRSQ1pjYTFXSHJJdTZsZ1c5UGwza3lLNHI3ZzZOSm1Rd055OW45ODd6a3NtbGw5VHo2ZHJKems2b21BQ3FSQzdZVGVraTF0T0k0c0daZ21nSVliMjFxSzdrVUFBRHFlVFZQZ0otWW43aEUtOU1wOUw5XzNZOHMwR0haVUNGOXVhQnBRR2YxZHJfdmlZUkZLYTlpWGVNYWdpdGhNM3M5?oc=5"
+    },
+    {
       "id": "news-bkpurs",
       "kind": "news",
       "date": "2026-11-25",
@@ -5691,6 +5729,25 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYlhQMFFISGFSRC1TVkJtS2FtWXl1anZubHJfTnY1VzdiaG5fV2J3MGlWZk84RWUtQUQtRG1DR3Z2b2swWjdacE8zRG1xcHFHN0p3Q25GX3dMTHByRTBnSGl6dHBkcDQxZHF3VF8tMmVLVG5jRm50aGtndHBhWEFaUkFaaVJoZkp1aW8zMDFpVlZlODhqeXhwVG1TV0VNd2Frb2ZsUmg1R0wyb2VxclNscVVRMzc?oc=5"
     },
     {
+      "id": "news-1xfag9d",
+      "kind": "news",
+      "date": "2026-11-25",
+      "isoDate": "2026-11-25T16:26:00.000Z",
+      "description": "Libyan army vows retaliation after 2 naval officers die of wounds from Ukrainian drone attack - Santa Fe New Mexican (Santa Fe New Mexican, 2026-11-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Santa Fe New Mexican",
+      "axis": "Other",
+      "tags": [
+        "Santa Fe New Mexican",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Santa Fe New Mexican",
+      "source": "Santa Fe New Mexican",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNUlpiMUpMakg1RkNMdDg2RkZfbGs3MEtJU1E3OUNia0Q4TnJNTE5QQnlyWGpFbVZEXzR2YVFhSnZEU0hNeFRZNWxyQ3c0a0xyand2Z3lwNDl2ejRDcmJSUnF3MGhDS1dNc21uanBRU1dzUjdqa19WX0JiWU1yQl91bEMtQm9ncEU5clYwdTU1RDZfMTZlZDZWUUFSNkN1MjY5UkEzQWhDN2pySll0YnBZNFQzQUw1S1A3bDgyeWNhWGoxX0h5VkNDNERVeVVoNFIyeXRmNHJMT0hkSzhJeTNJVHQ5SF9EbVJ4WHM3akRBMTROMnpkNFN4TjFSQm1LNW1MMXVTeE4zRjY2Zi16ZGZEVE52eVZFbjVkUngycWJ6SQ?oc=5"
+    },
+    {
       "id": "news-hd2yr6",
       "kind": "news",
       "date": "2026-11-25",
@@ -5708,6 +5765,25 @@
       "locationStr": "Gulf News",
       "source": "Gulf News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTkZBRXFDX29hX2JzNnlGTFpJNFZQSC1FZ2JOVlBoZUxDWmxldy14M0pOU3pDLUwyUXpSSzlGTjQ4TVNBMWVrWjRvZF9zckRHXzE2NnRlZmFMdHRsRXlLU29WVDd2dU12cUJIRmpKSHdVTUNpNGR1a1RXZjVRbzNTYU1sNm41Zjd6eXp0VkhpSUhiYi1ITTlQZU9VdmtzcnJ1RnpoMkE0LVBWcjJnUVRr0gHEAUFVX3lxTE16czBHZ3hRZ1JNMEhnaWoyLVNaY1c1bUtnZkVTQzBVRGMteW43NDBqbThSNU45UWVJMkFzQ0Z4LW5EWklHU3VfSFNJV003RW05aXhsZ0F2aG5KeXZUVGtGTll6MmpFaUthMzJHNkV6SjA2MzBNYWF4WkQ4ZFgzZzFvZHRrMGgteXZCeEZfTXNIcjdRT0FzVV80cFRlNTVmWXRhUjRDZXhsa0FDN2tiRlAtc3VKcXVBeXlPSmY1RURvSTAzb1g?oc=5"
+    },
+    {
+      "id": "news-28elea",
+      "kind": "news",
+      "date": "2026-11-25",
+      "isoDate": "2026-11-25T15:30:27.000Z",
+      "description": "Yemen’s Houthis Strike Saudi Arabia’s Largest Refinery and Riyadh Skyscraper - Democracy Now! (Democracy Now!, 2026-11-25. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Democracy Now!",
+      "axis": "Other",
+      "tags": [
+        "Democracy Now!",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Democracy Now!",
+      "source": "Democracy Now!",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFIwZ2lLS0RWbUpRVHFMRXltUkY2MkFuS3J6MEx4d3YtYXhEbUJWZkl3N0VyTlJsWUFTdXNUTDBlUTJ5cDllNENMN3VPVjZxdzhZTXNROEtDWnRraDg2WWhyYU5OZW1FX3FsaFBUeUp4NF8za3dNdlZHaENhekExc29MeWVSdlFxcU5LaFk5eGk0d2JmRHIxdUdtOEtaSUwxMjhlbDJoUks4bUpCcmtJZFpCOG9pdHVMWkp0TU1saFRMUQ?oc=5"
     },
     {
       "id": "news-1gx06r4",
