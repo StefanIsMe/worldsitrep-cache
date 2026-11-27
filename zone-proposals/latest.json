@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "theatreId": "ukraine",
-  "collectedAt": "2026-11-27T18:50:30.987Z",
+  "collectedAt": "2026-11-27T19:37:28.383Z",
   "windowDays": 7,
   "minEvents": 3,
   "source": "ukraine-events live wire (placed records only)",
-  "coarseGdeltDropped": 253,
+  "coarseGdeltDropped": 261,
   "outsideTheatreDropped": 11,
   "proposals": [
     {
@@ -15,16 +15,16 @@
         "lat": 50.6,
         "lng": 30.2
       },
-      "eventCount": 519,
+      "eventCount": 525,
       "kinds": {
-        "other": 348,
-        "combat": 161,
+        "other": 350,
+        "combat": 165,
         "strike": 10
       },
       "tierCounts": {
-        "approximate": 519
+        "approximate": 525
       },
-      "combatCount": 171,
+      "combatCount": 175,
       "newestIsoDate": "2026-11-27T16:22:00.000Z",
       "samples": [
         {
@@ -44,10 +44,10 @@
         }
       ],
       "centroid": {
-        "lat": 50.3973,
-        "lng": 30.3049
+        "lat": 50.3977,
+        "lng": 30.3073
       },
-      "radiusKm": 30.9
+      "radiusKm": 30.6
     },
     {
       "zoneId": "occ-kharkiv",
@@ -56,14 +56,14 @@
         "lat": 49.8,
         "lng": 37.6
       },
-      "eventCount": 57,
+      "eventCount": 53,
       "kinds": {
-        "other": 43,
+        "other": 39,
         "combat": 13,
         "strike": 1
       },
       "tierCounts": {
-        "approximate": 57
+        "approximate": 53
       },
       "combatCount": 14,
       "newestIsoDate": "2026-11-27T17:45:00.000Z",
@@ -85,10 +85,10 @@
         }
       ],
       "centroid": {
-        "lat": 49.8575,
-        "lng": 36.4218
+        "lat": 49.8905,
+        "lng": 36.3846
       },
-      "radiusKm": 32.9
+      "radiusKm": 25.9
     },
     {
       "zoneId": "occ-kherson",
@@ -148,8 +148,13 @@
         "approximate": 41
       },
       "combatCount": 12,
-      "newestIsoDate": "2026-11-27T18:05:46.000Z",
+      "newestIsoDate": "2026-11-27T18:18:00.000Z",
       "samples": [
+        {
+          "id": "news-i1yhva",
+          "isoDate": "2026-11-27T18:18:00.000Z",
+          "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/27/8065039/"
+        },
         {
           "id": "news-1xeiji8",
           "isoDate": "2026-11-27T18:05:46.000Z",
@@ -159,11 +164,6 @@
           "id": "news-i1ygz7",
           "isoDate": "2026-11-27T17:44:00.000Z",
           "sourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/27/8065027/"
-        },
-        {
-          "id": "news-1yog3wk",
-          "isoDate": "2026-11-27T13:58:00.000Z",
-          "sourceUrl": "https://www.ukrinform.net/rubric-ato/4189312-power-engineers-come-under-fire-in-zaporizhzhia.html"
         }
       ],
       "centroid": {
@@ -179,14 +179,14 @@
         "lat": 45.3453,
         "lng": 34.4997
       },
-      "eventCount": 29,
+      "eventCount": 30,
       "kinds": {
-        "other": 21,
+        "other": 22,
         "strike": 1,
         "combat": 7
       },
       "tierCounts": {
-        "approximate": 29
+        "approximate": 30
       },
       "combatCount": 8,
       "newestIsoDate": "2026-11-27T15:36:00.000Z",
@@ -208,10 +208,51 @@
         }
       ],
       "centroid": {
-        "lat": 45.0707,
-        "lng": 34.3602
+        "lat": 45.0556,
+        "lng": 34.3325
       },
-      "radiusKm": 41.2
+      "radiusKm": 41.6
+    },
+    {
+      "zoneId": "occ-donetsk",
+      "region": "Donetsk Oblast",
+      "center": {
+        "lat": 47.8,
+        "lng": 37.5
+      },
+      "eventCount": 28,
+      "kinds": {
+        "other": 15,
+        "strike": 9,
+        "combat": 4
+      },
+      "tierCounts": {
+        "approximate": 28
+      },
+      "combatCount": 13,
+      "newestIsoDate": "2026-11-27T15:59:54.000Z",
+      "samples": [
+        {
+          "id": "news-1ijbl1w",
+          "isoDate": "2026-11-27T15:59:54.000Z",
+          "sourceUrl": "https://kyivindependent.com/ukraines-azov-announces-hell-3-operation-destroys-russian-fuel-depot-in-occupied-donetsk-oblast/"
+        },
+        {
+          "id": "news-ov6jy2",
+          "isoDate": "2026-11-27T14:56:48.000Z",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9VN204a294VTExNjhiWHIzLVlXQ1lNU1dOSlNTOEZPbWsyWktCZzlvQkJNM285S0kzX3ZtZ3RIa3RqdGhyemV6NXE2cw?oc=5"
+        },
+        {
+          "id": "news-1xeijgj",
+          "isoDate": "2026-11-27T14:55:00.000Z",
+          "sourceUrl": "https://www.kyivpost.com/post/91426"
+        }
+      ],
+      "centroid": {
+        "lat": 48.0422,
+        "lng": 37.6324
+      },
+      "radiusKm": 80
     },
     {
       "zoneId": "lib-snake",
@@ -253,47 +294,6 @@
         "lng": 30.3351
       },
       "radiusKm": 50.4
-    },
-    {
-      "zoneId": "occ-donetsk",
-      "region": "Donetsk Oblast",
-      "center": {
-        "lat": 47.8,
-        "lng": 37.5
-      },
-      "eventCount": 27,
-      "kinds": {
-        "other": 15,
-        "strike": 9,
-        "combat": 3
-      },
-      "tierCounts": {
-        "approximate": 27
-      },
-      "combatCount": 12,
-      "newestIsoDate": "2026-11-27T15:59:54.000Z",
-      "samples": [
-        {
-          "id": "news-1ijbl1w",
-          "isoDate": "2026-11-27T15:59:54.000Z",
-          "sourceUrl": "https://kyivindependent.com/ukraines-azov-announces-hell-3-operation-destroys-russian-fuel-depot-in-occupied-donetsk-oblast/"
-        },
-        {
-          "id": "news-ov6jy2",
-          "isoDate": "2026-11-27T14:56:48.000Z",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9VN204a294VTExNjhiWHIzLVlXQ1lNU1dOSlNTOEZPbWsyWktCZzlvQkJNM285S0kzX3ZtZ3RIa3RqdGhyemV6NXE2cw?oc=5"
-        },
-        {
-          "id": "news-1xeijgj",
-          "isoDate": "2026-11-27T14:55:00.000Z",
-          "sourceUrl": "https://www.kyivpost.com/post/91426"
-        }
-      ],
-      "centroid": {
-        "lat": 48.017,
-        "lng": 37.6352
-      },
-      "radiusKm": 80
     },
     {
       "zoneId": "lib-sumy",
