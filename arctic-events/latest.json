@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-11-27T18:50:31.711Z",
+  "collectedAt": "2026-11-27T19:12:53.089Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 120
+      "count": 10
     },
     {
       "id": "rci-arctic",
@@ -55,7 +55,7 @@
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 46,
+      "count": 47,
       "filtered": 0
     },
     {
@@ -73,7 +73,7 @@
       "note": "no single-country filter for this theatre"
     }
   ],
-  "count": 514,
+  "count": 516,
   "events": [
     {
       "id": "news-r42flj",
@@ -4927,6 +4927,74 @@
         "quadClass": 3,
         "goldstein": -4.4,
         "tone": 0,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335364333",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T19:00:00.000Z",
+      "description": "Fight — Unspecified → Sofia near Oslo, Oslo, Norway. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 59.9167,
+      "lng": 10.75,
+      "action": "Fight (GDELT 192)",
+      "actor": "Unspecified",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Oslo, Oslo, Norway",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.indiatimes.com/trending/always-on-call-ending-explained-does-sofia-return-to-her-old-life-as-stig-faces-a-shocking-decision-in-netflixs-norwegian-medical-drama-finale/articleshow/136227931.html",
+      "gdelt": {
+        "globalEventId": "1335364333",
+        "eventCode": "192",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9.5,
+        "tone": -5.74,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335365019",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T19:00:00.000Z",
+      "description": "Disapproval — Iceland → Unspecified near Iceland. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 65,
+      "lng": -18,
+      "action": "Disapproval (GDELT 111)",
+      "actor": "Iceland",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Iceland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.london-now.co.uk/news/26770603.plumstead-iceland-supermarket-reopens-brand-new-look/",
+      "gdelt": {
+        "globalEventId": "1335365019",
+        "eventCode": "111",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 3.69,
         "mentions": 10,
         "sources": 1
       }
