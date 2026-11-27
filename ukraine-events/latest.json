@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "ukraine",
-  "collectedAt": "2026-11-27T00:24:34.984Z",
+  "collectedAt": "2026-11-27T00:45:51.175Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 203
+      "count": 1
     },
     {
       "id": "kyiv-independent",
@@ -24,8 +24,9 @@
     {
       "id": "gnews-war",
       "url": "https://news.google.com/rss/search?q=Ukraine%20war&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-war request failed with HTTP 429"
     },
     {
       "id": "gnews-strikes",
@@ -43,7 +44,7 @@
       "id": "ukrinform-en",
       "url": "https://www.ukrinform.net/rss/block-lastnews",
       "status": "ok",
-      "count": 27
+      "count": 26
     },
     {
       "id": "interfax-ukraine",
@@ -67,7 +68,7 @@
       "id": "gnews-frontline",
       "url": "https://news.google.com/rss/search?q=Ukraine%20frontline%20Pokrovsk%20Kupiansk%20offensive&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 31
+      "count": 32
     },
     {
       "id": "gnews-blackout",
@@ -116,6 +117,25 @@
       "locationStr": "Kyiv Post",
       "source": "Kyiv Post",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBBSjRwUnIxZkVCR1I5WFVFMUJZeUl0OEVlbFpGSjNGX1g5X2RHbkZ3ajVhZEsxMk1RZTY2bDdFVFVTTFRXSE81ZDdNSQ?oc=5"
+    },
+    {
+      "id": "news-1xeiiny",
+      "kind": "news",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:07:25.000Z",
+      "description": "France Defends Ukraine’s Strikes on Russian Vessels off Libya (Kyiv Post, 2026-11-27. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Kyiv Post",
+      "axis": "Other",
+      "tags": [
+        "Kyiv Post",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Kyiv Post",
+      "source": "Kyiv Post",
+      "sourceUrl": "https://www.kyivpost.com/post/91340"
     },
     {
       "id": "news-1afaa2g",
@@ -508,6 +528,29 @@
       "locationStr": "Ukrinform",
       "source": "Ukrinform",
       "sourceUrl": "https://www.ukrinform.net/rubric-ato/4189052-zelensky-warns-russia-is-preparing-new-largescale-attack.html"
+    },
+    {
+      "id": "news-1oa2g2r",
+      "kind": "news",
+      "date": "2026-11-26",
+      "isoDate": "2026-11-26T20:01:00.000Z",
+      "description": "‘Trucks on fire and drones overhead’: the Russians risking the long road to Crimea - The Guardian (The Guardian, 2026-11-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "The Guardian",
+      "axis": "Other",
+      "tags": [
+        "The Guardian",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Crimea",
+      "source": "The Guardian",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdVhGZF9aVy0tamY0ZTdiLUVqaHVsNkYyMXRjdW5od3RyYVoyb09TZFhfUU1ZdjFoS1V1VTNpMURqM01hSXljZmtfeHc1Rl9jYWZGWVJlSzk1NjNQNWRJU2pDYm1XVEVRdUFxSzhUSGtrR3N3OVg1MnNZY29SLWo1cGRaWmUzY1RJbDc5akduM1Z2WDA?oc=5",
+      "lat": 45.3,
+      "lng": 34.4,
+      "coordsNote": "Headline gazetteer match: \"Crimea\" (region); verify via source article."
     },
     {
       "id": "news-67dds2",
@@ -4801,6 +4844,25 @@
       "locationStr": "Yahoo News UK",
       "source": "Yahoo News UK",
       "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5KTlprdzhuZ0NZY0FibWdSVV9FTDN3cGRBTHZjYkNTV0tXRF9Kdk04bDZ2WF9Ibk1scnhsbXg4amE5Q0dZZkd3VlZfNGVMUFFJaG10RmJOdnY5RWc5TWg4Zi1CS0ZGOEFMZEQ3ZDFpSkNRWnFfc0E3ek5SQQ?oc=5"
+    },
+    {
+      "id": "news-vm7e3f",
+      "kind": "news",
+      "date": "2026-11-26",
+      "isoDate": "2026-11-26T04:17:54.000Z",
+      "description": "Russia, Ukraine and US meet for Abu Dhabi talks as Trump says war can 'end soon' - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-11-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "ABC News - Breaking News, Latest News and Videos",
+      "axis": "Other",
+      "tags": [
+        "ABC News - Breaking News, Latest News and Videos",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYTZ3d1JvYi1DS0xQUzRwMW1vU190SUxranBJV2FMdXREdURydDByQnhaNEh3N0hCbS1fM2ZRMjBSWFlpVmxpMDNnQ3RqeVF3c2pkVF9NQ2h1ME9mck84SkFIVWY4bUMtVE5Vbkswa29zT2hWZVBaZV9sc3lDbEcyS3RudGcwSUxCTGVNUmpDcG4wUDZ3RHlLVGg1dFlhd9IBowFBVV95cUxOMTY4LU9walo4V3p1aXI4VU5XaGlDZGszQ0pJdlk2b3BDZ1lFbnE0cl9FQkgtdTNKTW5ZeEpCQ2wzTHZySjE1dXd2NU9SYUprcTZCSXEtN2lIazRENExDWF9xbzJjeGI3RTNBN0tGR3Y4YmFaN0dMcXg0LUVjUHB5WWVhVmxPS1Q4QkxFTFhfRTdCSEtkYzBFdGV6WnZqZ1R0WlMw?oc=5"
     },
     {
       "id": "news-1rmz698",
@@ -25053,25 +25115,6 @@
       "sourceUrl": "https://en.interfax.com.ua/news/general/1242382.html"
     },
     {
-      "id": "news-vm7e3f",
-      "kind": "news",
-      "date": "2026-11-25",
-      "isoDate": "2026-11-25T15:32:07.000Z",
-      "description": "Russia, Ukraine and US meet for Abu Dhabi talks as Trump says war can 'end soon' - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos, 2026-11-25. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "ABC News - Breaking News, Latest News and Videos",
-      "axis": "Other",
-      "tags": [
-        "ABC News - Breaking News, Latest News and Videos",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYTZ3d1JvYi1DS0xQUzRwMW1vU190SUxranBJV2FMdXREdURydDByQnhaNEh3N0hCbS1fM2ZRMjBSWFlpVmxpMDNnQ3RqeVF3c2pkVF9NQ2h1ME9mck84SkFIVWY4bUMtVE5Vbkswa29zT2hWZVBaZV9sc3lDbEcyS3RudGcwSUxCTGVNUmpDcG4wUDZ3RHlLVGg1dFlhd9IBowFBVV95cUxOMTY4LU9walo4V3p1aXI4VU5XaGlDZGszQ0pJdlk2b3BDZ1lFbnE0cl9FQkgtdTNKTW5ZeEpCQ2wzTHZySjE1dXd2NU9SYUprcTZCSXEtN2lIazRENExDWF9xbzJjeGI3RTNBN0tGR3Y4YmFaN0dMcXg0LUVjUHB5WWVhVmxPS1Q4QkxFTFhfRTdCSEtkYzBFdGV6WnZqZ1R0WlMw?oc=5"
-    },
-    {
       "id": "news-fsna5y",
       "kind": "news",
       "date": "2026-11-25",
@@ -43112,74 +43155,6 @@
         "goldstein": -7.2,
         "tone": -6.54,
         "mentions": 1,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1334976185",
-      "kind": "event",
-      "date": "2026-11-25",
-      "isoDate": "2026-11-25T00:00:00.000Z",
-      "observedAt": "2026-11-25T13:15:00.000Z",
-      "description": "Disapproval — Ukraine → Russian forces near Ukraine. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 49,
-      "lng": 32,
-      "action": "Disapproval (GDELT 112)",
-      "actor": "Ukraine",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Disapproval"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://en.apa.az/cis-countries/kremlin-accuses-boris-johnson-of-obstructing-settlement-of-ukraine-conflict-538516",
-      "gdelt": {
-        "globalEventId": "1334976185",
-        "eventCode": "112",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -2,
-        "tone": -6.54,
-        "mentions": 3,
-        "sources": 1
-      }
-    },
-    {
-      "id": "gdelt-1334978007",
-      "kind": "event",
-      "date": "2026-11-25",
-      "isoDate": "2026-11-25T00:00:00.000Z",
-      "observedAt": "2026-11-25T13:30:00.000Z",
-      "description": "Rejection — President → Unspecified near Ukraine. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
-      "type": "other",
-      "lat": 49,
-      "lng": 32,
-      "action": "Rejection (GDELT 125)",
-      "actor": "President",
-      "axis": "Other",
-      "tags": [
-        "GDELT 2.1",
-        "machine-coded",
-        "Rejection"
-      ],
-      "coordsTier": "approximate",
-      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
-      "locationStr": "Ukraine",
-      "source": "GDELT 2.1",
-      "sourceUrl": "https://www.euronews.com/2026/11/25/haftar-visits-ankara-as-erdogan-prepares-first-libya-trip-in-15-years",
-      "gdelt": {
-        "globalEventId": "1334978007",
-        "eventCode": "125",
-        "geoType": 1,
-        "quadClass": 3,
-        "goldstein": -5,
-        "tone": 0,
-        "mentions": 6,
         "sources": 1
       }
     }
