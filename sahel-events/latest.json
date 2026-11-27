@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "sahel",
-  "collectedAt": "2026-11-27T00:06:42.737Z",
+  "collectedAt": "2026-11-27T08:58:14.760Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 6
+      "count": 11
     },
     {
       "id": "aa-mali",
@@ -56,7 +56,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
       "count": 1,
-      "filtered": 30
+      "filtered": 29
     },
     {
       "id": "africanews",
@@ -83,14 +83,14 @@
       "id": "gnews-burkina",
       "url": "https://news.google.com/rss/search?q=Burkina%20Faso%20junta%20attack&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 50,
+      "count": 26,
       "filtered": 0
     },
     {
       "id": "gnews-niger",
       "url": "https://news.google.com/rss/search?q=Niger%20Niamey%20AES%20junta&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 45,
+      "count": 9,
       "filtered": 0
     },
     {
@@ -101,13 +101,387 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 77,
+  "count": 88,
   "events": [
+    {
+      "id": "gdelt-1335248398",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T02:15:00.000Z",
+      "description": "Force posture — Deputy → Unspecified near Niger. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Force posture (GDELT 153)",
+      "actor": "Deputy",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://punchng.com/bandits-kill-three-raze-entire-village-in-niger-2/",
+      "gdelt": {
+        "globalEventId": "1335248398",
+        "eventCode": "153",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -6.76,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335248399",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T02:15:00.000Z",
+      "description": "Force posture — Deputy → Niger near Niger. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Force posture (GDELT 153)",
+      "actor": "Deputy",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://punchng.com/bandits-kill-three-raze-entire-village-in-niger-2/",
+      "gdelt": {
+        "globalEventId": "1335248399",
+        "eventCode": "153",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": -6.76,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335248406",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T02:15:00.000Z",
+      "description": "Assault — Residents → Unspecified near Niger. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 16,
+      "lng": 8,
+      "action": "Assault (GDELT 180)",
+      "actor": "Residents",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://punchng.com/bandits-kill-three-raze-entire-village-in-niger-2/",
+      "gdelt": {
+        "globalEventId": "1335248406",
+        "eventCode": "180",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -6.76,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335248407",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T02:15:00.000Z",
+      "description": "Disapproval — Residents → Bandit near Niger. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Disapproval (GDELT 1123)",
+      "actor": "Residents",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://punchng.com/bandits-kill-three-raze-entire-village-in-niger-2/",
+      "gdelt": {
+        "globalEventId": "1335248407",
+        "eventCode": "1123",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -6.76,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335248409",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T02:15:00.000Z",
+      "description": "Protest — Residents → Niger near Niger. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 16,
+      "lng": 8,
+      "action": "Protest (GDELT 145)",
+      "actor": "Residents",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Protest"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://punchng.com/bandits-kill-three-raze-entire-village-in-niger-2/",
+      "gdelt": {
+        "globalEventId": "1335248409",
+        "eventCode": "145",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -7.5,
+        "tone": -6.76,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335264450",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T05:45:00.000Z",
+      "description": "Fight — Ministry → Unspecified near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (4 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Fight (GDELT 190)",
+      "actor": "Ministry",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack",
+      "gdelt": {
+        "globalEventId": "1335264450",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -9.72,
+        "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335264730",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T05:45:00.000Z",
+      "description": "Fight — Niger → Ministry near Diffa, Diffa, Niger. Machine-coded by GDELT 2.1 (6 mentions, 1 source); open the source article for details.",
+      "type": "combat",
+      "lat": 13.3154,
+      "lng": 12.6113,
+      "action": "Fight (GDELT 190)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Fight"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Diffa, Diffa, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack",
+      "gdelt": {
+        "globalEventId": "1335264730",
+        "eventCode": "190",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -10,
+        "tone": -9.72,
+        "mentions": 6,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335269377",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T06:30:00.000Z",
+      "description": "Threat — Mali → Unspecified near Bamako, Bamako, Mali. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 12.65,
+      "lng": -8,
+      "action": "Threat (GDELT 130)",
+      "actor": "Mali",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Bamako, Bamako, Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.riotimesonline.com/barrick-chief-meets-mali-prime-minister-gold-dispute/",
+      "gdelt": {
+        "globalEventId": "1335269377",
+        "eventCode": "130",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": 0.35,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335269412",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T06:30:00.000Z",
+      "description": "Assault — Niger → Business near Sanam, Tillabé, Niger. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 14.834,
+      "lng": 3.9179,
+      "action": "Assault (GDELT 180)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanam, Tillabé, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dominicanrepublicpost.com/at-least-13-niger-soldiers-killed-in-sanam-armed-attack/",
+      "gdelt": {
+        "globalEventId": "1335269412",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -9.34,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335269414",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T06:30:00.000Z",
+      "description": "Assault — Niger → Dominican Republic near Sanam, Tillabé, Niger. Machine-coded by GDELT 2.1 (3 mentions, 1 source); open the source article for details.",
+      "type": "strike",
+      "lat": 14.834,
+      "lng": 3.9179,
+      "action": "Assault (GDELT 180)",
+      "actor": "Niger",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Assault"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Sanam, Tillabé, Niger",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://dominicanrepublicpost.com/at-least-13-niger-soldiers-killed-in-sanam-armed-attack/",
+      "gdelt": {
+        "globalEventId": "1335269414",
+        "eventCode": "180",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -9,
+        "tone": -9.34,
+        "mentions": 3,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335275384",
+      "kind": "event",
+      "date": "2026-11-27",
+      "isoDate": "2026-11-27T00:00:00.000Z",
+      "observedAt": "2026-11-27T07:30:00.000Z",
+      "description": "Coercion — The Hague → Philippine near Mali. Machine-coded by GDELT 2.1 (1 mention, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 17,
+      "lng": -4,
+      "action": "Coercion (GDELT 173)",
+      "actor": "The Hague",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Mali",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.rappler.com/technology/decoded-facebook-pages-kitty-duterte-dutertismo/",
+      "gdelt": {
+        "globalEventId": "1335275384",
+        "eventCode": "173",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -0.52,
+        "mentions": 1,
+        "sources": 1
+      }
+    },
     {
       "id": "news-1u2khnl",
       "kind": "news",
       "date": "2026-11-26",
-      "isoDate": "2026-11-26T22:03:00.000Z",
+      "isoDate": "2026-11-26T22:16:00.000Z",
       "description": "Sahel alliance explained: 3 states, 4mn uprooted in crisis - DNE Africa (DNE Africa, 2026-11-26. Headline + link only.)",
       "type": "other",
       "action": "News report",
