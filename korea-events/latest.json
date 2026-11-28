@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "korea",
-  "collectedAt": "2026-11-28T01:49:40.710Z",
+  "collectedAt": "2026-11-28T02:14:21.870Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 20
+      "count": 5
     },
     {
       "id": "yna-nk",
@@ -20,22 +20,22 @@
       "id": "yna-news",
       "url": "https://en.yna.co.kr/RSS/news.xml",
       "status": "ok",
-      "count": 29,
-      "filtered": 21
+      "count": 28,
+      "filtered": 22
     },
     {
       "id": "korea-times",
       "url": "https://feed.koreatimes.co.kr/k/allnews.xml",
       "status": "ok",
       "count": 4,
-      "filtered": 6
+      "filtered": 8
     },
     {
       "id": "gnews-korea",
       "url": "https://news.google.com/rss/search?q=North%20Korea%20missile%20Kim&hl=en-US&gl=US&ceid=US%3Aen",
-      "status": "ok",
-      "count": 50,
-      "filtered": 0
+      "status": "failed",
+      "count": 0,
+      "error": "RSS gnews-korea request failed with HTTP 429"
     },
     {
       "id": "nknews",
@@ -94,13 +94,13 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 726,
+  "count": 727,
   "events": [
     {
       "id": "news-68uuse",
       "kind": "news",
       "date": "2026-11-28",
-      "isoDate": "2026-11-28T01:47:02.000Z",
+      "isoDate": "2026-11-28T02:12:04.000Z",
       "description": "Daily tear-off calendars win over young Koreans, stars including RM, Jang Won-young (Korea Times, 2026-11-28. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -119,7 +119,7 @@
       "id": "news-6ozj7j",
       "kind": "news",
       "date": "2026-11-28",
-      "isoDate": "2026-11-28T01:47:02.000Z",
+      "isoDate": "2026-11-28T02:12:04.000Z",
       "description": "[EXPLAINER] Why Korean presidents keep showing up at traditional markets (Korea Times, 2026-11-28. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -138,7 +138,7 @@
       "id": "news-cr04q0",
       "kind": "news",
       "date": "2026-11-28",
-      "isoDate": "2026-11-28T01:47:02.000Z",
+      "isoDate": "2026-11-28T02:12:04.000Z",
       "description": "Indian businessman turns 27 years in Korea into mission of giving back (Korea Times, 2026-11-28. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -161,7 +161,7 @@
       "id": "news-q7opue",
       "kind": "news",
       "date": "2026-11-28",
-      "isoDate": "2026-11-28T01:47:02.000Z",
+      "isoDate": "2026-11-28T02:12:04.000Z",
       "description": "Foreign residents in Incheon step beyond high-rises to explore nearby islands (Korea Times, 2026-11-28. Headline + link only.)",
       "type": "other",
       "action": "News report",
@@ -9734,6 +9734,25 @@
       "locationStr": "NK News",
       "source": "NK News",
       "sourceUrl": "https://www.nknews.org/2026/11/kyiv-claims-north-korea-temporarily-halted-arms-shipments-to-russia-over-dispute/"
+    },
+    {
+      "id": "news-17a0qon",
+      "kind": "news",
+      "date": "2026-11-26",
+      "isoDate": "2026-11-26T10:09:16.000Z",
+      "description": "North Korea Reportedly Suspends Military Support for Russia - Oj - Odessa Journal (Odessa Journal, 2026-11-26. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Odessa Journal",
+      "axis": "Other",
+      "tags": [
+        "Odessa Journal",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Odessa Journal",
+      "source": "Odessa Journal",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSEpXeWJpWXR2MmNCbFA3Rkl6LUlNY0RZU3pudG5LN05kaHctUnktYS1vRU1vcWl5Y3NYekVXcEhmZDNpczM5dzg0bHhUZ2xFNlE5MlJOMnVwam5aTjNTclZHQnkxakI4QmRJMWF0RWg2eFE5LWVUNkltcVE3cVEyd1ozRG5PNWZ3UkJFLXBkdC1QUE1VRExhbFh2NHJ6cWRZdnJCYkV0VG03eEVS?oc=5"
     },
     {
       "id": "news-1foktix",

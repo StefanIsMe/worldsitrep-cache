@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "arctic",
-  "collectedAt": "2026-11-28T01:49:40.710Z",
+  "collectedAt": "2026-11-28T02:14:21.870Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 28
+      "count": 2
     },
     {
       "id": "rci-arctic",
@@ -55,7 +55,7 @@
       "id": "gnews-greenland",
       "url": "https://news.google.com/rss/search?q=Greenland%20Nuuk%20Arctic%20military&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 46,
+      "count": 20,
       "filtered": 0
     },
     {
@@ -208,6 +208,40 @@
         "goldstein": -5,
         "tone": 1.58,
         "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335403203",
+      "kind": "event",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T00:00:00.000Z",
+      "observedAt": "2026-11-28T02:00:00.000Z",
+      "description": "Coercion — Population → Unspecified near Thingvellir, Suðand, Iceland. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 64.2622,
+      "lng": -21.0973,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Population",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Thingvellir, Suðand, Iceland",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.chroniclelive.co.uk/whats-on/travel-tourism/flights-once-lifetime-trip-see-34964936",
+      "gdelt": {
+        "globalEventId": "1335403203",
+        "eventCode": "172",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": 0.61,
+        "mentions": 10,
         "sources": 1
       }
     },
@@ -10819,25 +10853,6 @@
       "locationStr": "The New York Times",
       "source": "The New York Times",
       "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTmNzU3U5Y0RoUzh2NTBET1htVDVmNjNFQ1Ywb0Q4aVAyUGFITkplb0FWeEtyMU0wN0VzS0JxazRXQ1Zfb1ppcEFwZTBfMEhkX2t2ODRfU2RHMUJFWUkxT0huQzd6cVotRE11OUdvZ2R1cGdITFlRSVlySU4wNlhrbG9DSndxX2hpcVRFTEhKUUtrbldF?oc=5"
-    },
-    {
-      "id": "news-6kvkn3",
-      "kind": "news",
-      "date": "2026-11-25",
-      "isoDate": "2026-11-25T01:55:01.000Z",
-      "description": "North Slope man found dead after house fire (Anchorage Daily News, 2026-11-25. Headline + link only.)",
-      "type": "other",
-      "action": "News report",
-      "actor": "Anchorage Daily News",
-      "axis": "Other",
-      "tags": [
-        "Anchorage Daily News",
-        "headline"
-      ],
-      "coordsTier": "unplaced",
-      "locationStr": "Anchorage Daily News",
-      "source": "Anchorage Daily News",
-      "sourceUrl": "https://www.adn.com/alaska-news/rural-alaska/2026/11/24/north-slope-man-found-dead-following-house-fire/"
     }
   ]
 }

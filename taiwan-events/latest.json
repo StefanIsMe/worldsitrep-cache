@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "taiwan",
-  "collectedAt": "2026-11-28T01:49:40.710Z",
+  "collectedAt": "2026-11-28T02:14:21.870Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 18
+      "count": 4
     },
     {
       "id": "taipei-times",
@@ -48,8 +48,8 @@
       "id": "st-asia",
       "url": "https://www.straitstimes.com/news/asia/rss.xml",
       "status": "ok",
-      "count": 10,
-      "filtered": 40
+      "count": 11,
+      "filtered": 39
     },
     {
       "id": "gnews-arms",
@@ -62,7 +62,7 @@
       "id": "gnews-kinmen",
       "url": "https://news.google.com/rss/search?q=Kinmen%20Matsu%20Taiwan%20coast%20guard&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 34,
+      "count": 47,
       "filtered": 0
     },
     {
@@ -80,8 +80,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 273,
+  "count": 276,
   "events": [
+    {
+      "id": "news-t2q7ug",
+      "kind": "news",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T01:51:00.000Z",
+      "description": "Huawei is becoming more indispensable for China’s AI (Straits Times, 2026-11-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Straits Times",
+      "axis": "Other",
+      "tags": [
+        "Straits Times",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Straits Times",
+      "source": "Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/asia/east-asia/huawei-is-becoming-more-indispensable-for-chinas-ai"
+    },
     {
       "id": "news-hgwpcp",
       "kind": "news",
@@ -416,6 +435,74 @@
       }
     },
     {
+      "id": "gdelt-1335403185",
+      "kind": "event",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T00:00:00.000Z",
+      "observedAt": "2026-11-28T02:00:00.000Z",
+      "description": "Disapproval — Police → Taiwan near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (12 mentions, 3 sources); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Police",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.maitlandmercury.com.au/story/9399822/china-eyes-rising-mayoral-candidate-in-taiwan/",
+      "gdelt": {
+        "globalEventId": "1335403185",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -1.19,
+        "mentions": 12,
+        "sources": 3
+      }
+    },
+    {
+      "id": "gdelt-1335403417",
+      "kind": "event",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T00:00:00.000Z",
+      "observedAt": "2026-11-28T02:00:00.000Z",
+      "description": "Disapproval — Taiwan → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (20 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://timesofindia.indiatimes.com/world/rest-of-world/taiwan-votes-in-high-stakes-local-elections-as-china-watches-closely/articleshow/136236059.cms",
+      "gdelt": {
+        "globalEventId": "1335403417",
+        "eventCode": "110",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 0.22,
+        "mentions": 20,
+        "sources": 1
+      }
+    },
+    {
       "id": "news-lsrqoc",
       "kind": "news",
       "date": "2026-11-28",
@@ -534,7 +621,7 @@
       "kind": "news",
       "date": "2026-11-27",
       "isoDate": "2026-11-27T22:27:36.000Z",
-      "description": "Congress chiefs rush to reassure mainland China as envoy berates lawmakers in Taiwan (SCMP, 2026-11-27. Headline + link only.)",
+      "description": "Congress chiefs rush to reassure Beijing as envoy berates lawmakers in Taiwan (SCMP, 2026-11-27. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "SCMP",
