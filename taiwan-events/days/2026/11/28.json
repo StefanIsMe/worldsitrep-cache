@@ -1,8 +1,50 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-28",
-  "count": 66,
+  "count": 72,
   "events": [
+    {
+      "id": "news-1rexxf7",
+      "kind": "news",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T10:52:29.000Z",
+      "description": "KMT claims first win of Taiwan local elections as Chen Yu-jen takes Quemoy (SCMP, 2026-11-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline",
+        "headline-geocoded"
+      ],
+      "coordsTier": "approximate",
+      "locationStr": "Kinmen",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/politics/article/3376134/kmt-claims-first-win-taiwan-local-elections-chen-yu-jen-takes-quemoy",
+      "lat": 24.44,
+      "lng": 118.33,
+      "coordsNote": "Headline gazetteer match: \"Quemoy\" (city); verify via source article."
+    },
+    {
+      "id": "news-cthydc",
+      "kind": "news",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T10:00:14.000Z",
+      "description": "Saudi blockbuster 7 Dogs lands in China as cultural ties grow (SCMP, 2026-11-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "SCMP",
+      "axis": "Other",
+      "tags": [
+        "SCMP",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "SCMP",
+      "source": "SCMP",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3376012/saudi-blockbuster-7-dogs-lands-china-cultural-ties-grow"
+    },
     {
       "id": "news-1hl24as",
       "kind": "news",
@@ -198,19 +240,23 @@
       "kind": "news",
       "date": "2026-11-28",
       "isoDate": "2026-11-28T00:02:06.000Z",
-      "description": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate (Straits Times, 2026-11-28. Headline + link only.)",
+      "description": "Ruling party set to make gains in Taiwan local elections watched by China (Straits Times, 2026-11-28. Headline + link only.)",
       "type": "other",
       "action": "News report",
       "actor": "Straits Times",
       "axis": "Other",
       "tags": [
         "Straits Times",
-        "headline"
+        "headline",
+        "headline-geocoded"
       ],
-      "coordsTier": "unplaced",
-      "locationStr": "Straits Times",
+      "coordsTier": "approximate",
+      "locationStr": "Taiwan",
       "source": "Straits Times",
-      "sourceUrl": "https://www.straitstimes.com/asia/taiwan-votes-in-key-local-elections-as-china-looks-on"
+      "sourceUrl": "https://www.straitstimes.com/asia/taiwan-votes-in-key-local-elections-as-china-looks-on",
+      "lat": 23.97394,
+      "lng": 120.98202,
+      "coordsNote": "OSM geocode: matched \"Taiwan\" → Taiwan; © OpenStreetMap contributors."
     },
     {
       "id": "news-1bx0o1y",
@@ -1861,6 +1907,142 @@
         "tone": -1.05,
         "mentions": 1,
         "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335438637",
+      "kind": "event",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T00:00:00.000Z",
+      "observedAt": "2026-11-28T10:15:00.000Z",
+      "description": "Force posture — China → Unspecified near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Force posture (GDELT 150)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.taiwansun.com/news/279470307/taiwan-holds-local-elections-under-beijing-watchful-gaze",
+      "gdelt": {
+        "globalEventId": "1335438637",
+        "eventCode": "150",
+        "geoType": 4,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": 1.35,
+        "mentions": 2,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335441173",
+      "kind": "event",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T00:00:00.000Z",
+      "observedAt": "2026-11-28T10:45:00.000Z",
+      "description": "Disapproval — China → Unspecified near Taiwan. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 24,
+      "lng": 121,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.cna.com.tw:443/youtube/EgKXQZ1J_3w.aspx",
+      "gdelt": {
+        "globalEventId": "1335441173",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.23,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335441576",
+      "kind": "event",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T00:00:00.000Z",
+      "observedAt": "2026-11-28T10:45:00.000Z",
+      "description": "Rejection — Taiwan → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (4 mentions, 2 sources); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Rejection (GDELT 120)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Rejection"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.goskagit.com/news/world/taiwan-awaits-local-election-results-as-china-watches/article_0202ae38-cc57-5239-b77d-bc979e4353d7.html",
+      "gdelt": {
+        "globalEventId": "1335441576",
+        "eventCode": "120",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -4,
+        "tone": 1.17,
+        "mentions": 4,
+        "sources": 2
+      }
+    },
+    {
+      "id": "gdelt-1335441578",
+      "kind": "event",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T00:00:00.000Z",
+      "observedAt": "2026-11-28T10:45:00.000Z",
+      "description": "Disapproval — Taiwan → China near Taipei, T'ai-pei, Taiwan. Machine-coded by GDELT 2.1 (2 mentions, 2 sources); open the source article for details.",
+      "type": "other",
+      "lat": 25.0478,
+      "lng": 121.532,
+      "action": "Disapproval (GDELT 112)",
+      "actor": "Taiwan",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 4); verify via source article.",
+      "locationStr": "Taipei, T'ai-pei, Taiwan",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.goskagit.com/news/world/taiwan-awaits-local-election-results-as-china-watches/article_0202ae38-cc57-5239-b77d-bc979e4353d7.html",
+      "gdelt": {
+        "globalEventId": "1335441578",
+        "eventCode": "112",
+        "geoType": 4,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": 1.17,
+        "mentions": 2,
+        "sources": 2
       }
     },
     {

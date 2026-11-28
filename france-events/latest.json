@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "theatre": "france",
-  "collectedAt": "2026-11-28T09:57:51.434Z",
+  "collectedAt": "2026-11-28T10:56:29.446Z",
   "sources": [
     {
       "id": "gdelt-2.1-export",
       "url": "https://data.gdeltproject.org/gdeltv2/",
       "status": "ok",
-      "count": 55
+      "count": 6
     },
     {
       "id": "gnews-france-protests",
@@ -20,7 +20,7 @@
       "id": "gnews-lycees",
       "url": "https://news.google.com/rss/search?q=France%20lyc%C3%A9es%20blockades&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "count": 18,
+      "count": 40,
       "filtered": 0
     },
     {
@@ -35,7 +35,7 @@
       "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml",
       "status": "ok",
       "count": 0,
-      "filtered": 22
+      "filtered": 23
     },
     {
       "id": "rfi-en",
@@ -52,8 +52,27 @@
       "note": "RELIEFWEB_APPNAME not set"
     }
   ],
-  "count": 710,
+  "count": 717,
   "events": [
+    {
+      "id": "news-tn6b4b",
+      "kind": "news",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T10:08:00.000Z",
+      "description": "What a Singer's Flogging Reveals About Iran's Embattled Clerical Rulers - Haaretz (Haaretz, 2026-11-28. Headline + link only.)",
+      "type": "other",
+      "action": "News report",
+      "actor": "Haaretz",
+      "axis": "Other",
+      "tags": [
+        "Haaretz",
+        "headline"
+      ],
+      "coordsTier": "unplaced",
+      "locationStr": "Haaretz",
+      "source": "Haaretz",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxORUtFc3V6Zlh1Mk54LTFlTDN6M1BTd3FzR3JIcWdqaUc5V0hRZ3lSRkZPWTd3bUVRU1F3Q0FndXlJandOLTJCUXRmc2hWWjFFZjRiZTlJVWx5NFVxcFplTW5pNXF1bzRQTl9ZdE9talZwSUgwZTV0b1VqZXF4MFNvTUx4UFB6MDJhT0lEMVFfYjA2WjBWcWtkM290c0Itc25fcjlHNWpBU1d0LXhlQ2FRMkdERGhJU3k0ZmhWMkxnQ1U4anJNazFfMTV2QlY0MWYtZlhneFJ6a3BoS1VRWjZtSXpxZDBpcnFOLXIwMFdzcVdvTmhvMEtzLTZJcmhYSm5sQVc4TkxsZlE2WnF6WmJfVQ?oc=5"
+    },
     {
       "id": "news-y8fzty",
       "kind": "news",
@@ -2250,6 +2269,210 @@
         "goldstein": -4.4,
         "tone": -5.23,
         "mentions": 4,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335438638",
+      "kind": "event",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T00:00:00.000Z",
+      "observedAt": "2026-11-28T10:15:00.000Z",
+      "description": "Force posture — China → Unspecified near France. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Force posture (GDELT 150)",
+      "actor": "China",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Force posture"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.taiwansun.com/news/279470307/taiwan-holds-local-elections-under-beijing-watchful-gaze",
+      "gdelt": {
+        "globalEventId": "1335438638",
+        "eventCode": "150",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -7.2,
+        "tone": 1.35,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335439012",
+      "kind": "event",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T00:00:00.000Z",
+      "observedAt": "2026-11-28T10:15:00.000Z",
+      "description": "Disapproval — Protester → Unspecified near France. Machine-coded by GDELT 2.1 (10 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Disapproval (GDELT 110)",
+      "actor": "Protester",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Disapproval"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "http://www.bozemandailychronicle.com/opinion/letters-to-the-editor/americas-lack-of-empathy/article_46234ab3-c027-4e52-8a46-3b126212bf9f.html",
+      "gdelt": {
+        "globalEventId": "1335439012",
+        "eventCode": "110",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -2,
+        "tone": -2.43,
+        "mentions": 10,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335441147",
+      "kind": "event",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T00:00:00.000Z",
+      "observedAt": "2026-11-28T10:45:00.000Z",
+      "description": "Coercion — Canada → Unspecified near France. Machine-coded by GDELT 2.1 (8 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Coercion (GDELT 172)",
+      "actor": "Canada",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Coercion"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://pakobserver.net/canadas-top-court-upholds-quebecs-ban-on-religious-symbols-including-hijab/",
+      "gdelt": {
+        "globalEventId": "1335441147",
+        "eventCode": "172",
+        "geoType": 1,
+        "quadClass": 4,
+        "goldstein": -5,
+        "tone": -0.91,
+        "mentions": 8,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335441283",
+      "kind": "event",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T00:00:00.000Z",
+      "observedAt": "2026-11-28T10:45:00.000Z",
+      "description": "Threat — Wales → Unspecified near France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Threat (GDELT 1384)",
+      "actor": "Wales",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thealpenanews.com/opinion/editorials-and-columns/2026/11/giving-thanks-for-good-old-american-free-speech/",
+      "gdelt": {
+        "globalEventId": "1335441283",
+        "eventCode": "1384",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -3.49,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335441286",
+      "kind": "event",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T00:00:00.000Z",
+      "observedAt": "2026-11-28T10:45:00.000Z",
+      "description": "Threat — Wales → Security forces near France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Threat (GDELT 130)",
+      "actor": "Wales",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thealpenanews.com/opinion/editorials-and-columns/2026/11/giving-thanks-for-good-old-american-free-speech/",
+      "gdelt": {
+        "globalEventId": "1335441286",
+        "eventCode": "130",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -4.4,
+        "tone": -3.49,
+        "mentions": 5,
+        "sources": 1
+      }
+    },
+    {
+      "id": "gdelt-1335441287",
+      "kind": "event",
+      "date": "2026-11-28",
+      "isoDate": "2026-11-28T00:00:00.000Z",
+      "observedAt": "2026-11-28T10:45:00.000Z",
+      "description": "Threat — Wales → Security forces near France. Machine-coded by GDELT 2.1 (5 mentions, 1 source); open the source article for details.",
+      "type": "other",
+      "lat": 46,
+      "lng": 2,
+      "action": "Threat (GDELT 1384)",
+      "actor": "Wales",
+      "axis": "Other",
+      "tags": [
+        "GDELT 2.1",
+        "machine-coded",
+        "Threat"
+      ],
+      "coordsTier": "approximate",
+      "coordsNote": "GDELT 2.1 ActionGeo machine geocode (type 1); verify via source article.",
+      "locationStr": "France",
+      "source": "GDELT 2.1",
+      "sourceUrl": "https://www.thealpenanews.com/opinion/editorials-and-columns/2026/11/giving-thanks-for-good-old-american-free-speech/",
+      "gdelt": {
+        "globalEventId": "1335441287",
+        "eventCode": "1384",
+        "geoType": 1,
+        "quadClass": 3,
+        "goldstein": -7,
+        "tone": -3.49,
+        "mentions": 5,
         "sources": 1
       }
     },
